@@ -199,6 +199,21 @@ def write_markdown(wl: pd.DataFrame, args, as_of_label: str) -> Path:
     return p
 
 
+def write_chart_data(tickers: list[str], px: dict, years: int = 8) -> Path:
+    """Compact monthly closes for the watchlist so the web app can draw charts
+    without the (uncommitted) daily price cache, e.g. when deployed."""
+    out = {}
+    for t in tickers:
+        d = px.get(t)
+        if d is None:
+            continue
+        m = ind.monthly_bars(d, drop_partial=False).tail(years * 12)
+        out[t] = [[dt.date().isoformat(), round(float(c), 4)] for dt, c in m["Close"].items()]
+    p = OUT / "charts.json"
+    p.write_text(json.dumps(out, separators=(",", ":")), encoding="utf-8")
+    return p
+
+
 def init_thesis(ticker: str, wl_json: Path) -> Path:
     ticker = ticker.upper()
     target = THESIS / f"{ticker}.md"
@@ -353,6 +368,7 @@ def main(argv=None):
     recs = json.loads(wl.to_json(orient="records"))
     (OUT / "watchlist.json").write_text(json.dumps(recs, indent=1), encoding="utf-8")
     md = write_markdown(wl, args, as_of_label)
+    write_chart_data(list(wl["ticker"]), px)
 
     # ---- console summary
     show = ["ticker", "sector", "rsi_m", "episode_start", "episode_months", "drawdown_5y", "adv_3m_usd"]

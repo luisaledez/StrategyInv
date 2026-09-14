@@ -13,8 +13,10 @@ from pathlib import Path
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-CACHE = HERE / "cache" / "prices"
-CACHE.mkdir(parents=True, exist_ok=True)
+sys.path.insert(0, str(HERE))
+from paths import cache_dirs  # noqa: E402
+
+READ_CACHE, CACHE = cache_dirs("prices")   # CACHE is the writable one
 
 COLS = ["Open", "High", "Low", "Close", "AdjClose", "Volume"]
 
@@ -23,8 +25,16 @@ def _path(ticker: str) -> Path:
     return CACHE / f"{ticker.upper().replace('/', '-')}.csv"
 
 
-def _is_fresh(p: Path, max_age_days: float) -> bool:
-    return p.exists() and (time.time() - p.stat().st_mtime) < max_age_days * 86400
+def _read_path(ticker: str) -> Path | None:
+    for d in (READ_CACHE, CACHE):
+        p = d / f"{ticker.upper().replace('/', '-')}.csv"
+        if p.exists():
+            return p
+    return None
+
+
+def _is_fresh(p: Path | None, max_age_days: float) -> bool:
+    return p is not None and p.exists() and (time.time() - p.stat().st_mtime) < max_age_days * 86400
 
 
 def _normalise(df: pd.DataFrame) -> pd.DataFrame | None:
@@ -70,8 +80,8 @@ def download(tickers: list[str], period: str = "15y", batch: int = 100,
 
 
 def load(ticker: str) -> pd.DataFrame | None:
-    p = _path(ticker)
-    if not p.exists():
+    p = _read_path(ticker)
+    if p is None:
         return None
     df = pd.read_csv(p, index_col="Date", parse_dates=True)
     return df if len(df) else None
@@ -81,7 +91,7 @@ def load_many(tickers: list[str], max_age_days: float = 1.0, refresh: bool = Fal
               verbose: bool = True) -> dict[str, pd.DataFrame]:
     """Load cached prices, downloading anything missing or stale."""
     tickers = [t.upper() for t in tickers]
-    need = [t for t in tickers if refresh or not _is_fresh(_path(t), max_age_days)]
+    need = [t for t in tickers if refresh or not _is_fresh(_read_path(t), max_age_days)]
     if need:
         if verbose:
             print(f"prices: refreshing {len(need)} of {len(tickers)} tickers", file=sys.stderr)

@@ -1,5 +1,8 @@
-# price cache: ~330 MB of daily bars, rebuilt by `python turnaround/scan.py`
 turnaround/cache/prices/
 __pycache__/
 *.pyc
 .venv/
+.vercel
+node_modules/
+
+.vercel

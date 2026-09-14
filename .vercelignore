@@ -1,0 +1,15 @@
+turnaround/cache/prices
+__pycache__
+*.pyc
+.git
+.claude
+data
+results.json
+improved.json
+round2.json
+round3.json
+round3_report.json
+sensitivity.json
+report_data.json
+report
+*.docx

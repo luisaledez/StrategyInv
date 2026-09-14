@@ -18,8 +18,10 @@ from pathlib import Path
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-CACHE = HERE / "cache" / "fundamentals"
-CACHE.mkdir(parents=True, exist_ok=True)
+sys.path.insert(0, str(HERE))
+from paths import cache_dirs, find, is_fresh  # noqa: E402
+
+READ_CACHE, CACHE = cache_dirs("fundamentals")
 
 
 def _row(df: pd.DataFrame | None, *names: str) -> pd.Series | None:
@@ -272,10 +274,12 @@ def fetch(ticker: str) -> dict:
 
 
 def get(ticker: str, max_age_days: float = 7.0, refresh: bool = False) -> dict:
-    p = CACHE / f"{ticker.upper().replace('/', '-')}.json"
-    if p.exists() and not refresh and (time.time() - p.stat().st_mtime) < max_age_days * 86400:
-        with open(p) as f:
+    fname = f"{ticker.upper().replace('/', '-')}.json"
+    existing = find("fundamentals", fname)
+    if existing and not refresh and is_fresh("fundamentals", existing, max_age_days):
+        with open(existing) as f:
             return json.load(f)
+    p = CACHE / fname
     try:
         data = fetch(ticker)
     except Exception as e:  # noqa: BLE001

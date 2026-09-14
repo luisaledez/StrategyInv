@@ -133,3 +133,27 @@ needs point-in-time financial statements that Yahoo does not provide. The
 study therefore answers "does the technical condition alone carry
 information?" and "does waiting for RSI confirmation help?", not whether
 business selection improves outcomes.
+
+## Web app and deployment
+
+`python turnaround/app.py` serves the watchlist, ticker pages, the full
+universe table and the study on http://localhost:8050, with a Rescan button.
+
+The same app is deployed read-only on Vercel at
+https://ll-turnaround-strat.vercel.app (project `ll-turnaround-strat`,
+entry point `api/index.py`, config in `vercel.json`, `requirements.txt`,
+`.vercelignore`). A serverless host has no persistent disk, so the site
+shows whatever is committed: `output/watchlist.json`, `output/charts.json`
+(monthly closes for the watchlist so charts draw without the price cache),
+`cache/fundamentals/` and `cache/valuation/`. Rescan and thesis creation
+are hidden there. To update the site:
+
+```
+python turnaround/scan.py        # refresh watchlist, fundamentals, charts.json
+git add -A && git commit -m "scan YYYY-MM-DD" && git push
+vercel --prod --yes              # from the repo root
+```
+
+Ticker pages for names outside the watchlist fetch from Yahoo on demand
+into the function's temp directory; that works but is slower and is not
+kept between requests.

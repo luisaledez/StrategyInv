@@ -27,6 +27,7 @@ sys.path.insert(0, str(HERE))
 import indicators as ind  # noqa: E402
 import prices  # noqa: E402
 import valuation_history as vh  # noqa: E402
+from paths import ON_VERCEL  # noqa: E402
 
 OUT = HERE / "output"
 THESIS = HERE / "thesis"
@@ -126,11 +127,29 @@ app.jinja_env.filters.update(money=money, pct=pct, num=num, pctc=pctc, moneyc=mo
 
 
 # ------------------------------------------------------------------ SVG chart
+def _monthly_from_chart_data(ticker: str) -> pd.DataFrame | None:
+    p = OUT / "charts.json"
+    if not p.exists():
+        return None
+    rows = json.loads(p.read_text(encoding="utf-8")).get(ticker)
+    if not rows:
+        return None
+    df = pd.DataFrame(rows, columns=["Date", "Close"])
+    df["Date"] = pd.to_datetime(df["Date"])
+    return df.set_index("Date")
+
+
 def chart_svg(ticker: str, years: int = 8, threshold: float = 35.0) -> str:
     d = prices.load(ticker)
-    if d is None:
-        return "<p class='muted'>no price data</p>"
-    m = ind.monthly_bars(d)
+    if d is not None:
+        m = ind.monthly_bars(d)
+    else:
+        m = _monthly_from_chart_data(ticker)
+        if m is None:
+            return "<p class='muted'>no price data cached for this ticker</p>"
+        ref = pd.Timestamp.today().normalize()
+        if m.index[-1].to_period("M") == ref.to_period("M") and ref < m.index[-1].to_period("M").end_time.normalize():
+            m = m.iloc[:-1]
     rsi = ind.wilder_rsi(m["Close"])
     n = min(len(m), years * 12)
     m, rsi = m.iloc[-n:], rsi.iloc[-n:]
@@ -260,7 +279,7 @@ pre.log{background:#111;color:#ddd;padding:10px;border-radius:6px;max-height:260
 <header><a href="/" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
 <a href="/study" class="{{ 'active' if nav=='study' }}">Episode study</a><span class="sp"></span>
 <span class="muted small">last scan: {{ as_of }}</span>
-<button id="rescan" class="sec" onclick="rescan()">Rescan</button></header>
+{% if not on_vercel %}<button id="rescan" class="sec" onclick="rescan()">Rescan</button>{% else %}<span class="muted small">read-only deployment: rerun <code>scan.py</code> locally and push to update</span>{% endif %}</header>
 <main>{% block body %}{% endblock %}</main>
 <script>
 function sortTable(th){const t=th.closest('table'),i=[...th.parentNode.children].indexOf(th),asc=!th.classList.contains('asc');
@@ -281,7 +300,7 @@ await fetch('/rescan',{method:'POST'});poll();}
 async function poll(){const b=document.getElementById('rescan');b.disabled=true;b.textContent='Scanning…';
 const r=await (await fetch('/status')).json();const box=document.getElementById('joblog');if(box){box.textContent=r.log;box.scrollTop=box.scrollHeight;}
 if(r.running){setTimeout(poll,2000);}else{b.disabled=false;b.textContent='Rescan';if(r.finished)location.reload();}}
-fetch('/status').then(r=>r.json()).then(r=>{if(r.running)poll();});
+if(document.getElementById('rescan'))fetch('/status').then(r=>r.json()).then(r=>{if(r.running)poll();});
 </script></body></html>"""
 
 HOME = """{% extends "base" %}{% block body %}
@@ -416,6 +435,7 @@ TICKER = """{% extends "base" %}{% block body %}
 <h2 id="thesis">Research file <span class="muted small">thesis/{{ t }}.md</span></h2>
 {% if thesis_html %}<div class="md">{{ thesis_html|safe }}</div>
 <p class="muted small">Edit the file in your editor; this page re-renders it on refresh.</p>
+{% elif on_vercel %}<p class="muted small">No research file yet. Create one locally with <code>python scan.py --init-thesis {{ t }}</code> and push.</p>
 {% else %}<form method="post" action="/thesis/{{ t }}"><button>Create thesis file from template</button> <span class="muted small">pre-fills the screen facts; diagnosis, survival table, indicators, valuation and entry rules are yours to write</span></form>{% endif %}
 {% endblock %}"""
 
@@ -434,14 +454,14 @@ def home():
     rows = load_watchlist()
     gates = pd.Series([r.get("survival_gate") or "UNKNOWN" for r in rows]).value_counts().to_dict()
     sectors = sorted({r.get("sector") or "" for r in rows} - {""})
-    return render_template_string(HOME, rows=rows, gates=gates, sectors=sectors, as_of=as_of(), nav="home", title="Watchlist")
+    return render_template_string(HOME, rows=rows, gates=gates, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, nav="home", title="Watchlist")
 
 
 @app.route("/all")
 def all_tickers():
     rows = load_all()
     sectors = sorted({r.get("sector") or "" for r in rows} - {""})
-    return render_template_string(ALL, rows=rows, sectors=sectors, as_of=as_of(), nav="all", title="All tickers")
+    return render_template_string(ALL, rows=rows, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, nav="all", title="All tickers")
 
 
 @app.route("/ticker/<t>")
@@ -451,16 +471,19 @@ def ticker(t):
     if r is None:
         r = next((x for x in load_all() if x["ticker"] == t), None)
     if r is None:
-        d = prices.load_many([t])
+        try:
+            d = prices.load_many([t])
+        except Exception:  # noqa: BLE001
+            d = {}
         if t not in d:
             abort(404)
         from scan import price_metrics
         r = price_metrics(t, d[t], 35.0, 6, None) or {}
-    fp = FUND / f"{t}.json"
-    if not fp.exists():
-        import fundamentals
-        fundamentals.get(t)
-    f = json.loads(fp.read_text(encoding="utf-8")) if fp.exists() else {}
+    import fundamentals
+    try:
+        f = fundamentals.get(t)
+    except Exception:  # noqa: BLE001
+        f = {}
     gm = {q["period"]: q["value"] for q in f.get("gross_margin_quarters", [])}
     eps = {q["period"]: q["value"] for q in f.get("eps_quarters", [])}
     eps_list = f.get("eps_quarters", [])
@@ -491,17 +514,22 @@ def ticker(t):
                     y_now=annual[0].get("eps"), y_ago=annual[1].get("eps"))
         if annual[1].get("eps") is not None and annual[1]["eps"] <= 0:
             epsg["note"] = "no % shown: the earlier year was a loss"
-    vhist = vh.get(t)
+    try:
+        vhist = vh.get(t)
+    except Exception as e:  # noqa: BLE001
+        vhist = {"metrics": {}, "error": str(e)[:120]}
     vcharts = {k: valuation_chart(vhist["metrics"][k]) if k in vhist.get("metrics", {}) else "" for k in ("pe", "fwd_pe", "peg", "ev_ebitda", "ps")}
     tp = THESIS / f"{t}.md"
     thesis_html = markdown(tp.read_text(encoding="utf-8"), extensions=["tables"]) if tp.exists() else None
     name = r.get("name") or f.get("long_name") or ""
     return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t), epsg=epsg, vhist=vhist, vcharts=vcharts,
-                                  thesis_html=thesis_html, as_of=as_of(), nav="", title=t)
+                                  thesis_html=thesis_html, as_of=as_of(), on_vercel=ON_VERCEL, nav="", title=t)
 
 
 @app.route("/thesis/<t>", methods=["POST"])
 def make_thesis(t):
+    if ON_VERCEL:
+        abort(403)
     from scan import init_thesis
     init_thesis(t.upper(), OUT / "watchlist.json")
     return redirect(url_for("ticker", t=t.upper()) + "#thesis")
@@ -511,7 +539,7 @@ def make_thesis(t):
 def study():
     p = OUT / "episodes_summary.md"
     html = markdown(p.read_text(encoding="utf-8"), extensions=["tables"]) if p.exists() else None
-    return render_template_string(STUDY, html=html, as_of=as_of(), nav="study", title="Study")
+    return render_template_string(STUDY, html=html, as_of=as_of(), on_vercel=ON_VERCEL, nav="study", title="Study")
 
 
 def _run_scan():
@@ -526,6 +554,8 @@ def _run_scan():
 
 @app.route("/rescan", methods=["POST"])
 def rescan():
+    if ON_VERCEL:
+        return jsonify(ok=False, error="read-only deployment"), 403
     if not JOB["running"]:
         threading.Thread(target=_run_scan, daemon=True).start()
     return jsonify(ok=True)

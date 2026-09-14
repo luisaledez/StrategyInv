@@ -32,8 +32,9 @@ sys.path.insert(0, str(HERE))
 import indicators as ind  # noqa: E402
 import prices  # noqa: E402
 
-CACHE = HERE / "cache" / "valuation"
-CACHE.mkdir(parents=True, exist_ok=True)
+from paths import cache_dirs, find, is_fresh  # noqa: E402
+
+READ_CACHE, CACHE = cache_dirs("valuation")
 
 SNAPSHOT_TYPES = {
     "pe": ["quarterlyPeRatio", "trailingPeRatio"],
@@ -162,9 +163,11 @@ def build(ticker: str) -> dict:
 
 
 def get(ticker: str, max_age_days: float = 7.0, refresh: bool = False) -> dict:
-    p = CACHE / f"{ticker.upper()}.json"
-    if p.exists() and not refresh and (time.time() - p.stat().st_mtime) < max_age_days * 86400:
-        return json.loads(p.read_text(encoding="utf-8"))
+    fname = f"{ticker.upper()}.json"
+    existing = find("valuation", fname)
+    if existing and not refresh and is_fresh("valuation", existing, max_age_days):
+        return json.loads(existing.read_text(encoding="utf-8"))
+    p = CACHE / fname
     try:
         data = build(ticker.upper())
     except Exception as e:  # noqa: BLE001
