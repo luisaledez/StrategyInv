@@ -19,6 +19,7 @@ turnaround/
   indicators.py       Wilder RSI, monthly candles, episode grouping, drawdown, dollar volume
   prices.py           15-year daily price cache (cache/prices/<TICKER>.csv)
   fundamentals.py     Yahoo statements -> survival gate + valuation proxies (cache/fundamentals/)
+  valuation_history.py historic P/E, forward P/E, PEG, EV/EBITDA, P/S: Yahoo snapshots + monthly reconstruction (cache/valuation/)
   universe.py         S&P 500 / 400 / 600 constituents from Wikipedia (cache/universe.csv)
   thesis_template.md  research file template (steps 2-5 of the process)
   thesis/             one file per company you are actually researching
@@ -83,6 +84,20 @@ otherwise latest fiscal year vs prior; `eps_growth_basis` says which),
 plus last-quarter EPS vs the year-ago quarter. Yahoo cannot show undrawn
 revolvers, covenants or the maturity ladder, so the gate ranks and flags;
 the thesis file's survival table is where the real assessment goes.
+
+### Valuation history (ticker page)
+
+For each of P/E, forward P/E, PEG, EV/EBITDA and P/S the ticker page shows
+now / average / median / high / low, the current multiple's percentile in
+its own history, and a small chart. Two sources: Yahoo's own quarterly and
+"trailing" snapshots (about 3 years, sparse), and a monthly reconstruction
+from month-end price and the latest reported fiscal-year EPS, EBITDA, debt,
+cash and share count (Yahoo serves 4-5 fiscal years, so about 4 years).
+Forward P/E and PEG need historical analyst estimates that Yahoo does not
+keep, so they have snapshots only. Multiples are undefined while earnings
+or EBITDA are negative, and a near-zero earnings year produces extreme
+values: read the median alongside the average, and note the charts clip
+the axis at 3x the median.
 
 ## Watchlist and thesis files
 

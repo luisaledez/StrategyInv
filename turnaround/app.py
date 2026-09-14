@@ -15,7 +15,7 @@ import subprocess
 import sys
 import threading
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -26,6 +26,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import indicators as ind  # noqa: E402
 import prices  # noqa: E402
+import valuation_history as vh  # noqa: E402
 
 OUT = HERE / "output"
 THESIS = HERE / "thesis"
@@ -171,6 +172,56 @@ def chart_svg(ticker: str, years: int = 8, threshold: float = 35.0) -> str:
             f"<text x='{PAD}' y='{PAD - 8}' class='lbl'>monthly close (last {n // 12} years)</text></svg>")
 
 
+def valuation_chart(metric: dict, years: int = 5) -> str:
+    """Small panel: reconstructed monthly line, Yahoo snapshot dots, average line, current marker.
+    The y-axis is clipped at 3x the median so a near-zero-earnings spike does not flatten the rest."""
+    st = metric.get("stats", {})
+    monthly = metric.get("monthly") or []
+    snaps = metric.get("snapshots") or []
+    pts = [(datetime.strptime(d, "%Y-%m-%d"), v) for d, v in monthly] + \
+          [(datetime.strptime(d, "%Y-%m-%d"), v) for d, v in snaps]
+    if not pts or st.get("n", 0) == 0:
+        return "<p class='muted small'>no history</p>"
+    cutoff = datetime.today() - timedelta(days=365 * years)
+    pts = [(d, v) for d, v in pts if d >= cutoff]
+    if not pts:
+        return "<p class='muted small'>no history</p>"
+    W, H, PL, PR, PT, PB = 440, 150, 42, 12, 24, 20
+    d0, d1 = min(d for d, _ in pts), max(d for d, _ in pts)
+    span_days = max((d1 - d0).days, 1)
+    med = st.get("median", 0) or 0
+    cap = max(3 * med, st.get("current", 0) or 0, 1e-9)
+    vals = [min(v, cap) for _, v in pts]
+    lo, hi = min(vals + [0]), max(vals + [cap if med else 0])
+    hi = hi * 1.05 or 1
+
+    def x(d):
+        return PL + (W - PL - PR) * (d - d0).days / span_days
+
+    def y(v):
+        return PT + (H - PT - PB) * (1 - (min(v, cap) - lo) / (hi - lo))
+
+    line = ""
+    if monthly:
+        mp = [(datetime.strptime(d, "%Y-%m-%d"), v) for d, v in monthly if datetime.strptime(d, "%Y-%m-%d") >= cutoff]
+        if mp:
+            line = f"<polyline points='{' '.join(f'{x(d):.1f},{y(v):.1f}' for d, v in mp)}' class='price'/>"
+    dots = "".join(f"<circle cx='{x(datetime.strptime(d, '%Y-%m-%d')):.1f}' cy='{y(v):.1f}' r='2.5' class='dot'/>"
+                   for d, v in snaps if datetime.strptime(d, "%Y-%m-%d") >= cutoff)
+    avg = st.get("avg")
+    avg_line = f"<line x1='{PL}' x2='{W - PR}' y1='{y(avg):.1f}' y2='{y(avg):.1f}' class='thr'/>" if avg else ""
+    med_line = f"<line x1='{PL}' x2='{W - PR}' y1='{y(med):.1f}' y2='{y(med):.1f}' class='grid'/>" if med else ""
+    cur = st.get("current")
+    cur_mark = (f"<circle cx='{x(d1):.1f}' cy='{y(cur):.1f}' r='4' class='cur'/>"
+                f"<text x='{x(d1) - 6:.1f}' y='{y(cur) - 7:.1f}' class='tick r'>now {cur:.1f}</text>") if cur else ""
+    yt = "".join(f"<text x='{PL - 4}' y='{y(v):.1f}' class='tick r'>{v:.0f}</text>" for v in (lo, (lo + hi) / 2, hi / 1.05))
+    xt = "".join(f"<text x='{x(datetime(yr, 1, 1)):.1f}' y='{H - 4}' class='tick'>{yr}</text>"
+                 for yr in range(d0.year + 1, d1.year + 1))
+    clipped = " (axis clipped)" if any(v > cap for _, v in pts) else ""
+    title = f"<text x='{PL}' y='14' class='lbl'>{metric['label']}{clipped}</text>"
+    return f"<svg viewBox='0 0 {W} {H}' class='chart mini'>{title}{med_line}{avg_line}{line}{dots}{cur_mark}{yt}{xt}</svg>"
+
+
 # ------------------------------------------------------------------ templates
 BASE = """<!doctype html><html><head><meta charset="utf-8"><title>{{ title }} · Turnaround scanner</title>
 <style>
@@ -199,6 +250,8 @@ button.sec{background:#fff;color:var(--acc)}button:disabled{opacity:.5;cursor:de
 .chart{width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:8px}
 .chart .price{fill:none;stroke:var(--acc);stroke-width:1.6}.chart .rsi{fill:none;stroke:#7c3aed;stroke-width:1.4}
 .chart .shade{fill:var(--shade);opacity:.6}.chart .grid{stroke:#e5e7eb}.chart .thr{stroke:#d97706;stroke-dasharray:4 3}
+.chart .dot{fill:#7c3aed}.chart .cur{fill:#dc2626}.chart.mini{border:none;background:transparent}
+.minis{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:8px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px}
 .chart .tick{font-size:10px;fill:var(--muted)}.chart .tick.r{text-anchor:end}.chart .lbl{font-size:11px;fill:var(--muted)}
 .md{background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px 18px}.md table{width:auto}.md td,.md th{text-align:left;white-space:normal}
 pre.log{background:#111;color:#ddd;padding:10px;border-radius:6px;max-height:260px;overflow:auto;font-size:12px}
@@ -347,6 +400,19 @@ TICKER = """{% extends "base" %}{% block body %}
 <h2>Annual</h2><table><thead><tr><th class="l">Year</th><th>Revenue</th><th>Net income</th><th>Diluted EPS</th></tr></thead><tbody>
 {% for a in f.annual or [] %}<tr><td class="l">{{ a.year }}</td><td>{{ a.revenue|money }}</td><td>{{ a.net_income|moneyc }}</td><td>{{ a.eps|numc(2) }}</td></tr>{% endfor %}
 </tbody></table></div></div>
+<h2>Valuation history <span class="muted small">current multiple against its own past</span></h2>
+{% if vhist.metrics %}
+<table><thead><tr><th class="l">Multiple</th><th>Now</th><th>Average</th><th>Median</th><th>High</th><th>Low</th><th>Now vs avg</th><th>Percentile</th><th class="l">History</th></tr></thead><tbody>
+{% for k in ['pe','fwd_pe','peg','ev_ebitda','ps'] %}{% set m = vhist.metrics[k] %}{% set st = m.stats %}
+<tr><td class="l">{{ m.label }}</td>
+{% if st.n %}<td><b>{{ st.current|num }}</b></td><td>{{ st.avg|num }}</td><td>{{ st.median|num }}</td><td>{{ st.high|num }}</td><td>{{ st.low|num }}</td>
+<td>{{ st.vs_avg|pctc('down') }}</td><td>{{ (st.percentile * 100)|round|int if st.percentile is not none else '–' }}{{ 'th' if st.percentile is not none }}</td>
+<td class="l muted small">{{ st.n }} pts, {{ st.source }}, {{ st.from }} → {{ st.to }}</td>
+{% else %}<td colspan="8" class="l muted">no history</td>{% endif %}</tr>{% endfor %}
+</tbody></table>
+<div class="minis" style="margin-top:8px">{% for k in ['pe','fwd_pe','peg','ev_ebitda','ps'] %}{{ vcharts[k]|safe }}{% endfor %}</div>
+<p class="muted small">Line = monthly multiple reconstructed from month-end price and the latest reported fiscal-year EPS, EBITDA, debt, cash and share count (Yahoo serves 4–5 fiscal years, so about 4 years of history). Dots = Yahoo's own quarterly and trailing snapshots. Dashed = average, grey = median, red = now. "Now vs avg" is green when the current multiple is below its average. Forward P/E and PEG need historical analyst estimates, which Yahoo does not keep, so they show snapshots only. Multiples are undefined (gaps) while earnings or EBITDA are negative, and a near-zero earnings year produces extreme values, which is why the median is shown and the charts clip at 3× median.</p>
+{% else %}<p class="muted">Valuation history unavailable{% if vhist.error %}: {{ vhist.error }}{% endif %}.</p>{% endif %}
 <h2 id="thesis">Research file <span class="muted small">thesis/{{ t }}.md</span></h2>
 {% if thesis_html %}<div class="md">{{ thesis_html|safe }}</div>
 <p class="muted small">Edit the file in your editor; this page re-renders it on refresh.</p>
@@ -425,10 +491,12 @@ def ticker(t):
                     y_now=annual[0].get("eps"), y_ago=annual[1].get("eps"))
         if annual[1].get("eps") is not None and annual[1]["eps"] <= 0:
             epsg["note"] = "no % shown: the earlier year was a loss"
+    vhist = vh.get(t)
+    vcharts = {k: valuation_chart(vhist["metrics"][k]) if k in vhist.get("metrics", {}) else "" for k in ("pe", "fwd_pe", "peg", "ev_ebitda", "ps")}
     tp = THESIS / f"{t}.md"
     thesis_html = markdown(tp.read_text(encoding="utf-8"), extensions=["tables"]) if tp.exists() else None
     name = r.get("name") or f.get("long_name") or ""
-    return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t), epsg=epsg,
+    return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t), epsg=epsg, vhist=vhist, vcharts=vcharts,
                                   thesis_html=thesis_html, as_of=as_of(), nav="", title=t)
 
 
