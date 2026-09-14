@@ -1,0 +1,154 @@
+{
+ "ticker": "CHH",
+ "fetched": "2026-09-14",
+ "market_cap": 4356834746.955414,
+ "shares_out": 45008622.0,
+ "price": 96.80000305175781,
+ "long_name": "Choice Hotels International, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Lodging",
+ "pe_trailing_y": 13.711049,
+ "pe_forward": 12.841927,
+ "peg": 1.68,
+ "p_sales_y": 4.376967,
+ "eps_trailing_y": 7.06,
+ "eps_forward": 7.53781,
+ "earnings_growth_y": -0.194,
+ "earnings_growth_q_y": -0.213,
+ "bs_date": "2026-06-30",
+ "cash": 42826000.0,
+ "total_debt": 2106688000.0,
+ "current_debt": 8364000.0,
+ "lease_obligations": 104349000.0,
+ "equity": 142178000.0,
+ "net_debt": 2063862000.0,
+ "ocf_ttm": 221739000.0,
+ "capex_ttm": -106978000.0,
+ "fcf_ttm": 114761000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -133012000.0,
+ "stock_issuance_ttm": -133012000.0,
+ "revenue_ttm": 1618827000.0,
+ "net_income_ttm": 328320000.0,
+ "ebitda_ttm": 587634000.0,
+ "ebit_ttm": 500101000.0,
+ "interest_ttm": 95391000.0,
+ "revenue_yoy_last_q": 0.033577758340505026,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 440762000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 340575000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 390150000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 447340000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 426443000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.86
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.75
+  }
+ ],
+ "eps_ttm": 7.08,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.27419354838709675,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.19428571428571428,
+ "eps_forward_growth": 0.06466242937853117,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.49378122433422117
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.45551493797254644
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5301499423298731
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5348951580453346
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5338720532404096
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1596793000.0,
+   "eps": 7.9,
+   "net_income": 369946000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1584839000.0,
+   "eps": 6.2,
+   "net_income": 299665000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1544165000.0,
+   "eps": 5.07,
+   "net_income": 258507000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1401949000.0,
+   "eps": 5.99,
+   "net_income": 332152000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.023429635720040642,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8364000.0,
+ "gap_24m": -34462000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.5121555253780414,
+ "interest_coverage": 5.2426434359635605,
+ "cash_to_debt": 0.020328591609198893,
+ "ev": 6420696746.955414,
+ "ev_to_sales": 3.9662649232780365,
+ "ev_to_ebitda": 10.92635338825768,
+ "pe_ttm": 13.270086339410982,
+ "pe_trailing": 13.711049,
+ "p_sales": 4.376967,
+ "p_fcf": 37.9644195062383,
+ "p_book": 30.643522534818423
+}

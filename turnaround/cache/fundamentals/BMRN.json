@@ -1,0 +1,154 @@
+{
+ "ticker": "BMRN",
+ "fetched": "2026-09-14",
+ "market_cap": 12903627483.828278,
+ "shares_out": 193573759.0,
+ "price": 66.66000366210938,
+ "long_name": "BioMarin Pharmaceutical Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": 180.16217,
+ "pe_forward": 10.191305,
+ "peg": 0.38,
+ "p_sales_y": 3.7878163,
+ "eps_trailing_y": 0.37,
+ "eps_forward": 6.54087,
+ "earnings_growth_y": -0.813,
+ "earnings_growth_q_y": -0.814,
+ "bs_date": "2026-06-30",
+ "cash": 874005000.0,
+ "total_debt": 4202200000.0,
+ "current_debt": 674261000.0,
+ "lease_obligations": 16058000.0,
+ "equity": 6321692000.0,
+ "net_debt": 3328195000.0,
+ "ocf_ttm": 857089000.0,
+ "capex_ttm": -132012000.0,
+ "fcf_ttm": 725077000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3406614000.0,
+ "net_income_ttm": 72972000.0,
+ "ebitda_ttm": 385694000.0,
+ "ebit_ttm": 232720000.0,
+ "interest_ttm": 83610000.0,
+ "revenue_yoy_last_q": 0.19905016900691774,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 989708000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 766208000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 874565000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 776133000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 825410000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.54
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.16
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.23
+  }
+ ],
+ "eps_ttm": 0.37,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.18552036199095023,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.8130081300813008,
+ "eps_forward_growth": 16.678027027027028,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7950961293634082
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7455012216004009
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6847472743592529
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8195090274476153
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8181630947044499
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3221253000.0,
+   "eps": 1.8,
+   "net_income": 348901000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2853915000.0,
+   "eps": 2.21,
+   "net_income": 426859000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2419226000.0,
+   "eps": 0.87,
+   "net_income": 167645000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2096039000.0,
+   "eps": 0.75,
+   "net_income": 141561000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.007989025094315538,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 674261000.0,
+ "gap_24m": -199744000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 8.62910753084051,
+ "interest_coverage": 2.7833991149384043,
+ "cash_to_debt": 0.20798748274713244,
+ "ev": 16231822483.828278,
+ "ev_to_sales": 4.764796505805553,
+ "ev_to_ebitda": 42.08471608017827,
+ "pe_ttm": 176.82984547262345,
+ "pe_trailing": 180.16217,
+ "p_sales": 3.7878163,
+ "p_fcf": 17.796216793289922,
+ "p_book": 2.041166745204967
+}

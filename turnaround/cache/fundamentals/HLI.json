@@ -1,0 +1,154 @@
+{
+ "ticker": "HLI",
+ "fetched": "2026-09-14",
+ "market_cap": 9613586769.378662,
+ "shares_out": 69886500.0,
+ "price": 137.55999755859375,
+ "long_name": "Houlihan Lokey, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 23.080536,
+ "pe_forward": 15.651347,
+ "peg": null,
+ "p_sales_y": 3.8096,
+ "eps_trailing_y": 5.96,
+ "eps_forward": 8.78902,
+ "earnings_growth_y": -0.19,
+ "earnings_growth_q_y": -0.204,
+ "bs_date": "2026-06-30",
+ "cash": 756000000.0,
+ "total_debt": 493000000.0,
+ "current_debt": null,
+ "lease_obligations": 493000000.0,
+ "equity": 2255000000.0,
+ "net_debt": -263000000.0,
+ "ocf_ttm": 500131000.0,
+ "capex_ttm": -15312000.0,
+ "fcf_ttm": 484819000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -217428000.0,
+ "stock_issuance_ttm": -217428000.0,
+ "revenue_ttm": 2523167000.0,
+ "net_income_ttm": 406164000.0,
+ "ebitda_ttm": 616936000.0,
+ "ebit_ttm": 582292000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.15537190082644625,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 511000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 635643000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 717072000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 659452000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 605000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.7
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.63
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.42
+  }
+ ],
+ "eps_ttm": 5.95,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.06872852233676974,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.1901408450704225,
+ "eps_forward_growth": 0.47714621848739514,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.38551859099804303
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3850038464987422
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3849976013566281
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38500148608238355
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3851239669421488
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 2617516000.0,
+   "eps": 6.22,
+   "net_income": 425697000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2389416000.0,
+   "eps": 5.82,
+   "net_income": 399711000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1914404000.0,
+   "eps": 4.11,
+   "net_income": 280301000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1809447000.0,
+   "eps": 3.98,
+   "net_income": 254223000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.006186821152911137,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -756000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.42630029695138555,
+ "interest_coverage": null,
+ "cash_to_debt": 1.5334685598377282,
+ "ev": 9350586769.378662,
+ "ev_to_sales": 3.705892939063749,
+ "ev_to_ebitda": 15.15649397891947,
+ "pe_ttm": 23.66922417885057,
+ "pe_trailing": 23.080536,
+ "p_sales": 3.8096,
+ "p_fcf": 19.82922857680632,
+ "p_book": 4.26323138331648
+}

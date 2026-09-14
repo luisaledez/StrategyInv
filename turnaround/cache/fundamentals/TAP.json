@@ -1,0 +1,154 @@
+{
+ "ticker": "TAP",
+ "fetched": "2026-09-14",
+ "market_cap": 7274500082.192551,
+ "shares_out": 186453933.0,
+ "price": 39.01499938964844,
+ "long_name": "Molson Coors Beverage Company",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Beverages - Brewers",
+ "pe_trailing_y": null,
+ "pe_forward": 7.9424534,
+ "peg": 3.92,
+ "p_sales_y": 0.656336,
+ "eps_trailing_y": -11.44,
+ "eps_forward": 4.91221,
+ "earnings_growth_y": -0.423,
+ "earnings_growth_q_y": -0.46,
+ "bs_date": "2026-06-30",
+ "cash": 2128100000.0,
+ "total_debt": 7709600000.0,
+ "current_debt": 2037100000.0,
+ "lease_obligations": 52800000.0,
+ "equity": 10119500000.0,
+ "net_debt": 5581500000.0,
+ "ocf_ttm": 1977200000.0,
+ "capex_ttm": -651200000.0,
+ "fcf_ttm": 1326000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -552100000.0,
+ "stock_issuance_ttm": -552100000.0,
+ "revenue_ttm": 11083500000.0,
+ "net_income_ttm": -2306300000.0,
+ "ebitda_ttm": -1671000000.0,
+ "ebit_ttm": -2424600000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.03258560359910023,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3096500000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2351100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2662400000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2973500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3200800000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.22
+  },
+  {
+   "period": "2025-09-30",
+   "value": -14.79
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.13
+  }
+ ],
+ "eps_ttm": -11.54,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.0093457943925235,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4225352112676056,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.34338769578556433
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3816086087363362
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3636944110576923
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3946527661005549
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.40049362659335164
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11140800000.0,
+   "eps": -10.75,
+   "net_income": -2139600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11627000000.0,
+   "eps": 5.35,
+   "net_income": 1122400000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11702100000.0,
+   "eps": 4.37,
+   "net_income": 948900000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10701000000.0,
+   "eps": -0.81,
+   "net_income": -175300000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.05703155030281404,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2037100000.0,
+ "gap_24m": -91000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.3402154398563733,
+ "interest_coverage": null,
+ "cash_to_debt": 0.2760324789872367,
+ "ev": 12856000082.19255,
+ "ev_to_sales": 1.1599224145976046,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.656336,
+ "p_fcf": 5.486048327445363,
+ "p_book": 0.718859635574144
+}

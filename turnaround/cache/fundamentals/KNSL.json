@@ -1,0 +1,133 @@
+{
+ "ticker": "KNSL",
+ "fetched": "2026-09-14",
+ "market_cap": 8288841406.918335,
+ "shares_out": 22778425.0,
+ "price": 363.8900146484375,
+ "long_name": "Kinsale Capital Group, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Property & Casualty",
+ "pe_trailing_y": 14.78026,
+ "pe_forward": 16.810408,
+ "peg": 1.07,
+ "p_sales_y": 4.1527176,
+ "eps_trailing_y": 24.62,
+ "eps_forward": 21.64671,
+ "earnings_growth_y": 0.34,
+ "earnings_growth_q_y": 0.311,
+ "bs_date": "2026-06-30",
+ "cash": 2888319000.0,
+ "total_debt": 224535000.0,
+ "current_debt": 51000000.0,
+ "lease_obligations": null,
+ "equity": 2035114000.0,
+ "net_debt": -2663784000.0,
+ "ocf_ttm": 1035644000.0,
+ "capex_ttm": -34873000.0,
+ "fcf_ttm": 1000771000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -233077000.0,
+ "stock_issuance_ttm": -233077000.0,
+ "revenue_ttm": 1996004000.0,
+ "net_income_ttm": 568694000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 725207000.0,
+ "interest_ttm": 12041000.0,
+ "revenue_yoy_last_q": 0.16752374343889276,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 548519000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 466709000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 483271000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 497505000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 469814000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7.72
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.88
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.99
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.09
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.76
+  }
+ ],
+ "eps_ttm": 24.68,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.21766029246344187,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3402777777777777,
+ "eps_forward_growth": -0.12290478119935178,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1873987000.0,
+   "eps": 21.65,
+   "net_income": 503614000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1587525000.0,
+   "eps": 17.78,
+   "net_income": 414843000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1224449000.0,
+   "eps": 13.22,
+   "net_income": 308093000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 838804000.0,
+   "eps": 6.88,
+   "net_income": 159114000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02234843679101417,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 51000000.0,
+ "gap_24m": -2837319000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 60.22813719790715,
+ "cash_to_debt": 12.86355801990781,
+ "ev": 5625057406.918335,
+ "ev_to_sales": 2.81815938591222,
+ "ev_to_ebitda": null,
+ "pe_ttm": 14.57522218788722,
+ "pe_trailing": 14.78026,
+ "p_sales": 4.1527176,
+ "p_fcf": 8.28245563362481,
+ "p_book": 4.07291257733883
+}

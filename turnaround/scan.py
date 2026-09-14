@@ -369,6 +369,13 @@ def main(argv=None):
     (OUT / "watchlist.json").write_text(json.dumps(recs, indent=1), encoding="utf-8")
     md = write_markdown(wl, args, as_of_label)
     write_chart_data(list(wl["ticker"]), px)
+    (OUT / "scan_meta.json").write_text(json.dumps({
+        "as_of": as_of_label, "threshold": args.threshold, "rsi_period": args.rsi_period,
+        "lookback": args.lookback, "min_mcap": args.min_mcap, "min_adv": args.min_adv,
+        "min_years": args.min_years, "priority_dd": args.priority_dd,
+        "universe": args.universe if not args.tickers else "custom",
+        "tickers_scanned": int(len(allr)), "qualified": int(len(wl)),
+    }, indent=1), encoding="utf-8")
 
     # ---- console summary
     show = ["ticker", "sector", "rsi_m", "episode_start", "episode_months", "drawdown_5y", "adv_3m_usd"]

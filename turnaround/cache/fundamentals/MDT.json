@@ -1,0 +1,154 @@
+{
+ "ticker": "MDT",
+ "fetched": "2026-09-14",
+ "market_cap": 119215647444.38095,
+ "shares_out": 1279137890.0,
+ "price": 93.19999694824219,
+ "long_name": "Medtronic plc",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": 22.955664,
+ "pe_forward": 14.56052,
+ "peg": 1.64,
+ "p_sales_y": 3.1755276,
+ "eps_trailing_y": 4.06,
+ "eps_forward": 6.40087,
+ "earnings_growth_y": 0.407,
+ "earnings_growth_q_y": 0.413,
+ "bs_date": "2026-07-31",
+ "cash": 8819000000.0,
+ "total_debt": 28153000000.0,
+ "current_debt": 2536000000.0,
+ "lease_obligations": 52000000.0,
+ "equity": 50232000000.0,
+ "net_debt": 19334000000.0,
+ "ocf_ttm": 8035000000.0,
+ "capex_ttm": -1903000000.0,
+ "fcf_ttm": 6132000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1179000000.0,
+ "stock_issuance_ttm": -200000000.0,
+ "revenue_ttm": 37541000000.0,
+ "net_income_ttm": 5231000000.0,
+ "ebitda_ttm": 10267000000.0,
+ "ebit_ttm": 7328000000.0,
+ "interest_ttm": 724000000.0,
+ "revenue_yoy_last_q": 0.137328048496153,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 9756000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 9807000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 9017000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 8961000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 8578000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.14
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.96
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.89
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.07
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.81
+  }
+ ],
+ "eps_ttm": 4.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.033240997229917024,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4074074074074072,
+ "eps_forward_growth": 0.5765689655172417,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6498564985649856
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.6535127969817477
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.638349783741821
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.658408659747796
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.6501515504779669
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 36364000000.0,
+   "eps": 3.73,
+   "net_income": 4801000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 33537000000.0,
+   "eps": 3.61,
+   "net_income": 4662000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 32364000000.0,
+   "eps": 2.76,
+   "net_income": 3676000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 31227000000.0,
+   "eps": 2.82,
+   "net_income": 3758000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0014216348918585364,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2536000000.0,
+ "gap_24m": -6283000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.8831206779000682,
+ "interest_coverage": 10.121546961325967,
+ "cash_to_debt": 0.3132525840940575,
+ "ev": 138549647444.38095,
+ "ev_to_sales": 3.6906221849279706,
+ "ev_to_ebitda": 13.494657392069831,
+ "pe_ttm": 22.7902212663699,
+ "pe_trailing": 22.955664,
+ "p_sales": 3.1755276,
+ "p_fcf": 19.441560248594413,
+ "p_book": 2.373300833022395
+}

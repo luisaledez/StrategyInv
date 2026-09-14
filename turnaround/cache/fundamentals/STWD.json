@@ -1,0 +1,133 @@
+{
+ "ticker": "STWD",
+ "fetched": "2026-09-14",
+ "market_cap": 5728364642.458248,
+ "shares_out": 370168950.0,
+ "price": 15.475000381469727,
+ "long_name": "Starwood Property Trust, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Mortgage",
+ "pe_trailing_y": 26.228815,
+ "pe_forward": 8.1729555,
+ "peg": 1.74,
+ "p_sales_y": 9.83948,
+ "eps_trailing_y": 0.59,
+ "eps_forward": 1.89344,
+ "earnings_growth_y": -0.974,
+ "earnings_growth_q_y": -0.949,
+ "bs_date": "2026-06-30",
+ "cash": 452392000.0,
+ "total_debt": 13934695000.0,
+ "current_debt": 1042864000.0,
+ "lease_obligations": null,
+ "equity": 6498963000.0,
+ "net_debt": 13482303000.0,
+ "ocf_ttm": 1090565000.0,
+ "capex_ttm": -609469000.0,
+ "fcf_ttm": 481096000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -29940000.0,
+ "stock_issuance_ttm": 507017000.0,
+ "revenue_ttm": 811718000.0,
+ "net_income_ttm": 227910000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 1342180000.0,
+ "revenue_yoy_last_q": -0.05658061428450778,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 167556000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 175561000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 265461000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 203140000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 177605000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.13
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.38
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.33
+  }
+ ],
+ "eps_ttm": 0.71,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.04545454545454519,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.9696969696969697,
+ "eps_forward_growth": 1.6668169014084508,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 829471000.0,
+   "eps": 1.15,
+   "net_income": 411544000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 961901000.0,
+   "eps": 1.1,
+   "net_income": 359933000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1016472000.0,
+   "eps": 1.07,
+   "net_income": 339213000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1449575000.0,
+   "eps": 2.74,
+   "net_income": 871475000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.08485169186075447,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1042864000.0,
+ "gap_24m": 590472000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.03246515262802666,
+ "ev": 19210667642.45825,
+ "ev_to_sales": 23.666676903134153,
+ "ev_to_ebitda": null,
+ "pe_ttm": 25.13432777174432,
+ "pe_trailing": 26.228815,
+ "p_sales": 9.83948,
+ "p_fcf": 11.906905570734839,
+ "p_book": 0.8814274896561571
+}

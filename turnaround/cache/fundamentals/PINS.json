@@ -1,0 +1,154 @@
+{
+ "ticker": "PINS",
+ "fetched": "2026-09-14",
+ "market_cap": 11077082505.676214,
+ "shares_out": 566313027.0,
+ "price": 19.559999465942383,
+ "long_name": "Pinterest, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": 57.52941,
+ "pe_forward": 8.10166,
+ "peg": 0.26,
+ "p_sales_y": 2.4314668,
+ "eps_trailing_y": 0.34,
+ "eps_forward": 2.41432,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1274901000.0,
+ "total_debt": 1196635000.0,
+ "current_debt": 41437000.0,
+ "lease_obligations": 215507000.0,
+ "equity": 2893898000.0,
+ "net_debt": -78266000.0,
+ "ocf_ttm": 1333773000.0,
+ "capex_ttm": -53369000.0,
+ "fcf_ttm": 1280404000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3104319000.0,
+ "stock_issuance_ttm": -3104319000.0,
+ "revenue_ttm": 4555720000.0,
+ "net_income_ttm": 248922000.0,
+ "ebitda_ttm": 319456000.0,
+ "ebit_ttm": 285632000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.18174924140501103,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1179654000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1007514000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1319347000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1049205000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 998227000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.41
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.06
+  }
+ ],
+ "eps_ttm": 0.33999999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7715355805243446,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -2.3333333333333335,
+ "eps_forward_growth": 6.100941176470589,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7818394207114968
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7632271114843069
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.828008097945423
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7976324931734027
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7966304257448457
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4221767000.0,
+   "eps": 0.61,
+   "net_income": 416855000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3646166000.0,
+   "eps": 2.67,
+   "net_income": 1862106000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3055071000.0,
+   "eps": -0.05,
+   "net_income": -35610000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2802574000.0,
+   "eps": -0.14,
+   "net_income": -96047000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.16767929210417087,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 41437000.0,
+ "gap_24m": -1233464000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.24499774616848644,
+ "interest_coverage": null,
+ "cash_to_debt": 1.0654050733933071,
+ "ev": 10998816505.676214,
+ "ev_to_sales": 2.4142872050249387,
+ "ev_to_ebitda": 34.42983229513991,
+ "pe_ttm": 44.50021494956739,
+ "pe_trailing": 57.52941,
+ "p_sales": 2.4314668,
+ "p_fcf": 8.651240159884079,
+ "p_book": 3.8277377107542194
+}

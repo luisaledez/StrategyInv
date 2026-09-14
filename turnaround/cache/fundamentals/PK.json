@@ -1,0 +1,154 @@
+{
+ "ticker": "PK",
+ "fetched": "2026-09-14",
+ "market_cap": 3048262385.32403,
+ "shares_out": 201338330.0,
+ "price": 15.140000343322754,
+ "long_name": "Park Hotels & Resorts Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Hotel & Motel",
+ "pe_trailing_y": null,
+ "pe_forward": 27.72894,
+ "peg": 0.65,
+ "p_sales_y": 1.1977456,
+ "eps_trailing_y": -0.83,
+ "eps_forward": 0.546,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 264000000.0,
+ "total_debt": 4102000000.0,
+ "current_debt": null,
+ "lease_obligations": 188000000.0,
+ "equity": 3090000000.0,
+ "net_debt": 3838000000.0,
+ "ocf_ttm": 404000000.0,
+ "capex_ttm": -323000000.0,
+ "fcf_ttm": 81000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 2541000000.0,
+ "net_income_ttm": -163000000.0,
+ "ebitda_ttm": 363000000.0,
+ "ebit_ttm": 88000000.0,
+ "interest_ttm": 233000000.0,
+ "revenue_yoy_last_q": 0.011904761904761862,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 680000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 622000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 629000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 610000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 672000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.02
+  }
+ ],
+ "eps_ttm": -0.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -2.4158415841584158,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3338235294117647
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2797427652733119
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2861685214626391
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2639344262295082
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.31547619047619047
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2541000000.0,
+   "eps": -1.43,
+   "net_income": -283000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2599000000.0,
+   "eps": 1.01,
+   "net_income": 212000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2698000000.0,
+   "eps": 0.44,
+   "net_income": 97000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2501000000.0,
+   "eps": 0.71,
+   "net_income": 162000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.007184564322291864,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -264000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 10.573002754820937,
+ "interest_coverage": 0.3776824034334764,
+ "cash_to_debt": 0.0643588493417845,
+ "ev": 6886262385.32403,
+ "ev_to_sales": 2.710059970611582,
+ "ev_to_ebitda": 18.970419794281074,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.1977456,
+ "p_fcf": 37.632868954617656,
+ "p_book": 0.9864926813346375
+}

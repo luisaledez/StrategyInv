@@ -1,0 +1,154 @@
+{
+ "ticker": "CROX",
+ "fetched": "2026-09-14",
+ "market_cap": 5350670296.841621,
+ "shares_out": 47945075.0,
+ "price": 111.5999984741211,
+ "long_name": "Crocs, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Footwear & Accessories",
+ "pe_trailing_y": 9.902395,
+ "pe_forward": 7.466516,
+ "peg": 1.39,
+ "p_sales_y": 1.3195678,
+ "eps_trailing_y": 11.27,
+ "eps_forward": 14.94673,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 170276000.0,
+ "total_debt": 1689202000.0,
+ "current_debt": 90144000.0,
+ "lease_obligations": 381544000.0,
+ "equity": 1384674000.0,
+ "net_debt": 1518926000.0,
+ "ocf_ttm": 762634000.0,
+ "capex_ttm": -58014000.0,
+ "fcf_ttm": 704620000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -647719000.0,
+ "stock_issuance_ttm": -647719000.0,
+ "revenue_ttm": 4054866000.0,
+ "net_income_ttm": 593424000.0,
+ "ebitda_ttm": 924336000.0,
+ "ebit_ttm": 842779000.0,
+ "interest_ttm": 83366000.0,
+ "revenue_yoy_last_q": 0.026183841102931815,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1179468000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 921457000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 957640000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 996301000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1149373000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.13
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.71
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.03
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": -8.82
+  }
+ ],
+ "eps_ttm": 11.57,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.0944584382871536,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.2918522039757996,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5940873342896967
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5675196997798052
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5468255294265069
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5851725532745626
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6167153743823807
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4040647000.0,
+   "eps": -1.5,
+   "net_income": -81198000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4102108000.0,
+   "eps": 15.88,
+   "net_income": 950071000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3962347000.0,
+   "eps": 12.79,
+   "net_income": 792566000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3554985000.0,
+   "eps": 8.71,
+   "net_income": 540159000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.1216058394160584,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 90144000.0,
+ "gap_24m": -80132000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.6432617576292603,
+ "interest_coverage": 10.109385121032556,
+ "cash_to_debt": 0.10080262751287294,
+ "ev": 6869596296.841621,
+ "ev_to_sales": 1.6941611132998282,
+ "ev_to_ebitda": 7.4319255085181375,
+ "pe_ttm": 9.016605827943632,
+ "pe_trailing": 9.902395,
+ "p_sales": 1.3195678,
+ "p_fcf": 7.59369631410068,
+ "p_book": 3.864209407298484
+}

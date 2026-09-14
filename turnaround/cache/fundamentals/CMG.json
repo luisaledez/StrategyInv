@@ -1,0 +1,154 @@
+{
+ "ticker": "CMG",
+ "fetched": "2026-09-14",
+ "market_cap": 47151024062.179565,
+ "shares_out": 1267838000.0,
+ "price": 37.190101623535156,
+ "long_name": "Chipotle Mexican Grill, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 34.43981,
+ "pe_forward": 27.14072,
+ "peg": 1.6,
+ "p_sales_y": 3.7884848,
+ "eps_trailing_y": 1.08,
+ "eps_forward": 1.37045,
+ "earnings_growth_y": -0.013,
+ "earnings_growth_q_y": -0.075,
+ "bs_date": "2026-06-30",
+ "cash": 672063000.0,
+ "total_debt": 5419196000.0,
+ "current_debt": 317002000.0,
+ "lease_obligations": 5419196000.0,
+ "equity": 2199791000.0,
+ "net_debt": 4747133000.0,
+ "ocf_ttm": 2327527000.0,
+ "capex_ttm": -758542000.0,
+ "fcf_ttm": 1568985000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2783366000.0,
+ "stock_issuance_ttm": -2783366000.0,
+ "revenue_ttm": 12423759000.0,
+ "net_income_ttm": 1419406000.0,
+ "ebitda_ttm": 2296607000.0,
+ "ebit_ttm": 1918336000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.09308926409376794,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3348562000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3088242000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2983511000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3003444000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3063393000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.32
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.23
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.25
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32
+  }
+ ],
+ "eps_ttm": 1.09,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.02702702702702675,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": 0.2572935779816512,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.25221722040684924
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.23280591352620683
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23421130339388727
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24491317301071702
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2736279674204387
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11925601000.0,
+   "eps": 1.14,
+   "net_income": 1535761000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11313853000.0,
+   "eps": 1.11,
+   "net_income": 1534110000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9871649000.0,
+   "eps": 0.8868,
+   "net_income": 1228737000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8634652000.0,
+   "eps": 0.6408,
+   "net_income": 899101000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05485733455094399,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 317002000.0,
+ "gap_24m": -355061000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0670201736735976,
+ "interest_coverage": null,
+ "cash_to_debt": 0.12401525982821068,
+ "ev": 51898157062.179565,
+ "ev_to_sales": 4.177331278092208,
+ "ev_to_ebitda": 22.597752711795952,
+ "pe_ttm": 33.21884229190208,
+ "pe_trailing": 34.43981,
+ "p_sales": 3.7884848,
+ "p_fcf": 30.051927878328705,
+ "p_book": 21.434319925019953
+}

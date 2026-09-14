@@ -1,0 +1,154 @@
+{
+ "ticker": "LAD",
+ "fetched": "2026-09-14",
+ "market_cap": 7985586932.838867,
+ "shares_out": 21983116.0,
+ "price": 363.260009765625,
+ "long_name": "Lithia Motors, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto & Truck Dealerships",
+ "pe_trailing_y": 12.020516,
+ "pe_forward": 8.606753,
+ "peg": 0.66,
+ "p_sales_y": 0.21049933,
+ "eps_trailing_y": 30.22,
+ "eps_forward": 42.20639,
+ "earnings_growth_y": 0.169,
+ "earnings_growth_q_y": 0.015,
+ "bs_date": "2026-06-30",
+ "cash": 363900000.0,
+ "total_debt": 16563300000.0,
+ "current_debt": 6532900000.0,
+ "lease_obligations": 650600000.0,
+ "equity": 6402100000.0,
+ "net_debt": 16199400000.0,
+ "ocf_ttm": -148800000.0,
+ "capex_ttm": -355500000.0,
+ "fcf_ttm": -504300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1231600000.0,
+ "stock_issuance_ttm": -1203700000.0,
+ "revenue_ttm": 37936300000.0,
+ "net_income_ttm": 714400000.0,
+ "ebitda_ttm": 2208500000.0,
+ "ebit_ttm": 1774000000.0,
+ "interest_ttm": 808200000.0,
+ "revenue_yoy_last_q": 0.0217364082228948,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9791300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 9271400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9197800000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 9675800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 9583000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 11.54
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.72
+  },
+  {
+   "period": "2025-09-30",
+   "value": 8.61
+  },
+  {
+   "period": "2025-06-30",
+   "value": 9.87
+  }
+ ],
+ "eps_ttm": 30.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09005059021922435,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1691995947315097,
+ "eps_forward_growth": 0.3998802653399669,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.15293168425030385
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.15334253726513794
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1491117441127226
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.15151201967795944
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.15497234686423875
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 37634900000.0,
+   "eps": 32.32,
+   "net_income": 819600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 36188200000.0,
+   "eps": 29.65,
+   "net_income": 796700000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 31042300000.0,
+   "eps": 36.29,
+   "net_income": 1000800000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 28187800000.0,
+   "eps": 44.17,
+   "net_income": 1251000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.14396887159533078,
+ "fcf_burn_annual": 504300000.0,
+ "runway_months": 8.659131469363475,
+ "need_24m": 7541500000.0,
+ "gap_24m": 7177600000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 7.335023771790809,
+ "interest_coverage": 2.195001237317496,
+ "cash_to_debt": 0.02197025954972741,
+ "ev": 24184986932.838867,
+ "ev_to_sales": 0.6375157021860031,
+ "ev_to_ebitda": 10.950865715571142,
+ "pe_ttm": 11.178033220659108,
+ "pe_trailing": 12.020516,
+ "p_sales": 0.21049933,
+ "p_fcf": null,
+ "p_book": 1.2473386752532556
+}

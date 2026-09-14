@@ -1,0 +1,154 @@
+{
+ "ticker": "CCI",
+ "fetched": "2026-09-14",
+ "market_cap": 31760249170.54348,
+ "shares_out": 425455439.0,
+ "price": 74.6500015258789,
+ "long_name": "Crown Castle Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 30.469387,
+ "pe_forward": 25.85389,
+ "peg": 0.6,
+ "p_sales_y": 7.839955,
+ "eps_trailing_y": 2.45,
+ "eps_forward": 2.88738,
+ "earnings_growth_y": -0.675,
+ "earnings_growth_q_y": -0.677,
+ "bs_date": "2026-06-30",
+ "cash": 1042000000.0,
+ "total_debt": 23404000000.0,
+ "current_debt": 2518000000.0,
+ "lease_obligations": 5165000000.0,
+ "equity": -3270000000.0,
+ "net_debt": 22362000000.0,
+ "ocf_ttm": 2624000000.0,
+ "capex_ttm": -218000000.0,
+ "fcf_ttm": 2406000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1017000000.0,
+ "stock_issuance_ttm": -1017000000.0,
+ "revenue_ttm": 4161000000.0,
+ "net_income_ttm": 862000000.0,
+ "ebitda_ttm": 2684000000.0,
+ "ebit_ttm": 2003000000.0,
+ "interest_ttm": 914000000.0,
+ "revenue_yoy_last_q": -0.049056603773584895,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1008000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1010000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1071000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1072000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1060000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.22
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.74
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.67
+  }
+ ],
+ "eps_ttm": 1.97,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.6716417910447761,
+ "eps_forward_growth": 0.4656751269035533,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7341269841269841
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7366336633663366
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.738562091503268
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7388059701492538
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7377358490566037
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4264000000.0,
+   "eps": 1.01,
+   "net_income": 444000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4460000000.0,
+   "eps": -8.98,
+   "net_income": -3903000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4734000000.0,
+   "eps": 3.46,
+   "net_income": 1502000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6986000000.0,
+   "eps": 3.86,
+   "net_income": 1675000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.021721475892158337,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2518000000.0,
+ "gap_24m": 1476000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 8.331594634873323,
+ "interest_coverage": 2.191466083150985,
+ "cash_to_debt": 0.04452230387967869,
+ "ev": 54122249170.54348,
+ "ev_to_sales": 13.007029360861207,
+ "ev_to_ebitda": 20.164772418235277,
+ "pe_ttm": 36.84483662476042,
+ "pe_trailing": 30.469387,
+ "p_sales": 7.839955,
+ "p_fcf": 13.200436064232536,
+ "p_book": null
+}

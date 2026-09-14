@@ -1,0 +1,154 @@
+{
+ "ticker": "ASH",
+ "fetched": "2026-09-14",
+ "market_cap": 3208787190.139923,
+ "shares_out": 45793370.0,
+ "price": 70.07099914550781,
+ "long_name": "Ashland Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": 44.91731,
+ "pe_forward": 16.293383,
+ "peg": 1.23,
+ "p_sales_y": 1.7420125,
+ "eps_trailing_y": 1.56,
+ "eps_forward": 4.30058,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 440000000.0,
+ "total_debt": 1476000000.0,
+ "current_debt": 18000000.0,
+ "lease_obligations": 102000000.0,
+ "equity": 1870000000.0,
+ "net_debt": 1036000000.0,
+ "ocf_ttm": 291000000.0,
+ "capex_ttm": -85000000.0,
+ "fcf_ttm": 206000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -100000000.0,
+ "stock_issuance_ttm": -100000000.0,
+ "revenue_ttm": 1842000000.0,
+ "net_income_ttm": 52000000.0,
+ "ebitda_ttm": 379000000.0,
+ "ebit_ttm": 188000000.0,
+ "interest_ttm": 62000000.0,
+ "revenue_yoy_last_q": 0.07343412526997839,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 497000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 482000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 386000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 477000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 463000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.349396
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.26
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.695652
+  },
+  {
+   "period": "2025-06-30",
+   "value": -16.21
+  }
+ ],
+ "eps_ttm": 1.125048,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -6.425595238095238,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 2.822574681258044,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3420523138832998
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3049792531120332
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.27202072538860106
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3333333333333333
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28509719222462204
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1824000000.0,
+   "eps": -18.23,
+   "net_income": -845000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2113000000.0,
+   "eps": 3.36,
+   "net_income": 169000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2191000000.0,
+   "eps": 3.31,
+   "net_income": 178000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2391000000.0,
+   "eps": 16.41,
+   "net_income": 927000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.001912485895164906,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 18000000.0,
+ "gap_24m": -422000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.733509234828496,
+ "interest_coverage": 3.032258064516129,
+ "cash_to_debt": 0.2981029810298103,
+ "ev": 4244787190.139923,
+ "ev_to_sales": 2.30444472863188,
+ "ev_to_ebitda": 11.199966200896895,
+ "pe_ttm": 61.707445964229294,
+ "pe_trailing": 44.91731,
+ "p_sales": 1.7420125,
+ "p_fcf": 15.576636845339433,
+ "p_book": 1.715928978684451
+}

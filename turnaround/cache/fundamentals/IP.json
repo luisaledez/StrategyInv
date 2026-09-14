@@ -1,0 +1,154 @@
+{
+ "ticker": "IP",
+ "fetched": "2026-09-14",
+ "market_cap": 18437134758.929024,
+ "shares_out": 529569895.0,
+ "price": 34.81529998779297,
+ "long_name": "International Paper Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "pe_trailing_y": null,
+ "pe_forward": 11.580126,
+ "peg": 1.58,
+ "p_sales_y": 0.7617706,
+ "eps_trailing_y": -5.39,
+ "eps_forward": 3.00647,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 726000000.0,
+ "total_debt": 9688000000.0,
+ "current_debt": 1002000000.0,
+ "lease_obligations": 471000000.0,
+ "equity": 14455000000.0,
+ "net_debt": 8962000000.0,
+ "ocf_ttm": 2647000000.0,
+ "capex_ttm": -2155000000.0,
+ "fcf_ttm": 492000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -33000000.0,
+ "stock_issuance_ttm": -33000000.0,
+ "revenue_ttm": 24203000000.0,
+ "net_income_ttm": -3438000000.0,
+ "ebitda_ttm": 168000000.0,
+ "ebit_ttm": -2640000000.0,
+ "interest_ttm": 622000000.0,
+ "revenue_yoy_last_q": -0.022468251383914062,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6004000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5971000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6006000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6222000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6142000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.02
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11
+  },
+  {
+   "period": "2025-12-31",
+   "value": -4.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": -2.09
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.14
+  }
+ ],
+ "eps_ttm": -6.52,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -5.426751592356688,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.1428571428571428,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27648234510326447
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2892312845419528
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3135198135198135
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31099324975891995
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2800390752197981
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 23634000000.0,
+   "eps": -6.95,
+   "net_income": -3516000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 15835000000.0,
+   "eps": 1.57,
+   "net_income": 557000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 16033000000.0,
+   "eps": 0.82,
+   "net_income": 288000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 21161000000.0,
+   "eps": 4.1,
+   "net_income": 1504000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.0030308770600493418,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1002000000.0,
+ "gap_24m": 276000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 53.345238095238095,
+ "interest_coverage": -4.244372990353698,
+ "cash_to_debt": 0.07493806771263418,
+ "ev": 27399134758.929024,
+ "ev_to_sales": 1.1320553137598242,
+ "ev_to_ebitda": 163.090087850768,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.7617706,
+ "p_fcf": 37.473851136034604,
+ "p_book": 1.2754849366260135
+}

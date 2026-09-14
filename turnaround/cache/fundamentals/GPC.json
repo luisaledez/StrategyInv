@@ -1,0 +1,154 @@
+{
+ "ticker": "GPC",
+ "fetched": "2026-09-14",
+ "market_cap": 18331212189.545837,
+ "shares_out": 137859758.0,
+ "price": 132.97000122070312,
+ "long_name": "Genuine Parts Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 531.88,
+ "pe_forward": 16.011242,
+ "peg": 1.32,
+ "p_sales_y": 0.73115623,
+ "eps_trailing_y": 0.25,
+ "eps_forward": 8.30479,
+ "earnings_growth_y": -0.098,
+ "earnings_growth_q_y": -0.107,
+ "bs_date": "2026-06-30",
+ "cash": 559118000.0,
+ "total_debt": 6652785000.0,
+ "current_debt": 1002474000.0,
+ "lease_obligations": 1673663000.0,
+ "equity": 4526012000.0,
+ "net_debt": 6093667000.0,
+ "ocf_ttm": 1185761000.0,
+ "capex_ttm": -426407000.0,
+ "fcf_ttm": 759354000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 25071538000.0,
+ "net_income_ttm": 32766000.0,
+ "ebitda_ttm": 742343000.0,
+ "ebit_ttm": 177029000.0,
+ "interest_ttm": 175832000.0,
+ "revenue_yoy_last_q": 0.060431589320982804,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6536951000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6264940000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6009415000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6260232000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6164425000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.65
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.37
+  },
+  {
+   "period": "2025-12-31",
+   "value": -4.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.62
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.83
+  }
+ ],
+ "eps_ttm": 0.25000000000000044,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.9273570324574961,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.09836065573770503,
+ "eps_forward_growth": 32.219159999999945,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3779601529826367
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.37334180375231046
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3496553325074071
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3740120174459988
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.37706485195293965
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 24300141000.0,
+   "eps": 0.47,
+   "net_income": 65945000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 23486569000.0,
+   "eps": 6.47,
+   "net_income": 904076000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 23090610000.0,
+   "eps": 9.33,
+   "net_income": 1316524000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 22095973000.0,
+   "eps": 8.31,
+   "net_income": 1182701000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.00886203406012187,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1002474000.0,
+ "gap_24m": 443356000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 8.208694633073929,
+ "interest_coverage": 1.0068076345602621,
+ "cash_to_debt": 0.08404269790771834,
+ "ev": 24424879189.545837,
+ "ev_to_sales": 0.9742074534695813,
+ "ev_to_ebitda": 32.90241733207673,
+ "pe_ttm": 559.4583467480265,
+ "pe_trailing": 531.88,
+ "p_sales": 0.73115623,
+ "p_fcf": 24.14053549404604,
+ "p_book": 4.050190805845375
+}

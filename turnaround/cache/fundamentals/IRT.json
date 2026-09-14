@@ -1,0 +1,154 @@
+{
+ "ticker": "IRT",
+ "fetched": "2026-09-14",
+ "market_cap": 3578602599.0035324,
+ "shares_out": 235744567.0,
+ "price": 15.180000305175781,
+ "long_name": "Independence Realty Trust, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Residential",
+ "pe_trailing_y": 84.33333,
+ "pe_forward": 189.75002,
+ "peg": null,
+ "p_sales_y": 5.417901,
+ "eps_trailing_y": 0.18,
+ "eps_forward": 0.08,
+ "earnings_growth_y": -0.667,
+ "earnings_growth_q_y": -0.579,
+ "bs_date": "2026-06-30",
+ "cash": 22513000.0,
+ "total_debt": 2443383000.0,
+ "current_debt": 851897000.0,
+ "lease_obligations": null,
+ "equity": 3359169000.0,
+ "net_debt": 2420870000.0,
+ "ocf_ttm": 275770000.0,
+ "capex_ttm": -155919000.0,
+ "fcf_ttm": 119851000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -62846000.0,
+ "stock_issuance_ttm": 49712000.0,
+ "revenue_ttm": 666828000.0,
+ "net_income_ttm": 43482000.0,
+ "ebitda_ttm": 381707000.0,
+ "ebit_ttm": 127493000.0,
+ "interest_ttm": 83193000.0,
+ "revenue_yoy_last_q": 0.03115520260438509,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 167241000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 165322000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 167127000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 167138000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 162188000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.03
+  }
+ ],
+ "eps_ttm": 0.18000000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.4117647058823528,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6666666666666666,
+ "eps_forward_growth": -0.5555555555555556,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5736332597867748
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5744002613082348
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6174525959300412
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5836374732257177
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5767257750265125
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 657696000.0,
+   "eps": 0.24,
+   "net_income": 56558000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 640035000.0,
+   "eps": 0.17,
+   "net_income": 39291000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 660983000.0,
+   "eps": -0.08,
+   "net_income": -17227000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 628525000.0,
+   "eps": 0.53,
+   "net_income": 117249000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.00826669716096573,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 851897000.0,
+ "gap_24m": 829384000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 6.342220603761524,
+ "interest_coverage": 1.532496724484031,
+ "cash_to_debt": 0.009213864547637436,
+ "ev": 5999472599.003532,
+ "ev_to_sales": 8.99703161685402,
+ "ev_to_ebitda": 15.717481206798755,
+ "pe_ttm": 82.300781909837,
+ "pe_trailing": 84.33333,
+ "p_sales": 5.417901,
+ "p_fcf": 29.85876295569943,
+ "p_book": 1.0653237747203348
+}

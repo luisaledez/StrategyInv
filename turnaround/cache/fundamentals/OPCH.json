@@ -1,0 +1,154 @@
+{
+ "ticker": "OPCH",
+ "fetched": "2026-09-14",
+ "market_cap": 3556650720.7397785,
+ "shares_out": 149785243.0,
+ "price": 23.7450008392334,
+ "long_name": "Option Care Health, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Care Facilities",
+ "pe_trailing_y": 17.988636,
+ "pe_forward": 11.405173,
+ "peg": 1.13,
+ "p_sales_y": 0.62468445,
+ "eps_trailing_y": 1.32,
+ "eps_forward": 2.08195,
+ "earnings_growth_y": 0.129,
+ "earnings_growth_q_y": 0.067,
+ "bs_date": "2026-06-30",
+ "cash": 193767000.0,
+ "total_debt": 1268079000.0,
+ "current_debt": 29869000.0,
+ "lease_obligations": 109259000.0,
+ "equity": 1259898000.0,
+ "net_debt": 1074312000.0,
+ "ocf_ttm": 346813000.0,
+ "capex_ttm": -42964000.0,
+ "fcf_ttm": 303849000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -328067000.0,
+ "stock_issuance_ttm": -328067000.0,
+ "revenue_ttm": 5693516000.0,
+ "net_income_ttm": 209576000.0,
+ "ebitda_ttm": 411078000.0,
+ "ebit_ttm": 339677000.0,
+ "interest_ttm": 54204000.0,
+ "revenue_yoy_last_q": 0.018582924047638283,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1442400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1350654000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1465446000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1435016000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1416085000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.35
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.29
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.32
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.31
+  }
+ ],
+ "eps_ttm": 1.3299999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.03252032520325199,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.12903225806451601,
+ "eps_forward_growth": 0.5653759398496243,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.18528216860787577
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.19399046684050839
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.19304566664346554
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19017348935482253
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1899907138342684
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5649519000.0,
+   "eps": 1.27,
+   "net_income": 207585000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4998202000.0,
+   "eps": 1.23,
+   "net_income": 211823000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4302324000.0,
+   "eps": 1.48,
+   "net_income": 267090000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3944735000.0,
+   "eps": 0.83,
+   "net_income": 150556000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0771212761783503,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 29869000.0,
+ "gap_24m": -163898000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.6134018361478843,
+ "interest_coverage": 6.266640838314515,
+ "cash_to_debt": 0.1528035713863253,
+ "ev": 4630962720.7397785,
+ "ev_to_sales": 0.81337484969565,
+ "ev_to_ebitda": 11.265411237623464,
+ "pe_ttm": 16.97069664818385,
+ "pe_trailing": 17.988636,
+ "p_sales": 0.62468445,
+ "p_fcf": 11.705323107003078,
+ "p_book": 2.82296719316943
+}

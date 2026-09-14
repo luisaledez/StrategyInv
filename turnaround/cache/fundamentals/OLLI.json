@@ -1,0 +1,154 @@
+{
+ "ticker": "OLLI",
+ "fetched": "2026-09-14",
+ "market_cap": 4643485733.740952,
+ "shares_out": 59402403.0,
+ "price": 78.16999816894531,
+ "long_name": "Ollie's Bargain Outlet Holdings, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Discount Stores",
+ "pe_trailing_y": 17.487696,
+ "pe_forward": 15.818122,
+ "peg": null,
+ "p_sales_y": 1.6624799,
+ "eps_trailing_y": 4.47,
+ "eps_forward": 4.9418,
+ "earnings_growth_y": 0.434,
+ "earnings_growth_q_y": 0.394,
+ "bs_date": "2026-07-31",
+ "cash": 187502000.0,
+ "total_debt": 725646000.0,
+ "current_debt": 99966000.0,
+ "lease_obligations": 723417000.0,
+ "equity": 1895599000.0,
+ "net_debt": 538144000.0,
+ "ocf_ttm": 340750000.0,
+ "capex_ttm": -117506000.0,
+ "fcf_ttm": 223244000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -182554000.0,
+ "stock_issuance_ttm": -182554000.0,
+ "revenue_ttm": 2793108000.0,
+ "net_income_ttm": 273580000.0,
+ "ebitda_ttm": 422636000.0,
+ "ebit_ttm": 363835000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.09086668354042926,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 741305000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 658928000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 779256000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 613619000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 679556000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.42
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.92
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.39
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.75
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.99
+  }
+ ],
+ "eps_ttm": 4.4799999999999995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20433436532507754,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.43434343434343425,
+ "eps_forward_growth": 0.10308035714285713,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.4345916997726981
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.418807517665056
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.398997248657694
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.41337377102078
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.39928718163035865
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 2649198000.0,
+   "eps": 3.89,
+   "net_income": 240596000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2271705000.0,
+   "eps": 3.23,
+   "net_income": 199762000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2102662000.0,
+   "eps": 2.92,
+   "net_income": 181439000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1827009000.0,
+   "eps": 1.64,
+   "net_income": 102790000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.029023789724273996,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 99966000.0,
+ "gap_24m": -87536000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2733037412809132,
+ "interest_coverage": null,
+ "cash_to_debt": 0.2583932110147372,
+ "ev": 5181629733.740952,
+ "ev_to_sales": 1.8551483629494283,
+ "ev_to_ebitda": 12.260265887763824,
+ "pe_ttm": 16.973045302072343,
+ "pe_trailing": 17.487696,
+ "p_sales": 1.6624799,
+ "p_fcf": 20.800047184878213,
+ "p_book": 2.449613939309396
+}

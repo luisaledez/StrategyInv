@@ -1,0 +1,154 @@
+{
+ "ticker": "GNTX",
+ "fetched": "2026-09-14",
+ "market_cap": 4747748831.937275,
+ "shares_out": 210683331.0,
+ "price": 22.53499984741211,
+ "long_name": "Gentex Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 11.923281,
+ "pe_forward": 10.182688,
+ "peg": 0.67,
+ "p_sales_y": 1.8077155,
+ "eps_trailing_y": 1.89,
+ "eps_forward": 2.21307,
+ "earnings_growth_y": 0.258,
+ "earnings_growth_q_y": 0.194,
+ "bs_date": "2026-06-30",
+ "cash": 242810933.0,
+ "total_debt": 3706980.0,
+ "current_debt": 3706980.0,
+ "lease_obligations": null,
+ "equity": 2538100758.0,
+ "net_debt": -239103953.0,
+ "ocf_ttm": 594145099.0,
+ "capex_ttm": -97491993.0,
+ "fcf_ttm": 496653106.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -254502953.0,
+ "stock_issuance_ttm": -254502953.0,
+ "revenue_ttm": 2626380495.0,
+ "net_income_ttm": 407072298.0,
+ "ebitda_ttm": 615875230.0,
+ "ebit_ttm": 513283728.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.009969481113566991,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 651299705.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 675443125.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 644401610.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 655236055.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 657858210.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.54
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.46
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.46
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.43
+  }
+ ],
+ "eps_ttm": 1.89,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.011363636363636354,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2558139534883721,
+ "eps_forward_growth": 0.17093650793650794,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37002585008080113
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3384843290839625
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3484127126870462
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.34364216572300804
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.34246118627903116
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2534268965.0,
+   "eps": 1.74,
+   "net_income": 384841367.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2313314333.0,
+   "eps": 1.76,
+   "net_income": 404487743.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2299215044.0,
+   "eps": 1.84,
+   "net_income": 428403272.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1918958043.0,
+   "eps": 1.36,
+   "net_income": 318757352.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04014517989757238,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3706980.0,
+ "gap_24m": -239103953.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.38823440423151945,
+ "interest_coverage": null,
+ "cash_to_debt": 65.50100971680452,
+ "ev": 4508644878.937275,
+ "ev_to_sales": 1.716676196583342,
+ "ev_to_ebitda": 7.320711500180442,
+ "pe_ttm": 11.663158744192598,
+ "pe_trailing": 11.923281,
+ "p_sales": 1.8077155,
+ "p_fcf": 9.559486842184926,
+ "p_book": 1.8705911563883135
+}

@@ -1,0 +1,133 @@
+{
+ "ticker": "CBSH",
+ "fetched": "2026-09-14",
+ "market_cap": 8447438188.96804,
+ "shares_out": 143432178.0,
+ "price": 58.89500045776367,
+ "long_name": "Commerce Bancshares, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 14.435049,
+ "pe_forward": 12.88418,
+ "peg": 2.06,
+ "p_sales_y": 4.579853,
+ "eps_trailing_y": 4.08,
+ "eps_forward": 4.57111,
+ "earnings_growth_y": 0.012,
+ "earnings_growth_q_y": 0.048,
+ "bs_date": "2026-06-30",
+ "cash": 5299482000.0,
+ "total_debt": 26291000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 4357678000.0,
+ "net_debt": -5273191000.0,
+ "ocf_ttm": 1261995000.0,
+ "capex_ttm": -48617000.0,
+ "fcf_ttm": 1213378000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -336867000.0,
+ "stock_issuance_ttm": -336867000.0,
+ "revenue_ttm": 1900223000.0,
+ "net_income_ttm": 583593000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 374026000.0,
+ "revenue_yoy_last_q": 0.14689923957355155,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 511743000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 487338000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 452289000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 448853000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 446197000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.1
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.009524
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.085714
+  }
+ ],
+ "eps_ttm": 4.079524,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0961241159786137,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.013158161357410991,
+ "eps_forward_growth": 0.12050082313524801,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1767799000.0,
+   "eps": 4.04,
+   "net_income": 566251000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1663622000.0,
+   "eps": 3.685714,
+   "net_income": 526331000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1586159000.0,
+   "eps": 3.301587,
+   "net_income": 477060000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1509226000.0,
+   "eps": 3.325775,
+   "net_income": 488399000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.025145692046482315,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -5299482000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 201.57019512380663,
+ "ev": 3174247188.9680405,
+ "ev_to_sales": 1.670460355951928,
+ "ev_to_ebitda": null,
+ "pe_ttm": 14.474879220566457,
+ "pe_trailing": 14.435049,
+ "p_sales": 4.579853,
+ "p_fcf": 6.961918041177638,
+ "p_book": 1.9385182174929034
+}

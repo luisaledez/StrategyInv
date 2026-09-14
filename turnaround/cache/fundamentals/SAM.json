@@ -1,0 +1,154 @@
+{
+ "ticker": "SAM",
+ "fetched": "2026-09-14",
+ "market_cap": 1766052522.4154358,
+ "shares_out": 10291681.0,
+ "price": 171.60000610351562,
+ "long_name": "The Boston Beer Company, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Beverages - Brewers",
+ "pe_trailing_y": null,
+ "pe_forward": 16.657558,
+ "peg": 0.77,
+ "p_sales_y": 0.9172173,
+ "eps_trailing_y": -6.68,
+ "eps_forward": 10.30163,
+ "earnings_growth_y": -0.09,
+ "earnings_growth_q_y": -0.147,
+ "bs_date": "2026-06-30",
+ "cash": 265549000.0,
+ "total_debt": 31550000.0,
+ "current_debt": 9687000.0,
+ "lease_obligations": 31550000.0,
+ "equity": 714572000.0,
+ "net_debt": -233999000.0,
+ "ocf_ttm": 259314000.0,
+ "capex_ttm": -53272000.0,
+ "fcf_ttm": 206042000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -150764000.0,
+ "stock_issuance_ttm": -150764000.0,
+ "revenue_ttm": 1925446000.0,
+ "net_income_ttm": -70070000.0,
+ "ebitda_ttm": 192022000.0,
+ "ebit_ttm": 104199000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.03335493384630295,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 568338000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 433930000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 385684000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 537494000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 587949000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.96
+  },
+  {
+   "period": "2026-03-31",
+   "value": -13.88
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.12
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.25
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.45
+  }
+ ],
+ "eps_ttm": -6.790000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.9545454545454548,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.089908256880734,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5038726954734682
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4930772244371212
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4347652482343058
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.508130323315237
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.49752274431966037
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1964994000.0,
+   "eps": 9.89,
+   "net_income": 108469000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2012926000.0,
+   "eps": 5.06,
+   "net_income": 59695000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2008625000.0,
+   "eps": 6.21,
+   "net_income": 76250000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2090334000.0,
+   "eps": 5.44,
+   "net_income": 67263000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05975700856200816,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9687000.0,
+ "gap_24m": -255862000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.2186051598254366,
+ "interest_coverage": null,
+ "cash_to_debt": 8.416767036450079,
+ "ev": 1532053522.4154358,
+ "ev_to_sales": 0.7956876081777603,
+ "ev_to_ebitda": 7.978531222544478,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.9172173,
+ "p_fcf": 8.57132294588208,
+ "p_book": 2.471482961010837
+}

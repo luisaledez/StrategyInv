@@ -1,0 +1,133 @@
+{
+ "ticker": "VNO",
+ "fetched": "2026-09-14",
+ "market_cap": 6563226949.56292,
+ "shares_out": 186720531.0,
+ "price": 35.150001525878906,
+ "long_name": "Vornado Realty Trust",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Office",
+ "pe_trailing_y": 1171.6667,
+ "pe_forward": 113.3871,
+ "peg": 7.37,
+ "p_sales_y": 3.708594,
+ "eps_trailing_y": 0.03,
+ "eps_forward": 0.31,
+ "earnings_growth_y": -0.978,
+ "earnings_growth_q_y": -0.958,
+ "bs_date": "2026-06-30",
+ "cash": 675353000.0,
+ "total_debt": 8140925000.0,
+ "current_debt": 918000000.0,
+ "lease_obligations": 696225000.0,
+ "equity": 5787587000.0,
+ "net_debt": 7465572000.0,
+ "ocf_ttm": 390889000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 390889000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -133396000.0,
+ "stock_issuance_ttm": -133396000.0,
+ "revenue_ttm": 1828756000.0,
+ "net_income_ttm": 67884000.0,
+ "ebitda_ttm": 922081000.0,
+ "ebit_ttm": 381728000.0,
+ "interest_ttm": 328733000.0,
+ "revenue_yoy_last_q": 0.04713016806475223,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 462242000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 459105000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 453709000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 453700000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 441437000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.7
+  }
+ ],
+ "eps_ttm": 0.020000000000000004,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 104.0,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.9783783783783784,
+ "eps_forward_growth": 14.499999999999996,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1810425000.0,
+   "eps": 4.2,
+   "net_income": 904955000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1787686000.0,
+   "eps": 0.04,
+   "net_income": 70387000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1811163000.0,
+   "eps": 0.23,
+   "net_income": 105494000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1799995000.0,
+   "eps": -2.13,
+   "net_income": -346499000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.027702439800699974,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 918000000.0,
+ "gap_24m": 242647000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 8.096438382311316,
+ "interest_coverage": 1.161209857239766,
+ "cash_to_debt": 0.08295777199765383,
+ "ev": 14028798949.56292,
+ "ev_to_sales": 7.671225111257554,
+ "ev_to_ebitda": 15.214280469463008,
+ "pe_ttm": 96.682973153658,
+ "pe_trailing": 1171.6667,
+ "p_sales": 3.708594,
+ "p_fcf": 16.790513290378904,
+ "p_book": 1.1340178470859996
+}

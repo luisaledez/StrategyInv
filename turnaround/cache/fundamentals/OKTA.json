@@ -1,0 +1,154 @@
+{
+ "ticker": "OKTA",
+ "fetched": "2026-09-14",
+ "market_cap": 32667038712.782227,
+ "shares_out": 174820928.0,
+ "price": 186.86000061035156,
+ "long_name": "Okta, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 111.89222,
+ "pe_forward": 42.67691,
+ "peg": 1.38,
+ "p_sales_y": 10.630342,
+ "eps_trailing_y": 1.67,
+ "eps_forward": 4.37848,
+ "earnings_growth_y": 0.757,
+ "earnings_growth_q_y": 0.731,
+ "bs_date": "2026-07-31",
+ "cash": 2299000000.0,
+ "total_debt": 53000000.0,
+ "current_debt": 350000000.0,
+ "lease_obligations": 53000000.0,
+ "equity": 6973000000.0,
+ "net_debt": -2246000000.0,
+ "ocf_ttm": 987000000.0,
+ "capex_ttm": -28000000.0,
+ "fcf_ttm": 959000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -372000000.0,
+ "stock_issuance_ttm": -372000000.0,
+ "revenue_ttm": 3073000000.0,
+ "net_income_ttm": 296000000.0,
+ "ebitda_ttm": 412000000.0,
+ "ebit_ttm": 327000000.0,
+ "interest_ttm": 3000000.0,
+ "revenue_yoy_last_q": 0.10576923076923084,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 805000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 765000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 761000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 742000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 728000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.65
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.42
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.35
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.37
+  }
+ ],
+ "eps_ttm": 1.66,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 20.833333333333336,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.7567567567567568,
+ "eps_forward_growth": 1.6376385542168674,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7962732919254658
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.7777777777777778
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7792378449408672
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.77088948787062
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.7692307692307693
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 2919000000.0,
+   "eps": 1.31,
+   "net_income": 235000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2610000000.0,
+   "eps": 0.06,
+   "net_income": 28000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2263000000.0,
+   "eps": -2.17,
+   "net_income": -355000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1858000000.0,
+   "eps": -5.16,
+   "net_income": -815000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.008209276993600523,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 350000000.0,
+ "gap_24m": -1949000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -5.451456310679611,
+ "interest_coverage": 109.0,
+ "cash_to_debt": 43.37735849056604,
+ "ev": 30421038712.782227,
+ "ev_to_sales": 9.899459392379507,
+ "ev_to_ebitda": 73.83747260384035,
+ "pe_ttm": 110.36161727291292,
+ "pe_trailing": 111.89222,
+ "p_sales": 10.630342,
+ "p_fcf": 34.063648292786475,
+ "p_book": 4.684789719314818
+}

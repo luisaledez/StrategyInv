@@ -1,0 +1,154 @@
+{
+ "ticker": "WING",
+ "fetched": "2026-09-14",
+ "market_cap": 3160816441.2188263,
+ "shares_out": 27242546.0,
+ "price": 116.0250015258789,
+ "long_name": "Wingstop Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 27.42908,
+ "pe_forward": 21.668892,
+ "peg": 1.45,
+ "p_sales_y": 4.3856435,
+ "eps_trailing_y": 4.23,
+ "eps_forward": 5.35445,
+ "earnings_growth_y": 0.198,
+ "earnings_growth_q_y": 0.169,
+ "bs_date": "2026-06-30",
+ "cash": 127455000.0,
+ "total_debt": 1272475000.0,
+ "current_debt": 3713000.0,
+ "lease_obligations": 61886000.0,
+ "equity": -772987000.0,
+ "net_debt": 1145020000.0,
+ "ocf_ttm": 189490000.0,
+ "capex_ttm": -60996000.0,
+ "fcf_ttm": 128494000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -179605000.0,
+ "stock_issuance_ttm": -179605000.0,
+ "revenue_ttm": 720719000.0,
+ "net_income_ttm": 116410000.0,
+ "ebitda_ttm": 227112000.0,
+ "ebit_ttm": 200439000.0,
+ "interest_ttm": 37982000.0,
+ "revenue_yoy_last_q": 0.06444710862793923,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 185564000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 183725000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 175694000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 175736000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 174329000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.08
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.96
+  }
+ ],
+ "eps_ttm": 4.21,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.6783783783783783,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19791666666666652,
+ "eps_forward_growth": 0.27184085510688827,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4962115496540277
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.49910464008708666
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.492572313226405
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4885339372695407
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4840904267218879
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 696853000.0,
+   "eps": 6.21,
+   "net_income": 174267000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 625807000.0,
+   "eps": 3.7,
+   "net_income": 108717000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 460055000.0,
+   "eps": 2.35,
+   "net_income": 70175000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 357521000.0,
+   "eps": 1.77,
+   "net_income": 52947000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.024473859226587513,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3713000.0,
+ "gap_24m": -123742000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.041653457325021,
+ "interest_coverage": 5.27721025749039,
+ "cash_to_debt": 0.10016306803670014,
+ "ev": 4305836441.218826,
+ "ev_to_sales": 5.974362325981175,
+ "ev_to_ebitda": 18.959088208543918,
+ "pe_ttm": 27.152447738328547,
+ "pe_trailing": 27.42908,
+ "p_sales": 4.3856435,
+ "p_fcf": 24.598941905605134,
+ "p_book": null
+}

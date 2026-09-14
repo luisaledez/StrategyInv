@@ -1,0 +1,154 @@
+{
+ "ticker": "TECH",
+ "fetched": "2026-09-14",
+ "market_cap": 11333253533.831589,
+ "shares_out": 156818238.0,
+ "price": 72.2699966430664,
+ "long_name": "Bio-Techne Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": 62.301723,
+ "pe_forward": 31.335497,
+ "peg": 2.1,
+ "p_sales_y": 9.327482,
+ "eps_trailing_y": 1.16,
+ "eps_forward": 2.30633,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 264712000.0,
+ "total_debt": 289087000.0,
+ "current_debt": 14935000.0,
+ "lease_obligations": 89087000.0,
+ "equity": 2108221000.0,
+ "net_debt": 24375000.0,
+ "ocf_ttm": 292073000.0,
+ "capex_ttm": -28850000.0,
+ "fcf_ttm": 263223000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -41675000.0,
+ "stock_issuance_ttm": -41675000.0,
+ "revenue_ttm": 1215039000.0,
+ "net_income_ttm": 181862000.0,
+ "ebitda_ttm": 347669000.0,
+ "ebit_ttm": 250310000.0,
+ "interest_ttm": 9630000.0,
+ "revenue_yoy_last_q": 0.013339054277457407,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 321192000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 311415000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 295877000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 286555000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 316964000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.35
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.32
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.11
+  }
+ ],
+ "eps_ttm": 1.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.5217391304347823,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 1.0055043478260872,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.658154624025505
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6688438257630493
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6464747175346512
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6564603653748844
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6272384245529461
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1215039000.0,
+   "eps": 1.16,
+   "net_income": 181862000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1219635000.0,
+   "eps": 0.46,
+   "net_income": 73400000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1159060000.0,
+   "eps": 1.05,
+   "net_income": 168105000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1136702000.0,
+   "eps": 1.76,
+   "net_income": 285263000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.00724592558525794,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 14935000.0,
+ "gap_24m": -249777000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.07010978833315597,
+ "interest_coverage": 25.992731048805815,
+ "cash_to_debt": 0.9156828221262111,
+ "ev": 11357628533.831589,
+ "ev_to_sales": 9.3475423701063,
+ "ev_to_ebitda": 32.66793569122237,
+ "pe_ttm": 62.31787582799919,
+ "pe_trailing": 62.301723,
+ "p_sales": 9.327482,
+ "p_fcf": 43.05571144554841,
+ "p_book": 5.375742644547981
+}

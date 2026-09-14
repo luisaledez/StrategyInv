@@ -1,0 +1,154 @@
+{
+ "ticker": "DECK",
+ "fetched": "2026-09-14",
+ "market_cap": 10886377981.055237,
+ "shares_out": 136181857.0,
+ "price": 79.94000244140625,
+ "long_name": "Deckers Outdoor Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Footwear & Accessories",
+ "pe_trailing_y": 11.371266,
+ "pe_forward": 9.601688,
+ "peg": 0.99,
+ "p_sales_y": 1.9695691,
+ "eps_trailing_y": 7.03,
+ "eps_forward": 8.32562,
+ "earnings_growth_y": 0.011,
+ "earnings_growth_q_y": -0.066,
+ "bs_date": "2026-06-30",
+ "cash": 1602589000.0,
+ "total_debt": 472334000.0,
+ "current_debt": 73358000.0,
+ "lease_obligations": 472334000.0,
+ "equity": 2301682000.0,
+ "net_debt": -1130255000.0,
+ "ocf_ttm": 1193713000.0,
+ "capex_ttm": -75905000.0,
+ "fcf_ttm": 1117808000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1238759000.0,
+ "stock_issuance_ttm": -1234250000.0,
+ "revenue_ttm": 5527289000.0,
+ "net_income_ttm": 1014840000.0,
+ "ebitda_ttm": 1390224000.0,
+ "ebit_ttm": 1316162000.0,
+ "interest_ttm": 3822000.0,
+ "revenue_yoy_last_q": 0.05701486100081077,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1019531000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1119369000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1957549000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1430840000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 964538000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.94
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.33
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.82
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.93
+  }
+ ],
+ "eps_ttm": 7.050000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1090047393364928,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.010752688172043001,
+ "eps_forward_growth": 0.18093900709219857,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.564144690058468
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5758940974781328
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5983809345257769
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5617832881384361
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5576825381685325
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 5472296000.0,
+   "eps": 7.02,
+   "net_income": 1024071000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 4985612000.0,
+   "eps": 6.33,
+   "net_income": 966091000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4287763000.0,
+   "eps": 4.86,
+   "net_income": 759563000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3627286000.0,
+   "eps": 3.228333,
+   "net_income": 516822000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07955134642691664,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 73358000.0,
+ "gap_24m": -1529231000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.8130020773630724,
+ "interest_coverage": 344.36473050758764,
+ "cash_to_debt": 3.3929147594710525,
+ "ev": 9756122981.055237,
+ "ev_to_sales": 1.7650828427924137,
+ "ev_to_ebitda": 7.01766260764829,
+ "pe_ttm": 10.727186532906899,
+ "pe_trailing": 11.371266,
+ "p_sales": 1.9695691,
+ "p_fcf": 9.739041034824618,
+ "p_book": 4.729748931892084
+}

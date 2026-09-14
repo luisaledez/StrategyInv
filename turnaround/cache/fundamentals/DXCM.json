@@ -1,0 +1,154 @@
+{
+ "ticker": "DXCM",
+ "fetched": "2026-09-14",
+ "market_cap": 31862455271.48407,
+ "shares_out": 377360765.0,
+ "price": 84.43499755859375,
+ "long_name": "DexCom, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": 33.373516,
+ "pe_forward": 27.02733,
+ "peg": 1.28,
+ "p_sales_y": 6.4119887,
+ "eps_trailing_y": 2.53,
+ "eps_forward": 3.12406,
+ "earnings_growth_y": 0.436,
+ "earnings_growth_q_y": 0.385,
+ "bs_date": "2026-06-30",
+ "cash": 1947000000.0,
+ "total_debt": 1398400000.0,
+ "current_debt": 20700000.0,
+ "lease_obligations": 155600000.0,
+ "equity": 2621400000.0,
+ "net_debt": -548600000.0,
+ "ocf_ttm": 1748700000.0,
+ "capex_ttm": -343700000.0,
+ "fcf_ttm": 1405000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": -1077000000.0,
+ "revenue_ttm": 4969200000.0,
+ "net_income_ttm": 999700000.0,
+ "ebitda_ttm": 1559100000.0,
+ "ebit_ttm": 1295000000.0,
+ "interest_ttm": 15000000.0,
+ "revenue_yoy_last_q": 0.1307579293060237,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1308400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1191900000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1259600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1209300000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1157100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.64
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.51
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.45
+  }
+ ],
+ "eps_ttm": 2.5300000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.471830985915493,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4222222222222223,
+ "eps_forward_growth": 0.23480632411067193,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6343625802506878
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6294991190536119
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6293267704033026
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6048127015628876
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5952813067150635
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4662000000.0,
+   "eps": 2.09,
+   "net_income": 836300000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4033000000.0,
+   "eps": 1.42,
+   "net_income": 576200000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3622300000.0,
+   "eps": 1.3,
+   "net_income": 541500000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2909800000.0,
+   "eps": 0.82,
+   "net_income": 341200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.037735849056603765,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 20700000.0,
+ "gap_24m": -1926300000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.351869668398435,
+ "interest_coverage": 86.33333333333333,
+ "cash_to_debt": 1.3923054919908466,
+ "ev": 31313855271.48407,
+ "ev_to_sales": 6.301588841560829,
+ "ev_to_ebitda": 20.084571401118637,
+ "pe_ttm": 31.872016876547033,
+ "pe_trailing": 33.373516,
+ "p_sales": 6.4119887,
+ "p_fcf": 22.67790410781784,
+ "p_book": 12.154747566752144
+}

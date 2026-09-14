@@ -1,0 +1,154 @@
+{
+ "ticker": "UPS",
+ "fetched": "2026-09-14",
+ "market_cap": 86894578695.03554,
+ "shares_out": 850781582.0,
+ "price": 102.13500213623047,
+ "long_name": "United Parcel Service, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Integrated Freight & Logistics",
+ "pe_trailing_y": 18.984201,
+ "pe_forward": 12.648455,
+ "peg": 1.43,
+ "p_sales_y": 0.96624684,
+ "eps_trailing_y": 5.38,
+ "eps_forward": 8.0749,
+ "earnings_growth_y": -0.53,
+ "earnings_growth_q_y": -0.529,
+ "bs_date": "2026-06-30",
+ "cash": 4653000000.0,
+ "total_debt": 28673000000.0,
+ "current_debt": 1363000000.0,
+ "lease_obligations": 4189000000.0,
+ "equity": 15067000000.0,
+ "net_debt": 24020000000.0,
+ "ocf_ttm": 8867000000.0,
+ "capex_ttm": -3410000000.0,
+ "fcf_ttm": 5457000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 117000000.0,
+ "revenue_ttm": 89930000000.0,
+ "net_income_ttm": 4570000000.0,
+ "ebitda_ttm": 10822000000.0,
+ "ebit_ttm": 6959000000.0,
+ "interest_ttm": 1095000000.0,
+ "revenue_yoy_last_q": 0.07600961311908017,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 22834000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 21202000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 24479000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 21415000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 21221000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.71
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.1
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.55
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.51
+  }
+ ],
+ "eps_ttm": 5.38,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.028148148148148255,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5298013245033113,
+ "eps_forward_growth": 0.5009107806691449,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.13006919505999825
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.15842845014621262
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20768822255811104
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.16278309596077517
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17812544177936948
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 88661000000.0,
+   "eps": 6.56,
+   "net_income": 5572000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 91070000000.0,
+   "eps": 6.75,
+   "net_income": 5782000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 90958000000.0,
+   "eps": 7.8,
+   "net_income": 6708000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 100338000000.0,
+   "eps": 13.2,
+   "net_income": 11548000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.003538153084090112,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1363000000.0,
+ "gap_24m": -3290000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.2195527628904084,
+ "interest_coverage": 6.355251141552511,
+ "cash_to_debt": 0.1622781013497018,
+ "ev": 110914578695.03554,
+ "ev_to_sales": 1.233343474869738,
+ "ev_to_ebitda": 10.248990823788166,
+ "pe_ttm": 19.014131005478237,
+ "pe_trailing": 18.984201,
+ "p_sales": 0.96624684,
+ "p_fcf": 15.923507182524379,
+ "p_book": 5.767211700739068
+}

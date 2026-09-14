@@ -1,0 +1,154 @@
+{
+ "ticker": "VMRK",
+ "fetched": "2026-09-14",
+ "market_cap": 50937880886.431885,
+ "shares_out": 773779120.0,
+ "price": 65.83000183105469,
+ "long_name": "AvalonBay Communities, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Residential",
+ "pe_trailing_y": 25.222223,
+ "pe_forward": 44.68959,
+ "peg": 7.17,
+ "p_sales_y": 16.485035,
+ "eps_trailing_y": 2.61,
+ "eps_forward": 1.47305,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": -0.42,
+ "bs_date": "2026-06-30",
+ "cash": 80682000.0,
+ "total_debt": 9187224000.0,
+ "current_debt": 915786000.0,
+ "lease_obligations": 162444000.0,
+ "equity": 12022411000.0,
+ "net_debt": 9106542000.0,
+ "ocf_ttm": 1660462000.0,
+ "capex_ttm": -291607000.0,
+ "fcf_ttm": 1368855000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -686595000.0,
+ "stock_issuance_ttm": 6479000.0,
+ "revenue_ttm": 3082699000.0,
+ "net_income_ttm": 1027489000.0,
+ "ebitda_ttm": 2240530000.0,
+ "ebit_ttm": 1310693000.0,
+ "interest_ttm": 276075000.0,
+ "revenue_yoy_last_q": 0.023116437229921294,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 777768000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 770279000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 767856000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 766796000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 760195000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.397422
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.834228
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.418904
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.959542
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.673111
+  }
+ ],
+ "eps_ttm": 2.610096,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.026315576710492228,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4095743495500742,
+ "eps_forward_growth": -0.4356337851174823,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6324315219962765
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6254240346679579
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6329298722677169
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6175945101435062
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6356579561822954
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3040725000.0,
+   "eps": 2.649481,
+   "net_income": 1051301000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2913757000.0,
+   "eps": 2.721088,
+   "net_income": 1081994000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2767909000.0,
+   "eps": 2.348729,
+   "net_income": 928825000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2593446000.0,
+   "eps": 2.907268,
+   "net_income": 1136775000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0035550135077587752,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 915786000.0,
+ "gap_24m": 835104000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.064458855717174,
+ "interest_coverage": 4.747597573123246,
+ "cash_to_debt": 0.008781978103505476,
+ "ev": 60044422886.431885,
+ "ev_to_sales": 19.47787405985206,
+ "ev_to_ebitda": 26.79920504810553,
+ "pe_ttm": 49.57511066924501,
+ "pe_trailing": 25.222223,
+ "p_sales": 16.485035,
+ "p_fcf": 37.2120355234352,
+ "p_book": 4.236910623537316
+}

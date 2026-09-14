@@ -1,0 +1,13 @@
+{
+ "as_of": "2026-09-14",
+ "threshold": 42.0,
+ "rsi_period": 14,
+ "lookback": 6,
+ "min_mcap": 1000000000.0,
+ "min_adv": 5000000.0,
+ "min_years": 5.0,
+ "priority_dd": -0.4,
+ "universe": "sp500,sp400",
+ "tickers_scanned": 899,
+ "qualified": 247
+}

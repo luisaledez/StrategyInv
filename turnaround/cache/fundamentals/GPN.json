@@ -1,0 +1,154 @@
+{
+ "ticker": "GPN",
+ "fetched": "2026-09-14",
+ "market_cap": 23934732567.94876,
+ "shares_out": 264618390.0,
+ "price": 90.44999694824219,
+ "long_name": "Global Payments Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 42.8673,
+ "pe_forward": 5.6570635,
+ "peg": 0.22,
+ "p_sales_y": 2.3449914,
+ "eps_trailing_y": 2.11,
+ "eps_forward": 15.98886,
+ "earnings_growth_y": -0.952,
+ "earnings_growth_q_y": -0.946,
+ "bs_date": "2026-06-30",
+ "cash": 5408962000.0,
+ "total_debt": 23555090000.0,
+ "current_debt": 2061796000.0,
+ "lease_obligations": 58065000.0,
+ "equity": 23110707000.0,
+ "net_debt": 18146128000.0,
+ "ocf_ttm": 1657741000.0,
+ "capex_ttm": -835022000.0,
+ "fcf_ttm": 822719000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1635931000.0,
+ "stock_issuance_ttm": -1635931000.0,
+ "revenue_ttm": 10230917000.0,
+ "net_income_ttm": -934174000.0,
+ "ebitda_ttm": 3816606000.0,
+ "ebit_ttm": 1428598000.0,
+ "interest_ttm": 869150000.0,
+ "revenue_yoy_last_q": 0.6862910281741563,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3320791000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2969682000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1932807000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2007637000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1969287000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.05
+  },
+  {
+   "period": "2026-03-31",
+   "value": -6.59
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.92
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.64
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.99
+  }
+ ],
+ "eps_ttm": -2.98,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.06168831168831168,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.9494949494949495,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6103702401024335
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5711278177259383
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7055857103166534
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.722717802072785
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7452011819506248
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7705878000.0,
+   "eps": 5.78,
+   "net_income": 1400107000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7735970000.0,
+   "eps": 6.16,
+   "net_income": 1570365000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7379784000.0,
+   "eps": 3.77,
+   "net_income": 986233000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8975515000.0,
+   "eps": 0.4,
+   "net_income": 111493000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.096240082063064,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2061796000.0,
+ "gap_24m": -3347166000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.75451959149045,
+ "interest_coverage": 1.6436725536443653,
+ "cash_to_debt": 0.2296302837306077,
+ "ev": 42080860567.94876,
+ "ev_to_sales": 4.113107414315722,
+ "ev_to_ebitda": 11.025728243352539,
+ "pe_ttm": null,
+ "pe_trailing": 42.8673,
+ "p_sales": 2.3449914,
+ "p_fcf": 29.09223266747062,
+ "p_book": 1.035655575917637
+}

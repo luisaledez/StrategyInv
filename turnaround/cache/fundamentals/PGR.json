@@ -1,0 +1,133 @@
+{
+ "ticker": "PGR",
+ "fetched": "2026-09-14",
+ "market_cap": 127795510935.97412,
+ "shares_out": 581100000.0,
+ "price": 219.9199981689453,
+ "long_name": "The Progressive Corporation",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Property & Casualty",
+ "pe_trailing_y": 11.034621,
+ "pe_forward": 13.500265,
+ "peg": 66.73,
+ "p_sales_y": 1.4040532,
+ "eps_trailing_y": 19.93,
+ "eps_forward": 16.29005,
+ "earnings_growth_y": 0.05,
+ "earnings_growth_q_y": 0.043,
+ "bs_date": "2026-06-30",
+ "cash": 13552000000.0,
+ "total_debt": 8387000000.0,
+ "current_debt": 1000000000.0,
+ "lease_obligations": null,
+ "equity": 34333000000.0,
+ "net_debt": -5165000000.0,
+ "ocf_ttm": 16339000000.0,
+ "capex_ttm": -388000000.0,
+ "fcf_ttm": 15951000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1191000000.0,
+ "stock_issuance_ttm": -1191000000.0,
+ "revenue_ttm": 91019000000.0,
+ "net_income_ttm": 11695000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 15077000000.0,
+ "interest_ttm": 297000000.0,
+ "revenue_yoy_last_q": 0.07292566492384633,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 23599000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 22180000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 22738000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 22502000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 21995000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.67
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.8
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.45
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.4
+  },
+  {
+   "period": "2025-03-31",
+   "value": 4.37
+  }
+ ],
+ "eps_ttm": 20.32,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3354166666666667,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.29748283752860405,
+ "eps_forward_growth": -0.19832431102362202,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 87637000000.0,
+   "eps": 19.23,
+   "net_income": 11308000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 75343000000.0,
+   "eps": 14.4,
+   "net_income": 8480000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 62083000000.0,
+   "eps": 6.58,
+   "net_income": 3903000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 49587000000.0,
+   "eps": 1.18,
+   "net_income": 722000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.008202690862781692,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1000000000.0,
+ "gap_24m": -12552000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 50.764309764309765,
+ "cash_to_debt": 1.615834028854179,
+ "ev": 122630510935.97412,
+ "ev_to_sales": 1.347306726463421,
+ "ev_to_ebitda": null,
+ "pe_ttm": 10.927363055662601,
+ "pe_trailing": 11.034621,
+ "p_sales": 1.4040532,
+ "p_fcf": 8.011755434516589,
+ "p_book": 3.722235485858332
+}

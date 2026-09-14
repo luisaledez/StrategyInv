@@ -1,0 +1,154 @@
+{
+ "ticker": "COIN",
+ "fetched": "2026-09-14",
+ "market_cap": 50392852293.0,
+ "shares_out": 263836923.0,
+ "price": 191.0,
+ "long_name": "Coinbase Global, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Financial Data & Stock Exchanges",
+ "pe_trailing_y": null,
+ "pe_forward": 69.56585,
+ "peg": 3.01,
+ "p_sales_y": 8.338007,
+ "eps_trailing_y": -3.87,
+ "eps_forward": 2.7456,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 9017919000.0,
+ "total_debt": 6668290000.0,
+ "current_debt": 539195000.0,
+ "lease_obligations": 184863000.0,
+ "equity": 13079665000.0,
+ "net_debt": -2349629000.0,
+ "ocf_ttm": 1713665000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 1713665000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1243488000.0,
+ "stock_issuance_ttm": -1243488000.0,
+ "revenue_ttm": 6282872000.0,
+ "net_income_ttm": -987766000.0,
+ "ebitda_ttm": -901225000.0,
+ "ebit_ttm": -1154828000.0,
+ "interest_ttm": 89452000.0,
+ "revenue_yoy_last_q": -0.1851045412527852,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1220068000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1412982000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1781129000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1868693000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1497208000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.49
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.49
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.14
+  }
+ ],
+ "eps_ttm": -3.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5305907172995781,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.264591439688716,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6791547684227437
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6966712951757347
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7653937474489495
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7460813520465909
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7159165593558143
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7181325000.0,
+   "eps": 4.45,
+   "net_income": 1260327000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6564028000.0,
+   "eps": 9.48,
+   "net_income": 2579066000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3108383000.0,
+   "eps": 0.37,
+   "net_income": 94871000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3194208000.0,
+   "eps": -11.83,
+   "net_income": -2624949000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.028658132923609747,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 539195000.0,
+ "gap_24m": -8478724000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.607150267691198,
+ "interest_coverage": -12.91002996020212,
+ "cash_to_debt": 1.3523585506929063,
+ "ev": 48043223293.0,
+ "ev_to_sales": 7.646697767040296,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 8.338007,
+ "p_fcf": 29.406478099861992,
+ "p_book": 3.852763223905199
+}

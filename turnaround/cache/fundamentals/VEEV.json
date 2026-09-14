@@ -1,0 +1,154 @@
+{
+ "ticker": "VEEV",
+ "fetched": "2026-09-14",
+ "market_cap": 42691314047.32361,
+ "shares_out": 161908850.0,
+ "price": 263.67498779296875,
+ "long_name": "Veeva Systems Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Health Information Services",
+ "pe_trailing_y": 43.296383,
+ "pe_forward": 25.722784,
+ "peg": 1.17,
+ "p_sales_y": 12.345317,
+ "eps_trailing_y": 6.09,
+ "eps_forward": 10.25064,
+ "earnings_growth_y": 0.395,
+ "earnings_growth_q_y": 0.365,
+ "bs_date": "2026-07-31",
+ "cash": 7242947000.0,
+ "total_debt": 151695000.0,
+ "current_debt": 14635000.0,
+ "lease_obligations": 151695000.0,
+ "equity": 7431449000.0,
+ "net_debt": -7091252000.0,
+ "ocf_ttm": 1665459000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 1665459000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -472673000.0,
+ "stock_issuance_ttm": -472673000.0,
+ "revenue_ttm": 3458098000.0,
+ "net_income_ttm": 1014772000.0,
+ "ebitda_ttm": 1075341000.0,
+ "ebit_ttm": 1034859000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.17600474476004369,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 927963000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 882948000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 835951000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 811236000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 789081000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.66
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.57
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.45
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.4
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.19
+  }
+ ],
+ "eps_ttm": 6.08,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2592592592592593,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.39495798319327724,
+ "eps_forward_growth": 0.6859605263157895,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7499771003800798
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.7497882094981811
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7446297689697123
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.7541221050347864
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.7525564549140076
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3195311000.0,
+   "eps": 5.44,
+   "net_income": 908906000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2746619000.0,
+   "eps": 4.32,
+   "net_income": 714138000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2363673000.0,
+   "eps": 3.22,
+   "net_income": 525705000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2155060000.0,
+   "eps": 3.0,
+   "net_income": 487706000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.012466211539442384,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 14635000.0,
+ "gap_24m": -7228312000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -6.594421676472859,
+ "interest_coverage": null,
+ "cash_to_debt": 47.746774778338114,
+ "ev": 35600062047.32361,
+ "ev_to_sales": 10.29469438035695,
+ "ev_to_ebitda": 33.10583530928665,
+ "pe_ttm": 42.06985810341989,
+ "pe_trailing": 43.296383,
+ "p_sales": 12.345317,
+ "p_fcf": 25.633362362762224,
+ "p_book": 5.744682369121231
+}

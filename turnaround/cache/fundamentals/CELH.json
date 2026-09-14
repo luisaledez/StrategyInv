@@ -1,0 +1,154 @@
+{
+ "ticker": "CELH",
+ "fetched": "2026-09-14",
+ "market_cap": 7230476661.07542,
+ "shares_out": 253035047.0,
+ "price": 28.575000762939453,
+ "long_name": "Celsius Holdings, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Beverages - Non-Alcoholic",
+ "pe_trailing_y": 124.23913,
+ "pe_forward": 16.365324,
+ "peg": 0.25,
+ "p_sales_y": 2.3727686,
+ "eps_trailing_y": 0.23,
+ "eps_forward": 1.74607,
+ "earnings_growth_y": -0.569,
+ "earnings_growth_q_y": -0.446,
+ "bs_date": "2026-06-30",
+ "cash": 631234000.0,
+ "total_debt": 667850000.0,
+ "current_debt": 3550000.0,
+ "lease_obligations": 19702000.0,
+ "equity": 2959559000.0,
+ "net_debt": 36616000.0,
+ "ocf_ttm": 508629000.0,
+ "capex_ttm": -45855000.0,
+ "fcf_ttm": 462774000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -176874000.0,
+ "stock_issuance_ttm": -176874000.0,
+ "revenue_ttm": 3047274000.0,
+ "net_income_ttm": 129117000.0,
+ "ebitda_ttm": 232906000.0,
+ "ebit_ttm": 195947000.0,
+ "interest_ttm": 54306000.0,
+ "revenue_yoy_last_q": 0.10641196116651952,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 817925000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 782615000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 721628000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 725106000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 739259000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.33
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.27
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33
+  }
+ ],
+ "eps_ttm": 0.24,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.4444444444444444,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5757575757575757,
+ "eps_forward_growth": 6.275291666666667,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4813253048873674
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4830817196194808
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.47369281679757436
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5134132113097947
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5151793890909682
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2515269000.0,
+   "eps": 0.25,
+   "net_income": 107999000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1355630000.0,
+   "eps": 0.45,
+   "net_income": 145074000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1318014000.0,
+   "eps": 0.77,
+   "net_income": 226801000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 653604000.0,
+   "eps": -0.88,
+   "net_income": -187282000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.017178171153241828,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3550000.0,
+ "gap_24m": -627684000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.15721363983753103,
+ "interest_coverage": 3.608201672006776,
+ "cash_to_debt": 0.945173317361683,
+ "ev": 7267092661.07542,
+ "ev_to_sales": 2.384784781767383,
+ "ev_to_ebitda": 31.201826750171403,
+ "pe_ttm": 55.99941650654384,
+ "pe_trailing": 124.23913,
+ "p_sales": 2.3727686,
+ "p_fcf": 15.624206764155765,
+ "p_book": 2.4430925894957394
+}

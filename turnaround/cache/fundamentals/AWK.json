@@ -1,0 +1,154 @@
+{
+ "ticker": "AWK",
+ "fetched": "2026-09-14",
+ "market_cap": 27406715600.757294,
+ "shares_out": 198728989.0,
+ "price": 137.91000366210938,
+ "long_name": "American Water Works Company, Inc.",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Water",
+ "pe_trailing_y": 23.901215,
+ "pe_forward": 21.004137,
+ "peg": 2.44,
+ "p_sales_y": 5.186737,
+ "eps_trailing_y": 5.77,
+ "eps_forward": 6.56585,
+ "earnings_growth_y": 0.086,
+ "earnings_growth_q_y": 0.09,
+ "bs_date": "2026-06-30",
+ "cash": 191000000.0,
+ "total_debt": 16058000000.0,
+ "current_debt": 1945000000.0,
+ "lease_obligations": 70000000.0,
+ "equity": 11665000000.0,
+ "net_debt": 15867000000.0,
+ "ocf_ttm": 2334000000.0,
+ "capex_ttm": -3557000000.0,
+ "fcf_ttm": -1223000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 5284000000.0,
+ "net_income_ttm": 1128000000.0,
+ "ebitda_ttm": 3024000000.0,
+ "ebit_ttm": 2090000000.0,
+ "interest_ttm": 650000000.0,
+ "revenue_yoy_last_q": 0.06191222570532906,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1355000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1207000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1271000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1451000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1276000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.61
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.22
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.94
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.48
+  }
+ ],
+ "eps_ttm": 5.77,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0556586270871986,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.08783783783783794,
+ "eps_forward_growth": 0.1379289428076258,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6450184501845019
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5915492957746479
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5688434303697876
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6395589248793935
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6238244514106583
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5140000000.0,
+   "eps": 5.69,
+   "net_income": 1111000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4684000000.0,
+   "eps": 5.39,
+   "net_income": 1051000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4234000000.0,
+   "eps": 4.9,
+   "net_income": 944000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3792000000.0,
+   "eps": 4.51,
+   "net_income": 820000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.018605199580248755,
+ "fcf_burn_annual": 1223000000.0,
+ "runway_months": 1.874080130825838,
+ "need_24m": 4391000000.0,
+ "gap_24m": 4200000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 5.247023809523809,
+ "interest_coverage": 3.2153846153846155,
+ "cash_to_debt": 0.011894382862124797,
+ "ev": 43273715600.75729,
+ "ev_to_sales": 8.189575246169056,
+ "ev_to_ebitda": 14.310091137816565,
+ "pe_ttm": 24.296733688614623,
+ "pe_trailing": 23.901215,
+ "p_sales": 5.186737,
+ "p_fcf": null,
+ "p_book": 2.3494826918780363
+}

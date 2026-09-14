@@ -1,0 +1,154 @@
+{
+ "ticker": "UHS",
+ "fetched": "2026-09-14",
+ "market_cap": 10109232860.830536,
+ "shares_out": 58936515.0,
+ "price": 171.52749633789062,
+ "long_name": "Universal Health Services, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Care Facilities",
+ "pe_trailing_y": 7.003981,
+ "pe_forward": 7.141602,
+ "peg": 1.18,
+ "p_sales_y": 0.55807453,
+ "eps_trailing_y": 24.49,
+ "eps_forward": 24.01807,
+ "earnings_growth_y": 0.101,
+ "earnings_growth_q_y": 0.015,
+ "bs_date": "2026-06-30",
+ "cash": 138800000.0,
+ "total_debt": 5262175000.0,
+ "current_debt": 842771000.0,
+ "lease_obligations": 410328000.0,
+ "equity": 7513812000.0,
+ "net_debt": 5123375000.0,
+ "ocf_ttm": 1800302000.0,
+ "capex_ttm": -989561000.0,
+ "fcf_ttm": 810741000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1074010000.0,
+ "stock_issuance_ttm": -1056759000.0,
+ "revenue_ttm": 18114487000.0,
+ "net_income_ttm": 1526027000.0,
+ "ebitda_ttm": 2820938000.0,
+ "ebit_ttm": 2179780000.0,
+ "interest_ttm": 153210000.0,
+ "revenue_yoy_last_q": 0.0826823561049308,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4638012000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4495182000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4486048000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4495245000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4283816000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.98
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5.65
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5.86
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.43
+  }
+ ],
+ "eps_ttm": 24.55,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3733650416171226,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.10128913443830578,
+ "eps_forward_growth": -0.021667209775967367,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9087417195125843
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.905111072254694
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9057611510175548
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9077729912385198
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.902240198925444
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 17364829000.0,
+   "eps": 23.1,
+   "net_income": 1488796000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 15827935000.0,
+   "eps": 16.82,
+   "net_income": 1142097000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14281976000.0,
+   "eps": 10.23,
+   "net_income": 717795000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 13399370000.0,
+   "eps": 9.14,
+   "net_income": 675609000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0738886202717246,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 842771000.0,
+ "gap_24m": 703971000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.8161955349603571,
+ "interest_coverage": 14.227400300241499,
+ "cash_to_debt": 0.026376925890910126,
+ "ev": 15232607860.830536,
+ "ev_to_sales": 0.8409074935895527,
+ "ev_to_ebitda": 5.399837876915599,
+ "pe_ttm": 6.624543904420129,
+ "pe_trailing": 7.003981,
+ "p_sales": 0.55807453,
+ "p_fcf": 12.469127453564747,
+ "p_book": 1.3454199893250638
+}

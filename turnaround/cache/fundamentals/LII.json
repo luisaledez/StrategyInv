@@ -1,0 +1,154 @@
+{
+ "ticker": "LII",
+ "fetched": "2026-09-14",
+ "market_cap": 12729889055.477142,
+ "shares_out": 34560675.0,
+ "price": 368.3345031738281,
+ "long_name": "Lennox International Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 16.36315,
+ "pe_forward": 14.058987,
+ "peg": 0.93,
+ "p_sales_y": 2.4008696,
+ "eps_trailing_y": 22.51,
+ "eps_forward": 26.19922,
+ "earnings_growth_y": 0.001,
+ "earnings_growth_q_y": -0.018,
+ "bs_date": "2026-06-30",
+ "cash": 52100000.0,
+ "total_debt": 2024700000.0,
+ "current_debt": 519300000.0,
+ "lease_obligations": 518100000.0,
+ "equity": 1297200000.0,
+ "net_debt": 1972600000.0,
+ "ocf_ttm": 894700000.0,
+ "capex_ttm": -156000000.0,
+ "fcf_ttm": 738700000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -357000000.0,
+ "stock_issuance_ttm": -357000000.0,
+ "revenue_ttm": 5302200000.0,
+ "net_income_ttm": 794100000.0,
+ "ebitda_ttm": 1173600000.0,
+ "ebit_ttm": 1051700000.0,
+ "interest_ttm": 61800000.0,
+ "revenue_yoy_last_q": 0.029582250649610176,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1545300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1135100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1195000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1426800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1500900000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7.72
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.35
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.98
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7.82
+  }
+ ],
+ "eps_ttm": 22.12,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.011091393078970668,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.01278772378516635,
+ "eps_forward_growth": 0.18441320072332723,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3491231476088785
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.30948815082371595
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3474476987447699
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.32842724978973925
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3447931241255247
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5195300000.0,
+   "eps": 22.79,
+   "net_income": 805800000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5341300000.0,
+   "eps": 22.54,
+   "net_income": 811100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4981900000.0,
+   "eps": 16.54,
+   "net_income": 591200000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4718400000.0,
+   "eps": 13.88,
+   "net_income": 497100000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.009132286734287787,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 519300000.0,
+ "gap_24m": 467200000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.680811179277437,
+ "interest_coverage": 17.01779935275081,
+ "cash_to_debt": 0.025732207240578852,
+ "ev": 14702489055.477142,
+ "ev_to_sales": 2.7729035222128817,
+ "ev_to_ebitda": 12.527683244271593,
+ "pe_ttm": 16.030586897717093,
+ "pe_trailing": 16.36315,
+ "p_sales": 2.4008696,
+ "p_fcf": 17.232826662348913,
+ "p_book": 9.813358815508128
+}

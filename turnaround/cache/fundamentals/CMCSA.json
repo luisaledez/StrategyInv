@@ -1,0 +1,154 @@
+{
+ "ticker": "CMCSA",
+ "fetched": "2026-09-14",
+ "market_cap": 89727275206.82603,
+ "shares_out": 3548636573.0,
+ "price": 25.28499984741211,
+ "long_name": "Comcast Corporation",
+ "sector_y": "Communication Services",
+ "industry_y": "Telecom Services",
+ "pe_trailing_y": 8.104167,
+ "pe_forward": 6.9747295,
+ "peg": 142.98,
+ "p_sales_y": 0.71836996,
+ "eps_trailing_y": 3.12,
+ "eps_forward": 3.62523,
+ "earnings_growth_y": -0.668,
+ "earnings_growth_q_y": -0.683,
+ "bs_date": "2026-06-30",
+ "cash": 7661000000.0,
+ "total_debt": 90381000000.0,
+ "current_debt": 6117000000.0,
+ "lease_obligations": null,
+ "equity": 89763000000.0,
+ "net_debt": 82720000000.0,
+ "ocf_ttm": 32517000000.0,
+ "capex_ttm": -14700000000.0,
+ "fcf_ttm": 17817000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5596000000.0,
+ "stock_issuance_ttm": -5596000000.0,
+ "revenue_ttm": 124905000000.0,
+ "net_income_ttm": 11200000000.0,
+ "ebitda_ttm": 34134000000.0,
+ "ebit_ttm": 18372000000.0,
+ "interest_ttm": 4400000000.0,
+ "revenue_yoy_last_q": -0.012304951670900288,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 29940000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 31457000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 32310000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 31198000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 30313000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.99
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.98
+  }
+ ],
+ "eps_ttm": 3.09,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.30193236714975846,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6677852348993288,
+ "eps_forward_growth": 0.1732135922330098,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7198062792251169
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6540038783100741
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6810584958217271
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7225783704083595
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7500742255797842
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 123707000000.0,
+   "eps": 5.39,
+   "net_income": 19998000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 123731000000.0,
+   "eps": 4.14,
+   "net_income": 16192000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 121572000000.0,
+   "eps": 3.71,
+   "net_income": 15388000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 121427000000.0,
+   "eps": 1.21,
+   "net_income": 5370000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04098125099029515,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6117000000.0,
+ "gap_24m": -1544000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.423390168160778,
+ "interest_coverage": 4.175454545454546,
+ "cash_to_debt": 0.08476339053562143,
+ "ev": 172447275206.82605,
+ "ev_to_sales": 1.3806274785382975,
+ "ev_to_ebitda": 5.052067592629814,
+ "pe_ttm": 8.011363857752324,
+ "pe_trailing": 8.104167,
+ "p_sales": 0.71836996,
+ "p_fcf": 5.036048448494474,
+ "p_book": 0.9996020098127963
+}

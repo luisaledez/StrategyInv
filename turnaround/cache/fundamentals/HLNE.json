@@ -1,0 +1,154 @@
+{
+ "ticker": "HLNE",
+ "fetched": "2026-09-14",
+ "market_cap": 5318789614.888176,
+ "shares_out": 55185617.0,
+ "price": 96.37999725341797,
+ "long_name": "Hamilton Lane Incorporated",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 14.66971,
+ "pe_forward": 13.143378,
+ "peg": null,
+ "p_sales_y": 7.5254455,
+ "eps_trailing_y": 6.57,
+ "eps_forward": 7.33297,
+ "earnings_growth_y": 0.505,
+ "earnings_growth_q_y": 0.497,
+ "bs_date": "2026-06-30",
+ "cash": 341724000.0,
+ "total_debt": 364790000.0,
+ "current_debt": null,
+ "lease_obligations": 90591000.0,
+ "equity": 939285000.0,
+ "net_debt": 23066000.0,
+ "ocf_ttm": 373135000.0,
+ "capex_ttm": -6301000.0,
+ "fcf_ttm": 366834000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -75216000.0,
+ "stock_issuance_ttm": -19732000.0,
+ "revenue_ttm": 858366000.0,
+ "net_income_ttm": 275895000.0,
+ "ebitda_ttm": 541913000.0,
+ "ebit_ttm": 532035000.0,
+ "interest_ttm": 14593000.0,
+ "revenue_yoy_last_q": 0.5647540890439764,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 275331000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 193566000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 198589000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 190880000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 175958000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.93
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.69
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.28
+  },
+  {
+   "period": "2025-03-31",
+   "value": 1.23
+  }
+ ],
+ "eps_ttm": 6.2700000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09426987060998138,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5691056910569106,
+ "eps_forward_growth": 0.16953269537480065,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6973569993934573
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6977930008369239
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6934069862882637
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7080155071248952
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.695864922311006
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 758993000.0,
+   "eps": 5.92,
+   "net_income": 249180000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 712963000.0,
+   "eps": 5.41,
+   "net_income": 217417000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 553842000.0,
+   "eps": 3.69,
+   "net_income": 140858000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 528753000.0,
+   "eps": 3.01,
+   "net_income": 109120000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.26859939951178435,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -341724000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.0425640278052012,
+ "interest_coverage": 36.458233399575136,
+ "cash_to_debt": 0.9367691000301543,
+ "ev": 5341855614.888176,
+ "ev_to_sales": 6.223284257400894,
+ "ev_to_ebitda": 9.857404444787587,
+ "pe_ttm": 19.278311005593345,
+ "pe_trailing": 14.66971,
+ "p_sales": 7.5254455,
+ "p_fcf": 14.499172963488052,
+ "p_book": 5.662594010218598
+}

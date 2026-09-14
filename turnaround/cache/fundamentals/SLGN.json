@@ -1,0 +1,154 @@
+{
+ "ticker": "SLGN",
+ "fetched": "2026-09-14",
+ "market_cap": 4140621575.851593,
+ "shares_out": 105682020.0,
+ "price": 39.18000030517578,
+ "long_name": "Silgan Holdings Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "pe_trailing_y": 15.364706,
+ "pe_forward": 9.570663,
+ "peg": 0.79,
+ "p_sales_y": 0.6196799,
+ "eps_trailing_y": 2.55,
+ "eps_forward": 4.09376,
+ "earnings_growth_y": -0.137,
+ "earnings_growth_q_y": -0.148,
+ "bs_date": "2026-06-30",
+ "cash": 351527000.0,
+ "total_debt": 4833754000.0,
+ "current_debt": 1178197000.0,
+ "lease_obligations": null,
+ "equity": 2379372000.0,
+ "net_debt": 4482227000.0,
+ "ocf_ttm": 640842000.0,
+ "capex_ttm": -298087000.0,
+ "fcf_ttm": 342755000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -75875000.0,
+ "stock_issuance_ttm": -75875000.0,
+ "revenue_ttm": 6681871000.0,
+ "net_income_ttm": 270294000.0,
+ "ebitda_ttm": 908924000.0,
+ "ebit_ttm": 576415000.0,
+ "interest_ttm": 186287000.0,
+ "revenue_yoy_last_q": 0.0676394477250919,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1643269000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1561258000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1468605000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2008739000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1539161000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.72
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.17
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.83
+  }
+ ],
+ "eps_ttm": 2.55,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.04651162790697683,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.1325301204819277,
+ "eps_forward_growth": 0.6053960784313726,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17944597019721056
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.17023259448470401
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1720544326078149
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.16291315098676334
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.19432080204734917
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6483166000.0,
+   "eps": 2.7,
+   "net_income": 288403000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5854694000.0,
+   "eps": 2.58,
+   "net_income": 276378000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5988205000.0,
+   "eps": 2.98,
+   "net_income": 325965000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6411499000.0,
+   "eps": 3.07,
+   "net_income": 340848000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.012254799791912019,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1178197000.0,
+ "gap_24m": 826670000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.931355096795771,
+ "interest_coverage": 3.0942309447250747,
+ "cash_to_debt": 0.07272339469488931,
+ "ev": 8622848575.851593,
+ "ev_to_sales": 1.2904841437153745,
+ "ev_to_ebitda": 9.486875223727829,
+ "pe_ttm": 15.318954826417135,
+ "pe_trailing": 15.364706,
+ "p_sales": 0.6196799,
+ "p_fcf": 12.080411885608067,
+ "p_book": 1.740216147727885
+}

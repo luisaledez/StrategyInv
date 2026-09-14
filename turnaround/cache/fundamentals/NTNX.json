@@ -1,0 +1,154 @@
+{
+ "ticker": "NTNX",
+ "fetched": "2026-09-14",
+ "market_cap": 18368277761.597275,
+ "shares_out": 270320509.0,
+ "price": 67.94999694824219,
+ "long_name": "Nutanix, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 13.143132,
+ "pe_forward": 25.549337,
+ "peg": 1.35,
+ "p_sales_y": 6.437003,
+ "eps_trailing_y": 5.17,
+ "eps_forward": 2.65956,
+ "earnings_growth_y": 31.478,
+ "earnings_growth_q_y": 31.849,
+ "bs_date": "2026-04-30",
+ "cash": 2017903000.0,
+ "total_debt": 1528893000.0,
+ "current_debt": 37346000.0,
+ "lease_obligations": 181409000.0,
+ "equity": -725613000.0,
+ "net_debt": -489010000.0,
+ "ocf_ttm": 821204000.0,
+ "capex_ttm": -50320000.0,
+ "fcf_ttm": 770884000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -483281000.0,
+ "stock_issuance_ttm": -483281000.0,
+ "revenue_ttm": 2749734000.0,
+ "net_income_ttm": 275855000.0,
+ "ebitda_ttm": 373359000.0,
+ "ebit_ttm": 301528000.0,
+ "interest_ttm": 11992000.0,
+ "revenue_yoy_last_q": 0.10028905307339953,
+ "revenue_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 703066000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 722825000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 670576000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 653267000.0
+  },
+  {
+   "period": "2025-04-30",
+   "value": 638983000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 4.34
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.25
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.21
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.13
+  }
+ ],
+ "eps_ttm": 5.16,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 32.38461538461538,
+ "eps_forward_growth": -0.48458139534883726,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 0.8687477420327537
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.8737273890637429
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.8695599007420486
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.8716711543672037
+  },
+  {
+   "period": "2025-04-30",
+   "value": 0.8701201753411281
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2537927000.0,
+   "eps": 0.65,
+   "net_income": 188366000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2148816000.0,
+   "eps": -0.51,
+   "net_income": -124775000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1862895000.0,
+   "eps": -1.09,
+   "net_income": -254560000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1580796000.0,
+   "eps": -3.62,
+   "net_income": -798946000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.006549078954234733,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 37346000.0,
+ "gap_24m": -1980557000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.309758168411636,
+ "interest_coverage": 25.144096064042696,
+ "cash_to_debt": 1.319845796926273,
+ "ev": 17879267761.597275,
+ "ev_to_sales": 6.502180851528648,
+ "ev_to_ebitda": 47.88760351725089,
+ "pe_ttm": 66.58671317031511,
+ "pe_trailing": 13.143132,
+ "p_sales": 6.437003,
+ "p_fcf": 23.827550917644256,
+ "p_book": null
+}

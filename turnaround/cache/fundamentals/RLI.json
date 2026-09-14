@@ -1,0 +1,133 @@
+{
+ "ticker": "RLI",
+ "fetched": "2026-09-14",
+ "market_cap": 5608934521.981888,
+ "shares_out": 91772970.0,
+ "price": 61.11750030517578,
+ "long_name": "RLI Corp.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Property & Casualty",
+ "pe_trailing_y": 12.83981,
+ "pe_forward": 22.672134,
+ "peg": 1.73,
+ "p_sales_y": 2.8408356,
+ "eps_trailing_y": 4.76,
+ "eps_forward": 2.69571,
+ "earnings_growth_y": 0.358,
+ "earnings_growth_q_y": 0.351,
+ "bs_date": "2026-06-30",
+ "cash": 1770639000.0,
+ "total_debt": 296968000.0,
+ "current_debt": 0.0,
+ "lease_obligations": null,
+ "equity": 1752115000.0,
+ "net_debt": -1473671000.0,
+ "ocf_ttm": 524037000.0,
+ "capex_ttm": -7021000.0,
+ "fcf_ttm": 517016000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1974396000.0,
+ "net_income_ttm": 438700000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 558331000.0,
+ "interest_ttm": 9467000.0,
+ "revenue_yoy_last_q": 0.15153873547994712,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 575569000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 423870000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 465693000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 509264000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 499826000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.82
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.597005
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.99
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.35
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.34
+  }
+ ],
+ "eps_ttm": 4.7570049999999995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.16844919786096257,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3582089552238805,
+ "eps_forward_growth": -0.4333178123630309,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1882448000.0,
+   "eps": 4.37,
+   "net_income": 403337000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1770384000.0,
+   "eps": 3.74,
+   "net_income": 345779000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1511994000.0,
+   "eps": 3.305,
+   "net_income": 304611000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1697992000.0,
+   "eps": 6.37,
+   "net_income": 583411000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0006189298489907014,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -1770639000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 58.976550121474595,
+ "cash_to_debt": 5.962389887125886,
+ "ev": 4135263521.981888,
+ "ev_to_sales": 2.0944448438823255,
+ "ev_to_ebitda": null,
+ "pe_ttm": 12.785353366724157,
+ "pe_trailing": 12.83981,
+ "p_sales": 2.8408356,
+ "p_fcf": 10.848667201753694,
+ "p_book": 3.201236518140583
+}

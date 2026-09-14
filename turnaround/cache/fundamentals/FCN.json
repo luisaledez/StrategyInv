@@ -1,0 +1,154 @@
+{
+ "ticker": "FCN",
+ "fetched": "2026-09-14",
+ "market_cap": 4187502469.268036,
+ "shares_out": 27611575.0,
+ "price": 151.65750122070312,
+ "long_name": "FTI Consulting, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Consulting Services",
+ "pe_trailing_y": 18.360472,
+ "pe_forward": 13.871118,
+ "peg": 0.96,
+ "p_sales_y": 1.0672271,
+ "eps_trailing_y": 8.26,
+ "eps_forward": 10.93333,
+ "earnings_growth_y": -0.066,
+ "earnings_growth_q_y": -0.194,
+ "bs_date": "2026-06-30",
+ "cash": 163747000.0,
+ "total_debt": 1227981000.0,
+ "current_debt": 37211000.0,
+ "lease_obligations": 208661000.0,
+ "equity": 1333950000.0,
+ "net_debt": 1064234000.0,
+ "ocf_ttm": 403920000.0,
+ "capex_ttm": -45188000.0,
+ "fcf_ttm": 358732000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -842040000.0,
+ "stock_issuance_ttm": -842040000.0,
+ "revenue_ttm": 3923722000.0,
+ "net_income_ttm": 252790000.0,
+ "ebitda_ttm": 435098000.0,
+ "ebit_ttm": 383674000.0,
+ "interest_ttm": 33647000.0,
+ "revenue_yoy_last_q": 0.05277525215596257,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 993464000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 983345000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 990746000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 956167000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 943662000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.99
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.9
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.78
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.6
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.13
+  }
+ ],
+ "eps_ttm": 8.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.055057618437900135,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.06572769953051638,
+ "eps_forward_growth": 0.32204715840386955,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3183537601765137
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.31202375565035667
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3105397347049597
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3325088608998219
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3205819456542703
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3788857000.0,
+   "eps": 8.24,
+   "net_income": 270871000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3698652000.0,
+   "eps": 7.81,
+   "net_income": 280088000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3489242000.0,
+   "eps": 7.71,
+   "net_income": 274892000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3028908000.0,
+   "eps": 6.58,
+   "net_income": 235514000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.15326794389953247,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 37211000.0,
+ "gap_24m": -126536000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.4459638977885443,
+ "interest_coverage": 11.402918536570867,
+ "cash_to_debt": 0.1333465257198605,
+ "ev": 5251736469.268036,
+ "ev_to_sales": 1.3384578390793322,
+ "ev_to_ebitda": 12.070238128578012,
+ "pe_ttm": 16.565142882503405,
+ "pe_trailing": 18.360472,
+ "p_sales": 1.0672271,
+ "p_fcf": 11.673066437530066,
+ "p_book": 3.139174983521148
+}

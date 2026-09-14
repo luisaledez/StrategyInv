@@ -1,0 +1,154 @@
+{
+ "ticker": "DOC",
+ "fetched": "2026-09-14",
+ "market_cap": 13897422398.760796,
+ "shares_out": 689527260.0,
+ "price": 20.155000686645508,
+ "long_name": "Healthpeak Properties, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Healthcare Facilities",
+ "pe_trailing_y": 57.585716,
+ "pe_forward": 143.9643,
+ "peg": 4.32,
+ "p_sales_y": 4.8439903,
+ "eps_trailing_y": 0.35,
+ "eps_forward": 0.14,
+ "earnings_growth_y": 0.682,
+ "earnings_growth_q_y": 0.668,
+ "bs_date": "2026-06-30",
+ "cash": 1626827000.0,
+ "total_debt": 10320380000.0,
+ "current_debt": 1495994000.0,
+ "lease_obligations": 288194000.0,
+ "equity": 7844750000.0,
+ "net_debt": 8693553000.0,
+ "ocf_ttm": 1231026000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 1231026000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -101665000.0,
+ "stock_issuance_ttm": 1492567000.0,
+ "revenue_ttm": 2949806000.0,
+ "net_income_ttm": 243297000.0,
+ "ebitda_ttm": 1886442000.0,
+ "ebit_ttm": 782318000.0,
+ "interest_ttm": 336994000.0,
+ "revenue_yoy_last_q": 0.11122808735677214,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 771579000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 752952000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 719402000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 705873000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 694348000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.16
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.17
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.05
+  }
+ ],
+ "eps_ttm": 0.35,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7222222222222222,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5999999999999999,
+ "eps_forward_growth": -0.5999999999999999,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.568258078563569
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5698782923745471
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5998718379987823
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5864383536415191
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6022441196633388
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2822512000.0,
+   "eps": 0.1,
+   "net_income": 71347000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2700449000.0,
+   "eps": 0.36,
+   "net_income": 243142000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2181003000.0,
+   "eps": 0.56,
+   "net_income": 306009000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2061178000.0,
+   "eps": 0.92,
+   "net_income": 500449000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.00784378020459131,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1495994000.0,
+ "gap_24m": -130833000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.608439061471278,
+ "interest_coverage": 2.32145972925334,
+ "cash_to_debt": 0.15763247089738944,
+ "ev": 22590975398.760796,
+ "ev_to_sales": 7.658461403482397,
+ "ev_to_ebitda": 11.975441279806534,
+ "pe_ttm": 57.12122384887933,
+ "pe_trailing": 57.585716,
+ "p_sales": 4.8439903,
+ "p_fcf": 11.289300468682868,
+ "p_book": 1.7715570794175461
+}

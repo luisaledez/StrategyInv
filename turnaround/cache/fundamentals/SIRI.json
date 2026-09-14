@@ -1,0 +1,154 @@
+{
+ "ticker": "SIRI",
+ "fetched": "2026-09-14",
+ "market_cap": 10004145427.744652,
+ "shares_out": 337066891.0,
+ "price": 29.68000030517578,
+ "long_name": "Sirius XM Holdings Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Entertainment",
+ "pe_trailing_y": 11.919679,
+ "pe_forward": 8.8993635,
+ "peg": 1.16,
+ "p_sales_y": 1.1628671,
+ "eps_trailing_y": 2.49,
+ "eps_forward": 3.33507,
+ "earnings_growth_y": 0.237,
+ "earnings_growth_q_y": 0.166,
+ "bs_date": "2026-06-30",
+ "cash": 174000000.0,
+ "total_debt": 9455000000.0,
+ "current_debt": 2000000.0,
+ "lease_obligations": null,
+ "equity": 11908000000.0,
+ "net_debt": 9281000000.0,
+ "ocf_ttm": 2103000000.0,
+ "capex_ttm": -554000000.0,
+ "fcf_ttm": 1549000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -94000000.0,
+ "stock_issuance_ttm": -94000000.0,
+ "revenue_ttm": 8603000000.0,
+ "net_income_ttm": 880000000.0,
+ "ebitda_ttm": 2250000000.0,
+ "ebit_ttm": 1611000000.0,
+ "interest_ttm": 450000000.0,
+ "revenue_yoy_last_q": 0.010289990645462987,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2160000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2091000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2193000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2159000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2138000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.84
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.57
+  }
+ ],
+ "eps_ttm": 2.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 0.22807017543859653,
+ "eps_forward_growth": 0.334028,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4736111111111111
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4729794356767097
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4797081623347013
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4678091709124595
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4677268475210477
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8558000000.0,
+   "eps": 2.23,
+   "net_income": 805000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8699000000.0,
+   "eps": -6.14,
+   "net_income": -1665000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8953000000.0,
+   "eps": 3.2,
+   "net_income": 786000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9003000000.0,
+   "eps": 3.1,
+   "net_income": 908000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.0010507160789853254,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2000000.0,
+ "gap_24m": -172000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.124888888888889,
+ "interest_coverage": 3.58,
+ "cash_to_debt": 0.01840296139608673,
+ "ev": 19285145427.74465,
+ "ev_to_sales": 2.2416767903922645,
+ "ev_to_ebitda": 8.57117574566429,
+ "pe_ttm": 11.368347076982559,
+ "pe_trailing": 11.919679,
+ "p_sales": 1.1628671,
+ "p_fcf": 6.458454117330311,
+ "p_book": 0.8401197033712338
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "PATH",
+ "fetched": "2026-09-14",
+ "market_cap": 7736552185.768508,
+ "shares_out": 521155409.0,
+ "price": 14.845000267028809,
+ "long_name": "UiPath, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 22.156715,
+ "pe_forward": 16.1194,
+ "peg": 0.5,
+ "p_sales_y": 4.495753,
+ "eps_trailing_y": 0.67,
+ "eps_forward": 0.92094,
+ "earnings_growth_y": 22.808,
+ "earnings_growth_q_y": 21.783,
+ "bs_date": "2026-07-31",
+ "cash": 1283990000.0,
+ "total_debt": 79760000.0,
+ "current_debt": 10322000.0,
+ "lease_obligations": 79760000.0,
+ "equity": 1948551000.0,
+ "net_debt": -1204230000.0,
+ "ocf_ttm": 373246000.0,
+ "capex_ttm": -10289000.0,
+ "fcf_ttm": 362957000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -268548000.0,
+ "stock_issuance_ttm": -268548000.0,
+ "revenue_ttm": 1720858000.0,
+ "net_income_ttm": 361915000.0,
+ "ebitda_ttm": 178948000.0,
+ "ebit_ttm": 152948000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.13415605095541405,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 410256000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 418382000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 481107000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 411113000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 361728000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.07
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.04
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.19
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.0
+  }
+ ],
+ "eps_ttm": 0.67,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.3745373134328358,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.803568991068991
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.8161297570163152
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.846323167195655
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.8326202285016528
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.822020966029724
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1610572000.0,
+   "eps": 0.52,
+   "net_income": 282330000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1429664000.0,
+   "eps": -0.13,
+   "net_income": -73694000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1308072000.0,
+   "eps": -0.16,
+   "net_income": -89883000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1058581000.0,
+   "eps": -0.6,
+   "net_income": -328352000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.018587014363430465,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 10322000.0,
+ "gap_24m": -1273668000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -6.729496837069987,
+ "interest_coverage": null,
+ "cash_to_debt": 16.098169508525576,
+ "ev": 6532322185.768508,
+ "ev_to_sales": 3.7959681657455224,
+ "ev_to_ebitda": 36.50402455332559,
+ "pe_ttm": 21.376710514260278,
+ "pe_trailing": 22.156715,
+ "p_sales": 4.495753,
+ "p_fcf": 21.31534089649327,
+ "p_book": 3.9704129816302
+}

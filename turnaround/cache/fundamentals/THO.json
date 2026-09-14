@@ -1,0 +1,154 @@
+{
+ "ticker": "THO",
+ "fetched": "2026-09-14",
+ "market_cap": 3869684774.2950516,
+ "shares_out": 52057373.0,
+ "price": 74.33499908447266,
+ "long_name": "THOR Industries, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Recreational Vehicles",
+ "pe_trailing_y": 15.04757,
+ "pe_forward": 16.453186,
+ "peg": 0.71,
+ "p_sales_y": 0.39404953,
+ "eps_trailing_y": 4.94,
+ "eps_forward": 4.51797,
+ "earnings_growth_y": -0.265,
+ "earnings_growth_q_y": -0.281,
+ "bs_date": "2026-04-30",
+ "cash": 371946000.0,
+ "total_debt": 874311000.0,
+ "current_debt": 2867000.0,
+ "lease_obligations": null,
+ "equity": 4314362000.0,
+ "net_debt": 502365000.0,
+ "ocf_ttm": 335720000.0,
+ "capex_ttm": -136073000.0,
+ "fcf_ttm": 199647000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -131702000.0,
+ "stock_issuance_ttm": -131702000.0,
+ "revenue_ttm": 9820300000.0,
+ "net_income_ttm": 262458000.0,
+ "ebitda_ttm": 636712000.0,
+ "ebit_ttm": 368470000.0,
+ "interest_ttm": 38150000.0,
+ "revenue_yoy_last_q": -0.039131329935995884,
+ "revenue_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 2781538000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2125856000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2389123000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2523783000.0
+  },
+  {
+   "period": "2025-04-30",
+   "value": 2894816000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 1.86
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.34
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.41
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2.36
+  },
+  {
+   "period": "2025-04-30",
+   "value": 2.53
+  }
+ ],
+ "eps_ttm": 4.970000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.020242914979757165,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2648221343873517,
+ "eps_forward_growth": -0.09095171026156956,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 0.12754454549964803
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.118189566932097
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.13434804319409255
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.14695518592525586
+  },
+  {
+   "period": "2025-04-30",
+   "value": 0.15307328686866453
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9579490000.0,
+   "eps": 4.84,
+   "net_income": 258559000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10043408000.0,
+   "eps": 4.94,
+   "net_income": 265308000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11121605000.0,
+   "eps": 6.95,
+   "net_income": 374271000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 16312525000.0,
+   "eps": 20.59,
+   "net_income": 1137804000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.021543573919704073,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2867000.0,
+ "gap_24m": -369079000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7889987938031637,
+ "interest_coverage": 9.658453473132372,
+ "cash_to_debt": 0.4254161276708174,
+ "ev": 4372049774.295052,
+ "ev_to_sales": 0.4452053169755559,
+ "ev_to_ebitda": 6.86660495529384,
+ "pe_ttm": 14.744015325480845,
+ "pe_trailing": 15.04757,
+ "p_sales": 0.39404953,
+ "p_fcf": 19.3826342208751,
+ "p_book": 0.8969309423490777
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "T",
+ "fetched": "2026-09-14",
+ "market_cap": 181074285573.29465,
+ "shares_out": 6852385650.0,
+ "price": 26.424999237060547,
+ "long_name": "AT&T Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Telecom Services",
+ "pe_trailing_y": 8.721122,
+ "pe_forward": 10.307287,
+ "peg": 1.58,
+ "p_sales_y": 1.4231038,
+ "eps_trailing_y": 3.03,
+ "eps_forward": 2.56372,
+ "earnings_growth_y": 0.062,
+ "earnings_growth_q_y": 0.028,
+ "bs_date": "2026-06-30",
+ "cash": 17570000000.0,
+ "total_debt": 162888000000.0,
+ "current_debt": 9323000000.0,
+ "lease_obligations": 18934000000.0,
+ "equity": 110444000000.0,
+ "net_debt": 145318000000.0,
+ "ocf_ttm": 39899000000.0,
+ "capex_ttm": -22245000000.0,
+ "fcf_ttm": 17654000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -7990000000.0,
+ "stock_issuance_ttm": -7985000000.0,
+ "revenue_ttm": 127239000000.0,
+ "net_income_ttm": 21558000000.0,
+ "ebitda_ttm": 53702000000.0,
+ "ebit_ttm": 33325000000.0,
+ "interest_ttm": 7187000000.0,
+ "revenue_yoy_last_q": 0.02304924303822098,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 31558000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 31506000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 33466000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 30709000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 30847000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.66
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.54
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.53
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.62
+  }
+ ],
+ "eps_ttm": 3.0200000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.040268456375839,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.06451612903225823,
+ "eps_forward_growth": -0.15108609271523188,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.618258444768363
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6011553354916523
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5572222554234149
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6151291152430883
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6061205303595163
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 125648000000.0,
+   "eps": 3.04,
+   "net_income": 21953000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 122336000000.0,
+   "eps": 1.49,
+   "net_income": 10948000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 122428000000.0,
+   "eps": 1.97,
+   "net_income": 14400000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 120741000000.0,
+   "eps": -1.13,
+   "net_income": -8524000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.03946109302384171,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9323000000.0,
+ "gap_24m": -8247000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.706007225056795,
+ "interest_coverage": 4.636844302212328,
+ "cash_to_debt": 0.10786552723343647,
+ "ev": 326392285573.2947,
+ "ev_to_sales": 2.565190590725286,
+ "ev_to_ebitda": 6.077842269809219,
+ "pe_ttm": 8.399400945045674,
+ "pe_trailing": 8.721122,
+ "p_sales": 1.4231038,
+ "p_fcf": 10.256841824702313,
+ "p_book": 1.6395122014169592
+}

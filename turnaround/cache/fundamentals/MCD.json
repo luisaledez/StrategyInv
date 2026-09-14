@@ -1,0 +1,154 @@
+{
+ "ticker": "MCD",
+ "fetched": "2026-09-14",
+ "market_cap": 182069095557.7316,
+ "shares_out": 707641531.0,
+ "price": 257.2900085449219,
+ "long_name": "McDonald's Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 20.917887,
+ "pe_forward": 18.407797,
+ "peg": 2.18,
+ "p_sales_y": 6.5724173,
+ "eps_trailing_y": 12.3,
+ "eps_forward": 13.97723,
+ "earnings_growth_y": 0.057,
+ "earnings_growth_q_y": 0.048,
+ "bs_date": "2026-06-30",
+ "cash": 822000000.0,
+ "total_debt": 54592000000.0,
+ "current_debt": 690000000.0,
+ "lease_obligations": 14729000000.0,
+ "equity": -1022000000.0,
+ "net_debt": 53770000000.0,
+ "ocf_ttm": 11344000000.0,
+ "capex_ttm": -3583000000.0,
+ "fcf_ttm": 7761000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2326000000.0,
+ "stock_issuance_ttm": -2326000000.0,
+ "revenue_ttm": 27702000000.0,
+ "net_income_ttm": 8787000000.0,
+ "ebitda_ttm": 15075000000.0,
+ "ebit_ttm": 12809000000.0,
+ "interest_ttm": 1625000000.0,
+ "revenue_yoy_last_q": 0.03755662721028785,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7100000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6517000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7008000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7077000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6843000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.32
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.78
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.03
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.14
+  }
+ ],
+ "eps_ttm": 12.309999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.049165935030728525,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.0573248407643312,
+ "eps_forward_growth": 0.1354370430544274,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5801408450704225
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5589995396654902
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5750570776255708
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5799067401441289
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.578985824930586
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 26885000000.0,
+   "eps": 11.95,
+   "net_income": 8563000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 25920000000.0,
+   "eps": 11.39,
+   "net_income": 8223000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 25495000000.0,
+   "eps": 11.56,
+   "net_income": 8469000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 23182000000.0,
+   "eps": 8.33,
+   "net_income": 6177000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.008356034121839606,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 690000000.0,
+ "gap_24m": -132000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.5668325041459368,
+ "interest_coverage": 7.882461538461539,
+ "cash_to_debt": 0.015057151230949589,
+ "ev": 235839095557.7316,
+ "ev_to_sales": 8.513432082800216,
+ "ev_to_ebitda": 15.644384448274069,
+ "pe_ttm": 20.720279453480323,
+ "pe_trailing": 20.917887,
+ "p_sales": 6.5724173,
+ "p_fcf": 23.459489184091172,
+ "p_book": null
+}

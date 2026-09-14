@@ -67,6 +67,17 @@ def thesis_status(ticker: str) -> str | None:
     return "?"
 
 
+def scan_meta() -> dict:
+    p = OUT / "scan_meta.json"
+    default = {"threshold": 35.0, "rsi_period": 14, "lookback": 6, "universe": "sp500,sp400"}
+    if not p.exists():
+        return default
+    try:
+        return default | json.loads(p.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return default
+
+
 def as_of() -> str:
     """Date the scan's price data runs through (taken from the data itself, since
     file timestamps are not meaningful in a deployed bundle)."""
@@ -150,7 +161,9 @@ def _monthly_from_chart_data(ticker: str) -> pd.DataFrame | None:
     return df.set_index("Date")
 
 
-def chart_svg(ticker: str, years: int = 8, threshold: float = 35.0) -> str:
+def chart_svg(ticker: str, years: int = 8, threshold: float | None = None) -> str:
+    if threshold is None:
+        threshold = float(scan_meta()["threshold"])
     d = prices.load(ticker)
     if d is not None:
         m = ind.monthly_bars(d)
@@ -316,10 +329,10 @@ if(document.getElementById('rescan'))fetch('/status').then(r=>r.json()).then(r=>
 </script></body></html>"""
 
 HOME = """{% extends "base" %}{% block body %}
-<h1>Turnaround watchlist <span class="muted small">monthly RSI(14) &lt; 35 · S&amp;P 500 + 400</span></h1>
+<h1>Turnaround watchlist <span class="muted small">monthly RSI({{ meta.rsi_period }}) &lt; {{ meta.threshold|num(0) }} on the last completed month, or within the last {{ meta.lookback }} months · {{ meta.universe }}</span></h1>
 <div class="cards">
 <div class="card"><span class="muted">qualifiers</span><b>{{ rows|length }}</b></div>
-<div class="card"><span class="muted">oversold now</span><b>{{ rows|selectattr('oversold_now')|list|length }}</b></div>
+<div class="card"><span class="muted">below {{ meta.threshold|num(0) }} now</span><b>{{ rows|selectattr('oversold_now')|list|length }}</b></div>
 <div class="card"><span class="muted">drawdown &gt; 40%</span><b>{{ rows|selectattr('priority')|list|length }}</b></div>
 <div class="card"><span class="muted">survival PASS</span><b class="pos">{{ gates.get('PASS',0) }}</b></div>
 <div class="card"><span class="muted">REVIEW / FAIL</span><b>{{ gates.get('REVIEW',0) }} / {{ gates.get('FAIL',0) }}</b></div>
@@ -329,7 +342,7 @@ HOME = """{% extends "base" %}{% block body %}
 <div class="toolbar"><input id="q" placeholder="search ticker / name" size="24">
 <select id="gate"><option value="">any gate</option><option>PASS</option><option>REVIEW</option><option>FAIL</option><option>UNKNOWN</option></select>
 <select id="sector"><option value="">any sector</option>{% for s in sectors %}<option>{{ s }}</option>{% endfor %}</select>
-<label><input type="checkbox" id="active"> oversold now only</label>
+<label><input type="checkbox" id="active"> below {{ meta.threshold|num(0) }} now only</label>
 <label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label><span id="count" class="muted small"></span></div>
 <table class="sortable filterable"><thead><tr>
 <th class="l">Ticker</th><th class="l">Name</th><th class="l">Sector</th><th>RSI(m)</th><th>Prev</th><th>Oversold since</th><th>Months</th><th>DD 5y</th>
@@ -385,7 +398,7 @@ TICKER = """{% extends "base" %}{% block body %}
 <div class="grid2">
 <div><h2>Screen facts</h2><table class="kv">
 <tr><td>Monthly RSI (last completed / prev / partial month)</td><td>{{ r.rsi_m|num }} / {{ r.rsi_m_prev|num }} / {{ r.rsi_partial_month|num }}</td></tr>
-<tr><td>Qualification date (first oversold month)</td><td>{{ r.episode_start }}</td></tr>
+<tr><td>Qualification date (first month with RSI below {{ meta.threshold|num(0) }})</td><td>{{ r.episode_start }}</td></tr>
 <tr><td>Episode months / min RSI / exit</td><td>{{ r.episode_months }} / {{ r.episode_min_rsi|num }} / {{ r.episode_exit or 'still active' }}</td></tr>
 <tr><td>Distress episodes in 15 years</td><td>{{ r.episodes_15y }}</td></tr>
 <tr><td>Drawdown from 5-year high</td><td class="neg">{{ r.drawdown_5y|pct }} <span class="muted">(high {{ r.high_5y }} on {{ r.high_date }})</span></td></tr>
@@ -466,14 +479,14 @@ def home():
     rows = load_watchlist()
     gates = pd.Series([r.get("survival_gate") or "UNKNOWN" for r in rows]).value_counts().to_dict()
     sectors = sorted({r.get("sector") or "" for r in rows} - {""})
-    return render_template_string(HOME, rows=rows, gates=gates, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, nav="home", title="Watchlist")
+    return render_template_string(HOME, rows=rows, gates=gates, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="home", title="Watchlist")
 
 
 @app.route("/all")
 def all_tickers():
     rows = load_all()
     sectors = sorted({r.get("sector") or "" for r in rows} - {""})
-    return render_template_string(ALL, rows=rows, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, nav="all", title="All tickers")
+    return render_template_string(ALL, rows=rows, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="all", title="All tickers")
 
 
 @app.route("/ticker/<t>")
@@ -490,7 +503,8 @@ def ticker(t):
         if t not in d:
             abort(404)
         from scan import price_metrics
-        r = price_metrics(t, d[t], 35.0, 6, None) or {}
+        mt = scan_meta()
+        r = price_metrics(t, d[t], float(mt["threshold"]), int(mt["lookback"]), None) or {}
     import fundamentals
     try:
         f = fundamentals.get(t)
@@ -535,7 +549,7 @@ def ticker(t):
     thesis_html = markdown(tp.read_text(encoding="utf-8"), extensions=["tables"]) if tp.exists() else None
     name = r.get("name") or f.get("long_name") or ""
     return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t), epsg=epsg, vhist=vhist, vcharts=vcharts,
-                                  thesis_html=thesis_html, as_of=as_of(), on_vercel=ON_VERCEL, nav="", title=t)
+                                  thesis_html=thesis_html, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="", title=t)
 
 
 @app.route("/thesis/<t>", methods=["POST"])
@@ -551,7 +565,7 @@ def make_thesis(t):
 def study():
     p = OUT / "episodes_summary.md"
     html = markdown(p.read_text(encoding="utf-8"), extensions=["tables"]) if p.exists() else None
-    return render_template_string(STUDY, html=html, as_of=as_of(), on_vercel=ON_VERCEL, nav="study", title="Study")
+    return render_template_string(STUDY, html=html, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="study", title="Study")
 
 
 def _run_scan():

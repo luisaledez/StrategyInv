@@ -1,0 +1,154 @@
+{
+ "ticker": "WLK",
+ "fetched": "2026-09-14",
+ "market_cap": 8987931454.842468,
+ "shares_out": 127796548.0,
+ "price": 70.33000183105469,
+ "long_name": "Westlake Corporation",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": null,
+ "pe_forward": 21.751232,
+ "peg": 1.7,
+ "p_sales_y": 0.79581475,
+ "eps_trailing_y": -9.58,
+ "eps_forward": 3.23338,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1852000000.0,
+ "total_debt": 5876000000.0,
+ "current_debt": 128000000.0,
+ "lease_obligations": 809000000.0,
+ "equity": 8705000000.0,
+ "net_debt": 4024000000.0,
+ "ocf_ttm": 631000000.0,
+ "capex_ttm": -896000000.0,
+ "fcf_ttm": -265000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -63000000.0,
+ "stock_issuance_ttm": -63000000.0,
+ "revenue_ttm": 11294000000.0,
+ "net_income_ttm": -1235000000.0,
+ "ebitda_ttm": 83000000.0,
+ "ebit_ttm": -1087000000.0,
+ "interest_ttm": 203000000.0,
+ "revenue_yoy_last_q": 0.10768709786657626,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3271000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2652000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2533000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2838000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2953000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.31
+  },
+  {
+   "period": "2025-12-31",
+   "value": -4.22
+  },
+  {
+   "period": "2025-09-30",
+   "value": -6.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.11
+  }
+ ],
+ "eps_ttm": -9.58,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.521551724137931,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1993274228064812
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.042232277526395176
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.03434662455586261
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.08315715292459479
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08736877751439215
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11170000000.0,
+   "eps": -11.7,
+   "net_income": -1508000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 12142000000.0,
+   "eps": 4.64,
+   "net_income": 602000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 12548000000.0,
+   "eps": 3.7,
+   "net_income": 479000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 15794000000.0,
+   "eps": 17.34,
+   "net_income": 2247000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.0034516543575490166,
+ "fcf_burn_annual": 265000000.0,
+ "runway_months": 83.86415094339623,
+ "need_24m": 658000000.0,
+ "gap_24m": -1194000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 48.48192771084337,
+ "interest_coverage": -5.354679802955665,
+ "cash_to_debt": 0.3151803948264125,
+ "ev": 13011931454.842468,
+ "ev_to_sales": 1.1521100987110384,
+ "ev_to_ebitda": 156.77025849207794,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.79581475,
+ "p_fcf": null,
+ "p_book": 1.0325021774661078
+}

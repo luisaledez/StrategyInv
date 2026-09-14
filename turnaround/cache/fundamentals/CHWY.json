@@ -1,0 +1,154 @@
+{
+ "ticker": "CHWY",
+ "fetched": "2026-09-14",
+ "market_cap": 8675599301.689613,
+ "shares_out": 401927249.0,
+ "price": 21.584999084472656,
+ "long_name": "Chewy, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Internet Retail",
+ "pe_trailing_y": 33.20769,
+ "pe_forward": 11.55248,
+ "peg": 0.42,
+ "p_sales_y": 0.66384566,
+ "eps_trailing_y": 0.65,
+ "eps_forward": 1.86843,
+ "earnings_growth_y": 0.415,
+ "earnings_growth_q_y": 0.298,
+ "bs_date": "2026-07-31",
+ "cash": 612200000.0,
+ "total_debt": 1118900000.0,
+ "current_debt": 3000000.0,
+ "lease_obligations": 527200000.0,
+ "equity": 370500000.0,
+ "net_debt": 506700000.0,
+ "ocf_ttm": 717200000.0,
+ "capex_ttm": -149100000.0,
+ "fcf_ttm": 568100000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -509900000.0,
+ "stock_issuance_ttm": -509900000.0,
+ "revenue_ttm": 13068700000.0,
+ "net_income_ttm": 273700000.0,
+ "ebitda_ttm": 510000000.0,
+ "ebit_ttm": 366100000.0,
+ "interest_ttm": 11500000.0,
+ "revenue_yoy_last_q": 0.07280458733329032,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 3330200000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 3357200000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 3264700000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 3116600000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 3104200000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.2
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.23
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.09
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.14
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.14
+  }
+ ],
+ "eps_ttm": 0.66,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.4285714285714286,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4285714285714286,
+ "eps_forward_growth": 1.8309545454545453,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.303645426701099
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.30126295722625995
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.29396269182466994
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.2978245523968427
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.30352425745763806
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 12601500000.0,
+   "eps": 0.52,
+   "net_income": 222800000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 11861300000.0,
+   "eps": 0.91,
+   "net_income": 392700000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11147700000.0,
+   "eps": 0.09,
+   "net_income": 39600000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10119000000.0,
+   "eps": 0.12,
+   "net_income": 49899000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03146813159151085,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3000000.0,
+ "gap_24m": -609200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9935294117647059,
+ "interest_coverage": 31.83478260869565,
+ "cash_to_debt": 0.5471445169362767,
+ "ev": 9182299301.689613,
+ "ev_to_sales": 0.7026176514641558,
+ "ev_to_ebitda": 18.004508434685516,
+ "pe_ttm": 31.697476440225113,
+ "pe_trailing": 33.20769,
+ "p_sales": 0.66384566,
+ "p_fcf": 15.27125383152546,
+ "p_book": 23.41592254167237
+}

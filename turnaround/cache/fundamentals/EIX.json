@@ -1,0 +1,154 @@
+{
+ "ticker": "EIX",
+ "fetched": "2026-09-14",
+ "market_cap": 21649633812.642513,
+ "shares_out": 384813979.0,
+ "price": 56.2599983215332,
+ "long_name": "Edison International",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Electric",
+ "pe_trailing_y": 5.8059855,
+ "pe_forward": 8.647721,
+ "peg": 2.49,
+ "p_sales_y": 1.1146389,
+ "eps_trailing_y": 9.69,
+ "eps_forward": 6.50576,
+ "earnings_growth_y": 0.551,
+ "earnings_growth_q_y": 0.557,
+ "bs_date": "2026-06-30",
+ "cash": 242000000.0,
+ "total_debt": 43540000000.0,
+ "current_debt": 5439000000.0,
+ "lease_obligations": 1137000000.0,
+ "equity": 17529000000.0,
+ "net_debt": 43298000000.0,
+ "ocf_ttm": 6391000000.0,
+ "capex_ttm": -6780000000.0,
+ "fcf_ttm": -389000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2235000000.0,
+ "stock_issuance_ttm": -33000000.0,
+ "revenue_ttm": 19423000000.0,
+ "net_income_ttm": 3942000000.0,
+ "ebitda_ttm": 10123000000.0,
+ "ebit_ttm": 6786000000.0,
+ "interest_ttm": 1772000000.0,
+ "revenue_yoy_last_q": -0.04094210873871895,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4357000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4103000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5213000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5750000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4543000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.38
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.16
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.89
+  },
+  {
+   "period": "2025-03-31",
+   "value": 3.72
+  }
+ ],
+ "eps_ttm": 5.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.489425981873112,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6290322580645162,
+ "eps_forward_growth": 0.12168275862068967,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4932292862061051
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5157202047282476
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5419144446575868
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.49982608695652175
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3975346687211094
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 19317000000.0,
+   "eps": 11.55,
+   "net_income": 4701000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 17599000000.0,
+   "eps": 3.31,
+   "net_income": 1546000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 16338000000.0,
+   "eps": 3.11,
+   "net_income": 1407000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 17220000000.0,
+   "eps": 1.6,
+   "net_income": 824000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 3.560416923953369e-06,
+ "fcf_burn_annual": 389000000.0,
+ "runway_months": 7.4652956298200515,
+ "need_24m": 6217000000.0,
+ "gap_24m": 5975000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 4.277190556159241,
+ "interest_coverage": 3.829571106094808,
+ "cash_to_debt": 0.005558107487367937,
+ "ev": 64947633812.64252,
+ "ev_to_sales": 3.343851815509577,
+ "ev_to_ebitda": 6.415848445386004,
+ "pe_ttm": 5.492043077788562,
+ "pe_trailing": 5.8059855,
+ "p_sales": 1.1146389,
+ "p_fcf": null,
+ "p_book": 1.235075236045554
+}

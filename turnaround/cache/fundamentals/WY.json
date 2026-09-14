@@ -1,0 +1,154 @@
+{
+ "ticker": "WY",
+ "fetched": "2026-09-14",
+ "market_cap": 16007146469.911854,
+ "shares_out": 721042609.0,
+ "price": 22.200000762939453,
+ "long_name": "Weyerhaeuser Company",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 33.636364,
+ "pe_forward": 33.013115,
+ "peg": 1.86,
+ "p_sales_y": 2.3351343,
+ "eps_trailing_y": 0.66,
+ "eps_forward": 0.67246,
+ "earnings_growth_y": 0.871,
+ "earnings_growth_q_y": 0.862,
+ "bs_date": "2026-06-30",
+ "cash": 527000000.0,
+ "total_debt": 5449000000.0,
+ "current_debt": 146000000.0,
+ "lease_obligations": 24000000.0,
+ "equity": 9456000000.0,
+ "net_debt": 4922000000.0,
+ "ocf_ttm": 547000000.0,
+ "capex_ttm": -994000000.0,
+ "fcf_ttm": -447000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -55000000.0,
+ "stock_issuance_ttm": -55000000.0,
+ "revenue_ttm": 6852000000.0,
+ "net_income_ttm": 472000000.0,
+ "ebitda_ttm": 1163000000.0,
+ "ebit_ttm": 653000000.0,
+ "interest_ttm": 273000000.0,
+ "revenue_yoy_last_q": -0.009023354564755892,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1867000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1727000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1541000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1717000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1884000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.22
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.11
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.12
+  }
+ ],
+ "eps_ttm": 0.66,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.16666666666666674,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.9166666666666667,
+ "eps_forward_growth": 0.018878787878787717,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1665773968934119
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.18413433700057905
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1044776119402985
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.1188118811881188
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17250530785562632
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6905000000.0,
+   "eps": 0.45,
+   "net_income": 324000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7124000000.0,
+   "eps": 0.54,
+   "net_income": 396000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7674000000.0,
+   "eps": 1.15,
+   "net_income": 839000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10184000000.0,
+   "eps": 2.53,
+   "net_income": 1880000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0015834643651250202,
+ "fcf_burn_annual": 447000000.0,
+ "runway_months": 14.14765100671141,
+ "need_24m": 1040000000.0,
+ "gap_24m": 513000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 4.232158211521926,
+ "interest_coverage": 2.391941391941392,
+ "cash_to_debt": 0.09671499357680308,
+ "ev": 20929146469.911854,
+ "ev_to_sales": 3.0544580370566043,
+ "ev_to_ebitda": 17.995826715315438,
+ "pe_ttm": 33.9134459108302,
+ "pe_trailing": 33.636364,
+ "p_sales": 2.3351343,
+ "p_fcf": null,
+ "p_book": 1.6928031376810335
+}

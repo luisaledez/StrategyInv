@@ -1,0 +1,154 @@
+{
+ "ticker": "AMCR",
+ "fetched": "2026-09-14",
+ "market_cap": 19552553796.960297,
+ "shares_out": 462345690.0,
+ "price": 42.28990173339844,
+ "long_name": "Amcor plc",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "pe_trailing_y": 17.768866,
+ "pe_forward": 9.706933,
+ "peg": 0.95,
+ "p_sales_y": 0.83181125,
+ "eps_trailing_y": 2.38,
+ "eps_forward": 4.35667,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1115000000.0,
+ "total_debt": 14864000000.0,
+ "current_debt": 150000000.0,
+ "lease_obligations": 852000000.0,
+ "equity": 11790000000.0,
+ "net_debt": 13749000000.0,
+ "ocf_ttm": 2151000000.0,
+ "capex_ttm": -922000000.0,
+ "fcf_ttm": 1229000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -72000000.0,
+ "stock_issuance_ttm": -72000000.0,
+ "revenue_ttm": 23506000000.0,
+ "net_income_ttm": 1106000000.0,
+ "ebitda_ttm": 3437000000.0,
+ "ebit_ttm": 1958000000.0,
+ "interest_ttm": 676000000.0,
+ "revenue_yoy_last_q": 0.2589531680440771,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6398000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5914000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5449000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5745000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5082000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.83
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.38
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.565
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.095
+  }
+ ],
+ "eps_ttm": 2.375,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.4874999999999998,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.8343873684210528,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2089715536105033
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2012174501183632
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.19067718847494952
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19564838990426459
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17611176702085793
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 23506000000.0,
+   "eps": 2.38,
+   "net_income": 1106000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 15009000000.0,
+   "eps": 1.6,
+   "net_income": 511000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13640000000.0,
+   "eps": 2.525,
+   "net_income": 730000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14694000000.0,
+   "eps": 3.525,
+   "net_income": 1048000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0020131635417290905,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 150000000.0,
+ "gap_24m": -965000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.000290951411114,
+ "interest_coverage": 2.896449704142012,
+ "cash_to_debt": 0.07501345532831001,
+ "ev": 33301553796.960297,
+ "ev_to_sales": 1.4167256784208413,
+ "ev_to_ebitda": 9.689134069525835,
+ "pe_ttm": 17.678620069584355,
+ "pe_trailing": 17.768866,
+ "p_sales": 0.83181125,
+ "p_fcf": 15.909319606965253,
+ "p_book": 1.6584015094962083
+}

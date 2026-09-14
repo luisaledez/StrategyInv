@@ -1,0 +1,154 @@
+{
+ "ticker": "DT",
+ "fetched": "2026-09-14",
+ "market_cap": 15221741552.581299,
+ "shares_out": 289002128.0,
+ "price": 52.66999816894531,
+ "long_name": "Dynatrace, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 105.34,
+ "pe_forward": 22.91604,
+ "peg": 1.04,
+ "p_sales_y": 7.2945485,
+ "eps_trailing_y": 0.5,
+ "eps_forward": 2.29839,
+ "earnings_growth_y": -0.249,
+ "earnings_growth_q_y": -0.236,
+ "bs_date": "2026-06-30",
+ "cash": 1108864000.0,
+ "total_debt": 159273000.0,
+ "current_debt": 23057000.0,
+ "lease_obligations": 159273000.0,
+ "equity": 2450753000.0,
+ "net_debt": -949591000.0,
+ "ocf_ttm": 598398000.0,
+ "capex_ttm": -27842000.0,
+ "fcf_ttm": 570556000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -709155000.0,
+ "stock_issuance_ttm": -709155000.0,
+ "revenue_ttm": 2095586000.0,
+ "net_income_ttm": 151365000.0,
+ "ebitda_ttm": 298302000.0,
+ "ebit_ttm": 273050000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.1617244406084437,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 554548000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 531716000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 515473000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 493849000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 477349000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.16
+  }
+ ],
+ "eps_ttm": 0.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6603773584905661,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.25,
+ "eps_forward_growth": 3.59678,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8134462661482865
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8093060957353173
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8140814358850997
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8182359385156192
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.821495383880557
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 2018387000.0,
+   "eps": 0.54,
+   "net_income": 162669000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1698683000.0,
+   "eps": 1.59,
+   "net_income": 483684000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1430530000.0,
+   "eps": 0.52,
+   "net_income": 154632000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1158530000.0,
+   "eps": 0.37,
+   "net_income": 107959000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.037681486429382405,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 23057000.0,
+ "gap_24m": -1085807000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.1833209297959786,
+ "interest_coverage": null,
+ "cash_to_debt": 6.9620337408098045,
+ "ev": 14272150552.581299,
+ "ev_to_sales": 6.810577352865165,
+ "ev_to_ebitda": 47.844635813978115,
+ "pe_ttm": 100.56315233099659,
+ "pe_trailing": 105.34,
+ "p_sales": 7.2945485,
+ "p_fcf": 26.67878622358068,
+ "p_book": 6.211046789530116
+}

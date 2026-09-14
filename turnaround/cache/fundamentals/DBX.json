@@ -1,0 +1,154 @@
+{
+ "ticker": "DBX",
+ "fetched": "2026-09-14",
+ "market_cap": 8073644675.723774,
+ "shares_out": 217442619.0,
+ "price": 37.130001068115234,
+ "long_name": "Dropbox, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 20.513813,
+ "pe_forward": 11.177506,
+ "peg": 27.55,
+ "p_sales_y": 3.1891475,
+ "eps_trailing_y": 1.81,
+ "eps_forward": 3.32185,
+ "earnings_growth_y": -0.067,
+ "earnings_growth_q_y": -0.237,
+ "bs_date": "2026-06-30",
+ "cash": 1113800000.0,
+ "total_debt": 3975400000.0,
+ "current_debt": 211100000.0,
+ "lease_obligations": 675200000.0,
+ "equity": -2188300000.0,
+ "net_debt": 2861600000.0,
+ "ocf_ttm": 980500000.0,
+ "capex_ttm": -26700000.0,
+ "fcf_ttm": 953800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1504500000.0,
+ "stock_issuance_ttm": -1504500000.0,
+ "revenue_ttm": 2531600000.0,
+ "net_income_ttm": 442800000.0,
+ "ebitda_ttm": 834800000.0,
+ "ebit_ttm": 679000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.009269618027808901,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 631500000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 629500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 636200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 634400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 625700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.47
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.45
+  }
+ ],
+ "eps_ttm": 1.7999999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.32857142857142874,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.06666666666666676,
+ "eps_forward_growth": 0.8454722222222224,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8020585906571654
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.796505162827641
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.792360892801006
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7977616645649432
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8023014224069043
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2521000000.0,
+   "eps": 1.86,
+   "net_income": 508400000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2548200000.0,
+   "eps": 1.4,
+   "net_income": 452300000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2501600000.0,
+   "eps": 1.31,
+   "net_income": 453600000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2324900000.0,
+   "eps": 1.52,
+   "net_income": 553200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.17838444278234855,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 211100000.0,
+ "gap_24m": -902700000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.4278869190225203,
+ "interest_coverage": null,
+ "cash_to_debt": 0.2801730643457262,
+ "ev": 10935244675.723774,
+ "ev_to_sales": 4.319499397900053,
+ "ev_to_ebitda": 13.099238950315973,
+ "pe_ttm": 18.233163224308434,
+ "pe_trailing": 20.513813,
+ "p_sales": 3.1891475,
+ "p_fcf": 8.464714484927422,
+ "p_book": null
+}

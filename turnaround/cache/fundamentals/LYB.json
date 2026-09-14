@@ -1,0 +1,150 @@
+{
+ "ticker": "LYB",
+ "fetched": "2026-09-14",
+ "market_cap": 20278933439.151367,
+ "shares_out": 323037952.0,
+ "price": 62.775699615478516,
+ "long_name": "LyondellBasell Industries N.V.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": null,
+ "pe_forward": 9.793936,
+ "peg": 1.53,
+ "p_sales_y": 0.65013254,
+ "eps_trailing_y": -0.83,
+ "eps_forward": 6.40965,
+ "earnings_growth_y": 3.96,
+ "earnings_growth_q_y": 3.895,
+ "bs_date": "2026-06-30",
+ "cash": 2630000000.0,
+ "total_debt": 14220000000.0,
+ "current_debt": 1695000000.0,
+ "lease_obligations": 1310000000.0,
+ "equity": 10671000000.0,
+ "net_debt": 11590000000.0,
+ "ocf_ttm": 2973000000.0,
+ "capex_ttm": -1395000000.0,
+ "fcf_ttm": 1578000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 31192000000.0,
+ "net_income_ttm": -353000000.0,
+ "ebitda_ttm": 1909000000.0,
+ "ebit_ttm": 485000000.0,
+ "interest_ttm": 538000000.0,
+ "revenue_yoy_last_q": 0.19835466179159056,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9177000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 7197000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7091000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7727000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7658000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.71
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.38
+  },
+  {
+   "period": "2025-09-30",
+   "value": -2.77
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.54
+  }
+ ],
+ "eps_ttm": -0.14000000000000012,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.563855421686747,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2220769314590825
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.09740169515075726
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.04724298406430687
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.11725119710107415
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.10276834682684774
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 30153000000.0,
+   "eps": -2.34,
+   "net_income": -745000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 33394000000.0,
+   "eps": 4.15,
+   "net_income": 1360000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 33336000000.0,
+   "eps": 6.46,
+   "net_income": 2114000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 50451000000.0,
+   "eps": 11.81,
+   "net_income": 3882000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.004279557964566472,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1695000000.0,
+ "gap_24m": -935000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 6.07124148768989,
+ "interest_coverage": 0.9014869888475836,
+ "cash_to_debt": 0.1849507735583685,
+ "ev": 31868933439.151367,
+ "ev_to_sales": 1.0217021492418366,
+ "ev_to_ebitda": 16.694045803641366,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.65013254,
+ "p_fcf": 12.851035132542059,
+ "p_book": 1.9003779813655108
+}

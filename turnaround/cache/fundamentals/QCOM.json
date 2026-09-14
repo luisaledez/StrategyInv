@@ -1,0 +1,154 @@
+{
+ "ticker": "QCOM",
+ "fetched": "2026-09-14",
+ "market_cap": 193014546996.85068,
+ "shares_out": 1068060487.0,
+ "price": 180.71499633789062,
+ "long_name": "QUALCOMM Incorporated",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 20.653143,
+ "pe_forward": 17.710194,
+ "peg": 0.81,
+ "p_sales_y": 4.379826,
+ "eps_trailing_y": 8.75,
+ "eps_forward": 10.20401,
+ "earnings_growth_y": -0.23,
+ "earnings_growth_q_y": -0.249,
+ "bs_date": "2026-06-30",
+ "cash": 8304000000.0,
+ "total_debt": 15270000000.0,
+ "current_debt": 2489000000.0,
+ "lease_obligations": null,
+ "equity": 27658000000.0,
+ "net_debt": 6966000000.0,
+ "ocf_ttm": 12401000000.0,
+ "capex_ttm": -1985000000.0,
+ "fcf_ttm": 10416000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -9250000000.0,
+ "stock_issuance_ttm": -8824000000.0,
+ "revenue_ttm": 44069000000.0,
+ "net_income_ttm": 9259000000.0,
+ "ebitda_ttm": 13474000000.0,
+ "ebit_ttm": 11901000000.0,
+ "interest_ttm": 689000000.0,
+ "revenue_yoy_last_q": -0.04032802701398941,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9947000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 10599000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 12252000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 11271000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 10365000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.87
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6.88
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.78
+  },
+  {
+   "period": "2025-09-30",
+   "value": -2.89
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.43
+  }
+ ],
+ "eps_ttm": 8.639999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.44147157190635455,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2304526748971194,
+ "eps_forward_growth": 0.18101967592592616,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5305117120739922
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5376922351165204
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.545543584720862
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5533670481767368
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5556198745779064
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 44284000000.0,
+   "eps": 5.01,
+   "net_income": 5541000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 38962000000.0,
+   "eps": 8.97,
+   "net_income": 10142000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 35820000000.0,
+   "eps": 6.42,
+   "net_income": 7232000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 44200000000.0,
+   "eps": 11.37,
+   "net_income": 12936000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.024907749077490826,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2489000000.0,
+ "gap_24m": -5815000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.5169956954133887,
+ "interest_coverage": 17.272859216255444,
+ "cash_to_debt": 0.543811394891945,
+ "ev": 199980546996.85068,
+ "ev_to_sales": 4.537896185455778,
+ "ev_to_ebitda": 14.841958364023354,
+ "pe_ttm": 20.846154767993376,
+ "pe_trailing": 20.653143,
+ "p_sales": 4.379826,
+ "p_fcf": 18.53058246897568,
+ "p_book": 6.978615481844337
+}

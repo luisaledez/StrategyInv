@@ -1,0 +1,154 @@
+{
+ "ticker": "PCG",
+ "fetched": "2026-09-14",
+ "market_cap": 30161414105.56096,
+ "shares_out": 2202366906.0,
+ "price": 13.694999694824219,
+ "long_name": "PG&E Corporation",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Electric",
+ "pe_trailing_y": 9.852518,
+ "pe_forward": 7.601492,
+ "peg": 0.58,
+ "p_sales_y": 1.167373,
+ "eps_trailing_y": 1.39,
+ "eps_forward": 1.80162,
+ "earnings_growth_y": 0.398,
+ "earnings_growth_q_y": 0.407,
+ "bs_date": "2026-06-30",
+ "cash": 972000000.0,
+ "total_debt": 64703000000.0,
+ "current_debt": 2541000000.0,
+ "lease_obligations": 485000000.0,
+ "equity": 33901000000.0,
+ "net_debt": 63731000000.0,
+ "ocf_ttm": 8147000000.0,
+ "capex_ttm": -12410000000.0,
+ "fcf_ttm": -4263000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 25837000000.0,
+ "net_income_ttm": 3166000000.0,
+ "ebitda_ttm": 10553000000.0,
+ "ebit_ttm": 5861000000.0,
+ "interest_ttm": 3101000000.0,
+ "revenue_yoy_last_q": 0.0006781959986437158,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5902000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6881000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6804000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6250000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5898000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.33
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.28
+  }
+ ],
+ "eps_ttm": 1.3299999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.026086956521739202,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1785714285714286,
+ "eps_forward_growth": 0.3546015037593986,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.415282954930532
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.39790728091847116
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.38756613756613756
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.39408
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3947100712105799
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 24935000000.0,
+   "eps": 1.18,
+   "net_income": 2703000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 24419000000.0,
+   "eps": 1.15,
+   "net_income": 2512000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 24428000000.0,
+   "eps": 1.05,
+   "net_income": 2256000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 21680000000.0,
+   "eps": 0.84,
+   "net_income": 1814000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.3660549789842915,
+ "fcf_burn_annual": 4263000000.0,
+ "runway_months": 2.736101337086559,
+ "need_24m": 11067000000.0,
+ "gap_24m": 10095000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 6.039135790770397,
+ "interest_coverage": 1.8900354724282489,
+ "cash_to_debt": 0.015022487365346275,
+ "ev": 93892414105.56096,
+ "ev_to_sales": 3.6340292644486962,
+ "ev_to_ebitda": 8.897224874970242,
+ "pe_ttm": 9.526662699166444,
+ "pe_trailing": 9.852518,
+ "p_sales": 1.167373,
+ "p_fcf": null,
+ "p_book": 0.8896909856806867
+}

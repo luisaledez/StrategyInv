@@ -1,0 +1,154 @@
+{
+ "ticker": "APPF",
+ "fetched": "2026-09-14",
+ "market_cap": 7791560982.105469,
+ "shares_out": 35416992.0,
+ "price": 219.9949951171875,
+ "long_name": "AppFolio, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 49.998863,
+ "pe_forward": 26.092964,
+ "peg": 7.45,
+ "p_sales_y": 7.4855304,
+ "eps_trailing_y": 4.4,
+ "eps_forward": 8.4312,
+ "earnings_growth_y": 0.182,
+ "earnings_growth_q_y": 0.155,
+ "bs_date": "2026-06-30",
+ "cash": 221685000.0,
+ "total_debt": 35775000.0,
+ "current_debt": 5115000.0,
+ "lease_obligations": 35775000.0,
+ "equity": 526142000.0,
+ "net_debt": -185910000.0,
+ "ocf_ttm": 272899000.0,
+ "capex_ttm": -7394000.0,
+ "fcf_ttm": 265505000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -125010000.0,
+ "stock_issuance_ttm": -124059000.0,
+ "revenue_ttm": 1040883000.0,
+ "net_income_ttm": 157528000.0,
+ "ebitda_ttm": 205237000.0,
+ "ebit_ttm": 182347000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.19335243553008596,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 281124000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 262214000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 248192000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 249353000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 235575000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.1
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.93
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.99
+  }
+ ],
+ "eps_ttm": 4.38,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.30090090090090094,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.18181818181818166,
+ "eps_forward_growth": 0.9249315068493151,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6350542820961569
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6377958461409383
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6352017792676637
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6331465833577298
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6441600339594609
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 950822000.0,
+   "eps": 3.88,
+   "net_income": 140923000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 794202000.0,
+   "eps": 5.55,
+   "net_income": 204068000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 620445000.0,
+   "eps": 0.07,
+   "net_income": 2702000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 471883000.0,
+   "eps": -1.95,
+   "net_income": -68119000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.013759889038155504,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5115000.0,
+ "gap_24m": -216570000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.9058308199788537,
+ "interest_coverage": null,
+ "cash_to_debt": 6.196645702306079,
+ "ev": 7605650982.105469,
+ "ev_to_sales": 7.306922086445325,
+ "ev_to_ebitda": 37.05789395725658,
+ "pe_ttm": 49.46143531375672,
+ "pe_trailing": 49.998863,
+ "p_sales": 7.4855304,
+ "p_fcf": 29.346193036309934,
+ "p_book": 14.808855750169096
+}

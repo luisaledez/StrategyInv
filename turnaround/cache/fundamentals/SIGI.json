@@ -1,0 +1,133 @@
+{
+ "ticker": "SIGI",
+ "fetched": "2026-09-14",
+ "market_cap": 5326670511.905685,
+ "shares_out": 59569119.0,
+ "price": 89.41999816894531,
+ "long_name": "Selective Insurance Group, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Property & Casualty",
+ "pe_trailing_y": 11.094292,
+ "pe_forward": 10.190313,
+ "peg": 0.28,
+ "p_sales_y": 0.97362685,
+ "eps_trailing_y": 8.06,
+ "eps_forward": 8.775,
+ "earnings_growth_y": 0.551,
+ "earnings_growth_q_y": 0.505,
+ "bs_date": "2026-06-30",
+ "cash": 920525000.0,
+ "total_debt": 900959000.0,
+ "current_debt": null,
+ "lease_obligations": 2232000.0,
+ "equity": 3662987000.0,
+ "net_debt": -19566000.0,
+ "ocf_ttm": 1232523000.0,
+ "capex_ttm": -43523000.0,
+ "fcf_ttm": 1189000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -134542000.0,
+ "stock_issuance_ttm": -126123000.0,
+ "revenue_ttm": 5470967000.0,
+ "net_income_ttm": 497633000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 681782000.0,
+ "interest_ttm": 52929000.0,
+ "revenue_yoy_last_q": 0.04544204048253442,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1387035000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1358925000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1364898000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1360109000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1326745000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.11
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.58
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.85
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.36
+  }
+ ],
+ "eps_ttm": 8.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.3188854489164088,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5514705882352939,
+ "eps_forward_growth": 0.08870967741935476,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5337088000.0,
+   "eps": 7.49,
+   "net_income": 466411000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4861447000.0,
+   "eps": 3.23,
+   "net_income": 207012000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4232281000.0,
+   "eps": 5.84,
+   "net_income": 365238000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3558178000.0,
+   "eps": 3.54,
+   "net_income": 224886000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.021047286904474105,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -920525000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 12.881067089875115,
+ "cash_to_debt": 1.0217168594797321,
+ "ev": 5307104511.905685,
+ "ev_to_sales": 0.9700487156851221,
+ "ev_to_ebitda": null,
+ "pe_ttm": 10.704013825260152,
+ "pe_trailing": 11.094292,
+ "p_sales": 0.97362685,
+ "p_fcf": 4.47995837838998,
+ "p_book": 1.4541876648499394
+}

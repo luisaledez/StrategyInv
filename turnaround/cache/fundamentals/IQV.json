@@ -1,0 +1,154 @@
+{
+ "ticker": "IQV",
+ "fetched": "2026-09-14",
+ "market_cap": 43826397607.421875,
+ "shares_out": 164600000.0,
+ "price": 266.260009765625,
+ "long_name": "IQVIA Holdings Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Diagnostics & Research",
+ "pe_trailing_y": 33.116917,
+ "pe_forward": 18.414217,
+ "peg": 0.95,
+ "p_sales_y": 2.580604,
+ "eps_trailing_y": 8.04,
+ "eps_forward": 14.45948,
+ "earnings_growth_y": -0.006,
+ "earnings_growth_q_y": -0.038,
+ "bs_date": "2026-06-30",
+ "cash": 2080000000.0,
+ "total_debt": 16241000000.0,
+ "current_debt": 2294000000.0,
+ "lease_obligations": 242000000.0,
+ "equity": 6171000000.0,
+ "net_debt": 14161000000.0,
+ "ocf_ttm": 2819000000.0,
+ "capex_ttm": -635000000.0,
+ "fcf_ttm": 2184000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1162000000.0,
+ "stock_issuance_ttm": -1162000000.0,
+ "revenue_ttm": 16983000000.0,
+ "net_income_ttm": 1375000000.0,
+ "ebitda_ttm": 3528000000.0,
+ "ebit_ttm": 2345000000.0,
+ "interest_ttm": 771000000.0,
+ "revenue_yoy_last_q": 0.08737864077669899,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4368000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4151000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4364000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4100000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4017000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.61
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.99
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.93
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.54
+  }
+ ],
+ "eps_ttm": 8.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.04672897196261672,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.006493506493506551,
+ "eps_forward_growth": 0.7939801488833744,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.328525641025641
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.32642736689954227
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3290559120073327
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3348780487804878
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32935026138909634
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 16310000000.0,
+   "eps": 7.84,
+   "net_income": 1360000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 15405000000.0,
+   "eps": 7.49,
+   "net_income": 1373000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14984000000.0,
+   "eps": 7.29,
+   "net_income": 1358000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 14410000000.0,
+   "eps": 5.72,
+   "net_income": 1091000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03176470588235292,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2294000000.0,
+ "gap_24m": 214000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.013888888888889,
+ "interest_coverage": 3.041504539559014,
+ "cash_to_debt": 0.12807093159288221,
+ "ev": 57987397607.421875,
+ "ev_to_sales": 3.4144378264983732,
+ "ev_to_ebitda": 16.436337190312322,
+ "pe_ttm": 31.873743714488636,
+ "pe_trailing": 33.116917,
+ "p_sales": 2.580604,
+ "p_fcf": 20.067031871530162,
+ "p_book": 7.101992806258608
+}

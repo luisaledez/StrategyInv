@@ -1,0 +1,154 @@
+{
+ "ticker": "VICI",
+ "fetched": "2026-09-14",
+ "market_cap": 27587498651.932205,
+ "shares_out": 1101077562.0,
+ "price": 25.05500030517578,
+ "long_name": "VICI Properties Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Diversified",
+ "pe_trailing_y": 9.711241,
+ "pe_forward": 8.379599,
+ "peg": null,
+ "p_sales_y": 6.7325926,
+ "eps_trailing_y": 2.58,
+ "eps_forward": 2.99,
+ "earnings_growth_y": -0.414,
+ "earnings_growth_q_y": -0.391,
+ "bs_date": "2026-06-30",
+ "cash": 288063000.0,
+ "total_debt": 17843674000.0,
+ "current_debt": null,
+ "lease_obligations": 912519000.0,
+ "equity": 29170749000.0,
+ "net_debt": 17555611000.0,
+ "ocf_ttm": 2638275000.0,
+ "capex_ttm": -1301000.0,
+ "fcf_ttm": 2636974000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2309000.0,
+ "stock_issuance_ttm": 614819000.0,
+ "revenue_ttm": 4097604000.0,
+ "net_income_ttm": 2765718000.0,
+ "ebitda_ttm": 3655736000.0,
+ "ebit_ttm": 3651871000.0,
+ "interest_ttm": 839855000.0,
+ "revenue_yoy_last_q": 0.05709483548945715,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1058505000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1018521000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1013090000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1007488000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1001334000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.48
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.82
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.57
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.71
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.82
+  }
+ ],
+ "eps_ttm": 2.5799999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.01953125,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.41463414634146345,
+ "eps_forward_growth": 0.15891472868217082,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9930137316309323
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9936486336560562
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9930963685358655
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9932852798246729
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9933898179828109
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4006116000.0,
+   "eps": 2.61,
+   "net_income": 2775493000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3849205000.0,
+   "eps": 2.56,
+   "net_income": 2678810000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3611988000.0,
+   "eps": 2.47,
+   "net_income": 2513540000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2600697000.0,
+   "eps": 1.27,
+   "net_income": 1117635000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.04198817168748614,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -288063000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.802209732869113,
+ "interest_coverage": 4.348216061105786,
+ "cash_to_debt": 0.01614370448597077,
+ "ev": 45143109651.932205,
+ "ev_to_sales": 11.01695274895578,
+ "ev_to_ebitda": 12.348569385735788,
+ "pe_ttm": 9.974805331538576,
+ "pe_trailing": 9.711241,
+ "p_sales": 6.7325926,
+ "p_fcf": 10.461801539162769,
+ "p_book": 0.9457247276006593
+}

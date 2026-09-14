@@ -1,0 +1,154 @@
+{
+ "ticker": "RMD",
+ "fetched": "2026-09-14",
+ "market_cap": 32208654707.59076,
+ "shares_out": 144252306.0,
+ "price": 223.27999877929688,
+ "long_name": "ResMed Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": 21.407478,
+ "pe_forward": 16.883661,
+ "peg": 1.27,
+ "p_sales_y": 5.697175,
+ "eps_trailing_y": 10.43,
+ "eps_forward": 13.22462,
+ "earnings_growth_y": 0.024,
+ "earnings_growth_q_y": 0.01,
+ "bs_date": "2026-06-30",
+ "cash": 1469234000.0,
+ "total_debt": 825919000.0,
+ "current_debt": 289091000.0,
+ "lease_obligations": 166554000.0,
+ "equity": 6585393000.0,
+ "net_debt": -643315000.0,
+ "ocf_ttm": 1805829000.0,
+ "capex_ttm": -177173000.0,
+ "fcf_ttm": 1628656000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -700037000.0,
+ "stock_issuance_ttm": -625534000.0,
+ "revenue_ttm": 5653443000.0,
+ "net_income_ttm": 1523293000.0,
+ "ebitda_ttm": 2152616000.0,
+ "ebit_ttm": 1908464000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.08579718143936943,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1463647000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1431406000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1422808000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1335582000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1347993000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.64
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.74
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.58
+  }
+ ],
+ "eps_ttm": 10.43,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.13628899835796382,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.023255813953488413,
+ "eps_forward_growth": 0.2679405560882071,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5884062208988916
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6224502342452106
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.617598439142878
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6145785133372568
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6083622095960439
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 5653443000.0,
+   "eps": null,
+   "net_income": 1523293000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5146327000.0,
+   "eps": null,
+   "net_income": 1400723000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4685297000.0,
+   "eps": 6.92,
+   "net_income": 1020951000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4222993000.0,
+   "eps": 6.09,
+   "net_income": 897556000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.014658481876772544,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 289091000.0,
+ "gap_24m": -1180143000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.2988526518431527,
+ "interest_coverage": null,
+ "cash_to_debt": 1.7789081011576195,
+ "ev": 31565339707.59076,
+ "ev_to_sales": 5.583383383823055,
+ "ev_to_ebitda": 14.663711366816358,
+ "pe_ttm": 21.144096839932146,
+ "pe_trailing": 21.407478,
+ "p_sales": 5.697175,
+ "p_fcf": 19.776217143209344,
+ "p_book": 4.890923701530153
+}

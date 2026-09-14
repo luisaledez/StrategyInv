@@ -1,0 +1,154 @@
+{
+ "ticker": "KMB",
+ "fetched": "2026-09-14",
+ "market_cap": 33439158766.739594,
+ "shares_out": 332579038.0,
+ "price": 100.54499816894531,
+ "long_name": "Kimberly-Clark Corporation",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Household & Personal Products",
+ "pe_trailing_y": 19.870554,
+ "pe_forward": 13.425655,
+ "peg": 1.97,
+ "p_sales_y": 2.016594,
+ "eps_trailing_y": 5.06,
+ "eps_forward": 7.48902,
+ "earnings_growth_y": -0.323,
+ "earnings_growth_q_y": -0.322,
+ "bs_date": "2026-06-30",
+ "cash": 956000000.0,
+ "total_debt": 6517000000.0,
+ "current_debt": 43000000.0,
+ "lease_obligations": 128000000.0,
+ "equity": 1750000000.0,
+ "net_debt": 5561000000.0,
+ "ocf_ttm": 3333000000.0,
+ "capex_ttm": -1513000000.0,
+ "fcf_ttm": 1820000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -21000000.0,
+ "stock_issuance_ttm": -21000000.0,
+ "revenue_ttm": 16582000000.0,
+ "net_income_ttm": 1955000000.0,
+ "ebitda_ttm": 3200000000.0,
+ "ebit_ttm": 2475000000.0,
+ "interest_ttm": 236000000.0,
+ "revenue_yoy_last_q": 0.006245496036512144,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4189000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4163000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4080000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4150000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4163000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.5
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.34
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.53
+  }
+ ],
+ "eps_ttm": 5.88,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.19602649006622508,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.3202614379084967,
+ "eps_forward_growth": 0.2736428571428571,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3826688947242779
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3684842661542157
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3590686274509804
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3597590361445783
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3497477780446793
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 16447000000.0,
+   "eps": 6.07,
+   "net_income": 2021000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16805000000.0,
+   "eps": 7.55,
+   "net_income": 2545000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17146000000.0,
+   "eps": 5.21,
+   "net_income": 1764000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 20175000000.0,
+   "eps": 5.73,
+   "net_income": 1934000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.001943268607926818,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 43000000.0,
+ "gap_24m": -913000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.7378125,
+ "interest_coverage": 10.48728813559322,
+ "cash_to_debt": 0.14669326377167408,
+ "ev": 39000158766.73959,
+ "ev_to_sales": 2.3519574699517305,
+ "ev_to_ebitda": 12.187549614606123,
+ "pe_ttm": 17.104429036695443,
+ "pe_trailing": 19.870554,
+ "p_sales": 2.016594,
+ "p_fcf": 18.373164157549226,
+ "p_book": 19.108090723851195
+}

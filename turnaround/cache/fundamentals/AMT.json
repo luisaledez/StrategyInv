@@ -1,0 +1,154 @@
+{
+ "ticker": "AMT",
+ "fetched": "2026-09-14",
+ "market_cap": 82633353205.92334,
+ "shares_out": 465960048.0,
+ "price": 177.33999633789062,
+ "long_name": "American Tower Corporation",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 24.393396,
+ "pe_forward": 25.298002,
+ "peg": 1.68,
+ "p_sales_y": 7.5522876,
+ "eps_trailing_y": 7.27,
+ "eps_forward": 7.01004,
+ "earnings_growth_y": 1.385,
+ "earnings_growth_q_y": 1.365,
+ "bs_date": "2026-06-30",
+ "cash": 1762500000.0,
+ "total_debt": 44979900000.0,
+ "current_debt": 5870600000.0,
+ "lease_obligations": 7790300000.0,
+ "equity": 3719700000.0,
+ "net_debt": 43217400000.0,
+ "ocf_ttm": 5774900000.0,
+ "capex_ttm": -1815100000.0,
+ "fcf_ttm": 3959800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -202900000.0,
+ "stock_issuance_ttm": -202900000.0,
+ "revenue_ttm": 10941500000.0,
+ "net_income_ttm": 3401000000.0,
+ "ebitda_ttm": 7407000000.0,
+ "ebit_ttm": 5335600000.0,
+ "interest_ttm": 1393300000.0,
+ "revenue_yoy_last_q": 0.0465187102668545,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2749100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2737500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2737500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2717400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2626900000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.86
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.84
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.75
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.82
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.78
+  }
+ ],
+ "eps_ttm": 7.2700000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1203319502074689,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.3846153846153846,
+ "eps_forward_growth": -0.03575790921595601,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7303481139281947
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7430867579908675
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7391415525114156
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7384264370354015
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.737827857931402
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 10644600000.0,
+   "eps": 5.4,
+   "net_income": 2529500000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10127200000.0,
+   "eps": 4.82,
+   "net_income": 2255000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10012200000.0,
+   "eps": 3.18,
+   "net_income": 1483300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9645400000.0,
+   "eps": 3.82,
+   "net_income": 1765800000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.004837532383989096,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5870600000.0,
+ "gap_24m": 4108100000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.834669906844876,
+ "interest_coverage": 3.8294696045359937,
+ "cash_to_debt": 0.03918416892878819,
+ "ev": 125850753205.92334,
+ "ev_to_sales": 11.5021480789584,
+ "ev_to_ebitda": 16.990786176039332,
+ "pe_ttm": 24.296781301359406,
+ "pe_trailing": 24.393396,
+ "p_sales": 7.5522876,
+ "p_fcf": 20.86806232787599,
+ "p_book": 22.215058527817657
+}

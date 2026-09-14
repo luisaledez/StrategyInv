@@ -1,0 +1,133 @@
+{
+ "ticker": "FNF",
+ "fetched": "2026-09-14",
+ "market_cap": 11950672739.4268,
+ "shares_out": 268192827.0,
+ "price": 44.560001373291016,
+ "long_name": "Fidelity National Financial, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Specialty",
+ "pe_trailing_y": 15.526134,
+ "pe_forward": 7.697809,
+ "peg": 0.85,
+ "p_sales_y": 0.7785455,
+ "eps_trailing_y": 2.87,
+ "eps_forward": 5.78866,
+ "earnings_growth_y": 0.058,
+ "earnings_growth_q_y": 0.036,
+ "bs_date": "2026-06-30",
+ "cash": 31326000000.0,
+ "total_debt": 4742000000.0,
+ "current_debt": -3000000.0,
+ "lease_obligations": 364000000.0,
+ "equity": 7453000000.0,
+ "net_debt": -26584000000.0,
+ "ocf_ttm": 5563000000.0,
+ "capex_ttm": -135000000.0,
+ "fcf_ttm": 5428000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -211000000.0,
+ "stock_issuance_ttm": -211000000.0,
+ "revenue_ttm": 14985000000.0,
+ "net_income_ttm": 772000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 1983000000.0,
+ "interest_ttm": 243000000.0,
+ "revenue_yoy_last_q": 0.10993006993007004,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3968000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3125000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3953000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3939000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3575000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.43
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.33
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.02
+  }
+ ],
+ "eps_ttm": 2.88,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.524731182795699,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.05882352941176472,
+ "eps_forward_growth": 1.0099513888888891,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 14140000000.0,
+   "eps": 2.21,
+   "net_income": 602000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13355000000.0,
+   "eps": 4.65,
+   "net_income": 1270000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11521000000.0,
+   "eps": 1.91,
+   "net_income": 517000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 11455000000.0,
+   "eps": 4.1,
+   "net_income": 1294000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.014705882352941124,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": -3000000.0,
+ "gap_24m": -31329000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 8.160493827160494,
+ "cash_to_debt": 6.606073386756643,
+ "ev": -14633327260.5732,
+ "ev_to_sales": -0.9765316823872673,
+ "ev_to_ebitda": null,
+ "pe_ttm": 15.480146035526943,
+ "pe_trailing": 15.526134,
+ "p_sales": 0.7785455,
+ "p_fcf": 2.2016714700491526,
+ "p_book": 1.6034714530292231
+}

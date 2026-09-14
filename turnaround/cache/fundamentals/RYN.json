@@ -1,0 +1,154 @@
+{
+ "ticker": "RYN",
+ "fetched": "2026-09-14",
+ "market_cap": 6099153888.94673,
+ "shares_out": 300747223.0,
+ "price": 20.280000686645508,
+ "long_name": "Rayonier Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 44.086956,
+ "pe_forward": 32.97561,
+ "peg": 23.24,
+ "p_sales_y": 6.267511,
+ "eps_trailing_y": 0.46,
+ "eps_forward": 0.615,
+ "earnings_growth_y": -0.976,
+ "earnings_growth_q_y": -0.953,
+ "bs_date": "2026-06-30",
+ "cash": 411760000.0,
+ "total_debt": 1855270000.0,
+ "current_debt": 199996000.0,
+ "lease_obligations": 13669000.0,
+ "equity": 5212152000.0,
+ "net_debt": 1443510000.0,
+ "ocf_ttm": 313143000.0,
+ "capex_ttm": -63313000.0,
+ "fcf_ttm": 249830000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -139910000.0,
+ "stock_issuance_ttm": -139910000.0,
+ "revenue_ttm": 968292000.0,
+ "net_income_ttm": 75801000.0,
+ "ebitda_ttm": 261980000.0,
+ "ebit_ttm": 84881000.0,
+ "interest_ttm": 44626000.0,
+ "revenue_yoy_last_q": 2.7214796598396815,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 396479000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 276787000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 117495000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 177531000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 106538000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.16
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.63
+  }
+ ],
+ "eps_ttm": 0.45,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2677824267782425,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.9771863117870723,
+ "eps_forward_growth": 0.3666666666666667,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.19084239013920032
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1678221881808033
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.419371037065407
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3289847970213653
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2969081454504496
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 484485000.0,
+   "eps": 3.03,
+   "net_income": 474380000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 987929000.0,
+   "eps": 2.39,
+   "net_income": 359147000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 788373000.0,
+   "eps": 1.17,
+   "net_income": 173493000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 909072000.0,
+   "eps": 0.73,
+   "net_income": 107077000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.9294701530936378,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 199996000.0,
+ "gap_24m": -211764000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.510000763417055,
+ "interest_coverage": 1.9020526150674495,
+ "cash_to_debt": 0.22194074177882464,
+ "ev": 7542663888.94673,
+ "ev_to_sales": 7.789658376756939,
+ "ev_to_ebitda": 28.7909912548543,
+ "pe_ttm": 80.46271010866255,
+ "pe_trailing": 44.086956,
+ "p_sales": 6.267511,
+ "p_fcf": 24.41321654303618,
+ "p_book": 1.1701795897254588
+}

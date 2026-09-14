@@ -1,0 +1,154 @@
+{
+ "ticker": "JKHY",
+ "fetched": "2026-09-14",
+ "market_cap": 11777515592.286621,
+ "shares_out": 70112608.0,
+ "price": 167.97999572753906,
+ "long_name": "Jack Henry & Associates, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "pe_trailing_y": 24.065903,
+ "pe_forward": 21.451109,
+ "peg": 1.96,
+ "p_sales_y": 4.6289096,
+ "eps_trailing_y": 6.98,
+ "eps_forward": 7.83083,
+ "earnings_growth_y": -0.104,
+ "earnings_growth_q_y": -0.128,
+ "bs_date": "2026-06-30",
+ "cash": 12056000.0,
+ "total_debt": 40000000.0,
+ "current_debt": 90000000.0,
+ "lease_obligations": null,
+ "equity": 2051949000.0,
+ "net_debt": 27944000.0,
+ "ocf_ttm": 761960000.0,
+ "capex_ttm": -255454000.0,
+ "fcf_ttm": 506506000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -448173000.0,
+ "stock_issuance_ttm": -436538000.0,
+ "revenue_ttm": 2544340000.0,
+ "net_income_ttm": 502775000.0,
+ "ebitda_ttm": 871419000.0,
+ "ebit_ttm": 658178000.0,
+ "interest_ttm": 5388000.0,
+ "revenue_yoy_last_q": 0.04655882945600376,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 644023000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 636245000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 619334000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 644738000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 615372000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.57
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.71
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.72
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.97
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.75
+  }
+ ],
+ "eps_ttm": 6.97,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.11858974358974361,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.10285714285714287,
+ "eps_forward_growth": 0.12350502152080334,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42521462742790245
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4280159372568743
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.43327994264807035
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4593679913391176
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44118516929597057
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 2544339000.0,
+   "eps": 6.98,
+   "net_income": 502776000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2375288000.0,
+   "eps": 6.24,
+   "net_income": 455748000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2215543000.0,
+   "eps": 5.23,
+   "net_income": 381816000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2077702000.0,
+   "eps": 5.02,
+   "net_income": 366646000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03797047000859777,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 90000000.0,
+ "gap_24m": 77944000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.03206723745982128,
+ "interest_coverage": 122.15627319970304,
+ "cash_to_debt": 0.3014,
+ "ev": 11805459592.286621,
+ "ev_to_sales": 4.6398907348415,
+ "ev_to_ebitda": 13.547397511744203,
+ "pe_ttm": 23.425022310748588,
+ "pe_trailing": 24.065903,
+ "p_sales": 4.6289096,
+ "p_fcf": 23.25247004435608,
+ "p_book": 5.739672668417501
+}

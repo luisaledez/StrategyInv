@@ -1,0 +1,154 @@
+{
+ "ticker": "NFLX",
+ "fetched": "2026-09-14",
+ "market_cap": 337008447511.19165,
+ "shares_out": 4163939676.0,
+ "price": 80.93499755859375,
+ "long_name": "Netflix, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Entertainment",
+ "pe_trailing_y": 25.451256,
+ "pe_forward": 21.182127,
+ "peg": 1.43,
+ "p_sales_y": 6.967192,
+ "eps_trailing_y": 3.18,
+ "eps_forward": 3.82091,
+ "earnings_growth_y": 0.111,
+ "earnings_growth_q_y": 0.088,
+ "bs_date": "2026-06-30",
+ "cash": 9127910000.0,
+ "total_debt": 14309306000.0,
+ "current_debt": 2483758000.0,
+ "lease_obligations": null,
+ "equity": 30152052000.0,
+ "net_debt": 5181396000.0,
+ "ocf_ttm": 11970833000.0,
+ "capex_ttm": -818828000.0,
+ "fcf_ttm": 11152005000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -9921435000.0,
+ "stock_issuance_ttm": -9665848000.0,
+ "revenue_ttm": 48370764000.0,
+ "net_income_ttm": 13649642000.0,
+ "ebitda_ttm": 35008877000.0,
+ "ebit_ttm": 17340274000.0,
+ "interest_ttm": 847451000.0,
+ "revenue_yoy_last_q": 0.13365374252899542,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 12559938000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 12249757000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 12050762000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 11510307000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 11079166000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.23
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.56
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.587
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.719
+  }
+ ],
+ "eps_ttm": 3.1770000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2758446797781138,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.11265646731571644,
+ "eps_forward_growth": 0.20267862763613453,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5193475477347101
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5193179750422804
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.45873787898225854
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.46445824598770474
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5193400839016222
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 45183036000.0,
+   "eps": 2.53,
+   "net_income": 10981201000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 39000966000.0,
+   "eps": 1.983,
+   "net_income": 8711631000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 33723297000.0,
+   "eps": 1.203,
+   "net_income": 5407990000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 31615550000.0,
+   "eps": 0.995,
+   "net_income": 4491924000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.020079664347289028,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2483758000.0,
+ "gap_24m": -6644152000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.14800234809017154,
+ "interest_coverage": 20.461683330363645,
+ "cash_to_debt": 0.6379002587546874,
+ "ev": 342189843511.19165,
+ "ev_to_sales": 7.074311323906144,
+ "ev_to_ebitda": 9.774373611332681,
+ "pe_ttm": 24.68991109885458,
+ "pe_trailing": 25.451256,
+ "p_sales": 6.967192,
+ "p_fcf": 30.21953877452455,
+ "p_book": 11.176965584670379
+}

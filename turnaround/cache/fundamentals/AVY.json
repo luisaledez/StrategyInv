@@ -1,0 +1,154 @@
+{
+ "ticker": "AVY",
+ "fetched": "2026-09-14",
+ "market_cap": 12894215122.853302,
+ "shares_out": 75788142.0,
+ "price": 170.13499450683594,
+ "long_name": "Avery Dennison Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "pe_trailing_y": 18.593988,
+ "pe_forward": 15.20931,
+ "peg": 1.92,
+ "p_sales_y": 1.3942555,
+ "eps_trailing_y": 9.15,
+ "eps_forward": 11.18624,
+ "earnings_growth_y": 0.108,
+ "earnings_growth_q_y": 0.08,
+ "bs_date": "2026-06-30",
+ "cash": 227300000.0,
+ "total_debt": 3678200000.0,
+ "current_debt": 500500000.0,
+ "lease_obligations": null,
+ "equity": 2322800000.0,
+ "net_debt": 3450900000.0,
+ "ocf_ttm": 1233600000.0,
+ "capex_ttm": -200600000.0,
+ "fcf_ttm": 1033000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -410500000.0,
+ "stock_issuance_ttm": -410500000.0,
+ "revenue_ttm": 9248100000.0,
+ "net_income_ttm": 704900000.0,
+ "ebitda_ttm": 1450400000.0,
+ "ebit_ttm": 1107700000.0,
+ "interest_ttm": 142000000.0,
+ "revenue_yoy_last_q": 0.10916460256698945,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2462900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2298500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2271200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2215500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2220500000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.67
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.15
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.13
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.41
+  }
+ ],
+ "eps_ttm": 9.129999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0068728522336767295,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.10788381742738573,
+ "eps_forward_growth": 0.22521796276013162,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2961549392992001
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2892321078964542
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2865005283550546
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2866170164748364
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28781805899572166
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8855500000.0,
+   "eps": 8.79,
+   "net_income": 688000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8755700000.0,
+   "eps": 8.73,
+   "net_income": 704900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8364300000.0,
+   "eps": 6.2,
+   "net_income": 503000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9039300000.0,
+   "eps": 9.21,
+   "net_income": 757100000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.027445626053192895,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 500500000.0,
+ "gap_24m": 273200000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.3792746828461113,
+ "interest_coverage": 7.800704225352113,
+ "cash_to_debt": 0.06179653091185906,
+ "ev": 16345115122.853302,
+ "ev_to_sales": 1.767402506769315,
+ "ev_to_ebitda": 11.269384392480214,
+ "pe_ttm": 18.292261487946238,
+ "pe_trailing": 18.593988,
+ "p_sales": 1.3942555,
+ "p_fcf": 12.482299247679867,
+ "p_book": 5.551151680236483
+}

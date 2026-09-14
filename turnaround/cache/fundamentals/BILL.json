@@ -1,0 +1,154 @@
+{
+ "ticker": "BILL",
+ "fetched": "2026-09-14",
+ "market_cap": 4218642509.6376343,
+ "shares_out": 85276782.0,
+ "price": 49.470001220703125,
+ "long_name": "BILL Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 11.377149,
+ "peg": 0.46,
+ "p_sales_y": 2.551866,
+ "eps_trailing_y": -0.11,
+ "eps_forward": 4.34819,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1937509000.0,
+ "total_debt": 1884591000.0,
+ "current_debt": 123057000.0,
+ "lease_obligations": 48468000.0,
+ "equity": 3530602000.0,
+ "net_debt": -52918000.0,
+ "ocf_ttm": 415832000.0,
+ "capex_ttm": -61156000.0,
+ "fcf_ttm": 354676000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -560485000.0,
+ "stock_issuance_ttm": -560485000.0,
+ "revenue_ttm": 1653161000.0,
+ "net_income_ttm": -11240000.0,
+ "ebitda_ttm": 125856000.0,
+ "ebit_ttm": 9304000.0,
+ "interest_ttm": 19435000.0,
+ "revenue_yoy_last_q": 0.1378300191209576,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 436186000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 406563000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 414671000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 395741000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 383349000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.03
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.07
+  }
+ ],
+ "eps_ttm": -0.13,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.4782608695652173,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8166034673281581
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8162449608055824
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7984233283735781
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8054207170851643
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8080391497043165
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1653160000.0,
+   "eps": -0.11,
+   "net_income": -11241000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1462570000.0,
+   "eps": 0.23,
+   "net_income": 23799000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1290172000.0,
+   "eps": -0.27,
+   "net_income": -28878000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1058468000.0,
+   "eps": -2.11,
+   "net_income": -223725000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.10629393909871176,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 123057000.0,
+ "gap_24m": -1814452000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.4204646580218663,
+ "interest_coverage": 0.4787239516336506,
+ "cash_to_debt": 1.0280793020872965,
+ "ev": 4165724509.6376343,
+ "ev_to_sales": 2.5198540914270504,
+ "ev_to_ebitda": 33.099133212859414,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.551866,
+ "p_fcf": 11.894355720820226,
+ "p_book": 1.1948790913384273
+}

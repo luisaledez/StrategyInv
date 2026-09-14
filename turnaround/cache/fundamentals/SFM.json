@@ -1,0 +1,154 @@
+{
+ "ticker": "SFM",
+ "fetched": "2026-09-14",
+ "market_cap": 7069102223.594666,
+ "shares_out": 93247625.0,
+ "price": 75.80999755859375,
+ "long_name": "Sprouts Farmers Market, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Grocery Stores",
+ "pe_trailing_y": 14.495219,
+ "pe_forward": 12.715233,
+ "peg": 1.53,
+ "p_sales_y": 0.78509784,
+ "eps_trailing_y": 5.23,
+ "eps_forward": 5.96214,
+ "earnings_growth_y": 0.015,
+ "earnings_growth_q_y": -0.034,
+ "bs_date": "2026-06-30",
+ "cash": 223928000.0,
+ "total_debt": 2106293000.0,
+ "current_debt": 182320000.0,
+ "lease_obligations": 2106293000.0,
+ "equity": 1500868000.0,
+ "net_debt": 1882365000.0,
+ "ocf_ttm": 674656000.0,
+ "capex_ttm": -317855000.0,
+ "fcf_ttm": 356801000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -389702000.0,
+ "stock_issuance_ttm": -389702000.0,
+ "revenue_ttm": 9004104000.0,
+ "net_income_ttm": 502860000.0,
+ "ebitda_ttm": 1001176000.0,
+ "ebit_ttm": 673172000.0,
+ "interest_ttm": 1889000.0,
+ "revenue_yoy_last_q": 0.047375441434349685,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2325804000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2329179000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2148691000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2200430000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2220602000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.71
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.92
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.35
+  }
+ ],
+ "eps_ttm": 5.22,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.4159999999999999,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.014814814814814836,
+ "eps_forward_growth": 0.14217241379310352,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3872415732366098
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.393819453120606
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3799406243149899
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38676576850888233
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3884532212436087
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8806159000.0,
+   "eps": 5.31,
+   "net_income": 523670000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7719290000.0,
+   "eps": 3.75,
+   "net_income": 380601000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6837384000.0,
+   "eps": 2.5,
+   "net_income": 258856000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6404223000.0,
+   "eps": 2.39,
+   "net_income": 261164000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.041393548007003456,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 182320000.0,
+ "gap_24m": -41608000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.880153938967774,
+ "interest_coverage": 356.36421386977236,
+ "cash_to_debt": 0.10631379394984458,
+ "ev": 8951467223.594666,
+ "ev_to_sales": 0.994154135002735,
+ "ev_to_ebitda": 8.940952663262669,
+ "pe_ttm": 14.057793866274242,
+ "pe_trailing": 14.495219,
+ "p_sales": 0.78509784,
+ "p_fcf": 19.812450703878817,
+ "p_book": 4.710009290353759
+}

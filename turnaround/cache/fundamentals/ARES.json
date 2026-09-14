@@ -1,0 +1,154 @@
+{
+ "ticker": "ARES",
+ "fetched": "2026-09-14",
+ "market_cap": 30129990870.55606,
+ "shares_out": 227447653.0,
+ "price": 132.47000122070312,
+ "long_name": "Ares Management Corporation",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 60.488583,
+ "pe_forward": 18.415825,
+ "peg": 0.98,
+ "p_sales_y": 7.340236,
+ "eps_trailing_y": 2.19,
+ "eps_forward": 7.19327,
+ "earnings_growth_y": 0.065,
+ "earnings_growth_q_y": 0.099,
+ "bs_date": "2026-06-30",
+ "cash": 1852358000.0,
+ "total_debt": 14872608000.0,
+ "current_debt": 2531196000.0,
+ "lease_obligations": 812596000.0,
+ "equity": 3968073000.0,
+ "net_debt": 13020250000.0,
+ "ocf_ttm": 912125000.0,
+ "capex_ttm": -75978000.0,
+ "fcf_ttm": 836147000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 5987595000.0,
+ "net_income_ttm": 636354000.0,
+ "ebitda_ttm": 2292811000.0,
+ "ebit_ttm": 2292811000.0,
+ "interest_ttm": 735031000.0,
+ "revenue_yoy_last_q": 0.05812930329568755,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1428610000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1396436000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1504921000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1657628000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1350128000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.49
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.46
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.15
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.46
+  }
+ ],
+ "eps_ttm": 2.1799999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.16666666666666674,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.06521739130434767,
+ "eps_forward_growth": 2.2996651376146793,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5179510153225863
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5041613077863933
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5980147795133433
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6019402423221616
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5232237239728381
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5601482000.0,
+   "eps": 1.7,
+   "net_income": 527362000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3884781000.0,
+   "eps": 2.04,
+   "net_income": 463742000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3631884000.0,
+   "eps": 2.42,
+   "net_income": 474326000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3055443000.0,
+   "eps": 0.87,
+   "net_income": 167541000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.02802303858971844,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2531196000.0,
+ "gap_24m": 678838000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.678727989354552,
+ "interest_coverage": 3.119339184333722,
+ "cash_to_debt": 0.12454829711103796,
+ "ev": 43150240870.55606,
+ "ev_to_sales": 7.206606470637387,
+ "ev_to_ebitda": 18.819798435438447,
+ "pe_ttm": 47.34784549253413,
+ "pe_trailing": 60.488583,
+ "p_sales": 7.340236,
+ "p_fcf": 36.034322757309496,
+ "p_book": 7.5931039752938165
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "TROW",
+ "fetched": "2026-09-14",
+ "market_cap": 22775732588.412857,
+ "shares_out": 213315850.0,
+ "price": 106.7699966430664,
+ "long_name": "T. Rowe Price Group, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 10.719879,
+ "pe_forward": 10.348567,
+ "peg": 2.52,
+ "p_sales_y": 2.9999647,
+ "eps_trailing_y": 9.96,
+ "eps_forward": 10.31737,
+ "earnings_growth_y": 0.286,
+ "earnings_growth_q_y": 0.251,
+ "bs_date": "2026-06-30",
+ "cash": 3234300000.0,
+ "total_debt": 429400000.0,
+ "current_debt": null,
+ "lease_obligations": 429400000.0,
+ "equity": 11002500000.0,
+ "net_debt": -2804900000.0,
+ "ocf_ttm": 1932200000.0,
+ "capex_ttm": -258400000.0,
+ "fcf_ttm": 1673800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -793400000.0,
+ "stock_issuance_ttm": -793400000.0,
+ "revenue_ttm": 7592000000.0,
+ "net_income_ttm": 2221600000.0,
+ "ebitda_ttm": 3222600000.0,
+ "ebit_ttm": 2615100000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.10682991934079955,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1907400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1857000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1934100000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1893500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1723300000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.88
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.23
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.99
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.87
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.24
+  }
+ ],
+ "eps_ttm": 9.969999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.00983606557377037,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2857142857142856,
+ "eps_forward_growth": 0.03484152457372125,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4691202684282269
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5512654819601508
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5146062768212606
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5306047002904674
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4806475947310393
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7314800000.0,
+   "eps": 9.24,
+   "net_income": 2087100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7093600000.0,
+   "eps": 9.15,
+   "net_income": 2100100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6460500000.0,
+   "eps": 7.76,
+   "net_income": 1788700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6488400000.0,
+   "eps": 6.7,
+   "net_income": 1557900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02996789478949713,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -3234300000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.8703841618568857,
+ "interest_coverage": null,
+ "cash_to_debt": 7.532137866790871,
+ "ev": 19970832588.412857,
+ "ev_to_sales": 2.630510088041736,
+ "ev_to_ebitda": 6.197118037737496,
+ "pe_ttm": 10.251950210844821,
+ "pe_trailing": 10.719879,
+ "p_sales": 2.9999647,
+ "p_fcf": 13.607200733906595,
+ "p_book": 2.07005067833791
+}

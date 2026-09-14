@@ -1,0 +1,154 @@
+{
+ "ticker": "WTW",
+ "fetched": "2026-09-14",
+ "market_cap": 30032927440.536255,
+ "shares_out": 92871937.0,
+ "price": 323.3800048828125,
+ "long_name": "Willis Towers Watson Public Limited Company",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 20.011139,
+ "pe_forward": 14.147679,
+ "peg": 1.27,
+ "p_sales_y": 2.9729686,
+ "eps_trailing_y": 16.16,
+ "eps_forward": 22.85746,
+ "earnings_growth_y": -0.268,
+ "earnings_growth_q_y": -0.308,
+ "bs_date": "2026-06-30",
+ "cash": 1661000000.0,
+ "total_debt": 7101000000.0,
+ "current_debt": 866000000.0,
+ "lease_obligations": 571000000.0,
+ "equity": 7688000000.0,
+ "net_debt": 5440000000.0,
+ "ocf_ttm": 1923000000.0,
+ "capex_ttm": -234000000.0,
+ "fcf_ttm": 1689000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1700000000.0,
+ "stock_issuance_ttm": -1700000000.0,
+ "revenue_ttm": 10102000000.0,
+ "net_income_ttm": 1565000000.0,
+ "ebitda_ttm": 2715000000.0,
+ "ebit_ttm": 2291000000.0,
+ "interest_ttm": 286000000.0,
+ "revenue_yoy_last_q": 0.0906678460858028,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2466000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2412000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2936000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2288000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2261000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.43
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.1
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.11
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.32
+  }
+ ],
+ "eps_ttm": 16.26,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.2680722891566264,
+ "eps_forward_growth": 0.4057478474784746,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3710462287104623
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4054726368159204
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5098773841961853
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38243006993006995
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3591331269349845
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9708000000.0,
+   "eps": 16.26,
+   "net_income": 1605000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9930000000.0,
+   "eps": -0.96,
+   "net_income": -98000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9483000000.0,
+   "eps": 9.95,
+   "net_income": 1055000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8866000000.0,
+   "eps": 8.98,
+   "net_income": 1009000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.04955728176024643,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 866000000.0,
+ "gap_24m": -795000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0036832412523022,
+ "interest_coverage": 8.01048951048951,
+ "cash_to_debt": 0.23391071680045064,
+ "ev": 35472927440.536255,
+ "ev_to_sales": 3.511475691995274,
+ "ev_to_ebitda": 13.065534968889965,
+ "pe_ttm": 19.19036897158866,
+ "pe_trailing": 20.011139,
+ "p_sales": 2.9729686,
+ "p_fcf": 17.781484571069424,
+ "p_book": 3.906468189455808
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "ZBRA",
+ "fetched": "2026-09-14",
+ "market_cap": 16696405193.856812,
+ "shares_out": 47310660.0,
+ "price": 352.9100036621094,
+ "long_name": "Zebra Technologies Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Communication Equipment",
+ "pe_trailing_y": 32.377068,
+ "pe_forward": 15.910141,
+ "peg": 0.59,
+ "p_sales_y": 2.8555508,
+ "eps_trailing_y": 10.9,
+ "eps_forward": 22.18145,
+ "earnings_growth_y": 1.215,
+ "earnings_growth_q_y": 1.08,
+ "bs_date": "2026-06-30",
+ "cash": 157000000.0,
+ "total_debt": 2962000000.0,
+ "current_debt": 2313000000.0,
+ "lease_obligations": 194000000.0,
+ "equity": 3435000000.0,
+ "net_debt": 2805000000.0,
+ "ocf_ttm": 979000000.0,
+ "capex_ttm": -75000000.0,
+ "fcf_ttm": 904000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -905000000.0,
+ "stock_issuance_ttm": -905000000.0,
+ "revenue_ttm": 5847000000.0,
+ "net_income_ttm": 539000000.0,
+ "ebitda_ttm": 1055000000.0,
+ "ebit_ttm": 841000000.0,
+ "interest_ttm": 132000000.0,
+ "revenue_yoy_last_q": 0.20417633410672864,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1557000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1495000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1475000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1320000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1293000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.85
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.97
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.19
+  }
+ ],
+ "eps_ttm": 10.930000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.1964636542239686,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.2146118721461185,
+ "eps_forward_growth": 1.0294098810612993,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5298651252408478
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4963210702341137
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4732203389830508
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4803030303030303
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.47641144624903325
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5396000000.0,
+   "eps": 8.18,
+   "net_income": 419000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4981000000.0,
+   "eps": 10.18,
+   "net_income": 528000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4584000000.0,
+   "eps": 5.72,
+   "net_income": 296000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5781000000.0,
+   "eps": 8.8,
+   "net_income": 463000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0678123239630074,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2313000000.0,
+ "gap_24m": 2156000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.6587677725118484,
+ "interest_coverage": 6.371212121212121,
+ "cash_to_debt": 0.05300472653612424,
+ "ev": 19501405193.85681,
+ "ev_to_sales": 3.3352839394316423,
+ "ev_to_ebitda": 18.484744259579916,
+ "pe_ttm": 30.976633012721358,
+ "pe_trailing": 32.377068,
+ "p_sales": 2.8555508,
+ "p_fcf": 18.4694747719655,
+ "p_book": 4.860671089914646
+}

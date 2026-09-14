@@ -1,0 +1,154 @@
+{
+ "ticker": "GWRE",
+ "fetched": "2026-09-14",
+ "market_cap": 12714495323.366089,
+ "shares_out": 83256364.0,
+ "price": 152.71499633789062,
+ "long_name": "Guidewire Software, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 82.104836,
+ "pe_forward": 28.571081,
+ "peg": 0.92,
+ "p_sales_y": 8.617877,
+ "eps_trailing_y": 1.86,
+ "eps_forward": 5.34509,
+ "earnings_growth_y": -0.382,
+ "earnings_growth_q_y": -0.396,
+ "bs_date": "2026-04-30",
+ "cash": 749534000.0,
+ "total_debt": 704237000.0,
+ "current_debt": 10438000.0,
+ "lease_obligations": 27031000.0,
+ "equity": 1317145000.0,
+ "net_debt": -45297000.0,
+ "ocf_ttm": 350661000.0,
+ "capex_ttm": -31020000.0,
+ "fcf_ttm": 319641000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1420845000.0,
+ "net_income_ttm": 159840000.0,
+ "ebitda_ttm": 199913000.0,
+ "ebit_ttm": 173061000.0,
+ "interest_ttm": 13262000.0,
+ "revenue_yoy_last_q": 0.26927034356814805,
+ "revenue_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 372541000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 359095000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 332639000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 356570000.0
+  },
+  {
+   "period": "2025-04-30",
+   "value": 293508000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 0.19
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-04-30",
+   "value": 0.54
+  }
+ ],
+ "eps_ttm": 1.85,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.6481481481481481,
+ "eps_forward_growth": 1.8892378378378378,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 0.6352186739177701
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.6447346802378201
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.6298780359488815
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.650113582185826
+  },
+  {
+   "period": "2025-04-30",
+   "value": 0.62246344222304
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1202459000.0,
+   "eps": 0.81,
+   "net_income": 69804000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 980497000.0,
+   "eps": -0.07,
+   "net_income": -6103000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 905341000.0,
+   "eps": -1.36,
+   "net_income": -111855000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 812614000.0,
+   "eps": -2.16,
+   "net_income": -180431000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.01115131548824655,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 10438000.0,
+ "gap_24m": -739096000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.22658356385027487,
+ "interest_coverage": 13.049389232393304,
+ "cash_to_debt": 1.0643206761360167,
+ "ev": 12669198323.366089,
+ "ev_to_sales": 8.916664606882586,
+ "ev_to_ebitda": 63.37355911504549,
+ "pe_ttm": 79.54514091195,
+ "pe_trailing": 82.104836,
+ "p_sales": 8.617877,
+ "p_fcf": 39.7774231821515,
+ "p_book": 9.653071851137186
+}

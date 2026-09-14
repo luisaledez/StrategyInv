@@ -1,0 +1,154 @@
+{
+ "ticker": "CLF",
+ "fetched": "2026-09-14",
+ "market_cap": 6786574120.237507,
+ "shares_out": 570540047.0,
+ "price": 11.895000457763672,
+ "long_name": "Cleveland-Cliffs Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Steel",
+ "pe_trailing_y": null,
+ "pe_forward": 17.404346,
+ "peg": 0.43,
+ "p_sales_y": 0.35355943,
+ "eps_trailing_y": -1.57,
+ "eps_forward": 0.68345,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 70000000.0,
+ "total_debt": 7703000000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 5604000000.0,
+ "net_debt": 7633000000.0,
+ "ocf_ttm": -251000000.0,
+ "capex_ttm": -606000000.0,
+ "fcf_ttm": -857000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 951000000.0,
+ "revenue_ttm": 19195000000.0,
+ "net_income_ttm": -876000000.0,
+ "ebitda_ttm": 483000000.0,
+ "ebit_ttm": -598000000.0,
+ "interest_ttm": 609000000.0,
+ "revenue_yoy_last_q": 0.05918119173084713,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5226000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4922000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4313000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4734000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4934000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.25
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.42
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.44
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.98
+  }
+ ],
+ "eps_ttm": -1.6199999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.02525832376578645
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.016659894351889477
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.047762578251796896
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.009716941275876637
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.04296716659910823
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 18610000000.0,
+   "eps": -2.91,
+   "net_income": -1478000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19185000000.0,
+   "eps": -1.57,
+   "net_income": -760000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 21996000000.0,
+   "eps": 0.78,
+   "net_income": 385000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 22989000000.0,
+   "eps": 2.55,
+   "net_income": 1335000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.15332807743010468,
+ "fcf_burn_annual": 857000000.0,
+ "runway_months": 0.9801633605600932,
+ "need_24m": 1714000000.0,
+ "gap_24m": 1644000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 15.803312629399587,
+ "interest_coverage": -0.9819376026272578,
+ "cash_to_debt": 0.00908736855770479,
+ "ev": 14419574120.237507,
+ "ev_to_sales": 0.7512151143650694,
+ "ev_to_ebitda": 29.854190725129413,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.35355943,
+ "p_fcf": null,
+ "p_book": 1.211023219171575
+}

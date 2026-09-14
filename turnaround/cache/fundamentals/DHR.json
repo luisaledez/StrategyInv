@@ -1,0 +1,154 @@
+{
+ "ticker": "DHR",
+ "fetched": "2026-09-14",
+ "market_cap": 142987359092.91364,
+ "shares_out": 702986054.0,
+ "price": 203.39999389648438,
+ "long_name": "Danaher Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Diagnostics & Research",
+ "pe_trailing_y": 36.321426,
+ "pe_forward": 21.875954,
+ "peg": 1.2,
+ "p_sales_y": 5.6951194,
+ "eps_trailing_y": 5.6,
+ "eps_forward": 9.29788,
+ "earnings_growth_y": 0.597,
+ "earnings_growth_q_y": 0.568,
+ "bs_date": "2026-06-30",
+ "cash": 4348000000.0,
+ "total_debt": 26558000000.0,
+ "current_debt": 1411000000.0,
+ "lease_obligations": 1278000000.0,
+ "equity": 52581000000.0,
+ "net_debt": 22210000000.0,
+ "ocf_ttm": 6635000000.0,
+ "capex_ttm": -1169000000.0,
+ "fcf_ttm": 5466000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2904000000.0,
+ "stock_issuance_ttm": -2819000000.0,
+ "revenue_ttm": 25107000000.0,
+ "net_income_ttm": 4004000000.0,
+ "ebitda_ttm": 7585000000.0,
+ "ebit_ttm": 5054000000.0,
+ "interest_ttm": 292000000.0,
+ "revenue_yoy_last_q": 0.05542452830188682,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6265000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5951000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6838000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6053000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5936000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.45
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.27
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.77
+  }
+ ],
+ "eps_ttm": 5.629999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.04536862003780717,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5974025974025974,
+ "eps_forward_growth": 0.6514884547069273,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5763766959297686
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6034279952949084
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5799941503363557
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5820254419296217
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5934973045822103
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 24568000000.0,
+   "eps": 5.05,
+   "net_income": 3614000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 23875000000.0,
+   "eps": 5.29,
+   "net_income": 3899000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 23890000000.0,
+   "eps": 6.38,
+   "net_income": 4764000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 26643000000.0,
+   "eps": 9.66,
+   "net_income": 7209000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01815896074870793,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1411000000.0,
+ "gap_24m": -2937000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.928147659854977,
+ "interest_coverage": 17.30821917808219,
+ "cash_to_debt": 0.1637171473755554,
+ "ev": 165197359092.91364,
+ "ev_to_sales": 6.579733106022768,
+ "ev_to_ebitda": 21.779480434134957,
+ "pe_ttm": 35.71112864458382,
+ "pe_trailing": 36.321426,
+ "p_sales": 5.6951194,
+ "p_fcf": 26.159414396800884,
+ "p_book": 2.7193731403532384
+}

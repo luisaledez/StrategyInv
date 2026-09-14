@@ -1,0 +1,154 @@
+{
+ "ticker": "CPRI",
+ "fetched": "2026-09-14",
+ "market_cap": 1604275625.1412392,
+ "shares_out": 114796106.0,
+ "price": 13.975000381469727,
+ "long_name": "Capri Holdings Limited",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Luxury Goods",
+ "pe_trailing_y": 17.916668,
+ "pe_forward": 5.525332,
+ "peg": 0.18,
+ "p_sales_y": 0.46554717,
+ "eps_trailing_y": 0.78,
+ "eps_forward": 2.52926,
+ "earnings_growth_y": 0.344,
+ "earnings_growth_q_y": 0.302,
+ "bs_date": "2026-06-30",
+ "cash": 114000000.0,
+ "total_debt": 1392000000.0,
+ "current_debt": 241000000.0,
+ "lease_obligations": 1054000000.0,
+ "equity": 138000000.0,
+ "net_debt": 1278000000.0,
+ "ocf_ttm": 158000000.0,
+ "capex_ttm": -75000000.0,
+ "fcf_ttm": 83000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -134000000.0,
+ "stock_issuance_ttm": -134000000.0,
+ "revenue_ttm": 3446000000.0,
+ "net_income_ttm": 153000000.0,
+ "ebitda_ttm": 201000000.0,
+ "ebit_ttm": 81000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.035131744040150514,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 769000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 796000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1025000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 856000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 797000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.04
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": 1.3,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 0.36363636363636354,
+ "eps_forward_growth": 0.9455846153846152,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6501950585175552
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6482412060301508
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6078048780487805
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6098130841121495
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6298619824341279
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3474000000.0,
+   "eps": 1.14,
+   "net_income": 137000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3621000000.0,
+   "eps": -10.0,
+   "net_income": -1182000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4140000000.0,
+   "eps": -1.96,
+   "net_income": -229000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5619000000.0,
+   "eps": 4.6,
+   "net_income": 616000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.04562966110093969,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 241000000.0,
+ "gap_24m": 127000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 6.358208955223881,
+ "interest_coverage": null,
+ "cash_to_debt": 0.08189655172413793,
+ "ev": 2882275625.141239,
+ "ev_to_sales": 0.8364119631866626,
+ "ev_to_ebitda": 14.339679727070841,
+ "pe_ttm": 10.485461602230322,
+ "pe_trailing": 17.916668,
+ "p_sales": 0.46554717,
+ "p_fcf": 19.328621989653485,
+ "p_book": 11.62518568942927
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "UDR",
+ "fetched": "2026-09-14",
+ "market_cap": 11284405797.75,
+ "shares_out": 321264222.0,
+ "price": 35.125,
+ "long_name": "UDR, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Residential",
+ "pe_trailing_y": 22.231012,
+ "pe_forward": 62.723213,
+ "peg": 8.17,
+ "p_sales_y": 7.3053555,
+ "eps_trailing_y": 1.58,
+ "eps_forward": 0.56,
+ "earnings_growth_y": 0.909,
+ "earnings_growth_q_y": 0.832,
+ "bs_date": "2026-06-30",
+ "cash": 1193000.0,
+ "total_debt": 5994848000.0,
+ "current_debt": 490968000.0,
+ "lease_obligations": 181016000.0,
+ "equity": 2938683000.0,
+ "net_debt": 5993655000.0,
+ "ocf_ttm": 887260000.0,
+ "capex_ttm": -257843000.0,
+ "fcf_ttm": 629417000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -418094000.0,
+ "stock_issuance_ttm": -418094000.0,
+ "revenue_ttm": 1716218000.0,
+ "net_income_ttm": 522177000.0,
+ "ebitda_ttm": 1424916000.0,
+ "ebit_ttm": 755746000.0,
+ "interest_ttm": 196469000.0,
+ "revenue_yoy_last_q": 0.0,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 425399000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 425849000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 433106000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 431864000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 425399000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.57
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.11
+  }
+ ],
+ "eps_ttm": 1.5699999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.346153846153846,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.909090909090909,
+ "eps_forward_growth": -0.6433121019108279,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2782258538454486
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2588523161965861
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.28003768130665474
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.26588694589037287
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2723090557335584
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1712317000.0,
+   "eps": 1.13,
+   "net_income": 377704000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1671842000.0,
+   "eps": 0.26,
+   "net_income": 89585000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1627501000.0,
+   "eps": 1.34,
+   "net_income": 444353000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1517386000.0,
+   "eps": 0.26,
+   "net_income": 86924000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03026128918442561,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 490968000.0,
+ "gap_24m": 489775000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.2063216358016895,
+ "interest_coverage": 3.8466424728583135,
+ "cash_to_debt": 0.0001990042116163746,
+ "ev": 17278060797.75,
+ "ev_to_sales": 10.067521024572637,
+ "ev_to_ebitda": 12.125669722109935,
+ "pe_ttm": 21.610307994702946,
+ "pe_trailing": 22.231012,
+ "p_sales": 7.3053555,
+ "p_fcf": 17.928346069060733,
+ "p_book": 3.8399534069343306
+}

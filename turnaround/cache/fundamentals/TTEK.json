@@ -1,0 +1,154 @@
+{
+ "ticker": "TTEK",
+ "fetched": "2026-09-14",
+ "market_cap": 9433957262.214233,
+ "shares_out": 256044428.0,
+ "price": 36.845001220703125,
+ "long_name": "Tetra Tech, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 22.195784,
+ "pe_forward": 21.202095,
+ "peg": 2.1,
+ "p_sales_y": 2.164409,
+ "eps_trailing_y": 1.66,
+ "eps_forward": 1.7378,
+ "earnings_growth_y": -0.023,
+ "earnings_growth_q_y": -0.037,
+ "bs_date": "2026-06-30",
+ "cash": 230835000.0,
+ "total_debt": 1023497000.0,
+ "current_debt": 74681000.0,
+ "lease_obligations": 222440000.0,
+ "equity": 1852072000.0,
+ "net_debt": 792662000.0,
+ "ocf_ttm": 567400000.0,
+ "capex_ttm": -19192000.0,
+ "fcf_ttm": 548208000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -252010000.0,
+ "stock_issuance_ttm": -252010000.0,
+ "revenue_ttm": 5069475000.0,
+ "net_income_ttm": 435980000.0,
+ "ebitda_ttm": 691688000.0,
+ "ebit_ttm": 633945000.0,
+ "interest_ttm": 39767000.0,
+ "revenue_yoy_last_q": -0.044722064861266064,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1308555000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1220157000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1210663000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1330100000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1369816000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.43
+  }
+ ],
+ "eps_ttm": 1.6600000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.24390243902439024,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.023255813953488413,
+ "eps_forward_growth": 0.04686746987951795,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.18585768271108208
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.17546184630338554
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.18202505569262462
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.20611006691226225
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.18362977217378101
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5442590000.0,
+   "eps": 0.93,
+   "net_income": 247724000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5198679000.0,
+   "eps": 1.23,
+   "net_income": 333382000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4522550000.0,
+   "eps": 1.02,
+   "net_income": 273420000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3504048000.0,
+   "eps": 0.972,
+   "net_income": 263125000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.025528148215808066,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 74681000.0,
+ "gap_24m": -156154000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.1459820034466406,
+ "interest_coverage": 15.941484145145472,
+ "cash_to_debt": 0.22553559023621955,
+ "ev": 10226619262.214233,
+ "ev_to_sales": 2.017293558448209,
+ "ev_to_ebitda": 14.785017612296633,
+ "pe_ttm": 21.638509248622032,
+ "pe_trailing": 22.195784,
+ "p_sales": 2.164409,
+ "p_fcf": 17.20871870205147,
+ "p_book": 5.093731378809373
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "UFPI",
+ "fetched": "2026-09-14",
+ "market_cap": 4497868026.641853,
+ "shares_out": 55161491.0,
+ "price": 81.54000091552734,
+ "long_name": "UFP Industries, Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Lumber & Wood Production",
+ "pe_trailing_y": 18.616438,
+ "pe_forward": 14.745027,
+ "peg": 2.67,
+ "p_sales_y": 0.72154605,
+ "eps_trailing_y": 4.38,
+ "eps_forward": 5.53,
+ "earnings_growth_y": -0.13,
+ "earnings_growth_q_y": -0.177,
+ "bs_date": "2026-06-30",
+ "cash": 643593000.0,
+ "total_debt": 408396000.0,
+ "current_debt": 33451000.0,
+ "lease_obligations": 174145000.0,
+ "equity": 3037516000.0,
+ "net_debt": -235197000.0,
+ "ocf_ttm": 493244000.0,
+ "capex_ttm": -226201000.0,
+ "fcf_ttm": 267043000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -321552000.0,
+ "stock_issuance_ttm": -319134000.0,
+ "revenue_ttm": 6233654000.0,
+ "net_income_ttm": 248951000.0,
+ "ebitda_ttm": 516168000.0,
+ "ebit_ttm": 349584000.0,
+ "interest_ttm": 10163000.0,
+ "revenue_yoy_last_q": 0.02591460922950861,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1882937000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1461267000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1329823000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1559627000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1835374000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.48
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.89
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.7
+  }
+ ],
+ "eps_ttm": 4.36,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.26144756277695713,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.12941176470588234,
+ "eps_forward_growth": 0.2683486238532109,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.15413951714794494
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1614277199170309
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1628329484450186
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.16842552738571467
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17039251945380068
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6320343000.0,
+   "eps": 5.0,
+   "net_income": 294792000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6652309000.0,
+   "eps": 6.77,
+   "net_income": 414560000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7218384000.0,
+   "eps": 8.07,
+   "net_income": 514312000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9626739000.0,
+   "eps": 10.97,
+   "net_income": 692651000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05813353133622512,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 33451000.0,
+ "gap_24m": -610142000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.4556597851862184,
+ "interest_coverage": 34.397717209485386,
+ "cash_to_debt": 1.5759042693855962,
+ "ev": 4262671026.6418533,
+ "ev_to_sales": 0.6838157887238935,
+ "ev_to_ebitda": 8.258301612346859,
+ "pe_ttm": 18.06728242361691,
+ "pe_trailing": 18.616438,
+ "p_sales": 0.72154605,
+ "p_fcf": 16.8432350843941,
+ "p_book": 1.4807717972981387
+}

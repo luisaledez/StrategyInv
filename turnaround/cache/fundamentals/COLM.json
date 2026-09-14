@@ -1,0 +1,154 @@
+{
+ "ticker": "COLM",
+ "fetched": "2026-09-14",
+ "market_cap": 2932346089.828308,
+ "shares_out": 51193194.0,
+ "price": 57.279998779296875,
+ "long_name": "Columbia Sportswear Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Apparel Manufacturing",
+ "pe_trailing_y": 14.955613,
+ "pe_forward": 13.682955,
+ "peg": 2.19,
+ "p_sales_y": 0.86067563,
+ "eps_trailing_y": 3.83,
+ "eps_forward": 4.18623,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 624601000.0,
+ "total_debt": 461244000.0,
+ "current_debt": 84029000.0,
+ "lease_obligations": 461244000.0,
+ "equity": 1601602000.0,
+ "net_debt": -163357000.0,
+ "ocf_ttm": 383246000.0,
+ "capex_ttm": -61943000.0,
+ "fcf_ttm": 321303000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -219409000.0,
+ "stock_issuance_ttm": -219409000.0,
+ "revenue_ttm": 3407028000.0,
+ "net_income_ttm": 206033000.0,
+ "ebitda_ttm": 342408000.0,
+ "ebit_ttm": 285999000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.015061644356179071,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 614362000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 779013000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1070228000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 943425000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 605246000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.52
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.73
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.95
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.19
+  }
+ ],
+ "eps_ttm": 3.8499999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.15183246073298418,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.0873324675324676,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5834215006787529
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5070030923745816
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5155340731133926
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.500111826589289
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4908880025642466
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3397351000.0,
+   "eps": 3.24,
+   "net_income": 177224000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3368582000.0,
+   "eps": 3.82,
+   "net_income": 223273000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3487203000.0,
+   "eps": 4.09,
+   "net_income": 251400000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3464152000.0,
+   "eps": 4.95,
+   "net_income": 311440000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.06529240993992957,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 84029000.0,
+ "gap_24m": -540572000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.4770828952594566,
+ "interest_coverage": null,
+ "cash_to_debt": 1.354166124654196,
+ "ev": 2768989089.828308,
+ "ev_to_sales": 0.8127285980121995,
+ "ev_to_ebitda": 8.086811902257857,
+ "pe_ttm": 14.23240980730421,
+ "pe_trailing": 14.955613,
+ "p_sales": 0.86067563,
+ "p_fcf": 9.126419889724989,
+ "p_book": 1.8308831344043701
+}

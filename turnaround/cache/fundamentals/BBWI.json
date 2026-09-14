@@ -1,0 +1,154 @@
+{
+ "ticker": "BBWI",
+ "fetched": "2026-09-14",
+ "market_cap": 3645747243.6556835,
+ "shares_out": 201645313.0,
+ "price": 18.079999923706055,
+ "long_name": "Bath & Body Works, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "pe_trailing_y": 4.745433,
+ "pe_forward": 6.486553,
+ "peg": 0.76,
+ "p_sales_y": 0.5057244,
+ "eps_trailing_y": 3.81,
+ "eps_forward": 2.78732,
+ "earnings_growth_y": 0.933,
+ "earnings_growth_q_y": 0.844,
+ "bs_date": "2026-07-31",
+ "cash": 794000000.0,
+ "total_debt": 4744000000.0,
+ "current_debt": 447000000.0,
+ "lease_obligations": 1130000000.0,
+ "equity": -1056000000.0,
+ "net_debt": 3950000000.0,
+ "ocf_ttm": 1273000000.0,
+ "capex_ttm": -242000000.0,
+ "fcf_ttm": 1031000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -147000000.0,
+ "stock_issuance_ttm": -147000000.0,
+ "revenue_ttm": 7210000000.0,
+ "net_income_ttm": 781000000.0,
+ "ebitda_ttm": 1485000000.0,
+ "ebit_ttm": 1239000000.0,
+ "interest_ttm": 268000000.0,
+ "revenue_yoy_last_q": -0.022595222724338337,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1514000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1378000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2724000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1594000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1549000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.58
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.9
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.99
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.3
+  }
+ ],
+ "eps_ttm": 3.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.13850415512465375,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.9333333333333333,
+ "eps_forward_growth": -0.27413541666666674,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.4570673712021136
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.4259796806966618
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.4566813509544787
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.4127979924717691
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.4131697869593286
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 7291000000.0,
+   "eps": 3.11,
+   "net_income": 649000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 7307000000.0,
+   "eps": 3.61,
+   "net_income": 798000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7429000000.0,
+   "eps": 3.84,
+   "net_income": 878000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7560000000.0,
+   "eps": 3.43,
+   "net_income": 800000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03095282692307688,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 447000000.0,
+ "gap_24m": -347000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.65993265993266,
+ "interest_coverage": 4.623134328358209,
+ "cash_to_debt": 0.16736930860033727,
+ "ev": 7595747243.6556835,
+ "ev_to_sales": 1.0535016981491934,
+ "ev_to_ebitda": 5.114981308859046,
+ "pe_ttm": 4.668050247958622,
+ "pe_trailing": 4.745433,
+ "p_sales": 0.5057244,
+ "p_fcf": 3.5361272974351925,
+ "p_book": null
+}

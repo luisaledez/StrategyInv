@@ -1,0 +1,154 @@
+{
+ "ticker": "OTIS",
+ "fetched": "2026-09-14",
+ "market_cap": 26840995906.08744,
+ "shares_out": 380669339.0,
+ "price": 70.51000213623047,
+ "long_name": "Otis Worldwide Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 18.125963,
+ "pe_forward": 15.51307,
+ "peg": 2.25,
+ "p_sales_y": 1.8000803,
+ "eps_trailing_y": 3.89,
+ "eps_forward": 4.5452,
+ "earnings_growth_y": 0.13,
+ "earnings_growth_q_y": 0.089,
+ "bs_date": "2026-06-30",
+ "cash": 813000000.0,
+ "total_debt": 8846000000.0,
+ "current_debt": 1390000000.0,
+ "lease_obligations": 410000000.0,
+ "equity": -5748000000.0,
+ "net_debt": 8033000000.0,
+ "ocf_ttm": 1871000000.0,
+ "capex_ttm": -159000000.0,
+ "fcf_ttm": 1712000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1055000000.0,
+ "stock_issuance_ttm": -1055000000.0,
+ "revenue_ttm": 14911000000.0,
+ "net_income_ttm": 1516000000.0,
+ "ebitda_ttm": 2547000000.0,
+ "ebit_ttm": 2375000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07343532684283738,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3859000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3566000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3796000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3690000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3595000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.87
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.95
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.95
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.99
+  }
+ ],
+ "eps_ttm": 3.8900000000000006,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14004914004914015,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1313131313131315,
+ "eps_forward_growth": 0.16843187660668368,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.29437678154962427
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.303421200224341
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.30216016859852474
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3070460704607046
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.30292072322670377
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 14431000000.0,
+   "eps": 3.5,
+   "net_income": 1384000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14261000000.0,
+   "eps": 4.07,
+   "net_income": 1645000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14209000000.0,
+   "eps": 3.39,
+   "net_income": 1406000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 13685000000.0,
+   "eps": 2.96,
+   "net_income": 1253000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.029816513761467878,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1390000000.0,
+ "gap_24m": 577000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.153906556733412,
+ "interest_coverage": null,
+ "cash_to_debt": 0.09190594619036853,
+ "ev": 34873995906.08744,
+ "ev_to_sales": 2.338809999737606,
+ "ev_to_ebitda": 13.692185279186274,
+ "pe_ttm": 17.705142418263485,
+ "pe_trailing": 18.125963,
+ "p_sales": 1.8000803,
+ "p_fcf": 15.678151814303412,
+ "p_book": null
+}

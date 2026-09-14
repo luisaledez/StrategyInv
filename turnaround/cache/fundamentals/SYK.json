@@ -1,0 +1,154 @@
+{
+ "ticker": "SYK",
+ "fetched": "2026-09-14",
+ "market_cap": 108248110916.8971,
+ "shares_out": 383573046.0,
+ "price": 282.20989990234375,
+ "long_name": "Stryker Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": 29.274885,
+ "pe_forward": 16.85585,
+ "peg": 1.17,
+ "p_sales_y": 4.189655,
+ "eps_trailing_y": 9.64,
+ "eps_forward": 16.74255,
+ "earnings_growth_y": 0.441,
+ "earnings_growth_q_y": 0.443,
+ "bs_date": "2026-06-30",
+ "cash": 3476000000.0,
+ "total_debt": 14942000000.0,
+ "current_debt": 750000000.0,
+ "lease_obligations": null,
+ "equity": 23988000000.0,
+ "net_debt": 11466000000.0,
+ "ocf_ttm": 5525000000.0,
+ "capex_ttm": -823000000.0,
+ "fcf_ttm": 4702000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 25837000000.0,
+ "net_income_ttm": 3729000000.0,
+ "ebitda_ttm": 7005000000.0,
+ "ebit_ttm": 5784000000.0,
+ "interest_ttm": 585000000.0,
+ "revenue_yoy_last_q": 0.09415476585851867,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6589000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6020000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7171000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6057000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6022000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.3
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.93
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.2
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.29
+  }
+ ],
+ "eps_ttm": 9.65,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.08247422680412386,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4410480349344976,
+ "eps_forward_growth": 0.734979274611399,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6826529063590833
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.632890365448505
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6453772137777158
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6359583952451708
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6378279641315178
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 25116000000.0,
+   "eps": 8.4,
+   "net_income": 3246000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 22595000000.0,
+   "eps": 7.76,
+   "net_income": 2993000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 20498000000.0,
+   "eps": 8.25,
+   "net_income": 3165000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 18449000000.0,
+   "eps": 6.17,
+   "net_income": 2358000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.003310813072681551,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 750000000.0,
+ "gap_24m": -2726000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.636830835117773,
+ "interest_coverage": 9.887179487179488,
+ "cash_to_debt": 0.23263284700843262,
+ "ev": 119714110916.8971,
+ "ev_to_sales": 4.633436967020052,
+ "ev_to_ebitda": 17.089808838957474,
+ "pe_ttm": 29.028723764252373,
+ "pe_trailing": 29.274885,
+ "p_sales": 4.189655,
+ "p_fcf": 23.021716485941536,
+ "p_book": 4.512594251996711
+}

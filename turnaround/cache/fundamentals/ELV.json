@@ -1,0 +1,133 @@
+{
+ "ticker": "ELV",
+ "fetched": "2026-09-14",
+ "market_cap": 91987278840.59906,
+ "shares_out": 216869290.0,
+ "price": 424.1600036621094,
+ "long_name": "Elevance Health, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Healthcare Plans",
+ "pe_trailing_y": 18.75984,
+ "pe_forward": 14.327087,
+ "peg": 1.37,
+ "p_sales_y": 0.45738876,
+ "eps_trailing_y": 22.61,
+ "eps_forward": 29.60546,
+ "earnings_growth_y": -0.131,
+ "earnings_growth_q_y": -0.161,
+ "bs_date": "2026-06-30",
+ "cash": 35951000000.0,
+ "total_debt": 31044000000.0,
+ "current_debt": 375000000.0,
+ "lease_obligations": null,
+ "equity": 44883000000.0,
+ "net_debt": -4907000000.0,
+ "ocf_ttm": 7464000000.0,
+ "capex_ttm": -1175000000.0,
+ "fcf_ttm": 6289000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2705000000.0,
+ "stock_issuance_ttm": -2705000000.0,
+ "revenue_ttm": 201113000000.0,
+ "net_income_ttm": 4963000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 7300000000.0,
+ "interest_ttm": 1438000000.0,
+ "revenue_yoy_last_q": 0.01402282224365159,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 50474000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 50181000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 49747000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 50711000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 49776000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6.71
+  },
+  {
+   "period": "2026-03-31",
+   "value": 8.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.47
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5.32
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7.72
+  }
+ ],
+ "eps_ttm": 22.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.01830218068535816,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.13082901554404147,
+ "eps_forward_growth": 0.3157982222222222,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 199125000000.0,
+   "eps": 25.21,
+   "net_income": 5662000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 176810000000.0,
+   "eps": 25.68,
+   "net_income": 5980000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 171340000000.0,
+   "eps": 25.22,
+   "net_income": 5987000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 156595000000.0,
+   "eps": 24.81,
+   "net_income": 5894000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.035556492260110484,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 375000000.0,
+ "gap_24m": -35576000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 5.076495132127955,
+ "cash_to_debt": 1.1580659708800412,
+ "ev": 87080278840.59906,
+ "ev_to_sales": 0.43299179486457395,
+ "ev_to_ebitda": null,
+ "pe_ttm": 18.534611896151333,
+ "pe_trailing": 18.75984,
+ "p_sales": 0.45738876,
+ "p_fcf": 14.62669404366339,
+ "p_book": 2.0494904271238346
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "JEF",
+ "fetched": "2026-09-14",
+ "market_cap": 11659028274.11103,
+ "shares_out": 230552271.0,
+ "price": 50.56999969482422,
+ "long_name": "Jefferies Financial Group Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 14.125698,
+ "pe_forward": 11.4450865,
+ "peg": 1.15,
+ "p_sales_y": 1.9038128,
+ "eps_trailing_y": 3.58,
+ "eps_forward": 4.41849,
+ "earnings_growth_y": 1.598,
+ "earnings_growth_q_y": 1.578,
+ "bs_date": "2026-05-31",
+ "cash": 14314804000.0,
+ "total_debt": 26477167000.0,
+ "current_debt": 1603482000.0,
+ "lease_obligations": 550928000.0,
+ "equity": 10566996000.0,
+ "net_debt": 12162363000.0,
+ "ocf_ttm": 2006116000.0,
+ "capex_ttm": -227084000.0,
+ "fcf_ttm": 1779032000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -372661000.0,
+ "stock_issuance_ttm": -372661000.0,
+ "revenue_ttm": 11845960000.0,
+ "net_income_ttm": 898202000.0,
+ "ebitda_ttm": 4836527000.0,
+ "ebit_ttm": 4618882000.0,
+ "interest_ttm": 3506094000.0,
+ "revenue_yoy_last_q": 0.2501215764648812,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 3118197000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 2871265000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 2948824000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 2907674000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 2494315000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 1.112302
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.7
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.85
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1.01
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.4
+  }
+ ],
+ "eps_ttm": 3.672302,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.053511705685618804,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.7807549999999996,
+ "eps_forward_growth": 0.20319352820111192,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.5616235920950472
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.5650202959322808
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.5653819963483748
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.5738504385292161
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.5880452148184973
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 10823677000.0,
+   "eps": 2.83,
+   "net_income": 710475000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10515069000.0,
+   "eps": 2.99,
+   "net_income": 743383000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7441399000.0,
+   "eps": 1.1,
+   "net_income": 277688000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7149263000.0,
+   "eps": 3.06,
+   "net_income": 785449000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01395827947740147,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1603482000.0,
+ "gap_24m": -12711322000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.5146893628423865,
+ "interest_coverage": 1.317386812789389,
+ "cash_to_debt": 0.5406471168157831,
+ "ev": 23821391274.11103,
+ "ev_to_sales": 2.0109295721166567,
+ "ev_to_ebitda": 4.92530927132445,
+ "pe_ttm": 12.9804078304335,
+ "pe_trailing": 14.125698,
+ "p_sales": 1.9038128,
+ "p_fcf": 6.5535798536007395,
+ "p_book": 1.1033436819802933
+}

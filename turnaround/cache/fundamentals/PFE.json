@@ -1,0 +1,154 @@
+{
+ "ticker": "PFE",
+ "fetched": "2026-09-14",
+ "market_cap": 158080450469.71967,
+ "shares_out": 5699673589.0,
+ "price": 27.735000610351562,
+ "long_name": "Pfizer Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - General",
+ "pe_trailing_y": 36.493423,
+ "pe_forward": 9.573697,
+ "peg": 12.68,
+ "p_sales_y": 2.4817955,
+ "eps_trailing_y": 0.76,
+ "eps_forward": 2.897,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 11698000000.0,
+ "total_debt": 63194000000.0,
+ "current_debt": 2699000000.0,
+ "lease_obligations": null,
+ "equity": 85190000000.0,
+ "net_debt": 51496000000.0,
+ "ocf_ttm": 13401000000.0,
+ "capex_ttm": -2416000000.0,
+ "fcf_ttm": 10985000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 63695000000.0,
+ "net_income_ttm": 4332000000.0,
+ "ebitda_ttm": 13491000000.0,
+ "ebit_ttm": 6907000000.0,
+ "interest_ttm": 2698000000.0,
+ "revenue_yoy_last_q": 0.026001501399030902,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 15034000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 14450000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 17557000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 16654000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 14653000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.29
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.62
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.51
+  }
+ ],
+ "eps_ttm": 0.76,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.03546099290780125,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.0784313725490196,
+ "eps_forward_growth": 2.8118421052631577,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7278169482506319
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7544636678200692
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6997209090391296
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7494896121051999
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7421688391455674
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 62579000000.0,
+   "eps": 1.36,
+   "net_income": 7771000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 63627000000.0,
+   "eps": 1.41,
+   "net_income": 8031000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 59554000000.0,
+   "eps": 0.37,
+   "net_income": 2119000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 101175000000.0,
+   "eps": 5.47,
+   "net_income": 31372000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0024762843804084778,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2699000000.0,
+ "gap_24m": -8999000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.817063227336743,
+ "interest_coverage": 2.56004447739066,
+ "cash_to_debt": 0.1851125106813938,
+ "ev": 209576450469.71967,
+ "ev_to_sales": 3.2903124337816103,
+ "ev_to_ebitda": 15.53453787485877,
+ "pe_ttm": 36.491332056721994,
+ "pe_trailing": 36.493423,
+ "p_sales": 2.4817955,
+ "p_fcf": 14.390573552091002,
+ "p_book": 1.8556221442624683
+}

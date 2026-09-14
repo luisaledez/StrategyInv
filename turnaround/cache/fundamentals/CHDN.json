@@ -1,0 +1,154 @@
+{
+ "ticker": "CHDN",
+ "fetched": "2026-09-14",
+ "market_cap": 5811606069.902565,
+ "shares_out": 69700243.0,
+ "price": 83.37999725341797,
+ "long_name": "Churchill Downs Incorporated",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Gambling",
+ "pe_trailing_y": 14.156197,
+ "pe_forward": 11.259989,
+ "peg": 1.69,
+ "p_sales_y": 1.9424467,
+ "eps_trailing_y": 5.89,
+ "eps_forward": 7.40498,
+ "earnings_growth_y": 0.144,
+ "earnings_growth_q_y": 0.111,
+ "bs_date": "2026-06-30",
+ "cash": 196000000.0,
+ "total_debt": 4781000000.0,
+ "current_debt": 671000000.0,
+ "lease_obligations": 8000000.0,
+ "equity": 1341000000.0,
+ "net_debt": 4585000000.0,
+ "ocf_ttm": 794800000.0,
+ "capex_ttm": -412200000.0,
+ "fcf_ttm": 382600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -86800000.0,
+ "stock_issuance_ttm": -86800000.0,
+ "revenue_ttm": 2991900000.0,
+ "net_income_ttm": 413400000.0,
+ "ebitda_ttm": 1116200000.0,
+ "ebit_ttm": 878700000.0,
+ "interest_ttm": 293200000.0,
+ "revenue_yoy_last_q": 0.04925053533190571,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 980000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 663000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 665900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 683000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 934000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.71
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.54
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.99
+  }
+ ],
+ "eps_ttm": 5.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.06866197183098588,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14381270903010024,
+ "eps_forward_growth": 0.27015094339622636,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4275510204081633
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.30618401206636503
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2953896981528758
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.29912152269399706
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4197002141327623
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2925900000.0,
+   "eps": 5.29,
+   "net_income": 383000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2734300000.0,
+   "eps": 5.68,
+   "net_income": 426800000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2461700000.0,
+   "eps": 5.49,
+   "net_income": 417300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1809800000.0,
+   "eps": 5.71,
+   "net_income": 439400000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0071741310541310055,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 671000000.0,
+ "gap_24m": 475000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.107686794481276,
+ "interest_coverage": 2.996930422919509,
+ "cash_to_debt": 0.040995607613469986,
+ "ev": 10396606069.902565,
+ "ev_to_sales": 3.4749176342466543,
+ "ev_to_ebitda": 9.31428603288171,
+ "pe_ttm": 14.05806983527471,
+ "pe_trailing": 14.156197,
+ "p_sales": 1.9424467,
+ "p_fcf": 15.189770177476646,
+ "p_book": 4.333785287026521
+}

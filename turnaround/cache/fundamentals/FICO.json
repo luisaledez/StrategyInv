@@ -1,0 +1,154 @@
+{
+ "ticker": "FICO",
+ "fetched": "2026-09-14",
+ "market_cap": 21623552425.643005,
+ "shares_out": 21597635.0,
+ "price": 1001.2000122070312,
+ "long_name": "Fair Isaac Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 28.944782,
+ "pe_forward": 18.85043,
+ "peg": 0.69,
+ "p_sales_y": 9.033999,
+ "eps_trailing_y": 34.59,
+ "eps_forward": 53.11285,
+ "earnings_growth_y": 0.412,
+ "earnings_growth_q_y": 0.305,
+ "bs_date": "2026-06-30",
+ "cash": 248444000.0,
+ "total_debt": 5598010000.0,
+ "current_debt": 300000000.0,
+ "lease_obligations": 15621000.0,
+ "equity": -4097135000.0,
+ "net_debt": 5349566000.0,
+ "ocf_ttm": 1001549000.0,
+ "capex_ttm": -40671000.0,
+ "fcf_ttm": 960878000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3593974000.0,
+ "stock_issuance_ttm": -3593974000.0,
+ "revenue_ttm": 2393575000.0,
+ "net_income_ttm": 815017000.0,
+ "ebitda_ttm": 1267566000.0,
+ "ebit_ttm": 1251422000.0,
+ "interest_ttm": 186344000.0,
+ "revenue_yoy_last_q": 0.256840319528723,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 674188000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 691677000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 511959000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 515751000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 536415000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 10.45
+  },
+  {
+   "period": "2026-03-31",
+   "value": 11.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6.61
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.42
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7.4
+  }
+ ],
+ "eps_ttm": 34.62,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.29779951100244495,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.41216216216216206,
+ "eps_forward_growth": 0.5341666666666669,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8709306602906014
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8681479939335847
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8295547104357966
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8232170175142656
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8367476673843945
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1990869000.0,
+   "eps": 26.54,
+   "net_income": 651946000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1717526000.0,
+   "eps": 20.45,
+   "net_income": 512811000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1513557000.0,
+   "eps": 16.93,
+   "net_income": 429375000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1377270000.0,
+   "eps": 14.18,
+   "net_income": 373541000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.037553334539906835,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 300000000.0,
+ "gap_24m": 51556000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.220345133902298,
+ "interest_coverage": 6.715654917786459,
+ "cash_to_debt": 0.04438077102398888,
+ "ev": 26973118425.643005,
+ "ev_to_sales": 11.268967308583607,
+ "ev_to_ebitda": 21.2794587624179,
+ "pe_ttm": 26.531412750461655,
+ "pe_trailing": 28.944782,
+ "p_sales": 9.033999,
+ "p_fcf": 22.50395203724407,
+ "p_book": null
+}

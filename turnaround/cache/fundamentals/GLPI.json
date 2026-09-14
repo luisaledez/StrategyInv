@@ -1,0 +1,154 @@
+{
+ "ticker": "GLPI",
+ "fetched": "2026-09-14",
+ "market_cap": 11965541679.32613,
+ "shares_out": 290920043.0,
+ "price": 41.130001068115234,
+ "long_name": "Gaming and Leisure Properties, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 12.026316,
+ "pe_forward": 12.35651,
+ "peg": null,
+ "p_sales_y": 7.4425416,
+ "eps_trailing_y": 3.42,
+ "eps_forward": 3.32861,
+ "earnings_growth_y": 0.479,
+ "earnings_growth_q_y": 0.508,
+ "bs_date": "2026-06-30",
+ "cash": 319004000.0,
+ "total_debt": 8379888000.0,
+ "current_debt": null,
+ "lease_obligations": 302147000.0,
+ "equity": 4983316000.0,
+ "net_debt": 8060884000.0,
+ "ocf_ttm": 1203381000.0,
+ "capex_ttm": -575653000.0,
+ "fcf_ttm": 627728000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 350506000.0,
+ "revenue_ttm": 1655145000.0,
+ "net_income_ttm": 968733000.0,
+ "ebitda_ttm": 1664017000.0,
+ "ebit_ttm": 1383700000.0,
+ "interest_ttm": 383236000.0,
+ "revenue_yoy_last_q": 0.09026377900910676,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 430519000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 419985000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 407031000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 397610000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 394876000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.82
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.94
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.85
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.54
+  }
+ ],
+ "eps_ttm": 3.41,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.027874564459930307,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4814814814814814,
+ "eps_forward_growth": -0.023868035190615866,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9671350161084644
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9671464457063943
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9652950266687303
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9653303488342848
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9646927136620104
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1594752000.0,
+   "eps": 2.95,
+   "net_income": 825111000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1531546000.0,
+   "eps": 2.87,
+   "net_income": 784620000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1440392000.0,
+   "eps": 2.77,
+   "net_income": 734283000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1311685000.0,
+   "eps": 2.7,
+   "net_income": 684653000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0279561068512737,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -319004000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.844231759651494,
+ "interest_coverage": 3.61056894446242,
+ "cash_to_debt": 0.03806781188483665,
+ "ev": 20026425679.32613,
+ "ev_to_sales": 12.099499245882463,
+ "ev_to_ebitda": 12.034988632523664,
+ "pe_ttm": 12.351743647967117,
+ "pe_trailing": 12.026316,
+ "p_sales": 7.4425416,
+ "p_fcf": 19.061666325743204,
+ "p_book": 2.4011203943972506
+}

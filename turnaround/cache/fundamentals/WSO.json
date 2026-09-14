@@ -1,0 +1,154 @@
+{
+ "ticker": "WSO",
+ "fetched": "2026-09-14",
+ "market_cap": 12988665198.559814,
+ "shares_out": 41252194.0,
+ "price": 314.8599853515625,
+ "long_name": "Watsco, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Industrial Distribution",
+ "pe_trailing_y": 27.00343,
+ "pe_forward": 23.720125,
+ "peg": 1.2,
+ "p_sales_y": 1.7832679,
+ "eps_trailing_y": 11.66,
+ "eps_forward": 13.27396,
+ "earnings_growth_y": -0.117,
+ "earnings_growth_q_y": -0.11,
+ "bs_date": "2026-06-30",
+ "cash": 464189000.0,
+ "total_debt": 535269000.0,
+ "current_debt": 119723000.0,
+ "lease_obligations": 535269000.0,
+ "equity": 2994413000.0,
+ "net_debt": 71080000.0,
+ "ocf_ttm": 733263000.0,
+ "capex_ttm": -36122000.0,
+ "fcf_ttm": 697141000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5060000.0,
+ "stock_issuance_ttm": -5060000.0,
+ "revenue_ttm": 7283631000.0,
+ "net_income_ttm": 475730000.0,
+ "ebitda_ttm": 708137000.0,
+ "ebit_ttm": 664129000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.020566396533817644,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2104859000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1533010000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1578757000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2067005000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2062442000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.70501
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.749629
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.571055
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.720959
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4.232209
+  }
+ ],
+ "eps_ttm": 10.746653,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.07473892028819051,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.12456828100880646,
+ "eps_forward_growth": 0.23517154596877754,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27504407658660274
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2788990287082276
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.27137678566112455
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.27523639275183176
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2926084709291219
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7239290000.0,
+   "eps": 11.439965,
+   "net_income": 496994000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7618317000.0,
+   "eps": 12.36404,
+   "net_income": 536286000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7283767000.0,
+   "eps": 12.646513,
+   "net_income": 536337000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7274344000.0,
+   "eps": 14.17266,
+   "net_income": 601167000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.015827395546430534,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 119723000.0,
+ "gap_24m": -344466000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.10037605717537708,
+ "interest_coverage": null,
+ "cash_to_debt": 0.8672069557549569,
+ "ev": 13059745198.559814,
+ "ev_to_sales": 1.7930267470386425,
+ "ev_to_ebitda": 18.442399138245587,
+ "pe_ttm": 27.302598529753883,
+ "pe_trailing": 27.00343,
+ "p_sales": 1.7832679,
+ "p_fcf": 18.631331679760358,
+ "p_book": 4.337633185054905
+}

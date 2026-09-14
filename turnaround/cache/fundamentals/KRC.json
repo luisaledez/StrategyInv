@@ -1,0 +1,154 @@
+{
+ "ticker": "KRC",
+ "fetched": "2026-09-14",
+ "market_cap": 4059183858.6734314,
+ "shares_out": 116308988.0,
+ "price": 34.900001525878906,
+ "long_name": "Kilroy Realty Corporation",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Office",
+ "pe_trailing_y": 24.405596,
+ "pe_forward": 102.647064,
+ "peg": 1.82,
+ "p_sales_y": 3.7453527,
+ "eps_trailing_y": 1.43,
+ "eps_forward": 0.34,
+ "earnings_growth_y": -0.702,
+ "earnings_growth_q_y": -0.709,
+ "bs_date": "2026-03-31",
+ "cash": 224321000.0,
+ "total_debt": 4716805000.0,
+ "current_debt": null,
+ "lease_obligations": 127414000.0,
+ "equity": 5265162000.0,
+ "net_debt": 4492484000.0,
+ "ocf_ttm": 580087000.0,
+ "capex_ttm": -743895000.0,
+ "fcf_ttm": -163808000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -86060000.0,
+ "stock_issuance_ttm": -86060000.0,
+ "revenue_ttm": 1111876000.0,
+ "net_income_ttm": 217846000.0,
+ "ebitda_ttm": 741135000.0,
+ "ebit_ttm": 377941000.0,
+ "interest_ttm": 133655000.0,
+ "revenue_yoy_last_q": -0.0029205003618318903,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 270053000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 272187000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 279744000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 289892000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 270844000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.57
+  }
+ ],
+ "eps_ttm": 1.4200000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.31073446327683607,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.7017543859649122,
+ "eps_forward_growth": -0.7605633802816901,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.6509499987039581
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6443180607450025
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6665880233356212
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6873456321664619
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.6567322886975528
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1112667000.0,
+   "eps": 2.32,
+   "net_income": 276121000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1135629000.0,
+   "eps": 1.77,
+   "net_income": 210969000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1129694000.0,
+   "eps": 1.8,
+   "net_income": 212241000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1096987000.0,
+   "eps": 1.97,
+   "net_income": 232615000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0168256775231741,
+ "fcf_burn_annual": 163808000.0,
+ "runway_months": 16.43297030670053,
+ "need_24m": 327616000.0,
+ "gap_24m": 103295000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 6.06162709897657,
+ "interest_coverage": 2.8277355878942054,
+ "cash_to_debt": 0.047557827809290396,
+ "ev": 8551667858.673431,
+ "ev_to_sales": 7.691206446288463,
+ "ev_to_ebitda": 11.538610183938731,
+ "pe_ttm": 18.633272397351483,
+ "pe_trailing": 24.405596,
+ "p_sales": 3.7453527,
+ "p_fcf": null,
+ "p_book": 0.7709513702851748
+}

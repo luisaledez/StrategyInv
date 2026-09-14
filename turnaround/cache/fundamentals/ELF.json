@@ -1,0 +1,154 @@
+{
+ "ticker": "ELF",
+ "fetched": "2026-09-14",
+ "market_cap": 5772752356.726868,
+ "shares_out": 59007996.0,
+ "price": 97.83000183105469,
+ "long_name": "e.l.f. Beauty, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Household & Personal Products",
+ "pe_trailing_y": 99.82653,
+ "pe_forward": 25.57099,
+ "peg": 1.37,
+ "p_sales_y": 21.510824,
+ "eps_trailing_y": 0.98,
+ "eps_forward": 3.82582,
+ "earnings_growth_y": 0.931,
+ "earnings_growth_q_y": 0.999,
+ "bs_date": "2026-06-30",
+ "cash": 344241000.0,
+ "total_debt": 929300000.0,
+ "current_debt": 37645000.0,
+ "lease_obligations": 97304000.0,
+ "equity": 1168890000.0,
+ "net_debt": 585059000.0,
+ "ocf_ttm": 296943000.0,
+ "capex_ttm": -16785000.0,
+ "fcf_ttm": 280158000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -99969000.0,
+ "stock_issuance_ttm": -92271000.0,
+ "revenue_ttm": 1762106000.0,
+ "net_income_ttm": 59606000.0,
+ "ebitda_ttm": 221874000.0,
+ "ebit_ttm": 129604000.0,
+ "interest_ttm": 45957000.0,
+ "revenue_yoy_last_q": 0.35516016045728627,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 479373000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 449292000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 489505000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 343936000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 353739000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.84
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.05
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.58
+  }
+ ],
+ "eps_ttm": 0.9800000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7708333333333333,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.931034482758621,
+ "eps_forward_growth": 2.9038979591836727,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8320034712009229
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7265942861212753
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7098906037731995
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6944838574618534
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.691303475161065
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1636472000.0,
+   "eps": 0.44,
+   "net_income": 26318000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1313517000.0,
+   "eps": 1.92,
+   "net_income": 112089000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1023932000.0,
+   "eps": 2.21,
+   "net_income": 127663000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 578844000.0,
+   "eps": 1.11,
+   "net_income": 61530000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.03881372635818203,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 37645000.0,
+ "gap_24m": -306596000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.6368975184113506,
+ "interest_coverage": 2.820114454816459,
+ "cash_to_debt": 0.37043043150758637,
+ "ev": 6357811356.726868,
+ "ev_to_sales": 3.608075426067937,
+ "ev_to_ebitda": 28.65505357422171,
+ "pe_ttm": 96.84851116878951,
+ "pe_trailing": 99.82653,
+ "p_sales": 21.510824,
+ "p_fcf": 20.605345400548504,
+ "p_book": 4.938661770334991
+}

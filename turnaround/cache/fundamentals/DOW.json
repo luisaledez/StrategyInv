@@ -1,0 +1,154 @@
+{
+ "ticker": "DOW",
+ "fetched": "2026-09-14",
+ "market_cap": 20839529787.901115,
+ "shares_out": 722340711.0,
+ "price": 28.850000381469727,
+ "long_name": "Dow Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Chemicals",
+ "pe_trailing_y": null,
+ "pe_forward": 15.893303,
+ "peg": 38.89,
+ "p_sales_y": 0.5043571,
+ "eps_trailing_y": -1.83,
+ "eps_forward": 1.81523,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 3736000000.0,
+ "total_debt": 19428000000.0,
+ "current_debt": 1185000000.0,
+ "lease_obligations": 2503000000.0,
+ "equity": 15860000000.0,
+ "net_debt": 15692000000.0,
+ "ocf_ttm": 3866000000.0,
+ "capex_ttm": -2267000000.0,
+ "fcf_ttm": 1599000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 85000000.0,
+ "revenue_ttm": 41319000000.0,
+ "net_income_ttm": -1293000000.0,
+ "ebitda_ttm": 2651000000.0,
+ "ebit_ttm": -128000000.0,
+ "interest_ttm": 869000000.0,
+ "revenue_yoy_last_q": 0.19675376088677754,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 12092000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 9794000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9460000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 9973000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 10104000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.99
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.74
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.15
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.18
+  }
+ ],
+ "eps_ttm": -1.8199999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.356687898089172,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.179209394641085
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.06534613028384725
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.057928118393234675
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.07329790434172265
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.057699920823436265
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 39968000000.0,
+   "eps": -3.7,
+   "net_income": -2623000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 42964000000.0,
+   "eps": 1.57,
+   "net_income": 1116000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 44622000000.0,
+   "eps": 0.82,
+   "net_income": 589000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 56902000000.0,
+   "eps": 6.28,
+   "net_income": 4582000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.019040236109671982,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1185000000.0,
+ "gap_24m": -2551000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.919275745001886,
+ "interest_coverage": -0.1472957422324511,
+ "cash_to_debt": 0.19229977352275066,
+ "ev": 36531529787.901115,
+ "ev_to_sales": 0.8841339284082653,
+ "ev_to_ebitda": 13.780282832101515,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.5043571,
+ "p_fcf": 13.032851649719271,
+ "p_book": 1.3139678302585822
+}

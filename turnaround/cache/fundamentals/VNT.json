@@ -1,0 +1,154 @@
+{
+ "ticker": "VNT",
+ "fetched": "2026-09-14",
+ "market_cap": 4417659896.850586,
+ "shares_out": 135200000.0,
+ "price": 32.67499923706055,
+ "long_name": "Vontier Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Scientific & Technical Instruments",
+ "pe_trailing_y": 13.55809,
+ "pe_forward": 8.582558,
+ "peg": 0.79,
+ "p_sales_y": 1.4397744,
+ "eps_trailing_y": 2.41,
+ "eps_forward": 3.80714,
+ "earnings_growth_y": -0.683,
+ "earnings_growth_q_y": -0.702,
+ "bs_date": "2026-06-30",
+ "cash": 265800000.0,
+ "total_debt": 1931100000.0,
+ "current_debt": 316600000.0,
+ "lease_obligations": 31100000.0,
+ "equity": 1192700000.0,
+ "net_debt": 1665300000.0,
+ "ocf_ttm": 463400000.0,
+ "capex_ttm": -78600000.0,
+ "fcf_ttm": 384800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -395100000.0,
+ "stock_issuance_ttm": -395100000.0,
+ "revenue_ttm": 3068300000.0,
+ "net_income_ttm": 348000000.0,
+ "ebitda_ttm": 619600000.0,
+ "ebit_ttm": 500700000.0,
+ "interest_ttm": 59400000.0,
+ "revenue_yoy_last_q": -0.021719457013574694,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 756700000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 750600000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 808500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 752500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 773500000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.66
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.85
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.62
+  }
+ ],
+ "eps_ttm": 2.41,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0036363636363636598,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6774193548387096,
+ "eps_forward_growth": 0.5797261410788381,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.482357605391833
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4693578470556888
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.462708719851577
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.47322259136212624
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4788623141564318
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3075600000.0,
+   "eps": 2.76,
+   "net_income": 406100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2979000000.0,
+   "eps": 2.75,
+   "net_income": 422200000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3095200000.0,
+   "eps": 2.42,
+   "net_income": 376900000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3184400000.0,
+   "eps": 2.49,
+   "net_income": 401300000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0714285714285714,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 316600000.0,
+ "gap_24m": 50800000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.687701743060039,
+ "interest_coverage": 8.429292929292929,
+ "cash_to_debt": 0.13764175858319092,
+ "ev": 6082959896.850586,
+ "ev_to_sales": 1.982517973096042,
+ "ev_to_ebitda": 9.817559549468344,
+ "pe_ttm": 12.69442499094996,
+ "pe_trailing": 13.55809,
+ "p_sales": 1.4397744,
+ "p_fcf": 11.480405137345597,
+ "p_book": 3.7039153993884346
+}

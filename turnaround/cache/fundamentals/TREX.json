@@ -1,0 +1,154 @@
+{
+ "ticker": "TREX",
+ "fetched": "2026-09-14",
+ "market_cap": 4542168837.643394,
+ "shares_out": 101865190.0,
+ "price": 44.59000015258789,
+ "long_name": "Trex Company, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 26.22941,
+ "pe_forward": 22.09997,
+ "peg": 1.0,
+ "p_sales_y": 3.7604005,
+ "eps_trailing_y": 1.7,
+ "eps_forward": 2.01765,
+ "earnings_growth_y": -0.152,
+ "earnings_growth_q_y": -0.185,
+ "bs_date": "2026-06-30",
+ "cash": 6475000.0,
+ "total_debt": 303372000.0,
+ "current_debt": 265569000.0,
+ "lease_obligations": 50372000.0,
+ "equity": 1010082000.0,
+ "net_debt": 296897000.0,
+ "ocf_ttm": 358114000.0,
+ "capex_ttm": -159678000.0,
+ "fcf_ttm": 198436000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -204021000.0,
+ "stock_issuance_ttm": -204021000.0,
+ "revenue_ttm": 1207895000.0,
+ "net_income_ttm": 177351000.0,
+ "ebitda_ttm": 314234000.0,
+ "ebit_ttm": 243596000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07792140814489912,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 418019000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 343403000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 161125000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 285348000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 387801000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.58
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.02
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.71
+  }
+ ],
+ "eps_ttm": 1.68,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14832535885167453,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.15492957746478875,
+ "eps_forward_growth": 0.200982142857143,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37879617912104474
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.40483630020704536
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3020263770364624
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4045516351963217
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.407765838664676
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1174267000.0,
+   "eps": 1.78,
+   "net_income": 190415000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1151449000.0,
+   "eps": 2.09,
+   "net_income": 238446000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1094837000.0,
+   "eps": 1.89,
+   "net_income": 204119000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1106043000.0,
+   "eps": 1.65,
+   "net_income": 184626000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.050070300275598445,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 265569000.0,
+ "gap_24m": 259094000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.9448277398371914,
+ "interest_coverage": null,
+ "cash_to_debt": 0.02134343314478594,
+ "ev": 4839065837.643394,
+ "ev_to_sales": 4.006197424149777,
+ "ev_to_ebitda": 15.399561593091118,
+ "pe_ttm": 25.61118255686968,
+ "pe_trailing": 26.22941,
+ "p_sales": 3.7604005,
+ "p_fcf": 22.88984275858914,
+ "p_book": 4.496831779641053
+}

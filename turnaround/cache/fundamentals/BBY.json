@@ -1,0 +1,154 @@
+{
+ "ticker": "BBY",
+ "fetched": "2026-09-14",
+ "market_cap": 19708112037.075256,
+ "shares_out": 209727698.0,
+ "price": 93.97000122070312,
+ "long_name": "Best Buy Co., Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "pe_trailing_y": 15.635607,
+ "pe_forward": 13.027487,
+ "peg": 1.7,
+ "p_sales_y": 0.46700576,
+ "eps_trailing_y": 6.01,
+ "eps_forward": 7.21321,
+ "earnings_growth_y": 0.701,
+ "earnings_growth_q_y": 0.694,
+ "bs_date": "2026-07-31",
+ "cash": 2255000000.0,
+ "total_debt": 4133000000.0,
+ "current_debt": 625000000.0,
+ "lease_obligations": 2964000000.0,
+ "equity": 3183000000.0,
+ "net_debt": 1878000000.0,
+ "ocf_ttm": 2475000000.0,
+ "capex_ttm": -707000000.0,
+ "fcf_ttm": 1768000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -144000000.0,
+ "stock_issuance_ttm": -139000000.0,
+ "revenue_ttm": 42201000000.0,
+ "net_income_ttm": 1272000000.0,
+ "ebitda_ttm": 2580000000.0,
+ "ebit_ttm": 1782000000.0,
+ "interest_ttm": 45000000.0,
+ "revenue_yoy_last_q": 0.036130536130536184,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 9779000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 8936000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 13814000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 9672000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 9438000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.48
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.31
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2.56
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.66
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.87
+  }
+ ],
+ "eps_ttm": 6.01,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.17757009345794383,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.7011494252873562,
+ "eps_forward_growth": 0.20020133111480876,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.23908375089477452
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.23522829006266785
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.20862892717532938
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.23242349048800662
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.23246450519177791
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 41691000000.0,
+   "eps": 5.04,
+   "net_income": 1069000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 41528000000.0,
+   "eps": 4.28,
+   "net_income": 927000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 43452000000.0,
+   "eps": 5.68,
+   "net_income": 1241000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 46298000000.0,
+   "eps": 6.29,
+   "net_income": 1419000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 625000000.0,
+ "gap_24m": -1630000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.727906976744186,
+ "interest_coverage": 39.6,
+ "cash_to_debt": 0.5456085168158723,
+ "ev": 21586112037.075256,
+ "ev_to_sales": 0.5115071215628837,
+ "ev_to_ebitda": 8.366710091889635,
+ "pe_ttm": 15.49379877128558,
+ "pe_trailing": 15.635607,
+ "p_sales": 0.46700576,
+ "p_fcf": 11.14712219291587,
+ "p_book": 6.191678302568413
+}

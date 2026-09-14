@@ -1,0 +1,154 @@
+{
+ "ticker": "AOS",
+ "fetched": "2026-09-14",
+ "market_cap": 7842604453.82103,
+ "shares_out": 135908573.0,
+ "price": 57.70500183105469,
+ "long_name": "A. O. Smith Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 16.052925,
+ "pe_forward": 14.088432,
+ "peg": 1.36,
+ "p_sales_y": 2.0585065,
+ "eps_trailing_y": 3.59,
+ "eps_forward": 4.09059,
+ "earnings_growth_y": -0.15,
+ "earnings_growth_q_y": -0.179,
+ "bs_date": "2026-06-30",
+ "cash": 181300000.0,
+ "total_debt": 676700000.0,
+ "current_debt": 39500000.0,
+ "lease_obligations": 39200000.0,
+ "equity": 1841900000.0,
+ "net_debt": 495400000.0,
+ "ocf_ttm": 692300000.0,
+ "capex_ttm": -52900000.0,
+ "fcf_ttm": 639400000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -311900000.0,
+ "stock_issuance_ttm": -311900000.0,
+ "revenue_ttm": 3804900000.0,
+ "net_income_ttm": 500300000.0,
+ "ebitda_ttm": 758700000.0,
+ "ebit_ttm": 666300000.0,
+ "interest_ttm": 21200000.0,
+ "revenue_yoy_last_q": -0.00692178384257891,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1004300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 945600000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 912500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 942500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1011300000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.905972
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.847902
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.896143
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.936868
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.06819
+  }
+ ],
+ "eps_ttm": 3.586885,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.060896523266201985,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.15186249637236815,
+ "eps_forward_growth": 0.14042964856693185,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3861395997211988
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.38673857868020306
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.384
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.386737400530504
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3926629091268664
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3830200000.0,
+   "eps": 3.848783,
+   "net_income": 546200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3818100000.0,
+   "eps": 3.627859,
+   "net_income": 533600000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3852800000.0,
+   "eps": 3.685702,
+   "net_income": 556600000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3753900000.0,
+   "eps": 1.51,
+   "net_income": 235700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.033834081158642504,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 39500000.0,
+ "gap_24m": -141800000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.652959008830895,
+ "interest_coverage": 31.42924528301887,
+ "cash_to_debt": 0.26791783655977536,
+ "ev": 8338004453.82103,
+ "ev_to_sales": 2.191385963841633,
+ "ev_to_ebitda": 10.989856931357625,
+ "pe_ttm": 15.675803425586707,
+ "pe_trailing": 16.052925,
+ "p_sales": 2.0585065,
+ "p_fcf": 12.265568429498014,
+ "p_book": 4.257888296770199
+}

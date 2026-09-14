@@ -1,0 +1,154 @@
+{
+ "ticker": "BLDR",
+ "fetched": "2026-09-14",
+ "market_cap": 6605346429.558334,
+ "shares_out": 107596457.0,
+ "price": 61.38999938964844,
+ "long_name": "Builders FirstSource, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 66.72826,
+ "pe_forward": 13.884616,
+ "peg": 2.02,
+ "p_sales_y": 0.45715842,
+ "eps_trailing_y": 0.92,
+ "eps_forward": 4.42144,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 65651000.0,
+ "total_debt": 5238214000.0,
+ "current_debt": 124815000.0,
+ "lease_obligations": 646900000.0,
+ "equity": 4005175000.0,
+ "net_debt": 5172563000.0,
+ "ocf_ttm": 897998000.0,
+ "capex_ttm": -258681000.0,
+ "fcf_ttm": 639317000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -303520000.0,
+ "stock_issuance_ttm": -303520000.0,
+ "revenue_ttm": 14448703000.0,
+ "net_income_ttm": 102550000.0,
+ "ebitda_ttm": 1032812000.0,
+ "ebit_ttm": 435571000.0,
+ "interest_ttm": 287509000.0,
+ "revenue_yoy_last_q": -0.08774454046986535,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3862548000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3287077000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3357888000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3941190000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4234064000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.28
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.1
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.84
+  }
+ ],
+ "eps_ttm": 0.9100000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5706401766004415,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.0476190476190477,
+ "eps_forward_growth": 3.8587252747252734,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.28136530601043663
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2826115725308534
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.29840542626793987
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3043453880680708
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.30680712431366175
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 15190638000.0,
+   "eps": 3.89,
+   "net_income": 435199000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16400492000.0,
+   "eps": 9.06,
+   "net_income": 1077898000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17097330000.0,
+   "eps": 11.94,
+   "net_income": 1540555000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 22726418000.0,
+   "eps": 16.82,
+   "net_income": 2749369000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.026624569148791855,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 124815000.0,
+ "gap_24m": 59164000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.008232863289737,
+ "interest_coverage": 1.5149821396895402,
+ "cash_to_debt": 0.01253308856797374,
+ "ev": 11777909429.558334,
+ "ev_to_sales": 0.8151534037040096,
+ "ev_to_ebitda": 11.403730233148273,
+ "pe_ttm": 64.41098419852106,
+ "pe_trailing": 66.72826,
+ "p_sales": 0.45715842,
+ "p_fcf": 10.331879849211477,
+ "p_book": 1.6492029510716346
+}

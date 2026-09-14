@@ -1,0 +1,154 @@
+{
+ "ticker": "ZBH",
+ "fetched": "2026-09-14",
+ "market_cap": 18335613519.69329,
+ "shares_out": 190737689.0,
+ "price": 96.12999725341797,
+ "long_name": "Zimmer Biomet Holdings, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": 23.332523,
+ "pe_forward": 10.60188,
+ "peg": 0.59,
+ "p_sales_y": 2.1549003,
+ "eps_trailing_y": 4.12,
+ "eps_forward": 9.06726,
+ "earnings_growth_y": 0.338,
+ "earnings_growth_q_y": 0.298,
+ "bs_date": "2026-06-30",
+ "cash": 410000000.0,
+ "total_debt": 7479000000.0,
+ "current_debt": 1201500000.0,
+ "lease_obligations": null,
+ "equity": 12623900000.0,
+ "net_debt": 7069000000.0,
+ "ocf_ttm": 1743300000.0,
+ "capex_ttm": -341500000.0,
+ "fcf_ttm": 1401800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -750800000.0,
+ "stock_issuance_ttm": -750800000.0,
+ "revenue_ttm": 8508800000.0,
+ "net_income_ttm": 806600000.0,
+ "ebitda_ttm": 2331000000.0,
+ "ebit_ttm": 1222600000.0,
+ "interest_ttm": 289000000.0,
+ "revenue_yoy_last_q": 0.04799499350117942,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2177000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2086700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2243700000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2001400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2077300000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.03
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.22
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.16
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.77
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.91
+  }
+ ],
+ "eps_ttm": 4.18,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.19864559819413097,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.13186813186813184,
+ "eps_forward_growth": 1.1692009569377988,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7080845199816261
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7238702257152442
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6468333556179525
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7205456180673528
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7149184036971068
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8231500000.0,
+   "eps": 3.55,
+   "net_income": 705100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7678600000.0,
+   "eps": 4.43,
+   "net_income": 903800000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7394200000.0,
+   "eps": 4.88,
+   "net_income": 1024000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6939900000.0,
+   "eps": 1.1,
+   "net_income": 231400000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03707689742294085,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1201500000.0,
+ "gap_24m": 791500000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.0326040326040324,
+ "interest_coverage": 4.230449826989619,
+ "cash_to_debt": 0.05482016312341222,
+ "ev": 25404613519.69329,
+ "ev_to_sales": 2.985686996955304,
+ "ev_to_ebitda": 10.89859009853852,
+ "pe_ttm": 22.731978080452876,
+ "pe_trailing": 23.332523,
+ "p_sales": 2.1549003,
+ "p_fcf": 13.080049593161144,
+ "p_book": 1.4524523736478656
+}

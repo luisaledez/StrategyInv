@@ -1,0 +1,154 @@
+{
+ "ticker": "SJM",
+ "fetched": "2026-09-14",
+ "market_cap": 13013733942.976517,
+ "shares_out": 106823183.0,
+ "price": 121.82499694824219,
+ "long_name": "The J. M. Smucker Company",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "pe_trailing_y": 56.927567,
+ "pe_forward": 11.193499,
+ "peg": 2.17,
+ "p_sales_y": 1.4211943,
+ "eps_trailing_y": 2.14,
+ "eps_forward": 10.88355,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-07-31",
+ "cash": 43200000.0,
+ "total_debt": 6897100000.0,
+ "current_debt": 343500000.0,
+ "lease_obligations": 159300000.0,
+ "equity": 5750800000.0,
+ "net_debt": 6853900000.0,
+ "ocf_ttm": 1909900000.0,
+ "capex_ttm": -321500000.0,
+ "fcf_ttm": 1588400000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -6700000.0,
+ "stock_issuance_ttm": -6700000.0,
+ "revenue_ttm": 9156900000.0,
+ "net_income_ttm": 229500000.0,
+ "ebitda_ttm": 1334600000.0,
+ "ebit_ttm": 785300000.0,
+ "interest_ttm": 363300000.0,
+ "revenue_yoy_last_q": 0.05015851985047082,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2219300000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2268100000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2339400000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2330100000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2113300000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 3.03
+  },
+  {
+   "period": "2026-04-30",
+   "value": 3.64
+  },
+  {
+   "period": "2026-01-31",
+   "value": -6.79
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2.26
+  },
+  {
+   "period": "2025-07-31",
+   "value": -0.41
+  }
+ ],
+ "eps_ttm": 2.1399999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 4.085771028037383,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.4414004415806786
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.3800978792822186
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.35385141489270755
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.3733316166688125
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.22462499408508022
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 9050900000.0,
+   "eps": -1.3,
+   "net_income": -138700000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 8726100000.0,
+   "eps": -11.57,
+   "net_income": -1230800000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8178700000.0,
+   "eps": 7.13,
+   "net_income": 744000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8529200000.0,
+   "eps": -0.86,
+   "net_income": -91300000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.001286884562272439,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 343500000.0,
+ "gap_24m": 300300000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.135546231080474,
+ "interest_coverage": 2.1615744563721444,
+ "cash_to_debt": 0.006263502051586899,
+ "ev": 19867633942.976517,
+ "ev_to_sales": 2.169689954348799,
+ "ev_to_ebitda": 14.886583203189357,
+ "pe_ttm": 56.704723063078504,
+ "pe_trailing": 56.927567,
+ "p_sales": 1.4211943,
+ "p_fcf": 8.192982839949961,
+ "p_book": 2.2629432327635315
+}

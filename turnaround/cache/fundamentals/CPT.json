@@ -1,0 +1,154 @@
+{
+ "ticker": "CPT",
+ "fetched": "2026-09-14",
+ "market_cap": 11922769797.053421,
+ "shares_out": 115732578.0,
+ "price": 103.0199966430664,
+ "long_name": "Camden Property Trust",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Residential",
+ "pe_trailing_y": 34.0,
+ "pe_forward": 94.513756,
+ "peg": 9.17,
+ "p_sales_y": 7.5371456,
+ "eps_trailing_y": 3.03,
+ "eps_forward": 1.09,
+ "earnings_growth_y": -0.757,
+ "earnings_growth_q_y": -0.767,
+ "bs_date": "2026-06-30",
+ "cash": 40684000.0,
+ "total_debt": 4250508000.0,
+ "current_debt": 358800000.0,
+ "lease_obligations": null,
+ "equity": 4028886000.0,
+ "net_debt": 4209824000.0,
+ "ocf_ttm": 826510000.0,
+ "capex_ttm": -456028000.0,
+ "fcf_ttm": 370482000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -533483000.0,
+ "stock_issuance_ttm": -533483000.0,
+ "revenue_ttm": 1571752000.0,
+ "net_income_ttm": 388089000.0,
+ "ebitda_ttm": 1156484000.0,
+ "ebit_ttm": 544711000.0,
+ "interest_ttm": 141808000.0,
+ "revenue_yoy_last_q": -0.004588224751321812,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 388773000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 390794000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 395676000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 396509000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 390565000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.18
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.44
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.74
+  }
+ ],
+ "eps_ttm": 3.02,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.3599999999999999,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.7567567567567568,
+ "eps_forward_growth": -0.6390728476821192,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.6116294084208522
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6220156911313889
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6069410325619952
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6115800650174397
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.6159768540447813
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1573544000.0,
+   "eps": 3.54,
+   "net_income": 384462000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1543842000.0,
+   "eps": 1.5,
+   "net_income": 163293000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1542027000.0,
+   "eps": 3.7,
+   "net_income": 403309000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1422756000.0,
+   "eps": 6.04,
+   "net_income": 653613000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.08310213381622034,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 358800000.0,
+ "gap_24m": 318116000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.640192168676782,
+ "interest_coverage": 3.841186674940765,
+ "cash_to_debt": 0.009571561799201413,
+ "ev": 16132593797.053421,
+ "ev_to_sales": 10.264083517662723,
+ "ev_to_ebitda": 13.949690438478545,
+ "pe_ttm": 30.721741139412405,
+ "pe_trailing": 34.0,
+ "p_sales": 7.5371456,
+ "p_fcf": 32.18177886389466,
+ "p_book": 2.9593217075522666
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "DOCS",
+ "fetched": "2026-09-14",
+ "market_cap": 4621918315.796356,
+ "shares_out": 178245980.0,
+ "price": 25.93000030517578,
+ "long_name": "Doximity, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Health Information Services",
+ "pe_trailing_y": 30.86905,
+ "pe_forward": 16.735943,
+ "peg": 0.59,
+ "p_sales_y": 7.05025,
+ "eps_trailing_y": 0.84,
+ "eps_forward": 1.54936,
+ "earnings_growth_y": -0.519,
+ "earnings_growth_q_y": -0.544,
+ "bs_date": "2026-06-30",
+ "cash": 687789000.0,
+ "total_debt": 9673000.0,
+ "current_debt": 2142000.0,
+ "lease_obligations": 9673000.0,
+ "equity": 916070000.0,
+ "net_debt": -678116000.0,
+ "ocf_ttm": 306344000.0,
+ "capex_ttm": -9381000.0,
+ "fcf_ttm": 296963000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -400930000.0,
+ "stock_issuance_ttm": -400930000.0,
+ "revenue_ttm": 655568000.0,
+ "net_income_ttm": 167046000.0,
+ "ebitda_ttm": 209923000.0,
+ "ebit_ttm": 194047000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07336563568701893,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 156618000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 145372000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 185053000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 168525000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 145913000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.13
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.31
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.27
+  }
+ ],
+ "eps_ttm": 0.8500000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.11711711711711725,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5185185185185186,
+ "eps_forward_growth": 0.8227764705882352,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8487274770460611
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8665011143824121
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8989424651316109
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9025367156208278
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8917642704899494
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 644863000.0,
+   "eps": 0.98,
+   "net_income": 196051000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 570399000.0,
+   "eps": 1.11,
+   "net_income": 223185000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 475422000.0,
+   "eps": 0.72,
+   "net_income": 147582000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 419052000.0,
+   "eps": 0.53,
+   "net_income": 112818000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04056187772196729,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2142000.0,
+ "gap_24m": -685647000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.2303082558843004,
+ "interest_coverage": null,
+ "cash_to_debt": 71.10400082704435,
+ "ev": 3943802315.796356,
+ "ev_to_sales": 6.015855434976015,
+ "ev_to_ebitda": 18.786899557439423,
+ "pe_ttm": 27.66853630614535,
+ "pe_trailing": 30.86905,
+ "p_sales": 7.05025,
+ "p_fcf": 15.563953474999769,
+ "p_book": 5.045376789760996
+}

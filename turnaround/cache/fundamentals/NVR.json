@@ -1,0 +1,154 @@
+{
+ "ticker": "NVR",
+ "fetched": "2026-09-14",
+ "market_cap": 16714921869.228516,
+ "shares_out": 2664860.0,
+ "price": 6272.34521484375,
+ "long_name": "NVR, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Residential Construction",
+ "pe_trailing_y": 16.315962,
+ "pe_forward": 15.23805,
+ "peg": 4.97,
+ "p_sales_y": 1.7441299,
+ "eps_trailing_y": 384.43,
+ "eps_forward": 411.62387,
+ "earnings_growth_y": -0.226,
+ "earnings_growth_q_y": -0.291,
+ "bs_date": "2026-06-30",
+ "cash": 1144674000.0,
+ "total_debt": 1050702000.0,
+ "current_debt": null,
+ "lease_obligations": 142540000.0,
+ "equity": 3391196000.0,
+ "net_debt": -93972000.0,
+ "ocf_ttm": 1066590000.0,
+ "capex_ttm": -20169000.0,
+ "fcf_ttm": 1046421000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1784065000.0,
+ "stock_issuance_ttm": -1784065000.0,
+ "revenue_ttm": 9546731000.0,
+ "net_income_ttm": 1141320000.0,
+ "ebitda_ttm": 1537919000.0,
+ "ebit_ttm": 1511707000.0,
+ "interest_ttm": 28577000.0,
+ "revenue_yoy_last_q": -0.10485432567115593,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2330339000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1884692000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2717314000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2614386000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2603307000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 83.96
+  },
+  {
+   "period": "2026-03-31",
+   "value": 67.76
+  },
+  {
+   "period": "2025-12-31",
+   "value": 121.54
+  },
+  {
+   "period": "2025-09-30",
+   "value": 112.33
+  },
+  {
+   "period": "2025-06-30",
+   "value": 108.54
+  }
+ ],
+ "eps_ttm": 385.59,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.13842783556020444,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.22646029113690813,
+ "eps_forward_growth": 0.06751697398791467,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.20989306706020025
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2176233570259756
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.22841268988420182
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.22681731006821487
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2317529204200657
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 10341845000.0,
+   "eps": 436.55,
+   "net_income": 1339816000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10543571000.0,
+   "eps": 506.69,
+   "net_income": 1681928000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9534889000.0,
+   "eps": 463.31,
+   "net_income": 1591611000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10538287000.0,
+   "eps": 491.82,
+   "net_income": 1725575000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07112268769411922,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -1144674000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.06110334809570595,
+ "interest_coverage": 52.89942961122581,
+ "cash_to_debt": 1.089437347601889,
+ "ev": 16620949869.228516,
+ "ev_to_sales": 1.7410095528226903,
+ "ev_to_ebitda": 10.80742865471362,
+ "pe_ttm": 14.645254502881327,
+ "pe_trailing": 16.315962,
+ "p_sales": 1.7441299,
+ "p_fcf": 15.973419750968793,
+ "p_book": 4.92891648528381
+}

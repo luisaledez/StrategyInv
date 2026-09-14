@@ -1,0 +1,154 @@
+{
+ "ticker": "ATR",
+ "fetched": "2026-09-14",
+ "market_cap": 7987697061.639214,
+ "shares_out": 63581129.0,
+ "price": 125.62999725341797,
+ "long_name": "AptarGroup, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": 22.676895,
+ "pe_forward": 19.887163,
+ "peg": 2.6,
+ "p_sales_y": 2.0308173,
+ "eps_trailing_y": 5.54,
+ "eps_forward": 6.31714,
+ "earnings_growth_y": -0.186,
+ "earnings_growth_q_y": -0.216,
+ "bs_date": "2026-06-30",
+ "cash": 229477000.0,
+ "total_debt": 1409549000.0,
+ "current_debt": 222166000.0,
+ "lease_obligations": 44013000.0,
+ "equity": 2629495000.0,
+ "net_debt": 1180072000.0,
+ "ocf_ttm": 605951000.0,
+ "capex_ttm": -282090000.0,
+ "fcf_ttm": 323861000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -384978000.0,
+ "stock_issuance_ttm": -384978000.0,
+ "revenue_ttm": 3872744000.0,
+ "net_income_ttm": 386665000.0,
+ "ebitda_ttm": 834903000.0,
+ "ebit_ttm": 537462000.0,
+ "interest_ttm": 58328000.0,
+ "revenue_yoy_last_q": 0.10770028344255911,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 982868000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 962736000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 961131000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 966009000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 887305000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.13
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.92
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.67
+  }
+ ],
+ "eps_ttm": 5.53,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.06509945750452073,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.18562874251496997,
+ "eps_forward_growth": 0.14233996383363468,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.3580429925483381
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3513123016070865
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37776848317242917
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3799291725025336
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.37914133246178033
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3777181000.0,
+   "eps": 5.89,
+   "net_income": 392789000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3582890000.0,
+   "eps": 5.53,
+   "net_income": 374541000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3487450000.0,
+   "eps": 4.25,
+   "net_income": 284487000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3322249000.0,
+   "eps": 3.59,
+   "net_income": 239288000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.033434650455927084,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 222166000.0,
+ "gap_24m": -7311000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4134240744134348,
+ "interest_coverage": 9.214476752160197,
+ "cash_to_debt": 0.1628017188476598,
+ "ev": 9167769061.639214,
+ "ev_to_sales": 2.3672540869314402,
+ "ev_to_ebitda": 10.980639740951,
+ "pe_ttm": 20.65792627116293,
+ "pe_trailing": 22.676895,
+ "p_sales": 2.0308173,
+ "p_fcf": 24.663967139109722,
+ "p_book": 3.0377304621758983
+}

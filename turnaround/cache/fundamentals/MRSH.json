@@ -1,0 +1,154 @@
+{
+ "ticker": "MRSH",
+ "fetched": "2026-09-14",
+ "market_cap": 85606929075.25336,
+ "shares_out": 477211268.0,
+ "price": 179.38999938964844,
+ "long_name": "Marsh & McLennan Companies, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 21.903542,
+ "pe_forward": 15.721663,
+ "peg": 1.56,
+ "p_sales_y": 3.0631883,
+ "eps_trailing_y": 8.19,
+ "eps_forward": 11.41037,
+ "earnings_growth_y": 0.073,
+ "earnings_growth_q_y": 0.045,
+ "bs_date": "2026-06-30",
+ "cash": 1700000000.0,
+ "total_debt": 22382000000.0,
+ "current_debt": 1997000000.0,
+ "lease_obligations": 1821000000.0,
+ "equity": 15183000000.0,
+ "net_debt": 20682000000.0,
+ "ocf_ttm": 5078000000.0,
+ "capex_ttm": -311000000.0,
+ "fcf_ttm": 4767000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2905000000.0,
+ "stock_issuance_ttm": -2739000000.0,
+ "revenue_ttm": 27947000000.0,
+ "net_income_ttm": 3980000000.0,
+ "ebitda_ttm": 7217000000.0,
+ "ebit_ttm": 6311000000.0,
+ "interest_ttm": 962000000.0,
+ "revenue_yoy_last_q": 0.06165758531689125,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7404000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 7597000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6595000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6351000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6974000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.63
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.36
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.45
+  }
+ ],
+ "eps_ttm": 8.18,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.030562347188264116,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.07346938775510181,
+ "eps_forward_growth": 0.39491075794621033,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4407077255537547
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.45636435435040146
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.40288097043214555
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3868682097307511
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4414969888156008
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 26981000000.0,
+   "eps": 8.43,
+   "net_income": 4160000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 24458000000.0,
+   "eps": 8.18,
+   "net_income": 4060000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 22736000000.0,
+   "eps": 7.53,
+   "net_income": 3756000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 20720000000.0,
+   "eps": 6.04,
+   "net_income": 3050000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02797454622710016,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1997000000.0,
+ "gap_24m": 297000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.865733684356381,
+ "interest_coverage": 6.5602910602910605,
+ "cash_to_debt": 0.07595389151997141,
+ "ev": 106288929075.25336,
+ "ev_to_sales": 3.8032321564122573,
+ "ev_to_ebitda": 14.72757781283821,
+ "pe_ttm": 21.509278662123958,
+ "pe_trailing": 21.903542,
+ "p_sales": 3.0631883,
+ "p_fcf": 17.95823978922873,
+ "p_book": 5.6383408466873055
+}

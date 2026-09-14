@@ -1,0 +1,133 @@
+{
+ "ticker": "EQH",
+ "fetched": "2026-09-14",
+ "market_cap": 14741626458.965927,
+ "shares_out": 272765787.0,
+ "price": 54.04499816894531,
+ "long_name": "Equitable Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": null,
+ "pe_forward": 5.994031,
+ "peg": null,
+ "p_sales_y": 1.3881004,
+ "eps_trailing_y": -3.29,
+ "eps_forward": 9.01647,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 48601000000.0,
+ "total_debt": 6967000000.0,
+ "current_debt": 0.0,
+ "lease_obligations": null,
+ "equity": -785000000.0,
+ "net_debt": -41634000000.0,
+ "ocf_ttm": 1357000000.0,
+ "capex_ttm": -59000000.0,
+ "fcf_ttm": 1321000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1636000000.0,
+ "stock_issuance_ttm": -1466000000.0,
+ "revenue_ttm": 10615000000.0,
+ "net_income_ttm": -926000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": -384000000.0,
+ "interest_ttm": 226000000.0,
+ "revenue_yoy_last_q": -0.2980524978831499,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1658000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4230000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3277000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1450000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2362000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.68
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7
+  },
+  {
+   "period": "2025-09-30",
+   "value": -4.47
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.21
+  }
+ ],
+ "eps_ttm": -3.3099999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -2.2777777777777777,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11665000000.0,
+   "eps": -4.83,
+   "net_income": -1380000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 12425000000.0,
+   "eps": 3.78,
+   "net_income": 1280000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10460000000.0,
+   "eps": 3.48,
+   "net_income": 1283000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 12644000000.0,
+   "eps": 5.46,
+   "net_income": 2153000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.09505560124627643,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -48601000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": -1.6991150442477876,
+ "cash_to_debt": 6.975886321228649,
+ "ev": -26892373541.034073,
+ "ev_to_sales": -2.5334313274643496,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.3881004,
+ "p_fcf": 11.15944470777133,
+ "p_book": null
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "AJG",
+ "fetched": "2026-09-14",
+ "market_cap": 64254435998.74878,
+ "shares_out": 256341000.0,
+ "price": 250.66000366210938,
+ "long_name": "Arthur J. Gallagher & Co.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 41.56882,
+ "pe_forward": 16.83327,
+ "peg": 0.71,
+ "p_sales_y": 4.2527256,
+ "eps_trailing_y": 6.03,
+ "eps_forward": 14.89075,
+ "earnings_growth_y": -0.107,
+ "earnings_growth_q_y": -0.12,
+ "bs_date": "2026-06-30",
+ "cash": 1386000000.0,
+ "total_debt": 14106000000.0,
+ "current_debt": 1654000000.0,
+ "lease_obligations": 497000000.0,
+ "equity": 23717000000.0,
+ "net_debt": 12720000000.0,
+ "ocf_ttm": 2449000000.0,
+ "capex_ttm": -164000000.0,
+ "fcf_ttm": 2285000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -480000000.0,
+ "stock_issuance_ttm": -268000000.0,
+ "revenue_ttm": 15754800000.0,
+ "net_income_ttm": 1569800000.0,
+ "ebitda_ttm": 3966700000.0,
+ "ebit_ttm": 2631900000.0,
+ "interest_ttm": 648000000.0,
+ "revenue_yoy_last_q": 0.24239602731222853,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4003000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4758000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3628200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3365600000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3222000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.25
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.58
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.4
+  }
+ ],
+ "eps_ttm": 6.03,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.11692307692307691,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.1071428571428571,
+ "eps_forward_growth": 1.4694444444444446,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.40594554084436674
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.46237915090374104
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37955460007717323
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.41410149750415975
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4267535692116698
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 13942000000.0,
+   "eps": 5.74,
+   "net_income": 1494000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11555000000.0,
+   "eps": 6.5,
+   "net_income": 1463000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10072000000.0,
+   "eps": 4.42,
+   "net_income": 970000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8550600000.0,
+   "eps": 5.19,
+   "net_income": 1114200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -8.581581585487275e-05,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1654000000.0,
+ "gap_24m": 268000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.2066957420525877,
+ "interest_coverage": 4.061574074074074,
+ "cash_to_debt": 0.09825606125053168,
+ "ev": 76974435998.74878,
+ "ev_to_sales": 4.885776779060907,
+ "ev_to_ebitda": 19.405156931138926,
+ "pe_ttm": 40.93160657328881,
+ "pe_trailing": 41.56882,
+ "p_sales": 4.2527256,
+ "p_fcf": 28.12010328172813,
+ "p_book": 2.7092143187902678
+}

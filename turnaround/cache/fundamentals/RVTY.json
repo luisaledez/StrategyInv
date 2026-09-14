@@ -1,0 +1,154 @@
+{
+ "ticker": "RVTY",
+ "fetched": "2026-09-14",
+ "market_cap": 14052075511.983467,
+ "shares_out": 111586401.0,
+ "price": 125.93000030517578,
+ "long_name": "Revvity, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Diagnostics & Research",
+ "pe_trailing_y": 60.54327,
+ "pe_forward": 21.3708,
+ "peg": 0.73,
+ "p_sales_y": 4.8258886,
+ "eps_trailing_y": 2.08,
+ "eps_forward": 5.89262,
+ "earnings_growth_y": 0.012,
+ "earnings_growth_q_y": -0.039,
+ "bs_date": "2026-06-30",
+ "cash": 1022943000.0,
+ "total_debt": 3341516000.0,
+ "current_debt": 572156000.0,
+ "lease_obligations": 136266000.0,
+ "equity": 7228758000.0,
+ "net_debt": 2318573000.0,
+ "ocf_ttm": 627633000.0,
+ "capex_ttm": -69520000.0,
+ "fcf_ttm": 558113000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -475802000.0,
+ "stock_issuance_ttm": -475802000.0,
+ "revenue_ttm": 2911811000.0,
+ "net_income_ttm": 237554000.0,
+ "ebitda_ttm": 738746000.0,
+ "ebit_ttm": 326511000.0,
+ "interest_ttm": 65743000.0,
+ "revenue_yoy_last_q": 0.013055961259725413,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 729688000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 711118000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 772056000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 698949000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 720284000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.464504
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.87
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.46
+  }
+ ],
+ "eps_ttm": 2.0945039999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.059090909090909194,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.009791304347825935,
+ "eps_forward_growth": 1.813372521608935,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5712934843385118
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5451345627589232
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5461507973514874
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5359532669765605
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5450016937763438
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2856051000.0,
+   "eps": 2.07,
+   "net_income": 241201000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2755026000.0,
+   "eps": 2.2,
+   "net_income": 270385000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2750571000.0,
+   "eps": 5.55,
+   "net_income": 693094000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3311822000.0,
+   "eps": 4.58,
+   "net_income": 569179000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.040805976051095594,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 572156000.0,
+ "gap_24m": -450787000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.1385252847392744,
+ "interest_coverage": 4.966475518306131,
+ "cash_to_debt": 0.3061314086181242,
+ "ev": 16370648511.983467,
+ "ev_to_sales": 5.622153536745162,
+ "ev_to_ebitda": 22.160050290605252,
+ "pe_ttm": 59.153184168582584,
+ "pe_trailing": 60.54327,
+ "p_sales": 4.8258886,
+ "p_fcf": 25.177832288413757,
+ "p_book": 1.943912842563476
+}

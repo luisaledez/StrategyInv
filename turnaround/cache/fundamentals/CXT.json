@@ -1,0 +1,154 @@
+{
+ "ticker": "CXT",
+ "fetched": "2026-09-14",
+ "market_cap": 2920660661.5747375,
+ "shares_out": 57561304.0,
+ "price": 50.7400016784668,
+ "long_name": "Crane NXT, Co.",
+ "sector_y": "Industrials",
+ "industry_y": "Business Equipment & Supplies",
+ "pe_trailing_y": 20.966942,
+ "pe_forward": 10.797124,
+ "peg": null,
+ "p_sales_y": 1.6199794,
+ "eps_trailing_y": 2.42,
+ "eps_forward": 4.6994,
+ "earnings_growth_y": 0.419,
+ "earnings_growth_q_y": 0.422,
+ "bs_date": "2026-06-30",
+ "cash": 231400000.0,
+ "total_debt": 1467100000.0,
+ "current_debt": 207100000.0,
+ "lease_obligations": 13200000.0,
+ "equity": 1266300000.0,
+ "net_debt": 1235700000.0,
+ "ocf_ttm": 270500000.0,
+ "capex_ttm": -46500000.0,
+ "fcf_ttm": 224000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1802900000.0,
+ "net_income_ttm": 140300000.0,
+ "ebitda_ttm": 374800000.0,
+ "ebit_ttm": 248400000.0,
+ "interest_ttm": 71200000.0,
+ "revenue_yoy_last_q": 0.21958456973293772,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 493200000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 387700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 476900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 445100000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 404400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.61
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.83
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.87
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.43
+  }
+ ],
+ "eps_ttm": 2.42,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2163009404388715,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4186046511627908,
+ "eps_forward_growth": 0.9419008264462809,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4229521492295215
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4021150374000516
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.42398825749633046
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43271175016850144
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.41740850642927796
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1656700000.0,
+   "eps": 2.5,
+   "net_income": 145100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1486800000.0,
+   "eps": 3.19,
+   "net_income": 184100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1391300000.0,
+   "eps": 3.28,
+   "net_income": 188300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1339900000.0,
+   "eps": 3.612144,
+   "net_income": 204900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.002954288587986742,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 207100000.0,
+ "gap_24m": -24300000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.296958377801494,
+ "interest_coverage": 3.4887640449438204,
+ "cash_to_debt": 0.1577261263717538,
+ "ev": 4156360661.5747375,
+ "ev_to_sales": 2.305375041086437,
+ "ev_to_ebitda": 11.089542853721285,
+ "pe_ttm": 20.81725346810219,
+ "pe_trailing": 20.966942,
+ "p_sales": 1.6199794,
+ "p_fcf": 13.038663667744364,
+ "p_book": 2.3064523900929776
+}

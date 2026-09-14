@@ -1,0 +1,154 @@
+{
+ "ticker": "MMS",
+ "fetched": "2026-09-14",
+ "market_cap": 3119737260.4200363,
+ "shares_out": 52357763.0,
+ "price": 59.584999084472656,
+ "long_name": "Maximus, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 8.814348,
+ "pe_forward": 7.1273923,
+ "peg": 2.06,
+ "p_sales_y": 0.594417,
+ "eps_trailing_y": 6.76,
+ "eps_forward": 8.36,
+ "earnings_growth_y": 0.048,
+ "earnings_growth_q_y": -0.023,
+ "bs_date": "2026-06-30",
+ "cash": 56953000.0,
+ "total_debt": 1731818000.0,
+ "current_debt": 109879000.0,
+ "lease_obligations": 94883000.0,
+ "equity": 1740551000.0,
+ "net_debt": 1674865000.0,
+ "ocf_ttm": 469509000.0,
+ "capex_ttm": -36279000.0,
+ "fcf_ttm": 433230000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -345958000.0,
+ "stock_issuance_ttm": -345958000.0,
+ "revenue_ttm": 5248399000.0,
+ "net_income_ttm": 370887000.0,
+ "ebitda_ttm": 715712000.0,
+ "ebit_ttm": 580663000.0,
+ "interest_ttm": 89237000.0,
+ "revenue_yoy_last_q": -0.05148991397211511,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1278971000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1305967000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1345046000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1318415000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1348400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.95
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.8
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.7
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.32
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.86
+  }
+ ],
+ "eps_ttm": 6.7700000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.10420841683366722,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.048387096774193505,
+ "eps_forward_growth": 0.2348596750369274,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27272158633776683
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2620770662658398
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23692126514632214
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.25299469438682054
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2666219222782557
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5431276000.0,
+   "eps": 5.51,
+   "net_income": 319034000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5306197000.0,
+   "eps": 4.99,
+   "net_income": 306914000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4904728000.0,
+   "eps": 2.63,
+   "net_income": 161792000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4631018000.0,
+   "eps": 3.29,
+   "net_income": 203828000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07084294587400175,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 109879000.0,
+ "gap_24m": 52926000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.340138212018242,
+ "interest_coverage": 6.506975805999754,
+ "cash_to_debt": 0.032886250171784794,
+ "ev": 4794602260.420036,
+ "ev_to_sales": 0.9135361584399426,
+ "ev_to_ebitda": 6.699066468663424,
+ "pe_ttm": 8.411557321825883,
+ "pe_trailing": 8.814348,
+ "p_sales": 0.594417,
+ "p_fcf": 7.201110865868099,
+ "p_book": 1.7923848599782692
+}

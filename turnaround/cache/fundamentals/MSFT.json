@@ -1,0 +1,154 @@
+{
+ "ticker": "MSFT",
+ "fetched": "2026-09-14",
+ "market_cap": 3773030974644.372,
+ "shares_out": 7425545491.0,
+ "price": 508.114990234375,
+ "long_name": "Microsoft Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 28.323019,
+ "pe_forward": 21.554974,
+ "peg": 1.61,
+ "p_sales_y": 11.370065,
+ "eps_trailing_y": 17.94,
+ "eps_forward": 23.57298,
+ "earnings_growth_y": 0.317,
+ "earnings_growth_q_y": 0.313,
+ "bs_date": "2026-06-30",
+ "cash": 76651000000.0,
+ "total_debt": 56826000000.0,
+ "current_debt": 9227000000.0,
+ "lease_obligations": 16532000000.0,
+ "equity": 442387000000.0,
+ "net_debt": -19825000000.0,
+ "ocf_ttm": 182935000000.0,
+ "capex_ttm": -115948000000.0,
+ "fcf_ttm": 66987000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -22271000000.0,
+ "stock_issuance_ttm": -20262000000.0,
+ "revenue_ttm": 331839000000.0,
+ "net_income_ttm": 133749000000.0,
+ "ebitda_ttm": 212433000000.0,
+ "ebit_ttm": 168985000000.0,
+ "interest_ttm": 3051000000.0,
+ "revenue_yoy_last_q": 0.17747020577962092,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 90007000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 82886000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 81273000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 77673000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 76441000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.81
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.27
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.16
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.72
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.65
+  }
+ ],
+ "eps_ttm": 17.959999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.31598240469208205,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3178082191780822,
+ "eps_forward_growth": 0.31252672605790677,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.671969957892164
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6763265207634582
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6803612515841669
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6904587179586213
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6858492170432098
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 331839000000.0,
+   "eps": 17.95,
+   "net_income": 133749000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 281724000000.0,
+   "eps": 13.64,
+   "net_income": 101832000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 245122000000.0,
+   "eps": 11.8,
+   "net_income": 88136000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 211915000000.0,
+   "eps": 9.68,
+   "net_income": 72361000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0009629408426985453,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9227000000.0,
+ "gap_24m": -67424000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.09332354201089285,
+ "interest_coverage": 55.38675843985578,
+ "cash_to_debt": 1.3488719952134587,
+ "ev": 3753205974644.372,
+ "ev_to_sales": 11.310322097897993,
+ "ev_to_ebitda": 17.667716290050848,
+ "pe_ttm": 28.209788294823678,
+ "pe_trailing": 28.323019,
+ "p_sales": 11.370065,
+ "p_fcf": 56.32482384110905,
+ "p_book": 8.528801647978742
+}

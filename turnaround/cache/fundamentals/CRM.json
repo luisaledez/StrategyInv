@@ -1,0 +1,154 @@
+{
+ "ticker": "CRM",
+ "fetched": "2026-09-14",
+ "market_cap": 212445113037.10938,
+ "shares_out": 823000000.0,
+ "price": 258.135009765625,
+ "long_name": "Salesforce, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 23.633698,
+ "pe_forward": 16.121767,
+ "peg": 0.83,
+ "p_sales_y": 4.835111,
+ "eps_trailing_y": 10.92,
+ "eps_forward": 16.00817,
+ "earnings_growth_y": 1.189,
+ "earnings_growth_q_y": 0.869,
+ "bs_date": "2026-07-31",
+ "cash": 11403000000.0,
+ "total_debt": 41743000000.0,
+ "current_debt": 531000000.0,
+ "lease_obligations": 2455000000.0,
+ "equity": 38378000000.0,
+ "net_debt": 30340000000.0,
+ "ocf_ttm": 15750000000.0,
+ "capex_ttm": -596000000.0,
+ "fcf_ttm": 15154000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -35070000000.0,
+ "stock_issuance_ttm": -35070000000.0,
+ "revenue_ttm": 43938000000.0,
+ "net_income_ttm": 9662000000.0,
+ "ebitda_ttm": 13887000000.0,
+ "ebit_ttm": 12666000000.0,
+ "interest_ttm": 925000000.0,
+ "revenue_yoy_last_q": 0.1083431027745212,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 11345000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 11133000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 11201000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 10259000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 10236000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 4.29
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2.42
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2.07
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2.19
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.96
+  }
+ ],
+ "eps_ttm": 10.969999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2264150943396226,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.1887755102040818,
+ "eps_forward_growth": 0.45926800364630815,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7665050683120317
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.769154765112728
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7760914204088921
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.78019300126718
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.780969128565846
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 41525000000.0,
+   "eps": 7.8,
+   "net_income": 7457000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 37895000000.0,
+   "eps": 6.36,
+   "net_income": 6197000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 34857000000.0,
+   "eps": 4.2,
+   "net_income": 4136000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 31352000000.0,
+   "eps": 0.21,
+   "net_income": 208000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.13821989528795808,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 531000000.0,
+ "gap_24m": -10872000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.1847771296896377,
+ "interest_coverage": 13.692972972972973,
+ "cash_to_debt": 0.2731715497209113,
+ "ev": 242785113037.10938,
+ "ev_to_sales": 5.525629592541977,
+ "ev_to_ebitda": 17.482905813862562,
+ "pe_ttm": 21.987695408518874,
+ "pe_trailing": 23.633698,
+ "p_sales": 4.835111,
+ "p_fcf": 14.019078331602836,
+ "p_book": 5.535596254028594
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "SBAC",
+ "fetched": "2026-09-14",
+ "market_cap": 19416246345.457306,
+ "shares_out": 106088110.0,
+ "price": 183.02000427246094,
+ "long_name": "SBA Communications Corporation",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 19.743258,
+ "pe_forward": 22.361864,
+ "peg": 10.77,
+ "p_sales_y": 6.763777,
+ "eps_trailing_y": 9.27,
+ "eps_forward": 8.18447,
+ "earnings_growth_y": -0.105,
+ "earnings_growth_q_y": -0.12,
+ "bs_date": "2026-06-30",
+ "cash": 355937000.0,
+ "total_debt": 15209066000.0,
+ "current_debt": 3885348000.0,
+ "lease_obligations": 2479844000.0,
+ "equity": -4629854000.0,
+ "net_debt": 14853129000.0,
+ "ocf_ttm": 1284318000.0,
+ "capex_ttm": -233597000.0,
+ "fcf_ttm": 1050721000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -497805000.0,
+ "stock_issuance_ttm": -497805000.0,
+ "revenue_ttm": 2870622000.0,
+ "net_income_ttm": 990713000.0,
+ "ebitda_ttm": 2012722000.0,
+ "ebit_ttm": 1692761000.0,
+ "interest_ttm": 502922000.0,
+ "revenue_yoy_last_q": 0.02330964647107714,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 715274000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 703438000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 719583000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 732327000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 698981000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.87
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.74
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.47
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.2
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.09
+  }
+ ],
+ "eps_ttm": 9.280000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.41210374639769465,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.10526315789473673,
+ "eps_forward_growth": -0.11805280172413812,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7539376518648797
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7564305596228807
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7562199218158294
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7408411816033001
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7537901602475604
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2815139000.0,
+   "eps": 9.8,
+   "net_income": 1053632000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2679634000.0,
+   "eps": 6.94,
+   "net_income": 749536000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2711584000.0,
+   "eps": 4.61,
+   "net_income": 501812000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2633454000.0,
+   "eps": 4.22,
+   "net_income": 461429000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01301552745913459,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3885348000.0,
+ "gap_24m": 3529411000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 7.37962271987885,
+ "interest_coverage": 3.365851961139103,
+ "cash_to_debt": 0.02340294926723311,
+ "ev": 34269375345.457306,
+ "ev_to_sales": 11.93796164923745,
+ "ev_to_ebitda": 17.02638285141083,
+ "pe_ttm": 19.598255342826132,
+ "pe_trailing": 19.743258,
+ "p_sales": 6.763777,
+ "p_fcf": 18.478974290470358,
+ "p_book": null
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "DUOL",
+ "fetched": "2026-09-14",
+ "market_cap": 7159964204.075455,
+ "shares_out": 46593117.0,
+ "price": 153.6699981689453,
+ "long_name": "Duolingo, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 18.164303,
+ "pe_forward": 20.116375,
+ "peg": null,
+ "p_sales_y": 6.253233,
+ "eps_trailing_y": 8.46,
+ "eps_forward": 7.63905,
+ "earnings_growth_y": -0.275,
+ "earnings_growth_q_y": -0.26,
+ "bs_date": "2026-06-30",
+ "cash": 1313866000.0,
+ "total_debt": 86136000.0,
+ "current_debt": null,
+ "lease_obligations": 86136000.0,
+ "equity": 1409742000.0,
+ "net_debt": -1227730000.0,
+ "ocf_ttm": 430548000.0,
+ "capex_ttm": -33044000.0,
+ "fcf_ttm": 397504000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -69603000.0,
+ "stock_issuance_ttm": -69603000.0,
+ "revenue_ttm": 1145002000.0,
+ "net_income_ttm": 410767000.0,
+ "ebitda_ttm": 172884000.0,
+ "ebit_ttm": 157085000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.18309713991239374,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 298454000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 291967000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 282868000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 271713000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 252265000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.66
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.89
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.89976
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5.95
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.91
+  }
+ ],
+ "eps_ttm": 8.39976,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.5051574896226194,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.27472527472527475,
+ "eps_forward_growth": -0.09056330180862315,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7262090640433702
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7298633064695668
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7277917615283453
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7247021673604134
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7237666739341565
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1037589000.0,
+   "eps": 8.880179,
+   "net_income": 414065000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 748024000.0,
+   "eps": 1.971114,
+   "net_income": 88574000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 531109000.0,
+   "eps": 0.35,
+   "net_income": 16067000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 369495000.0,
+   "eps": -1.51,
+   "net_income": -59574000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.020469936881647666,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -1313866000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -7.101466879526156,
+ "interest_coverage": null,
+ "cash_to_debt": 15.25338998792607,
+ "ev": 5932234204.075455,
+ "ev_to_sales": 5.180981521495556,
+ "ev_to_ebitda": 34.31337893660174,
+ "pe_ttm": 17.430719128059106,
+ "pe_trailing": 18.164303,
+ "p_sales": 6.253233,
+ "p_fcf": 18.012307307789243,
+ "p_book": 5.078918131172551
+}

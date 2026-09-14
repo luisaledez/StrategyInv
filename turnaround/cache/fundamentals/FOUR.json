@@ -1,0 +1,154 @@
+{
+ "ticker": "FOUR",
+ "fetched": "2026-09-14",
+ "market_cap": 3643219888.6065674,
+ "shares_out": 78960120.0,
+ "price": 46.13999938964844,
+ "long_name": "Shift4 Payments, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 72.09375,
+ "pe_forward": 7.3444204,
+ "peg": 0.33,
+ "p_sales_y": 0.76186115,
+ "eps_trailing_y": 0.64,
+ "eps_forward": 6.28232,
+ "earnings_growth_y": -0.754,
+ "earnings_growth_q_y": -0.353,
+ "bs_date": "2026-06-30",
+ "cash": 356000000.0,
+ "total_debt": 4567000000.0,
+ "current_debt": 27000000.0,
+ "lease_obligations": 56000000.0,
+ "equity": 1618000000.0,
+ "net_debt": 4211000000.0,
+ "ocf_ttm": 593000000.0,
+ "capex_ttm": -304000000.0,
+ "fcf_ttm": 289000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -626000000.0,
+ "stock_issuance_ttm": -538000000.0,
+ "revenue_ttm": 4781500000.0,
+ "net_income_ttm": 105300000.0,
+ "ebitda_ttm": 938000000.0,
+ "ebit_ttm": 405000000.0,
+ "interest_ttm": 252100000.0,
+ "revenue_yoy_last_q": 0.3405797101449275,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1295000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1121000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1188600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1176900000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 966000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.17
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.2
+  }
+ ],
+ "eps_ttm": 0.56,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6435643564356435,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6000000000000001,
+ "eps_forward_growth": 10.218428571428571,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3444015444015444
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3496877787689563
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3781760053844859
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36451695131277084
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3022774327122153
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4180000000.0,
+   "eps": 1.08,
+   "net_income": 119000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3331000000.0,
+   "eps": 3.03,
+   "net_income": 230000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2565000000.0,
+   "eps": 1.43,
+   "net_income": 86000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1993600000.0,
+   "eps": 1.05,
+   "net_income": 75100000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.16605138570572153,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 27000000.0,
+ "gap_24m": -329000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.4893390191897655,
+ "interest_coverage": 1.60650535501785,
+ "cash_to_debt": 0.07795051456098095,
+ "ev": 7854219888.606567,
+ "ev_to_sales": 1.6426267674592843,
+ "ev_to_ebitda": 8.37336875117971,
+ "pe_ttm": 34.59847947394651,
+ "pe_trailing": 72.09375,
+ "p_sales": 0.76186115,
+ "p_fcf": 12.606297192410267,
+ "p_book": 2.251681018916296
+}
