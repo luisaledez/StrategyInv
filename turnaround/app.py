@@ -332,10 +332,12 @@ TICKER = """{% extends "base" %}{% block body %}
 <tr><td>EPS, trailing 12 months</td><td>{{ f.eps_ttm|numc(2) }}</td></tr>
 <tr><td>EPS, forward estimate (analyst consensus)</td><td>{{ f.eps_forward|numc(2) }}</td></tr>
 <tr><td>EPS growth implied by the forward estimate</td><td>{{ f.eps_forward_growth|pctc }}</td></tr>
-<tr><td>EPS growth, last quarter vs year-ago quarter</td><td><b>{{ f.eps_growth_last_q|pctc }}</b></td></tr>
-<tr><td>EPS growth YoY ({{ f.eps_growth_basis or 'n/a' }})</td><td><b>{{ f.eps_growth_yoy|pctc }}</b></td></tr>
+<tr><td>EPS growth, latest quarter vs same quarter last year<br><span class="small">({{ epsg.q_label }})</span></td>
+<td>{{ epsg.q_now|numc(2) }} vs {{ epsg.q_ago|numc(2) }} → <b>{{ f.eps_growth_last_q|pctc }}</b></td></tr>
+<tr><td>EPS growth, last full {{ 'twelve months vs the twelve before' if f.eps_growth_basis == 'ttm' else 'fiscal year vs the year before' }}<br><span class="small">({{ epsg.y_label }})</span></td>
+<td>{{ epsg.y_now|numc(2) }} vs {{ epsg.y_ago|numc(2) }} → <b>{{ f.eps_growth_yoy|pctc }}</b>{% if epsg.note %} <span class="muted small">{{ epsg.note }}</span>{% endif %}</td></tr>
 <tr><td>Yahoo earnings growth (latest quarter, YoY)</td><td>{{ f.earnings_growth_y|pctc }}</td></tr>
-<tr><td>Revenue growth, last quarter vs year-ago quarter</td><td>{{ f.revenue_yoy_last_q|pctc }}</td></tr>
+<tr><td>Revenue growth, latest quarter vs same quarter last year</td><td>{{ f.revenue_yoy_last_q|pctc }}</td></tr>
 <tr><td>Profitable years / reported</td><td>{{ f.profitable_years }} / {{ f.years_reported }}</td></tr>
 </table>
 <h2>Recent quarters <span class="muted small">(recovery evidence: demand + margin)</span></h2>
@@ -402,10 +404,31 @@ def ticker(t):
             eps_yoy[q["period"]] = q["value"] / eps_list[i + 4]["value"] - 1.0
     quarters = [{"period": q["period"], "revenue": q["value"], "gm": gm.get(q["period"]),
                  "eps": eps.get(q["period"]), "eps_yoy": eps_yoy.get(q["period"])} for q in f.get("revenue_quarters", [])]
+    # labels for the EPS growth rows: name the periods and the two figures compared
+    def _mon(period):
+        try:
+            return datetime.strptime(period, "%Y-%m-%d").strftime("%b %Y")
+        except Exception:  # noqa: BLE001
+            return period
+    epsg = {"q_label": "n/a", "q_now": None, "q_ago": None, "y_label": "n/a", "y_now": None, "y_ago": None, "note": ""}
+    if len(eps_list) >= 5:
+        epsg.update(q_label=f"{_mon(eps_list[0]['period'])} vs {_mon(eps_list[4]['period'])}",
+                    q_now=eps_list[0]["value"], q_ago=eps_list[4]["value"])
+        if eps_list[4]["value"] is not None and eps_list[4]["value"] <= 0:
+            epsg["note"] = ""
+    annual = f.get("annual") or []
+    if f.get("eps_growth_basis") == "ttm" and len(eps_list) >= 8:
+        epsg.update(y_label=f"{_mon(eps_list[3]['period'])}–{_mon(eps_list[0]['period'])} vs the prior four quarters",
+                    y_now=f.get("eps_ttm"), y_ago=f.get("eps_ttm_prior"))
+    elif len(annual) >= 2:
+        epsg.update(y_label=f"FY{annual[0]['year']} vs FY{annual[1]['year']}",
+                    y_now=annual[0].get("eps"), y_ago=annual[1].get("eps"))
+        if annual[1].get("eps") is not None and annual[1]["eps"] <= 0:
+            epsg["note"] = "no % shown: the earlier year was a loss"
     tp = THESIS / f"{t}.md"
     thesis_html = markdown(tp.read_text(encoding="utf-8"), extensions=["tables"]) if tp.exists() else None
     name = r.get("name") or f.get("long_name") or ""
-    return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t),
+    return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t), epsg=epsg,
                                   thesis_html=thesis_html, as_of=as_of(), nav="", title=t)
 
 
