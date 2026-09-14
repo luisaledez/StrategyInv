@@ -1,0 +1,112 @@
+{
+ "ticker": "CVLT",
+ "fetched": "2026-09-14",
+ "market_cap": 5598745998.985474,
+ "shares_out": 41444564.0,
+ "price": 135.08999633789062,
+ "long_name": "Commvault Systems, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-06-30",
+ "cash": 929837000.0,
+ "total_debt": 917655000.0,
+ "current_debt": 7148000.0,
+ "lease_obligations": 35729000.0,
+ "equity": 52051000.0,
+ "net_debt": -12182000.0,
+ "ocf_ttm": 264669000.0,
+ "capex_ttm": -6219000.0,
+ "fcf_ttm": 258450000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -540817000.0,
+ "stock_issuance_ttm": -540817000.0,
+ "revenue_ttm": 1215843000.0,
+ "net_income_ttm": 68300000.0,
+ "ebitda_ttm": 114163000.0,
+ "ebit_ttm": 102433000.0,
+ "interest_ttm": 4990000.0,
+ "revenue_yoy_last_q": 0.1140266261906957,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 314131000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 311692000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 313832000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 276188000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 281978000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8166083576597025
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8139060354452472
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8110613321777257
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8007009718018162
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8199256679599117
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1183690000.0,
+   "net_income": 70657000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 995619000.0,
+   "net_income": 76106000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 839247000.0,
+   "net_income": 168906000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 784590000.0,
+   "net_income": -35774000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.06917702037790108,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 7148000.0,
+ "gap_24m": -922689000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.106707076723632,
+ "interest_coverage": 20.527655310621242,
+ "cash_to_debt": 1.013275141529224,
+ "ev": 5586563998.985474,
+ "ev_to_sales": 4.59480705895866,
+ "ev_to_ebitda": 48.93497892474334,
+ "pe_ttm": 81.97285503639054,
+ "p_fcf": 21.662781965507733,
+ "p_book": 107.56269810350375
+}

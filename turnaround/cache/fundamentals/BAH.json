@@ -1,0 +1,112 @@
+{
+ "ticker": "BAH",
+ "fetched": "2026-09-14",
+ "market_cap": 9459210203.303879,
+ "shares_out": 120284973.0,
+ "price": 78.63999938964844,
+ "long_name": "Booz Allen Hamilton Holding Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Consulting Services",
+ "bs_date": "2026-06-30",
+ "cash": 540000000.0,
+ "total_debt": 4160000000.0,
+ "current_debt": 48000000.0,
+ "lease_obligations": 224000000.0,
+ "equity": 1202000000.0,
+ "net_debt": 3620000000.0,
+ "ocf_ttm": 1203000000.0,
+ "capex_ttm": -87000000.0,
+ "fcf_ttm": 1116000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -489000000.0,
+ "stock_issuance_ttm": -446000000.0,
+ "revenue_ttm": 11093000000.0,
+ "net_income_ttm": 778000000.0,
+ "ebitda_ttm": 1277000000.0,
+ "ebit_ttm": 1109000000.0,
+ "interest_ttm": 212000000.0,
+ "revenue_yoy_last_q": -0.04240766073871405,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2800000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2783000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2620000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2890000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2924000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5228571428571429
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5389867049946101
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5194656488549618
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5363321799307958
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5133378932968536
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 11217000000.0,
+   "net_income": 851000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 11980000000.0,
+   "net_income": 935000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10662000000.0,
+   "net_income": 606000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9259000000.0,
+   "net_income": 271000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.027683745040831154,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 48000000.0,
+ "gap_24m": -492000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.8347689898198905,
+ "interest_coverage": 5.231132075471698,
+ "cash_to_debt": 0.12980769230769232,
+ "ev": 13079210203.303879,
+ "ev_to_sales": 1.1790507710541673,
+ "ev_to_ebitda": 10.242137982227,
+ "pe_ttm": 12.158367870570538,
+ "p_fcf": 8.475994805827849,
+ "p_book": 7.869559237357636
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "FBIN",
+ "fetched": "2026-09-14",
+ "market_cap": 4831383388.5,
+ "shares_out": 119293417.0,
+ "price": 40.5,
+ "long_name": "Fortune Brands Innovations, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "bs_date": "2026-06-30",
+ "cash": 209700000.0,
+ "total_debt": 2799900000.0,
+ "current_debt": 499800000.0,
+ "lease_obligations": 248400000.0,
+ "equity": 2308400000.0,
+ "net_debt": 2590200000.0,
+ "ocf_ttm": 496200000.0,
+ "capex_ttm": -95700000.0,
+ "fcf_ttm": 400500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -55200000.0,
+ "stock_issuance_ttm": -55200000.0,
+ "revenue_ttm": 4391900000.0,
+ "net_income_ttm": 148900000.0,
+ "ebitda_ttm": 471100000.0,
+ "ebit_ttm": 294000000.0,
+ "interest_ttm": 109300000.0,
+ "revenue_yoy_last_q": -0.04105376880245992,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1153900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1011300000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1077500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1149200000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1203300000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5119161105815062
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4308316028873727
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.43823665893271463
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.45196658545074836
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4514252472367656
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4463200000.0,
+   "net_income": 298800000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4609000000.0,
+   "net_income": 471900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4626200000.0,
+   "net_income": 404500000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4723000000.0,
+   "net_income": 686700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.014601702090813018,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 499800000.0,
+ "gap_24m": 290100000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.498195712163023,
+ "interest_coverage": 2.689844464775846,
+ "cash_to_debt": 0.07489553198328512,
+ "ev": 7421583388.5,
+ "ev_to_sales": 1.689834328764316,
+ "ev_to_ebitda": 15.75373251645086,
+ "pe_ttm": 32.447168492276695,
+ "p_fcf": 12.063379247191012,
+ "p_book": 2.0929576280107436
+}

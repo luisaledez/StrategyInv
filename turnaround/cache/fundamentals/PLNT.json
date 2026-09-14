@@ -1,0 +1,112 @@
+{
+ "ticker": "PLNT",
+ "fetched": "2026-09-14",
+ "market_cap": 3916013298.7884827,
+ "shares_out": 75533093.0,
+ "price": 51.845001220703125,
+ "long_name": "Planet Fitness, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Leisure",
+ "bs_date": "2026-06-30",
+ "cash": 400758000.0,
+ "total_debt": 2964600000.0,
+ "current_debt": 100750000.0,
+ "lease_obligations": 415568000.0,
+ "equity": -612737000.0,
+ "net_debt": 2563842000.0,
+ "ocf_ttm": 433976000.0,
+ "capex_ttm": -172294000.0,
+ "fcf_ttm": 261682000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -699542000.0,
+ "stock_issuance_ttm": -698011000.0,
+ "revenue_ttm": 1409062000.0,
+ "net_income_ttm": 237854000.0,
+ "ebitda_ttm": 615836000.0,
+ "ebit_ttm": 456367000.0,
+ "interest_ttm": 122234000.0,
+ "revenue_yoy_last_q": 0.07141537026334865,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 365223000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 337236000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 376258000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 330345000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 340879000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5095736029768114
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5084955342845959
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4915430369586826
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5175468071258835
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5316901305155202
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1324144000.0,
+   "net_income": 219104000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1181654000.0,
+   "net_income": 172042000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1071326000.0,
+   "net_income": 138313000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 936772000.0,
+   "net_income": 99402000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.10003932925739212,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 100750000.0,
+ "gap_24m": -300008000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.163189550464734,
+ "interest_coverage": 3.733552039530736,
+ "cash_to_debt": 0.1351811374215746,
+ "ev": 6479855298.788483,
+ "ev_to_sales": 4.5987013337869325,
+ "ev_to_ebitda": 10.522046939101454,
+ "pe_ttm": 16.463937115997556,
+ "p_fcf": 14.964779001950776,
+ "p_book": null
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "TYL",
+ "fetched": "2026-09-14",
+ "market_cap": 14399638383.917725,
+ "shares_out": 40952274.0,
+ "price": 351.6199951171875,
+ "long_name": "Tyler Technologies, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-06-30",
+ "cash": 970035000.0,
+ "total_debt": 1455030000.0,
+ "current_debt": 11221000.0,
+ "lease_obligations": 46339000.0,
+ "equity": 3037231000.0,
+ "net_debt": 484995000.0,
+ "ocf_ttm": 730747000.0,
+ "capex_ttm": -24964000.0,
+ "fcf_ttm": 705783000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -928050000.0,
+ "stock_issuance_ttm": -928050000.0,
+ "revenue_ttm": 2429657000.0,
+ "net_income_ttm": 324616000.0,
+ "ebitda_ttm": 580809000.0,
+ "ebit_ttm": 426095000.0,
+ "interest_ttm": 6527000.0,
+ "revenue_yoy_last_q": 0.08216340080890161,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 645096000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 613503000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 575179000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 595879000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 596117000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.47598651983580736
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48318264132367733
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.455480815537424
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4723307919896489
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4582724532264639
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2332340000.0,
+   "net_income": 315603000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2137803000.0,
+   "net_income": 263026000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1951751000.0,
+   "net_income": 165919000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1850204000.0,
+   "net_income": 164240000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05366918820778466,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11221000.0,
+ "gap_24m": -958814000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.8350335480338631,
+ "interest_coverage": 65.2819059292171,
+ "cash_to_debt": 0.6666769757324591,
+ "ev": 14884633383.917725,
+ "ev_to_sales": 6.126228263461766,
+ "ev_to_ebitda": 25.627415181096925,
+ "pe_ttm": 44.35899149739299,
+ "p_fcf": 20.402359342627584,
+ "p_book": 4.741041555257972
+}

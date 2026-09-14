@@ -1,0 +1,112 @@
+{
+ "ticker": "DLB",
+ "fetched": "2026-09-14",
+ "market_cap": 6007916454.129105,
+ "shares_out": 93668795.0,
+ "price": 64.13999938964844,
+ "long_name": "Dolby Laboratories, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "bs_date": "2026-06-30",
+ "cash": 670046000.0,
+ "total_debt": 47450000.0,
+ "current_debt": 9859000.0,
+ "lease_obligations": 47450000.0,
+ "equity": 2583547000.0,
+ "net_debt": -622596000.0,
+ "ocf_ttm": 437598000.0,
+ "capex_ttm": -93093000.0,
+ "fcf_ttm": 344505000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -270198000.0,
+ "stock_issuance_ttm": -240497000.0,
+ "revenue_ttm": 1354355000.0,
+ "net_income_ttm": null,
+ "ebitda_ttm": 365138000.0,
+ "ebit_ttm": 261832000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.0334372801429903,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 304995000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 395630000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 346706000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 307024000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 315546000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8678043902359055
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8869372898920709
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8753756785287823
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8712836781489395
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.860552819557212
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1349130000.0,
+   "net_income": 255018000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1273721000.0,
+   "net_income": 261825000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1299744000.0,
+   "net_income": 200656000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1253793000.0,
+   "net_income": 184087000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01832170023905577,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9859000.0,
+ "gap_24m": -660187000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.705097798640514,
+ "interest_coverage": null,
+ "cash_to_debt": 14.12109589041096,
+ "ev": 5385320454.129105,
+ "ev_to_sales": 3.9762990162321583,
+ "ev_to_ebitda": 14.748726383255384,
+ "pe_ttm": null,
+ "p_fcf": 17.439272156076413,
+ "p_book": 2.3254527415716084
+}

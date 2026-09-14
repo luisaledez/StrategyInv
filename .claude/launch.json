@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "turnaround-scanner",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["turnaround/app.py", "8050"],
+      "port": 8050
+    }
+  ]
+}

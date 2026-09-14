@@ -1,0 +1,112 @@
+{
+ "ticker": "ACN",
+ "fetched": "2026-09-14",
+ "market_cap": 115598923353.64536,
+ "shares_out": 611942109.0,
+ "price": 188.90499877929688,
+ "long_name": "Accenture plc",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "bs_date": "2026-05-31",
+ "cash": 10171567000.0,
+ "total_debt": 8388770000.0,
+ "current_debt": 863738000.0,
+ "lease_obligations": 3246505000.0,
+ "equity": 31890566000.0,
+ "net_debt": -1782797000.0,
+ "ocf_ttm": 13182094000.0,
+ "capex_ttm": -600406000.0,
+ "fcf_ttm": 12581688000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5667165000.0,
+ "stock_issuance_ttm": -4303278000.0,
+ "revenue_ttm": 73100595000.0,
+ "net_income_ttm": 7789752000.0,
+ "ebitda_ttm": 12330716000.0,
+ "ebit_ttm": 10915206000.0,
+ "interest_ttm": 265819000.0,
+ "revenue_yoy_last_q": 0.055859668653951644,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 18718144000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 18044066000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 18742125000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 17596260000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 17727871000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.3277213274991367
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.302557139837551
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.3306518337701835
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.31887082823281765
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.32867172826336566
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 69672977000.0,
+   "net_income": 7678433000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 64896464000.0,
+   "net_income": 7264787000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 64111745000.0,
+   "net_income": 6871557000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 61594305000.0,
+   "net_income": 6877169000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.017477623082210902,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 863738000.0,
+ "gap_24m": -9307829000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.14458179070866606,
+ "interest_coverage": 41.0625500810702,
+ "cash_to_debt": 1.2125218595813212,
+ "ev": 113816126353.64536,
+ "ev_to_sales": 1.5569794794918612,
+ "ev_to_ebitda": 9.230293387151676,
+ "pe_ttm": 14.839872097808167,
+ "p_fcf": 9.187870765325396,
+ "p_book": 3.6248627055927876
+}

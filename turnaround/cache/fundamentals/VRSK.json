@@ -1,0 +1,112 @@
+{
+ "ticker": "VRSK",
+ "fetched": "2026-09-14",
+ "market_cap": 23873215482.717224,
+ "shares_out": 130156012.0,
+ "price": 183.4199981689453,
+ "long_name": "Verisk Analytics, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Consulting Services",
+ "bs_date": "2026-06-30",
+ "cash": 551400000.0,
+ "total_debt": 4617100000.0,
+ "current_debt": 282800000.0,
+ "lease_obligations": 161700000.0,
+ "equity": -1189000000.0,
+ "net_debt": 4065700000.0,
+ "ocf_ttm": 1503200000.0,
+ "capex_ttm": -266700000.0,
+ "fcf_ttm": 1236500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2150900000.0,
+ "stock_issuance_ttm": -2150900000.0,
+ "revenue_ttm": 3136000000.0,
+ "net_income_ttm": 885500000.0,
+ "ebitda_ttm": 1680100000.0,
+ "ebit_ttm": 1354000000.0,
+ "interest_ttm": 195100000.0,
+ "revenue_yoy_last_q": 0.04361894900336516,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 806300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 782600000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 778800000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 768300000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 772600000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7105295795609574
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6976744186046512
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6973549049820236
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7012885591565795
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7029510742945897
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3072700000.0,
+   "net_income": 908300000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2881700000.0,
+   "net_income": 957500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2681400000.0,
+   "net_income": 614400000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2497000000.0,
+   "net_income": 954300000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.06846500286462143,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 282800000.0,
+ "gap_24m": -268600000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.4199154812213557,
+ "interest_coverage": 6.940030753459764,
+ "cash_to_debt": 0.11942561348032314,
+ "ev": 27938915482.717224,
+ "ev_to_sales": 8.909092947295033,
+ "ev_to_ebitda": 16.62931699465343,
+ "pe_ttm": 26.960153001374618,
+ "p_fcf": 19.30708894679921,
+ "p_book": null
+}

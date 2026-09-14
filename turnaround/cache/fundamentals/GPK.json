@@ -1,0 +1,112 @@
+{
+ "ticker": "GPK",
+ "fetched": "2026-09-14",
+ "market_cap": 2845247714.881892,
+ "shares_out": 296071573.0,
+ "price": 9.609999656677246,
+ "long_name": "Graphic Packaging Holding Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "bs_date": "2026-06-30",
+ "cash": 205000000.0,
+ "total_debt": 5667000000.0,
+ "current_debt": 552000000.0,
+ "lease_obligations": 7000000.0,
+ "equity": 3236000000.0,
+ "net_debt": 5462000000.0,
+ "ocf_ttm": 793000000.0,
+ "capex_ttm": -604000000.0,
+ "fcf_ttm": 189000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 8637000000.0,
+ "net_income_ttm": 194000000.0,
+ "ebitda_ttm": 1061000000.0,
+ "ebit_ttm": 502000000.0,
+ "interest_ttm": 248000000.0,
+ "revenue_yoy_last_q": -0.007259528130671544,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2188000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2156000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2103000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2190000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2204000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.13345521023765997
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.14192949907235622
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.14407988587731813
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19817351598173516
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.19056261343012704
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8617000000.0,
+   "net_income": 444000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8807000000.0,
+   "net_income": 658000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9428000000.0,
+   "net_income": 723000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9440000000.0,
+   "net_income": 522000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.003411439934248639,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 552000000.0,
+ "gap_24m": 347000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.147973609802073,
+ "interest_coverage": 2.024193548387097,
+ "cash_to_debt": 0.03617434268572437,
+ "ev": 8307247714.881892,
+ "ev_to_sales": 0.9618209696517185,
+ "ev_to_ebitda": 7.829639693573885,
+ "pe_ttm": 14.666225334442743,
+ "p_fcf": 15.054220713660806,
+ "p_book": 0.8792483667743796
+}

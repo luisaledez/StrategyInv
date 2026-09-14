@@ -1,0 +1,112 @@
+{
+ "ticker": "AVTR",
+ "fetched": "2026-09-14",
+ "market_cap": 10013492832.608337,
+ "shares_out": 676358840.0,
+ "price": 14.805000305175781,
+ "long_name": "Avantor, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Instruments & Supplies",
+ "bs_date": "2026-06-30",
+ "cash": 306800000.0,
+ "total_debt": 3697800000.0,
+ "current_debt": 37000000.0,
+ "lease_obligations": null,
+ "equity": 5630200000.0,
+ "net_debt": 3391000000.0,
+ "ocf_ttm": 597000000.0,
+ "capex_ttm": -142300000.0,
+ "fcf_ttm": 454700000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -79600000.0,
+ "stock_issuance_ttm": -79600000.0,
+ "revenue_ttm": 6561100000.0,
+ "net_income_ttm": -578000000.0,
+ "ebitda_ttm": 112900000.0,
+ "ebit_ttm": -305500000.0,
+ "interest_ttm": 166500000.0,
+ "revenue_yoy_last_q": 0.00528691932992742,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1692300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1581400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1663600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1623800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1683400000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3173196241801099
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.31661818641709877
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.314919451791296
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.32423943835447716
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3291552809789711
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6552200000.0,
+   "net_income": -530200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6783600000.0,
+   "net_income": 711500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6967200000.0,
+   "net_income": 321100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7512400000.0,
+   "net_income": 686500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.0074823943661971315,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 37000000.0,
+ "gap_24m": -269800000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 30.035429583702392,
+ "interest_coverage": -1.834834834834835,
+ "cash_to_debt": 0.08296825139272,
+ "ev": 13404492832.608337,
+ "ev_to_sales": 2.0430252293987805,
+ "ev_to_ebitda": 118.72890020025099,
+ "pe_ttm": null,
+ "p_fcf": 22.022196684865488,
+ "p_book": 1.7785323492253096
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "BSY",
+ "fetched": "2026-09-14",
+ "market_cap": 9576344811.778584,
+ "shares_out": 302092889.0,
+ "price": 31.700000762939453,
+ "long_name": "Bentley Systems, Incorporated",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-06-30",
+ "cash": 146981000.0,
+ "total_debt": 1267445000.0,
+ "current_debt": 19443000.0,
+ "lease_obligations": 50265000.0,
+ "equity": 1202042000.0,
+ "net_debt": 1120464000.0,
+ "ocf_ttm": 522885000.0,
+ "capex_ttm": -24386000.0,
+ "fcf_ttm": 498499000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -237182000.0,
+ "stock_issuance_ttm": -237182000.0,
+ "revenue_ttm": 1602039000.0,
+ "net_income_ttm": 289970000.0,
+ "ebitda_ttm": 466807000.0,
+ "ebit_ttm": 400125000.0,
+ "interest_ttm": 26906000.0,
+ "revenue_yoy_last_q": 0.128042383262017,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 410727000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 424181000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 391582000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 375549000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 364106000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8198633155356234
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8260789615753652
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8189395835355047
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8077614372558575
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8111099514976408
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1501779000.0,
+   "net_income": 277861000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1353095000.0,
+   "net_income": 234787000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1228413000.0,
+   "net_income": 326787000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1099082000.0,
+   "net_income": 174780000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.005472197305551041,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 19443000.0,
+ "gap_24m": -127538000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.40027248948709,
+ "interest_coverage": 14.871218315617334,
+ "cash_to_debt": 0.11596637329430469,
+ "ev": 10696808811.778584,
+ "ev_to_sales": 6.676996509934267,
+ "ev_to_ebitda": 22.914842347648136,
+ "pe_ttm": 33.025295071140405,
+ "p_fcf": 19.21035912164033,
+ "p_book": 7.966730623204999
+}

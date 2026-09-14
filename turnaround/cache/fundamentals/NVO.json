@@ -1,0 +1,112 @@
+{
+ "ticker": "NVO",
+ "fetched": "2026-09-14",
+ "market_cap": 190544046626.95874,
+ "shares_out": 4418925124.0,
+ "price": 43.119998931884766,
+ "long_name": "Novo Nordisk A/S",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - General",
+ "bs_date": "2026-06-30",
+ "cash": 44982000000.0,
+ "total_debt": 140127000000.0,
+ "current_debt": 18333000000.0,
+ "lease_obligations": 8572000000.0,
+ "equity": 221277000000.0,
+ "net_debt": 95145000000.0,
+ "ocf_ttm": 131881000000.0,
+ "capex_ttm": -84092000000.0,
+ "fcf_ttm": 47789000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5899000000.0,
+ "stock_issuance_ttm": -5899000000.0,
+ "revenue_ttm": 329431000000.0,
+ "net_income_ttm": 116443000000.0,
+ "ebitda_ttm": 166319000000.0,
+ "ebit_ttm": 149464000000.0,
+ "interest_ttm": 5551000000.0,
+ "revenue_yoy_last_q": 0.02122122903574164,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 78488000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 96823000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 79144000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 74976000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 76857000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7821323004790541
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8595581628332111
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8086020418477712
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7612035851472471
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8328584253874077
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 309064000000.0,
+   "net_income": 102434000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 290403000000.0,
+   "net_income": 100988000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 232261000000.0,
+   "net_income": 83683000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 176954000000.0,
+   "net_income": 55525000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0037229633979053434,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 18333000000.0,
+ "gap_24m": -26649000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.5720633240940602,
+ "interest_coverage": 26.925598991172762,
+ "cash_to_debt": 0.3210087991607613,
+ "ev": 285689046626.95874,
+ "ev_to_sales": 0.8672196806826278,
+ "ev_to_ebitda": 1.7177174383381257,
+ "pe_ttm": 1.6363718439662216,
+ "p_fcf": 3.987194681348401,
+ "p_book": 0.8611109452268367
+}

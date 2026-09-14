@@ -1,0 +1,112 @@
+{
+ "ticker": "LULU",
+ "fetched": "2026-09-14",
+ "market_cap": 11160124103.911018,
+ "shares_out": 110710025.0,
+ "price": 100.80500030517578,
+ "long_name": "lululemon athletica inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Apparel Retail",
+ "bs_date": "2026-07-31",
+ "cash": 1389737000.0,
+ "total_debt": 2141127000.0,
+ "current_debt": 366649000.0,
+ "lease_obligations": 2141127000.0,
+ "equity": 4791174000.0,
+ "net_debt": 751390000.0,
+ "ocf_ttm": 1982033000.0,
+ "capex_ttm": -627697000.0,
+ "fcf_ttm": 1354336000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1157782000.0,
+ "stock_issuance_ttm": -1157782000.0,
+ "revenue_ttm": 11093955000.0,
+ "net_income_ttm": 1417977000.0,
+ "ebitda_ttm": 2518426000.0,
+ "ebit_ttm": 1978775000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.04339742414420289,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2415631000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2471603000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 3640801000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2565920000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2525219000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6051743830080009
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.5416800351836439
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.5487495746128394
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.5557133503772526
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.5849797581912698
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 11102600000.0,
+   "net_income": 1579183000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 10588126000.0,
+   "net_income": 1814616000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9619278000.0,
+   "net_income": 1550190000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8110518000.0,
+   "net_income": 854800000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.06105396136925356,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 366649000.0,
+ "gap_24m": -1023088000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.2983569896435313,
+ "interest_coverage": null,
+ "cash_to_debt": 0.6490679908291288,
+ "ev": 11911514103.911018,
+ "ev_to_sales": 1.0736941067374997,
+ "ev_to_ebitda": 4.729745525145872,
+ "pe_ttm": 7.870454953719996,
+ "p_fcf": 8.240291998374863,
+ "p_book": 2.329308871669244
+}

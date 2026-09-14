@@ -1,0 +1,112 @@
+{
+ "ticker": "NKE",
+ "fetched": "2026-09-14",
+ "market_cap": 55082308426.93756,
+ "shares_out": 1483498703.0,
+ "price": 37.130001068115234,
+ "long_name": "NIKE, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Footwear & Accessories",
+ "bs_date": "2026-05-31",
+ "cash": 9027000000.0,
+ "total_debt": 11033000000.0,
+ "current_debt": 2478000000.0,
+ "lease_obligations": 3091000000.0,
+ "equity": 14865000000.0,
+ "net_debt": 2006000000.0,
+ "ocf_ttm": 2868000000.0,
+ "capex_ttm": -684000000.0,
+ "fcf_ttm": 2184000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -146000000.0,
+ "stock_issuance_ttm": -146000000.0,
+ "revenue_ttm": 46398000000.0,
+ "net_income_ttm": 3108000000.0,
+ "ebitda_ttm": 4594000000.0,
+ "ebit_ttm": 3797000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.011264305668198582,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 10972000000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 11279000000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 12427000000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 11720000000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 11097000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.4915238789646373
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.40163135029701214
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.4059708698800998
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.42175767918088736
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.4027214562494368
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 46398000000.0,
+   "net_income": 3108000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 46309000000.0,
+   "net_income": 3219000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 51362000000.0,
+   "net_income": 5700000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 51217000000.0,
+   "net_income": 5070000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.005080422086720882,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2478000000.0,
+ "gap_24m": -6549000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.4366565084893339,
+ "interest_coverage": null,
+ "cash_to_debt": 0.8181818181818182,
+ "ev": 57088308426.93756,
+ "ev_to_sales": 1.230404509395611,
+ "ev_to_ebitda": 12.426710584879748,
+ "pe_ttm": 17.72275045911762,
+ "p_fcf": 25.22083719182123,
+ "p_book": 3.7055034259628363
+}

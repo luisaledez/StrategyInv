@@ -1,0 +1,112 @@
+{
+ "ticker": "TSCO",
+ "fetched": "2026-09-14",
+ "market_cap": 17509553565.371754,
+ "shares_out": 521040137.0,
+ "price": 33.60499954223633,
+ "long_name": "Tractor Supply Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "bs_date": "2026-06-30",
+ "cash": 231588000.0,
+ "total_debt": 6544952000.0,
+ "current_debt": 473871000.0,
+ "lease_obligations": 4391152000.0,
+ "equity": 2631565000.0,
+ "net_debt": 6313364000.0,
+ "ocf_ttm": 1285820000.0,
+ "capex_ttm": -978839000.0,
+ "fcf_ttm": 306981000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -460668000.0,
+ "stock_issuance_ttm": -434500000.0,
+ "revenue_ttm": 15750724000.0,
+ "net_income_ttm": 1011914000.0,
+ "ebitda_ttm": 1850267000.0,
+ "ebit_ttm": 1340986000.0,
+ "interest_ttm": 67731000.0,
+ "revenue_yoy_last_q": 0.02288090106400631,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4541314000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3592046000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3898320000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3719044000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4439729000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3705114863231215
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36224062832157494
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3514023989821256
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3735454595320733
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3693860593743447
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 15524046000.0,
+   "net_income": 1096087000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14883231000.0,
+   "net_income": 1101240000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14555741000.0,
+   "net_income": 1107226000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 14204717000.0,
+   "net_income": 1088712000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01536821449461312,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 473871000.0,
+ "gap_24m": 242283000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.4121367348604283,
+ "interest_coverage": 19.79870369550132,
+ "cash_to_debt": 0.035384216721528285,
+ "ev": 23822917565.371754,
+ "ev_to_sales": 1.5124966677958267,
+ "ev_to_ebitda": 12.875394505426382,
+ "pe_ttm": 17.30340084767258,
+ "p_fcf": 57.037906467734985,
+ "p_book": 6.653665619269049
+}

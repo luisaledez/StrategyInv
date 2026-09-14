@@ -1,0 +1,112 @@
+{
+ "ticker": "ENPH",
+ "fetched": "2026-09-14",
+ "market_cap": 4875476848.451019,
+ "shares_out": 132144648.0,
+ "price": 36.89500045776367,
+ "long_name": "Enphase Energy, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Solar",
+ "bs_date": "2026-06-30",
+ "cash": 937708000.0,
+ "total_debt": 581939000.0,
+ "current_debt": 9103000.0,
+ "lease_obligations": 9103000.0,
+ "equity": 1181836000.0,
+ "net_debt": -355769000.0,
+ "ocf_ttm": 204691000.0,
+ "capex_ttm": -52064000.0,
+ "fcf_ttm": 152627000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 1328502000.0,
+ "net_income_ttm": 134024000.0,
+ "ebitda_ttm": 248030000.0,
+ "ebit_ttm": 166374000.0,
+ "interest_ttm": 2619000.0,
+ "revenue_yoy_last_q": -0.19633322594058156,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 291854000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 282900000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 343321000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 410427000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 363153000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5996628451211907
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.35487097914457405
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.44282464515715614
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4781337485106974
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.46947980603216827
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1472985000.0,
+   "net_income": 172133000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1330383000.0,
+   "net_income": 102658000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2290786000.0,
+   "net_income": 438936000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2330853000.0,
+   "net_income": 397362000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.010670358585240569,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9103000.0,
+ "gap_24m": -928605000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.434378905777527,
+ "interest_coverage": 63.52577319587629,
+ "cash_to_debt": 1.6113510178901913,
+ "ev": 4519707848.451019,
+ "ev_to_sales": 3.402108426220675,
+ "ev_to_ebitda": 18.22242409567802,
+ "pe_ttm": 36.37764018721288,
+ "p_fcf": 31.943737664050392,
+ "p_book": 4.125341289697571
+}

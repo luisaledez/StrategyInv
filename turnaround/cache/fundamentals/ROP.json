@@ -1,0 +1,112 @@
+{
+ "ticker": "ROP",
+ "fetched": "2026-09-14",
+ "market_cap": 39176613725.965576,
+ "shares_out": 98900874.0,
+ "price": 396.1199951171875,
+ "long_name": "Roper Technologies, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-06-30",
+ "cash": 364900000.0,
+ "total_debt": 11319400000.0,
+ "current_debt": 718300000.0,
+ "lease_obligations": 48300000.0,
+ "equity": 18700300000.0,
+ "net_debt": 10954500000.0,
+ "ocf_ttm": 2669100000.0,
+ "capex_ttm": -108100000.0,
+ "fcf_ttm": 2561000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2726700000.0,
+ "stock_issuance_ttm": -3204100000.0,
+ "revenue_ttm": 8280300000.0,
+ "net_income_ttm": 2504300000.0,
+ "ebitda_ttm": 4291900000.0,
+ "ebit_ttm": 3369500000.0,
+ "interest_ttm": 393700000.0,
+ "revenue_yoy_last_q": 0.08504836386087677,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2108900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2095300000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2058600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2017500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1943600000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6971406894589597
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6938385911325348
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.694598270669387
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6954151177199505
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6922206215270632
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7902500000.0,
+   "net_income": 1536300000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7039200000.0,
+   "net_income": 1549300000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6177800000.0,
+   "net_income": 1384200000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5371800000.0,
+   "net_income": 4544700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.08089972709282467,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 718300000.0,
+ "gap_24m": 353400000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.5523660849507213,
+ "interest_coverage": 8.558547117094234,
+ "cash_to_debt": 0.03223669099068855,
+ "ev": 50131113725.965576,
+ "ev_to_sales": 6.054262976699586,
+ "ev_to_ebitda": 11.680401157055284,
+ "pe_ttm": 15.643738260578036,
+ "p_fcf": 15.297389194051377,
+ "p_book": 2.094972472418388
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "HRB",
+ "fetched": "2026-09-14",
+ "market_cap": 5699816440.177757,
+ "shares_out": 123265922.0,
+ "price": 46.2400016784668,
+ "long_name": "H&R Block, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Personal Services",
+ "bs_date": "2026-06-30",
+ "cash": 958706000.0,
+ "total_debt": 2102353000.0,
+ "current_debt": 228760000.0,
+ "lease_obligations": 610860000.0,
+ "equity": 117488000.0,
+ "net_debt": 1143647000.0,
+ "ocf_ttm": 838695000.0,
+ "capex_ttm": -82614000.0,
+ "fcf_ttm": 756081000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -512905000.0,
+ "stock_issuance_ttm": -512905000.0,
+ "revenue_ttm": 3945392000.0,
+ "net_income_ttm": 733596000.0,
+ "ebitda_ttm": 1056939000.0,
+ "ebit_ttm": 934499000.0,
+ "interest_ttm": 80611000.0,
+ "revenue_yoy_last_q": 0.030474945792615893,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1144869000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2398107000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 198865000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 203551000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1111011000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5191414912972576
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5696810025574338
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.7092952505468534
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.34618351174889833
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5203206808933485
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3945392000.0,
+   "net_income": 733596000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3760995000.0,
+   "net_income": 605773000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3610347000.0,
+   "net_income": 595317000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3472185000.0,
+   "net_income": 553700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0729601017043996,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 228760000.0,
+ "gap_24m": -729946000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0820369008996735,
+ "interest_coverage": 11.592698266985895,
+ "cash_to_debt": 0.4560157119189784,
+ "ev": 6843463440.177757,
+ "ev_to_sales": 1.7345458804037108,
+ "ev_to_ebitda": 6.474795082949685,
+ "pe_ttm": 7.769694000754853,
+ "p_fcf": 7.538632025110745,
+ "p_book": 48.514030711032255
+}

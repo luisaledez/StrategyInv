@@ -1,0 +1,112 @@
+{
+ "ticker": "ARE",
+ "fetched": "2026-09-14",
+ "market_cap": 8914535217.301723,
+ "shares_out": 172095277.0,
+ "price": 51.79999923706055,
+ "long_name": "Alexandria Real Estate Equities, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Office",
+ "bs_date": "2026-06-30",
+ "cash": 470449000.0,
+ "total_debt": 13167779000.0,
+ "current_debt": 1994508000.0,
+ "lease_obligations": 354905000.0,
+ "equity": 15553976000.0,
+ "net_debt": 12697330000.0,
+ "ocf_ttm": 1279448000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 1279448000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 2760944000.0,
+ "net_income_ttm": -1024759000.0,
+ "ebitda_ttm": 687779000.0,
+ "ebit_ttm": -584339000.0,
+ "interest_ttm": 249452000.0,
+ "revenue_yoy_last_q": -0.1275894200160319,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 643210000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 653013000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 728872000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 735849000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 737279000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6776542653254769
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6567572161656813
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6809549550538366
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6748871031964438
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.695592848840127
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2945175000.0,
+   "net_income": -1429570000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3049706000.0,
+   "net_income": 322949000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2842456000.0,
+   "net_income": 103639000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2576040000.0,
+   "net_income": 521660000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.0034255684155712895,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1994508000.0,
+ "gap_24m": 1524059000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 18.461351684189253,
+ "interest_coverage": -2.3424907397014256,
+ "cash_to_debt": 0.035727285520208076,
+ "ev": 21611865217.301723,
+ "ev_to_sales": 7.827708645051013,
+ "ev_to_ebitda": 31.422688417793687,
+ "pe_ttm": null,
+ "p_fcf": 6.967485366581309,
+ "p_book": 0.5731354617817157
+}

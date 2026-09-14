@@ -1,0 +1,112 @@
+{
+ "ticker": "PAYX",
+ "fetched": "2026-09-14",
+ "market_cap": 41685312845.116905,
+ "shares_out": 355980473.0,
+ "price": 117.0999984741211,
+ "long_name": "Paychex, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-05-31",
+ "cash": 1124500000.0,
+ "total_debt": 4608300000.0,
+ "current_debt": 400000000.0,
+ "lease_obligations": 52200000.0,
+ "equity": 3735100000.0,
+ "net_debt": 3483800000.0,
+ "ocf_ttm": 2556700000.0,
+ "capex_ttm": -234900000.0,
+ "fcf_ttm": 2321800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -611000000.0,
+ "stock_issuance_ttm": -611000000.0,
+ "revenue_ttm": 6512000000.0,
+ "net_income_ttm": 1760100000.0,
+ "ebitda_ttm": 3023000000.0,
+ "ebit_ttm": 2580400000.0,
+ "interest_ttm": 269500000.0,
+ "revenue_yoy_last_q": 0.12485111749457012,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 1605500000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 1808900000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 1557600000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1540000000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 1427300000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.740080971659919
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.761623085853281
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.735362095531587
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.7312987012987013
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.7240243816997127
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 6512000000.0,
+   "net_income": 1760100000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5571700000.0,
+   "net_income": 1657300000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5278300000.0,
+   "net_income": 1690400000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5007100000.0,
+   "net_income": 1557300000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.013592233009708687,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 400000000.0,
+ "gap_24m": -724500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.1524313595765796,
+ "interest_coverage": 9.574768089053803,
+ "cash_to_debt": 0.24401623158214525,
+ "ev": 45169112845.116905,
+ "ev_to_sales": 6.936288827567092,
+ "ev_to_ebitda": 14.941817017901721,
+ "pe_ttm": 23.683491190907848,
+ "p_fcf": 17.953877528261224,
+ "p_book": 11.160427524060108
+}

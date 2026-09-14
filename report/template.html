@@ -1,0 +1,591 @@
+<meta charset="utf-8">
+<title>Dip Ladder Backtest</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --s-bh: #2a78d6;      /* series 1: buy & hold */
+    --s-dip: #eb6834;     /* series 2: dip ladder */
+    --s-opt: #1baf7a;     /* series 3: dip + options */
+    --s-spy: #898781;     /* reference line */
+    --s-combo: #4a3aa7;   /* series 7: growth combo */
+    --good: #006300;
+    --bad: #d03b3b;
+    --wash: rgba(11,11,11,0.035);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --s-bh: #3987e5;
+      --s-dip: #d95926;
+      --s-opt: #199e70;
+      --s-combo: #9085e9;
+      --good: #0ca30c;
+      --wash: rgba(255,255,255,0.05);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --s-bh: #3987e5;
+    --s-dip: #d95926;
+    --s-opt: #199e70;
+    --s-combo: #9085e9;
+    --good: #0ca30c;
+    --wash: rgba(255,255,255,0.05);
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--page);
+    color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0 20px 80px;
+  }
+  main { max-width: 900px; margin: 0 auto; }
+  header { padding: 56px 0 8px; }
+  .eyebrow {
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; margin-bottom: 10px;
+  }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 12px; text-wrap: balance; letter-spacing: -0.01em; }
+  .lede { color: var(--ink-2); max-width: 62ch; margin: 0 0 8px; }
+  h2 { font-size: 22px; margin: 56px 0 8px; letter-spacing: -0.01em; text-wrap: balance; }
+  h3 { font-size: 16px; margin: 28px 0 6px; }
+  p { max-width: 68ch; margin: 10px 0; }
+  p, li { color: var(--ink-2); }
+  strong { color: var(--ink); font-weight: 600; }
+  .rule-list { padding-left: 0; list-style: none; margin: 16px 0; display: grid; gap: 10px; }
+  .rule-list li { padding-left: 26px; position: relative; }
+  .rule-list li::before {
+    content: ""; position: absolute; left: 2px; top: 9px;
+    width: 8px; height: 8px; border-radius: 2px; background: var(--s-dip);
+  }
+  .rule-list li.sell::before { background: var(--s-bh); }
+  .rule-list li.opt::before { background: var(--s-opt); }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 28px 0 8px; }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .tile .k { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .tile .v { font-size: 26px; font-weight: 650; letter-spacing: -0.01em; margin-top: 2px; }
+  .tile .d { font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+  .tile .v .unit { font-size: 15px; color: var(--muted); font-weight: 500; }
+
+  figure { margin: 24px 0; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 16px 8px; }
+  figcaption { font-size: 13px; color: var(--muted); padding: 6px 4px 8px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 2px 4px 10px; font-size: 13px; color: var(--ink-2); }
+  .legend .chip { display: inline-flex; align-items: center; gap: 6px; }
+  .legend .sw { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .chart-grid { grid-template-columns: 1fr; } }
+  .chart-wrap { position: relative; }
+  .chart-wrap svg { display: block; width: 100%; height: auto; }
+  .tip {
+    position: absolute; pointer-events: none; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+    font-size: 12.5px; line-height: 1.5; box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+    display: none; min-width: 150px; z-index: 3;
+  }
+  .tip .td { color: var(--muted); font-weight: 600; margin-bottom: 2px; }
+  .tip .row { display: flex; justify-content: space-between; gap: 14px; }
+  .tip .row .val { font-variant-numeric: tabular-nums; color: var(--ink); }
+
+  .tbl-wrap { overflow-x: auto; margin: 20px 0; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { padding: 9px 14px; text-align: right; white-space: nowrap; }
+  th { font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--grid); }
+  td { border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; color: var(--ink-2); }
+  tr:last-child td { border-bottom: none; }
+  th:first-child, td:first-child { text-align: left; }
+  td.name { color: var(--ink); font-weight: 600; }
+  tr.hl td { background: var(--wash); }
+  td .pos { color: var(--good); }
+  td .neg { color: var(--bad); }
+
+  .note {
+    border: 1px solid var(--border); border-left: 3px solid var(--s-dip);
+    background: var(--surface); border-radius: 6px; padding: 12px 16px; margin: 20px 0;
+    font-size: 14.5px; max-width: 72ch;
+  }
+  .note.info { border-left-color: var(--s-bh); }
+  .footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--grid); font-size: 13px; color: var(--muted); max-width: 72ch; }
+</style>
+<main>
+<header>
+  <div class="eyebrow">Backtest · Jan 2015 – Aug 2026 · $100k per stock</div>
+  <h1>Dip Ladder Backtest</h1>
+  <p class="lede">A lot-based dip-buying strategy — buy quality names on deep corrections, buy <em>more shares</em> the lower it goes, sell the highest-cost lot once it's up 20%, and optionally wrap it in cash-secured puts and covered calls — tested on NFLX, MSFT, ENPH, NVDA and CVX against buy-and-hold and the S&amp;P 500.</p>
+</header>
+
+<section>
+  <div class="tiles">
+    <div class="tile"><div class="k">Dip ladder</div><div class="v" id="t-dip"></div><div class="d">per $100k sleeve · <span id="t-dip-cagr"></span> CAGR</div></div>
+    <div class="tile"><div class="k">Dip + options</div><div class="v" id="t-opt"></div><div class="d">per $100k sleeve · <span id="t-opt-cagr"></span> CAGR</div></div>
+    <div class="tile"><div class="k">S&amp;P 500 (SPY)</div><div class="v" id="t-spy"></div><div class="d">buy &amp; hold · <span id="t-spy-cagr"></span> CAGR</div></div>
+    <div class="tile"><div class="k">Max drawdown</div><div class="v" id="t-mdd"></div><div class="d">strategy vs <span id="t-mdd-bh"></span> for the 5-stock basket</div></div>
+  </div>
+  <p>That's the whole story in four numbers: over 11.6 years the strategy roughly <strong>tripled the money with about a third of the drawdown</strong> of holding these stocks outright — but it also <strong>trailed a plain S&amp;P 500 index holding</strong>, because it spends most of its life waiting in cash and it sells its winners after a 20% bounce. The options overlay reliably added about a point of CAGR. The detail, and the one stock where the strategy genuinely beat buy-and-hold, is below.</p>
+</section>
+
+<section>
+  <h2>The strategy, as coded</h2>
+  <p>Your rules were translated into a mechanical system so they could be tested honestly. Each stock gets an independent $100,000 sleeve.</p>
+  <ul class="rule-list">
+    <li><strong>Starter position.</strong> 20% of the sleeve buys shares on day one — you "own the company" from the start.</li>
+    <li><strong>Buy the ladder.</strong> When price falls below its trailing 2-year high, tiers trigger: −20% deploys 15% of capital, −30% deploys 20%, −40% deploys 25%, −50% deploys 40%. Deeper tiers get bigger budgets <em>and</em> cheaper prices, so share counts grow fast as it falls — your averaging-down rule. Tiers re-arm after price recovers to within 10% of its high.</li>
+    <li class="sell"><strong>Sell the top lot.</strong> Any day the price exceeds the cost of the highest-cost open lot by 20%+, that lot is sold — cascading down to the next lot if it also qualifies. Cheap lots are kept; expensive lots are recycled.</li>
+    <li class="opt"><strong>Options variant — puts.</strong> Each month, sell a cash-secured put struck at the next unfilled buy tier. Assigned = you bought your tier, plus premium. Expires worthless = keep the premium, tier stays armed.</li>
+    <li class="opt"><strong>Options variant — calls.</strong> Each month, sell a covered call on the highest-cost lot struck at 1.2× its cost. Called away = your 20% sell executed, plus premium.</li>
+  </ul>
+  <p class="note info"><strong>Assumptions:</strong> split-adjusted daily closes with dividends credited as cash; idle cash earns 2.5%/yr; option premiums estimated with Black–Scholes at 1.1× trailing 63-day realized volatility, monthly expiries, no early assignment; no taxes, commissions or slippage. The "good fundamentals, not overvalued" screen is not mechanically coded — buying only at −20% to −50% off the highs is its price-side proxy. See caveats.</p>
+</section>
+
+<section>
+  <h2>Headline results</h2>
+  <p>Equal-weight basket of all five stocks, per $100k. Buy-and-hold of this specific basket is dominated by NVDA's 448× run — hindsight does a lot of work there.</p>
+  <figure>
+    <div class="legend" id="leg-port"></div>
+    <div class="chart-wrap" id="ch-port"></div>
+    <figcaption>Equal-weight basket value per $100k, weekly, log scale. Buy &amp; hold of the 5 stocks reaches $9.6M on the same axis.</figcaption>
+  </figure>
+  <div class="tbl-wrap"><table id="tbl-main"></table></div>
+  <p>The pattern per stock: on relentless compounders (<strong>NVDA, MSFT, NFLX</strong>) the strategy is left far behind — corrections were rare and brief, so the sleeve sat 5–21% invested, and every recovery triggered the 20% sell rule just as the real run was starting. On the boom-bust name (<strong>ENPH</strong>) the strategy <em>beat buy-and-hold decisively</em> — 465% with options vs 185% holding — because harvesting 20% bounces and re-buying lower is exactly the right shape for a stock that round-trips. <strong>CVX</strong> landed at a draw.</p>
+</section>
+
+<section>
+  <h2>Stock by stock</h2>
+  <div class="chart-grid" id="ticker-charts"></div>
+</section>
+
+<section>
+  <h2>What drove the results</h2>
+  <h3>1 · The sell rule is the expensive half</h3>
+  <p>Re-running the backtest with the buy ladder intact but the 20% sell rule <em>removed</em> (buy dips, never sell) transforms the outcome:</p>
+  <div class="tbl-wrap"><table id="tbl-sens"></table></div>
+  <p>Same buy discipline, same entries — but letting winners run instead of recycling them after +20% takes NFLX from $295k to $1.24M and NVDA from $366k to $18M. The dip-<em>buying</em> half of your strategy is sound; the mechanical +20% rotation is what forfeits compounding. ENPH is the honest counterexample: there, selling was the <em>right</em> call (it beat never-selling), because the stock ultimately gave back 95%.</p>
+  <h3>2 · Cash drag is the quiet cost</h3>
+  <p>Waiting for −20% corrections in names that rarely correct means the average sleeve was only <span id="inv-range"></span> invested. Cash earning 2.5% can't keep up with equities compounding at 13–27%. A bigger starter position (50% instead of 20%) helps modestly; combining it with never-selling gets the basket to $6.5M — most of the way to buy-and-hold, while still buying every crash.</p>
+  <h3>3 · The options overlay genuinely helps</h3>
+  <p>Across the five sleeves the overlay collected <strong id="prem-total"></strong> in premium (<span id="prem-puts"></span> from puts, <span id="prem-calls"></span> from calls) and improved every sleeve except NFLX, where a called-away lot missed part of a rebound. It works because it's paid for doing what the strategy would do anyway: the put's assignment <em>is</em> your tier buy; the call's exercise <em>is</em> your 20% sell. On the highest-volatility name it mattered most — ENPH's premiums alone were $53k, lifting that sleeve from 295% to 465%.</p>
+  <div class="tbl-wrap"><table id="tbl-opt"></table></div>
+  <h3>4 · Averaging down cannot rescue a broken business</h3>
+  <p>ENPH is also the warning label. The ladder deployed its full $100k by mid-2015, then rode the stock down 95%; the strategy's own drawdown was −95%, identical to buy-and-hold. A fixed-capital ladder runs out of ammunition after the −50% tier — below that you are simply holding. This is where your "solid companies, good fundamentals" screen has to do the real work, and it's the part a price-only backtest cannot capture: averaging down is only as safe as the business underneath it.</p>
+</section>
+
+<section>
+  <h2>Round 2 — making the strategy better</h2>
+  <p>Round 1 exposed two leaks: idle cash earning 2.5% while waiting for corrections, and the +20% rotation selling compounders just as they get going. Round 2 tests five levers that keep the strategy's discipline — buy corrections in size, recycle expensive lots, sell puts and calls — while plugging the leaks:</p>
+  <ul class="rule-list">
+    <li class="sell"><strong>Trend filter on the sell rule.</strong> The +20% lot rotation only fires while price is <em>below</em> its 200-day average — harvest bounces inside downtrends, but let confirmed uptrends run.</li>
+    <li><strong>Park idle cash in SPY.</strong> The waiting capital holds the index instead of cash; tier buys are funded by selling SPY. You're never out of the market.</li>
+    <li><strong>A never-sold core.</strong> 30–50% bought on day one and exempt from rotation — "own the company" permanently; the ladder trades only around it.</li>
+    <li class="sell"><strong>Raise the trigger to +50%.</strong> Same rotation, more room before a lot is called done.</li>
+    <li class="opt"><strong>Size tiers off current sleeve value</strong> instead of the original $100k, so buys stay meaningful as the sleeve compounds.</li>
+  </ul>
+  <p>Every combination, as an equal-weight basket of the five stocks, per $100k — sorted from most defensive to most aggressive. It forms a clean risk/return ladder:</p>
+  <div class="tbl-wrap"><table id="tbl-r2"></table></div>
+  <figure>
+    <div class="legend" id="leg-r2"></div>
+    <div class="chart-wrap" id="ch-r2"></div>
+    <figcaption>Equal-weight basket per $100k, weekly, log scale — the round-1 strategy, the two best round-2 rule sets, and SPY.</figcaption>
+  </figure>
+  <h3>What the ladder shows</h3>
+  <p><strong>The trend filter is the single best free change.</strong> Changing nothing but <em>when</em> the +20% rule may fire takes the basket from $291k to $951k — and it beat SPY on <em>both</em> return (21.4% vs 13.1% CAGR) and drawdown (−27% vs −31%). NVDA's sleeve alone went from 11.9% to 28.6% CAGR while its drawdown <em>improved</em> to −23%, because the 2022 bottom lots were held through 2023 instead of being sold on the first +20% bounce.</p>
+  <p><strong>SPY parking cures the cash drag.</strong> On its own it more than doubles the outcome ($663k) while average single-stock exposure stays around 24% — the defensive character survives; the waiting capital just stops being dead weight. Its cost: your "dry powder" now falls in the same crashes you're buying into (basket drawdown −33%).</p>
+  <p><strong>The options overlay is asymmetric in the improved versions.</strong> Cash-secured puts kept earning their keep — in the trend + parked variant they lifted NVDA from $3.0M to $6.4M by forcing bigger buys at the 2018 and 2022 lows. Covered calls, though, work against the trend filter: they cap exactly the recoveries the filter is trying to ride (the growth combo scored <em>higher without</em> them). If you run the improved rules, keep the puts; write calls only on lots you'd genuinely be happy to lose at that strike.</p>
+  <p><strong>The never-sold core is the bridge to buy-and-hold.</strong> A 50% permanent core takes the basket to $5.0M at 40% CAGR — but drawdowns climb back to −46%, and by then you're mostly a buy-and-hold investor with a trading sleeve. That's a legitimate destination; the table just makes the price of each step explicit.</p>
+  <p class="note"><strong>A suggested "Dip Ladder 2.0":</strong> keep the tier ladder and put-selling exactly as specified; park waiting capital in a broad index; rotate the +20% lots only below the 200-day average; skip covered calls on names in confirmed uptrends. In this backtest that rule set compounded at 27.9% with a −42% worst drawdown ($1.75M per $100k) — versus 10.7% at −19% for the round-1 rules and 48.1% at −53% for buy-and-hold. Pick the rung whose drawdown you can actually sit through; the table is the menu.</p>
+  <p>The warning label survives every variant: ENPH still loses ~95% at high exposure in all of them. No price rule distinguishes a dip from a decline — the fundamentals judgment stays load-bearing.</p>
+</section>
+
+<section>
+  <h2>Round 3 — the growth combo, out of sample</h2>
+  <p>The round-1 stocks were picked knowing they (mostly) won. This round takes the best-performing rule set and runs it on a deliberately harder list — an oil major, a fallen GLP-1 star, two struggling-then-recovering chip names, a cyclical packager, a micro-cap boom-bust stock, and a Chinese giant that went nowhere for a decade: <strong>XOM, NVO, INTC, QCOM, AMKR, AEHR, BABA</strong>. If the combo only worked on hindsight winners, this is where it should fall apart.</p>
+  <h3>The exact rule set tested</h3>
+  <ul class="rule-list">
+    <li><strong>30% core, never sold.</strong> Bought on day one, exempt from every sell rule — the "own the company" anchor.</li>
+    <li><strong>Tiers sized off current sleeve value.</strong> −20/−30/−40/−50% below the 2-year high deploy 15/20/25/40% — of what the sleeve is worth <em>now</em>, so buys stay meaningful as it compounds.</li>
+    <li class="sell"><strong>Trend-filtered rotation.</strong> Non-core lots sell at +20% over cost only while price is below its 200-day average; uptrends run untouched.</li>
+    <li><strong>Waiting capital lives in SPY</strong>, sold down to fund tier buys and put assignments.</li>
+    <li class="opt"><strong>Cash-secured puts, no covered calls.</strong> Monthly puts struck at the next unfilled tier (round 2 showed calls fight the trend filter, so they're dropped). Assignment = the tier buy, plus premium.</li>
+  </ul>
+  <h3>Results</h3>
+  <p>The combo <strong>beat buy-and-hold on 6 of the 7 stocks</strong> — the median stock finished 75% ahead. As an equal-weight basket: <strong id="r3-bh"></strong> buy-and-hold vs <strong id="r3-cp"></strong> for the combo with puts. Excluding AEHR (the micro-cap moonshot that dominates both columns), the basket still wins $555k to $344k.</p>
+  <figure>
+    <div class="legend" id="leg-r3"></div>
+    <div class="chart-wrap" id="ch-r3"></div>
+    <figcaption>Equal-weight basket of the 7 out-of-sample stocks, per $100k, weekly, log scale.</figcaption>
+  </figure>
+  <div class="tbl-wrap"><table id="tbl-r3"></table></div>
+  <div class="chart-grid" id="r3-charts"></div>
+  <h3>What the deep dive shows</h3>
+  <p><strong>The combo's habitat is exactly this list.</strong> Every winner here is a stock that crashed hard at least once and eventually recovered: the ladder bought XOM through the 2020 oil collapse (13.3% CAGR vs 7.1% holding), bought INTC's 2022–24 implosion in size before the 2025–26 recovery ($567k vs $317k), compounded AMKR's repeated semiconductor cycles ($1.46M vs $858k), and turned BABA — <em>2.0% a year for a decade holding</em> — into 8.0% by buying every leg down and harvesting every dead-cat bounce below the 200-day line. QCOM shows the quieter version: 20 tier buys, zero sells (never 20% above cost below trend), $62k of dividends swept into SPY — a grind that still beat holding by half.</p>
+  <p><strong>The puts earned $131k across the basket and their keep on the cyclicals.</strong> AMKR was the showcase: 13 assignments and $40k of premium turned the combo's $1.04M into $1.46M — paid repeatedly to catch a knife that kept bouncing. INTC's 8 assignments added $157k. But the overlay is genuinely two-sided: on NVO the puts <em>subtracted</em> $35k (assigned into a decline that kept declining), and a cross-check on the round-1 stocks shows puts roughly neutral there ($4.35M vs $4.79M without) — on a relentless compounder, waiting a month for assignment costs more than the premium pays. <strong>Puts monetize chop; they don't improve rockets.</strong></p>
+  <p><strong>NVO is the loss that teaches the most.</strong> The one stock where buy-and-hold won ($271k vs $230k): the 30% core rode the −70% collapse in full, the tiers and puts kept averaging into a business whose earnings story was actually breaking, and the trend filter never got a bounce big enough to harvest. It's ENPH's lesson from round 1 wearing a different jersey — <em>this rule set has no defense against a structural decline, only against volatility.</em></p>
+  <p><strong>And note what the combo no longer is: defensive.</strong> Basket max drawdown was −60% — identical to buy-and-hold. Running ~80–95% exposure with a permanent core means the growth combo wins by buying lows harder, not by dodging crashes. The drawdown protection lives back up the round-2 ladder (the original rules held the basket to −19%); you can have protection or compounding, and the ladder prices each step.</p>
+  <p class="note"><strong>Bottom line of the deep dive:</strong> on a fair list containing losers and flatliners, the growth combo added value on 6 of 7 names and +71% at the basket level — its edge comes from disciplined oversized buying in crashes and paid patience (puts) on cyclical names, not from picking winners. Its two known failure modes: structural decliners (NVO, ENPH) where averaging down compounds the damage, and its drawdowns are buy-and-hold-sized. The fundamentals screen — is the business intact? — remains the one rule this backtest cannot automate.</p>
+</section>
+
+<section>
+  <h2>Caveats</h2>
+  <ul>
+    <li><strong>Hindsight ticker selection.</strong> These five were chosen knowing how they turned out. NVDA's 448× is not a repeatable expectation; equally, ENPH's −95% shows what the same list looks like when it goes wrong.</li>
+    <li><strong>No fundamental screen.</strong> Historic P/E-vs-peers valuation gating wasn't backtested (clean point-in-time fundamentals aren't freely available); the deep-correction requirement is only a partial proxy.</li>
+    <li><strong>Option prices are modeled, not quoted.</strong> Black–Scholes on realized vol understates crash premiums and ignores early assignment, spreads and strike granularity. Treat overlay results as directionally right, not precise.</li>
+    <li><strong>No taxes or costs.</strong> The sell rule and option assignments generate constant short-term realized gains — in a taxable account the gap to buy-and-hold widens further.</li>
+    <li><strong>Fixed-dollar tiers.</strong> Budgets are percentages of the original $100k, not of the growing sleeve, which understates later-year compounding of the strategy.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Takeaways</h2>
+  <p>Read as a study of the <em>mechanics</em>, not as advice:</p>
+  <ul>
+    <li><strong>This is a risk-management strategy, not a return-maximizing one.</strong> It cut the basket's worst drawdown from −53% to −19% and never came close to blowing up — at the cost of trailing even a plain index fund.</li>
+    <li><strong>Its natural habitat is boom-bust, mean-reverting names</strong> — volatile cyclicals like ENPH or CVX — not steady compounders. Applied to MSFT or NVDA, the 20% rotation systematically sells the future.</li>
+    <li><strong>A hybrid resolves the tension</strong> — and Round 2 above backtests it: a trend filter on the sell rule plus index-parked cash lifted the basket from 9.6% to 27.9% CAGR, and a never-sold core carries it to ~40% at buy-and-hold-like drawdowns. Each step up the ladder buys return with drawdown; the table makes the price explicit.</li>
+    <li><strong>The options overlay earns its keep</strong> whenever you would genuinely buy at the put strike and genuinely sell at the call strike — it monetizes patience you already have. It's most valuable exactly where the strategy itself works best: high-volatility names.</li>
+    <li><strong>The fundamentals gate is the load-bearing wall.</strong> The backtest shows the price rules can't distinguish a dip from a decline — that judgment has to come from the business, which is the part of your strategy no ladder can automate.</li>
+  </ul>
+  <p class="footer">Simulation built from split-adjusted Yahoo Finance daily data, Jan 2, 2015 – Aug 14, 2026. All figures per $100,000 initial capital per sleeve. This is an educational backtest of mechanical rules — it is not investment advice, and past performance does not predict future results.</p>
+</section>
+</main>
+
+<script>
+const DATA = /*__DATA__*/;
+const R2 = /*__DATA2__*/;
+const R3 = /*__DATA3__*/;
+
+const S = [
+  { key: "bh",  name: "Buy & hold",   v: "--s-bh"  },
+  { key: "dip", name: "Dip ladder",   v: "--s-dip" },
+  { key: "opt", name: "Dip + options",v: "--s-opt" },
+  { key: "spy", name: "SPY",          v: "--s-spy" },
+];
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmt$ = (x) => {
+  if (x == null) return "–";
+  const a = Math.abs(x);
+  if (a >= 1e6) return "$" + parseFloat((x / 1e6).toFixed(x >= 1e7 ? 1 : 2)) + "M";
+  if (a >= 1e3) return "$" + Math.round(x / 1e3) + "k";
+  return "$" + Math.round(x);
+};
+const pct = (x, d=0) => (x * 100).toFixed(d) + "%";
+
+// ---------- chart ----------
+function chart(el, rows, seriesIdx, opts) {
+  const SER = opts.series || S;
+  const W = opts.w || 860, H = opts.h || 340;
+  const m = { t: 14, r: 78, b: 26, l: 8 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const parse = (s) => new Date(s + "T12:00:00");
+  const xs = rows.map(r => parse(r[0]).getTime());
+  const x0 = xs[0], x1 = xs[xs.length - 1];
+  let lo = Infinity, hi = -Infinity;
+  for (const r of rows) for (const i of seriesIdx) {
+    const v = r[i + 1];
+    if (v != null) { lo = Math.min(lo, v); hi = Math.max(hi, v); }
+  }
+  const ylo = Math.log10(lo * 0.95), yhi = Math.log10(hi * 1.05);
+  const X = (t) => m.l + (t - x0) / (x1 - x0) * iw;
+  const Y = (v) => m.t + (1 - (Math.log10(v) - ylo) / (yhi - ylo)) * ih;
+
+  // 1-2-5 log ticks
+  const ticks = [];
+  for (let e = Math.floor(ylo); e <= Math.ceil(yhi); e++)
+    for (const k of [1, 2, 5]) {
+      const v = k * Math.pow(10, e);
+      const l = Math.log10(v);
+      if (l >= ylo && l <= yhi) ticks.push(v);
+    }
+  while (ticks.length > 7) ticks.splice(1, 1) && ticks.length > 7 && ticks.splice(ticks.length - 2, 1);
+
+  const years = [];
+  const first = parse(rows[0][0]), last = parse(rows[rows.length - 1][0]);
+  const span = last.getFullYear() - first.getFullYear();
+  const step = span > 8 ? 2 : 1;
+  for (let y = first.getFullYear() + 1; y <= last.getFullYear(); y += step) years.push(y);
+
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", opts.label || "portfolio value chart");
+  const add = (parent, tag, attrs, text) => {
+    const n = document.createElementNS(ns, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (text != null) n.textContent = text;
+    parent.appendChild(n);
+    return n;
+  };
+  // end-label positions (computed early so tick labels can dodge them)
+  const endYs = opts.endLabels ? seriesIdx.map(i => {
+    for (let r = rows.length - 1; r >= 0; r--) if (rows[r][i + 1] != null) return Y(rows[r][i + 1]);
+    return -99;
+  }) : [];
+  for (const v of ticks) {
+    add(svg, "line", { x1: m.l, x2: m.l + iw, y1: Y(v), y2: Y(v), stroke: css("--grid"), "stroke-width": 1 });
+    if (endYs.some(ey => Math.abs(ey - Y(v)) < 14)) continue;
+    add(svg, "text", { x: m.l + iw + 6, y: Y(v) + 4, fill: css("--muted"), "font-size": 11.5, "font-family": "system-ui,sans-serif" }, fmt$(v));
+  }
+  for (const y of years) {
+    const t = new Date(y, 0, 1).getTime();
+    if (t < x0 || t > x1) continue;
+    add(svg, "line", { x1: X(t), x2: X(t), y1: m.t + ih, y2: m.t + ih + 4, stroke: css("--baseline"), "stroke-width": 1 });
+    add(svg, "text", { x: X(t), y: m.t + ih + 18, fill: css("--muted"), "font-size": 11.5, "text-anchor": "middle", "font-family": "system-ui,sans-serif" }, "’" + String(y).slice(2));
+  }
+  add(svg, "line", { x1: m.l, x2: m.l + iw, y1: m.t + ih, y2: m.t + ih, stroke: css("--baseline"), "stroke-width": 1 });
+
+  for (const i of seriesIdx) {
+    let d = "", pen = false;
+    for (const r of rows) {
+      const v = r[i + 1];
+      if (v == null) { pen = false; continue; }
+      d += (pen ? "L" : "M") + X(parse(r[0]).getTime()).toFixed(1) + "," + Y(v).toFixed(1);
+      pen = true;
+    }
+    add(svg, "path", { d, fill: "none", stroke: css(SER[i].v), "stroke-width": 2, "stroke-linejoin": "round" });
+  }
+  // direct end labels with simple collision nudge
+  const ends = seriesIdx.map(i => {
+    let v = null;
+    for (let r = rows.length - 1; r >= 0; r--) if (rows[r][i + 1] != null) { v = rows[r][i + 1]; break; }
+    return { i, y: Y(v), v };
+  }).sort((a, b) => a.y - b.y);
+  for (let k = 1; k < ends.length; k++)
+    if (ends[k].y - ends[k - 1].y < 14) ends[k].y = ends[k - 1].y + 14;
+  if (opts.endLabels) for (const e of ends)
+    add(svg, "text", { x: m.l + iw + 6, y: e.y + 4, fill: css(SER[e.i].v), "font-size": 11.5, "font-weight": 600, "font-family": "system-ui,sans-serif" }, fmt$(e.v));
+
+  const hover = add(svg, "line", { x1: 0, x2: 0, y1: m.t, y2: m.t + ih, stroke: css("--baseline"), "stroke-width": 1, opacity: 0 });
+  const wrap = el;
+  wrap.appendChild(svg);
+  const tip = document.createElement("div");
+  tip.className = "tip";
+  wrap.appendChild(tip);
+
+  svg.addEventListener("pointermove", (ev) => {
+    const rect = svg.getBoundingClientRect();
+    const px = (ev.clientX - rect.left) / rect.width * W;
+    const t = x0 + (Math.min(Math.max(px, m.l), m.l + iw) - m.l) / iw * (x1 - x0);
+    let best = 0, bd = Infinity;
+    for (let r = 0; r < rows.length; r++) {
+      const d = Math.abs(parse(rows[r][0]).getTime() - t);
+      if (d < bd) { bd = d; best = r; }
+    }
+    const row = rows[best];
+    const cx = X(parse(row[0]).getTime());
+    hover.setAttribute("x1", cx); hover.setAttribute("x2", cx); hover.setAttribute("opacity", 1);
+    let html = `<div class="td">${row[0]}</div>`;
+    for (const i of seriesIdx) {
+      html += `<div class="row"><span style="color:${css(SER[i].v)}">●</span><span style="flex:1;padding:0 6px">${SER[i].name}</span><span class="val">${fmt$(row[i + 1])}</span></div>`;
+    }
+    tip.innerHTML = html;
+    tip.style.display = "block";
+    const left = cx / W * rect.width;
+    tip.style.left = Math.min(left + 12, rect.width - 170) + "px";
+    tip.style.top = "12px";
+  });
+  svg.addEventListener("pointerleave", () => { hover.setAttribute("opacity", 0); tip.style.display = "none"; });
+}
+
+function legend(el, seriesIdx, series) {
+  const SER = series || S;
+  el.innerHTML = seriesIdx.map(i =>
+    `<span class="chip"><span class="sw" style="background:${css(SER[i].v)}"></span>${SER[i].name}</span>`).join("");
+}
+
+// ---------- fill tiles ----------
+const P = DATA.portfolio;
+document.getElementById("t-dip").textContent = fmt$(P.dip.final);
+document.getElementById("t-dip-cagr").textContent = pct(P.dip.cagr, 1);
+document.getElementById("t-opt").textContent = fmt$(P.dip_opt.final);
+document.getElementById("t-opt-cagr").textContent = pct(P.dip_opt.cagr, 1);
+document.getElementById("t-spy").textContent = fmt$(DATA.spy.final);
+document.getElementById("t-spy-cagr").textContent = pct(DATA.spy.cagr, 1);
+document.getElementById("t-mdd").textContent = pct(P.dip.max_drawdown);
+document.getElementById("t-mdd-bh").textContent = pct(P.bh.max_drawdown);
+
+// ---------- portfolio chart ----------
+legend(document.getElementById("leg-port"), [0, 1, 2, 3]);
+chart(document.getElementById("ch-port"), DATA.portfolio.curve, [0, 1, 2, 3], { w: 860, h: 360, endLabels: true, label: "Equal-weight basket value, log scale" });
+
+// ---------- main table ----------
+const NAMES = { nflx: "Netflix", msft: "Microsoft", enph: "Enphase", nvda: "NVIDIA", cvx: "Chevron" };
+const V = ["bh", "dip", "dip_opt"];
+const VN = { bh: "Buy & hold", dip: "Dip ladder", dip_opt: "Dip + options" };
+let html = `<thead><tr><th>Stock</th><th>Variant</th><th>Final value</th><th>CAGR</th><th>Max DD</th><th>Avg invested</th><th>Buys</th><th>Sells</th></tr></thead><tbody>`;
+for (const t of ["nflx", "msft", "enph", "nvda", "cvx"]) {
+  const e = DATA.tickers[t].summary;
+  V.forEach((v, j) => {
+    const r = e[v];
+    const st = r.stats || {};
+    const win = t === "enph" && v !== "bh";
+    html += `<tr${win ? ' class="hl"' : ''}><td class="name">${j === 0 ? NAMES[t] : ""}</td><td style="text-align:left">${VN[v]}</td><td>${fmt$(r.final)}</td><td>${pct(r.cagr, 1)}</td><td><span class="${r.max_drawdown < -0.6 ? 'neg' : ''}">${pct(r.max_drawdown)}</span></td><td>${pct(r.avg_invested)}</td><td>${st.buys || "–"}</td><td>${st.sells || "–"}</td></tr>`;
+  });
+}
+html += `<tr><td class="name">SPY</td><td style="text-align:left">Buy & hold</td><td>${fmt$(DATA.spy.final)}</td><td>${pct(DATA.spy.cagr, 1)}</td><td>${pct(DATA.spy.max_drawdown)}</td><td>100%</td><td>–</td><td>–</td></tr></tbody>`;
+document.getElementById("tbl-main").innerHTML = html;
+
+// ---------- ticker charts ----------
+const grid = document.getElementById("ticker-charts");
+for (const t of ["nflx", "msft", "enph", "nvda", "cvx"]) {
+  const fig = document.createElement("figure");
+  const leg = document.createElement("div"); leg.className = "legend";
+  const wrapEl = document.createElement("div"); wrapEl.className = "chart-wrap";
+  const cap = document.createElement("figcaption");
+  const e = DATA.tickers[t].summary;
+  cap.textContent = `${NAMES[t]} — B&H ${pct(e.bh.cagr, 1)} vs ladder ${pct(e.dip.cagr, 1)} vs options ${pct(e.dip_opt.cagr, 1)} CAGR`;
+  const h3 = document.createElement("h3");
+  h3.style.margin = "0 0 4px"; h3.textContent = NAMES[t];
+  fig.append(h3, leg, wrapEl, cap);
+  grid.appendChild(fig);
+  legend(leg, [0, 1, 2]);
+  chart(wrapEl, DATA.tickers[t].curve, [0, 1, 2], { w: 420, h: 250, label: NAMES[t] + " sleeve value, log scale" });
+}
+
+// ---------- sensitivity table ----------
+const SC = [["base", "Dip ladder (as specified)"], ["start50", "50% starter position"], ["nosell", "Never sell (buy dips & hold)"], ["nosell_start50", "50% starter + never sell"]];
+let sh = `<thead><tr><th>Variant</th>`;
+for (const t of ["nflx", "msft", "enph", "nvda", "cvx"]) sh += `<th>${NAMES[t]}</th>`;
+sh += `<th>Basket avg</th></tr></thead><tbody>`;
+const baseRow = {};
+for (const t of ["nflx", "msft", "enph", "nvda", "cvx"]) baseRow[t] = DATA.tickers[t].summary.dip.final;
+const rows = { base: baseRow };
+for (const [k] of SC.slice(1)) rows[k] = Object.fromEntries(Object.entries(DATA.sensitivity[k]).filter(([a]) => a !== "portfolio_final").map(([a, b]) => [a, b.final]));
+for (const [k, label] of SC) {
+  const r = rows[k];
+  const avg = ["nflx", "msft", "enph", "nvda", "cvx"].reduce((s, t) => s + r[t], 0) / 5;
+  sh += `<tr${k === "nosell" ? ' class="hl"' : ''}><td style="text-align:left">${label}</td>`;
+  for (const t of ["nflx", "msft", "enph", "nvda", "cvx"]) sh += `<td>${fmt$(r[t])}</td>`;
+  sh += `<td class="name">${fmt$(avg)}</td></tr>`;
+}
+sh += `</tbody>`;
+document.getElementById("tbl-sens").innerHTML = sh;
+
+// ---------- options table ----------
+let oh = `<thead><tr><th>Stock</th><th>Puts sold</th><th>Put premium</th><th>Assigned</th><th>Calls sold</th><th>Call premium</th><th>Called away</th><th>Upside forgone</th><th>Sleeve vs no options</th></tr></thead><tbody>`;
+let pt = 0, ct = 0;
+for (const t of ["nflx", "msft", "enph", "nvda", "cvx"]) {
+  const s = DATA.tickers[t].summary.dip_opt.stats;
+  const d0 = DATA.tickers[t].summary.dip.final, d1 = DATA.tickers[t].summary.dip_opt.final;
+  const diff = d1 - d0;
+  pt += s.put_premium || 0; ct += s.call_premium || 0;
+  oh += `<tr><td class="name">${NAMES[t]}</td><td>${s.puts_sold || 0}</td><td>${fmt$(s.put_premium || 0)}</td><td>${s.put_assignments || 0}</td><td>${s.calls_sold || 0}</td><td>${fmt$(s.call_premium || 0)}</td><td>${s.calls_assigned || 0}</td><td>${fmt$(s.call_upside_forgone || 0)}</td><td><span class="${diff >= 0 ? 'pos' : 'neg'}">${diff >= 0 ? "+" : "−"}${fmt$(Math.abs(diff))}</span></td></tr>`;
+}
+oh += `</tbody>`;
+document.getElementById("tbl-opt").innerHTML = oh;
+document.getElementById("prem-total").textContent = fmt$(pt + ct);
+document.getElementById("prem-puts").textContent = fmt$(pt);
+document.getElementById("prem-calls").textContent = fmt$(ct);
+
+// ---------- round 2: variant ladder table ----------
+const R2ROWS = [
+  { label: "Round 1 · dip ladder as specified", s: { final: P.dip.final, cagr: P.dip.cagr, max_drawdown: P.dip.max_drawdown }, exp: null },
+  { label: "Round 1 · + options overlay", s: { final: P.dip_opt.final, cagr: P.dip_opt.cagr, max_drawdown: P.dip_opt.max_drawdown }, exp: null },
+  { label: "Sell trigger raised to +50%", s: R2.summary.gain50, exp: R2.summary.gain50.avg_exposure },
+  { label: "SPY buy & hold (reference)", s: { final: DATA.spy.final, cagr: DATA.spy.cagr, max_drawdown: DATA.spy.max_drawdown }, exp: null, ref: true },
+  { label: "Idle cash parked in SPY", s: R2.summary.spy_park, exp: R2.summary.spy_park.avg_exposure },
+  { label: "Trend filter on sells (200-day MA)", s: R2.summary.trend, exp: R2.summary.trend.avg_exposure },
+  { label: "Trend filter + SPY parking", s: R2.summary.trend_park, exp: R2.summary.trend_park.avg_exposure },
+  { label: "Trend + parking + options — “Dip Ladder 2.0”", s: R2.summary.trend_park_opt, exp: R2.summary.trend_park_opt.avg_exposure, hl: true },
+  { label: "Growth combo · 30% core + trend + parking + % tiers", s: R2.summary.combo_noopt, exp: R2.summary.combo_noopt.avg_exposure },
+  { label: "50% never-sold core", s: R2.summary.core50, exp: R2.summary.core50.avg_exposure },
+  { label: "Buy & hold the 5 stocks (reference)", s: { final: P.bh.final, cagr: P.bh.cagr, max_drawdown: P.bh.max_drawdown }, exp: null, ref: true },
+];
+let r2h = `<thead><tr><th>Rule set</th><th>Basket final</th><th>CAGR</th><th>Max DD</th><th>Avg stock exposure</th></tr></thead><tbody>`;
+for (const r of R2ROWS) {
+  r2h += `<tr${r.hl ? ' class="hl"' : ''}><td style="text-align:left;${r.ref ? 'color:var(--muted)' : ''}">${r.label}</td><td${r.hl ? ' class="name"' : ''}>${fmt$(r.s.final)}</td><td>${pct(r.s.cagr, 1)}</td><td><span class="${r.s.max_drawdown < -0.5 ? 'neg' : ''}">${pct(r.s.max_drawdown)}</span></td><td>${r.exp == null ? "–" : pct(r.exp)}</td></tr>`;
+}
+r2h += `</tbody>`;
+document.getElementById("tbl-r2").innerHTML = r2h;
+
+// ---------- round 2: chart ----------
+const S2 = [
+  { name: "Dip ladder (round 1)", v: "--s-dip" },
+  { name: "Dip Ladder 2.0", v: "--s-bh" },
+  { name: "Growth combo", v: "--s-combo" },
+  { name: "SPY", v: "--s-spy" },
+];
+const tpo = new Map(R2.curves.trend_park_opt);
+const cmb = new Map(R2.curves.combo_noopt);
+const r2rows = DATA.portfolio.curve
+  .map(r => [r[0], r[2], tpo.get(r[0]) ?? null, cmb.get(r[0]) ?? null, r[4]])
+  .filter(r => r[2] != null && r[3] != null);
+legend(document.getElementById("leg-r2"), [0, 1, 2, 3], S2);
+chart(document.getElementById("ch-r2"), r2rows, [0, 1, 2, 3], { w: 860, h: 360, endLabels: true, series: S2, label: "Round 2 rule sets, basket value, log scale" });
+
+// ---------- round 3 ----------
+const S3 = [
+  { name: "Buy & hold", v: "--s-bh" },
+  { name: "Growth combo", v: "--s-combo" },
+  { name: "Combo + puts", v: "--s-opt" },
+];
+const N3 = { xom: "Exxon Mobil", nvo: "Novo Nordisk", intc: "Intel", qcom: "Qualcomm", amkr: "Amkor", aehr: "Aehr Test", baba: "Alibaba" };
+document.getElementById("r3-bh").textContent = fmt$(R3.basket.bh.final);
+document.getElementById("r3-cp").textContent = fmt$(R3.basket.combo_puts.final);
+
+legend(document.getElementById("leg-r3"), [0, 1, 2], S3);
+chart(document.getElementById("ch-r3"), R3.basket.curve, [0, 1, 2], { w: 860, h: 340, endLabels: true, series: S3, label: "Out-of-sample basket, log scale" });
+
+let r3h = `<thead><tr><th>Stock</th><th>Variant</th><th>Final value</th><th>CAGR</th><th>Max DD</th><th>Avg invested</th><th>Put premium</th><th>Assignments</th></tr></thead><tbody>`;
+for (const t of ["xom", "nvo", "intc", "qcom", "amkr", "aehr", "baba"]) {
+  const e = R3.tickers[t].summary;
+  [["bh", "Buy & hold"], ["combo", "Growth combo"], ["combo_puts", "Combo + puts"]].forEach(([v, vn], j) => {
+    const r = e[v];
+    const s = r.stats || {};
+    const win = v === "combo_puts" && r.final > e.bh.final;
+    r3h += `<tr${win ? ' class="hl"' : ''}><td class="name">${j === 0 ? N3[t] : ""}</td><td style="text-align:left">${vn}</td><td>${fmt$(r.final)}</td><td>${pct(r.cagr, 1)}</td><td><span class="${r.max_drawdown < -0.6 ? 'neg' : ''}">${pct(r.max_drawdown)}</span></td><td>${pct(r.avg_invested)}</td><td>${s.put_premium ? fmt$(s.put_premium) : "–"}</td><td>${s.put_assignments || "–"}</td></tr>`;
+  });
+}
+r3h += `</tbody>`;
+document.getElementById("tbl-r3").innerHTML = r3h;
+
+const grid3 = document.getElementById("r3-charts");
+for (const t of ["xom", "nvo", "intc", "qcom", "amkr", "aehr", "baba"]) {
+  const fig = document.createElement("figure");
+  const leg = document.createElement("div"); leg.className = "legend";
+  const wrapEl = document.createElement("div"); wrapEl.className = "chart-wrap";
+  const cap = document.createElement("figcaption");
+  const e = R3.tickers[t].summary;
+  cap.textContent = `${N3[t]} — B&H ${pct(e.bh.cagr, 1)} vs combo ${pct(e.combo.cagr, 1)} vs +puts ${pct(e.combo_puts.cagr, 1)} CAGR`;
+  const h3 = document.createElement("h3");
+  h3.style.margin = "0 0 4px"; h3.textContent = N3[t];
+  fig.append(h3, leg, wrapEl, cap);
+  grid3.appendChild(fig);
+  legend(leg, [0, 1, 2], S3);
+  chart(wrapEl, R3.tickers[t].curve, [0, 1, 2], { w: 420, h: 250, series: S3, label: N3[t] + " sleeve value, log scale" });
+}
+
+// invested range
+const invs = ["nflx", "msft", "enph", "nvda", "cvx"].map(t => DATA.tickers[t].summary.dip.avg_invested);
+document.getElementById("inv-range").textContent = pct(Math.min(...invs)) + "–" + pct(Math.max(...invs));
+
+// re-render charts on theme change (colors are read at draw time)
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => location.reload());
+</script>

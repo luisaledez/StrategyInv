@@ -1,0 +1,112 @@
+{
+ "ticker": "BF-B",
+ "fetched": "2026-09-14",
+ "market_cap": 12198906064.922218,
+ "shares_out": 458864265.0,
+ "price": 26.584999084472656,
+ "long_name": "Brown-Forman Corporation",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Beverages - Wineries & Distilleries",
+ "bs_date": "2026-07-31",
+ "cash": 301000000.0,
+ "total_debt": 2442000000.0,
+ "current_debt": 359000000.0,
+ "lease_obligations": null,
+ "equity": 3969000000.0,
+ "net_debt": 2141000000.0,
+ "ocf_ttm": 1013000000.0,
+ "capex_ttm": -88000000.0,
+ "fcf_ttm": 925000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -301000000.0,
+ "stock_issuance_ttm": -301000000.0,
+ "revenue_ttm": 3915000000.0,
+ "net_income_ttm": 721000000.0,
+ "ebitda_ttm": 1090000000.0,
+ "ebit_ttm": 997000000.0,
+ "interest_ttm": 103000000.0,
+ "revenue_yoy_last_q": -0.01406926406926412,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 911000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 912000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1056000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1036000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 924000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6026344676180022
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.6260964912280702
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.6060606060606061
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.5936293436293436
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.5974025974025974
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3928000000.0,
+   "net_income": 715000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3975000000.0,
+   "net_income": 869000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4178000000.0,
+   "net_income": 1024000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4228000000.0,
+   "net_income": 783000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.027885330637624217,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 359000000.0,
+ "gap_24m": 58000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.9642201834862385,
+ "interest_coverage": 9.679611650485437,
+ "cash_to_debt": 0.12325962325962327,
+ "ev": 14339906064.922218,
+ "ev_to_sales": 3.662811255407974,
+ "ev_to_ebitda": 13.15587712378185,
+ "pe_ttm": 16.919425887548154,
+ "p_fcf": 13.188006556672669,
+ "p_book": 3.073546501618095
+}

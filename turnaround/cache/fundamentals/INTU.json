@@ -1,0 +1,112 @@
+{
+ "ticker": "INTU",
+ "fetched": "2026-09-14",
+ "market_cap": 90242925492.43164,
+ "shares_out": 267236000.0,
+ "price": 337.69000244140625,
+ "long_name": "Intuit Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-07-31",
+ "cash": 7200000000.0,
+ "total_debt": 8421000000.0,
+ "current_debt": 1334000000.0,
+ "lease_obligations": 752000000.0,
+ "equity": 18992000000.0,
+ "net_debt": 1221000000.0,
+ "ocf_ttm": 8838000000.0,
+ "capex_ttm": -221000000.0,
+ "fcf_ttm": 8617000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5412000000.0,
+ "stock_issuance_ttm": -5412000000.0,
+ "revenue_ttm": 21448000000.0,
+ "net_income_ttm": 4566000000.0,
+ "ebitda_ttm": 7119000000.0,
+ "ebit_ttm": 6273000000.0,
+ "interest_ttm": 256000000.0,
+ "revenue_yoy_last_q": 0.13651788044896884,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 4354000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 8558000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 4651000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 3885000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 3831000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7811208084519982
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.8394484692685207
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7757471511502902
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.7727155727155727
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.7666405638214565
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 21448000000.0,
+   "net_income": 4566000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 18831000000.0,
+   "net_income": 3869000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16285000000.0,
+   "net_income": 2963000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14368000000.0,
+   "net_income": 2384000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.038494746156794934,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1334000000.0,
+ "gap_24m": -5866000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.17151285292878213,
+ "interest_coverage": 24.50390625,
+ "cash_to_debt": 0.8550053437833987,
+ "ev": 91463925492.43164,
+ "ev_to_sales": 4.264450088233478,
+ "ev_to_ebitda": 12.847861426103616,
+ "pe_ttm": 19.764109831894796,
+ "p_fcf": 10.472661656310972,
+ "p_book": 4.751628343114556
+}

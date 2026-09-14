@@ -1,0 +1,112 @@
+{
+ "ticker": "CHE",
+ "fetched": "2026-09-14",
+ "market_cap": 6708810821.754578,
+ "shares_out": 13069961.0,
+ "price": 513.2999877929688,
+ "long_name": "Chemed Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Care Facilities",
+ "bs_date": "2026-06-30",
+ "cash": 16856000.0,
+ "total_debt": 236934000.0,
+ "current_debt": 41286000.0,
+ "lease_obligations": 145734000.0,
+ "equity": 847994000.0,
+ "net_debt": 220078000.0,
+ "ocf_ttm": 443747000.0,
+ "capex_ttm": -66631000.0,
+ "fcf_ttm": 377116000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -588317000.0,
+ "stock_issuance_ttm": -588317000.0,
+ "revenue_ttm": 2540548000.0,
+ "net_income_ttm": 259783000.0,
+ "ebitda_ttm": 416574000.0,
+ "ebit_ttm": 350877000.0,
+ "interest_ttm": 1933000.0,
+ "revenue_yoy_last_q": 0.016338379115316215,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 657513000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 639337000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 624900000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 618798000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 646943000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.32815168673471096
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3521945390302767
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3151016162586014
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2984705832921244
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.33451633296905603
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2529978000.0,
+   "net_income": 265238000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2431287000.0,
+   "net_income": 301999000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2264417000.0,
+   "net_income": 272509000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2134963000.0,
+   "net_income": 249624000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.10305829212044304,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 41286000.0,
+ "gap_24m": 24430000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.52830469496416,
+ "interest_coverage": 181.51939989653388,
+ "cash_to_debt": 0.07114217461402754,
+ "ev": 6928888821.754578,
+ "ev_to_sales": 2.7273205708983173,
+ "ev_to_ebitda": 16.63303235860754,
+ "pe_ttm": 25.82467221394232,
+ "p_fcf": 17.789780390528584,
+ "p_book": 7.9113894930324715
+}

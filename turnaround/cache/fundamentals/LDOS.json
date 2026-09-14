@@ -1,0 +1,112 @@
+{
+ "ticker": "LDOS",
+ "fetched": "2026-09-14",
+ "market_cap": 16705522249.325073,
+ "shares_out": 125492209.0,
+ "price": 133.1199951171875,
+ "long_name": "Leidos Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "bs_date": "2026-06-30",
+ "cash": 748000000.0,
+ "total_debt": 6578000000.0,
+ "current_debt": 22000000.0,
+ "lease_obligations": 547000000.0,
+ "equity": 5284000000.0,
+ "net_debt": 5830000000.0,
+ "ocf_ttm": 2300000000.0,
+ "capex_ttm": -137000000.0,
+ "fcf_ttm": 2163000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -722000000.0,
+ "stock_issuance_ttm": -658000000.0,
+ "revenue_ttm": 17634000000.0,
+ "net_income_ttm": 1376000000.0,
+ "ebitda_ttm": 2318000000.0,
+ "ebit_ttm": 2016000000.0,
+ "interest_ttm": 223000000.0,
+ "revenue_yoy_last_q": 0.07171408417587588,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4558000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4400000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4207000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4469000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4253000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1792452830188679
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.17295454545454544
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1756596149275018
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.18371000223763706
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1838702092640489
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 17174000000.0,
+   "net_income": 1448000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16662000000.0,
+   "net_income": 1254000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 15438000000.0,
+   "net_income": 199000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 14396000000.0,
+   "net_income": 685000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.021855431990669527,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 22000000.0,
+ "gap_24m": -726000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.5150992234685075,
+ "interest_coverage": 9.040358744394618,
+ "cash_to_debt": 0.11371237458193979,
+ "ev": 22535522249.325073,
+ "ev_to_sales": 1.2779586168382144,
+ "ev_to_ebitda": 9.721968183487952,
+ "pe_ttm": 12.14064116956764,
+ "p_fcf": 7.723311257200681,
+ "p_book": 3.161529570273481
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "KHC",
+ "fetched": "2026-09-14",
+ "market_cap": 29076399088.987038,
+ "shares_out": 1185823758.0,
+ "price": 24.520000457763672,
+ "long_name": "The Kraft Heinz Company",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "bs_date": "2026-06-30",
+ "cash": 2681000000.0,
+ "total_debt": 19001000000.0,
+ "current_debt": 1382000000.0,
+ "lease_obligations": null,
+ "equity": 36006000000.0,
+ "net_debt": 16320000000.0,
+ "ocf_ttm": 4621000000.0,
+ "capex_ttm": -805000000.0,
+ "fcf_ttm": 3816000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -28000000.0,
+ "stock_issuance_ttm": -28000000.0,
+ "revenue_ttm": 24900000000.0,
+ "net_income_ttm": -3396000000.0,
+ "ebitda_ttm": 5351000000.0,
+ "ebit_ttm": 4349000000.0,
+ "interest_ttm": 954000000.0,
+ "revenue_yoy_last_q": -0.01416876574307302,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6262000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6047000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6354000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6237000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6352000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.32385819227084
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36695882255663964
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3260937991816179
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31906365239698575
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3436712846347607
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 24942000000.0,
+   "net_income": -5846000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 25846000000.0,
+   "net_income": 2744000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 26640000000.0,
+   "net_income": 2855000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 26485000000.0,
+   "net_income": 2363000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.003361344537815114,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1382000000.0,
+ "gap_24m": -1299000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.0498972154737434,
+ "interest_coverage": 4.558700209643606,
+ "cash_to_debt": 0.14109783695594968,
+ "ev": 45396399088.98704,
+ "ev_to_sales": 1.823148557790644,
+ "ev_to_ebitda": 8.48372249840909,
+ "pe_ttm": null,
+ "p_fcf": 7.619601438413794,
+ "p_book": 0.8075431619448713
+}

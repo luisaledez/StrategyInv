@@ -1,0 +1,91 @@
+{
+ "ticker": "EXPO",
+ "fetched": "2026-09-14",
+ "market_cap": 3276162859.9803467,
+ "shares_out": 47546084.0,
+ "price": 68.90499877929688,
+ "long_name": "Exponent, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "bs_date": "2026-06-30",
+ "cash": 66629000.0,
+ "total_debt": 80721000.0,
+ "current_debt": 6757000.0,
+ "lease_obligations": 80721000.0,
+ "equity": 288616000.0,
+ "net_debt": 14092000.0,
+ "ocf_ttm": 118148000.0,
+ "capex_ttm": -9590000.0,
+ "fcf_ttm": 108558000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -210553000.0,
+ "stock_issuance_ttm": -210553000.0,
+ "revenue_ttm": 632460000.0,
+ "net_income_ttm": 111770000.0,
+ "ebitda_ttm": 137843000.0,
+ "ebit_ttm": 127579000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.20885870866851697,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 171612000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 166303000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 147425000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 147120000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 141962000.0
+  }
+ ],
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 582014000.0,
+   "net_income": 106009000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 558514000.0,
+   "net_income": 109002000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 536766000.0,
+   "net_income": 100339000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 513293000.0,
+   "net_income": 102330000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.058829353292938924,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6757000.0,
+ "gap_24m": -59872000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.10223224973339234,
+ "interest_coverage": null,
+ "cash_to_debt": 0.8254233718611018,
+ "ev": 3290254859.9803467,
+ "ev_to_sales": 5.202312968377995,
+ "ev_to_ebitda": 23.869582495885513,
+ "pe_ttm": 29.31164766914509,
+ "p_fcf": 30.178916892171436,
+ "p_book": 11.351286345803235
+}

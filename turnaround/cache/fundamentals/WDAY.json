@@ -1,0 +1,112 @@
+{
+ "ticker": "WDAY",
+ "fetched": "2026-09-14",
+ "market_cap": 46160538970.947266,
+ "shares_out": 241000000.0,
+ "price": 191.53750610351562,
+ "long_name": "Workday, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-07-31",
+ "cash": 3403000000.0,
+ "total_debt": 3772000000.0,
+ "current_debt": 1129000000.0,
+ "lease_obligations": 783000000.0,
+ "equity": 6460000000.0,
+ "net_debt": 369000000.0,
+ "ocf_ttm": 3081000000.0,
+ "capex_ttm": -237000000.0,
+ "fcf_ttm": 2844000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5230000000.0,
+ "stock_issuance_ttm": -5230000000.0,
+ "revenue_ttm": 10155000000.0,
+ "net_income_ttm": 1251000000.0,
+ "ebitda_ttm": 1760000000.0,
+ "ebit_ttm": 1395000000.0,
+ "interest_ttm": 111000000.0,
+ "revenue_yoy_last_q": 0.12819420783645663,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2649000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2542000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2532000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2432000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2348000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7538693846734617
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.7623918174665618
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7586887835703001
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.7569901315789473
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.752129471890971
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 9552000000.0,
+   "net_income": 693000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 8446000000.0,
+   "net_income": 526000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7259000000.0,
+   "net_income": 1381000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6216000000.0,
+   "net_income": -367000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.09737827715355807,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1129000000.0,
+ "gap_24m": -2274000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.2096590909090909,
+ "interest_coverage": 12.567567567567568,
+ "cash_to_debt": 0.9021739130434783,
+ "ev": 46529538970.947266,
+ "ev_to_sales": 4.581933921314354,
+ "ev_to_ebitda": 26.437238051674584,
+ "pe_ttm": 36.89891204712011,
+ "p_fcf": 16.230850552372456,
+ "p_book": 7.145594267948493
+}

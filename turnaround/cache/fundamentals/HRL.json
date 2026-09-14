@@ -1,0 +1,112 @@
+{
+ "ticker": "HRL",
+ "fetched": "2026-09-14",
+ "market_cap": 11543608239.94217,
+ "shares_out": 550350800.0,
+ "price": 20.975000381469727,
+ "long_name": "Hormel Foods Corporation",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "bs_date": "2026-07-31",
+ "cash": 868446000.0,
+ "total_debt": 2855123000.0,
+ "current_debt": 505634000.0,
+ "lease_obligations": null,
+ "equity": 7843444000.0,
+ "net_debt": 1986677000.0,
+ "ocf_ttm": 1091658000.0,
+ "capex_ttm": -310789000.0,
+ "fcf_ttm": 780869000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 12146911000.0,
+ "net_income_ttm": 342711000.0,
+ "ebitda_ttm": 872412000.0,
+ "ebit_ttm": 600690000.0,
+ "interest_ttm": 78785000.0,
+ "revenue_yoy_last_q": -0.023589160915250096,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2961333000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2972600000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 3027317000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 3185661000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 3032876000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.15922390355964697
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.17442878288367086
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.15511259640136793
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.1396385239986301
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.1606755436094321
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 12106160000.0,
+   "net_income": 478197000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11920797000.0,
+   "net_income": 805038000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 12110010000.0,
+   "net_income": 793572000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 12458806000.0,
+   "net_income": 999987000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0006268218257610148,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 505634000.0,
+ "gap_24m": -362812000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.277223376111287,
+ "interest_coverage": 7.624420892301834,
+ "cash_to_debt": 0.3041711337830279,
+ "ev": 13530285239.94217,
+ "ev_to_sales": 1.1138869165948584,
+ "ev_to_ebitda": 15.509054483365851,
+ "pe_ttm": 33.68321483682219,
+ "p_fcf": 14.783027934188922,
+ "p_book": 1.4717524903527288
+}

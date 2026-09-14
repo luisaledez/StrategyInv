@@ -1,0 +1,112 @@
+{
+ "ticker": "INTC",
+ "fetched": "2026-09-14",
+ "market_cap": 511528649902.58545,
+ "shares_out": 5254526315.0,
+ "price": 97.35009765625,
+ "long_name": "Intel Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "bs_date": "2026-06-30",
+ "cash": 29727000000.0,
+ "total_debt": 50537000000.0,
+ "current_debt": 1988000000.0,
+ "lease_obligations": null,
+ "equity": 87542000000.0,
+ "net_debt": 20810000000.0,
+ "ocf_ttm": 14936000000.0,
+ "capex_ttm": -12105000000.0,
+ "fcf_ttm": 2831000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 57032000000.0,
+ "net_income_ttm": -11289000000.0,
+ "ebitda_ttm": 3676000000.0,
+ "ebit_ttm": -8703000000.0,
+ "interest_ttm": 1150000000.0,
+ "revenue_yoy_last_q": 0.25421883505715837,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 16128000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 13577000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 13674000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 13653000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 12859000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.40358382936507936
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.39382779700964865
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3614889571449466
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3821870651138944
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2754491017964072
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 52853000000.0,
+   "net_income": -267000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 53101000000.0,
+   "net_income": -18756000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 54228000000.0,
+   "net_income": 1689000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 63054000000.0,
+   "net_income": 8014000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.15215901302261825,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1988000000.0,
+ "gap_24m": -27739000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.661044613710555,
+ "interest_coverage": -7.567826086956522,
+ "cash_to_debt": 0.5882224904525397,
+ "ev": 532338649902.58545,
+ "ev_to_sales": 9.334034400031307,
+ "ev_to_ebitda": 144.81464904858146,
+ "pe_ttm": null,
+ "p_fcf": 180.6883256455618,
+ "p_book": 5.843236959431878
+}

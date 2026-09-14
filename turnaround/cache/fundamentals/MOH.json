@@ -1,0 +1,112 @@
+{
+ "ticker": "MOH",
+ "fetched": "2026-09-14",
+ "market_cap": 10837242031.860352,
+ "shares_out": 52200000.0,
+ "price": 207.61000061035156,
+ "long_name": "Molina Healthcare, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Healthcare Plans",
+ "bs_date": "2026-06-30",
+ "cash": 8915000000.0,
+ "total_debt": 3953000000.0,
+ "current_debt": null,
+ "lease_obligations": 184000000.0,
+ "equity": 4171000000.0,
+ "net_debt": -4962000000.0,
+ "ocf_ttm": 365000000.0,
+ "capex_ttm": -137000000.0,
+ "fcf_ttm": 271000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -500000000.0,
+ "stock_issuance_ttm": -500000000.0,
+ "revenue_ttm": 44522000000.0,
+ "net_income_ttm": -7000000.0,
+ "ebitda_ttm": 371000000.0,
+ "ebit_ttm": 203000000.0,
+ "interest_ttm": 209000000.0,
+ "revenue_yoy_last_q": -0.048394154196201966,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 10874000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 10796000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 11375000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 11477000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 11427000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08543314327754276
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.09466469062615783
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.061626373626373625
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.08077023612442276
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.10212654239957994
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 45426000000.0,
+   "net_income": 472000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 40650000000.0,
+   "net_income": 1179000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 34072000000.0,
+   "net_income": 1091000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 31974000000.0,
+   "net_income": 792000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03703703703703709,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -8915000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -13.374663072776281,
+ "interest_coverage": 0.9712918660287081,
+ "cash_to_debt": 2.2552491778396155,
+ "ev": 5875242031.860352,
+ "ev_to_sales": 0.13196267085621383,
+ "ev_to_ebitda": 15.836231891806877,
+ "pe_ttm": null,
+ "p_fcf": 39.989822995794654,
+ "p_book": 2.5982359222873055
+}

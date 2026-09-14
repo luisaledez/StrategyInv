@@ -1,0 +1,112 @@
+{
+ "ticker": "GDDY",
+ "fetched": "2026-09-14",
+ "market_cap": 12828146054.109436,
+ "shares_out": 126647704.0,
+ "price": 101.29000091552734,
+ "long_name": "GoDaddy Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "bs_date": "2026-06-30",
+ "cash": 1155500000.0,
+ "total_debt": 3841400000.0,
+ "current_debt": 15000000.0,
+ "lease_obligations": 67000000.0,
+ "equity": 6700000.0,
+ "net_debt": 2685900000.0,
+ "ocf_ttm": 1728800000.0,
+ "capex_ttm": -25900000.0,
+ "fcf_ttm": 1702900000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1633800000.0,
+ "stock_issuance_ttm": -1633800000.0,
+ "revenue_ttm": 5104100000.0,
+ "net_income_ttm": 910300000.0,
+ "ebitda_ttm": 1403200000.0,
+ "ebit_ttm": 1310500000.0,
+ "interest_ttm": 150700000.0,
+ "revenue_yoy_last_q": 0.06603153745072277,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1298000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1266900000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1273900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1265300000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1217600000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6380585516178736
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6376193859025969
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6464400659392417
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.629890144629732
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6367444152431012
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4951100000.0,
+   "net_income": 875000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4573200000.0,
+   "net_income": 936900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4254100000.0,
+   "net_income": 1374800000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4091300000.0,
+   "net_income": 352200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.08662494689010036,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 15000000.0,
+ "gap_24m": -1140500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.9141248574686431,
+ "interest_coverage": 8.69608493696085,
+ "cash_to_debt": 0.3008017910136929,
+ "ev": 15514046054.109436,
+ "ev_to_sales": 3.0395262738013433,
+ "ev_to_ebitda": 11.05619017539156,
+ "pe_ttm": 14.092218009567654,
+ "p_fcf": 7.533117654653495,
+ "p_book": 1914.6486647924532
+}

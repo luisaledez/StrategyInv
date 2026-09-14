@@ -1,0 +1,112 @@
+{
+ "ticker": "MZTI",
+ "fetched": "2026-09-14",
+ "market_cap": 2884112888.3285522,
+ "shares_out": 27291000.0,
+ "price": 105.68000030517578,
+ "long_name": "The Marzetti Company",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "bs_date": "2026-06-30",
+ "cash": 25096000.0,
+ "total_debt": 253781000.0,
+ "current_debt": 21309000.0,
+ "lease_obligations": 54505000.0,
+ "equity": 1053150000.0,
+ "net_debt": 228685000.0,
+ "ocf_ttm": 302485000.0,
+ "capex_ttm": -76337000.0,
+ "fcf_ttm": 226148000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -41603000.0,
+ "stock_issuance_ttm": -41603000.0,
+ "revenue_ttm": 1911778000.0,
+ "net_income_ttm": 176953000.0,
+ "ebitda_ttm": 299196000.0,
+ "ebit_ttm": 227347000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.015713050087804437,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 465030000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 453368000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 517953000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 475427000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 457836000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2451304216932241
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.23648779799191827
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.26500473981229955
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.22315097796296804
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.23144095265553605
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1929823000.0,
+   "net_income": 191606000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1909122000.0,
+   "net_income": 167347000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1871759000.0,
+   "net_income": 158613000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1822527000.0,
+   "net_income": 111286000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.010079615563899136,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 21309000.0,
+ "gap_24m": -3787000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7643317424029733,
+ "interest_coverage": null,
+ "cash_to_debt": 0.09888841166202356,
+ "ev": 3112797888.3285522,
+ "ev_to_sales": 1.6282214191859894,
+ "ev_to_ebitda": 10.403875347025203,
+ "pe_ttm": 16.298751014837567,
+ "p_fcf": 12.753209793270567,
+ "p_book": 2.738558503848979
+}

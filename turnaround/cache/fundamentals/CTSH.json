@@ -1,0 +1,112 @@
+{
+ "ticker": "CTSH",
+ "fetched": "2026-09-14",
+ "market_cap": 28292401385.880985,
+ "shares_out": 450444209.0,
+ "price": 62.810001373291016,
+ "long_name": "Cognizant Technology Solutions Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "bs_date": "2026-06-30",
+ "cash": 1051000000.0,
+ "total_debt": 2094000000.0,
+ "current_debt": 178000000.0,
+ "lease_obligations": 534000000.0,
+ "equity": 14462000000.0,
+ "net_debt": 1043000000.0,
+ "ocf_ttm": 2917000000.0,
+ "capex_ttm": -319000000.0,
+ "fcf_ttm": 2598000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2408000000.0,
+ "stock_issuance_ttm": -2408000000.0,
+ "revenue_ttm": 21642000000.0,
+ "net_income_ttm": 2220000000.0,
+ "ebitda_ttm": 4102000000.0,
+ "ebit_ttm": 3543000000.0,
+ "interest_ttm": 36000000.0,
+ "revenue_yoy_last_q": 0.04499523355576729,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5481000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5413000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5333000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5415000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5245000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3336982302499544
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3279142804359874
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3373335833489593
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3386888273314866
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3367016205910391
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 21108000000.0,
+   "net_income": 2230000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19736000000.0,
+   "net_income": 2240000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 19353000000.0,
+   "net_income": 2126000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 19428000000.0,
+   "net_income": 2290000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07566462167689159,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 178000000.0,
+ "gap_24m": -873000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.25426621160409557,
+ "interest_coverage": 98.41666666666667,
+ "cash_to_debt": 0.5019102196752626,
+ "ev": 29335401385.880985,
+ "ev_to_sales": 1.355484769701552,
+ "ev_to_ebitda": 7.151487417328373,
+ "pe_ttm": 12.744324948595038,
+ "p_fcf": 10.890069817506152,
+ "p_book": 1.9563270215655502
+}

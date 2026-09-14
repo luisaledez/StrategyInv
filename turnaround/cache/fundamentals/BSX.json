@@ -1,0 +1,112 @@
+{
+ "ticker": "BSX",
+ "fetched": "2026-09-14",
+ "market_cap": 63968990393.100494,
+ "shares_out": 1449229526.0,
+ "price": 44.13999938964844,
+ "long_name": "Boston Scientific Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "bs_date": "2026-06-30",
+ "cash": 539000000.0,
+ "total_debt": 12624000000.0,
+ "current_debt": 1709000000.0,
+ "lease_obligations": 124000000.0,
+ "equity": 24930000000.0,
+ "net_debt": 12085000000.0,
+ "ocf_ttm": 4529000000.0,
+ "capex_ttm": -2723000000.0,
+ "fcf_ttm": 1806000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 20996000000.0,
+ "net_income_ttm": 3675000000.0,
+ "ebitda_ttm": 5637000000.0,
+ "ebit_ttm": 4224000000.0,
+ "interest_ttm": 363000000.0,
+ "revenue_yoy_last_q": 0.07528156490812088,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5442000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5203000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5286000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5065000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5061000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.707092980521867
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6944070728425908
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.695800227014756
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6993089832181638
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.67654613712705
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 20074000000.0,
+   "net_income": 2898000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16747000000.0,
+   "net_income": 1854000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14240000000.0,
+   "net_income": 1593000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 12682000000.0,
+   "net_income": 698000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.022722660543792128,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1709000000.0,
+ "gap_24m": 1170000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.1438708532907573,
+ "interest_coverage": 11.636363636363637,
+ "cash_to_debt": 0.04269645120405577,
+ "ev": 76053990393.1005,
+ "ev_to_sales": 3.6223085536816773,
+ "ev_to_ebitda": 13.491926626414847,
+ "pe_ttm": 17.406527998122584,
+ "p_fcf": 35.42026046129595,
+ "p_book": 2.565944259651043
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "CNC",
+ "fetched": "2026-09-14",
+ "market_cap": 33631180504.53186,
+ "shares_out": 493995000.0,
+ "price": 68.08000183105469,
+ "long_name": "Centene Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Healthcare Plans",
+ "bs_date": "2026-06-30",
+ "cash": 27057000000.0,
+ "total_debt": 16105000000.0,
+ "current_debt": 75000000.0,
+ "lease_obligations": 761000000.0,
+ "equity": 22562000000.0,
+ "net_debt": -10952000000.0,
+ "ocf_ttm": 9749000000.0,
+ "capex_ttm": -798000000.0,
+ "fcf_ttm": 8951000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -35000000.0,
+ "stock_issuance_ttm": 2000000.0,
+ "revenue_ttm": 202938000000.0,
+ "net_income_ttm": -5100000000.0,
+ "ebitda_ttm": -2731000000.0,
+ "ebit_ttm": -3977000000.0,
+ "interest_ttm": 655000000.0,
+ "revenue_yoy_last_q": 0.09923679783349071,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 53579000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 49944000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 49725000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 49690000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 48742000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08587319658821553
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1112846387954509
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.04961287078934138
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06542563896156169
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.06046120388986911
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 194777000000.0,
+   "net_income": -6674000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 163071000000.0,
+   "net_income": 3305000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 153999000000.0,
+   "net_income": 2702000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 144547000000.0,
+   "net_income": 1202000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.005821293023407392,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 75000000.0,
+ "gap_24m": -26982000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.010252654705236,
+ "interest_coverage": -6.071755725190839,
+ "cash_to_debt": 1.680037255510711,
+ "ev": 22679180504.53186,
+ "ev_to_sales": 0.11175423284220727,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "p_fcf": 3.757253994473451,
+ "p_book": 1.4906116702655732
+}

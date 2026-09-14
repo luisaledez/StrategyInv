@@ -1,0 +1,112 @@
+{
+ "ticker": "PTC",
+ "fetched": "2026-09-14",
+ "market_cap": 14636952541.183762,
+ "shares_out": 108506261.0,
+ "price": 134.89500427246094,
+ "long_name": "PTC Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-06-30",
+ "cash": 351454000.0,
+ "total_debt": 1607694000.0,
+ "current_debt": 49144000.0,
+ "lease_obligations": 184379000.0,
+ "equity": 3469743000.0,
+ "net_debt": 1256240000.0,
+ "ocf_ttm": 955321000.0,
+ "capex_ttm": -19837000.0,
+ "fcf_ttm": 935484000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1401201000.0,
+ "stock_issuance_ttm": -1375284000.0,
+ "revenue_ttm": 2953972000.0,
+ "net_income_ttm": 1223814000.0,
+ "ebitda_ttm": 1729689000.0,
+ "ebit_ttm": 1595632000.0,
+ "interest_ttm": 65320000.0,
+ "revenue_yoy_last_q": -0.06815573573191169,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 600049000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 774303000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 685825000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 893795000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 643937000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8173749143819922
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8532641614458423
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8283148033390442
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8692105012894455
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8291370118505381
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2739226000.0,
+   "net_income": 733997000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2298472000.0,
+   "net_income": 376333000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2097053000.0,
+   "net_income": 245540000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1933347000.0,
+   "net_income": 313081000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07574087987311129,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 49144000.0,
+ "gap_24m": -302310000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7262808516444286,
+ "interest_coverage": 24.427924066135947,
+ "cash_to_debt": 0.21860752108299217,
+ "ev": 15893192541.183762,
+ "ev_to_sales": 5.380278669257448,
+ "ev_to_ebitda": 9.188468297586306,
+ "pe_ttm": 11.960112027794878,
+ "p_fcf": 15.646395385900519,
+ "p_book": 4.2184543757805
+}

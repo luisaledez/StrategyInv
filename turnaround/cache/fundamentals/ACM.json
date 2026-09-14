@@ -1,0 +1,112 @@
+{
+ "ticker": "ACM",
+ "fetched": "2026-09-14",
+ "market_cap": 8272606041.899872,
+ "shares_out": 128696425.0,
+ "price": 64.27999877929688,
+ "long_name": "AECOM",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "bs_date": "2026-06-30",
+ "cash": 1012932000.0,
+ "total_debt": 3202597000.0,
+ "current_debt": 62810000.0,
+ "lease_obligations": 487799000.0,
+ "equity": 2193260000.0,
+ "net_debt": 2189665000.0,
+ "ocf_ttm": 365364000.0,
+ "capex_ttm": -161915000.0,
+ "fcf_ttm": 203449000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -691918000.0,
+ "stock_issuance_ttm": -643703000.0,
+ "revenue_ttm": 15393461000.0,
+ "net_income_ttm": 288040000.0,
+ "ebitda_ttm": 938339000.0,
+ "ebit_ttm": 723353000.0,
+ "interest_ttm": 202344000.0,
+ "revenue_yoy_last_q": -0.14176893768966403,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3586067000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3801143000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3830834000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4175417000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4178440000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.00949285108170037
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.07800285335226799
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.07334956304554048
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.07917724145875729
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.07824690554369573
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 16139622000.0,
+   "net_income": 561774000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16105498000.0,
+   "net_income": 402266000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14378461000.0,
+   "net_income": 55332000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 13148182000.0,
+   "net_income": 310611000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.027378383521178162,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 62810000.0,
+ "gap_24m": -950122000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.3335542911463767,
+ "interest_coverage": 3.574867552287194,
+ "cash_to_debt": 0.3162845653074677,
+ "ev": 10462271041.899872,
+ "ev_to_sales": 0.6796568388291543,
+ "ev_to_ebitda": 11.149777470508923,
+ "pe_ttm": 28.720337598596974,
+ "p_fcf": 40.66181717236198,
+ "p_book": 3.7718309921759716
+}

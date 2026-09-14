@@ -1,0 +1,112 @@
+{
+ "ticker": "TTD",
+ "fetched": "2026-09-14",
+ "market_cap": 6775672433.329014,
+ "shares_out": 469880194.0,
+ "price": 14.420000076293945,
+ "long_name": "The Trade Desk, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Advertising Agencies",
+ "bs_date": "2026-06-30",
+ "cash": 1485333000.0,
+ "total_debt": 434110000.0,
+ "current_debt": 80922000.0,
+ "lease_obligations": 434110000.0,
+ "equity": 2574352000.0,
+ "net_debt": -1051223000.0,
+ "ocf_ttm": 1081674000.0,
+ "capex_ttm": -233037000.0,
+ "fcf_ttm": 848637000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -974660000.0,
+ "stock_issuance_ttm": -974660000.0,
+ "revenue_ttm": 2990138000.0,
+ "net_income_ttm": 406888000.0,
+ "ebitda_ttm": 725666000.0,
+ "ebit_ttm": 599000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.030283600777477826,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 715057000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 688857000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 846791000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 739433000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 694039000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7422121593103767
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7358377718452451
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8073975750805098
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7807049455461144
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.782461792492929
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2896284000.0,
+   "net_income": 443304000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2444831000.0,
+   "net_income": 393076000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1946120000.0,
+   "net_income": 178940000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1577795000.0,
+   "net_income": 53385000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04135114773388138,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 80922000.0,
+ "gap_24m": -1404411000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.4486320152797567,
+ "interest_coverage": null,
+ "cash_to_debt": 3.421559051853217,
+ "ev": 5724449433.329014,
+ "ev_to_sales": 1.9144432241351448,
+ "ev_to_ebitda": 7.888545740504604,
+ "pe_ttm": 16.652426302395288,
+ "p_fcf": 7.98418220432177,
+ "p_book": 2.631991442246054
+}

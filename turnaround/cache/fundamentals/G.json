@@ -1,0 +1,112 @@
+{
+ "ticker": "G",
+ "fetched": "2026-09-14",
+ "market_cap": 6150059039.799843,
+ "shares_out": 168034407.0,
+ "price": 36.599998474121094,
+ "long_name": "Genpact Limited",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "bs_date": "2026-06-30",
+ "cash": 517387000.0,
+ "total_debt": 1414616000.0,
+ "current_debt": 97576000.0,
+ "lease_obligations": 234359000.0,
+ "equity": 2604797000.0,
+ "net_debt": 897229000.0,
+ "ocf_ttm": 643963000.0,
+ "capex_ttm": -95289000.0,
+ "fcf_ttm": 548674000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -310056000.0,
+ "stock_issuance_ttm": -310056000.0,
+ "revenue_ttm": 5250045000.0,
+ "net_income_ttm": 582654000.0,
+ "ebitda_ttm": 936141000.0,
+ "ebit_ttm": 842509000.0,
+ "interest_ttm": 79446000.0,
+ "revenue_yoy_last_q": 0.0709651806654561,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1343438000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1296072000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1319278000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1291257000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1254418000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.36498744266575756
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36392114018357
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3655742004338737
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3637200030667791
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.35878630568120035
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5079879000.0,
+   "net_income": 552494000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4767139000.0,
+   "net_income": 513670000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4476888000.0,
+   "net_income": 631255000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4371172000.0,
+   "net_income": 353404000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0357837191092385,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 97576000.0,
+ "gap_24m": -419811000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9584336120306663,
+ "interest_coverage": 10.604800745160235,
+ "cash_to_debt": 0.3657437778167361,
+ "ev": 7047288039.799843,
+ "ev_to_sales": 1.3423290733317224,
+ "ev_to_ebitda": 7.528019860042283,
+ "pe_ttm": 10.555250697326102,
+ "p_fcf": 11.20894928463868,
+ "p_book": 2.3610511835662598
+}

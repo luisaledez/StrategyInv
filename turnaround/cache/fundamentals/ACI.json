@@ -1,0 +1,112 @@
+{
+ "ticker": "ACI",
+ "fetched": "2026-09-14",
+ "market_cap": 6085984046.306294,
+ "shares_out": 485325683.0,
+ "price": 12.539999961853027,
+ "long_name": "Albertsons Companies, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Grocery Stores",
+ "bs_date": "2026-05-31",
+ "cash": 293400000.0,
+ "total_debt": 15701000000.0,
+ "current_debt": 1485900000.0,
+ "lease_obligations": 6538200000.0,
+ "equity": 1612700000.0,
+ "net_debt": 15407600000.0,
+ "ocf_ttm": 2341200000.0,
+ "capex_ttm": -1776900000.0,
+ "fcf_ttm": 564300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1388300000.0,
+ "stock_issuance_ttm": -1388300000.0,
+ "revenue_ttm": 83233300000.0,
+ "net_income_ttm": 65700000.0,
+ "ebitda_ttm": 3250900000.0,
+ "ebit_ttm": 584000000.0,
+ "interest_ttm": 513900000.0,
+ "revenue_yoy_last_q": 0.002443651329539165,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 24941600000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 20252200000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 19123700000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 18915800000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 24880800000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.2661457163934952
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.27221733935078657
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.2744657153165967
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.2699647913384578
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.27082328542490597
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 83172500000.0,
+   "net_income": 217400000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 80390900000.0,
+   "net_income": 958600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 79237700000.0,
+   "net_income": 1296000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 77649700000.0,
+   "net_income": 1513500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.13158386855085713,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1485900000.0,
+ "gap_24m": 1192500000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.739487526531114,
+ "interest_coverage": 1.1364078614516442,
+ "cash_to_debt": 0.018686707853002995,
+ "ev": 21493584046.306293,
+ "ev_to_sales": 0.2582329914385984,
+ "ev_to_ebitda": 6.6115795768268155,
+ "pe_ttm": 92.6329382999436,
+ "p_fcf": 10.78501514496951,
+ "p_book": 3.7737856056962205
+}

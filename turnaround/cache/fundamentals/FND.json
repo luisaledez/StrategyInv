@@ -1,0 +1,112 @@
+{
+ "ticker": "FND",
+ "fetched": "2026-09-14",
+ "market_cap": 5060403185.547237,
+ "shares_out": 106489965.0,
+ "price": 47.52000045776367,
+ "long_name": "Floor & Decor Holdings, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Home Improvement Retail",
+ "bs_date": "2026-06-30",
+ "cash": 320614000.0,
+ "total_debt": 2012794000.0,
+ "current_debt": 164663000.0,
+ "lease_obligations": 1817466000.0,
+ "equity": 2495874000.0,
+ "net_debt": 1692180000.0,
+ "ocf_ttm": 505007000.0,
+ "capex_ttm": -293610000.0,
+ "fcf_ttm": 211397000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4711746000.0,
+ "net_income_ttm": 232170000.0,
+ "ebitda_ttm": 560734000.0,
+ "ebit_ttm": 314581000.0,
+ "interest_ttm": 15222000.0,
+ "revenue_yoy_last_q": 0.02974920726434127,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1250270000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1152278000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1129671000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1179527000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1214150000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.48239100354323466
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4403893852004464
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.43472480040649003
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4340349987749327
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.43873327018902114
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4684088000.0,
+   "net_income": 208647000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4455770000.0,
+   "net_income": 205872000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4413884000.0,
+   "net_income": 245980000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4264473000.0,
+   "net_income": 298195000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.006981673953624479,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 164663000.0,
+ "gap_24m": -155951000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.0177945335934684,
+ "interest_coverage": 20.666206805938774,
+ "cash_to_debt": 0.15928803444366388,
+ "ev": 6752583185.547237,
+ "ev_to_sales": 1.433138200902009,
+ "ev_to_ebitda": 12.04240011404202,
+ "pe_ttm": 21.796111407792726,
+ "p_fcf": 23.937913903921235,
+ "p_book": 2.0275074725515942
+}

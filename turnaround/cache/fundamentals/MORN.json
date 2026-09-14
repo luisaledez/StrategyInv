@@ -1,0 +1,112 @@
+{
+ "ticker": "MORN",
+ "fetched": "2026-09-14",
+ "market_cap": 7504964922.674133,
+ "shares_out": 37513571.0,
+ "price": 200.05999755859375,
+ "long_name": "Morningstar, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Financial Data & Stock Exchanges",
+ "bs_date": "2026-06-30",
+ "cash": 523800000.0,
+ "total_debt": 1904800000.0,
+ "current_debt": 60000000.0,
+ "lease_obligations": 191500000.0,
+ "equity": 1023800000.0,
+ "net_debt": 1381000000.0,
+ "ocf_ttm": 646900000.0,
+ "capex_ttm": -149400000.0,
+ "fcf_ttm": 497500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -965400000.0,
+ "stock_issuance_ttm": -965400000.0,
+ "revenue_ttm": 2566500000.0,
+ "net_income_ttm": 421600000.0,
+ "ebitda_ttm": 817600000.0,
+ "ebit_ttm": 618300000.0,
+ "interest_ttm": 55500000.0,
+ "revenue_yoy_last_q": 0.09601718724177832,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 663200000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 644800000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 641100000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 617400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 605100000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6391737032569361
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6294975186104218
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6112930900015598
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6085195983155167
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6189059659560403
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2445500000.0,
+   "net_income": 374200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2275100000.0,
+   "net_income": 369900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2038600000.0,
+   "net_income": 141100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1870600000.0,
+   "net_income": 70500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.11056816590309415,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 60000000.0,
+ "gap_24m": -463800000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.6890900195694716,
+ "interest_coverage": 11.14054054054054,
+ "cash_to_debt": 0.2749895002099958,
+ "ev": 8885964922.674133,
+ "ev_to_sales": 3.4622890795535293,
+ "ev_to_ebitda": 10.868352400530984,
+ "pe_ttm": 17.801150196096142,
+ "p_fcf": 15.08535662849072,
+ "p_book": 7.330499045393762
+}

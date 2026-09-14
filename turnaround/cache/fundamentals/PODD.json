@@ -1,0 +1,112 @@
+{
+ "ticker": "PODD",
+ "fetched": "2026-09-14",
+ "market_cap": 9235551444.200119,
+ "shares_out": 69354199.0,
+ "price": 133.1649932861328,
+ "long_name": "Insulet Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "bs_date": "2026-06-30",
+ "cash": 534900000.0,
+ "total_debt": 948400000.0,
+ "current_debt": 18900000.0,
+ "lease_obligations": null,
+ "equity": 1422200000.0,
+ "net_debt": 413500000.0,
+ "ocf_ttm": 511200000.0,
+ "capex_ttm": -245600000.0,
+ "fcf_ttm": 265600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -329500000.0,
+ "stock_issuance_ttm": -329500000.0,
+ "revenue_ttm": 3053500000.0,
+ "net_income_ttm": 375300000.0,
+ "ebitda_ttm": 652700000.0,
+ "ebit_ttm": 553400000.0,
+ "interest_ttm": 58700000.0,
+ "revenue_yoy_last_q": 0.23509474657217688,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 801700000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 761700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 783800000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 706300000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 649100000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7017587626294125
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6946304319285808
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.725440163306966
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7222143565057341
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6966569095670929
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2708100000.0,
+   "net_income": 247100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2071600000.0,
+   "net_income": 418300000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1697100000.0,
+   "net_income": 206300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1305300000.0,
+   "net_income": 4600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.014769378428722946,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 18900000.0,
+ "gap_24m": -516000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.6335222920177723,
+ "interest_coverage": 9.427597955706984,
+ "cash_to_debt": 0.5640025305778152,
+ "ev": 9649051444.200119,
+ "ev_to_sales": 3.159997198035081,
+ "ev_to_ebitda": 14.783287029569664,
+ "pe_ttm": 24.608450424194295,
+ "p_fcf": 34.772407545934186,
+ "p_book": 6.493848575587203
+}

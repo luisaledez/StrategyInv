@@ -1,0 +1,112 @@
+{
+ "ticker": "QLYS",
+ "fetched": "2026-09-14",
+ "market_cap": 5685688625.501129,
+ "shares_out": 34595001.0,
+ "price": 164.35000610351562,
+ "long_name": "Qualys, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "bs_date": "2026-06-30",
+ "cash": 426294000.0,
+ "total_debt": 53399000.0,
+ "current_debt": 8554000.0,
+ "lease_obligations": 53399000.0,
+ "equity": 562223000.0,
+ "net_debt": -372895000.0,
+ "ocf_ttm": 320949000.0,
+ "capex_ttm": -6992000.0,
+ "fcf_ttm": 313957000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -225268000.0,
+ "stock_issuance_ttm": -225268000.0,
+ "revenue_ttm": 702977000.0,
+ "net_income_ttm": 206544000.0,
+ "ebitda_ttm": 254018000.0,
+ "ebit_ttm": 241577000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.11040338408650396,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 182175000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 175638000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 175282000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 169882000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 164062000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8339838067791958
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8292510732301666
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8335995709770542
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8363687736193358
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8239872731040704
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 669125000.0,
+   "net_income": 198320000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 607571000.0,
+   "net_income": 173680000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 554458000.0,
+   "net_income": 151595000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 489723000.0,
+   "net_income": 107992000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04799714270014832,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8554000.0,
+ "gap_24m": -417740000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.4679865206402696,
+ "interest_coverage": null,
+ "cash_to_debt": 7.983183205678009,
+ "ev": 5312793625.501129,
+ "ev_to_sales": 7.557563939504606,
+ "ev_to_ebitda": 20.91502816926804,
+ "pe_ttm": 27.527735618082,
+ "p_fcf": 18.10976861640648,
+ "p_book": 10.112870916880187
+}

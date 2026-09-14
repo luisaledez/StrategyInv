@@ -1,0 +1,112 @@
+{
+ "ticker": "PPC",
+ "fetched": "2026-09-14",
+ "market_cap": 7276596366.276329,
+ "shares_out": 238108524.0,
+ "price": 30.559999465942383,
+ "long_name": "Pilgrim's Pride Corporation",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "bs_date": "2026-06-30",
+ "cash": 388843000.0,
+ "total_debt": 3112965000.0,
+ "current_debt": 61782000.0,
+ "lease_obligations": 250693000.0,
+ "equity": 3749847000.0,
+ "net_debt": 2724122000.0,
+ "ocf_ttm": 1221393000.0,
+ "capex_ttm": -916972000.0,
+ "fcf_ttm": 304421000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 18436042000.0,
+ "net_income_ttm": 545606000.0,
+ "ebitda_ttm": 1434530000.0,
+ "ebit_ttm": 954608000.0,
+ "interest_ttm": 164882000.0,
+ "revenue_yoy_last_q": -0.02756462873880816,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4626230000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4532633000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4517837000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4759342000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4757365000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.07344036072568809
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.07622280471416945
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0948664150565857
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13854520225695063
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.15035529121688163
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 18497553000.0,
+   "net_income": 1082359000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 17878291000.0,
+   "net_income": 1086438000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17362217000.0,
+   "net_income": 321574000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 17468377000.0,
+   "net_income": 745930000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.003069666651188019,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 61782000.0,
+ "gap_24m": -327061000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.8989648177451848,
+ "interest_coverage": 5.78964350262612,
+ "cash_to_debt": 0.12491081653664593,
+ "ev": 10000718366.276329,
+ "ev_to_sales": 0.542454739812175,
+ "ev_to_ebitda": 6.971425042540992,
+ "pe_ttm": 13.336723507945896,
+ "p_fcf": 23.903069651161807,
+ "p_book": 1.9405048702723948
+}

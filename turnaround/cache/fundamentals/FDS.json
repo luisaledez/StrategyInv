@@ -1,0 +1,112 @@
+{
+ "ticker": "FDS",
+ "fetched": "2026-09-14",
+ "market_cap": 9912454819.63742,
+ "shares_out": 35565543.0,
+ "price": 278.7095031738281,
+ "long_name": "FactSet Research Systems Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Financial Data & Stock Exchanges",
+ "bs_date": "2026-05-31",
+ "cash": 304236000.0,
+ "total_debt": 1570642000.0,
+ "current_debt": 533122000.0,
+ "lease_obligations": 180941000.0,
+ "equity": 2032290000.0,
+ "net_debt": 1266406000.0,
+ "ocf_ttm": 829592000.0,
+ "capex_ttm": -121285000.0,
+ "fcf_ttm": 708307000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -612619000.0,
+ "stock_issuance_ttm": -612619000.0,
+ "revenue_ttm": 2438459000.0,
+ "net_income_ttm": 565970000.0,
+ "ebitda_ttm": 955994000.0,
+ "ebit_ttm": 747468000.0,
+ "interest_ttm": 53172000.0,
+ "revenue_yoy_last_q": 0.06387143052329547,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 622918000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 611019000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 607621000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 596901000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 585520000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.49882649080617353
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.5143489809645854
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.5261585758227579
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.5163854642562167
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.5205475474791639
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2321748000.0,
+   "net_income": 597040000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2203056000.0,
+   "net_income": 537126000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2085508000.0,
+   "net_income": 468173000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1843892000.0,
+   "net_income": 396917000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.054971728224752936,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 533122000.0,
+ "gap_24m": 228886000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.3247007826408952,
+ "interest_coverage": 14.057549085985105,
+ "cash_to_debt": 0.19370168377007618,
+ "ev": 11178860819.63742,
+ "ev_to_sales": 4.584395644805765,
+ "ev_to_ebitda": 11.693442448004298,
+ "pe_ttm": 17.514099368583885,
+ "p_fcf": 13.994574131891143,
+ "p_book": 4.877480487350438
+}

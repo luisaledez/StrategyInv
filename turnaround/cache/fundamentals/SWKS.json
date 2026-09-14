@@ -1,0 +1,112 @@
+{
+ "ticker": "SWKS",
+ "fetched": "2026-09-14",
+ "market_cap": 12585543394.638702,
+ "shares_out": 150472782.0,
+ "price": 83.63999938964844,
+ "long_name": "Skyworks Solutions, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "bs_date": "2026-06-30",
+ "cash": 799200000.0,
+ "total_debt": 681100000.0,
+ "current_debt": 36300000.0,
+ "lease_obligations": 184200000.0,
+ "equity": 5738300000.0,
+ "net_debt": -118100000.0,
+ "ocf_ttm": 716200000.0,
+ "capex_ttm": -307600000.0,
+ "fcf_ttm": 408600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -50100000.0,
+ "stock_issuance_ttm": -50100000.0,
+ "revenue_ttm": 4014100000.0,
+ "net_income_ttm": 290100000.0,
+ "ebitda_ttm": 815900000.0,
+ "ebit_ttm": 352500000.0,
+ "interest_ttm": 26600000.0,
+ "revenue_yoy_last_q": -0.0312953367875648,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 934800000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 943700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1035400000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1100200000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 965000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4011553273427471
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.40828653173678076
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4125941665056983
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.40674422832212326
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4155440414507772
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4086900000.0,
+   "net_income": 477100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4178000000.0,
+   "net_income": 596000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4772400000.0,
+   "net_income": 982800000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5485500000.0,
+   "net_income": 1275200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.014150943396226356,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 36300000.0,
+ "gap_24m": -762900000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.14474813089839442,
+ "interest_coverage": 13.25187969924812,
+ "cash_to_debt": 1.1733959770958744,
+ "ev": 12467443394.638702,
+ "ev_to_sales": 3.105912507072246,
+ "ev_to_ebitda": 15.280602273120115,
+ "pe_ttm": 43.38346568300139,
+ "p_fcf": 30.80162357963461,
+ "p_book": 2.1932529485455103
+}

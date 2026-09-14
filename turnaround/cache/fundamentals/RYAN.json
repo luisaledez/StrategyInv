@@ -1,0 +1,91 @@
+{
+ "ticker": "RYAN",
+ "fetched": "2026-09-14",
+ "market_cap": 4751263938.3090515,
+ "shares_out": 122077702.0,
+ "price": 38.91999816894531,
+ "long_name": "Ryan Specialty Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "bs_date": "2026-06-30",
+ "cash": 140119000.0,
+ "total_debt": 3807566000.0,
+ "current_debt": 90372000.0,
+ "lease_obligations": 174411000.0,
+ "equity": 509414000.0,
+ "net_debt": 3667447000.0,
+ "ocf_ttm": 558525000.0,
+ "capex_ttm": -61839000.0,
+ "fcf_ttm": 496686000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -303748000.0,
+ "stock_issuance_ttm": -300182000.0,
+ "revenue_ttm": 3217666000.0,
+ "net_income_ttm": 99026000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 502172000.0,
+ "interest_ttm": 219924000.0,
+ "revenue_yoy_last_q": 0.0718886303308115,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 916647000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 795229000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 751213000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 754577000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 855170000.0
+  }
+ ],
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3051126000.0,
+   "net_income": 63399000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2515710000.0,
+   "net_income": 94665000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2077549000.0,
+   "net_income": 61037000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1725193000.0,
+   "net_income": 61052000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04466607984357884,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 90372000.0,
+ "gap_24m": -49747000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 2.283388807042433,
+ "cash_to_debt": 0.036800150017097535,
+ "ev": 8418710938.3090515,
+ "ev_to_sales": 2.616402988473338,
+ "ev_to_ebitda": null,
+ "pe_ttm": 47.979964234736855,
+ "p_fcf": 9.565930866400606,
+ "p_book": 9.32692061527373
+}

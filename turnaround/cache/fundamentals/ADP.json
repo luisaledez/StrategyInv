@@ -1,0 +1,112 @@
+{
+ "ticker": "ADP",
+ "fetched": "2026-09-14",
+ "market_cap": 108420951516.37851,
+ "shares_out": 397262737.0,
+ "price": 272.9200134277344,
+ "long_name": "Automatic Data Processing, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-06-30",
+ "cash": 4230100000.0,
+ "total_debt": 5270800000.0,
+ "current_debt": 5208000000.0,
+ "lease_obligations": 306700000.0,
+ "equity": 6031200000.0,
+ "net_debt": 1040700000.0,
+ "ocf_ttm": 5441200000.0,
+ "capex_ttm": -665100000.0,
+ "fcf_ttm": 4776100000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2083300000.0,
+ "stock_issuance_ttm": -2083300000.0,
+ "revenue_ttm": 21947500000.0,
+ "net_income_ttm": 4413400000.0,
+ "ebitda_ttm": 6775400000.0,
+ "ebit_ttm": 6189500000.0,
+ "interest_ttm": 459200000.0,
+ "revenue_yoy_last_q": 0.06768354529140974,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5473800000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5939200000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5359300000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5175200000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5126800000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.45878548723007784
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4827586206896552
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4608064486033624
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.45198253207605504
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4505539517827885
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 21947400000.0,
+   "net_income": 4413500000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 20560900000.0,
+   "net_income": 4079700000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19202600000.0,
+   "net_income": 3752000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 18012200000.0,
+   "net_income": 3412000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01850481125092529,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5208000000.0,
+ "gap_24m": 977900000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.15359978746642264,
+ "interest_coverage": 13.47887630662021,
+ "cash_to_debt": 0.8025536920391592,
+ "ev": 109461651516.37851,
+ "ev_to_sales": 4.9874314394066985,
+ "ev_to_ebitda": 16.155747485960756,
+ "pe_ttm": 24.566309764892942,
+ "p_fcf": 22.70072894545309,
+ "p_book": 17.976679850838725
+}

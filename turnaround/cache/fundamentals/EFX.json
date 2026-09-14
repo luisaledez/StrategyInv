@@ -1,0 +1,112 @@
+{
+ "ticker": "EFX",
+ "fetched": "2026-09-14",
+ "market_cap": 20105777031.59619,
+ "shares_out": 117484896.0,
+ "price": 171.13499450683594,
+ "long_name": "Equifax Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Consulting Services",
+ "bs_date": "2026-06-30",
+ "cash": 170100000.0,
+ "total_debt": 5467100000.0,
+ "current_debt": 1410300000.0,
+ "lease_obligations": null,
+ "equity": 4380200000.0,
+ "net_debt": 5297000000.0,
+ "ocf_ttm": 1612400000.0,
+ "capex_ttm": -507400000.0,
+ "fcf_ttm": 1105000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1368400000.0,
+ "stock_issuance_ttm": -1368400000.0,
+ "revenue_ttm": 6444500000.0,
+ "net_income_ttm": 691400000.0,
+ "ebitda_ttm": 1910100000.0,
+ "ebit_ttm": 1162700000.0,
+ "interest_ttm": 221800000.0,
+ "revenue_yoy_last_q": 0.10611581001951853,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1700100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1648900000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1550600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1544900000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1537000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5449091229927652
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5347807629328644
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.573584418934606
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5707165512330895
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5675992192582954
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6074500000.0,
+   "net_income": 660300000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5681100000.0,
+   "net_income": 604100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5265200000.0,
+   "net_income": 545300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5122200000.0,
+   "net_income": 696200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.045454545454545414,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1410300000.0,
+ "gap_24m": 1240200000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.773153238050364,
+ "interest_coverage": 5.242110009017132,
+ "cash_to_debt": 0.031113387353441494,
+ "ev": 25402777031.59619,
+ "ev_to_sales": 3.9417762482110623,
+ "ev_to_ebitda": 13.299186970104284,
+ "pe_ttm": 29.079804789696546,
+ "p_fcf": 18.19527333176126,
+ "p_book": 4.590150456964566
+}

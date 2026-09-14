@@ -1,0 +1,112 @@
+{
+ "ticker": "MKC",
+ "fetched": "2026-09-14",
+ "market_cap": 13843166863.738403,
+ "shares_out": 268851552.0,
+ "price": 51.4900016784668,
+ "long_name": "McCormick & Company, Incorporated",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "bs_date": "2026-05-31",
+ "cash": 331200000.0,
+ "total_debt": 4933500000.0,
+ "current_debt": 1336100000.0,
+ "lease_obligations": 167700000.0,
+ "equity": 6995600000.0,
+ "net_debt": 4602300000.0,
+ "ocf_ttm": 1231500000.0,
+ "capex_ttm": -211600000.0,
+ "fcf_ttm": 1019900000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -27600000.0,
+ "stock_issuance_ttm": -27600000.0,
+ "revenue_ttm": 7385800000.0,
+ "net_income_ttm": 1624500000.0,
+ "ebitda_ttm": 1390700000.0,
+ "ebit_ttm": 1133800000.0,
+ "interest_ttm": 206700000.0,
+ "revenue_yoy_last_q": 0.1669780054233203,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 1936600000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 1873900000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 1850400000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1724900000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 1659500000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.40183827326241867
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.3783019371364534
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.38926718547341116
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.3739926952287089
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.37529376318168123
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6840300000.0,
+   "net_income": 789400000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6723700000.0,
+   "net_income": 788500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6662200000.0,
+   "net_income": 680600000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6350500000.0,
+   "net_income": 682000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0017984535264876644,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1336100000.0,
+ "gap_24m": 1004900000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.3093406198317394,
+ "interest_coverage": 5.485244315432995,
+ "cash_to_debt": 0.06713286713286713,
+ "ev": 18445466863.738403,
+ "ev_to_sales": 2.497423009523464,
+ "ev_to_ebitda": 13.26344061532926,
+ "pe_ttm": 8.52149391427418,
+ "p_fcf": 13.57306291179371,
+ "p_book": 1.9788391079733552
+}

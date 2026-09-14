@@ -1,0 +1,112 @@
+{
+ "ticker": "ROL",
+ "fetched": "2026-09-14",
+ "market_cap": 16895421669.046585,
+ "shares_out": 481145404.0,
+ "price": 35.1150016784668,
+ "long_name": "Rollins, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Personal Services",
+ "bs_date": "2026-06-30",
+ "cash": 109085000.0,
+ "total_debt": 1115303000.0,
+ "current_debt": 354595000.0,
+ "lease_obligations": 412278000.0,
+ "equity": 1429597000.0,
+ "net_debt": 1006218000.0,
+ "ocf_ttm": 646966000.0,
+ "capex_ttm": -27797000.0,
+ "fcf_ttm": 619169000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -244759000.0,
+ "stock_issuance_ttm": -244759000.0,
+ "revenue_ttm": 3924019000.0,
+ "net_income_ttm": 531716000.0,
+ "ebitda_ttm": 862519000.0,
+ "ebit_ttm": 732613000.0,
+ "interest_ttm": 33624000.0,
+ "revenue_yoy_last_q": 0.07908640787092303,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1078576000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 906424000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 912913000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1026106000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 999527000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5284245152868227
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5084838883348191
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5097440829520448
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5444427768671073
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5379204363664013
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3761050000.0,
+   "net_income": 526705000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3388708000.0,
+   "net_income": 466379000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3073278000.0,
+   "net_income": 434957000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2695823000.0,
+   "net_income": 368599000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0072550181852870654,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 354595000.0,
+ "gap_24m": 245510000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.1666038661177318,
+ "interest_coverage": 21.788395193909114,
+ "cash_to_debt": 0.09780750163856818,
+ "ev": 17901639669.046585,
+ "ev_to_sales": 4.562067530520771,
+ "ev_to_ebitda": 20.75506704089601,
+ "pe_ttm": 31.77527414831712,
+ "p_fcf": 27.287253833842755,
+ "p_book": 11.818310803007131
+}

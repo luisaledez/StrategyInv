@@ -1,0 +1,112 @@
+{
+ "ticker": "FIS",
+ "fetched": "2026-09-14",
+ "market_cap": 20192464550.611176,
+ "shares_out": 515705917.0,
+ "price": 39.154998779296875,
+ "long_name": "Fidelity National Information Services, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "bs_date": "2026-06-30",
+ "cash": 744000000.0,
+ "total_debt": 21256000000.0,
+ "current_debt": 5824000000.0,
+ "lease_obligations": 82000000.0,
+ "equity": 16038000000.0,
+ "net_debt": 20512000000.0,
+ "ocf_ttm": 2976000000.0,
+ "capex_ttm": -1055000000.0,
+ "fcf_ttm": 1921000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": -720000000.0,
+ "revenue_ttm": 12201000000.0,
+ "net_income_ttm": 3371000000.0,
+ "ebitda_ttm": 4200000000.0,
+ "ebit_ttm": 1959000000.0,
+ "interest_ttm": 599000000.0,
+ "revenue_yoy_last_q": 0.29090214067278297,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3377000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3295000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2812000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2717000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2616000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.34764583950251704
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3362670713201821
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3830014224751067
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37835848362164154
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.363914373088685
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 10677000000.0,
+   "net_income": 382000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10127000000.0,
+   "net_income": 1450000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9831000000.0,
+   "net_income": -6655000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9720000000.0,
+   "net_income": -16752000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.012241794716995491,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5824000000.0,
+ "gap_24m": 5080000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.883809523809524,
+ "interest_coverage": 3.2704507512520866,
+ "cash_to_debt": 0.03500188182160331,
+ "ev": 40704464550.611176,
+ "ev_to_sales": 3.336158064962804,
+ "ev_to_ebitda": 9.691539178716946,
+ "pe_ttm": 5.990051780068578,
+ "p_fcf": 10.511433914945952,
+ "p_book": 1.2590388172222955
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "INVH",
+ "fetched": "2026-09-14",
+ "market_cap": 16227373359.65488,
+ "shares_out": 590623226.0,
+ "price": 27.475000381469727,
+ "long_name": "Invitation Homes Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Residential",
+ "bs_date": "2026-06-30",
+ "cash": 75786000.0,
+ "total_debt": 8526691000.0,
+ "current_debt": 280000000.0,
+ "lease_obligations": null,
+ "equity": 9054417000.0,
+ "net_debt": 8450905000.0,
+ "ocf_ttm": 1199915000.0,
+ "capex_ttm": -243193000.0,
+ "fcf_ttm": 956722000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -547279000.0,
+ "stock_issuance_ttm": -547279000.0,
+ "revenue_ttm": 2855078000.0,
+ "net_income_ttm": 660647000.0,
+ "ebitda_ttm": 1799708000.0,
+ "ebit_ttm": 1033935000.0,
+ "interest_ttm": 370959000.0,
+ "revenue_yoy_last_q": 0.09707793208404447,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 747550000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 734112000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 685250000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 688166000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 681401000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5509959200053508
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5510317226799181
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5851032469901496
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5697113777780362
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.588919006576157
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2729296000.0,
+   "net_income": 587924000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2618942000.0,
+   "net_income": 453917000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2432278000.0,
+   "net_income": 519470000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2238121000.0,
+   "net_income": 383329000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.030939656893997247,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 280000000.0,
+ "gap_24m": 204214000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.695708970566336,
+ "interest_coverage": 2.7871948112864224,
+ "cash_to_debt": 0.008888090350641299,
+ "ev": 24678278359.65488,
+ "ev_to_sales": 8.643644187533539,
+ "ev_to_ebitda": 13.712379096861758,
+ "pe_ttm": 24.56285029623215,
+ "p_fcf": 16.96143013294863,
+ "p_book": 1.7922052142788298
+}

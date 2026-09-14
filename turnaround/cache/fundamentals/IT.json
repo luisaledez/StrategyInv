@@ -1,0 +1,112 @@
+{
+ "ticker": "IT",
+ "fetched": "2026-09-14",
+ "market_cap": 11940208497.709229,
+ "shares_out": 63148976.0,
+ "price": 189.0800018310547,
+ "long_name": "Gartner, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "bs_date": "2026-06-30",
+ "cash": 1488706000.0,
+ "total_debt": 3232707000.0,
+ "current_debt": 5000000.0,
+ "lease_obligations": 253426000.0,
+ "equity": -167345000.0,
+ "net_debt": 1744001000.0,
+ "ocf_ttm": 1382615000.0,
+ "capex_ttm": -93671000.0,
+ "fcf_ttm": 1288944000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2635746000.0,
+ "stock_issuance_ttm": -2635746000.0,
+ "revenue_ttm": 6463626000.0,
+ "net_income_ttm": 775351000.0,
+ "ebitda_ttm": 1363153000.0,
+ "ebit_ttm": 1173729000.0,
+ "interest_ttm": 143377000.0,
+ "revenue_yoy_last_q": -0.006232604031891742,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1675943000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1511041000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1752570000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1524072000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1686454000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7094716228415883
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7158865973855111
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6732820942958055
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6888480334262423
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6847047117798647
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6497226000.0,
+   "net_income": 729231000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6267411000.0,
+   "net_income": 1253715000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5906956000.0,
+   "net_income": 882466000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5475846000.0,
+   "net_income": 807799000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.1614508567306958,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5000000.0,
+ "gap_24m": -1483706000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2793875669128851,
+ "interest_coverage": 8.186313006967644,
+ "cash_to_debt": 0.46051374281677865,
+ "ev": 13684209497.709229,
+ "ev_to_sales": 2.1171103491614813,
+ "ev_to_ebitda": 10.03864533013479,
+ "pe_ttm": 15.399746047543923,
+ "p_fcf": 9.263558771916568,
+ "p_book": null
+}

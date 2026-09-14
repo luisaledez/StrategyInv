@@ -1,0 +1,112 @@
+{
+ "ticker": "WHR",
+ "fetched": "2026-09-14",
+ "market_cap": 2277414293.437271,
+ "shares_out": 65199378.0,
+ "price": 34.93000030517578,
+ "long_name": "Whirlpool Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Furnishings, Fixtures & Appliances",
+ "bs_date": "2026-06-30",
+ "cash": 1239000000.0,
+ "total_debt": 8057000000.0,
+ "current_debt": 228000000.0,
+ "lease_obligations": 989000000.0,
+ "equity": 3933000000.0,
+ "net_debt": 6818000000.0,
+ "ocf_ttm": 225000000.0,
+ "capex_ttm": -554000000.0,
+ "fcf_ttm": -329000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 524000000.0,
+ "revenue_ttm": 14921000000.0,
+ "net_income_ttm": 187000000.0,
+ "ebitda_ttm": 982000000.0,
+ "ebit_ttm": 622000000.0,
+ "interest_ttm": 322000000.0,
+ "revenue_yoy_last_q": -0.06785051683010868,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3517000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3273000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4098000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4033000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3773000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12567529144156953
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1267949893064467
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1403123474865788
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.14728489957847757
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1616750596342433
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 15524000000.0,
+   "net_income": 318000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16607000000.0,
+   "net_income": -323000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 19455000000.0,
+   "net_income": 481000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 19724000000.0,
+   "net_income": -1519000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.16567184727290707,
+ "fcf_burn_annual": 329000000.0,
+ "runway_months": 45.191489361702125,
+ "need_24m": 886000000.0,
+ "gap_24m": -353000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 6.942973523421589,
+ "interest_coverage": 1.9316770186335404,
+ "cash_to_debt": 0.15377932232841007,
+ "ev": 9095414293.437271,
+ "ev_to_sales": 0.6095713620693834,
+ "ev_to_ebitda": 9.262132681708016,
+ "pe_ttm": 12.178686061161878,
+ "p_fcf": null,
+ "p_book": 0.5790527061879662
+}

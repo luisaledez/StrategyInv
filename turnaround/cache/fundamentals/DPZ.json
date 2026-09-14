@@ -1,0 +1,112 @@
+{
+ "ticker": "DPZ",
+ "fetched": "2026-09-14",
+ "market_cap": 10711865389.170227,
+ "shares_out": 33081735.0,
+ "price": 323.79998779296875,
+ "long_name": "Domino's Pizza, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "bs_date": "2026-06-30",
+ "cash": 164836000.0,
+ "total_debt": 5122853000.0,
+ "current_debt": 53387000.0,
+ "lease_obligations": 239209000.0,
+ "equity": -3982431000.0,
+ "net_debt": 4958017000.0,
+ "ocf_ttm": 777805000.0,
+ "capex_ttm": -124335000.0,
+ "fcf_ttm": 653470000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -389272000.0,
+ "stock_issuance_ttm": -389272000.0,
+ "revenue_ttm": 5027815000.0,
+ "net_income_ttm": 596523000.0,
+ "ebitda_ttm": 1052394000.0,
+ "ebit_ttm": 963499000.0,
+ "interest_ttm": 198023000.0,
+ "revenue_yoy_last_q": 0.04303650894559996,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1194427000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1150594000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1535740000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1147054000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1145144000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4003827776833578
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.40371495071241464
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.39690377277403727
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4009418911402602
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4025432609348693
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4939994000.0,
+   "net_income": 601704000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4706416000.0,
+   "net_income": 584170000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4479358000.0,
+   "net_income": 519118000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4537158000.0,
+   "net_income": 452263000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02085119441305916,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 53387000.0,
+ "gap_24m": -111449000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.711179463204846,
+ "interest_coverage": 4.865591370699363,
+ "cash_to_debt": 0.032176601592901456,
+ "ev": 15669882389.170227,
+ "ev_to_sales": 3.1166386172065255,
+ "ev_to_ebitda": 14.889748886035294,
+ "pe_ttm": 17.957170786659066,
+ "p_fcf": 16.392283332318588,
+ "p_book": null
+}

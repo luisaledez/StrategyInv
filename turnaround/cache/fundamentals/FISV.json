@@ -1,0 +1,112 @@
+{
+ "ticker": "FISV",
+ "fetched": "2026-09-14",
+ "market_cap": 27800763524.7507,
+ "shares_out": 531766721.0,
+ "price": 52.279998779296875,
+ "long_name": "Fiserv, Inc.",
+ "sector_y": null,
+ "industry_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 245000000.0,
+ "total_debt": 28034000000.0,
+ "current_debt": 1333000000.0,
+ "lease_obligations": 2472000000.0,
+ "equity": 26904000000.0,
+ "net_debt": 27789000000.0,
+ "ocf_ttm": 5831000000.0,
+ "capex_ttm": -1905000000.0,
+ "fcf_ttm": 3926000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1650000000.0,
+ "stock_issuance_ttm": -1603000000.0,
+ "revenue_ttm": 20866000000.0,
+ "net_income_ttm": 2801000000.0,
+ "ebitda_ttm": 8114000000.0,
+ "ebit_ttm": 4847000000.0,
+ "interest_ttm": 1553000000.0,
+ "revenue_yoy_last_q": -0.040609137055837574,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5292000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5027000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5284000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5263000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5516000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5474300831443688
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5410781778396658
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.570779712339137
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5886376591297738
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6182015953589558
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 21193000000.0,
+   "net_income": 3480000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 20456000000.0,
+   "net_income": 3131000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 19093000000.0,
+   "net_income": 3068000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 17737000000.0,
+   "net_income": 2530000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.023897058823529438,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1333000000.0,
+ "gap_24m": 1088000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.4248212965245255,
+ "interest_coverage": 3.12105602060528,
+ "cash_to_debt": 0.008739387886138261,
+ "ev": 55589763524.7507,
+ "ev_to_sales": 2.6641312913232387,
+ "ev_to_ebitda": 6.851092374260624,
+ "pe_ttm": 9.925299366208748,
+ "p_fcf": 7.081192950777051,
+ "p_book": 1.0333319775777097
+}

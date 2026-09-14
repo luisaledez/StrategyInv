@@ -1,0 +1,112 @@
+{
+ "ticker": "BRO",
+ "fetched": "2026-09-14",
+ "market_cap": 22609621720.375023,
+ "shares_out": 334610357.0,
+ "price": 67.56999969482422,
+ "long_name": "Brown & Brown, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "bs_date": "2026-06-30",
+ "cash": 918000000.0,
+ "total_debt": 8007000000.0,
+ "current_debt": 413000000.0,
+ "lease_obligations": 248000000.0,
+ "equity": 12583000000.0,
+ "net_debt": 7089000000.0,
+ "ocf_ttm": 1520000000.0,
+ "capex_ttm": -74000000.0,
+ "fcf_ttm": 1446000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -628000000.0,
+ "stock_issuance_ttm": -628000000.0,
+ "revenue_ttm": 6664000000.0,
+ "net_income_ttm": 1205000000.0,
+ "ebitda_ttm": 2468000000.0,
+ "ebit_ttm": 1966000000.0,
+ "interest_ttm": 418000000.0,
+ "revenue_yoy_last_q": 0.3242594075260208,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1654000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1880000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1580000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1550000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1249000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.49334945586457074
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5175531914893617
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4816455696202532
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48838709677419356
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4875900720576461
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5763000000.0,
+   "net_income": 1054000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4705000000.0,
+   "net_income": 993000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4199000000.0,
+   "net_income": 871000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3563000000.0,
+   "net_income": 672000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0005539794505859952,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 413000000.0,
+ "gap_24m": -505000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.8723662884927066,
+ "interest_coverage": 4.70334928229665,
+ "cash_to_debt": 0.11464968152866242,
+ "ev": 29698621720.375023,
+ "ev_to_sales": 4.456575888411618,
+ "ev_to_ebitda": 12.033477196262165,
+ "pe_ttm": 18.76317155217844,
+ "p_fcf": 15.635976293482035,
+ "p_book": 1.7968387284729415
+}

@@ -1,0 +1,112 @@
+{
+ "ticker": "EEFT",
+ "fetched": "2026-09-14",
+ "market_cap": 2686700297.338028,
+ "shares_out": 37403595.0,
+ "price": 71.83000183105469,
+ "long_name": "Euronet Worldwide, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "bs_date": "2026-06-30",
+ "cash": 2183900000.0,
+ "total_debt": 2806800000.0,
+ "current_debt": 882900000.0,
+ "lease_obligations": 153800000.0,
+ "equity": 1229900000.0,
+ "net_debt": 622900000.0,
+ "ocf_ttm": 401200000.0,
+ "capex_ttm": -132300000.0,
+ "fcf_ttm": 268900000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -509400000.0,
+ "stock_issuance_ttm": -503900000.0,
+ "revenue_ttm": 4374600000.0,
+ "net_income_ttm": 288400000.0,
+ "ebitda_ttm": 686000000.0,
+ "ebit_ttm": 533600000.0,
+ "interest_ttm": 71600000.0,
+ "revenue_yoy_last_q": 0.03174159918086206,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1108400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1011800000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1108700000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1145700000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1074300000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4229520028870444
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3898003558015418
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4001082348696672
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4379855110412848
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.42232151168202553
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4244200000.0,
+   "net_income": 309500000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3989800000.0,
+   "net_income": 306000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3688000000.0,
+   "net_income": 279700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3358800000.0,
+   "net_income": 231000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.08773735902642965,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 882900000.0,
+ "gap_24m": -1301000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9080174927113702,
+ "interest_coverage": 7.4525139664804465,
+ "cash_to_debt": 0.7780746757873735,
+ "ev": 3309600297.338028,
+ "ev_to_sales": 0.7565492381790399,
+ "ev_to_ebitda": 4.8244902293557255,
+ "pe_ttm": 9.315881752212302,
+ "p_fcf": 9.991447740193484,
+ "p_book": 2.1844867853793217
+}

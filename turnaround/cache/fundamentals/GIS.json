@@ -1,0 +1,112 @@
+{
+ "ticker": "GIS",
+ "fetched": "2026-09-14",
+ "market_cap": 19576424128.154877,
+ "shares_out": 533708396.0,
+ "price": 36.68000030517578,
+ "long_name": "General Mills, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "bs_date": "2026-05-31",
+ "cash": 453800000.0,
+ "total_debt": 13940400000.0,
+ "current_debt": 1224000000.0,
+ "lease_obligations": 402400000.0,
+ "equity": 7368400000.0,
+ "net_debt": 13486600000.0,
+ "ocf_ttm": 2166200000.0,
+ "capex_ttm": -539900000.0,
+ "fcf_ttm": 1626300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -500300000.0,
+ "stock_issuance_ttm": -500300000.0,
+ "revenue_ttm": 18424600000.0,
+ "net_income_ttm": -87600000.0,
+ "ebitda_ttm": 477100000.0,
+ "ebit_ttm": -78100000.0,
+ "interest_ttm": 573100000.0,
+ "revenue_yoy_last_q": 0.011720293226811895,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 4609600000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 4436700000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 4860800000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 4517500000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 4556200000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.3478609857688303
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.30808934568485585
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.3481937129690586
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.3393027116768124
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.3235152100434573
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 18424600000.0,
+   "net_income": -87600000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 19486600000.0,
+   "net_income": 2295200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19857200000.0,
+   "net_income": 2496600000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 20094200000.0,
+   "net_income": 2593900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.01609862728151845,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1224000000.0,
+ "gap_24m": 770200000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 28.267868371410607,
+ "interest_coverage": -0.1362763915547025,
+ "cash_to_debt": 0.03255286792344553,
+ "ev": 33063024128.154877,
+ "ev_to_sales": 1.7945043109839496,
+ "ev_to_ebitda": 69.29998769263231,
+ "pe_ttm": null,
+ "p_fcf": 12.037400312460726,
+ "p_book": 2.656808008272471
+}

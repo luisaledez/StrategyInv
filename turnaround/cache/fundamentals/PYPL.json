@@ -1,0 +1,112 @@
+{
+ "ticker": "PYPL",
+ "fetched": "2026-09-14",
+ "market_cap": 45904030368.30703,
+ "shares_out": 855460874.0,
+ "price": 53.65999984741211,
+ "long_name": "PayPal Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Credit Services",
+ "bs_date": "2026-06-30",
+ "cash": 11256000000.0,
+ "total_debt": 13400000000.0,
+ "current_debt": 2505000000.0,
+ "lease_obligations": null,
+ "equity": 19820000000.0,
+ "net_debt": 2144000000.0,
+ "ocf_ttm": 7475000000.0,
+ "capex_ttm": -889000000.0,
+ "fcf_ttm": 6586000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -6053000000.0,
+ "stock_issuance_ttm": -5950000000.0,
+ "revenue_ttm": 34128000000.0,
+ "net_income_ttm": 4902000000.0,
+ "ebitda_ttm": 7287000000.0,
+ "ebit_ttm": 6324000000.0,
+ "interest_ttm": 461000000.0,
+ "revenue_yoy_last_q": 0.04753861003860993,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 8682000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 8353000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 8676000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 8417000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 8288000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.44920525224602625
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4561235484257153
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4649608114338405
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.45990257811571816
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4638030888030888
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 33172000000.0,
+   "net_income": 5233000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 31797000000.0,
+   "net_income": 4147000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 29771000000.0,
+   "net_income": 4246000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 27518000000.0,
+   "net_income": 2419000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.1020833333333333,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2505000000.0,
+ "gap_24m": -8751000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.29422258817071495,
+ "interest_coverage": 13.718004338394794,
+ "cash_to_debt": 0.84,
+ "ev": 48048030368.30703,
+ "ev_to_sales": 1.4078771204965725,
+ "ev_to_ebitda": 6.5936641098266815,
+ "pe_ttm": 9.364347280356391,
+ "p_fcf": 6.969940839402828,
+ "p_book": 2.3160459318015656
+}

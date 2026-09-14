@@ -1,0 +1,112 @@
+{
+ "ticker": "CSGP",
+ "fetched": "2026-09-14",
+ "market_cap": 12524657383.251755,
+ "shares_out": 405197588.0,
+ "price": 30.90999984741211,
+ "long_name": "CoStar Group, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "Real Estate Services",
+ "bs_date": "2026-06-30",
+ "cash": 1266000000.0,
+ "total_debt": 1202000000.0,
+ "current_debt": 30000000.0,
+ "lease_obligations": 208000000.0,
+ "equity": 7932000000.0,
+ "net_debt": -64000000.0,
+ "ocf_ttm": 497000000.0,
+ "capex_ttm": -270000000.0,
+ "fcf_ttm": 227000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1023000000.0,
+ "stock_issuance_ttm": -1023000000.0,
+ "revenue_ttm": 3555500000.0,
+ "net_income_ttm": 73600000.0,
+ "ebitda_ttm": 394000000.0,
+ "ebit_ttm": 77000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.18437900128040963,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 925000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 897000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 899900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 833600000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 781000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.787027027027027
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7814938684503902
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7858650961217913
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.793426103646833
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7848911651728553
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3247000000.0,
+   "net_income": 7000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2736000000.0,
+   "net_income": 139000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2455000000.0,
+   "net_income": 375000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2182400000.0,
+   "net_income": 369500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.045508134873850525,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 30000000.0,
+ "gap_24m": -1236000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.16243654822335024,
+ "interest_coverage": null,
+ "cash_to_debt": 1.0532445923460898,
+ "ev": 12460657383.251755,
+ "ev_to_sales": 3.5046146486434413,
+ "ev_to_ebitda": 31.626033967644048,
+ "pe_ttm": 170.17197531592058,
+ "p_fcf": 55.17470212886236,
+ "p_book": 1.5790037043938168
+}

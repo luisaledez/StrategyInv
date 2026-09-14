@@ -1,0 +1,112 @@
+{
+ "ticker": "KBR",
+ "fetched": "2026-09-14",
+ "market_cap": 4661985522.190762,
+ "shares_out": 126067755.0,
+ "price": 36.97999954223633,
+ "long_name": "KBR, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "bs_date": "2026-06-30",
+ "cash": 252000000.0,
+ "total_debt": 2798000000.0,
+ "current_debt": 49000000.0,
+ "lease_obligations": 246000000.0,
+ "equity": 1636000000.0,
+ "net_debt": 2546000000.0,
+ "ocf_ttm": 409000000.0,
+ "capex_ttm": -54000000.0,
+ "fcf_ttm": 355000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -154000000.0,
+ "stock_issuance_ttm": -154000000.0,
+ "revenue_ttm": 7723000000.0,
+ "net_income_ttm": 424000000.0,
+ "ebitda_ttm": 897000000.0,
+ "ebit_ttm": 731000000.0,
+ "interest_ttm": 148000000.0,
+ "revenue_yoy_last_q": 0.016393442622950838,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1984000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1923000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1885000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1931000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1952000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14768145161290322
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1378055122204888
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.15384615384615385
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13982392542723976
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.14856557377049182
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7786000000.0,
+   "net_income": 415000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7710000000.0,
+   "net_income": 375000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6956000000.0,
+   "net_income": -265000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6564000000.0,
+   "net_income": 190000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.021528639311958586,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 49000000.0,
+ "gap_24m": -203000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.83835005574136,
+ "interest_coverage": 4.9391891891891895,
+ "cash_to_debt": 0.09006433166547534,
+ "ev": 7207985522.190762,
+ "ev_to_sales": 0.9333141942497425,
+ "ev_to_ebitda": 8.035658330201517,
+ "pe_ttm": 10.995248873091418,
+ "p_fcf": 13.132353583635949,
+ "p_book": 2.8496244023170916
+}

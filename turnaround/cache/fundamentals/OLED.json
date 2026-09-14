@@ -1,0 +1,112 @@
+{
+ "ticker": "OLED",
+ "fetched": "2026-09-14",
+ "market_cap": 3769280470.0,
+ "shares_out": 45966835.0,
+ "price": 82.0,
+ "long_name": "Universal Display Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "bs_date": "2026-06-30",
+ "cash": 471312000.0,
+ "total_debt": 16863000.0,
+ "current_debt": null,
+ "lease_obligations": 16863000.0,
+ "equity": 1683965000.0,
+ "net_debt": -454449000.0,
+ "ocf_ttm": 262187000.0,
+ "capex_ttm": -92171000.0,
+ "fcf_ttm": 170016000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -115218000.0,
+ "stock_issuance_ttm": -146112000.0,
+ "revenue_ttm": 606908000.0,
+ "net_income_ttm": 195684000.0,
+ "ebitda_ttm": 257538000.0,
+ "ebit_ttm": 206773000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.1143055054309231,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 152157000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 142211000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 172927000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 139613000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 171794000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7582102696556846
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7460041768920829
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7611824642768336
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7457901484818749
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.771802274817514
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 650611000.0,
+   "net_income": 242075000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 647684000.0,
+   "net_income": 222079000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 576429000.0,
+   "net_income": 203011000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 616619000.0,
+   "net_income": 210061000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.027413242177384722,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -471312000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.7645900799105374,
+ "interest_coverage": null,
+ "cash_to_debt": 27.949475182351893,
+ "ev": 3314831470.0,
+ "ev_to_sales": 5.461835187540781,
+ "ev_to_ebitda": 12.87123247831388,
+ "pe_ttm": 19.2620779930909,
+ "p_fcf": 22.17015145633352,
+ "p_book": 2.2383365865680105
+}

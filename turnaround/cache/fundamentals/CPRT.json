@@ -1,0 +1,112 @@
+{
+ "ticker": "CPRT",
+ "fetched": "2026-09-14",
+ "market_cap": 28797365723.807137,
+ "shares_out": 925811482.0,
+ "price": 31.104999542236328,
+ "long_name": "Copart, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "bs_date": "2026-04-30",
+ "cash": 4199712000.0,
+ "total_debt": 93116000.0,
+ "current_debt": 15825000.0,
+ "lease_obligations": 93116000.0,
+ "equity": 8774264000.0,
+ "net_debt": -4106596000.0,
+ "ocf_ttm": 1685427000.0,
+ "capex_ttm": -346194000.0,
+ "fcf_ttm": 1339233000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4638867000.0,
+ "net_income_ttm": 1553201000.0,
+ "ebitda_ttm": 1919218000.0,
+ "ebit_ttm": 1696277000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.02092074380465392,
+ "revenue_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 1237066000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1121674000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1155030000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1125097000.0
+  },
+  {
+   "period": "2025-04-30",
+   "value": 1211716000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 0.4628685939149568
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.4393540369126859
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.4649212574565163
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.4530436042403455
+  },
+  {
+   "period": "2025-04-30",
+   "value": 0.455772639793483
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4646958000.0,
+   "net_income": 1552449000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4236823000.0,
+   "net_income": 1363020000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3869518000.0,
+   "net_income": 1237741000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3500921000.0,
+   "net_income": 1090130000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0424086078450725,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 15825000.0,
+ "gap_24m": -4183887000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.1397235749143664,
+ "interest_coverage": null,
+ "cash_to_debt": 45.101937368443664,
+ "ev": 24690769723.807137,
+ "ev_to_sales": 5.322586253024098,
+ "ev_to_ebitda": 12.86501571150705,
+ "pe_ttm": 18.540656182816736,
+ "p_fcf": 21.502879427110248,
+ "p_book": 3.282026358428141
+}

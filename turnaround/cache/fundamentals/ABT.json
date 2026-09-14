@@ -1,0 +1,112 @@
+{
+ "ticker": "ABT",
+ "fetched": "2026-09-14",
+ "market_cap": 178709654515.7871,
+ "shares_out": 1730383296.0,
+ "price": 103.27749633789062,
+ "long_name": "Abbott Laboratories",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "bs_date": "2026-03-31",
+ "cash": 7295000000.0,
+ "total_debt": 34047000000.0,
+ "current_debt": 4409000000.0,
+ "lease_obligations": 931000000.0,
+ "equity": 52061000000.0,
+ "net_debt": 26752000000.0,
+ "ocf_ttm": 9464000000.0,
+ "capex_ttm": -2086000000.0,
+ "fcf_ttm": 7378000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -793000000.0,
+ "stock_issuance_ttm": -793000000.0,
+ "revenue_ttm": 45134000000.0,
+ "net_income_ttm": 6276000000.0,
+ "ebitda_ttm": 11836000000.0,
+ "ebit_ttm": 8673000000.0,
+ "interest_ttm": 536000000.0,
+ "revenue_yoy_last_q": 0.07781424985518437,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 11164000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 11459000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 11369000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 11142000000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 10358000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.5619849516302401
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5704686272798674
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5536106957516053
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5643511039310716
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.5686425950955784
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 44328000000.0,
+   "net_income": 6524000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 41950000000.0,
+   "net_income": 13402000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 40109000000.0,
+   "net_income": 5723000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 43653000000.0,
+   "net_income": 6933000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0011357177621889036,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 4409000000.0,
+ "gap_24m": -2886000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.2602230483271377,
+ "interest_coverage": 16.18097014925373,
+ "cash_to_debt": 0.2142626369430493,
+ "ev": 205461654515.7871,
+ "ev_to_sales": 4.552258929316859,
+ "ev_to_ebitda": 17.359044822219257,
+ "pe_ttm": 28.475088354969266,
+ "p_fcf": 24.221964558930214,
+ "p_book": 3.4326973073084863
+}

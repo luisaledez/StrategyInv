@@ -1,0 +1,112 @@
+{
+ "ticker": "DKS",
+ "fetched": "2026-09-14",
+ "market_cap": 11802190145.159119,
+ "shares_out": 88926556.0,
+ "price": 132.71839904785156,
+ "long_name": "DICK'S Sporting Goods, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "bs_date": "2026-07-31",
+ "cash": 913736000.0,
+ "total_debt": 7963151000.0,
+ "current_debt": 970819000.0,
+ "lease_obligations": 6056803000.0,
+ "equity": 5725722000.0,
+ "net_debt": 7049415000.0,
+ "ocf_ttm": 1593976000.0,
+ "capex_ttm": -1354570000.0,
+ "fcf_ttm": 239406000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -184669000.0,
+ "stock_issuance_ttm": -184669000.0,
+ "revenue_ttm": 21145146000.0,
+ "net_income_ttm": 838832000.0,
+ "ebitda_ttm": 1838976000.0,
+ "ebit_ttm": 1240517000.0,
+ "interest_ttm": 71393000.0,
+ "revenue_yoy_last_q": 0.5320546501194532,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 5586815000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 5164504000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 6226054000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 4167773000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 3646616000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.3478316357352087
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.3259290727628442
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.28429644201608273
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.3313184283309096
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.37055505707209097
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 17215120000.0,
+   "net_income": 849239000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 13442849000.0,
+   "net_income": 1165308000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 12984399000.0,
+   "net_income": 1046519000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 12368198000.0,
+   "net_income": 1043138000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.1257109713814566,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 970819000.0,
+ "gap_24m": 57083000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.8333371397995406,
+ "interest_coverage": 17.37589119381452,
+ "cash_to_debt": 0.11474553226480322,
+ "ev": 18851605145.15912,
+ "ev_to_sales": 0.8915334585610862,
+ "ev_to_ebitda": 10.251142562577826,
+ "pe_ttm": 14.069790071383922,
+ "p_fcf": 49.29780433723097,
+ "p_book": 2.061257976751075
+}

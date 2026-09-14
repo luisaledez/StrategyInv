@@ -1,0 +1,112 @@
+{
+ "ticker": "ADSK",
+ "fetched": "2026-09-14",
+ "market_cap": 46306039489.74609,
+ "shares_out": 209000000.0,
+ "price": 221.55999755859375,
+ "long_name": "Autodesk, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "bs_date": "2026-07-31",
+ "cash": 4155000000.0,
+ "total_debt": 3705000000.0,
+ "current_debt": 1545000000.0,
+ "lease_obligations": 227000000.0,
+ "equity": 3383000000.0,
+ "net_debt": -450000000.0,
+ "ocf_ttm": 2896000000.0,
+ "capex_ttm": -92000000.0,
+ "fcf_ttm": 2804000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1591000000.0,
+ "stock_issuance_ttm": -1453000000.0,
+ "revenue_ttm": 7790000000.0,
+ "net_income_ttm": 1642000000.0,
+ "ebitda_ttm": 2376000000.0,
+ "ebit_ttm": 2175000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.1605218377765174,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2046000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1934000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1957000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1853000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1763000000.0
+  }
+ ],
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.9139784946236559
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.9095139607032058
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.9151762902401636
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.9109552077711819
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.9098128190584232
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 7206000000.0,
+   "net_income": 1124000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 6131000000.0,
+   "net_income": 1112000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5497000000.0,
+   "net_income": 906000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5005000000.0,
+   "net_income": 823000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.018779342723004744,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1545000000.0,
+ "gap_24m": -2610000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.1893939393939394,
+ "interest_coverage": null,
+ "cash_to_debt": 1.1214574898785425,
+ "ev": 45856039489.74609,
+ "ev_to_sales": 5.88652625028833,
+ "ev_to_ebitda": 19.299679919926806,
+ "pe_ttm": 28.200998471221737,
+ "p_fcf": 16.514279418597038,
+ "p_book": 13.687862692801092
+}
