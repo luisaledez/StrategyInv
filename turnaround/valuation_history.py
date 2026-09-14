@@ -5,13 +5,13 @@ Two sources, combined per metric:
 1. Yahoo "fundamentals-timeseries" snapshots: quarterly P/E, forward P/E,
    PEG, EV/EBITDA, P/S (last ~5 quarters) plus sparse "trailing" snapshots
    (~8 points over ~3 years). This is what Yahoo's Statistics page shows.
-2. Reconstruction from reported annual figures: for every month-end close in
-   the price cache, trailing P/E = price / diluted EPS of the latest fiscal
-   year reported at least `lag_days` before that date, and EV/EBITDA =
-   (price x shares + total debt - cash) / EBITDA on the same basis. Yahoo
-   serves 4-5 fiscal years, so this gives 4-5 years of monthly history.
-   Forward P/E and PEG cannot be reconstructed (they need historical analyst
-   estimates), so they only have source 1.
+2. Reconstruction: for every month-end close, trailing P/E = price / TTM
+   diluted EPS, P/S = market cap / TTM revenue, EV/EBITDA = (market cap +
+   debt - cash) / TTM EBITDA, using the latest figures that were public at
+   that month-end. Figures come from SEC EDGAR quarterly filings (edgar.py,
+   US filers, back to ~2008) or, when EDGAR has nothing for the ticker, from
+   Yahoo's 4-5 annual reports. Forward P/E and PEG cannot be reconstructed
+   (they need historical analyst estimates), so they only have source 1.
 
 Cached in cache/valuation/<TICKER>.json for 7 days.
 """
@@ -29,6 +29,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+import edgar  # noqa: E402
 import indicators as ind  # noqa: E402
 import prices  # noqa: E402
 
@@ -90,8 +91,58 @@ def _first(ts: dict, names: list[str]) -> list[tuple[str, float]]:
     return []
 
 
+def reconstruct_edgar(ticker: str) -> dict[str, list]:
+    """Monthly trailing P/E, EV/EBITDA and P/S from SEC quarterly TTM figures."""
+    ed = edgar.get(ticker)
+    q = [r for r in ed.get("quarters", []) if r.get("eps_ttm") is not None]
+    if len(q) < 8:
+        return {}
+    splits = ed.get("splits", [])
+
+    def split_factor(basis: str) -> float:
+        """Cumulative split ratio applied after the filing the figure came from."""
+        f = 1.0
+        for d, ratio in splits:
+            if d > basis:
+                f *= ratio
+        return f
+    first = datetime.strptime(q[0]["available"], "%Y-%m-%d")
+    daily = prices.load(ticker)
+    if daily is None or daily.index[0].to_pydatetime() > first + timedelta(days=45):
+        prices.download([ticker], period="max", verbose=False)   # need the full price history
+        daily = prices.load(ticker)
+    if daily is None:
+        return {}
+    m = ind.monthly_bars(daily, drop_partial=False)
+    q.sort(key=lambda r: r["available"])
+    pe, ev_ebitda, ps = [], [], []
+    j = -1
+    for dt, close in m["Close"].items():
+        d = dt.strftime("%Y-%m-%d")
+        while j + 1 < len(q) and q[j + 1]["available"] <= d:
+            j += 1
+        if j < 0:
+            continue
+        row = q[j]
+        key = dt.date().isoformat()
+        f = split_factor(row.get("basis") or row["available"])
+        eps = row["eps_ttm"] / f            # per-share figure on today's share basis
+        if eps > 0:
+            pe.append((key, close / eps))
+        sh = (row.get("shares") or 0) * f   # share count on today's basis
+        if sh > 0:
+            mcap = close * sh
+            if row.get("rev_ttm") and row["rev_ttm"] > 0:
+                ps.append((key, mcap / row["rev_ttm"]))
+            eb = row.get("ebitda_ttm")
+            if eb and eb > 0:
+                ev_ebitda.append((key, (mcap + (row.get("debt") or 0.0) - (row.get("cash") or 0.0)) / eb))
+    return {"pe": pe, "ev_ebitda": ev_ebitda, "ps": ps, "_source": "reconstructed monthly from SEC filings (TTM)"}
+
+
 def reconstruct(ticker: str, ts: dict, lag_days: int = 75) -> dict[str, list]:
-    """Monthly trailing P/E, EV/EBITDA and P/S from annual figures and month-end closes."""
+    """Monthly trailing P/E, EV/EBITDA and P/S from Yahoo annual figures and month-end closes
+    (fallback when EDGAR has no data for the ticker)."""
     daily = prices.load(ticker)
     if daily is None:
         return {}
@@ -125,15 +176,21 @@ def reconstruct(ticker: str, ts: dict, lag_days: int = 75) -> dict[str, list]:
             rev = latest(annual["revenue"], d)
             if rev and rev > 0:
                 ps.append((dt.date().isoformat(), mcap / rev))
-    return {"pe": pe, "ev_ebitda": ev_ebitda, "ps": ps}
+    return {"pe": pe, "ev_ebitda": ev_ebitda, "ps": ps, "_source": "reconstructed monthly from Yahoo annual reports"}
 
 
-def stats(values: list[float], current: float | None) -> dict:
+def stats(values: list[float], current: float | None, dates: list[str] | None = None) -> dict:
     v = np.array([x for x in values if x is not None and not math.isnan(x)], dtype=float)
     if len(v) == 0:
         return {"n": 0}
     out = {"n": int(len(v)), "avg": float(v.mean()), "median": float(np.median(v)),
            "high": float(v.max()), "low": float(v.min())}
+    if dates and len(dates) == len(values):
+        cutoff = (datetime.today() - timedelta(days=5 * 365)).strftime("%Y-%m-%d")
+        recent = [x for d, x in zip(dates, values) if d >= cutoff and x is not None and not math.isnan(x)]
+        if recent:
+            out["avg_5y"] = float(np.mean(recent))
+            out["median_5y"] = float(np.median(recent))
     if current is not None and not math.isnan(current):
         out["current"] = current
         out["percentile"] = float((v < current).mean())
@@ -144,16 +201,17 @@ def stats(values: list[float], current: float | None) -> dict:
 def build(ticker: str) -> dict:
     ts = _fetch_timeseries(ticker)
     snaps = {k: _series(ts, v) for k, v in SNAPSHOT_TYPES.items()}
-    recon = reconstruct(ticker, ts)
+    recon = reconstruct_edgar(ticker) or reconstruct(ticker, ts)
+    recon_source = recon.pop("_source", "reconstructed monthly")
     metrics = {}
     for k in SNAPSHOT_TYPES:
         s = snaps.get(k, [])
         r = recon.get(k, [])
         # current = most recent snapshot (Yahoo's own figure), else last reconstructed point
         current = s[-1][1] if s else (r[-1][1] if r else None)
-        hist_vals = [v for _, v in r] if r else [v for _, v in s]
-        st = stats(hist_vals, current)
-        st["source"] = "reconstructed monthly from annual reports" if r else "Yahoo snapshots"
+        span_src = r if r else s
+        st = stats([v for _, v in span_src], current, [d for d, _ in span_src])
+        st["source"] = recon_source if r else "Yahoo snapshots"
         span = r if r else s
         st["from"] = span[0][0] if span else None
         st["to"] = span[-1][0] if span else None

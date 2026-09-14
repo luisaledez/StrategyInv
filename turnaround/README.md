@@ -19,6 +19,7 @@ turnaround/
   indicators.py       Wilder RSI, monthly candles, episode grouping, drawdown, dollar volume
   prices.py           15-year daily price cache (cache/prices/<TICKER>.csv)
   fundamentals.py     Yahoo statements -> survival gate + valuation proxies (cache/fundamentals/)
+  edgar.py            SEC XBRL company facts -> quarterly TTM fundamentals since ~2008 (cache/edgar/)
   valuation_history.py historic P/E, forward P/E, PEG, EV/EBITDA, P/S: Yahoo snapshots + monthly reconstruction (cache/valuation/)
   universe.py         S&P 500 / 400 / 600 constituents from Wikipedia (cache/universe.csv)
   thesis_template.md  research file template (steps 2-5 of the process)
@@ -88,16 +89,36 @@ the thesis file's survival table is where the real assessment goes.
 ### Valuation history (ticker page)
 
 For each of P/E, forward P/E, PEG, EV/EBITDA and P/S the ticker page shows
-now / average / median / high / low, the current multiple's percentile in
-its own history, and a small chart. Two sources: Yahoo's own quarterly and
-"trailing" snapshots (about 3 years, sparse), and a monthly reconstruction
-from month-end price and the latest reported fiscal-year EPS, EBITDA, debt,
-cash and share count (Yahoo serves 4-5 fiscal years, so about 4 years).
-Forward P/E and PEG need historical analyst estimates that Yahoo does not
-keep, so they have snapshots only. Multiples are undefined while earnings
-or EBITDA are negative, and a near-zero earnings year produces extreme
-values: read the median alongside the average, and note the charts clip
-the axis at 3x the median.
+now / average / median / 5-year average / high / low, the current multiple's
+percentile in its own history, and a chart. Sources:
+
+* **SEC EDGAR filings** (`edgar.py`): quarterly trailing-twelve-month EPS,
+  net income, revenue, EBITDA, debt and cash for US filers back to about
+  2008, from the free XBRL "company facts" API. TTM at a 10-Q date is
+  FY + YTD - prior-year YTD; EBITDA is operating income + D&A (or pre-tax
+  income + interest + D&A when no operating-income line is reported);
+  shares = TTM net income / TTM EPS, so they are the diluted count behind
+  the EPS. Per-share figures are put on today's share basis using Yahoo's
+  split history before combining. Each figure is used from the date it was
+  first public (first filing, capped at 90 days after the quarter end).
+  Trailing P/E, EV/EBITDA and P/S are then rebuilt monthly against the
+  month-end price: 15-18 years of history for most names.
+* **Yahoo snapshots**: quarterly and "trailing" multiples for about the
+  last 3 years, sparse. The only source for forward P/E and PEG, which
+  need the analyst estimates that existed at each date and cannot be
+  reconstructed from filings.
+* Yahoo's 4-5 annual reports are the fallback reconstruction for tickers
+  EDGAR does not cover: non-US filers, and companies that report EPS only
+  per share class under custom tags (e.g. STZ, ERIE, PLNT, RYAN), where a
+  single-class share count would give wrong multiples.
+
+Multiples are undefined while earnings or EBITDA are negative, and a
+near-zero earnings year produces extreme values (Nike at 80x depressed
+COVID earnings in 2020, CoStar at 2,000x two cents of EPS): read the
+median alongside the average, and note the charts clip the axis at 3x the
+median. Raw EDGAR downloads (~3 MB per company) live in
+`cache/edgar_raw/` and are not committed; the extracted quarterly tables
+in `cache/edgar/` are.
 
 ## Watchlist and thesis files
 

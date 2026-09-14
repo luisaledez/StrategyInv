@@ -13,3 +13,4 @@ sensitivity.json
 report_data.json
 report
 *.docx
+turnaround/cache/edgar_raw/

@@ -202,7 +202,7 @@ def chart_svg(ticker: str, years: int = 8, threshold: float = 35.0) -> str:
             f"<text x='{PAD}' y='{PAD - 8}' class='lbl'>monthly close (last {n // 12} years)</text></svg>")
 
 
-def valuation_chart(metric: dict, years: int = 5) -> str:
+def valuation_chart(metric: dict, years: int = 30) -> str:
     """Small panel: reconstructed monthly line, Yahoo snapshot dots, average line, current marker.
     The y-axis is clipped at 3x the median so a near-zero-earnings spike does not flatten the rest."""
     st = metric.get("stats", {})
@@ -245,8 +245,9 @@ def valuation_chart(metric: dict, years: int = 5) -> str:
     cur_mark = (f"<circle cx='{x(d1):.1f}' cy='{y(cur):.1f}' r='4' class='cur'/>"
                 f"<text x='{x(d1) - 6:.1f}' y='{y(cur) - 7:.1f}' class='tick r'>now {cur:.1f}</text>") if cur else ""
     yt = "".join(f"<text x='{PL - 4}' y='{y(v):.1f}' class='tick r'>{v:.0f}</text>" for v in (lo, (lo + hi) / 2, hi / 1.05))
+    step = 1 if (d1.year - d0.year) <= 8 else (2 if (d1.year - d0.year) <= 16 else 3)
     xt = "".join(f"<text x='{x(datetime(yr, 1, 1)):.1f}' y='{H - 4}' class='tick'>{yr}</text>"
-                 for yr in range(d0.year + 1, d1.year + 1))
+                 for yr in range(d0.year + 1, d1.year + 1) if yr % step == 0)
     clipped = " (axis clipped)" if any(v > cap for _, v in pts) else ""
     title = f"<text x='{PL}' y='14' class='lbl'>{metric['label']}{clipped}</text>"
     return f"<svg viewBox='0 0 {W} {H}' class='chart mini'>{title}{med_line}{avg_line}{line}{dots}{cur_mark}{yt}{xt}</svg>"
@@ -432,16 +433,16 @@ TICKER = """{% extends "base" %}{% block body %}
 </tbody></table></div></div>
 <h2>Valuation history <span class="muted small">current multiple against its own past</span></h2>
 {% if vhist.metrics %}
-<table><thead><tr><th class="l">Multiple</th><th>Now</th><th>Average</th><th>Median</th><th>High</th><th>Low</th><th>Now vs avg</th><th>Percentile</th><th class="l">History</th></tr></thead><tbody>
+<table><thead><tr><th class="l">Multiple</th><th>Now</th><th>Average</th><th>Median</th><th>5y average</th><th>High</th><th>Low</th><th>Now vs avg</th><th>Percentile</th><th class="l">History</th></tr></thead><tbody>
 {% for k in ['pe','fwd_pe','peg','ev_ebitda','ps'] %}{% set m = vhist.metrics[k] %}{% set st = m.stats %}
 <tr><td class="l">{{ m.label }}</td>
-{% if st.n %}<td><b>{{ st.current|num }}</b></td><td>{{ st.avg|num }}</td><td>{{ st.median|num }}</td><td>{{ st.high|num }}</td><td>{{ st.low|num }}</td>
+{% if st.n %}<td><b>{{ st.current|num }}</b></td><td>{{ st.avg|num }}</td><td>{{ st.median|num }}</td><td>{{ st.avg_5y|num }}</td><td>{{ st.high|num }}</td><td>{{ st.low|num }}</td>
 <td>{{ st.vs_avg|pctc('down') }}</td><td>{{ (st.percentile * 100)|round|int if st.percentile is not none else '–' }}{{ 'th' if st.percentile is not none }}</td>
 <td class="l muted small">{{ st.n }} pts, {{ st.source }}, {{ st.from }} → {{ st.to }}</td>
-{% else %}<td colspan="8" class="l muted">no history</td>{% endif %}</tr>{% endfor %}
+{% else %}<td colspan="9" class="l muted">no history</td>{% endif %}</tr>{% endfor %}
 </tbody></table>
 <div class="minis" style="margin-top:8px">{% for k in ['pe','fwd_pe','peg','ev_ebitda','ps'] %}{{ vcharts[k]|safe }}{% endfor %}</div>
-<p class="muted small">Line = monthly multiple reconstructed from month-end price and the latest reported fiscal-year EPS, EBITDA, debt, cash and share count (Yahoo serves 4–5 fiscal years, so about 4 years of history). Dots = Yahoo's own quarterly and trailing snapshots. Dashed = average, grey = median, red = now. "Now vs avg" is green when the current multiple is below its average. Forward P/E and PEG need historical analyst estimates, which Yahoo does not keep, so they show snapshots only. Multiples are undefined (gaps) while earnings or EBITDA are negative, and a near-zero earnings year produces extreme values, which is why the median is shown and the charts clip at 3× median.</p>
+<p class="muted small">Line = monthly multiple reconstructed from the month-end price and the trailing-twelve-month EPS, revenue, EBITDA, debt, cash and share count that were public at that date, taken from the company's SEC filings (US filers, back to about 2008; Yahoo's 4–5 annual reports are the fallback for non-US filers). EBITDA is operating income plus D&amp;A, or pre-tax income plus interest plus D&amp;A when no operating-income line is reported. Dots = Yahoo's own quarterly and trailing snapshots. Dashed = average, grey = median, red = now. "Now vs avg" is green when the current multiple is below its average. Forward P/E and PEG need historical analyst estimates, which Yahoo does not keep, so they show snapshots only. Multiples are undefined (gaps) while earnings or EBITDA are negative, and a near-zero earnings year produces extreme values, which is why the median is shown and the charts clip at 3× median.</p>
 {% else %}<p class="muted">Valuation history unavailable{% if vhist.error %}: {{ vhist.error }}{% endif %}.</p>{% endif %}
 <h2 id="thesis">Research file <span class="muted small">thesis/{{ t }}.md</span></h2>
 {% if thesis_html %}<div class="md">{{ thesis_html|safe }}</div>
