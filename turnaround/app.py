@@ -68,8 +68,19 @@ def thesis_status(ticker: str) -> str | None:
 
 
 def as_of() -> str:
+    """Date the scan's price data runs through (taken from the data itself, since
+    file timestamps are not meaningful in a deployed bundle)."""
     p = OUT / "watchlist.json"
-    return datetime.fromtimestamp(p.stat().st_mtime).strftime("%Y-%m-%d %H:%M") if p.exists() else "never"
+    if not p.exists():
+        return "never"
+    try:
+        rows = json.loads(p.read_text(encoding="utf-8"))
+        bars = [r.get("last_bar") for r in rows if r.get("last_bar")]
+        if bars:
+            return "data through " + max(bars)
+    except Exception:  # noqa: BLE001
+        pass
+    return datetime.fromtimestamp(p.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
 
 
 # ------------------------------------------------------------------ formatting
@@ -278,7 +289,7 @@ pre.log{background:#111;color:#ddd;padding:10px;border-radius:6px;max-height:260
 </style></head><body>
 <header><a href="/" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
 <a href="/study" class="{{ 'active' if nav=='study' }}">Episode study</a><span class="sp"></span>
-<span class="muted small">last scan: {{ as_of }}</span>
+<span class="muted small">{{ as_of }}</span>
 {% if not on_vercel %}<button id="rescan" class="sec" onclick="rescan()">Rescan</button>{% else %}<span class="muted small">read-only deployment: rerun <code>scan.py</code> locally and push to update</span>{% endif %}</header>
 <main>{% block body %}{% endblock %}</main>
 <script>
