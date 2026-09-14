@@ -164,7 +164,7 @@ def write_markdown(wl: pd.DataFrame, args, as_of_label: str) -> Path:
     else:
         hdr = ["Ticker", "Name", "Sector", "RSI(m)", "Oversold since", "Months", "DD 5y", "Mkt cap",
                "ADV$ 3m", "Gate", "Runway", "ND/EBITDA", "P/E trail", "P/E fwd", "PEG", "P/S", "EV/Sales",
-               "EPS YoY", "Rev YoY", "Thesis"]
+               "EPS last q", "EPS YoY", "Rev YoY", "Thesis"]
         lines.append("| " + " | ".join(hdr) + " |")
         lines.append("|" + "---|" * len(hdr))
         for _, r in wl.iterrows():
@@ -188,6 +188,7 @@ def write_markdown(wl: pd.DataFrame, args, as_of_label: str) -> Path:
                 _num(r.get("peg"), 2),
                 _num(r.get("p_sales"), 2),
                 _num(r.get("ev_to_sales")),
+                _pct(r.get("eps_growth_last_q")),
                 _pct(r.get("eps_growth_yoy")),
                 _pct(r.get("revenue_yoy_last_q")),
                 thesis,
@@ -357,7 +358,7 @@ def main(argv=None):
     show = ["ticker", "sector", "rsi_m", "episode_start", "episode_months", "drawdown_5y", "adv_3m_usd"]
     if "survival_gate" in wl:
         show += ["market_cap", "survival_gate", "runway_months", "net_debt_to_ebitda", "pe_trailing", "pe_forward",
-                 "peg", "p_sales", "eps_growth_yoy"]
+                 "peg", "p_sales", "eps_growth_last_q", "eps_growth_yoy"]
     with pd.option_context("display.width", 200, "display.max_rows", 500):
         out = wl[show].copy()
         out["drawdown_5y"] = out["drawdown_5y"].map(_pct)
@@ -370,7 +371,8 @@ def main(argv=None):
                 out[c] = out[c].map(_num)
             for c in ("peg", "p_sales"):
                 out[c] = out[c].map(lambda v: _num(v, 2))
-            out["eps_growth_yoy"] = out["eps_growth_yoy"].map(_pct)
+            for c in ("eps_growth_last_q", "eps_growth_yoy"):
+                out[c] = out[c].map(_pct)
         print(out.to_string(index=False))
     print(f"\nwrote {OUT / 'screen_all.csv'}, {OUT / 'watchlist.csv'}, {OUT / 'watchlist.json'}, {md}")
 

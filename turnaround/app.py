@@ -98,7 +98,30 @@ def num(x, d=1):
     return f"{x:.{d}f}"
 
 
-app.jinja_env.filters.update(money=money, pct=pct, num=num)
+from markupsafe import Markup  # noqa: E402
+
+
+def _cls(x, good):
+    if x is None or (isinstance(x, float) and math.isnan(x)) or x == 0:
+        return ""
+    up = x > 0
+    return "pos" if (up if good == "up" else not up) else "neg"
+
+
+def pctc(x, good="up", signed=True):
+    """Percentage coloured by whether its sign is a good indicator."""
+    return Markup(f'<span class="{_cls(x, good)}">{pct(x, signed)}</span>')
+
+
+def moneyc(x, good="up"):
+    return Markup(f'<span class="{_cls(x, good)}">{money(x)}</span>')
+
+
+def numc(x, d=1, good="up"):
+    return Markup(f'<span class="{_cls(x, good)}">{num(x, d)}</span>')
+
+
+app.jinja_env.filters.update(money=money, pct=pct, num=num, pctc=pctc, moneyc=moneyc, numc=numc)
 
 
 # ------------------------------------------------------------------ SVG chart
@@ -226,7 +249,7 @@ HOME = """{% extends "base" %}{% block body %}
 <label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label><span id="count" class="muted small"></span></div>
 <table class="sortable filterable"><thead><tr>
 <th class="l">Ticker</th><th class="l">Name</th><th class="l">Sector</th><th>RSI(m)</th><th>Prev</th><th>Oversold since</th><th>Months</th><th>DD 5y</th>
-<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>P/E trail</th><th>P/E fwd</th><th>PEG</th><th>P/S</th><th>EV/Sales</th><th>EV/EBITDA</th><th title="TTM vs prior TTM when 8 quarters are available, otherwise latest fiscal year vs prior">EPS YoY</th><th title="latest quarter vs same quarter a year ago">EPS last q</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
+<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>P/E trail</th><th>P/E fwd</th><th>PEG</th><th>P/S</th><th>EV/Sales</th><th>EV/EBITDA</th><th title="latest quarter vs same quarter a year ago">EPS last q</th><th title="TTM vs prior TTM when 8 quarters are available, otherwise latest fiscal year vs prior">EPS YoY</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
 </tr></thead><tbody>
 {% for r in rows %}<tr data-ticker="{{ r.ticker }}" data-name="{{ r.name }}" data-gate="{{ r.survival_gate }}" data-sector="{{ r.sector }}" data-active="{{ 1 if r.oversold_now else 0 }}" data-prio="{{ 1 if r.priority else 0 }}">
 <td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a>{% if r.priority %} <span class="star" title="drawdown beyond 40%">★</span>{% endif %}</td>
@@ -234,17 +257,17 @@ HOME = """{% extends "base" %}{% block body %}
 <td data-v="{{ r.rsi_m }}" class="{{ 'neg' if r.oversold_now }}">{{ r.rsi_m|num }}</td><td data-v="{{ r.rsi_m_prev }}" class="muted">{{ r.rsi_m_prev|num }}</td>
 <td>{{ r.episode_start }}</td><td data-v="{{ r.episode_months }}">{{ r.episode_months }}{% if not r.episode_active %} <span class="muted small">exit {{ r.episode_exit }}</span>{% endif %}</td>
 <td data-v="{{ r.drawdown_5y }}" class="neg">{{ r.drawdown_5y|pct }}</td>
-<td data-v="{{ r.ret_12m }}" class="{{ 'pos' if r.ret_12m and r.ret_12m>0 else 'neg' }}">{{ r.ret_12m|pct }}</td>
+<td data-v="{{ r.ret_12m }}">{{ r.ret_12m|pctc }}</td>
 <td data-v="{{ r.market_cap or 0 }}">{{ r.market_cap|money }}</td><td data-v="{{ r.adv_3m_usd }}">{{ r.adv_3m_usd|money }}</td>
 <td><span class="gate {{ r.survival_gate }}">{{ r.survival_gate }}</span></td>
 <td data-v="{{ r.runway_months or 0 }}">{{ r.runway_months|num(0) }}</td><td data-v="{{ r.net_debt_to_ebitda or 0 }}">{{ r.net_debt_to_ebitda|num }}</td>
 <td data-v="{{ r.pe_trailing or 0 }}">{{ r.pe_trailing|num }}</td><td data-v="{{ r.pe_forward or 0 }}">{{ r.pe_forward|num }}</td>
 <td data-v="{{ r.peg or 0 }}">{{ r.peg|num(2) }}</td><td data-v="{{ r.p_sales or 0 }}">{{ r.p_sales|num(2) }}</td>
 <td data-v="{{ r.ev_to_sales or 0 }}">{{ r.ev_to_sales|num }}</td><td data-v="{{ r.ev_to_ebitda or 0 }}">{{ r.ev_to_ebitda|num }}</td>
-<td data-v="{{ r.eps_growth_yoy if r.eps_growth_yoy is not none else -9 }}" class="{{ 'pos' if r.eps_growth_yoy and r.eps_growth_yoy>0 else ('neg' if r.eps_growth_yoy is not none else '') }}">{{ r.eps_growth_yoy|pct }}</td>
-<td data-v="{{ r.eps_growth_last_q if r.eps_growth_last_q is not none else -9 }}" class="{{ 'pos' if r.eps_growth_last_q and r.eps_growth_last_q>0 else ('neg' if r.eps_growth_last_q is not none else '') }}">{{ r.eps_growth_last_q|pct }}</td>
-<td data-v="{{ r.revenue_yoy_last_q or 0 }}">{{ r.revenue_yoy_last_q|pct }}</td>
-<td data-v="{{ r.dilution_1y or 0 }}">{{ r.dilution_1y|pct }}</td>
+<td data-v="{{ r.eps_growth_last_q if r.eps_growth_last_q is not none else -9 }}">{{ r.eps_growth_last_q|pctc }}</td>
+<td data-v="{{ r.eps_growth_yoy if r.eps_growth_yoy is not none else -9 }}">{{ r.eps_growth_yoy|pctc }}</td>
+<td data-v="{{ r.revenue_yoy_last_q or 0 }}">{{ r.revenue_yoy_last_q|pctc }}</td>
+<td data-v="{{ r.dilution_1y or 0 }}" title="share count change: an increase dilutes you">{{ r.dilution_1y|pctc('down') }}</td>
 <td class="l">{% if r.has_thesis %}<a href="/ticker/{{ r.ticker }}#thesis"><span class="status">{{ r.status }}</span></a>{% else %}<span class="muted">—</span>{% endif %}</td>
 </tr>{% endfor %}</tbody></table>
 <p class="muted small">★ drawdown beyond 40% from the trailing 5-year high. Survival gate is a proxy from Yahoo statements: PASS = cash covers 24 months of current FCF burn plus debt due within a year; REVIEW = burn covered but maturities need refinancing; FAIL = cash does not cover 24 months of burn. Runway = cash ÷ monthly burn (∞ when FCF is positive). Click a column header to sort.</p>
@@ -264,8 +287,8 @@ ALL = """{% extends "base" %}{% block body %}
 <td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a></td><td class="l">{{ r.name }}</td><td class="l muted">{{ r.sector }}</td>
 <td data-v="{{ r.price }}">{{ r.price|num(2) }}</td><td data-v="{{ r.rsi_m }}" class="{{ 'neg' if r.oversold_now }}">{{ r.rsi_m|num }}</td><td data-v="{{ r.rsi_partial_month }}" class="muted">{{ r.rsi_partial_month|num }}</td>
 <td>{{ r.episode_start or '' }}</td><td data-v="{{ r.episode_months }}">{{ r.episode_months }}</td><td data-v="{{ r.months_since_oversold if r.months_since_oversold is not none else 999 }}">{{ r.months_since_oversold if r.months_since_oversold is not none else '' }}</td>
-<td data-v="{{ r.drawdown_5y }}" class="neg">{{ r.drawdown_5y|pct }}</td><td data-v="{{ r.ret_3m }}">{{ r.ret_3m|pct }}</td><td data-v="{{ r.ret_12m }}">{{ r.ret_12m|pct }}</td>
-<td data-v="{{ r.pct_vs_200dma or 0 }}">{{ r.pct_vs_200dma|pct }}</td><td data-v="{{ r.adv_3m_usd }}">{{ r.adv_3m_usd|money }}</td><td data-v="{{ r.years_history }}">{{ r.years_history }}</td><td data-v="{{ r.episodes_15y }}">{{ r.episodes_15y }}</td>
+<td data-v="{{ r.drawdown_5y }}" class="neg">{{ r.drawdown_5y|pct }}</td><td data-v="{{ r.ret_3m }}">{{ r.ret_3m|pctc }}</td><td data-v="{{ r.ret_12m }}">{{ r.ret_12m|pctc }}</td>
+<td data-v="{{ r.pct_vs_200dma or 0 }}">{{ r.pct_vs_200dma|pctc }}</td><td data-v="{{ r.adv_3m_usd }}">{{ r.adv_3m_usd|money }}</td><td data-v="{{ r.years_history }}">{{ r.years_history }}</td><td data-v="{{ r.episodes_15y }}">{{ r.episodes_15y }}</td>
 </tr>{% endfor %}</tbody></table>
 <script>applyFilters()</script>
 {% endblock %}"""
@@ -282,35 +305,45 @@ TICKER = """{% extends "base" %}{% block body %}
 <tr><td>Episode months / min RSI / exit</td><td>{{ r.episode_months }} / {{ r.episode_min_rsi|num }} / {{ r.episode_exit or 'still active' }}</td></tr>
 <tr><td>Distress episodes in 15 years</td><td>{{ r.episodes_15y }}</td></tr>
 <tr><td>Drawdown from 5-year high</td><td class="neg">{{ r.drawdown_5y|pct }} <span class="muted">(high {{ r.high_5y }} on {{ r.high_date }})</span></td></tr>
-<tr><td>Return 3m / 12m · vs 200-day MA</td><td>{{ r.ret_3m|pct }} / {{ r.ret_12m|pct }} · {{ r.pct_vs_200dma|pct }}</td></tr>
+<tr><td>Return, last 3 months</td><td>{{ r.ret_3m|pctc }}</td></tr>
+<tr><td>Return, last 12 months</td><td>{{ r.ret_12m|pctc }}</td></tr>
+<tr><td>Price vs 200-day moving average</td><td>{{ r.pct_vs_200dma|pctc }}</td></tr>
 <tr><td>Avg daily $ volume (3m) · history</td><td>{{ r.adv_3m_usd|money }} · {{ r.years_history }} y (since {{ r.first_bar }})</td></tr>
 </table>
 <h2>Survival gate <span class="muted small">(proxy, statements to {{ f.bs_date }})</span></h2><table class="kv">
 <tr><td>Cash &amp; short-term investments</td><td>{{ f.cash|money }}</td></tr>
 <tr><td>Total debt · due within 12 months · leases</td><td>{{ f.total_debt|money }} · {{ f.current_debt|money }} · {{ f.lease_obligations|money }}</td></tr>
-<tr><td>Operating cash flow / FCF (TTM, {{ f.ttm_quarters }} q)</td><td>{{ f.ocf_ttm|money }} / {{ f.fcf_ttm|money }}</td></tr>
-<tr><td>Annual burn · runway</td><td>{{ f.fcf_burn_annual|money }} · {{ f.runway_months|num(0) }} months</td></tr>
-<tr><td>24-month need (2×burn + current debt) · gap vs cash</td><td>{{ f.need_24m|money }} · <b class="{{ 'pos' if f.gap_24m is not none and f.gap_24m<=0 else 'neg' }}">{{ f.gap_24m|money }}</b></td></tr>
-<tr><td>Net debt / EBITDA · interest coverage · cash / debt</td><td>{{ f.net_debt_to_ebitda|num }} · {{ f.interest_coverage|num }} · {{ f.cash_to_debt|num(2) }}</td></tr>
-<tr><td>Share count change 1y · buybacks · issuance (TTM)</td><td>{{ f.dilution_1y|pct }} · {{ f.buybacks_ttm|money }} · {{ f.stock_issuance_ttm|money }}</td></tr>
+<tr><td>Operating cash flow (TTM, {{ f.ttm_quarters }} quarters)</td><td>{{ f.ocf_ttm|moneyc }}</td></tr>
+<tr><td>Free cash flow (TTM)</td><td>{{ f.fcf_ttm|moneyc }}</td></tr>
+<tr><td>Annual cash burn · runway</td><td>{{ f.fcf_burn_annual|moneyc('down') }} · {{ f.runway_months|num(0) }} months</td></tr>
+<tr><td>24-month need (2 × burn + debt due within a year)</td><td>{{ f.need_24m|money }}</td></tr>
+<tr><td>Funding gap (need − cash; negative = surplus)</td><td><b>{{ f.gap_24m|moneyc('down') }}</b></td></tr>
+<tr><td>Net debt / EBITDA</td><td>{{ f.net_debt_to_ebitda|num }}</td></tr>
+<tr><td>Interest coverage (EBIT ÷ interest)</td><td>{{ f.interest_coverage|num }}</td></tr>
+<tr><td>Cash / total debt</td><td>{{ f.cash_to_debt|num(2) }}</td></tr>
+<tr><td>Share count change, 1 year (increase = dilution)</td><td>{{ f.dilution_1y|pctc('down') }}</td></tr>
+<tr><td>Buybacks · stock issuance (TTM)</td><td>{{ f.buybacks_ttm|money }} · {{ f.stock_issuance_ttm|money }}</td></tr>
 </table></div>
 <div><h2>Price assessment <span class="muted small">(TTM)</span></h2><table class="kv">
 <tr><td>Market cap · enterprise value</td><td>{{ f.market_cap|money }} · {{ f.ev|money }}</td></tr>
 <tr><td>Revenue · EBITDA · net income</td><td>{{ f.revenue_ttm|money }} · {{ f.ebitda_ttm|money }} · {{ f.net_income_ttm|money }}</td></tr>
 <tr><td>P/E trailing · P/E forward · PEG</td><td><b>{{ f.pe_trailing|num }}</b> · <b>{{ f.pe_forward|num }}</b> · <b>{{ f.peg|num(2) }}</b></td></tr>
 <tr><td>P/S · EV/Sales · EV/EBITDA · P/FCF · P/B</td><td><b>{{ f.p_sales|num(2) }}</b> · {{ f.ev_to_sales|num }} · {{ f.ev_to_ebitda|num }} · {{ f.p_fcf|num }} · {{ f.p_book|num }}</td></tr>
-<tr><td>EPS TTM · forward estimate · implied growth</td><td>{{ f.eps_ttm|num(2) }} · {{ f.eps_forward|num(2) }} · {{ f.eps_forward_growth|pct }}</td></tr>
-<tr><td>EPS growth YoY ({{ f.eps_growth_basis or 'n/a' }}) · last quarter vs year-ago</td><td><b class="{{ 'pos' if f.eps_growth_yoy and f.eps_growth_yoy>0 else 'neg' }}">{{ f.eps_growth_yoy|pct }}</b> · {{ f.eps_growth_last_q|pct }}</td></tr>
-<tr><td>Yahoo earnings growth (yoy, latest quarter)</td><td class="muted">{{ f.earnings_growth_y|pct }}</td></tr>
-<tr><td>Revenue YoY, last quarter</td><td>{{ f.revenue_yoy_last_q|pct }}</td></tr>
+<tr><td>EPS, trailing 12 months</td><td>{{ f.eps_ttm|numc(2) }}</td></tr>
+<tr><td>EPS, forward estimate (analyst consensus)</td><td>{{ f.eps_forward|numc(2) }}</td></tr>
+<tr><td>EPS growth implied by the forward estimate</td><td>{{ f.eps_forward_growth|pctc }}</td></tr>
+<tr><td>EPS growth, last quarter vs year-ago quarter</td><td><b>{{ f.eps_growth_last_q|pctc }}</b></td></tr>
+<tr><td>EPS growth YoY ({{ f.eps_growth_basis or 'n/a' }})</td><td><b>{{ f.eps_growth_yoy|pctc }}</b></td></tr>
+<tr><td>Yahoo earnings growth (latest quarter, YoY)</td><td>{{ f.earnings_growth_y|pctc }}</td></tr>
+<tr><td>Revenue growth, last quarter vs year-ago quarter</td><td>{{ f.revenue_yoy_last_q|pctc }}</td></tr>
 <tr><td>Profitable years / reported</td><td>{{ f.profitable_years }} / {{ f.years_reported }}</td></tr>
 </table>
 <h2>Recent quarters <span class="muted small">(recovery evidence: demand + margin)</span></h2>
 <table><thead><tr><th class="l">Quarter</th><th>Revenue</th><th>Gross margin</th><th>Diluted EPS</th><th>EPS YoY</th></tr></thead><tbody>
-{% for q in quarters %}<tr><td class="l">{{ q.period }}</td><td>{{ q.revenue|money }}</td><td>{{ q.gm|pct(false) }}</td><td class="{{ 'neg' if q.eps is not none and q.eps<0 }}">{{ q.eps|num(2) }}</td><td>{{ q.eps_yoy|pct }}</td></tr>{% endfor %}
+{% for q in quarters %}<tr><td class="l">{{ q.period }}</td><td>{{ q.revenue|money }}</td><td>{{ q.gm|pct(false) }}</td><td>{{ q.eps|numc(2) }}</td><td>{{ q.eps_yoy|pctc }}</td></tr>{% endfor %}
 </tbody></table>
 <h2>Annual</h2><table><thead><tr><th class="l">Year</th><th>Revenue</th><th>Net income</th><th>Diluted EPS</th></tr></thead><tbody>
-{% for a in f.annual or [] %}<tr><td class="l">{{ a.year }}</td><td>{{ a.revenue|money }}</td><td class="{{ 'neg' if a.net_income and a.net_income<0 }}">{{ a.net_income|money }}</td><td class="{{ 'neg' if a.eps and a.eps<0 }}">{{ a.eps|num(2) }}</td></tr>{% endfor %}
+{% for a in f.annual or [] %}<tr><td class="l">{{ a.year }}</td><td>{{ a.revenue|money }}</td><td>{{ a.net_income|moneyc }}</td><td>{{ a.eps|numc(2) }}</td></tr>{% endfor %}
 </tbody></table></div></div>
 <h2 id="thesis">Research file <span class="muted small">thesis/{{ t }}.md</span></h2>
 {% if thesis_html %}<div class="md">{{ thesis_html|safe }}</div>
