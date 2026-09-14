@@ -1,12 +1,20 @@
 {
  "ticker": "GPK",
  "fetched": "2026-09-14",
- "market_cap": 2845247714.881892,
+ "market_cap": 2855610457.1158104,
  "shares_out": 296071573.0,
- "price": 9.609999656677246,
+ "price": 9.645000457763672,
  "long_name": "Graphic Packaging Holding Company",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Packaging & Containers",
+ "pe_trailing_y": 14.838463,
+ "pe_forward": 8.628866,
+ "peg": 3.33,
+ "p_sales_y": 0.3306253,
+ "eps_trailing_y": 0.65,
+ "eps_forward": 1.11776,
+ "earnings_growth_y": -0.765,
+ "earnings_growth_q_y": -0.769,
  "bs_date": "2026-06-30",
  "cash": 205000000.0,
  "total_debt": 5667000000.0,
@@ -48,6 +56,34 @@
    "value": 2204000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.34
+  }
+ ],
+ "eps_ttm": 0.6599999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3148148148148149,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.7647058823529411,
+ "eps_forward_growth": 0.693575757575758,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 8617000000.0,
+   "eps": 1.48,
    "net_income": 444000000.0
   },
   {
    "year": "2024",
    "revenue": 8807000000.0,
+   "eps": 2.16,
    "net_income": 658000000.0
   },
   {
    "year": "2023",
    "revenue": 9428000000.0,
+   "eps": 2.34,
    "net_income": 723000000.0
   },
   {
    "year": "2022",
    "revenue": 9440000000.0,
+   "eps": 1.69,
    "net_income": 522000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 5.147973609802073,
  "interest_coverage": 2.024193548387097,
  "cash_to_debt": 0.03617434268572437,
- "ev": 8307247714.881892,
- "ev_to_sales": 0.9618209696517185,
- "ev_to_ebitda": 7.829639693573885,
- "pe_ttm": 14.666225334442743,
- "p_fcf": 15.054220713660806,
- "p_book": 0.8792483667743796
+ "ev": 8317610457.11581,
+ "ev_to_sales": 0.9630207777139991,
+ "ev_to_ebitda": 7.839406651381537,
+ "pe_ttm": 14.719641531524795,
+ "pe_trailing": 14.838463,
+ "p_sales": 0.3306253,
+ "p_fcf": 15.10905003764979,
+ "p_book": 0.8824506975017955
 }

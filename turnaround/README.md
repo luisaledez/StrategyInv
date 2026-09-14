@@ -75,8 +75,12 @@ UNKNOWN     statements missing
 ```
 
 Also reported: runway in months, net debt / EBITDA, interest coverage,
-cash / debt, 1-year share-count change (dilution), and EV/Sales, EV/EBITDA,
-P/E, P/FCF, P/B for the price-assessment step. Yahoo cannot show undrawn
+cash / debt, 1-year share-count change (dilution), and for the
+price-assessment step: trailing P/E, forward P/E (analyst consensus EPS),
+PEG, P/S, EV/Sales, EV/EBITDA, P/FCF, P/B, EPS TTM and forward EPS, and
+EPS growth YoY (TTM vs prior TTM when eight quarters are available,
+otherwise latest fiscal year vs prior; `eps_growth_basis` says which),
+plus last-quarter EPS vs the year-ago quarter. Yahoo cannot show undrawn
 revolvers, covenants or the maturity ladder, so the gate ranks and flags;
 the thesis file's survival table is where the real assessment goes.
 

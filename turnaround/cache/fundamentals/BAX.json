@@ -1,12 +1,20 @@
 {
  "ticker": "BAX",
  "fetched": "2026-09-14",
- "market_cap": 12330354773.368322,
+ "market_cap": 12363959789.408974,
  "shares_out": 516995999.0,
- "price": 23.850000381469727,
+ "price": 23.915000915527344,
  "long_name": "Baxter International Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": null,
+ "pe_forward": 11.743764,
+ "peg": 36.68,
+ "p_sales_y": 1.077939,
+ "eps_trailing_y": -1.88,
+ "eps_forward": 2.0364,
+ "earnings_growth_y": 0.368,
+ "earnings_growth_q_y": 0.385,
  "bs_date": "2026-06-30",
  "cash": 2150000000.0,
  "total_debt": 9667000000.0,
@@ -48,6 +56,34 @@
    "value": 2810000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.03
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.19
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.09
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.18
+  }
+ ],
+ "eps_ttm": -2.07,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 0.33333333333333326,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 11244000000.0,
+   "eps": -1.87,
    "net_income": -957000000.0
   },
   {
    "year": "2024",
    "revenue": 10636000000.0,
+   "eps": -1.27,
    "net_income": -649000000.0
   },
   {
    "year": "2023",
    "revenue": 10360000000.0,
+   "eps": 5.25,
    "net_income": 2656000000.0
   },
   {
    "year": "2022",
    "revenue": 10057000000.0,
+   "eps": -4.83,
    "net_income": -2433000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 9.86482939632546,
  "interest_coverage": -0.6541095890410958,
  "cash_to_debt": 0.22240612392676115,
- "ev": 19847354773.368324,
- "ev_to_sales": 1.730370947983289,
- "ev_to_ebitda": 26.046397340378377,
+ "ev": 19880959789.408974,
+ "ev_to_sales": 1.733300766295464,
+ "ev_to_ebitda": 26.090498411297865,
  "pe_ttm": null,
- "p_fcf": 15.185165977054584,
- "p_book": 1.9868441465305064
+ "pe_trailing": null,
+ "p_sales": 1.077939,
+ "p_fcf": 15.226551464789376,
+ "p_book": 1.9922590701593577
 }

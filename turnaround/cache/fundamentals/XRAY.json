@@ -1,12 +1,20 @@
 {
  "ticker": "XRAY",
  "fetched": "2026-09-14",
- "market_cap": 2082251173.9820251,
+ "market_cap": 2090225321.4172783,
  "shares_out": 199353876.0,
- "price": 10.444999694824219,
+ "price": 10.484999656677246,
  "long_name": "DENTSPLY SIRONA Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": null,
+ "pe_forward": 6.9077063,
+ "peg": 0.68,
+ "p_sales_y": 0.5737648,
+ "eps_trailing_y": -2.73,
+ "eps_forward": 1.51787,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 239000000.0,
  "total_debt": 2312000000.0,
@@ -48,6 +56,34 @@
    "value": 936000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.18
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.74
+  },
+  {
+   "period": "2025-09-30",
+   "value": -2.14
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.22
+  }
+ ],
+ "eps_ttm": -2.75,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 3680000000.0,
+   "eps": -3.0,
    "net_income": -598000000.0
   },
   {
    "year": "2024",
    "revenue": 3793000000.0,
+   "eps": -4.48,
    "net_income": -910000000.0
   },
   {
    "year": "2023",
    "revenue": 3965000000.0,
+   "eps": -0.62,
    "net_income": -132000000.0
   },
   {
    "year": "2022",
    "revenue": 3922000000.0,
+   "eps": -4.41,
    "net_income": -950000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 22.29032258064516,
  "interest_coverage": -2.8131868131868134,
  "cash_to_debt": 0.10337370242214533,
- "ev": 4155251173.982025,
- "ev_to_sales": 1.140612455114473,
- "ev_to_ebitda": 44.68012015034436,
+ "ev": 4163225321.4172783,
+ "ev_to_sales": 1.1428013509243147,
+ "ev_to_ebitda": 44.76586367115353,
  "pe_ttm": null,
- "p_fcf": 14.561197020853323,
- "p_book": 1.5412665980621947
+ "pe_trailing": null,
+ "p_sales": 0.5737648,
+ "p_fcf": 14.616960289631317,
+ "p_book": 1.5471690017892512
 }

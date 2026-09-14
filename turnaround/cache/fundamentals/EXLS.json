@@ -1,12 +1,20 @@
 {
  "ticker": "EXLS",
  "fetched": "2026-09-14",
- "market_cap": 5471695112.044231,
+ "market_cap": 5494437218.236546,
  "shares_out": 151612499.0,
- "price": 36.09000015258789,
+ "price": 36.2400016784668,
  "long_name": "ExlService Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 22.936708,
+ "pe_forward": 13.954456,
+ "peg": 0.92,
+ "p_sales_y": 2.4558184,
+ "eps_trailing_y": 1.58,
+ "eps_forward": 2.59702,
+ "earnings_growth_y": 0.05,
+ "earnings_growth_q_y": -0.023,
  "bs_date": "2026-06-30",
  "cash": 283824000.0,
  "total_debt": 488019000.0,
@@ -48,6 +56,34 @@
    "value": 514460000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.38
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4
+  }
+ ],
+ "eps_ttm": 1.5899999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2727272727272727,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.04999999999999982,
+ "eps_forward_growth": 0.6333459119496858,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2087679000.0,
+   "eps": 1.54,
    "net_income": 251019000.0
   },
   {
    "year": "2024",
    "revenue": 1838372000.0,
+   "eps": 1.21,
    "net_income": 198297000.0
   },
   {
    "year": "2023",
    "revenue": 1630668000.0,
+   "eps": 1.1,
    "net_income": 184558000.0
   },
   {
    "year": "2022",
    "revenue": 1412044000.0,
+   "eps": 0.846,
    "net_income": 142968000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.46896100316935374,
  "interest_coverage": 18.881509558338827,
  "cash_to_debt": 0.5815839137410633,
- "ev": 5675890112.044231,
- "ev_to_sales": 2.536921555063005,
- "ev_to_ebitda": 13.035437306610241,
- "pe_ttm": 21.88686799564891,
- "p_fcf": 19.894468767885773,
- "p_book": 6.316589488900598
+ "ev": 5698632218.236546,
+ "ev_to_sales": 2.5470864698636606,
+ "ev_to_ebitda": 13.087667581269914,
+ "pe_ttm": 21.97783678429332,
+ "pe_trailing": 22.936708,
+ "p_sales": 2.4558184,
+ "p_fcf": 19.97715651128051,
+ "p_book": 6.34284324500145
 }

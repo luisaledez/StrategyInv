@@ -1,12 +1,20 @@
 {
  "ticker": "ADP",
  "fetched": "2026-09-14",
- "market_cap": 108420951516.37851,
+ "market_cap": 108524231584.02081,
  "shares_out": 397262737.0,
- "price": 272.9200134277344,
+ "price": 273.17999267578125,
  "long_name": "Automatic Data Processing, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 24.947945,
+ "pe_forward": 20.388939,
+ "peg": 2.49,
+ "p_sales_y": 4.944742,
+ "eps_trailing_y": 10.95,
+ "eps_forward": 13.39844,
+ "earnings_growth_y": 0.098,
+ "earnings_growth_q_y": 0.075,
  "bs_date": "2026-06-30",
  "cash": 4230100000.0,
  "total_debt": 5270800000.0,
@@ -48,6 +56,34 @@
    "value": 5126800000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.45
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.38
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.49
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.23
+  }
+ ],
+ "eps_ttm": 10.94,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0967032967032968,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.09865470852017943,
+ "eps_forward_growth": 0.2247202925045706,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 21947400000.0,
+   "eps": null,
    "net_income": 4413500000.0
   },
   {
    "year": "2025",
    "revenue": 20560900000.0,
+   "eps": 9.98,
    "net_income": 4079700000.0
   },
   {
    "year": "2024",
    "revenue": 19202600000.0,
+   "eps": 9.1,
    "net_income": 3752000000.0
   },
   {
    "year": "2023",
    "revenue": 18012200000.0,
+   "eps": 8.21,
    "net_income": 3412000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.15359978746642264,
  "interest_coverage": 13.47887630662021,
  "cash_to_debt": 0.8025536920391592,
- "ev": 109461651516.37851,
- "ev_to_sales": 4.9874314394066985,
- "ev_to_ebitda": 16.155747485960756,
- "pe_ttm": 24.566309764892942,
- "p_fcf": 22.70072894545309,
- "p_book": 17.976679850838725
+ "ev": 109564931584.02081,
+ "ev_to_sales": 4.992137217633936,
+ "ev_to_ebitda": 16.170990876408894,
+ "pe_ttm": 24.589711239411976,
+ "pe_trailing": 24.947945,
+ "p_sales": 4.944742,
+ "p_fcf": 22.72235329746463,
+ "p_book": 17.993804149094842
 }

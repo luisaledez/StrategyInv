@@ -1,12 +1,20 @@
 {
  "ticker": "TTD",
  "fetched": "2026-09-14",
- "market_cap": 6775672433.329014,
+ "market_cap": 6843804828.440424,
  "shares_out": 469880194.0,
- "price": 14.420000076293945,
+ "price": 14.5649995803833,
  "long_name": "The Trade Desk, Inc.",
  "sector_y": "Communication Services",
  "industry_y": "Advertising Agencies",
+ "pe_trailing_y": 17.339285,
+ "pe_forward": 14.451841,
+ "peg": 1.03,
+ "p_sales_y": 2.2887921,
+ "eps_trailing_y": 0.84,
+ "eps_forward": 1.00783,
+ "earnings_growth_y": -0.236,
+ "earnings_growth_q_y": -0.286,
  "bs_date": "2026-06-30",
  "cash": 1485333000.0,
  "total_debt": 434110000.0,
@@ -48,6 +56,34 @@
    "value": 694039000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.23
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.18
+  }
+ ],
+ "eps_ttm": 0.8400000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.15384615384615374,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2222222222222221,
+ "eps_forward_growth": 0.19979761904761895,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2896284000.0,
+   "eps": 0.9,
    "net_income": 443304000.0
   },
   {
    "year": "2024",
    "revenue": 2444831000.0,
+   "eps": 0.78,
    "net_income": 393076000.0
   },
   {
    "year": "2023",
    "revenue": 1946120000.0,
+   "eps": 0.36,
    "net_income": 178940000.0
   },
   {
    "year": "2022",
    "revenue": 1577795000.0,
+   "eps": 0.11,
    "net_income": 53385000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -1.4486320152797567,
  "interest_coverage": null,
  "cash_to_debt": 3.421559051853217,
- "ev": 5724449433.329014,
- "ev_to_sales": 1.9144432241351448,
- "ev_to_ebitda": 7.888545740504604,
- "pe_ttm": 16.652426302395288,
- "p_fcf": 7.98418220432177,
- "p_book": 2.631991442246054
+ "ev": 5792581828.440424,
+ "ev_to_sales": 1.937228926705197,
+ "ev_to_ebitda": 7.982435209091268,
+ "pe_ttm": 16.81987384351572,
+ "pe_trailing": 17.339285,
+ "p_sales": 2.2887921,
+ "p_fcf": 8.064466701829433,
+ "p_book": 2.6584572849557575
 }

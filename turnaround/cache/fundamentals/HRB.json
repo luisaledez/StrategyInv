@@ -1,12 +1,20 @@
 {
  "ticker": "HRB",
  "fetched": "2026-09-14",
- "market_cap": 5699816440.177757,
+ "market_cap": 5681326363.788887,
  "shares_out": 123265922.0,
- "price": 46.2400016784668,
+ "price": 46.09000015258789,
  "long_name": "H&R Block, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Personal Services",
+ "pe_trailing_y": 8.100176,
+ "pe_forward": 6.6604047,
+ "peg": 0.57,
+ "p_sales_y": 1.4399902,
+ "eps_trailing_y": 5.69,
+ "eps_forward": 6.92,
+ "earnings_growth_y": 0.045,
+ "earnings_growth_q_y": -0.019,
  "bs_date": "2026-06-30",
  "cash": 958706000.0,
  "total_debt": 2102353000.0,
@@ -48,6 +56,34 @@
    "value": 1111011000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.3
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6.6
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.92
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.26
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.2
+  }
+ ],
+ "eps_ttm": 5.719999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2892938496583144,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.04545454545454519,
+ "eps_forward_growth": 0.20979020979021,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 3945392000.0,
+   "eps": 5.66,
    "net_income": 733596000.0
   },
   {
    "year": "2025",
    "revenue": 3760995000.0,
+   "eps": 4.39,
    "net_income": 605773000.0
   },
   {
    "year": "2024",
    "revenue": 3610347000.0,
+   "eps": 4.12,
    "net_income": 595317000.0
   },
   {
    "year": "2023",
    "revenue": 3472185000.0,
+   "eps": 3.51,
    "net_income": 553700000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.0820369008996735,
  "interest_coverage": 11.592698266985895,
  "cash_to_debt": 0.4560157119189784,
- "ev": 6843463440.177757,
- "ev_to_sales": 1.7345458804037108,
- "ev_to_ebitda": 6.474795082949685,
- "pe_ttm": 7.769694000754853,
- "p_fcf": 7.538632025110745,
- "p_book": 48.514030711032255
+ "ev": 6824973363.788887,
+ "ev_to_sales": 1.7298593812196321,
+ "ev_to_ebitda": 6.457301096646908,
+ "pe_ttm": 7.744489288094383,
+ "pe_trailing": 8.100176,
+ "p_sales": 1.4399902,
+ "p_fcf": 7.514176872304538,
+ "p_book": 48.35665228609634
 }

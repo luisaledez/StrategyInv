@@ -1,12 +1,20 @@
 {
  "ticker": "ROP",
  "fetched": "2026-09-14",
- "market_cap": 39176613725.965576,
+ "market_cap": 39309140534.93976,
  "shares_out": 98900874.0,
- "price": 396.1199951171875,
+ "price": 397.4599914550781,
  "long_name": "Roper Technologies, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 16.553936,
+ "pe_forward": 16.361488,
+ "peg": 1.53,
+ "p_sales_y": 4.7473087,
+ "eps_trailing_y": 24.01,
+ "eps_forward": 24.29241,
+ "earnings_growth_y": 2.33,
+ "earnings_growth_q_y": 2.089,
  "bs_date": "2026-06-30",
  "cash": 364900000.0,
  "total_debt": 11319400000.0,
@@ -48,6 +56,34 @@
    "value": 1943600000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 11.62
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.87
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.97
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.68
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.49
+  }
+ ],
+ "eps_ttm": 24.139999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.010452961672473893,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.3295128939828076,
+ "eps_forward_growth": 0.006313587406793886,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 7902500000.0,
+   "eps": 14.2,
    "net_income": 1536300000.0
   },
   {
    "year": "2024",
    "revenue": 7039200000.0,
+   "eps": 14.35,
    "net_income": 1549300000.0
   },
   {
    "year": "2023",
    "revenue": 6177800000.0,
+   "eps": 12.89,
    "net_income": 1384200000.0
   },
   {
    "year": "2022",
    "revenue": 5371800000.0,
+   "eps": 42.55,
    "net_income": 4544700000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.5523660849507213,
  "interest_coverage": 8.558547117094234,
  "cash_to_debt": 0.03223669099068855,
- "ev": 50131113725.965576,
- "ev_to_sales": 6.054262976699586,
- "ev_to_ebitda": 11.680401157055284,
- "pe_ttm": 15.643738260578036,
- "p_fcf": 15.297389194051377,
- "p_book": 2.094972472418388
+ "ev": 50263640534.93976,
+ "ev_to_sales": 6.070268050063374,
+ "ev_to_ebitda": 11.711279511391169,
+ "pe_ttm": 15.69665796228078,
+ "pe_trailing": 16.553936,
+ "p_sales": 4.7473087,
+ "p_fcf": 15.349137264716813,
+ "p_book": 2.102059353857412
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "ZTS",
  "fetched": "2026-09-14",
- "market_cap": 30545487903.204987,
+ "market_cap": 30673589363.62419,
  "shares_out": 413223602.0,
- "price": 73.91999816894531,
+ "price": 74.2300033569336,
  "long_name": "Zoetis Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Drug Manufacturers - Specialty & Generic",
+ "pe_trailing_y": 12.109299,
+ "pe_forward": 11.365029,
+ "peg": 6.79,
+ "p_sales_y": 3.2203243,
+ "eps_trailing_y": 6.13,
+ "eps_forward": 6.53144,
+ "earnings_growth_y": 0.012,
+ "earnings_growth_q_y": -0.048,
  "bs_date": "2026-06-30",
  "cash": 1673000000.0,
  "total_debt": 9238000000.0,
@@ -48,6 +56,34 @@
    "value": 2474000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.65
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.42
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.63
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.61
+  }
+ ],
+ "eps_ttm": 6.069999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.10054844606946989,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.024844720496894235,
+ "eps_forward_growth": 0.07601976935749599,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 9467000000.0,
+   "eps": 6.02,
    "net_income": 2673000000.0
   },
   {
    "year": "2024",
    "revenue": 9256000000.0,
+   "eps": 5.47,
    "net_income": 2486000000.0
   },
   {
    "year": "2023",
    "revenue": 8544000000.0,
+   "eps": 5.07,
    "net_income": 2344000000.0
   },
   {
    "year": "2022",
    "revenue": 8080000000.0,
+   "eps": 4.49,
    "net_income": 2114000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.8950400801603207,
  "interest_coverage": 14.747899159663865,
  "cash_to_debt": 0.18109980515263044,
- "ev": 38110487903.20499,
- "ev_to_sales": 4.004464421898181,
- "ev_to_ebitda": 9.546715406614476,
- "pe_ttm": 11.67640974893157,
- "p_fcf": 13.188898058378664,
- "p_book": 9.703141011183286
+ "ev": 38238589363.62419,
+ "ev_to_sales": 4.017924699340568,
+ "ev_to_ebitda": 9.578804950807664,
+ "pe_ttm": 11.725378197104048,
+ "pe_trailing": 12.109299,
+ "p_sales": 3.2203243,
+ "p_fcf": 13.24420956978592,
+ "p_book": 9.743833978279604
 }

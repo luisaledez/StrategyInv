@@ -1,12 +1,20 @@
 {
  "ticker": "BF-B",
  "fetched": "2026-09-14",
- "market_cap": 12198906064.922218,
+ "market_cap": 12146136779.472914,
  "shares_out": 458864265.0,
- "price": 26.584999084472656,
+ "price": 26.469999313354492,
  "long_name": "Brown-Forman Corporation",
  "sector_y": "Consumer Defensive",
  "industry_y": "Beverages - Wineries & Distilleries",
+ "pe_trailing_y": 17.07742,
+ "pe_forward": 15.444758,
+ "peg": 2.0,
+ "p_sales_y": 3.1024613,
+ "eps_trailing_y": 1.55,
+ "eps_forward": 1.71385,
+ "earnings_growth_y": 0.057,
+ "earnings_growth_q_y": 0.035,
  "bs_date": "2026-07-31",
  "cash": 301000000.0,
  "total_debt": 2442000000.0,
@@ -48,6 +56,34 @@
    "value": 924000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.38
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.12
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.58
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.47
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.36
+  }
+ ],
+ "eps_ttm": 1.55,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.1684782608695652,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.05555555555555558,
+ "eps_forward_growth": 0.10570967741935489,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 3928000000.0,
+   "eps": 1.53,
    "net_income": 715000000.0
   },
   {
    "year": "2025",
    "revenue": 3975000000.0,
+   "eps": 1.84,
    "net_income": 869000000.0
   },
   {
    "year": "2024",
    "revenue": 4178000000.0,
+   "eps": 2.14,
    "net_income": 1024000000.0
   },
   {
    "year": "2023",
    "revenue": 4228000000.0,
+   "eps": 1.63,
    "net_income": 783000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.9642201834862385,
  "interest_coverage": 9.679611650485437,
  "cash_to_debt": 0.12325962325962327,
- "ev": 14339906064.922218,
- "ev_to_sales": 3.662811255407974,
- "ev_to_ebitda": 13.15587712378185,
- "pe_ttm": 16.919425887548154,
- "p_fcf": 13.188006556672669,
- "p_book": 3.073546501618095
+ "ev": 14287136779.472914,
+ "ev_to_sales": 3.6493325107210506,
+ "ev_to_ebitda": 13.107464935296251,
+ "pe_ttm": 16.846236864733584,
+ "pe_trailing": 17.07742,
+ "p_sales": 3.1024613,
+ "p_fcf": 13.130958680511258,
+ "p_book": 3.060251141212626
 }

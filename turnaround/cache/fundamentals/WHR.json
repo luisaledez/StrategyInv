@@ -1,12 +1,20 @@
 {
  "ticker": "WHR",
  "fetched": "2026-09-14",
- "market_cap": 2277414293.437271,
+ "market_cap": 2254209847.143379,
  "shares_out": 65199378.0,
- "price": 34.93000030517578,
+ "price": 34.574100494384766,
  "long_name": "Whirlpool Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Furnishings, Fixtures & Appliances",
+ "pe_trailing_y": 11.373059,
+ "pe_forward": 9.382464,
+ "peg": 1.04,
+ "p_sales_y": 0.15107632,
+ "eps_trailing_y": 3.04,
+ "eps_forward": 3.68497,
+ "earnings_growth_y": -0.011,
+ "earnings_growth_q_y": 0.354,
  "bs_date": "2026-06-30",
  "cash": 1239000000.0,
  "total_debt": 8057000000.0,
@@ -48,6 +56,34 @@
    "value": 3773000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.91
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.17
+  }
+ ],
+ "eps_ttm": 2.92,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.017094017094017144,
+ "eps_forward_growth": 0.2619760273972602,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 15524000000.0,
+   "eps": 5.66,
    "net_income": 318000000.0
   },
   {
    "year": "2024",
    "revenue": 16607000000.0,
+   "eps": -5.87,
    "net_income": -323000000.0
   },
   {
    "year": "2023",
    "revenue": 19455000000.0,
+   "eps": 8.72,
    "net_income": 481000000.0
   },
   {
    "year": "2022",
    "revenue": 19724000000.0,
+   "eps": -27.18,
    "net_income": -1519000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 6.942973523421589,
  "interest_coverage": 1.9316770186335404,
  "cash_to_debt": 0.15377932232841007,
- "ev": 9095414293.437271,
- "ev_to_sales": 0.6095713620693834,
- "ev_to_ebitda": 9.262132681708016,
- "pe_ttm": 12.178686061161878,
+ "ev": 9072209847.14338,
+ "ev_to_sales": 0.6080162085076992,
+ "ev_to_ebitda": 9.238502899331344,
+ "pe_ttm": 12.054598113066199,
+ "pe_trailing": 11.373059,
+ "p_sales": 0.15107632,
  "p_fcf": null,
- "p_book": 0.5790527061879662
+ "p_book": 0.5731527706949858
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "NOW",
  "fetched": "2026-09-14",
- "market_cap": 142724652255.09644,
+ "market_cap": 143937155815.2771,
  "shares_out": 1033862000.0,
- "price": 138.0500030517578,
+ "price": 139.22279357910156,
  "long_name": "ServiceNow, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 87.014244,
+ "pe_forward": 27.81391,
+ "peg": 0.95,
+ "p_sales_y": 9.770374,
+ "eps_trailing_y": 1.6,
+ "eps_forward": 5.00551,
+ "earnings_growth_y": -0.219,
+ "earnings_growth_q_y": -0.226,
  "bs_date": "2026-06-30",
  "cash": 4664000000.0,
  "total_debt": 8453000000.0,
@@ -48,6 +56,34 @@
    "value": 3215000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.29
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.45
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.38
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.368
+  }
+ ],
+ "eps_ttm": 1.6,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2207602339181285,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2119565217391305,
+ "eps_forward_growth": 2.1284437499999997,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 13278000000.0,
+   "eps": 1.67,
    "net_income": 1748000000.0
   },
   {
    "year": "2024",
    "revenue": 10984000000.0,
+   "eps": 1.368,
    "net_income": 1425000000.0
   },
   {
    "year": "2023",
    "revenue": 8971000000.0,
+   "eps": 1.684,
    "net_income": 1731000000.0
   },
   {
    "year": "2022",
    "revenue": 7245000000.0,
+   "eps": 0.32,
    "net_income": 325000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.0825714285714285,
  "interest_coverage": 29.265060240963855,
  "cash_to_debt": 0.5517567727434047,
- "ev": 146513652255.09644,
- "ev_to_sales": 9.945265561708963,
- "ev_to_ebitda": 41.86104350145612,
- "pe_ttm": 85.46386362580625,
- "p_fcf": 31.223944925639124,
- "p_book": 11.4033758593078
+ "ev": 147726155815.2771,
+ "ev_to_sales": 10.027569631772815,
+ "ev_to_ebitda": 42.20747309007917,
+ "pe_ttm": 86.18991366184258,
+ "pe_trailing": 87.014244,
+ "p_sales": 9.770374,
+ "p_fcf": 31.4892049475557,
+ "p_book": 11.500252142479793
 }

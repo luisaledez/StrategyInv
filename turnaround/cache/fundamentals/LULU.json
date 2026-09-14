@@ -1,12 +1,20 @@
 {
  "ticker": "LULU",
  "fetched": "2026-09-14",
- "market_cap": 11160124103.911018,
+ "market_cap": 11149263588.305473,
  "shares_out": 110710025.0,
- "price": 100.80500030517578,
+ "price": 100.70690155029297,
  "long_name": "lululemon athletica inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Apparel Retail",
+ "pe_trailing_y": 8.288634,
+ "pe_forward": 11.463585,
+ "peg": 1.0,
+ "p_sales_y": 1.0049856,
+ "eps_trailing_y": 12.15,
+ "eps_forward": 8.78494,
+ "earnings_growth_y": -0.059,
+ "earnings_growth_q_y": -0.112,
  "bs_date": "2026-07-31",
  "cash": 1389737000.0,
  "total_debt": 2141127000.0,
@@ -48,6 +56,34 @@
    "value": 2525219000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2.92
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.69
+  },
+  {
+   "period": "2026-01-31",
+   "value": 5.01
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2.59
+  },
+  {
+   "period": "2025-07-31",
+   "value": 3.1
+  }
+ ],
+ "eps_ttm": 12.209999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.09426229508196726,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.058064516129032295,
+ "eps_forward_growth": -0.28051269451269445,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 11102600000.0,
+   "eps": 13.26,
    "net_income": 1579183000.0
   },
   {
    "year": "2025",
    "revenue": 10588126000.0,
+   "eps": 14.64,
    "net_income": 1814616000.0
   },
   {
    "year": "2024",
    "revenue": 9619278000.0,
+   "eps": 12.2,
    "net_income": 1550190000.0
   },
   {
    "year": "2023",
    "revenue": 8110518000.0,
+   "eps": 6.68,
    "net_income": 854800000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.2983569896435313,
  "interest_coverage": null,
  "cash_to_debt": 0.6490679908291288,
- "ev": 11911514103.911018,
- "ev_to_sales": 1.0736941067374997,
- "ev_to_ebitda": 4.729745525145872,
- "pe_ttm": 7.870454953719996,
- "p_fcf": 8.240291998374863,
- "p_book": 2.329308871669244
+ "ev": 11900653588.305473,
+ "ev_to_sales": 1.0727151487729554,
+ "ev_to_ebitda": 4.725433103178522,
+ "pe_ttm": 7.862795791684543,
+ "pe_trailing": 8.288634,
+ "p_sales": 1.0049856,
+ "p_fcf": 8.232272928066205,
+ "p_book": 2.327042096218061
 }

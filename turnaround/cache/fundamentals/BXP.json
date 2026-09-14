@@ -1,12 +1,20 @@
 {
  "ticker": "BXP",
  "fetched": "2026-09-14",
- "market_cap": 10321320751.646759,
+ "market_cap": 10275817841.60968,
  "shares_out": 159661556.0,
- "price": 64.6449966430664,
+ "price": 64.36000061035156,
  "long_name": "BXP, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Office",
+ "pe_trailing_y": 34.60215,
+ "pe_forward": 28.95421,
+ "peg": 2.4,
+ "p_sales_y": 3.6490498,
+ "eps_trailing_y": 1.86,
+ "eps_forward": 2.22282,
+ "earnings_growth_y": -0.232,
+ "earnings_growth_q_y": -0.229,
  "bs_date": "2026-06-30",
  "cash": 493949000.0,
  "total_debt": 16358486000.0,
@@ -48,6 +56,34 @@
    "value": 868457000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.43
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.64
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.56
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.77
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.56
+  }
+ ],
+ "eps_ttm": 1.8599999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 18.333333333333336,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2321428571428572,
+ "eps_forward_growth": 0.1950645161290323,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 3482279000.0,
+   "eps": 1.74,
    "net_income": 276800000.0
   },
   {
    "year": "2024",
    "revenue": 3407719000.0,
+   "eps": 0.09,
    "net_income": 14272000.0
   },
   {
    "year": "2023",
    "revenue": 3273569000.0,
+   "eps": 1.20864,
    "net_income": 190215000.0
   },
   {
    "year": "2022",
    "revenue": 3108581000.0,
+   "eps": 5.4,
    "net_income": 848947000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 8.016262902694432,
  "interest_coverage": 1.65370025726208,
  "cash_to_debt": 0.030195276017597226,
- "ev": 26185857751.64676,
- "ev_to_sales": 7.446665803575636,
- "ev_to_ebitda": 13.23156925851409,
- "pe_ttm": 34.77791733769605,
- "p_fcf": 8.035282796143838,
- "p_book": 1.9990658181111476
+ "ev": 26140354841.60968,
+ "ev_to_sales": 7.433725804918728,
+ "ev_to_ebitda": 13.208576889452523,
+ "pe_ttm": 34.62459428127988,
+ "pe_trailing": 34.60215,
+ "p_sales": 3.6490498,
+ "p_fcf": 7.999858187317773,
+ "p_book": 1.9902526715896427
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "CLX",
  "fetched": "2026-09-14",
- "market_cap": 10736254476.279144,
+ "market_cap": 10748335398.058548,
  "shares_out": 120931005.0,
- "price": 88.77999877929688,
+ "price": 88.87989807128906,
  "long_name": "The Clorox Company",
  "sector_y": "Consumer Defensive",
  "industry_y": "Household & Personal Products",
+ "pe_trailing_y": 18.47815,
+ "pe_forward": 14.196729,
+ "peg": 1.1,
+ "p_sales_y": 1.5994548,
+ "eps_trailing_y": 4.81,
+ "eps_forward": 6.26059,
+ "earnings_growth_y": -0.501,
+ "earnings_growth_q_y": -0.509,
  "bs_date": "2026-06-30",
  "cash": 143000000.0,
  "total_debt": 5520000000.0,
@@ -48,6 +56,34 @@
    "value": 1988000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 1.54
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.29
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.65
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.68
+  },
+  {
+   "period": "2025-03-31",
+   "value": 1.5
+  }
+ ],
+ "eps_ttm": 6.16,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.1377777777777776,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.026666666666666616,
+ "eps_forward_growth": 0.016329545454545347,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 6720000000.0,
+   "eps": 4.81,
    "net_income": 587000000.0
   },
   {
    "year": "2025",
    "revenue": 7104000000.0,
+   "eps": null,
    "net_income": 810000000.0
   },
   {
    "year": "2024",
    "revenue": 7093000000.0,
+   "eps": 2.25,
    "net_income": 280000000.0
   },
   {
    "year": "2023",
    "revenue": 7389000000.0,
+   "eps": 1.2,
    "net_income": 149000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 4.603595890410959,
  "interest_coverage": 7.084615384615384,
  "cash_to_debt": 0.025905797101449274,
- "ev": 16113254476.279144,
- "ev_to_sales": 2.3978057256367773,
- "ev_to_ebitda": 13.795594585855431,
- "pe_ttm": 18.290041697238745,
- "p_fcf": 26.509270311800357,
- "p_book": 119.2917164031016
+ "ev": 16125335398.058548,
+ "ev_to_sales": 2.3996034818539504,
+ "ev_to_ebitda": 13.805937840803551,
+ "pe_ttm": 18.310622483915754,
+ "pe_trailing": 18.47815,
+ "p_sales": 1.5994548,
+ "p_fcf": 26.53909974829271,
+ "p_book": 119.4259488673172
 }

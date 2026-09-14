@@ -1,12 +1,20 @@
 {
  "ticker": "FBIN",
  "fetched": "2026-09-14",
- "market_cap": 4831383388.5,
+ "market_cap": 4793806125.969578,
  "shares_out": 119293417.0,
- "price": 40.5,
+ "price": 40.185001373291016,
  "long_name": "Fortune Brands Innovations, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 32.407257,
+ "pe_forward": 11.640437,
+ "peg": 1.43,
+ "p_sales_y": 1.0915108,
+ "eps_trailing_y": 1.24,
+ "eps_forward": 3.45219,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 209700000.0,
  "total_debt": 2799900000.0,
@@ -48,6 +56,34 @@
    "value": 1203300000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.63
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.59
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.42
+  }
+ ],
+ "eps_ttm": 1.23,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.34133333333333327,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.4523809523809523,
+ "eps_forward_growth": 1.8066585365853656,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4463200000.0,
+   "eps": 2.47,
    "net_income": 298800000.0
   },
   {
    "year": "2024",
    "revenue": 4609000000.0,
+   "eps": 3.75,
    "net_income": 471900000.0
   },
   {
    "year": "2023",
    "revenue": 4626200000.0,
+   "eps": 3.17,
    "net_income": 404500000.0
   },
   {
    "year": "2022",
    "revenue": 4723000000.0,
+   "eps": 5.23,
    "net_income": 686700000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 5.498195712163023,
  "interest_coverage": 2.689844464775846,
  "cash_to_debt": 0.07489553198328512,
- "ev": 7421583388.5,
- "ev_to_sales": 1.689834328764316,
- "ev_to_ebitda": 15.75373251645086,
- "pe_ttm": 32.447168492276695,
- "p_fcf": 12.063379247191012,
- "p_book": 2.0929576280107436
+ "ev": 7384006125.969578,
+ "ev_to_sales": 1.6812782909377668,
+ "ev_to_ebitda": 15.673967577944339,
+ "pe_ttm": 32.19480272645788,
+ "pe_trailing": 32.407257,
+ "p_sales": 1.0915108,
+ "p_fcf": 11.969553373207436,
+ "p_book": 2.0766791396506576
 }

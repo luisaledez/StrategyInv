@@ -1,12 +1,20 @@
 {
  "ticker": "ACN",
  "fetched": "2026-09-14",
- "market_cap": 115598923353.64536,
+ "market_cap": 115868179375.60464,
  "shares_out": 611942109.0,
- "price": 188.90499877929688,
+ "price": 189.34500122070312,
  "long_name": "Accenture plc",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 15.123402,
+ "pe_forward": 12.902573,
+ "peg": 1.34,
+ "p_sales_y": 1.5850511,
+ "eps_trailing_y": 12.52,
+ "eps_forward": 14.67498,
+ "earnings_growth_y": 0.09,
+ "earnings_growth_q_y": 0.064,
  "bs_date": "2026-05-31",
  "cash": 10171567000.0,
  "total_debt": 8388770000.0,
@@ -48,6 +56,34 @@
    "value": 17727871000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 3.8
+  },
+  {
+   "period": "2026-02-28",
+   "value": 2.93
+  },
+  {
+   "period": "2025-11-30",
+   "value": 3.54
+  },
+  {
+   "period": "2025-08-31",
+   "value": 2.25
+  },
+  {
+   "period": "2025-05-31",
+   "value": 3.49
+  }
+ ],
+ "eps_ttm": 12.52,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.062062937062937085,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.08882521489971329,
+ "eps_forward_growth": 0.17212300319488816,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 69672977000.0,
+   "eps": 12.15,
    "net_income": 7678433000.0
   },
   {
    "year": "2024",
    "revenue": 64896464000.0,
+   "eps": 11.44,
    "net_income": 7264787000.0
   },
   {
    "year": "2023",
    "revenue": 64111745000.0,
+   "eps": 10.77,
    "net_income": 6871557000.0
   },
   {
    "year": "2022",
    "revenue": 61594305000.0,
+   "eps": 10.71,
    "net_income": 6877169000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -0.14458179070866606,
  "interest_coverage": 41.0625500810702,
  "cash_to_debt": 1.2125218595813212,
- "ev": 113816126353.64536,
- "ev_to_sales": 1.5569794794918612,
- "ev_to_ebitda": 9.230293387151676,
- "pe_ttm": 14.839872097808167,
- "p_fcf": 9.187870765325396,
- "p_book": 3.6248627055927876
+ "ev": 114085382375.60464,
+ "ev_to_sales": 1.56066284242426,
+ "ev_to_ebitda": 9.252129590496176,
+ "pe_ttm": 14.874437514262924,
+ "pe_trailing": 15.123402,
+ "p_sales": 1.5850511,
+ "p_fcf": 9.209271393123455,
+ "p_book": 3.6333058301820245
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "FND",
  "fetched": "2026-09-14",
- "market_cap": 5060403185.547237,
+ "market_cap": 5064662881.641712,
  "shares_out": 106489965.0,
- "price": 47.52000045776367,
+ "price": 47.560001373291016,
  "long_name": "Floor & Decor Holdings, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Home Improvement Retail",
+ "pe_trailing_y": 22.224298,
+ "pe_forward": 21.577871,
+ "peg": null,
+ "p_sales_y": 1.0749016,
+ "eps_trailing_y": 2.14,
+ "eps_forward": 2.20411,
+ "earnings_growth_y": 0.534,
+ "earnings_growth_q_y": 0.517,
  "bs_date": "2026-06-30",
  "cash": 320614000.0,
  "total_debt": 2012794000.0,
@@ -48,6 +56,34 @@
    "value": 1214150000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.89
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.53
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.45
+  }
+ ],
+ "eps_ttm": 2.1500000000000004,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.010526315789473717,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.9777777777777779,
+ "eps_forward_growth": 0.025167441860465045,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4684088000.0,
+   "eps": 1.92,
    "net_income": 208647000.0
   },
   {
    "year": "2024",
    "revenue": 4455770000.0,
+   "eps": 1.9,
    "net_income": 205872000.0
   },
   {
    "year": "2023",
    "revenue": 4413884000.0,
+   "eps": 2.28,
    "net_income": 245980000.0
   },
   {
    "year": "2022",
    "revenue": 4264473000.0,
+   "eps": 2.78,
    "net_income": 298195000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.0177945335934684,
  "interest_coverage": 20.666206805938774,
  "cash_to_debt": 0.15928803444366388,
- "ev": 6752583185.547237,
- "ev_to_sales": 1.433138200902009,
- "ev_to_ebitda": 12.04240011404202,
- "pe_ttm": 21.796111407792726,
- "p_fcf": 23.937913903921235,
- "p_book": 2.0275074725515942
+ "ev": 6756842881.641712,
+ "ev_to_sales": 1.4340422598420441,
+ "ev_to_ebitda": 12.049996757182036,
+ "pe_ttm": 21.814458722667496,
+ "pe_trailing": 22.224298,
+ "p_sales": 1.0749016,
+ "p_fcf": 23.9580641240969,
+ "p_book": 2.0292141677190885
 }

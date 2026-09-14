@@ -1,12 +1,20 @@
 {
  "ticker": "PAYX",
  "fetched": "2026-09-14",
- "market_cap": 41685312845.116905,
+ "market_cap": 41891782171.27662,
  "shares_out": 355980473.0,
- "price": 117.0999984741211,
+ "price": 117.68000030517578,
  "long_name": "Paychex, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 24.065441,
+ "pe_forward": 18.419245,
+ "peg": 2.04,
+ "p_sales_y": 10.5574045,
+ "eps_trailing_y": 4.89,
+ "eps_forward": 6.38897,
+ "earnings_growth_y": 0.434,
+ "earnings_growth_q_y": 0.415,
  "bs_date": "2026-05-31",
  "cash": 1124500000.0,
  "total_debt": 4608300000.0,
@@ -48,6 +56,34 @@
    "value": 1427300000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 1.17
+  },
+  {
+   "period": "2026-02-28",
+   "value": 1.56
+  },
+  {
+   "period": "2025-11-30",
+   "value": 1.1
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1.06
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.82
+  }
+ ],
+ "eps_ttm": 4.890000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.06768558951965065,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.42682926829268286,
+ "eps_forward_growth": 0.3065378323108383,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 6512000000.0,
+   "eps": 4.89,
    "net_income": 1760100000.0
   },
   {
    "year": "2025",
    "revenue": 5571700000.0,
+   "eps": 4.58,
    "net_income": 1657300000.0
   },
   {
    "year": "2024",
    "revenue": 5278300000.0,
+   "eps": 4.67,
    "net_income": 1690400000.0
   },
   {
    "year": "2023",
    "revenue": 5007100000.0,
+   "eps": 4.3,
    "net_income": 1557300000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.1524313595765796,
  "interest_coverage": 9.574768089053803,
  "cash_to_debt": 0.24401623158214525,
- "ev": 45169112845.116905,
- "ev_to_sales": 6.936288827567092,
- "ev_to_ebitda": 14.941817017901721,
- "pe_ttm": 23.683491190907848,
- "p_fcf": 17.953877528261224,
- "p_book": 11.160427524060108
+ "ev": 45375582171.27662,
+ "ev_to_sales": 6.967994805171471,
+ "ev_to_ebitda": 15.010116497279729,
+ "pe_ttm": 23.800796642961547,
+ "pe_trailing": 24.065441,
+ "p_sales": 10.5574045,
+ "p_fcf": 18.04280393284375,
+ "p_book": 11.215705649454263
 }

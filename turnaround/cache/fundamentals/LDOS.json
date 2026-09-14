@@ -1,12 +1,20 @@
 {
  "ticker": "LDOS",
  "fetched": "2026-09-14",
- "market_cap": 16705522249.325073,
+ "market_cap": 16622698846.678024,
  "shares_out": 125492209.0,
- "price": 133.1199951171875,
+ "price": 132.4600067138672,
  "long_name": "Leidos Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 12.367881,
+ "pe_forward": 10.388776,
+ "peg": 2.46,
+ "p_sales_y": 0.94265044,
+ "eps_trailing_y": 10.71,
+ "eps_forward": 12.7503,
+ "earnings_growth_y": -0.067,
+ "earnings_growth_q_y": -0.095,
  "bs_date": "2026-06-30",
  "cash": 748000000.0,
  "total_debt": 6578000000.0,
@@ -48,6 +56,34 @@
    "value": 4253000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.81
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.56
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.53
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.82
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.01
+  }
+ ],
+ "eps_ttm": 10.72,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20824295010845995,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.06644518272425237,
+ "eps_forward_growth": 0.18939365671641784,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 17174000000.0,
+   "eps": 11.14,
    "net_income": 1448000000.0
   },
   {
    "year": "2024",
    "revenue": 16662000000.0,
+   "eps": 9.22,
    "net_income": 1254000000.0
   },
   {
    "year": "2023",
    "revenue": 15438000000.0,
+   "eps": 1.44,
    "net_income": 199000000.0
   },
   {
    "year": "2022",
    "revenue": 14396000000.0,
+   "eps": 4.96,
    "net_income": 685000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.5150992234685075,
  "interest_coverage": 9.040358744394618,
  "cash_to_debt": 0.11371237458193979,
- "ev": 22535522249.325073,
- "ev_to_sales": 1.2779586168382144,
- "ev_to_ebitda": 9.721968183487952,
- "pe_ttm": 12.14064116956764,
- "p_fcf": 7.723311257200681,
- "p_book": 3.161529570273481
+ "ev": 22452698846.678024,
+ "ev_to_sales": 1.2732618150548953,
+ "ev_to_ebitda": 9.686237638773953,
+ "pe_ttm": 12.080449743225309,
+ "pe_trailing": 12.367881,
+ "p_sales": 0.94265044,
+ "p_fcf": 7.685020271233483,
+ "p_book": 3.145855194299399
 }

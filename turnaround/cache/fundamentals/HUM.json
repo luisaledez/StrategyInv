@@ -1,12 +1,20 @@
 {
  "ticker": "HUM",
  "fetched": "2026-09-14",
- "market_cap": 49534930013.60889,
+ "market_cap": 49408242503.60315,
  "shares_out": 120080308.0,
- "price": 412.5150146484375,
+ "price": 411.4599914550781,
  "long_name": "Humana Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Healthcare Plans",
+ "pe_trailing_y": 38.92715,
+ "pe_forward": 24.834576,
+ "peg": 1.37,
+ "p_sales_y": 0.33915827,
+ "eps_trailing_y": 10.57,
+ "eps_forward": 16.56803,
+ "earnings_growth_y": 0.271,
+ "earnings_growth_q_y": 0.273,
  "bs_date": "2026-06-30",
  "cash": 23871000000.0,
  "total_debt": 14247000000.0,
@@ -48,26 +56,58 @@
    "value": 32388000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.73
+  },
+  {
+   "period": "2026-03-31",
+   "value": 9.83
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.62
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4.51
+  },
+  {
+   "period": "2025-03-31",
+   "value": 10.3
+  }
+ ],
+ "eps_ttm": 21.689999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.014028056112224463,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4436893203883495,
+ "eps_forward_growth": -0.23614430613185788,
  "gross_margin_quarters": [],
  "annual": [
   {
    "year": "2025",
    "revenue": 129664000000.0,
+   "eps": 9.84,
    "net_income": 1188000000.0
   },
   {
    "year": "2024",
    "revenue": 117761000000.0,
+   "eps": 9.98,
    "net_income": 1207000000.0
   },
   {
    "year": "2023",
    "revenue": 106374000000.0,
+   "eps": 20.0,
    "net_income": 2489000000.0
   },
   {
    "year": "2022",
    "revenue": 92870000000.0,
+   "eps": 22.08,
    "net_income": 2806000000.0
   }
  ],
@@ -82,10 +122,12 @@
  "net_debt_to_ebitda": null,
  "interest_coverage": 3.372159090909091,
  "cash_to_debt": 1.6755106338176458,
- "ev": 39910930013.60889,
- "ev_to_sales": 0.27396488178535605,
+ "ev": 39784242503.60315,
+ "ev_to_sales": 0.27309524710907646,
  "ev_to_ebitda": null,
- "pe_ttm": 38.72942143362696,
- "p_fcf": 25.41556183356023,
- "p_book": 2.5781986162290575
+ "pe_ttm": 38.63036943205876,
+ "pe_trailing": 38.92715,
+ "p_sales": 0.33915827,
+ "p_fcf": 25.350560545717368,
+ "p_book": 2.5716047729976137
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "MZTI",
  "fetched": "2026-09-14",
- "market_cap": 2884112888.3285522,
+ "market_cap": 2865827968.2998657,
  "shares_out": 27291000.0,
- "price": 105.68000030517578,
+ "price": 105.01000213623047,
  "long_name": "The Marzetti Company",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
+ "pe_trailing_y": 15.044413,
+ "pe_forward": 14.516173,
+ "peg": 3.12,
+ "p_sales_y": 1.4850212,
+ "eps_trailing_y": 6.98,
+ "eps_forward": 7.234,
+ "earnings_growth_y": 0.495,
+ "earnings_growth_q_y": 0.485,
  "bs_date": "2026-06-30",
  "cash": 25096000.0,
  "total_debt": 253781000.0,
@@ -48,6 +56,34 @@
    "value": 457836000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.76
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.35
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.15
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.18
+  },
+  {
+   "period": "2025-03-31",
+   "value": 1.49
+  }
+ ],
+ "eps_ttm": 6.4399999999999995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1499176276771006,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.18120805369127524,
+ "eps_forward_growth": 0.12329192546583867,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 1929823000.0,
+   "eps": 6.98,
    "net_income": 191606000.0
   },
   {
    "year": "2025",
    "revenue": 1909122000.0,
+   "eps": 6.07,
    "net_income": 167347000.0
   },
   {
    "year": "2024",
    "revenue": 1871759000.0,
+   "eps": 5.76,
    "net_income": 158613000.0
   },
   {
    "year": "2023",
    "revenue": 1822527000.0,
+   "eps": 4.04,
    "net_income": 111286000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.7643317424029733,
  "interest_coverage": null,
  "cash_to_debt": 0.09888841166202356,
- "ev": 3112797888.3285522,
- "ev_to_sales": 1.6282214191859894,
- "ev_to_ebitda": 10.403875347025203,
- "pe_ttm": 16.298751014837567,
- "p_fcf": 12.753209793270567,
- "p_book": 2.738558503848979
+ "ev": 3094512968.2998657,
+ "ev_to_sales": 1.618657065987717,
+ "ev_to_ebitda": 10.342761829368929,
+ "pe_ttm": 16.1954189434475,
+ "pe_trailing": 15.044413,
+ "p_sales": 1.4850212,
+ "p_fcf": 12.672356015971248,
+ "p_book": 2.7211963806673936
 }

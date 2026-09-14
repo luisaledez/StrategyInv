@@ -1,12 +1,20 @@
 {
  "ticker": "IT",
  "fetched": "2026-09-14",
- "market_cap": 11940208497.709229,
+ "market_cap": 11966730952.0,
  "shares_out": 63148976.0,
- "price": 189.0800018310547,
+ "price": 189.5,
  "long_name": "Gartner, Inc.",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 17.041367,
+ "pe_forward": 11.584057,
+ "peg": 0.72,
+ "p_sales_y": 1.851396,
+ "eps_trailing_y": 11.12,
+ "eps_forward": 16.35869,
+ "earnings_growth_y": 0.331,
+ "earnings_growth_q_y": 0.144,
  "bs_date": "2026-06-30",
  "cash": 1488706000.0,
  "total_debt": 3232707000.0,
@@ -48,6 +56,34 @@
    "value": 1686454000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.36
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.47
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.11
+  }
+ ],
+ "eps_ttm": 11.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.396875,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3311897106109325,
+ "eps_forward_growth": 0.4671470852017936,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 6497226000.0,
+   "eps": 9.65,
    "net_income": 729231000.0
   },
   {
    "year": "2024",
    "revenue": 6267411000.0,
+   "eps": 16.0,
    "net_income": 1253715000.0
   },
   {
    "year": "2023",
    "revenue": 5906956000.0,
+   "eps": 11.08,
    "net_income": 882466000.0
   },
   {
    "year": "2022",
    "revenue": 5475846000.0,
+   "eps": 9.96,
    "net_income": 807799000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.2793875669128851,
  "interest_coverage": 8.186313006967644,
  "cash_to_debt": 0.46051374281677865,
- "ev": 13684209497.709229,
- "ev_to_sales": 2.1171103491614813,
- "ev_to_ebitda": 10.03864533013479,
- "pe_ttm": 15.399746047543923,
- "p_fcf": 9.263558771916568,
+ "ev": 13710731952.0,
+ "ev_to_sales": 2.1212136890346067,
+ "ev_to_ebitda": 10.058102026698396,
+ "pe_ttm": 15.433953076735568,
+ "pe_trailing": 17.041367,
+ "p_sales": 1.851396,
+ "p_fcf": 9.284135658337368,
  "p_book": null
 }

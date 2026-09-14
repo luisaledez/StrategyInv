@@ -1,12 +1,20 @@
 {
  "ticker": "OLED",
  "fetched": "2026-09-14",
- "market_cap": 3769280470.0,
+ "market_cap": 3720555737.1237183,
  "shares_out": 45966835.0,
- "price": 82.0,
+ "price": 80.94000244140625,
  "long_name": "Universal Display Corporation",
  "sector_y": "Technology",
  "industry_y": "Electronic Components",
+ "pe_trailing_y": 19.550726,
+ "pe_forward": 16.999916,
+ "peg": 1.0,
+ "p_sales_y": 6.1303453,
+ "eps_trailing_y": 4.14,
+ "eps_forward": 4.7612,
+ "earnings_growth_y": -0.249,
+ "earnings_growth_q_y": -0.265,
  "bs_date": "2026-06-30",
  "cash": 471312000.0,
  "total_debt": 16863000.0,
@@ -48,6 +56,34 @@
    "value": 171794000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.76
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.92
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.41
+  }
+ ],
+ "eps_ttm": 4.13,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09247311827956972,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.24822695035460984,
+ "eps_forward_growth": 0.1528329297820823,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 650611000.0,
+   "eps": 5.08,
    "net_income": 242075000.0
   },
   {
    "year": "2024",
    "revenue": 647684000.0,
+   "eps": 4.65,
    "net_income": 222079000.0
   },
   {
    "year": "2023",
    "revenue": 576429000.0,
+   "eps": 4.24,
    "net_income": 203011000.0
   },
   {
    "year": "2022",
    "revenue": 616619000.0,
+   "eps": 4.4,
    "net_income": 210061000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -1.7645900799105374,
  "interest_coverage": null,
  "cash_to_debt": 27.949475182351893,
- "ev": 3314831470.0,
- "ev_to_sales": 5.461835187540781,
- "ev_to_ebitda": 12.87123247831388,
- "pe_ttm": 19.2620779930909,
- "p_fcf": 22.17015145633352,
- "p_book": 2.2383365865680105
+ "ev": 3266106737.1237183,
+ "ev_to_sales": 5.381551630764001,
+ "ev_to_ebitda": 12.682038134658645,
+ "pe_ttm": 19.013080973016283,
+ "pe_trailing": 19.550726,
+ "p_sales": 6.1303453,
+ "p_fcf": 21.883562353682702,
+ "p_book": 2.2094020583110208
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "PLNT",
  "fetched": "2026-09-14",
- "market_cap": 3916013298.7884827,
+ "market_cap": 3846900449.5408707,
  "shares_out": 75533093.0,
- "price": 51.845001220703125,
+ "price": 50.93000030517578,
  "long_name": "Planet Fitness, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Leisure",
+ "pe_trailing_y": 17.32313,
+ "pe_forward": 13.898592,
+ "peg": 0.92,
+ "p_sales_y": 2.9677587,
+ "eps_trailing_y": 2.94,
+ "eps_forward": 3.6644,
+ "earnings_growth_y": 0.261,
+ "earnings_growth_q_y": 0.156,
  "bs_date": "2026-06-30",
  "cash": 400758000.0,
  "total_debt": 2964600000.0,
@@ -48,6 +56,34 @@
    "value": 340879000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.87
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.73
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.69
+  }
+ ],
+ "eps_ttm": 2.95,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.31000000000000005,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.26086956521739135,
+ "eps_forward_growth": 0.24216949152542377,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 1324144000.0,
+   "eps": 2.62,
    "net_income": 219104000.0
   },
   {
    "year": "2024",
    "revenue": 1181654000.0,
+   "eps": 2.0,
    "net_income": 172042000.0
   },
   {
    "year": "2023",
    "revenue": 1071326000.0,
+   "eps": 1.62,
    "net_income": 138313000.0
   },
   {
    "year": "2022",
    "revenue": 936772000.0,
+   "eps": 1.18,
    "net_income": 99402000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 4.163189550464734,
  "interest_coverage": 3.733552039530736,
  "cash_to_debt": 0.1351811374215746,
- "ev": 6479855298.788483,
- "ev_to_sales": 4.5987013337869325,
- "ev_to_ebitda": 10.522046939101454,
- "pe_ttm": 16.463937115997556,
- "p_fcf": 14.964779001950776,
+ "ev": 6410742449.540871,
+ "ev_to_sales": 4.549652498996403,
+ "ev_to_ebitda": 10.409820876890716,
+ "pe_ttm": 16.173368745284378,
+ "pe_trailing": 17.32313,
+ "p_sales": 2.9677587,
+ "p_fcf": 14.700668939938057,
  "p_book": null
 }

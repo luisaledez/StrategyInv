@@ -1,12 +1,20 @@
 {
  "ticker": "EFX",
  "fetched": "2026-09-14",
- "market_cap": 20105777031.59619,
+ "market_cap": 20073469402.26709,
  "shares_out": 117484896.0,
- "price": 171.13499450683594,
+ "price": 170.86000061035156,
  "long_name": "Equifax Inc.",
  "sector_y": "Industrials",
  "industry_y": "Consulting Services",
+ "pe_trailing_y": 29.97544,
+ "pe_forward": 16.796429,
+ "peg": 1.4,
+ "p_sales_y": 3.114822,
+ "eps_trailing_y": 5.7,
+ "eps_forward": 10.1724,
+ "earnings_growth_y": 0.007,
+ "earnings_growth_q_y": -0.039,
  "bs_date": "2026-06-30",
  "cash": 170100000.0,
  "total_debt": 5467100000.0,
@@ -48,6 +56,34 @@
    "value": 1537000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.54
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.42
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.44
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.53
+  }
+ ],
+ "eps_ttm": 5.69,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09917355371900838,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.006535947712418277,
+ "eps_forward_growth": 0.7877680140597538,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 6074500000.0,
+   "eps": 5.32,
    "net_income": 660300000.0
   },
   {
    "year": "2024",
    "revenue": 5681100000.0,
+   "eps": 4.84,
    "net_income": 604100000.0
   },
   {
    "year": "2023",
    "revenue": 5265200000.0,
+   "eps": 4.4,
    "net_income": 545300000.0
   },
   {
    "year": "2022",
    "revenue": 5122200000.0,
+   "eps": 5.65,
    "net_income": 696200000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.773153238050364,
  "interest_coverage": 5.242110009017132,
  "cash_to_debt": 0.031113387353441494,
- "ev": 25402777031.59619,
- "ev_to_sales": 3.9417762482110623,
- "ev_to_ebitda": 13.299186970104284,
- "pe_ttm": 29.079804789696546,
- "p_fcf": 18.19527333176126,
- "p_book": 4.590150456964566
+ "ev": 25370469402.26709,
+ "ev_to_sales": 3.936763038601457,
+ "ev_to_ebitda": 13.282272866481907,
+ "pe_ttm": 29.033076948607302,
+ "pe_trailing": 29.97544,
+ "p_sales": 3.114822,
+ "p_fcf": 18.16603565816026,
+ "p_book": 4.582774622680948
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "BSX",
  "fetched": "2026-09-14",
- "market_cap": 63968990393.100494,
+ "market_cap": 64512451465.350494,
  "shares_out": 1449229526.0,
- "price": 44.13999938964844,
+ "price": 44.51499938964844,
  "long_name": "Boston Scientific Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Medical Devices",
+ "pe_trailing_y": 18.016193,
+ "pe_forward": 12.97569,
+ "peg": 0.6,
+ "p_sales_y": 3.0715716,
+ "eps_trailing_y": 2.47,
+ "eps_forward": 3.42949,
+ "earnings_growth_y": 0.151,
+ "earnings_growth_q_y": 0.138,
  "bs_date": "2026-06-30",
  "cash": 539000000.0,
  "total_debt": 12624000000.0,
@@ -48,6 +56,34 @@
    "value": 5061000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.61
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.45
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.53
+  }
+ ],
+ "eps_ttm": 2.4699999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.552,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.15094339622641506,
+ "eps_forward_growth": 0.38845748987854267,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 20074000000.0,
+   "eps": 1.94,
    "net_income": 2898000000.0
   },
   {
    "year": "2024",
    "revenue": 16747000000.0,
+   "eps": 1.25,
    "net_income": 1854000000.0
   },
   {
    "year": "2023",
    "revenue": 14240000000.0,
+   "eps": 1.07,
    "net_income": 1593000000.0
   },
   {
    "year": "2022",
    "revenue": 12682000000.0,
+   "eps": 0.45,
    "net_income": 698000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.1438708532907573,
  "interest_coverage": 11.636363636363637,
  "cash_to_debt": 0.04269645120405577,
- "ev": 76053990393.1005,
- "ev_to_sales": 3.6223085536816773,
- "ev_to_ebitda": 13.491926626414847,
- "pe_ttm": 17.406527998122584,
- "p_fcf": 35.42026046129595,
- "p_book": 2.565944259651043
+ "ev": 76597451465.3505,
+ "ev_to_sales": 3.648192582651481,
+ "ev_to_ebitda": 13.588336254275411,
+ "pe_ttm": 17.554408562000134,
+ "pe_trailing": 18.016193,
+ "p_sales": 3.0715716,
+ "p_fcf": 35.721180213372364,
+ "p_book": 2.5877437410890693
 }

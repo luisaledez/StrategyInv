@@ -1,12 +1,20 @@
 {
  "ticker": "APTV",
  "fetched": "2026-09-14",
- "market_cap": 9183622135.083004,
+ "market_cap": 9223072182.832016,
  "shares_out": 207633331.0,
- "price": 44.22999954223633,
+ "price": 44.41999816894531,
  "long_name": "Aptiv PLC",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Auto Parts",
+ "pe_trailing_y": 20.099546,
+ "pe_forward": 6.7935343,
+ "peg": 0.95,
+ "p_sales_y": 0.44951123,
+ "eps_trailing_y": 2.21,
+ "eps_forward": 6.53857,
+ "earnings_growth_y": -0.353,
+ "earnings_growth_q_y": -0.369,
  "bs_date": "2026-06-30",
  "cash": 761000000.0,
  "total_debt": 5684000000.0,
@@ -48,6 +56,34 @@
    "value": 3199000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.88
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.64
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.63
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.8
+  }
+ ],
+ "eps_ttm": 1.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.8922413793103449,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.3500000000000001,
+ "eps_forward_growth": 5.168462264150943,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 20398000000.0,
+   "eps": 0.75,
    "net_income": 165000000.0
   },
   {
    "year": "2024",
    "revenue": 19713000000.0,
+   "eps": 6.96,
    "net_income": 1787000000.0
   },
   {
    "year": "2023",
    "revenue": 20051000000.0,
+   "eps": 10.39,
    "net_income": 2938000000.0
   },
   {
    "year": "2022",
    "revenue": 17489000000.0,
+   "eps": 1.96,
    "net_income": 594000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.360019175455417,
  "interest_coverage": 3.323170731707317,
  "cash_to_debt": 0.13388458831808586,
- "ev": 14106622135.083004,
- "ev_to_sales": 0.7533576574143126,
- "ev_to_ebitda": 6.762522595917068,
- "pe_ttm": 41.743736977650016,
- "p_fcf": 13.426348150706147,
- "p_book": 1.049197090721239
+ "ev": 14146072182.832016,
+ "ev_to_sales": 0.7554644690430983,
+ "ev_to_ebitda": 6.781434411712376,
+ "pe_ttm": 41.92305537650916,
+ "pe_trailing": 20.099546,
+ "p_sales": 0.44951123,
+ "p_fcf": 13.484023659111134,
+ "p_book": 1.053704122338857
 }

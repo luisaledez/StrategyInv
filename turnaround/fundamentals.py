@@ -99,6 +99,18 @@ def fetch(ticker: str) -> dict:
         out["industry_y"] = info.get("industry")
         if math.isnan(out.get("market_cap", math.nan)) and info.get("marketCap"):
             out["market_cap"] = float(info["marketCap"])
+        # valuation fields Yahoo computes itself (forward figures use analyst consensus)
+        def _f(k):
+            v = info.get(k)
+            return float(v) if isinstance(v, (int, float)) else math.nan
+        out["pe_trailing_y"] = _f("trailingPE")
+        out["pe_forward"] = _f("forwardPE")
+        out["peg"] = _f("pegRatio") if not math.isnan(_f("pegRatio")) else _f("trailingPegRatio")
+        out["p_sales_y"] = _f("priceToSalesTrailing12Months")
+        out["eps_trailing_y"] = _f("trailingEps")
+        out["eps_forward"] = _f("forwardEps")
+        out["earnings_growth_y"] = _f("earningsGrowth")
+        out["earnings_growth_q_y"] = _f("earningsQuarterlyGrowth")
     except Exception as e:  # noqa: BLE001
         out["warn_info"] = str(e)[:120]
 
@@ -151,6 +163,28 @@ def fetch(ticker: str) -> dict:
     if rev_q is not None and gp_q is not None:
         gm_q = (gp_q / rev_q).replace([math.inf, -math.inf], math.nan)
 
+    # EPS: TTM vs prior-year TTM from quarterly diluted EPS
+    eps_q = _row(qis, "Diluted EPS", "Basic EPS")
+    eps_ttm, _ = _ttm(eps_q)
+    eps_prior = math.nan
+    if eps_q is not None and eps_q.dropna().shape[0] >= 8:
+        eps_prior = float(eps_q.dropna().iloc[4:8].sum())
+    eps_growth_yoy = _safe_div(eps_ttm, eps_prior) - 1.0 if not math.isnan(eps_prior) and eps_prior > 0 else math.nan
+    eps_growth_last_q = math.nan
+    if eps_q is not None and eps_q.dropna().shape[0] >= 5:
+        e = eps_q.dropna()
+        eps_growth_last_q = _safe_div(float(e.iloc[0]), float(e.iloc[4])) - 1.0 if float(e.iloc[4]) > 0 else math.nan
+    a_eps = _row(ais, "Diluted EPS", "Basic EPS")
+    # Yahoo usually serves only 5 quarters, so fall back to fiscal-year EPS growth
+    eps_growth_basis = "ttm" if not math.isnan(eps_growth_yoy) else None
+    if math.isnan(eps_growth_yoy) and a_eps is not None and a_eps.dropna().shape[0] >= 2:
+        ae = a_eps.dropna()
+        if float(ae.iloc[1]) > 0:
+            eps_growth_yoy = float(ae.iloc[0]) / float(ae.iloc[1]) - 1.0
+            eps_growth_basis = "fiscal year"
+        else:
+            eps_growth_basis = "n/a (prior year loss)"
+
     rev_list = _list(rev_q)
     yoy = math.nan
     if rev_q is not None and rev_q.dropna().shape[0] >= 5:
@@ -165,6 +199,7 @@ def fetch(ticker: str) -> dict:
         for k in a_rev.dropna().index:
             annual.append({"year": str(k.year) if hasattr(k, "year") else str(k),
                            "revenue": float(a_rev[k]),
+                           "eps": float(a_eps[k]) if a_eps is not None and k in a_eps and not math.isnan(a_eps[k]) else math.nan,
                            "net_income": float(a_ni[k]) if a_ni is not None and k in a_ni and not math.isnan(a_ni[k]) else math.nan})
     profitable_years = sum(1 for a in annual if not math.isnan(a["net_income"]) and a["net_income"] > 0)
 
@@ -208,6 +243,11 @@ def fetch(ticker: str) -> dict:
         "ebit_ttm": ebit, "interest_ttm": interest,
         "revenue_yoy_last_q": yoy,
         "revenue_quarters": rev_list,
+        "eps_quarters": _list(eps_q),
+        "eps_ttm": eps_ttm, "eps_ttm_prior": eps_prior,
+        "eps_growth_yoy": eps_growth_yoy, "eps_growth_basis": eps_growth_basis,
+        "eps_growth_last_q": eps_growth_last_q,
+        "eps_forward_growth": _safe_div(out.get("eps_forward", math.nan), eps_ttm) - 1.0 if not math.isnan(eps_ttm) and eps_ttm > 0 else math.nan,
         "gross_margin_quarters": _list(gm_q),
         "annual": annual, "years_reported": len(annual), "profitable_years": profitable_years,
         "dilution_1y": dilution_1y,
@@ -222,6 +262,9 @@ def fetch(ticker: str) -> dict:
         "ev_to_sales": _safe_div(ev, revenue),
         "ev_to_ebitda": _safe_div(ev, ebitda) if not math.isnan(ebitda) and ebitda > 0 else math.nan,
         "pe_ttm": _safe_div(out.get("market_cap", math.nan), net_income) if not math.isnan(net_income) and net_income > 0 else math.nan,
+        "pe_trailing": out.get("pe_trailing_y", math.nan) if not math.isnan(out.get("pe_trailing_y", math.nan)) else (
+            _safe_div(out.get("price", math.nan), eps_ttm) if not math.isnan(eps_ttm) and eps_ttm > 0 else math.nan),
+        "p_sales": out.get("p_sales_y", math.nan) if not math.isnan(out.get("p_sales_y", math.nan)) else _safe_div(out.get("market_cap", math.nan), revenue),
         "p_fcf": _safe_div(out.get("market_cap", math.nan), fcf) if not math.isnan(fcf) and fcf > 0 else math.nan,
         "p_book": _safe_div(out.get("market_cap", math.nan), equity) if not math.isnan(equity) and equity > 0 else math.nan,
     })
@@ -260,5 +303,6 @@ if __name__ == "__main__":
         keys = ["market_cap", "cash", "total_debt", "current_debt", "fcf_ttm", "runway_months",
                 "need_24m", "gap_24m", "survival_gate", "net_debt_to_ebitda", "interest_coverage",
                 "revenue_ttm", "revenue_yoy_last_q", "profitable_years", "years_reported",
-                "dilution_1y", "ev_to_sales", "ev_to_ebitda", "pe_ttm"]
+                "dilution_1y", "ev_to_sales", "ev_to_ebitda", "pe_trailing", "pe_forward", "peg", "p_sales",
+                "eps_ttm", "eps_growth_yoy", "eps_growth_last_q", "eps_forward_growth"]
         print(tk, json.dumps({k: d.get(k) for k in keys}, indent=1))

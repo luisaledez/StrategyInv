@@ -1,12 +1,20 @@
 {
  "ticker": "BR",
  "fetched": "2026-09-14",
- "market_cap": 19730331160.39279,
+ "market_cap": 19742304701.863678,
  "shares_out": 114021798.0,
- "price": 173.0399932861328,
+ "price": 173.14500427246094,
  "long_name": "Broadridge Financial Solutions, Inc.",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 18.054745,
+ "pe_forward": 14.957472,
+ "peg": 1.95,
+ "p_sales_y": 2.640475,
+ "eps_trailing_y": 9.59,
+ "eps_forward": 11.57582,
+ "earnings_growth_y": 0.084,
+ "earnings_growth_q_y": 0.064,
  "bs_date": "2026-06-30",
  "cash": 402900000.0,
  "total_debt": 3517600000.0,
@@ -48,6 +56,34 @@
    "value": 2065400000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.44
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.36
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.42
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.4
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.16
+  }
+ ],
+ "eps_ttm": 9.62,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.352112676056338,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.08860759493670889,
+ "eps_forward_growth": 0.2033076923076924,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 7476800000.0,
+   "eps": 9.6,
    "net_income": 1124300000.0
   },
   {
    "year": "2025",
    "revenue": 6889100000.0,
+   "eps": 7.1,
    "net_income": 839500000.0
   },
   {
    "year": "2024",
    "revenue": 6506800000.0,
+   "eps": 5.86,
    "net_income": 698100000.0
   },
   {
    "year": "2023",
    "revenue": 6060900000.0,
+   "eps": 5.3,
    "net_income": 630600000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.6402654168202644,
  "interest_coverage": 13.932021466905187,
  "cash_to_debt": 0.11453832158289742,
- "ev": 22845031160.39279,
- "ev_to_sales": 3.055455697677187,
- "ev_to_ebitda": 12.030665732999521,
- "pe_ttm": 17.547430772316606,
- "p_fcf": 16.001890641032272,
- "p_book": 6.945832275009784
+ "ev": 22857004701.863678,
+ "ev_to_sales": 3.0570571236175472,
+ "ev_to_ebitda": 12.03697124749259,
+ "pe_ttm": 17.558079599665312,
+ "pe_trailing": 18.054745,
+ "p_sales": 2.640475,
+ "p_fcf": 16.011601542468515,
+ "p_book": 6.950047420215334
 }

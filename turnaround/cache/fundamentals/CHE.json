@@ -1,12 +1,20 @@
 {
  "ticker": "CHE",
  "fetched": "2026-09-14",
- "market_cap": 6708810821.754578,
+ "market_cap": 6702929179.759155,
  "shares_out": 13069961.0,
- "price": 513.2999877929688,
+ "price": 512.8499755859375,
  "long_name": "Chemed Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Medical Care Facilities",
+ "pe_trailing_y": 25.823261,
+ "pe_forward": 18.632153,
+ "peg": 1.9,
+ "p_sales_y": 2.583016,
+ "eps_trailing_y": 19.86,
+ "eps_forward": 27.525,
+ "earnings_growth_y": 0.437,
+ "earnings_growth_q_y": 0.29,
  "bs_date": "2026-06-30",
  "cash": 16856000.0,
  "total_debt": 236934000.0,
@@ -48,6 +56,34 @@
    "value": 646943000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.13
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.84
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.48
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.46
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.57
+  }
+ ],
+ "eps_ttm": 19.91,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.0779286073403721,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4369747899159664,
+ "eps_forward_growth": 0.3824711200401807,
  "gross_margin_quarters": [
   {
    "period": "2026-03-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2529978000.0,
+   "eps": 18.34,
    "net_income": 265238000.0
   },
   {
    "year": "2024",
    "revenue": 2431287000.0,
+   "eps": 19.89,
    "net_income": 301999000.0
   },
   {
    "year": "2023",
    "revenue": 2264417000.0,
+   "eps": 17.93,
    "net_income": 272509000.0
   },
   {
    "year": "2022",
    "revenue": 2134963000.0,
+   "eps": 16.53,
    "net_income": 249624000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.52830469496416,
  "interest_coverage": 181.51939989653388,
  "cash_to_debt": 0.07114217461402754,
- "ev": 6928888821.754578,
- "ev_to_sales": 2.7273205708983173,
- "ev_to_ebitda": 16.63303235860754,
- "pe_ttm": 25.82467221394232,
- "p_fcf": 17.789780390528584,
- "p_book": 7.9113894930324715
+ "ev": 6923007179.759155,
+ "ev_to_sales": 2.7250054632934138,
+ "ev_to_ebitda": 16.61891327773494,
+ "pe_ttm": 25.802031617770044,
+ "pe_trailing": 25.823261,
+ "p_sales": 2.583016,
+ "p_fcf": 17.77418401701109,
+ "p_book": 7.904453545377863
 }

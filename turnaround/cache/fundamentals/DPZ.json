@@ -1,12 +1,20 @@
 {
  "ticker": "DPZ",
  "fetched": "2026-09-14",
- "market_cap": 10711865389.170227,
+ "market_cap": 10674483876.66275,
  "shares_out": 33081735.0,
- "price": 323.79998779296875,
+ "price": 322.6700134277344,
  "long_name": "Domino's Pizza, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Restaurants",
+ "pe_trailing_y": 18.291952,
+ "pe_forward": 15.468271,
+ "peg": 1.42,
+ "p_sales_y": 2.1230862,
+ "eps_trailing_y": 17.64,
+ "eps_forward": 20.86012,
+ "earnings_growth_y": 0.068,
+ "earnings_growth_q_y": 0.036,
  "bs_date": "2026-06-30",
  "cash": 164836000.0,
  "total_debt": 5122853000.0,
@@ -48,6 +56,34 @@
    "value": 1145144000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.13
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.35
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.81
+  }
+ ],
+ "eps_ttm": 17.63,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.052726183343319244,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.06824146981627299,
+ "eps_forward_growth": 0.18321724333522393,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4939994000.0,
+   "eps": 17.57,
    "net_income": 601704000.0
   },
   {
    "year": "2024",
    "revenue": 4706416000.0,
+   "eps": 16.69,
    "net_income": 584170000.0
   },
   {
    "year": "2023",
    "revenue": 4479358000.0,
+   "eps": 14.66,
    "net_income": 519118000.0
   },
   {
    "year": "2022",
    "revenue": 4537158000.0,
+   "eps": 12.53,
    "net_income": 452263000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 4.711179463204846,
  "interest_coverage": 4.865591370699363,
  "cash_to_debt": 0.032176601592901456,
- "ev": 15669882389.170227,
- "ev_to_sales": 3.1166386172065255,
- "ev_to_ebitda": 14.889748886035294,
- "pe_ttm": 17.957170786659066,
- "p_fcf": 16.392283332318588,
+ "ev": 15632500876.66275,
+ "ev_to_sales": 3.109203675286929,
+ "ev_to_ebitda": 14.854228432186757,
+ "pe_ttm": 17.894505118264927,
+ "pe_trailing": 18.291952,
+ "p_sales": 2.1230862,
+ "p_fcf": 16.335078697817423,
  "p_book": null
 }

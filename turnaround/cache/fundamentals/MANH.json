@@ -1,12 +1,20 @@
 {
  "ticker": "MANH",
  "fetched": "2026-09-14",
- "market_cap": 12023651397.013062,
+ "market_cap": 12235006920.513062,
  "shares_out": 58304972.0,
- "price": 206.22000122070312,
+ "price": 209.84500122070312,
  "long_name": "Manhattan Associates, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 60.127506,
+ "pe_forward": 34.143734,
+ "peg": 2.57,
+ "p_sales_y": 10.86404,
+ "eps_trailing_y": 3.49,
+ "eps_forward": 6.14593,
+ "earnings_growth_y": -0.086,
+ "earnings_growth_q_y": -0.113,
  "bs_date": "2026-06-30",
  "cash": 186110000.0,
  "total_debt": 53882000.0,
@@ -48,6 +56,34 @@
    "value": 272421000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.85
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.82
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.86
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.96
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.93
+  }
+ ],
+ "eps_ttm": 3.4899999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.025641025641025772,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.08602150537634412,
+ "eps_forward_growth": 0.7610114613180516,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 1081392000.0,
+   "eps": 3.6,
    "net_income": 219948000.0
   },
   {
    "year": "2024",
    "revenue": 1042352000.0,
+   "eps": 3.51,
    "net_income": 218364000.0
   },
   {
    "year": "2023",
    "revenue": 928725000.0,
+   "eps": 2.82,
    "net_income": 176568000.0
   },
   {
    "year": "2022",
    "revenue": 767084000.0,
+   "eps": 2.03,
    "net_income": 128959000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -0.4576503488758445,
  "interest_coverage": null,
  "cash_to_debt": 3.454029174863591,
- "ev": 11891423397.013062,
- "ev_to_sales": 10.558956943448468,
- "ev_to_ebitda": 41.157047420163714,
- "pe_ttm": 57.19202692732854,
- "p_fcf": 30.120046286146383,
- "p_book": 76.33725102384695
+ "ev": 12102778920.513062,
+ "ev_to_sales": 10.746629503569158,
+ "ev_to_ebitda": 41.88856365777308,
+ "pe_ttm": 58.197366353108514,
+ "pe_trailing": 60.127506,
+ "p_sales": 10.86404,
+ "p_fcf": 30.64950592702005,
+ "p_book": 77.67913121647331
 }

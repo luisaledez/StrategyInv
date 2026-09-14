@@ -1,12 +1,20 @@
 {
  "ticker": "ADBE",
  "fetched": "2026-09-14",
- "market_cap": 102917636260.98633,
+ "market_cap": 103988549880.98145,
  "shares_out": 397500000.0,
- "price": 258.91229248046875,
+ "price": 261.6064147949219,
  "long_name": "Adobe Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 14.606724,
+ "pe_forward": 9.456582,
+ "peg": 0.61,
+ "p_sales_y": 4.1268573,
+ "eps_trailing_y": 17.91,
+ "eps_forward": 27.66395,
+ "earnings_growth_y": 0.079,
+ "earnings_growth_q_y": 0.012,
  "bs_date": "2026-05-31",
  "cash": 5626000000.0,
  "total_debt": 7065000000.0,
@@ -48,6 +56,34 @@
    "value": 5873000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 4.62
+  },
+  {
+   "period": "2026-05-31",
+   "value": 4.25
+  },
+  {
+   "period": "2026-02-28",
+   "value": 4.6
+  },
+  {
+   "period": "2025-11-30",
+   "value": 4.45
+  },
+  {
+   "period": "2025-08-31",
+   "value": 4.18
+  }
+ ],
+ "eps_ttm": 17.92,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3511326860841424,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.10526315789473695,
+ "eps_forward_growth": 0.5437472098214284,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 23769000000.0,
+   "eps": 16.7,
    "net_income": 7130000000.0
   },
   {
    "year": "2024",
    "revenue": 21505000000.0,
+   "eps": 12.36,
    "net_income": 5560000000.0
   },
   {
    "year": "2023",
    "revenue": 19409000000.0,
+   "eps": 11.82,
    "net_income": 5428000000.0
   },
   {
    "year": "2022",
    "revenue": 17606000000.0,
+   "eps": 10.1,
    "net_income": 4756000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.14203928536176094,
  "interest_coverage": 35.9080459770115,
  "cash_to_debt": 0.7963198867657466,
- "ev": 104356636260.98633,
- "ev_to_sales": 4.141465047265114,
- "ev_to_ebitda": 10.300724139866384,
- "pe_ttm": 14.236773587077925,
- "p_fcf": 10.011443216049253,
- "p_book": 8.935373872285668
+ "ev": 105427549880.98145,
+ "ev_to_sales": 4.183964992498669,
+ "ev_to_ebitda": 10.406430745334266,
+ "pe_ttm": 14.384914909528488,
+ "pe_trailing": 14.606724,
+ "p_sales": 4.1268573,
+ "p_fcf": 10.115617692702475,
+ "p_book": 9.028351265929974
 }

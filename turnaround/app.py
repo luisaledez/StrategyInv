@@ -226,7 +226,7 @@ HOME = """{% extends "base" %}{% block body %}
 <label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label><span id="count" class="muted small"></span></div>
 <table class="sortable filterable"><thead><tr>
 <th class="l">Ticker</th><th class="l">Name</th><th class="l">Sector</th><th>RSI(m)</th><th>Prev</th><th>Oversold since</th><th>Months</th><th>DD 5y</th>
-<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>Int cov</th><th>EV/Sales</th><th>EV/EBITDA</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
+<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>P/E trail</th><th>P/E fwd</th><th>PEG</th><th>P/S</th><th>EV/Sales</th><th>EV/EBITDA</th><th title="TTM vs prior TTM when 8 quarters are available, otherwise latest fiscal year vs prior">EPS YoY</th><th title="latest quarter vs same quarter a year ago">EPS last q</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
 </tr></thead><tbody>
 {% for r in rows %}<tr data-ticker="{{ r.ticker }}" data-name="{{ r.name }}" data-gate="{{ r.survival_gate }}" data-sector="{{ r.sector }}" data-active="{{ 1 if r.oversold_now else 0 }}" data-prio="{{ 1 if r.priority else 0 }}">
 <td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a>{% if r.priority %} <span class="star" title="drawdown beyond 40%">★</span>{% endif %}</td>
@@ -238,8 +238,12 @@ HOME = """{% extends "base" %}{% block body %}
 <td data-v="{{ r.market_cap or 0 }}">{{ r.market_cap|money }}</td><td data-v="{{ r.adv_3m_usd }}">{{ r.adv_3m_usd|money }}</td>
 <td><span class="gate {{ r.survival_gate }}">{{ r.survival_gate }}</span></td>
 <td data-v="{{ r.runway_months or 0 }}">{{ r.runway_months|num(0) }}</td><td data-v="{{ r.net_debt_to_ebitda or 0 }}">{{ r.net_debt_to_ebitda|num }}</td>
-<td data-v="{{ r.interest_coverage or 0 }}">{{ r.interest_coverage|num }}</td><td data-v="{{ r.ev_to_sales or 0 }}">{{ r.ev_to_sales|num }}</td>
-<td data-v="{{ r.ev_to_ebitda or 0 }}">{{ r.ev_to_ebitda|num }}</td><td data-v="{{ r.revenue_yoy_last_q or 0 }}">{{ r.revenue_yoy_last_q|pct }}</td>
+<td data-v="{{ r.pe_trailing or 0 }}">{{ r.pe_trailing|num }}</td><td data-v="{{ r.pe_forward or 0 }}">{{ r.pe_forward|num }}</td>
+<td data-v="{{ r.peg or 0 }}">{{ r.peg|num(2) }}</td><td data-v="{{ r.p_sales or 0 }}">{{ r.p_sales|num(2) }}</td>
+<td data-v="{{ r.ev_to_sales or 0 }}">{{ r.ev_to_sales|num }}</td><td data-v="{{ r.ev_to_ebitda or 0 }}">{{ r.ev_to_ebitda|num }}</td>
+<td data-v="{{ r.eps_growth_yoy if r.eps_growth_yoy is not none else -9 }}" class="{{ 'pos' if r.eps_growth_yoy and r.eps_growth_yoy>0 else ('neg' if r.eps_growth_yoy is not none else '') }}">{{ r.eps_growth_yoy|pct }}</td>
+<td data-v="{{ r.eps_growth_last_q if r.eps_growth_last_q is not none else -9 }}" class="{{ 'pos' if r.eps_growth_last_q and r.eps_growth_last_q>0 else ('neg' if r.eps_growth_last_q is not none else '') }}">{{ r.eps_growth_last_q|pct }}</td>
+<td data-v="{{ r.revenue_yoy_last_q or 0 }}">{{ r.revenue_yoy_last_q|pct }}</td>
 <td data-v="{{ r.dilution_1y or 0 }}">{{ r.dilution_1y|pct }}</td>
 <td class="l">{% if r.has_thesis %}<a href="/ticker/{{ r.ticker }}#thesis"><span class="status">{{ r.status }}</span></a>{% else %}<span class="muted">—</span>{% endif %}</td>
 </tr>{% endfor %}</tbody></table>
@@ -293,16 +297,20 @@ TICKER = """{% extends "base" %}{% block body %}
 <div><h2>Price assessment <span class="muted small">(TTM)</span></h2><table class="kv">
 <tr><td>Market cap · enterprise value</td><td>{{ f.market_cap|money }} · {{ f.ev|money }}</td></tr>
 <tr><td>Revenue · EBITDA · net income</td><td>{{ f.revenue_ttm|money }} · {{ f.ebitda_ttm|money }} · {{ f.net_income_ttm|money }}</td></tr>
-<tr><td>EV/Sales · EV/EBITDA · P/E · P/FCF · P/B</td><td>{{ f.ev_to_sales|num }} · {{ f.ev_to_ebitda|num }} · {{ f.pe_ttm|num }} · {{ f.p_fcf|num }} · {{ f.p_book|num }}</td></tr>
+<tr><td>P/E trailing · P/E forward · PEG</td><td><b>{{ f.pe_trailing|num }}</b> · <b>{{ f.pe_forward|num }}</b> · <b>{{ f.peg|num(2) }}</b></td></tr>
+<tr><td>P/S · EV/Sales · EV/EBITDA · P/FCF · P/B</td><td><b>{{ f.p_sales|num(2) }}</b> · {{ f.ev_to_sales|num }} · {{ f.ev_to_ebitda|num }} · {{ f.p_fcf|num }} · {{ f.p_book|num }}</td></tr>
+<tr><td>EPS TTM · forward estimate · implied growth</td><td>{{ f.eps_ttm|num(2) }} · {{ f.eps_forward|num(2) }} · {{ f.eps_forward_growth|pct }}</td></tr>
+<tr><td>EPS growth YoY ({{ f.eps_growth_basis or 'n/a' }}) · last quarter vs year-ago</td><td><b class="{{ 'pos' if f.eps_growth_yoy and f.eps_growth_yoy>0 else 'neg' }}">{{ f.eps_growth_yoy|pct }}</b> · {{ f.eps_growth_last_q|pct }}</td></tr>
+<tr><td>Yahoo earnings growth (yoy, latest quarter)</td><td class="muted">{{ f.earnings_growth_y|pct }}</td></tr>
 <tr><td>Revenue YoY, last quarter</td><td>{{ f.revenue_yoy_last_q|pct }}</td></tr>
 <tr><td>Profitable years / reported</td><td>{{ f.profitable_years }} / {{ f.years_reported }}</td></tr>
 </table>
 <h2>Recent quarters <span class="muted small">(recovery evidence: demand + margin)</span></h2>
-<table><thead><tr><th class="l">Quarter</th><th>Revenue</th><th>Gross margin</th></tr></thead><tbody>
-{% for q in quarters %}<tr><td class="l">{{ q.period }}</td><td>{{ q.revenue|money }}</td><td>{{ q.gm|pct(false) }}</td></tr>{% endfor %}
+<table><thead><tr><th class="l">Quarter</th><th>Revenue</th><th>Gross margin</th><th>Diluted EPS</th><th>EPS YoY</th></tr></thead><tbody>
+{% for q in quarters %}<tr><td class="l">{{ q.period }}</td><td>{{ q.revenue|money }}</td><td>{{ q.gm|pct(false) }}</td><td class="{{ 'neg' if q.eps is not none and q.eps<0 }}">{{ q.eps|num(2) }}</td><td>{{ q.eps_yoy|pct }}</td></tr>{% endfor %}
 </tbody></table>
-<h2>Annual</h2><table><thead><tr><th class="l">Year</th><th>Revenue</th><th>Net income</th></tr></thead><tbody>
-{% for a in f.annual or [] %}<tr><td class="l">{{ a.year }}</td><td>{{ a.revenue|money }}</td><td class="{{ 'neg' if a.net_income and a.net_income<0 }}">{{ a.net_income|money }}</td></tr>{% endfor %}
+<h2>Annual</h2><table><thead><tr><th class="l">Year</th><th>Revenue</th><th>Net income</th><th>Diluted EPS</th></tr></thead><tbody>
+{% for a in f.annual or [] %}<tr><td class="l">{{ a.year }}</td><td>{{ a.revenue|money }}</td><td class="{{ 'neg' if a.net_income and a.net_income<0 }}">{{ a.net_income|money }}</td><td class="{{ 'neg' if a.eps and a.eps<0 }}">{{ a.eps|num(2) }}</td></tr>{% endfor %}
 </tbody></table></div></div>
 <h2 id="thesis">Research file <span class="muted small">thesis/{{ t }}.md</span></h2>
 {% if thesis_html %}<div class="md">{{ thesis_html|safe }}</div>
@@ -353,7 +361,14 @@ def ticker(t):
         fundamentals.get(t)
     f = json.loads(fp.read_text(encoding="utf-8")) if fp.exists() else {}
     gm = {q["period"]: q["value"] for q in f.get("gross_margin_quarters", [])}
-    quarters = [{"period": q["period"], "revenue": q["value"], "gm": gm.get(q["period"])} for q in f.get("revenue_quarters", [])]
+    eps = {q["period"]: q["value"] for q in f.get("eps_quarters", [])}
+    eps_list = f.get("eps_quarters", [])
+    eps_yoy = {}
+    for i, q in enumerate(eps_list):
+        if i + 4 < len(eps_list) and eps_list[i + 4]["value"] and eps_list[i + 4]["value"] > 0:
+            eps_yoy[q["period"]] = q["value"] / eps_list[i + 4]["value"] - 1.0
+    quarters = [{"period": q["period"], "revenue": q["value"], "gm": gm.get(q["period"]),
+                 "eps": eps.get(q["period"]), "eps_yoy": eps_yoy.get(q["period"])} for q in f.get("revenue_quarters", [])]
     tp = THESIS / f"{t}.md"
     thesis_html = markdown(tp.read_text(encoding="utf-8"), extensions=["tables"]) if tp.exists() else None
     name = r.get("name") or f.get("long_name") or ""

@@ -1,12 +1,20 @@
 {
  "ticker": "TSCO",
  "fetched": "2026-09-14",
- "market_cap": 17509553565.371754,
+ "market_cap": 17434054184.86354,
  "shares_out": 521040137.0,
- "price": 33.60499954223633,
+ "price": 33.46009826660156,
  "long_name": "Tractor Supply Company",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Specialty Retail",
+ "pe_trailing_y": 17.427135,
+ "pe_forward": 16.311178,
+ "peg": 1.56,
+ "p_sales_y": 1.1068733,
+ "eps_trailing_y": 1.92,
+ "eps_forward": 2.05136,
+ "earnings_growth_y": -0.15,
+ "earnings_growth_q_y": -0.161,
  "bs_date": "2026-06-30",
  "cash": 231588000.0,
  "total_debt": 6544952000.0,
@@ -48,6 +56,34 @@
    "value": 4439729000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.69
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.31
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.49
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.81
+  }
+ ],
+ "eps_ttm": 1.92,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.009803921568627416,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.14814814814814825,
+ "eps_forward_growth": 0.06841666666666657,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 15524046000.0,
+   "eps": 2.06,
    "net_income": 1096087000.0
   },
   {
    "year": "2024",
    "revenue": 14883231000.0,
+   "eps": 2.04,
    "net_income": 1101240000.0
   },
   {
    "year": "2023",
    "revenue": 14555741000.0,
+   "eps": 2.018,
    "net_income": 1107226000.0
   },
   {
    "year": "2022",
    "revenue": 14204717000.0,
+   "eps": 1.942,
    "net_income": 1088712000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.4121367348604283,
  "interest_coverage": 19.79870369550132,
  "cash_to_debt": 0.035384216721528285,
- "ev": 23822917565.371754,
- "ev_to_sales": 1.5124966677958267,
- "ev_to_ebitda": 12.875394505426382,
- "pe_ttm": 17.30340084767258,
- "p_fcf": 57.037906467734985,
- "p_book": 6.653665619269049
+ "ev": 23747418184.86354,
+ "ev_to_sales": 1.5077032766788079,
+ "ev_to_ebitda": 12.834589918570423,
+ "pe_ttm": 17.228790376320063,
+ "pe_trailing": 17.427135,
+ "p_sales": 1.1068733,
+ "p_fcf": 56.79196492572355,
+ "p_book": 6.624975702619369
 }

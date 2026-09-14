@@ -1,12 +1,20 @@
 {
  "ticker": "EEFT",
  "fetched": "2026-09-14",
- "market_cap": 2686700297.338028,
+ "market_cap": 2671738802.2646713,
  "shares_out": 37403595.0,
- "price": 71.83000183105469,
+ "price": 71.43000030517578,
  "long_name": "Euronet Worldwide, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 11.338095,
+ "pe_forward": 5.9842916,
+ "peg": 0.47,
+ "p_sales_y": 0.610739,
+ "eps_trailing_y": 6.3,
+ "eps_forward": 11.93625,
+ "earnings_growth_y": -0.247,
+ "earnings_growth_q_y": -0.207,
  "bs_date": "2026-06-30",
  "cash": 2183900000.0,
  "total_debt": 2806800000.0,
@@ -48,6 +56,34 @@
    "value": 1074300000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.71
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.83
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.75
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.27
+  }
+ ],
+ "eps_ttm": 6.37,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0604651162790697,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.24669603524229078,
+ "eps_forward_growth": 0.873822605965463,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4244200000.0,
+   "eps": 6.84,
    "net_income": 309500000.0
   },
   {
    "year": "2024",
    "revenue": 3989800000.0,
+   "eps": 6.45,
    "net_income": 306000000.0
   },
   {
    "year": "2023",
    "revenue": 3688000000.0,
+   "eps": 5.5,
    "net_income": 279700000.0
   },
   {
    "year": "2022",
    "revenue": 3358800000.0,
+   "eps": 4.41,
    "net_income": 231000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.9080174927113702,
  "interest_coverage": 7.4525139664804465,
  "cash_to_debt": 0.7780746757873735,
- "ev": 3309600297.338028,
- "ev_to_sales": 0.7565492381790399,
- "ev_to_ebitda": 4.8244902293557255,
- "pe_ttm": 9.315881752212302,
- "p_fcf": 9.991447740193484,
- "p_book": 2.1844867853793217
+ "ev": 3294638802.2646713,
+ "ev_to_sales": 0.753129155183256,
+ "ev_to_ebitda": 4.802680469773573,
+ "pe_ttm": 9.264004168740192,
+ "pe_trailing": 11.338095,
+ "p_sales": 0.610739,
+ "p_fcf": 9.935808115524996,
+ "p_book": 2.172321979237882
 }

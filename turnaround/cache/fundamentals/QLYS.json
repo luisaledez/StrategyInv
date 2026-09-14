@@ -1,12 +1,20 @@
 {
  "ticker": "QLYS",
  "fetched": "2026-09-14",
- "market_cap": 5685688625.501129,
+ "market_cap": 5835830803.150452,
  "shares_out": 34595001.0,
- "price": 164.35000610351562,
+ "price": 168.69000244140625,
  "long_name": "Qualys, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 29.235703,
+ "pe_forward": 20.011532,
+ "peg": 2.58,
+ "p_sales_y": 8.301596,
+ "eps_trailing_y": 5.77,
+ "eps_forward": 8.42964,
+ "earnings_growth_y": 0.161,
+ "earnings_growth_q_y": 0.108,
  "bs_date": "2026-06-30",
  "cash": 426294000.0,
  "total_debt": 53399000.0,
@@ -48,6 +56,34 @@
    "value": 164062000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.5
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.42
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.47
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.39
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.29
+  }
+ ],
+ "eps_ttm": 5.779999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1698924731182796,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.16279069767441867,
+ "eps_forward_growth": 0.45841522491349473,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 669125000.0,
+   "eps": 5.44,
    "net_income": 198320000.0
   },
   {
    "year": "2024",
    "revenue": 607571000.0,
+   "eps": 4.65,
    "net_income": 173680000.0
   },
   {
    "year": "2023",
    "revenue": 554458000.0,
+   "eps": 4.03,
    "net_income": 151595000.0
   },
   {
    "year": "2022",
    "revenue": 489723000.0,
+   "eps": 2.74,
    "net_income": 107992000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -1.4679865206402696,
  "interest_coverage": null,
  "cash_to_debt": 7.983183205678009,
- "ev": 5312793625.501129,
- "ev_to_sales": 7.557563939504606,
- "ev_to_ebitda": 20.91502816926804,
- "pe_ttm": 27.527735618082,
- "p_fcf": 18.10976861640648,
- "p_book": 10.112870916880187
+ "ev": 5462935803.150452,
+ "ev_to_sales": 7.771144437371993,
+ "ev_to_ebitda": 21.506097218112306,
+ "pe_ttm": 28.254661491742446,
+ "pe_trailing": 29.235703,
+ "p_sales": 8.301596,
+ "p_fcf": 18.587993907288105,
+ "p_book": 10.379921851561482
 }

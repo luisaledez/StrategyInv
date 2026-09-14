@@ -1,12 +1,20 @@
 {
  "ticker": "CPRT",
  "fetched": "2026-09-14",
- "market_cap": 28797365723.807137,
+ "market_cap": 28723300875.880947,
  "shares_out": 925811482.0,
- "price": 31.104999542236328,
+ "price": 31.024999618530273,
  "long_name": "Copart, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 20.016129,
+ "pe_forward": 17.196844,
+ "peg": 3.61,
+ "p_sales_y": 6.1555967,
+ "eps_trailing_y": 1.55,
+ "eps_forward": 1.80411,
+ "earnings_growth_y": -0.146,
+ "earnings_growth_q_y": -0.174,
  "bs_date": "2026-04-30",
  "cash": 4199712000.0,
  "total_debt": 93116000.0,
@@ -48,6 +56,34 @@
    "value": 1211716000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.35
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.43
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.41
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.41
+  }
+ ],
+ "eps_ttm": 1.55,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1357142857142859,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.14634146341463417,
+ "eps_forward_growth": 0.16394193548387093,
  "gross_margin_quarters": [
   {
    "period": "2026-04-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4646958000.0,
+   "eps": 1.59,
    "net_income": 1552449000.0
   },
   {
    "year": "2024",
    "revenue": 4236823000.0,
+   "eps": 1.4,
    "net_income": 1363020000.0
   },
   {
    "year": "2023",
    "revenue": 3869518000.0,
+   "eps": 1.28,
    "net_income": 1237741000.0
   },
   {
    "year": "2022",
    "revenue": 3500921000.0,
+   "eps": 1.13,
    "net_income": 1090130000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -2.1397235749143664,
  "interest_coverage": null,
  "cash_to_debt": 45.101937368443664,
- "ev": 24690769723.807137,
- "ev_to_sales": 5.322586253024098,
- "ev_to_ebitda": 12.86501571150705,
- "pe_ttm": 18.540656182816736,
- "p_fcf": 21.502879427110248,
- "p_book": 3.282026358428141
+ "ev": 24616704875.880947,
+ "ev_to_sales": 5.306620102684761,
+ "ev_to_ebitda": 12.82642455202116,
+ "pe_ttm": 18.492970887786544,
+ "pe_trailing": 20.016129,
+ "p_sales": 6.1555967,
+ "p_fcf": 21.447575497229344,
+ "p_book": 3.273585211919877
 }

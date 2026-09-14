@@ -1,12 +1,20 @@
 {
  "ticker": "HRL",
  "fetched": "2026-09-14",
- "market_cap": 11543608239.94217,
+ "market_cap": 11609649748.104095,
  "shares_out": 550350800.0,
- "price": 20.975000381469727,
+ "price": 21.094999313354492,
  "long_name": "Hormel Foods Corporation",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
+ "pe_trailing_y": 34.024193,
+ "pe_forward": 13.5787525,
+ "peg": 1.45,
+ "p_sales_y": 0.95576966,
+ "eps_trailing_y": 0.62,
+ "eps_forward": 1.55353,
+ "earnings_growth_y": -0.051,
+ "earnings_growth_q_y": -0.051,
  "bs_date": "2026-07-31",
  "cash": 868446000.0,
  "total_debt": 2855123000.0,
@@ -48,6 +56,34 @@
    "value": 3032876000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.11
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.29
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.33
+  },
+  {
+   "period": "2025-10-31",
+   "value": -0.1
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.33
+  }
+ ],
+ "eps_ttm": 0.63,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.40816326530612246,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6666666666666667,
+ "eps_forward_growth": 1.4659206349206348,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 12106160000.0,
+   "eps": 0.87,
    "net_income": 478197000.0
   },
   {
    "year": "2024",
    "revenue": 11920797000.0,
+   "eps": 1.47,
    "net_income": 805038000.0
   },
   {
    "year": "2023",
    "revenue": 12110010000.0,
+   "eps": 1.45,
    "net_income": 793572000.0
   },
   {
    "year": "2022",
    "revenue": 12458806000.0,
+   "eps": 1.82,
    "net_income": 999987000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.277223376111287,
  "interest_coverage": 7.624420892301834,
  "cash_to_debt": 0.3041711337830279,
- "ev": 13530285239.94217,
- "ev_to_sales": 1.1138869165948584,
- "ev_to_ebitda": 15.509054483365851,
- "pe_ttm": 33.68321483682219,
- "p_fcf": 14.783027934188922,
- "p_book": 1.4717524903527288
+ "ev": 13596326748.104095,
+ "ev_to_sales": 1.1193238139395354,
+ "ev_to_ebitda": 15.584754391393167,
+ "pe_ttm": 33.87591804203569,
+ "pe_trailing": 34.024193,
+ "p_sales": 0.95576966,
+ "p_fcf": 14.867602309867719,
+ "p_book": 1.480172453338622
 }

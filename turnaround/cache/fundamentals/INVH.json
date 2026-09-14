@@ -1,12 +1,20 @@
 {
  "ticker": "INVH",
  "fetched": "2026-09-14",
- "market_cap": 16227373359.65488,
+ "market_cap": 16177169799.652191,
  "shares_out": 590623226.0,
- "price": 27.475000381469727,
+ "price": 27.389999389648438,
  "long_name": "Invitation Homes Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Residential",
+ "pe_trailing_y": 25.128439,
+ "pe_forward": 40.093094,
+ "peg": 13.14,
+ "p_sales_y": 5.680178,
+ "eps_trailing_y": 1.09,
+ "eps_forward": 0.68316,
+ "earnings_growth_y": 0.605,
+ "earnings_growth_q_y": 0.553,
  "bs_date": "2026-06-30",
  "cash": 75786000.0,
  "total_debt": 8526691000.0,
@@ -48,6 +56,34 @@
    "value": 681401000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.26
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23
+  }
+ ],
+ "eps_ttm": 1.09,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.29729729729729737,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.6086956521739129,
+ "eps_forward_growth": -0.37324770642201843,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2729296000.0,
+   "eps": 0.96,
    "net_income": 587924000.0
   },
   {
    "year": "2024",
    "revenue": 2618942000.0,
+   "eps": 0.74,
    "net_income": 453917000.0
   },
   {
    "year": "2023",
    "revenue": 2432278000.0,
+   "eps": 0.85,
    "net_income": 519470000.0
   },
   {
    "year": "2022",
    "revenue": 2238121000.0,
+   "eps": 0.63,
    "net_income": 383329000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 4.695708970566336,
  "interest_coverage": 2.7871948112864224,
  "cash_to_debt": 0.008888090350641299,
- "ev": 24678278359.65488,
- "ev_to_sales": 8.643644187533539,
- "ev_to_ebitda": 13.712379096861758,
- "pe_ttm": 24.56285029623215,
- "p_fcf": 16.96143013294863,
- "p_book": 1.7922052142788298
+ "ev": 24628074799.65219,
+ "ev_to_sales": 8.626060233609095,
+ "ev_to_ebitda": 13.68448370494113,
+ "pe_ttm": 24.486858790931,
+ "pe_trailing": 25.128439,
+ "p_sales": 5.680178,
+ "p_fcf": 16.908955579209206,
+ "p_book": 1.7866605657384889
 }

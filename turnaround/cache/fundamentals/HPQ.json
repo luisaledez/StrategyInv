@@ -1,12 +1,20 @@
 {
  "ticker": "HPQ",
  "fetched": "2026-09-14",
- "market_cap": 30637084293.898678,
+ "market_cap": 30552678992.936672,
  "shares_out": 901790969.0,
- "price": 33.97359848022461,
+ "price": 33.880001068115234,
  "long_name": "HP Inc.",
  "sector_y": "Technology",
  "industry_y": "Computer Hardware",
+ "pe_trailing_y": 12.931298,
+ "pe_forward": 10.796789,
+ "peg": 3.64,
+ "p_sales_y": 0.516424,
+ "eps_trailing_y": 2.62,
+ "eps_forward": 3.13797,
+ "earnings_growth_y": -0.113,
+ "earnings_growth_q_y": -0.134,
  "bs_date": "2026-07-31",
  "cash": 4169000000.0,
  "total_debt": 10339000000.0,
@@ -48,6 +56,34 @@
    "value": 13932000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.71
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.49
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.58
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.84
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.8
+  }
+ ],
+ "eps_ttm": 2.6199999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.05693950177935947,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.11250000000000004,
+ "eps_forward_growth": 0.19769847328244294,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 55295000000.0,
+   "eps": 2.65,
    "net_income": 2529000000.0
   },
   {
    "year": "2024",
    "revenue": 53559000000.0,
+   "eps": 2.81,
    "net_income": 2775000000.0
   },
   {
    "year": "2023",
    "revenue": 53718000000.0,
+   "eps": 3.26,
    "net_income": 3263000000.0
   },
   {
    "year": "2022",
    "revenue": 62910000000.0,
+   "eps": 3.05,
    "net_income": 3132000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.4673008323424495,
  "interest_coverage": 6.837160751565762,
  "cash_to_debt": 0.4032304865073992,
- "ev": 36807084293.89868,
- "ev_to_sales": 0.6221406357780109,
- "ev_to_ebitda": 8.753171056813004,
- "pe_ttm": 12.499830393267514,
- "p_fcf": 7.894121178536119,
+ "ev": 36722678992.936676,
+ "ev_to_sales": 0.6207139547840959,
+ "ev_to_ebitda": 8.733098452541421,
+ "pe_ttm": 12.465393305971714,
+ "pe_trailing": 12.931298,
+ "p_sales": 0.516424,
+ "p_fcf": 7.872372840231042,
  "p_book": null
 }

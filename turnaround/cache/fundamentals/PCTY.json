@@ -1,12 +1,20 @@
 {
  "ticker": "PCTY",
  "fetched": "2026-09-14",
- "market_cap": 8050770262.756348,
+ "market_cap": 8084543556.549072,
  "shares_out": 55366000.0,
- "price": 145.41000366210938,
+ "price": 146.02000427246094,
  "long_name": "Paylocity Holding Corporation",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 29.678862,
+ "pe_forward": 15.075398,
+ "peg": 1.14,
+ "p_sales_y": 4.56412,
+ "eps_trailing_y": 4.92,
+ "eps_forward": 9.68598,
+ "earnings_growth_y": 0.276,
+ "earnings_growth_q_y": 0.241,
  "bs_date": "2026-06-30",
  "cash": 271917000.0,
  "total_debt": 132972000.0,
@@ -48,6 +56,34 @@
    "value": 400737000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.92
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.86
+  },
+  {
+   "period": "2025-03-31",
+   "value": 1.61
+  }
+ ],
+ "eps_ttm": 4.95,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.45783132530120474,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.30434782608695654,
+ "eps_forward_growth": 0.9567636363636365,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 1771326000.0,
+   "eps": null,
    "net_income": 269741000.0
   },
   {
    "year": "2025",
    "revenue": 1595221000.0,
+   "eps": null,
    "net_income": 227127000.0
   },
   {
    "year": "2024",
    "revenue": 1402515000.0,
+   "eps": 3.63,
    "net_income": 206766000.0
   },
   {
    "year": "2023",
    "revenue": 1174598000.0,
+   "eps": 2.49,
    "net_income": 140822000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -0.2791237268727777,
  "interest_coverage": null,
  "cash_to_debt": 2.0449192311163253,
- "ev": 7911825262.756348,
- "ev_to_sales": 4.466611602131029,
- "ev_to_ebitda": 15.893901570454103,
- "pe_ttm": 29.84629797752788,
- "p_fcf": 18.81909280257586,
- "p_book": 6.591336343571727
+ "ev": 7945598556.549072,
+ "ev_to_sales": 4.4856782752294455,
+ "ev_to_ebitda": 15.961748039432436,
+ "pe_ttm": 29.97150435621234,
+ "pe_trailing": 29.678862,
+ "p_sales": 4.56412,
+ "p_fcf": 18.898039627462197,
+ "p_book": 6.618987255416514
 }

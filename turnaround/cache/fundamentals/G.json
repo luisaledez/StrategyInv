@@ -1,12 +1,20 @@
 {
  "ticker": "G",
  "fetched": "2026-09-14",
- "market_cap": 6150059039.799843,
+ "market_cap": 6103009610.959969,
  "shares_out": 168034407.0,
- "price": 36.599998474121094,
+ "price": 36.31999969482422,
  "long_name": "Genpact Limited",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 10.809524,
+ "pe_forward": 8.045972,
+ "peg": 1.16,
+ "p_sales_y": 1.162468,
+ "eps_trailing_y": 3.36,
+ "eps_forward": 4.51406,
+ "earnings_growth_y": 0.147,
+ "earnings_growth_q_y": 0.098,
  "bs_date": "2026-06-30",
  "cash": 517387000.0,
  "total_debt": 1414616000.0,
@@ -48,6 +56,34 @@
    "value": 1254418000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.86
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.86
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.82
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.83
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.75
+  }
+ ],
+ "eps_ttm": 3.37,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09824561403508758,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14666666666666672,
+ "eps_forward_growth": 0.3394836795252225,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 5079879000.0,
+   "eps": 3.13,
    "net_income": 552494000.0
   },
   {
    "year": "2024",
    "revenue": 4767139000.0,
+   "eps": 2.85,
    "net_income": 513670000.0
   },
   {
    "year": "2023",
    "revenue": 4476888000.0,
+   "eps": 3.41,
    "net_income": 631255000.0
   },
   {
    "year": "2022",
    "revenue": 4371172000.0,
+   "eps": 1.88,
    "net_income": 353404000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.9584336120306663,
  "interest_coverage": 10.604800745160235,
  "cash_to_debt": 0.3657437778167361,
- "ev": 7047288039.799843,
- "ev_to_sales": 1.3423290733317224,
- "ev_to_ebitda": 7.528019860042283,
- "pe_ttm": 10.555250697326102,
- "p_fcf": 11.20894928463868,
- "p_book": 2.3610511835662598
+ "ev": 7000238610.959969,
+ "ev_to_sales": 1.3333673541769582,
+ "ev_to_ebitda": 7.477760947293163,
+ "pe_ttm": 10.474500494221216,
+ "pe_trailing": 10.809524,
+ "p_sales": 1.162468,
+ "p_fcf": 11.1231981303287,
+ "p_book": 2.342988574910048
 }

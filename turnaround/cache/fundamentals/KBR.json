@@ -1,12 +1,20 @@
 {
  "ticker": "KBR",
  "fetched": "2026-09-14",
- "market_cap": 4661985522.190762,
+ "market_cap": 4631099056.870651,
  "shares_out": 126067755.0,
- "price": 36.97999954223633,
+ "price": 36.73500061035156,
  "long_name": "KBR, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 11.064759,
+ "pe_forward": 9.0371895,
+ "peg": 0.54,
+ "p_sales_y": 0.59965026,
+ "eps_trailing_y": 3.32,
+ "eps_forward": 4.06487,
+ "earnings_growth_y": 0.331,
+ "earnings_growth_q_y": 0.315,
  "bs_date": "2026-06-30",
  "cash": 252000000.0,
  "total_debt": 2798000000.0,
@@ -48,6 +56,34 @@
    "value": 1952000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.75
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.87
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.892569
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.56
+  }
+ ],
+ "eps_ttm": 3.312569,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.15053763440860202,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3392857142857142,
+ "eps_forward_growth": 0.22710500520894805,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 7786000000.0,
+   "eps": 3.21,
    "net_income": 415000000.0
   },
   {
    "year": "2024",
    "revenue": 7710000000.0,
+   "eps": 2.79,
    "net_income": 375000000.0
   },
   {
    "year": "2023",
    "revenue": 6956000000.0,
+   "eps": -1.961981,
    "net_income": -265000000.0
   },
   {
    "year": "2022",
    "revenue": 6564000000.0,
+   "eps": 1.26,
    "net_income": 190000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.83835005574136,
  "interest_coverage": 4.9391891891891895,
  "cash_to_debt": 0.09006433166547534,
- "ev": 7207985522.190762,
- "ev_to_sales": 0.9333141942497425,
- "ev_to_ebitda": 8.035658330201517,
- "pe_ttm": 10.995248873091418,
- "p_fcf": 13.132353583635949,
- "p_book": 2.8496244023170916
+ "ev": 7177099056.870651,
+ "ev_to_sales": 0.9293149108986989,
+ "ev_to_ebitda": 8.00122525849571,
+ "pe_ttm": 10.922403436015687,
+ "pe_trailing": 11.064759,
+ "p_sales": 0.59965026,
+ "p_fcf": 13.045349455973666,
+ "p_book": 2.8307451447864618
 }

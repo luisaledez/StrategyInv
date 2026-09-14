@@ -1,12 +1,20 @@
 {
  "ticker": "WDAY",
  "fetched": "2026-09-14",
- "market_cap": 46160538970.947266,
+ "market_cap": 46787739852.90527,
  "shares_out": 241000000.0,
- "price": 191.53750610351562,
+ "price": 194.13999938964844,
  "long_name": "Workday, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 39.620407,
+ "pe_forward": 14.683737,
+ "peg": 0.68,
+ "p_sales_y": 4.60736,
+ "eps_trailing_y": 4.9,
+ "eps_forward": 13.22143,
+ "earnings_growth_y": 2.06,
+ "earnings_growth_q_y": 1.772,
  "bs_date": "2026-07-31",
  "cash": 3403000000.0,
  "total_debt": 3772000000.0,
@@ -48,6 +56,34 @@
    "value": 2348000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2.57
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.87
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.94
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.84
+  }
+ ],
+ "eps_ttm": 4.93,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.32820512820512815,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.0595238095238093,
+ "eps_forward_growth": 1.6818316430020284,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 9552000000.0,
+   "eps": 2.59,
    "net_income": 693000000.0
   },
   {
    "year": "2025",
    "revenue": 8446000000.0,
+   "eps": 1.95,
    "net_income": 526000000.0
   },
   {
    "year": "2024",
    "revenue": 7259000000.0,
+   "eps": 5.21,
    "net_income": 1381000000.0
   },
   {
    "year": "2023",
    "revenue": 6216000000.0,
+   "eps": -1.44,
    "net_income": -367000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.2096590909090909,
  "interest_coverage": 12.567567567567568,
  "cash_to_debt": 0.9021739130434783,
- "ev": 46529538970.947266,
- "ev_to_sales": 4.581933921314354,
- "ev_to_ebitda": 26.437238051674584,
- "pe_ttm": 36.89891204712011,
- "p_fcf": 16.230850552372456,
- "p_book": 7.145594267948493
+ "ev": 47156739852.90527,
+ "ev_to_sales": 4.643696686647491,
+ "ev_to_ebitda": 26.793602189150725,
+ "pe_ttm": 37.400271664992225,
+ "pe_trailing": 39.620407,
+ "p_sales": 4.60736,
+ "p_fcf": 16.451385320993417,
+ "p_book": 7.242684187756234
 }

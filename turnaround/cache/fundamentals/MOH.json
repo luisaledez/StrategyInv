@@ -1,12 +1,20 @@
 {
  "ticker": "MOH",
  "fetched": "2026-09-14",
- "market_cap": 10837242031.860352,
+ "market_cap": 10870388745.117188,
  "shares_out": 52200000.0,
- "price": 207.61000061035156,
+ "price": 208.2449951171875,
  "long_name": "Molina Healthcare, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Healthcare Plans",
+ "pe_trailing_y": 1301.5312,
+ "pe_forward": 21.380915,
+ "peg": 0.95,
+ "p_sales_y": 0.25596055,
+ "eps_trailing_y": 0.16,
+ "eps_forward": 9.73976,
+ "earnings_growth_y": -0.753,
+ "earnings_growth_q_y": -0.765,
  "bs_date": "2026-06-30",
  "cash": 8915000000.0,
  "total_debt": 3953000000.0,
@@ -48,6 +56,34 @@
    "value": 11427000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.153846
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.269231
+  },
+  {
+   "period": "2025-12-31",
+   "value": -3.15
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4.722222
+  }
+ ],
+ "eps_ttm": -0.21692299999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5631733594515181,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.7556561296779356,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 45426000000.0,
+   "eps": 8.92,
    "net_income": 472000000.0
   },
   {
    "year": "2024",
    "revenue": 40650000000.0,
+   "eps": 20.42,
    "net_income": 1179000000.0
   },
   {
    "year": "2023",
    "revenue": 34072000000.0,
+   "eps": 18.713551,
    "net_income": 1091000000.0
   },
   {
    "year": "2022",
    "revenue": 31974000000.0,
+   "eps": 13.55,
    "net_income": 792000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -13.374663072776281,
  "interest_coverage": 0.9712918660287081,
  "cash_to_debt": 2.2552491778396155,
- "ev": 5875242031.860352,
- "ev_to_sales": 0.13196267085621383,
- "ev_to_ebitda": 15.836231891806877,
+ "ev": 5908388745.1171875,
+ "ev_to_sales": 0.13270717274869026,
+ "ev_to_ebitda": 15.925576132391342,
  "pe_ttm": null,
- "p_fcf": 39.989822995794654,
- "p_book": 2.5982359222873055
+ "pe_trailing": 1301.5312,
+ "p_sales": 0.25596055,
+ "p_fcf": 40.11213559083833,
+ "p_book": 2.6061828686447344
 }

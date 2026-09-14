@@ -1,12 +1,20 @@
 {
  "ticker": "ERIE",
  "fetched": "2026-09-14",
- "market_cap": 13030112334.58081,
+ "market_cap": 13043184801.58081,
  "shares_out": 52289868.0,
- "price": 249.19000244140625,
+ "price": 249.44000244140625,
  "long_name": "Erie Indemnity Company",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 22.614689,
+ "pe_forward": 17.804426,
+ "peg": 2.67,
+ "p_sales_y": 3.1662295,
+ "eps_trailing_y": 11.03,
+ "eps_forward": 14.01,
+ "earnings_growth_y": 0.032,
+ "earnings_growth_q_y": 0.032,
  "bs_date": "2026-06-30",
  "cash": 374921000.0,
  "total_debt": null,
@@ -48,26 +56,58 @@
    "value": 1292446000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.45
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.88
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.21
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.34
+  }
+ ],
+ "eps_ttm": 11.04,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.068815331010453,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.03293413173652704,
+ "eps_forward_growth": 0.2690217391304348,
  "gross_margin_quarters": [],
  "annual": [
   {
    "year": "2025",
    "revenue": 4148570000.0,
+   "eps": 10.69,
    "net_income": 559335000.0
   },
   {
    "year": "2024",
    "revenue": 3862404000.0,
+   "eps": 11.48,
    "net_income": 600314000.0
   },
   {
    "year": "2023",
    "revenue": 3309216000.0,
+   "eps": 8.53,
    "net_income": 446061000.0
   },
   {
    "year": "2022",
    "revenue": 2851202000.0,
+   "eps": 5.71,
    "net_income": 298569000.0
   }
  ],
@@ -82,10 +122,12 @@
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
  "cash_to_debt": null,
- "ev": 12655191334.58081,
- "ev_to_sales": 3.0235287749531867,
+ "ev": 12668263801.58081,
+ "ev_to_sales": 3.026651997596698,
  "ev_to_ebitda": null,
- "pe_ttm": 22.58247790659082,
- "p_fcf": 23.559054128549985,
- "p_book": 5.281537288864285
+ "pe_ttm": 22.605133789336257,
+ "pe_trailing": 22.614689,
+ "p_sales": 3.1662295,
+ "p_fcf": 23.58268976189977,
+ "p_book": 5.286835993905738
 }

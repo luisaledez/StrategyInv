@@ -1,12 +1,20 @@
 {
  "ticker": "EXPO",
  "fetched": "2026-09-14",
- "market_cap": 3276162859.9803467,
+ "market_cap": 3271883886.5393066,
  "shares_out": 47546084.0,
- "price": 68.90499877929688,
+ "price": 68.81500244140625,
  "long_name": "Exponent, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 30.858746,
+ "pe_forward": 24.248905,
+ "peg": 2.03,
+ "p_sales_y": 5.7691746,
+ "eps_trailing_y": 2.23,
+ "eps_forward": 2.83786,
+ "earnings_growth_y": 0.157,
+ "earnings_growth_q_y": 0.107,
  "bs_date": "2026-06-30",
  "cash": 66629000.0,
  "total_debt": 80721000.0,
@@ -48,26 +56,58 @@
    "value": 141962000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.59
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.49
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.55
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.52
+  }
+ ],
+ "eps_ttm": 2.23,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.018957345971563955,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.15384615384615374,
+ "eps_forward_growth": 0.2725829596412557,
  "gross_margin_quarters": [],
  "annual": [
   {
    "year": "2025",
    "revenue": 582014000.0,
+   "eps": 2.07,
    "net_income": 106009000.0
   },
   {
    "year": "2024",
    "revenue": 558514000.0,
+   "eps": 2.11,
    "net_income": 109002000.0
   },
   {
    "year": "2023",
    "revenue": 536766000.0,
+   "eps": 1.94,
    "net_income": 100339000.0
   },
   {
    "year": "2022",
    "revenue": 513293000.0,
+   "eps": 1.96,
    "net_income": 102330000.0
   }
  ],
@@ -82,10 +122,12 @@
  "net_debt_to_ebitda": 0.10223224973339234,
  "interest_coverage": null,
  "cash_to_debt": 0.8254233718611018,
- "ev": 3290254859.9803467,
- "ev_to_sales": 5.202312968377995,
- "ev_to_ebitda": 23.869582495885513,
- "pe_ttm": 29.31164766914509,
- "p_fcf": 30.178916892171436,
- "p_book": 11.351286345803235
+ "ev": 3285975886.5393066,
+ "ev_to_sales": 5.195547365112903,
+ "ev_to_ebitda": 23.838540125645167,
+ "pe_ttm": 29.273363930744445,
+ "pe_trailing": 30.858746,
+ "p_sales": 5.7691746,
+ "p_fcf": 30.139500419492865,
+ "p_book": 11.336460509948536
 }

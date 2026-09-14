@@ -1,12 +1,20 @@
 {
  "ticker": "MKC",
  "fetched": "2026-09-14",
- "market_cap": 13843166863.738403,
+ "market_cap": 13736970377.62793,
  "shares_out": 268851552.0,
- "price": 51.4900016784668,
+ "price": 51.095001220703125,
  "long_name": "McCormick & Company, Incorporated",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
+ "pe_trailing_y": 8.501664,
+ "pe_forward": 15.492489,
+ "peg": 1.99,
+ "p_sales_y": 1.8599163,
+ "eps_trailing_y": 6.01,
+ "eps_forward": 3.29805,
+ "earnings_growth_y": -0.142,
+ "earnings_growth_q_y": -0.142,
  "bs_date": "2026-05-31",
  "cash": 331200000.0,
  "total_debt": 4933500000.0,
@@ -48,6 +56,34 @@
    "value": 1659500000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.56
+  },
+  {
+   "period": "2026-02-28",
+   "value": 3.77
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.84
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-02-28",
+   "value": 0.6
+  }
+ ],
+ "eps_ttm": 5.82,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0034246575342467,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.06666666666666654,
+ "eps_forward_growth": -0.4333247422680413,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 6840300000.0,
+   "eps": 2.93,
    "net_income": 789400000.0
   },
   {
    "year": "2024",
    "revenue": 6723700000.0,
+   "eps": 2.92,
    "net_income": 788500000.0
   },
   {
    "year": "2023",
    "revenue": 6662200000.0,
+   "eps": 2.52,
    "net_income": 680600000.0
   },
   {
    "year": "2022",
    "revenue": 6350500000.0,
+   "eps": 2.52,
    "net_income": 682000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.3093406198317394,
  "interest_coverage": 5.485244315432995,
  "cash_to_debt": 0.06713286713286713,
- "ev": 18445466863.738403,
- "ev_to_sales": 2.497423009523464,
- "ev_to_ebitda": 13.26344061532926,
- "pe_ttm": 8.52149391427418,
- "p_fcf": 13.57306291179371,
- "p_book": 1.9788391079733552
+ "ev": 18339270377.62793,
+ "ev_to_sales": 2.4830445419085176,
+ "ev_to_ebitda": 13.187078721239613,
+ "pe_ttm": 8.456122116114454,
+ "pe_trailing": 8.501664,
+ "p_sales": 1.8599163,
+ "p_fcf": 13.468938501449093,
+ "p_book": 1.9636586393773128
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "ADSK",
  "fetched": "2026-09-14",
- "market_cap": 46306039489.74609,
+ "market_cap": 46876608596.80176,
  "shares_out": 209000000.0,
- "price": 221.55999755859375,
+ "price": 224.2899932861328,
  "long_name": "Autodesk, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 29.09079,
+ "pe_forward": 15.783388,
+ "peg": 0.82,
+ "p_sales_y": 6.0175366,
+ "eps_trailing_y": 7.71,
+ "eps_forward": 14.21051,
+ "earnings_growth_y": 0.596,
+ "earnings_growth_q_y": 0.572,
  "bs_date": "2026-07-31",
  "cash": 4155000000.0,
  "total_debt": 3705000000.0,
@@ -48,6 +56,34 @@
    "value": 1763000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2.33
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2.32
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.48
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.6
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.46
+  }
+ ],
+ "eps_ttm": 7.73,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.021484375,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5958904109589043,
+ "eps_forward_growth": 0.838358344113842,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 7206000000.0,
+   "eps": 5.23,
    "net_income": 1124000000.0
   },
   {
    "year": "2025",
    "revenue": 6131000000.0,
+   "eps": 5.12,
    "net_income": 1112000000.0
   },
   {
    "year": "2024",
    "revenue": 5497000000.0,
+   "eps": 4.19,
    "net_income": 906000000.0
   },
   {
    "year": "2023",
    "revenue": 5005000000.0,
+   "eps": 3.78,
    "net_income": 823000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -0.1893939393939394,
  "interest_coverage": null,
  "cash_to_debt": 1.1214574898785425,
- "ev": 45856039489.74609,
- "ev_to_sales": 5.88652625028833,
- "ev_to_ebitda": 19.299679919926806,
- "pe_ttm": 28.200998471221737,
- "p_fcf": 16.514279418597038,
- "p_book": 13.687862692801092
+ "ev": 46426608596.80176,
+ "ev_to_sales": 5.959770038100354,
+ "ev_to_ebitda": 19.53981843299737,
+ "pe_ttm": 28.548482702071716,
+ "pe_trailing": 29.09079,
+ "p_sales": 6.0175366,
+ "p_fcf": 16.71776340827452,
+ "p_book": 13.856520424712313
 }

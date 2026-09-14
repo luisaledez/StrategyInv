@@ -1,12 +1,20 @@
 {
  "ticker": "ACM",
  "fetched": "2026-09-14",
- "market_cap": 8272606041.899872,
+ "market_cap": 8273250152.4253845,
  "shares_out": 128696425.0,
- "price": 64.27999877929688,
+ "price": 64.28500366210938,
  "long_name": "AECOM",
  "sector_y": "Industrials",
  "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 22.635565,
+ "pe_forward": 10.051741,
+ "peg": 0.67,
+ "p_sales_y": 0.5374522,
+ "eps_trailing_y": 2.84,
+ "eps_forward": 6.39541,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 1012932000.0,
  "total_debt": 3202597000.0,
@@ -48,6 +56,34 @@
    "value": 4178440000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.67
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.39
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.56
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.98
+  }
+ ],
+ "eps_ttm": 2.1799999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.42711864406779654,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.683673469387755,
+ "eps_forward_growth": 1.9336743119266058,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 16139622000.0,
+   "eps": 4.21,
    "net_income": 561774000.0
   },
   {
    "year": "2024",
    "revenue": 16105498000.0,
+   "eps": 2.95,
    "net_income": 402266000.0
   },
   {
    "year": "2023",
    "revenue": 14378461000.0,
+   "eps": 0.39,
    "net_income": 55332000.0
   },
   {
    "year": "2022",
    "revenue": 13148182000.0,
+   "eps": 2.18,
    "net_income": 310611000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.3335542911463767,
  "interest_coverage": 3.574867552287194,
  "cash_to_debt": 0.3162845653074677,
- "ev": 10462271041.899872,
- "ev_to_sales": 0.6796568388291543,
- "ev_to_ebitda": 11.149777470508923,
- "pe_ttm": 28.720337598596974,
- "p_fcf": 40.66181717236198,
- "p_book": 3.7718309921759716
+ "ev": 10462915152.425385,
+ "ev_to_sales": 0.6796986819549797,
+ "ev_to_ebitda": 11.150463907420862,
+ "pe_ttm": 28.72257378289607,
+ "pe_trailing": 22.635565,
+ "p_sales": 0.5374522,
+ "p_fcf": 40.66498312808313,
+ "p_book": 3.772124669407815
 }

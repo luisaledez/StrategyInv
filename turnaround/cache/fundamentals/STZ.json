@@ -1,12 +1,20 @@
 {
  "ticker": "STZ",
  "fetched": "2026-09-14",
- "market_cap": 21075767165.349304,
+ "market_cap": 20951098335.237442,
  "shares_out": 170778434.0,
- "price": 123.41000366210938,
+ "price": 122.68000030517578,
  "long_name": "Constellation Brands, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Beverages - Brewers",
+ "pe_trailing_y": 11.694948,
+ "pe_forward": 9.903771,
+ "peg": 1.56,
+ "p_sales_y": 2.3136768,
+ "eps_trailing_y": 10.49,
+ "eps_forward": 12.3872,
+ "earnings_growth_y": 0.307,
+ "earnings_growth_q_y": 0.267,
  "bs_date": "2026-05-31",
  "cash": 96600000.0,
  "total_debt": 10533800000.0,
@@ -48,6 +56,34 @@
    "value": 2515000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 3.79
+  },
+  {
+   "period": "2026-02-28",
+   "value": 1.16
+  },
+  {
+   "period": "2025-11-30",
+   "value": 2.88
+  },
+  {
+   "period": "2025-08-31",
+   "value": 2.65
+  },
+  {
+   "period": "2025-05-31",
+   "value": 2.9
+  }
+ ],
+ "eps_ttm": 10.48,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 0.306896551724138,
+ "eps_forward_growth": 0.1819847328244275,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 9139000000.0,
+   "eps": 9.61,
    "net_income": 1686700000.0
   },
   {
    "year": "2025",
    "revenue": 10208700000.0,
+   "eps": -0.45,
    "net_income": -81400000.0
   },
   {
    "year": "2024",
    "revenue": 9961800000.0,
+   "eps": 9.39,
    "net_income": 1727400000.0
   },
   {
    "year": "2023",
    "revenue": 9452600000.0,
+   "eps": -0.11,
    "net_income": -71000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.176069624490293,
  "interest_coverage": 8.245196443934613,
  "cash_to_debt": 0.009170479788870114,
- "ev": 31512967165.349304,
- "ev_to_sales": 3.4795198212758844,
- "ev_to_ebitda": 9.589485474210122,
- "pe_ttm": 11.552163541629744,
- "p_fcf": 11.4904411543721,
- "p_book": 2.552905562932955
+ "ev": 31388298335.237442,
+ "ev_to_sales": 3.46575445087476,
+ "ev_to_ebitda": 9.551548394874763,
+ "pe_ttm": 11.483829387874064,
+ "pe_trailing": 11.694948,
+ "p_sales": 2.3136768,
+ "p_fcf": 11.422472105134359,
+ "p_book": 2.537804440045235
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "KHC",
  "fetched": "2026-09-14",
- "market_cap": 29076399088.987038,
+ "market_cap": 29017106544.019444,
  "shares_out": 1185823758.0,
- "price": 24.520000457763672,
+ "price": 24.469999313354492,
  "long_name": "The Kraft Heinz Company",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
+ "pe_trailing_y": null,
+ "pe_forward": 11.692972,
+ "peg": 0.99,
+ "p_sales_y": 1.1653457,
+ "eps_trailing_y": -2.88,
+ "eps_forward": 2.09271,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 2681000000.0,
  "total_debt": 19001000000.0,
@@ -48,6 +56,34 @@
    "value": 6352000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -4.6
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.52
+  },
+  {
+   "period": "2025-06-30",
+   "value": -6.6
+  }
+ ],
+ "eps_ttm": -2.86,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.1814159292035398,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 24942000000.0,
+   "eps": -4.93,
    "net_income": -5846000000.0
   },
   {
    "year": "2024",
    "revenue": 25846000000.0,
+   "eps": 2.26,
    "net_income": 2744000000.0
   },
   {
    "year": "2023",
    "revenue": 26640000000.0,
+   "eps": 2.31,
    "net_income": 2855000000.0
   },
   {
    "year": "2022",
    "revenue": 26485000000.0,
+   "eps": 1.91,
    "net_income": 2363000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.0498972154737434,
  "interest_coverage": 4.558700209643606,
  "cash_to_debt": 0.14109783695594968,
- "ev": 45396399088.98704,
- "ev_to_sales": 1.823148557790644,
- "ev_to_ebitda": 8.48372249840909,
+ "ev": 45337106544.01944,
+ "ev_to_sales": 1.820767331085118,
+ "ev_to_ebitda": 8.472641850872629,
  "pe_ttm": null,
- "p_fcf": 7.619601438413794,
- "p_book": 0.8075431619448713
+ "pe_trailing": null,
+ "p_sales": 1.1653457,
+ "p_fcf": 7.604063559753523,
+ "p_book": 0.8058964212636628
 }

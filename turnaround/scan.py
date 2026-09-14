@@ -163,7 +163,8 @@ def write_markdown(wl: pd.DataFrame, args, as_of_label: str) -> Path:
         lines.append("_No qualifiers._")
     else:
         hdr = ["Ticker", "Name", "Sector", "RSI(m)", "Oversold since", "Months", "DD 5y", "Mkt cap",
-               "ADV$ 3m", "Gate", "Runway", "ND/EBITDA", "EV/Sales", "Rev YoY", "Thesis"]
+               "ADV$ 3m", "Gate", "Runway", "ND/EBITDA", "P/E trail", "P/E fwd", "PEG", "P/S", "EV/Sales",
+               "EPS YoY", "Rev YoY", "Thesis"]
         lines.append("| " + " | ".join(hdr) + " |")
         lines.append("|" + "---|" * len(hdr))
         for _, r in wl.iterrows():
@@ -182,7 +183,12 @@ def write_markdown(wl: pd.DataFrame, args, as_of_label: str) -> Path:
                 str(r.get("survival_gate", "n/a")),
                 _runway(r.get("runway_months")),
                 _num(r.get("net_debt_to_ebitda")),
+                _num(r.get("pe_trailing")),
+                _num(r.get("pe_forward")),
+                _num(r.get("peg"), 2),
+                _num(r.get("p_sales"), 2),
                 _num(r.get("ev_to_sales")),
+                _pct(r.get("eps_growth_yoy")),
                 _pct(r.get("revenue_yoy_last_q")),
                 thesis,
             ]) + " |")
@@ -234,6 +240,11 @@ def init_thesis(ticker: str, wl_json: Path) -> Path:
         "interest_coverage": _num(row.get("interest_coverage")), "ev_to_sales": _num(row.get("ev_to_sales")),
         "ev_to_ebitda": _num(row.get("ev_to_ebitda")), "pe_ttm": _num(row.get("pe_ttm")),
         "p_fcf": _num(row.get("p_fcf")), "revenue_yoy_last_q": _pct(row.get("revenue_yoy_last_q")),
+        "pe_trailing": _num(row.get("pe_trailing")), "pe_forward": _num(row.get("pe_forward")),
+        "peg": _num(row.get("peg"), 2), "p_sales": _num(row.get("p_sales"), 2),
+        "eps_ttm": _num(row.get("eps_ttm"), 2), "eps_forward": _num(row.get("eps_forward"), 2),
+        "eps_growth_yoy": _pct(row.get("eps_growth_yoy")), "eps_growth_last_q": _pct(row.get("eps_growth_last_q")),
+        "eps_forward_growth": _pct(row.get("eps_forward_growth")),
         "profitable_years": row.get("profitable_years", "n/a"), "years_reported": row.get("years_reported", "n/a"),
     }
     tpl = (HERE / "thesis_template.md").read_text(encoding="utf-8")
@@ -319,7 +330,9 @@ def main(argv=None):
                  "revenue_yoy_last_q", "ebitda_ttm", "profitable_years", "years_reported", "dilution_1y",
                  "fcf_burn_annual", "runway_months", "need_24m", "gap_24m", "survival_gate",
                  "net_debt_to_ebitda", "interest_coverage", "cash_to_debt", "ev", "ev_to_sales",
-                 "ev_to_ebitda", "pe_ttm", "p_fcf", "p_book", "error"]
+                 "ev_to_ebitda", "pe_ttm", "p_fcf", "p_book", "pe_trailing", "pe_forward", "peg", "p_sales",
+                 "eps_ttm", "eps_forward", "eps_growth_yoy", "eps_growth_basis", "eps_growth_last_q",
+                 "eps_forward_growth", "error"]
         fdf = pd.DataFrame([{k: fund[t].get(k) for k in fcols} | {"ticker": t} for t in cand["ticker"]])
         cand = cand.merge(fdf, on="ticker", how="left")
         # fill name/sector for custom tickers from Yahoo
@@ -343,7 +356,8 @@ def main(argv=None):
     # ---- console summary
     show = ["ticker", "sector", "rsi_m", "episode_start", "episode_months", "drawdown_5y", "adv_3m_usd"]
     if "survival_gate" in wl:
-        show += ["market_cap", "survival_gate", "runway_months", "net_debt_to_ebitda", "ev_to_sales"]
+        show += ["market_cap", "survival_gate", "runway_months", "net_debt_to_ebitda", "pe_trailing", "pe_forward",
+                 "peg", "p_sales", "eps_growth_yoy"]
     with pd.option_context("display.width", 200, "display.max_rows", 500):
         out = wl[show].copy()
         out["drawdown_5y"] = out["drawdown_5y"].map(_pct)
@@ -352,7 +366,11 @@ def main(argv=None):
             out["market_cap"] = out["market_cap"].map(_money)
             out["runway_months"] = out["runway_months"].map(_runway)
             out["net_debt_to_ebitda"] = out["net_debt_to_ebitda"].map(_num)
-            out["ev_to_sales"] = out["ev_to_sales"].map(_num)
+            for c in ("pe_trailing", "pe_forward"):
+                out[c] = out[c].map(_num)
+            for c in ("peg", "p_sales"):
+                out[c] = out[c].map(lambda v: _num(v, 2))
+            out["eps_growth_yoy"] = out["eps_growth_yoy"].map(_pct)
         print(out.to_string(index=False))
     print(f"\nwrote {OUT / 'screen_all.csv'}, {OUT / 'watchlist.csv'}, {OUT / 'watchlist.json'}, {md}")
 

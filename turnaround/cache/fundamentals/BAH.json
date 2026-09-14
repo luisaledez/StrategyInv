@@ -1,12 +1,20 @@
 {
  "ticker": "BAH",
  "fetched": "2026-09-14",
- "market_cap": 9459210203.303879,
+ "market_cap": 9384633189.671333,
  "shares_out": 120284973.0,
- "price": 78.63999938964844,
+ "price": 78.0199966430664,
  "long_name": "Booz Allen Hamilton Holding Corporation",
  "sector_y": "Industrials",
  "industry_y": "Consulting Services",
+ "pe_trailing_y": 12.248037,
+ "pe_forward": 11.60492,
+ "peg": 1.09,
+ "p_sales_y": 0.84599596,
+ "eps_trailing_y": 6.37,
+ "eps_forward": 6.72301,
+ "earnings_growth_y": -0.245,
+ "earnings_growth_q_y": -0.269,
  "bs_date": "2026-06-30",
  "cash": 540000000.0,
  "total_debt": 4160000000.0,
@@ -48,6 +56,34 @@
    "value": 2924000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.63
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.68
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.63
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.42
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.16
+  }
+ ],
+ "eps_ttm": 6.359999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.0482758620689655,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.24537037037037046,
+ "eps_forward_growth": 0.05707704402515734,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 11217000000.0,
+   "eps": 6.9,
    "net_income": 851000000.0
   },
   {
    "year": "2025",
    "revenue": 11980000000.0,
+   "eps": 7.25,
    "net_income": 935000000.0
   },
   {
    "year": "2024",
    "revenue": 10662000000.0,
+   "eps": 4.59,
    "net_income": 606000000.0
   },
   {
    "year": "2023",
    "revenue": 9259000000.0,
+   "eps": 2.03,
    "net_income": 271000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.8347689898198905,
  "interest_coverage": 5.231132075471698,
  "cash_to_debt": 0.12980769230769232,
- "ev": 13079210203.303879,
- "ev_to_sales": 1.1790507710541673,
- "ev_to_ebitda": 10.242137982227,
- "pe_ttm": 12.158367870570538,
- "p_fcf": 8.475994805827849,
- "p_book": 7.869559237357636
+ "ev": 13004633189.671333,
+ "ev_to_sales": 1.1723278815172933,
+ "ev_to_ebitda": 10.183737814934481,
+ "pe_ttm": 12.062510526569838,
+ "pe_trailing": 12.248037,
+ "p_sales": 0.84599596,
+ "p_fcf": 8.409169524795102,
+ "p_book": 7.807515132838048
 }

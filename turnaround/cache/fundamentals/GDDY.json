@@ -1,12 +1,20 @@
 {
  "ticker": "GDDY",
  "fetched": "2026-09-14",
- "market_cap": 12828146054.109436,
+ "market_cap": 12925664361.041504,
  "shares_out": 126647704.0,
- "price": 101.29000091552734,
+ "price": 102.05999755859375,
  "long_name": "GoDaddy Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 15.164933,
+ "pe_forward": 9.255044,
+ "peg": 0.68,
+ "p_sales_y": 2.5324082,
+ "eps_trailing_y": 6.73,
+ "eps_forward": 11.0275,
+ "earnings_growth_y": 0.298,
+ "earnings_growth_q_y": 0.201,
  "bs_date": "2026-06-30",
  "cash": 1155500000.0,
  "total_debt": 3841400000.0,
@@ -48,6 +56,34 @@
    "value": 1217600000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.83
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.6
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.8
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.41
+  }
+ ],
+ "eps_ttm": 6.74,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.03565891472868221,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2978723404255321,
+ "eps_forward_growth": 0.636127596439169,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4951100000.0,
+   "eps": 6.22,
    "net_income": 875000000.0
   },
   {
    "year": "2024",
    "revenue": 4573200000.0,
+   "eps": 6.45,
    "net_income": 936900000.0
   },
   {
    "year": "2023",
    "revenue": 4254100000.0,
+   "eps": 9.2,
    "net_income": 1374800000.0
   },
   {
    "year": "2022",
    "revenue": 4091300000.0,
+   "eps": 2.19,
    "net_income": 352200000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.9141248574686431,
  "interest_coverage": 8.69608493696085,
  "cash_to_debt": 0.3008017910136929,
- "ev": 15514046054.109436,
- "ev_to_sales": 3.0395262738013433,
- "ev_to_ebitda": 11.05619017539156,
- "pe_ttm": 14.092218009567654,
- "p_fcf": 7.533117654653495,
- "p_book": 1914.6486647924532
+ "ev": 15611564361.041504,
+ "ev_to_sales": 3.0586321508280605,
+ "ev_to_ebitda": 11.125687258438928,
+ "pe_ttm": 14.199345667408002,
+ "pe_trailing": 15.164933,
+ "p_sales": 2.5324082,
+ "p_fcf": 7.590383675519116,
+ "p_book": 1929.2036359763438
 }

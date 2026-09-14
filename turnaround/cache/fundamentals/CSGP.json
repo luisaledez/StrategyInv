@@ -1,12 +1,20 @@
 {
  "ticker": "CSGP",
  "fetched": "2026-09-14",
- "market_cap": 12524657383.251755,
+ "market_cap": 12605697209.992981,
  "shares_out": 405197588.0,
- "price": 30.90999984741211,
+ "price": 31.110000610351562,
  "long_name": "CoStar Group, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "Real Estate Services",
+ "pe_trailing_y": 172.83333,
+ "pe_forward": 17.53931,
+ "peg": 0.09,
+ "p_sales_y": 3.5449095,
+ "eps_trailing_y": 0.18,
+ "eps_forward": 1.77373,
+ "earnings_growth_y": 12.61,
+ "earnings_growth_q_y": 8.167,
  "bs_date": "2026-06-30",
  "cash": 1266000000.0,
  "total_debt": 1202000000.0,
@@ -48,6 +56,34 @@
    "value": 781000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.01
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.07
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.01
+  }
+ ],
+ "eps_ttm": 0.19,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.9411764705882353,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 13.000000000000002,
+ "eps_forward_growth": 8.33542105263158,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 3247000000.0,
+   "eps": 0.02,
    "net_income": 7000000.0
   },
   {
    "year": "2024",
    "revenue": 2736000000.0,
+   "eps": 0.34,
    "net_income": 139000000.0
   },
   {
    "year": "2023",
    "revenue": 2455000000.0,
+   "eps": 0.92,
    "net_income": 375000000.0
   },
   {
    "year": "2022",
    "revenue": 2182400000.0,
+   "eps": 0.93,
    "net_income": 369500000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -0.16243654822335024,
  "interest_coverage": null,
  "cash_to_debt": 1.0532445923460898,
- "ev": 12460657383.251755,
- "ev_to_sales": 3.5046146486434413,
- "ev_to_ebitda": 31.626033967644048,
- "pe_ttm": 170.17197531592058,
- "p_fcf": 55.17470212886236,
- "p_book": 1.5790037043938168
+ "ev": 12541697209.992981,
+ "ev_to_sales": 3.5274074560520265,
+ "ev_to_ebitda": 31.831718807088784,
+ "pe_ttm": 171.2730599183829,
+ "pe_trailing": 172.83333,
+ "p_sales": 3.5449095,
+ "p_fcf": 55.53170577089419,
+ "p_book": 1.5892205257177232
 }

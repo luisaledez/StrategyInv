@@ -1,12 +1,20 @@
 {
  "ticker": "PNR",
  "fetched": "2026-09-14",
- "market_cap": 9097998170.471191,
+ "market_cap": 9078048170.471191,
  "shares_out": 159600000.0,
- "price": 57.005001068115234,
+ "price": 56.880001068115234,
  "long_name": "Pentair plc",
  "sector_y": "Industrials",
  "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 14.659794,
+ "pe_forward": 11.006405,
+ "peg": 0.9,
+ "p_sales_y": 2.2628365,
+ "eps_trailing_y": 3.88,
+ "eps_forward": 5.1679,
+ "earnings_growth_y": -0.111,
+ "earnings_growth_q_y": -0.134,
  "bs_date": "2026-06-30",
  "cash": 91800000.0,
  "total_debt": 1764700000.0,
@@ -48,6 +56,34 @@
    "value": 1123100000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9
+  }
+ ],
+ "eps_ttm": 3.9800000000000004,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.05882352941176472,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.11111111111111105,
+ "eps_forward_growth": 0.29846733668341696,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4176000000.0,
+   "eps": 3.96,
    "net_income": 653800000.0
   },
   {
    "year": "2024",
    "revenue": 4082800000.0,
+   "eps": 3.74,
    "net_income": 625400000.0
   },
   {
    "year": "2023",
    "revenue": 4104500000.0,
+   "eps": 3.75,
    "net_income": 622700000.0
   },
   {
    "year": "2022",
    "revenue": 4121800000.0,
+   "eps": 2.9,
    "net_income": 480900000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.8001721726030346,
  "interest_coverage": 11.342215988779804,
  "cash_to_debt": 0.052020173400578004,
- "ev": 10770898170.471191,
- "ev_to_sales": 2.684804369727103,
- "ev_to_ebitda": 11.590334843937578,
- "pe_ttm": 13.96683784229535,
- "p_fcf": 13.518570832795232,
- "p_book": 2.4265858081431713
+ "ev": 10750948170.471191,
+ "ev_to_sales": 2.6798315395760484,
+ "ev_to_ebitda": 11.568867072496708,
+ "pe_ttm": 13.936211499034682,
+ "pe_trailing": 14.659794,
+ "p_sales": 2.2628365,
+ "p_fcf": 13.488927444979481,
+ "p_book": 2.4212648148910976
 }

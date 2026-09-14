@@ -1,12 +1,20 @@
 {
  "ticker": "MTN",
  "fetched": "2026-09-14",
- "market_cap": 4883218163.801239,
+ "market_cap": 4892839368.064087,
  "shares_out": 35633526.0,
- "price": 137.0399932861328,
+ "price": 137.30999755859375,
  "long_name": "Vail Resorts, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 29.592672,
+ "pe_forward": 21.719082,
+ "peg": 3.33,
+ "p_sales_y": 1.7280483,
+ "eps_trailing_y": 4.64,
+ "eps_forward": 6.32209,
+ "earnings_growth_y": -0.158,
+ "earnings_growth_q_y": -0.193,
  "bs_date": "2026-04-30",
  "cash": 371374000.0,
  "total_debt": 3257489000.0,
@@ -48,6 +56,34 @@
    "value": 1295558000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-04-30",
+   "value": 8.81
+  },
+  {
+   "period": "2026-01-31",
+   "value": 5.87
+  },
+  {
+   "period": "2025-10-31",
+   "value": -5.2
+  },
+  {
+   "period": "2025-07-31",
+   "value": -5.08
+  },
+  {
+   "period": "2025-04-30",
+   "value": 10.54
+  }
+ ],
+ "eps_ttm": 4.4,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.24052718286655672,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.16413662239089177,
+ "eps_forward_growth": 0.4368386363636363,
  "gross_margin_quarters": [
   {
    "period": "2026-04-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2964347000.0,
+   "eps": 7.53,
    "net_income": 280004000.0
   },
   {
    "year": "2024",
    "revenue": 2885191000.0,
+   "eps": 6.07,
    "net_income": 231105000.0
   },
   {
    "year": "2023",
    "revenue": 2889364000.0,
+   "eps": 6.69,
    "net_income": 265825000.0
   },
   {
    "year": "2022",
    "revenue": 2525912000.0,
+   "eps": 8.55,
    "net_income": 347923000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.9057501285625356,
  "interest_coverage": 2.209405165007328,
  "cash_to_debt": 0.11400621767256927,
- "ev": 7769333163.801239,
- "ev_to_sales": 2.7439657288472197,
- "ev_to_ebitda": 10.514159693346198,
- "pe_ttm": 32.07789636603323,
- "p_fcf": 28.14129470566915,
- "p_book": 8.850787008432139
+ "ev": 7778954368.064087,
+ "ev_to_sales": 2.7473637366570145,
+ "ev_to_ebitda": 10.527179971396983,
+ "pe_ttm": 32.14109812825387,
+ "pe_trailing": 29.592672,
+ "p_sales": 1.7280483,
+ "p_fcf": 28.196740343259396,
+ "p_book": 8.86822535069715
 }

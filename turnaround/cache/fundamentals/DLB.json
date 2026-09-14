@@ -1,12 +1,20 @@
 {
  "ticker": "DLB",
  "fetched": "2026-09-14",
- "market_cap": 6007916454.129105,
+ "market_cap": 5936259883.125,
  "shares_out": 93668795.0,
- "price": 64.13999938964844,
+ "price": 63.375,
  "long_name": "Dolby Laboratories, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 26.968086,
+ "pe_forward": 13.787154,
+ "peg": 1.29,
+ "p_sales_y": 4.38309,
+ "eps_trailing_y": 2.35,
+ "eps_forward": 4.59667,
+ "earnings_growth_y": -0.375,
+ "earnings_growth_q_y": -0.379,
  "bs_date": "2026-06-30",
  "cash": 670046000.0,
  "total_debt": 47450000.0,
@@ -48,6 +56,34 @@
    "value": 315546000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.99
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.48
+  }
+ ],
+ "eps_ttm": 2.35,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.026022304832713727,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.375,
+ "eps_forward_growth": 0.9560297872340422,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 1349130000.0,
+   "eps": 2.62,
    "net_income": 255018000.0
   },
   {
    "year": "2024",
    "revenue": 1273721000.0,
+   "eps": 2.69,
    "net_income": 261825000.0
   },
   {
    "year": "2023",
    "revenue": 1299744000.0,
+   "eps": 2.05,
    "net_income": 200656000.0
   },
   {
    "year": "2022",
    "revenue": 1253793000.0,
+   "eps": 1.81,
    "net_income": 184087000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -1.705097798640514,
  "interest_coverage": null,
  "cash_to_debt": 14.12109589041096,
- "ev": 5385320454.129105,
- "ev_to_sales": 3.9762990162321583,
- "ev_to_ebitda": 14.748726383255384,
+ "ev": 5313663883.125,
+ "ev_to_sales": 3.92339075288606,
+ "ev_to_ebitda": 14.552481207447595,
  "pe_ttm": null,
- "p_fcf": 17.439272156076413,
- "p_book": 2.3254527415716084
+ "pe_trailing": 26.968086,
+ "p_sales": 4.38309,
+ "p_fcf": 17.231273517438062,
+ "p_book": 2.2977170080997174
 }

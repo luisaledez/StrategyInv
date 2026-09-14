@@ -1,12 +1,20 @@
 {
  "ticker": "GEN",
  "fetched": "2026-09-14",
- "market_cap": 18493346627.651398,
+ "market_cap": 18505318642.302795,
  "shares_out": 598587032.0,
- "price": 30.895000457763672,
+ "price": 30.915000915527344,
  "long_name": "Gen Digital Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 18.078947,
+ "pe_forward": 9.3478155,
+ "peg": 1.52,
+ "p_sales_y": 3.6434963,
+ "eps_trailing_y": 1.71,
+ "eps_forward": 3.30719,
+ "earnings_growth_y": 0.64,
+ "earnings_growth_q_y": 0.593,
  "bs_date": "2026-06-30",
  "cash": 533000000.0,
  "total_debt": 8176000000.0,
@@ -48,6 +56,34 @@
    "value": 1257000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.84
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.31
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.21
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.22
+  }
+ ],
+ "eps_ttm": 1.72,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5242718446601942,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.6363636363636362,
+ "eps_forward_growth": 0.9227848837209303,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 5000000000.0,
+   "eps": 1.57,
    "net_income": 973000000.0
   },
   {
    "year": "2025",
    "revenue": 3935000000.0,
+   "eps": 1.03,
    "net_income": 643000000.0
   },
   {
    "year": "2024",
    "revenue": 3800000000.0,
+   "eps": 0.96,
    "net_income": 607000000.0
   },
   {
    "year": "2023",
    "revenue": 3317000000.0,
+   "eps": 2.16,
    "net_income": 1334000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.980889235569423,
  "interest_coverage": 3.856610800744879,
  "cash_to_debt": 0.0651908023483366,
- "ev": 26136346627.651398,
- "ev_to_sales": 5.145963108417287,
- "ev_to_ebitda": 10.193582928101169,
- "pe_ttm": 17.562532409925353,
- "p_fcf": 11.946606348612015,
- "p_book": 6.962856411013328
+ "ev": 26148318642.302795,
+ "ev_to_sales": 5.148320268222641,
+ "ev_to_ebitda": 10.198252200586113,
+ "pe_ttm": 17.573901844542068,
+ "pe_trailing": 18.078947,
+ "p_sales": 3.6434963,
+ "p_fcf": 11.95434020820594,
+ "p_book": 6.967363946650149
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "AVTR",
  "fetched": "2026-09-14",
- "market_cap": 10013492832.608337,
+ "market_cap": 10016874704.211464,
  "shares_out": 676358840.0,
- "price": 14.805000305175781,
+ "price": 14.8100004196167,
  "long_name": "Avantor, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": null,
+ "pe_forward": 16.801098,
+ "peg": null,
+ "p_sales_y": 1.5267066,
+ "eps_trailing_y": -0.85,
+ "eps_forward": 0.88149,
+ "earnings_growth_y": -0.374,
+ "earnings_growth_q_y": -0.411,
  "bs_date": "2026-06-30",
  "cash": 306800000.0,
  "total_debt": 3697800000.0,
@@ -48,6 +56,34 @@
    "value": 1683400000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.09
+  }
+ ],
+ "eps_ttm": -0.8400000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.75,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.33333333333333337,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 6552200000.0,
+   "eps": -0.78,
    "net_income": -530200000.0
   },
   {
    "year": "2024",
    "revenue": 6783600000.0,
+   "eps": 1.04,
    "net_income": 711500000.0
   },
   {
    "year": "2023",
    "revenue": 6967200000.0,
+   "eps": 0.47,
    "net_income": 321100000.0
   },
   {
    "year": "2022",
    "revenue": 7512400000.0,
+   "eps": 1.01,
    "net_income": 686500000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 30.035429583702392,
  "interest_coverage": -1.834834834834835,
  "cash_to_debt": 0.08296825139272,
- "ev": 13404492832.608337,
- "ev_to_sales": 2.0430252293987805,
- "ev_to_ebitda": 118.72890020025099,
+ "ev": 13407874704.211464,
+ "ev_to_sales": 2.0435406721756206,
+ "ev_to_ebitda": 118.75885477600943,
  "pe_ttm": null,
- "p_fcf": 22.022196684865488,
- "p_book": 1.7785323492253096
+ "pe_trailing": null,
+ "p_sales": 1.5267066,
+ "p_fcf": 22.029634273612192,
+ "p_book": 1.7791330155609861
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "CTSH",
  "fetched": "2026-09-14",
- "market_cap": 28292401385.880985,
+ "market_cap": 28355463300.21166,
  "shares_out": 450444209.0,
- "price": 62.810001373291016,
+ "price": 62.95000076293945,
  "long_name": "Cognizant Technology Solutions Corporation",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 13.508584,
+ "pe_forward": 9.960191,
+ "peg": 0.87,
+ "p_sales_y": 1.3102053,
+ "eps_trailing_y": 4.66,
+ "eps_forward": 6.32016,
+ "earnings_growth_y": 0.038,
+ "earnings_growth_q_y": -0.014,
  "bs_date": "2026-06-30",
  "cash": 1051000000.0,
  "total_debt": 2094000000.0,
@@ -48,6 +56,34 @@
    "value": 5245000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.39
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.34
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.56
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.31
+  }
+ ],
+ "eps_ttm": 4.65,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.011086474501108556,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.03816793893129766,
+ "eps_forward_growth": 0.359174193548387,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 21108000000.0,
+   "eps": 4.56,
    "net_income": 2230000000.0
   },
   {
    "year": "2024",
    "revenue": 19736000000.0,
+   "eps": 4.51,
    "net_income": 2240000000.0
   },
   {
    "year": "2023",
    "revenue": 19353000000.0,
+   "eps": 4.21,
    "net_income": 2126000000.0
   },
   {
    "year": "2022",
    "revenue": 19428000000.0,
+   "eps": 4.41,
    "net_income": 2290000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.25426621160409557,
  "interest_coverage": 98.41666666666667,
  "cash_to_debt": 0.5019102196752626,
- "ev": 29335401385.880985,
- "ev_to_sales": 1.355484769701552,
- "ev_to_ebitda": 7.151487417328373,
- "pe_ttm": 12.744324948595038,
- "p_fcf": 10.890069817506152,
- "p_book": 1.9563270215655502
+ "ev": 29398463300.21166,
+ "ev_to_sales": 1.3583986369194925,
+ "ev_to_ebitda": 7.166860872796601,
+ "pe_ttm": 12.772731216311557,
+ "pe_trailing": 13.508584,
+ "p_sales": 1.3102053,
+ "p_fcf": 10.914343071675003,
+ "p_book": 1.9606875466886777
 }

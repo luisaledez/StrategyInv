@@ -1,12 +1,20 @@
 {
  "ticker": "CDW",
  "fetched": "2026-09-14",
- "market_cap": 18741362789.487488,
+ "market_cap": 18723860426.15207,
  "shares_out": 125017426.0,
- "price": 149.91000366210938,
+ "price": 149.77000427246094,
  "long_name": "CDW Corporation",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
+ "pe_trailing_y": 18.001204,
+ "pe_forward": 12.431594,
+ "peg": 1.33,
+ "p_sales_y": 0.79674643,
+ "eps_trailing_y": 8.32,
+ "eps_forward": 12.04753,
+ "earnings_growth_y": 0.049,
+ "earnings_growth_q_y": 0.012,
  "bs_date": "2026-06-30",
  "cash": 361800000.0,
  "total_debt": 5964300000.0,
@@ -48,6 +56,34 @@
    "value": 5976600000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.82
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.21
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.05
+  }
+ ],
+ "eps_ttm": 8.32,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.013801756587201952,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.04878048780487809,
+ "eps_forward_growth": 0.4480204326923076,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 22424100000.0,
+   "eps": 8.08,
    "net_income": 1066600000.0
   },
   {
    "year": "2024",
    "revenue": 20998700000.0,
+   "eps": 7.97,
    "net_income": 1077800000.0
   },
   {
    "year": "2023",
    "revenue": 21376000000.0,
+   "eps": 8.1,
    "net_income": 1104300000.0
   },
   {
    "year": "2022",
    "revenue": 23748700000.0,
+   "eps": 8.13,
    "net_income": 1114500000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.8338391502276177,
  "interest_coverage": 7.333624454148471,
  "cash_to_debt": 0.06066093254866455,
- "ev": 24343862789.487488,
- "ev_to_sales": 1.0358914226773794,
- "ev_to_ebitda": 12.313537071060944,
- "pe_ttm": 17.34829472321345,
- "p_fcf": 21.78721551905079,
- "p_book": 7.67428147475021
+ "ev": 24326360426.15207,
+ "ev_to_sales": 1.0351466539357657,
+ "ev_to_ebitda": 12.304684079995988,
+ "pe_ttm": 17.33209333162276,
+ "pe_trailing": 18.001204,
+ "p_sales": 0.79674643,
+ "p_fcf": 21.76686866560343,
+ "p_book": 7.667114543283268
 }

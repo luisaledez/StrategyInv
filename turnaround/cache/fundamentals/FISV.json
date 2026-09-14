@@ -1,12 +1,20 @@
 {
  "ticker": "FISV",
  "fetched": "2026-09-14",
- "market_cap": 27800763524.7507,
+ "market_cap": 27819375278.84454,
  "shares_out": 531766721.0,
- "price": 52.279998779296875,
+ "price": 52.314998626708984,
  "long_name": "Fiserv, Inc.",
  "sector_y": null,
  "industry_y": null,
+ "pe_trailing_y": 10.022031,
+ "pe_forward": 6.4734106,
+ "peg": 1.5218,
+ "p_sales_y": null,
+ "eps_trailing_y": null,
+ "eps_forward": null,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 245000000.0,
  "total_debt": 28034000000.0,
@@ -48,6 +56,34 @@
    "value": 5516000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.07
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.51
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.46
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.86
+  }
+ ],
+ "eps_ttm": 5.21,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.17843866171003708,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.370967741935484,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 21193000000.0,
+   "eps": 6.34,
    "net_income": 3480000000.0
   },
   {
    "year": "2024",
    "revenue": 20456000000.0,
+   "eps": 5.38,
    "net_income": 3131000000.0
   },
   {
    "year": "2023",
    "revenue": 19093000000.0,
+   "eps": 4.98,
    "net_income": 3068000000.0
   },
   {
    "year": "2022",
    "revenue": 17737000000.0,
+   "eps": 3.91,
    "net_income": 2530000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 3.4248212965245255,
  "interest_coverage": 3.12105602060528,
  "cash_to_debt": 0.008739387886138261,
- "ev": 55589763524.7507,
- "ev_to_sales": 2.6641312913232387,
- "ev_to_ebitda": 6.851092374260624,
- "pe_ttm": 9.925299366208748,
- "p_fcf": 7.081192950777051,
- "p_book": 1.0333319775777097
+ "ev": 55608375278.84454,
+ "ev_to_sales": 2.6650232569176913,
+ "ev_to_ebitda": 6.853386157116655,
+ "pe_ttm": 9.93194404814157,
+ "pe_trailing": 10.022031,
+ "p_sales": 1.3332394938581682,
+ "p_fcf": 7.085933591147361,
+ "p_book": 1.0340237614795027
 }

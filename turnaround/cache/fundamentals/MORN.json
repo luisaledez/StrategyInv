@@ -1,12 +1,20 @@
 {
  "ticker": "MORN",
  "fetched": "2026-09-14",
- "market_cap": 7504964922.674133,
+ "market_cap": 7442692257.435333,
  "shares_out": 37513571.0,
- "price": 200.05999755859375,
+ "price": 198.39999389648438,
  "long_name": "Morningstar, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Financial Data & Stock Exchanges",
+ "pe_trailing_y": 18.859314,
+ "pe_forward": 14.234488,
+ "peg": 2.31,
+ "p_sales_y": 2.8999386,
+ "eps_trailing_y": 10.52,
+ "eps_forward": 13.93798,
+ "earnings_growth_y": 0.354,
+ "earnings_growth_q_y": 0.211,
  "bs_date": "2026-06-30",
  "cash": 523800000.0,
  "total_debt": 1904800000.0,
@@ -48,6 +56,34 @@
    "value": 605100000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.83
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.73
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.83
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.17
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.09
+  }
+ ],
+ "eps_ttm": 10.56,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0337995337995336,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3540669856459331,
+ "eps_forward_growth": 0.3198844696969696,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2445500000.0,
+   "eps": 8.87,
    "net_income": 374200000.0
   },
   {
    "year": "2024",
    "revenue": 2275100000.0,
+   "eps": 8.58,
    "net_income": 369900000.0
   },
   {
    "year": "2023",
    "revenue": 2038600000.0,
+   "eps": 3.29,
    "net_income": 141100000.0
   },
   {
    "year": "2022",
    "revenue": 1870600000.0,
+   "eps": 1.64,
    "net_income": 70500000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.6890900195694716,
  "interest_coverage": 11.14054054054054,
  "cash_to_debt": 0.2749895002099958,
- "ev": 8885964922.674133,
- "ev_to_sales": 3.4622890795535293,
- "ev_to_ebitda": 10.868352400530984,
- "pe_ttm": 17.801150196096142,
- "p_fcf": 15.08535662849072,
- "p_book": 7.330499045393762
+ "ev": 8823692257.435333,
+ "ev_to_sales": 3.438025426625885,
+ "ev_to_ebitda": 10.792187203321102,
+ "pe_ttm": 17.653444633385515,
+ "pe_trailing": 18.859314,
+ "p_sales": 2.8999386,
+ "p_fcf": 14.960185442081071,
+ "p_book": 7.269674015857915
 }

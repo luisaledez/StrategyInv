@@ -1,12 +1,20 @@
 {
  "ticker": "PTC",
  "fetched": "2026-09-14",
- "market_cap": 14636952541.183762,
+ "market_cap": 14766616662.128204,
  "shares_out": 108506261.0,
- "price": 134.89500427246094,
+ "price": 136.08999633789062,
  "long_name": "PTC Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 13.199805,
+ "pe_forward": 15.275168,
+ "peg": 1.22,
+ "p_sales_y": 4.998902,
+ "eps_trailing_y": 10.31,
+ "eps_forward": 8.90923,
+ "earnings_growth_y": -0.12,
+ "earnings_growth_q_y": -0.16,
  "bs_date": "2026-06-30",
  "cash": 351454000.0,
  "total_debt": 1607694000.0,
@@ -48,6 +56,34 @@
    "value": 643937000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.03
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.98
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.94
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.17
+  }
+ ],
+ "eps_ttm": 10.34,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.9679487179487178,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.11965811965811957,
+ "eps_forward_growth": -0.13837234042553181,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2739226000.0,
+   "eps": 6.14,
    "net_income": 733997000.0
   },
   {
    "year": "2024",
    "revenue": 2298472000.0,
+   "eps": 3.12,
    "net_income": 376333000.0
   },
   {
    "year": "2023",
    "revenue": 2097053000.0,
+   "eps": 2.06,
    "net_income": 245540000.0
   },
   {
    "year": "2022",
    "revenue": 1933347000.0,
+   "eps": 2.65,
    "net_income": 313081000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.7262808516444286,
  "interest_coverage": 24.427924066135947,
  "cash_to_debt": 0.21860752108299217,
- "ev": 15893192541.183762,
- "ev_to_sales": 5.380278669257448,
- "ev_to_ebitda": 9.188468297586306,
- "pe_ttm": 11.960112027794878,
- "p_fcf": 15.646395385900519,
- "p_book": 4.2184543757805
+ "ev": 16022856662.128204,
+ "ev_to_sales": 5.424173506765874,
+ "ev_to_ebitda": 9.263432132671367,
+ "pe_ttm": 12.066062867501275,
+ "pe_trailing": 13.199805,
+ "p_sales": 4.998902,
+ "p_fcf": 15.785001840895413,
+ "p_book": 4.255824325354415
 }

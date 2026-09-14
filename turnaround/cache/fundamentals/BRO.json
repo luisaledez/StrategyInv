@@ -1,12 +1,20 @@
 {
  "ticker": "BRO",
  "fetched": "2026-09-14",
- "market_cap": 22609621720.375023,
+ "market_cap": 22660349888.129745,
  "shares_out": 334610357.0,
- "price": 67.56999969482422,
+ "price": 67.72160339355469,
  "long_name": "Brown & Brown, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 21.636293,
+ "pe_forward": 14.0351,
+ "peg": 1.51,
+ "p_sales_y": 3.400923,
+ "eps_trailing_y": 3.13,
+ "eps_forward": 4.82516,
+ "earnings_growth_y": 0.071,
+ "earnings_growth_q_y": 0.247,
  "bs_date": "2026-06-30",
  "cash": 918000000.0,
  "total_debt": 8007000000.0,
@@ -48,6 +56,34 @@
    "value": 1249000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.84
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.59
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.68
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.78
+  }
+ ],
+ "eps_ttm": 3.17,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.08670520231213863,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.07692307692307687,
+ "eps_forward_growth": 0.5221324921135648,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 5763000000.0,
+   "eps": 3.16,
    "net_income": 1054000000.0
   },
   {
    "year": "2024",
    "revenue": 4705000000.0,
+   "eps": 3.46,
    "net_income": 993000000.0
   },
   {
    "year": "2023",
    "revenue": 4199000000.0,
+   "eps": 3.05,
    "net_income": 871000000.0
   },
   {
    "year": "2022",
    "revenue": 3563000000.0,
+   "eps": 2.37,
    "net_income": 672000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.8723662884927066,
  "interest_coverage": 4.70334928229665,
  "cash_to_debt": 0.11464968152866242,
- "ev": 29698621720.375023,
- "ev_to_sales": 4.456575888411618,
- "ev_to_ebitda": 12.033477196262165,
- "pe_ttm": 18.76317155217844,
- "p_fcf": 15.635976293482035,
- "p_book": 1.7968387284729415
+ "ev": 29749349888.129745,
+ "ev_to_sales": 4.464188158482855,
+ "ev_to_ebitda": 12.054031559209783,
+ "pe_ttm": 18.805269616705182,
+ "pe_trailing": 21.636293,
+ "p_sales": 3.400923,
+ "p_fcf": 15.671058013920986,
+ "p_book": 1.800870212837141
 }

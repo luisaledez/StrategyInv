@@ -1,12 +1,20 @@
 {
  "ticker": "ARE",
  "fetched": "2026-09-14",
- "market_cap": 8914535217.301723,
+ "market_cap": 8868930073.935345,
  "shares_out": 172095277.0,
- "price": 51.79999923706055,
+ "price": 51.53499984741211,
  "long_name": "Alexandria Real Estate Equities, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Office",
+ "pe_trailing_y": null,
+ "pe_forward": -63.623455,
+ "peg": 3.24,
+ "p_sales_y": 3.1225035,
+ "eps_trailing_y": -6.05,
+ "eps_forward": -0.81,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 470449000.0,
  "total_debt": 13167779000.0,
@@ -48,6 +56,34 @@
    "value": 737279000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.43
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.1
+  },
+  {
+   "period": "2025-12-31",
+   "value": -6.35
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.38
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.64
+  }
+ ],
+ "eps_ttm": -6.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -5.688888888888888,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2945175000.0,
+   "eps": -8.44,
    "net_income": -1429570000.0
   },
   {
    "year": "2024",
    "revenue": 3049706000.0,
+   "eps": 1.8,
    "net_income": 322949000.0
   },
   {
    "year": "2023",
    "revenue": 2842456000.0,
+   "eps": 0.54,
    "net_income": 103639000.0
   },
   {
    "year": "2022",
    "revenue": 2576040000.0,
+   "eps": 3.18,
    "net_income": 521660000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 18.461351684189253,
  "interest_coverage": -2.3424907397014256,
  "cash_to_debt": 0.035727285520208076,
- "ev": 21611865217.301723,
- "ev_to_sales": 7.827708645051013,
- "ev_to_ebitda": 31.422688417793687,
+ "ev": 21566260073.935345,
+ "ev_to_sales": 7.81119069200076,
+ "ev_to_ebitda": 31.356380572735347,
  "pe_ttm": null,
- "p_fcf": 6.967485366581309,
- "p_book": 0.5731354617817157
+ "pe_trailing": null,
+ "p_sales": 3.1225035,
+ "p_fcf": 6.9318409766831826,
+ "p_book": 0.5702034048358661
 }

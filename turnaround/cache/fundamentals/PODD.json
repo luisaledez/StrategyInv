@@ -1,12 +1,20 @@
 {
  "ticker": "PODD",
  "fetched": "2026-09-14",
- "market_cap": 9235551444.200119,
+ "market_cap": 9379462253.733994,
  "shares_out": 69354199.0,
- "price": 133.1649932861328,
+ "price": 135.24000549316406,
  "long_name": "Insulet Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Medical Devices",
+ "pe_trailing_y": 25.37336,
+ "pe_forward": 17.5389,
+ "peg": 1.04,
+ "p_sales_y": 3.071809,
+ "eps_trailing_y": 5.33,
+ "eps_forward": 7.71086,
+ "earnings_growth_y": 3.286,
+ "earnings_growth_q_y": 3.222,
  "bs_date": "2026-06-30",
  "cash": 534900000.0,
  "total_debt": 948400000.0,
@@ -48,6 +56,34 @@
    "value": 649100000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.3
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.44
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32
+  }
+ ],
+ "eps_ttm": 5.35,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.39792387543252594,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 3.28125,
+ "eps_forward_growth": 0.44128224299065444,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 2708100000.0,
+   "eps": 3.48,
    "net_income": 247100000.0
   },
   {
    "year": "2024",
    "revenue": 2071600000.0,
+   "eps": 5.78,
    "net_income": 418300000.0
   },
   {
    "year": "2023",
    "revenue": 1697100000.0,
+   "eps": 2.94,
    "net_income": 206300000.0
   },
   {
    "year": "2022",
    "revenue": 1305300000.0,
+   "eps": 0.07,
    "net_income": 4600000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.6335222920177723,
  "interest_coverage": 9.427597955706984,
  "cash_to_debt": 0.5640025305778152,
- "ev": 9649051444.200119,
- "ev_to_sales": 3.159997198035081,
- "ev_to_ebitda": 14.783287029569664,
- "pe_ttm": 24.608450424194295,
- "p_fcf": 34.772407545934186,
- "p_book": 6.493848575587203
+ "ev": 9792962253.733994,
+ "ev_to_sales": 3.2071269866494165,
+ "ev_to_ebitda": 15.003772412645922,
+ "pe_ttm": 24.99190581863574,
+ "pe_trailing": 25.37336,
+ "p_sales": 3.071809,
+ "p_fcf": 35.3142404131551,
+ "p_book": 6.5950374446167865
 }

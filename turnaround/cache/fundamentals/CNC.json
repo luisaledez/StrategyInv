@@ -1,12 +1,20 @@
 {
  "ticker": "CNC",
  "fetched": "2026-09-14",
- "market_cap": 33631180504.53186,
+ "market_cap": 33571899747.73407,
  "shares_out": 493995000.0,
- "price": 68.08000183105469,
+ "price": 67.95999908447266,
  "long_name": "Centene Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Healthcare Plans",
+ "pe_trailing_y": null,
+ "pe_forward": 12.792422,
+ "peg": 0.8,
+ "p_sales_y": 0.18619609,
+ "eps_trailing_y": -10.36,
+ "eps_forward": 5.31252,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 27057000000.0,
  "total_debt": 16105000000.0,
@@ -48,6 +56,34 @@
    "value": 48742000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.11
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": -13.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.51
+  }
+ ],
+ "eps_ttm": -10.440000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.144215530903328,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 194777000000.0,
+   "eps": -13.53,
    "net_income": -6674000000.0
   },
   {
    "year": "2024",
    "revenue": 163071000000.0,
+   "eps": 6.31,
    "net_income": 3305000000.0
   },
   {
    "year": "2023",
    "revenue": 153999000000.0,
+   "eps": 4.95,
    "net_income": 2702000000.0
   },
   {
    "year": "2022",
    "revenue": 144547000000.0,
+   "eps": 2.07,
    "net_income": 1202000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 4.010252654705236,
  "interest_coverage": -6.071755725190839,
  "cash_to_debt": 1.680037255510711,
- "ev": 22679180504.53186,
- "ev_to_sales": 0.11175423284220727,
+ "ev": 22619899747.73407,
+ "ev_to_sales": 0.11146212019303467,
  "ev_to_ebitda": null,
  "pe_ttm": null,
- "p_fcf": 3.757253994473451,
- "p_book": 1.4906116702655732
+ "pe_trailing": null,
+ "p_sales": 0.18619609,
+ "p_fcf": 3.750631186206465,
+ "p_book": 1.4879842100759715
 }

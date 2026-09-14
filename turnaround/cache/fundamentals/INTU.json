@@ -1,12 +1,20 @@
 {
  "ticker": "INTU",
  "fetched": "2026-09-14",
- "market_cap": 90242925492.43164,
+ "market_cap": 89737845537.8418,
  "shares_out": 267236000.0,
- "price": 337.69000244140625,
+ "price": 335.79998779296875,
  "long_name": "Intuit Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
+ "pe_trailing_y": 20.400972,
+ "pe_forward": 12.288532,
+ "peg": 1.02,
+ "p_sales_y": 4.183973,
+ "eps_trailing_y": 16.46,
+ "eps_forward": 27.32629,
+ "earnings_growth_y": -0.014,
+ "earnings_growth_q_y": -0.047,
  "bs_date": "2026-07-31",
  "cash": 7200000000.0,
  "total_debt": 8421000000.0,
@@ -48,6 +56,34 @@
    "value": 3831000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.34
+  },
+  {
+   "period": "2026-04-30",
+   "value": 11.09
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2.48
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.59
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.35
+  }
+ ],
+ "eps_ttm": 16.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20409656181419167,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.007407407407407418,
+ "eps_forward_growth": 0.6561387878787879,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -74,21 +110,25 @@
   {
    "year": "2026",
    "revenue": 21448000000.0,
+   "eps": 16.46,
    "net_income": 4566000000.0
   },
   {
    "year": "2025",
    "revenue": 18831000000.0,
+   "eps": 13.67,
    "net_income": 3869000000.0
   },
   {
    "year": "2024",
    "revenue": 16285000000.0,
+   "eps": 10.43,
    "net_income": 2963000000.0
   },
   {
    "year": "2023",
    "revenue": 14368000000.0,
+   "eps": 8.42,
    "net_income": 2384000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 0.17151285292878213,
  "interest_coverage": 24.50390625,
  "cash_to_debt": 0.8550053437833987,
- "ev": 91463925492.43164,
- "ev_to_sales": 4.264450088233478,
- "ev_to_ebitda": 12.847861426103616,
- "pe_ttm": 19.764109831894796,
- "p_fcf": 10.472661656310972,
- "p_book": 4.751628343114556
+ "ev": 90958845537.8418,
+ "ev_to_sales": 4.240901041488335,
+ "ev_to_ebitda": 12.776913265604971,
+ "pe_ttm": 19.653492233430093,
+ "pe_trailing": 20.400972,
+ "p_sales": 4.183973,
+ "p_fcf": 10.41404729463175,
+ "p_book": 4.725033989987458
 }

@@ -1,12 +1,20 @@
 {
  "ticker": "RYAN",
  "fetched": "2026-09-14",
- "market_cap": 4751263938.3090515,
+ "market_cap": 4756147158.154526,
  "shares_out": 122077702.0,
- "price": 38.91999816894531,
+ "price": 38.959999084472656,
  "long_name": "Ryan Specialty Holdings, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 52.648647,
+ "pe_forward": 16.115688,
+ "peg": null,
+ "p_sales_y": 3.156345,
+ "eps_trailing_y": 0.74,
+ "eps_forward": 2.41752,
+ "earnings_growth_y": -0.143,
+ "earnings_growth_q_y": -0.186,
  "bs_date": "2026-06-30",
  "cash": 140119000.0,
  "total_debt": 3807566000.0,
@@ -48,26 +56,58 @@
    "value": 855170000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.33
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.13
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.38
+  }
+ ],
+ "eps_ttm": 0.72,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3380281690140845,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.13157894736842102,
+ "eps_forward_growth": 2.357666666666667,
  "gross_margin_quarters": [],
  "annual": [
   {
    "year": "2025",
    "revenue": 3051126000.0,
+   "eps": 0.47,
    "net_income": 63399000.0
   },
   {
    "year": "2024",
    "revenue": 2515710000.0,
+   "eps": 0.71,
    "net_income": 94665000.0
   },
   {
    "year": "2023",
    "revenue": 2077549000.0,
+   "eps": 0.52,
    "net_income": 61037000.0
   },
   {
    "year": "2022",
    "revenue": 1725193000.0,
+   "eps": 0.52,
    "net_income": 61052000.0
   }
  ],
@@ -82,10 +122,12 @@
  "net_debt_to_ebitda": null,
  "interest_coverage": 2.283388807042433,
  "cash_to_debt": 0.036800150017097535,
- "ev": 8418710938.3090515,
- "ev_to_sales": 2.616402988473338,
+ "ev": 8423594158.154526,
+ "ev_to_sales": 2.617920616420264,
  "ev_to_ebitda": null,
- "pe_ttm": 47.979964234736855,
- "p_fcf": 9.565930866400606,
- "p_book": 9.32692061527373
+ "pe_ttm": 48.02927673696328,
+ "pe_trailing": 52.648647,
+ "p_sales": 3.156345,
+ "p_fcf": 9.575762469959946,
+ "p_book": 9.336506570597836
 }

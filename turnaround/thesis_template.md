@@ -16,7 +16,8 @@ last_updated: {today}
 | Sector / industry | {sector} / {industry} |
 | Survival gate (proxy) | {survival_gate} — cash {cash}, debt due <1y {current_debt}, FCF TTM {fcf_ttm}, 24m gap {gap_24m} |
 | Net debt / EBITDA, interest coverage | {net_debt_to_ebitda} / {interest_coverage} |
-| Valuation (TTM) | EV/Sales {ev_to_sales}, EV/EBITDA {ev_to_ebitda}, P/E {pe_ttm}, P/FCF {p_fcf} |
+| Valuation | P/E trailing {pe_trailing}, P/E forward {pe_forward}, PEG {peg}, P/S {p_sales}, EV/Sales {ev_to_sales}, EV/EBITDA {ev_to_ebitda}, P/FCF {p_fcf} |
+| EPS | TTM {eps_ttm}, forward est. {eps_forward}; growth YoY (TTM) {eps_growth_yoy}, last quarter {eps_growth_last_q}, implied forward {eps_forward_growth} |
 | Revenue YoY (last quarter) | {revenue_yoy_last_q} |
 | Profitable years (of reported) | {profitable_years} / {years_reported} |
 

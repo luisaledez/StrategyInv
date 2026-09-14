@@ -1,12 +1,20 @@
 {
  "ticker": "PPC",
  "fetched": "2026-09-14",
- "market_cap": 7276596366.276329,
+ "market_cap": 7344457259.283852,
  "shares_out": 238108524.0,
- "price": 30.559999465942383,
+ "price": 30.844999313354492,
  "long_name": "Pilgrim's Pride Corporation",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
+ "pe_trailing_y": 13.469432,
+ "pe_forward": 10.67301,
+ "peg": 0.61,
+ "p_sales_y": 0.39837492,
+ "eps_trailing_y": 2.29,
+ "eps_forward": 2.89,
+ "earnings_growth_y": -0.962,
+ "earnings_growth_q_y": -0.962,
  "bs_date": "2026-06-30",
  "cash": 388843000.0,
  "total_debt": 3112965000.0,
@@ -48,6 +56,34 @@
    "value": 4757365000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.44
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.49
+  }
+ ],
+ "eps_ttm": 2.3,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.006564551422319487,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.9597315436241611,
+ "eps_forward_growth": 0.25652173913043486,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 18497553000.0,
+   "eps": 4.54,
    "net_income": 1082359000.0
   },
   {
    "year": "2024",
    "revenue": 17878291000.0,
+   "eps": 4.57,
    "net_income": 1086438000.0
   },
   {
    "year": "2023",
    "revenue": 17362217000.0,
+   "eps": 1.36,
    "net_income": 321574000.0
   },
   {
    "year": "2022",
    "revenue": 17468377000.0,
+   "eps": 3.11,
    "net_income": 745930000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 1.8989648177451848,
  "interest_coverage": 5.78964350262612,
  "cash_to_debt": 0.12491081653664593,
- "ev": 10000718366.276329,
- "ev_to_sales": 0.542454739812175,
- "ev_to_ebitda": 6.971425042540992,
- "pe_ttm": 13.336723507945896,
- "p_fcf": 23.903069651161807,
- "p_book": 1.9405048702723948
+ "ev": 10068579259.283852,
+ "ev_to_sales": 0.5461356216960154,
+ "ev_to_ebitda": 7.018730357178903,
+ "pe_ttm": 13.461100609751087,
+ "pe_trailing": 13.469432,
+ "p_sales": 0.39837492,
+ "p_fcf": 24.125987560923363,
+ "p_book": 1.958601846764375
 }

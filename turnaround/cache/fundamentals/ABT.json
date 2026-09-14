@@ -1,12 +1,20 @@
 {
  "ticker": "ABT",
  "fetched": "2026-09-14",
- "market_cap": 178709654515.7871,
+ "market_cap": 178956237303.89355,
  "shares_out": 1730383296.0,
- "price": 103.27749633789062,
+ "price": 103.41999816894531,
  "long_name": "Abbott Laboratories",
  "sector_y": "Healthcare",
  "industry_y": "Medical Devices",
+ "pe_trailing_y": 33.469257,
+ "pe_forward": 17.05067,
+ "peg": 1.87,
+ "p_sales_y": 3.841499,
+ "eps_trailing_y": 3.09,
+ "eps_forward": 6.06545,
+ "earnings_growth_y": -0.475,
+ "earnings_growth_q_y": -0.478,
  "bs_date": "2026-03-31",
  "cash": 7295000000.0,
  "total_debt": 34047000000.0,
@@ -48,6 +56,34 @@
    "value": 10358000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.61
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.94
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.01
+  }
+ ],
+ "eps_ttm": 3.0900000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5130890052356021,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4752475247524752,
+ "eps_forward_growth": 0.9629288025889966,
  "gross_margin_quarters": [
   {
    "period": "2026-03-31",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 44328000000.0,
+   "eps": 3.72,
    "net_income": 6524000000.0
   },
   {
    "year": "2024",
    "revenue": 41950000000.0,
+   "eps": 7.64,
    "net_income": 13402000000.0
   },
   {
    "year": "2023",
    "revenue": 40109000000.0,
+   "eps": 3.26,
    "net_income": 5723000000.0
   },
   {
    "year": "2022",
    "revenue": 43653000000.0,
+   "eps": 3.91,
    "net_income": 6933000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.2602230483271377,
  "interest_coverage": 16.18097014925373,
  "cash_to_debt": 0.2142626369430493,
- "ev": 205461654515.7871,
- "ev_to_sales": 4.552258929316859,
- "ev_to_ebitda": 17.359044822219257,
- "pe_ttm": 28.475088354969266,
- "p_fcf": 24.221964558930214,
- "p_book": 3.4326973073084863
+ "ev": 205708237303.89355,
+ "ev_to_sales": 4.557722278191465,
+ "ev_to_ebitda": 17.379878109487457,
+ "pe_ttm": 28.514378155496104,
+ "pe_trailing": 33.469257,
+ "p_sales": 3.841499,
+ "p_fcf": 24.25538591812057,
+ "p_book": 3.437433727817244
 }

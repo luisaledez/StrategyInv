@@ -1,12 +1,20 @@
 {
  "ticker": "VRSK",
  "fetched": "2026-09-14",
- "market_cap": 23873215482.717224,
+ "market_cap": 24114004899.326477,
  "shares_out": 130156012.0,
- "price": 183.4199981689453,
+ "price": 185.27000427246094,
  "long_name": "Verisk Analytics, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Consulting Services",
+ "pe_trailing_y": 28.503078,
+ "pe_forward": 21.304586,
+ "peg": 1.49,
+ "p_sales_y": 7.689415,
+ "eps_trailing_y": 6.5,
+ "eps_forward": 8.69625,
+ "earnings_growth_y": -0.034,
+ "earnings_growth_q_y": -0.098,
  "bs_date": "2026-06-30",
  "cash": 551400000.0,
  "total_debt": 4617100000.0,
@@ -48,6 +56,34 @@
    "value": 772600000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.75
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.73
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.42
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.61
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.81
+  }
+ ],
+ "eps_ttm": 6.510000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.03427719821162434,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.03314917127071826,
+ "eps_forward_growth": 0.3358294930875574,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 3072700000.0,
+   "eps": 6.48,
    "net_income": 908300000.0
   },
   {
    "year": "2024",
    "revenue": 2881700000.0,
+   "eps": 6.71,
    "net_income": 957500000.0
   },
   {
    "year": "2023",
    "revenue": 2681400000.0,
+   "eps": 4.17,
    "net_income": 614400000.0
   },
   {
    "year": "2022",
    "revenue": 2497000000.0,
+   "eps": 6.0,
    "net_income": 954300000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 2.4199154812213557,
  "interest_coverage": 6.940030753459764,
  "cash_to_debt": 0.11942561348032314,
- "ev": 27938915482.717224,
- "ev_to_sales": 8.909092947295033,
- "ev_to_ebitda": 16.62931699465343,
- "pe_ttm": 26.960153001374618,
- "p_fcf": 19.30708894679921,
+ "ev": 28179704899.326477,
+ "ev_to_sales": 8.985875286775025,
+ "ev_to_ebitda": 16.77263549748615,
+ "pe_ttm": 27.232077808386762,
+ "pe_trailing": 28.503078,
+ "p_sales": 7.689415,
+ "p_fcf": 19.501823614497756,
  "p_book": null
 }

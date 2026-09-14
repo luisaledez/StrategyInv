@@ -1,12 +1,20 @@
 {
  "ticker": "SWKS",
  "fetched": "2026-09-14",
- "market_cap": 12585543394.638702,
+ "market_cap": 12209361439.638702,
  "shares_out": 150472782.0,
- "price": 83.63999938964844,
+ "price": 81.13999938964844,
  "long_name": "Skyworks Solutions, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
+ "pe_trailing_y": 42.04145,
+ "pe_forward": 16.350136,
+ "peg": 12.51,
+ "p_sales_y": 3.0416188,
+ "eps_trailing_y": 1.93,
+ "eps_forward": 4.96265,
+ "earnings_growth_y": -0.686,
+ "earnings_growth_q_y": -0.677,
  "bs_date": "2026-06-30",
  "cash": 799200000.0,
  "total_debt": 681100000.0,
@@ -48,6 +56,34 @@
    "value": 965000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.22
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.53
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.94
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7
+  }
+ ],
+ "eps_ttm": 1.93,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.16531165311653118,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6857142857142857,
+ "eps_forward_growth": 1.5713212435233164,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 4086900000.0,
+   "eps": 3.08,
    "net_income": 477100000.0
   },
   {
    "year": "2024",
    "revenue": 4178000000.0,
+   "eps": 3.69,
    "net_income": 596000000.0
   },
   {
    "year": "2023",
    "revenue": 4772400000.0,
+   "eps": 6.13,
    "net_income": 982800000.0
   },
   {
    "year": "2022",
    "revenue": 5485500000.0,
+   "eps": 7.81,
    "net_income": 1275200000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -0.14474813089839442,
  "interest_coverage": 13.25187969924812,
  "cash_to_debt": 1.1733959770958744,
- "ev": 12467443394.638702,
- "ev_to_sales": 3.105912507072246,
- "ev_to_ebitda": 15.280602273120115,
- "pe_ttm": 43.38346568300139,
- "p_fcf": 30.80162357963461,
- "p_book": 2.1932529485455103
+ "ev": 12091261439.638702,
+ "ev_to_sales": 3.0121973642008677,
+ "ev_to_ebitda": 14.819538472409244,
+ "pe_ttm": 42.086733676796634,
+ "pe_trailing": 42.04145,
+ "p_sales": 3.0416188,
+ "p_fcf": 29.88096289681523,
+ "p_book": 2.127696606946082
 }
