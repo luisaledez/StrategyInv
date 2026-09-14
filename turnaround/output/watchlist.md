@@ -4,7 +4,7 @@ Rules: monthly Wilder RSI(14) < 35.0 on the last completed monthly candle, or ov
 
 Survival gate is a *proxy* from Yahoo statements: PASS = cash covers 24 months of current FCF burn plus all debt due within a year; REVIEW = burn is covered but near-term maturities need refinancing; FAIL = cash does not cover 24 months of burn. Verify against the filings before relying on it.
 
-| Ticker | Name | Sector | RSI(m) | Oversold since | Months | DD 5y | Mkt cap | ADV$ 3m | Gate | Runway | ND/EBITDA | P/E trail | P/E fwd | PEG | P/S | EV/Sales | EPS last q | EPS YoY | Rev YoY | Thesis |
+| Ticker | Name | Sector | RSI(m) | Oversold since | Months | DD 5y | Mkt cap | ADV$ 3m | Gate | Runway | ND/EBITDA | P/E trail | P/E fwd | PEG | P/S | EV/Sales | EPS Last Q YoY | EPS YoY Prev | Rev YoY | Thesis |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **TTD** ★ | Trade Desk (The) | Communication Services | 30.9 | 2026-02-28 | 7 | -89.7% | $6.84B | $343M | PASS | inf | -1.4 | 17.3 | 14.5 | 1.03 | 2.29 | 1.9 | -22.2% | +15.4% | +3.0% | — |
 | **WHR** ★ | Whirlpool Corporation | Consumer Discretionary | 33.0 | 2026-05-31 | 4 | -85.3% | $2.25B | $94M | PASS | 45m | 6.9 | 11.4 | 9.4 | 1.04 | 0.15 | 0.6 | -1.7% | n/a | -6.8% | — |

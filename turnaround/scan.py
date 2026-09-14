@@ -164,7 +164,7 @@ def write_markdown(wl: pd.DataFrame, args, as_of_label: str) -> Path:
     else:
         hdr = ["Ticker", "Name", "Sector", "RSI(m)", "Oversold since", "Months", "DD 5y", "Mkt cap",
                "ADV$ 3m", "Gate", "Runway", "ND/EBITDA", "P/E trail", "P/E fwd", "PEG", "P/S", "EV/Sales",
-               "EPS last q", "EPS YoY", "Rev YoY", "Thesis"]
+               "EPS Last Q YoY", "EPS YoY Prev", "Rev YoY", "Thesis"]
         lines.append("| " + " | ".join(hdr) + " |")
         lines.append("|" + "---|" * len(hdr))
         for _, r in wl.iterrows():

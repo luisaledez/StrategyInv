@@ -332,7 +332,7 @@ HOME = """{% extends "base" %}{% block body %}
 <label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label><span id="count" class="muted small"></span></div>
 <table class="sortable filterable"><thead><tr>
 <th class="l">Ticker</th><th class="l">Name</th><th class="l">Sector</th><th>RSI(m)</th><th>Prev</th><th>Oversold since</th><th>Months</th><th>DD 5y</th>
-<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>P/E trail</th><th>P/E fwd</th><th>PEG</th><th>P/S</th><th>EV/Sales</th><th>EV/EBITDA</th><th title="latest quarter vs same quarter a year ago">EPS last q</th><th title="TTM vs prior TTM when 8 quarters are available, otherwise latest fiscal year vs prior">EPS YoY</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
+<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>P/E trail</th><th>P/E fwd</th><th>PEG</th><th>P/S</th><th>EV/Sales</th><th>EV/EBITDA</th><th title="latest quarter vs same quarter a year ago">EPS Last Q YoY</th><th title="last full fiscal year vs the year before (TTM vs prior TTM when 8 quarters are available)">EPS YoY Prev</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
 </tr></thead><tbody>
 {% for r in rows %}<tr data-ticker="{{ r.ticker }}" data-name="{{ r.name }}" data-gate="{{ r.survival_gate }}" data-sector="{{ r.sector }}" data-active="{{ 1 if r.oversold_now else 0 }}" data-prio="{{ 1 if r.priority else 0 }}">
 <td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a>{% if r.priority %} <span class="star" title="drawdown beyond 40%">★</span>{% endif %}</td>
