@@ -444,9 +444,12 @@ const COLS=[
  col('ret_3m','3m ret','pct',{good:'up',visible:false}),
  col('ret_12m','12m ret','pct',{good:'up'}),
  col('pct_vs_200dma','vs 200d','pct',{good:'up',visible:false}),
+ col('survival_gate','Gate','text',{headerFilterParams:{ops:['=','≠','contains']},formatter:c=>`<span class="gate ${c.getValue()}">${c.getValue()||'–'}</span>`,hozAlign:'center'}),
+ col('eps_growth_last_q','EPS Last Q YoY','pct',{good:'up',tip:'latest quarter vs same quarter a year ago'}),
+ col('eps_growth_yoy','EPS YoY Prev','pct',{good:'up',tip:'last full fiscal year vs the year before (TTM vs prior TTM when 8 quarters are available)'}),
+ col('revenue_yoy_last_q','Rev YoY','pct',{good:'up'}),
  col('market_cap','Mkt cap','money'),
  col('adv_3m_usd','ADV$ 3m','money',{tip:'average daily dollar volume, 3 months'}),
- col('survival_gate','Gate','text',{headerFilterParams:{ops:['=','≠','contains']},formatter:c=>`<span class="gate ${c.getValue()}">${c.getValue()||'–'}</span>`,hozAlign:'center'}),
  col('runway_months','Runway','num',{d:0,tip:'cash ÷ monthly FCF burn, months (∞ when FCF is positive)'}),
  col('cash','Cash','money',{visible:false}),
  col('total_debt','Total debt','money',{visible:false}),
@@ -464,13 +467,10 @@ const COLS=[
  col('p_fcf','P/FCF','num',{visible:false}),
  col('p_book','P/B','num',{visible:false}),
  col('revenue_ttm','Revenue TTM','money',{visible:false}),
- col('eps_growth_last_q','EPS Last Q YoY','pct',{good:'up',tip:'latest quarter vs same quarter a year ago'}),
- col('eps_growth_yoy','EPS YoY Prev','pct',{good:'up',tip:'last full fiscal year vs the year before (TTM vs prior TTM when 8 quarters are available)'}),
- col('revenue_yoy_last_q','Rev YoY','pct',{good:'up'}),
  col('dilution_1y','Dilution 1y','pct',{good:'down',tip:'share count change: an increase dilutes you'}),
  col('status','Thesis','text',{headerFilterParams:{ops:['contains','=']},formatter:c=>{const r=c.getRow().getData();return r.has_thesis?`<a href="/ticker/${r.ticker}#thesis"><span class="status">${r.status}</span></a>`:'<span class="muted">—</span>';}}),
 ];
-const table=makeGrid('#grid',COLS,DATA,'watchlist',{initialSort:[{column:'drawdown_5y',dir:'asc'}]});
+const table=makeGrid('#grid',COLS,DATA,'watchlist-v2',{initialSort:[{column:'drawdown_5y',dir:'asc'}]});
 quickFilters(table,r=>{const q=(document.getElementById('q').value||'').toLowerCase();
   if(q&&!((r.ticker||'')+' '+(r.name||'')).toLowerCase().includes(q))return false;
   if(document.getElementById('active').checked&&!r.oversold_now)return false;
