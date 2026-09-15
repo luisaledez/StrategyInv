@@ -268,7 +268,84 @@ def valuation_chart(metric: dict, years: int = 30) -> str:
 
 # ------------------------------------------------------------------ templates
 BASE = """<!doctype html><html><head><meta charset="utf-8"><title>{{ title }} · Turnaround scanner</title>
+<link href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.1/dist/css/tabulator_simple.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
+<script>
+// ---------------------------------------------------------------- grid helpers (Tabulator)
+const fmt={
+  money:v=>v==null||isNaN(v)?'–':Math.abs(v)>=1e9?(v<0?'-':'')+'$'+(Math.abs(v)/1e9).toFixed(2)+'B':Math.abs(v)>=1e6?(v<0?'-':'')+'$'+Math.round(Math.abs(v)/1e6)+'M':(v<0?'-':'')+'$'+Math.round(Math.abs(v)).toLocaleString(),
+  pct:v=>v==null||isNaN(v)?'–':(v*100>=0?'+':'')+(v*100).toFixed(1)+'%',
+  num:(v,d)=>v==null||isNaN(v)?'–':(v>=1e6?'∞':Number(v).toFixed(d)),
+};
+function colored(v,good){if(v==null||isNaN(v)||v===0)return'';const up=v>0;return(good==='down'?!up:up)?'pos':'neg';}
+// header filter with an operator picker; value passed to the filter function is {op,val}
+function opFilter(cell,onRendered,success,cancel,params){
+  const ops=params.ops||['=','≥','≤','>','<','≠'];const wrap=document.createElement('div');wrap.className='hf';
+  const sel=document.createElement('select');ops.forEach(o=>{const e=document.createElement('option');e.value=o;e.textContent=o;sel.appendChild(e);});
+  const inp=document.createElement('input');inp.placeholder=params.placeholder||'';
+  const fire=()=>success(inp.value===''?'':{op:sel.value,val:inp.value});
+  sel.addEventListener('change',fire);inp.addEventListener('input',fire);
+  inp.addEventListener('keydown',e=>{if(e.key==='Escape'){inp.value='';fire();}});
+  wrap.append(sel,inp);return wrap;}
+function opFilterFunc(hv,rv,row,params){
+  if(hv===''||hv==null)return true;const {op,val}=hv;const scale=params.scale||1;
+  const text=String(rv==null?'':rv).toLowerCase(),q=String(val).toLowerCase();
+  if(op==='contains')return text.includes(q);if(op==='!contains')return!text.includes(q);
+  const b=parseFloat(val);
+  if(isNaN(b)){if(op==='=')return text===q;if(op==='≠')return text!==q;return true;}
+  if(rv==null||rv==='')return false;const a=parseFloat(rv)*scale;if(isNaN(a))return false;
+  const eq=Math.abs(a-b)<1e-9;
+  return op==='='?eq:op==='≠'?!eq:op==='≥'?a>=b:op==='≤'?a<=b:op==='>'?a>b:op==='<'?a<b:true;}
+const NUMOPS=['≥','≤','=','>','<','≠'],TXTOPS=['contains','=','≠','!contains'];
+// column kinds
+function col(field,title,kind,o={}){
+  const base={field,title,headerFilter:opFilter,headerFilterFunc:opFilterFunc,headerFilterLiveFilter:true,headerTooltip:o.tip||title,minWidth:60};
+  const k={
+    text:{headerFilterParams:{ops:TXTOPS},sorter:'string'},
+    num:{headerFilterParams:{ops:NUMOPS},sorter:'number',hozAlign:'right',formatter:c=>fmt.num(c.getValue(),o.d==null?1:o.d)},
+    pct:{headerFilterParams:{ops:NUMOPS,scale:100,placeholder:'%'},sorter:'number',hozAlign:'right',formatter:c=>`<span class="${o.good?colored(c.getValue(),o.good):''}">${fmt.pct(c.getValue())}</span>`},
+    money:{headerFilterParams:{ops:NUMOPS,scale:1e-6,placeholder:'$M'},sorter:'number',hozAlign:'right',formatter:c=>fmt.money(c.getValue())},
+  }[kind]||{};
+  const {tip,d,good,...rest}=o;const def=Object.assign(base,k,rest);def.headerFilterFuncParams=def.headerFilterParams;return def;}
+// header menu: hide / move / show-hide any column
+function headerMenu(){
+  const t=this;const menu=[
+    {label:'Hide this column',action:(e,c)=>c.hide()},
+    {label:'Move to front',action:(e,c)=>{const cs=t.getColumns().filter(x=>x.isVisible());c.move(cs[0],false);}},
+    {label:'Move to back',action:(e,c)=>{const cs=t.getColumns();c.move(cs[cs.length-1],true);}},
+    {label:'Move left',action:(e,c)=>{const cs=t.getColumns().filter(x=>x.isVisible());const i=cs.indexOf(c);if(i>0)c.move(cs[i-1],false);}},
+    {label:'Move right',action:(e,c)=>{const cs=t.getColumns().filter(x=>x.isVisible());const i=cs.indexOf(c);if(i<cs.length-1)c.move(cs[i+1],true);}},
+    {separator:true},{label:'Show / hide columns:',disabled:true}];
+  for(const column of t.getColumns()){
+    const label=document.createElement('span');const box=document.createElement('input');box.type='checkbox';box.checked=column.isVisible();box.style.marginRight='6px';
+    label.append(box,document.createTextNode(column.getDefinition().title));
+    menu.push({label,action:e=>{e.stopPropagation();column.toggle();box.checked=column.isVisible();}});}
+  return menu;}
+function makeGrid(el,columns,data,id,extra={}){
+  columns.forEach(c=>{c.headerMenu=headerMenu;});
+  const table=new Tabulator(el,Object.assign({data,columns,layout:'fitDataFill',height:'calc(100vh - 235px)',
+    resizableColumnFit:false,movableColumns:true,columnDefaults:{resizable:true,headerSortTristate:true},
+    persistence:{columns:true,sort:true},persistenceID:id,
+    placeholder:'No rows match the filters'},extra));
+  table.on('dataFiltered',(f,rows)=>{const c=document.getElementById('count');if(c)c.textContent=rows.length+' of '+data.length+' shown';});
+  document.getElementById('reset-layout')?.addEventListener('click',()=>{Object.keys(localStorage).filter(k=>k.startsWith('tabulator-'+id)).forEach(k=>localStorage.removeItem(k));location.reload();});
+  return table;}
+function quickFilters(table,fn){
+  const apply=()=>table.setFilter(fn);
+  document.querySelectorAll('.toolbar input').forEach(e=>e.addEventListener('input',apply));apply();}
+</script>
 <style>
+.tabulator{font-size:13px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.tabulator .tabulator-header .tabulator-col{background:#f3f4f6}
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content{padding:5px 6px}
+.tabulator-row .tabulator-cell{padding:5px 8px}
+.tabulator .tabulator-header-filter .hf{display:flex;gap:2px}
+.tabulator .tabulator-header-filter .hf select{width:52px;font-size:11px;padding:1px}
+.tabulator .tabulator-header-filter .hf input{flex:1;min-width:40px;font-size:11px;padding:2px 3px}
+.tabulator-menu{font-size:13px;max-height:70vh;overflow:auto}
+.tabulator-menu .tabulator-menu-item{padding:4px 12px}
+.tabulator-row.tabulator-row-even{background:#fafafa}
+.tabulator-cell.r{text-align:right}
 :root{--bg:#fafafa;--fg:#1a1a1a;--muted:#6b6b6b;--line:#e3e3e3;--acc:#1d4ed8;--pass:#15803d;--rev:#b45309;--fail:#b91c1c;--shade:#fde68a}
 *{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,Segoe UI,sans-serif;color:var(--fg);background:var(--bg)}
 header{display:flex;gap:18px;align-items:center;padding:12px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:2}
@@ -326,6 +403,7 @@ async function poll(){const b=document.getElementById('rescan');b.disabled=true;
 const r=await (await fetch('/status')).json();const box=document.getElementById('joblog');if(box){box.textContent=r.log;box.scrollTop=box.scrollHeight;}
 if(r.running){setTimeout(poll,2000);}else{b.disabled=false;b.textContent='Rescan';if(r.finished)location.reload();}}
 if(document.getElementById('rescan'))fetch('/status').then(r=>r.json()).then(r=>{if(r.running)poll();});
+
 </script></body></html>"""
 
 HOME = """{% extends "base" %}{% block body %}
@@ -340,54 +418,110 @@ HOME = """{% extends "base" %}{% block body %}
 </div>
 <pre id="joblog" class="log" style="display:none"></pre>
 <div class="toolbar"><input id="q" placeholder="search ticker / name" size="24">
-<select id="gate"><option value="">any gate</option><option>PASS</option><option>REVIEW</option><option>FAIL</option><option>UNKNOWN</option></select>
-<select id="sector"><option value="">any sector</option>{% for s in sectors %}<option>{{ s }}</option>{% endfor %}</select>
 <label><input type="checkbox" id="active"> below {{ meta.threshold|num(0) }} now only</label>
-<label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label><span id="count" class="muted small"></span></div>
-<table class="sortable filterable"><thead><tr>
-<th class="l">Ticker</th><th class="l">Name</th><th class="l">Sector</th><th>RSI(m)</th><th>Prev</th><th>Oversold since</th><th>Months</th><th>DD 5y</th>
-<th>12m ret</th><th>Mkt cap</th><th>ADV$ 3m</th><th>Gate</th><th>Runway</th><th>ND/EBITDA</th><th>P/E trail</th><th>P/E fwd</th><th>PEG</th><th>P/S</th><th>EV/Sales</th><th>EV/EBITDA</th><th title="latest quarter vs same quarter a year ago">EPS Last Q YoY</th><th title="last full fiscal year vs the year before (TTM vs prior TTM when 8 quarters are available)">EPS YoY Prev</th><th>Rev YoY</th><th>Dilution 1y</th><th class="l">Thesis</th>
-</tr></thead><tbody>
-{% for r in rows %}<tr data-ticker="{{ r.ticker }}" data-name="{{ r.name }}" data-gate="{{ r.survival_gate }}" data-sector="{{ r.sector }}" data-active="{{ 1 if r.oversold_now else 0 }}" data-prio="{{ 1 if r.priority else 0 }}">
-<td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a>{% if r.priority %} <span class="star" title="drawdown beyond 40%">★</span>{% endif %}</td>
-<td class="l">{{ r.name }}</td><td class="l muted">{{ r.sector }}</td>
-<td data-v="{{ r.rsi_m }}" class="{{ 'neg' if r.oversold_now }}">{{ r.rsi_m|num }}</td><td data-v="{{ r.rsi_m_prev }}" class="muted">{{ r.rsi_m_prev|num }}</td>
-<td>{{ r.episode_start }}</td><td data-v="{{ r.episode_months }}">{{ r.episode_months }}{% if not r.episode_active %} <span class="muted small">exit {{ r.episode_exit }}</span>{% endif %}</td>
-<td data-v="{{ r.drawdown_5y }}" class="neg">{{ r.drawdown_5y|pct }}</td>
-<td data-v="{{ r.ret_12m }}">{{ r.ret_12m|pctc }}</td>
-<td data-v="{{ r.market_cap or 0 }}">{{ r.market_cap|money }}</td><td data-v="{{ r.adv_3m_usd }}">{{ r.adv_3m_usd|money }}</td>
-<td><span class="gate {{ r.survival_gate }}">{{ r.survival_gate }}</span></td>
-<td data-v="{{ r.runway_months or 0 }}">{{ r.runway_months|num(0) }}</td><td data-v="{{ r.net_debt_to_ebitda or 0 }}">{{ r.net_debt_to_ebitda|num }}</td>
-<td data-v="{{ r.pe_trailing or 0 }}">{{ r.pe_trailing|num }}</td><td data-v="{{ r.pe_forward or 0 }}">{{ r.pe_forward|num }}</td>
-<td data-v="{{ r.peg or 0 }}">{{ r.peg|num(2) }}</td><td data-v="{{ r.p_sales or 0 }}">{{ r.p_sales|num(2) }}</td>
-<td data-v="{{ r.ev_to_sales or 0 }}">{{ r.ev_to_sales|num }}</td><td data-v="{{ r.ev_to_ebitda or 0 }}">{{ r.ev_to_ebitda|num }}</td>
-<td data-v="{{ r.eps_growth_last_q if r.eps_growth_last_q is not none else -9 }}">{{ r.eps_growth_last_q|pctc }}</td>
-<td data-v="{{ r.eps_growth_yoy if r.eps_growth_yoy is not none else -9 }}">{{ r.eps_growth_yoy|pctc }}</td>
-<td data-v="{{ r.revenue_yoy_last_q or 0 }}">{{ r.revenue_yoy_last_q|pctc }}</td>
-<td data-v="{{ r.dilution_1y or 0 }}" title="share count change: an increase dilutes you">{{ r.dilution_1y|pctc('down') }}</td>
-<td class="l">{% if r.has_thesis %}<a href="/ticker/{{ r.ticker }}#thesis"><span class="status">{{ r.status }}</span></a>{% else %}<span class="muted">—</span>{% endif %}</td>
-</tr>{% endfor %}</tbody></table>
-<p class="muted small">★ drawdown beyond 40% from the trailing 5-year high. Survival gate is a proxy from Yahoo statements: PASS = cash covers 24 months of current FCF burn plus debt due within a year; REVIEW = burn covered but maturities need refinancing; FAIL = cash does not cover 24 months of burn. Runway = cash ÷ monthly burn (∞ when FCF is positive). Click a column header to sort.</p>
-<script>applyFilters()</script>
+<label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label>
+<span id="count" class="muted small"></span><span class="sp" style="flex:1"></span>
+<button id="reset-layout" class="sec">Reset layout</button></div>
+<div id="grid"></div>
+<p class="muted small">Drag a column edge to resize, drag a header to reorder, click a header to sort. The ☰ menu on each header hides it, moves it to the front or back, or shows and hides any column. The filter row under the headers takes an operator (≥, ≤, =, contains…) and a value; percentages are typed as plain numbers (15 means 15%), money as $ millions. Your layout is remembered in this browser. ★ drawdown beyond 40% from the trailing 5-year high. Survival gate is a proxy from Yahoo statements: PASS = cash covers 24 months of current FCF burn plus debt due within a year; REVIEW = burn covered but maturities need refinancing; FAIL = cash does not cover 24 months of burn. Runway = cash ÷ monthly burn (∞ when FCF is positive).</p>
+<script>
+const DATA={{ rows|tojson }};
+const THRESH={{ meta.threshold }};
+const COLS=[
+ col('ticker','Ticker','text',{frozen:true,width:88,formatter:c=>{const r=c.getRow().getData();return `<a href="/ticker/${r.ticker}"><b>${r.ticker}</b></a>${r.priority?' <span class="star" title="drawdown beyond 40%">★</span>':''}`;}}),
+ col('name','Name','text',{width:170}),
+ col('sector','Sector','text',{width:150,formatter:c=>`<span class="muted">${c.getValue()||''}</span>`}),
+ col('industry','Industry','text',{visible:false,width:170}),
+ col('price','Price','num',{d:2,visible:false}),
+ col('rsi_m','RSI(m)','num',{formatter:c=>`<span class="${c.getValue()<THRESH?'neg':''}">${fmt.num(c.getValue(),1)}</span>`,tip:'monthly Wilder RSI(14), last completed month'}),
+ col('rsi_m_prev','Prev','num',{formatter:c=>`<span class="muted">${fmt.num(c.getValue(),1)}</span>`,tip:'RSI the month before'}),
+ col('rsi_partial_month','RSI partial','num',{visible:false,tip:'RSI including the current, incomplete month'}),
+ col('episode_start','Oversold since','text',{headerFilterParams:{ops:['≥','≤','contains','='],placeholder:'YYYY-MM'},tip:'first month below the threshold in the current episode'}),
+ col('episode_months','Months','num',{d:0,formatter:c=>{const r=c.getRow().getData();return r.episode_months+(r.episode_active?'':` <span class="muted small">exit ${r.episode_exit}</span>`);},tip:'consecutive months below the threshold; "exit" = first month back above it'}),
+ col('episode_min_rsi','Min RSI','num',{visible:false}),
+ col('episodes_15y','Episodes 15y','num',{d:0,visible:false}),
+ col('drawdown_5y','DD 5y','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`,tip:'decline from the trailing 5-year high of daily closes'}),
+ col('ret_3m','3m ret','pct',{good:'up',visible:false}),
+ col('ret_12m','12m ret','pct',{good:'up'}),
+ col('pct_vs_200dma','vs 200d','pct',{good:'up',visible:false}),
+ col('market_cap','Mkt cap','money'),
+ col('adv_3m_usd','ADV$ 3m','money',{tip:'average daily dollar volume, 3 months'}),
+ col('survival_gate','Gate','text',{headerFilterParams:{ops:['=','≠','contains']},formatter:c=>`<span class="gate ${c.getValue()}">${c.getValue()||'–'}</span>`,hozAlign:'center'}),
+ col('runway_months','Runway','num',{d:0,tip:'cash ÷ monthly FCF burn, months (∞ when FCF is positive)'}),
+ col('cash','Cash','money',{visible:false}),
+ col('total_debt','Total debt','money',{visible:false}),
+ col('current_debt','Debt due <1y','money',{visible:false}),
+ col('fcf_ttm','FCF TTM','money',{visible:false}),
+ col('gap_24m','24m gap','money',{visible:false,tip:'need − cash; negative = surplus'}),
+ col('net_debt_to_ebitda','ND/EBITDA','num'),
+ col('interest_coverage','Int cov','num',{visible:false}),
+ col('pe_trailing','P/E trail','num'),
+ col('pe_forward','P/E fwd','num'),
+ col('peg','PEG','num',{d:2}),
+ col('p_sales','P/S','num',{d:2}),
+ col('ev_to_sales','EV/Sales','num'),
+ col('ev_to_ebitda','EV/EBITDA','num'),
+ col('p_fcf','P/FCF','num',{visible:false}),
+ col('p_book','P/B','num',{visible:false}),
+ col('revenue_ttm','Revenue TTM','money',{visible:false}),
+ col('eps_growth_last_q','EPS Last Q YoY','pct',{good:'up',tip:'latest quarter vs same quarter a year ago'}),
+ col('eps_growth_yoy','EPS YoY Prev','pct',{good:'up',tip:'last full fiscal year vs the year before (TTM vs prior TTM when 8 quarters are available)'}),
+ col('revenue_yoy_last_q','Rev YoY','pct',{good:'up'}),
+ col('dilution_1y','Dilution 1y','pct',{good:'down',tip:'share count change: an increase dilutes you'}),
+ col('status','Thesis','text',{headerFilterParams:{ops:['contains','=']},formatter:c=>{const r=c.getRow().getData();return r.has_thesis?`<a href="/ticker/${r.ticker}#thesis"><span class="status">${r.status}</span></a>`:'<span class="muted">—</span>';}}),
+];
+const table=makeGrid('#grid',COLS,DATA,'watchlist',{initialSort:[{column:'drawdown_5y',dir:'asc'}]});
+quickFilters(table,r=>{const q=(document.getElementById('q').value||'').toLowerCase();
+  if(q&&!((r.ticker||'')+' '+(r.name||'')).toLowerCase().includes(q))return false;
+  if(document.getElementById('active').checked&&!r.oversold_now)return false;
+  if(document.getElementById('prio').checked&&!r.priority)return false;return true;});
+</script>
 {% endblock %}"""
 
 ALL = """{% extends "base" %}{% block body %}
 <h1>All tickers <span class="muted small">{{ rows|length }} in universe · price screen only</span></h1>
 <div class="toolbar"><input id="q" placeholder="search ticker / name" size="24">
-<select id="sector"><option value="">any sector</option>{% for s in sectors %}<option>{{ s }}</option>{% endfor %}</select>
-<label><input type="checkbox" id="active"> oversold now only</label>
-<label><input type="checkbox" id="prio"> qualified (6m) only</label><span id="count" class="muted small"></span></div>
-<table class="sortable filterable"><thead><tr>
-<th class="l">Ticker</th><th class="l">Name</th><th class="l">Sector</th><th>Price</th><th>RSI(m)</th><th>RSI partial</th><th>Oversold since</th><th>Months</th><th>Since</th><th>DD 5y</th><th>3m</th><th>12m</th><th>vs 200d</th><th>ADV$ 3m</th><th>Years</th><th>Episodes 15y</th>
-</tr></thead><tbody>
-{% for r in rows %}<tr data-ticker="{{ r.ticker }}" data-name="{{ r.name }}" data-sector="{{ r.sector }}" data-active="{{ 1 if r.oversold_now else 0 }}" data-prio="{{ 1 if r.qualified else 0 }}">
-<td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a></td><td class="l">{{ r.name }}</td><td class="l muted">{{ r.sector }}</td>
-<td data-v="{{ r.price }}">{{ r.price|num(2) }}</td><td data-v="{{ r.rsi_m }}" class="{{ 'neg' if r.oversold_now }}">{{ r.rsi_m|num }}</td><td data-v="{{ r.rsi_partial_month }}" class="muted">{{ r.rsi_partial_month|num }}</td>
-<td>{{ r.episode_start or '' }}</td><td data-v="{{ r.episode_months }}">{{ r.episode_months }}</td><td data-v="{{ r.months_since_oversold if r.months_since_oversold is not none else 999 }}">{{ r.months_since_oversold if r.months_since_oversold is not none else '' }}</td>
-<td data-v="{{ r.drawdown_5y }}" class="neg">{{ r.drawdown_5y|pct }}</td><td data-v="{{ r.ret_3m }}">{{ r.ret_3m|pctc }}</td><td data-v="{{ r.ret_12m }}">{{ r.ret_12m|pctc }}</td>
-<td data-v="{{ r.pct_vs_200dma or 0 }}">{{ r.pct_vs_200dma|pctc }}</td><td data-v="{{ r.adv_3m_usd }}">{{ r.adv_3m_usd|money }}</td><td data-v="{{ r.years_history }}">{{ r.years_history }}</td><td data-v="{{ r.episodes_15y }}">{{ r.episodes_15y }}</td>
-</tr>{% endfor %}</tbody></table>
-<script>applyFilters()</script>
+<label><input type="checkbox" id="active"> below {{ meta.threshold|num(0) }} now only</label>
+<label><input type="checkbox" id="prio"> qualified ({{ meta.lookback }}m) only</label>
+<span id="count" class="muted small"></span><span class="sp" style="flex:1"></span>
+<button id="reset-layout" class="sec">Reset layout</button></div>
+<div id="grid"></div>
+<p class="muted small">Same controls as the watchlist: resize, drag, sort, ☰ header menu to hide / move / show columns, operator filters under each header. Layout remembered in this browser.</p>
+<script>
+const DATA={{ rows|tojson }};
+const THRESH={{ meta.threshold }};
+const COLS=[
+ col('ticker','Ticker','text',{frozen:true,width:88,formatter:c=>`<a href="/ticker/${c.getValue()}"><b>${c.getValue()}</b></a>`}),
+ col('name','Name','text',{width:170}),
+ col('sector','Sector','text',{width:150,formatter:c=>`<span class="muted">${c.getValue()||''}</span>`}),
+ col('industry','Industry','text',{visible:false,width:170}),
+ col('index','Index','text',{visible:false}),
+ col('price','Price','num',{d:2}),
+ col('rsi_m','RSI(m)','num',{formatter:c=>`<span class="${c.getValue()<THRESH?'neg':''}">${fmt.num(c.getValue(),1)}</span>`}),
+ col('rsi_m_prev','Prev','num',{visible:false}),
+ col('rsi_partial_month','RSI partial','num',{formatter:c=>`<span class="muted">${fmt.num(c.getValue(),1)}</span>`}),
+ col('qualified','Qualified','text',{headerFilterParams:{ops:['=']},formatter:c=>c.getValue()?'yes':'',hozAlign:'center',tip:'below the threshold within the lookback window'}),
+ col('episode_start','Oversold since','text',{headerFilterParams:{ops:['≥','≤','contains','='],placeholder:'YYYY-MM'}}),
+ col('episode_months','Months','num',{d:0}),
+ col('months_since_oversold','Since','num',{d:0,tip:'months since the last month below the threshold'}),
+ col('episode_min_rsi','Min RSI','num',{visible:false}),
+ col('episodes_15y','Episodes 15y','num',{d:0}),
+ col('drawdown_5y','DD 5y','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`}),
+ col('high_5y','5y high','num',{d:2,visible:false}),
+ col('high_date','High date','text',{visible:false}),
+ col('ret_3m','3m','pct',{good:'up'}),
+ col('ret_12m','12m','pct',{good:'up'}),
+ col('pct_vs_200dma','vs 200d','pct',{good:'up'}),
+ col('adv_3m_usd','ADV$ 3m','money'),
+ col('years_history','Years','num',{d:1}),
+ col('first_bar','First bar','text',{visible:false}),
+];
+const table=makeGrid('#grid',COLS,DATA,'alltickers',{initialSort:[{column:'drawdown_5y',dir:'asc'}]});
+quickFilters(table,r=>{const q=(document.getElementById('q').value||'').toLowerCase();
+  if(q&&!((r.ticker||'')+' '+(r.name||'')).toLowerCase().includes(q))return false;
+  if(document.getElementById('active').checked&&!r.oversold_now)return false;
+  if(document.getElementById('prio').checked&&!r.qualified)return false;return true;});
+</script>
 {% endblock %}"""
 
 TICKER = """{% extends "base" %}{% block body %}
