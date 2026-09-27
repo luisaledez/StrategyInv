@@ -1,0 +1,36 @@
+{
+ "synthetic": true,
+ "seed": 4,
+ "start": "1968-01-01",
+ "end": "1982-08-31",
+ "benchmark": "Index",
+ "label": "Synthetic lost decade (1968-1982 market, seed 4)",
+ "cpi": {
+  "1962": 1.0,
+  "1963": 1.3,
+  "1964": 1.3,
+  "1965": 1.6,
+  "1966": 2.9,
+  "1967": 3.1,
+  "1968": 4.2,
+  "1969": 5.5,
+  "1970": 5.7,
+  "1971": 4.4,
+  "1972": 3.2,
+  "1973": 6.2,
+  "1974": 11.0,
+  "1975": 9.1,
+  "1976": 5.8,
+  "1977": 6.5,
+  "1978": 7.6,
+  "1979": 11.3,
+  "1980": 13.5,
+  "1981": 10.3,
+  "1982": 6.2
+ },
+ "div_yield": 0.035,
+ "notes": [
+  "**Synthetic data.** The market is the real S&P 500 daily path from 1962 to August 1982 (Yahoo ^GSPC); each of today's S&P 500 + 400 stocks is re-simulated on it with its own real beta and a block bootstrap of its own real idiosyncratic daily returns (2004-2026), so single-stock crashes and rebounds are realistic while the market goes nowhere. Quarterly fundamentals are generated: revenue grows with CPI inflation plus a company-specific real rate plus part of the stock's own price residual; net margins swing with the stock's residual and the market and can turn negative; EBITDA, debt, cash, shares and the starting market cap are scaled from each company's latest real filing. Dividend yield 3.5%. The benchmark 'Index' is the S&P 500 price path with the same dividends reinvested.",
+  "**Read it as a stress test, not a forecast.** Nothing in the generated fundamentals knows the future price, and nothing in the prices knows the fundamentals beyond the contemporaneous link above, so the selection rules cannot cheat. Real (inflation-adjusted) figures use BLS CPI-U annual averages: the CPI rose about 180% over the window, so a nominal result must roughly triple just to stand still."
+ ]
+}

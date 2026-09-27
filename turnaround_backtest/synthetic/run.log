@@ -1,0 +1,72 @@
+seed 0
+  synthetic 100/903
+  synthetic 200/903
+  synthetic 300/903
+  synthetic 400/903
+  synthetic 500/903
+  synthetic 600/903
+  synthetic 700/903
+  synthetic 800/903
+  synthetic 900/903
+synthetic: seed 0, 897 stocks generated into C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data
+  [screen.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\snapshots.json (59 snapshots)
+  [backtest.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\report.md
+  [report_html.py] 
+seed 1
+  synthetic 100/903
+  synthetic 200/903
+  synthetic 300/903
+  synthetic 400/903
+  synthetic 500/903
+  synthetic 600/903
+  synthetic 700/903
+  synthetic 800/903
+  synthetic 900/903
+synthetic: seed 1, 897 stocks generated into C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data
+  [screen.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\snapshots.json (59 snapshots)
+  [backtest.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\report.md
+  [report_html.py] 
+seed 2
+  synthetic 100/903
+  synthetic 200/903
+  synthetic 300/903
+  synthetic 400/903
+  synthetic 500/903
+  synthetic 600/903
+  synthetic 700/903
+  synthetic 800/903
+  synthetic 900/903
+synthetic: seed 2, 897 stocks generated into C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data
+  [screen.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\snapshots.json (59 snapshots)
+  [backtest.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\report.md
+  [report_html.py] 
+seed 3
+  synthetic 100/903
+  synthetic 200/903
+  synthetic 300/903
+  synthetic 400/903
+  synthetic 500/903
+  synthetic 600/903
+  synthetic 700/903
+  synthetic 800/903
+  synthetic 900/903
+synthetic: seed 3, 897 stocks generated into C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data
+  [screen.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\snapshots.json (59 snapshots)
+  [backtest.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\report.md
+  [report_html.py] 
+seed 4
+  synthetic 100/903
+  synthetic 200/903
+  synthetic 300/903
+  synthetic 400/903
+  synthetic 500/903
+  synthetic 600/903
+  synthetic 700/903
+  synthetic 800/903
+  synthetic 900/903
+synthetic: seed 4, 897 stocks generated into C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data
+  [screen.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\snapshots.json (59 snapshots)
+  [backtest.py] wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\data\output\report.md
+  [report_html.py] 
+wrote C:\Users\lledezma\MyProjects\StrategiesInv\turnaround_backtest\synthetic\output\summary.md
+run done rc=0

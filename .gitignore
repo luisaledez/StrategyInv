@@ -9,3 +9,5 @@ node_modules/
 turnaround/cache/edgar_raw/
 rsi_swing/cache/
 turnaround_backtest/cache/
+turnaround_backtest/synthetic/data/
+turnaround_backtest/synthetic/cache/

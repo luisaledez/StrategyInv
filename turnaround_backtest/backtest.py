@@ -30,17 +30,23 @@ sys.path.insert(0, str(HERE))
 import engine  # noqa: E402
 from engine import Scenario  # noqa: E402
 
-OUT = HERE / "output"
+OUT = engine.OUT
 
+CFG = engine.data.CONFIG
+S0 = engine.data.START.date().isoformat()
 SCENARIOS = [
-    Scenario("base", "Base: trim half at +50%, hold rest, RSI(m) 90 exit, replace >100% winners"),
-    Scenario("no_trim", "No trim: hold until RSI(m) 90 exit or replaced", trim_at=None),
-    Scenario("rotate", "Rotate: hold exactly the current top 10 each quarter", trim_at=None, rotate=True, replace_gain=None),
-    Scenario("base_no_wd", "Base without withdrawals", withdrawals=False),
-    Scenario("rsi80", "Base with the monthly-RSI exit at 80 instead of 90", rsi_exit=80.0),
-    Scenario("base_2009", "Base, started 2009-01-01", start="2009-01-01"),
-    Scenario("rotate_2009", "Rotate, started 2009-01-01", start="2009-01-01", trim_at=None, rotate=True, replace_gain=None),
+    Scenario("base", "Base: trim half at +50%, hold rest, RSI(m) 90 exit, replace >100% winners", start=S0),
+    Scenario("no_trim", "No trim: hold until RSI(m) 90 exit or replaced", start=S0, trim_at=None),
+    Scenario("rotate", "Rotate: hold exactly the current top 10 each quarter", start=S0, trim_at=None, rotate=True, replace_gain=None),
+    Scenario("base_no_wd", "Base without withdrawals", start=S0, withdrawals=False),
+    Scenario("rsi80", "Base with the monthly-RSI exit at 80 instead of 90", start=S0, rsi_exit=80.0),
 ]
+if not CFG.get("synthetic"):
+    SCENARIOS += [
+        Scenario("base_2009", "Base, started 2009-01-01", start="2009-01-01"),
+        Scenario("rotate_2009", "Rotate, started 2009-01-01", start="2009-01-01", trim_at=None, rotate=True, replace_gain=None),
+    ]
+BENCH = CFG.get("benchmark", "SPY")
 
 
 def money(x) -> str:
@@ -53,7 +59,7 @@ def pct(x) -> str:
 
 def year_table(years: list[dict], bench_years: list[dict] | None = None) -> list[str]:
     by = {y["year"]: y for y in (bench_years or [])}
-    hdr = ["Year", "Start", "Return", "Withdrawal", "End (after)", "Cum. withdrawn", "Positions", "Cash %", "Buys", "Sells", "SPY return"]
+    hdr = ["Year", "Start", "Return", "Withdrawal", "End (after)", "Cum. withdrawn", "Positions", "Cash %", "Buys", "Sells", f"{BENCH} return"]
     lines = ["| " + " | ".join(hdr) + " |", "|" + "---|" * len(hdr)]
     cum = 0.0
     for y in years:
@@ -83,7 +89,7 @@ def summary_table(results: dict, benches: dict) -> list[str]:
     for key, b in benches.items():
         s = b["summary"]
         lines.append("| " + " | ".join([
-            f"SPY ({key})", s["start"][:4], s["start"], money(s["final_value"]), money(s["total_withdrawn"]),
+            f"{BENCH} ({key})", s["start"][:4], s["start"], money(s["final_value"]), money(s["total_withdrawn"]),
             money(s["final_plus_withdrawn"]), pct(s["cagr_final"]), pct(s["cagr_tr_index"]), pct(s["irr"]),
             pct(s["max_drawdown"]), "", "", "",
         ]) + " |")
@@ -91,7 +97,7 @@ def summary_table(results: dict, benches: dict) -> list[str]:
 
 
 def write_report(results: dict, benches: dict, snaps: list[dict]) -> Path:
-    L = ["# Turnaround candidates backtest — 2004-01-01 to 2026-08-31", ""]
+    L = [f"# {CFG.get('label', 'Turnaround candidates backtest')} — {S0} to {engine.data.END.date().isoformat()}", ""]
     L += ["Quarterly scan (1 Jan / 1 Apr / 1 Jul / 1 Oct) with the turnaround scanner's rules "
           "(monthly RSI(14) < 42 within the last 6 completed months, ≥ 5 years of history, ≥ $5M average daily "
           "dollar volume, ≥ $1B market cap), then: profitable now and in the past, top 20 by trailing-twelve-month "
@@ -100,12 +106,16 @@ def write_report(results: dict, benches: dict, snaps: list[dict]) -> Path:
           "commissions or slippage, dividends credited as cash, idle cash earns nothing.", ""]
     L += ["Withdrawal rule at each year end: year return > 20% → 10% of the portfolio; 10–20% → 7.5%; "
           "below 10% (including losses) → 5%. The partial year 2026 has no withdrawal.", ""]
-    L += ["**Data caveats.** Fundamentals are SEC XBRL filings, which start with fiscal-2007 comparatives for "
-          "large filers and 2009–2011 for smaller ones, so no stock can pass the profitability / growth / "
-          "valuation rules before 2008 and the first purchases happen in 2009: from 2004 to 2008 the portfolio "
-          "sits in cash and still pays the 5% withdrawal. The universe is today's S&P 500 + 400 constituents, "
-          "so companies that failed, were acquired or were dropped are missing (survivorship bias flatters "
-          "every scenario, including the turnaround premise). Yahoo prices; multiples are rebuilt from filings.", ""]
+    if CFG.get("notes"):
+        for n in CFG["notes"]:
+            L += [n, ""]
+    else:
+        L += ["**Data caveats.** Fundamentals are SEC XBRL filings, which start with fiscal-2007 comparatives for "
+              "large filers and 2009–2011 for smaller ones, so no stock can pass the profitability / growth / "
+              "valuation rules before 2008 and the first purchases happen in 2009: from 2004 to 2008 the portfolio "
+              "sits in cash and still pays the 5% withdrawal. The universe is today's S&P 500 + 400 constituents, "
+              "so companies that failed, were acquired or were dropped are missing (survivorship bias flatters "
+              "every scenario, including the turnaround premise). Yahoo prices; multiples are rebuilt from filings.", ""]
     L += ["## Scenario summary", ""] + summary_table(results, benches) + [""]
     L += ["CAGR (final) compounds the ending value after withdrawals; the no-withdrawal index chains the "
           "yearly returns as if nothing had been taken out; IRR is the money-weighted return of the "
@@ -139,7 +149,7 @@ def write_report(results: dict, benches: dict, snaps: list[dict]) -> Path:
             L += ["Best closed: " + ", ".join(f"{c['ticker']} {money(c['pnl'])} ({c['return_pct']:+.0f}%)" for c in best)]
             L += ["Worst closed: " + ", ".join(f"{c['ticker']} {money(c['pnl'])} ({c['return_pct']:+.0f}%)" for c in worst), ""]
     for key, b in benches.items():
-        L += [f"## SPY benchmark from {key} (same withdrawal rule)", ""] + year_table(b["years"]) + [""]
+        L += [f"## {BENCH} benchmark from {key} (same withdrawal rule)", ""] + year_table(b["years"]) + [""]
     L += ["## Quarterly top-10 lists", ""]
     L += ["| Snapshot | Qualified | Eligible | Top 10 (value rank order) |", "|---|---|---|---|"]
     for s in snaps:
@@ -154,7 +164,7 @@ def main():
     snaps = engine.load_snapshots()
     tickers = sorted({r["ticker"] for s in snaps for r in s["top10"]})
     print(f"backtest: {len(snaps)} snapshots, {len(tickers)} distinct top-10 tickers", file=sys.stderr)
-    mkt = engine.Market(tickers, pd.Timestamp("2004-01-01"))
+    mkt = engine.Market(tickers, engine.data.START)
     results, benches = {}, {}
     for sc in SCENARIOS:
         r = engine.simulate(sc, snaps, mkt)
@@ -168,7 +178,7 @@ def main():
             benches[sc.start[:4]] = engine.benchmark(sc, mkt)
     for key, b in benches.items():
         s = b["summary"]
-        print(f"  SPY {key}     final {s['final_value']:>12,.0f}  withdrawn {s['total_withdrawn']:>10,.0f}  "
+        print(f"  {BENCH} {key}     final {s['final_value']:>12,.0f}  withdrawn {s['total_withdrawn']:>10,.0f}  "
               f"IRR {s['irr'] * 100:5.1f}%  maxDD {s['max_drawdown'] * 100:5.1f}%", file=sys.stderr)
         b["equity"].to_csv(OUT / f"spy_{key}_equity.csv")
     out = {name: {k: v for k, v in r.items() if k != "equity"} for name, r in results.items()}

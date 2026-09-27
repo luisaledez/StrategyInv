@@ -41,8 +41,8 @@ sys.path.insert(0, str(HERE))
 import indicators as ind  # noqa: E402
 import data  # noqa: E402
 
-OUT = HERE / "output"
-END = pd.Timestamp("2026-08-31")
+OUT = data.OUT
+END = data.END
 INITIAL = 100_000.0
 
 

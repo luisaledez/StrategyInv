@@ -43,9 +43,8 @@ sys.path.insert(0, str(HERE))
 import indicators as ind  # noqa: E402
 import data  # noqa: E402
 
-OUT = HERE / "output"
-OUT.mkdir(exist_ok=True)
-EDGAR_DIR = SCANNER / "cache" / "edgar"
+OUT = data.OUT
+EDGAR_DIR = data.EDGAR_DIR
 
 # scanner rules (scan.py defaults)
 THRESHOLD = 42.0
@@ -59,8 +58,8 @@ TOP_GROWTH = 20
 TOP_VALUE = 10
 MIN_VAL_MONTHS = 12
 
-START = pd.Timestamp("2004-01-01")
-END = pd.Timestamp("2026-08-31")
+START = data.START
+END = data.END
 
 
 def snapshot_dates() -> list[pd.Timestamp]:

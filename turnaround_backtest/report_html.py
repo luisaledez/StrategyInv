@@ -13,7 +13,10 @@ from pathlib import Path
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-OUT = HERE / "output"
+sys.path.insert(0, str(HERE))
+import data  # noqa: E402
+
+OUT = data.OUT
 
 PALETTE_LIGHT = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
 PALETTE_DARK = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"]
@@ -99,12 +102,35 @@ def year_table(years, bench_years=None) -> str:
             f'<span class="{cls}">{pct(y["return"])}</span>', money(y["withdrawal"]), money(y["end"]), money(cum),
             str(y.get("positions", "")), pct(y["cash_pct"]) if y.get("cash_pct") is not None else "",
             pct(b["return"]) if b else ""])) + "</tr>")
-    hdr = ["Year", "Start", "Return", "Withdrawal", "End (after)", "Cum. withdrawn", "Positions", "Cash", "SPY"]
+    hdr = ["Year", "Start", "Return", "Withdrawal", "End (after)", "Cum. withdrawn", "Positions", "Cash", BENCH]
     return ('<table><thead><tr>' + "".join(f"<th>{h}</th>" for h in hdr) + "</tr></thead><tbody>"
             + "".join(rows) + "</tbody></table>")
 
 
+CFG = data.CONFIG
+BENCH = CFG.get("benchmark", "SPY")
+REAL_INTRO = """<p class="lead">2004-01-01 to 2026-08-31. Quarterly scan with the turnaround scanner's rules (monthly RSI(14) &lt; 42 within the last 6 completed months,
+≥ 5 years of history, ≥ $5M average daily dollar volume, ≥ $1B market cap), then profitable now and in the past, top 20 by trailing revenue growth,
+top 10 of those by valuation versus own history. $100,000 start, at most 10% per stock, no taxes or costs, dividends as cash, idle cash earns nothing.
+Withdrawals at each year end: return &gt; 20% → 10% of the portfolio; 10–20% → 7.5%; below 10% → 5%.</p>
+<p>Filings data (SEC XBRL) begins with fiscal-2007 comparatives, so nothing qualifies before 2008 and the first real purchases are in 2009: from 2004 to 2008 the
+portfolio is cash and still pays the 5% withdrawal. The universe is today's S&amp;P 500 + 400 members, so failed and acquired companies are missing (survivorship bias).
+A monthly RSI of 90 is essentially never printed, so that exit never fires; see the rsi80 scenario.</p>"""
+
+
+def intro_html() -> str:
+    if not CFG.get("notes"):
+        return REAL_INTRO
+    import re
+    head = (f'<p class="lead">{data.START.date()} to {data.END.date()}. Quarterly scan with the turnaround scanner rules, then profitable now and in the past, '
+            'top 20 by trailing revenue growth, top 10 of those by valuation versus own history. $100,000 start, at most 10% per stock, no taxes or costs, '
+            'dividends as cash, idle cash earns nothing. Withdrawals at each year end: return &gt; 20% → 10%; 10–20% → 7.5%; below 10% → 5%.</p>')
+    paras = "".join("<p>" + re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", escape(n)) + "</p>" for n in CFG["notes"])
+    return head + paras
+
+
 def build() -> Path:
+    intro = intro_html()
     res = json.loads((OUT / "results.json").read_text(encoding="utf-8"))
     benches = res.pop("benchmarks")
     snaps = json.loads((OUT / "snapshots.json").read_text(encoding="utf-8"))
@@ -121,7 +147,7 @@ def build() -> Path:
                       pct(s["win_rate"]) if s["win_rate"] is not None else "n/a", str(s["open_positions"])])
     for key, b in benches.items():
         s = b["summary"]
-        srows.append([f"SPY from {key}", key, s["start"], money(s["final_value"]), money(s["total_withdrawn"]),
+        srows.append([f"{BENCH} from {key}", key, s["start"], money(s["final_value"]), money(s["total_withdrawn"]),
                       money(s["final_plus_withdrawn"]), pct(s["cagr_final"]), pct(s["cagr_tr_index"]), pct(s["irr"]),
                       pct(s["max_drawdown"]), "", "", ""])
     summary = ('<table><thead><tr>' + "".join(f"<th>{h}</th>" for h in hdr) + "</tr></thead><tbody>"
@@ -130,11 +156,14 @@ def build() -> Path:
 
     # ---- charts
     s04 = {k: load_equity(k) for k in order if res[k]["scenario"]["start"].startswith("2004")}
-    s04["SPY"] = load_equity("spy_2004")
+    y0 = str(data.START.year)
+    s04 = {k: load_equity(k) for k in order if res[k]["scenario"]["start"].startswith(y0)}
+    s04[BENCH] = load_equity(f"spy_{y0}")
+    charts = line_chart(s04, f"Growth of $1 ignoring withdrawals, {y0} start (log scale)", "c04")
     s09 = {k: load_equity(k) for k in order if res[k]["scenario"]["start"].startswith("2009")}
-    s09["SPY"] = load_equity("spy_2009")
-    charts = line_chart(s04, "Growth of $1 ignoring withdrawals, 2004 start (log scale)", "c04")
-    charts += line_chart(s09, "Growth of $1 ignoring withdrawals, 2009 start (log scale)", "c09")
+    if s09 and "2009" in benches:
+        s09[BENCH] = load_equity("spy_2009")
+        charts += line_chart(s09, "Growth of $1 ignoring withdrawals, 2009 start (log scale)", "c09")
 
     # ---- per scenario
     sections = []
@@ -164,7 +193,7 @@ def build() -> Path:
                         f'together {money(s["final_plus_withdrawn"])}; IRR {pct(s["irr"])}.</p>'
                         + year_table(r["years"], by) + "<p>" + " ".join(escape(n) for n in notes) + "</p></section>")
     for key, b in benches.items():
-        sections.append(f'<section><h2>SPY from {key} <small>same withdrawal rule, dividends reinvested</small></h2>'
+        sections.append(f'<section><h2>{BENCH} from {key} <small>same withdrawal rule, dividends reinvested</small></h2>'
                         + year_table(b["years"]) + "</section>")
     lists = "".join(f"<tr><td>{s['date']}</td><td class=num>{s['n_qualified']}</td><td class=num>{s['n_eligible']}</td>"
                     f"<td>{', '.join(r['ticker'] for r in s['top10']) or '—'}</td></tr>" for s in snaps)
@@ -174,7 +203,7 @@ def build() -> Path:
     css_series = "".join(f".s{i + 1}{{--c:{c}}}" for i, c in enumerate(PALETTE_LIGHT))
     css_series_dark = "".join(f".s{i + 1}{{--c:{c}}}" for i, c in enumerate(PALETTE_DARK))
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Turnaround backtest</title>
+<title>{escape(CFG.get("label", "Turnaround backtest"))}</title>
 <style>
 :root{{color-scheme:light;--bg:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#8a8984;--grid:#e6e5e1;--row:#f4f3f0;--neg:#d03b3b}}
 @media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{color-scheme:dark;--bg:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#8a8984;--grid:#333331;--row:#232322;--neg:#e66767}}
@@ -198,14 +227,8 @@ figure{{margin:24px 0;position:relative}} figcaption{{color:var(--ink2);font-siz
 .tip{{position:absolute;display:none;background:var(--bg);border:1px solid var(--grid);border-radius:6px;padding:6px 8px;font-size:12px;color:var(--ink);pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,.15);z-index:2}}
 .tip b{{display:block;margin-bottom:2px}} .tip i{{display:inline-block;width:10px;height:3px;margin-right:6px;vertical-align:middle;background:var(--c)}}
 </style></head><body><main>
-<h1>Turnaround candidates backtest</h1>
-<p class="lead">2004-01-01 to 2026-08-31. Quarterly scan with the turnaround scanner's rules (monthly RSI(14) &lt; 42 within the last 6 completed months,
-≥ 5 years of history, ≥ $5M average daily dollar volume, ≥ $1B market cap), then profitable now and in the past, top 20 by trailing revenue growth,
-top 10 of those by valuation versus own history. $100,000 start, at most 10% per stock, no taxes or costs, dividends as cash, idle cash earns nothing.
-Withdrawals at each year end: return &gt; 20% → 10% of the portfolio; 10–20% → 7.5%; below 10% → 5%.</p>
-<p>Filings data (SEC XBRL) begins with fiscal-2007 comparatives, so nothing qualifies before 2008 and the first real purchases are in 2009: from 2004 to 2008 the
-portfolio is cash and still pays the 5% withdrawal. The universe is today's S&amp;P 500 + 400 members, so failed and acquired companies are missing (survivorship bias).
-A monthly RSI of 90 is essentially never printed, so that exit never fires; see the rsi80 scenario.</p>
+<h1>{escape(CFG.get("label", "Turnaround candidates backtest"))}</h1>
+{intro}
 <h2>Scenario summary</h2><div class="wrap">{summary}</div>
 <p>CAGR final compounds the ending value after withdrawals; CAGR index chains the yearly returns as if nothing had been withdrawn; IRR is the money-weighted return of $100,000 in, withdrawals out, final value. Max DD is on the no-withdrawal index.</p>
 {charts}

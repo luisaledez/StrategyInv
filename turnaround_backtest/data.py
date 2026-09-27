@@ -25,8 +25,21 @@ sys.path.insert(0, str(SCANNER))
 import prices as scanner_prices  # noqa: E402
 import universe as uni_mod  # noqa: E402
 
-PRICES = HERE / "cache" / "prices"
+# A different data root (e.g. the synthetic lost-decade set) is selected with the
+# TURNAROUND_BT_ROOT environment variable: it must hold cache/prices/, optionally
+# cache/edgar/ (else the scanner's EDGAR cache is used) and a config.json with
+# "start" / "end" / "label"; outputs go to <root>/output/.
+import json as _json
+import os as _os
+ROOT = Path(_os.environ.get("TURNAROUND_BT_ROOT") or HERE).resolve()
+PRICES = ROOT / "cache" / "prices"
 PRICES.mkdir(parents=True, exist_ok=True)
+OUT = ROOT / "output"
+OUT.mkdir(parents=True, exist_ok=True)
+EDGAR_DIR = (ROOT / "cache" / "edgar") if (ROOT / "cache" / "edgar").exists() else SCANNER / "cache" / "edgar"
+CONFIG = _json.loads((ROOT / "config.json").read_text(encoding="utf-8")) if (ROOT / "config.json").exists() else {}
+START = pd.Timestamp(CONFIG.get("start", "2004-01-01"))
+END = pd.Timestamp(CONFIG.get("end", "2026-08-31"))
 BENCHMARKS = ["SPY"]
 
 
