@@ -57,3 +57,29 @@ episode study. See **[turnaround/README.md](turnaround/README.md)**.
 python turnaround/scan.py        # watchlist -> turnaround/output/watchlist.md
 python turnaround/episodes.py    # study    -> turnaround/output/episodes_summary.md
 ```
+
+## Turnaround candidates backtest (`turnaround_backtest/`)
+
+Backtests the scanner's shortlisted candidates as a quarterly-rebalanced
+portfolio from 2004 to August 2026 (trim at +50%, monthly-RSI exit, yearly
+withdrawals, several scenarios vs SPY). Uses the scanner's rules and EDGAR
+fundamentals with its own full-history price cache. See
+**[turnaround_backtest/README.md](turnaround_backtest/README.md)**.
+
+```
+python turnaround_backtest/data.py prices && python turnaround_backtest/data.py edgar
+python turnaround_backtest/screen.py && python turnaround_backtest/backtest.py
+python turnaround_backtest/report_html.py   # -> turnaround_backtest/output/report.html
+```
+
+## Weekly-RSI swing study (`rsi_swing/`)
+
+Backtests "buy when the 14-week RSI closes at/below a threshold, exit 4-10
+months later" on any ticker, with a threshold sweep. See
+**[rsi_swing/README.md](rsi_swing/README.md)**.
+
+```
+python rsi_swing/backtest.py QCOM --start 1996-01-01
+python rsi_swing/backtest.py QCOM --sweep 28,30,32,34,36
+```
+

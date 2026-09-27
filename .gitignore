@@ -7,3 +7,5 @@ node_modules/
 
 .vercel
 turnaround/cache/edgar_raw/
+rsi_swing/cache/
+turnaround_backtest/cache/
