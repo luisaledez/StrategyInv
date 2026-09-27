@@ -157,8 +157,27 @@ business selection improves outcomes.
 
 ## Web app and deployment
 
-`python turnaround/app.py` serves the watchlist, ticker pages, the full
-universe table and the study on http://localhost:8050, with a Rescan button.
+`python turnaround/app.py` serves the app on http://localhost:8050, with a
+Rescan button. The first page, Candidates, is the watchlist narrowed to
+names with survival gate PASS, monthly RSI below 55, and revenue YoY or
+EPS last-quarter YoY growth of at least 10%; the Watchlist page is the
+full scanner list, followed by the ticker pages, the full universe table
+and the study. Both list pages have an Added column: the date of the first
+scan that listed the ticker on that page, with a NEW badge when it was
+absent from the previous scan. `output/history.json` holds the record
+(first-seen dates plus the previous and current snapshots); scan.py
+updates it on every run, and a rerun on the same date replaces that
+day's snapshot instead of pushing the previous one back. The default
+monthly RSI threshold is 42, matching the committed scan, so the Rescan
+button and a bare `python scan.py` reproduce the same list.
+
+The grids can be grouped: the Group by bar above each table takes up to
+three columns, and a numeric column accepts cut points (RSI(m) with
+`38, 45` gives < 38, 38–45 and ≥ 45; percent columns take plain numbers,
+money takes $ millions; no cut points groups by exact value). Groups are
+ordered by bucket, empty buckets are hidden, rows inside a group follow
+the column sort, and the setup is remembered in the browser alongside
+the column layout.
 
 The same app is deployed read-only on Vercel at
 https://ll-turnaround-strat.vercel.app (project `ll-turnaround-strat`,

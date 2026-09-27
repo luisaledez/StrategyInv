@@ -1,20 +1,20 @@
 {
  "ticker": "LEN",
- "fetched": "2026-09-14",
- "market_cap": 19370379250.404358,
+ "fetched": "2026-09-27",
+ "market_cap": 19789536282.876816,
  "shares_out": 240895142.0,
- "price": 80.41000366210938,
+ "price": 82.1500015258789,
  "long_name": "Lennar Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Residential Construction",
- "pe_trailing_y": 12.603449,
- "pe_forward": 12.539943,
+ "pe_trailing_y": 15.558712,
+ "pe_forward": 15.586195,
  "peg": 11.3,
- "p_sales_y": 0.59169257,
- "eps_trailing_y": 6.38,
- "eps_forward": 6.41231,
- "earnings_growth_y": -0.315,
- "earnings_growth_q_y": -0.362,
+ "p_sales_y": 0.6189437,
+ "eps_trailing_y": 5.28,
+ "eps_forward": 5.27069,
+ "earnings_growth_y": -0.48,
+ "earnings_growth_q_y": -0.52,
  "bs_date": "2026-05-31",
  "cash": 2130420000.0,
  "total_debt": 6011233000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 1.19
+  },
+  {
    "period": "2026-05-31",
    "value": 1.24
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-08-31",
    "value": 2.29
-  },
-  {
-   "period": "2025-05-31",
-   "value": 1.81
   }
  ],
- "eps_ttm": 6.39,
+ "eps_ttm": 5.29,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.4423480083857442,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.3149171270718232,
- "eps_forward_growth": 0.0034913928012518802,
+ "eps_growth_last_q": -0.48034934497816595,
+ "eps_forward_growth": -0.0036502835538752,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 1.7819084189931846,
  "interest_coverage": null,
  "cash_to_debt": 0.35440649197926616,
- "ev": 23251192250.404358,
- "ev_to_sales": 0.7102368984553631,
- "ev_to_ebitda": 10.675983414460996,
- "pe_ttm": 11.991377303995185,
- "pe_trailing": 12.603449,
- "p_sales": 0.59169257,
- "p_fcf": 27.024426492633452,
- "p_book": 0.895920798008105
+ "ev": 23670349282.876816,
+ "ev_to_sales": 0.7230405769722708,
+ "ev_to_ebitda": 10.868442944214909,
+ "pe_ttm": 12.25085958160187,
+ "pe_trailing": 15.558712,
+ "p_sales": 0.6189437,
+ "p_fcf": 27.60921000494831,
+ "p_book": 0.9153076927182637
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "NTNX",
- "fetched": "2026-09-14",
- "market_cap": 18368277761.597275,
- "shares_out": 270320509.0,
- "price": 67.94999694824219,
+ "fetched": "2026-09-27",
+ "market_cap": 18406888947.084137,
+ "shares_out": 270570179.0,
+ "price": 68.02999877929688,
  "long_name": "Nutanix, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
- "pe_trailing_y": 13.143132,
- "pe_forward": 25.549337,
- "peg": 1.35,
- "p_sales_y": 6.437003,
+ "pe_trailing_y": 13.158607,
+ "pe_forward": 25.579418,
+ "peg": 1.39,
+ "p_sales_y": 6.4505343,
  "eps_trailing_y": 5.17,
  "eps_forward": 2.65956,
- "earnings_growth_y": 31.478,
+ "earnings_growth_y": 31.485,
  "earnings_growth_q_y": 31.849,
- "bs_date": "2026-04-30",
- "cash": 2017903000.0,
- "total_debt": 1528893000.0,
- "current_debt": 37346000.0,
- "lease_obligations": 181409000.0,
- "equity": -725613000.0,
- "net_debt": -489010000.0,
- "ocf_ttm": 821204000.0,
- "capex_ttm": -50320000.0,
- "fcf_ttm": 770884000.0,
+ "bs_date": "2026-07-31",
+ "cash": 2361463000.0,
+ "total_debt": 1518734000.0,
+ "current_debt": 35713000.0,
+ "lease_obligations": 170023000.0,
+ "equity": 702565000.0,
+ "net_debt": -842729000.0,
+ "ocf_ttm": 916688000.0,
+ "capex_ttm": -76013000.0,
+ "fcf_ttm": 840675000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -483281000.0,
- "stock_issuance_ttm": -483281000.0,
- "revenue_ttm": 2749734000.0,
- "net_income_ttm": 275855000.0,
- "ebitda_ttm": 373359000.0,
- "ebit_ttm": 301528000.0,
- "interest_ttm": 11992000.0,
- "revenue_yoy_last_q": 0.10028905307339953,
+ "buybacks_ttm": -483543000.0,
+ "stock_issuance_ttm": -333543000.0,
+ "revenue_ttm": 2853545000.0,
+ "net_income_ttm": 1506837000.0,
+ "ebitda_ttm": 409732000.0,
+ "ebit_ttm": 339092000.0,
+ "interest_ttm": 11984000.0,
+ "revenue_yoy_last_q": 0.15891052203769673,
  "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 757078000.0
+  },
   {
    "period": "2026-04-30",
    "value": 703066000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-07-31",
    "value": 653267000.0
-  },
-  {
-   "period": "2025-04-30",
-   "value": 638983000.0
   }
  ],
  "eps_quarters": [
@@ -80,11 +80,15 @@
  ],
  "eps_ttm": 5.16,
  "eps_ttm_prior": null,
- "eps_growth_yoy": null,
- "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_yoy": 6.953846153846153,
+ "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": 32.38461538461538,
  "eps_forward_growth": -0.48458139534883726,
  "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.8603486034464084
+  },
   {
    "period": "2026-04-30",
    "value": 0.8687477420327537
@@ -100,13 +104,15 @@
   {
    "period": "2025-07-31",
    "value": 0.8716711543672037
-  },
-  {
-   "period": "2025-04-30",
-   "value": 0.8701201753411281
   }
  ],
  "annual": [
+  {
+   "year": "2026",
+   "revenue": 2853545000.0,
+   "eps": 5.17,
+   "net_income": 1506837000.0
+  },
   {
    "year": "2025",
    "revenue": 2537927000.0,
@@ -124,31 +130,25 @@
    "revenue": 1862895000.0,
    "eps": -1.09,
    "net_income": -254560000.0
-  },
-  {
-   "year": "2022",
-   "revenue": 1580796000.0,
-   "eps": -3.62,
-   "net_income": -798946000.0
   }
  ],
  "years_reported": 4,
- "profitable_years": 1,
- "dilution_1y": -0.006549078954234733,
+ "profitable_years": 2,
+ "dilution_1y": 0.006630861008381395,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 37346000.0,
- "gap_24m": -1980557000.0,
+ "need_24m": 35713000.0,
+ "gap_24m": -2325750000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.309758168411636,
- "interest_coverage": 25.144096064042696,
- "cash_to_debt": 1.319845796926273,
- "ev": 17879267761.597275,
- "ev_to_sales": 6.502180851528648,
- "ev_to_ebitda": 47.88760351725089,
- "pe_ttm": 66.58671317031511,
- "pe_trailing": 13.143132,
- "p_sales": 6.437003,
- "p_fcf": 23.827550917644256,
- "p_book": null
+ "net_debt_to_ebitda": -2.056781017836049,
+ "interest_coverage": 28.295393858477972,
+ "cash_to_debt": 1.5548891379267205,
+ "ev": 17564159947.084137,
+ "ev_to_sales": 6.155206925800763,
+ "ev_to_ebitda": 42.86743517002367,
+ "pe_ttm": 12.215580681310676,
+ "pe_trailing": 13.158607,
+ "p_sales": 6.4505343,
+ "p_fcf": 21.895368539666503,
+ "p_book": 26.199552990946227
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "GWRE",
- "fetched": "2026-09-14",
- "market_cap": 12714495323.366089,
- "shares_out": 83256364.0,
- "price": 152.71499633789062,
+ "fetched": "2026-09-27",
+ "market_cap": 11934852699.462585,
+ "shares_out": 81992669.0,
+ "price": 145.55999755859375,
  "long_name": "Guidewire Software, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 82.104836,
- "pe_forward": 28.571081,
- "peg": 0.92,
- "p_sales_y": 8.617877,
- "eps_trailing_y": 1.86,
+ "pe_trailing_y": 89.30061,
+ "pe_forward": 27.23247,
+ "peg": 0.95,
+ "p_sales_y": 8.089436,
+ "eps_trailing_y": 1.63,
  "eps_forward": 5.34509,
  "earnings_growth_y": -0.382,
  "earnings_growth_q_y": -0.396,
- "bs_date": "2026-04-30",
- "cash": 749534000.0,
- "total_debt": 704237000.0,
- "current_debt": 10438000.0,
- "lease_obligations": 27031000.0,
- "equity": 1317145000.0,
- "net_debt": -45297000.0,
- "ocf_ttm": 350661000.0,
- "capex_ttm": -31020000.0,
- "fcf_ttm": 319641000.0,
+ "bs_date": "2026-07-31",
+ "cash": 753062000.0,
+ "total_debt": 714987000.0,
+ "current_debt": 11687000.0,
+ "lease_obligations": 36893000.0,
+ "equity": 1193687000.0,
+ "net_debt": -38075000.0,
+ "ocf_ttm": 389716000.0,
+ "capex_ttm": -31059000.0,
+ "fcf_ttm": 358657000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1420845000.0,
- "net_income_ttm": 159840000.0,
- "ebitda_ttm": 199913000.0,
- "ebit_ttm": 173061000.0,
- "interest_ttm": 13262000.0,
- "revenue_yoy_last_q": 0.26927034356814805,
+ "revenue_ttm": 1475363000.0,
+ "net_income_ttm": 139284000.0,
+ "ebitda_ttm": 205392000.0,
+ "ebit_ttm": 177440000.0,
+ "interest_ttm": 13323000.0,
+ "revenue_yoy_last_q": 0.15289564461396088,
  "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 411088000.0
+  },
   {
    "period": "2026-04-30",
    "value": 372541000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-07-31",
    "value": 356570000.0
-  },
-  {
-   "period": "2025-04-30",
-   "value": 293508000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.38
+  },
   {
    "period": "2026-04-30",
    "value": 0.19
@@ -72,19 +76,19 @@
   {
    "period": "2025-07-31",
    "value": 0.6
-  },
-  {
-   "period": "2025-04-30",
-   "value": 0.54
   }
  ],
- "eps_ttm": 1.85,
+ "eps_ttm": 1.63,
  "eps_ttm_prior": null,
- "eps_growth_yoy": null,
- "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": -0.6481481481481481,
- "eps_forward_growth": 1.8892378378378378,
+ "eps_growth_yoy": 1.0123456790123453,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.3666666666666666,
+ "eps_forward_growth": 2.2791963190184052,
  "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6560128245047289
+  },
   {
    "period": "2026-04-30",
    "value": 0.6352186739177701
@@ -100,13 +104,15 @@
   {
    "period": "2025-07-31",
    "value": 0.650113582185826
-  },
-  {
-   "period": "2025-04-30",
-   "value": 0.62246344222304
   }
  ],
  "annual": [
+  {
+   "year": "2026",
+   "revenue": 1475363000.0,
+   "eps": 1.63,
+   "net_income": 139283000.0
+  },
   {
    "year": "2025",
    "revenue": 1202459000.0,
@@ -124,31 +130,25 @@
    "revenue": 905341000.0,
    "eps": -1.36,
    "net_income": -111855000.0
-  },
-  {
-   "year": "2022",
-   "revenue": 812614000.0,
-   "eps": -2.16,
-   "net_income": -180431000.0
   }
  ],
  "years_reported": 4,
- "profitable_years": 1,
- "dilution_1y": -0.01115131548824655,
+ "profitable_years": 2,
+ "dilution_1y": -0.0300241151061148,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 10438000.0,
- "gap_24m": -739096000.0,
+ "need_24m": 11687000.0,
+ "gap_24m": -741375000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.22658356385027487,
- "interest_coverage": 13.049389232393304,
- "cash_to_debt": 1.0643206761360167,
- "ev": 12669198323.366089,
- "ev_to_sales": 8.916664606882586,
- "ev_to_ebitda": 63.37355911504549,
- "pe_ttm": 79.54514091195,
- "pe_trailing": 82.104836,
- "p_sales": 8.617877,
- "p_fcf": 39.7774231821515,
- "p_book": 9.653071851137186
+ "net_debt_to_ebitda": -0.18537722988237126,
+ "interest_coverage": 13.318321699316972,
+ "cash_to_debt": 1.053252716482957,
+ "ev": 11896777699.462585,
+ "ev_to_sales": 8.063627527234033,
+ "ev_to_ebitda": 57.922303202961096,
+ "pe_ttm": 85.68717655626335,
+ "pe_trailing": 89.30061,
+ "p_sales": 8.089436,
+ "p_fcf": 33.27650847317238,
+ "p_book": 9.998310025544875
 }

@@ -2,7 +2,9 @@
 
   python app.py            # http://localhost:8050
 
-Pages: /            watchlist (sortable, filterable, rescan button)
+Pages: /            candidates: watchlist rows with Gate GREEN (stored as PASS), monthly RSI < 55 and
+                    revenue YoY >= 10% or EPS last-quarter YoY >= 10%
+       /watchlist   full watchlist (sortable, filterable, rescan button)
        /ticker/<T>  screen facts, price + monthly RSI chart, fundamentals, thesis file
        /all         every ticker in the universe with its RSI / drawdown metrics
        /study       historical episode study
@@ -28,6 +30,7 @@ import indicators as ind  # noqa: E402
 import prices  # noqa: E402
 import valuation_history as vh  # noqa: E402
 from paths import ON_VERCEL  # noqa: E402
+from scan import CAND_GROWTH_MIN, CAND_RSI_MAX, is_candidate  # noqa: E402
 
 OUT = HERE / "output"
 THESIS = HERE / "thesis"
@@ -47,6 +50,10 @@ def load_watchlist() -> list[dict]:
         r["has_thesis"] = (THESIS / f"{r['ticker']}.md").exists()
         r["status"] = thesis_status(r["ticker"])
     return rows
+
+
+def load_candidates() -> list[dict]:
+    return [r for r in load_watchlist() if is_candidate(r)]
 
 
 def load_all() -> list[dict]:
@@ -145,7 +152,14 @@ def numc(x, d=1, good="up"):
     return Markup(f'<span class="{_cls(x, good)}">{num(x, d)}</span>')
 
 
-app.jinja_env.filters.update(money=money, pct=pct, num=num, pctc=pctc, moneyc=moneyc, numc=numc)
+GATE_LABEL = {"PASS": "GREEN"}  # display names for survival_gate values; the stored value stays PASS
+
+
+def gate_label(v):
+    return GATE_LABEL.get(v, v)
+
+
+app.jinja_env.filters.update(money=money, pct=pct, num=num, pctc=pctc, moneyc=moneyc, numc=numc, gate=gate_label)
 
 
 # ------------------------------------------------------------------ SVG chart
@@ -297,6 +311,7 @@ function opFilterFunc(hv,rv,row,params){
   const eq=Math.abs(a-b)<1e-9;
   return op==='='?eq:op==='≠'?!eq:op==='≥'?a>=b:op==='≤'?a<=b:op==='>'?a>b:op==='<'?a<b:true;}
 const NUMOPS=['≥','≤','=','>','<','≠'],TXTOPS=['contains','=','≠','!contains'];
+const GATE={PASS:'GREEN'}; // display names for survival_gate values
 // column kinds
 function col(field,title,kind,o={}){
   const base={field,title,headerFilter:opFilter,headerFilterFunc:opFilterFunc,headerFilterLiveFilter:true,headerTooltip:o.tip||title,minWidth:60};
@@ -306,7 +321,7 @@ function col(field,title,kind,o={}){
     pct:{headerFilterParams:{ops:NUMOPS,scale:100,placeholder:'%'},sorter:'number',hozAlign:'right',formatter:c=>`<span class="${o.good?colored(c.getValue(),o.good):''}">${fmt.pct(c.getValue())}</span>`},
     money:{headerFilterParams:{ops:NUMOPS,scale:1e-6,placeholder:'$M'},sorter:'number',hozAlign:'right',formatter:c=>fmt.money(c.getValue())},
   }[kind]||{};
-  const {tip,d,good,...rest}=o;const def=Object.assign(base,k,rest);def.headerFilterFuncParams=def.headerFilterParams;return def;}
+  const {tip,d,good,...rest}=o;const def=Object.assign(base,k,rest);def.headerFilterFuncParams=def.headerFilterParams;def.kind=kind;def.decimals=d==null?1:d;return def;}
 // header menu: hide / move / show-hide any column
 function headerMenu(){
   const t=this;const menu=[
@@ -323,30 +338,106 @@ function headerMenu(){
   return menu;}
 function makeGrid(el,columns,data,id,extra={}){
   columns.forEach(c=>{c.headerMenu=headerMenu;});
-  const table=new Tabulator(el,Object.assign({data,columns,layout:'fitDataFill',height:'calc(100vh - 235px)',
+  // horizontal scrollbar above the grid: a thin scroller whose inner width tracks the table; kept in sync both ways
+  const host=document.querySelector(el);const bar=document.createElement('div');bar.className='hscroll';bar.appendChild(document.createElement('div'));
+  host.parentNode.insertBefore(bar,host);
+  const height=Math.max(420,window.innerHeight-bar.getBoundingClientRect().top-bar.offsetHeight-14);
+  const gp=groupPanel(columns,data,id);  // saved grouping goes into the constructor so it is applied with the initial render
+  const table=new Tabulator(el,Object.assign({data,columns,layout:'fitDataFill',height:height+'px',
     resizableColumnFit:false,movableColumns:true,columnDefaults:{resizable:true,headerSortTristate:true},
-    persistence:{columns:true,sort:true},persistenceID:id,
-    placeholder:'No rows match the filters'},extra));
+    persistence:{columns:true,sort:true},persistenceID:id,groupToggleElement:'header',groupStartOpen:true,
+    placeholder:'No rows match the filters'},gp.options,extra));
+  const sync=()=>{const t=host.querySelector('.tabulator-table');if(t)bar.firstChild.style.width=t.offsetWidth+'px';};
+  ['tableBuilt','renderComplete','columnResized','columnVisibilityChanged','columnMoved','dataFiltered'].forEach(e=>table.on(e,sync));
+  let lock=false;
+  bar.addEventListener('scroll',()=>{if(lock)return;lock=true;const h=host.querySelector('.tabulator-tableholder');if(h)h.scrollLeft=bar.scrollLeft;lock=false;});
+  table.on('scrollHorizontal',left=>{if(lock)return;lock=true;bar.scrollLeft=left;lock=false;});
   table.on('dataFiltered',(f,rows)=>{const c=document.getElementById('count');if(c)c.textContent=rows.length+' of '+data.length+' shown';});
-  document.getElementById('reset-layout')?.addEventListener('click',()=>{Object.keys(localStorage).filter(k=>k.startsWith('tabulator-'+id)).forEach(k=>localStorage.removeItem(k));location.reload();});
+  document.getElementById('reset-layout')?.addEventListener('click',()=>{Object.keys(localStorage).filter(k=>k.startsWith('tabulator-'+id)||k==='turnaround-group-'+id).forEach(k=>localStorage.removeItem(k));location.reload();});
+  gp.bind(table);
   return table;}
+// "Group by" bar: up to three levels, each a column plus optional cut points for numeric columns.
+// Cut points are typed in display units (percent for % columns, $M for money), like the header filters.
+// Groups are ordered by bucket (or by value) and empty buckets are hidden. The setup is remembered per page.
+function groupPanel(columns,data,id){
+  const bar=document.getElementById('groupbar');if(!bar)return {options:{},bind(){}};
+  let table=null,options={};
+  const KEY='turnaround-group-'+id,defs=columns.filter(c=>c.field&&c.title&&c.kind),levels=[];
+  const fmtCut=(d,v)=>d.kind==='pct'?v+'%':d.kind==='money'?'$'+v.toLocaleString()+'M':String(v);
+  const fmtVal=(d,v)=>d.field==='survival_gate'?(GATE[v]||v):d.kind==='pct'?fmt.pct(v):d.kind==='money'?fmt.money(v):d.kind==='num'?fmt.num(v,d.decimals):String(v);
+  bar.innerHTML='<span class="muted small">Group by</span>';
+  for(let i=0;i<3;i++){
+    const sel=document.createElement('select');sel.innerHTML='<option value="">— none —</option>'+defs.map(d=>`<option value="${d.field}">${d.title}</option>`).join('');
+    const inp=document.createElement('input');inp.size=24;inp.disabled=true;
+    const upd=()=>{const d=defs.find(x=>x.field===sel.value);inp.disabled=!d||d.kind==='text';
+      inp.placeholder=!d?'':d.kind==='text'?'by value':d.kind==='pct'?'cut points in %, e.g. 0, 10':d.kind==='money'?'cut points in $M, e.g. 1000, 10000':'cut points, e.g. 38, 45';
+      if(inp.disabled)inp.value='';};
+    sel.addEventListener('change',upd);inp.addEventListener('keydown',e=>{if(e.key==='Enter')apply();});
+    if(i)bar.appendChild(Object.assign(document.createElement('span'),{textContent:'›',className:'muted'}));
+    bar.append(sel,inp);levels.push({sel,inp,upd});}
+  const ok=Object.assign(document.createElement('button'),{textContent:'Apply'}),clr=Object.assign(document.createElement('button'),{textContent:'Clear',className:'sec'});bar.append(ok,clr);
+  function build(cfg){const fns=[],vals=[],heads=[];
+    for(const c of cfg){const d=defs.find(x=>x.field===c.field);if(!d)continue;
+      const scale=d.headerFilterParams?.scale||1;
+      const cuts=[...new Set((c.cuts||'').split(/[,;\\s]+/).filter(x=>x!=='').map(Number).filter(x=>!isNaN(x)))].sort((a,b)=>a-b);
+      let fn,keys;
+      if(d.kind!=='text'&&cuts.length){
+        const labels=['< '+fmtCut(d,cuts[0]),...cuts.slice(1).map((v,j)=>fmtCut(d,cuts[j])+' – '+fmtCut(d,v)),'≥ '+fmtCut(d,cuts[cuts.length-1])];
+        fn=r=>{const v=r[d.field];if(v==null||v==='')return'n/a';const x=parseFloat(v)*scale;if(isNaN(x))return'n/a';let k=0;while(k<cuts.length&&x>=cuts[k])k++;return labels[k];};
+        keys=[...labels,'n/a'];
+      }else{
+        fn=r=>{const v=r[d.field];return v==null||v===''?'n/a':fmtVal(d,v);};
+        const order=new Map();data.forEach(r=>{const v=r[d.field];if(v!=null&&v!=='')order.set(fn(r),d.kind==='text'?String(v):parseFloat(v));});
+        keys=[...order.keys()].sort((a,b)=>{const x=order.get(a),y=order.get(b);return typeof x==='string'?x.localeCompare(y):x-y;});keys.push('n/a');}
+      fns.push(fn);vals.push(keys);
+      heads.push((value,count,rows,group)=>{group.getElement().classList.toggle('empty',!count);return `<span class="muted">${d.title}:</span> <b>${value}</b> <span class="muted small">· ${count} row${count===1?'':'s'}</span>`;});}
+    return {fns,vals,heads};}
+  function apply(){const cfg=levels.map(L=>({field:L.sel.value,cuts:L.inp.value})).filter(c=>c.field);
+    try{localStorage.setItem(KEY,JSON.stringify(cfg));}catch(e){}
+    if(!table)return;
+    if(!cfg.length){table.setGroupBy(false);return;}
+    const g=build(cfg);table.setGroupValues(g.vals);table.setGroupHeader(g.heads);table.setGroupBy(g.fns);}
+  ok.addEventListener('click',apply);clr.addEventListener('click',()=>{levels.forEach(L=>{L.sel.value='';L.upd();});apply();});
+  // restore the saved setup: fill the controls and hand the grouping options to the table constructor
+  try{const saved=JSON.parse(localStorage.getItem(KEY)||'[]');saved.forEach((c,i)=>{if(levels[i]){levels[i].sel.value=c.field||'';levels[i].upd();levels[i].inp.value=c.cuts||'';}});
+    const cfg=saved.filter(c=>c.field&&defs.some(d=>d.field===c.field));if(cfg.length){const g=build(cfg);options={groupBy:g.fns,groupValues:g.vals,groupHeader:g.heads};}}catch(e){}
+  return {options,bind(t){table=t;}};}
 function quickFilters(table,fn){
   const apply=()=>table.setFilter(fn);
   document.querySelectorAll('.toolbar input').forEach(e=>e.addEventListener('input',apply));apply();}
 </script>
 <style>
 .tabulator{font-size:13px;border:1px solid var(--line);border-radius:8px;background:#fff}
-.tabulator .tabulator-header .tabulator-col{background:#f3f4f6}
-.tabulator .tabulator-header .tabulator-col .tabulator-col-content{padding:5px 6px}
-.tabulator-row .tabulator-cell{padding:5px 8px}
+.tabulator .tabulator-header{background:#fff;border-bottom:2px solid var(--line)}
+.tabulator .tabulator-header .tabulator-col{background:#fff;border-right:1px solid #f0f0f0}
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover{background:#f7f9fc}
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content{padding:6px 6px}
+.tabulator .tabulator-header .tabulator-col .tabulator-col-title{font-weight:600;color:#333}
+.tabulator .tabulator-header .tabulator-header-filter{background:#fff}
+.tabulator-row{border-bottom:1px solid #f0f0f0}
+.tabulator-row .tabulator-cell{padding:5px 8px;border-right:1px solid #f4f4f4}
+.tabulator-row:hover{background:#f5f8ff}
+.tabulator-row .tabulator-cell.tabulator-frozen,.tabulator .tabulator-header .tabulator-col.tabulator-frozen{background:#fff}
+.tabulator .tabulator-tableholder::-webkit-scrollbar{width:10px;height:0}
+.tabulator .tabulator-tableholder::-webkit-scrollbar-thumb{background:#cfcfcf;border-radius:5px}
+.tabulator .tabulator-tableholder::-webkit-scrollbar-track{background:#fff}
+.hscroll{overflow-x:auto;overflow-y:hidden;height:14px;margin-bottom:4px}.hscroll>div{height:1px}
+.groupbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 8px;min-height:30px}
+.groupbar select,.groupbar input{padding:4px 6px;border:1px solid var(--line);border-radius:6px;font:inherit;font-size:12px}.groupbar input:disabled{background:#f7f7f7}
+.groupbar button{padding:4px 10px;font-size:12px}
+.tabulator-row.tabulator-group{background:#f5f8ff;border-bottom:1px solid var(--line);border-top:1px solid var(--line);padding:6px 10px;font-size:13px;font-weight:400}
+.tabulator-row.tabulator-group.tabulator-group-level-1{background:#fafbfe;padding-left:26px}.tabulator-row.tabulator-group.tabulator-group-level-2{background:#fff;padding-left:42px}
+.tabulator-row.tabulator-group span.tabulator-group-toggle{display:inline}
+.tabulator-row.tabulator-group.empty{display:none}
+.hscroll::-webkit-scrollbar{height:10px}.hscroll::-webkit-scrollbar-thumb{background:#cfcfcf;border-radius:5px}.hscroll::-webkit-scrollbar-track{background:#f4f4f4;border-radius:5px}
 .tabulator .tabulator-header-filter .hf{display:flex;gap:2px}
 .tabulator .tabulator-header-filter .hf select{width:52px;font-size:11px;padding:1px}
 .tabulator .tabulator-header-filter .hf input{flex:1;min-width:40px;font-size:11px;padding:2px 3px}
 .tabulator-menu{font-size:13px;max-height:70vh;overflow:auto}
 .tabulator-menu .tabulator-menu-item{padding:4px 12px}
-.tabulator-row.tabulator-row-even{background:#fafafa}
+.tabulator-row.tabulator-row-even{background:#fff}
 .tabulator-cell.r{text-align:right}
-:root{--bg:#fafafa;--fg:#1a1a1a;--muted:#6b6b6b;--line:#e3e3e3;--acc:#1d4ed8;--pass:#15803d;--rev:#b45309;--fail:#b91c1c;--shade:#fde68a}
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--acc:#1d4ed8;--pass:#15803d;--rev:#b45309;--fail:#b91c1c;--shade:#fde68a}
 *{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,Segoe UI,sans-serif;color:var(--fg);background:var(--bg)}
 header{display:flex;gap:18px;align-items:center;padding:12px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:2}
 header a{color:var(--fg);text-decoration:none;font-weight:600}header a.active{color:var(--acc)}header .sp{flex:1}
@@ -354,18 +445,18 @@ main{padding:20px 24px;max-width:1500px}h1{font-size:20px;margin:0 0 6px}h2{font
 .muted{color:var(--muted)}.small{font-size:12px}
 table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line)}
 th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
-th:first-child,td:first-child,td.l,th.l{text-align:left}th{background:#f3f4f6;cursor:pointer;position:sticky;top:49px;user-select:none}
+th:first-child,td:first-child,td.l,th.l{text-align:left}th{background:#fff;border-bottom:2px solid var(--line);cursor:pointer;position:sticky;top:49px;user-select:none}
 th.sorted::after{content:" ▾"}th.sorted.asc::after{content:" ▴"}
 tr:hover td{background:#f8fafc}a{color:var(--acc)}
 .gate{font-weight:600;padding:1px 6px;border-radius:4px;font-size:12px}
-.PASS{color:var(--pass);background:#dcfce7}.REVIEW{color:var(--rev);background:#fef3c7}.FAIL{color:var(--fail);background:#fee2e2}.UNKNOWN{color:var(--muted);background:#eee}
+.PASS{color:var(--pass);background:#dcfce7}.REVIEW{color:var(--rev);background:#fef3c7}.FAIL{color:var(--fail);background:#fee2e2}.UNKNOWN{color:var(--muted);background:#f3f3f3}
 .neg{color:var(--fail)}.pos{color:var(--pass)}.star{color:#d97706}
-.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0}
 .toolbar input,.toolbar select{padding:5px 8px;border:1px solid var(--line);border-radius:6px;font:inherit}
 button{padding:6px 12px;border:1px solid var(--acc);background:var(--acc);color:#fff;border-radius:6px;font:inherit;cursor:pointer}
 button.sec{background:#fff;color:var(--acc)}button:disabled{opacity:.5;cursor:default}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:10px 0 18px}
-.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px}.card b{font-size:20px;display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:8px 0 12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 12px}.card b{font-size:18px;display:block}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:1000px){.grid2{grid-template-columns:1fr}}
 .kv td:first-child{color:var(--muted);width:45%}
 .chart{width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:8px}
@@ -377,8 +468,9 @@ button.sec{background:#fff;color:var(--acc)}button:disabled{opacity:.5;cursor:de
 .md{background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px 18px}.md table{width:auto}.md td,.md th{text-align:left;white-space:normal}
 pre.log{background:#111;color:#ddd;padding:10px;border-radius:6px;max-height:260px;overflow:auto;font-size:12px}
 .status{font-size:12px;padding:1px 6px;border-radius:4px;background:#e0e7ff;color:#3730a3}
+.status.new{background:#dcfce7;color:var(--pass);font-weight:600}
 </style></head><body>
-<header><a href="/" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
+<header><a href="/" class="{{ 'active' if nav=='candidates' }}">Candidates</a><a href="/watchlist" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
 <a href="/study" class="{{ 'active' if nav=='study' }}">Episode study</a><span class="sp"></span>
 <span class="muted small">{{ as_of }}</span>
 {% if not on_vercel %}<button id="rescan" class="sec" onclick="rescan()">Rescan</button>{% else %}<span class="muted small">read-only deployment: rerun <code>scan.py</code> locally and push to update</span>{% endif %}</header>
@@ -407,12 +499,17 @@ if(document.getElementById('rescan'))fetch('/status').then(r=>r.json()).then(r=>
 </script></body></html>"""
 
 HOME = """{% extends "base" %}{% block body %}
+{% if nav=='candidates' %}
+<h1>Turnaround candidates <span class="muted small">watchlist rows with survival gate GREEN, monthly RSI &lt; {{ cand_rsi_max|num(0) }}, and revenue YoY or EPS last-quarter YoY ≥ {{ (cand_growth_min*100)|num(0) }}% · {{ rows|length }} of {{ total }} watchlist names · <a href="/watchlist">full watchlist</a></span></h1>
+{% else %}
 <h1>Turnaround watchlist <span class="muted small">monthly RSI({{ meta.rsi_period }}) &lt; {{ meta.threshold|num(0) }} on the last completed month, or within the last {{ meta.lookback }} months · {{ meta.universe }}</span></h1>
+{% endif %}
 <div class="cards">
-<div class="card"><span class="muted">qualifiers</span><b>{{ rows|length }}</b></div>
+<div class="card"><span class="muted">{{ 'candidates' if nav=='candidates' else 'qualifiers' }}</span><b>{{ rows|length }}</b></div>
+<div class="card"><span class="muted">new since last scan</span><b class="pos">{{ rows|selectattr(newflag)|list|length }}</b></div>
 <div class="card"><span class="muted">below {{ meta.threshold|num(0) }} now</span><b>{{ rows|selectattr('oversold_now')|list|length }}</b></div>
 <div class="card"><span class="muted">drawdown &gt; 40%</span><b>{{ rows|selectattr('priority')|list|length }}</b></div>
-<div class="card"><span class="muted">survival PASS</span><b class="pos">{{ gates.get('PASS',0) }}</b></div>
+<div class="card"><span class="muted">survival GREEN</span><b class="pos">{{ gates.get('PASS',0) }}</b></div>
 <div class="card"><span class="muted">REVIEW / FAIL</span><b>{{ gates.get('REVIEW',0) }} / {{ gates.get('FAIL',0) }}</b></div>
 <div class="card"><span class="muted">with thesis file</span><b>{{ rows|selectattr('has_thesis')|list|length }}</b></div>
 </div>
@@ -422,11 +519,13 @@ HOME = """{% extends "base" %}{% block body %}
 <label><input type="checkbox" id="prio"> drawdown &gt; 40% only</label>
 <span id="count" class="muted small"></span><span class="sp" style="flex:1"></span>
 <button id="reset-layout" class="sec">Reset layout</button></div>
+<div id="groupbar" class="groupbar"></div>
 <div id="grid"></div>
-<p class="muted small">Drag a column edge to resize, drag a header to reorder, click a header to sort. The ☰ menu on each header hides it, moves it to the front or back, or shows and hides any column. The filter row under the headers takes an operator (≥, ≤, =, contains…) and a value; percentages are typed as plain numbers (15 means 15%), money as $ millions. Your layout is remembered in this browser. ★ drawdown beyond 40% from the trailing 5-year high. Survival gate is a proxy from Yahoo statements: PASS = cash covers 24 months of current FCF burn plus debt due within a year; REVIEW = burn covered but maturities need refinancing; FAIL = cash does not cover 24 months of burn. Runway = cash ÷ monthly burn (∞ when FCF is positive).</p>
+<p class="muted small">Drag a column edge to resize, drag a header to reorder, click a header to sort. The ☰ menu on each header hides it, moves it to the front or back, or shows and hides any column. The filter row under the headers takes an operator (≥, ≤, =, contains…) and a value; percentages are typed as plain numbers (15 means 15%), money as $ millions. Your layout is remembered in this browser. Group by: pick up to three columns; for a numeric column type cut points to bucket it (RSI(m) with "38, 45" gives &lt; 38, 38 – 45 and ≥ 45; a % column takes plain numbers, money takes $ millions; leave the box empty to group by exact value). Click a group header to collapse it; rows inside a group follow the column sort. ★ drawdown beyond 40% from the trailing 5-year high. Survival gate is a proxy from Yahoo statements: GREEN = cash covers 24 months of current FCF burn plus debt due within a year; REVIEW = burn covered but maturities need refinancing; FAIL = cash does not cover 24 months of burn. Runway = cash ÷ monthly burn (∞ when FCF is positive).</p>
 <script>
 const DATA={{ rows|tojson }};
 const THRESH={{ meta.threshold }};
+const ADDED='{{ addedfield }}',NEWFLAG='{{ newflag }}';
 const COLS=[
  col('ticker','Ticker','text',{frozen:true,width:88,formatter:c=>{const r=c.getRow().getData();return `<a href="/ticker/${r.ticker}"><b>${r.ticker}</b></a>${r.priority?' <span class="star" title="drawdown beyond 40%">★</span>':''}`;}}),
  col('name','Name','text',{width:170}),
@@ -436,18 +535,22 @@ const COLS=[
  col('rsi_m','RSI(m)','num',{formatter:c=>`<span class="${c.getValue()<THRESH?'neg':''}">${fmt.num(c.getValue(),1)}</span>`,tip:'monthly Wilder RSI(14), last completed month'}),
  col('rsi_m_prev','Prev','num',{formatter:c=>`<span class="muted">${fmt.num(c.getValue(),1)}</span>`,tip:'RSI the month before'}),
  col('rsi_partial_month','RSI partial','num',{visible:false,tip:'RSI including the current, incomplete month'}),
- col('episode_start','Oversold since','text',{headerFilterParams:{ops:['≥','≤','contains','='],placeholder:'YYYY-MM'},tip:'first month below the threshold in the current episode'}),
- col('episode_months','Months','num',{d:0,formatter:c=>{const r=c.getRow().getData();return r.episode_months+(r.episode_active?'':` <span class="muted small">exit ${r.episode_exit}</span>`);},tip:'consecutive months below the threshold; "exit" = first month back above it'}),
  col('episode_min_rsi','Min RSI','num',{visible:false}),
  col('episodes_15y','Episodes 15y','num',{d:0,visible:false}),
- col('drawdown_5y','DD 5y','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`,tip:'decline from the trailing 5-year high of daily closes'}),
  col('ret_3m','3m ret','pct',{good:'up',visible:false}),
  col('ret_12m','12m ret','pct',{good:'up'}),
  col('pct_vs_200dma','vs 200d','pct',{good:'up',visible:false}),
- col('survival_gate','Gate','text',{headerFilterParams:{ops:['=','≠','contains']},formatter:c=>`<span class="gate ${c.getValue()}">${c.getValue()||'–'}</span>`,hozAlign:'center'}),
+ col('survival_gate','Gate','text',{headerFilterParams:{ops:['=','≠','contains']},formatter:c=>`<span class="gate ${c.getValue()}">${GATE[c.getValue()]||c.getValue()||'–'}</span>`,hozAlign:'center',
+   headerFilterFunc:(hv,rv,row,p)=>opFilterFunc(hv,GATE[rv]||rv,row,p),tip:'survival gate: GREEN / REVIEW / FAIL'}),
  col('eps_growth_last_q','EPS Last Q YoY','pct',{good:'up',tip:'latest quarter vs same quarter a year ago'}),
  col('eps_growth_yoy','EPS YoY Prev','pct',{good:'up',tip:'last full fiscal year vs the year before (TTM vs prior TTM when 8 quarters are available)'}),
  col('revenue_yoy_last_q','Rev YoY','pct',{good:'up'}),
+ col('pe_forward','P/E fwd','num'),
+ col('drawdown_5y','DD 5y','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`,tip:'decline from the trailing 5-year high of daily closes'}),
+ col(ADDED,'Added','text',{width:120,headerFilterParams:{ops:['≥','≤','=','contains'],placeholder:'YYYY-MM'},tip:'first scan that listed the ticker on this page; NEW = it was not on this page in the previous scan',
+   formatter:c=>{const r=c.getRow().getData();return (r[NEWFLAG]?'<span class="status new">NEW</span> ':'')+`<span class="muted small">${c.getValue()||'–'}</span>`;}}),
+ col('episode_months','Months','num',{d:0,formatter:c=>{const r=c.getRow().getData();return r.episode_months+(r.episode_active?'':` <span class="muted small">exit ${r.episode_exit}</span>`);},tip:'consecutive months below the threshold; "exit" = first month back above it'}),
+ col('episode_start','Oversold since','text',{headerFilterParams:{ops:['≥','≤','contains','='],placeholder:'YYYY-MM'},tip:'first month below the threshold in the current episode'}),
  col('market_cap','Mkt cap','money'),
  col('adv_3m_usd','ADV$ 3m','money',{tip:'average daily dollar volume, 3 months'}),
  col('runway_months','Runway','num',{d:0,tip:'cash ÷ monthly FCF burn, months (∞ when FCF is positive)'}),
@@ -459,7 +562,6 @@ const COLS=[
  col('net_debt_to_ebitda','ND/EBITDA','num'),
  col('interest_coverage','Int cov','num',{visible:false}),
  col('pe_trailing','P/E trail','num'),
- col('pe_forward','P/E fwd','num'),
  col('peg','PEG','num',{d:2}),
  col('p_sales','P/S','num',{d:2}),
  col('ev_to_sales','EV/Sales','num'),
@@ -470,7 +572,7 @@ const COLS=[
  col('dilution_1y','Dilution 1y','pct',{good:'down',tip:'share count change: an increase dilutes you'}),
  col('status','Thesis','text',{headerFilterParams:{ops:['contains','=']},formatter:c=>{const r=c.getRow().getData();return r.has_thesis?`<a href="/ticker/${r.ticker}#thesis"><span class="status">${r.status}</span></a>`:'<span class="muted">—</span>';}}),
 ];
-const table=makeGrid('#grid',COLS,DATA,'watchlist-v2',{initialSort:[{column:'drawdown_5y',dir:'asc'}]});
+const table=makeGrid('#grid',COLS,DATA,'watchlist-v5',{initialSort:[{column:'drawdown_5y',dir:'asc'}]});
 quickFilters(table,r=>{const q=(document.getElementById('q').value||'').toLowerCase();
   if(q&&!((r.ticker||'')+' '+(r.name||'')).toLowerCase().includes(q))return false;
   if(document.getElementById('active').checked&&!r.oversold_now)return false;
@@ -485,6 +587,7 @@ ALL = """{% extends "base" %}{% block body %}
 <label><input type="checkbox" id="prio"> qualified ({{ meta.lookback }}m) only</label>
 <span id="count" class="muted small"></span><span class="sp" style="flex:1"></span>
 <button id="reset-layout" class="sec">Reset layout</button></div>
+<div id="groupbar" class="groupbar"></div>
 <div id="grid"></div>
 <p class="muted small">Same controls as the watchlist: resize, drag, sort, ☰ header menu to hide / move / show columns, operator filters under each header. Layout remembered in this browser.</p>
 <script>
@@ -526,7 +629,7 @@ quickFilters(table,r=>{const q=(document.getElementById('q').value||'').toLowerC
 
 TICKER = """{% extends "base" %}{% block body %}
 <h1>{{ t }} <span class="muted">{{ name }}</span>{% if r.priority %} <span class="star">★</span>{% endif %}
-{% if r.survival_gate %}<span class="gate {{ r.survival_gate }}">{{ r.survival_gate }}</span>{% endif %}</h1>
+{% if r.survival_gate %}<span class="gate {{ r.survival_gate }}">{{ r.survival_gate|gate }}</span>{% endif %}</h1>
 <p class="muted small">{{ r.sector or f.sector_y or '' }} · {{ r.industry or f.industry_y or '' }} · last bar {{ r.last_bar }} · price {{ r.price|num(2) }}</p>
 {{ chart|safe }}
 <div class="grid2">
@@ -608,12 +711,24 @@ app.jinja_loader = DictLoader({"base": BASE, "home": HOME, "all": ALL, "ticker":
 
 
 # ------------------------------------------------------------------ routes
-@app.route("/")
-def home():
-    rows = load_watchlist()
+def _render_watchlist(rows, nav, title, **extra):
     gates = pd.Series([r.get("survival_gate") or "UNKNOWN" for r in rows]).value_counts().to_dict()
     sectors = sorted({r.get("sector") or "" for r in rows} - {""})
-    return render_template_string(HOME, rows=rows, gates=gates, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="home", title="Watchlist")
+    cand = nav == "candidates"
+    return render_template_string(HOME, rows=rows, gates=gates, sectors=sectors, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(),
+                                  nav=nav, title=title, cand_rsi_max=CAND_RSI_MAX, cand_growth_min=CAND_GROWTH_MIN,
+                                  addedfield="cand_added" if cand else "added", newflag="cand_is_new" if cand else "is_new", **extra)
+
+
+@app.route("/")
+def candidates():
+    all_rows = load_watchlist()
+    return _render_watchlist([r for r in all_rows if is_candidate(r)], "candidates", "Candidates", total=len(all_rows))
+
+
+@app.route("/watchlist")
+def home():
+    return _render_watchlist(load_watchlist(), "home", "Watchlist", total=None)
 
 
 @app.route("/all")
@@ -729,6 +844,11 @@ def status():
 @app.route("/api/watchlist")
 def api_watchlist():
     return jsonify(load_watchlist())
+
+
+@app.route("/api/candidates")
+def api_candidates():
+    return jsonify(load_candidates())
 
 
 if __name__ == "__main__":

@@ -41,6 +41,54 @@ OUT = HERE / "output"
 OUT.mkdir(exist_ok=True)
 THESIS = HERE / "thesis"
 THESIS.mkdir(exist_ok=True)
+HISTORY = OUT / "history.json"
+
+# Candidates page rule: survival gate PASS, monthly RSI below CAND_RSI_MAX, and revenue YoY
+# or EPS last-quarter YoY at least CAND_GROWTH_MIN. Shared with app.py.
+CAND_RSI_MAX = 55.0
+CAND_GROWTH_MIN = 0.10
+
+
+def is_candidate(r: dict) -> bool:
+    rsi = r.get("rsi_m")
+    if r.get("survival_gate") != "PASS" or rsi is None or not rsi < CAND_RSI_MAX:
+        return False
+    rev, eps = r.get("revenue_yoy_last_q"), r.get("eps_growth_last_q")
+    return (rev is not None and rev >= CAND_GROWTH_MIN) or (eps is not None and eps >= CAND_GROWTH_MIN)
+
+
+def update_history(recs: list[dict], as_of_label: str) -> None:
+    """Remember which tickers the watchlist and the candidates list held in earlier scans, and
+    stamp each record with the date it first appeared ("added" / "cand_added") and whether it was
+    absent from the previous scan ("is_new" / "cand_is_new"). Rerunning on the same date replaces
+    that day's snapshot rather than pushing the previous scan back, so the flags stay stable."""
+    h = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {}
+    h.setdefault("first_seen", {})
+    h.setdefault("prev", {})
+    h.setdefault("current", {})
+    if h.get("last_scan") != as_of_label:
+        h["prev"] = dict(h["current"])
+        h["last_scan"] = as_of_label
+    lists = {"watchlist": [r["ticker"] for r in recs], "candidates": [r["ticker"] for r in recs if is_candidate(r)]}
+    prev = {}
+    for key, tickers in lists.items():
+        fs = h["first_seen"].setdefault(key, {})
+        for t in tickers:
+            fs.setdefault(t, as_of_label)
+        h["current"][key] = tickers
+        prev[key] = set(h["prev"].get(key, tickers))  # no earlier scan on record: nothing is flagged new
+    for r in recs:
+        t = r["ticker"]
+        r["added"] = h["first_seen"]["watchlist"].get(t)
+        r["is_new"] = t not in prev["watchlist"]
+        cand = is_candidate(r)
+        r["cand_added"] = h["first_seen"]["candidates"].get(t) if cand else None
+        r["cand_is_new"] = bool(cand and t not in prev["candidates"])
+    HISTORY.write_text(json.dumps(h, indent=1), encoding="utf-8")
+    new_wl = [r["ticker"] for r in recs if r["is_new"]]
+    new_c = [r["ticker"] for r in recs if r["cand_is_new"]]
+    print(f"scan: {len(lists['candidates'])} candidates; new on watchlist since the previous scan: "
+          f"{', '.join(new_wl) or 'none'}; new candidates: {', '.join(new_c) or 'none'}", file=sys.stderr)
 
 
 # ------------------------------------------------------------------ price screen
@@ -275,7 +323,7 @@ def main(argv=None):
     ap.add_argument("--universe", default="sp500,sp400", help="comma list of sp500,sp400,sp600")
     ap.add_argument("--tickers", default="", help="scan only these tickers (comma list)")
     ap.add_argument("--extra", default="", help="add these tickers to the index universe")
-    ap.add_argument("--threshold", type=float, default=35.0, help="monthly RSI threshold")
+    ap.add_argument("--threshold", type=float, default=42.0, help="monthly RSI threshold")
     ap.add_argument("--rsi-period", type=int, default=14)
     ap.add_argument("--lookback", type=int, default=6, help="months a past qualification stays valid")
     ap.add_argument("--min-mcap", type=float, default=1e9)
@@ -366,6 +414,7 @@ def main(argv=None):
     wl = wl.sort_values(["priority", "drawdown_5y"], ascending=[False, True]).reset_index(drop=True)
     wl.to_csv(OUT / "watchlist.csv", index=False)
     recs = json.loads(wl.to_json(orient="records"))
+    update_history(recs, as_of_label)
     (OUT / "watchlist.json").write_text(json.dumps(recs, indent=1), encoding="utf-8")
     md = write_markdown(wl, args, as_of_label)
     write_chart_data(list(wl["ticker"]), px)

@@ -1,20 +1,20 @@
 {
  "ticker": "GIS",
- "fetched": "2026-09-14",
- "market_cap": 19675160914.35182,
- "shares_out": 533708396.0,
- "price": 36.8650016784668,
+ "fetched": "2026-09-27",
+ "market_cap": 17986875197.812866,
+ "shares_out": 534687144.0,
+ "price": 33.63999938964844,
  "long_name": "General Mills, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
  "pe_trailing_y": null,
- "pe_forward": 11.487502,
+ "pe_forward": 10.64503,
  "peg": 11.74,
- "p_sales_y": 1.0697174,
- "eps_trailing_y": -0.16,
- "eps_forward": 3.20914,
- "earnings_growth_y": -0.145,
- "earnings_growth_q_y": -0.133,
+ "p_sales_y": 0.983072,
+ "eps_trailing_y": -1.64,
+ "eps_forward": 3.16016,
+ "earnings_growth_y": -0.667,
+ "earnings_growth_q_y": -0.67,
  "bs_date": "2026-05-31",
  "cash": 453800000.0,
  "total_debt": 13940400000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 0.74
+  },
+  {
    "period": "2026-05-31",
    "value": -3.74
   },
@@ -72,17 +76,13 @@
   {
    "period": "2025-08-31",
    "value": 2.22
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.53
   }
  ],
- "eps_ttm": -0.18000000000000016,
+ "eps_ttm": -1.66,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -1.0390243902439025,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -8.056603773584905,
+ "eps_growth_last_q": -0.6666666666666667,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 28.267868371410607,
  "interest_coverage": -0.1362763915547025,
  "cash_to_debt": 0.03255286792344553,
- "ev": 33161760914.35182,
- "ev_to_sales": 1.7998632759653845,
- "ev_to_ebitda": 69.50693966537796,
+ "ev": 31473475197.812866,
+ "ev_to_sales": 1.7082311256587859,
+ "ev_to_ebitda": 65.96829846533822,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 1.0697174,
- "p_fcf": 12.098112841635505,
- "p_book": 2.6702080389707157
+ "p_sales": 0.983072,
+ "p_fcf": 11.059998276955584,
+ "p_book": 2.4410828942257297
 }

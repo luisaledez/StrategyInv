@@ -1,20 +1,20 @@
 {
  "ticker": "KBH",
- "fetched": "2026-09-14",
- "market_cap": 3069471448.1239014,
- "shares_out": 61309728.0,
- "price": 50.064998626708984,
+ "fetched": "2026-09-27",
+ "market_cap": 2919007897.9492188,
+ "shares_out": 60800000.0,
+ "price": 48.0099983215332,
  "long_name": "KB Home",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Residential Construction",
- "pe_trailing_y": 12.181265,
- "pe_forward": 11.488278,
+ "pe_trailing_y": 13.523943,
+ "pe_forward": 12.885892,
  "peg": 5.97,
- "p_sales_y": 0.55764997,
- "eps_trailing_y": 4.11,
- "eps_forward": 4.35792,
- "earnings_growth_y": -0.712,
- "earnings_growth_q_y": -0.746,
+ "p_sales_y": 0.56341445,
+ "eps_trailing_y": 3.55,
+ "eps_forward": 3.72578,
+ "earnings_growth_y": -0.348,
+ "earnings_growth_q_y": -0.406,
  "bs_date": "2026-05-31",
  "cash": 200760000.0,
  "total_debt": 1998658000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 1.05
+  },
+  {
    "period": "2026-05-31",
    "value": 0.43
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-08-31",
    "value": 1.61
-  },
-  {
-   "period": "2025-05-31",
-   "value": 1.5
   }
  ],
- "eps_ttm": 4.11,
+ "eps_ttm": 3.55,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.272189349112426,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.7133333333333334,
- "eps_forward_growth": 0.060321167883211624,
+ "eps_growth_last_q": -0.34782608695652173,
+ "eps_forward_growth": 0.0495154929577466,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 4.8841457285749605,
  "interest_coverage": null,
  "cash_to_debt": 0.10044740020553791,
- "ev": 4867369448.123901,
- "ev_to_sales": 0.8842852345792145,
- "ev_to_ebitda": 13.222630927589115,
- "pe_ttm": 11.279762195353193,
- "pe_trailing": 12.181265,
- "p_sales": 0.55764997,
- "p_fcf": 8.537313226280265,
- "p_book": 0.808434303566389
+ "ev": 4716905897.949219,
+ "ev_to_sales": 0.8569495870225811,
+ "ev_to_ebitda": 12.813883653888437,
+ "pe_ttm": 10.726835382472636,
+ "pe_trailing": 13.523943,
+ "p_sales": 0.56341445,
+ "p_fcf": 8.118819528362163,
+ "p_book": 0.7688053650167427
 }

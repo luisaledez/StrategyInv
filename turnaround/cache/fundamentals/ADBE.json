@@ -1,40 +1,44 @@
 {
  "ticker": "ADBE",
- "fetched": "2026-09-14",
- "market_cap": 103988549880.98145,
+ "fetched": "2026-09-27",
+ "market_cap": 93599325485.22949,
  "shares_out": 397500000.0,
- "price": 261.6064147949219,
+ "price": 235.47000122070312,
  "long_name": "Adobe Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 14.606724,
- "pe_forward": 9.456582,
- "peg": 0.61,
- "p_sales_y": 4.1268573,
- "eps_trailing_y": 17.91,
- "eps_forward": 27.66395,
- "earnings_growth_y": 0.079,
- "earnings_growth_q_y": 0.012,
- "bs_date": "2026-05-31",
- "cash": 5626000000.0,
- "total_debt": 7065000000.0,
- "current_debt": 1934000000.0,
- "lease_obligations": 420000000.0,
- "equity": 11518000000.0,
- "net_debt": 1439000000.0,
- "ocf_ttm": 10481000000.0,
- "capex_ttm": -201000000.0,
- "fcf_ttm": 10280000000.0,
+ "pe_trailing_y": 13.140067,
+ "pe_forward": 8.50893,
+ "peg": 0.57,
+ "p_sales_y": 3.6041327,
+ "eps_trailing_y": 17.92,
+ "eps_forward": 27.67328,
+ "earnings_growth_y": 0.105,
+ "earnings_growth_q_y": 0.031,
+ "bs_date": "2026-08-31",
+ "cash": 5639000000.0,
+ "total_debt": 6762000000.0,
+ "current_debt": 1686000000.0,
+ "lease_obligations": 399000000.0,
+ "equity": 11764000000.0,
+ "net_debt": 1123000000.0,
+ "ocf_ttm": 10806000000.0,
+ "capex_ttm": -214000000.0,
+ "fcf_ttm": 10592000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -9120000000.0,
- "stock_issuance_ttm": -8784000000.0,
- "revenue_ttm": 25198000000.0,
- "net_income_ttm": 7229000000.0,
- "ebitda_ttm": 10131000000.0,
- "ebit_ttm": 9372000000.0,
- "interest_ttm": 261000000.0,
- "revenue_yoy_last_q": 0.12685169419376807,
+ "buybacks_ttm": -9295000000.0,
+ "stock_issuance_ttm": -9033000000.0,
+ "revenue_ttm": 25970000000.0,
+ "net_income_ttm": 7284000000.0,
+ "ebitda_ttm": 10307000000.0,
+ "ebit_ttm": 9541000000.0,
+ "interest_ttm": 260000000.0,
+ "revenue_yoy_last_q": 0.12892451569806274,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 6760000000.0
+  },
   {
    "period": "2026-05-31",
    "value": 6618000000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-08-31",
    "value": 5988000000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 5873000000.0
   }
  ],
  "eps_quarters": [
@@ -83,8 +83,12 @@
  "eps_growth_yoy": 0.3511326860841424,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": 0.10526315789473695,
- "eps_forward_growth": 0.5437472098214284,
+ "eps_forward_growth": 0.544267857142857,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.887130177514793
+  },
   {
    "period": "2026-05-31",
    "value": 0.8919613176186159
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.8927855711422845
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.8913672739656053
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.06557377049180324,
+ "dilution_1y": -0.050000000000000044,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1934000000.0,
- "gap_24m": -3692000000.0,
+ "need_24m": 1686000000.0,
+ "gap_24m": -3953000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.14203928536176094,
- "interest_coverage": 35.9080459770115,
- "cash_to_debt": 0.7963198867657466,
- "ev": 105427549880.98145,
- "ev_to_sales": 4.183964992498669,
- "ev_to_ebitda": 10.406430745334266,
- "pe_ttm": 14.384914909528488,
- "pe_trailing": 14.606724,
- "p_sales": 4.1268573,
- "p_fcf": 10.115617692702475,
- "p_book": 9.028351265929974
+ "net_debt_to_ebitda": 0.10895507907247502,
+ "interest_coverage": 36.69615384615385,
+ "cash_to_debt": 0.8339248742975451,
+ "ev": 94722325485.22949,
+ "ev_to_sales": 3.6473748742868497,
+ "ev_to_ebitda": 9.190096583412195,
+ "pe_ttm": 12.849989770075439,
+ "pe_trailing": 13.140067,
+ "p_sales": 3.6041327,
+ "p_fcf": 8.836794324511848,
+ "p_book": 7.956420051447593
 }
