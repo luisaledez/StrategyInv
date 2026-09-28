@@ -1,0 +1,154 @@
+{
+ "ticker": "ORCL",
+ "fetched": "2026-09-28",
+ "market_cap": 402746538666.5039,
+ "shares_out": 3023736000.0,
+ "price": 133.19500732421875,
+ "long_name": "Oracle Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 20.87696,
+ "pe_forward": 12.111731,
+ "peg": 0.77,
+ "p_sales_y": 5.611159,
+ "eps_trailing_y": 6.38,
+ "eps_forward": 10.99719,
+ "earnings_growth_y": 0.545,
+ "earnings_growth_q_y": 0.626,
+ "bs_date": "2026-08-31",
+ "cash": 37077000000.0,
+ "total_debt": 155931000000.0,
+ "current_debt": 7625000000.0,
+ "lease_obligations": 30594000000.0,
+ "equity": 66772000000.0,
+ "net_debt": 118854000000.0,
+ "ocf_ttm": 46940000000.0,
+ "capex_ttm": -75660000000.0,
+ "fcf_ttm": -28720000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -206000000.0,
+ "stock_issuance_ttm": 21152000000.0,
+ "revenue_ttm": 71777000000.0,
+ "net_income_ttm": 18920000000.0,
+ "ebitda_ttm": 37719000000.0,
+ "ebit_ttm": 26838000000.0,
+ "interest_ttm": 5104000000.0,
+ "revenue_yoy_last_q": 0.2960605654562509,
+ "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 19345000000.0
+  },
+  {
+   "period": "2026-05-31",
+   "value": 19184000000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 17190000000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 16058000000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 14926000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 1.56
+  },
+  {
+   "period": "2026-05-31",
+   "value": 1.45
+  },
+  {
+   "period": "2026-02-28",
+   "value": 1.27
+  },
+  {
+   "period": "2025-11-30",
+   "value": 2.1
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1.01
+  }
+ ],
+ "eps_ttm": 6.379999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3433179723502304,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5445544554455446,
+ "eps_forward_growth": 0.7236974921630097,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.6002584647195658
+  },
+  {
+   "period": "2026-05-31",
+   "value": 0.6522623019182652
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.645607911576498
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.6653381492091169
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.672785742998794
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 67357000000.0,
+   "eps": 5.83,
+   "net_income": 17087000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 57399000000.0,
+   "eps": 4.34,
+   "net_income": 12443000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 52961000000.0,
+   "eps": 3.71,
+   "net_income": 10467000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 49954000000.0,
+   "eps": 3.07,
+   "net_income": 8503000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.06441393875395995,
+ "fcf_burn_annual": 28720000000.0,
+ "runway_months": 15.491782729805013,
+ "need_24m": 65065000000.0,
+ "gap_24m": 27988000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 3.1510379384395133,
+ "interest_coverage": 5.258228840125392,
+ "cash_to_debt": 0.2377782480712623,
+ "ev": 521600538666.5039,
+ "ev_to_sales": 7.266959313798346,
+ "ev_to_ebitda": 13.828588739534556,
+ "pe_ttm": 21.286814940090057,
+ "pe_trailing": 20.87696,
+ "p_sales": 5.611159,
+ "p_fcf": null,
+ "p_book": 6.031668044487269
+}

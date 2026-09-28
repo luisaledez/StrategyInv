@@ -1,0 +1,154 @@
+{
+ "ticker": "SRE",
+ "fetched": "2026-09-28",
+ "market_cap": 50206467921.2218,
+ "shares_out": 653900348.0,
+ "price": 76.77999877929688,
+ "long_name": "Sempra",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Diversified",
+ "pe_trailing_y": 22.255072,
+ "pe_forward": 13.868693,
+ "peg": 0.64,
+ "p_sales_y": 3.7047276,
+ "eps_trailing_y": 3.45,
+ "eps_forward": 5.53621,
+ "earnings_growth_y": 0.713,
+ "earnings_growth_q_y": 0.686,
+ "bs_date": "2026-06-30",
+ "cash": 48000000.0,
+ "total_debt": 36664000000.0,
+ "current_debt": 5641000000.0,
+ "lease_obligations": null,
+ "equity": 32705000000.0,
+ "net_debt": 36616000000.0,
+ "ocf_ttm": 5416000000.0,
+ "capex_ttm": -10659000000.0,
+ "fcf_ttm": -5243000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -921000000.0,
+ "stock_issuance_ttm": 22000000.0,
+ "revenue_ttm": 13552000000.0,
+ "net_income_ttm": 2281000000.0,
+ "ebitda_ttm": 5630000000.0,
+ "ebit_ttm": 3127000000.0,
+ "interest_ttm": 1552000000.0,
+ "revenue_yoy_last_q": -0.0010000000000000009,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2997000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3655000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3749000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3151000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3000000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.58
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.54
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.71
+  }
+ ],
+ "eps_ttm": 3.45,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3778280542986425,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.704225352112676,
+ "eps_forward_growth": 0.6046985507246374,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5465465465465466
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5255813953488372
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.48999733262203254
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4293874960330054
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4673333333333333
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 13702000000.0,
+   "eps": 2.75,
+   "net_income": 1837000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13185000000.0,
+   "eps": 4.42,
+   "net_income": 2862000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 16720000000.0,
+   "eps": 4.79,
+   "net_income": 3075000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 14439000000.0,
+   "eps": 3.31,
+   "net_income": 2139000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0023083186567245395,
+ "fcf_burn_annual": 5243000000.0,
+ "runway_months": 0.10986076673660118,
+ "need_24m": 16127000000.0,
+ "gap_24m": 16079000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 6.503730017761989,
+ "interest_coverage": 2.014819587628866,
+ "cash_to_debt": 0.0013091861226271003,
+ "ev": 86822467921.2218,
+ "ev_to_sales": 6.406616582144466,
+ "ev_to_ebitda": 15.421397499328917,
+ "pe_ttm": 22.010726839641297,
+ "pe_trailing": 22.255072,
+ "p_sales": 3.7047276,
+ "p_fcf": null,
+ "p_book": 1.53513126192392
+}

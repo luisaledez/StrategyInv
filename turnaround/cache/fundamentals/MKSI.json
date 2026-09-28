@@ -1,0 +1,154 @@
+{
+ "ticker": "MKSI",
+ "fetched": "2026-09-28",
+ "market_cap": 17472376574.49518,
+ "shares_out": 67617558.0,
+ "price": 258.3999938964844,
+ "long_name": "MKS Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Scientific & Technical Instruments",
+ "pe_trailing_y": 41.08108,
+ "pe_forward": 14.640442,
+ "peg": 1.32,
+ "p_sales_y": 4.0194106,
+ "eps_trailing_y": 6.29,
+ "eps_forward": 17.64974,
+ "earnings_growth_y": 1.62,
+ "earnings_growth_q_y": 1.823,
+ "bs_date": "2026-06-30",
+ "cash": 611000000.0,
+ "total_debt": 4186000000.0,
+ "current_debt": 1399000000.0,
+ "lease_obligations": 243000000.0,
+ "equity": 2988000000.0,
+ "net_debt": 3575000000.0,
+ "ocf_ttm": 635000000.0,
+ "capex_ttm": -180000000.0,
+ "fcf_ttm": 455000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 4347000000.0,
+ "net_income_ttm": 440000000.0,
+ "ebitda_ttm": 1024000000.0,
+ "ebit_ttm": 681000000.0,
+ "interest_ttm": 193000000.0,
+ "revenue_yoy_last_q": 0.2826310380267214,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1248000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1078000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1033000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 988000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 973000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.58
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.1
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.92
+  }
+ ],
+ "eps_ttm": 6.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5551601423487544,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.6195652173913042,
+ "eps_forward_growth": 1.8149505582137166,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.47676282051282054
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.47031539888682744
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.46369796708615685
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4665991902834008
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.46557040082219936
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3931000000.0,
+   "eps": 4.37,
+   "net_income": 295000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3586000000.0,
+   "eps": 2.81,
+   "net_income": 190000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3622000000.0,
+   "eps": -27.54,
+   "net_income": -1841000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3547000000.0,
+   "eps": 5.56,
+   "net_income": 333000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.010463378176382765,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1399000000.0,
+ "gap_24m": 788000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.4912109375,
+ "interest_coverage": 3.528497409326425,
+ "cash_to_debt": 0.14596273291925466,
+ "ev": 21047376574.49518,
+ "ev_to_sales": 4.841816557279774,
+ "ev_to_ebitda": 20.554078686030447,
+ "pe_ttm": 39.70994676021631,
+ "pe_trailing": 41.08108,
+ "p_sales": 4.0194106,
+ "p_fcf": 38.40082763625314,
+ "p_book": 5.847515587180448
+}

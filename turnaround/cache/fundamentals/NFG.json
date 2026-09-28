@@ -1,0 +1,154 @@
+{
+ "ticker": "NFG",
+ "fetched": "2026-09-28",
+ "market_cap": 7431100833.271301,
+ "shares_out": 95045099.0,
+ "price": 78.18499755859375,
+ "long_name": "National Fuel Gas Company",
+ "sector_y": "Energy",
+ "industry_y": "Oil & Gas Integrated",
+ "pe_trailing_y": 10.889276,
+ "pe_forward": 10.398601,
+ "peg": 1.55,
+ "p_sales_y": 2.9562917,
+ "eps_trailing_y": 7.18,
+ "eps_forward": 7.5188,
+ "earnings_growth_y": -0.116,
+ "earnings_growth_q_y": -0.075,
+ "bs_date": "2026-06-30",
+ "cash": 1235178000.0,
+ "total_debt": 3567401000.0,
+ "current_debt": 341300000.0,
+ "lease_obligations": null,
+ "equity": 3923679000.0,
+ "net_debt": 2332223000.0,
+ "ocf_ttm": 1272286000.0,
+ "capex_ttm": -1050020000.0,
+ "fcf_ttm": 222266000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -6959000.0,
+ "stock_issuance_ttm": 331437000.0,
+ "revenue_ttm": 2513656000.0,
+ "net_income_ttm": 675276000.0,
+ "ebitda_ttm": 1535957000.0,
+ "ebit_ttm": 1054006000.0,
+ "interest_ttm": 148565000.0,
+ "revenue_yoy_last_q": 0.010655660643438702,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 537497000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 858373000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 651507000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 466279000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 531830000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.45
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.59
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.98
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.64
+  }
+ ],
+ "eps_ttm": 7.199999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 5.761904761904762,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.11585365853658536,
+ "eps_forward_growth": 0.04427777777777786,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.43055496123699294
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4338545131312378
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4618323364138835
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43470754634028125
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4784085139988342
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2277541000.0,
+   "eps": 5.68,
+   "net_income": 518504000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1944810000.0,
+   "eps": 0.84,
+   "net_income": 77513000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2173771000.0,
+   "eps": 5.17,
+   "net_income": 476866000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2186046000.0,
+   "eps": 6.15,
+   "net_income": 566021000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.051792036819354736,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 341300000.0,
+ "gap_24m": -893878000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.5184168567219005,
+ "interest_coverage": 7.094578130784505,
+ "cash_to_debt": 0.34624030211349943,
+ "ev": 9763323833.271301,
+ "ev_to_sales": 3.8841129547047415,
+ "ev_to_ebitda": 6.356508569752474,
+ "pe_ttm": 11.004538637936639,
+ "pe_trailing": 10.889276,
+ "p_sales": 2.9562917,
+ "p_fcf": 33.43336737634772,
+ "p_book": 1.893911513472764
+}

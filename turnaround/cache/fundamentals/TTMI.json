@@ -1,0 +1,154 @@
+{
+ "ticker": "TTMI",
+ "fetched": "2026-09-28",
+ "market_cap": 13086436014.679688,
+ "shares_out": 105348864.0,
+ "price": 124.22000122070312,
+ "long_name": "TTM Technologies, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 55.954956,
+ "pe_forward": 18.022488,
+ "peg": 0.36,
+ "p_sales_y": 3.8750677,
+ "eps_trailing_y": 2.22,
+ "eps_forward": 6.8925,
+ "earnings_growth_y": 0.925,
+ "earnings_growth_q_y": 1.0,
+ "bs_date": "2026-06-30",
+ "cash": 507905000.0,
+ "total_debt": 1103197000.0,
+ "current_debt": 13985000.0,
+ "lease_obligations": 129741000.0,
+ "equity": 1934428000.0,
+ "net_debt": 595292000.0,
+ "ocf_ttm": 322905000.0,
+ "capex_ttm": -338044000.0,
+ "fcf_ttm": -15139000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 3377086000.0,
+ "net_income_ttm": 236775000.0,
+ "ebitda_ttm": 460494000.0,
+ "ebit_ttm": 307464000.0,
+ "interest_ttm": 43871000.0,
+ "revenue_yoy_last_q": 0.3742473868120406,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1004054000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 845976000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 774320000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 752736000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 730621000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.77
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4
+  }
+ ],
+ "eps_ttm": 2.2199999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.1111111111111107,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.925,
+ "eps_forward_growth": 2.1047297297297303,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.21100259547793246
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2141680142226257
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.21421247029651824
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2082217404242656
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.20271659314473578
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2906345000.0,
+   "eps": 1.68,
+   "net_income": 177448000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2442753000.0,
+   "eps": 0.54,
+   "net_income": 56299000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2232567000.0,
+   "eps": -0.18,
+   "net_income": -18718000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2495046000.0,
+   "eps": 0.91,
+   "net_income": 94583000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.019688507293653013,
+ "fcf_burn_annual": 15139000.0,
+ "runway_months": 402.5933020675078,
+ "need_24m": 44263000.0,
+ "gap_24m": -463642000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2927247694866817,
+ "interest_coverage": 7.008365435025415,
+ "cash_to_debt": 0.46039374653846954,
+ "ev": 13681728014.679688,
+ "ev_to_sales": 4.051341308654766,
+ "ev_to_ebitda": 29.710979979499598,
+ "pe_ttm": 55.26950064271856,
+ "pe_trailing": 55.954956,
+ "p_sales": 3.8750677,
+ "p_fcf": null,
+ "p_book": 6.765015815879261
+}

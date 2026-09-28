@@ -1,0 +1,154 @@
+{
+ "ticker": "COST",
+ "fetched": "2026-09-28",
+ "market_cap": 408004195110.9619,
+ "shares_out": 443266000.0,
+ "price": 920.4500122070312,
+ "long_name": "Costco Wholesale Corporation",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Discount Stores",
+ "pe_trailing_y": 44.33767,
+ "pe_forward": 36.820225,
+ "peg": 4.52,
+ "p_sales_y": 1.3458643,
+ "eps_trailing_y": 20.76,
+ "eps_forward": 24.99849,
+ "earnings_growth_y": 0.15,
+ "earnings_growth_q_y": 0.149,
+ "bs_date": "2026-05-31",
+ "cash": 19996000000.0,
+ "total_debt": 8136000000.0,
+ "current_debt": null,
+ "lease_obligations": 2466000000.0,
+ "equity": 33509000000.0,
+ "net_debt": -11860000000.0,
+ "ocf_ttm": 15000000000.0,
+ "capex_ttm": -6194000000.0,
+ "fcf_ttm": 8806000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -883000000.0,
+ "stock_issuance_ttm": -883000000.0,
+ "revenue_ttm": 293587000000.0,
+ "net_income_ttm": 8838000000.0,
+ "ebitda_ttm": 14463000000.0,
+ "ebit_ttm": 11898000000.0,
+ "interest_ttm": 146000000.0,
+ "revenue_yoy_last_q": 0.11584526540621787,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 70527000000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 69597000000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 67307000000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 86156000000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 63205000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 4.93
+  },
+  {
+   "period": "2026-02-28",
+   "value": 4.58
+  },
+  {
+   "period": "2025-11-30",
+   "value": 4.5
+  },
+  {
+   "period": "2025-08-31",
+   "value": 5.87
+  },
+  {
+   "period": "2025-05-31",
+   "value": 4.28
+  }
+ ],
+ "eps_ttm": 19.88,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0996376811594204,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1518691588785046,
+ "eps_forward_growth": 0.25746931589537225,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.12772413401959534
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.12756296966823283
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.13069963005333768
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.1290565950136961
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.12987896527173484
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 275235000000.0,
+   "eps": 18.21,
+   "net_income": 8099000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 254453000000.0,
+   "eps": 16.56,
+   "net_income": 7367000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 242290000000.0,
+   "eps": 14.16,
+   "net_income": 6292000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 226954000000.0,
+   "eps": 13.14,
+   "net_income": 5844000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 3.873931831543942e-06,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -19996000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.8200235082624628,
+ "interest_coverage": 81.4931506849315,
+ "cash_to_debt": 2.4577187807276304,
+ "ev": 396144195110.9619,
+ "ev_to_sales": 1.3493247150281242,
+ "ev_to_ebitda": 27.390181505286726,
+ "pe_ttm": 46.16476523093029,
+ "pe_trailing": 44.33767,
+ "p_sales": 1.3458643,
+ "p_fcf": 46.332522724388134,
+ "p_book": 12.175958551761077
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "DY",
+ "fetched": "2026-09-28",
+ "market_cap": 8055087006.895447,
+ "shares_out": 30160957.0,
+ "price": 267.07000732421875,
+ "long_name": "Dycom Industries, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 24.41225,
+ "pe_forward": 12.850877,
+ "peg": 3.5,
+ "p_sales_y": 1.1707889,
+ "eps_trailing_y": 10.94,
+ "eps_forward": 20.78224,
+ "earnings_growth_y": 0.144,
+ "earnings_growth_q_y": 0.186,
+ "bs_date": "2026-07-31",
+ "cash": 340080000.0,
+ "total_debt": 3048458000.0,
+ "current_debt": 72035000.0,
+ "lease_obligations": 228725000.0,
+ "equity": 2063906000.0,
+ "net_debt": 2708378000.0,
+ "ocf_ttm": 718107000.0,
+ "capex_ttm": -249436000.0,
+ "fcf_ttm": 468671000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -35963000.0,
+ "stock_issuance_ttm": -35963000.0,
+ "revenue_ttm": 6880050000.0,
+ "net_income_ttm": 329584000.0,
+ "ebitda_ttm": 906846000.0,
+ "ebit_ttm": 529252000.0,
+ "interest_ttm": 110409000.0,
+ "revenue_yoy_last_q": 0.4557246158044159,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2005907000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1964782000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1457563000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1451798000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1377944000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 3.81
+  },
+  {
+   "period": "2026-04-30",
+   "value": 3.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-10-31",
+   "value": 3.63
+  },
+  {
+   "period": "2025-07-31",
+   "value": 3.33
+  }
+ ],
+ "eps_ttm": 10.99,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20707070707070718,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14414414414414423,
+ "eps_forward_growth": 0.8910136487716107,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.21962733067884005
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.1968294701396898
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.18175955344640335
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.220555476726101
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.22315420655701537
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 5545912000.0,
+   "eps": 9.56,
+   "net_income": 281189000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 4702014000.0,
+   "eps": 7.92,
+   "net_income": 233413000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4175574000.0,
+   "eps": 7.37,
+   "net_income": 218923000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3808462000.0,
+   "eps": 4.74,
+   "net_income": 142213000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.04168577396340001,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 72035000.0,
+ "gap_24m": -268045000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.9865908875376856,
+ "interest_coverage": 4.7935584961370905,
+ "cash_to_debt": 0.11155804016325631,
+ "ev": 10763465006.895447,
+ "ev_to_sales": 1.5644457535767105,
+ "ev_to_ebitda": 11.869121115267031,
+ "pe_ttm": 24.440163985191777,
+ "pe_trailing": 24.41225,
+ "p_sales": 1.1707889,
+ "p_fcf": 17.187082210965574,
+ "p_book": 3.9028361790195127
+}

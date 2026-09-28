@@ -1,0 +1,154 @@
+{
+ "ticker": "CRUS",
+ "fetched": "2026-09-28",
+ "market_cap": 5990050722.478676,
+ "shares_out": 50117561.0,
+ "price": 119.5199966430664,
+ "long_name": "Cirrus Logic, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 14.611246,
+ "pe_forward": 13.428911,
+ "peg": 9.35,
+ "p_sales_y": 2.9222183,
+ "eps_trailing_y": 8.18,
+ "eps_forward": 8.9002,
+ "earnings_growth_y": 0.289,
+ "earnings_growth_q_y": 0.266,
+ "bs_date": "2026-06-30",
+ "cash": 891262000.0,
+ "total_debt": 130464000.0,
+ "current_debt": 20761000.0,
+ "lease_obligations": 130464000.0,
+ "equity": 2189131000.0,
+ "net_debt": -760798000.0,
+ "ocf_ttm": 598595000.0,
+ "capex_ttm": -27570000.0,
+ "fcf_ttm": 571025000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -251260000.0,
+ "stock_issuance_ttm": -246446000.0,
+ "revenue_ttm": 2049830000.0,
+ "net_income_ttm": 430562000.0,
+ "ebitda_ttm": 563547000.0,
+ "ebit_ttm": 511264000.0,
+ "interest_ttm": 1003000.0,
+ "revenue_yoy_last_q": 0.12878616747529903,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 459723000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 448523000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 580624000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 560960000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 407272000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.47
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.56
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.66
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.48
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.14
+  }
+ ],
+ "eps_ttm": 8.17,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.30833333333333335,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2894736842105263,
+ "eps_forward_growth": 0.08937576499388,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5260885359227186
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5298323608822736
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5306807848108243
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5247682544209926
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.525521027716121
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1997379000.0,
+   "eps": 7.85,
+   "net_income": 414408000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1896077000.0,
+   "eps": 6.0,
+   "net_income": 331507000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1788890000.0,
+   "eps": 4.9,
+   "net_income": 274572000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1897617000.0,
+   "eps": 3.09,
+   "net_income": 176703000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01693494952644503,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 20761000.0,
+ "gap_24m": -870501000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.3500169462351854,
+ "interest_coverage": 509.73479561316054,
+ "cash_to_debt": 6.831478415501595,
+ "ev": 5229252722.478676,
+ "ev_to_sales": 2.551066538434249,
+ "ev_to_ebitda": 9.279177641756013,
+ "pe_ttm": 13.91216763782841,
+ "pe_trailing": 14.611246,
+ "p_sales": 2.9222183,
+ "p_fcf": 10.489997324948428,
+ "p_book": 2.736268739732193
+}

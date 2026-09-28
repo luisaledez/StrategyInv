@@ -1,0 +1,154 @@
+{
+ "ticker": "LOPE",
+ "fetched": "2026-09-28",
+ "market_cap": 3804322523.061508,
+ "shares_out": 26065037.0,
+ "price": 145.9550018310547,
+ "long_name": "Grand Canyon Education, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Education & Training Services",
+ "pe_trailing_y": 17.627417,
+ "pe_forward": 12.904951,
+ "peg": 0.87,
+ "p_sales_y": 3.3310878,
+ "eps_trailing_y": 8.28,
+ "eps_forward": 11.31,
+ "earnings_growth_y": 0.182,
+ "earnings_growth_q_y": 0.104,
+ "bs_date": "2026-06-30",
+ "cash": 274526000.0,
+ "total_debt": 104212000.0,
+ "current_debt": 15346000.0,
+ "lease_obligations": 104212000.0,
+ "equity": 669509000.0,
+ "net_debt": -170314000.0,
+ "ocf_ttm": 278707000.0,
+ "capex_ttm": -36221000.0,
+ "fcf_ttm": 242486000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -342708000.0,
+ "stock_issuance_ttm": -342708000.0,
+ "revenue_ttm": 1142066000.0,
+ "net_income_ttm": 224206000.0,
+ "ebitda_ttm": 358792000.0,
+ "ebit_ttm": 317122000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.06685279536482969,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 264045000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 308760000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 308119000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 261142000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 247499000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.75
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.8
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.58
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.48
+  }
+ ],
+ "eps_ttm": 8.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.002587322121604174,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.18243243243243246,
+ "eps_forward_growth": 0.36759371221281745,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.49358253328031204
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5566556548775748
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5659014861141313
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5048173024637936
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4902726879704564
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1106070000.0,
+   "eps": 7.71,
+   "net_income": 216170000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1033002000.0,
+   "eps": 7.73,
+   "net_income": 226234000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 960899000.0,
+   "eps": 6.8,
+   "net_income": 204985000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 911306000.0,
+   "eps": 5.73,
+   "net_income": 184675000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0708365800099171,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 15346000.0,
+ "gap_24m": -259180000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.47468728399741356,
+ "interest_coverage": null,
+ "cash_to_debt": 2.634303151268568,
+ "ev": 3634008523.061508,
+ "ev_to_sales": 3.1819601696062296,
+ "ev_to_ebitda": 10.12845471209366,
+ "pe_ttm": 16.9679782122758,
+ "pe_trailing": 17.627417,
+ "p_sales": 3.3310878,
+ "p_fcf": 15.688833677249441,
+ "p_book": 5.68225747982702
+}

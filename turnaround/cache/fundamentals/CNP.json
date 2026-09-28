@@ -1,0 +1,154 @@
+{
+ "ticker": "CNP",
+ "fetched": "2026-09-28",
+ "market_cap": 24198090181.730957,
+ "shares_out": 658720288.0,
+ "price": 36.73500061035156,
+ "long_name": "CenterPoint Energy, Inc.",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Electric",
+ "pe_trailing_y": 21.866072,
+ "pe_forward": 17.598448,
+ "peg": 1.87,
+ "p_sales_y": 2.515394,
+ "eps_trailing_y": 1.68,
+ "eps_forward": 2.0874,
+ "earnings_growth_y": 0.233,
+ "earnings_growth_q_y": 0.232,
+ "bs_date": "2026-06-30",
+ "cash": 453000000.0,
+ "total_debt": 24642000000.0,
+ "current_debt": 1736000000.0,
+ "lease_obligations": null,
+ "equity": 11720000000.0,
+ "net_debt": 24189000000.0,
+ "ocf_ttm": 2576000000.0,
+ "capex_ttm": -5271000000.0,
+ "fcf_ttm": -2695000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 9620000000.0,
+ "net_income_ttm": 1117000000.0,
+ "ebitda_ttm": 3997000000.0,
+ "ebit_ttm": 2332000000.0,
+ "interest_ttm": 1010000000.0,
+ "revenue_yoy_last_q": 0.10699588477366251,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2152000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2975000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2505000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1988000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1944000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.45
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.45
+  }
+ ],
+ "eps_ttm": 1.6,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.012658227848101333,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.1777777777777778,
+ "eps_forward_growth": 0.3046249999999999,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5246282527881041
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4161344537815126
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4375249500998004
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5165995975855131
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.47685185185185186
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9357000000.0,
+   "eps": 1.6,
+   "net_income": 1052000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8643000000.0,
+   "eps": 1.58,
+   "net_income": 1019000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8696000000.0,
+   "eps": 1.37,
+   "net_income": 917000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9321000000.0,
+   "eps": 1.59,
+   "net_income": 1057000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.009017318189111778,
+ "fcf_burn_annual": 2695000000.0,
+ "runway_months": 2.017068645640074,
+ "need_24m": 7126000000.0,
+ "gap_24m": 6673000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 6.0517888416312235,
+ "interest_coverage": 2.3089108910891087,
+ "cash_to_debt": 0.018383248112977844,
+ "ev": 48387090181.73096,
+ "ev_to_sales": 5.029843054233988,
+ "ev_to_ebitda": 12.105851934383526,
+ "pe_ttm": 21.66346480011724,
+ "pe_trailing": 21.866072,
+ "p_sales": 2.515394,
+ "p_fcf": null,
+ "p_book": 2.0646834626050303
+}

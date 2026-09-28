@@ -1,0 +1,154 @@
+{
+ "ticker": "TDG",
+ "fetched": "2026-09-28",
+ "market_cap": 61036889511.01074,
+ "shares_out": 55276525.0,
+ "price": 1104.2099609375,
+ "long_name": "TransDigm Group Incorporated",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 33.532036,
+ "pe_forward": 22.833868,
+ "peg": 3.05,
+ "p_sales_y": 6.100029,
+ "eps_trailing_y": 32.93,
+ "eps_forward": 48.35843,
+ "earnings_growth_y": 0.109,
+ "earnings_growth_q_y": 0.096,
+ "bs_date": "2026-06-30",
+ "cash": 2773000000.0,
+ "total_debt": 33485000000.0,
+ "current_debt": 864000000.0,
+ "lease_obligations": 15000000.0,
+ "equity": -9809000000.0,
+ "net_debt": 30712000000.0,
+ "ocf_ttm": 2198000000.0,
+ "capex_ttm": -271000000.0,
+ "fcf_ttm": 1927000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1807000000.0,
+ "stock_issuance_ttm": -1807000000.0,
+ "revenue_ttm": 10007000000.0,
+ "net_income_ttm": 2129000000.0,
+ "ebitda_ttm": 5051000000.0,
+ "ebit_ttm": 4631000000.0,
+ "interest_ttm": 1893000000.0,
+ "revenue_yoy_last_q": 0.2253017434063478,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2741000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2544000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2285000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2437000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2237000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9.39
+  },
+  {
+   "period": "2026-03-31",
+   "value": 9.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7.75
+  },
+  {
+   "period": "2025-06-30",
+   "value": 8.47
+  }
+ ],
+ "eps_ttm": 32.96,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2521467603434815,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.10861865407319948,
+ "eps_forward_growth": 0.46718537621359224,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5939438161255016
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5939465408805031
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5916849015317287
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6032006565449323
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5954403218596335
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8831000000.0,
+   "eps": 32.08,
+   "net_income": 2074000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7940000000.0,
+   "eps": 25.62,
+   "net_income": 1714000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6585000000.0,
+   "eps": 22.03,
+   "net_income": 1298000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5429000000.0,
+   "eps": 13.4,
+   "net_income": 866000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0186641441256018,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 864000000.0,
+ "gap_24m": -1909000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 6.080380122747971,
+ "interest_coverage": 2.4463814051769677,
+ "cash_to_debt": 0.08281319994027177,
+ "ev": 91748889511.01074,
+ "ev_to_sales": 9.168471021386104,
+ "ev_to_ebitda": 18.164500002179913,
+ "pe_ttm": 28.669276426026652,
+ "pe_trailing": 33.532036,
+ "p_sales": 6.100029,
+ "p_fcf": 31.67456643020796,
+ "p_book": null
+}

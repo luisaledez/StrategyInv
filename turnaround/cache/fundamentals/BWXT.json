@@ -1,0 +1,154 @@
+{
+ "ticker": "BWXT",
+ "fetched": "2026-09-28",
+ "market_cap": 12340564709.886475,
+ "shares_out": 91621980.0,
+ "price": 134.69000244140625,
+ "long_name": "BWX Technologies, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 34.893784,
+ "pe_forward": 25.640589,
+ "peg": 1.67,
+ "p_sales_y": 3.5118585,
+ "eps_trailing_y": 3.86,
+ "eps_forward": 5.253,
+ "earnings_growth_y": 0.141,
+ "earnings_growth_q_y": 0.136,
+ "bs_date": "2026-06-30",
+ "cash": 608203000.0,
+ "total_debt": 2019897000.0,
+ "current_debt": 12500000.0,
+ "lease_obligations": null,
+ "equity": 1334450000.0,
+ "net_debt": 1411694000.0,
+ "ocf_ttm": 519158000.0,
+ "capex_ttm": -202396000.0,
+ "fcf_ttm": 316762000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 3513970000.0,
+ "net_income_ttm": 355177000.0,
+ "ebitda_ttm": 582332000.0,
+ "ebit_ttm": 463942000.0,
+ "interest_ttm": 34488000.0,
+ "revenue_yoy_last_q": 0.18007719501229658,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 901625000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 860217000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 885842000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 866286000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 764039000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.97
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.99
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.89
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.85
+  }
+ ],
+ "eps_ttm": 3.86,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.16612377850162874,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14117647058823524,
+ "eps_forward_growth": 0.3608808290155441,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2243782060169139
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.22943978089249573
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.21140903231050232
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.21816582514319752
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2505068458547273
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3198425000.0,
+   "eps": 3.58,
+   "net_income": 328945000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2703654000.0,
+   "eps": 3.07,
+   "net_income": 281941000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2496309000.0,
+   "eps": 2.68,
+   "net_income": 245849000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2232834000.0,
+   "eps": 2.6,
+   "net_income": 238191000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0024381299177442806,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 12500000.0,
+ "gap_24m": -595703000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.424208183647816,
+ "interest_coverage": 13.452273254465322,
+ "cash_to_debt": 0.3011059474814805,
+ "ev": 13752258709.886475,
+ "ev_to_sales": 3.913595935618823,
+ "ev_to_ebitda": 23.615838919871265,
+ "pe_ttm": 34.74483063342073,
+ "pe_trailing": 34.893784,
+ "p_sales": 3.5118585,
+ "p_fcf": 38.95847579534942,
+ "p_book": 9.247678601586028
+}

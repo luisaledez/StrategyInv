@@ -1,0 +1,154 @@
+{
+ "ticker": "SMCI",
+ "fetched": "2026-09-28",
+ "market_cap": 27688004393.21515,
+ "shares_out": 656965384.0,
+ "price": 42.145301818847656,
+ "long_name": "Super Micro Computer, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Computer Hardware",
+ "pe_trailing_y": 12.929448,
+ "pe_forward": 7.914126,
+ "peg": 0.91,
+ "p_sales_y": 0.7088025,
+ "eps_trailing_y": 3.26,
+ "eps_forward": 5.32592,
+ "earnings_growth_y": 4.347,
+ "earnings_growth_q_y": 5.037,
+ "bs_date": "2026-06-30",
+ "cash": 7521474000.0,
+ "total_debt": 8760913000.0,
+ "current_debt": 2080400000.0,
+ "lease_obligations": 40626000.0,
+ "equity": 14479452000.0,
+ "net_debt": 1239439000.0,
+ "ocf_ttm": -6809886000.0,
+ "capex_ttm": -161999000.0,
+ "fcf_ttm": -6971885000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 39063072000.0,
+ "net_income_ttm": 2230453000.0,
+ "ebitda_ttm": 3074105000.0,
+ "ebit_ttm": 2983838000.0,
+ "interest_ttm": 194574000.0,
+ "revenue_yoy_last_q": 0.931552702482286,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 11119777000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 10243014000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 12682491000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5017790000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5756911000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.62
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.26
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.17
+  }
+ ],
+ "eps_ttm": 3.2,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.9404761904761905,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 8.529411764705882,
+ "eps_forward_growth": 0.66435,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17470053581110484
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0994511966887871
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.06296610027162645
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.0931431965068287
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.09451283856915627
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 39063072000.0,
+   "eps": 3.26,
+   "net_income": 2230453000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 21972042000.0,
+   "eps": 1.68,
+   "net_income": 1048854000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14989251000.0,
+   "eps": 2.009,
+   "net_income": 1152666000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7123482000.0,
+   "eps": 1.143,
+   "net_income": 639998000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.10560807125291727,
+ "fcf_burn_annual": 6971885000.0,
+ "runway_months": 12.94595191974624,
+ "need_24m": 16024170000.0,
+ "gap_24m": 8502696000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.40318694384219145,
+ "interest_coverage": 15.335234923473845,
+ "cash_to_debt": 0.8585262746017452,
+ "ev": 28927443393.21515,
+ "ev_to_sales": 0.7405317071124142,
+ "ev_to_ebitda": 9.410037520909386,
+ "pe_ttm": 12.413623776522146,
+ "pe_trailing": 12.929448,
+ "p_sales": 0.7088025,
+ "p_fcf": null,
+ "p_book": 1.912227368357252
+}

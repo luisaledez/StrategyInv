@@ -1,0 +1,154 @@
+{
+ "ticker": "IRM",
+ "fetched": "2026-09-28",
+ "market_cap": 33027150690.093506,
+ "shares_out": 297702812.0,
+ "price": 110.94000244140625,
+ "long_name": "Iron Mountain Incorporated",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": 78.680855,
+ "pe_forward": 40.641827,
+ "peg": 2.7,
+ "p_sales_y": 4.3672433,
+ "eps_trailing_y": 1.41,
+ "eps_forward": 2.7297,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 204793000.0,
+ "total_debt": 19614943000.0,
+ "current_debt": 220809000.0,
+ "lease_obligations": 2265294000.0,
+ "equity": -1280920000.0,
+ "net_debt": 19410150000.0,
+ "ocf_ttm": 1655387000.0,
+ "capex_ttm": -2252069000.0,
+ "fcf_ttm": -596682000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 7562471000.0,
+ "net_income_ttm": 418655000.0,
+ "ebitda_ttm": 2515305000.0,
+ "ebit_ttm": 1393136000.0,
+ "interest_ttm": 888951000.0,
+ "revenue_yoy_last_q": 0.18523576650692664,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2029062000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1936149000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1843167000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1754093000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1711948000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.34
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.15
+  }
+ ],
+ "eps_ttm": 1.4000000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.19672131147540983,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.949785714285714,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5275605181113243
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5404263824736629
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5537572015992039
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5485193772508071
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5590771448665497
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6901737000.0,
+   "eps": 0.49,
+   "net_income": 144591000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6149909000.0,
+   "eps": 0.61,
+   "net_income": 180156000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5480289000.0,
+   "eps": 0.63,
+   "net_income": 184234000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5103574000.0,
+   "eps": 1.9,
+   "net_income": 556981000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.008094463563072418,
+ "fcf_burn_annual": 596682000.0,
+ "runway_months": 4.118636057397407,
+ "need_24m": 1414173000.0,
+ "gap_24m": 1209380000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 7.716817642393268,
+ "interest_coverage": 1.5671684941014747,
+ "cash_to_debt": 0.01044066250919006,
+ "ev": 52437300690.093506,
+ "ev_to_sales": 6.933884531933214,
+ "ev_to_ebitda": 20.847293147389088,
+ "pe_ttm": 78.88870475712342,
+ "pe_trailing": 78.680855,
+ "p_sales": 4.3672433,
+ "p_fcf": null,
+ "p_book": null
+}

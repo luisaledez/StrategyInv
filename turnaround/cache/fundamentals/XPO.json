@@ -1,0 +1,154 @@
+{
+ "ticker": "XPO",
+ "fetched": "2026-09-28",
+ "market_cap": 20645856587.84172,
+ "shares_out": 117086465.0,
+ "price": 176.3300018310547,
+ "long_name": "XPO, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Trucking",
+ "pe_trailing_y": 52.014748,
+ "pe_forward": 27.163298,
+ "peg": 1.67,
+ "p_sales_y": 2.407961,
+ "eps_trailing_y": 3.39,
+ "eps_forward": 6.49148,
+ "earnings_growth_y": 0.528,
+ "earnings_growth_q_y": 0.528,
+ "bs_date": "2026-06-30",
+ "cash": 298000000.0,
+ "total_debt": 3988000000.0,
+ "current_debt": 329000000.0,
+ "lease_obligations": 782000000.0,
+ "equity": 1962000000.0,
+ "net_debt": 3690000000.0,
+ "ocf_ttm": 1088000000.0,
+ "capex_ttm": -500000000.0,
+ "fcf_ttm": 588000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -215000000.0,
+ "stock_issuance_ttm": -215000000.0,
+ "revenue_ttm": 8573000000.0,
+ "net_income_ttm": 404000000.0,
+ "ebitda_ttm": 1288000000.0,
+ "ebit_ttm": 756000000.0,
+ "interest_ttm": 211000000.0,
+ "revenue_yoy_last_q": 0.13221153846153855,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2355000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2096000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2011000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2111000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2080000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.85
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.68
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.89
+  }
+ ],
+ "eps_ttm": 3.39,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.1826625386996904,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5280898876404496,
+ "eps_forward_growth": 0.914890855457227,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1494692144373673
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11402671755725191
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11586275484833417
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12837517764092846
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.12884615384615383
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8157000000.0,
+   "eps": 2.64,
+   "net_income": 316000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8072000000.0,
+   "eps": 3.23,
+   "net_income": 387000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7744000000.0,
+   "eps": 1.6,
+   "net_income": 189000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7718000000.0,
+   "eps": 5.76,
+   "net_income": 666000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.005592891417894652,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 329000000.0,
+ "gap_24m": 31000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.8649068322981366,
+ "interest_coverage": 3.5829383886255926,
+ "cash_to_debt": 0.07472417251755266,
+ "ev": 24335856587.84172,
+ "ev_to_sales": 2.838662847059573,
+ "ev_to_ebitda": 18.894298593044812,
+ "pe_ttm": 51.103605415449806,
+ "pe_trailing": 52.014748,
+ "p_sales": 2.407961,
+ "p_fcf": 35.11200099973082,
+ "p_book": 10.522862684934617
+}

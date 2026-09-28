@@ -1,0 +1,154 @@
+{
+ "ticker": "WMT",
+ "fetched": "2026-09-28",
+ "market_cap": 863707267578.1545,
+ "shares_out": 7933746241.0,
+ "price": 108.86499786376953,
+ "long_name": "Walmart Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Discount Stores",
+ "pe_trailing_y": 39.44384,
+ "pe_forward": 33.709866,
+ "peg": 4.15,
+ "p_sales_y": 1.1773704,
+ "eps_trailing_y": 2.76,
+ "eps_forward": 3.22947,
+ "earnings_growth_y": -0.091,
+ "earnings_growth_q_y": -0.094,
+ "bs_date": "2026-07-31",
+ "cash": 11529000000.0,
+ "total_debt": 73755000000.0,
+ "current_debt": 16543000000.0,
+ "lease_obligations": 23344000000.0,
+ "equity": 98238000000.0,
+ "net_debt": 62226000000.0,
+ "ocf_ttm": 42923000000.0,
+ "capex_ttm": -29414000000.0,
+ "fcf_ttm": 13509000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -6992000000.0,
+ "stock_issuance_ttm": -6992000000.0,
+ "revenue_ttm": 735840000000.0,
+ "net_income_ttm": 22076000000.0,
+ "ebitda_ttm": 46764000000.0,
+ "ebit_ttm": 31671000000.0,
+ "interest_ttm": 2355000000.0,
+ "revenue_yoy_last_q": 0.05938489983201989,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 187937000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 177751000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 190656000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 179496000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 177402000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.8
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.67
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.53
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.77
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.88
+  }
+ ],
+ "eps_ttm": 2.77,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.13278008298755184,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.09090909090909083,
+ "eps_forward_growth": 0.16587364620938638,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.261433352666053
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.25143599754713053
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.24673233467606578
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.24953202299772698
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.25158115466567454
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 713163000000.0,
+   "eps": 2.73,
+   "net_income": 21893000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 680985000000.0,
+   "eps": 2.41,
+   "net_income": 19436000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 648125000000.0,
+   "eps": 1.913333,
+   "net_income": 15511000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 611289000000.0,
+   "eps": 1.423333,
+   "net_income": 11680000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.004137931034482789,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 16543000000.0,
+ "gap_24m": 5014000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.3306389530408007,
+ "interest_coverage": 13.448407643312102,
+ "cash_to_debt": 0.15631482611348382,
+ "ev": 925933267578.1545,
+ "ev_to_sales": 1.258335055960745,
+ "ev_to_ebitda": 19.800129748912724,
+ "pe_ttm": 39.124264702761124,
+ "pe_trailing": 39.44384,
+ "p_sales": 1.1773704,
+ "p_fcf": 63.93569232201899,
+ "p_book": 8.7919874954514
+}

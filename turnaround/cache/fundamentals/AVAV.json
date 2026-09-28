@@ -1,0 +1,154 @@
+{
+ "ticker": "AVAV",
+ "fetched": "2026-09-28",
+ "market_cap": 7548906733.876556,
+ "shares_out": 50820702.0,
+ "price": 148.5399932861328,
+ "long_name": "AeroVironment, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": null,
+ "pe_forward": 33.324657,
+ "peg": 1.57,
+ "p_sales_y": 3.769442,
+ "eps_trailing_y": -4.06,
+ "eps_forward": 4.45736,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-07-31",
+ "cash": 580227000.0,
+ "total_debt": 850823000.0,
+ "current_debt": 17823000.0,
+ "lease_obligations": 120766000.0,
+ "equity": 4396055000.0,
+ "net_debt": 270596000.0,
+ "ocf_ttm": 58818000.0,
+ "capex_ttm": -103600000.0,
+ "fcf_ttm": -44782000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 2002659000.0,
+ "net_income_ttm": -290090000.0,
+ "ebitda_ttm": -10792000.0,
+ "ebit_ttm": -241608000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.05677449436521842,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 480490000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 641616000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 408045000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 472508000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 454676000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": -0.1
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.25
+  },
+  {
+   "period": "2026-01-31",
+   "value": -4.9
+  },
+  {
+   "period": "2025-10-31",
+   "value": -0.34
+  },
+  {
+   "period": "2025-01-31",
+   "value": -0.06
+  }
+ ],
+ "eps_ttm": -4.090000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -4.483870967741936,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.25931653104122876
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.315804157003566
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.24211545295249298
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.22032431196932115
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.20919951789845956
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1976845000.0,
+   "eps": -5.4,
+   "net_income": -265122000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 820627000.0,
+   "eps": 1.55,
+   "net_income": 43619000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 716720000.0,
+   "eps": 2.18,
+   "net_income": 59666000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 540536000.0,
+   "eps": -7.04,
+   "net_income": -176212000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.017837411855652574,
+ "fcf_burn_annual": 44782000.0,
+ "runway_months": 155.48041623866732,
+ "need_24m": 107387000.0,
+ "gap_24m": -472840000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -25.07375833951075,
+ "interest_coverage": null,
+ "cash_to_debt": 0.6819597025468281,
+ "ev": 7819502733.876556,
+ "ev_to_sales": 3.904560254080478,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.769442,
+ "p_fcf": null,
+ "p_book": 1.7172002474665482
+}

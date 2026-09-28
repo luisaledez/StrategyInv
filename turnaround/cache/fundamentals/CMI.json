@@ -1,0 +1,154 @@
+{
+ "ticker": "CMI",
+ "fetched": "2026-09-28",
+ "market_cap": 71387296042.62506,
+ "shares_out": 137664487.0,
+ "price": 518.5599975585938,
+ "long_name": "Cummins Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 26.484167,
+ "pe_forward": 14.976752,
+ "peg": 1.06,
+ "p_sales_y": 2.0567963,
+ "eps_trailing_y": 19.58,
+ "eps_forward": 34.62433,
+ "earnings_growth_y": 0.047,
+ "earnings_growth_q_y": 0.047,
+ "bs_date": "2026-06-30",
+ "cash": 3924000000.0,
+ "total_debt": 8286000000.0,
+ "current_debt": 1099000000.0,
+ "lease_obligations": 591000000.0,
+ "equity": 12847000000.0,
+ "net_debt": 4362000000.0,
+ "ocf_ttm": 4647000000.0,
+ "capex_ttm": -1280000000.0,
+ "fcf_ttm": 3367000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -468000000.0,
+ "stock_issuance_ttm": -468000000.0,
+ "revenue_ttm": 34708000000.0,
+ "net_income_ttm": 2715000000.0,
+ "ebitda_ttm": 5289000000.0,
+ "ebit_ttm": 4169000000.0,
+ "interest_ttm": 321000000.0,
+ "revenue_yoy_last_q": 0.09418026148328118,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9457000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 8398000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 8536000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 8317000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 8643000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6.73
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.71
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4.27
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.86
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6.43
+  }
+ ],
+ "eps_ttm": 19.57,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2774057102573141,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.046656298600311175,
+ "eps_forward_growth": 0.7692554931016862,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2606534841916041
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2670874017623244
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2285613870665417
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.25598172417939163
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.26391299317366657
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 33670000000.0,
+   "eps": 20.5,
+   "net_income": 2843000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 34102000000.0,
+   "eps": 28.37,
+   "net_income": 3946000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 34065000000.0,
+   "eps": 5.15,
+   "net_income": 735000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 28074000000.0,
+   "eps": 15.12,
+   "net_income": 2151000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0008821721109362191,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1099000000.0,
+ "gap_24m": -2825000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.8247305728871243,
+ "interest_coverage": 12.98753894080997,
+ "cash_to_debt": 0.47356987690079655,
+ "ev": 75749296042.62506,
+ "ev_to_sales": 2.182473667241704,
+ "ev_to_ebitda": 14.322045007113832,
+ "pe_ttm": 26.293663367449376,
+ "pe_trailing": 26.484167,
+ "p_sales": 2.0567963,
+ "p_fcf": 21.20204812670777,
+ "p_book": 5.5567288894391735
+}

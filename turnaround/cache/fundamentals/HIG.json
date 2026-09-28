@@ -1,0 +1,133 @@
+{
+ "ticker": "HIG",
+ "fetched": "2026-09-28",
+ "market_cap": 34181338593.6886,
+ "shares_out": 270872002.0,
+ "price": 126.19000244140625,
+ "long_name": "The Hartford Insurance Group, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Diversified",
+ "pe_trailing_y": 8.708765,
+ "pe_forward": 9.222811,
+ "peg": 0.12,
+ "p_sales_y": 1.1660017,
+ "eps_trailing_y": 14.49,
+ "eps_forward": 13.68238,
+ "earnings_growth_y": 0.361,
+ "earnings_growth_q_y": 0.305,
+ "bs_date": "2026-06-30",
+ "cash": 20982000000.0,
+ "total_debt": 4374000000.0,
+ "current_debt": 0.0,
+ "lease_obligations": null,
+ "equity": 19633000000.0,
+ "net_debt": -16608000000.0,
+ "ocf_ttm": 5880000000.0,
+ "capex_ttm": -162000000.0,
+ "fcf_ttm": 5789000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1716000000.0,
+ "stock_issuance_ttm": -1716000000.0,
+ "revenue_ttm": 28626000000.0,
+ "net_income_ttm": 4365000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 5218000000.0,
+ "interest_ttm": 199000000.0,
+ "revenue_yoy_last_q": 0.0663782816229117,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7149000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 7151000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7179000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7147000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6704000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.68
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.04
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.98
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.77
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.44
+  }
+ ],
+ "eps_ttm": 15.469999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.28695652173913055,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.36046511627906974,
+ "eps_forward_growth": -0.11555397543632828,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 28071000000.0,
+   "eps": 13.32,
+   "net_income": 3836000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 26384000000.0,
+   "eps": 10.35,
+   "net_income": 3111000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 24330000000.0,
+   "eps": 7.97,
+   "net_income": 2504000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 21854000000.0,
+   "eps": 5.44,
+   "net_income": 1819000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03773455291732164,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -20982000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 26.22110552763819,
+ "cash_to_debt": 4.796982167352538,
+ "ev": 17573338593.6886,
+ "ev_to_sales": 0.6138943126419548,
+ "ev_to_ebitda": null,
+ "pe_ttm": 7.83077631012339,
+ "pe_trailing": 8.708765,
+ "p_sales": 1.1660017,
+ "p_fcf": 5.90453249156825,
+ "p_book": 1.7410145466148117
+}

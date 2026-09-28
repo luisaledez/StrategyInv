@@ -1,0 +1,154 @@
+{
+ "ticker": "STRL",
+ "fetched": "2026-09-28",
+ "market_cap": 15299459458.794495,
+ "shares_out": 30588518.0,
+ "price": 500.1700134277344,
+ "long_name": "Sterling Infrastructure, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 35.931755,
+ "pe_forward": 19.694641,
+ "peg": 0.63,
+ "p_sales_y": 4.4494753,
+ "eps_trailing_y": 13.92,
+ "eps_forward": 25.39625,
+ "earnings_growth_y": 1.165,
+ "earnings_growth_q_y": 1.195,
+ "bs_date": "2026-06-30",
+ "cash": 464451000.0,
+ "total_debt": 336815000.0,
+ "current_debt": 29754000.0,
+ "lease_obligations": 52940000.0,
+ "equity": 1357315000.0,
+ "net_debt": -127636000.0,
+ "ocf_ttm": 597698000.0,
+ "capex_ttm": -115696000.0,
+ "fcf_ttm": 482002000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -65610000.0,
+ "stock_issuance_ttm": -65610000.0,
+ "revenue_ttm": 3438486000.0,
+ "net_income_ttm": 431480000.0,
+ "ebitda_ttm": 708923000.0,
+ "ebit_ttm": 618411000.0,
+ "interest_ttm": 16667000.0,
+ "revenue_yoy_last_q": 0.9011225971083929,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1168179000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 825675000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 755613000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 689019000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 614468000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.09
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.81
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.97
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.31
+  }
+ ],
+ "eps_ttm": 13.870000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.13422007255139068,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.1645021645021645,
+ "eps_forward_growth": 0.8310201874549386,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24821281670018036
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.235317770309141
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.21719848652683318
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24704108304705677
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23294947824785017
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2490049000.0,
+   "eps": 9.38,
+   "net_income": 290153000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2115756000.0,
+   "eps": 8.27,
+   "net_income": 257461000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1972229000.0,
+   "eps": 4.44,
+   "net_income": 138655000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1769436000.0,
+   "eps": 3.48,
+   "net_income": 106461000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.008974653999145321,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 29754000.0,
+ "gap_24m": -434697000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.18004212023026478,
+ "interest_coverage": 37.10391792164157,
+ "cash_to_debt": 1.3789498686222408,
+ "ev": 15171823458.794495,
+ "ev_to_sales": 4.412355745753944,
+ "ev_to_ebitda": 21.401228989318298,
+ "pe_ttm": 35.4580964559064,
+ "pe_trailing": 35.931755,
+ "p_sales": 4.4494753,
+ "p_fcf": 31.741485427020002,
+ "p_book": 11.271856171039511
+}

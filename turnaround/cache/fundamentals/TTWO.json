@@ -1,0 +1,154 @@
+{
+ "ticker": "TTWO",
+ "fetched": "2026-09-28",
+ "market_cap": 37651317931.80925,
+ "shares_out": 186980443.0,
+ "price": 201.36500549316406,
+ "long_name": "Take-Two Interactive Software, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Electronic Gaming & Multimedia",
+ "pe_trailing_y": null,
+ "pe_forward": 19.564875,
+ "peg": 2.76,
+ "p_sales_y": 5.630946,
+ "eps_trailing_y": -1.71,
+ "eps_forward": 10.29217,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1826600000.0,
+ "total_debt": 2944700000.0,
+ "current_debt": 701400000.0,
+ "lease_obligations": 425000000.0,
+ "equity": 3608400000.0,
+ "net_debt": 1118100000.0,
+ "ocf_ttm": 500200000.0,
+ "capex_ttm": -162700000.0,
+ "fcf_ttm": 337500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 59700000.0,
+ "revenue_ttm": 6686500000.0,
+ "net_income_ttm": -320400000.0,
+ "ebitda_ttm": 1254100000.0,
+ "ebit_ttm": -77000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.020015959569091635,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1533900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1679800000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1699000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1773800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1503800000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.18
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.32
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.5
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.73
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.07
+  }
+ ],
+ "eps_ttm": -1.73,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5753308559880045
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5588165257768782
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5565038257798706
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5527680685533882
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6284080329831094
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 6656400000.0,
+   "eps": -1.62,
+   "net_income": -298200000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5633600000.0,
+   "eps": -25.58,
+   "net_income": -4478900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5349600000.0,
+   "eps": -22.01,
+   "net_income": -3744200000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5349900000.0,
+   "eps": -7.03,
+   "net_income": -1124700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.014099783080260275,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 701400000.0,
+ "gap_24m": -1125200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.8915556973128139,
+ "interest_coverage": null,
+ "cash_to_debt": 0.6203008795463035,
+ "ev": 38769417931.80925,
+ "ev_to_sales": 5.798163154387086,
+ "ev_to_ebitda": 30.914135979434853,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 5.630946,
+ "p_fcf": 111.55946053869407,
+ "p_book": 10.43435260276279
+}

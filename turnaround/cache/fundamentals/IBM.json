@@ -1,0 +1,154 @@
+{
+ "ticker": "IBM",
+ "fetched": "2026-09-28",
+ "market_cap": 208470781396.91803,
+ "shares_out": 942134390.0,
+ "price": 221.27499389648438,
+ "long_name": "International Business Machines Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "pe_trailing_y": 19.668888,
+ "pe_forward": 16.8299,
+ "peg": 2.13,
+ "p_sales_y": 3.0171618,
+ "eps_trailing_y": 11.25,
+ "eps_forward": 13.14773,
+ "earnings_growth_y": -0.018,
+ "earnings_growth_q_y": -0.013,
+ "bs_date": "2026-06-30",
+ "cash": 8132000000.0,
+ "total_debt": 65272000000.0,
+ "current_debt": 6545000000.0,
+ "lease_obligations": 3285000000.0,
+ "equity": 34452000000.0,
+ "net_debt": 57140000000.0,
+ "ocf_ttm": 14888000000.0,
+ "capex_ttm": -1744000000.0,
+ "fcf_ttm": 13144000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1046000000.0,
+ "stock_issuance_ttm": -319000000.0,
+ "revenue_ttm": 69097000000.0,
+ "net_income_ttm": 10725000000.0,
+ "ebitda_ttm": 17570000000.0,
+ "ebit_ttm": 12368000000.0,
+ "interest_ttm": 1929000000.0,
+ "revenue_yoy_last_q": 0.010897096071155188,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 17162000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 15917000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 19687000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 16331000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 16977000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.88
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.84
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.31
+  }
+ ],
+ "eps_ttm": 11.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.7371695178849145,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.017316017316017285,
+ "eps_forward_growth": 0.16661313220940555,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5772637221769025
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5622918891750958
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6058820541474069
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5731431020758068
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5876774459562938
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 67536000000.0,
+   "eps": 11.17,
+   "net_income": 10593000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 62753000000.0,
+   "eps": 6.43,
+   "net_income": 6023000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 61860000000.0,
+   "eps": 8.14,
+   "net_income": 7502000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 60530000000.0,
+   "eps": 1.8,
+   "net_income": 1640000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.01139552198321625,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6545000000.0,
+ "gap_24m": -1587000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.2521343198634036,
+ "interest_coverage": 6.4116122343183,
+ "cash_to_debt": 0.12458634636597622,
+ "ev": 265610781396.91803,
+ "ev_to_sales": 3.84402769146154,
+ "ev_to_ebitda": 15.117289777855323,
+ "pe_ttm": 19.43783509528373,
+ "pe_trailing": 19.668888,
+ "p_sales": 3.0171618,
+ "p_fcf": 15.860528103843428,
+ "p_book": 6.051050197286602
+}

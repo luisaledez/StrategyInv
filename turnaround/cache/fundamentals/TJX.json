@@ -1,0 +1,154 @@
+{
+ "ticker": "TJX",
+ "fetched": "2026-09-28",
+ "market_cap": 143134124687.625,
+ "shares_out": 1099974061.0,
+ "price": 130.125,
+ "long_name": "The TJX Companies, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Apparel Retail",
+ "pe_trailing_y": 24.097221,
+ "pe_forward": 22.538244,
+ "peg": 2.54,
+ "p_sales_y": 2.2951767,
+ "eps_trailing_y": 5.4,
+ "eps_forward": 5.77352,
+ "earnings_growth_y": 0.236,
+ "earnings_growth_q_y": 0.223,
+ "bs_date": "2026-07-31",
+ "cash": 6004000000.0,
+ "total_debt": 14317000000.0,
+ "current_debt": 2714000000.0,
+ "lease_obligations": 11446000000.0,
+ "equity": 10651000000.0,
+ "net_debt": 8313000000.0,
+ "ocf_ttm": 8034000000.0,
+ "capex_ttm": -2158000000.0,
+ "fcf_ttm": 5876000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2796000000.0,
+ "stock_issuance_ttm": -2455000000.0,
+ "revenue_ttm": 62363000000.0,
+ "net_income_ttm": 6067000000.0,
+ "ebitda_ttm": 9439000000.0,
+ "ebit_ttm": 8120000000.0,
+ "interest_ttm": 75000000.0,
+ "revenue_yoy_last_q": 0.054093465731546386,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 15180000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 14323000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 17743000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 15117000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 14401000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.36
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.19
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.58
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.28
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.1
+  }
+ ],
+ "eps_ttm": 5.41,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.14319248826291098,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.23636363636363633,
+ "eps_forward_growth": 0.06719408502772639,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.3341238471673254
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.31278363471339804
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.3086287550019726
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.3259244559105643
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.3072703284494132
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 60372000000.0,
+   "eps": 4.87,
+   "net_income": 5494000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 56360000000.0,
+   "eps": 4.26,
+   "net_income": 4864000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 54217000000.0,
+   "eps": 3.86,
+   "net_income": 4474000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 49936000000.0,
+   "eps": 2.97,
+   "net_income": 3498000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.010452415744011123,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2714000000.0,
+ "gap_24m": -3290000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.8807077020870855,
+ "interest_coverage": 108.26666666666667,
+ "cash_to_debt": 0.41936159810016066,
+ "ev": 151447124687.625,
+ "ev_to_sales": 2.4284772170617996,
+ "ev_to_ebitda": 16.0448272791212,
+ "pe_ttm": 23.5922407594569,
+ "pe_trailing": 24.097221,
+ "p_sales": 2.2951767,
+ "p_fcf": 24.359109034653677,
+ "p_book": 13.438562077516195
+}

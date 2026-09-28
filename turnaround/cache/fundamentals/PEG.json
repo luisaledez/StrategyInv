@@ -1,0 +1,154 @@
+{
+ "ticker": "PEG",
+ "fetched": "2026-09-28",
+ "market_cap": 33244614479.94278,
+ "shares_out": 498420030.0,
+ "price": 66.69999694824219,
+ "long_name": "Public Service Enterprise Group Incorporated",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Electric",
+ "pe_trailing_y": 16.59204,
+ "pe_forward": 14.275257,
+ "peg": 3.17,
+ "p_sales_y": 2.6504517,
+ "eps_trailing_y": 4.02,
+ "eps_forward": 4.67242,
+ "earnings_growth_y": -0.427,
+ "earnings_growth_q_y": -0.429,
+ "bs_date": "2026-06-30",
+ "cash": 192000000.0,
+ "total_debt": 24678000000.0,
+ "current_debt": 1800000000.0,
+ "lease_obligations": 137000000.0,
+ "equity": 17329000000.0,
+ "net_debt": 24486000000.0,
+ "ocf_ttm": 3592000000.0,
+ "capex_ttm": -3316000000.0,
+ "fcf_ttm": 276000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 12543000000.0,
+ "net_income_ttm": 2012000000.0,
+ "ebitda_ttm": 4778000000.0,
+ "ebit_ttm": 3290000000.0,
+ "interest_ttm": 1013000000.0,
+ "revenue_yoy_last_q": -0.08948306595365418,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2554000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3848000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2915000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3226000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2805000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.67
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.628743
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.17
+  }
+ ],
+ "eps_ttm": 4.018743,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.19027485875706218,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4273504273504273,
+ "eps_forward_growth": 0.1626570795893143,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.30618637431480034
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36486486486486486
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.28439108061749574
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3614383137011779
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.40106951871657753
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 12168000000.0,
+   "eps": 4.213573,
+   "net_income": 2111000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10290000000.0,
+   "eps": 3.54,
+   "net_income": 1772000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11237000000.0,
+   "eps": 5.126,
+   "net_income": 2563000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9800000000.0,
+   "eps": 2.057884,
+   "net_income": 1031000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.001999828015311733,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1800000000.0,
+ "gap_24m": 1608000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.124738384261197,
+ "interest_coverage": 3.2477788746298124,
+ "cash_to_debt": 0.007780209093119377,
+ "ev": 57730614479.94278,
+ "ev_to_sales": 4.602616158809119,
+ "ev_to_ebitda": 12.082589886970025,
+ "pe_ttm": 16.523168230587864,
+ "pe_trailing": 16.59204,
+ "p_sales": 2.6504517,
+ "p_fcf": 120.45150173892311,
+ "p_book": 1.9184381372233124
+}

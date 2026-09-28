@@ -1,0 +1,154 @@
+{
+ "ticker": "BJ",
+ "fetched": "2026-09-28",
+ "market_cap": 12189683873.115479,
+ "shares_out": 126314692.0,
+ "price": 96.50250244140625,
+ "long_name": "BJ's Wholesale Club Holdings, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Discount Stores",
+ "pe_trailing_y": 21.11652,
+ "pe_forward": 19.208452,
+ "peg": 2.18,
+ "p_sales_y": 0.5343627,
+ "eps_trailing_y": 4.57,
+ "eps_forward": 5.02396,
+ "earnings_growth_y": 0.193,
+ "earnings_growth_q_y": 0.154,
+ "bs_date": "2026-07-31",
+ "cash": 29982000.0,
+ "total_debt": 2773323000.0,
+ "current_debt": 417865000.0,
+ "lease_obligations": 2144078000.0,
+ "equity": 2197432000.0,
+ "net_debt": 2743341000.0,
+ "ocf_ttm": 1113538000.0,
+ "capex_ttm": -755322000.0,
+ "fcf_ttm": 358216000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -552653000.0,
+ "stock_issuance_ttm": -552653000.0,
+ "revenue_ttm": 22811630000.0,
+ "net_income_ttm": 594497000.0,
+ "ebitda_ttm": 1158112000.0,
+ "ebit_ttm": 855781000.0,
+ "interest_ttm": 45433000.0,
+ "revenue_yoy_last_q": 0.15730506445809112,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 6226579000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 5661500000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 5575388000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 5348163000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 5380240000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.36
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.1
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.15
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.14
+  }
+ ],
+ "eps_ttm": 4.57,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09499999999999997,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19298245614035103,
+ "eps_forward_growth": 0.09933479212253826,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.17826787389993767
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.18155983396626335
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.18108354073294988
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.18966082372582885
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.18701303287585683
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 21457274000.0,
+   "eps": 4.38,
+   "net_income": 578377000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 20501804000.0,
+   "eps": 4.0,
+   "net_income": 534417000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19968689000.0,
+   "eps": 3.88,
+   "net_income": 523741000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 19315165000.0,
+   "eps": 3.76,
+   "net_income": 513177000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.040205238749440264,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 417865000.0,
+ "gap_24m": 387883000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.3688045715785693,
+ "interest_coverage": 18.836110316289922,
+ "cash_to_debt": 0.01081085758853188,
+ "ev": 14933024873.115479,
+ "ev_to_sales": 0.6546233159627558,
+ "ev_to_ebitda": 12.89428386297308,
+ "pe_ttm": 20.504197452830677,
+ "pe_trailing": 21.11652,
+ "p_sales": 0.5343627,
+ "p_fcf": 34.02886491143745,
+ "p_book": 5.54724053946401
+}

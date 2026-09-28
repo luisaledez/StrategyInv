@@ -1,0 +1,154 @@
+{
+ "ticker": "MUSA",
+ "fetched": "2026-09-28",
+ "market_cap": 9549693042.446106,
+ "shares_out": 18380347.0,
+ "price": 519.5599975585938,
+ "long_name": "Murphy USA Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "pe_trailing_y": 15.893546,
+ "pe_forward": 16.937572,
+ "peg": 1.39,
+ "p_sales_y": 0.5001201,
+ "eps_trailing_y": 32.69,
+ "eps_forward": 30.675,
+ "earnings_growth_y": 0.531,
+ "earnings_growth_q_y": 0.436,
+ "bs_date": "2026-06-30",
+ "cash": 175400000.0,
+ "total_debt": 2735500000.0,
+ "current_debt": 19100000.0,
+ "lease_obligations": 549400000.0,
+ "equity": 782700000.0,
+ "net_debt": 2560100000.0,
+ "ocf_ttm": 985300000.0,
+ "capex_ttm": -443800000.0,
+ "fcf_ttm": 541500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -438900000.0,
+ "stock_issuance_ttm": -438900000.0,
+ "revenue_ttm": 21479000000.0,
+ "net_income_ttm": 617200000.0,
+ "ebitda_ttm": 1211500000.0,
+ "ebit_ttm": 924600000.0,
+ "interest_ttm": 116000000.0,
+ "revenue_yoy_last_q": 0.35986013986013976,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6806100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4819300000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4743600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5110000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5005000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 11.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 7.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7.53
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.76
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7.36
+  }
+ ],
+ "eps_ttm": 32.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.00041476565740350413,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5312499999999998,
+ "eps_forward_growth": -0.06592570036540812,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.10968102143665241
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.12746664453343848
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13437052027995616
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12256360078277886
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1222977022977023
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 19384000000.0,
+   "eps": 24.1,
+   "net_income": 470600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 20244300000.0,
+   "eps": 24.11,
+   "net_income": 502500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 21529400000.0,
+   "eps": 25.49,
+   "net_income": 556800000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 23446100000.0,
+   "eps": 28.1,
+   "net_income": 672900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04727302602507577,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 19100000.0,
+ "gap_24m": -156300000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.1131654973173752,
+ "interest_coverage": 7.970689655172414,
+ "cash_to_debt": 0.06411990495339061,
+ "ev": 12109793042.446106,
+ "ev_to_sales": 0.5637968733388941,
+ "ev_to_ebitda": 9.995702057322415,
+ "pe_ttm": 15.472607003315142,
+ "pe_trailing": 15.893546,
+ "p_sales": 0.5001201,
+ "p_fcf": 17.635628887250427,
+ "p_book": 12.200962108657347
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "HII",
+ "fetched": "2026-09-28",
+ "market_cap": 10170720212.564209,
+ "shares_out": 39404598.0,
+ "price": 258.1099853515625,
+ "long_name": "Huntington Ingalls Industries, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 15.372839,
+ "pe_forward": 12.388431,
+ "peg": 0.81,
+ "p_sales_y": 0.77138567,
+ "eps_trailing_y": 16.79,
+ "eps_forward": 20.83476,
+ "earnings_growth_y": 0.365,
+ "earnings_growth_q_y": 0.368,
+ "bs_date": "2026-06-30",
+ "cash": 12000000.0,
+ "total_debt": 2935000000.0,
+ "current_debt": 3000000.0,
+ "lease_obligations": 233000000.0,
+ "equity": 5312000000.0,
+ "net_debt": 2923000000.0,
+ "ocf_ttm": 347000000.0,
+ "capex_ttm": -432000000.0,
+ "fcf_ttm": -85000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 13185000000.0,
+ "net_income_ttm": 661000000.0,
+ "ebitda_ttm": 1264000000.0,
+ "ebit_ttm": 942000000.0,
+ "interest_ttm": 98000000.0,
+ "revenue_yoy_last_q": 0.10902011680726797,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3418000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3099000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3476000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3192000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3082000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.79
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.68
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.86
+  }
+ ],
+ "eps_ttm": 16.779999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.10243553008595985,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3652849740932642,
+ "eps_forward_growth": 0.24164243146603104,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12609713282621415
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.13165537270087124
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11565017261219793
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12343358395989974
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1281635301752109
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 12484000000.0,
+   "eps": 15.39,
+   "net_income": 605000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11535000000.0,
+   "eps": 13.96,
+   "net_income": 550000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11454000000.0,
+   "eps": 17.07,
+   "net_income": 681000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10676000000.0,
+   "eps": 14.44,
+   "net_income": 579000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.004178209980267855,
+ "fcf_burn_annual": 85000000.0,
+ "runway_months": 1.6941176470588235,
+ "need_24m": 173000000.0,
+ "gap_24m": 161000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 2.3125,
+ "interest_coverage": 9.612244897959183,
+ "cash_to_debt": 0.0040885860306643955,
+ "ev": 13093720212.564209,
+ "ev_to_sales": 0.9930769975399476,
+ "ev_to_ebitda": 10.358955864370419,
+ "pe_ttm": 15.386868702820285,
+ "pe_trailing": 15.372839,
+ "p_sales": 0.77138567,
+ "p_fcf": null,
+ "p_book": 1.9146687147146477
+}

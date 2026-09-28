@@ -1,0 +1,154 @@
+{
+ "ticker": "SGI",
+ "fetched": "2026-09-28",
+ "market_cap": 13168879415.607735,
+ "shares_out": 210365491.0,
+ "price": 62.599998474121094,
+ "long_name": "Somnigroup International Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Furnishings, Fixtures & Appliances",
+ "pe_trailing_y": 24.743082,
+ "pe_forward": 15.9181,
+ "peg": 0.83,
+ "p_sales_y": 1.7291071,
+ "eps_trailing_y": 2.53,
+ "eps_forward": 3.93263,
+ "earnings_growth_y": 0.106,
+ "earnings_growth_q_y": 0.12,
+ "bs_date": "2026-06-30",
+ "cash": 112000000.0,
+ "total_debt": 6412100000.0,
+ "current_debt": 520900000.0,
+ "lease_obligations": 2003600000.0,
+ "equity": 3229400000.0,
+ "net_debt": 6300100000.0,
+ "ocf_ttm": 990400000.0,
+ "capex_ttm": -221400000.0,
+ "fcf_ttm": 769000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -26200000.0,
+ "stock_issuance_ttm": -26200000.0,
+ "revenue_ttm": 7616000000.0,
+ "net_income_ttm": 533300000.0,
+ "ebitda_ttm": 1222400000.0,
+ "ebit_ttm": 965800000.0,
+ "interest_ttm": 253100000.0,
+ "revenue_yoy_last_q": -0.030465759251382396,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1823500000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1801500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1868400000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2122600000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1880800000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.52
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.49
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.66
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.83
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.47
+  }
+ ],
+ "eps_ttm": 2.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14814814814814814,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1063829787234043,
+ "eps_forward_growth": 0.5730520000000001,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4481491636961886
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4312517346655565
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.44032327124812676
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.44888344483181003
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.439812845597618
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7476500000.0,
+   "eps": 1.84,
+   "net_income": 384100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4930900000.0,
+   "eps": 2.16,
+   "net_income": 384300000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4925400000.0,
+   "eps": 2.08,
+   "net_income": 368100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4921200000.0,
+   "eps": 2.53,
+   "net_income": 455700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0022176798475463944,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 520900000.0,
+ "gap_24m": 408900000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.153877617801047,
+ "interest_coverage": 3.815883050177795,
+ "cash_to_debt": 0.0174669764975593,
+ "ev": 19468979415.607735,
+ "ev_to_sales": 2.5563260787300073,
+ "ev_to_ebitda": 15.92684834391994,
+ "pe_ttm": 24.693192228778802,
+ "pe_trailing": 24.743082,
+ "p_sales": 1.7291071,
+ "p_fcf": 17.1246806444834,
+ "p_book": 4.077809938566834
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "AVGO",
+ "fetched": "2026-09-28",
+ "market_cap": 1674446095301.386,
+ "shares_out": 4773629865.0,
+ "price": 350.7699890136719,
+ "long_name": "Broadcom Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 44.79821,
+ "pe_forward": 18.095936,
+ "peg": 0.35,
+ "p_sales_y": 18.792042,
+ "eps_trailing_y": 7.83,
+ "eps_forward": 19.38391,
+ "earnings_growth_y": 2.153,
+ "earnings_growth_q_y": 2.161,
+ "bs_date": "2026-07-31",
+ "cash": 23975000000.0,
+ "total_debt": 59419000000.0,
+ "current_debt": 2252000000.0,
+ "lease_obligations": 0.0,
+ "equity": 99690000000.0,
+ "net_debt": 35444000000.0,
+ "ocf_ttm": 40653000000.0,
+ "capex_ttm": -1250000000.0,
+ "fcf_ttm": 39403000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -8450000000.0,
+ "stock_issuance_ttm": -8234000000.0,
+ "revenue_ttm": 89104000000.0,
+ "net_income_ttm": 38265000000.0,
+ "ebitda_ttm": 52349000000.0,
+ "ebit_ttm": 43585000000.0,
+ "interest_ttm": 3116000000.0,
+ "revenue_yoy_last_q": 0.8550025075225678,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 29591000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 22187000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 19311000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 18015000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 15952000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2.68
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.91
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.5
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.74
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.85
+  }
+ ],
+ "eps_ttm": 7.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.8780487804878048,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.1529411764705886,
+ "eps_forward_growth": 1.475595146871009,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6912912709945591
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.6947762203091901
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.681321526591062
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.6799333888426311
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.6709503510531595
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 63887000000.0,
+   "eps": 4.77,
+   "net_income": 23126000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 51574000000.0,
+   "eps": 1.23,
+   "net_income": 5895000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 35819000000.0,
+   "eps": 3.298,
+   "net_income": 14082000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 33203000000.0,
+   "eps": 2.653,
+   "net_income": 11495000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.011012282930961348,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2252000000.0,
+ "gap_24m": -21723000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.6770711952472827,
+ "interest_coverage": 13.987483953786906,
+ "cash_to_debt": 0.4034904660125549,
+ "ev": 1709890095301.386,
+ "ev_to_sales": 19.189824197582443,
+ "ev_to_ebitda": 32.66328096623405,
+ "pe_ttm": 43.7592080308738,
+ "pe_trailing": 44.79821,
+ "p_sales": 18.792042,
+ "p_fcf": 42.49539617037753,
+ "p_book": 16.796530196623394
+}

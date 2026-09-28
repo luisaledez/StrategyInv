@@ -1,0 +1,154 @@
+{
+ "ticker": "FN",
+ "fetched": "2026-09-28",
+ "market_cap": 14620265813.410156,
+ "shares_out": 35834864.0,
+ "price": 407.989990234375,
+ "long_name": "Fabrinet",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 31.239662,
+ "pe_forward": 18.725685,
+ "peg": null,
+ "p_sales_y": 3.1501744,
+ "eps_trailing_y": 13.06,
+ "eps_forward": 21.78772,
+ "earnings_growth_y": 0.581,
+ "earnings_growth_q_y": 0.597,
+ "bs_date": "2026-06-30",
+ "cash": 875055000.0,
+ "total_debt": 4013000.0,
+ "current_debt": 1189000.0,
+ "lease_obligations": 4013000.0,
+ "equity": 2454256000.0,
+ "net_debt": -871042000.0,
+ "ocf_ttm": 256725000.0,
+ "capex_ttm": -253684000.0,
+ "fcf_ttm": 3041000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5231000.0,
+ "stock_issuance_ttm": -5231000.0,
+ "revenue_ttm": 4641097000.0,
+ "net_income_ttm": 473027000.0,
+ "ebitda_ttm": 623568000.0,
+ "ebit_ttm": 555197000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.44641043342142184,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1315788000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1214293000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1132888000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 978128000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 909692000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.83
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.45
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.66
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.42
+  }
+ ],
+ "eps_ttm": 13.05,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.42311886586695757,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5826446280991737,
+ "eps_forward_growth": 0.6695570881226054,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12011889453316188
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1188666985645145
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.12153187252402708
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.11904270197765528
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.12233920931480105
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 4641097000.0,
+   "eps": 13.05,
+   "net_income": 473027000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3419327000.0,
+   "eps": 9.17,
+   "net_income": 332527000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2882967000.0,
+   "eps": 8.1,
+   "net_income": 296181000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2645237000.0,
+   "eps": 6.73,
+   "net_income": 247913000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.002988966043901531,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1189000.0,
+ "gap_24m": -873866000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.3968677032817591,
+ "interest_coverage": null,
+ "cash_to_debt": 218.05507101918764,
+ "ev": 13749223813.410156,
+ "ev_to_sales": 2.962494387298985,
+ "ev_to_ebitda": 22.04927740584853,
+ "pe_ttm": 30.907888584394033,
+ "pe_trailing": 31.239662,
+ "p_sales": 3.1501744,
+ "p_fcf": 4807.716479253587,
+ "p_book": 5.957107088017777
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "CW",
+ "fetched": "2026-09-28",
+ "market_cap": 19571930228.148193,
+ "shares_out": 36934444.0,
+ "price": 529.9099731445312,
+ "long_name": "Curtiss-Wright Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 36.495174,
+ "pe_forward": 30.918823,
+ "peg": 2.0,
+ "p_sales_y": 5.3565288,
+ "eps_trailing_y": 14.52,
+ "eps_forward": 17.13875,
+ "earnings_growth_y": 0.276,
+ "earnings_growth_q_y": 0.249,
+ "bs_date": "2026-06-30",
+ "cash": 477149000.0,
+ "total_debt": 1148981000.0,
+ "current_debt": 200000000.0,
+ "lease_obligations": 191594000.0,
+ "equity": 2769860000.0,
+ "net_debt": 671832000.0,
+ "ocf_ttm": 721110000.0,
+ "capex_ttm": -95821000.0,
+ "fcf_ttm": 625289000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -459100000.0,
+ "stock_issuance_ttm": -459100000.0,
+ "revenue_ttm": 3653846000.0,
+ "net_income_ttm": 541184000.0,
+ "ebitda_ttm": 851985000.0,
+ "ebit_ttm": 732561000.0,
+ "interest_ttm": 42348000.0,
+ "revenue_yoy_last_q": 0.0541105391888439,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 924008000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 913687000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 946981000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 869170000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 876576000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.46
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.69
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.19
+  }
+ ],
+ "eps_ttm": 14.530000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.219905213270142,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.27586206896551735,
+ "eps_forward_growth": 0.17954232622161048,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.39403338499233775
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3627971066678195
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37534332790203817
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37676173821001646
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.37208068667177746
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3498372000.0,
+   "eps": 12.87,
+   "net_income": 484228000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3121189000.0,
+   "eps": 10.55,
+   "net_income": 404978000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2845373000.0,
+   "eps": 0.79,
+   "net_income": 354509000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2557025000.0,
+   "eps": 7.62,
+   "net_income": 294348000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.019694039825208898,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 200000000.0,
+ "gap_24m": -277149000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7885490941741932,
+ "interest_coverage": 17.298597336355908,
+ "cash_to_debt": 0.41528014823569753,
+ "ev": 20243762228.148193,
+ "ev_to_sales": 5.540398316773119,
+ "ev_to_ebitda": 23.760702627567614,
+ "pe_ttm": 36.16502008216835,
+ "pe_trailing": 36.495174,
+ "p_sales": 5.3565288,
+ "p_fcf": 31.30061496067929,
+ "p_book": 7.066035910893762
+}

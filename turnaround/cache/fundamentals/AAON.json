@@ -1,0 +1,154 @@
+{
+ "ticker": "AAON",
+ "fetched": "2026-09-28",
+ "market_cap": 7048961421.970024,
+ "shares_out": 82453639.0,
+ "price": 85.48999786376953,
+ "long_name": "AAON, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 44.994736,
+ "pe_forward": 24.437372,
+ "peg": 1.02,
+ "p_sales_y": 3.6478379,
+ "eps_trailing_y": 1.9,
+ "eps_forward": 3.49833,
+ "earnings_growth_y": 2.579,
+ "earnings_growth_q_y": 2.658,
+ "bs_date": "2026-06-30",
+ "cash": 13000.0,
+ "total_debt": 452084000.0,
+ "current_debt": 3385000.0,
+ "lease_obligations": 17084000.0,
+ "equity": 1010416000.0,
+ "net_debt": 452071000.0,
+ "ocf_ttm": 86542000.0,
+ "capex_ttm": -217909000.0,
+ "fcf_ttm": -131367000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3000.0,
+ "stock_issuance_ttm": -3000.0,
+ "revenue_ttm": 1932367000.0,
+ "net_income_ttm": 159288000.0,
+ "ebitda_ttm": 299073000.0,
+ "ebit_ttm": 213857000.0,
+ "interest_ttm": 22165000.0,
+ "revenue_yoy_last_q": 1.0123312160787248,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 626976000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 496936000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 424217000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 384238000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 311567000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.68
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.19
+  }
+ ],
+ "eps_ttm": 1.9200000000000004,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3613861386138614,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.5789473684210527,
+ "eps_forward_growth": 0.8220468749999996,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24321664625121217
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2514710143760967
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2587590784904895
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.278111482987107
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.26552555309130943
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1442076000.0,
+   "eps": 1.29,
+   "net_income": 107593000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1200635000.0,
+   "eps": 2.02,
+   "net_income": 168559000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1168518000.0,
+   "eps": 2.13,
+   "net_income": 177623000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 888788000.0,
+   "eps": 1.24,
+   "net_income": 100376000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.011515851542350575,
+ "fcf_burn_annual": 131367000.0,
+ "runway_months": 0.0011875128456918405,
+ "need_24m": 266119000.0,
+ "gap_24m": 266106000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 1.5115740972939717,
+ "interest_coverage": 9.648409654861268,
+ "cash_to_debt": 2.875571796391821e-05,
+ "ev": 7501032421.970024,
+ "ev_to_sales": 3.8817845792077925,
+ "ev_to_ebitda": 25.080941515850725,
+ "pe_ttm": 44.25293444559555,
+ "pe_trailing": 44.994736,
+ "p_sales": 3.6478379,
+ "p_fcf": null,
+ "p_book": 6.976296319506049
+}

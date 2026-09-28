@@ -1,0 +1,154 @@
+{
+ "ticker": "PHM",
+ "fetched": "2026-09-28",
+ "market_cap": 22791692427.109108,
+ "shares_out": 190486353.0,
+ "price": 119.6500015258789,
+ "long_name": "PulteGroup, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Residential Construction",
+ "pe_trailing_y": 12.221655,
+ "pe_forward": 10.848672,
+ "peg": 1.0,
+ "p_sales_y": 1.389138,
+ "eps_trailing_y": 9.79,
+ "eps_forward": 11.029,
+ "earnings_growth_y": -0.182,
+ "earnings_growth_q_y": -0.224,
+ "bs_date": "2026-06-30",
+ "cash": 1885422000.0,
+ "total_debt": 2298181000.0,
+ "current_debt": 426851000.0,
+ "lease_obligations": 133243000.0,
+ "equity": 13013731000.0,
+ "net_debt": 412759000.0,
+ "ocf_ttm": 1626318000.0,
+ "capex_ttm": -113875000.0,
+ "fcf_ttm": 1512443000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1319803000.0,
+ "stock_issuance_ttm": -1319803000.0,
+ "revenue_ttm": 16407076000.0,
+ "net_income_ttm": 1906448000.0,
+ "ebitda_ttm": 2608197000.0,
+ "ebit_ttm": 2495469000.0,
+ "interest_ttm": 607000.0,
+ "revenue_yoy_last_q": -0.09555436212959167,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3982957000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3408572000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4610748000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4404799000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4403755000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.48
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.79
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.56
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.96
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.03
+  }
+ ],
+ "eps_ttm": 9.79,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2430224642614024,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.1815181518151815,
+ "eps_forward_growth": 0.12655771195097043,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.25044734351889814
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.24118780533314244
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24778907890867166
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2643235253186354
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2720873436419601
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 17311953000.0,
+   "eps": 11.12,
+   "net_income": 2218730000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 17946950000.0,
+   "eps": 14.69,
+   "net_income": 3083262000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 16061578000.0,
+   "eps": 11.72,
+   "net_income": 2602372000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 16002979000.0,
+   "eps": 11.01,
+   "net_income": 2617317000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03599535928825548,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 426851000.0,
+ "gap_24m": -1458571000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.15825453368744768,
+ "interest_coverage": 4111.151565074135,
+ "cash_to_debt": 0.8203975230845613,
+ "ev": 23204451427.109108,
+ "ev_to_sales": 1.4142953581192108,
+ "ev_to_ebitda": 8.896740325638405,
+ "pe_ttm": 11.955055908741864,
+ "pe_trailing": 12.221655,
+ "p_sales": 1.389138,
+ "p_fcf": 15.06945546186475,
+ "p_book": 1.7513572723386635
+}

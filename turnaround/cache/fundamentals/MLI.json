@@ -1,0 +1,154 @@
+{
+ "ticker": "MLI",
+ "fetched": "2026-09-28",
+ "market_cap": 13549571457.634384,
+ "shares_out": 221181388.0,
+ "price": 61.2599983215332,
+ "long_name": "Mueller Industries, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Metal Fabrication",
+ "pe_trailing_y": 15.953125,
+ "pe_forward": 13.9863,
+ "peg": 3.41,
+ "p_sales_y": 2.9069242,
+ "eps_trailing_y": 3.84,
+ "eps_forward": 4.38,
+ "earnings_growth_y": 0.018,
+ "earnings_growth_q_y": 0.015,
+ "bs_date": "2026-06-30",
+ "cash": 1415989000.0,
+ "total_debt": 24684000.0,
+ "current_debt": 7589000.0,
+ "lease_obligations": 19441000.0,
+ "equity": 3547750000.0,
+ "net_debt": -1391305000.0,
+ "ocf_ttm": 743284000.0,
+ "capex_ttm": -76910000.0,
+ "fcf_ttm": 666374000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -76439000.0,
+ "stock_issuance_ttm": -76439000.0,
+ "revenue_ttm": 4661137000.0,
+ "net_income_ttm": 850508000.0,
+ "ebitda_ttm": 1191484000.0,
+ "ebit_ttm": 1123964000.0,
+ "interest_ttm": 200000.0,
+ "revenue_yoy_last_q": 0.25457465604965157,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1427923000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1193005000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 962385000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1077824000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1138173000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.13
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.08
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.69
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.94
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.11
+  }
+ ],
+ "eps_ttm": 3.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.29190207156308867,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.018018018018017834,
+ "eps_forward_growth": 0.140625,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27686787032634114
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.30045473405392265
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2575154434036274
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3151497832670269
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3101277222355477
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4178547000.0,
+   "eps": 3.43,
+   "net_income": 765191000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3768766000.0,
+   "eps": 2.655,
+   "net_income": 604879000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3420345000.0,
+   "eps": 2.65,
+   "net_income": 602897000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3982455000.0,
+   "eps": 2.91,
+   "net_income": 658316000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0012951905005258446,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 7589000.0,
+ "gap_24m": -1408400000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.16770766539878,
+ "interest_coverage": 5619.82,
+ "cash_to_debt": 57.364649165451304,
+ "ev": 12158266457.634384,
+ "ev_to_sales": 2.6084336198730877,
+ "ev_to_ebitda": 10.20430526774542,
+ "pe_ttm": 15.93115109750218,
+ "pe_trailing": 15.953125,
+ "p_sales": 2.9069242,
+ "p_fcf": 20.333283497907157,
+ "p_book": 3.8192013128417686
+}

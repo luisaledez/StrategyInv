@@ -1,0 +1,154 @@
+{
+ "ticker": "TXRH",
+ "fetched": "2026-09-28",
+ "market_cap": 10389645687.151917,
+ "shares_out": 65640926.0,
+ "price": 158.27999877929688,
+ "long_name": "Texas Roadhouse, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 25.3248,
+ "pe_forward": 20.349705,
+ "peg": 1.59,
+ "p_sales_y": 1.6672745,
+ "eps_trailing_y": 6.25,
+ "eps_forward": 7.778,
+ "earnings_growth_y": -0.005,
+ "earnings_growth_q_y": -0.017,
+ "bs_date": "2026-06-30",
+ "cash": 202427000.0,
+ "total_debt": 1087554000.0,
+ "current_debt": 32837000.0,
+ "lease_obligations": 1037554000.0,
+ "equity": 1558552000.0,
+ "net_debt": 885127000.0,
+ "ocf_ttm": 803314000.0,
+ "capex_ttm": -402929000.0,
+ "fcf_ttm": 400385000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -167937000.0,
+ "stock_issuance_ttm": -167478000.0,
+ "revenue_ttm": 6231515000.0,
+ "net_income_ttm": 413173000.0,
+ "ebitda_ttm": 712074000.0,
+ "ebit_ttm": 489794000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.11105555753961172,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1679976000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1633166000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1482031000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1436342000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1512054000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.85
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.87
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.28
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.25
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.86
+  }
+ ],
+ "eps_ttm": 6.25,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.057187017001545604,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.005376344086021501,
+ "eps_forward_growth": 0.24448000000000003,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.16796847097815684
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.16587781033893675
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.14374463152255249
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.14725740805462767
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1755380429534924
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5878075000.0,
+   "eps": 6.1,
+   "net_income": 405554000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5373332000.0,
+   "eps": 6.47,
+   "net_income": 433592000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4631672000.0,
+   "eps": 4.54,
+   "net_income": 304876000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4014919000.0,
+   "eps": 3.97,
+   "net_income": 269818000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.013016938364353026,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 32837000.0,
+ "gap_24m": -169590000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2430267078983364,
+ "interest_coverage": null,
+ "cash_to_debt": 0.18613052777149455,
+ "ev": 11274772687.151917,
+ "ev_to_sales": 1.8093148595729798,
+ "ev_to_ebitda": 15.833709259363376,
+ "pe_ttm": 25.145993777792636,
+ "pe_trailing": 25.3248,
+ "p_sales": 1.6672745,
+ "p_fcf": 25.949138172388867,
+ "p_book": 6.666216903351263
+}

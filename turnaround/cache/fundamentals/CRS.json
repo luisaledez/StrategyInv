@@ -1,0 +1,154 @@
+{
+ "ticker": "CRS",
+ "fetched": "2026-09-28",
+ "market_cap": 18985390867.45111,
+ "shares_out": 49558566.0,
+ "price": 383.0899963378906,
+ "long_name": "Carpenter Technology Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Metal Fabrication",
+ "pe_trailing_y": 36.415398,
+ "pe_forward": 24.123508,
+ "peg": 1.59,
+ "p_sales_y": 6.0768814,
+ "eps_trailing_y": 10.52,
+ "eps_forward": 15.88036,
+ "earnings_growth_y": 0.464,
+ "earnings_growth_q_y": 0.454,
+ "bs_date": "2026-06-30",
+ "cash": 393300000.0,
+ "total_debt": 699500000.0,
+ "current_debt": 8800000.0,
+ "lease_obligations": 8800000.0,
+ "equity": 2227600000.0,
+ "net_debt": 306200000.0,
+ "ocf_ttm": 605000000.0,
+ "capex_ttm": -242700000.0,
+ "fcf_ttm": 362300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -179100000.0,
+ "stock_issuance_ttm": -179100000.0,
+ "revenue_ttm": 3124200000.0,
+ "net_income_ttm": 529800000.0,
+ "ebitda_ttm": 847100000.0,
+ "ebit_ttm": 700000000.0,
+ "interest_ttm": 43800000.0,
+ "revenue_yoy_last_q": 0.12625727898358918,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 851000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 811500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 728000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 733700000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 755600000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.77
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.09
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.43
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.21
+  }
+ ],
+ "eps_ttm": 10.52,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.417789757412399,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.46153846153846145,
+ "eps_forward_growth": 0.5095399239543728,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.31598119858989426
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3102895871842267
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.29986263736263735
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.294943437372223
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2832186341979884
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3124200000.0,
+   "eps": 10.52,
+   "net_income": 529800000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2877100000.0,
+   "eps": 7.42,
+   "net_income": 376000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2759700000.0,
+   "eps": 3.7,
+   "net_income": 186500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2550300000.0,
+   "eps": 1.14,
+   "net_income": 56400000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.002027787463909525,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8800000.0,
+ "gap_24m": -384500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.3614685397237634,
+ "interest_coverage": 15.981735159817351,
+ "cash_to_debt": 0.5622587562544675,
+ "ev": 19291590867.45111,
+ "ev_to_sales": 6.174889849385798,
+ "ev_to_ebitda": 22.77368771981007,
+ "pe_ttm": 35.8350148498511,
+ "pe_trailing": 36.415398,
+ "p_sales": 6.0768814,
+ "p_fcf": 52.402403719158464,
+ "p_book": 8.522800712628438
+}

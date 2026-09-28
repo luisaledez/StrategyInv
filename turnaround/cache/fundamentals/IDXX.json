@@ -1,0 +1,154 @@
+{
+ "ticker": "IDXX",
+ "fetched": "2026-09-28",
+ "market_cap": 41344723005.36987,
+ "shares_out": 78781116.0,
+ "price": 524.8049926757812,
+ "long_name": "IDEXX Laboratories, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Diagnostics & Research",
+ "pe_trailing_y": 36.880184,
+ "pe_forward": 31.355564,
+ "peg": 2.84,
+ "p_sales_y": 9.08032,
+ "eps_trailing_y": 14.23,
+ "eps_forward": 16.73722,
+ "earnings_growth_y": 0.176,
+ "earnings_growth_q_y": 0.151,
+ "bs_date": "2026-06-30",
+ "cash": 196933000.0,
+ "total_debt": 1096081000.0,
+ "current_debt": 695714000.0,
+ "lease_obligations": 127217000.0,
+ "equity": 1612575000.0,
+ "net_debt": 899148000.0,
+ "ocf_ttm": 1371510000.0,
+ "capex_ttm": -134420000.0,
+ "fcf_ttm": 1237090000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1175809000.0,
+ "stock_issuance_ttm": -1175809000.0,
+ "revenue_ttm": 4553223000.0,
+ "net_income_ttm": 1139656000.0,
+ "ebitda_ttm": 1616289000.0,
+ "ebit_ttm": 1462207000.0,
+ "interest_ttm": 37788000.0,
+ "revenue_yoy_last_q": 0.0965589473048527,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1216585000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1140820000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1090579000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1105239000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1109457000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.4
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.63
+  }
+ ],
+ "eps_ttm": 14.22,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.22586691658856606,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1763085399449036,
+ "eps_forward_growth": 0.17701969057665257,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6403884644311741
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6335258848898161
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6034537617173996
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6182861806360435
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6261910105574168
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4303702000.0,
+   "eps": 13.08,
+   "net_income": 1059464000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3897504000.0,
+   "eps": 10.67,
+   "net_income": 887867000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3660953000.0,
+   "eps": 10.06,
+   "net_income": 845042000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3367324000.0,
+   "eps": 8.03,
+   "net_income": 679089000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.015920149719276355,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 695714000.0,
+ "gap_24m": 498781000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.5563039778158485,
+ "interest_coverage": 38.69500899756537,
+ "cash_to_debt": 0.17967011562101706,
+ "ev": 42243871005.36987,
+ "ev_to_sales": 9.27779531232489,
+ "ev_to_ebitda": 26.1363351513064,
+ "pe_ttm": 36.27824800235323,
+ "pe_trailing": 36.880184,
+ "p_sales": 9.08032,
+ "p_fcf": 33.420949975644355,
+ "p_book": 25.63894578879734
+}

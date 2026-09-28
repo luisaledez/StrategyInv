@@ -1,0 +1,154 @@
+{
+ "ticker": "RSG",
+ "fetched": "2026-09-28",
+ "market_cap": 65151404077.27243,
+ "shares_out": 306212978.0,
+ "price": 212.76499938964844,
+ "long_name": "Republic Services, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Waste Management",
+ "pe_trailing_y": 30.136686,
+ "pe_forward": 26.401049,
+ "peg": 2.73,
+ "p_sales_y": 3.857167,
+ "eps_trailing_y": 7.06,
+ "eps_forward": 8.05896,
+ "earnings_growth_y": 0.051,
+ "earnings_growth_q_y": 0.029,
+ "bs_date": "2026-06-30",
+ "cash": 107000000.0,
+ "total_debt": 14295000000.0,
+ "current_debt": 597000000.0,
+ "lease_obligations": 226000000.0,
+ "equity": 12032000000.0,
+ "net_debt": 14188000000.0,
+ "ocf_ttm": 4542000000.0,
+ "capex_ttm": -1889000000.0,
+ "fcf_ttm": 2653000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1469000000.0,
+ "stock_issuance_ttm": -1469000000.0,
+ "revenue_ttm": 16890000000.0,
+ "net_income_ttm": 2185000000.0,
+ "ebitda_ttm": 5138000000.0,
+ "ebit_ttm": 3155000000.0,
+ "interest_ttm": 591000000.0,
+ "revenue_yoy_last_q": 0.046044864226682414,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4430000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4113000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4135000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4212000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4235000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.84
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.7
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.76
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.76
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.75
+  }
+ ],
+ "eps_ttm": 7.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.055469953775038494,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.05142857142857138,
+ "eps_forward_growth": 0.14149575070821552,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42144469525959366
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.424750790177486
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.41862152357920196
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.41524216524216523
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.42172373081463993
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 16591000000.0,
+   "eps": 6.85,
+   "net_income": 2139000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16032000000.0,
+   "eps": 6.49,
+   "net_income": 2043000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14965000000.0,
+   "eps": 5.47,
+   "net_income": 1731000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 13511000000.0,
+   "eps": 4.69,
+   "net_income": 1488000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02079064032525646,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 597000000.0,
+ "gap_24m": 490000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.7613857532113664,
+ "interest_coverage": 5.338409475465313,
+ "cash_to_debt": 0.0074851346624693945,
+ "ev": 79339404077.27243,
+ "ev_to_sales": 4.697418832283744,
+ "ev_to_ebitda": 15.441690166849442,
+ "pe_ttm": 29.817576236737953,
+ "pe_trailing": 30.136686,
+ "p_sales": 3.857167,
+ "p_fcf": 24.557634405304345,
+ "p_book": 5.414844088869052
+}

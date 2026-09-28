@@ -1,0 +1,154 @@
+{
+ "ticker": "VRT",
+ "fetched": "2026-09-28",
+ "market_cap": 94200830170.59247,
+ "shares_out": 384988173.0,
+ "price": 244.68499755859375,
+ "long_name": "Vertiv Holdings Co",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 55.233635,
+ "pe_forward": 26.822554,
+ "peg": 0.85,
+ "p_sales_y": 8.205933,
+ "eps_trailing_y": 4.43,
+ "eps_forward": 9.12236,
+ "earnings_growth_y": 0.53,
+ "earnings_growth_q_y": 0.535,
+ "bs_date": "2026-06-30",
+ "cash": 3110600000.0,
+ "total_debt": 3338200000.0,
+ "current_debt": 82000000.0,
+ "lease_obligations": 398400000.0,
+ "equity": 4757600000.0,
+ "net_debt": 227600000.0,
+ "ocf_ttm": 3354200000.0,
+ "capex_ttm": -430200000.0,
+ "fcf_ttm": 2924000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 11479600000.0,
+ "net_income_ttm": 1732000000.0,
+ "ebitda_ttm": 2553100000.0,
+ "ebit_ttm": 2165900000.0,
+ "interest_ttm": 78200000.0,
+ "revenue_yoy_last_q": 0.2411584094613548,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3274300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2649500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2880000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2675800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2638100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.99
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.83
+  }
+ ],
+ "eps_ttm": 4.42,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.6640625,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.530120481927711,
+ "eps_forward_growth": 1.0638823529411767,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37714931435726723
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.37731647480656727
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.389375
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3777188130652515
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33986581251658393
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 10229900000.0,
+   "eps": 3.41,
+   "net_income": 1332800000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8011800000.0,
+   "eps": 1.28,
+   "net_income": 495800000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6863200000.0,
+   "eps": 1.19,
+   "net_income": 460200000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5691500000.0,
+   "eps": 0.04,
+   "net_income": 76600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.008206195879209455,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 82000000.0,
+ "gap_24m": -3028600000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.08914652775057773,
+ "interest_coverage": 27.69693094629156,
+ "cash_to_debt": 0.9318195434665388,
+ "ev": 94428430170.59247,
+ "ev_to_sales": 8.225759623209212,
+ "ev_to_ebitda": 36.98579380776016,
+ "pe_ttm": 54.38847007539981,
+ "pe_trailing": 55.233635,
+ "p_sales": 8.205933,
+ "p_fcf": 32.21642618693313,
+ "p_book": 19.800073602360953
+}

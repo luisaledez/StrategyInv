@@ -1,0 +1,154 @@
+{
+ "ticker": "ALGM",
+ "fetched": "2026-09-28",
+ "market_cap": 6923904083.998085,
+ "shares_out": 186402046.0,
+ "price": 37.14500045776367,
+ "long_name": "Allegro MicroSystems, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 530.6429,
+ "pe_forward": 25.162922,
+ "peg": null,
+ "p_sales_y": 7.319648,
+ "eps_trailing_y": 0.07,
+ "eps_forward": 1.47618,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 162029000.0,
+ "total_debt": 304007000.0,
+ "current_debt": 6916000.0,
+ "lease_obligations": 16848000.0,
+ "equity": 964276000.0,
+ "net_debt": 141978000.0,
+ "ocf_ttm": 123440000.0,
+ "capex_ttm": -35593000.0,
+ "fcf_ttm": 87847000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -116000.0,
+ "stock_issuance_ttm": -116000.0,
+ "revenue_ttm": 945934000.0,
+ "net_income_ttm": 14201000.0,
+ "ebitda_ttm": 100921000.0,
+ "ebit_ttm": 32677000.0,
+ "interest_ttm": 20160000.0,
+ "revenue_yoy_last_q": 0.27451635898822535,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 259243000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 243187000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 229210000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 214294000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 203405000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.09
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.07
+  }
+ ],
+ "eps_ttm": 0.060000000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 23.602999999999998,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4845261009940481
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4699058749028525
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4672614632869421
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.46334475066964076
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44886802192669795
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 890096000.0,
+   "eps": -0.08,
+   "net_income": -14897000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 725006000.0,
+   "eps": -0.39,
+   "net_income": -73010000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1049367000.0,
+   "eps": 0.78,
+   "net_income": 152697000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 973653000.0,
+   "eps": 0.97,
+   "net_income": 187357000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.007464102703037323,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6916000.0,
+ "gap_24m": -155113000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4068231587082967,
+ "interest_coverage": 1.6208829365079365,
+ "cash_to_debt": 0.5329778590624558,
+ "ev": 7065882083.998085,
+ "ev_to_sales": 7.46974110667138,
+ "ev_to_ebitda": 70.01399197390123,
+ "pe_ttm": 487.5645436235536,
+ "pe_trailing": 530.6429,
+ "p_sales": 7.319648,
+ "p_fcf": 78.81776365724595,
+ "p_book": 7.1804173120538985
+}

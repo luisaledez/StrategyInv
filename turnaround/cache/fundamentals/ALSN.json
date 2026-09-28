@@ -1,0 +1,154 @@
+{
+ "ticker": "ALSN",
+ "fetched": "2026-09-28",
+ "market_cap": 9396555019.622452,
+ "shares_out": 82578038.0,
+ "price": 113.79000091552734,
+ "long_name": "Allison Transmission Holdings, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 18.004747,
+ "pe_forward": 10.054208,
+ "peg": 0.52,
+ "p_sales_y": 2.1346104,
+ "eps_trailing_y": 6.32,
+ "eps_forward": 11.31765,
+ "earnings_growth_y": -0.061,
+ "earnings_growth_q_y": -0.072,
+ "bs_date": "2026-06-30",
+ "cash": 399000000.0,
+ "total_debt": 4114000000.0,
+ "current_debt": 20000000.0,
+ "lease_obligations": 6000000.0,
+ "equity": 1979000000.0,
+ "net_debt": 3715000000.0,
+ "ocf_ttm": 939000000.0,
+ "capex_ttm": -202000000.0,
+ "fcf_ttm": 737000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -139000000.0,
+ "stock_issuance_ttm": -139000000.0,
+ "revenue_ttm": 4402000000.0,
+ "net_income_ttm": 529000000.0,
+ "ebitda_ttm": 1082000000.0,
+ "ebit_ttm": 853000000.0,
+ "interest_ttm": 164000000.0,
+ "revenue_yoy_last_q": 0.9238329238329239,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1566000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1406000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 737000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 693000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 814000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.33
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.18
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.63
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.29
+  }
+ ],
+ "eps_ttm": 6.29,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.1179302045728039,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.06113537117903933,
+ "eps_forward_growth": 0.799308426073132,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3288633461047254
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2887624466571835
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.48032564450474896
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.47474747474747475
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4950859950859951
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3010000000.0,
+   "eps": 7.33,
+   "net_income": 623000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3225000000.0,
+   "eps": 8.31,
+   "net_income": 731000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3035000000.0,
+   "eps": 7.4,
+   "net_income": 673000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2769000000.0,
+   "eps": 5.53,
+   "net_income": 531000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02323430661404502,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 20000000.0,
+ "gap_24m": -379000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.433456561922366,
+ "interest_coverage": 5.201219512195122,
+ "cash_to_debt": 0.09698590179873602,
+ "ev": 13111555019.622452,
+ "ev_to_sales": 2.9785449840123697,
+ "ev_to_ebitda": 12.117888188190806,
+ "pe_ttm": 17.76286393123337,
+ "pe_trailing": 18.004747,
+ "p_sales": 2.1346104,
+ "p_fcf": 12.749735440464656,
+ "p_book": 4.748132905317055
+}

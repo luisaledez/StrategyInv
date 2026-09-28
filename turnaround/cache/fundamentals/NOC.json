@@ -1,0 +1,154 @@
+{
+ "ticker": "NOC",
+ "fetched": "2026-09-28",
+ "market_cap": 72077094790.35864,
+ "shares_out": 142063026.0,
+ "price": 507.3599853515625,
+ "long_name": "Northrop Grumman Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 16.132273,
+ "pe_forward": 16.65294,
+ "peg": 3.38,
+ "p_sales_y": 1.680432,
+ "eps_trailing_y": 31.45,
+ "eps_forward": 30.46669,
+ "earnings_growth_y": -0.058,
+ "earnings_growth_q_y": -0.068,
+ "bs_date": "2026-06-30",
+ "cash": 2307000000.0,
+ "total_debt": 16289000000.0,
+ "current_debt": null,
+ "lease_obligations": 1861000000.0,
+ "equity": 17884000000.0,
+ "net_debt": 13982000000.0,
+ "ocf_ttm": 5078000000.0,
+ "capex_ttm": -1432000000.0,
+ "fcf_ttm": 3646000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -801000000.0,
+ "stock_issuance_ttm": -801000000.0,
+ "revenue_ttm": 42892000000.0,
+ "net_income_ttm": 4496000000.0,
+ "ebitda_ttm": 7444000000.0,
+ "ebit_ttm": 5920000000.0,
+ "interest_ttm": 659000000.0,
+ "revenue_yoy_last_q": 0.050719737223456685,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 10876000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 9881000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 11712000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 10423000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 10351000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7.68
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7.67
+  },
+  {
+   "period": "2025-06-30",
+   "value": 8.15
+  },
+  {
+   "period": "2025-03-31",
+   "value": 3.32
+  }
+ ],
+ "eps_ttm": 29.64,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.026111503175723305,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.3132530120481927,
+ "eps_forward_growth": 0.027891025641025635,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.19501655020228026
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.19836048982896468
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.19603825136612021
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.21366209344718412
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2135059414549319
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 41954000000.0,
+   "eps": 29.08,
+   "net_income": 4182000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 41033000000.0,
+   "eps": 28.34,
+   "net_income": 4174000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 39290000000.0,
+   "eps": 13.53,
+   "net_income": 2056000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 36602000000.0,
+   "eps": 31.47,
+   "net_income": 4896000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.008468555949079581,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -2307000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.8782912412681354,
+ "interest_coverage": 8.98330804248862,
+ "cash_to_debt": 0.14162932040027013,
+ "ev": 86059094790.35864,
+ "ev_to_sales": 2.006413661996611,
+ "ev_to_ebitda": 11.560867113159409,
+ "pe_ttm": 16.031382293229235,
+ "pe_trailing": 16.132273,
+ "p_sales": 1.680432,
+ "p_fcf": 19.768813711014438,
+ "p_book": 4.030255803531572
+}

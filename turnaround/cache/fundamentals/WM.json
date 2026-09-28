@@ -1,0 +1,154 @@
+{
+ "ticker": "WM",
+ "fetched": "2026-09-28",
+ "market_cap": 82469276285.49951,
+ "shares_out": 399715184.0,
+ "price": 206.32009887695312,
+ "long_name": "Waste Management, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Waste Management",
+ "pe_trailing_y": 29.182474,
+ "pe_forward": 22.631802,
+ "peg": 1.89,
+ "p_sales_y": 3.213047,
+ "eps_trailing_y": 7.07,
+ "eps_forward": 9.11638,
+ "earnings_growth_y": 0.083,
+ "earnings_growth_q_y": 0.081,
+ "bs_date": "2026-06-30",
+ "cash": 557000000.0,
+ "total_debt": 23356000000.0,
+ "current_debt": 1075000000.0,
+ "lease_obligations": null,
+ "equity": 9925000000.0,
+ "net_debt": 22799000000.0,
+ "ocf_ttm": 6517000000.0,
+ "capex_ttm": -2944000000.0,
+ "fcf_ttm": 3573000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1003000000.0,
+ "stock_issuance_ttm": -1003000000.0,
+ "revenue_ttm": 25667000000.0,
+ "net_income_ttm": 2853000000.0,
+ "ebitda_ttm": 7464000000.0,
+ "ebit_ttm": 4531000000.0,
+ "interest_ttm": 906000000.0,
+ "revenue_yoy_last_q": 0.039502332814929986,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6684000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6227000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6313000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6443000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6430000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.95
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.79
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.83
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.49
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.8
+  }
+ ],
+ "eps_ttm": 7.0600000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.01615271659324513,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.08333333333333326,
+ "eps_forward_growth": 0.29127195467422085,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4082884500299222
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.40677693913602053
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4150166323459528
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4050907962129443
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.40855365474339034
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 25204000000.0,
+   "eps": 6.7,
+   "net_income": 2708000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 22063000000.0,
+   "eps": 6.81,
+   "net_income": 2746000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 20426000000.0,
+   "eps": 5.66,
+   "net_income": 2304000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 19698000000.0,
+   "eps": 5.39,
+   "net_income": 2238000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.006544131608797743,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1075000000.0,
+ "gap_24m": 518000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.054528403001072,
+ "interest_coverage": 5.001103752759382,
+ "cash_to_debt": 0.023848261688645317,
+ "ev": 105268276285.49951,
+ "ev_to_sales": 4.101308149978553,
+ "ev_to_ebitda": 14.103466812098006,
+ "pe_ttm": 28.90616063284245,
+ "pe_trailing": 29.182474,
+ "p_sales": 3.213047,
+ "p_fcf": 23.081241613629867,
+ "p_book": 8.309246980906751
+}

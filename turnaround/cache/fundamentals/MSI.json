@@ -1,0 +1,154 @@
+{
+ "ticker": "MSI",
+ "fetched": "2026-09-28",
+ "market_cap": 75049776303.96973,
+ "shares_out": 165493788.0,
+ "price": 453.489990234375,
+ "long_name": "Motorola Solutions, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Communication Equipment",
+ "pe_trailing_y": 35.707874,
+ "pe_forward": 23.338865,
+ "peg": 2.01,
+ "p_sales_y": 6.1330214,
+ "eps_trailing_y": 12.7,
+ "eps_forward": 19.43068,
+ "earnings_growth_y": 0.095,
+ "earnings_growth_q_y": 0.086,
+ "bs_date": "2026-06-30",
+ "cash": 710000000.0,
+ "total_debt": 9619000000.0,
+ "current_debt": 760000000.0,
+ "lease_obligations": 587000000.0,
+ "equity": 2672000000.0,
+ "net_debt": 8909000000.0,
+ "ocf_ttm": 2974000000.0,
+ "capex_ttm": -297000000.0,
+ "fcf_ttm": 2677000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1032000000.0,
+ "stock_issuance_ttm": -986000000.0,
+ "revenue_ttm": 12236000000.0,
+ "net_income_ttm": 2134000000.0,
+ "ebitda_ttm": 3757000000.0,
+ "ebit_ttm": 3208000000.0,
+ "interest_ttm": 440000000.0,
+ "revenue_yoy_last_q": 0.13309222423146472,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3133000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2714000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3380000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3009000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2765000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.33
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.86
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.33
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.04
+  }
+ ],
+ "eps_ttm": 12.7,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3813651137594798,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.09539473684210531,
+ "eps_forward_growth": 0.5299748031496063,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5355888924353654
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5018422991893884
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5230769230769231
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5164506480558325
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5110307414104882
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11682000000.0,
+   "eps": 12.75,
+   "net_income": 2154000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 10817000000.0,
+   "eps": 9.23,
+   "net_income": 1577000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9978000000.0,
+   "eps": 9.93,
+   "net_income": 1709000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9112000000.0,
+   "eps": 7.93,
+   "net_income": 1363000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.006602641056422609,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 760000000.0,
+ "gap_24m": 50000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.371306893798243,
+ "interest_coverage": 7.290909090909091,
+ "cash_to_debt": 0.07381224659528017,
+ "ev": 83958776303.96973,
+ "ev_to_sales": 6.861619508333583,
+ "ev_to_ebitda": 22.347292069196094,
+ "pe_ttm": 35.16859245734289,
+ "pe_trailing": 35.707874,
+ "p_sales": 6.1330214,
+ "p_fcf": 28.03503037129986,
+ "p_book": 28.087491131725198
+}

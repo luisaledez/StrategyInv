@@ -1,0 +1,154 @@
+{
+ "ticker": "KLAC",
+ "fetched": "2026-09-28",
+ "market_cap": 248584162425.13275,
+ "shares_out": 1305006492.0,
+ "price": 190.48500061035156,
+ "long_name": "KLA Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 52.043713,
+ "pe_forward": 28.406998,
+ "peg": 1.8,
+ "p_sales_y": 18.305391,
+ "eps_trailing_y": 3.66,
+ "eps_forward": 6.70539,
+ "earnings_growth_y": 0.138,
+ "earnings_growth_q_y": 0.133,
+ "bs_date": "2026-06-30",
+ "cash": 4902408000.0,
+ "total_debt": 6151713000.0,
+ "current_debt": 52937000.0,
+ "lease_obligations": 264298000.0,
+ "equity": 6349820000.0,
+ "net_debt": 1249305000.0,
+ "ocf_ttm": 4143079000.0,
+ "capex_ttm": -375945000.0,
+ "fcf_ttm": 3767134000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2289769000.0,
+ "stock_issuance_ttm": -2121196000.0,
+ "revenue_ttm": 13579476000.0,
+ "net_income_ttm": 4830771000.0,
+ "ebitda_ttm": 6284343000.0,
+ "ebit_ttm": 5890365000.0,
+ "interest_ttm": 284440000.0,
+ "revenue_yoy_last_q": 0.15208012244148428,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3657556000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3415078000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3297146000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3209696000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3174741000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.912
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.868
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.847
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.906
+  }
+ ],
+ "eps_ttm": 3.667,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20513664800790266,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14790286975717448,
+ "eps_forward_growth": 0.8285764930460868,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6136469270737072
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6112323056750095
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6144514073686759
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6127141012731424
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6197214197945596
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 13579476000.0,
+   "eps": 3.66,
+   "net_income": 4830771000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 12156162000.0,
+   "eps": 3.037,
+   "net_income": 4061643000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9812247000.0,
+   "eps": 2.028,
+   "net_income": 2761896000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10496056000.0,
+   "eps": 2.415,
+   "net_income": 3387277000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.010033857736909457,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 52937000.0,
+ "gap_24m": -4849471000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.1987964374318843,
+ "interest_coverage": 20.70863802559415,
+ "cash_to_debt": 0.7969175415042932,
+ "ev": 249833467425.13275,
+ "ev_to_sales": 18.397872452893818,
+ "ev_to_ebitda": 39.7549063482265,
+ "pe_ttm": 51.458486114355814,
+ "pe_trailing": 52.043713,
+ "p_sales": 18.305391,
+ "p_fcf": 65.98760819900029,
+ "p_book": 39.148221906311164
+}

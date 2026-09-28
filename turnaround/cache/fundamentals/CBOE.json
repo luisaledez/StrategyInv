@@ -1,0 +1,154 @@
+{
+ "ticker": "CBOE",
+ "fetched": "2026-09-28",
+ "market_cap": 26565496162.7332,
+ "shares_out": 104431019.0,
+ "price": 254.38319396972656,
+ "long_name": "Cboe Global Markets, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Financial Data & Stock Exchanges",
+ "pe_trailing_y": 19.842684,
+ "pe_forward": 16.710451,
+ "peg": 2.28,
+ "p_sales_y": 5.2487493,
+ "eps_trailing_y": 12.82,
+ "eps_forward": 15.223,
+ "earnings_growth_y": 0.502,
+ "earnings_growth_q_y": 0.502,
+ "bs_date": "2026-06-30",
+ "cash": 2390700000.0,
+ "total_debt": 1580300000.0,
+ "current_debt": 674600000.0,
+ "lease_obligations": 136500000.0,
+ "equity": 5625800000.0,
+ "net_debt": -810400000.0,
+ "ocf_ttm": 1962800000.0,
+ "capex_ttm": -88300000.0,
+ "fcf_ttm": 1874500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -75300000.0,
+ "stock_issuance_ttm": -75300000.0,
+ "revenue_ttm": 5061300000.0,
+ "net_income_ttm": 1353100000.0,
+ "ebitda_ttm": 2064900000.0,
+ "ebit_ttm": 1945100000.0,
+ "interest_ttm": 53100000.0,
+ "revenue_yoy_last_q": 0.22948444823178527,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1442800000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1272800000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1204000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1141700000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1173500000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.35
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.66
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.97
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.85
+  },
+  {
+   "period": "2025-03-31",
+   "value": 2.37
+  }
+ ],
+ "eps_ttm": 12.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.44521497919556174,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4135021097046414,
+ "eps_forward_growth": 0.18651597817614962,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3998475187136124
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.47218730358265243
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4514950166112957
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.41718489971095735
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3914784831700043
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4714200000.0,
+   "eps": 10.42,
+   "net_income": 1100000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4094500000.0,
+   "eps": 7.21,
+   "net_income": 764900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3773500000.0,
+   "eps": 7.13,
+   "net_income": 761400000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3958500000.0,
+   "eps": 2.19,
+   "net_income": 235000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.00033547206695716536,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 674600000.0,
+ "gap_24m": -1716100000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.39246452612717325,
+ "interest_coverage": 36.63088512241055,
+ "cash_to_debt": 1.5128140226539264,
+ "ev": 25755096162.7332,
+ "ev_to_sales": 5.088632596908541,
+ "ev_to_ebitda": 12.472805541543513,
+ "pe_ttm": 19.63306197822275,
+ "pe_trailing": 19.842684,
+ "p_sales": 5.2487493,
+ "p_fcf": 14.172043831812857,
+ "p_book": 4.722083288196026
+}

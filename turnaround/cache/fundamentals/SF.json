@@ -1,0 +1,133 @@
+{
+ "ticker": "SF",
+ "fetched": "2026-09-28",
+ "market_cap": 10586731662.904144,
+ "shares_out": 151001734.0,
+ "price": 70.11000061035156,
+ "long_name": "Stifel Financial Corp.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 12.542039,
+ "pe_forward": 9.566656,
+ "peg": 0.83,
+ "p_sales_y": 1.8144969,
+ "eps_trailing_y": 5.59,
+ "eps_forward": 7.32858,
+ "earnings_growth_y": 0.506,
+ "earnings_growth_q_y": 0.461,
+ "bs_date": "2026-06-30",
+ "cash": 2724032000.0,
+ "total_debt": 1960945000.0,
+ "current_debt": null,
+ "lease_obligations": 838090000.0,
+ "equity": 6013241000.0,
+ "net_debt": -763087000.0,
+ "ocf_ttm": 454294000.0,
+ "capex_ttm": -93321000.0,
+ "fcf_ttm": 360973000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -337271000.0,
+ "stock_issuance_ttm": -337271000.0,
+ "revenue_ttm": 5856636000.0,
+ "net_income_ttm": 953628000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 772912000.0,
+ "revenue_yoy_last_q": 0.13307527187209,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1435765000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1463120000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1544162000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1413589000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1267140000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.34
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.54
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.226667
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.893333
+  }
+ ],
+ "eps_ttm": 5.586667,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.06080015513598758,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5000005597017014,
+ "eps_forward_growth": 0.3117982510860231,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5463554000.0,
+   "eps": 3.913333,
+   "net_income": 683779000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4907497000.0,
+   "eps": 4.166667,
+   "net_income": 731379000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4290600000.0,
+   "eps": 2.853333,
+   "net_income": 522536000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4333687000.0,
+   "eps": 3.546667,
+   "net_income": 662155000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.011060574897580056,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -2724032000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 1.3891424797737826,
+ "ev": 9823644662.904144,
+ "ev_to_sales": 1.6773527777557191,
+ "ev_to_ebitda": null,
+ "pe_ttm": 11.101531900179257,
+ "pe_trailing": 12.542039,
+ "p_sales": 1.8144969,
+ "p_fcf": 29.32832002089947,
+ "p_book": 1.7605699926053429
+}

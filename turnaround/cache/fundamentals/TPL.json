@@ -1,0 +1,154 @@
+{
+ "ticker": "TPL",
+ "fetched": "2026-09-28",
+ "market_cap": 23458978424.758667,
+ "shares_out": 68974683.0,
+ "price": 340.1099853515625,
+ "long_name": "Texas Pacific Land Corporation",
+ "sector_y": "Energy",
+ "industry_y": "Oil & Gas E&P",
+ "pe_trailing_y": 43.381374,
+ "pe_forward": 4.6513944,
+ "peg": 7.33,
+ "p_sales_y": 26.136944,
+ "eps_trailing_y": 7.84,
+ "eps_forward": 73.12,
+ "earnings_growth_y": 0.327,
+ "earnings_growth_q_y": 0.325,
+ "bs_date": "2026-06-30",
+ "cash": 248612000.0,
+ "total_debt": 15513000.0,
+ "current_debt": null,
+ "lease_obligations": 15513000.0,
+ "equity": 1672398000.0,
+ "net_debt": -233099000.0,
+ "ocf_ttm": 603151000.0,
+ "capex_ttm": -527153000.0,
+ "fcf_ttm": 75998000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -8280000.0,
+ "stock_issuance_ttm": -8280000.0,
+ "revenue_ttm": 897541000.0,
+ "net_income_ttm": 541416000.0,
+ "ebitda_ttm": 763997000.0,
+ "ebit_ttm": 696422000.0,
+ "interest_ttm": 1965000.0,
+ "revenue_yoy_last_q": 0.3120137781735388,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 246059000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 236818000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 211579000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 203085000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 187543000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.07
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.79
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.756667
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.68
+  }
+ ],
+ "eps_ttm": 7.846667,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.060344881356231284,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.32738095238095233,
+ "eps_forward_growth": 8.318606231155217,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8853567640281396
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8803722689998227
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8135306434003374
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8454292537607406
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.881893752366124
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 798190000.0,
+   "eps": 6.97,
+   "net_income": 481376000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 705823000.0,
+   "eps": 6.573333,
+   "net_income": 453960000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 631595000.0,
+   "eps": 5.863333,
+   "net_income": 405645000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 667422000.0,
+   "eps": 6.418889,
+   "net_income": 446362000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.00018423195459971176,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -248612000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.305104601196078,
+ "interest_coverage": 354.41323155216287,
+ "cash_to_debt": 16.02604267388642,
+ "ev": 23225879424.758667,
+ "ev_to_sales": 25.877235050831846,
+ "ev_to_ebitda": 30.40048511284556,
+ "pe_ttm": 43.32893454341701,
+ "pe_trailing": 43.381374,
+ "p_sales": 26.136944,
+ "p_fcf": 308.6788918755581,
+ "p_book": 14.027150489751044
+}

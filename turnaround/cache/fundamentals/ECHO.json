@@ -1,0 +1,154 @@
+{
+ "ticker": "ECHO",
+ "fetched": "2026-09-28",
+ "market_cap": 26074549638.03943,
+ "shares_out": 290815844.0,
+ "price": 89.66000366210938,
+ "long_name": "EchoStar Corporation",
+ "sector_y": "Communication Services",
+ "industry_y": "Telecom Services",
+ "pe_trailing_y": null,
+ "pe_forward": 3.944567,
+ "peg": 1.33,
+ "p_sales_y": 1.779356,
+ "eps_trailing_y": -24.88,
+ "eps_forward": 22.73,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 496193000.0,
+ "total_debt": 17552028000.0,
+ "current_debt": 1446316000.0,
+ "lease_obligations": 120325000.0,
+ "equity": 14155098000.0,
+ "net_debt": 17055835000.0,
+ "ocf_ttm": -85317000.0,
+ "capex_ttm": -742390000.0,
+ "fcf_ttm": -827707000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 14653925000.0,
+ "net_income_ttm": -5672892000.0,
+ "ebitda_ttm": -5612481000.0,
+ "ebit_ttm": -6553786000.0,
+ "interest_ttm": 2058232000.0,
+ "revenue_yoy_last_q": -0.03994540611051023,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3576164000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3667489000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3796014000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3614258000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3724959000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 24.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.51
+  },
+  {
+   "period": "2025-09-30",
+   "value": -44.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.06
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.71
+  }
+ ],
+ "eps_ttm": -21.819999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3436763526504937
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.30874366630683825
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2937562927850108
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.23583568190206675
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24406738436584136
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 15004989000.0,
+   "eps": -50.41,
+   "net_income": -14497180000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 15825516000.0,
+   "eps": -0.44,
+   "net_income": -119546000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17015598000.0,
+   "eps": -6.28,
+   "net_income": -1702057000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 18634246000.0,
+   "eps": 8.05,
+   "net_income": 2477720000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.009748826676005518,
+ "fcf_burn_annual": 827707000.0,
+ "runway_months": 7.193748512456703,
+ "need_24m": 3101730000.0,
+ "gap_24m": 2605537000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": -3.0389118466503495,
+ "interest_coverage": -3.184182346790838,
+ "cash_to_debt": 0.02826983867619172,
+ "ev": 43130384638.03943,
+ "ev_to_sales": 2.943265004975761,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.779356,
+ "p_fcf": null,
+ "p_book": 1.8420606934716686
+}

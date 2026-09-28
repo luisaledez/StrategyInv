@@ -1,0 +1,154 @@
+{
+ "ticker": "FLEX",
+ "fetched": "2026-09-28",
+ "market_cap": 42119326311.49873,
+ "shares_out": 369402978.0,
+ "price": 114.0199966430664,
+ "long_name": "Flex Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 44.023167,
+ "pe_forward": 16.034063,
+ "peg": 0.94,
+ "p_sales_y": 1.4391407,
+ "eps_trailing_y": 2.59,
+ "eps_forward": 7.11111,
+ "earnings_growth_y": 0.52,
+ "earnings_growth_q_y": 0.484,
+ "bs_date": "2026-06-30",
+ "cash": 2389000000.0,
+ "total_debt": 4316000000.0,
+ "current_debt": 675000000.0,
+ "lease_obligations": 565000000.0,
+ "equity": 5144000000.0,
+ "net_debt": 1927000000.0,
+ "ocf_ttm": 1685000000.0,
+ "capex_ttm": -633000000.0,
+ "fcf_ttm": 1052000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -944000000.0,
+ "stock_issuance_ttm": -944000000.0,
+ "revenue_ttm": 27914000000.0,
+ "net_income_ttm": 880000000.0,
+ "ebitda_ttm": 1921000000.0,
+ "ebit_ttm": 1358000000.0,
+ "interest_ttm": 215000000.0,
+ "revenue_yoy_last_q": 0.16864645201625517,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 7477000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7058000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6804000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6575000000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 6398000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.76
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.64
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.52
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5
+  }
+ ],
+ "eps_ttm": 2.5900000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.10426540284360208,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.52,
+ "eps_forward_growth": 1.7456023166023162,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.09388792296375552
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.09620289033720601
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.09024103468547913
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08699619771863118
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.08799624882775868
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 27914000000.0,
+   "eps": 2.33,
+   "net_income": 880000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 25813000000.0,
+   "eps": 2.11,
+   "net_income": 838000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 26415000000.0,
+   "eps": 2.28,
+   "net_income": 1006000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 28502000000.0,
+   "eps": 1.72,
+   "net_income": 793000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.018141225065469335,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 675000000.0,
+ "gap_24m": -1714000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0031233732431026,
+ "interest_coverage": 6.316279069767442,
+ "cash_to_debt": 0.5535217794253939,
+ "ev": 44046326311.49873,
+ "ev_to_sales": 1.5779295805509326,
+ "ev_to_ebitda": 22.928852843049835,
+ "pe_ttm": 47.862870808521286,
+ "pe_trailing": 44.023167,
+ "p_sales": 1.4391407,
+ "p_fcf": 40.03738242537902,
+ "p_book": 8.18804943847176
+}

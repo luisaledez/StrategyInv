@@ -1,0 +1,154 @@
+{
+ "ticker": "ORLY",
+ "fetched": "2026-09-28",
+ "market_cap": 69971065925.91718,
+ "shares_out": 808960792.0,
+ "price": 86.49500274658203,
+ "long_name": "O'Reilly Automotive, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 27.45873,
+ "pe_forward": 23.682467,
+ "peg": 1.61,
+ "p_sales_y": 3.7674427,
+ "eps_trailing_y": 3.15,
+ "eps_forward": 3.65228,
+ "earnings_growth_y": 0.103,
+ "earnings_growth_q_y": 0.07,
+ "bs_date": "2026-06-30",
+ "cash": 262181000.0,
+ "total_debt": 9587433000.0,
+ "current_debt": 452275000.0,
+ "lease_obligations": 2572890000.0,
+ "equity": -1835725000.0,
+ "net_debt": 9325252000.0,
+ "ocf_ttm": 3289439000.0,
+ "capex_ttm": -1133180000.0,
+ "fcf_ttm": 2156259000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3353345000.0,
+ "stock_issuance_ttm": -3282926000.0,
+ "revenue_ttm": 18572562000.0,
+ "net_income_ttm": 2650374000.0,
+ "ebitda_ttm": 4189022000.0,
+ "ebit_ttm": 3651308000.0,
+ "interest_ttm": 252779000.0,
+ "revenue_yoy_last_q": 0.08109398818755476,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4892013000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4560539000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4414314000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4705696000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4525058000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.86
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.71
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.85
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.78
+  }
+ ],
+ "eps_ttm": 3.14,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09567128680874504,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.10256410256410242,
+ "eps_forward_growth": 0.1631464968152867,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5144589762946256
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5146784184939543
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.517899723490445
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5185090579586952
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5141454540472189
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 17781992000.0,
+   "eps": 2.97,
+   "net_income": 2538209000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16708479000.0,
+   "eps": 2.710667,
+   "net_income": 2386680000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 15812250000.0,
+   "eps": 2.564667,
+   "net_income": 2346581000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 14409860000.0,
+   "eps": 2.229333,
+   "net_income": 2172650000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.040438342692406315,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 452275000.0,
+ "gap_24m": 190094000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.2261167403751996,
+ "interest_coverage": 14.444665102718185,
+ "cash_to_debt": 0.027346318873884178,
+ "ev": 79296317925.91718,
+ "ev_to_sales": 4.26954116109114,
+ "ev_to_ebitda": 18.92955394502993,
+ "pe_ttm": 26.400449870817166,
+ "pe_trailing": 27.45873,
+ "p_sales": 3.7674427,
+ "p_fcf": 32.450213970546756,
+ "p_book": null
+}

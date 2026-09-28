@@ -1,0 +1,133 @@
+{
+ "ticker": "SLM",
+ "fetched": "2026-09-28",
+ "market_cap": 4317420028.686523,
+ "shares_out": 188000000.0,
+ "price": 22.96500015258789,
+ "long_name": "SLM Corporation",
+ "sector_y": "Financial Services",
+ "industry_y": "Credit Services",
+ "pe_trailing_y": 6.396936,
+ "pe_forward": 6.82122,
+ "peg": 0.51,
+ "p_sales_y": 2.5607505,
+ "eps_trailing_y": 3.59,
+ "eps_forward": 3.3667,
+ "earnings_growth_y": -0.094,
+ "earnings_growth_q_y": -0.179,
+ "bs_date": "2026-06-30",
+ "cash": 5662841000.0,
+ "total_debt": 5844116000.0,
+ "current_debt": 0.0,
+ "lease_obligations": null,
+ "equity": 2474669000.0,
+ "net_debt": 181275000.0,
+ "ocf_ttm": -324595000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -324595000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -561140000.0,
+ "stock_issuance_ttm": -561140000.0,
+ "revenue_ttm": 1960878000.0,
+ "net_income_ttm": 735514000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 1107504000.0,
+ "revenue_yoy_last_q": -0.006167058147256155,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 401107000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 559988000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 454104000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 545679000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 403596000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.29
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.54
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.12
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.63
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32
+  }
+ ],
+ "eps_ttm": 3.58,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2910447761194028,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.09375000000000011,
+ "eps_forward_growth": -0.059581005586592295,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1984393000.0,
+   "eps": 3.46,
+   "net_income": 744847000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1849050000.0,
+   "eps": 2.68,
+   "net_income": 608325000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1809329000.0,
+   "eps": 2.41,
+   "net_income": 581391000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1823419000.0,
+   "eps": 1.76,
+   "net_income": 469014000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0982408117214113,
+ "fcf_burn_annual": 324595000.0,
+ "runway_months": 209.35039664813075,
+ "need_24m": 649190000.0,
+ "gap_24m": -5013651000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.9689816218569242,
+ "ev": 4498695028.686523,
+ "ev_to_sales": 2.294224846566958,
+ "ev_to_ebitda": null,
+ "pe_ttm": 5.869935893384114,
+ "pe_trailing": 6.396936,
+ "p_sales": 2.5607505,
+ "p_fcf": null,
+ "p_book": 1.7446454571041716
+}

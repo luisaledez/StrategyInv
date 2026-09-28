@@ -1,0 +1,154 @@
+{
+ "ticker": "TT",
+ "fetched": "2026-09-28",
+ "market_cap": 99265657341.06894,
+ "shares_out": 220023177.0,
+ "price": 451.1600036621094,
+ "long_name": "Trane Technologies plc",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 33.64355,
+ "pe_forward": 25.674278,
+ "peg": 1.6,
+ "p_sales_y": 4.469433,
+ "eps_trailing_y": 13.41,
+ "eps_forward": 17.57245,
+ "earnings_growth_y": 0.071,
+ "earnings_growth_q_y": 0.058,
+ "bs_date": "2026-06-30",
+ "cash": 1318300000.0,
+ "total_debt": 4616800000.0,
+ "current_debt": 693100000.0,
+ "lease_obligations": null,
+ "equity": 8622900000.0,
+ "net_debt": 3298500000.0,
+ "ocf_ttm": 3876800000.0,
+ "capex_ttm": -330300000.0,
+ "fcf_ttm": 3546500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1358100000.0,
+ "stock_issuance_ttm": -1358100000.0,
+ "revenue_ttm": 22209900000.0,
+ "net_income_ttm": 2949000000.0,
+ "ebitda_ttm": 4342000000.0,
+ "ebit_ttm": 3951800000.0,
+ "interest_ttm": 219900000.0,
+ "revenue_yoy_last_q": 0.10564875400250595,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6353500000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4969400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5144500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5742500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5746400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.16
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.62
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.64
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.78
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.89
+  }
+ ],
+ "eps_ttm": 13.2,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.15480427046263356,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.06940874035989708,
+ "eps_forward_growth": 0.3312462121212121,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.35566223341465336
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3477482191008975
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.34092720380989405
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36886373530692207
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.37599192537936793
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 21321900000.0,
+   "eps": 12.98,
+   "net_income": 2918600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19838200000.0,
+   "eps": 11.24,
+   "net_income": 2567900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17677600000.0,
+   "eps": 8.77,
+   "net_income": 2023900000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 15991700000.0,
+   "eps": 7.48,
+   "net_income": 1756500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.007384476874719326,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 693100000.0,
+ "gap_24m": -625200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7596729617687702,
+ "interest_coverage": 17.970895861755345,
+ "cash_to_debt": 0.28554409980939177,
+ "ev": 102564157341.06894,
+ "ev_to_sales": 4.617947732365699,
+ "ev_to_ebitda": 23.62140887634015,
+ "pe_ttm": 33.660785805720224,
+ "pe_trailing": 33.64355,
+ "p_sales": 4.469433,
+ "p_fcf": 27.98975252814576,
+ "p_book": 11.511864609478128
+}

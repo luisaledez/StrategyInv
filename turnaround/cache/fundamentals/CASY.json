@@ -1,0 +1,154 @@
+{
+ "ticker": "CASY",
+ "fetched": "2026-09-28",
+ "market_cap": 22459769030.551086,
+ "shares_out": 36960167.0,
+ "price": 607.6749877929688,
+ "long_name": "Casey's General Stores, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "pe_trailing_y": 29.257341,
+ "pe_forward": 25.910376,
+ "peg": 2.71,
+ "p_sales_y": 1.2028369,
+ "eps_trailing_y": 20.77,
+ "eps_forward": 23.45296,
+ "earnings_growth_y": 0.277,
+ "earnings_growth_q_y": 0.271,
+ "bs_date": "2026-07-31",
+ "cash": 524059000.0,
+ "total_debt": 2888148000.0,
+ "current_debt": 104323000.0,
+ "lease_obligations": 457625000.0,
+ "equity": 4093913000.0,
+ "net_debt": 2364089000.0,
+ "ocf_ttm": 1389195000.0,
+ "capex_ttm": -740269000.0,
+ "fcf_ttm": 648926000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -214110000.0,
+ "stock_issuance_ttm": -214110000.0,
+ "revenue_ttm": 18672331000.0,
+ "net_income_ttm": 772813000.0,
+ "ebitda_ttm": 1554428000.0,
+ "ebit_ttm": 1097439000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.24331162885205648,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 5678336000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 4571779000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 3916132000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 4506084000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 4567106000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 7.37
+  },
+  {
+   "period": "2026-04-30",
+   "value": 4.37
+  },
+  {
+   "period": "2026-01-31",
+   "value": 3.49
+  },
+  {
+   "period": "2025-10-31",
+   "value": 5.53
+  },
+  {
+   "period": "2025-07-31",
+   "value": 5.77
+  }
+ ],
+ "eps_ttm": 20.76,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3087431693989071,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.27729636048526873,
+ "eps_forward_growth": 0.129718689788054,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.2182318904693206
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.2363099791131636
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.2570270869316969
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.24892700624311487
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.24357788060973404
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 17561101000.0,
+   "eps": 19.16,
+   "net_income": 714448000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 15940899000.0,
+   "eps": 14.64,
+   "net_income": 546520000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14862913000.0,
+   "eps": 13.43,
+   "net_income": 501972000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 15094475000.0,
+   "eps": 11.91,
+   "net_income": 446691000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.005421158153825156,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 104323000.0,
+ "gap_24m": -419736000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.520873916321631,
+ "interest_coverage": null,
+ "cash_to_debt": 0.18145157381131438,
+ "ev": 24823858030.551086,
+ "ev_to_sales": 1.329446121673351,
+ "ev_to_ebitda": 15.969770250247091,
+ "pe_ttm": 29.062359238976423,
+ "pe_trailing": 29.257341,
+ "p_sales": 1.2028369,
+ "p_fcf": 34.610678306233815,
+ "p_book": 5.486137353322136
+}

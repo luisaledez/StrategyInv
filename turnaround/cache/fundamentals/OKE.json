@@ -1,0 +1,154 @@
+{
+ "ticker": "OKE",
+ "fetched": "2026-09-28",
+ "market_cap": 55983489464.80062,
+ "shares_out": 630409203.0,
+ "price": 88.80500030517578,
+ "long_name": "ONEOK, Inc.",
+ "sector_y": "Energy",
+ "industry_y": "Oil & Gas Midstream",
+ "pe_trailing_y": 15.337651,
+ "pe_forward": 14.238986,
+ "peg": 1.67,
+ "p_sales_y": 1.422128,
+ "eps_trailing_y": 5.79,
+ "eps_forward": 6.23675,
+ "earnings_growth_y": 0.142,
+ "earnings_growth_q_y": 0.149,
+ "bs_date": "2026-06-30",
+ "cash": 161000000.0,
+ "total_debt": 33022000000.0,
+ "current_debt": 2249000000.0,
+ "lease_obligations": null,
+ "equity": 22937000000.0,
+ "net_debt": 32861000000.0,
+ "ocf_ttm": 6157000000.0,
+ "capex_ttm": -3251000000.0,
+ "fcf_ttm": 2906000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -75000000.0,
+ "stock_issuance_ttm": -75000000.0,
+ "revenue_ttm": 39366000000.0,
+ "net_income_ttm": 3656000000.0,
+ "ebitda_ttm": 8083000000.0,
+ "ebit_ttm": 6552000000.0,
+ "interest_ttm": 1776000000.0,
+ "revenue_yoy_last_q": 0.5277038164067454,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 12049000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 9618000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9065000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 8634000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7887000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.23
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.55
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.49
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.34
+  }
+ ],
+ "eps_ttm": 5.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.04835589941972929,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14179104477611926,
+ "eps_forward_growth": 0.07530172413793101,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.20084654328160012
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.22738615096693698
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.25162713734142306
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2656937688209405
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2737416001014327
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 33629000000.0,
+   "eps": 5.42,
+   "net_income": 3393000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 21698000000.0,
+   "eps": 5.17,
+   "net_income": 3035000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17677000000.0,
+   "eps": 5.48,
+   "net_income": 2659000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 22387000000.0,
+   "eps": 3.84,
+   "net_income": 1722000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0009735636394432312,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2249000000.0,
+ "gap_24m": 2088000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.065445997773104,
+ "interest_coverage": 3.689189189189189,
+ "cash_to_debt": 0.004875537520440918,
+ "ev": 88844489464.80063,
+ "ev_to_sales": 2.2568838455723372,
+ "ev_to_ebitda": 10.991524120351432,
+ "pe_ttm": 15.312770641356844,
+ "pe_trailing": 15.337651,
+ "p_sales": 1.422128,
+ "p_fcf": 19.26479334645582,
+ "p_book": 2.440750292749733
+}

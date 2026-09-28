@@ -1,0 +1,154 @@
+{
+ "ticker": "MTZ",
+ "fetched": "2026-09-28",
+ "market_cap": 16444847153.411499,
+ "shares_out": 80304948.0,
+ "price": 204.77999877929688,
+ "long_name": "MasTec, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 32.60828,
+ "pe_forward": 16.333204,
+ "peg": 0.64,
+ "p_sales_y": 1.0208418,
+ "eps_trailing_y": 6.28,
+ "eps_forward": 12.53765,
+ "earnings_growth_y": 0.514,
+ "earnings_growth_q_y": 0.517,
+ "bs_date": "2026-06-30",
+ "cash": 315641000.0,
+ "total_debt": 3235451000.0,
+ "current_debt": 347563000.0,
+ "lease_obligations": 495216000.0,
+ "equity": 3476968000.0,
+ "net_debt": 2919810000.0,
+ "ocf_ttm": 582025000.0,
+ "capex_ttm": -337221000.0,
+ "fcf_ttm": 244804000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 16109103000.0,
+ "net_income_ttm": 494330000.0,
+ "ebitda_ttm": 1312673000.0,
+ "ebit_ttm": 851566000.0,
+ "interest_ttm": 180719000.0,
+ "revenue_yoy_last_q": 0.2338273565783331,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4373554000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3828801000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3939800000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3966948000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3544705000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.65
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.77
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.81
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.09
+  }
+ ],
+ "eps_ttm": 6.2700000000000005,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.4611650485436893,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5137614678899081,
+ "eps_forward_growth": 0.9996251993620413,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12719266756509695
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.12481818720795361
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1290278694349967
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13555736046955996
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1228711557097135
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 14299171000.0,
+   "eps": 5.07,
+   "net_income": 399042000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 12303464000.0,
+   "eps": 2.06,
+   "net_income": 162788000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11995934000.0,
+   "eps": -0.64,
+   "net_income": -49949000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9778038000.0,
+   "eps": 0.42,
+   "net_income": 33354000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.0022018404753112453,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 347563000.0,
+ "gap_24m": 31922000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.224323955775734,
+ "interest_coverage": 4.712100000553345,
+ "cash_to_debt": 0.09755703300714491,
+ "ev": 19364657153.4115,
+ "ev_to_sales": 1.2020940677709677,
+ "ev_to_ebitda": 14.752080033192957,
+ "pe_ttm": 33.26694142255477,
+ "pe_trailing": 32.60828,
+ "p_sales": 1.0208418,
+ "p_fcf": 67.17556556842004,
+ "p_book": 4.729651568093667
+}

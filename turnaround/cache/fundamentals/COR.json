@@ -1,0 +1,154 @@
+{
+ "ticker": "COR",
+ "fetched": "2026-09-28",
+ "market_cap": 58041036137.63168,
+ "shares_out": 190827165.0,
+ "price": 304.1549987792969,
+ "long_name": "Cencora, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Distribution",
+ "pe_trailing_y": 22.580177,
+ "pe_forward": 15.341133,
+ "peg": 0.64,
+ "p_sales_y": 0.17441718,
+ "eps_trailing_y": 13.47,
+ "eps_forward": 19.82611,
+ "earnings_growth_y": 0.119,
+ "earnings_growth_q_y": 0.111,
+ "bs_date": "2026-06-30",
+ "cash": 2815291000.0,
+ "total_debt": 11723241000.0,
+ "current_debt": 279155000.0,
+ "lease_obligations": null,
+ "equity": 3050958000.0,
+ "net_debt": 8907950000.0,
+ "ocf_ttm": 4820947000.0,
+ "capex_ttm": -760845000.0,
+ "fcf_ttm": 4060102000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1000052000.0,
+ "stock_issuance_ttm": -1000052000.0,
+ "revenue_ttm": 332771323000.0,
+ "net_income_ttm": 2624793000.0,
+ "ebitda_ttm": 5186821000.0,
+ "ebit_ttm": 4118147000.0,
+ "interest_ttm": 511585000.0,
+ "revenue_yoy_last_q": 0.05072062800324684,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 84754837000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 78355916000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 85932016000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 83728554000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 80663532000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.94
+  },
+  {
+   "period": "2026-03-31",
+   "value": 8.4
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.87
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.75
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.52
+  }
+ ],
+ "eps_ttm": 13.46,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.05710491367861881,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.11931818181818188,
+ "eps_forward_growth": 0.4729650817236255,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.042560815732558134
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0457953806576647
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.03575001661778772
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.035275624131762745
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.03604001619963777
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 321332819000.0,
+   "eps": 7.96,
+   "net_income": 1554169000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 293958599000.0,
+   "eps": 7.53,
+   "net_income": 1509120000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 262173411000.0,
+   "eps": 8.53,
+   "net_income": 1745293000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 238587006000.0,
+   "eps": 8.04,
+   "net_income": 1698820000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.015653229075380803,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 279155000.0,
+ "gap_24m": -2536136000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.7174199765135523,
+ "interest_coverage": 8.049780583871692,
+ "cash_to_debt": 0.2401461336502423,
+ "ev": 66948986137.63168,
+ "ev_to_sales": 0.20118616452305202,
+ "ev_to_ebitda": 12.90751813830315,
+ "pe_ttm": 22.112614647186152,
+ "pe_trailing": 22.580177,
+ "p_sales": 0.17441718,
+ "p_fcf": 14.29546256168729,
+ "p_book": 19.023872546797328
+}

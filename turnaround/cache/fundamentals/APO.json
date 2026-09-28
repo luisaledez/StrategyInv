@@ -1,0 +1,154 @@
+{
+ "ticker": "APO",
+ "fetched": "2026-09-28",
+ "market_cap": 70871085773.12628,
+ "shares_out": 590543159.0,
+ "price": 120.01000213623047,
+ "long_name": "Apollo Global Management, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 42.708187,
+ "pe_forward": 11.178539,
+ "peg": 0.46,
+ "p_sales_y": 1.9908727,
+ "eps_trailing_y": 2.81,
+ "eps_forward": 10.73575,
+ "earnings_growth_y": 0.637,
+ "earnings_growth_q_y": 1.16,
+ "bs_date": "2026-06-30",
+ "cash": 266615000000.0,
+ "total_debt": 13727000000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 21006000000.0,
+ "net_debt": -252888000000.0,
+ "ocf_ttm": 9473000000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 9473000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1309000000.0,
+ "stock_issuance_ttm": -1309000000.0,
+ "revenue_ttm": 35897000000.0,
+ "net_income_ttm": 1875000000.0,
+ "ebitda_ttm": 9520000000.0,
+ "ebit_ttm": 7918000000.0,
+ "interest_ttm": 499000000.0,
+ "revenue_yoy_last_q": 0.636777223363663,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 11153000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5057000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9864000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 9823000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6814000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": -3.27
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.78
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.99
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.68
+  }
+ ],
+ "eps_ttm": 2.6499999999999995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.24420190995907232,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.1617647058823524,
+ "eps_forward_growth": 3.05122641509434,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9609970411548462
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9183310263001779
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9583333333333334
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9617224880382775
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9515702964484885
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 32049000000.0,
+   "eps": 5.54,
+   "net_income": 3492000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 26114000000.0,
+   "eps": 7.33,
+   "net_income": 4577000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 32644000000.0,
+   "eps": 8.49,
+   "net_income": 5047000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10968000000.0,
+   "eps": -3.43,
+   "net_income": -1961000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.006901307878253826,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -266615000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -26.563865546218487,
+ "interest_coverage": 15.867735470941884,
+ "cash_to_debt": 19.42267064908574,
+ "ev": -182016914226.87372,
+ "ev_to_sales": -5.070532752789195,
+ "ev_to_ebitda": -19.11942376332707,
+ "pe_ttm": 37.797912412334014,
+ "pe_trailing": 42.708187,
+ "p_sales": 1.9908727,
+ "p_fcf": 7.481377153291067,
+ "p_book": 3.373849651200908
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "NRG",
+ "fetched": "2026-09-28",
+ "market_cap": 20573300548.570335,
+ "shares_out": 210210483.0,
+ "price": 97.87000274658203,
+ "long_name": "NRG Energy, Inc.",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Independent Power Producers",
+ "pe_trailing_y": 25.48698,
+ "pe_forward": 8.746843,
+ "peg": 0.39,
+ "p_sales_y": 0.6210808,
+ "eps_trailing_y": 3.84,
+ "eps_forward": 11.18918,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 162000000.0,
+ "total_debt": 23467000000.0,
+ "current_debt": 1553000000.0,
+ "lease_obligations": 211000000.0,
+ "equity": 4855000000.0,
+ "net_debt": 23305000000.0,
+ "ocf_ttm": 1555000000.0,
+ "capex_ttm": -1239000000.0,
+ "fcf_ttm": 316000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1753000000.0,
+ "stock_issuance_ttm": -1753000000.0,
+ "revenue_ttm": 33125000000.0,
+ "net_income_ttm": 849000000.0,
+ "ebitda_ttm": 3735000000.0,
+ "ebit_ttm": 2073000000.0,
+ "interest_ttm": 1025000000.0,
+ "revenue_yoy_last_q": 0.10994065281899101,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7481000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 10256000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 7753000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7635000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6740000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.31
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.69
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.62
+  },
+  {
+   "period": "2025-03-31",
+   "value": 3.61
+  }
+ ],
+ "eps_ttm": 2.9,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.19639278557114237,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.3601108033240997,
+ "eps_forward_growth": 2.858337931034483,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2688143296350755
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.13631045241809672
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.18354185476589707
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.18258022265880813
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.16483679525222553
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 30713000000.0,
+   "eps": 4.01,
+   "net_income": 864000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 28130000000.0,
+   "eps": 4.99,
+   "net_income": 1125000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 28823000000.0,
+   "eps": -1.12,
+   "net_income": -202000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 31543000000.0,
+   "eps": 5.17,
+   "net_income": 1221000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.08055181846646997,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1553000000.0,
+ "gap_24m": 1391000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 6.239625167336011,
+ "interest_coverage": 2.022439024390244,
+ "cash_to_debt": 0.006903311032513743,
+ "ev": 43878300548.570335,
+ "ev_to_sales": 1.3246279410889157,
+ "ev_to_ebitda": 11.74787163281669,
+ "pe_ttm": 24.232391694429136,
+ "pe_trailing": 25.48698,
+ "p_sales": 0.6210808,
+ "p_fcf": 65.10538148281752,
+ "p_book": 4.237549031631377
+}

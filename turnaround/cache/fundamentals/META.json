@@ -1,0 +1,154 @@
+{
+ "ticker": "META",
+ "fetched": "2026-09-28",
+ "market_cap": 1835465485142.38,
+ "shares_out": 2547506225.0,
+ "price": 720.4949951171875,
+ "long_name": "Meta Platforms, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": 27.157745,
+ "pe_forward": 20.68762,
+ "peg": 0.99,
+ "p_sales_y": 8.041575,
+ "eps_trailing_y": 26.53,
+ "eps_forward": 34.82735,
+ "earnings_growth_y": -0.134,
+ "earnings_growth_q_y": -0.136,
+ "bs_date": "2026-06-30",
+ "cash": 90260000000.0,
+ "total_debt": 112318000000.0,
+ "current_debt": 2425000000.0,
+ "lease_obligations": 28654000000.0,
+ "equity": 261221000000.0,
+ "net_debt": 22058000000.0,
+ "ocf_ttm": 130301000000.0,
+ "capex_ttm": -89325000000.0,
+ "fcf_ttm": 40976000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3327000000.0,
+ "stock_issuance_ttm": -3327000000.0,
+ "revenue_ttm": 228247000000.0,
+ "net_income_ttm": 68098000000.0,
+ "ebitda_ttm": 112282000000.0,
+ "ebit_ttm": 89553000000.0,
+ "interest_ttm": 2028000000.0,
+ "revenue_yoy_last_q": 0.27959003283104633,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 60801000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 56311000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 59893000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 51242000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 47516000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6.18
+  },
+  {
+   "period": "2026-03-31",
+   "value": 10.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 8.88
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.05
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7.14
+  }
+ ],
+ "eps_ttm": 26.55,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.015507124895222213,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.134453781512605,
+ "eps_forward_growth": 0.3117645951035781,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8136543806845282
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8185434462183232
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8179086036765565
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.820342687639046
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.821302298173247
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 200966000000.0,
+   "eps": 23.49,
+   "net_income": 60458000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 164501000000.0,
+   "eps": 23.86,
+   "net_income": 62360000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 134902000000.0,
+   "eps": 14.87,
+   "net_income": 39098000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 116609000000.0,
+   "eps": 8.59,
+   "net_income": 23200000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.012868726550079534,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2425000000.0,
+ "gap_24m": -87835000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.19645179102616625,
+ "interest_coverage": 44.15828402366864,
+ "cash_to_debt": 0.8036111754126676,
+ "ev": 1857523485142.38,
+ "ev_to_sales": 8.13821642844103,
+ "ev_to_ebitda": 16.54337725674979,
+ "pe_ttm": 26.95329503278187,
+ "pe_trailing": 27.157745,
+ "p_sales": 8.041575,
+ "p_fcf": 44.793671542912435,
+ "p_book": 7.026485179761122
+}

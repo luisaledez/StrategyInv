@@ -1,0 +1,154 @@
+{
+ "ticker": "LHX",
+ "fetched": "2026-09-28",
+ "market_cap": 44384254860.16382,
+ "shares_out": 186214616.0,
+ "price": 238.35000610351562,
+ "long_name": "L3Harris Technologies, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 24.051464,
+ "pe_forward": 17.604269,
+ "peg": 1.18,
+ "p_sales_y": 1.9354725,
+ "eps_trailing_y": 9.91,
+ "eps_forward": 13.53933,
+ "earnings_growth_y": 0.283,
+ "earnings_growth_q_y": 0.31,
+ "bs_date": "2026-06-30",
+ "cash": 1521000000.0,
+ "total_debt": 10999000000.0,
+ "current_debt": 1815000000.0,
+ "lease_obligations": null,
+ "equity": 20850000000.0,
+ "net_debt": 9478000000.0,
+ "ocf_ttm": 3292000000.0,
+ "capex_ttm": -484000000.0,
+ "fcf_ttm": 2808000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -857000000.0,
+ "stock_issuance_ttm": 116000000.0,
+ "revenue_ttm": 22932000000.0,
+ "net_income_ttm": 1860000000.0,
+ "ebitda_ttm": 3998000000.0,
+ "ebit_ttm": 2808000000.0,
+ "interest_ttm": 560000000.0,
+ "revenue_yoy_last_q": 0.08385551050497608,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5881000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5744000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5648000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5659000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5426000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.13
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.59
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.46
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.44
+  }
+ ],
+ "eps_ttm": 9.899999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.08386277001270637,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2827868852459017,
+ "eps_forward_growth": 0.367609090909091,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.25539874171059346
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2440807799442897
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2560198300283286
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.26400424103198444
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24603759675635828
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 21865000000.0,
+   "eps": 8.53,
+   "net_income": 1606000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 21325000000.0,
+   "eps": 7.87,
+   "net_income": 1502000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 19419000000.0,
+   "eps": 6.44,
+   "net_income": 1227000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 17062000000.0,
+   "eps": 5.49,
+   "net_income": 1062000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.004047880118474567,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1815000000.0,
+ "gap_24m": 294000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.3706853426713357,
+ "interest_coverage": 5.014285714285714,
+ "cash_to_debt": 0.13828529866351486,
+ "ev": 53862254860.16382,
+ "ev_to_sales": 2.348781391076392,
+ "ev_to_ebitda": 13.472299864973442,
+ "pe_ttm": 23.8625026129913,
+ "pe_trailing": 24.051464,
+ "p_sales": 1.9354725,
+ "p_fcf": 15.806358568434408,
+ "p_book": 2.1287412402956267
+}

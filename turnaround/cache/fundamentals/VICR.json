@@ -1,0 +1,154 @@
+{
+ "ticker": "VICR",
+ "fetched": "2026-09-28",
+ "market_cap": 13118748399.677368,
+ "shares_out": 46106732.0,
+ "price": 284.5299987792969,
+ "long_name": "Vicor Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 90.90415,
+ "pe_forward": 47.873837,
+ "peg": null,
+ "p_sales_y": 27.676218,
+ "eps_trailing_y": 3.13,
+ "eps_forward": 5.94333,
+ "earnings_growth_y": 0.143,
+ "earnings_growth_q_y": 0.208,
+ "bs_date": "2026-06-30",
+ "cash": 453582000.0,
+ "total_debt": 7608000.0,
+ "current_debt": 1767000.0,
+ "lease_obligations": 7608000.0,
+ "equity": 834319000.0,
+ "net_debt": -445974000.0,
+ "ocf_ttm": 84392000.0,
+ "capex_ttm": -33124000.0,
+ "fcf_ttm": 51268000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 474008000.0,
+ "net_income_ttm": 145261000.0,
+ "ebitda_ttm": 109521000.0,
+ "ebit_ttm": 88354000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.01634927612268333,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 143352000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 112969000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 107264000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 110423000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 141046000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.63
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.91
+  }
+ ],
+ "eps_ttm": 3.12,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 17.64285714285714,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1428571428571428,
+ "eps_forward_growth": 0.9049134615384613,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5798314638093643
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5520629553240269
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5539882905727923
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5751790840676309
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6531769777235795
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 452701000.0,
+   "eps": 2.61,
+   "net_income": 118556000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 359058000.0,
+   "eps": 0.14,
+   "net_income": 6129000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 405059000.0,
+   "eps": 1.19,
+   "net_income": 53595000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 399079000.0,
+   "eps": 0.57,
+   "net_income": 25446000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.027211483685063875,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1767000.0,
+ "gap_24m": -451815000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -4.072040978442491,
+ "interest_coverage": null,
+ "cash_to_debt": 59.619085173501574,
+ "ev": 12672774399.677368,
+ "ev_to_sales": 26.735359740083222,
+ "ev_to_ebitda": 115.71090840731337,
+ "pe_ttm": 90.31156607539097,
+ "pe_trailing": 90.90415,
+ "p_sales": 27.676218,
+ "p_fcf": 255.88570647728346,
+ "p_book": 15.723899850869234
+}

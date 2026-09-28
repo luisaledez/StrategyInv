@@ -22,3 +22,7 @@ rsi_swing/cache
 turnaround_backtest_v3/output/*
 !turnaround_backtest_v3/output/live_both_opval_*.json
 !turnaround_backtest_v3/output/current_both_opval.json
+OpportunityScanner2/cache
+OpportunityScanner2/output/*
+!OpportunityScanner2/output/live_*.json
+!OpportunityScanner2/output/web_summary.json

@@ -1,0 +1,154 @@
+{
+ "ticker": "CTAS",
+ "fetched": "2026-09-28",
+ "market_cap": 80037240877.30408,
+ "shares_out": 399517000.0,
+ "price": 200.3350067138672,
+ "long_name": "Cintas Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 39.436024,
+ "pe_forward": 32.52757,
+ "peg": 3.16,
+ "p_sales_y": 6.9232655,
+ "eps_trailing_y": 5.08,
+ "eps_forward": 6.15893,
+ "earnings_growth_y": 0.133,
+ "earnings_growth_q_y": 0.123,
+ "bs_date": "2026-05-31",
+ "cash": 289018000.0,
+ "total_debt": 2705957000.0,
+ "current_debt": 1055492000.0,
+ "lease_obligations": 277884000.0,
+ "equity": 5139887000.0,
+ "net_debt": 2416939000.0,
+ "ocf_ttm": 2276280000.0,
+ "capex_ttm": -395105000.0,
+ "fcf_ttm": 1881175000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -952104000.0,
+ "stock_issuance_ttm": -952104000.0,
+ "revenue_ttm": 11264761000.0,
+ "net_income_ttm": 1999968000.0,
+ "ebitda_ttm": 3124465000.0,
+ "ebit_ttm": 2611619000.0,
+ "interest_ttm": 106285000.0,
+ "revenue_yoy_last_q": 0.08904872149740672,
+ "revenue_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 2905203000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 2841444000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 2799992000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 2718122000.0
+  },
+  {
+   "period": "2025-05-31",
+   "value": 2667652000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 1.26
+  },
+  {
+   "period": "2026-02-28",
+   "value": 1.24
+  },
+  {
+   "period": "2025-11-30",
+   "value": 1.21
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1.2
+  },
+  {
+   "period": "2025-05-31",
+   "value": 1.09
+  }
+ ],
+ "eps_ttm": 4.91,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.11590909090909096,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.15596330275229353,
+ "eps_forward_growth": 0.2543645621181263,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-05-31",
+   "value": 0.5095310035133518
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.5097605302092879
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.5044603698867711
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.5027592580465483
+  },
+  {
+   "period": "2025-05-31",
+   "value": 0.49706221051321536
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 11264761000.0,
+   "eps": 4.91,
+   "net_income": 1999968000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 10340181000.0,
+   "eps": 4.4,
+   "net_income": 1812281000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9596615000.0,
+   "eps": 3.7875,
+   "net_income": 1571592000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8815769000.0,
+   "eps": 3.2475,
+   "net_income": 1348010000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.006951269146391104,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1055492000.0,
+ "gap_24m": 766474000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.7735529122585787,
+ "interest_coverage": 24.5718492731806,
+ "cash_to_debt": 0.10680805349087218,
+ "ev": 82454179877.30408,
+ "ev_to_sales": 7.319656393713465,
+ "ev_to_ebitda": 26.389855503999588,
+ "pe_ttm": 40.01926074682399,
+ "pe_trailing": 39.436024,
+ "p_sales": 6.9232655,
+ "p_fcf": 42.546408961050446,
+ "p_book": 15.571789978515886
+}

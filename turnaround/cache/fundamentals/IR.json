@@ -1,0 +1,154 @@
+{
+ "ticker": "IR",
+ "fetched": "2026-09-28",
+ "market_cap": 29775075352.603798,
+ "shares_out": 387999429.0,
+ "price": 76.73999786376953,
+ "long_name": "Ingersoll Rand Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 31.710741,
+ "pe_forward": 19.591074,
+ "peg": 0.62,
+ "p_sales_y": 3.7489707,
+ "eps_trailing_y": 2.42,
+ "eps_forward": 3.91709,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1173500000.0,
+ "total_debt": 4832700000.0,
+ "current_debt": 764100000.0,
+ "lease_obligations": 76300000.0,
+ "equity": 10177300000.0,
+ "net_debt": 3659200000.0,
+ "ocf_ttm": 1349200000.0,
+ "capex_ttm": -129900000.0,
+ "fcf_ttm": 1219300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -846100000.0,
+ "stock_issuance_ttm": -846100000.0,
+ "revenue_ttm": 7942200000.0,
+ "net_income_ttm": 959100000.0,
+ "ebitda_ttm": 2003200000.0,
+ "ebit_ttm": 1468200000.0,
+ "interest_ttm": 257100000.0,
+ "revenue_yoy_last_q": 0.08522697176757243,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2048800000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1847200000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2091200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1955000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1887900000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.66
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.49
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.61
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.29
+  }
+ ],
+ "eps_ttm": 2.4299999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.296116504854369,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.611971193415638,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4210269426005467
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.42897358163707233
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4259276970160673
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43744245524296677
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4369405159171566
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7650900000.0,
+   "eps": 1.45,
+   "net_income": 581400000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7235000000.0,
+   "eps": 2.06,
+   "net_income": 838600000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6876100000.0,
+   "eps": 1.9,
+   "net_income": 778700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5916300000.0,
+   "eps": 1.47,
+   "net_income": 604700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.023734499489447947,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 764100000.0,
+ "gap_24m": -409400000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.8266773162939298,
+ "interest_coverage": 5.710618436406068,
+ "cash_to_debt": 0.24282492188631613,
+ "ev": 33434275352.603798,
+ "ev_to_sales": 4.20969949794815,
+ "ev_to_ebitda": 16.690432983528254,
+ "pe_ttm": 31.04480799979543,
+ "pe_trailing": 31.710741,
+ "p_sales": 3.7489707,
+ "p_fcf": 24.419810836220616,
+ "p_book": 2.9256360088239313
+}

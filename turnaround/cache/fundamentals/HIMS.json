@@ -1,0 +1,154 @@
+{
+ "ticker": "HIMS",
+ "fetched": "2026-09-28",
+ "market_cap": 6726425678.989599,
+ "shares_out": 233313413.0,
+ "price": 28.829999923706055,
+ "long_name": "Hims & Hers Health, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - Specialty & Generic",
+ "pe_trailing_y": null,
+ "pe_forward": 39.10425,
+ "peg": 2.68,
+ "p_sales_y": 2.609051,
+ "eps_trailing_y": -0.64,
+ "eps_forward": 0.73726,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 841048000.0,
+ "total_debt": 1546239000.0,
+ "current_debt": 11551000.0,
+ "lease_obligations": 180940000.0,
+ "equity": 324072000.0,
+ "net_debt": 705191000.0,
+ "ocf_ttm": 263450000.0,
+ "capex_ttm": -201816000.0,
+ "fcf_ttm": 61634000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -89960000.0,
+ "stock_issuance_ttm": -89960000.0,
+ "revenue_ttm": 2578112000.0,
+ "net_income_ttm": -142030000.0,
+ "ebitda_ttm": -67331000.0,
+ "ebit_ttm": -154522000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.38246765522646387,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 753214000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 608104000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 617818000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 598976000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 544833000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.4
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17
+  }
+ ],
+ "eps_ttm": -0.6300000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.037735849056603765,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -3.176470588235294,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6383351876093647
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6524985857682238
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7193623364809701
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7380228924030345
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7638964600161885
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2347637000.0,
+   "eps": 0.51,
+   "net_income": 128365000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1476514000.0,
+   "eps": 0.53,
+   "net_income": 126038000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 872000000.0,
+   "eps": -0.11,
+   "net_income": -23546000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 526916000.0,
+   "eps": -0.32,
+   "net_income": -65678000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.03339345982473696,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11551000.0,
+ "gap_24m": -829497000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -10.47349660631804,
+ "interest_coverage": null,
+ "cash_to_debt": 0.5439314362139359,
+ "ev": 7431616678.989599,
+ "ev_to_sales": 2.8825810046226072,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.609051,
+ "p_fcf": 109.13498521902845,
+ "p_book": 20.755960647601764
+}

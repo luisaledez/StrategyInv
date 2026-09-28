@@ -1,0 +1,154 @@
+{
+ "ticker": "CRH",
+ "fetched": "2026-09-28",
+ "market_cap": 55631092637.07848,
+ "shares_out": 665284511.0,
+ "price": 83.62000274658203,
+ "long_name": "CRH plc",
+ "sector_y": "Basic Materials",
+ "industry_y": "Building Materials",
+ "pe_trailing_y": 14.773852,
+ "pe_forward": 12.876224,
+ "peg": 1.53,
+ "p_sales_y": 1.440026,
+ "eps_trailing_y": 5.66,
+ "eps_forward": 6.49414,
+ "earnings_growth_y": 0.139,
+ "earnings_growth_q_y": 0.127,
+ "bs_date": "2026-06-30",
+ "cash": 3025000000.0,
+ "total_debt": 19813000000.0,
+ "current_debt": 2890000000.0,
+ "lease_obligations": 1887000000.0,
+ "equity": 24035000000.0,
+ "net_debt": 16788000000.0,
+ "ocf_ttm": 5419000000.0,
+ "capex_ttm": -2653000000.0,
+ "fcf_ttm": 2766000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1144000000.0,
+ "stock_issuance_ttm": -1201000000.0,
+ "revenue_ttm": 38632000000.0,
+ "net_income_ttm": 3821000000.0,
+ "ebitda_ttm": 8261000000.0,
+ "ebit_ttm": 5986000000.0,
+ "interest_ttm": 852000000.0,
+ "revenue_yoy_last_q": 0.05594748187340781,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 10777000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 7370000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9416000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 11069000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 10206000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.27
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.21
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.94
+  }
+ ],
+ "eps_ttm": 5.67,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09760956175298818,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1391752577319587,
+ "eps_forward_growth": 0.14535097001763675,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3984411246172404
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2774762550881954
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3564146134239592
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.389285391634294
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.39447383891828336
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 37447000000.0,
+   "eps": 5.51,
+   "net_income": 3730000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 35572000000.0,
+   "eps": 5.02,
+   "net_income": 3458000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 34949000000.0,
+   "eps": 4.33,
+   "net_income": 3154000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 32723000000.0,
+   "eps": 5.03,
+   "net_income": 3862000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.010854323589508219,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2890000000.0,
+ "gap_24m": -135000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.032199491586975,
+ "interest_coverage": 7.025821596244131,
+ "cash_to_debt": 0.15267753495179934,
+ "ev": 72419092637.07849,
+ "ev_to_sales": 1.8745882335131108,
+ "ev_to_ebitda": 8.766383323699127,
+ "pe_ttm": 14.559301920198504,
+ "pe_trailing": 14.773852,
+ "p_sales": 1.440026,
+ "p_fcf": 20.112470223094174,
+ "p_book": 2.314586754195069
+}

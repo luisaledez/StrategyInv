@@ -1,0 +1,154 @@
+{
+ "ticker": "WWD",
+ "fetched": "2026-09-28",
+ "market_cap": 19220594677.703247,
+ "shares_out": 59045820.0,
+ "price": 325.5199890136719,
+ "long_name": "Woodward, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 36.249443,
+ "pe_forward": 30.299109,
+ "peg": 2.13,
+ "p_sales_y": 4.5850754,
+ "eps_trailing_y": 8.98,
+ "eps_forward": 10.74355,
+ "earnings_growth_y": 0.364,
+ "earnings_growth_q_y": 0.352,
+ "bs_date": "2026-06-30",
+ "cash": 474851000.0,
+ "total_debt": 1360050000.0,
+ "current_debt": 724205000.0,
+ "lease_obligations": 18115000.0,
+ "equity": 2473794000.0,
+ "net_debt": 885199000.0,
+ "ocf_ttm": 585255000.0,
+ "capex_ttm": -208728000.0,
+ "fcf_ttm": 376527000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -602019000.0,
+ "stock_issuance_ttm": -538435000.0,
+ "revenue_ttm": 4191991000.0,
+ "net_income_ttm": 552030000.0,
+ "ebitda_ttm": 857474000.0,
+ "ebit_ttm": 737279000.0,
+ "interest_ttm": 47431000.0,
+ "revenue_yoy_last_q": 0.21220148430382557,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1109705000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1090568000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 996454000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 995264000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 915446000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.4
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.19
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.17
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.23
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.76
+  }
+ ],
+ "eps_ttm": 8.99,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.19633943427620637,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.36363636363636354,
+ "eps_forward_growth": 0.19505561735261412,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.315314430411686
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2896729043947741
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2932006896454829
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.27872001800527296
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.27217225265062056
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3567064000.0,
+   "eps": 7.19,
+   "net_income": 442111000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3324249000.0,
+   "eps": 6.01,
+   "net_income": 372971000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2914566000.0,
+   "eps": 3.78,
+   "net_income": 232368000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2382790000.0,
+   "eps": 2.71,
+   "net_income": 171698000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.012438516048353443,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 724205000.0,
+ "gap_24m": 249354000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.032333341885585,
+ "interest_coverage": 15.544243216461808,
+ "cash_to_debt": 0.3491423109444506,
+ "ev": 20105793677.703247,
+ "ev_to_sales": 4.796239705119416,
+ "ev_to_ebitda": 23.44770066229792,
+ "pe_ttm": 34.81802561038938,
+ "pe_trailing": 36.249443,
+ "p_sales": 4.5850754,
+ "p_fcf": 51.047055530422114,
+ "p_book": 7.769682794001136
+}

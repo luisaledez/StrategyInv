@@ -1,0 +1,154 @@
+{
+ "ticker": "NI",
+ "fetched": "2026-09-28",
+ "market_cap": 18839518455.324936,
+ "shares_out": 479560100.0,
+ "price": 39.28499984741211,
+ "long_name": "NiSource Inc.",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Gas",
+ "pe_trailing_y": 20.896276,
+ "pe_forward": 17.43559,
+ "peg": 2.03,
+ "p_sales_y": 2.7377052,
+ "eps_trailing_y": 1.88,
+ "eps_forward": 2.25315,
+ "earnings_growth_y": -0.584,
+ "earnings_growth_q_y": -0.555,
+ "bs_date": "2026-06-30",
+ "cash": 70000000.0,
+ "total_debt": 17403000000.0,
+ "current_debt": 1790400000.0,
+ "lease_obligations": null,
+ "equity": 9574600000.0,
+ "net_debt": 17333000000.0,
+ "ocf_ttm": 2303200000.0,
+ "capex_ttm": -3763200000.0,
+ "fcf_ttm": -1460000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 312300000.0,
+ "revenue_ttm": 6881500000.0,
+ "net_income_ttm": 905100000.0,
+ "ebitda_ttm": 3202400000.0,
+ "ebit_ttm": 1929600000.0,
+ "interest_ttm": 780800000.0,
+ "revenue_yoy_last_q": 0.04629773967264228,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1342400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2363100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1902900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1273100000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1283000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.09
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.22
+  },
+  {
+   "period": "2025-03-31",
+   "value": 1.0
+  }
+ ],
+ "eps_ttm": 1.57,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2037037037037035,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.91,
+ "eps_forward_growth": 0.43512738853503197,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5020113230035756
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5097964538106724
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.49203846760208103
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5328725159060561
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.48713951675759937
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6642200000.0,
+   "eps": 1.95,
+   "net_income": 929500000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5455100000.0,
+   "eps": 1.62,
+   "net_income": 760400000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5505400000.0,
+   "eps": 1.48,
+   "net_income": 714300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5850600000.0,
+   "eps": 1.7,
+   "net_income": 804100000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.018508747474000442,
+ "fcf_burn_annual": 1460000000.0,
+ "runway_months": 0.5753424657534246,
+ "need_24m": 4710400000.0,
+ "gap_24m": 4640400000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 5.4125031226580065,
+ "interest_coverage": 2.471311475409836,
+ "cash_to_debt": 0.0040222950066080565,
+ "ev": 36172518455.324936,
+ "ev_to_sales": 5.256487459903354,
+ "ev_to_ebitda": 11.295440436961321,
+ "pe_ttm": 20.814847481300337,
+ "pe_trailing": 20.896276,
+ "p_sales": 2.7377052,
+ "p_fcf": null,
+ "p_book": 1.9676559287411417
+}

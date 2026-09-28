@@ -1,0 +1,154 @@
+{
+ "ticker": "VNOM",
+ "fetched": "2026-09-28",
+ "market_cap": 7913257875.511276,
+ "shares_out": 194405049.0,
+ "price": 40.70500183105469,
+ "long_name": "Viper Energy, Inc.",
+ "sector_y": "Energy",
+ "industry_y": "Oil & Gas Midstream",
+ "pe_trailing_y": null,
+ "pe_forward": 16.14509,
+ "peg": 0.98,
+ "p_sales_y": 7.5599937,
+ "eps_trailing_y": -0.1,
+ "eps_forward": 2.5212,
+ "earnings_growth_y": 1.607,
+ "earnings_growth_q_y": 2.838,
+ "bs_date": "2026-06-30",
+ "cash": 77000000.0,
+ "total_debt": 1678000000.0,
+ "current_debt": 380000000.0,
+ "lease_obligations": null,
+ "equity": 5035000000.0,
+ "net_debt": 1601000000.0,
+ "ocf_ttm": 1495000000.0,
+ "capex_ttm": -1297000000.0,
+ "fcf_ttm": 198000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -412000000.0,
+ "stock_issuance_ttm": -412000000.0,
+ "revenue_ttm": 2036000000.0,
+ "net_income_ttm": 59000000.0,
+ "ebitda_ttm": 1099000000.0,
+ "ebit_ttm": 282000000.0,
+ "interest_ttm": 126000000.0,
+ "revenue_yoy_last_q": 1.265993265993266,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 673000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 511000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 434000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 418000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 297000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.73
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.53
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.61
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.52
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28
+  }
+ ],
+ "eps_ttm": 0.13,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.12565445026178,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.6071428571428568,
+ "eps_forward_growth": 18.39384615384615,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6463595839524517
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5283757338551859
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.39400921658986177
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5117845117845118
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1394000000.0,
+   "eps": -0.48,
+   "net_income": -68000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 860000000.0,
+   "eps": 3.82,
+   "net_income": 359000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 827000000.0,
+   "eps": 2.69,
+   "net_income": 200000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 865767000.0,
+   "eps": 2.0,
+   "net_income": 151673000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 1.7174790404329503,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 380000000.0,
+ "gap_24m": 303000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.456778889899909,
+ "interest_coverage": 2.238095238095238,
+ "cash_to_debt": 0.045887961859356376,
+ "ev": 9514257875.511276,
+ "ev_to_sales": 4.673014673630293,
+ "ev_to_ebitda": 8.65719551911854,
+ "pe_ttm": 134.12301483917417,
+ "pe_trailing": 313.11539870042066,
+ "p_sales": 7.5599937,
+ "p_fcf": 39.96594886621857,
+ "p_book": 1.571650024927761
+}

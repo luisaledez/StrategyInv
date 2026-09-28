@@ -1,0 +1,154 @@
+{
+ "ticker": "AXON",
+ "fetched": "2026-09-28",
+ "market_cap": 34514933530.64087,
+ "shares_out": 81237415.0,
+ "price": 424.864990234375,
+ "long_name": "Axon Enterprise, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 176.29253,
+ "pe_forward": 40.260612,
+ "peg": 1.97,
+ "p_sales_y": 10.721925,
+ "eps_trailing_y": 2.41,
+ "eps_forward": 10.55287,
+ "earnings_growth_y": -0.182,
+ "earnings_growth_q_y": -0.185,
+ "bs_date": "2026-06-30",
+ "cash": 692533000.0,
+ "total_debt": 1833475000.0,
+ "current_debt": 80552000.0,
+ "lease_obligations": 101658000.0,
+ "equity": 3674537000.0,
+ "net_debt": 1140942000.0,
+ "ocf_ttm": 265809000.0,
+ "capex_ttm": -132617000.0,
+ "fcf_ttm": 133192000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 406071000.0,
+ "revenue_ttm": 3219099000.0,
+ "net_income_ttm": 199298000.0,
+ "ebitda_ttm": 406221000.0,
+ "ebit_ttm": 296846000.0,
+ "interest_ttm": 114475000.0,
+ "revenue_yoy_last_q": 0.35278622905504253,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 904389000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 807345000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 796724000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 710641000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 668538000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.03
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": 2.4099999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6854166666666667,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.18181818181818188,
+ "eps_forward_growth": 3.3787842323651462,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6042167695538092
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5911797310938942
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.57898971287422
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.601355677479909
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.603919298529029
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2779536000.0,
+   "eps": 1.51,
+   "net_income": 124656000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2082526000.0,
+   "eps": 4.8,
+   "net_income": 377034000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1560699000.0,
+   "eps": 2.33,
+   "net_income": 175783000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1187143000.0,
+   "eps": 2.03,
+   "net_income": 146930000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0348124093689568,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 80552000.0,
+ "gap_24m": -611981000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.808673111434416,
+ "interest_coverage": 2.593107665429133,
+ "cash_to_debt": 0.37771608557520553,
+ "ev": 35655875530.64087,
+ "ev_to_sales": 11.076352585192586,
+ "ev_to_ebitda": 87.77457475275988,
+ "pe_ttm": 173.18253836285797,
+ "pe_trailing": 176.29253,
+ "p_sales": 10.721925,
+ "p_fcf": 259.13668636735594,
+ "p_book": 9.393002038254307
+}

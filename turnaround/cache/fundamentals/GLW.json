@@ -1,0 +1,154 @@
+{
+ "ticker": "GLW",
+ "fetched": "2026-09-28",
+ "market_cap": 130862113668.27086,
+ "shares_out": 861388331.0,
+ "price": 151.9199981689453,
+ "long_name": "Corning Incorporated",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 70.34722,
+ "pe_forward": 34.817135,
+ "peg": 0.94,
+ "p_sales_y": 7.715631,
+ "eps_trailing_y": 2.16,
+ "eps_forward": 4.36423,
+ "earnings_growth_y": 0.185,
+ "earnings_growth_q_y": 0.192,
+ "bs_date": "2026-06-30",
+ "cash": 2504000000.0,
+ "total_debt": 9379000000.0,
+ "current_debt": 758000000.0,
+ "lease_obligations": 955000000.0,
+ "equity": 12560000000.0,
+ "net_debt": 6875000000.0,
+ "ocf_ttm": 3915000000.0,
+ "capex_ttm": -1520000000.0,
+ "fcf_ttm": 2395000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -163000000.0,
+ "stock_issuance_ttm": -163000000.0,
+ "revenue_ttm": 16964000000.0,
+ "net_income_ttm": 1900000000.0,
+ "ebitda_ttm": 4199000000.0,
+ "ebit_ttm": 2763000000.0,
+ "interest_ttm": 357000000.0,
+ "revenue_yoy_last_q": 0.1664940445365095,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4505000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4144000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4215000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4100000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3862000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.64
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.54
+  }
+ ],
+ "eps_ttm": 2.19,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.1551724137931036,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.18518518518518512,
+ "eps_forward_growth": 0.992799086757991,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3613762486126526
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3687258687258687
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.35468564650059314
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37073170731707317
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.36043500776799586
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 15629000000.0,
+   "eps": 1.83,
+   "net_income": 1596000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13118000000.0,
+   "eps": 0.58,
+   "net_income": 506000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 12588000000.0,
+   "eps": 0.68,
+   "net_income": 581000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 14189000000.0,
+   "eps": 1.54,
+   "net_income": 1316000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.05906515428094705,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 758000000.0,
+ "gap_24m": -1746000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.6372945939509407,
+ "interest_coverage": 7.739495798319328,
+ "cash_to_debt": 0.26697942211323167,
+ "ev": 137737113668.27087,
+ "ev_to_sales": 8.119377132060297,
+ "ev_to_ebitda": 32.802360959340525,
+ "pe_ttm": 68.87479666751098,
+ "pe_trailing": 70.34722,
+ "p_sales": 7.715631,
+ "p_fcf": 54.63971343142833,
+ "p_book": 10.418958094607552
+}
