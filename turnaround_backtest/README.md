@@ -64,6 +64,54 @@ cash earns nothing):
 `rotate_2009` started on 2009-01-01, plus SPY total return with the same
 withdrawal rule from each start date.
 
+**Loss-control scenarios** (base plus one month-end exit each; the flags are
+`eps_exit`, `eps_exit_underwater`, `stop_loss`, `time_stop_months` on
+`Scenario`): `eps_dn30` sells when the point-in-time TTM EPS is 30% below its
+level at entry, `eps_dn30_uw` does so only while the position is below cost,
+`stop25` sells at a month-end close 25% below average cost, `time12` sells
+when held 12+ months and below cost. Why these were tried, and what the ten
+worst open positions of `base` have in common, is in
+`../research_notes/turnaround_worst_open.md`; `post_entry.py` produces the
+per-position tables behind it.
+
+## Second backtest (`backtest_v2.py` → `output_v2/`)
+
+Separate outputs, same engine and data. `python screen.py --organic --out
+output_v2` writes snapshots with the organic-growth entry filter (trailing
+revenue growth positive and under 100%, no >60% quarter-to-quarter jump of
+the trailing figure in the last eight quarters, latest quarter not below its
+year-ago quarter while the trailing year is up); `python backtest_v2.py`
+then runs: fewer than 15 stocks at all times (`max_positions`), S&P 500
+correction parking (`spy_park` / `spy_resume` / `spy_high_window`: SPY 10%
+or more below its 1-year high → no new stocks, idle cash into SPY until the
+drawdown is back within 5%; SPY is then sold only to fund new names), the
+spin-off / divestiture re-screen (`rebase_exit`: a holding whose filings
+re-base by ≥ 30%, read from the EDGAR loader's warnings, is sold unless it is
+on the current top-10 list) and a guidance-cut proxy (`guide_cut_exit`: TTM
+EPS ≥ 15% below its entry level within the first 12 months → sell; the data
+set has no guidance history). Variants isolate each rule and start in 2009.
+
+### Dashboard for the re-screen + guide-cut scenario (`dashboard.py`)
+
+    python dashboard.py            # http://localhost:8060  (or: preview "turnaround-backtest-dashboard")
+
+Re-runs the `rescreen_only` scenario over any start / end window and initial
+capital from the page (the engine's `Scenario.end` field), then lets you scrub
+an as-of date across the run: holdings on that day (shares, average cost,
+price, weight, gain, last monthly RSI, TTM EPS versus entry for the guide-cut
+proxy, whether the name is on the top-10 list in force), cash available, the
+trade log with the day highlighted, a positions timeline (one bar per holding
+period) and stock charts: daily close with buys / sells and monthly RSI(14),
+either overlaid (indexed to 100 at the first buy, at the range start, or log
+price; at most 8 stocks at a time, each with a fixed colour) or as small
+multiples, with every selected stock individually switchable. The page state
+lives in the URL hash, so a view can be bookmarked.
+
+The market for every ticker that ever made a top-10 list is built once (about
+a minute) and cached in `output_v2/dashboard_market.pkl` (not committed); it
+is rebuilt when `output_v2/snapshots.json` is newer. Delete the file after
+changing `engine.Market`.
+
 ## Data limits, stated up front
 
 * SEC XBRL starts with fiscal-2007 comparatives for large filers (2009–2011

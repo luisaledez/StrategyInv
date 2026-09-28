@@ -11,3 +11,4 @@ rsi_swing/cache/
 turnaround_backtest/cache/
 turnaround_backtest/synthetic/data/
 turnaround_backtest/synthetic/cache/
+turnaround_backtest/output_v2/dashboard_market.pkl

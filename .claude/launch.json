@@ -4,8 +4,20 @@
     {
       "name": "turnaround-scanner",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["turnaround/app.py", "8050"],
+      "runtimeArgs": [
+        "turnaround/app.py",
+        "8050"
+      ],
       "port": 8050
+    },
+    {
+      "name": "turnaround-backtest-dashboard",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "turnaround_backtest/dashboard.py",
+        "8060"
+      ],
+      "port": 8060
     }
   ]
 }

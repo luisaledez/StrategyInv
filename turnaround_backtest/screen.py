@@ -174,6 +174,38 @@ def ticker_table(t: str, daily: pd.DataFrame | None, quarters: list[dict]) -> pd
                     pts.append(v > 0)
             if pts:
                 prof_past[i] = float(sum(pts) >= max(1, len(pts) - 1))
+    # organic-growth diagnostics on the point-in-time quarterly revenue series: change of the TTM figure
+    # versus the previous quarter (negative = the latest quarter is below its year-ago quarter, a spike
+    # fading) and the largest quarter-to-quarter jump of the TTM figure over the last eight quarters
+    # (an acquisition or a data artefact)
+    rev_qoq = np.full(n, np.nan); rev_jump8 = np.full(n, np.nan)
+    if quarters:
+        by_end_pub = {}   # end -> (available, rev_ttm) of the first-published reading
+        for r in quarters:
+            if r.get("rev_ttm") is not None and r["end"] not in by_end_pub:
+                by_end_pub[r["end"]] = (r["available"], r["rev_ttm"])
+        ends_sorted = sorted(by_end_pub)
+        for i, qe in enumerate(q_end):
+            if qe is None or qe not in by_end_pub:
+                continue
+            asof = tbl.index[i].date().isoformat()
+            chain = [by_end_pub[qe][1]]
+            j = ends_sorted.index(qe)
+            while j > 0 and len(chain) < 9:
+                j -= 1
+                a, v = by_end_pub[ends_sorted[j]]
+                if a > asof:
+                    continue
+                gap = (pd.Timestamp(ends_sorted[j + 1]) - pd.Timestamp(ends_sorted[j])).days
+                if not 60 <= gap <= 120:
+                    break
+                chain.append(v)
+            if len(chain) >= 2 and chain[1] > 0:
+                rev_qoq[i] = chain[0] / chain[1] - 1.0
+                ratios = [chain[k] / chain[k + 1] for k in range(len(chain) - 1) if chain[k + 1] > 0]
+                if ratios:
+                    rev_jump8[i] = max(ratios)
+    tbl["rev_qoq"] = rev_qoq; tbl["rev_jump8"] = rev_jump8
     tbl["q_end"] = q_end
     tbl["eps_ttm"] = eps; tbl["ni_ttm"] = ni; tbl["rev_ttm"] = rev; tbl["ebitda_ttm"] = ebitda
     tbl["debt"] = debt; tbl["cash"] = cash; tbl["shares"] = shares
@@ -221,7 +253,29 @@ def _f(x):
     return None if x is None or (isinstance(x, float) and math.isnan(x)) else float(x)
 
 
-def screen_at(tables: dict[str, pd.DataFrame], meta: pd.DataFrame, snap: pd.Timestamp) -> dict:
+def is_organic(r: dict) -> bool:
+    """Organic-growth filter for the second backtest: trailing revenue growth
+    must be positive and below ORGANIC_MAX_YOY (a doubling of trailing revenue
+    is an acquisition, a consolidation or a data artefact), the trailing figure
+    must not have jumped more than ORGANIC_MAX_JUMP quarter to quarter in the
+    last eight quarters (acquisition), and the latest quarter must not be below
+    its year-ago quarter while the trailing year is up (a commodity or one-off
+    spike that is already fading)."""
+    g = r["rev_yoy"]
+    if g is None or g < 0 or g >= ORGANIC_MAX_YOY:
+        return False
+    if r.get("rev_jump8") is not None and r["rev_jump8"] > ORGANIC_MAX_JUMP:
+        return False
+    if r.get("rev_qoq") is not None and r["rev_qoq"] < 0:
+        return False
+    return True
+
+
+ORGANIC_MAX_YOY = 1.0
+ORGANIC_MAX_JUMP = 1.6
+
+
+def screen_at(tables: dict[str, pd.DataFrame], meta: pd.DataFrame, snap: pd.Timestamp, organic: bool = False) -> dict:
     as_of = snap - pd.Timedelta(days=1)
     month_end = as_of.to_period("M").to_timestamp(how="end").normalize()
     rows = []
@@ -240,6 +294,7 @@ def screen_at(tables: dict[str, pd.DataFrame], meta: pd.DataFrame, snap: pd.Time
             "q_end": r["q_end"],
             "eps_ttm": _f(r["eps_ttm"]), "ni_ttm": _f(r["ni_ttm"]), "rev_ttm": _f(r["rev_ttm"]),
             "rev_yoy": _f(r["rev_yoy"]), "prof_past": _f(r["prof_past"]),
+            "rev_qoq": _f(r["rev_qoq"]), "rev_jump8": _f(r["rev_jump8"]),
             "pe": _f(r["pe"]), "ps": _f(r["ps"]), "ev_ebitda": _f(r["ev_ebitda"]),
             "pe_pct": _f(r["pe_pct"]), "ps_pct": _f(r["ps_pct"]), "ev_ebitda_pct": _f(r["ev_ebitda_pct"]),
             "val_pct": _f(r["val_pct"]),
@@ -250,6 +305,8 @@ def screen_at(tables: dict[str, pd.DataFrame], meta: pd.DataFrame, snap: pd.Time
     profitable = [r for r in big if r["eps_ttm"] is not None and r["eps_ttm"] > 0
                   and (r["ni_ttm"] is None or r["ni_ttm"] > 0) and r["prof_past"] == 1.0]
     eligible = [r for r in profitable if r["rev_yoy"] is not None]
+    if organic:
+        eligible = [r for r in eligible if is_organic(r)]
     top20 = sorted(eligible, key=lambda r: -r["rev_yoy"])[:TOP_GROWTH]
     valued = [r for r in top20 if r["val_pct"] is not None]
     top10 = sorted(valued, key=lambda r: (r["val_pct"], -r["rev_yoy"]))[:TOP_VALUE]
@@ -266,28 +323,37 @@ def screen_at(tables: dict[str, pd.DataFrame], meta: pd.DataFrame, snap: pd.Time
     }
 
 
-def run(verbose: bool = True) -> list[dict]:
+def run(verbose: bool = True, organic: bool = False, out: Path | None = None) -> list[dict]:
+    out = out or OUT
+    out.mkdir(parents=True, exist_ok=True)
     meta = data.universe_meta()
     tickers = list(meta.index)
     print(f"screen: building monthly tables for {len(tickers)} tickers", file=sys.stderr, flush=True)
     tables = build_tables(tickers, verbose)
     snaps = []
     for snap in snapshot_dates():
-        s = screen_at(tables, meta, snap)
+        s = screen_at(tables, meta, snap, organic=organic)
+        s["organic"] = organic
         snaps.append(s)
         if verbose:
             print(f"  {s['date']}: qualified {s['n_qualified']:3d} liquid {s['n_liquid']:3d} "
                   f"mcap {s['n_mcap']:3d} profitable {s['n_profitable']:3d} eligible {s['n_eligible']:3d} "
                   f"-> top10 {', '.join(r['ticker'] for r in s['top10']) or '-'}", file=sys.stderr, flush=True)
-    (OUT / "snapshots.json").write_text(json.dumps(snaps, indent=1), encoding="utf-8")
+    (out / "snapshots.json").write_text(json.dumps(snaps, indent=1), encoding="utf-8")
     flat = []
     for s in snaps:
         for r in s["top20"]:
             flat.append({"date": s["date"], **r, "in_top10": "value_rank" in r})
-    pd.DataFrame(flat).to_csv(OUT / "snapshots.csv", index=False)
-    print(f"wrote {OUT / 'snapshots.json'} ({len(snaps)} snapshots)", file=sys.stderr)
+    pd.DataFrame(flat).to_csv(out / "snapshots.csv", index=False)
+    print(f"wrote {out / 'snapshots.json'} ({len(snaps)} snapshots)", file=sys.stderr)
     return snaps
 
 
 if __name__ == "__main__":
-    run()
+    # python screen.py                       -> output/
+    # python screen.py --organic --out DIR   -> DIR/ with the organic-growth entry filter (second backtest)
+    args = sys.argv[1:]
+    out = Path(args[args.index("--out") + 1]) if "--out" in args else None
+    if out is not None and not out.is_absolute():
+        out = HERE / out
+    run(organic="--organic" in args, out=out)

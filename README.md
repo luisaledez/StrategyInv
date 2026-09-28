@@ -83,3 +83,26 @@ python rsi_swing/backtest.py QCOM --start 1996-01-01
 python rsi_swing/backtest.py QCOM --sweep 28,30,32,34,36
 ```
 
+
+## Synthetic lost decade (`synthetic.py`, `synthetic_run.py`)
+
+A stress test of the same rules in a market like 1968–1982: the real S&P 500
+daily path (Yahoo ^GSPC, +1.5%/yr price, a 48% drawdown in 1973–74, CPI up
+180%). Each of today's 900 stocks is re-simulated on that path with its own
+real beta and a block bootstrap (126-day blocks) of its own real idiosyncratic
+daily returns, so single-stock crashes and rebounds keep their real shape while
+the market goes nowhere. Quarterly fundamentals are generated: revenue grows
+with CPI inflation plus a persistent company-specific real rate plus a share of
+the stock's own quarterly price residual; net margins swing with the stock's
+residual and the market and can turn negative; EBITDA, debt, cash, shares and
+the starting market cap are scaled from each company's latest real filing.
+Dividend yield 3.5%. Nothing in the fundamentals knows the future price.
+
+```
+python synthetic_run.py --seeds 0,1,2,3,4     # ~4 min per seed
+```
+
+writes `synthetic/output/seed<k>/` (the usual report.md / report.html /
+results.json / trades) and `synthetic/output/summary.md` with every scenario
+per seed in nominal and CPI-deflated terms, the median across seeds, and the
+year-by-year comparison of base / no_trim / rotate against the index.

@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turnaround backtest dashboard</title>
+<style>
+:root{color-scheme:light;
+  --bg:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--axis:#c3c2b7;
+  --border:rgba(11,11,11,.10);--acc:#2a78d6;--good:#006300;--bad:#d03b3b;--hi:#eef4fd;
+  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#4a3aa7;--s8:#e34948;
+  --bar:#9ec5f4;--bar-hi:#3987e5;--wash:rgba(42,120,214,.10)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;
+  --bg:#0d0d0d;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;--axis:#383835;
+  --border:rgba(255,255,255,.10);--acc:#3987e5;--good:#0ca30c;--bad:#e66767;--hi:#1f2a3a;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;
+  --bar:#184f95;--bar-hi:#5598e7;--wash:rgba(57,135,229,.12)}}
+*{box-sizing:border-box}
+body{margin:0;font:13px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+header{display:flex;gap:16px;align-items:baseline;padding:10px 24px;border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:5}
+header h1{font-size:17px;margin:0}header .sub{color:var(--ink2)}header .sp{flex:1}
+#status{font-size:12px;color:var(--ink2)}#status.err{color:var(--bad)}
+main{padding:16px 24px 40px;max-width:1700px;margin:0 auto}
+main.busy{opacity:.55;pointer-events:none}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin:0 0 14px}
+h2{font-size:14px;margin:0 0 8px;font-weight:600}h2 .muted{font-weight:400}
+.muted{color:var(--muted)}.small{font-size:12px}.ink2{color:var(--ink2)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.row label{display:flex;gap:6px;align-items:center;color:var(--ink2)}
+input,select,button{font:inherit;color:var(--ink)}
+input[type=date],input[type=number],input[type=text],select{padding:5px 8px;border:1px solid var(--axis);border-radius:6px;background:var(--surface)}
+input[type=number]{width:110px}input[type=text]{width:150px}
+button{padding:5px 11px;border:1px solid var(--acc);background:var(--acc);color:#fff;border-radius:6px;cursor:pointer}
+button.sec{background:transparent;color:var(--acc)}button.sm{padding:2px 8px;font-size:12px}
+button:disabled{opacity:.5;cursor:default}
+.seg{display:inline-flex;border:1px solid var(--axis);border-radius:6px;overflow:hidden}
+.seg button{border:0;border-radius:0;background:transparent;color:var(--ink2);padding:4px 10px}
+.seg button.on{background:var(--acc);color:#fff}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px;margin:0 0 14px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:8px 12px}
+.tile .l{color:var(--ink2);font-size:12px}.tile .v{font-size:20px;font-weight:600;margin-top:2px}.tile .d{font-size:12px;color:var(--ink2)}
+.pos{color:var(--good)}.neg{color:var(--bad)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:4px 7px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap}
+th{color:var(--ink2);font-weight:600;position:sticky;top:0;background:var(--surface);z-index:1;cursor:pointer;user-select:none}
+th.l,td.l{text-align:left}tr:hover td{background:var(--hi)}tr.cur td{background:var(--wash)}tr.clk{cursor:pointer}
+tr.tot td{font-weight:600;border-top:1px solid var(--axis)}
+.scroll{max-height:440px;overflow:auto;border:1px solid var(--grid);border-radius:6px}
+.grid2{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:14px}.grid2>*{min-width:0}.scroll{max-width:100%}@media(max-width:1200px){.grid2{grid-template-columns:1fr}}
+.chart{display:block;width:100%;background:var(--surface)}
+.chart text{font-size:11px;fill:var(--ink2)}.chart .tick{fill:var(--muted)}
+.chart .grid{stroke:var(--grid);stroke-width:1}.chart .axis{stroke:var(--axis);stroke-width:1}
+.chart .base{stroke:var(--axis);stroke-width:1}
+.chart .thr{stroke:var(--muted);stroke-width:1;stroke-dasharray:4 3}
+.chart .cursor{stroke:var(--ink);stroke-width:1;stroke-dasharray:2 3;opacity:.7}
+.chart .xh{stroke:var(--muted);stroke-width:1}
+.chart .line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.chart .thin{fill:none;stroke-width:1.5;stroke-linejoin:round}
+.chart .mk{stroke:var(--surface);stroke-width:2;paint-order:stroke}
+.chart .wd{stroke:var(--muted);stroke-width:2}
+.chart .bar{rx:3}.chart .bar.dim{opacity:.55}
+.chart .hit{fill:transparent;cursor:crosshair}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin:6px 0 0;color:var(--ink2);font-size:12px}
+.key{display:inline-block;width:14px;height:0;border-top:2px solid;vertical-align:middle;margin-right:5px;border-radius:2px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:middle;margin-right:5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--axis);border-radius:14px;padding:2px 6px 2px 8px;background:var(--surface);cursor:pointer;user-select:none}
+.chip.off{opacity:.45}.chip .x{color:var(--muted);padding:0 3px;border-radius:50%}.chip .x:hover{color:var(--bad)}
+.chip .noslot{font-size:10px;color:var(--muted)}
+#tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:6px 10px;font-size:12px;box-shadow:0 4px 16px rgba(0,0,0,.14);display:none;z-index:20;max-width:340px}
+#tip .t{color:var(--ink2);margin-bottom:3px}#tip .r{display:flex;gap:8px;justify-content:space-between}#tip .r b{font-weight:600}
+#tip .k{display:inline-block;width:10px;border-top:2px solid;vertical-align:middle;margin-right:5px}
+.gantt-wrap{max-height:520px;overflow-y:auto;border:1px solid var(--grid);border-radius:6px}
+.multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:12px}
+.multi .card{margin:0;padding:8px 10px}
+.multi h3{font-size:13px;margin:0 0 4px;font-weight:600}.multi h3 span{font-weight:400;color:var(--ink2)}
+.note{font-size:12px;color:var(--ink2);margin:4px 0}
+.slider{width:100%;margin:6px 0 0}
+details summary{cursor:pointer;color:var(--ink2)}
+.tag{font-size:11px;padding:0 5px;border-radius:4px;background:var(--wash);color:var(--ink2)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Turnaround backtest v2 <span class="sub">· re-screen + guide-cut proxy (rescreen_only)</span></h1>
+  <span class="sp"></span>
+  <span id="status">connecting…</span>
+</header>
+<main id="main">
+
+<section class="card">
+  <div class="row" id="runRow">
+    <label>Start <input type="date" id="start"></label>
+    <label>End <input type="date" id="end"></label>
+    <label>Initial $ <input type="number" id="initial" value="100000" step="1000" min="1000"></label>
+    <button id="runBtn">Run backtest</button>
+    <span class="seg" id="presets">
+      <button data-start="2004-01-01">Full</button><button data-start="2009-01-01">2009 →</button>
+      <button data-start="2012-01-01">2012 →</button><button data-start="2015-01-01">2015 →</button>
+      <button data-start="2020-01-01">2020 →</button>
+    </span>
+    <span class="muted small" id="runNote"></span>
+  </div>
+  <div class="row" style="margin-top:10px">
+    <label>As-of date <input type="date" id="asofDate"></label>
+    <button class="sec sm" id="prevTrade" title="previous trade">◀ trade</button>
+    <button class="sec sm" id="nextTrade" title="next trade">trade ▶</button>
+    <button class="sec sm" id="prevSnap" title="previous quarterly snapshot">◀ quarter</button>
+    <button class="sec sm" id="nextSnap" title="next quarterly snapshot">quarter ▶</button>
+    <button class="sec sm" id="toEnd">run end</button>
+    <span class="small ink2">Click any chart to set the date; the slider scrubs the whole run.</span>
+  </div>
+  <input type="range" class="slider" id="asofSlider" min="0" max="0" value="0">
+</section>
+
+<div class="tiles" id="kpis"></div>
+
+<section class="card">
+  <h2>Portfolio value <span class="muted">· after withdrawals, with idle cash and SPY on the same withdrawal rule</span>
+    <span style="float:right"><label class="small ink2"><input type="checkbox" id="eqLog"> log scale</label></span></h2>
+  <div id="eqChart"></div>
+  <div class="legend" id="eqLegend"></div>
+  <details style="margin-top:8px"><summary class="small">Year by year</summary><div class="scroll" style="max-height:300px"><table id="yearsTable"></table></div></details>
+</section>
+
+<div class="grid2">
+  <section class="card">
+    <h2>Holdings on <span id="asofLabel">…</span> <span class="muted small" id="snapNote"></span></h2>
+    <div class="tiles" id="stateTiles" style="grid-template-columns:repeat(auto-fit,minmax(120px,1fr))"></div>
+    <div class="row small" style="margin-bottom:6px">
+      <button class="sec sm" id="chartHeld">Chart all holdings</button>
+      <button class="sec sm" id="clearSel">Clear charts</button>
+      <span class="ink2">Tick a row to add the stock to the charts below.</span>
+    </div>
+    <div class="scroll"><table id="holdings"></table></div>
+    <div class="note" id="top10Note"></div>
+  </section>
+  <section class="card">
+    <h2>Trades <span class="muted small" id="tradeCount"></span></h2>
+    <div class="row small" style="margin-bottom:6px">
+      <input type="text" id="trQ" placeholder="ticker" style="width:90px">
+      <select id="trSide"><option value="">buys + sells</option><option>BUY</option><option>SELL</option></select>
+      <select id="trReason"><option value="">all reasons</option></select>
+      <label><input type="checkbox" id="trNear"> ±90 days of as-of</label>
+    </div>
+    <div class="scroll" id="tradesWrap"><table id="trades"></table></div>
+  </section>
+</div>
+
+<section class="card">
+  <h2>Positions timeline <span class="muted">· one bar per holding period; ▼ marks a sale; darker bars are held on the as-of date. Click a bar to chart it.</span></h2>
+  <div id="ganttAxis"></div>
+  <div class="gantt-wrap" id="ganttWrap"><div id="gantt"></div></div>
+</section>
+
+<section class="card">
+  <h2>Stock charts <span class="muted">· share price with buys ▲ / sells ▼ and monthly RSI(14)</span></h2>
+  <div class="row small">
+    <input type="text" id="addTicker" list="tickerList" placeholder="add ticker…" style="width:130px"><datalist id="tickerList"></datalist>
+    <span class="seg" id="modeSeg"><button data-v="overlay" class="on">Overlay (compare)</button><button data-v="multiples">Small multiples (isolated)</button></span>
+    <span class="seg" id="baseSeg"><button data-v="entry" class="on">Index: 100 at first buy</button><button data-v="start">100 at range start</button><button data-v="price">Price $ (log)</button></span>
+    <label><input type="checkbox" id="fitX" checked> fit dates to selected holdings</label>
+    <label><input type="checkbox" id="showTable"> table view</label>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="note" id="stockNote"></div>
+  <div id="overlay">
+    <div id="priceChart"></div>
+    <div id="rsiChart"></div>
+  </div>
+  <div id="multiples" class="multi" style="display:none"></div>
+  <div id="seriesTable" class="scroll" style="display:none;margin-top:10px"></div>
+</section>
+
+</main>
+<div id="tip"></div>
+
+<script>
+'use strict';
+const $ = s => document.querySelector(s);
+const NS = 'http://www.w3.org/2000/svg';
+const S = {
+  data: null, run: null, cal: [], calMs: [], asof: 0, state: null,
+  list: [], hidden: new Set(), slots: new Map(), series: new Map(),
+  mode: 'overlay', base: 'entry', fitX: true, log: false, tableOn: false,
+  trFilter: {q: '', side: '', reason: '', near: false},
+};
+const SLOTS = 8;
+const CH = {};           // rendered charts, for cursor / crosshair updates
+const DAY = 86400000;
+
+// ------------------------------------------------------------------ utils
+const fmt = {
+  money: v => v == null ? '–' : (v < 0 ? '-' : '') + '$' + Math.round(Math.abs(v)).toLocaleString('en-US'),
+  money2: v => v == null ? '–' : '$' + Number(v).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+  pct: (v, d = 1) => v == null || isNaN(v) ? '–' : (v > 0 ? '+' : '') + (v * 100).toFixed(d) + '%',
+  pct0: (v, d = 1) => v == null || isNaN(v) ? '–' : (v * 100).toFixed(d) + '%',
+  num: (v, d = 2) => v == null || isNaN(v) ? '–' : Number(v).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d}),
+  compact: v => v == null ? '–' : (Math.abs(v) >= 1e6 ? '$' + (v / 1e6).toFixed(2) + 'M' : Math.abs(v) >= 1e3 ? '$' + (v / 1e3).toFixed(0) + 'K' : '$' + v.toFixed(0)),
+  months: d => d == null ? '–' : (d / 30.4375).toFixed(1) + ' mo',
+};
+const signCls = v => v == null ? '' : v > 0 ? 'pos' : v < 0 ? 'neg' : '';
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function h(tag, props, ...kids) { const e = document.createElement(tag); if (props) for (const k in props) { if (k === 'class') e.className = props[k]; else if (k === 'text') e.textContent = props[k]; else if (k.startsWith('on')) e.addEventListener(k.slice(2), props[k]); else e.setAttribute(k, props[k]); } for (const c of kids) if (c != null) e.append(c); return e; }
+function bisect(arr, v) { let lo = 0, hi = arr.length; while (lo < hi) { const m = (lo + hi) >> 1; if (arr[m] <= v) lo = m + 1; else hi = m; } return lo - 1; } // last index with arr[i] <= v
+function idxAtOrBefore(iso) { return Math.max(0, bisect(S.calMs, Date.parse(iso))); }
+function idxAtOrAfter(iso) { const i = bisect(S.calMs, Date.parse(iso)); return S.calMs[i] === Date.parse(iso) ? i : Math.min(S.cal.length - 1, i + 1); }
+function nearestIdx(ms, i0 = 0, i1 = S.cal.length - 1) { let i = bisect(S.calMs, ms); if (i < i0) i = i0; if (i < i1 && Math.abs(S.calMs[i + 1] - ms) < Math.abs(S.calMs[i] - ms)) i++; return Math.min(i1, Math.max(i0, i)); }
+function debounce(f, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => f(...a), ms); }; }
+function qs(o) { return Object.entries(o).filter(([, v]) => v != null && v !== '').map(([k, v]) => k + '=' + encodeURIComponent(v)).join('&'); }
+async function api(path, q) {
+  const r = await fetch(path + '?' + qs(q || {}));
+  if (!r.ok) throw new Error((await r.text()).replace(/<[^>]+>/g, ' ').trim().slice(0, 300));
+  return r.json();
+}
+function runParams() { return S.run ? S.run.params : readParams(); }
+function readParams() { return {start: $('#start').value, end: $('#end').value, initial: $('#initial').value}; }
+function colorOf(t) { const k = S.slots.get(t); return k ? `var(--s${k})` : null; }
+function assignSlot(t) { if (S.slots.has(t)) return; const used = new Set(S.slots.values()); for (let k = 1; k <= SLOTS; k++) if (!used.has(k)) { S.slots.set(t, k); return; } }
+function tickerMeta(t) { return (S.run && S.run.tickers.find(x => x.ticker === t)) || {ticker: t}; }
+function lotsOf(t) { return S.run ? S.run.lots.filter(l => l.ticker === t) : []; }
+
+// ------------------------------------------------------------------ scales & axes
+function lin(d0, d1, r0, r1) { const f = v => r0 + (v - d0) / ((d1 - d0) || 1) * (r1 - r0); f.inv = p => d0 + (p - r0) / ((r1 - r0) || 1) * (d1 - d0); f.log = false; return f; }
+function logs(d0, d1, r0, r1) { const l0 = Math.log10(d0), l1 = Math.log10(d1); const f = v => r0 + (Math.log10(v) - l0) / ((l1 - l0) || 1) * (r1 - r0); f.inv = p => Math.pow(10, l0 + (p - r0) / ((r1 - r0) || 1) * (l1 - l0)); f.log = true; return f; }
+function niceTicks(lo, hi, n = 5) { const span = (hi - lo) || 1, s0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(s0))), nm = s0 / mag; const step = (nm < 1.5 ? 1 : nm < 3 ? 2 : nm < 7 ? 5 : 10) * mag; const out = []; for (let v = Math.ceil(lo / step) * step; v <= hi + step * 1e-6; v += step) out.push(+v.toFixed(10)); return out; }
+function logTicks(lo, hi) { const out = []; for (let e = Math.floor(Math.log10(lo)); e <= Math.ceil(Math.log10(hi)); e++) for (const m of [1, 2, 5]) { const v = m * Math.pow(10, e); if (v >= lo && v <= hi) out.push(v); } return out; }
+function timeTicks(ms0, ms1, px) {
+  const days = (ms1 - ms0) / DAY, out = [], d0 = new Date(ms0), d1 = new Date(ms1);
+  const want = Math.max(2, Math.floor(px / 80));
+  if (days > 700) { const yrs = days / 365.25, step = Math.max(1, Math.ceil(yrs / want)); for (let y = d0.getUTCFullYear(); y <= d1.getUTCFullYear() + 1; y++) if (y % step === 0) { const ms = Date.UTC(y, 0, 1); if (ms >= ms0 && ms <= ms1) out.push({ms, label: String(y)}); } }
+  else { const mons = days / 30.4, step = [1, 2, 3, 6].find(s => mons / s <= want) || 6; for (let y = d0.getUTCFullYear(); y <= d1.getUTCFullYear(); y++) for (let m = 0; m < 12; m += step) { const ms = Date.UTC(y, m, 1); if (ms >= ms0 && ms <= ms1) out.push({ms, label: new Date(ms).toLocaleString('en-US', {month: 'short', year: '2-digit', timeZone: 'UTC'})}); } }
+  return out;
+}
+function frame(container, height, m = {L: 64, R: 70, T: 12, B: 24}) {
+  container.replaceChildren();
+  const w = Math.max(320, container.clientWidth || 900);
+  const svg = el('svg', {width: w, height, class: 'chart', viewBox: `0 0 ${w} ${height}`}, container);
+  return {svg, w, h: height, L: m.L, R: w - m.R, T: m.T, B: height - m.B};
+}
+function drawXAxis(f, xs, ms0, ms1) { for (const t of timeTicks(ms0, ms1, f.R - f.L)) { const x = xs(t.ms); el('line', {x1: x, x2: x, y1: f.T, y2: f.B, class: 'grid'}, f.svg); el('text', {x, y: f.B + 15, 'text-anchor': 'middle', class: 'tick'}, f.svg).textContent = t.label; } el('line', {x1: f.L, x2: f.R, y1: f.B, y2: f.B, class: 'axis'}, f.svg); }
+function drawYAxis(f, ys, ticks, label) { for (const v of ticks) { const y = ys(v); if (y < f.T - 1 || y > f.B + 1) continue; el('line', {x1: f.L, x2: f.R, y1: y, y2: y, class: 'grid'}, f.svg); el('text', {x: f.L - 6, y: y + 4, 'text-anchor': 'end', class: 'tick'}, f.svg).textContent = label(v); } }
+function pathOf(pts) { let d = '', pen = false; for (const p of pts) { if (p == null) { pen = false; continue; } d += (pen ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1); pen = true; } return d; }
+function tri(f, x, y, up, color) { const s = 5.5; const d = up ? `M${x} ${y - s}L${x + s} ${y + s}L${x - s} ${y + s}Z` : `M${x} ${y + s}L${x + s} ${y - s}L${x - s} ${y - s}Z`; return el('path', {d, class: 'mk', style: `fill:${color}`}, f.svg); }
+function diamond(f, x, y, color) { const s = 5; return el('path', {d: `M${x} ${y - s}L${x + s} ${y}L${x} ${y + s}L${x - s} ${y}Z`, class: 'mk', style: `fill:${color}`}, f.svg); }
+
+// tooltip
+const tip = $('#tip');
+function showTip(e, title, rows) {
+  tip.replaceChildren(h('div', {class: 't', text: title}));
+  for (const r of rows) { const row = h('div', {class: 'r'}); const left = h('span'); if (r.color) left.append(h('span', {class: 'k', style: 'border-color:' + r.color})); left.append(document.createTextNode(r.label)); row.append(left, h('b', {text: r.value})); tip.append(row); }
+  tip.style.display = 'block';
+  const W = tip.offsetWidth, H = tip.offsetHeight; let x = e.clientX + 14, y = e.clientY + 14;
+  if (x + W > innerWidth - 8) x = e.clientX - W - 14; if (y + H > innerHeight - 8) y = e.clientY - H - 14;
+  tip.style.left = x + 'px'; tip.style.top = y + 'px';
+}
+function hideTip() { tip.style.display = 'none'; }
+
+// crosshair + cursor registry. Each chart: {svg, xs, f, i0, i1, cursor, xh, group}
+function addCursor(chart) { chart.cursor = el('line', {y1: chart.f.T, y2: chart.f.B, class: 'cursor'}, chart.svg); chart.xh = el('line', {y1: chart.f.T, y2: chart.f.B, class: 'xh', style: 'display:none'}, chart.svg); placeCursor(chart); }
+function placeCursor(c) { if (!c || !c.cursor) return; const ms = S.calMs[S.asof]; const x = c.xs(ms); const vis = ms >= c.ms0 && ms <= c.ms1; c.cursor.style.display = vis ? '' : 'none'; if (vis) { c.cursor.setAttribute('x1', x); c.cursor.setAttribute('x2', x); } }
+function moveCursors() { for (const k in CH) { const c = CH[k]; if (Array.isArray(c)) c.forEach(placeCursor); else placeCursor(c); } }
+function crosshairAt(group, idx, e) { for (const c of group) { const x = c.xs(S.calMs[idx]); c.xh.style.display = ''; c.xh.setAttribute('x1', x); c.xh.setAttribute('x2', x); } }
+function crosshairOff(group) { for (const c of group) c.xh.style.display = 'none'; hideTip(); }
+function attachHover(chart, group, tooltipRows) {
+  const hit = el('rect', {x: chart.f.L, y: chart.f.T, width: chart.f.R - chart.f.L, height: chart.f.B - chart.f.T, class: 'hit'}, chart.svg);
+  hit.addEventListener('pointermove', e => { const r = chart.svg.getBoundingClientRect(); const idx = nearestIdx(chart.xs.inv(e.clientX - r.left), chart.i0, chart.i1); crosshairAt(group, idx, e); showTip(e, S.cal[idx], tooltipRows(idx)); });
+  hit.addEventListener('pointerleave', () => crosshairOff(group));
+  hit.addEventListener('click', e => { const r = chart.svg.getBoundingClientRect(); setAsof(nearestIdx(chart.xs.inv(e.clientX - r.left), chart.i0, chart.i1), true); });
+}
+
+// ------------------------------------------------------------------ boot
+async function boot() {
+  const hash = Object.fromEntries(new URLSearchParams(location.hash.slice(1)));
+  let st;
+  for (;;) {
+    st = await api('/api/status');
+    $('#status').textContent = st.ready ? 'market ready' : st.message + '…';
+    $('#status').className = st.error ? 'err' : '';
+    if (st.error) { $('#status').textContent = 'market failed: ' + st.error.split('\n')[0]; return; }
+    if (st.ready) break;
+    await new Promise(r => setTimeout(r, 1500));
+  }
+  S.data = st;
+  $('#start').min = $('#end').min = st.data_start; $('#start').max = $('#end').max = st.data_end;
+  $('#start').value = hash.start || st.data_start; $('#end').value = hash.end || st.data_end; $('#initial').value = hash.initial || 100000;
+  if (hash.mode) setMode(hash.mode, false); if (hash.base) setBase(hash.base, false);
+  if (hash.fit != null) { S.fitX = hash.fit === '1'; $('#fitX').checked = S.fitX; }
+  if (hash.log != null) { S.log = hash.log === '1'; $('#eqLog').checked = S.log; }
+  await loadRun(hash.asof, hash.sel ? hash.sel.split(',').filter(Boolean) : null, hash.hide ? hash.hide.split(',') : []);
+}
+
+function syncHash() {
+  if (!S.run) return;
+  const p = S.run.params;
+  const o = {start: p.start, end: p.end, initial: p.initial, asof: S.cal[S.asof], sel: S.list.join(','), hide: [...S.hidden].join(','), mode: S.mode, base: S.base, fit: S.fitX ? 1 : 0, log: S.log ? 1 : 0};
+  history.replaceState(null, '', '#' + qs(o));
+}
+
+async function loadRun(asofIso, sel, hide) {
+  const p = readParams();
+  if (!p.start || !p.end || p.start >= p.end) { $('#runNote').textContent = 'start must be before end'; return; }
+  $('#main').classList.add('busy'); $('#runNote').textContent = 'running…';
+  try {
+    const run = await api('/api/run', p);
+    S.run = run; S.cal = run.equity.dates; S.calMs = S.cal.map(d => Date.parse(d)); S.series.clear(); S.state = null;
+    const known = new Set(run.tickers.map(t => t.ticker)); known.add('SPY');
+    const keep = (sel || S.list).filter(t => known.has(t));
+    S.list = []; S.slots.clear(); S.hidden = new Set((hide || [...S.hidden]).filter(t => keep.includes(t)));
+    for (const t of keep) { S.list.push(t); assignSlot(t); }
+    $('#asofSlider').max = S.cal.length - 1;
+    $('#asofDate').min = S.cal[0]; $('#asofDate').max = S.cal[S.cal.length - 1];
+    $('#runNote').textContent = `${run.trades.length} trades · ${run.lots.length} holding periods · ${S.cal.length} trading days`;
+    fillTickerList(); renderKpis(); renderYears(); renderEquity(); renderTradesTable(); renderChips();
+    const ai = asofIso ? idxAtOrBefore(asofIso) : S.cal.length - 1;
+    await setAsof(ai, true);
+    renderGantt(); await renderStocks();
+  } catch (e) { $('#runNote').textContent = 'error: ' + e.message; console.error(e); }
+  finally { $('#main').classList.remove('busy'); }
+}
+
+// ------------------------------------------------------------------ as-of date
+let stateTimer = null, stateSeq = 0;
+function setAsof(i, immediate) {
+  i = Math.min(S.cal.length - 1, Math.max(0, i | 0));
+  S.asof = i;
+  $('#asofDate').value = S.cal[i]; $('#asofSlider').value = i; $('#asofLabel').textContent = S.cal[i];
+  moveCursors(); highlightTrades(); ganttHighlight(); syncHash();
+  clearTimeout(stateTimer);
+  const seq = ++stateSeq;
+  const go = async () => {
+    try {
+      const st = await api('/api/state', {...runParams(), date: S.cal[i]});
+      if (seq !== stateSeq) return;
+      S.state = st; renderHoldings();
+    } catch (e) { console.error(e); }
+  };
+  if (immediate) return go();
+  stateTimer = setTimeout(go, 120);
+}
+$('#asofSlider').addEventListener('input', e => setAsof(+e.target.value));
+$('#asofDate').addEventListener('change', e => { if (e.target.value) setAsof(idxAtOrBefore(e.target.value), true); });
+$('#prevTrade').onclick = () => { const d = S.state && S.state.prev_trade; if (d) setAsof(idxAtOrBefore(d), true); };
+$('#nextTrade').onclick = () => { const d = S.state && S.state.next_trade; if (d) setAsof(idxAtOrAfter(d), true); };
+$('#prevSnap').onclick = () => { const cur = S.cal[S.asof]; const s = [...S.run.snapshots].reverse().find(x => idxAtOrAfter(x.date) < S.asof); if (s) setAsof(idxAtOrAfter(s.date), true); };
+$('#nextSnap').onclick = () => { const s = S.run.snapshots.find(x => idxAtOrAfter(x.date) > S.asof); if (s) setAsof(idxAtOrAfter(s.date), true); };
+$('#toEnd').onclick = () => setAsof(S.cal.length - 1, true);
+$('#runBtn').onclick = () => loadRun(null, null, null);
+$('#presets').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; $('#start').value = b.dataset.start; $('#end').value = S.data.data_end; loadRun(null, null, null); });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return; if (e.key === 'ArrowLeft') setAsof(S.asof - (e.shiftKey ? 21 : 1)); if (e.key === 'ArrowRight') setAsof(S.asof + (e.shiftKey ? 21 : 1)); });
+
+// ------------------------------------------------------------------ KPIs & years
+function tile(label, value, delta, cls) { return h('div', {class: 'tile'}, h('div', {class: 'l', text: label}), h('div', {class: 'v ' + (cls || ''), text: value}), delta ? h('div', {class: 'd', text: delta}) : null); }
+function renderKpis() {
+  const s = S.run.summary, b = S.run.benchmark;
+  $('#kpis').replaceChildren(
+    tile('Final value', fmt.money(s.final_value), `from ${fmt.money(s.initial)} · ${s.start} → ${s.end}`),
+    tile('Withdrawn', fmt.money(s.total_withdrawn), `${S.run.withdrawals.length} year-end withdrawals`),
+    tile('Final + withdrawn', fmt.money(s.final_plus_withdrawn), `SPY same rule: ${fmt.money(b.final_plus_withdrawn)}`),
+    tile('IRR', fmt.pct(s.irr), `SPY ${fmt.pct(b.irr)} · ${fmt.pct(s.irr - b.irr)} vs SPY`, signCls(s.irr - b.irr)),
+    tile('CAGR, growth index', fmt.pct(s.cagr_tr_index), `SPY ${fmt.pct(b.cagr_tr_index)}`),
+    tile('Max drawdown', fmt.pct0(s.max_drawdown), `SPY ${fmt.pct0(b.max_drawdown)}`, 'neg'),
+    tile('Trades', String(s.trades), `first buy ${s.first_buy || '–'}`),
+    tile('Closed / open', `${s.closed_positions} / ${s.open_positions}`, `win rate ${fmt.pct0(s.win_rate, 0)} · avg ${fmt.num(s.avg_closed_return_pct, 1)}%`),
+    tile('Median hold', s.median_hold_months != null ? s.median_hold_months + ' mo' : '–', 'closed positions'),
+  );
+}
+function renderYears() {
+  const t = $('#yearsTable'); t.replaceChildren();
+  const head = h('tr'); for (const c of ['Year', 'Start', 'Return', 'Withdrawal', 'End', 'Positions', 'Cash %', 'Buys', 'Sells']) head.append(h('th', {class: c === 'Year' ? 'l' : '', text: c})); t.append(h('thead', null, head));
+  const body = h('tbody');
+  for (const y of S.run.years) body.append(h('tr', {class: 'clk', onclick: () => setAsof(idxAtOrBefore(y.year + '-12-31'), true)},
+    h('td', {class: 'l', text: y.year + (y.partial ? ' (partial)' : '')}), h('td', {text: fmt.money(y.start)}), h('td', {class: signCls(y.return), text: fmt.pct(y.return)}),
+    h('td', {text: fmt.money(y.withdrawal)}), h('td', {text: fmt.money(y.end)}), h('td', {text: y.positions}), h('td', {text: fmt.pct0(y.cash_pct)}), h('td', {text: y.buys}), h('td', {text: y.sells})));
+  t.append(body);
+}
+
+// ------------------------------------------------------------------ equity chart
+function renderEquity() {
+  const E = S.run.equity, box = $('#eqChart');
+  const f = frame(box, 320);
+  const ms0 = S.calMs[0], ms1 = S.calMs[S.calMs.length - 1];
+  const xs = lin(ms0, ms1, f.L, f.R);
+  const eq = E.equity, spy = E.spy, cash = E.cash;
+  const pos = a => a.filter(v => v != null && v > 0);
+  let lo, hi, ys;
+  if (S.log) { const vals = pos(eq).concat(pos(spy)); lo = Math.min(...vals) * 0.9; hi = Math.max(...vals) * 1.1; ys = logs(lo, hi, f.B, f.T); drawYAxis(f, ys, logTicks(lo, hi), fmt.compact); }
+  else { hi = Math.max(...pos(eq), ...pos(spy)) * 1.05; lo = 0; ys = lin(lo, hi, f.B, f.T); drawYAxis(f, ys, niceTicks(lo, hi, 6), fmt.compact); }
+  drawXAxis(f, xs, ms0, ms1);
+  const series = [
+    {key: 'equity', label: 'Portfolio (after withdrawals)', color: 'var(--s1)', vals: eq},
+    {key: 'spy', label: 'SPY, same withdrawal rule', color: 'var(--s2)', vals: spy},
+    {key: 'cash', label: 'Cash', color: 'var(--s3)', vals: cash},
+  ];
+  for (const w of S.run.withdrawals) { const x = xs(Date.parse(w.date)); el('line', {x1: x, x2: x, y1: f.B - 8, y2: f.B, class: 'wd'}, f.svg); }
+  const ends = [];
+  for (const s of series) {
+    const pts = s.vals.map((v, i) => v == null || (S.log && v < lo) ? null : [xs(S.calMs[i]), ys(v)]);
+    el('path', {d: pathOf(pts), class: 'line', style: `stroke:${s.color}`}, f.svg);
+    const last = s.vals[s.vals.length - 1]; if (last != null && !(S.log && last < lo)) ends.push({y: ys(last), text: fmt.compact(last), color: s.color});
+  }
+  ends.sort((a, b) => a.y - b.y); let prevY = -99;
+  for (const e of ends) { if (e.y - prevY < 13) continue; el('circle', {cx: f.R, cy: e.y, r: 4, class: 'mk', style: `fill:${e.color}`}, f.svg); el('text', {x: f.R + 8, y: e.y + 4}, f.svg).textContent = e.text; prevY = e.y; }
+  const chart = {svg: f.svg, f, xs, ms0, ms1, i0: 0, i1: S.cal.length - 1};
+  addCursor(chart); CH.equity = chart;
+  attachHover(chart, [chart], i => {
+    const rows = series.map(s => ({label: s.label, value: fmt.money(s.vals[i]), color: s.color}));
+    rows.push({label: 'Positions', value: String(E.positions[i])}, {label: 'Growth index', value: E.tr_index[i].toFixed(2) + 'x'});
+    const w = S.run.withdrawals.find(w => w.date === S.cal[i]); if (w) rows.push({label: 'Withdrawal', value: fmt.money(w.amount)});
+    return rows;
+  });
+  $('#eqLegend').replaceChildren(...series.map(s => h('span', null, h('span', {class: 'key', style: 'border-color:' + s.color}), s.label)), h('span', null, h('span', {class: 'key', style: 'border-color:var(--muted);width:2px;height:8px;border-top:0;border-left:2px solid'}), ' year-end withdrawal'));
+}
+$('#eqLog').addEventListener('change', e => { S.log = e.target.checked; renderEquity(); syncHash(); });
+
+// ------------------------------------------------------------------ holdings
+function renderHoldings() {
+  const st = S.state; if (!st) return;
+  $('#stateTiles').replaceChildren(
+    tile('Portfolio value', fmt.money(st.equity), `growth index ${st.tr_index.toFixed(2)}x`),
+    tile('Cash available', fmt.money(st.cash), `${fmt.pct0(st.cash_pct)} of portfolio`),
+    tile('Invested in stocks', fmt.money(st.invested), `${st.n_positions} positions`),
+    st.spy_value > 0 ? tile('Parked in SPY', fmt.money(st.spy_value), `cost ${fmt.money(st.spy_cost)}`) : null,
+    tile('Trades this day', String(st.trades_today.length), st.trades_today.length ? st.trades_today.map(i => { const t = S.run.trades[i]; return t.side[0] + ' ' + t.ticker; }).join(', ') : `prev ${st.prev_trade || '–'} · next ${st.next_trade || '–'}`),
+  );
+  const t = $('#holdings'); t.replaceChildren();
+  const cols = [['', 'chart'], ['Ticker', 'l'], ['Name', 'l'], ['Entry', ''], ['Held', ''], ['Shares', ''], ['Avg cost', ''], ['Price', ''], ['Value', ''], ['Weight', ''], ['Gain', ''], ['RSI(m)', ''], ['EPS vs entry', ''], ['List', ''], ['Trim', '']];
+  const head = h('tr'); for (const [c, cls] of cols) head.append(h('th', {class: cls, text: c})); t.append(h('thead', null, head));
+  const body = h('tbody');
+  for (const p of st.holdings) {
+    const cb = h('input', {type: 'checkbox'}); cb.checked = S.list.includes(p.ticker) && !S.hidden.has(p.ticker);
+    cb.addEventListener('change', () => cb.checked ? addTicker(p.ticker) : hideTicker(p.ticker));
+    const inYear1 = p.guide_window_end >= st.date;
+    const epsTxt = p.eps_chg == null ? '–' : fmt.pct(p.eps_chg) + (inYear1 ? ' ·y1' : '');
+    const col = colorOf(p.ticker);
+    body.append(h('tr', null,
+      h('td', null, cb), h('td', {class: 'l'}, col && !S.hidden.has(p.ticker) ? h('span', {class: 'dot', style: 'background:' + col}) : null, h('b', {text: p.ticker})),
+      h('td', {class: 'l', text: p.name || ''}), h('td', {text: p.entry}), h('td', {text: fmt.months(p.held_days)}),
+      h('td', {text: fmt.num(p.shares, 1)}), h('td', {text: fmt.money2(p.avg_cost)}), h('td', {text: fmt.money2(p.price)}),
+      h('td', {text: fmt.money(p.value)}), h('td', {text: fmt.pct0(p.weight)}), h('td', {class: signCls(p.gain_pct), text: p.gain_pct == null ? '–' : fmt.pct(p.gain_pct / 100)}),
+      h('td', {text: p.rsi_m == null ? '–' : p.rsi_m.toFixed(1), title: p.rsi_date ? 'month ending ' + p.rsi_date : ''}),
+      h('td', {class: p.eps_chg != null && p.eps_chg <= -0.15 && inYear1 ? 'neg' : '', text: epsTxt, title: p.eps_entry != null ? `TTM EPS ${p.eps_now} vs ${p.eps_entry} at entry · guide-cut window to ${p.guide_window_end}` : 'no EPS history'}),
+      h('td', {text: p.on_list ? '✓' : ''}), h('td', {text: p.trimmed ? '½' : ''})));
+  }
+  const tot = h('tr', {class: 'tot'}, h('td'), h('td', {class: 'l', text: 'Stocks'}), h('td', {class: 'l', text: st.n_positions + ' positions'}), h('td'), h('td'), h('td'), h('td'), h('td'), h('td', {text: fmt.money(st.invested)}), h('td', {text: fmt.pct0(st.equity ? st.invested / st.equity : null)}), h('td'), h('td'), h('td'), h('td'), h('td'));
+  const cashRow = h('tr', {class: 'tot'}, h('td'), h('td', {class: 'l', text: 'Cash'}), h('td', {class: 'l', text: 'available'}), h('td'), h('td'), h('td'), h('td'), h('td'), h('td', {text: fmt.money(st.cash)}), h('td', {text: fmt.pct0(st.cash_pct)}), h('td'), h('td'), h('td'), h('td'), h('td'));
+  body.append(tot, cashRow);
+  if (st.spy_value > 0) body.append(h('tr', {class: 'tot'}, h('td'), h('td', {class: 'l', text: 'SPY'}), h('td', {class: 'l', text: 'parked'}), h('td'), h('td'), h('td'), h('td'), h('td'), h('td', {text: fmt.money(st.spy_value)}), h('td', {text: fmt.pct0(st.spy_value / st.equity)}), h('td'), h('td'), h('td'), h('td'), h('td')));
+  t.append(body);
+  const sn = st.snapshot;
+  $('#snapNote').textContent = sn ? `· list from the ${sn.date} snapshot (data as of ${sn.as_of})` : '· before the first snapshot';
+  const note = $('#top10Note'); note.replaceChildren();
+  if (sn) { note.append('Top-10 list in force: '); const held = new Set(st.holdings.map(p => p.ticker)); for (const t of sn.top10) note.append(h('span', {class: 'tag', style: held.has(t) ? 'font-weight:600' : '', text: t, title: held.has(t) ? 'held' : 'not held (no cash, no price, or bought and sold)'}), ' '); }
+  ganttHighlight();
+}
+$('#chartHeld').onclick = () => { if (!S.state) return; for (const p of S.state.holdings) addTicker(p.ticker, true); renderChips(); renderStocks(); renderHoldings(); };
+$('#clearSel').onclick = () => { S.list = []; S.slots.clear(); S.hidden.clear(); renderChips(); renderStocks(); renderHoldings(); renderGantt(); syncHash(); };
+
+// ------------------------------------------------------------------ trades
+function renderTradesTable() {
+  const sel = $('#trReason'); const cur = sel.value; sel.replaceChildren(h('option', {value: '', text: 'all reasons'}));
+  for (const r of [...new Set(S.run.trades.map(t => t.reason.replace(/[\d.]+x/, 'r x').replace(/RSI\(m\) \d+/, 'RSI(m) exit')))].sort()) sel.append(h('option', {value: r, text: r}));
+  sel.value = cur;
+  const t = $('#trades'); t.replaceChildren();
+  const head = h('tr'); for (const c of ['Date', 'Ticker', 'Side', 'Reason', 'Shares', 'Price', 'Amount', 'Gain', 'Held']) head.append(h('th', {class: ['Date', 'Ticker', 'Side', 'Reason'].includes(c) ? 'l' : '', text: c})); t.append(h('thead', null, head));
+  const body = h('tbody');
+  for (const tr of S.run.trades) {
+    const row = h('tr', {class: 'clk', 'data-i': tr.i, 'data-date': tr.date, 'data-ticker': tr.ticker, 'data-side': tr.side, 'data-reason': tr.reason.replace(/[\d.]+x/, 'r x').replace(/RSI\(m\) \d+/, 'RSI(m) exit'),
+      onclick: () => { setAsof(idxAtOrBefore(tr.date), true); if (tr.ticker !== 'SPY') addTicker(tr.ticker); }},
+      h('td', {class: 'l', text: tr.date}), h('td', {class: 'l'}, h('b', {text: tr.ticker})), h('td', {class: 'l ' + (tr.side === 'BUY' ? 'pos' : 'neg'), text: tr.side}), h('td', {class: 'l', text: tr.reason}),
+      h('td', {text: fmt.num(tr.shares, 1)}), h('td', {text: fmt.money2(tr.price)}), h('td', {text: fmt.money(tr.amount)}),
+      h('td', {class: signCls(tr.gain_pct), text: tr.gain_pct == null ? '' : fmt.pct(tr.gain_pct / 100)}), h('td', {text: tr.held_days == null ? '' : fmt.months(tr.held_days)}));
+    body.append(row);
+  }
+  t.append(body); filterTrades();
+}
+function filterTrades() {
+  const F = S.trFilter; const asofMs = S.calMs[S.asof]; let n = 0;
+  for (const row of $('#trades tbody').children) {
+    const d = row.dataset; let ok = true;
+    if (F.q && !d.ticker.toLowerCase().startsWith(F.q.toLowerCase())) ok = false;
+    if (F.side && d.side !== F.side) ok = false;
+    if (F.reason && d.reason !== F.reason) ok = false;
+    if (F.near && Math.abs(Date.parse(d.date) - asofMs) > 90 * DAY) ok = false;
+    row.style.display = ok ? '' : 'none'; if (ok) n++;
+  }
+  $('#tradeCount').textContent = `· ${n} of ${S.run.trades.length}`;
+}
+function highlightTrades() {
+  if (!S.run) return;
+  if (S.trFilter.near) filterTrades();
+  const day = S.cal[S.asof]; let target = null;
+  for (const row of $('#trades tbody').children) { const on = row.dataset.date === day; row.classList.toggle('cur', on); if (row.style.display !== 'none' && row.dataset.date <= day) target = row; }
+  if (target) { const wrap = $('#tradesWrap'); const y = target.offsetTop - wrap.clientHeight / 2; if (Math.abs(wrap.scrollTop - y) > 40) wrap.scrollTop = y; }
+}
+$('#trQ').addEventListener('input', e => { S.trFilter.q = e.target.value.trim(); filterTrades(); });
+$('#trSide').addEventListener('change', e => { S.trFilter.side = e.target.value; filterTrades(); });
+$('#trReason').addEventListener('change', e => { S.trFilter.reason = e.target.value; filterTrades(); });
+$('#trNear').addEventListener('change', e => { S.trFilter.near = e.target.checked; filterTrades(); highlightTrades(); });
+
+// ------------------------------------------------------------------ positions timeline (Gantt)
+function renderGantt() {
+  const lots = [...S.run.lots].sort((a, b) => a.entry < b.entry ? -1 : a.entry > b.entry ? 1 : a.ticker < b.ticker ? -1 : 1);
+  const rowH = 14, ms0 = S.calMs[0], ms1 = S.calMs[S.calMs.length - 1];
+  const ax = frame($('#ganttAxis'), 22, {L: 70, R: 20, T: 0, B: 20});
+  const xs = lin(ms0, ms1, ax.L, ax.R);
+  for (const t of timeTicks(ms0, ms1, ax.R - ax.L)) el('text', {x: xs(t.ms), y: 14, 'text-anchor': 'middle', class: 'tick'}, ax.svg).textContent = t.label;
+  el('line', {x1: ax.L, x2: ax.R, y1: 21, y2: 21, class: 'axis'}, ax.svg);
+  const g = frame($('#gantt'), Math.max(40, lots.length * rowH + 6), {L: 70, R: 20, T: 3, B: 3});
+  for (const t of timeTicks(ms0, ms1, g.R - g.L)) { const x = xs(t.ms); el('line', {x1: x, x2: x, y1: g.T, y2: g.B, class: 'grid'}, g.svg); }
+  const bars = [];
+  lots.forEach((lot, r) => {
+    const y = g.T + r * rowH + 3, x0 = xs(Date.parse(lot.entry)), x1 = xs(Date.parse(lot.exit || S.cal[S.cal.length - 1]));
+    const bar = el('rect', {x: x0, y, width: Math.max(2, x1 - x0), height: 8, class: 'bar', style: 'fill:var(--bar)'}, g.svg);
+    const lbl = el('text', {x: x0 - 5, y: y + 8, 'text-anchor': 'end', class: 'tick'}, g.svg); lbl.textContent = lot.ticker;
+    if (x0 - 5 - 40 < 0) { lbl.setAttribute('x', x1 + 5); lbl.setAttribute('text-anchor', 'start'); }
+    for (const i of lot.trades) { const tr = S.run.trades[i]; if (tr.side !== 'SELL') continue; const x = xs(Date.parse(tr.date)); el('path', {d: `M${x} ${y + 9}L${x + 3} ${y + 3}L${x - 3} ${y + 3}Z`, style: 'fill:var(--ink2)'}, g.svg); }
+    const hit = el('rect', {x: Math.min(x0, x1) - 2, y: y - 3, width: Math.max(6, x1 - x0) + 4, height: rowH, class: 'hit'}, g.svg);
+    const rows = () => [{label: 'entry → exit', value: lot.entry + ' → ' + (lot.exit || 'open')}, {label: 'invested', value: fmt.money(lot.invested)},
+      {label: lot.open ? 'value now' : 'returned', value: fmt.money(lot.open ? lot.value : lot.returned)}, {label: 'return', value: lot.return_pct == null ? '–' : fmt.pct(lot.return_pct / 100)},
+      {label: 'last action', value: lot.last_reason || (lot.open ? 'still held' : '–')}];
+    hit.addEventListener('pointermove', e => { showTip(e, `${lot.ticker} · ${tickerMeta(lot.ticker).name || ''}`, rows()); bar.style.fill = colorOf(lot.ticker) || 'var(--bar-hi)'; });
+    hit.addEventListener('pointerleave', () => { hideTip(); ganttHighlight(); });
+    hit.addEventListener('click', () => { if (S.list.includes(lot.ticker) && !S.hidden.has(lot.ticker)) hideTicker(lot.ticker); else addTicker(lot.ticker); });
+    bars.push({lot, bar, lbl});
+  });
+  const chart = {svg: g.svg, f: g, xs, ms0, ms1, i0: 0, i1: S.cal.length - 1, bars};
+  addCursor(chart); CH.gantt = chart;
+  const axc = {svg: ax.svg, f: {T: 0, B: 22}, xs, ms0, ms1}; addCursor(axc); CH.ganttAxis = axc;
+  ganttHighlight();
+}
+function ganttHighlight() {
+  const c = CH.gantt; if (!c) return; const day = S.cal[S.asof]; let n = 0;
+  for (const {lot, bar, lbl} of c.bars) {
+    const held = lot.entry <= day && (!lot.exit || lot.exit >= day); n += held;
+    const col = !S.hidden.has(lot.ticker) ? colorOf(lot.ticker) : null;
+    bar.style.fill = col || (held ? 'var(--bar-hi)' : 'var(--bar)');
+    bar.classList.toggle('dim', !held && !col);
+    lbl.style.fill = held || col ? 'var(--ink)' : ''; lbl.style.fontWeight = held ? '600' : '';
+  }
+}
+
+// ------------------------------------------------------------------ stock selection
+function fillTickerList() { const dl = $('#tickerList'); dl.replaceChildren(); for (const t of S.run.tickers) dl.append(h('option', {value: t.ticker, text: t.name || ''})); dl.append(h('option', {value: 'SPY', text: 'S&P 500 ETF'})); }
+async function ensureSeries(t) { if (S.series.has(t)) return S.series.get(t); const s = await api('/api/series/' + encodeURIComponent(t), runParams()); S.series.set(t, s); return s; }
+function addTicker(t, quiet) {
+  t = t.toUpperCase();
+  if (!S.list.includes(t)) { S.list.push(t); assignSlot(t); }
+  S.hidden.delete(t);
+  if (quiet) return;
+  renderChips(); renderStocks(); renderHoldings(); ganttHighlight(); syncHash();
+}
+function hideTicker(t) { S.hidden.add(t); renderChips(); renderStocks(); renderHoldings(); ganttHighlight(); syncHash(); }
+function removeTicker(t) { S.list = S.list.filter(x => x !== t); S.slots.delete(t); S.hidden.delete(t); for (const u of S.list) assignSlot(u); renderChips(); renderStocks(); renderHoldings(); ganttHighlight(); syncHash(); }
+function renderChips() {
+  const box = $('#chips'); box.replaceChildren();
+  if (!S.list.length) { box.append(h('span', {class: 'small ink2', text: 'No stocks selected. Tick holdings above, click a timeline bar or a trade, or type a ticker.'})); return; }
+  for (const t of S.list) {
+    const col = colorOf(t), off = S.hidden.has(t);
+    const chip = h('span', {class: 'chip' + (off ? ' off' : ''), title: off ? 'hidden · click to show' : 'shown · click to hide'},
+      h('span', {class: 'dot', style: 'background:' + (col || 'transparent') + (col ? '' : ';border:1px dashed var(--muted)')}), h('b', {text: t}),
+      col ? null : h('span', {class: 'noslot', text: 'multiples only'}),
+      h('span', {class: 'x', text: '✕', title: 'remove', onclick: e => { e.stopPropagation(); removeTicker(t); }}));
+    chip.addEventListener('click', () => off ? addTicker(t) : hideTicker(t));
+    box.append(chip);
+  }
+  box.append(h('button', {class: 'sec sm', text: S.hidden.size ? 'show all' : 'hide all', onclick: () => { if (S.hidden.size) S.hidden.clear(); else S.list.forEach(t => S.hidden.add(t)); renderChips(); renderStocks(); renderHoldings(); ganttHighlight(); syncHash(); }}));
+}
+$('#addTicker').addEventListener('change', e => { const v = e.target.value.trim().toUpperCase(); if (!v) return; e.target.value = ''; if (v === 'SPY' || S.run.tickers.some(x => x.ticker === v)) addTicker(v); else $('#stockNote').textContent = v + ' was never held in this run.'; });
+function setMode(v, rerender = true) { S.mode = v; for (const b of $('#modeSeg').children) b.classList.toggle('on', b.dataset.v === v); if (rerender) { renderStocks(); syncHash(); } }
+function setBase(v, rerender = true) { S.base = v; for (const b of $('#baseSeg').children) b.classList.toggle('on', b.dataset.v === v); if (rerender) { renderStocks(); syncHash(); } }
+$('#modeSeg').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setMode(b.dataset.v); });
+$('#baseSeg').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setBase(b.dataset.v); });
+$('#fitX').addEventListener('change', e => { S.fitX = e.target.checked; renderStocks(); syncHash(); });
+$('#showTable').addEventListener('change', e => { S.tableOn = e.target.checked; renderStocks(); });
+
+// ------------------------------------------------------------------ stock charts
+function visibleTickers() { return S.list.filter(t => !S.hidden.has(t)); }
+function xRangeFor(tickers) {
+  let ms0 = S.calMs[0], ms1 = S.calMs[S.calMs.length - 1];
+  if (S.fitX && tickers.length) {
+    const lots = tickers.flatMap(lotsOf);
+    if (lots.length) {
+      const a = Math.min(...lots.map(l => Date.parse(l.entry))) - 120 * DAY, b = Math.max(...lots.map(l => Date.parse(l.exit || S.cal[S.cal.length - 1]))) + 120 * DAY;
+      ms0 = Math.max(ms0, a); ms1 = Math.min(ms1, b);
+    }
+  }
+  return {ms0, ms1, i0: nearestIdx(ms0), i1: nearestIdx(ms1)};
+}
+function transformed(t, ser, base, i0, i1) {
+  const close = ser.close; let ref = 1;
+  if (base === 'entry') { const lots = lotsOf(t); if (lots.length) { let k = idxAtOrAfter(lots[0].entry); while (k <= i1 && close[k] == null) k++; ref = close[k] || 1; } else ref = firstValid(close, i0, i1) || 1; return close.map(v => v == null ? null : v / ref * 100); }
+  if (base === 'start') { ref = firstValid(close, i0, i1) || 1; return close.map(v => v == null ? null : v / ref * 100); }
+  return close;
+}
+function firstValid(a, i0, i1) { for (let i = i0; i <= i1; i++) if (a[i] != null) return a[i]; return null; }
+function tradesOf(t) { return S.run.trades.filter(x => x.ticker === t); }
+
+async function renderStocks() {
+  const vis = visibleTickers();
+  const note = $('#stockNote'); note.textContent = '';
+  await Promise.all(vis.map(ensureSeries));
+  if (S.mode === 'overlay') {
+    $('#overlay').style.display = ''; $('#multiples').style.display = 'none';
+    const drawn = vis.filter(t => S.slots.has(t));
+    if (drawn.length < vis.length) note.textContent = `Overlay shows at most ${SLOTS} stocks (${drawn.length} drawn); switch to small multiples to see all ${vis.length}.`;
+    renderOverlay(drawn);
+  } else {
+    $('#overlay').style.display = 'none'; $('#multiples').style.display = '';
+    renderMultiples(vis);
+  }
+  renderSeriesTable(vis);
+}
+
+function renderOverlay(tickers) {
+  const pf = frame($('#priceChart'), 340), rf = frame($('#rsiChart'), 150);
+  delete CH.price; delete CH.rsi;
+  if (!tickers.length) { el('text', {x: pf.L + 10, y: pf.T + 20}, pf.svg).textContent = 'Select stocks to plot their price and monthly RSI.'; return; }
+  const {ms0, ms1, i0, i1} = xRangeFor(tickers);
+  const xs = lin(ms0, ms1, pf.L, pf.R);
+  const isLog = S.base === 'price';
+  const vals = new Map(tickers.map(t => [t, transformed(t, S.series.get(t), S.base, i0, i1)]));
+  let lo = Infinity, hi = -Infinity;
+  for (const v of vals.values()) for (let i = i0; i <= i1; i++) if (v[i] != null && v[i] > 0) { lo = Math.min(lo, v[i]); hi = Math.max(hi, v[i]); }
+  if (!isFinite(lo)) { lo = 50; hi = 150; }
+  let ys;
+  if (isLog) { lo *= 0.92; hi *= 1.08; ys = logs(lo, hi, pf.B, pf.T); drawYAxis(pf, ys, logTicks(lo, hi), v => '$' + (v >= 100 ? v.toFixed(0) : v.toFixed(v >= 10 ? 1 : 2))); }
+  else { const pad = (hi - lo) * 0.06; lo = Math.max(0, lo - pad); hi += pad; ys = lin(lo, hi, pf.B, pf.T); drawYAxis(pf, ys, niceTicks(lo, hi, 6), v => v.toFixed(0)); if (100 >= lo && 100 <= hi) el('line', {x1: pf.L, x2: pf.R, y1: ys(100), y2: ys(100), class: 'base'}, pf.svg); }
+  drawXAxis(pf, xs, ms0, ms1);
+  // RSI frame
+  const rys = lin(0, 100, rf.B, rf.T);
+  drawYAxis(rf, rys, [0, 50, 100], v => String(v)); drawXAxis(rf, xs, ms0, ms1);
+  for (const [v, label] of [[42, 'entry screen < 42'], [90, 'exit ≥ 90']]) { el('line', {x1: rf.L, x2: rf.R, y1: rys(v), y2: rys(v), class: 'thr'}, rf.svg); el('text', {x: rf.R - 4, y: rys(v) - 3, 'text-anchor': 'end', class: 'tick'}, rf.svg).textContent = label; }
+  const ends = [];
+  for (const t of tickers) {
+    const col = colorOf(t), ser = S.series.get(t), v = vals.get(t);
+    const pts = []; for (let i = i0; i <= i1; i++) pts.push(v[i] == null || v[i] <= 0 ? null : [xs(S.calMs[i]), ys(v[i])]);
+    el('path', {d: pathOf(pts), class: 'line', style: `stroke:${col}`}, pf.svg);
+    for (const tr of tradesOf(t)) { const i = idxAtOrBefore(tr.date); if (i < i0 || i > i1 || v[i] == null) continue; tri(pf, xs(S.calMs[i]), ys(v[i]), tr.side === 'BUY', col); }
+    for (const [d] of (ser.rebase || [])) { const i = idxAtOrBefore(d); if (i < i0 || i > i1 || v[i] == null) continue; diamond(pf, xs(S.calMs[i]), ys(v[i]), col); }
+    let lastI = i1; while (lastI > i0 && v[lastI] == null) lastI--; if (v[lastI] != null) ends.push({y: ys(v[lastI]), x: xs(S.calMs[lastI]), text: t, color: col});
+    const rp = ser.rsi.dates.map((d, k) => { const ms = Date.parse(d); return ms < ms0 || ms > ms1 ? null : [xs(ms), rys(ser.rsi.values[k])]; });
+    el('path', {d: pathOf(rp), class: 'thin', style: `stroke:${col}`}, rf.svg);
+  }
+  ends.sort((a, b) => a.y - b.y); let prevY = -99;
+  for (const e of ends) { if (e.y - prevY < 12) continue; el('circle', {cx: e.x, cy: e.y, r: 4, class: 'mk', style: `fill:${e.color}`}, pf.svg); el('text', {x: pf.R + 8, y: e.y + 4}, pf.svg).textContent = e.text; prevY = e.y; }
+  const pc = {svg: pf.svg, f: pf, xs, ms0, ms1, i0, i1}, rc = {svg: rf.svg, f: rf, xs, ms0, ms1, i0, i1};
+  addCursor(pc); addCursor(rc); CH.price = pc; CH.rsi = rc;
+  const rows = i => {
+    const out = [];
+    for (const t of tickers) {
+      const ser = S.series.get(t), v = vals.get(t)[i], raw = ser.close[i];
+      const k = bisect(ser.rsi.dates.map(Date.parse), S.calMs[i]); const rsi = k >= 0 ? ser.rsi.values[k] : null;
+      out.push({label: t + (isLog ? '' : raw != null ? ` · $${raw.toFixed(2)}` : '') + (rsi != null ? ` · RSI ${rsi.toFixed(0)}` : ''), value: v == null ? '–' : isLog ? '$' + v.toFixed(2) : v.toFixed(1), color: colorOf(t)});
+      for (const tr of tradesOf(t)) if (tr.date === S.cal[i]) out.push({label: `${tr.side} ${t} · ${tr.reason}`, value: fmt.money(tr.amount)});
+    }
+    return out;
+  };
+  attachHover(pc, [pc, rc], rows); attachHover(rc, [pc, rc], rows);
+}
+
+function renderMultiples(tickers) {
+  const box = $('#multiples'); box.replaceChildren(); CH.multi = [];
+  if (!tickers.length) { box.append(h('div', {class: 'small ink2', text: 'Select stocks to plot them one per panel.'})); return; }
+  for (const t of tickers) {
+    const ser = S.series.get(t), meta = tickerMeta(t), lots = lotsOf(t);
+    const card = h('div', {class: 'card'}, h('h3', null, t + ' ', h('span', {text: (meta.name || '') + (lots.length ? ` · ${lots.length} holding period${lots.length > 1 ? 's' : ''}: ` + lots.map(l => `${l.entry} → ${l.exit || 'open'} ${l.return_pct == null ? '' : fmt.pct(l.return_pct / 100)}`).join('; ') : '')})));
+    const pbox = h('div'), rbox = h('div'); card.append(pbox, rbox); box.append(card);
+    const {ms0, ms1, i0, i1} = xRangeFor([t]);
+    const pf = frame(pbox, 170, {L: 56, R: 16, T: 10, B: 20}), rf = frame(rbox, 80, {L: 56, R: 16, T: 6, B: 18});
+    const xs = lin(ms0, ms1, pf.L, pf.R), close = ser.close;
+    let lo = Infinity, hi = -Infinity; for (let i = i0; i <= i1; i++) if (close[i] != null) { lo = Math.min(lo, close[i]); hi = Math.max(hi, close[i]); }
+    if (!isFinite(lo)) { lo = 0; hi = 1; }
+    const pad = (hi - lo) * 0.08; lo = Math.max(0, lo - pad); hi += pad;
+    const ys = lin(lo, hi, pf.B, pf.T);
+    drawYAxis(pf, ys, niceTicks(lo, hi, 4), v => '$' + (v >= 100 ? v.toFixed(0) : v.toFixed(1))); drawXAxis(pf, xs, ms0, ms1);
+    const pts = []; for (let i = i0; i <= i1; i++) pts.push(close[i] == null ? null : [xs(S.calMs[i]), ys(close[i])]);
+    el('path', {d: pathOf(pts), class: 'line', style: 'stroke:var(--s1)'}, pf.svg);
+    for (const l of lots) { const x0 = xs(Math.max(ms0, Date.parse(l.entry))), x1 = xs(Math.min(ms1, Date.parse(l.exit || S.cal[S.cal.length - 1]))); el('rect', {x: x0, y: pf.T, width: Math.max(1, x1 - x0), height: pf.B - pf.T, style: 'fill:var(--wash)'}, pf.svg); }
+    for (const tr of tradesOf(t)) { const i = idxAtOrBefore(tr.date); if (i < i0 || i > i1 || close[i] == null) continue; tri(pf, xs(S.calMs[i]), ys(tr.price), tr.side === 'BUY', 'var(--s1)'); }
+    for (const [d] of (ser.rebase || [])) { const i = idxAtOrBefore(d); if (i < i0 || i > i1 || close[i] == null) continue; diamond(pf, xs(S.calMs[i]), ys(close[i]), 'var(--s1)'); }
+    const rys = lin(0, 100, rf.B, rf.T);
+    drawYAxis(rf, rys, [0, 50, 100], v => String(v)); drawXAxis(rf, xs, ms0, ms1);
+    for (const v of [42, 90]) el('line', {x1: rf.L, x2: rf.R, y1: rys(v), y2: rys(v), class: 'thr'}, rf.svg);
+    el('text', {x: rf.L + 4, y: rf.T + 10, class: 'tick'}, rf.svg).textContent = 'RSI(14) monthly';
+    const rp = ser.rsi.dates.map((d, k) => { const ms = Date.parse(d); return ms < ms0 || ms > ms1 ? null : [xs(ms), rys(ser.rsi.values[k])]; });
+    el('path', {d: pathOf(rp), class: 'thin', style: 'stroke:var(--s7)'}, rf.svg);
+    const pc = {svg: pf.svg, f: pf, xs, ms0, ms1, i0, i1}, rc = {svg: rf.svg, f: rf, xs, ms0, ms1, i0, i1};
+    addCursor(pc); addCursor(rc); CH.multi.push(pc, rc);
+    const rows = i => { const k = bisect(ser.rsi.dates.map(Date.parse), S.calMs[i]); const out = [{label: 'close', value: close[i] == null ? '–' : '$' + close[i].toFixed(2), color: 'var(--s1)'}, {label: 'RSI(m), month ending ' + (k >= 0 ? ser.rsi.dates[k] : '–'), value: k >= 0 ? ser.rsi.values[k].toFixed(1) : '–', color: 'var(--s7)'}]; for (const tr of tradesOf(t)) if (tr.date === S.cal[i]) out.push({label: `${tr.side} · ${tr.reason}`, value: fmt.money(tr.amount)}); return out; };
+    attachHover(pc, [pc, rc], rows); attachHover(rc, [pc, rc], rows);
+  }
+}
+
+function renderSeriesTable(tickers) {
+  const box = $('#seriesTable'); box.style.display = S.tableOn ? '' : 'none'; if (!S.tableOn) return;
+  box.replaceChildren();
+  if (!tickers.length) { box.append(h('div', {class: 'small ink2', style: 'padding:8px', text: 'No stocks selected.'})); return; }
+  const {i0, i1} = xRangeFor(tickers);
+  const months = [...new Set(tickers.flatMap(t => S.series.get(t).rsi.dates))].filter(d => Date.parse(d) >= S.calMs[i0] - 31 * DAY && Date.parse(d) <= S.calMs[i1] + 31 * DAY).sort();
+  const t = h('table'); const head = h('tr', null, h('th', {class: 'l', text: 'Month end'}));
+  for (const tk of tickers) { head.append(h('th', {text: tk + ' close'}), h('th', {text: tk + ' RSI'})); } t.append(h('thead', null, head));
+  const body = h('tbody');
+  for (const m of months) {
+    const row = h('tr', {class: 'clk', onclick: () => setAsof(idxAtOrBefore(m), true)}, h('td', {class: 'l', text: m}));
+    for (const tk of tickers) { const ser = S.series.get(tk); const i = idxAtOrBefore(m); const k = ser.rsi.dates.indexOf(m); row.append(h('td', {text: ser.close[i] == null ? '–' : '$' + ser.close[i].toFixed(2)}), h('td', {text: k >= 0 ? ser.rsi.values[k].toFixed(1) : '–'})); }
+    body.append(row);
+  }
+  t.append(body); box.append(t);
+}
+
+window.addEventListener('resize', debounce(() => { if (!S.run) return; renderEquity(); renderGantt(); renderStocks(); }, 200));
+boot().catch(e => { $('#status').textContent = 'error: ' + e.message; $('#status').className = 'err'; console.error(e); });
+</script>
+</body>
+</html>

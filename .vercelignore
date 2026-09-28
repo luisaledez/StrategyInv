@@ -14,3 +14,8 @@ report_data.json
 report
 *.docx
 turnaround/cache/edgar_raw/
+turnaround_backtest/cache
+turnaround_backtest/output_v2/dashboard_market.pkl
+turnaround_backtest/synthetic/data
+turnaround_backtest/synthetic/cache
+rsi_swing/cache

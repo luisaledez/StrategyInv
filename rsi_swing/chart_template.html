@@ -1,0 +1,237 @@
+<title>QCOM RSI Swing Trades</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f7f6f2; --surface:#fdfdfb; --ink:#15140f; --ink-2:#5c5a52; --ink-3:#8a887e;
+  --grid:#e4e2da; --rule:#cfcdc4;
+  --gain:#2a78d6; --loss:#e34948; --rsi:#eb6834; --band:rgba(42,120,214,.10); --open:#9ec5f4;
+  --ring:#fdfdfb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#161614; --surface:#1d1d1b; --ink:#f1efe8; --ink-2:#bcbab0; --ink-3:#85837a;
+    --grid:#2c2c29; --rule:#3d3d39;
+    --gain:#3987e5; --loss:#e66767; --rsi:#d95926; --band:rgba(57,135,229,.14); --open:#3b5f8f;
+    --ring:#1d1d1b;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#161614; --surface:#1d1d1b; --ink:#f1efe8; --ink-2:#bcbab0; --ink-3:#85837a;
+  --grid:#2c2c29; --rule:#3d3d39;
+  --gain:#3987e5; --loss:#e66767; --rsi:#d95926; --band:rgba(57,135,229,.14); --open:#3b5f8f;
+  --ring:#1d1d1b;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;line-height:1.5;margin:0;padding-block:28px 56px;padding-inline:clamp(16px,3vw,40px)}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-size:clamp(22px,3vw,30px);font-weight:600;margin:0 0 4px;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:17px;font-weight:600;margin:0 0 4px}
+.sub{color:var(--ink-2);margin:0;max-width:70ch}
+.eyebrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.num{font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+.stats{display:flex;flex-wrap:wrap;gap:8px 28px;margin:18px 0 6px}
+.stat .l{font-size:12px;color:var(--ink-2)}
+.stat .v{font-size:22px;font-weight:600;font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+section{margin-top:40px}
+.card{background:var(--surface);border:1px solid var(--grid);border-radius:6px;padding:14px 14px 10px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:var(--ink-2);margin:6px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:14px;height:3px;border-radius:2px;display:inline-block}
+.sw.dot{width:9px;height:9px;border-radius:50%}
+.sw.box{width:14px;height:10px;border-radius:2px}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:"IBM Plex Sans",system-ui,sans-serif;fill:var(--ink-2);font-size:11px}
+svg text.num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.panel{background:var(--surface);border:1px solid var(--grid);border-radius:6px;padding:12px 12px 6px}
+.panel h3{margin:0;font-size:15px;font-weight:600}
+.panel .meta{font-size:12px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:2px 12px;margin:2px 0 6px}
+.panel .meta b{font-weight:500;color:var(--ink)}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:4px;font-size:12px;line-height:1.4;z-index:9;display:none;max-width:260px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.tip b{font-weight:600}
+.tbl{overflow-x:auto;margin-top:12px}
+table{border-collapse:collapse;font-size:12.5px;white-space:nowrap}
+th,td{padding:5px 10px;border-bottom:1px solid var(--grid);text-align:right}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+th{color:var(--ink-2);font-weight:500;position:sticky;top:0;background:var(--surface)}
+td.neg{color:var(--loss)} td.pos{color:var(--ink)}
+.note{font-size:12.5px;color:var(--ink-2);margin:10px 0 0;max-width:80ch}
+@media (max-width:640px){.stat .v{font-size:18px}}
+</style>
+<div class="wrap">
+  <div class="eyebrow">Qualcomm · weekly RSI(14) ≤ 32 · 1996 – <span id="asof"></span></div>
+  <h1>Where each oversold signal went next</h1>
+  <p class="sub">Thirteen times since 1996 the 14-week RSI closed at or below 32. Each trade buys the next Monday's open. The charts below follow every trade for ten months, then break the result out by holding period. Returns include dividends.</p>
+  <div class="stats" id="stats"></div>
+
+  <section>
+    <h2>Price and weekly RSI with every signal</h2>
+    <p class="sub">Log price scale. Red dots mark entries. The blue band behind each trade is the 2–10 month exit window.</p>
+    <div class="card" style="margin-top:10px"><svg id="priceChart"></svg>
+      <div class="legend"><span><i class="sw" style="background:var(--gain)"></i>Weekly close</span><span><i class="sw dot" style="background:var(--loss)"></i>Entry</span><span><i class="sw box" style="background:var(--band);border:1px solid var(--gain)"></i>Exit window</span><span><i class="sw" style="background:var(--rsi)"></i>RSI(14)</span><span><i class="sw" style="background:var(--loss);height:1px"></i>RSI 32</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Result by holding period</h2>
+    <p class="sub">One chart per exit month. Each bar is one trade, in order from 2002 to 2026, on a shared scale so the horizons compare directly. The hairline is that horizon's average. The lighter bar is the open March 2026 trade, shown only where it has reached that month.</p>
+    <div class="grid" id="multiples" style="margin-top:12px"></div>
+    <div class="legend" style="margin-top:10px"><span><i class="sw box" style="background:var(--gain)"></i>Gain</span><span><i class="sw box" style="background:var(--loss)"></i>Loss</span><span><i class="sw box" style="background:var(--open)"></i>Open trade</span><span><i class="sw" style="background:var(--ink)"></i>Average</span></div>
+  </section>
+
+  <section>
+    <h2>Every trade's path from entry</h2>
+    <p class="sub">Return since entry, week by week, for ten months. Hover a line to identify it. The band is the exit window.</p>
+    <div class="card" style="margin-top:10px"><svg id="pathChart"></svg></div>
+  </section>
+
+  <section>
+    <h2>Trade table</h2>
+    <div class="tbl card" id="table"></div>
+    <p class="note">Data: Yahoo Finance daily prices, resampled to Friday weekly closes. RSI is computed on split-adjusted closes; returns on dividend-adjusted prices. Base rate for any random week: median 4 to 10 month return of +4% to +8%. Research tooling, not investment advice.</p>
+  </section>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const DATA = __DATA__;
+const NS='http://www.w3.org/2000/svg';
+const el=(n,a={},p)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const pct=v=>(v>0?'+':'')+(v*100).toFixed(1)+'%';
+const tip=document.getElementById('tip');
+function showTip(html,x,y){tip.innerHTML=html;tip.style.display='block';const r=tip.getBoundingClientRect();let L=x+14,T=y+14;if(L+r.width>innerWidth-8)L=x-r.width-14;if(T+r.height>innerHeight-8)T=y-r.height-14;tip.style.left=L+'px';tip.style.top=T+'px';}
+function hideTip(){tip.style.display='none';}
+const H=[2,3,4,5,6,7,8,9,10];
+const trades=DATA.trades, done=trades.filter(t=>t.complete);
+const yr=s=>"'"+s.slice(2,4);
+document.getElementById('asof').textContent=DATA.asof.slice(0,4);
+
+// ---- header stats
+(function(){
+  const s=document.getElementById('stats');
+  const win=n=>done.filter(t=>t.ret[n]>0).length/done.length;
+  const avg=a=>a.reduce((x,y)=>x+y,0)/a.length;
+  const winMean=done.map(t=>avg(H.map(n=>t.ret[n])));
+  const items=[['Signals',trades.length+' ('+done.length+' complete)'],['Avg over 2–10 mo',pct(avg(winMean))],['Win rate at 6 mo',Math.round(win(6)*100)+'%'],['Win rate at 9 mo',Math.round(win(9)*100)+'%'],['Worst 4-mo result',pct(Math.min(...done.map(t=>t.ret[4])))],['Best 10-mo result',pct(Math.max(...done.map(t=>t.ret[10])))]];
+  s.innerHTML=items.map(([l,v])=>`<div class="stat"><div class="l">${l}</div><div class="v">${v}</div></div>`).join('');
+})();
+
+// ---- chart 1: price + RSI
+(function(){
+  const svg=document.getElementById('priceChart');
+  const W=1120, HP=330, HR=130, gap=26, top=14, bottom=26, left=52, right=16;
+  const Ht=top+HP+gap+HR+bottom; svg.setAttribute('viewBox',`0 0 ${W} ${Ht}`);
+  const wk=DATA.weekly; const dates=wk.map(w=>new Date(w.d));
+  const t0=dates[0].getTime(), t1=dates[dates.length-1].getTime();
+  const x=t=>left+(t-t0)/(t1-t0)*(W-left-right);
+  const cs=wk.map(w=>w.c); const lo=Math.min(...cs), hi=Math.max(...cs);
+  const ly=v=>top+HP-(Math.log(v)-Math.log(lo))/(Math.log(hi)-Math.log(lo))*HP;
+  const ry=v=>top+HP+gap+HR-(v/100)*HR;
+  const g=el('g',{},svg);
+  for(const t of trades){const e=new Date(t.entry);const a=new Date(e);a.setMonth(a.getMonth()+2);const b=new Date(e);b.setMonth(b.getMonth()+10);
+    el('rect',{x:x(a.getTime()),y:top,width:Math.max(1,x(b.getTime())-x(a.getTime())),height:HP,fill:'var(--band)'},g);}
+  for(const v of [1,2,5,10,20,50,100,200]){if(v<lo||v>hi)continue;el('line',{x1:left,x2:W-right,y1:ly(v),y2:ly(v),stroke:'var(--grid)','stroke-width':1},g);
+    const tx=el('text',{x:left-8,y:ly(v)+4,'text-anchor':'end',class:'num'},g);tx.textContent='$'+v;}
+  for(let y=2000;y<=2025;y+=5){const t=new Date(y,0,1).getTime();el('line',{x1:x(t),x2:x(t),y1:top,y2:top+HP+gap+HR,stroke:'var(--grid)'},g);const tx=el('text',{x:x(t),y:Ht-8,'text-anchor':'middle',class:'num'},g);tx.textContent=y;}
+  for(const v of [30,50,70]){el('line',{x1:left,x2:W-right,y1:ry(v),y2:ry(v),stroke:'var(--grid)'},g);const tx=el('text',{x:left-8,y:ry(v)+4,'text-anchor':'end',class:'num'},g);tx.textContent=v;}
+  el('line',{x1:left,x2:W-right,y1:ry(32),y2:ry(32),stroke:'var(--loss)','stroke-width':1,opacity:.8},g);
+  const lab=el('text',{x:left+4,y:top+HP+gap+12},g);lab.textContent='RSI (14 weeks)';
+  const pd=wk.map((w,i)=>(i?'L':'M')+x(dates[i].getTime()).toFixed(1)+' '+ly(w.c).toFixed(1)).join('');
+  el('path',{d:pd,fill:'none',stroke:'var(--gain)','stroke-width':1.5,'stroke-linejoin':'round'},g);
+  let rd='';let first=true;wk.forEach((w,i)=>{if(w.r==null)return;rd+=(first?'M':'L')+x(dates[i].getTime()).toFixed(1)+' '+ry(w.r).toFixed(1);first=false;});
+  el('path',{d:rd,fill:'none',stroke:'var(--rsi)','stroke-width':1.25,'stroke-linejoin':'round'},g);
+  for(const t of trades){const e=new Date(t.entry).getTime();
+    el('circle',{cx:x(e),cy:ly(t.entry_close),r:5,fill:'var(--loss)',stroke:'var(--ring)','stroke-width':2},g);
+    const s=new Date(t.signal).getTime();el('circle',{cx:x(s),cy:ry(t.rsi),r:4,fill:'var(--loss)',stroke:'var(--ring)','stroke-width':1.5},g);}
+  const cross=el('line',{x1:0,x2:0,y1:top,y2:top+HP+gap+HR,stroke:'var(--ink-3)','stroke-width':1,opacity:0},g);
+  const dot=el('circle',{r:4,fill:'var(--gain)',stroke:'var(--ring)','stroke-width':2,opacity:0},g);
+  const hit=el('rect',{x:left,y:top,width:W-left-right,height:HP+gap+HR,fill:'transparent'},svg);
+  hit.addEventListener('mousemove',ev=>{const pt=svg.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;const p=pt.matrixTransform(svg.getScreenCTM().inverse());
+    const tt=t0+(p.x-left)/(W-left-right)*(t1-t0);let i=dates.findIndex(d=>d.getTime()>=tt);if(i<0)i=dates.length-1;const w=wk[i];
+    cross.setAttribute('x1',x(dates[i].getTime()));cross.setAttribute('x2',x(dates[i].getTime()));cross.setAttribute('opacity',1);
+    dot.setAttribute('cx',x(dates[i].getTime()));dot.setAttribute('cy',ly(w.c));dot.setAttribute('opacity',1);
+    const tr=trades.find(t=>t.signal===w.d);
+    showTip(`<b>${w.d}</b><br>Close $${w.c.toFixed(2)}<br>RSI ${w.r==null?'–':w.r.toFixed(1)}${tr?'<br><b>Signal</b> · entry '+tr.entry+' at $'+tr.entry_px:''}`,ev.clientX,ev.clientY);});
+  hit.addEventListener('mouseleave',()=>{cross.setAttribute('opacity',0);dot.setAttribute('opacity',0);hideTip();});
+})();
+
+// ---- chart 2: small multiples per holding period
+(function(){
+  const host=document.getElementById('multiples');
+  const all=[];trades.forEach(t=>H.forEach(n=>{if(t.ret[n]!=null)all.push(t.ret[n]);}));
+  const ymin=Math.floor(Math.min(...all,-0.05)*10)/10, ymax=Math.ceil(Math.max(...all)*10)/10;
+  const W=320,Hh=220,top=14,bottom=22,left=44,right=10;
+  const y=v=>top+(ymax-v)/(ymax-ymin)*(Hh-top-bottom);
+  const n=trades.length, slot=(W-left-right)/n, bw=Math.min(20,slot-6);
+  for(const h of H){
+    const comp=done.map(t=>t.ret[h]);
+    const avg=comp.reduce((a,b)=>a+b,0)/comp.length, wins=comp.filter(v=>v>0).length;
+    const med=[...comp].sort((a,b)=>a-b)[Math.floor(comp.length/2)];
+    const p=document.createElement('div');p.className='panel';
+    p.innerHTML=`<h3>${h} months after entry</h3><div class="meta"><span>Win <b>${wins}/${comp.length}</b></span><span>Avg <b class="num">${pct(avg)}</b></span><span>Median <b class="num">${pct(med)}</b></span><span>Worst <b class="num">${pct(Math.min(...comp))}</b></span></div>`;
+    const svg=el('svg',{viewBox:`0 0 ${W} ${Hh}`});p.appendChild(svg);host.appendChild(p);
+    for(let v=Math.ceil(ymin*2)/2;v<=ymax;v+=0.5){el('line',{x1:left,x2:W-right,y1:y(v),y2:y(v),stroke:'var(--grid)'},svg);const tx=el('text',{x:left-6,y:y(v)+4,'text-anchor':'end',class:'num'},svg);tx.textContent=(v>0?'+':'')+Math.round(v*100)+'%';}
+    el('line',{x1:left,x2:W-right,y1:y(0),y2:y(0),stroke:'var(--rule)'},svg);
+    el('line',{x1:left,x2:W-right,y1:y(avg),y2:y(avg),stroke:'var(--ink)','stroke-width':1,opacity:.7},svg);
+    const vMin=Math.min(...comp), vMax=Math.max(...comp);
+    trades.forEach((t,i)=>{
+      const cx=left+slot*(i+0.5);
+      const tx=el('text',{x:cx,y:Hh-6,'text-anchor':'middle',class:'num'},svg);tx.textContent=yr(t.entry);
+      const v=t.ret[h]; if(v==null){tx.setAttribute('fill','var(--ink-3)');return;}
+      const fill=!t.complete?'var(--open)':(v>=0?'var(--gain)':'var(--loss)');
+      const y0=y(0),y1=y(v),hh=Math.abs(y1-y0),r=Math.min(4,hh/2);
+      const yy=Math.min(y0,y1);
+      const d=v>=0?`M${cx-bw/2} ${y0}V${yy+r}a${r} ${r} 0 0 1 ${r} -${r}h${bw-2*r}a${r} ${r} 0 0 1 ${r} ${r}V${y0}Z`
+                   :`M${cx-bw/2} ${y0}V${y1-r}a${r} ${r} 0 0 0 ${r} ${r}h${bw-2*r}a${r} ${r} 0 0 0 ${r} -${r}V${y0}Z`;
+      const bar=el('path',{d,fill},svg);
+      const hit=el('rect',{x:cx-slot/2,y:top,width:slot,height:Hh-top-bottom,fill:'transparent'},svg);
+      hit.addEventListener('mousemove',ev=>{bar.setAttribute('opacity',.75);showTip(`<b>${t.entry}</b>${t.complete?'':' (open)'}<br>Entry $${t.entry_px} · RSI ${t.rsi}<br>${h} mo: <b>${pct(v)}</b>`,ev.clientX,ev.clientY);});
+      hit.addEventListener('mouseleave',()=>{bar.setAttribute('opacity',1);hideTip();});
+      if(t.complete&&(v===vMin||v===vMax)){const l=el('text',{x:cx,y:v>=0?y1-5:y1+12,'text-anchor':'middle',class:'num'},svg);l.textContent=pct(v);l.setAttribute('fill','var(--ink)');}
+    });
+  }
+})();
+
+// ---- chart 3: paths
+(function(){
+  const svg=document.getElementById('pathChart');
+  const W=1120,Hh=380,top=14,bottom=26,left=52,right=110;
+  svg.setAttribute('viewBox',`0 0 ${W} ${Hh}`);
+  const all=[];trades.forEach(t=>t.path.forEach(p=>all.push(p.v)));
+  const ymin=Math.floor(Math.min(...all)*10)/10, ymax=Math.ceil(Math.max(...all)*10)/10;
+  const x=m=>left+m/10*(W-left-right), y=v=>top+(ymax-v)/(ymax-ymin)*(Hh-top-bottom);
+  el('rect',{x:x(2),y:top,width:x(10)-x(2),height:Hh-top-bottom,fill:'var(--band)'},svg);
+  for(let v=Math.ceil(ymin*4)/4;v<=ymax;v+=0.25){el('line',{x1:left,x2:W-right,y1:y(v),y2:y(v),stroke:'var(--grid)'},svg);const tx=el('text',{x:left-8,y:y(v)+4,'text-anchor':'end',class:'num'},svg);tx.textContent=(v>0?'+':'')+Math.round(v*100)+'%';}
+  el('line',{x1:left,x2:W-right,y1:y(0),y2:y(0),stroke:'var(--rule)'},svg);
+  for(let m=0;m<=10;m++){el('line',{x1:x(m),x2:x(m),y1:top,y2:Hh-bottom,stroke:'var(--grid)'},svg);const tx=el('text',{x:x(m),y:Hh-8,'text-anchor':'middle',class:'num'},svg);tx.textContent=m===0?'entry':m+' mo';}
+  const lines=[];
+  const base=l=>{l.ln.setAttribute('stroke',l.t.complete?'var(--ink-2)':'var(--gain)');l.ln.setAttribute('stroke-width',l.t.complete?1.5:2);l.ln.setAttribute('opacity',l.t.complete?.45:1);};
+  trades.forEach(t=>{
+    const d=t.path.map((p,i)=>(i?'L':'M')+x(p.m).toFixed(1)+' '+y(p.v).toFixed(1)).join('');
+    const ln=el('path',{d,fill:'none','stroke-linejoin':'round','stroke-linecap':'round'},svg);
+    const last=t.path[t.path.length-1];
+    el('circle',{cx:x(last.m),cy:y(last.v),r:3.5,fill:t.complete?'var(--ink-2)':'var(--gain)',stroke:'var(--ring)','stroke-width':2},svg);
+    const l={t,ln,last};base(l);lines.push(l);
+  });
+  const ends=lines.filter(l=>l.t.complete).sort((a,b)=>b.last.v-a.last.v);
+  for(const l of [ends[0],ends[ends.length-1],lines.find(l=>!l.t.complete)]){if(!l)continue;const tx=el('text',{x:x(l.last.m)+8,y:y(l.last.v)+4,class:'num'},svg);tx.textContent=`${l.t.entry.slice(0,7)} ${pct(l.last.v)}`;tx.setAttribute('fill','var(--ink)');}
+  const hit=el('rect',{x:left,y:top,width:W-left-right,height:Hh-top-bottom,fill:'transparent'},svg);
+  let cur=null;
+  hit.addEventListener('mousemove',ev=>{const pt=svg.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;const p=pt.matrixTransform(svg.getScreenCTM().inverse());
+    const m=(p.x-left)/(W-left-right)*10; let best=null,bd=1e9,bv=0;
+    for(const l of lines){let q=l.t.path[0];for(const pp of l.t.path){if(Math.abs(pp.m-m)<Math.abs(q.m-m))q=pp;}const d=Math.abs(y(q.v)-p.y);if(d<bd){bd=d;best=l;bv=q.v;}}
+    if(cur&&cur!==best)base(cur);
+    cur=best;best.ln.setAttribute('stroke','var(--gain)');best.ln.setAttribute('stroke-width',2.5);best.ln.setAttribute('opacity',1);svg.insertBefore(best.ln,hit);
+    showTip(`<b>${best.t.entry}</b>${best.t.complete?'':' (open)'} · RSI ${best.t.rsi}<br>${m.toFixed(1)} mo: <b>${pct(bv)}</b>`,ev.clientX,ev.clientY);});
+  hit.addEventListener('mouseleave',()=>{if(cur){base(cur);cur=null;}hideTip();});
+})();
+
+// ---- table
+(function(){
+  const host=document.getElementById('table');
+  let h='<table><thead><tr><th>Signal week</th><th>Entry</th><th>RSI</th><th>Entry $</th>'+H.map(n=>`<th>${n} mo</th>`).join('')+'</tr></thead><tbody>';
+  for(const t of trades){h+=`<tr><td>${t.signal}</td><td>${t.entry}${t.complete?'':' (open)'}</td><td class="num">${t.rsi.toFixed(1)}</td><td class="num">${t.entry_px.toFixed(2)}</td>`+H.map(n=>{const v=t.ret[n];return v==null?'<td class="num">–</td>':`<td class="num ${v<0?'neg':'pos'}">${pct(v)}</td>`;}).join('')+'</tr>';}
+  h+='<tr><td><b>Average</b></td><td></td><td></td><td></td>'+H.map(n=>{const a=done.reduce((s,t)=>s+t.ret[n],0)/done.length;return `<td class="num"><b>${pct(a)}</b></td>`;}).join('')+'</tr>';
+  h+='<tr><td><b>Win rate</b></td><td></td><td></td><td></td>'+H.map(n=>{const w=done.filter(t=>t.ret[n]>0).length;return `<td class="num"><b>${w}/${done.length}</b></td>`;}).join('')+'</tr>';
+  h+='</tbody></table>';host.innerHTML=h;
+})();
+</script>

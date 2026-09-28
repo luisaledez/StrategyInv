@@ -40,6 +40,11 @@ SCENARIOS = [
     Scenario("rotate", "Rotate: hold exactly the current top 10 each quarter", start=S0, trim_at=None, rotate=True, replace_gain=None),
     Scenario("base_no_wd", "Base without withdrawals", start=S0, withdrawals=False),
     Scenario("rsi80", "Base with the monthly-RSI exit at 80 instead of 90", start=S0, rsi_exit=80.0),
+    # loss-control exits (see research_notes/turnaround_worst_open.md)
+    Scenario("eps_dn30", "Base + sell at a month-end when point-in-time TTM EPS is 30% below its level at entry", start=S0, eps_exit=0.30),
+    Scenario("eps_dn30_uw", "Base + the EPS -30% exit only while the position is below cost", start=S0, eps_exit=0.30, eps_exit_underwater=True),
+    Scenario("stop25", "Base + sell at a month-end close 25% below average cost", start=S0, stop_loss=0.25),
+    Scenario("time12", "Base + sell at a month-end if held 12+ months and below cost", start=S0, time_stop_months=12),
 ]
 if not CFG.get("synthetic"):
     SCENARIOS += [
@@ -96,8 +101,12 @@ def summary_table(results: dict, benches: dict) -> list[str]:
     return lines
 
 
-def write_report(results: dict, benches: dict, snaps: list[dict]) -> Path:
-    L = [f"# {CFG.get('label', 'Turnaround candidates backtest')} — {S0} to {engine.data.END.date().isoformat()}", ""]
+def write_report(results: dict, benches: dict, snaps: list[dict], out: Path | None = None,
+                 title: str | None = None, intro: list[str] | None = None) -> Path:
+    out = out or OUT
+    L = [f"# {title or CFG.get('label', 'Turnaround candidates backtest')} — {S0} to {engine.data.END.date().isoformat()}", ""]
+    for line in intro or []:
+        L += [line, ""]
     L += ["Quarterly scan (1 Jan / 1 Apr / 1 Jul / 1 Oct) with the turnaround scanner's rules "
           "(monthly RSI(14) < 42 within the last 6 completed months, ≥ 5 years of history, ≥ $5M average daily "
           "dollar volume, ≥ $1B market cap), then: profitable now and in the past, top 20 by trailing-twelve-month "
@@ -155,7 +164,7 @@ def write_report(results: dict, benches: dict, snaps: list[dict]) -> Path:
     for s in snaps:
         L.append(f"| {s['date']} | {s['n_qualified']} | {s['n_eligible']} | "
                  f"{', '.join(r['ticker'] for r in s['top10']) or '—'} |")
-    p = OUT / "report.md"
+    p = out / "report.md"
     p.write_text("\n".join(L), encoding="utf-8")
     return p
 
@@ -164,7 +173,7 @@ def main():
     snaps = engine.load_snapshots()
     tickers = sorted({r["ticker"] for s in snaps for r in s["top10"]})
     print(f"backtest: {len(snaps)} snapshots, {len(tickers)} distinct top-10 tickers", file=sys.stderr)
-    mkt = engine.Market(tickers, engine.data.START)
+    mkt = engine.Market(tickers, engine.data.START, fundamentals=any(sc.eps_exit is not None for sc in SCENARIOS))
     results, benches = {}, {}
     for sc in SCENARIOS:
         r = engine.simulate(sc, snaps, mkt)

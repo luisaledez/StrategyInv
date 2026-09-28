@@ -16,7 +16,13 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import data  # noqa: E402
 
+import sys as _sys
+# python report_html.py [--out DIR]   (DIR defaults to output/; output_v2 for the second backtest)
 OUT = data.OUT
+if "--out" in _sys.argv:
+    OUT = Path(_sys.argv[_sys.argv.index("--out") + 1])
+    if not OUT.is_absolute():
+        OUT = Path(__file__).resolve().parent / OUT
 
 PALETTE_LIGHT = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
 PALETTE_DARK = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"]
@@ -133,6 +139,7 @@ def build() -> Path:
     intro = intro_html()
     res = json.loads((OUT / "results.json").read_text(encoding="utf-8"))
     benches = res.pop("benchmarks")
+    res.pop("rebase_events", None)   # extra key written by backtest_v2.py
     snaps = json.loads((OUT / "snapshots.json").read_text(encoding="utf-8"))
     order = [k for k in res]
     # ---- summary table
