@@ -7,18 +7,23 @@ Pages: /            candidates: watchlist rows with Gate GREEN (stored as PASS),
        /watchlist   full watchlist (sortable, filterable, rescan button)
        /ticker/<T>  screen facts, price + monthly RSI chart, fundamentals, thesis file
        /all         every ticker in the universe with its RSI / drawdown metrics
+       /v3          strategy v3 (`both_opval`) top 10 and ranks 11-20 with every screen diagnostic, from the
+                    newest turnaround_backtest_v3/output/live_both_opval_<date>.json; /v3/report renders the
+                    matching reports/Turnaround v3 positions - <date>.md
        /study       historical episode study
 """
 from __future__ import annotations
 
 import json
 import math
+import re
 import subprocess
 import sys
 import threading
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
+from urllib.parse import quote, unquote
 
 import pandas as pd
 from flask import Flask, abort, jsonify, redirect, render_template_string, request, url_for
@@ -34,7 +39,11 @@ from scan import CAND_GROWTH_MIN, CAND_RSI_MAX, is_candidate  # noqa: E402
 
 OUT = HERE / "output"
 THESIS = HERE / "thesis"
+V3_THESIS = HERE.parent / "turnaround_backtest_v3" / "thesis"  # research files for names bought by the v3 rule
+THESIS_DIRS = [(V3_THESIS, "turnaround_backtest_v3/thesis"), (THESIS, "turnaround/thesis")]
 FUND = HERE / "cache" / "fundamentals"
+V3_OUT = HERE.parent / "turnaround_backtest_v3" / "output"     # live `both_opval` lists from live_v3.py
+REPORTS = HERE.parent / "reports"
 
 app = Flask(__name__)
 JOB = {"running": False, "log": "", "started": None, "finished": None, "rc": None}
@@ -47,7 +56,7 @@ def load_watchlist() -> list[dict]:
         return []
     rows = json.loads(p.read_text(encoding="utf-8"))
     for r in rows:
-        r["has_thesis"] = (THESIS / f"{r['ticker']}.md").exists()
+        r["has_thesis"] = bool(thesis_files(r["ticker"]))
         r["status"] = thesis_status(r["ticker"])
     return rows
 
@@ -64,14 +73,128 @@ def load_all() -> list[dict]:
     return json.loads(df.to_json(orient="records"))
 
 
-def thesis_status(ticker: str) -> str | None:
-    p = THESIS / f"{ticker}.md"
+def load_v3() -> dict | None:
+    """Newest live `both_opval` list written by turnaround_backtest_v3/live_v3.py (falls back to the
+    screen's own current_both_opval.json, which lacks the enrichment fields)."""
+    if not V3_OUT.exists():
+        return None
+    files = sorted(V3_OUT.glob("live_both_opval_*.json"))
+    p = files[-1] if files else V3_OUT / "current_both_opval.json"
     if not p.exists():
         return None
+    d = json.loads(p.read_text(encoding="utf-8"))
+    d["source_file"] = p.name
+    for r in d.get("top20", []):
+        r.setdefault("eps_guidecut_trigger", round(0.85 * r["eps_ttm"], 3) if r.get("eps_ttm") else None)
+        r.setdefault("trim_price", round(1.5 * r["close"], 2) if r.get("close") else None)
+        r["eps_path_s"] = ", ".join(f"{x:.2f}" for x in r["eps_path"]) if r.get("eps_path") else ""
+        r["in_top10"] = r.get("value_rank") is not None
+        r["has_thesis"] = bool(thesis_files(r["ticker"]))
+        r["status"] = thesis_status(r["ticker"])
+    d["top10"] = sorted([r for r in d["top20"] if r["in_top10"]], key=lambda r: r["value_rank"])
+    d["bench"] = [r for r in d["top20"] if not r["in_top10"]]
+    return d
+
+
+def v3_row(ticker: str) -> tuple[dict | None, dict | None]:
+    d = load_v3()
+    if not d:
+        return None, None
+    return d, next((r for r in d["top20"] if r["ticker"] == ticker), None)
+
+
+def latest_v3_report() -> Path | None:
+    files = sorted(REPORTS.glob("Turnaround v3 positions - *.md")) if REPORTS.exists() else []
+    return files[-1] if files else None
+
+
+def thesis_files(ticker: str) -> list[tuple[Path, str]]:
+    """Research files for a ticker, v3 folder first: [(path, label)]."""
+    return [(d / f"{ticker}.md", label) for d, label in THESIS_DIRS if (d / f"{ticker}.md").exists()]
+
+
+def thesis_status(ticker: str) -> str | None:
+    files = thesis_files(ticker)
+    if not files:
+        return None
+    p = files[0][0]
     for line in p.read_text(encoding="utf-8").splitlines()[:12]:
         if line.startswith("status:"):
             return line.split(":", 1)[1].split("<!--")[0].strip()
     return "?"
+
+
+# Markdown documents the app may render at /doc/<path>: research files, reports and notes.
+ROOT = HERE.parent
+DOC_ROOTS = ["reports", "research_notes", "turnaround_backtest_v3", "turnaround/thesis"]
+_HREF = re.compile(r'(href|src)="([^"]+)"')
+
+
+def doc_path(rel: str) -> Path | None:
+    """Repo-relative path -> file or folder inside DOC_ROOTS, else None (no traversal outside them)."""
+    try:
+        p = (ROOT / unquote(rel)).resolve()
+        r = p.relative_to(ROOT.resolve()).as_posix()
+    except ValueError:
+        return None
+    if not any(r == d or r.startswith(d + "/") for d in DOC_ROOTS) or not p.exists():
+        return None
+    if p.is_file() and p.suffix.lower() != ".md":
+        return None
+    return p
+
+
+def render_md(path: Path) -> str:
+    """Markdown -> HTML, with links to other repository documents rewritten to /doc/ (and /v3/report)."""
+    html = markdown(path.read_text(encoding="utf-8"), extensions=["tables"])
+    root = ROOT.resolve()
+    repo = root.as_posix().lower()
+    latest = latest_v3_report()
+
+    def fix(m):
+        attr, href = m.group(1), m.group(2)
+        if href.startswith(("http:", "https:", "mailto:", "#", "/doc/", "/ticker/", "/v3")):
+            return m.group(0)
+        target, _, frag = href.partition("#")
+        t = unquote(target).replace("\\", "/")
+        if t.lower().startswith(repo):                      # absolute paths to the repo in older reports
+            cand = root / t[len(repo):].lstrip("/")
+        else:
+            cand = path.parent / t
+        try:
+            rel = cand.resolve().relative_to(root).as_posix()
+        except ValueError:
+            return m.group(0)
+        dp = doc_path(rel)
+        if dp is None:
+            return m.group(0)
+        if latest is not None and dp == latest.resolve():
+            return f'{attr}="/v3/report"'
+        return f'{attr}="/doc/{quote(rel)}' + (f"#{frag}" if frag else "") + '"'
+    return _HREF.sub(fix, html)
+
+
+def research_index() -> dict:
+    """v3 thesis files with their headline fields, plus the reports and research-note folders."""
+    rows = []
+    for p in sorted(V3_THESIS.glob("*.md")) if V3_THESIS.exists() else []:
+        text = p.read_text(encoding="utf-8")
+        head = {}
+        for line in text.splitlines()[:12]:
+            k, _, v = line.partition(":")
+            if k in ("status", "review_deadline", "last_updated"):
+                head[k] = v.split("<!--")[0].strip()
+        title = text.splitlines()[0].lstrip("# ").strip()
+        m = re.search(r"buy #(\d+)", text)
+        c = re.search(r"^## 8\. Research conclusion\s*\n+(.+?)(?:\n## |\Z)", text, flags=re.S | re.M)
+        concl = markdown(c.group(1).strip().split("\n\n")[0]) if c else ""
+        rows.append({"ticker": p.stem, "title": title, "order": int(m.group(1)) if m else 99, "concl": concl,
+                     "rel": p.relative_to(ROOT).as_posix(), **head})
+    rows.sort(key=lambda r: (r["order"], r["ticker"]))
+    reports = sorted(p.relative_to(ROOT).as_posix() for p in REPORTS.glob("*.md")) if REPORTS.exists() else []
+    nd = ROOT / "research_notes"
+    notes = sorted(p.relative_to(ROOT).as_posix() for p in nd.iterdir() if p.is_dir()) if nd.exists() else []
+    return {"theses": rows, "reports": reports, "notes": notes}
 
 
 def scan_meta() -> dict:
@@ -471,6 +594,8 @@ pre.log{background:#111;color:#ddd;padding:10px;border-radius:6px;max-height:260
 .status.new{background:#dcfce7;color:var(--pass);font-weight:600}
 </style></head><body>
 <header><a href="/" class="{{ 'active' if nav=='candidates' }}">Candidates</a><a href="/watchlist" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
+<a href="/v3" class="{{ 'active' if nav=='v3' }}">Top 10 v3</a>
+<a href="/research" class="{{ 'active' if nav=='research' }}">Research</a>
 <a href="/study" class="{{ 'active' if nav=='study' }}">Episode study</a><span class="sp"></span>
 <span class="muted small">{{ as_of }}</span>
 {% if not on_vercel %}<button id="rescan" class="sec" onclick="rescan()">Rescan</button>{% else %}<span class="muted small">read-only deployment: rerun <code>scan.py</code> locally and push to update</span>{% endif %}</header>
@@ -632,6 +757,25 @@ TICKER = """{% extends "base" %}{% block body %}
 {% if r.survival_gate %}<span class="gate {{ r.survival_gate }}">{{ r.survival_gate|gate }}</span>{% endif %}</h1>
 <p class="muted small">{{ r.sector or f.sector_y or '' }} · {{ r.industry or f.industry_y or '' }} · last bar {{ r.last_bar }} · price {{ r.price|num(2) }}</p>
 {{ chart|safe }}
+{% if v3 %}
+<h2>Strategy v3 <span class="muted small">{% if v3.in_top10 %}<b class="pos">top 10, buy order {{ v3.value_rank }}</b>{% else %}growth rank {{ v3.growth_rank }} of 20, not in the top 10{% endif %} · screen dated {{ v3d.date }} · <a href="/v3">the list</a></span></h2>
+<div class="grid2">
+<div><table class="kv">
+<tr><td>Growth rank · TTM revenue growth</td><td>{{ v3.growth_rank }} · {{ v3.rev_yoy|pctc }} <span class="muted">(a year earlier {{ v3.prior_yoy|pct }})</span></td></tr>
+<tr><td>Valuation percentile (P/S · EV/EBITDA · EV/EBIT)</td><td><b>{{ v3.val_pct_op|num(3) }}</b> <span class="muted">= mean of {{ v3.ps_pct|num(2) }} · {{ v3.ev_ebitda_pct|num(2) }} · {{ v3.ev_ebit_pct|num(2) }}; v2 percentile with P/E {{ v3.val_pct|num(3) }}</span></td></tr>
+<tr><td>P/S · EV/EBITDA · EV/EBIT · P/E</td><td>{{ v3.ps|num(2) }} · {{ v3.ev_ebitda|num }} · {{ v3.ev_ebit|num }} · {{ v3.pe|num }}</td></tr>
+<tr><td>Monthly RSI now · lowest in 6 months · from 5y high</td><td>{{ v3.rsi_m|num }} · {{ v3.rsi_min6|num }} · <span class="neg">{{ v3.dd5|pct }}</span></td></tr>
+<tr><td>Close used · market cap · quarter</td><td>{{ v3.close|num(2) }} · {{ v3.mcap|money }} · {{ v3.q_end }}</td></tr>
+</table></div>
+<div><table class="kv">
+<tr><td>TTM EPS at entry · a year ago · change</td><td><b>{{ v3.eps_ttm|num(2) }}</b> · {{ v3.eps_1y|num(2) }} · {{ v3.eps_chg_1y|pctc }}</td></tr>
+<tr><td>EPS path, last six quarters (oldest first)</td><td>{{ v3.eps_path_s or '–' }}</td></tr>
+<tr><td>Guide-cut trigger (85% of entry EPS, 12 months)</td><td><b>{{ v3.eps_guidecut_trigger|num(2) }}</b></td></tr>
+<tr><td>Trim price (+50%)</td><td>{{ v3.trim_price|num(2) }}</td></tr>
+<tr><td>One-off guard: net income / operating income</td><td>{{ v3.ni_op|num(2) }} <span class="muted">(rejects above 1.0; largest one-quarter jump in TTM net income {{ v3.ni_jump4|num(2) }}x, operating income {{ v3.op_jump4|num(2) }}x)</span></td></tr>
+<tr><td>Acquisition guard: diluted shares y/y · net debt / EBITDA</td><td>{{ v3.shares_yoy|pctc('down') }} <span class="muted">(rejects above +15%)</span> · {{ v3.nd_ebitda|num }}</td></tr>
+</table></div></div>
+{% endif %}
 <div class="grid2">
 <div><h2>Screen facts</h2><table class="kv">
 <tr><td>Monthly RSI (last completed / prev / partial month)</td><td>{{ r.rsi_m|num }} / {{ r.rsi_m_prev|num }} / {{ r.rsi_partial_month|num }}</td></tr>
@@ -694,11 +838,127 @@ TICKER = """{% extends "base" %}{% block body %}
 <div class="minis" style="margin-top:8px">{% for k in ['pe','fwd_pe','peg','ev_ebitda','ps'] %}{{ vcharts[k]|safe }}{% endfor %}</div>
 <p class="muted small">Line = monthly multiple reconstructed from the month-end price and the trailing-twelve-month EPS, revenue, EBITDA, debt, cash and share count that were public at that date, taken from the company's SEC filings (US filers, back to about 2008; Yahoo's 4–5 annual reports are the fallback for non-US filers). EBITDA is operating income plus D&amp;A, or pre-tax income plus interest plus D&amp;A when no operating-income line is reported. Dots = Yahoo's own quarterly and trailing snapshots. Dashed = average, grey = median, red = now. "Now vs avg" is green when the current multiple is below its average. Forward P/E and PEG need historical analyst estimates, which Yahoo does not keep, so they show snapshots only. Multiples are undefined (gaps) while earnings or EBITDA are negative, and a near-zero earnings year produces extreme values, which is why the median is shown and the charts clip at 3× median.</p>
 {% else %}<p class="muted">Valuation history unavailable{% if vhist.error %}: {{ vhist.error }}{% endif %}.</p>{% endif %}
-<h2 id="thesis">Research file <span class="muted small">thesis/{{ t }}.md</span></h2>
-{% if thesis_html %}<div class="md">{{ thesis_html|safe }}</div>
+<h2 id="thesis">Research file{% if theses|length > 1 %}s{% endif %}{% if theses %} <span class="muted small"><a href="/doc/{{ theses[0].rel|urlencode }}">{{ theses[0].label }}/{{ t }}.md</a> · <a href="/research">all research</a></span>{% endif %}</h2>
+{% if theses %}<div class="md">{{ theses[0].html|safe }}</div>
+{% for th in theses[1:] %}<details style="margin-top:12px"><summary class="muted">Also: {{ th.label }}/{{ t }}.md</summary><div class="md">{{ th.html|safe }}</div></details>{% endfor %}
 <p class="muted small">Edit the file in your editor; this page re-renders it on refresh.</p>
 {% elif on_vercel %}<p class="muted small">No research file yet. Create one locally with <code>python scan.py --init-thesis {{ t }}</code> and push.</p>
 {% else %}<form method="post" action="/thesis/{{ t }}"><button>Create thesis file from template</button> <span class="muted small">pre-fills the screen facts; diagnosis, survival table, indicators, valuation and entry rules are yours to write</span></form>{% endif %}
+{% endblock %}"""
+
+V3 = """{% extends "base" %}{% block body %}
+<h1>Top 10 · strategy v3 <span class="muted small">backtest v3 <code>both_opval</code>: organic growth, one-off EPS and acquisition guards, top 20 by revenue growth, top 10 by P/S · EV/EBITDA · EV/EBIT percentile versus own history</span></h1>
+{% if not d %}<p class="muted">No v3 list found. Run <code>python turnaround_backtest_v3/live_v3.py</code>.</p>{% else %}
+<p class="muted small">Screen dated {{ d.date }} (as of {{ d.as_of }}, {{ d.month_end[:7] }} candle{% if d.month_end > d.as_of %}, incomplete{% endif %}) · file <code>{{ d.source_file }}</code>{% if report %} · <a href="/v3/report">full report</a>{% endif %} · <a href="#rules">rules</a></p>
+<div class="cards">
+<div class="card"><span class="muted">RSI(m) &lt; 42 in 6 months</span><b>{{ d.n_qualified }}</b></div>
+<div class="card"><span class="muted">liquid · ≥ $1B</span><b>{{ d.n_mcap }}</b></div>
+<div class="card"><span class="muted">profitable</span><b>{{ d.n_profitable }}</b></div>
+<div class="card"><span class="muted">organic growth</span><b>{{ d.n_organic }}</b></div>
+<div class="card"><span class="muted">after guards</span><b>{{ d.n_eligible }}</b> <span class="muted small">one-off {{ d.n_flag_oneoff }} · acq {{ d.n_flag_acq }}</span></div>
+<div class="card"><span class="muted">top 20 → top 10</span><b>{{ d.top20|length }} → {{ d.top10|length }}</b></div>
+</div>
+<h2>The top 10 <span class="muted small">buy order = valuation rank · 10% of the portfolio each · click a ticker for its page</span></h2>
+<div class="toolbar"><span id="count" class="muted small"></span><span class="sp" style="flex:1"></span><button id="reset-layout" class="sec">Reset layout</button></div>
+<div id="grid"></div>
+<h2>Ranks 11 – 20 <span class="muted small">on the growth list but not bought · ordered by valuation</span></h2>
+<div id="grid2"></div>
+<p class="muted small">Growth = trailing-twelve-month revenue versus a year earlier (point-in-time filings). Val = mean percentile of today's P/S, EV/EBITDA and EV/EBIT within the company's own monthly history (0 = cheapest ever); the three components follow, then the v2 percentile (P/E, P/S, EV/EBITDA) for reference. RSI(m) is the monthly Wilder RSI(14) on the current candle, min = lowest in the 6-month window. EPS path = point-in-time TTM EPS over the last six quarters, oldest first. Guide-cut trigger = 85% of the entry TTM EPS: the position is sold at the month-end when TTM EPS prints at or below it within 12 months. Trim = price at which half is sold (+50%). Shares y/y and NI/op inc are the acquisition and one-off guard inputs (both must be clear for a name to be listed). Columns can be hidden, moved and filtered like the other grids.</p>
+{% if d.removed_by_guards %}
+<h2>Struck by the guards <span class="muted small">names that made the reference (v2-rule) top 20 and were rejected</span></h2>
+<table class="sortable"><thead><tr><th class="l">Ticker</th><th>Growth</th><th class="l">Guard</th><th class="l">Reason</th></tr></thead><tbody>
+{% for r in d.removed_by_guards %}<tr><td class="l"><a href="/ticker/{{ r.ticker }}"><b>{{ r.ticker }}</b></a></td><td>{{ r.rev_yoy|pct }}</td><td class="l">{{ 'one-off EPS' if r.oneoff else '' }}{{ ' + ' if r.oneoff and r.acq }}{{ 'acquisition' if r.acq else '' }}</td><td class="l">{{ r.oneoff or '' }}{{ '; ' if r.oneoff and r.acq }}{{ r.acq or '' }}</td></tr>{% endfor %}
+</tbody></table>{% endif %}
+{% if d.prev_candle %}
+<h2>Sensitivity <span class="muted small">the same screen on the last completed candle ({{ d.prev_candle.month_end }})</span></h2>
+<p>Top 10 then: {% for t in d.prev_candle.top10 %}<a href="/ticker/{{ t }}" class="{{ '' if t in top10_set else 'neg' }}"><b>{{ t }}</b></a>{{ ', ' if not loop.last }}{% endfor %}.
+{% set gone = d.prev_candle.top10|reject('in', top10_set)|list %}{% set new = top10_set|reject('in', d.prev_candle.top10)|list %}
+{% if gone or new %}Since then {{ gone|join(', ') }} dropped out and {{ new|join(', ') }} came in; the other {{ 10 - new|length }} seats are the same.{% else %}Identical to today's list.{% endif %}
+{% if d.ref_top10 %}<span class="muted">Reference (v2 rules, same day): {{ d.ref_top10|join(', ') }}.</span>{% endif %}</p>{% endif %}
+{% if d.base_rates_12m_2009_2025 %}
+<h2>Base rates <span class="muted small">12-month forward returns of past <code>both_opval</code> picks, snapshots 2009 – Sep 2025, buy-and-hold from the snapshot, no portfolio rules</span></h2>
+<table><thead><tr><th class="l">Group</th><th>n</th><th>Mean</th><th>Median</th><th>Win rate</th><th>Beat SPY</th><th>10th pct</th><th>90th pct</th><th>Median worst DD in year 1</th></tr></thead><tbody>
+{% for k, s in d.base_rates_12m_2009_2025.items() %}<tr><td class="l">{{ br_labels.get(k, k|replace('_', ' ')) }}</td><td>{{ s.n }}</td><td>{{ s.mean|pctc }}</td><td>{{ s.median|pctc }}</td><td>{{ s.win|pct(false) }}</td><td>{{ s.beat_spy|pct(false) }}</td><td>{{ s.p10|pctc }}</td><td>{{ s.p90|pctc }}</td><td class="neg">{{ s.median_mdd|pct }}</td></tr>{% endfor %}
+</tbody></table>{% endif %}
+<h2 id="rules">Rules</h2>
+<div class="md"><ol>
+<li><b>Price screen</b>: monthly Wilder RSI(14) below 42 in any of the last 6 monthly candles; 5+ years of history; 3-month average dollar volume ≥ $5M; market cap ≥ $1B. Universe: S&amp;P 500 + 400.</li>
+<li><b>Profitable</b>: TTM EPS and net income above zero; at most one losing year among the TTM readings one, two and three years back.</li>
+<li><b>Organic growth</b>: TTM revenue growth positive and under 100%; no quarter-to-quarter jump of the TTM figure above 60% in eight quarters; latest quarter not below its year-ago quarter.</li>
+<li><b>One-off EPS guard</b>: reject when TTM net income exceeds TTM operating income, or one quarter lifted TTM net income by more than 50% while operating income rose less than 25% (no operating-income tag: a &gt; 50% one-quarter jump in TTM EPS).</li>
+<li><b>Acquisition guard</b>: reject when diluted shares are up more than 15% year over year, or growth of 15% or more is at least three times and ten points above the growth a year earlier (recoveries from a decline exempt).</li>
+<li><b>Top 20 by TTM revenue growth</b>, then <b>top 10 by the mean percentile of P/S, EV/EBITDA and EV/EBIT</b> versus the company's own history (ties broken by higher growth).</li>
+<li><b>Portfolio</b>: 10% per stock, bought at the close of the first trading day after the snapshot; names that leave the list are kept; trim half at +50%; sell at a month-end with monthly RSI ≥ 90; a &gt; 100% winner is sold to fund a new name when cash is short; spin-off re-screen; <b>guidance-cut proxy</b>: sold when TTM EPS is 15% or more below its entry level within 12 months; yearly withdrawals of 5 – 10%. No position cap, no S&amp;P parking, no price stop.</li>
+</ol><p class="muted small">Backtest 2004 – Aug 2026: IRR 14.6% vs 9.1% for SPY with the same withdrawals, max drawdown -34% vs -55%, 79% of closed positions positive, median +51%. Details in <code>turnaround_backtest_v3/STRATEGY_both_opval.md</code>. Research tooling, not investment advice.</p></div>
+<script>
+const TOP10={{ d.top10|tojson }},BENCH={{ d.bench|tojson }};
+const COLS=[
+ col('value_rank','#','num',{d:0,frozen:true,width:52,tip:'buy order (valuation rank)'}),
+ col('ticker','Ticker','text',{frozen:true,width:88,formatter:c=>{const r=c.getRow().getData();return `<a href="/ticker/${r.ticker}"><b>${r.ticker}</b></a>${r.dd5<=-0.4?' <span class="star" title="drawdown beyond 40%">★</span>':''}`;}}),
+ col('name','Name','text',{width:170}),
+ col('sector','Sector','text',{width:150,formatter:c=>`<span class="muted">${c.getValue()||''}</span>`}),
+ col('growth_rank','Growth #','num',{d:0,width:74,tip:'rank by revenue growth among the guard survivors (top 20 listed)'}),
+ col('rev_yoy','Growth','pct',{good:'up',tip:'TTM revenue vs a year earlier'}),
+ col('val_pct_op','Val','num',{d:3,formatter:c=>`<b>${fmt.num(c.getValue(),3)}</b>`,tip:'mean percentile of P/S, EV/EBITDA, EV/EBIT vs own history (0 = cheapest ever)'}),
+ col('ps_pct','P/S pct','num',{d:2}),
+ col('ev_ebitda_pct','EV/EBITDA pct','num',{d:2}),
+ col('ev_ebit_pct','EV/EBIT pct','num',{d:2}),
+ col('val_pct','Val v2','num',{d:3,visible:false,tip:'v2 percentile: mean of P/E, P/S, EV/EBITDA'}),
+ col('ps','P/S','num',{d:2}),
+ col('ev_ebitda','EV/EBITDA','num'),
+ col('ev_ebit','EV/EBIT','num'),
+ col('pe','P/E','num'),
+ col('rsi_m','RSI(m)','num',{formatter:c=>`<span class="${c.getValue()<42?'neg':''}">${fmt.num(c.getValue(),1)}</span>`,tip:'monthly RSI(14), current candle'}),
+ col('rsi_min6','Min RSI 6m','num',{tip:'lowest monthly RSI in the 6-month window'}),
+ col('dd5','From 5y high','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`}),
+ col('close','Close','num',{d:2,tip:'month-end / latest close used by the screen'}),
+ col('mcap','Mkt cap','money'),
+ col('eps_ttm','EPS TTM','num',{d:2,tip:'point-in-time trailing EPS at entry'}),
+ col('eps_1y','EPS 1y ago','num',{d:2,visible:false}),
+ col('eps_chg_1y','EPS Δ 1y','pct',{good:'up'}),
+ col('eps_path_s','EPS path (6q)','text',{width:200,tip:'point-in-time TTM EPS, last six quarters, oldest first'}),
+ col('eps_guidecut_trigger','Guide-cut trigger','num',{d:2,tip:'85% of entry TTM EPS: sold at the month-end when TTM EPS is at or below this within 12 months'}),
+ col('trim_price','Trim price','num',{d:2,tip:'+50% over the screen close: half the position is sold'}),
+ col('nd_ebitda','ND/EBITDA','num',{tip:'net debt / TTM EBITDA (negative = net cash)'}),
+ col('shares_yoy','Shares y/y','pct',{good:'down',tip:'diluted shares vs a year earlier (acquisition guard: > +15% rejects)'}),
+ col('ni_op','NI / op inc','num',{d:2,tip:'TTM net income over TTM operating income (one-off guard: > 1 rejects)'}),
+ col('prior_yoy','Growth 1y ago','pct',{visible:false,tip:'TTM revenue growth reported a year earlier (acquisition guard input)'}),
+ col('opinc_ttm','Op income TTM','money',{visible:false}),
+ col('ni_ttm','Net income TTM','money',{visible:false}),
+ col('rev_ttm','Revenue TTM','money',{visible:false}),
+ col('q_end','Quarter','text',{width:100,tip:'latest fiscal quarter in the filings'}),
+ col('status','Thesis','text',{headerFilterParams:{ops:['contains','=']},formatter:c=>{const r=c.getRow().getData();return r.has_thesis?`<a href="/ticker/${r.ticker}#thesis"><span class="status">${r.status}</span></a>`:'<span class="muted">—</span>';}}),
+];
+const table=makeGrid('#grid',COLS,TOP10,'v3top10',{initialSort:[{column:'value_rank',dir:'asc'}],height:Math.min(60+TOP10.length*31,420)});
+const COLS2=COLS.map(c=>Object.assign({},c));COLS2[0]=col('growth_rank','Growth #','num',{d:0,frozen:true,width:74});COLS2.splice(4,1);
+makeGrid('#grid2',COLS2,BENCH,'v3bench',{initialSort:[{column:'val_pct_op',dir:'asc'}],height:Math.min(60+BENCH.length*31,420)});
+</script>
+{% endif %}
+{% endblock %}"""
+
+V3_REPORT = """{% extends "base" %}{% block body %}
+<p class="muted small"><a href="/v3">← Top 10 v3</a> · {{ fname }}</p>
+<div class="md">{{ html|safe }}</div>
+{% endblock %}"""
+
+RESEARCH = """{% extends "base" %}{% block body %}
+<h1>Research <span class="muted small">thesis files for the names bought by strategy v3, reports and working notes</span></h1>
+<h2>Strategy v3 thesis files <span class="muted small">turnaround_backtest_v3/thesis/</span></h2>
+{% if idx.theses %}<table><thead><tr><th>Buy</th><th class="l">Ticker</th><th class="l">Status</th><th>Updated</th><th>Review by</th><th class="l">Research conclusion</th></tr></thead><tbody>
+{% for r in idx.theses %}<tr><td>{{ r.order if r.order != 99 else '' }}</td>
+<td class="l"><a href="/doc/{{ r.rel|urlencode }}"><b>{{ r.ticker }}</b></a><br><span class="muted small">{{ r.title.split(' — ',1)[-1] }}</span><br><a class="small" href="/ticker/{{ r.ticker }}">ticker page</a></td>
+<td class="l"><span class="status">{{ r.status or '?' }}</span></td><td>{{ r.last_updated or '' }}</td><td>{{ r.review_deadline or '' }}</td>
+<td class="l small" style="white-space:normal;max-width:760px">{% if r.concl %}{{ r.concl|safe }}{% else %}<span class="muted">no conclusion section yet</span>{% endif %}</td></tr>{% endfor %}
+</tbody></table>{% else %}<p class="muted">No thesis files.</p>{% endif %}
+<h2>Reports</h2><ul>{% for r in idx.reports %}<li><a href="/doc/{{ r|urlencode }}">{{ r.split('/')[-1][:-3] }}</a></li>{% endfor %}</ul>
+<h2>Research notes</h2><ul>{% for r in idx.notes %}<li><a href="/doc/{{ r|urlencode }}">{{ r.split('/')[-1] }}</a></li>{% endfor %}</ul>
+{% endblock %}"""
+
+DOC = """{% extends "base" %}{% block body %}
+<p class="muted small"><a href="/research">← Research</a>{% for c in crumbs %} / {% if c.href %}<a href="{{ c.href }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% endfor %}
+{% if ticker %} · <a href="/ticker/{{ ticker }}">ticker page</a>{% endif %}</p>
+{% if listing is not none %}<h1>{{ crumbs[-1].name }}</h1><ul>{% for e in listing %}<li><a href="/doc/{{ e.rel|urlencode }}">{{ e.name }}{{ '/' if e.dir }}</a></li>{% else %}<li class="muted">empty</li>{% endfor %}</ul>
+{% else %}<div class="md">{{ html|safe }}</div>{% endif %}
 {% endblock %}"""
 
 STUDY = """{% extends "base" %}{% block body %}
@@ -707,7 +967,8 @@ STUDY = """{% extends "base" %}{% block body %}
 {% endblock %}"""
 
 from jinja2 import DictLoader  # noqa: E402
-app.jinja_loader = DictLoader({"base": BASE, "home": HOME, "all": ALL, "ticker": TICKER, "study": STUDY})
+app.jinja_loader = DictLoader({"base": BASE, "home": HOME, "all": ALL, "ticker": TICKER, "study": STUDY, "v3": V3, "v3_report": V3_REPORT,
+                               "research": RESEARCH, "doc": DOC})
 
 
 # ------------------------------------------------------------------ routes
@@ -794,11 +1055,58 @@ def ticker(t):
     except Exception as e:  # noqa: BLE001
         vhist = {"metrics": {}, "error": str(e)[:120]}
     vcharts = {k: valuation_chart(vhist["metrics"][k]) if k in vhist.get("metrics", {}) else "" for k in ("pe", "fwd_pe", "peg", "ev_ebitda", "ps")}
-    tp = THESIS / f"{t}.md"
-    thesis_html = markdown(tp.read_text(encoding="utf-8"), extensions=["tables"]) if tp.exists() else None
+    theses = [{"label": label, "html": render_md(tp), "rel": tp.relative_to(ROOT).as_posix()} for tp, label in thesis_files(t)]
     name = r.get("name") or f.get("long_name") or ""
+    v3d, v3 = v3_row(t)
     return render_template_string(TICKER, t=t, r=r, f=f, name=name, quarters=quarters, chart=chart_svg(t), epsg=epsg, vhist=vhist, vcharts=vcharts,
-                                  thesis_html=thesis_html, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="", title=t)
+                                  theses=theses, v3=v3, v3d=v3d, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="", title=t)
+
+
+@app.route("/v3")
+def v3_top10():
+    d = load_v3()
+    top10_set = [r["ticker"] for r in d["top10"]] if d else []
+    br_labels = {"top10": "Top 10 (bought)", "bench_11_20": "Ranks 11-20 (bench)",
+                 "top10_val_le_0.10": "Top 10, val ≤ 0.10", "top10_val_0.10_0.25": "Top 10, val 0.10 – 0.25",
+                 "top10_val_gt_0.25": "Top 10, val > 0.25", "top10_dd5_worse_than_-60%": "Top 10, 60% or more below 5y high",
+                 "top10_dd5_-40_to_-60%": "Top 10, 40 – 60% below 5y high", "top10_dd5_better_than_-40%": "Top 10, less than 40% below 5y high"}
+    return render_template_string(V3, d=d, top10_set=top10_set, br_labels=br_labels, report=latest_v3_report() is not None,
+                                  as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="v3", title="Top 10 v3")
+
+
+@app.route("/v3/report")
+def v3_report():
+    p = latest_v3_report()
+    if p is None:
+        abort(404)
+    html = markdown(p.read_text(encoding="utf-8"), extensions=["tables"])
+    return render_template_string(V3_REPORT, html=html, fname=p.name, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="v3", title="v3 report")
+
+
+@app.route("/research")
+def research():
+    return render_template_string(RESEARCH, idx=research_index(), as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(),
+                                  nav="research", title="Research")
+
+
+@app.route("/doc/<path:rel>")
+def doc(rel):
+    p = doc_path(rel)
+    if p is None:
+        abort(404)
+    r = p.relative_to(ROOT.resolve()).as_posix()
+    parts = r.split("/")
+    crumbs = [{"name": n, "href": "/doc/" + quote("/".join(parts[:i + 1])) if i < len(parts) - 1 else None}
+              for i, n in enumerate(parts)]
+    ticker = p.stem if p.is_file() and p.parent.name == "thesis" else None
+    if p.is_dir():
+        listing = [{"name": c.name, "dir": c.is_dir(), "rel": c.relative_to(ROOT.resolve()).as_posix()}
+                   for c in sorted(p.iterdir(), key=lambda c: (not c.is_dir(), c.name.lower()))
+                   if (c.is_dir() and not c.name.startswith((".", "__"))) or c.suffix.lower() == ".md"]
+        return render_template_string(DOC, listing=listing, html=None, crumbs=crumbs, ticker=None, as_of=as_of(),
+                                      on_vercel=ON_VERCEL, meta=scan_meta(), nav="research", title=parts[-1])
+    return render_template_string(DOC, listing=None, html=render_md(p), crumbs=crumbs, ticker=ticker, as_of=as_of(),
+                                  on_vercel=ON_VERCEL, meta=scan_meta(), nav="research", title=p.stem)
 
 
 @app.route("/thesis/<t>", methods=["POST"])

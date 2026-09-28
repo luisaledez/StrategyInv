@@ -179,6 +179,27 @@ ordered by bucket, empty buckets are hidden, rows inside a group follow
 the column sort, and the setup is remembered in the browser alongside
 the column layout.
 
+The Top 10 v3 page (`/v3`) shows the current list of backtest v3's
+`both_opval` strategy (organic growth, one-off EPS and acquisition guards,
+top 20 by revenue growth, top 10 by the P/S · EV/EBITDA · EV/EBIT
+percentile versus own history): the top 10 in buy order and ranks 11-20,
+each with every screen diagnostic (valuation components, EPS path,
+guide-cut trigger, trim price, guard inputs), the names the guards struck,
+the same screen on the last completed candle, the 12-month base rates of
+past picks and the rules. It reads the newest
+`turnaround_backtest_v3/output/live_both_opval_<date>.json` (written by
+`python turnaround_backtest_v3/live_v3.py`), and `/v3/report` renders the
+matching `reports/Turnaround v3 positions - <date>.md`. A ticker page shows
+a Strategy v3 block when the name is in that top 20.
+
+`/research` lists the v3 thesis files (`turnaround_backtest_v3/thesis/`,
+with each file's research conclusion), the reports and the research-note
+folders; `/doc/<repo path>` renders any Markdown file under `reports/`,
+`research_notes/`, `turnaround_backtest_v3/` or `turnaround/thesis/`, and
+relative links between those documents are rewritten to open inside the app.
+A ticker page shows its thesis file from `turnaround_backtest_v3/thesis/`
+first and `turnaround/thesis/` second.
+
 The same app is deployed read-only on Vercel at
 https://ll-turnaround-strat.vercel.app (project `ll-turnaround-strat`,
 entry point `api/index.py`, config in `vercel.json`, `requirements.txt`,

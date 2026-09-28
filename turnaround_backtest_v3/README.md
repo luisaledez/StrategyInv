@@ -53,6 +53,8 @@ and from 2009-01-01.
 ```
 python screen_v3.py      # ~2 min: output/snapshots_<variant>.json/.csv and current_<variant>.json (today's list)
 python backtest_v3.py    # ~2 min: output/results.json, report.md, <scenario>_trades.csv, *_equity.csv
+python live_v3.py        # ~2 min: today's both_opval list with live diagnostics, last-candle sensitivity and
+                         #   12-month base rates -> output/live_both_opval_<date>.csv/.json
 ```
 
 ## Results (run 2026-09-28)
@@ -122,6 +124,9 @@ screen_v3.py     extends ../turnaround_backtest/screen.py tables with the guard 
                  (ni_op, ni_jump4, op_jump4, eps_jump4, shares_yoy, prior_yoy, ev_ebit_pct, val_pct_op)
                  and writes one snapshot set per variant
 backtest_v3.py   runs the rescreen_only rule set on every variant from 2004 and 2009
+live_v3.py       today's both_opval list for a live report (used for reports/Turnaround v3 positions - <date>.md)
+thesis/          one research file per bought name (turnaround/thesis_template.md plus v3 rule data, entry
+                 TTM EPS, guide-cut trigger and trim price), first set from the 2026-09-28 top 10
 output/          snapshots_<variant>.json/.csv, current_<variant>.json, results.json, report.md,
                  <scenario>_trades.csv, <scenario>_equity.csv, spy_<year>_equity.csv
 ```

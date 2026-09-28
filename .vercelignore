@@ -19,3 +19,6 @@ turnaround_backtest/output_v2/dashboard_market.pkl
 turnaround_backtest/synthetic/data
 turnaround_backtest/synthetic/cache
 rsi_swing/cache
+turnaround_backtest_v3/output/*
+!turnaround_backtest_v3/output/live_both_opval_*.json
+!turnaround_backtest_v3/output/current_both_opval.json

@@ -1,12 +1,20 @@
 {
  "ticker": "ENPH",
- "fetched": "2026-09-14",
- "market_cap": 4875476848.451019,
+ "fetched": "2026-09-28",
+ "market_cap": 4140091811.7581635,
  "shares_out": 132144648.0,
- "price": 36.89500045776367,
+ "price": 31.329999923706055,
  "long_name": "Enphase Energy, Inc.",
  "sector_y": "Technology",
  "industry_y": "Solar",
+ "pe_trailing_y": 31.019802,
+ "pe_forward": 13.828993,
+ "peg": 0.75,
+ "p_sales_y": 3.1163611,
+ "eps_trailing_y": 1.01,
+ "eps_forward": 2.26553,
+ "earnings_growth_y": -0.035,
+ "earnings_growth_q_y": -0.026,
  "bs_date": "2026-06-30",
  "cash": 937708000.0,
  "total_debt": 581939000.0,
@@ -48,6 +56,34 @@
    "value": 363153000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.29
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28
+  }
+ ],
+ "eps_ttm": 1.0,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.72,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.0357142857142857,
+ "eps_forward_growth": 1.26553,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 1472985000.0,
+   "eps": 1.29,
    "net_income": 172133000.0
   },
   {
    "year": "2024",
    "revenue": 1330383000.0,
+   "eps": 0.75,
    "net_income": 102658000.0
   },
   {
    "year": "2023",
    "revenue": 2290786000.0,
+   "eps": 3.08,
    "net_income": 438936000.0
   },
   {
    "year": "2022",
    "revenue": 2330853000.0,
+   "eps": 2.77,
    "net_income": 397362000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": -1.434378905777527,
  "interest_coverage": 63.52577319587629,
  "cash_to_debt": 1.6113510178901913,
- "ev": 4519707848.451019,
- "ev_to_sales": 3.402108426220675,
- "ev_to_ebitda": 18.22242409567802,
- "pe_ttm": 36.37764018721288,
- "p_fcf": 31.943737664050392,
- "p_book": 4.125341289697571
+ "ev": 3784322811.7581635,
+ "ev_to_sales": 2.8485638800379403,
+ "ev_to_ebitda": 15.257520508640743,
+ "pe_ttm": 30.8906748922444,
+ "pe_trailing": 31.019802,
+ "p_sales": 3.1163611,
+ "p_fcf": 27.125553222943278,
+ "p_book": 3.503101793952937
 }
