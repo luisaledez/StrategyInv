@@ -119,7 +119,7 @@ def main(yahoo: bool = True) -> None:
         r["tier_sep_prov"] = (zp or {}).get("tier", "-")
         r["rsi_sep_prov"] = (zp or {}).get("rsi")
         f = fund_now(fund, t)
-        for k in ("q_end", "rev_yoy", "eps_yoy", "eps_ttm", "prof_past", "oneoff", "acq", "val_pct_op", "mcap",
+        for k in ("q_end", "rev_yoy", "prior_yoy", "gw_ev", "eps_yoy", "eps_ttm", "prof_past", "oneoff", "acq", "val_pct_op", "mcap",
                   "ps", "ev_ebitda", "pe", "quality", "cheap"):
             r[k] = f.get(k)
         rows.append(r)

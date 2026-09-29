@@ -66,7 +66,8 @@ def fundamentals_tables(tickers: list[str], rebuild: bool = False) -> dict[str, 
     tables = screen_v3.build_tables(tickers)
     keep = ["eps_ttm", "ni_ttm", "rev_ttm", "rev_yoy", "prior_yoy", "prof_past", "rev_qoq", "rev_jump8",
             "opinc_ttm", "ni_op", "ni_jump4", "op_jump4", "eps_jump4", "shares_yoy", "debt", "cash",
-            "ebitda_ttm", "mcap", "pe", "ps", "ev_ebitda", "ev_ebit", "val_pct", "val_pct_op", "q_end", "adv"]
+            "ebitda_ttm", "mcap", "pe", "ps", "ev_ebitda", "ev_ebit", "val_pct", "val_pct_op", "q_end", "adv",
+            "gw_ev", "gw_ratio"]
     slim = {t: tb[[c for c in keep if c in tb.columns]].copy() for t, tb in tables.items()}
     for tb in slim.values():
         tb["eps_yoy"] = np.where(tb["eps_ttm"].shift(12) > 0, tb["eps_ttm"] / tb["eps_ttm"].shift(12) - 1.0, np.nan)

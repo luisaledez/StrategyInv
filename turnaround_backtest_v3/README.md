@@ -41,7 +41,7 @@ organic filter and before the top-20 growth rank:
 | Guard | Test | Catches |
 |---|---|---|
 | **one-off** | TTM net income > TTM operating income (net income cannot exceed operating income without a non-operating gain or a tax benefit); or one quarter lifted TTM net income by > 50% while TTM operating income rose < 25%; without operating income in the filings, a > 50% one-quarter jump in TTM EPS | FIS, DUOL, PINS (2024 tax-asset release), CSGP (near-zero EPS swinging 3.6x), GEN |
-| **acq** | diluted shares up > 15% year over year (stock-financed deal or equity raise); or trailing revenue growth ≥ 15% that is ≥ 3x and ≥ 10 points above the growth reported a year earlier, when that earlier growth was not negative (cash-financed deal; a recovery from a decline is exempt) | AMCR (+46% shares), CELH (+55% shares), DKS (54% vs 3%) |
+| **acq** | diluted shares up > 15% year over year (stock-financed deal or equity raise); or trailing revenue growth ≥ 15% that is ≥ 3x and ≥ 10 points above the growth reported a year earlier, when that earlier growth was not negative (a recovery from a decline is exempt), **and** goodwill + intangibles up ≥ 5% of prior-year revenue and ≥ 25% over their 24-month low (cash-financed deal; since 2026-09-29, see below) | AMCR (+46% shares), CELH (+55% shares), DKS (54% vs 3%) |
 | **opval** (ranking variant) | valuation percentile from P/S, EV/EBITDA and EV/EBIT, dropping P/E | one-offs cannot make a name look cheap even if a guard misses them |
 
 Variants: `ref` (organic screen only, identical to backtest v2's
@@ -57,7 +57,40 @@ python live_v3.py        # ~2 min: today's both_opval list with live diagnostics
                          #   12-month base rates -> output/live_both_opval_<date>.csv/.json
 ```
 
-## Results (run 2026-09-28)
+## Revision 2026-09-29: goodwill evidence in the acquisition guard
+
+The step-change branch of the acquisition guard (growth ≥ 15% that is ≥ 3x and ≥ 10 points above a
+year earlier) could not tell a bought company from organic acceleration: it flagged AAON (54% vs 5%,
+a data-center cooling ramp with flat shares, no debt and no new goodwill) and MasTec the same way as
+Dick's/Foot Locker. It now also needs **new goodwill + intangibles: up by at least 5% of the prior
+year's revenue and at least 25% over their lowest reading in the previous 24 months** (`goodwill.py`
+reads them point in time from the cached SEC company-facts files). The shares test (> +15% y/y) is
+unchanged; without goodwill data the step change alone still flags.
+
+On the 1,895 month-ends 2009-2026 where the step change fired, 889 have no new goodwill behind them and
+are no longer flagged; every known deal stays flagged (AMCR/Berry, CELH/Alani Nu, DKS/Foot Locker,
+STRL/CEC, ALSN/Dana, TAP/StarBev and MillerCoors, WWD/L3 fuel systems, MKSI/Newport, AAON/BasX in 2022).
+
+Effect on the backtests (same data otherwise):
+
+| Scenario | IRR before → after | Max DD before → after | Final + withdrawn | Win rate |
+|---|---|---|---|---|
+| acq | 14.3% → 14.0% | -30.6% → -33.9% | $1,025k → $954k | 76% → 73% |
+| both | 14.0% → 13.6% | -35.4% → -38.0% | $954k → $882k | 77% → 76% |
+| **both_opval** | 14.6% → 14.1% | -33.7% → -35.4% | $1,101k → $996k | 79% → 81% |
+| acq_2009 | 23.3% → 22.8% | -30.6% → -33.9% | $1,309k → $1,225k | 76% → 72% |
+| both_2009 | 23.1% → 22.4% | -34.3% → -38.2% | $1,225k → $1,129k | 76% → 76% |
+| **both_opval_2009** | 23.7% → 22.6% | -34.3% → -40.1% | $1,444k → $1,273k | 79% → 80% |
+
+The returns are lower, but not because the revised guard lets bad companies in. Only two released names
+were ever bought by `both_opval`: ADM (Jan 2012, +10%) and CRUS (Jul 2013, +24%), both winners. The
+rest is path dependence: buying ADM instead of MOS in January 2012 changes the cash and holdings behind
+every later decision, and released names reshuffle the growth top 20 at 19 of 91 snapshots. A one-point
+IRR swing from a single different trade is the size of this backtest's noise, so read the v3 variant
+ranking (0.3 - 0.6 points apart) with that in mind. The live top 10 on 2026-09-29 is unchanged.
+The results table below is the original 2026-09-28 run; `output/` holds the revised run.
+
+## Results (original run 2026-09-28)
 
 | Scenario | IRR | Max DD | Final + withdrawn | Closed | Win rate | Avg closed | Median closed |
 |---|---|---|---|---|---|---|---|
@@ -120,6 +153,7 @@ NFLX and VVV move up into it.
 ## Layout
 
 ```
+goodwill.py      point-in-time goodwill + intangibles from the cached SEC files -> cache/goodwill.json
 screen_v3.py     extends ../turnaround_backtest/screen.py tables with the guard diagnostics
                  (ni_op, ni_jump4, op_jump4, eps_jump4, shares_yoy, prior_yoy, ev_ebit_pct, val_pct_op)
                  and writes one snapshot set per variant

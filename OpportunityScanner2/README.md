@@ -42,7 +42,11 @@ candles 2000 – Aug 2026, fundamentals from SEC filings from 2009.
    filters help on the event level: "quality" (profitable now and in 2 of the 3
    past years, revenue growth ≥ 5%, EPS growing, no one-off gain, no
    acquisition-driven growth) and "cheap" (operating multiples in the bottom half
-   of the company's own history).
+   of the company's own history). The acquisition check is the turnaround v3
+   guard: diluted shares up more than 15%, or a jump in growth (≥ 15%, 3x and
+   10 points above a year earlier) backed by new goodwill + intangibles (≥ 5% of
+   revenue and ≥ 25% above their 24-month low). Since 2026-09-29 a growth jump
+   without new goodwill (AAON, MasTec) counts as organic.
    * former leader + RSI < 35 + quality: 46 signals since 2009, median +48.8% in
      12 months, **89% beat their own stock's average**, month-clustered +24
      points (t = 5.1); last 5 years 19 signals, 84%.
@@ -103,6 +107,7 @@ candles 2000 – Aug 2026, fundamentals from SEC filings from 2009.
 | `timing.py` | own-stock baseline and entry-timing variants → `output/timing.json` |
 | `variants.py` | head-to-head of the stricter variants, 3 periods × 3 filters, 24-month portfolios → `output/variants.json`, `output/events_<variant>.csv` |
 | `live.py` | today's list with tiers A/B/C and fundamentals → `output/live_<date>.csv/.json` |
+| `report.py` | writes `../reports/OpportunityScanner2 candidates - <date>.md` from the newest live list |
 | `export_web.py` | condenses study.json / timing.json / variants.json into `output/web_summary.json` for the web app's **Opportunity 2** tab (`/os2` in `../turnaround/app.py`) |
 
 ```
@@ -111,6 +116,7 @@ python timing.py     # ~1 min
 python variants.py   # ~2 min
 python live.py       # ~1-3 min (downloads Yahoo analyst estimates for the shortlisted names)
 python export_web.py # refresh the web page's summary; the page reads the newest live_<date>.json
+python report.py     # today's candidates report (the page renders the newest one)
 ```
 
 The deployed app (`ll-turnaround-strat` on Vercel) ships only `output/live_*.json` and

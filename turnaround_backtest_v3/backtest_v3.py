@@ -38,7 +38,7 @@ RULES = dict(rebase_exit=True, rebase_min_drop=0.30, guide_cut_exit=0.15, guide_
 LABELS = {
     "ref": "Reference: organic screen only (= backtest v2 `rescreen_only`)",
     "oneoff": "+ one-off EPS guard (net income > operating income, or a one-quarter jump in TTM net income)",
-    "acq": "+ acquisition guard (shares +15% y/y, or growth >= 15% that is 3x and 10 points above a year earlier)",
+    "acq": "+ acquisition guard (shares +15% y/y, or growth >= 15% that is 3x and 10 points above a year earlier with goodwill + intangibles up >= 5% of revenue)",
     "both": "+ both guards",
     "both_opval": "+ both guards, valuation ranked on P/S, EV/EBITDA and EV/EBIT (no P/E)",
 }

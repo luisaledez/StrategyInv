@@ -38,7 +38,7 @@ first trading day after the snapshot.
 | 4 | Profitable in the past: at most one losing year among the TTM net-income readings one, two and three years earlier | |
 | 5 | Organic growth (from backtest v2): TTM revenue growth year over year positive and below 100%; no quarter-to-quarter jump of the TTM revenue figure above 60% in the last eight quarters; latest quarter not below its year-ago quarter while the trailing year is up | 0 < g < 100% / 1.6x / — |
 | 6 | **One-off EPS guard (new)**: reject if TTM net income exceeds TTM operating income (a non-operating gain or a tax benefit is inside the trailing year), or if one quarter lifted TTM net income by more than 50% while TTM operating income rose less than 25%. Without an operating-income tag in the filings, reject a one-quarter jump of more than 50% in TTM EPS | 1.0x / 1.5x vs 1.25x |
-| 7 | **Acquisition guard (new)**: reject if diluted shares are up more than 15% year over year (stock-financed deal or equity raise), or if TTM revenue growth is 15% or more and at least three times and ten points above the growth reported one year earlier while that earlier growth was not negative (cash-financed deal phasing in; recoveries from a decline are exempt) | 15% / 15%, 3x, 10 pp |
+| 7 | **Acquisition guard (new)**: reject if diluted shares are up more than 15% year over year (stock-financed deal or equity raise), or if TTM revenue growth is 15% or more and at least three times and ten points above the growth reported one year earlier while that earlier growth was not negative (recoveries from a decline are exempt) **and** goodwill + intangibles rose by ≥ 5% of prior-year revenue and ≥ 25% over their 24-month low (cash-financed deal phasing in; the goodwill condition was added 2026-09-29, see the folder README) | 15% / 15%, 3x, 10 pp |
 | 8 | Top 20 of the survivors by TTM revenue growth | 20 |
 | 9 | **Valuation on operating multiples (new)**: rank those 20 by the mean percentile of today's trailing P/S, EV/EBITDA and EV/EBIT within the company's own monthly history rebuilt from filings (0 = cheapest ever). At least 12 months of history per multiple. Ties broken by higher growth. Take the top 10 | 10 |
 
@@ -66,6 +66,8 @@ first trading day after the snapshot.
 | Everything else | identical | identical |
 
 ## 2. Performance, side by side
+
+> The figures in this section are the original 2026-09-28 run. With the revised acquisition guard (2026-09-29) `both_opval` returns 14.1% IRR / -35.4% max drawdown from 2004 and 22.6% / -40.1% from 2009; the difference is path dependence from two extra winning buys (ADM, CRUS), explained in the folder README.
 
 Both strategies on the same data, same engine, same snapshot dates. "Final + withdrawn" is the ending
 value plus everything taken out; IRR is the money-weighted return of the $100,000 in, the withdrawals

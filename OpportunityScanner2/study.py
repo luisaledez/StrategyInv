@@ -94,7 +94,7 @@ def fund_row(u: Universe, t: str, month: pd.Timestamp) -> dict:
     r = tb.loc[month]
     d = {k: _f(r.get(k)) for k in ("eps_ttm", "ni_ttm", "rev_ttm", "rev_yoy", "prior_yoy", "prof_past", "eps_yoy",
                                    "ni_op", "ni_jump4", "op_jump4", "eps_jump4", "shares_yoy", "mcap", "val_pct_op",
-                                   "val_pct", "ps", "ev_ebitda", "pe", "rev_qoq", "rev_jump8")}
+                                   "val_pct", "ps", "ev_ebitda", "pe", "rev_qoq", "rev_jump8", "gw_ev", "gw_ratio")}
     d["q_end"] = r.get("q_end")
     d["oneoff"] = screen_v3.oneoff_flag(d) if d.get("ni_op") is not None or d.get("ni_jump4") is not None or d.get("eps_jump4") is not None else None
     d["acq"] = screen_v3.acq_flag(d)

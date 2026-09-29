@@ -1002,10 +1002,10 @@ V3 = """{% extends "base" %}{% block body %}
 <li><b>Profitable</b>: TTM EPS and net income above zero; at most one losing year among the TTM readings one, two and three years back.</li>
 <li><b>Organic growth</b>: TTM revenue growth positive and under 100%; no quarter-to-quarter jump of the TTM figure above 60% in eight quarters; latest quarter not below its year-ago quarter.</li>
 <li><b>One-off EPS guard</b>: reject when TTM net income exceeds TTM operating income, or one quarter lifted TTM net income by more than 50% while operating income rose less than 25% (no operating-income tag: a &gt; 50% one-quarter jump in TTM EPS).</li>
-<li><b>Acquisition guard</b>: reject when diluted shares are up more than 15% year over year, or growth of 15% or more is at least three times and ten points above the growth a year earlier (recoveries from a decline exempt).</li>
+<li><b>Acquisition guard</b>: reject when diluted shares are up more than 15% year over year, or growth of 15% or more is at least three times and ten points above the growth a year earlier (recoveries from a decline exempt) <i>and</i> goodwill + intangibles rose by at least 5% of revenue and 25% over their 24-month low (goodwill condition added 2026-09-29, so organic accelerations such as AAON pass).</li>
 <li><b>Top 20 by TTM revenue growth</b>, then <b>top 10 by the mean percentile of P/S, EV/EBITDA and EV/EBIT</b> versus the company's own history (ties broken by higher growth).</li>
 <li><b>Portfolio</b>: 10% per stock, bought at the close of the first trading day after the snapshot; names that leave the list are kept; trim half at +50%; sell at a month-end with monthly RSI ≥ 90; a &gt; 100% winner is sold to fund a new name when cash is short; spin-off re-screen; <b>guidance-cut proxy</b>: sold when TTM EPS is 15% or more below its entry level within 12 months; yearly withdrawals of 5 – 10%. No position cap, no S&amp;P parking, no price stop.</li>
-</ol><p class="muted small">Backtest 2004 – Aug 2026: IRR 14.6% vs 9.1% for SPY with the same withdrawals, max drawdown -34% vs -55%, 79% of closed positions positive, median +51%. Details in <code>turnaround_backtest_v3/STRATEGY_both_opval.md</code>. Research tooling, not investment advice.</p></div>
+</ol><p class="muted small">Backtest 2004 – Aug 2026 (revised guard, 2026-09-29): IRR 14.1% vs 9.1% for SPY with the same withdrawals, max drawdown -35% vs -55%, 81% of closed positions positive (original run: 14.6%, -34%, 79%; the gap is path dependence, see the v3 README). Details in <code>turnaround_backtest_v3/STRATEGY_both_opval.md</code>. Research tooling, not investment advice.</p></div>
 <script>
 const TOP10={{ d.top10|tojson }},BENCH={{ d.bench|tojson }};
 const COLS=[
@@ -1153,7 +1153,7 @@ OS2 = """{% extends "base" %}{% block body %}
 <li><b>Tier A</b>: armed in the last 36 months and the monthly RSI is below 40 now; <b>★</b> below 35, the strongest group in the study.</li>
 <li><b>Tier B</b>: the RSI is at or below 68% of the highest arming RSI of the last 24 months (the −32% rule) <i>and</i> the close is 40% or more below the all-time high.</li>
 <li><b>Tier C</b>: the −32% rule alone. Watchlist only: it has done no better than a random month in the same stock.</li>
-<li><b>Quality / cheap</b>: point-in-time SEC filings (the turnaround v3 tables); the one-off and acquisition checks are the v3 guards.</li>
+<li><b>Quality / cheap</b>: point-in-time SEC filings (the turnaround v3 tables); the one-off and acquisition checks are the v3 guards. A growth jump only counts as acquired when new shares (&gt; +15%) or new goodwill + intangibles (≥ 5% of revenue, ≥ 25% over the 24-month low) back it; a jump without either is organic acceleration (AAON, MasTec).</li>
 </ul><p class="muted small">Study: 899 tickers, monthly candles 2000 – {{ S.last_month[:7] }}, fundamentals from 2009 (SEC XBRL). Universe = today's index members, so names that collapsed out of the index are missing, which flatters the history of every tier and the deeper ones most. No costs or taxes. Research tooling, not investment advice. Code: <code>OpportunityScanner2/</code>.</p></div>
 
 <script>

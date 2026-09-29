@@ -16,13 +16,18 @@ computed only from figures public on the snapshot date:
     filings, the same 50% test is applied to TTM EPS alone.
 
   acquisition guard ("acq")
-    growth that arrives through a deal that closed during the year shows up as
-    a share-count jump (stock-financed: Amcor/Berry) or as a step change in
-    growth (cash-financed: FIS/Issuer Solutions, Dick's/Foot Locker): diluted
-    shares up more than 15% year over year, or trailing revenue growth of 15%
-    or more that is at least three times, and at least ten points above, the
-    growth rate reported one year earlier (when that earlier rate was not
-    negative, so a cyclical recovery from a decline is not an acquisition).
+    growth that arrives through a deal shows up as a share-count jump
+    (stock-financed: Amcor/Berry, Celsius/Alani Nu) or as a step change in
+    growth backed by new goodwill (cash-financed: Dick's/Foot Locker,
+    Sterling/CEC): diluted shares up more than 15% year over year, or trailing
+    revenue growth of 15% or more that is at least three times, and at least
+    ten points above, the growth rate reported one year earlier (when that
+    earlier rate was not negative, so a cyclical recovery from a decline is not
+    an acquisition) AND goodwill + intangibles up by at least 5% of the prior
+    year's revenue and at least 25% over their lowest reading in the previous
+    24 months (goodwill.py). A step change without new goodwill is organic
+    acceleration (AAON's data-center ramp, MasTec) and is not flagged; without
+    goodwill data the step change alone still flags (the rule before 2026-09-29).
 
   operating-multiple valuation ("opval", a variant of the ranking)
     the valuation percentile drops the trailing P/E and uses P/S, EV/EBITDA
@@ -52,6 +57,7 @@ BT = HERE.parent / "turnaround_backtest"
 sys.path.insert(0, str(BT))
 import data  # noqa: E402
 import screen  # noqa: E402
+import goodwill  # noqa: E402
 
 OUT = HERE / "output"
 VARIANTS = ("ref", "oneoff", "acq", "both", "both_opval")
@@ -63,7 +69,10 @@ ONEOFF_OP_JUMP_OK = 1.25        # ... while TTM operating income rose < 25%
 ACQ_SHARES_YOY = 0.15           # diluted shares up > 15% y/y
 ACQ_MIN_GROWTH = 0.15           # step change: growth >= 15% ...
 ACQ_STEP_MULT = 3.0             # ... at least 3x the growth reported a year earlier ...
-ACQ_STEP_PP = 0.10              # ... and at least 10 points above it
+ACQ_STEP_PP = 0.10              # ... and at least 10 points above it ...
+ACQ_GW_OF_REV = 0.05            # ... with goodwill + intangibles up >= 5% of prior-year TTM revenue ...
+ACQ_GW_RATIO = 1.25             # ... and >= 25% above their low of the previous 24 months
+GW_STALE_DAYS = 200             # a goodwill reading older than this (vs the month-end) is not used
 
 
 # ------------------------------------------------------------------ point-in-time chains
@@ -99,7 +108,33 @@ def _max_jump(chain: list[float]) -> float:
     return max(ratios) if ratios else np.nan
 
 
-def extend_table(tbl: pd.DataFrame, quarters: list[dict]) -> pd.DataFrame:
+def goodwill_columns(tbl: pd.DataFrame, gw_rows: list | None) -> tuple[np.ndarray, np.ndarray]:
+    """(goodwill increase as a share of prior-year TTM revenue, goodwill / its 24-month low) per month-end,
+    from goodwill + intangibles as first filed and public by that month-end; NaN without data."""
+    n = len(tbl)
+    gw = np.full(n, np.nan)
+    if gw_rows:
+        rows = sorted(gw_rows, key=lambda r: r[1])          # by filing date
+        j, latest = 0, None                                  # latest period end public so far
+        for i, m in enumerate(tbl.index):
+            ms = m.date().isoformat()
+            while j < len(rows) and rows[j][1] <= ms:
+                if latest is None or rows[j][0] >= latest[0]:
+                    latest = rows[j]
+                j += 1
+            if latest is not None and (m - pd.Timestamp(latest[0])).days <= GW_STALE_DAYS:
+                gw[i] = latest[2]
+    s = pd.Series(gw, index=tbl.index)
+    lo = pd.concat([s.shift(k) for k in range(3, 25, 3)], axis=1).min(axis=1, skipna=True).to_numpy()
+    rev0 = tbl["rev_ttm"].shift(12).to_numpy()
+    with np.errstate(divide="ignore", invalid="ignore"):
+        ev = np.where(rev0 > 0, (gw - lo) / rev0, np.nan)
+        ratio = np.where(lo > 0, gw / lo, np.where(lo == 0, 99.0, np.nan))
+    ratio = np.where(np.isnan(gw) | np.isnan(lo), np.nan, np.minimum(ratio, 99.0))
+    return ev, ratio
+
+
+def extend_table(tbl: pd.DataFrame, quarters: list[dict], gw_rows: list | None = None) -> pd.DataFrame:
     """Add the guard diagnostics to a screen.ticker_table() frame."""
     n = len(tbl)
     ni_jump = np.full(n, np.nan); op_jump = np.full(n, np.nan); eps_jump = np.full(n, np.nan)
@@ -134,18 +169,23 @@ def extend_table(tbl: pd.DataFrame, quarters: list[dict]) -> pd.DataFrame:
     tbl["prior_yoy"] = tbl["rev_yoy"].shift(12)
     tbl["ev_ebit_pct"] = screen._expanding_percentile(tbl["ev_ebit"].to_numpy())
     tbl["val_pct_op"] = tbl[["ps_pct", "ev_ebitda_pct", "ev_ebit_pct"]].mean(axis=1, skipna=True)
+    tbl["gw_ev"], tbl["gw_ratio"] = goodwill_columns(tbl, gw_rows)
     return tbl
 
 
 def build_tables(tickers: list[str], verbose: bool = True) -> dict[str, pd.DataFrame]:
     tables = {}
+    gw = goodwill.load()
+    if not gw:
+        print("  no goodwill cache: run goodwill.py (the acquisition guard falls back to the step-change test)",
+              file=sys.stderr, flush=True)
     for i, t in enumerate(tickers, 1):
         if verbose and i % 100 == 0:
             print(f"  tables {i}/{len(tickers)}", file=sys.stderr, flush=True)
         q = screen.load_edgar(t)
         tbl = screen.ticker_table(t, data.load_prices(t), q)
         if tbl is not None:
-            tables[t] = extend_table(tbl, q)
+            tables[t] = extend_table(tbl, q, gw.get(t))
     return tables
 
 
@@ -172,7 +212,11 @@ def acq_flag(r: dict) -> str | None:
         return f"shares +{r['shares_yoy'] * 100:.0f}% y/y"
     g, p = r["rev_yoy"], r["prior_yoy"]
     if g is not None and p is not None and p >= 0 and g >= ACQ_MIN_GROWTH and g >= ACQ_STEP_MULT * p and g - p >= ACQ_STEP_PP:
-        return f"growth {g * 100:.0f}% vs {p * 100:.0f}% a year earlier"
+        ev, ratio = r.get("gw_ev"), r.get("gw_ratio")
+        if ev is None or ratio is None:
+            return f"growth {g * 100:.0f}% vs {p * 100:.0f}% a year earlier (no goodwill data)"
+        if ev >= ACQ_GW_OF_REV and ratio >= ACQ_GW_RATIO:
+            return f"growth {g * 100:.0f}% vs {p * 100:.0f}% a year earlier, goodwill up {ev * 100:.0f}% of revenue"
     return None
 
 
@@ -200,7 +244,7 @@ def screen_at(tables: dict[str, pd.DataFrame], meta: pd.DataFrame, snap: pd.Time
             "ev_ebit_pct": _f(r["ev_ebit_pct"]), "val_pct": _f(r["val_pct"]), "val_pct_op": _f(r["val_pct_op"]),
             "ni_op": _f(r["ni_op"]), "ni_jump4": _f(r["ni_jump4"]), "op_jump4": _f(r["op_jump4"]),
             "eps_jump4": _f(r["eps_jump4"]), "shares_yoy": _f(r["shares_yoy"]), "debt_yoy": _f(r["debt_yoy"]),
-            "prior_yoy": _f(r["prior_yoy"]),
+            "prior_yoy": _f(r["prior_yoy"]), "gw_ev": _f(r["gw_ev"]), "gw_ratio": _f(r["gw_ratio"]),
         }
         d["oneoff"] = oneoff_flag(d)
         d["acq"] = acq_flag(d)
