@@ -16,8 +16,9 @@ revenue growth, EPS growth, one-off / acquisition flags, valuation percentile vs
 its own history on P/S, EV/EBITDA, EV/EBIT) plus Yahoo's analyst forward EPS
 growth, and a pass/fail on the study's "quality" and "cheap" filters.
 
-Rows use the last completed monthly candle (August 2026) and, separately, a
-provisional September candle from the latest daily close.
+Rows use the last completed monthly candle (common.LAST_MONTH, written to each row as
+`last_month`) and, separately, a provisional candle for the current month from the latest
+daily close (`tier_prov`, `rsi_prov`).
 
     python live.py            # writes output/live_<date>.csv/.json and prints the list
     python live.py --no-yahoo # skip the analyst estimates download
@@ -112,12 +113,13 @@ def main(yahoo: bool = True) -> None:
         if (z is None or z["tier"] == "-") and (zp is None or zp["tier"] == "-"):
             continue
         r = {"ticker": t, "name": meta["name"].get(t, ""), "sector": meta["sector"].get(t, ""), "adv": adv,
-             "last_px": float(d["Close"].iloc[-1]), "last_date": d.index[-1].date().isoformat()}
+             "last_px": float(d["Close"].iloc[-1]), "last_date": d.index[-1].date().isoformat(),
+             "last_month": common.LAST_MONTH.date().isoformat()}
         for k, v in (z or {}).items():
             r[k] = v
         r["tier"] = (z or {}).get("tier", "-")
-        r["tier_sep_prov"] = (zp or {}).get("tier", "-")
-        r["rsi_sep_prov"] = (zp or {}).get("rsi")
+        r["tier_prov"] = (zp or {}).get("tier", "-")
+        r["rsi_prov"] = (zp or {}).get("rsi")
         f = fund_now(fund, t)
         for k in ("q_end", "rev_yoy", "prior_yoy", "gw_ev", "eps_yoy", "eps_ttm", "prof_past", "oneoff", "acq", "val_pct_op", "mcap",
                   "ps", "ev_ebitda", "pe", "quality", "cheap"):
@@ -127,7 +129,7 @@ def main(yahoo: bool = True) -> None:
     if yahoo and len(df):
         import fundamentals as yf_fund  # turnaround/fundamentals.py, path set by common
         fw = []
-        short = df[(df["tier"] != "-") | (df["tier_sep_prov"] != "-")]
+        short = df[(df["tier"] != "-") | (df["tier_prov"] != "-")]
         for t in short["ticker"]:
             try:
                 g = yf_fund.get(t)
@@ -143,7 +145,7 @@ def main(yahoo: bool = True) -> None:
     stamp = pd.Timestamp.today().date().isoformat()
     df.to_csv(OUT / f"live_{stamp}.csv", index=False)
     (OUT / f"live_{stamp}.json").write_text(df.to_json(orient="records", indent=1, default_handler=str), encoding="utf-8")
-    cols = ["ticker", "tier", "rsi35", "tier_sep_prov", "rsi", "rsi_sep_prov", "peak_rsi", "peak_month", "dd_ath", "first_c",
+    cols = ["ticker", "tier", "rsi35", "tier_prov", "rsi", "rsi_prov", "peak_rsi", "peak_month", "dd_ath", "first_c",
             "quality", "cheap", "rev_yoy", "eps_yoy", "val_pct_op", "eps_fwd_growth", "oneoff", "acq"]
     pd.set_option("display.width", 250); pd.set_option("display.max_rows", 400)
     print(df[[c for c in cols if c in df.columns]].to_string(index=False, float_format=lambda v: f"{v:.2f}"))

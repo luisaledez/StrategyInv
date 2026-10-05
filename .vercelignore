@@ -25,5 +25,6 @@ turnaround_backtest_v3/output/*
 OpportunityScanner2/cache
 OpportunityScanner2/output/*
 !OpportunityScanner2/output/live_*.json
+!OpportunityScanner2/output/weekly_live_*.json
 !OpportunityScanner2/output/web_summary.json
 turnaround_backtest_v3/cache

@@ -1,0 +1,154 @@
+{
+ "ticker": "TKO",
+ "fetched": "2026-10-05",
+ "market_cap": 12756424066.67569,
+ "shares_out": 73111098.0,
+ "price": 174.47999572753906,
+ "long_name": "TKO Group Holdings, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Entertainment",
+ "pe_trailing_y": 61.006992,
+ "pe_forward": 37.272015,
+ "peg": 1.47,
+ "p_sales_y": 6.228712,
+ "eps_trailing_y": 2.86,
+ "eps_forward": 4.68126,
+ "earnings_growth_y": 0.144,
+ "earnings_growth_q_y": 0.033,
+ "bs_date": "2026-06-30",
+ "cash": 592485000.0,
+ "total_debt": 4953577000.0,
+ "current_debt": 89305000.0,
+ "lease_obligations": 324352000.0,
+ "equity": 3395932000.0,
+ "net_debt": 4361092000.0,
+ "ocf_ttm": 1795136000.0,
+ "capex_ttm": -122766000.0,
+ "fcf_ttm": 1672370000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1834469000.0,
+ "stock_issuance_ttm": -1834469000.0,
+ "revenue_ttm": 5301863000.0,
+ "net_income_ttm": 229556000.0,
+ "ebitda_ttm": 1548113000.0,
+ "ebit_ttm": 994832000.0,
+ "interest_ttm": 240936000.0,
+ "revenue_yoy_last_q": 0.18238179453120584,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1547078000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1596876000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1037995000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1119914000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1308442000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.34
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.47
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.17
+  }
+ ],
+ "eps_ttm": 2.8499999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 111.99999999999999,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14529914529914545,
+ "eps_forward_growth": 0.6425473684210528,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6405333150623304
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5401289768272552
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5958545079696915
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.607422534230307
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6359158449514767
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4735151000.0,
+   "eps": 2.26,
+   "net_income": 195403000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4884241000.0,
+   "eps": 0.02,
+   "net_income": 9408000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3224796000.0,
+   "eps": -0.43,
+   "net_income": 223476000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1140147000.0,
+   "eps": 0.0,
+   "net_income": 387275000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.09115003073338634,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 89305000.0,
+ "gap_24m": -503180000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.8170372576162075,
+ "interest_coverage": 4.129030115881396,
+ "cash_to_debt": 0.11960750786754702,
+ "ev": 17117516066.67569,
+ "ev_to_sales": 3.22858513444721,
+ "ev_to_ebitda": 11.057019782584145,
+ "pe_ttm": 55.5699875702473,
+ "pe_trailing": 61.006992,
+ "p_sales": 6.228712,
+ "p_fcf": 7.6277522717315485,
+ "p_book": 3.756383834150887
+}

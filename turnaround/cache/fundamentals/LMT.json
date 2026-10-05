@@ -1,0 +1,154 @@
+{
+ "ticker": "LMT",
+ "fetched": "2026-10-05",
+ "market_cap": 116789354620.20895,
+ "shares_out": 230790753.0,
+ "price": 506.0400085449219,
+ "long_name": "Lockheed Martin Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 18.652414,
+ "pe_forward": 15.449655,
+ "peg": 0.95,
+ "p_sales_y": 1.5164691,
+ "eps_trailing_y": 27.13,
+ "eps_forward": 32.75413,
+ "earnings_growth_y": 4.438,
+ "earnings_growth_q_y": 4.368,
+ "bs_date": "2026-06-30",
+ "cash": 3791000000.0,
+ "total_debt": 20538000000.0,
+ "current_debt": 168000000.0,
+ "lease_obligations": null,
+ "equity": 8768000000.0,
+ "net_debt": 16747000000.0,
+ "ocf_ttm": 10402000000.0,
+ "capex_ttm": -1673000000.0,
+ "fcf_ttm": 8729000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1750000000.0,
+ "stock_issuance_ttm": -1750000000.0,
+ "revenue_ttm": 77014000000.0,
+ "net_income_ttm": 6287000000.0,
+ "ebitda_ttm": 10221000000.0,
+ "ebit_ttm": 8532000000.0,
+ "interest_ttm": 1111000000.0,
+ "revenue_yoy_last_q": 0.10509501514734243,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 20063000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 18021000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 20321000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 18609000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 18155000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7.94
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.8
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.95
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.46
+  }
+ ],
+ "eps_ttm": 27.13,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.036754818467055195,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 4.438356164383562,
+ "eps_forward_growth": 0.2073029856247699,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12191596471115984
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11530991620886744
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11426603021504847
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12037186307700574
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.040429633709721836
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 75048000000.0,
+   "eps": 21.49,
+   "net_income": 5017000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 71043000000.0,
+   "eps": 22.31,
+   "net_income": 5336000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 67571000000.0,
+   "eps": 27.55,
+   "net_income": 6920000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 65984000000.0,
+   "eps": 21.66,
+   "net_income": 5732000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.008620689655172376,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 168000000.0,
+ "gap_24m": -3623000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.6384893846003326,
+ "interest_coverage": 7.67956795679568,
+ "cash_to_debt": 0.18458467231473366,
+ "ev": 133536354620.20895,
+ "ev_to_sales": 1.7339231129432175,
+ "ev_to_ebitda": 13.064901146679283,
+ "pe_ttm": 18.57632489585,
+ "pe_trailing": 18.652414,
+ "p_sales": 1.5164691,
+ "p_fcf": 13.379465531012597,
+ "p_book": 13.319953765990984
+}

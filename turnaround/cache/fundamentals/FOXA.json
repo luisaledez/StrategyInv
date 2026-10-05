@@ -1,0 +1,133 @@
+{
+ "ticker": "FOXA",
+ "fetched": "2026-10-05",
+ "market_cap": 26034130130.045174,
+ "shares_out": 421673622.0,
+ "price": 61.7400016784668,
+ "long_name": "Fox Corporation",
+ "sector_y": "Communication Services",
+ "industry_y": "Entertainment",
+ "pe_trailing_y": 16.078125,
+ "pe_forward": 10.558269,
+ "peg": 1.12,
+ "p_sales_y": 1.5201524,
+ "eps_trailing_y": 3.84,
+ "eps_forward": 5.84755,
+ "earnings_growth_y": 0.031,
+ "earnings_growth_q_y": -0.036,
+ "bs_date": "2026-06-30",
+ "cash": 4205000000.0,
+ "total_debt": 7568000000.0,
+ "current_debt": 45000000.0,
+ "lease_obligations": 962000000.0,
+ "equity": 11628000000.0,
+ "net_debt": 3363000000.0,
+ "ocf_ttm": 1970000000.0,
+ "capex_ttm": -502000000.0,
+ "fcf_ttm": 1468000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2000000000.0,
+ "stock_issuance_ttm": -2000000000.0,
+ "revenue_ttm": 17126000000.0,
+ "net_income_ttm": 1685000000.0,
+ "ebitda_ttm": 3089000000.0,
+ "ebit_ttm": 2679000000.0,
+ "interest_ttm": 401000000.0,
+ "revenue_yoy_last_q": 0.2814116215393976,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4212000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3994000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5182000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3738000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3287000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.61
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.38
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.32
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.57
+  }
+ ],
+ "eps_ttm": 3.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2179226069246436,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.02547770700636942,
+ "eps_forward_growth": 0.5267754569190601,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 17126000000.0,
+   "eps": 3.84,
+   "net_income": 1685000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 16300000000.0,
+   "eps": 4.91,
+   "net_income": 2263000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13980000000.0,
+   "eps": 3.13,
+   "net_income": 1501000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14913000000.0,
+   "eps": 2.33,
+   "net_income": 1239000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05993015014419911,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 45000000.0,
+ "gap_24m": -4160000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.088701845257365,
+ "interest_coverage": 6.6807980049875315,
+ "cash_to_debt": 0.5556289640591966,
+ "ev": 29397130130.045174,
+ "ev_to_sales": 1.716520502747003,
+ "ev_to_ebitda": 9.516714189072571,
+ "pe_ttm": 15.450522332371023,
+ "pe_trailing": 16.078125,
+ "p_sales": 1.5201524,
+ "p_fcf": 17.73442106951306,
+ "p_book": 2.238917279845646
+}

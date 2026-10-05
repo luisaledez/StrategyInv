@@ -40,8 +40,8 @@ def table(df: pd.DataFrame, m_done: str, m_prov: str) -> str:
     head = (f"| Ticker | Name | Tier ({m_done}) | Tier ({m_prov}, prov.) | RSI {m_done} / {m_prov} | Peak RSI (month) | vs ATH "
             "| Rev TTM y/y | EPS TTM y/y | Val. pct | Fwd EPS (Yahoo) |\n|---|---|---|---|---|---|---|---|---|---|---|\n")
     rows = "".join(
-        f"| **{r.ticker}** | {r['name']} | {tier(r.tier, r.rsi)} | {tier(r.tier_sep_prov, r.rsi_sep_prov)} | "
-        f"{n(r.rsi)} / {n(r.rsi_sep_prov)} | {n(r.peak_rsi, 0)} ({str(r.peak_month)[:7]}) | {p(r.dd_ath)} | "
+        f"| **{r.ticker}** | {r['name']} | {tier(r.tier, r.rsi)} | {tier(r.tier_prov, r.rsi_prov)} | "
+        f"{n(r.rsi)} / {n(r.rsi_prov)} | {n(r.peak_rsi, 0)} ({str(r.peak_month)[:7]}) | {p(r.dd_ath)} | "
         f"{p(r.rev_yoy)} | {p(r.eps_yoy)} | {n(r.val_pct_op, 2)} | {p(r.eps_fwd_growth)} |\n"
         for _, r in df.iterrows())
     return head + rows if len(df) else "*None today.*\n"
@@ -71,7 +71,9 @@ def main() -> None:
     date = live.stem.replace("live_", "")
     df = pd.DataFrame(json.loads(live.read_text(encoding="utf-8")))
     S = json.loads((OUT / "web_summary.json").read_text(encoding="utf-8"))
-    last_month = pd.Timestamp(S["last_month"])
+    if "tier_sep_prov" in df.columns:  # lists written before the keys lost their month name
+        df = df.rename(columns={"tier_sep_prov": "tier_prov", "rsi_sep_prov": "rsi_prov"})
+    last_month = pd.Timestamp(df["last_month"].iloc[0] if "last_month" in df.columns else S["last_month"])
     m_done = last_month.strftime("%b")
     m_prov = (last_month + pd.offsets.MonthEnd(1)).strftime("%b")
     m_prov_full = (last_month + pd.offsets.MonthEnd(1)).strftime("%B")
@@ -84,7 +86,7 @@ def main() -> None:
     ab = df[df.tier.str.contains("A|B")]
     qc = ab[ab.quality & ab.cheap]
     qe = ab[ab.quality & ~ab.cheap]
-    sep = df[~df.tier.str.contains("A|B") & df.tier_sep_prov.str.contains("A|B") & df.quality]
+    sep = df[~df.tier.str.contains("A|B") & df.tier_prov.str.contains("A|B") & df.quality]
     nq = ab[~ab.quality]
     c_only = int((df.tier == "C").sum())
 
@@ -94,7 +96,7 @@ def main() -> None:
 
     both = [t for t in qc.ticker if t in v3_top]
     deep = [f"{r.ticker} ({r.dd_ath * 100:.0f}%)" for _, r in qc.iterrows() if r.dd_ath <= -0.8]
-    to_star = [r.ticker for _, r in qc.iterrows() if "★" not in tier(r.tier, r.rsi) and "★" in tier(r.tier_sep_prov, r.rsi_sep_prov)]
+    to_star = [r.ticker for _, r in qc.iterrows() if "★" not in tier(r.tier, r.rsi) and "★" in tier(r.tier_prov, r.rsi_prov)]
     notes1 = []
     if both:
         notes1.append(f"{', '.join(both)} {'is' if len(both) == 1 else 'are'} also in the turnaround v3 (`both_opval`) top 10 "

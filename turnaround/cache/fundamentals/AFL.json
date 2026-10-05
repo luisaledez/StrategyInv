@@ -1,0 +1,133 @@
+{
+ "ticker": "AFL",
+ "fetched": "2026-10-05",
+ "market_cap": 56328427929.76616,
+ "shares_out": 501343298.0,
+ "price": 112.3550033569336,
+ "long_name": "Aflac Incorporated",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Life",
+ "pe_trailing_y": 12.0811825,
+ "pe_forward": 14.876039,
+ "peg": 1.18,
+ "p_sales_y": 3.117407,
+ "eps_trailing_y": 9.3,
+ "eps_forward": 7.55275,
+ "earnings_growth_y": 0.468,
+ "earnings_growth_q_y": 0.377,
+ "bs_date": "2026-06-30",
+ "cash": 71785000000.0,
+ "total_debt": 8729000000.0,
+ "current_debt": 0.0,
+ "lease_obligations": 86000000.0,
+ "equity": 30312000000.0,
+ "net_debt": -63056000000.0,
+ "ocf_ttm": 2647000000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 2647000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3785000000.0,
+ "stock_issuance_ttm": -3772000000.0,
+ "revenue_ttm": 18286000000.0,
+ "net_income_ttm": 4862000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 6028000000.0,
+ "interest_ttm": 242000000.0,
+ "revenue_yoy_last_q": -0.005689900426742556,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4194000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4408000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4891000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4793000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4218000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.63
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.98
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.64
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.11
+  }
+ ],
+ "eps_ttm": 9.33,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2917964693665629,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.46846846846846835,
+ "eps_forward_growth": -0.1904876741693462,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 17355000000.0,
+   "eps": 6.82,
+   "net_income": 3646000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 19128000000.0,
+   "eps": 9.63,
+   "net_income": 5443000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 18841000000.0,
+   "eps": 7.78,
+   "net_income": 4659000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 19151000000.0,
+   "eps": 6.93,
+   "net_income": 4418000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.06086658975447312,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -71785000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 24.90909090909091,
+ "cash_to_debt": 8.223736968724939,
+ "ev": -6727572070.233841,
+ "ev_to_sales": -0.3679083490229597,
+ "ev_to_ebitda": null,
+ "pe_ttm": 11.585443835821916,
+ "pe_trailing": 12.0811825,
+ "p_sales": 3.117407,
+ "p_fcf": 21.280101220160997,
+ "p_book": 1.8582880684140326
+}

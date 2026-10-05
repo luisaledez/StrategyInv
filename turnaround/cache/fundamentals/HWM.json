@@ -1,0 +1,154 @@
+{
+ "ticker": "HWM",
+ "fetched": "2026-10-05",
+ "market_cap": 92229480756.45914,
+ "shares_out": 398801399.0,
+ "price": 231.26669311523438,
+ "long_name": "Howmet Aerospace Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 49.84196,
+ "pe_forward": 35.792763,
+ "peg": 0.8,
+ "p_sales_y": 10.11621,
+ "eps_trailing_y": 4.64,
+ "eps_forward": 6.46127,
+ "earnings_growth_y": 0.33,
+ "earnings_growth_q_y": 0.312,
+ "bs_date": "2026-06-30",
+ "cash": 563000000.0,
+ "total_debt": 4664000000.0,
+ "current_debt": 497000000.0,
+ "lease_obligations": 163000000.0,
+ "equity": 5732000000.0,
+ "net_debt": 4101000000.0,
+ "ocf_ttm": 2221000000.0,
+ "capex_ttm": -430000000.0,
+ "fcf_ttm": 1791000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1055000000.0,
+ "stock_issuance_ttm": -1000000000.0,
+ "revenue_ttm": 9117000000.0,
+ "net_income_ttm": 1871000000.0,
+ "ebitda_ttm": 2753000000.0,
+ "ebit_ttm": 2450000000.0,
+ "interest_ttm": 168000000.0,
+ "revenue_yoy_last_q": 0.2406234778373113,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2547000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2313000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2168000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2089000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2053000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.33
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.92
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.95
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.0
+  }
+ ],
+ "eps_ttm": 4.64,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.32028469750889665,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.33000000000000007,
+ "eps_forward_growth": 0.3925150862068967,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37338044758539457
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3692174664937311
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.34870848708487084
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3465773097175682
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33511933755479784
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8252000000.0,
+   "eps": 3.71,
+   "net_income": 1508000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7430000000.0,
+   "eps": 2.81,
+   "net_income": 1155000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6640000000.0,
+   "eps": 1.83,
+   "net_income": 765000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5663000000.0,
+   "eps": 1.11,
+   "net_income": 469000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.009101555799242766,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 497000000.0,
+ "gap_24m": -66000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.489647657101344,
+ "interest_coverage": 14.583333333333334,
+ "cash_to_debt": 0.12071183533447684,
+ "ev": 96330480756.45914,
+ "ev_to_sales": 10.566028381754869,
+ "ev_to_ebitda": 34.991093627482435,
+ "pe_ttm": 49.29421740056608,
+ "pe_trailing": 49.84196,
+ "p_sales": 10.11621,
+ "p_fcf": 51.49608082437696,
+ "p_book": 16.090279266653724
+}

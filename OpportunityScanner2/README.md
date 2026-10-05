@@ -109,7 +109,9 @@ candles 2000 – Aug 2026, fundamentals from SEC filings from 2009.
 | `yearly_backtest.py` | tier A (leader + RSI<35) + quality + cheap, 2010+, one calendar year of signals at a time, top 20 per year: hit rate of a +25% recovery within 12 months, time to hit, max gain, max drawdown, RSI-went-lower share, misses; plus the unfiltered trigger for comparison → `output/yearly_backtest.{md,json}`, `output/yearly_backtest_events.csv` |
 | `yearly_backtest_v2.py` | same lists with the lessons from the losers: staples / utilities / materials only below RSI 30, half at the signal and half on a new monthly low close within 4 months with the RSI higher (`--t2-rule higher`, default), lower or any (`--window`, `--sector-rsi`, `--target`) → `output/yearly_backtest_v2[_lower|_any].{md,json}` and `_events.csv` |
 | `yearly_backtest_weekly.py` | the same tier A list read on **weekly** candles (ATH week with weekly RSI ≥ 70 arms for 156 weeks, first weekly RSI < 35 buys, staples / utilities / materials only below 30, fundamentals as of the last month-end before the signal week), +20% target, top 20 per year; compares the list with the monthly one and shows a threshold / cap sensitivity (`--max-rsi`, `--sector-rsi`, `--target`) → `output/yearly_backtest_weekly_t20_sector30.{md,json}`, `_events.csv`; `--max-rsi 25 --sector-rsi 0` is the better weekly list → `output/yearly_backtest_weekly_rsi25_t20.*` |
+| `compare_weekly_monthly.py` | side-by-side report of the weekly RSI < 25 and monthly RSI < 35 tier A lists (totals, year by year, depth of the decline, shared names and their two entries, misses, sectors) → `../reports/OpportunityScanner2 tier A weekly vs monthly - <date>.md` |
 | `live.py` | today's list with tiers A/B/C and fundamentals → `output/live_<date>.csv/.json` |
+| `live_weekly.py` | today's weekly list (weekly RSI < 25 signals with an open 12-month window, plus armed names under 30 as a watch set) with the monthly RSI next to it, a flag when the monthly tier A rule is met as well, quality / cheap / quality + cheap at the signal and the backtest's yearly rank (lowest signal RSI first, top 20) → `output/weekly_live_<date>.csv/.json`; shown on the web app's **Opportunity 2 weekly** tab (`/os2w`) |
 | `report.py` | writes `../reports/OpportunityScanner2 candidates - <date>.md` from the newest live list |
 | `export_web.py` | condenses study.json / timing.json / variants.json into `output/web_summary.json` for the web app's **Opportunity 2** tab (`/os2` in `../turnaround/app.py`) |
 
@@ -121,7 +123,11 @@ python yearly_backtest.py  # ~2 min; --target 0.20 --sector-rsi 30 (staples/util
 python yearly_backtest_v2.py  # ~2 min; sector rule + two-tranche entry
 python yearly_backtest_weekly.py  # ~3 min; weekly-candle twin of yearly_backtest.py --target 0.20 --sector-rsi 30, with a monthly comparison
 python yearly_backtest_weekly.py --max-rsi 25 --sector-rsi 0  # the weekly list that comes closest to the monthly one
+python compare_weekly_monthly.py  # weekly vs monthly comparison report in ../reports
 python live.py       # ~1-3 min (downloads Yahoo analyst estimates for the shortlisted names)
+                     # after a month-end: refresh prices (python ../turnaround_backtest/data.py prices) and move
+                     # common.LAST_MONTH to the new completed candle; the list, report and page label the months from it
+python live_weekly.py # ~1 min; today's weekly list with the monthly RSI (the Opportunity 2 weekly tab reads the newest weekly_live_<date>.json)
 python export_web.py # refresh the web page's summary; the page reads the newest live_<date>.json
 python report.py     # today's candidates report (the page renders the newest one)
 ```

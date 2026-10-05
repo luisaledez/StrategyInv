@@ -1,0 +1,154 @@
+{
+ "ticker": "DHI",
+ "fetched": "2026-10-05",
+ "market_cap": 37308903704.63736,
+ "shares_out": 279701267.0,
+ "price": 133.38839721679688,
+ "long_name": "D.R. Horton, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Residential Construction",
+ "pe_trailing_y": 12.715768,
+ "pe_forward": 11.54729,
+ "peg": 1.13,
+ "p_sales_y": 1.1187078,
+ "eps_trailing_y": 10.49,
+ "eps_forward": 11.55149,
+ "earnings_growth_y": -0.048,
+ "earnings_growth_q_y": -0.117,
+ "bs_date": "2026-06-30",
+ "cash": 2078700000.0,
+ "total_debt": 7183600000.0,
+ "current_debt": 1320000000.0,
+ "lease_obligations": 71300000.0,
+ "equity": 23819500000.0,
+ "net_debt": 5104900000.0,
+ "ocf_ttm": 3352600000.0,
+ "capex_ttm": -150400000.0,
+ "fcf_ttm": 3202200000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2969900000.0,
+ "stock_issuance_ttm": -2969900000.0,
+ "revenue_ttm": 33349900000.0,
+ "net_income_ttm": 3052900000.0,
+ "ebitda_ttm": 3922600000.0,
+ "ebit_ttm": 3810400000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.00015175000270972738,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9227100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 7558100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6886900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 9677800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 9225700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.2
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.24
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.03
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.36
+  }
+ ],
+ "eps_ttm": 10.510000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.1931659693165969,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.04761904761904756,
+ "eps_forward_growth": 0.0990951474785915,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.232597457489352
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.22536087111840278
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23155556200903163
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2166504784145157
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2394615042760983
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 34250400000.0,
+   "eps": 11.57,
+   "net_income": 3585200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 36801400000.0,
+   "eps": 14.34,
+   "net_income": 4756400000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 35460400000.0,
+   "eps": 13.82,
+   "net_income": 4745700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 33480000000.0,
+   "eps": 16.51,
+   "net_income": 5857500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.060930348068219065,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1320000000.0,
+ "gap_24m": -758700000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.3014072298985366,
+ "interest_coverage": null,
+ "cash_to_debt": 0.2893674480761735,
+ "ev": 42413803704.63736,
+ "ev_to_sales": 1.2717820354674934,
+ "ev_to_ebitda": 10.812676210839076,
+ "pe_ttm": 12.220807659811117,
+ "pe_trailing": 12.715768,
+ "p_sales": 1.1187078,
+ "p_fcf": 11.651022329847406,
+ "p_book": 1.566317668491671
+}

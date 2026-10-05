@@ -13,6 +13,9 @@ Pages: /            candidates: watchlist rows with Gate GREEN (stored as PASS),
        /os2         OpportunityScanner2: overbought all-time high, then a monthly-RSI collapse; study summary,
                     tier history, today's tiers A/B/C from OpportunityScanner2/output/live_<date>.json and the
                     matching reports/OpportunityScanner2 candidates - <date>.md
+       /os2w        OpportunityScanner2 weekly list: weekly RSI < 25 signals with an open 12-month window from
+                    OpportunityScanner2/output/weekly_live_<date>.json (live_weekly.py), the monthly RSI next to
+                    them, quality / cheap flags and the backtest's yearly rank
        /study       historical episode study
 """
 from __future__ import annotations
@@ -217,12 +220,19 @@ def load_os2() -> dict | None:
     rows = json.loads(files[-1].read_text(encoding="utf-8"))
     v3 = load_v3()
     v3_top = {r["ticker"] for r in v3["top10"]} if v3 else set()
+    s = json.loads(summ.read_text(encoding="utf-8"))
+    # completed candle: written by live.py since October 2026; older lists fall back to the study's month
+    last_month = pd.Timestamp(rows[0].get("last_month") or s["last_month"]) if rows else pd.Timestamp(s["last_month"])
+    m_done, m_prov = last_month.strftime("%b"), (last_month + pd.offsets.MonthEnd(1)).strftime("%b")
+    m_prov_full = (last_month + pd.offsets.MonthEnd(1)).strftime("%B")
     for r in rows:
+        if "tier_sep_prov" in r:  # key names before October 2026
+            r["tier_prov"], r["rsi_prov"] = r.pop("tier_sep_prov"), r.pop("rsi_sep_prov")
         r["tier_l"] = _tier_label(r.get("tier"), r.get("rsi"))
-        r["sep_l"] = _tier_label(r.get("tier_sep_prov"), r.get("rsi_sep_prov"))
+        r["prov_l"] = _tier_label(r.get("tier_prov"), r.get("rsi_prov"))
         ab = any(c in (r.get("tier") or "") for c in "AB")
-        ab_sep = any(c in (r.get("tier_sep_prov") or "") for c in "AB")
-        r["ab"], r["ab_sep"] = ab, ab_sep
+        ab_prov = any(c in (r.get("tier_prov") or "") for c in "AB")
+        r["ab"], r["ab_prov"] = ab, ab_prov
         r["buy"] = bool(ab and r.get("quality") and r.get("cheap"))
         r["in_v3"] = r["ticker"] in v3_top
         r["flags"] = "; ".join(x for x in (r.get("oneoff"), r.get("acq")) if x)
@@ -232,15 +242,35 @@ def load_os2() -> dict | None:
     if rep:
         report_html = re.sub(r"<td><strong>([A-Z][A-Z.\-]{0,6})</strong></td>",
                              r'<td><a href="/ticker/\1"><strong>\1</strong></a></td>', render_md(rep[-1]))
-    s = json.loads(summ.read_text(encoding="utf-8"))
     ab_rows = [r for r in rows if r["ab"]]
     counts = {"astar": sum(1 for r in ab_rows if "★" in r["tier_l"]), "a": sum(1 for r in ab_rows if "A" in r["tier_l"]),
               "b": sum(1 for r in ab_rows if "B" in (r.get("tier") or "")), "c_only": sum(1 for r in rows if r.get("tier") == "C"),
               "buy": sum(1 for r in rows if r["buy"]), "ab_q": sum(1 for r in ab_rows if r.get("quality")),
-              "sep_new": sum(1 for r in rows if r["ab_sep"] and not r["ab"] and r.get("quality"))}
+              "prov_new": sum(1 for r in rows if r["ab_prov"] and not r["ab"] and r.get("quality"))}
     return {"rows": rows, "date": date, "file": files[-1].name, "summary": s, "counts": counts,
+            "last_month": last_month.date().isoformat(), "m_done": m_done, "m_prov": m_prov, "m_prov_full": m_prov_full,
             "report_html": report_html, "report_file": rep[-1].name if rep else None,
             "last_bar": max((r.get("last_date") or "") for r in rows) if rows else ""}
+
+
+def load_os2w() -> dict | None:
+    """Newest weekly tier A list (OpportunityScanner2/live_weekly.py)."""
+    files = sorted(OS2_OUT.glob("weekly_live_*.json")) if OS2_OUT.exists() else []
+    if not files:
+        return None
+    d = json.loads(files[-1].read_text(encoding="utf-8"))
+    rows = d["rows"]
+    for r in rows:
+        r["rank_l"] = f"{int(r['rank'])} of {int(r['rank_of'])} ({r['year']})" if r.get("rank") else ""
+        r["flags"] = "; ".join(x for x in (r.get("oneoff"), r.get("acq")) if x)
+    sig = [r for r in rows if r["status"] == "signal"]
+    d["counts"] = {"signals": len(sig), "m_hit": sum(1 for r in sig if r["m_hit"]), "qc": sum(1 for r in sig if r["qc"]),
+                   "top": sum(1 for r in sig if r["top20"]), "both": sum(1 for r in sig if r["top20"] and r["m_hit"]),
+                   "now": sum(1 for r in sig if r["w_rsi"] < d["max_rsi"]), "watch": len(rows) - len(sig)}
+    d["file"] = files[-1].name
+    rep = sorted(REPORTS.glob("OpportunityScanner2 tier A weekly vs monthly - *.md")) if REPORTS.exists() else []
+    d["report"] = rep[-1].relative_to(ROOT).as_posix() if rep else None
+    return d
 
 
 OS2_COLORS = {"C: RSI −32% alone": "#9ca3af", "B: RSI −32% + price −40%": "#1d4ed8", "A ★: leader + RSI < 35": "#d97706",
@@ -711,6 +741,7 @@ table.heat{width:auto}table.heat td{text-align:center;min-width:54px}table.heat 
 <header><a href="/" class="{{ 'active' if nav=='candidates' }}">Candidates</a><a href="/watchlist" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
 <a href="/v3" class="{{ 'active' if nav=='v3' }}">Top 10 v3</a>
 <a href="/os2" class="{{ 'active' if nav=='os2' }}">Opportunity 2</a>
+<a href="/os2w" class="{{ 'active' if nav=='os2w' }}">Opportunity 2 weekly</a>
 <a href="/research" class="{{ 'active' if nav=='research' }}">Research</a>
 <a href="/study" class="{{ 'active' if nav=='study' }}">Episode study</a><span class="sp"></span>
 <span class="muted small">{{ as_of }}</span>
@@ -1085,7 +1116,7 @@ STUDY = """{% extends "base" %}{% block body %}
 OS2 = """{% extends "base" %}{% block body %}
 {% set S = d.summary %}
 <h1>Opportunity Scanner 2 <span class="muted small">overbought all-time high, then a monthly-RSI collapse · today's S&amp;P 500 + 400</span></h1>
-<p class="muted small">Tiers on the {{ S.last_month[:7] }} monthly candle, prices through {{ d.last_bar }} (the "Sep, prov." column treats the latest close as the month's close) · file <code>{{ d.file }}</code>
+<p class="muted small">Tiers on the {{ d.last_month[:7] }} monthly candle, prices through {{ d.last_bar }} (the "{{ d.m_prov }}, prov." column treats the latest close as the month's close) · file <code>{{ d.file }}</code>
 · <a href="#candidates">candidates</a> · <a href="#report">today's report</a> · <a href="/doc/OpportunityScanner2/README.md">study write-up</a> · <a href="#rules">rules</a></p>
 <div class="cards">
 <div class="card"><span class="muted">Buy zone: A/B, quality and cheap</span><b>{{ d.counts.buy }}</b></div>
@@ -1093,7 +1124,7 @@ OS2 = """{% extends "base" %}{% block body %}
 <div class="card"><span class="muted">Tier A (RSI &lt; 40)</span><b>{{ d.counts.a }}</b></div>
 <div class="card"><span class="muted">Tier B (−32% + price −40%)</span><b>{{ d.counts.b }}</b></div>
 <div class="card"><span class="muted">A/B passing quality</span><b>{{ d.counts.ab_q }}</b></div>
-<div class="card"><span class="muted">Moving into A/B in Sep (quality)</span><b>{{ d.counts.sep_new }}</b></div>
+<div class="card"><span class="muted">Moving into A/B in {{ d.m_prov }} (quality)</span><b>{{ d.counts.prov_new }}</b></div>
 <div class="card"><span class="muted">Tier C only (watchlist)</span><b>{{ d.counts.c_only }}</b></div>
 </div>
 
@@ -1139,10 +1170,10 @@ OS2 = """{% extends "base" %}{% block body %}
 <h2 id="candidates">Today's candidates <span class="muted small">every liquid name armed in the last 36 months that sits in a tier now · click a ticker for its page</span></h2>
 <div class="toolbar" id="presets">
 <button data-p="buy">Buy zone ({{ d.counts.buy }})</button><button class="sec" data-p="abq">A/B + quality</button><button class="sec" data-p="ab">All A/B</button>
-<button class="sec" data-p="sep">Moving into A/B in Sep</button><button class="sec" data-p="all">Everything incl. C</button>
+<button class="sec" data-p="prov">Moving into A/B in {{ d.m_prov }}</button><button class="sec" data-p="all">Everything incl. C</button>
 <span id="count" class="muted small"></span><span style="flex:1"></span><button id="reset-layout" class="sec">Reset layout</button></div>
 <div id="grid"></div>
-<p class="muted small">Tier (Aug) uses the last completed candle; Sep (prov.) treats the latest close as September's close, which can still change. Val = mean percentile of P/S, EV/EBITDA and EV/EBIT within the company's own history (0 = cheapest ever). Fwd EPS = Yahoo analyst next-year EPS (usually adjusted) over trailing GAAP EPS: it runs high and is sometimes nonsense, so use it only as a direction check. v3 = also in today's turnaround v3 top 10.</p>
+<p class="muted small">Tier ({{ d.m_done }}) uses the last completed candle; {{ d.m_prov }} (prov.) treats the latest close as {{ d.m_prov_full }}'s close, which can still change. Val = mean percentile of P/S, EV/EBITDA and EV/EBIT within the company's own history (0 = cheapest ever). Fwd EPS = Yahoo analyst next-year EPS (usually adjusted) over trailing GAAP EPS: it runs high and is sometimes nonsense, so use it only as a direction check. v3 = also in today's turnaround v3 top 10.</p>
 
 {% if d.report_html %}<h2 id="report">Today's report <span class="muted small">{{ d.report_file }}</span></h2>
 <div class="md">{{ d.report_html|safe }}</div>{% endif %}
@@ -1179,15 +1210,15 @@ function drawTiers(){
 const tierFmt=c=>{const v=c.getValue()||'–';const col=v.startsWith('A')?'#b45309':v.startsWith('B')?'#1d4ed8':'#6b6b6b';return `<b style="color:${col}">${v}</b>`;};
 const yes=c=>c.getValue()?'<span class="pos">✓</span>':'<span class="muted">·</span>';
 const COLS=[
- col('tier_l','Tier (Aug)','text',{frozen:true,width:124,formatter:tierFmt}),
+ col('tier_l','Tier ({{ d.m_done }})','text',{frozen:true,width:124,formatter:tierFmt}),
  col('ticker','Ticker','text',{frozen:true,width:100,formatter:c=>{const r=c.getRow().getData();return `<a href="/ticker/${r.ticker}"><b>${r.ticker}</b></a>`;}}),
  col('name','Name','text',{width:170}),
- col('sep_l','Sep (prov.)','text',{width:128,formatter:tierFmt,tip:'tier if September closed at the latest price'}),
+ col('prov_l','{{ d.m_prov }} (prov.)','text',{width:128,formatter:tierFmt,tip:'tier if {{ d.m_prov_full }} closed at the latest price'}),
  col('quality','Quality','text',{width:116,hozAlign:'center',formatter:yes,headerFilter:false}),
  col('cheap','Cheap','text',{width:104,hozAlign:'center',formatter:yes,headerFilter:false}),
  col('in_v3','v3','text',{width:74,hozAlign:'center',formatter:c=>c.getValue()?'<span class="status">v3</span>':'',headerFilter:false,tip:'also in the turnaround v3 top 10'}),
- col('rsi','RSI Aug','num',{formatter:c=>`<span class="${c.getValue()<35?'neg':''}">${fmt.num(c.getValue(),1)}</span>`}),
- col('rsi_sep_prov','RSI Sep','num'),
+ col('rsi','RSI {{ d.m_done }}','num',{formatter:c=>`<span class="${c.getValue()<35?'neg':''}">${fmt.num(c.getValue(),1)}</span>`}),
+ col('rsi_prov','RSI {{ d.m_prov }}','num'),
  col('peak_rsi','Peak RSI','num',{d:0,tip:'highest RSI on an all-time-high candle in the window'}),
  col('peak_month','Peak month','text',{width:96,formatter:c=>(c.getValue()||'').slice(0,7)}),
  col('rsi_chg','RSI vs peak','pct',{tip:'tier C fires at −32%'}),
@@ -1205,16 +1236,101 @@ const COLS=[
  col('q_end','Quarter','text',{width:96,visible:false}),
 ];
 const table=makeGrid('#grid',COLS,ROWS,'os2',{initialSort:[{column:'rsi',dir:'asc'}]});
-const PRE={buy:r=>r.buy,abq:r=>r.ab&&r.quality,ab:r=>r.ab,sep:r=>r.ab_sep&&!r.ab,all:r=>true};
+const PRE={buy:r=>r.buy,abq:r=>r.ab&&r.quality,ab:r=>r.ab,prov:r=>r.ab_prov&&!r.ab,all:r=>true};
 function preset(k){table.setFilter(r=>PRE[k](r));document.querySelectorAll('#presets button[data-p]').forEach(b=>b.classList.toggle('sec',b.dataset.p!==k));}
 document.querySelectorAll('#presets button[data-p]').forEach(b=>b.addEventListener('click',()=>preset(b.dataset.p)));
 table.on('tableBuilt',()=>preset('buy'));
 </script>
 {% endblock %}"""
 
+OS2W = """{% extends "base" %}{% block body %}
+<style>
+.tabulator-row.mhit,.tabulator-row.mhit.tabulator-row-even,.tabulator-row.mhit .tabulator-cell.tabulator-frozen{background:#fef6d8}
+.tabulator-row.mhit:hover,.tabulator-row.mhit:hover .tabulator-cell.tabulator-frozen{background:#fdeeb5}
+.mtag{font-weight:600;padding:1px 6px;border-radius:4px;font-size:12px;color:#92400e;background:#fde68a}
+</style>
+<h1>Opportunity Scanner 2, weekly list <span class="muted small">former overbought-ATH leader, weekly RSI &lt; {{ d.max_rsi|num(0) }}, with the monthly RSI next to it · today's S&amp;P 500 + 400</span></h1>
+<p class="muted small">Weekly candles to {{ d.last_week }} (weeks ending Friday), prices through {{ d.last_bar }}; monthly RSI on the {{ d.last_month[:7] }} candle and, provisionally, on the current month at the latest close · file <code>{{ d.file }}</code>
+· <a href="/os2">monthly scanner</a>{% if d.report %} · <a href="/doc/{{ d.report|urlencode }}">weekly vs monthly report</a>{% endif %} · <a href="#rules">rules</a></p>
+<div class="cards">
+<div class="card"><span class="muted">Weekly signals, 12-month window open</span><b>{{ d.counts.signals }}</b></div>
+<div class="card"><span class="muted">Monthly rule met as well</span><b>{{ d.counts.m_hit }}</b></div>
+<div class="card"><span class="muted">Quality + cheap</span><b>{{ d.counts.qc }}</b></div>
+<div class="card"><span class="muted">Ranked top {{ d.top_n }} of their year</span><b>{{ d.counts.top }}</b></div>
+<div class="card"><span class="muted">Ranked and monthly rule met</span><b>{{ d.counts.both }}</b></div>
+<div class="card"><span class="muted">Weekly RSI still &lt; {{ d.max_rsi|num(0) }}</span><b>{{ d.counts.now }}</b></div>
+<div class="card"><span class="muted">Watch: armed, weekly RSI &lt; {{ d.watch_rsi|num(0) }}</span><b>{{ d.counts.watch }}</b></div>
+</div>
+<div class="md verdict"><p><b>How to read it.</b> In the backtest the weekly RSI &lt; 25 print worked as a watchlist alert on a former leader, and the later monthly close under 35 was the better entry in nearly every shared name (93% vs 83% hit rate, +54% vs +40% median 12-month return). <span class="mtag">Shaded rows</span> are weekly signals where the monthly rule has been met too.</p></div>
+
+<div class="toolbar" id="presets">
+<button data-p="sig">Weekly signals ({{ d.counts.signals }})</button><button class="sec" data-p="mhit">Monthly rule met ({{ d.counts.m_hit }})</button>
+<button class="sec" data-p="qc">Quality + cheap ({{ d.counts.qc }})</button><button class="sec" data-p="top">Ranked top {{ d.top_n }} ({{ d.counts.top }})</button>
+<button class="sec" data-p="watch">Watch ({{ d.counts.watch }})</button><button class="sec" data-p="all">Everything</button>
+<span id="count" class="muted small"></span><span style="flex:1"></span><button id="reset-layout" class="sec">Reset layout</button></div>
+<div id="grid"></div>
+<p class="muted small">Quality, cheap and the fundamentals columns are point in time at the signal (the last month-end on or before the signal week), as in the backtest; watch rows use the latest month-end. Rank = position among the quality + cheap weekly signals of the same calendar year, lowest signal RSI first; the backtest buys the top {{ d.top_n }} per year. Since signal / max gain / max drawdown are on adjusted daily closes from the signal week's Friday close. Research tooling, not investment advice.</p>
+
+<h2 id="rules">Rules</h2>
+<div class="md"><ul>
+<li><b>Weekly signal</b>: a weekly candle makes a new all-time high with weekly Wilder RSI(14) ≥ 70 (at least 5 years of history), which arms the stock for 156 weeks; the first week whose RSI closes below {{ d.max_rsi|num(0) }} is the signal. $5M+ average daily dollar volume at the signal. Signals stay on the list for 12 months.</li>
+<li><b>Watch</b>: armed, no signal yet, and last week's RSI closed below {{ d.watch_rsi|num(0) }}.</li>
+<li><b>Monthly rule</b>: a monthly tier A buy of the same stock (monthly ATH with RSI ≥ 70 in the last 36 months, then the first month closing with RSI &lt; 35; Consumer Staples, Utilities and Materials only below 30) dated from 3 months before to 6 months after the weekly signal, or the stock sitting in that zone now. "(prov.)" means it rests on the current month's unfinished candle.</li>
+<li><b>Quality</b>: profitable in the latest year and in 2 of the 3 before, revenue growth ≥ 5%, EPS growing, no one-off gain, no acquisition-driven growth. <b>Cheap</b>: operating multiples in the bottom half of the company's own history.</li>
+</ul><p class="muted small">Code: <code>OpportunityScanner2/live_weekly.py</code>; backtest <code>yearly_backtest_weekly.py --max-rsi 25 --sector-rsi 0</code>.</p></div>
+
+<script>
+const ROWS={{ d.rows|tojson }},MAXRSI={{ d.max_rsi }};
+const yes=c=>c.getValue()?'<span class="pos">✓</span>':'<span class="muted">·</span>';
+const lowRsi=lvl=>c=>`<span class="${c.getValue()!=null&&c.getValue()<lvl?'neg':''}">${fmt.num(c.getValue(),1)}</span>`;
+const COLS=[
+ col('ticker','Ticker','text',{frozen:true,width:100,formatter:c=>{const r=c.getRow().getData();return `<a href="/ticker/${r.ticker}"><b>${r.ticker}</b></a>`;}}),
+ col('name','Name','text',{width:170}),
+ col('status','List','text',{width:90,formatter:c=>c.getValue()==='watch'?'<span class="muted">watch</span>':'signal'}),
+ col('signal_date','Weekly signal','text',{width:118,tip:'Friday of the first week closing with weekly RSI below the signal level'}),
+ col('rsi','RSI(w) signal','num',{tip:'weekly RSI at the signal (watch rows: last week)'}),
+ col('w_rsi','RSI(w) last wk','num',{formatter:lowRsi(MAXRSI)}),
+ col('w_rsi_prov','RSI(w) now','num',{formatter:lowRsi(MAXRSI),tip:'weekly RSI with the current unfinished week at the latest close'}),
+ col('m_rsi','RSI(m) {{ d.last_month[:7] }}','num',{formatter:lowRsi(35),tip:'monthly RSI, last completed month'}),
+ col('m_rsi_prov','RSI(m) now','num',{formatter:lowRsi(35),tip:'monthly RSI with the current month at the latest close (provisional)'}),
+ col('m_hit','Monthly rule','text',{width:122,hozAlign:'center',formatter:yes,headerFilter:false,tip:'monthly tier A rule met as well (paired monthly buy, or in the monthly zone now)'}),
+ col('m_status','Monthly detail','text',{width:150,formatter:c=>c.getValue()?`<span class="mtag">${c.getValue()}</span>`:''}),
+ col('m_lead_weeks','Weekly first by (wks)','num',{d:0,tip:'weeks from the weekly signal to the paired monthly month-end (negative = monthly came first)'}),
+ col('quality','Quality','text',{width:100,hozAlign:'center',formatter:yes,headerFilter:false}),
+ col('cheap','Cheap','text',{width:92,hozAlign:'center',formatter:yes,headerFilter:false}),
+ col('qc','Quality + cheap','text',{width:134,hozAlign:'center',formatter:yes,headerFilter:false}),
+ col('rank','Rank','num',{d:0,width:118,formatter:c=>{const r=c.getRow().getData();return r.rank_l?`<b class="${r.top20?'':'muted'}">${r.rank_l}</b>`:'<span class="muted">·</span>';},tip:'rank among the quality + cheap weekly signals of the signal year, lowest signal RSI first; the backtest buys the top 20'}),
+ col('dd_ath','Vs ATH at signal','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`}),
+ col('dd_ath_now','Vs ATH now','pct',{formatter:c=>`<span class="neg">${fmt.pct(c.getValue())}</span>`}),
+ col('ret_since','Since signal','pct',{good:'up'}),
+ col('max_gain','Max gain','pct',{good:'up'}),
+ col('max_dd','Max DD','pct',{good:'up'}),
+ col('hit','+20% hit','text',{width:100,hozAlign:'center',formatter:yes,headerFilter:false,tip:'closed 20% or more above the signal close since the signal'}),
+ col('weeks_since','Weeks since','num',{d:0}),
+ col('rev_yoy','Rev TTM y/y','pct',{good:'up'}),
+ col('eps_yoy','EPS TTM y/y','pct',{good:'up'}),
+ col('val_pct_op','Val pct','num',{d:2,tip:'P/S, EV/EBITDA, EV/EBIT percentile vs own history (0 = cheapest ever); cheap ≤ 0.50'}),
+ col('mcap','Mkt cap','money'),
+ col('sector','Sector','text',{width:150,formatter:c=>`<span class="muted">${c.getValue()||''}</span>`}),
+ col('flags','Flags','text',{width:220,tip:'one-off earnings or acquisition-driven growth'}),
+ col('m_signal_rsi','RSI(m) at buy','num',{visible:false}),
+ col('last_ath_date','Last arming week','text',{width:118,visible:false}),
+ col('weeks_from_ath','Weeks from ATH','num',{d:0,visible:false}),
+ col('peak_rsi','Peak RSI(w)','num',{d:0,visible:false}),
+ col('q_end','Quarter','text',{width:96,visible:false}),
+];
+const table=makeGrid('#grid',COLS,ROWS,'os2w',{initialSort:[{column:'signal_date',dir:'desc'}],
+  rowFormatter:row=>row.getElement().classList.toggle('mhit',!!row.getData().m_hit)});
+const PRE={sig:r=>r.status==='signal',mhit:r=>r.status==='signal'&&r.m_hit,qc:r=>r.status==='signal'&&r.qc,top:r=>r.top20,watch:r=>r.status==='watch',all:r=>true};
+function preset(k){table.setFilter(r=>PRE[k](r));document.querySelectorAll('#presets button[data-p]').forEach(b=>b.classList.toggle('sec',b.dataset.p!==k));}
+document.querySelectorAll('#presets button[data-p]').forEach(b=>b.addEventListener('click',()=>preset(b.dataset.p)));
+table.on('tableBuilt',()=>preset('sig'));
+</script>
+{% endblock %}"""
+
 from jinja2 import DictLoader  # noqa: E402
 app.jinja_loader = DictLoader({"base": BASE, "home": HOME, "all": ALL, "ticker": TICKER, "study": STUDY, "v3": V3, "v3_report": V3_REPORT,
-                               "research": RESEARCH, "doc": DOC, "os2": OS2})
+                               "research": RESEARCH, "doc": DOC, "os2": OS2, "os2w": OS2W})
 
 
 # ------------------------------------------------------------------ routes
@@ -1374,6 +1490,17 @@ def os2():
             html=None, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="os2", title="Opportunity Scanner 2")
     return render_template_string(OS2, d=d, chart=os2_equity_svg(d["summary"]["curves"]), heat=os2_sweep_html(d["summary"]["sweep"]),
                                   as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="os2", title="Opportunity Scanner 2")
+
+
+@app.route("/os2w")
+def os2w():
+    d = load_os2w()
+    if not d:
+        return render_template_string(STUDY.replace("Episode study", "Opportunity Scanner 2, weekly list").replace(
+            "No study output yet. Run <code>python episodes.py</code>.",
+            "No weekly list yet. Run <code>live_weekly.py</code> in OpportunityScanner2/."),
+            html=None, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="os2w", title="Opportunity 2 weekly")
+    return render_template_string(OS2W, d=d, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="os2w", title="Opportunity 2 weekly")
 
 
 @app.route("/study")

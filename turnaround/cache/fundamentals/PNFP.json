@@ -1,0 +1,133 @@
+{
+ "ticker": "PNFP",
+ "fetched": "2026-10-05",
+ "market_cap": 14621659369.211426,
+ "shares_out": 151112640.0,
+ "price": 96.76000213623047,
+ "long_name": "Pinnacle Financial Partners, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 13.327824,
+ "pe_forward": 8.416116,
+ "peg": 1.41,
+ "p_sales_y": 4.4273095,
+ "eps_trailing_y": 7.26,
+ "eps_forward": 11.49699,
+ "earnings_growth_y": 0.035,
+ "earnings_growth_q_y": 1.063,
+ "bs_date": "2026-06-30",
+ "cash": 25804000000.0,
+ "total_debt": 10253000000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 14828000000.0,
+ "net_debt": -15551000000.0,
+ "ocf_ttm": 1536008000.0,
+ "capex_ttm": -100826000.0,
+ "fcf_ttm": 1435182000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3305624000.0,
+ "net_income_ttm": 820917000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 1821402000.0,
+ "revenue_yoy_last_q": 1.4613778705636742,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1179000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1186000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 477505000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 463119000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 479000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.89
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.19
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 1.77
+  }
+ ],
+ "eps_ttm": 7.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3540268456375839,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1694915254237288,
+ "eps_forward_growth": 0.6079706293706293,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1791426000.0,
+   "eps": 8.07,
+   "net_income": 641865000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1521262000.0,
+   "eps": 5.96,
+   "net_income": 475056000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1383389000.0,
+   "eps": 7.14,
+   "net_income": 562152000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1304652000.0,
+   "eps": 7.17,
+   "net_income": 560742000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.9471811007376076,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -25804000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 2.5167268116648787,
+ "ev": -929340630.7885742,
+ "ev_to_sales": -0.28113924354027386,
+ "ev_to_ebitda": null,
+ "pe_ttm": 17.81137358491958,
+ "pe_trailing": 13.327824,
+ "p_sales": 4.4273095,
+ "p_fcf": 10.188017526147503,
+ "p_book": 0.986084392312613
+}

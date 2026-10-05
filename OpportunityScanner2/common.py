@@ -31,8 +31,8 @@ OUT = HERE / "output"
 OUT.mkdir(exist_ok=True)
 EDGAR_DIR = ROOT / "turnaround" / "cache" / "edgar"
 
-# last completed monthly candle used by the study (prices run to late September 2026)
-LAST_MONTH = pd.Timestamp("2026-08-31")
+# last completed monthly candle used by the study and the live lists (prices run to early October 2026)
+LAST_MONTH = pd.Timestamp("2026-09-30")
 
 
 def universe() -> pd.DataFrame:
