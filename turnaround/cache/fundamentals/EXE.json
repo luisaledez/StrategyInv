@@ -1,0 +1,154 @@
+{
+ "ticker": "EXE",
+ "fetched": "2026-10-15",
+ "market_cap": 21043694773.34675,
+ "shares_out": 231503789.0,
+ "price": 90.9000015258789,
+ "long_name": "Expand Energy Corporation",
+ "sector_y": "Energy",
+ "industry_y": "Oil & Gas E&P",
+ "pe_trailing_y": 7.9388647,
+ "pe_forward": 9.711653,
+ "peg": 0.85,
+ "p_sales_y": 1.6624819,
+ "eps_trailing_y": 11.45,
+ "eps_forward": 9.35989,
+ "earnings_growth_y": -0.455,
+ "earnings_growth_q_y": -0.461,
+ "bs_date": "2026-06-30",
+ "cash": 663000000.0,
+ "total_debt": 3728000000.0,
+ "current_debt": 43000000.0,
+ "lease_obligations": 43000000.0,
+ "equity": 19410000000.0,
+ "net_debt": 3065000000.0,
+ "ocf_ttm": 5655000000.0,
+ "capex_ttm": -3178000000.0,
+ "fcf_ttm": 2477000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -581000000.0,
+ "stock_issuance_ttm": -581000000.0,
+ "revenue_ttm": 13665000000.0,
+ "net_income_ttm": 2781000000.0,
+ "ebitda_ttm": 6685000000.0,
+ "ebit_ttm": 3752000000.0,
+ "interest_ttm": 218000000.0,
+ "revenue_yoy_last_q": -0.1969614758545849,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2960000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4398000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3340000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2967000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3686000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.81
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.3
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4.02
+  }
+ ],
+ "eps_ttm": 11.58,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.4552238805970149,
+ "eps_forward_growth": -0.1917193436960276,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.26587837837837835
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.639381537062301
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5302395209580838
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4883720930232558
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3830710797612588
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 12189000000.0,
+   "eps": 7.57,
+   "net_income": 1819000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4221000000.0,
+   "eps": -4.55,
+   "net_income": -714000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7775000000.0,
+   "eps": 16.92,
+   "net_income": 2419000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 11443000000.0,
+   "eps": 33.36,
+   "net_income": 4936000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.013003420276693545,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 43000000.0,
+ "gap_24m": -620000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.45848915482423336,
+ "interest_coverage": 17.211009174311926,
+ "cash_to_debt": 0.17784334763948498,
+ "ev": 24108694773.34675,
+ "ev_to_sales": 1.7642659914633552,
+ "ev_to_ebitda": 3.6063866527070676,
+ "pe_ttm": 7.566952453558701,
+ "pe_trailing": 7.9388647,
+ "p_sales": 1.6624819,
+ "p_fcf": 8.495637776886051,
+ "p_book": 1.0841676853862312
+}

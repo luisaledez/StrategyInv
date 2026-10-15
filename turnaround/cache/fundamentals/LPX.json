@@ -1,0 +1,154 @@
+{
+ "ticker": "LPX",
+ "fetched": "2026-10-15",
+ "market_cap": 4849887760.277863,
+ "shares_out": 69923410.0,
+ "price": 69.36000061035156,
+ "long_name": "Louisiana-Pacific Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 90.07793,
+ "pe_forward": 24.034847,
+ "peg": 3.68,
+ "p_sales_y": 1.9643127,
+ "eps_trailing_y": 0.77,
+ "eps_forward": 2.88581,
+ "earnings_growth_y": -0.518,
+ "earnings_growth_q_y": -0.519,
+ "bs_date": "2026-06-30",
+ "cash": 228000000.0,
+ "total_debt": 377000000.0,
+ "current_debt": 9000000.0,
+ "lease_obligations": 29000000.0,
+ "equity": 1744000000.0,
+ "net_debt": 149000000.0,
+ "ocf_ttm": 258000000.0,
+ "capex_ttm": -279000000.0,
+ "fcf_ttm": -21000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 2468000000.0,
+ "net_income_ttm": 54000000.0,
+ "ebitda_ttm": 243000000.0,
+ "ebit_ttm": 91000000.0,
+ "interest_ttm": 15000000.0,
+ "revenue_yoy_last_q": -0.1205298013245033,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 664000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 574000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 567000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 663000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 755000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.38
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.39
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.77
+  }
+ ],
+ "eps_ttm": 0.79,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6468590831918506,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5064935064935066,
+ "eps_forward_growth": 2.6529240506329117,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1746987951807229
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.20034843205574912
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.14991181657848324
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19457013574660634
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23576158940397351
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2708000000.0,
+   "eps": 2.08,
+   "net_income": 146000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2941000000.0,
+   "eps": 5.89,
+   "net_income": 420000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2581000000.0,
+   "eps": 2.46,
+   "net_income": 178000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3854000000.0,
+   "eps": 13.87,
+   "net_income": 1086000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.003962472015207608,
+ "fcf_burn_annual": 21000000.0,
+ "runway_months": 130.28571428571428,
+ "need_24m": 51000000.0,
+ "gap_24m": -177000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.6131687242798354,
+ "interest_coverage": 6.066666666666666,
+ "cash_to_debt": 0.6047745358090185,
+ "ev": 4998887760.277863,
+ "ev_to_sales": 2.02548126429411,
+ "ev_to_ebitda": 20.5715545690447,
+ "pe_ttm": 89.8127363014419,
+ "pe_trailing": 90.07793,
+ "p_sales": 1.9643127,
+ "p_fcf": null,
+ "p_book": 2.7808989451134534
+}

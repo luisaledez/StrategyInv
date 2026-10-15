@@ -1,0 +1,154 @@
+{
+ "ticker": "CAT",
+ "fetched": "2026-10-15",
+ "market_cap": 335220213422.2013,
+ "shares_out": 459674889.0,
+ "price": 729.2550048828125,
+ "long_name": "Caterpillar Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Farm & Heavy Construction Machinery",
+ "pe_trailing_y": 32.396935,
+ "pe_forward": 22.377604,
+ "peg": 1.31,
+ "p_sales_y": 4.4858117,
+ "eps_trailing_y": 22.51,
+ "eps_forward": 32.58861,
+ "earnings_growth_y": 0.682,
+ "earnings_growth_q_y": 0.649,
+ "bs_date": "2026-06-30",
+ "cash": 6713000000.0,
+ "total_debt": 45146000000.0,
+ "current_debt": 13107000000.0,
+ "lease_obligations": 6000000.0,
+ "equity": 19395000000.0,
+ "net_debt": 38433000000.0,
+ "ocf_ttm": 13569000000.0,
+ "capex_ttm": -4575000000.0,
+ "fcf_ttm": 8994000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -7302000000.0,
+ "stock_issuance_ttm": -7302000000.0,
+ "revenue_ttm": 74729000000.0,
+ "net_income_ttm": 10844000000.0,
+ "ebitda_ttm": 16830000000.0,
+ "ebit_ttm": 14451000000.0,
+ "interest_ttm": 529000000.0,
+ "revenue_yoy_last_q": 0.23984549459834636,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 20543000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 17415000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 19133000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 17638000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 16569000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7.77
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5.12
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.88
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4.62
+  }
+ ],
+ "eps_ttm": 23.24,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14693877551020418,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.6818181818181817,
+ "eps_forward_growth": 0.4022637693631672,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.36022002628632627
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.33097904105656045
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.28615481105942614
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31857353441433267
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32747902709879895
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 67589000000.0,
+   "eps": 18.81,
+   "net_income": 8884000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 64809000000.0,
+   "eps": 22.05,
+   "net_income": 10792000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 67060000000.0,
+   "eps": 20.12,
+   "net_income": 10335000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 59427000000.0,
+   "eps": 12.64,
+   "net_income": 6705000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.018792807035205694,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 13107000000.0,
+ "gap_24m": 6394000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.283600713012478,
+ "interest_coverage": 27.31758034026465,
+ "cash_to_debt": 0.1486953439950383,
+ "ev": 373653213422.2013,
+ "ev_to_sales": 5.000109909435444,
+ "ev_to_ebitda": 22.20161695913258,
+ "pe_ttm": 30.912966933069097,
+ "pe_trailing": 32.396935,
+ "p_sales": 4.4858117,
+ "p_fcf": 37.271538072292785,
+ "p_book": 17.283847044197024
+}

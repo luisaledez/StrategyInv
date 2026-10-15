@@ -1,0 +1,154 @@
+{
+ "ticker": "STX",
+ "fetched": "2026-10-15",
+ "market_cap": 153563051879.95618,
+ "shares_out": 227393014.0,
+ "price": 675.3200073242188,
+ "long_name": "Seagate Technology Holdings plc",
+ "sector_y": "Technology",
+ "industry_y": "Computer Hardware",
+ "pe_trailing_y": 50.890728,
+ "pe_forward": 11.922739,
+ "peg": 0.41,
+ "p_sales_y": 12.592296,
+ "eps_trailing_y": 13.27,
+ "eps_forward": 56.64135,
+ "earnings_growth_y": 1.488,
+ "earnings_growth_q_y": 1.652,
+ "bs_date": "2026-06-30",
+ "cash": 1704000000.0,
+ "total_debt": 3858000000.0,
+ "current_debt": 185000000.0,
+ "lease_obligations": 293000000.0,
+ "equity": 2167000000.0,
+ "net_debt": 2154000000.0,
+ "ocf_ttm": 3674000000.0,
+ "capex_ttm": -569000000.0,
+ "fcf_ttm": 3105000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -176000000.0,
+ "stock_issuance_ttm": -176000000.0,
+ "revenue_ttm": 12195000000.0,
+ "net_income_ttm": 3184000000.0,
+ "ebitda_ttm": 4250000000.0,
+ "ebit_ttm": 3974000000.0,
+ "interest_ttm": 284000000.0,
+ "revenue_yoy_last_q": 0.48486088379705405,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3629000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3112000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2825000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2629000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2444000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.580251
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.270147
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.600117
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.430109
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.240101
+  }
+ ],
+ "eps_ttm": 13.880624,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.0530832805907564,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.4910711615235201,
+ "eps_forward_growth": 3.0806054540487517,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5230090934141637
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.46497429305912596
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.41628318584070795
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.39444655762647396
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3739770867430442
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 12195000000.0,
+   "eps": 13.9,
+   "net_income": 3184000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 9097000000.0,
+   "eps": 6.770305,
+   "net_income": 1469000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6551000000.0,
+   "eps": 1.580071,
+   "net_income": 335000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7384000000.0,
+   "eps": -2.560115,
+   "net_income": -529000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.06572769953051649,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 185000000.0,
+ "gap_24m": -1519000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.5068235294117647,
+ "interest_coverage": 13.992957746478874,
+ "cash_to_debt": 0.4416796267496112,
+ "ev": 155717051879.95618,
+ "ev_to_sales": 12.76892594341584,
+ "ev_to_ebitda": 36.63930632469557,
+ "pe_ttm": 48.22960172109176,
+ "pe_trailing": 50.890728,
+ "p_sales": 12.592296,
+ "p_fcf": 49.456699478246755,
+ "p_book": 70.86435250574812
+}

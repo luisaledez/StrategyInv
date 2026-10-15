@@ -1,12 +1,20 @@
 {
  "ticker": "INTC",
- "fetched": "2026-09-14",
- "market_cap": 511528649902.58545,
+ "fetched": "2026-10-15",
+ "market_cap": 495738291602.8917,
  "shares_out": 5254526315.0,
- "price": 97.35009765625,
+ "price": 94.34500122070312,
  "long_name": "Intel Corporation",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
+ "pe_trailing_y": null,
+ "pe_forward": 44.821396,
+ "peg": 1.36,
+ "p_sales_y": 8.744522,
+ "eps_trailing_y": -2.02,
+ "eps_forward": 2.10491,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
  "cash": 29727000000.0,
  "total_debt": 50537000000.0,
@@ -48,6 +56,34 @@
    "value": 12859000000.0
   }
  ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -2.16
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.73
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.12
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.67
+  }
+ ],
+ "eps_ttm": -2.1100000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -74,21 +110,25 @@
   {
    "year": "2025",
    "revenue": 52853000000.0,
+   "eps": -0.06,
    "net_income": -267000000.0
   },
   {
    "year": "2024",
    "revenue": 53101000000.0,
+   "eps": -4.38,
    "net_income": -18756000000.0
   },
   {
    "year": "2023",
    "revenue": 54228000000.0,
+   "eps": 0.4,
    "net_income": 1689000000.0
   },
   {
    "year": "2022",
    "revenue": 63054000000.0,
+   "eps": 1.94,
    "net_income": 8014000000.0
   }
  ],
@@ -103,10 +143,12 @@
  "net_debt_to_ebitda": 5.661044613710555,
  "interest_coverage": -7.567826086956522,
  "cash_to_debt": 0.5882224904525397,
- "ev": 532338649902.58545,
- "ev_to_sales": 9.334034400031307,
- "ev_to_ebitda": 144.81464904858146,
+ "ev": 516548291602.8917,
+ "ev_to_sales": 9.0571660051005,
+ "ev_to_ebitda": 140.5191217635723,
  "pe_ttm": null,
- "p_fcf": 180.6883256455618,
- "p_book": 5.843236959431878
+ "pe_trailing": null,
+ "p_sales": 8.744522,
+ "p_fcf": 175.1106646424909,
+ "p_book": 5.662862301556872
 }

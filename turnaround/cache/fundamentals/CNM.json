@@ -1,0 +1,154 @@
+{
+ "ticker": "CNM",
+ "fetched": "2026-10-15",
+ "market_cap": 7729104642.349243,
+ "shares_out": 184443500.0,
+ "price": 41.904998779296875,
+ "long_name": "Core & Main, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Industrial Distribution",
+ "pe_trailing_y": 17.387966,
+ "pe_forward": 11.96643,
+ "peg": 1.43,
+ "p_sales_y": 1.0040407,
+ "eps_trailing_y": 2.41,
+ "eps_forward": 3.50188,
+ "earnings_growth_y": 0.092,
+ "earnings_growth_q_y": 0.075,
+ "bs_date": "2026-07-31",
+ "cash": 312000000.0,
+ "total_debt": 2749000000.0,
+ "current_debt": 96000000.0,
+ "lease_obligations": 300000000.0,
+ "equity": 2031000000.0,
+ "net_debt": 2437000000.0,
+ "ocf_ttm": 683000000.0,
+ "capex_ttm": -55000000.0,
+ "fcf_ttm": 628000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": -365000000.0,
+ "revenue_ttm": 7698000000.0,
+ "net_income_ttm": 459000000.0,
+ "ebitda_ttm": 938000000.0,
+ "ebit_ttm": 745000000.0,
+ "interest_ttm": 118000000.0,
+ "revenue_yoy_last_q": 0.024844720496894457,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2145000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1910000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1581000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2062000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2093000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.77
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.57
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.72
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.7
+  }
+ ],
+ "eps_ttm": 2.4299999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.08450704225352124,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.10000000000000009,
+ "eps_forward_growth": 0.4411028806584363,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.26713286713286716
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.27225130890052357
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.27071473750790637
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.27206595538312317
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.26755852842809363
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 7647000000.0,
+   "eps": 2.31,
+   "net_income": 441000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 7441000000.0,
+   "eps": 2.13,
+   "net_income": 411000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6702000000.0,
+   "eps": 2.15,
+   "net_income": 371000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6651000000.0,
+   "eps": 2.13,
+   "net_income": 366000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.031751903175893714,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 96000000.0,
+ "gap_24m": -216000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.598081023454158,
+ "interest_coverage": 6.313559322033898,
+ "cash_to_debt": 0.11349581666060386,
+ "ev": 10166104642.349243,
+ "ev_to_sales": 1.3206163474083195,
+ "ev_to_ebitda": 10.838064650692157,
+ "pe_ttm": 16.8390079354014,
+ "pe_trailing": 17.387966,
+ "p_sales": 1.0040407,
+ "p_fcf": 12.307491468708985,
+ "p_book": 3.8055660474393123
+}

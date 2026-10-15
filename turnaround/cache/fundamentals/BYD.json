@@ -1,0 +1,154 @@
+{
+ "ticker": "BYD",
+ "fetched": "2026-10-15",
+ "market_cap": 5153085459.676727,
+ "shares_out": 72655414.0,
+ "price": 70.92500305175781,
+ "long_name": "Boyd Gaming Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 3.1299648,
+ "pe_forward": 9.285091,
+ "peg": 3.03,
+ "p_sales_y": 1.2574122,
+ "eps_trailing_y": 22.66,
+ "eps_forward": 7.63859,
+ "earnings_growth_y": -0.049,
+ "earnings_growth_q_y": -0.134,
+ "bs_date": "2026-06-30",
+ "cash": 322713000.0,
+ "total_debt": 3258284000.0,
+ "current_debt": 119544000.0,
+ "lease_obligations": 644529000.0,
+ "equity": 2500521000.0,
+ "net_debt": 2935571000.0,
+ "ocf_ttm": 626070000.0,
+ "capex_ttm": -676006000.0,
+ "fcf_ttm": -49936000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -656381000.0,
+ "stock_issuance_ttm": -656381000.0,
+ "revenue_ttm": 4098167000.0,
+ "net_income_ttm": 1817172000.0,
+ "ebitda_ttm": 2761078000.0,
+ "ebit_ttm": 2410486000.0,
+ "interest_ttm": 118510000.0,
+ "revenue_yoy_last_q": 0.00037524250530474035,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1034386000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 997355000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1062065000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1004361000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1033998000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.75
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.37
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.79
+  },
+  {
+   "period": "2025-09-30",
+   "value": 17.81
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.84
+  }
+ ],
+ "eps_ttm": 22.72,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.6445880452342485,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.048913043478260865,
+ "eps_forward_growth": -0.6637944542253521,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5028674015309565
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4934020484180658
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4779914600330488
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48606327804444815
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5097446996996126
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4091989000.0,
+   "eps": 22.56,
+   "net_income": 1843273000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3930194000.0,
+   "eps": 6.19,
+   "net_income": 577952000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3738492000.0,
+   "eps": 6.12,
+   "net_income": 620023000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3555377000.0,
+   "eps": 5.87,
+   "net_income": 639377000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.09230088059739094,
+ "fcf_burn_annual": 49936000.0,
+ "runway_months": 77.55038449214995,
+ "need_24m": 219416000.0,
+ "gap_24m": -103297000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0631974178201413,
+ "interest_coverage": 20.339937558011982,
+ "cash_to_debt": 0.09904385253096415,
+ "ev": 8088656459.676727,
+ "ev_to_sales": 1.9737254386355478,
+ "ev_to_ebitda": 2.9295284159580888,
+ "pe_ttm": 2.8357719905857715,
+ "pe_trailing": 3.1299648,
+ "p_sales": 1.2574122,
+ "p_fcf": null,
+ "p_book": 2.060804712168675
+}

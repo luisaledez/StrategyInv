@@ -1,0 +1,154 @@
+{
+ "ticker": "UAL",
+ "fetched": "2026-10-15",
+ "market_cap": 32594701789.909363,
+ "shares_out": 324583772.0,
+ "price": 100.41999816894531,
+ "long_name": "United Airlines Holdings, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Airlines",
+ "pe_trailing_y": 9.806641,
+ "pe_forward": 7.8272605,
+ "peg": 6.5,
+ "p_sales_y": 0.5181823,
+ "eps_trailing_y": 10.24,
+ "eps_forward": 12.82952,
+ "earnings_growth_y": -0.172,
+ "earnings_growth_q_y": -0.173,
+ "bs_date": "2026-06-30",
+ "cash": 16637000000.0,
+ "total_debt": 33668000000.0,
+ "current_debt": 2988000000.0,
+ "lease_obligations": 7204000000.0,
+ "equity": 16697000000.0,
+ "net_debt": 17031000000.0,
+ "ocf_ttm": 8913000000.0,
+ "capex_ttm": -6369000000.0,
+ "fcf_ttm": 2544000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -75000000.0,
+ "stock_issuance_ttm": -75000000.0,
+ "revenue_ttm": 62901000000.0,
+ "net_income_ttm": 3497000000.0,
+ "ebitda_ttm": 5582000000.0,
+ "ebit_ttm": 5582000000.0,
+ "interest_ttm": 1106000000.0,
+ "revenue_yoy_last_q": 0.15988448411656608,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 17672000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 14608000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 15396000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 15225000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 15236000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.46
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.19
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.97
+  }
+ ],
+ "eps_ttm": 10.69,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0793650793650793,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.17171717171717182,
+ "eps_forward_growth": 0.2001421889616466,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24315301041195111
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.25136911281489593
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2927383736035334
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.29044334975369457
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3114990811236545
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 59070000000.0,
+   "eps": 10.2,
+   "net_income": 3353000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 57063000000.0,
+   "eps": 9.45,
+   "net_income": 3149000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 53717000000.0,
+   "eps": 7.89,
+   "net_income": 2618000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 44955000000.0,
+   "eps": 2.23,
+   "net_income": 737000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0024152342738519295,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2988000000.0,
+ "gap_24m": -13649000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.051056968828377,
+ "interest_coverage": 5.047016274864376,
+ "cash_to_debt": 0.4941487465842937,
+ "ev": 49625701789.90936,
+ "ev_to_sales": 0.7889493297389447,
+ "ev_to_ebitda": 8.890308453942916,
+ "pe_ttm": 9.320761163828815,
+ "pe_trailing": 9.806641,
+ "p_sales": 0.5181823,
+ "p_fcf": 12.812382779052422,
+ "p_book": 1.9521292321919723
+}

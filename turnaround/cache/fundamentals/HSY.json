@@ -1,0 +1,154 @@
+{
+ "ticker": "HSY",
+ "fetched": "2026-10-15",
+ "market_cap": 33873053234.333176,
+ "shares_out": 200925657.0,
+ "price": 168.5850067138672,
+ "long_name": "The Hershey Company",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Confectioners",
+ "pe_trailing_y": 22.874493,
+ "pe_forward": 17.125347,
+ "peg": 0.83,
+ "p_sales_y": 2.784717,
+ "eps_trailing_y": 7.37,
+ "eps_forward": 9.84418,
+ "earnings_growth_y": 6.31,
+ "earnings_growth_q_y": 6.297,
+ "bs_date": "2026-06-30",
+ "cash": 791213000.0,
+ "total_debt": 5923312000.0,
+ "current_debt": 976502000.0,
+ "lease_obligations": 388173000.0,
+ "equity": 4562690000.0,
+ "net_debt": 5132099000.0,
+ "ocf_ttm": 2656591000.0,
+ "capex_ttm": -428434000.0,
+ "fcf_ttm": 2228157000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -439354000.0,
+ "stock_issuance_ttm": -439354000.0,
+ "revenue_ttm": 12163912000.0,
+ "net_income_ttm": 1489107000.0,
+ "ebitda_ttm": 2679242000.0,
+ "ebit_ttm": 2149841000.0,
+ "interest_ttm": 227424000.0,
+ "revenue_yoy_last_q": 0.06600635326639437,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2787306000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3104167000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3091021000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3181418000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2614718000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.26
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.13
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.57
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.36
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.31
+  }
+ ],
+ "eps_ttm": 7.32,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6025641025641026,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 6.290322580645161,
+ "eps_forward_growth": 0.3448333333333333,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.453236207291198
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3938998771651139
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37036856106768606
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.32606026620833856
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.30453494411251997
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11692576000.0,
+   "eps": 4.34,
+   "net_income": 883259000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11202263000.0,
+   "eps": 10.92,
+   "net_income": 2221239000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11164992000.0,
+   "eps": 9.06,
+   "net_income": 1861787000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10419294000.0,
+   "eps": 7.96,
+   "net_income": 1644817000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.008581512964589089,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 976502000.0,
+ "gap_24m": 185289000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.915504086603599,
+ "interest_coverage": 9.453008477557338,
+ "cash_to_debt": 0.13357611417396215,
+ "ev": 39005152234.333176,
+ "ev_to_sales": 3.2066289393028473,
+ "ev_to_ebitda": 14.558278884226649,
+ "pe_ttm": 22.747225843631906,
+ "pe_trailing": 22.874493,
+ "p_sales": 2.784717,
+ "p_fcf": 15.202274002385458,
+ "p_book": 7.423921685306952
+}

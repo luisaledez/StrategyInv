@@ -1,0 +1,154 @@
+{
+ "ticker": "EME",
+ "fetched": "2026-10-15",
+ "market_cap": 31979678225.0,
+ "shares_out": 44109901.0,
+ "price": 725.0,
+ "long_name": "EMCOR Group, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 23.50081,
+ "pe_forward": 19.398388,
+ "peg": 0.32,
+ "p_sales_y": 1.7195432,
+ "eps_trailing_y": 30.85,
+ "eps_forward": 37.37424,
+ "earnings_growth_y": 0.348,
+ "earnings_growth_q_y": 0.336,
+ "bs_date": "2026-06-30",
+ "cash": 924411000.0,
+ "total_debt": 541928000.0,
+ "current_debt": 105669000.0,
+ "lease_obligations": 541928000.0,
+ "equity": 4078907000.0,
+ "net_debt": -382483000.0,
+ "ocf_ttm": 1289818000.0,
+ "capex_ttm": -118436000.0,
+ "fcf_ttm": 1171382000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -422612000.0,
+ "stock_issuance_ttm": -422612000.0,
+ "revenue_ttm": 18597775000.0,
+ "net_income_ttm": 1439158000.0,
+ "ebitda_ttm": 2155526000.0,
+ "ebit_ttm": 1950861000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.19758665551528676,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5154892000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4628233000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4513121000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4301529000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4304400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 9.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6.84
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.57
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6.72
+  }
+ ],
+ "eps_ttm": 32.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3099442379182158,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3482142857142858,
+ "eps_forward_growth": 0.1624958009331261,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.19833179822196081
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.18666951296531528
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.19746556761939243
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.19418978693390188
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1937020258340303
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 16986422000.0,
+   "eps": 28.19,
+   "net_income": 1272817000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14566116000.0,
+   "eps": 21.52,
+   "net_income": 1007145000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 12582873000.0,
+   "eps": 13.31,
+   "net_income": 632994000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 11076120000.0,
+   "eps": 8.1,
+   "net_income": 406122000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.007212153240898189,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 105669000.0,
+ "gap_24m": -818742000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.17744299999164936,
+ "interest_coverage": null,
+ "cash_to_debt": 1.70578194889358,
+ "ev": 31597195225.0,
+ "ev_to_sales": 1.6989771746889077,
+ "ev_to_ebitda": 14.658693620489847,
+ "pe_ttm": 22.221103051228564,
+ "pe_trailing": 23.50081,
+ "p_sales": 1.7195432,
+ "p_fcf": 27.300810687717586,
+ "p_book": 7.840256770992817
+}

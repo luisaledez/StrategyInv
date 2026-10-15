@@ -1,0 +1,154 @@
+{
+ "ticker": "ELS",
+ "fetched": "2026-10-15",
+ "market_cap": 11760315615.280891,
+ "shares_out": 194064619.0,
+ "price": 60.599998474121094,
+ "long_name": "Equity LifeStyle Properties, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Residential",
+ "pe_trailing_y": 28.995216,
+ "pe_forward": 27.763525,
+ "peg": 4.29,
+ "p_sales_y": 7.748962,
+ "eps_trailing_y": 2.09,
+ "eps_forward": 2.18272,
+ "earnings_growth_y": 0.191,
+ "earnings_growth_q_y": 0.208,
+ "bs_date": "2026-03-31",
+ "cash": 18836000.0,
+ "total_debt": 3290419000.0,
+ "current_debt": 89500000.0,
+ "lease_obligations": null,
+ "equity": 1761607000.0,
+ "net_debt": 3271583000.0,
+ "ocf_ttm": 571990000.0,
+ "capex_ttm": -237174000.0,
+ "fcf_ttm": 334816000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1478755000.0,
+ "net_income_ttm": 385220000.0,
+ "ebitda_ttm": 745285000.0,
+ "ebit_ttm": 529400000.0,
+ "interest_ttm": 133514000.0,
+ "revenue_yoy_last_q": 0.03275441264900425,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 379561000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 353262000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 373352000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 372580000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 367523000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.56
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.42
+  }
+ ],
+ "eps_ttm": 2.08,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.025510204081632626,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19047619047619047,
+ "eps_forward_growth": 0.04938461538461536,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.537858209879308
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5276027424404549
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48686762090466906
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4983922915883837
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.5256596185816942
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1450244000.0,
+   "eps": 2.01,
+   "net_income": 386508000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1433300000.0,
+   "eps": 1.96,
+   "net_income": 367014000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1404276000.0,
+   "eps": 1.69,
+   "net_income": 314207000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1374953000.0,
+   "eps": 1.53,
+   "net_income": 284627000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.014579881325941457,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 89500000.0,
+ "gap_24m": 70664000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.389707293183145,
+ "interest_coverage": 3.965127252572764,
+ "cash_to_debt": 0.0057244989163994005,
+ "ev": 15031898615.280891,
+ "ev_to_sales": 10.16523941780815,
+ "ev_to_ebitda": 20.16932933747612,
+ "pe_ttm": 30.528829280102,
+ "pe_trailing": 28.995216,
+ "p_sales": 7.748962,
+ "p_fcf": 35.12471212630487,
+ "p_book": 6.6759019550222565
+}

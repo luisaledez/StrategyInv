@@ -1,0 +1,154 @@
+{
+ "ticker": "TSN",
+ "fetched": "2026-10-15",
+ "market_cap": 19127447831.675446,
+ "shares_out": 351801512.0,
+ "price": 54.369998931884766,
+ "long_name": "Tyson Foods, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Farm Products",
+ "pe_trailing_y": 33.355827,
+ "pe_forward": 13.285181,
+ "peg": 1.04,
+ "p_sales_y": 0.3434382,
+ "eps_trailing_y": 1.63,
+ "eps_forward": 4.09253,
+ "earnings_growth_y": 2.041,
+ "earnings_growth_q_y": 1.984,
+ "bs_date": "2026-06-30",
+ "cash": 740000000.0,
+ "total_debt": 8006000000.0,
+ "current_debt": 1427000000.0,
+ "lease_obligations": null,
+ "equity": 18079000000.0,
+ "net_debt": 7266000000.0,
+ "ocf_ttm": 2004000000.0,
+ "capex_ttm": -843000000.0,
+ "fcf_ttm": 1161000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -277000000.0,
+ "stock_issuance_ttm": -277000000.0,
+ "revenue_ttm": 55694000000.0,
+ "net_income_ttm": 574000000.0,
+ "ebitda_ttm": 2612000000.0,
+ "ebit_ttm": 1225000000.0,
+ "interest_ttm": 405000000.0,
+ "revenue_yoy_last_q": -0.0011524056467876465,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 13868000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 13653000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 14313000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 13860000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 13884000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.52
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.73
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17
+  }
+ ],
+ "eps_ttm": 1.62,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.40888888888888886,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.0588235294117645,
+ "eps_forward_growth": 1.5262530864197528,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.066411883472743
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.07046070460704607
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.056452176343184515
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.05238095238095238
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08218092768654567
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 54441000000.0,
+   "eps": 1.33,
+   "net_income": 474000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 53309000000.0,
+   "eps": 2.25,
+   "net_income": 800000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 52881000000.0,
+   "eps": -1.87,
+   "net_income": -648000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 53282000000.0,
+   "eps": 8.92,
+   "net_income": 3238000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.011152941048297671,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1427000000.0,
+ "gap_24m": 687000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.7817764165390506,
+ "interest_coverage": 3.0246913580246915,
+ "cash_to_debt": 0.09243067699225581,
+ "ev": 26393447831.675446,
+ "ev_to_sales": 0.4739010994303775,
+ "ev_to_ebitda": 10.104689062662882,
+ "pe_ttm": 33.32307984612447,
+ "pe_trailing": 33.355827,
+ "p_sales": 0.3434382,
+ "p_fcf": 16.474976599203657,
+ "p_book": 1.0579925787751228
+}

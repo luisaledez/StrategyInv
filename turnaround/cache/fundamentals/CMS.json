@@ -1,0 +1,154 @@
+{
+ "ticker": "CMS",
+ "fetched": "2026-10-15",
+ "market_cap": 21075519023.471558,
+ "shares_out": 313577136.0,
+ "price": 67.20999908447266,
+ "long_name": "CMS Energy Corporation",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Electric",
+ "pe_trailing_y": 20.002977,
+ "pe_forward": 16.177366,
+ "peg": 2.41,
+ "p_sales_y": 2.3914127,
+ "eps_trailing_y": 3.36,
+ "eps_forward": 4.15457,
+ "earnings_growth_y": -0.439,
+ "earnings_growth_q_y": -0.403,
+ "bs_date": "2026-06-30",
+ "cash": 241000000.0,
+ "total_debt": 19301000000.0,
+ "current_debt": 870000000.0,
+ "lease_obligations": 259000000.0,
+ "equity": 9774000000.0,
+ "net_debt": 19060000000.0,
+ "ocf_ttm": 2148000000.0,
+ "capex_ttm": -4251000000.0,
+ "fcf_ttm": -2103000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 1036000000.0,
+ "revenue_ttm": 8813000000.0,
+ "net_income_ttm": 1026000000.0,
+ "ebitda_ttm": 3314000000.0,
+ "ebit_ttm": 1952000000.0,
+ "interest_ttm": 826000000.0,
+ "revenue_yoy_last_q": -0.004896626768226331,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1829000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2730000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2233000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2021000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1838000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.1
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.933393
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.903713
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.66
+  }
+ ],
+ "eps_ttm": 3.307106,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.0418930621141449,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.43939393939393945,
+ "eps_forward_growth": 0.2562554692834156,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37725533078184803
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.39377289377289376
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4084191670398567
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4334487877288471
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.38846572361262244
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8539000000.0,
+   "eps": 3.462692,
+   "net_income": 1071000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7515000000.0,
+   "eps": 3.323462,
+   "net_income": 1003000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7462000000.0,
+   "eps": 2.97894,
+   "net_income": 887000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8596000000.0,
+   "eps": 2.838998,
+   "net_income": 837000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.047778149014366944,
+ "fcf_burn_annual": 2103000000.0,
+ "runway_months": 1.3751783166904423,
+ "need_24m": 5076000000.0,
+ "gap_24m": 4835000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 5.751357875678938,
+ "interest_coverage": 2.36319612590799,
+ "cash_to_debt": 0.012486399668410962,
+ "ev": 40135519023.47156,
+ "ev_to_sales": 4.554126747245156,
+ "ev_to_ebitda": 12.110898920782002,
+ "pe_ttm": 20.541441543344597,
+ "pe_trailing": 20.002977,
+ "p_sales": 2.3914127,
+ "p_fcf": null,
+ "p_book": 2.1562839189146263
+}

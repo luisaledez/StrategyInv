@@ -1,0 +1,154 @@
+{
+ "ticker": "AMAT",
+ "fetched": "2026-10-15",
+ "market_cap": 342219062201.4094,
+ "shares_out": 793597443.0,
+ "price": 431.2250061035156,
+ "long_name": "Applied Materials, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 38.67489,
+ "pe_forward": 23.350822,
+ "peg": 0.95,
+ "p_sales_y": 11.097677,
+ "eps_trailing_y": 11.15,
+ "eps_forward": 18.46723,
+ "earnings_growth_y": 0.428,
+ "earnings_growth_q_y": 0.427,
+ "bs_date": "2026-07-31",
+ "cash": 9233000000.0,
+ "total_debt": 7346000000.0,
+ "current_debt": 1419000000.0,
+ "lease_obligations": 802000000.0,
+ "equity": 25626000000.0,
+ "net_debt": -1887000000.0,
+ "ocf_ttm": 8396000000.0,
+ "capex_ttm": -2773000000.0,
+ "fcf_ttm": 5623000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2028000000.0,
+ "stock_issuance_ttm": -1765000000.0,
+ "revenue_ttm": 30837000000.0,
+ "net_income_ttm": 9267000000.0,
+ "ebitda_ttm": 11631000000.0,
+ "ebit_ttm": 11104000000.0,
+ "interest_ttm": 377000000.0,
+ "revenue_yoy_last_q": 0.2482881402355519,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 9115000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 7910000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 7012000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 6800000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 7302000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 3.17
+  },
+  {
+   "period": "2026-04-30",
+   "value": 3.51
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2.54
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2.38
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2.22
+  }
+ ],
+ "eps_ttm": 11.599999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.005807200929152323,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4279279279279278,
+ "eps_forward_growth": 0.5920025862068969,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.5031267142073506
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.49898862199747157
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.48987450085567597
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.4801470588235294
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.48781155847712954
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 28368000000.0,
+   "eps": 8.66,
+   "net_income": 6998000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 27176000000.0,
+   "eps": 8.61,
+   "net_income": 7177000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 26517000000.0,
+   "eps": 8.11,
+   "net_income": 6856000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 25785000000.0,
+   "eps": 7.44,
+   "net_income": 6525000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.003822271946357203,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1419000000.0,
+ "gap_24m": -7814000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.1622388444673717,
+ "interest_coverage": 29.453580901856764,
+ "cash_to_debt": 1.256874489518105,
+ "ev": 340332062201.4094,
+ "ev_to_sales": 11.036484165172014,
+ "ev_to_ebitda": 29.260773983441617,
+ "pe_ttm": 36.92878625244517,
+ "pe_trailing": 38.67489,
+ "p_sales": 11.097677,
+ "p_fcf": 60.860583710014126,
+ "p_book": 13.354369086139446
+}

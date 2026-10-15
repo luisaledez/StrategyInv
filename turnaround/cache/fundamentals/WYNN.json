@@ -1,0 +1,154 @@
+{
+ "ticker": "WYNN",
+ "fetched": "2026-10-15",
+ "market_cap": 7831679311.430138,
+ "shares_out": 102973891.0,
+ "price": 76.05500030517578,
+ "long_name": "Wynn Resorts, Limited",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 18.73276,
+ "pe_forward": 15.25778,
+ "peg": 0.66,
+ "p_sales_y": 1.0564184,
+ "eps_trailing_y": 4.06,
+ "eps_forward": 4.98467,
+ "earnings_growth_y": 1.061,
+ "earnings_growth_q_y": 1.115,
+ "bs_date": "2026-06-30",
+ "cash": 2100723000.0,
+ "total_debt": 12342463000.0,
+ "current_debt": 1428965000.0,
+ "lease_obligations": 1617803000.0,
+ "equity": -169451000.0,
+ "net_debt": 10241740000.0,
+ "ocf_ttm": 1459197000.0,
+ "capex_ttm": -667330000.0,
+ "fcf_ttm": 791867000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -168003000.0,
+ "stock_issuance_ttm": -168003000.0,
+ "revenue_ttm": 7413425000.0,
+ "net_income_ttm": 448885000.0,
+ "ebitda_ttm": 1949749000.0,
+ "ebit_ttm": 1311496000.0,
+ "interest_ttm": 617936000.0,
+ "revenue_yoy_last_q": 0.06855576341770653,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1856933000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1856762000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1865983000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1833747000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1737797000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.32
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.04
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.82
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.85
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.64
+  }
+ ],
+ "eps_ttm": 4.03,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2781609195402298,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.0625,
+ "eps_forward_growth": 0.23689081885856078,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4087104919779012
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.401648676567056
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4050872917920474
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4124342125713089
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.41788885583298857
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7137924000.0,
+   "eps": 3.14,
+   "net_income": 327334000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7127961000.0,
+   "eps": 4.35,
+   "net_income": 501078000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6531897000.0,
+   "eps": 6.32,
+   "net_income": 729994000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3756825000.0,
+   "eps": -3.73,
+   "net_income": -423856000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.005498301934174221,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1428965000.0,
+ "gap_24m": -671758000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.252850495115013,
+ "interest_coverage": 2.122381605862096,
+ "cash_to_debt": 0.17020290034493116,
+ "ev": 18073419311.430138,
+ "ev_to_sales": 2.4379310927715783,
+ "ev_to_ebitda": 9.269613325320407,
+ "pe_ttm": 17.44696149666426,
+ "pe_trailing": 18.73276,
+ "p_sales": 1.0564184,
+ "p_fcf": 9.890144824105738,
+ "p_book": null
+}

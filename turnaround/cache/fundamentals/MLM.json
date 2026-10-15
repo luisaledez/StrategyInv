@@ -1,0 +1,154 @@
+{
+ "ticker": "MLM",
+ "fetched": "2026-10-15",
+ "market_cap": 34910287242.53284,
+ "shares_out": 71019382.0,
+ "price": 491.55999755859375,
+ "long_name": "Martin Marietta Materials, Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Building Materials",
+ "pe_trailing_y": 32.044327,
+ "pe_forward": 23.051754,
+ "peg": 1.78,
+ "p_sales_y": 5.21984,
+ "eps_trailing_y": 15.34,
+ "eps_forward": 21.32419,
+ "earnings_growth_y": -0.232,
+ "earnings_growth_q_y": -0.235,
+ "bs_date": "2026-06-30",
+ "cash": 112000000.0,
+ "total_debt": 6345000000.0,
+ "current_debt": 930000000.0,
+ "lease_obligations": 394000000.0,
+ "equity": 11546000000.0,
+ "net_debt": 6233000000.0,
+ "ocf_ttm": 1519000000.0,
+ "capex_ttm": -709000000.0,
+ "fcf_ttm": 810000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -200000000.0,
+ "stock_issuance_ttm": -200000000.0,
+ "revenue_ttm": 6688000000.0,
+ "net_income_ttm": 2457000000.0,
+ "ebitda_ttm": 2085000000.0,
+ "ebit_ttm": 1398000000.0,
+ "interest_ttm": 232000000.0,
+ "revenue_yoy_last_q": 0.21006836544437535,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1947000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1362000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1533000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1846000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1609000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 25.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6.85
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.43
+  }
+ ],
+ "eps_ttm": 40.699999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.42085775995063246,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2320441988950276,
+ "eps_forward_growth": -0.47606412776412765,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2542372881355932
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2276064610866373
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.30463144161774297
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.33098591549295775
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.30826600372902424
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6150000000.0,
+   "eps": 18.77,
+   "net_income": 1137000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5662000000.0,
+   "eps": 32.41,
+   "net_income": 1995000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5851000000.0,
+   "eps": 18.82,
+   "net_income": 1169000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6161000000.0,
+   "eps": 13.87,
+   "net_income": 867000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.004226463421665438,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 930000000.0,
+ "gap_24m": 818000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.9894484412470024,
+ "interest_coverage": 6.025862068965517,
+ "cash_to_debt": 0.01765169424743893,
+ "ev": 41143287242.53284,
+ "ev_to_sales": 6.151807303010292,
+ "ev_to_ebitda": 19.732991483229178,
+ "pe_ttm": 14.20850111621198,
+ "pe_trailing": 32.044327,
+ "p_sales": 5.21984,
+ "p_fcf": 43.099120052509676,
+ "p_book": 3.02358282024362
+}

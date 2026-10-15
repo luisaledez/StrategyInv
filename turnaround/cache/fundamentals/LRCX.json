@@ -1,0 +1,154 @@
+{
+ "ticker": "LRCX",
+ "fetched": "2026-10-15",
+ "market_cap": 343165590075.2576,
+ "shares_out": 1251424362.0,
+ "price": 274.2200012207031,
+ "long_name": "Lam Research Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 49.949,
+ "pe_forward": 23.306751,
+ "peg": 1.33,
+ "p_sales_y": 14.770807,
+ "eps_trailing_y": 5.49,
+ "eps_forward": 11.76569,
+ "earnings_growth_y": 0.348,
+ "earnings_growth_q_y": 0.324,
+ "bs_date": "2026-06-30",
+ "cash": 5579171000.0,
+ "total_debt": 3734563000.0,
+ "current_debt": 4073000.0,
+ "lease_obligations": 12502000.0,
+ "equity": 12470921000.0,
+ "net_debt": -1844608000.0,
+ "ocf_ttm": 5857657000.0,
+ "capex_ttm": -966405000.0,
+ "fcf_ttm": 4891252000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3851343000.0,
+ "stock_issuance_ttm": -3833896000.0,
+ "revenue_ttm": 23232690000.0,
+ "net_income_ttm": 7265396000.0,
+ "ebitda_ttm": 8860890000.0,
+ "ebit_ttm": 8419357000.0,
+ "interest_ttm": 156884000.0,
+ "revenue_yoy_last_q": 0.29988921747003183,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 6722238000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5841488000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 5344791000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5324173000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5171393000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.81
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.45
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.26
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.35
+  }
+ ],
+ "eps_ttm": 5.76,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3879518072289154,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3407407407407408,
+ "eps_forward_growth": 1.042654513888889,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5174972977749375
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.49825095934460534
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4960272534510704
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5042809465432472
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5007759031270684
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 23232690000.0,
+   "eps": 5.76,
+   "net_income": 7265396000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 18435591000.0,
+   "eps": 4.15,
+   "net_income": 5358217000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14905386000.0,
+   "eps": 2.9,
+   "net_income": 3827772000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17428516000.0,
+   "eps": 3.321,
+   "net_income": 4510931000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.013763261188265541,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 4073000.0,
+ "gap_24m": -5575098000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.20817412246399628,
+ "interest_coverage": 53.66612911450498,
+ "cash_to_debt": 1.49392874079243,
+ "ev": 341320982075.2576,
+ "ev_to_sales": 14.691410339278733,
+ "ev_to_ebitda": 38.51994349046852,
+ "pe_ttm": 47.232881741787736,
+ "pe_trailing": 49.949,
+ "p_sales": 14.770807,
+ "p_fcf": 70.15904927312222,
+ "p_book": 27.51726116100468
+}

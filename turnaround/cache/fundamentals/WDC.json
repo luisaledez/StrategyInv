@@ -1,0 +1,154 @@
+{
+ "ticker": "WDC",
+ "fetched": "2026-10-15",
+ "market_cap": 129418523368.55933,
+ "shares_out": 374323269.0,
+ "price": 345.739990234375,
+ "long_name": "Western Digital Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Computer Hardware",
+ "pe_trailing_y": 13.426796,
+ "pe_forward": 10.447671,
+ "peg": 0.69,
+ "p_sales_y": 10.017689,
+ "eps_trailing_y": 25.75,
+ "eps_forward": 33.09254,
+ "earnings_growth_y": 9.841,
+ "earnings_growth_q_y": 10.33,
+ "bs_date": "2026-06-30",
+ "cash": 1579000000.0,
+ "total_debt": 1052000000.0,
+ "current_debt": 1052000000.0,
+ "lease_obligations": null,
+ "equity": 8864000000.0,
+ "net_debt": -527000000.0,
+ "ocf_ttm": 3929000000.0,
+ "capex_ttm": -418000000.0,
+ "fcf_ttm": 3511000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2592000000.0,
+ "stock_issuance_ttm": -2592000000.0,
+ "revenue_ttm": 12919000000.0,
+ "net_income_ttm": 9298000000.0,
+ "ebitda_ttm": 10445000000.0,
+ "ebit_ttm": 10070000000.0,
+ "interest_ttm": 165000000.0,
+ "revenue_yoy_last_q": 0.4383877159309022,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3747000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3337000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3017000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2818000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2605000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 8.213368
+  },
+  {
+   "period": "2026-03-31",
+   "value": 8.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4.73
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.07
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.754144
+  }
+ ],
+ "eps_ttm": 24.213368,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 4.2578125,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 9.8909810328001,
+ "eps_forward_growth": 0.36670536705178725,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5412329863891113
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5022475277195085
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4574080212131256
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4354151880766501
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.40959692898272554
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 12919000000.0,
+   "eps": 26.92,
+   "net_income": 9298000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 9520000000.0,
+   "eps": 5.12,
+   "net_income": 1861000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6317000000.0,
+   "eps": -2.61,
+   "net_income": -798000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6255000000.0,
+   "eps": -5.37,
+   "net_income": -1684000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.04034582132564846,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1052000000.0,
+ "gap_24m": -527000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.05045476304451891,
+ "interest_coverage": 61.03030303030303,
+ "cash_to_debt": 1.5009505703422052,
+ "ev": 128891523368.55933,
+ "ev_to_sales": 9.976896305330081,
+ "ev_to_ebitda": 12.340021385213914,
+ "pe_ttm": 13.918963580184913,
+ "pe_trailing": 13.426796,
+ "p_sales": 10.017689,
+ "p_fcf": 36.8608725059981,
+ "p_book": 14.600465181471042
+}

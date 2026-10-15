@@ -1,0 +1,154 @@
+{
+ "ticker": "DOCN",
+ "fetched": "2026-10-15",
+ "market_cap": 12308227329.882431,
+ "shares_out": 117579550.0,
+ "price": 104.68000030517578,
+ "long_name": "DigitalOcean Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 56.583782,
+ "pe_forward": 56.59143,
+ "peg": 1.54,
+ "p_sales_y": 12.172949,
+ "eps_trailing_y": 1.85,
+ "eps_forward": 1.84975,
+ "earnings_growth_y": -0.245,
+ "earnings_growth_q_y": -0.043,
+ "bs_date": "2026-06-30",
+ "cash": 767026000.0,
+ "total_debt": 1529917000.0,
+ "current_debt": 567664000.0,
+ "lease_obligations": 608864000.0,
+ "equity": 930731000.0,
+ "net_debt": 762891000.0,
+ "ocf_ttm": 309956000.0,
+ "capex_ttm": -313767000.0,
+ "fcf_ttm": -3811000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2925000.0,
+ "stock_issuance_ttm": 884963000.0,
+ "revenue_ttm": 1011113000.0,
+ "net_income_ttm": 235239000.0,
+ "ebitda_ttm": 378084000.0,
+ "ebit_ttm": 205981000.0,
+ "interest_ttm": 31509000.0,
+ "revenue_yoy_last_q": 0.2857064471879287,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 281184000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 257905000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 242390000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 229634000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 218700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.29
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.15
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.51
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.39
+  }
+ ],
+ "eps_ttm": 2.19,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.8314606741573032,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.2564102564102565,
+ "eps_forward_growth": -0.15536529680365296,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5500384090133151
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5610980787499273
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5869466562151904
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5963097799106404
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5987425697302241
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 901427000.0,
+   "eps": 2.52,
+   "net_income": 259262000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 780615000.0,
+   "eps": 0.89,
+   "net_income": 84492000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 692884000.0,
+   "eps": 0.2,
+   "net_income": 19409000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 576322000.0,
+   "eps": -0.24,
+   "net_income": -27804000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.15242058428019423,
+ "fcf_burn_annual": 3811000.0,
+ "runway_months": 2415.1960115455263,
+ "need_24m": 575286000.0,
+ "gap_24m": -191740000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0177817627828736,
+ "interest_coverage": 6.537211590339268,
+ "cash_to_debt": 0.5013513804997265,
+ "ev": 13071118329.882431,
+ "ev_to_sales": 12.927455516725065,
+ "ev_to_ebitda": 34.571995455725265,
+ "pe_ttm": 52.32222263265203,
+ "pe_trailing": 56.583782,
+ "p_sales": 12.172949,
+ "p_fcf": null,
+ "p_book": 13.224258491317503
+}

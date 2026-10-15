@@ -1,0 +1,154 @@
+{
+ "ticker": "NCLH",
+ "fetched": "2026-10-15",
+ "market_cap": 7030166114.942888,
+ "shares_out": 459187846.0,
+ "price": 15.3100004196167,
+ "long_name": "Norwegian Cruise Line Holdings Ltd.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Travel Services",
+ "pe_trailing_y": 9.751593,
+ "pe_forward": 10.017405,
+ "peg": 1.24,
+ "p_sales_y": 0.69233346,
+ "eps_trailing_y": 1.57,
+ "eps_forward": 1.52834,
+ "earnings_growth_y": 6.163,
+ "earnings_growth_q_y": 6.42,
+ "bs_date": "2026-06-30",
+ "cash": 218100000.0,
+ "total_debt": 15034785000.0,
+ "current_debt": 1141370000.0,
+ "lease_obligations": null,
+ "equity": 2572866000.0,
+ "net_debt": 14816685000.0,
+ "ocf_ttm": 2109712000.0,
+ "capex_ttm": -3295106000.0,
+ "fcf_ttm": -1185394000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 10154307000.0,
+ "net_income_ttm": 760768000.0,
+ "ebitda_ttm": 2831440000.0,
+ "ebit_ttm": 1608869000.0,
+ "interest_ttm": 835726000.0,
+ "revenue_yoy_last_q": 0.048876721600859874,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2640544000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2331221000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2244400000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2938142000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2517497000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.48
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.23
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.03
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.86
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.07
+  }
+ ],
+ "eps_ttm": 1.6,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5132275132275133,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 5.857142857142856,
+ "eps_forward_growth": -0.04478749999999998,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.39906019365706463
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.40894449732565036
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.41030163963642846
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4708019557938316
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4213113262895646
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9827592000.0,
+   "eps": 0.92,
+   "net_income": 423246000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9479651000.0,
+   "eps": 1.89,
+   "net_income": 910257000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8549924000.0,
+   "eps": 0.39,
+   "net_income": 166178000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4843760000.0,
+   "eps": -5.41,
+   "net_income": -2269909000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.027627837872916894,
+ "fcf_burn_annual": 1185394000.0,
+ "runway_months": 2.2078735002876684,
+ "need_24m": 3512158000.0,
+ "gap_24m": 3294058000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 5.232915053824202,
+ "interest_coverage": 1.9251154086387166,
+ "cash_to_debt": 0.014506359751735726,
+ "ev": 21846851114.942886,
+ "ev_to_sales": 2.151486173792351,
+ "ev_to_ebitda": 7.715809310789876,
+ "pe_ttm": 9.240880419448358,
+ "pe_trailing": 9.751593,
+ "p_sales": 0.69233346,
+ "p_fcf": null,
+ "p_book": 2.7324260629752533
+}

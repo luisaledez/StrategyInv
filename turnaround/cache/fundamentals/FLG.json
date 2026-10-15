@@ -1,0 +1,133 @@
+{
+ "ticker": "FLG",
+ "fetched": "2026-10-15",
+ "market_cap": 4688473614.28907,
+ "shares_out": 415092836.0,
+ "price": 11.295000076293945,
+ "long_name": "Flagstar Bank, National Association",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 376.5,
+ "pe_forward": 9.690289,
+ "peg": 0.78,
+ "p_sales_y": 2.3084557,
+ "eps_trailing_y": 0.03,
+ "eps_forward": 1.1656,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 5108000000.0,
+ "total_debt": 10937000000.0,
+ "current_debt": 4251000000.0,
+ "lease_obligations": null,
+ "equity": 8140000000.0,
+ "net_debt": 5829000000.0,
+ "ocf_ttm": 162000000.0,
+ "capex_ttm": -94000000.0,
+ "fcf_ttm": 68000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 2090000000.0,
+ "net_income_ttm": 48000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 2344000000.0,
+ "revenue_yoy_last_q": 0.040322580645161255,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 516000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 498000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 557000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 519000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 496000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.03
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.05
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.11
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.19
+  }
+ ],
+ "eps_ttm": 0.030000000000000013,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 37.85333333333332,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2062000000.0,
+   "eps": -0.5,
+   "net_income": -177000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2584000000.0,
+   "eps": -3.4,
+   "net_income": -1118000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3633000000.0,
+   "eps": 9.72,
+   "net_income": -79000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1482000000.0,
+   "eps": 3.78,
+   "net_income": 650000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.004010026218781881,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 4251000000.0,
+ "gap_24m": -857000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.46703849318826,
+ "ev": 10517473614.28907,
+ "ev_to_sales": 5.032284025975632,
+ "ev_to_ebitda": null,
+ "pe_ttm": 97.6765336310223,
+ "pe_trailing": 376.5,
+ "p_sales": 2.3084557,
+ "p_fcf": 68.94814138660398,
+ "p_book": 0.5759795594949718
+}

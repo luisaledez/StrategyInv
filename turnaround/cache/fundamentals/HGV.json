@@ -1,0 +1,154 @@
+{
+ "ticker": "HGV",
+ "fetched": "2026-10-15",
+ "market_cap": 2815945737.77071,
+ "shares_out": 77724145.0,
+ "price": 36.22999954223633,
+ "long_name": "Hilton Grand Vacations Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 20.821838,
+ "pe_forward": 6.8317366,
+ "peg": null,
+ "p_sales_y": 0.5986279,
+ "eps_trailing_y": 1.74,
+ "eps_forward": 5.30319,
+ "earnings_growth_y": -0.4,
+ "earnings_growth_q_y": -0.52,
+ "bs_date": "2026-06-30",
+ "cash": 272000000.0,
+ "total_debt": 7851000000.0,
+ "current_debt": null,
+ "lease_obligations": 79000000.0,
+ "equity": 1102000000.0,
+ "net_debt": 7579000000.0,
+ "ocf_ttm": 463000000.0,
+ "capex_ttm": -121000000.0,
+ "fcf_ttm": 342000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -600000000.0,
+ "stock_issuance_ttm": -600000000.0,
+ "revenue_ttm": 5276000000.0,
+ "net_income_ttm": 151000000.0,
+ "ebitda_ttm": 822000000.0,
+ "ebit_ttm": 533000000.0,
+ "interest_ttm": 298000000.0,
+ "revenue_yoy_last_q": 0.0726698262243286,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1358000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1285000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1333000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1300000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1266000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.79
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.25
+  }
+ ],
+ "eps_ttm": 1.7700000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.9777777777777779,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4,
+ "eps_forward_growth": 1.9961525423728808,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.25699558173784975
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2552529182879377
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.7561890472618154
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.25153846153846154
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24328593996840442
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5047000000.0,
+   "eps": 0.89,
+   "net_income": 81000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4981000000.0,
+   "eps": 0.45,
+   "net_income": 47000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3978000000.0,
+   "eps": 2.8,
+   "net_income": 313000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3835000000.0,
+   "eps": 2.93,
+   "net_income": 352000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.12788443576712705,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -272000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 9.220194647201946,
+ "interest_coverage": 1.7885906040268456,
+ "cash_to_debt": 0.03464526811871099,
+ "ev": 10394945737.77071,
+ "ev_to_sales": 1.9702323233075645,
+ "ev_to_ebitda": 12.645919389015463,
+ "pe_ttm": 18.6486472700047,
+ "pe_trailing": 20.821838,
+ "p_sales": 0.5986279,
+ "p_fcf": 8.233759467165818,
+ "p_book": 2.555304662223875
+}

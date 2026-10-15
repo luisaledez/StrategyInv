@@ -1,0 +1,154 @@
+{
+ "ticker": "LVS",
+ "fetched": "2026-10-15",
+ "market_cap": 24586736351.651855,
+ "shares_out": 647701184.0,
+ "price": 37.959999084472656,
+ "long_name": "Las Vegas Sands Corp.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 14.770428,
+ "pe_forward": 10.89449,
+ "peg": 0.79,
+ "p_sales_y": 1.7921667,
+ "eps_trailing_y": 2.57,
+ "eps_forward": 3.48433,
+ "earnings_growth_y": -0.198,
+ "earnings_growth_q_y": -0.249,
+ "bs_date": "2026-06-30",
+ "cash": 3376000000.0,
+ "total_debt": 15262000000.0,
+ "current_debt": 1568000000.0,
+ "lease_obligations": null,
+ "equity": 581000000.0,
+ "net_debt": 11886000000.0,
+ "ocf_ttm": 3732000000.0,
+ "capex_ttm": -1032000000.0,
+ "fcf_ttm": 2700000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2542000000.0,
+ "stock_issuance_ttm": -2542000000.0,
+ "revenue_ttm": 13719000000.0,
+ "net_income_ttm": 1727000000.0,
+ "ebitda_ttm": 4618000000.0,
+ "ebit_ttm": 3097000000.0,
+ "interest_ttm": 755000000.0,
+ "revenue_yoy_last_q": -0.006614173228346454,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3154000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3585000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3649000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3331000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3175000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.85
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.58
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.61
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.66
+  }
+ ],
+ "eps_ttm": 2.57,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.19897959183673475,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.19696969696969702,
+ "eps_forward_growth": 0.35577042801556424,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.46924540266328474
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48786610878661085
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.48451630583721567
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4980486340438307
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5155905511811023
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 13017000000.0,
+   "eps": 2.35,
+   "net_income": 1627000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11298000000.0,
+   "eps": 1.96,
+   "net_income": 1446000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10372000000.0,
+   "eps": 1.62,
+   "net_income": 1221000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4110000000.0,
+   "eps": 2.4,
+   "net_income": 1832000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03493449781659386,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1568000000.0,
+ "gap_24m": -1808000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.573841489822434,
+ "interest_coverage": 4.101986754966887,
+ "cash_to_debt": 0.22120298781286857,
+ "ev": 36472736351.651855,
+ "ev_to_sales": 2.658556480184551,
+ "ev_to_ebitda": 7.897950704125564,
+ "pe_ttm": 14.236674204778144,
+ "pe_trailing": 14.770428,
+ "p_sales": 1.7921667,
+ "p_fcf": 9.106198648759946,
+ "p_book": 42.317962739504054
+}

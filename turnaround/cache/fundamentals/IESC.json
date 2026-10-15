@@ -1,0 +1,154 @@
+{
+ "ticker": "IESC",
+ "fetched": "2026-10-15",
+ "market_cap": 10912028158.579529,
+ "shares_out": 42404806.0,
+ "price": 257.3299865722656,
+ "long_name": "IES Holdings, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 24.049532,
+ "pe_forward": null,
+ "peg": null,
+ "p_sales_y": 2.7377658,
+ "eps_trailing_y": 10.7,
+ "eps_forward": null,
+ "earnings_growth_y": 0.987,
+ "earnings_growth_q_y": 0.981,
+ "bs_date": "2026-06-30",
+ "cash": 387860000.0,
+ "total_debt": 76943000.0,
+ "current_debt": 35000000.0,
+ "lease_obligations": 76943000.0,
+ "equity": 1229242000.0,
+ "net_debt": -310917000.0,
+ "ocf_ttm": 371422000.0,
+ "capex_ttm": -143025000.0,
+ "fcf_ttm": 228397000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -19577000.0,
+ "stock_issuance_ttm": -19577000.0,
+ "revenue_ttm": 3985742000.0,
+ "net_income_ttm": 456112000.0,
+ "ebitda_ttm": 639053000.0,
+ "ebit_ttm": 581096000.0,
+ "interest_ttm": 2890000.0,
+ "revenue_yoy_last_q": 0.3960409275656682,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1242697000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 974284000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 870958000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 897803000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 890158000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.785
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.255
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.495
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.905
+  }
+ ],
+ "eps_ttm": 11.255000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5187057633973708,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.9868766404199476,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27413118402957437
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.26151204371620596
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.25261264033397707
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.25952686725261553
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2691623284855048
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3371468000.0,
+   "eps": 7.51,
+   "net_income": 305975000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2884358000.0,
+   "eps": 4.945,
+   "net_income": 219116000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2377227000.0,
+   "eps": 2.27,
+   "net_income": 108288000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2166808000.0,
+   "eps": 0.72,
+   "net_income": 34762000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.003521785783072051,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 35000000.0,
+ "gap_24m": -352860000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.4865277214878891,
+ "interest_coverage": 201.07128027681662,
+ "cash_to_debt": 5.040874413526897,
+ "ev": 10601111158.579529,
+ "ev_to_sales": 2.6597584988139045,
+ "ev_to_ebitda": 16.588782399236884,
+ "pe_ttm": 23.924010239983883,
+ "pe_trailing": 24.049532,
+ "p_sales": 2.7377658,
+ "p_fcf": 47.7765826984572,
+ "p_book": 8.87703817358952
+}

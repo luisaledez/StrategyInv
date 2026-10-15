@@ -1,0 +1,154 @@
+{
+ "ticker": "COHR",
+ "fetched": "2026-10-15",
+ "market_cap": 48342661788.299286,
+ "shares_out": 196931166.0,
+ "price": 245.47999572753906,
+ "long_name": "Coherent Corp.",
+ "sector_y": "Technology",
+ "industry_y": "Scientific & Technical Instruments",
+ "pe_trailing_y": 65.63636,
+ "pe_forward": 17.467472,
+ "peg": 0.92,
+ "p_sales_y": 6.7914352,
+ "eps_trailing_y": 3.74,
+ "eps_forward": 14.05355,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1987018000.0,
+ "total_debt": 3538434000.0,
+ "current_debt": 69287000.0,
+ "lease_obligations": 316210000.0,
+ "equity": 10903495000.0,
+ "net_debt": 1551416000.0,
+ "ocf_ttm": 79514000.0,
+ "capex_ttm": -1110083000.0,
+ "fcf_ttm": -1030569000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 7118181000.0,
+ "net_income_ttm": 804998000.0,
+ "ebitda_ttm": 1559895000.0,
+ "ebit_ttm": 1038000000.0,
+ "interest_ttm": 190267000.0,
+ "revenue_yoy_last_q": 0.33744269129273796,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2045533000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1805641000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1685629000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1581378000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1529436000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.97
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.76
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.19
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.83
+  }
+ ],
+ "eps_ttm": 4.109999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 2.4193552311435527,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.38477746386883027
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3765671027629523
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3694881851225863
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36626284164823336
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.35709176454588487
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 7118181000.0,
+   "eps": 4.12,
+   "net_income": 804998000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5810115000.0,
+   "eps": -0.52,
+   "net_income": 49364000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4707688000.0,
+   "eps": -1.84,
+   "net_income": -156154000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5160100000.0,
+   "eps": -2.93,
+   "net_income": -259458000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.25841363354949376,
+ "fcf_burn_annual": 1030569000.0,
+ "runway_months": 23.13694279567889,
+ "need_24m": 2130425000.0,
+ "gap_24m": 143407000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.9945643777305524,
+ "interest_coverage": 5.455491493532772,
+ "cash_to_debt": 0.5615529355641506,
+ "ev": 49894077788.299286,
+ "ev_to_sales": 7.009385935578104,
+ "ev_to_ebitda": 31.98553607024786,
+ "pe_ttm": 60.05314521067044,
+ "pe_trailing": 65.63636,
+ "p_sales": 6.7914352,
+ "p_fcf": null,
+ "p_book": 4.433684959574823
+}

@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-27",
+ "as_of": "2026-10-15",
  "threshold": 42.0,
  "rsi_period": 14,
  "lookback": 6,
@@ -8,6 +8,6 @@
  "min_years": 5.0,
  "priority_dd": -0.4,
  "universe": "sp500,sp400",
- "tickers_scanned": 899,
- "qualified": 247
+ "tickers_scanned": 897,
+ "qualified": 243
 }
