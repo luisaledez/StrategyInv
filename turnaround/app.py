@@ -32,6 +32,7 @@ from pathlib import Path
 from urllib.parse import quote, unquote
 
 import pandas as pd
+from jinja2 import Undefined
 from flask import Flask, abort, jsonify, redirect, render_template_string, request, url_for
 from markdown import markdown
 
@@ -368,8 +369,13 @@ def as_of() -> str:
 
 
 # ------------------------------------------------------------------ formatting
+def _missing(x) -> bool:
+    """None, NaN, or a field the row does not have (jinja2 Undefined), e.g. a ticker outside the scan."""
+    return x is None or isinstance(x, Undefined) or (isinstance(x, float) and math.isnan(x))
+
+
 def money(x):
-    if x is None or (isinstance(x, float) and (math.isnan(x) or math.isinf(x))):
+    if _missing(x) or (isinstance(x, float) and (math.isnan(x) or math.isinf(x))):
         return "–"
     a, s = abs(x), "-" if x < 0 else ""
     if a >= 1e9:
@@ -380,13 +386,13 @@ def money(x):
 
 
 def pct(x, signed=True):
-    if x is None or (isinstance(x, float) and math.isnan(x)):
+    if _missing(x):
         return "–"
     return f"{x * 100:+.1f}%" if signed else f"{x * 100:.1f}%"
 
 
 def num(x, d=1):
-    if x is None or (isinstance(x, float) and math.isnan(x)):
+    if _missing(x):
         return "–"
     if isinstance(x, float) and math.isinf(x):
         return "∞"
@@ -399,7 +405,7 @@ from markupsafe import Markup  # noqa: E402
 
 
 def _cls(x, good):
-    if x is None or (isinstance(x, float) and math.isnan(x)) or x == 0:
+    if _missing(x) or x == 0:
         return ""
     up = x > 0
     return "pos" if (up if good == "up" else not up) else "neg"
@@ -1416,6 +1422,12 @@ def ticker(t):
         vhist = vh.get(t)
     except Exception as e:  # noqa: BLE001
         vhist = {"metrics": {}, "error": str(e)[:120]}
+    # a multiple can have history without a current value or without points in the last 5 years
+    # (NLY's EV/EBITDA ends in 2018): give the template None for every summary value it shows
+    for m in vhist.get("metrics", {}).values():
+        st = m.setdefault("stats", {"n": 0})
+        for k in ("current", "avg", "median", "avg_5y", "high", "low", "vs_avg", "percentile"):
+            st.setdefault(k, None)
     vcharts = {k: valuation_chart(vhist["metrics"][k]) if k in vhist.get("metrics", {}) else "" for k in ("pe", "fwd_pe", "peg", "ev_ebitda", "ps")}
     theses = [{"label": label, "html": render_md(tp), "rel": tp.relative_to(ROOT).as_posix()} for tp, label in thesis_files(t)]
     name = r.get("name") or f.get("long_name") or ""
