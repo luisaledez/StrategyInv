@@ -1,0 +1,154 @@
+{
+ "ticker": "FIX",
+ "fetched": "2026-10-24",
+ "market_cap": 40855688247.39807,
+ "shares_out": 35194329.0,
+ "price": 1160.8599853515625,
+ "long_name": "Comfort Systems USA, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 25.07257,
+ "pe_forward": 19.27555,
+ "peg": 0.39,
+ "p_sales_y": 3.2571573,
+ "eps_trailing_y": 46.3,
+ "eps_forward": 60.22448,
+ "earnings_growth_y": 0.686,
+ "earnings_growth_q_y": 0.677,
+ "bs_date": "2026-06-30",
+ "cash": 1854794000.0,
+ "total_debt": 328033000.0,
+ "current_debt": 215000.0,
+ "lease_obligations": 273969000.0,
+ "equity": 3217269000.0,
+ "net_debt": -1526761000.0,
+ "ocf_ttm": 2550065000.0,
+ "capex_ttm": -390259000.0,
+ "fcf_ttm": 2159806000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -112941000.0,
+ "stock_issuance_ttm": -112941000.0,
+ "revenue_ttm": 11228024000.0,
+ "net_income_ttm": 1434401000.0,
+ "ebitda_ttm": 2000175000.0,
+ "ebit_ttm": 1844718000.0,
+ "interest_ttm": 7372000.0,
+ "revenue_yoy_last_q": 0.502612363854547,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3265656000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2865332000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2646067000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2450969000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2173319000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 12.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 10.51
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 8.25
+  },
+  {
+   "period": "2025-06-30",
+   "value": 6.53
+  }
+ ],
+ "eps_ttm": 40.66,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.978082191780822,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.9188361408882082,
+ "eps_forward_growth": 0.4811726512543042,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.258517124890068
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.26328955946466237
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.25498787445669363
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24801252076219651
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23461673136801361
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9101641000.0,
+   "eps": 28.88,
+   "net_income": 1022558000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7027476000.0,
+   "eps": 14.6,
+   "net_income": 522433000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5206760000.0,
+   "eps": 9.01,
+   "net_income": 323398000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4140364000.0,
+   "eps": 6.82,
+   "net_income": 245947000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0023027113509954678,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 215000.0,
+ "gap_24m": -1854579000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.7633137100503706,
+ "interest_coverage": 250.2330439500814,
+ "cash_to_debt": 5.654290879271293,
+ "ev": 39328927247.39807,
+ "ev_to_sales": 3.502746988018379,
+ "ev_to_ebitda": 19.66274313367484,
+ "pe_ttm": 28.482752206250602,
+ "pe_trailing": 25.07257,
+ "p_sales": 3.2571573,
+ "p_fcf": 18.916369455126095,
+ "p_book": 12.69887231916202
+}

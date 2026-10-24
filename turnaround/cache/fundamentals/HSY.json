@@ -1,18 +1,18 @@
 {
  "ticker": "HSY",
- "fetched": "2026-10-15",
- "market_cap": 33873053234.333176,
+ "fetched": "2026-10-24",
+ "market_cap": 34085028330.84471,
  "shares_out": 200925657.0,
- "price": 168.5850067138672,
+ "price": 169.63999938964844,
  "long_name": "The Hershey Company",
  "sector_y": "Consumer Defensive",
  "industry_y": "Confectioners",
- "pe_trailing_y": 22.874493,
- "pe_forward": 17.125347,
- "peg": 0.83,
- "p_sales_y": 2.784717,
- "eps_trailing_y": 7.37,
- "eps_forward": 9.84418,
+ "pe_trailing_y": 23.174862,
+ "pe_forward": 17.23649,
+ "peg": 0.85,
+ "p_sales_y": 2.8021438,
+ "eps_trailing_y": 7.32,
+ "eps_forward": 9.84191,
  "earnings_growth_y": 6.31,
  "earnings_growth_q_y": 6.297,
  "bs_date": "2026-06-30",
@@ -75,15 +75,15 @@
   },
   {
    "period": "2025-06-30",
-   "value": 0.31
+   "value": 0.308675
   }
  ],
  "eps_ttm": 7.32,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.6025641025641026,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 6.290322580645161,
- "eps_forward_growth": 0.3448333333333333,
+ "eps_growth_last_q": 6.321616587025188,
+ "eps_forward_growth": 0.34452322404371594,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 1.915504086603599,
  "interest_coverage": 9.453008477557338,
  "cash_to_debt": 0.13357611417396215,
- "ev": 39005152234.333176,
- "ev_to_sales": 3.2066289393028473,
- "ev_to_ebitda": 14.558278884226649,
- "pe_ttm": 22.747225843631906,
- "pe_trailing": 22.874493,
- "p_sales": 2.784717,
- "p_fcf": 15.202274002385458,
- "p_book": 7.423921685306952
+ "ev": 39217127330.84471,
+ "ev_to_sales": 3.224055495538336,
+ "ev_to_ebitda": 14.637396446772897,
+ "pe_ttm": 22.88957632382677,
+ "pe_trailing": 23.174862,
+ "p_sales": 2.8021438,
+ "p_fcf": 15.297408724270646,
+ "p_book": 7.470380045728444
 }

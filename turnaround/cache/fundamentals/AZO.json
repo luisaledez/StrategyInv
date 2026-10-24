@@ -1,18 +1,18 @@
 {
  "ticker": "AZO",
- "fetched": "2026-10-15",
- "market_cap": 49190017612.06055,
+ "fetched": "2026-10-24",
+ "market_cap": 51765891637.93945,
  "shares_out": 16173000.0,
- "price": 3041.489990234375,
+ "price": 3200.760009765625,
  "long_name": "AutoZone, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Auto Parts",
- "pe_trailing_y": 19.93766,
- "pe_forward": 15.8075285,
- "peg": 1.23,
- "p_sales_y": 2.4185603,
- "eps_trailing_y": 152.55,
- "eps_forward": 192.40768,
+ "pe_trailing_y": 20.250284,
+ "pe_forward": 16.597347,
+ "peg": 1.35,
+ "p_sales_y": 2.54521,
+ "eps_trailing_y": 158.06,
+ "eps_forward": 192.84769,
  "earnings_growth_y": 0.15,
  "earnings_growth_q_y": 0.113,
  "bs_date": "2026-04-30",
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 56.05
+  },
+  {
    "period": "2026-05-31",
    "value": 38.07
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-08-31",
    "value": 48.71
-  },
-  {
-   "period": "2025-05-31",
-   "value": 35.36
   }
  ],
- "eps_ttm": 145.45000000000002,
+ "eps_ttm": 152.79,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.03129388164493485,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.07664027149321262,
- "eps_forward_growth": 0.3228441388793397,
+ "eps_growth_last_q": 0.15068774378977623,
+ "eps_forward_growth": 0.2621748151057006,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 2.895312811038521,
  "interest_coverage": 7.480886082500906,
  "cash_to_debt": 0.02008752791012013,
- "ev": 61567459612.06055,
- "ev_to_sales": 3.0804670821254563,
- "ev_to_ebitda": 14.401768520336887,
- "pe_ttm": 19.849699858465737,
- "pe_trailing": 19.93766,
- "p_sales": 2.4185603,
- "p_fcf": 30.1183902813338,
+ "ev": 64143333637.93945,
+ "ev_to_sales": 3.2093483969372105,
+ "ev_to_ebitda": 15.004313138744193,
+ "pe_ttm": 20.889145029844936,
+ "pe_trailing": 20.250284,
+ "p_sales": 2.54521,
+ "p_fcf": 31.69556351674142,
  "p_book": null
 }

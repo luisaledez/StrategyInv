@@ -1,18 +1,18 @@
 {
  "ticker": "BAX",
- "fetched": "2026-10-15",
- "market_cap": 13328157209.21298,
+ "fetched": "2026-10-24",
+ "market_cap": 13079998380.263355,
  "shares_out": 516995999.0,
- "price": 25.780000686645508,
+ "price": 25.299999237060547,
  "long_name": "Baxter International Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
  "pe_trailing_y": null,
- "pe_forward": 12.639857,
+ "pe_forward": 12.404332,
  "peg": 36.68,
- "p_sales_y": 1.1620015,
- "eps_trailing_y": -1.87,
- "eps_forward": 2.03958,
+ "p_sales_y": 1.1403661,
+ "eps_trailing_y": -1.88,
+ "eps_forward": 2.03961,
  "earnings_growth_y": 0.368,
  "earnings_growth_q_y": 0.385,
  "bs_date": "2026-06-30",
@@ -122,7 +122,7 @@
   {
    "year": "2023",
    "revenue": 10360000000.0,
-   "eps": 5.25,
+   "eps": 5.23,
    "net_income": 2656000000.0
   },
   {
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 9.86482939632546,
  "interest_coverage": -0.6541095890410958,
  "cash_to_debt": 0.22240612392676115,
- "ev": 20845157209.212982,
- "ev_to_sales": 1.817363313793634,
- "ev_to_ebitda": 27.355849355922548,
+ "ev": 20596998380.263355,
+ "ev_to_sales": 1.795727844835515,
+ "ev_to_ebitda": 27.03018160139548,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 1.1620015,
- "p_fcf": 16.413986710853425,
- "p_book": 2.147624429457457
+ "p_sales": 1.1403661,
+ "p_fcf": 16.10837238948689,
+ "p_book": 2.1076375089048267
 }

@@ -1,0 +1,154 @@
+{
+ "ticker": "MTSI",
+ "fetched": "2026-10-24",
+ "market_cap": 18041869158.958054,
+ "shares_out": 76370931.0,
+ "price": 236.24000549316406,
+ "long_name": "MACOM Technology Solutions Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 75.235664,
+ "pe_forward": 27.79026,
+ "peg": 2.05,
+ "p_sales_y": 15.500233,
+ "eps_trailing_y": 3.14,
+ "eps_forward": 8.50082,
+ "earnings_growth_y": 1.667,
+ "earnings_growth_q_y": 1.757,
+ "bs_date": "2026-06-30",
+ "cash": 663030000.0,
+ "total_debt": 377493000.0,
+ "current_debt": 347513000.0,
+ "lease_obligations": 37028000.0,
+ "equity": 1540775000.0,
+ "net_debt": -285537000.0,
+ "ocf_ttm": 271186000.0,
+ "capex_ttm": -147419000.0,
+ "fcf_ttm": 123767000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1163974000.0,
+ "net_income_ttm": 240926000.0,
+ "ebitda_ttm": 357224000.0,
+ "ebit_ttm": 292906000.0,
+ "interest_ttm": 6642000.0,
+ "revenue_yoy_last_q": 0.357657718413672,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 342237000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 288955000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 271612000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 261170000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 252079000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.28
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.64
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.59
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.48
+  }
+ ],
+ "eps_ttm": 3.11,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.7019230769230769,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.666666666666667,
+ "eps_forward_growth": 1.7333826366559486,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5830813149951641
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5690609264418335
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5588081528062089
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5448596699467779
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5531440540465489
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 967258000.0,
+   "eps": -0.73,
+   "net_income": -54210000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 729578000.0,
+   "eps": 1.04,
+   "net_income": 76859000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 648407000.0,
+   "eps": 1.28,
+   "net_income": 91577000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 675170000.0,
+   "eps": 6.18,
+   "net_income": 439955000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.02583764184516224,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 347513000.0,
+ "gap_24m": -315517000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.7993219940429535,
+ "interest_coverage": 44.09906654622102,
+ "cash_to_debt": 1.7564034299973774,
+ "ev": 17756332158.958054,
+ "ev_to_sales": 15.25492163824798,
+ "ev_to_ebitda": 49.70643674265462,
+ "pe_ttm": 74.88552152510752,
+ "pe_trailing": 75.235664,
+ "p_sales": 15.500233,
+ "p_fcf": 145.7728567304536,
+ "p_book": 11.70960663234934
+}

@@ -1,18 +1,18 @@
 {
  "ticker": "THO",
- "fetched": "2026-10-15",
- "market_cap": 3585907651.7177353,
+ "fetched": "2026-10-24",
+ "market_cap": 3618166627.3427353,
  "shares_out": 51614361.0,
- "price": 69.4749984741211,
+ "price": 70.0999984741211,
  "long_name": "THOR Industries, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Recreational Vehicles",
- "pe_trailing_y": 20.494099,
- "pe_forward": 14.3567705,
- "peg": 0.59,
- "p_sales_y": 0.37321538,
- "eps_trailing_y": 3.39,
- "eps_forward": 4.83918,
+ "pe_trailing_y": 20.739643,
+ "pe_forward": 14.611746,
+ "peg": 0.63,
+ "p_sales_y": 0.37657285,
+ "eps_trailing_y": 3.38,
+ "eps_forward": 4.79751,
  "earnings_growth_y": -0.665,
  "earnings_growth_q_y": -0.675,
  "bs_date": "2026-04-30",
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-07-31",
+   "value": 0.78
+  },
+  {
    "period": "2026-04-30",
    "value": 1.86
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-07-31",
    "value": 2.36
-  },
-  {
-   "period": "2025-04-30",
-   "value": 2.53
   }
  ],
- "eps_ttm": 4.970000000000001,
+ "eps_ttm": 3.39,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.020242914979757165,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.2648221343873517,
- "eps_forward_growth": -0.02632193158953744,
+ "eps_growth_last_q": -0.6694915254237288,
+ "eps_forward_growth": 0.4151946902654866,
  "gross_margin_quarters": [
   {
    "period": "2026-04-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 0.7889987938031637,
  "interest_coverage": 9.658453473132372,
  "cash_to_debt": 0.4254161276708174,
- "ev": 4088272651.7177353,
- "ev_to_sales": 0.4163083257861507,
- "ev_to_ebitda": 6.420913461215958,
- "pe_ttm": 13.662786623832138,
- "pe_trailing": 20.494099,
- "p_sales": 0.37321538,
- "p_fcf": 17.961239846918488,
- "p_book": 0.8311559511505375
+ "ev": 4120531627.3427353,
+ "ev_to_sales": 0.4195932534996625,
+ "ev_to_ebitda": 6.471578401762077,
+ "pe_ttm": 13.78569762530666,
+ "pe_trailing": 20.739643,
+ "p_sales": 0.37657285,
+ "p_fcf": 18.122819913861644,
+ "p_book": 0.8386330649451148
 }

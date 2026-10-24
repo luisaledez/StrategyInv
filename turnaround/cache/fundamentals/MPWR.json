@@ -1,0 +1,154 @@
+{
+ "ticker": "MPWR",
+ "fetched": "2026-10-24",
+ "market_cap": 56028916920.043945,
+ "shares_out": 49143000.0,
+ "price": 1140.1199951171875,
+ "long_name": "Monolithic Power Systems, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 69.350365,
+ "pe_forward": 32.324986,
+ "peg": 0.83,
+ "p_sales_y": 17.117695,
+ "eps_trailing_y": 16.44,
+ "eps_forward": 35.27055,
+ "earnings_growth_y": 0.858,
+ "earnings_growth_q_y": 0.906,
+ "bs_date": "2026-06-30",
+ "cash": 1413761000.0,
+ "total_debt": 18934000.0,
+ "current_debt": null,
+ "lease_obligations": 18934000.0,
+ "equity": 3895424000.0,
+ "net_debt": -1394827000.0,
+ "ocf_ttm": 822337000.0,
+ "capex_ttm": -239728000.0,
+ "fcf_ttm": 582609000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -7686000.0,
+ "stock_issuance_ttm": -7686000.0,
+ "revenue_ttm": 3273158000.0,
+ "net_income_ttm": 804490000.0,
+ "ebitda_ttm": 1000282000.0,
+ "ebit_ttm": 940165000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.4755948923671405,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 980642000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 804185000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 751155000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 737176000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 664574000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.22
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.92
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.46
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.71
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.78
+  }
+ ],
+ "eps_ttm": 16.310000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6515441377425526,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.8776978417266188,
+ "eps_forward_growth": 1.1625107296137336,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5517507918282105
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.553436087467436
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5515066797132416
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.551059719795544
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5507528130802589
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2790459000.0,
+   "eps": 12.75,
+   "net_income": 621483000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2207100000.0,
+   "eps": 36.59,
+   "net_income": 1592058000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1821072000.0,
+   "eps": 8.76,
+   "net_income": 427374000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1794148000.0,
+   "eps": 9.05,
+   "net_income": 437672000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.026100392549903928,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -1413761000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.394433769676951,
+ "interest_coverage": null,
+ "cash_to_debt": 74.6678462025985,
+ "ev": 54634089920.043945,
+ "ev_to_sales": 16.691552903967345,
+ "ev_to_ebitda": 54.618687450182996,
+ "pe_ttm": 69.6452621164265,
+ "pe_trailing": 69.350365,
+ "p_sales": 17.117695,
+ "p_fcf": 96.1689862670229,
+ "p_book": 14.383265318497793
+}

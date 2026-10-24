@@ -1,0 +1,154 @@
+{
+ "ticker": "LITE",
+ "fetched": "2026-10-24",
+ "market_cap": 68496036673.473145,
+ "shares_out": 90582856.0,
+ "price": 756.1699829101562,
+ "long_name": "Lumentum Holdings Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Communication Equipment",
+ "pe_trailing_y": null,
+ "pe_forward": 21.052658,
+ "peg": 0.63,
+ "p_sales_y": 22.725956,
+ "eps_trailing_y": -92.96,
+ "eps_forward": 35.91803,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2738400000.0,
+ "total_debt": 1671200000.0,
+ "current_debt": 1610400000.0,
+ "lease_obligations": 33800000.0,
+ "equity": 4643900000.0,
+ "net_debt": -1067200000.0,
+ "ocf_ttm": 751400000.0,
+ "capex_ttm": -451300000.0,
+ "fcf_ttm": 300100000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3014000000.0,
+ "net_income_ttm": -6935100000.0,
+ "ebitda_ttm": -6884000000.0,
+ "ebit_ttm": -7151000000.0,
+ "interest_ttm": 21800000.0,
+ "revenue_yoy_last_q": 1.0934054503848554,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1006300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 808400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 665500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 533800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 480700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -84.65
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.5
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.89
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.05
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.96
+  }
+ ],
+ "eps_ttm": -82.21000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -252.24324324324323,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -29.597972972972975,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4743118354367485
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.44161306284017815
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.36078136739293765
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.34001498688647436
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33263990014562095
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3014000000.0,
+   "eps": -92.96,
+   "net_income": -6935100000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1645000000.0,
+   "eps": 0.37,
+   "net_income": 25900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1359200000.0,
+   "eps": -8.12,
+   "net_income": -546500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1767000000.0,
+   "eps": -1.93,
+   "net_income": -131600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.2693409742120343,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1610400000.0,
+ "gap_24m": -1128000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.15502614758861127,
+ "interest_coverage": -328.0275229357798,
+ "cash_to_debt": 1.6385830540928674,
+ "ev": 67428836673.473145,
+ "ev_to_sales": 22.371876799427056,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 22.725956,
+ "p_fcf": 228.2440408979445,
+ "p_book": 14.749679509350576
+}

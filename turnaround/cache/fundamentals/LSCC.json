@@ -1,0 +1,154 @@
+{
+ "ticker": "LSCC",
+ "fetched": "2026-10-24",
+ "market_cap": 13661892210.433594,
+ "shares_out": 142030272.0,
+ "price": 96.19000244140625,
+ "long_name": "Lattice Semiconductor Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 384.76,
+ "pe_forward": 29.592371,
+ "peg": 0.59,
+ "p_sales_y": 20.982239,
+ "eps_trailing_y": 0.25,
+ "eps_forward": 3.2505,
+ "earnings_growth_y": 6.0,
+ "earnings_growth_q_y": 5.646,
+ "bs_date": "2026-06-30",
+ "cash": 173305000.0,
+ "total_debt": 38082000.0,
+ "current_debt": 5491000.0,
+ "lease_obligations": 38082000.0,
+ "equity": 787527000.0,
+ "net_debt": -135223000.0,
+ "ocf_ttm": 243241000.0,
+ "capex_ttm": -80223000.0,
+ "fcf_ttm": 163018000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -44145000.0,
+ "stock_issuance_ttm": -35626000.0,
+ "revenue_ttm": 651117000.0,
+ "net_income_ttm": 36325000.0,
+ "ebitda_ttm": 98707000.0,
+ "ebit_ttm": 55139000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.6219841737180469,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 201079000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 170897000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 145792000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 133349000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 123971000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.02
+  }
+ ],
+ "eps_ttm": 0.26000000000000006,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.9545454545454546,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 6.000000000000001,
+ "eps_forward_growth": 11.501923076923074,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7028680269943653
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6883210354775099
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.685476569359087
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6788727324539366
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6836356889917803
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 523262000.0,
+   "eps": 0.02,
+   "net_income": 3084000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 509401000.0,
+   "eps": 0.44,
+   "net_income": 61131000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 737154000.0,
+   "eps": 1.85,
+   "net_income": 259061000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 660356000.0,
+   "eps": 1.27,
+   "net_income": 178882000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.003826903939589066,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5491000.0,
+ "gap_24m": -167814000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.3699433677449422,
+ "interest_coverage": null,
+ "cash_to_debt": 4.550837666088966,
+ "ev": 13526669210.433594,
+ "ev_to_sales": 20.774560041334496,
+ "ev_to_ebitda": 137.03860121808577,
+ "pe_ttm": 376.10164378344376,
+ "pe_trailing": 384.76,
+ "p_sales": 20.982239,
+ "p_fcf": 83.80603498039231,
+ "p_book": 17.347839769853724
+}

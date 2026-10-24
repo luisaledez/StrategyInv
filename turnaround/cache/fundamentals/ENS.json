@@ -1,0 +1,154 @@
+{
+ "ticker": "ENS",
+ "fetched": "2026-10-24",
+ "market_cap": 5989712467.957397,
+ "shares_out": 36065224.0,
+ "price": 166.0800018310547,
+ "long_name": "EnerSys",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 17.781584,
+ "pe_forward": 11.5525875,
+ "peg": 0.88,
+ "p_sales_y": 1.5787357,
+ "eps_trailing_y": 9.34,
+ "eps_forward": 14.376,
+ "earnings_growth_y": 1.116,
+ "earnings_growth_q_y": 1.027,
+ "bs_date": "2026-06-30",
+ "cash": 530663000.0,
+ "total_debt": 1038932000.0,
+ "current_debt": 28667000.0,
+ "lease_obligations": 80701000.0,
+ "equity": 1969900000.0,
+ "net_debt": 508269000.0,
+ "ocf_ttm": 776789000.0,
+ "capex_ttm": -59477000.0,
+ "fcf_ttm": 717312000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -270609000.0,
+ "stock_issuance_ttm": -270609000.0,
+ "revenue_ttm": 3793993000.0,
+ "net_income_ttm": 352549000.0,
+ "ebitda_ttm": 583701000.0,
+ "ebit_ttm": 466542000.0,
+ "interest_ttm": 49787000.0,
+ "revenue_yoy_last_q": 0.047722121689898644,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 935641000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 987940000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 919126000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 951286000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 893024000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.09
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.4
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.8
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.46
+  }
+ ],
+ "eps_ttm": 9.34,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14349276974416014,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.1164383561643834,
+ "eps_forward_growth": 0.5391862955032121,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.33491478034844563
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.29441666497965463
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.30063777980385714
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.29133614917070155
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28356236786469347
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3751376000.0,
+   "eps": 7.7,
+   "net_income": 293557000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3617579000.0,
+   "eps": 8.99,
+   "net_income": 363735000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3581871000.0,
+   "eps": 6.5,
+   "net_income": 269096000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3708579000.0,
+   "eps": 4.25,
+   "net_income": 175810000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03059962076651468,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 28667000.0,
+ "gap_24m": -501996000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.8707694521681477,
+ "interest_coverage": 9.370759435193927,
+ "cash_to_debt": 0.5107774137287138,
+ "ev": 6497981467.957397,
+ "ev_to_sales": 1.712702545301849,
+ "ev_to_ebitda": 11.132380221992763,
+ "pe_ttm": 16.989730414658382,
+ "pe_trailing": 17.781584,
+ "p_sales": 1.5787357,
+ "p_fcf": 8.350219246237895,
+ "p_book": 3.040617527771662
+}

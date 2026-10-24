@@ -1,0 +1,154 @@
+{
+ "ticker": "NVT",
+ "fetched": "2026-10-24",
+ "market_cap": 20296985797.575615,
+ "shares_out": 161857939.0,
+ "price": 125.4000015258789,
+ "long_name": "nVent Electric plc",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 34.736843,
+ "pe_forward": 18.514637,
+ "peg": 0.78,
+ "p_sales_y": 4.198797,
+ "eps_trailing_y": 3.61,
+ "eps_forward": 6.77302,
+ "earnings_growth_y": 0.98,
+ "earnings_growth_q_y": 0.972,
+ "bs_date": "2026-06-30",
+ "cash": 256000000.0,
+ "total_debt": 1632900000.0,
+ "current_debt": 46800000.0,
+ "lease_obligations": 140500000.0,
+ "equity": 3986900000.0,
+ "net_debt": 1376900000.0,
+ "ocf_ttm": 690600000.0,
+ "capex_ttm": -112900000.0,
+ "fcf_ttm": 577700000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -58000000.0,
+ "stock_issuance_ttm": -42600000.0,
+ "revenue_ttm": 4834000000.0,
+ "net_income_ttm": 598300000.0,
+ "ebitda_ttm": 1066200000.0,
+ "ebit_ttm": 834300000.0,
+ "interest_ttm": 74900000.0,
+ "revenue_yoy_last_q": 0.5276710621949954,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1471300000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1242000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1066700000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1054000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 963100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.32
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.87
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.73
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.74
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.67
+  }
+ ],
+ "eps_ttm": 3.66,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.1878172588832485,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.9701492537313432,
+ "eps_forward_growth": 0.8505519125683059,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3792564398830966
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3587761674718196
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.36458235680135
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3744781783681214
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3860450628179836
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3893100000.0,
+   "eps": 4.31,
+   "net_income": 710200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3006100000.0,
+   "eps": 1.97,
+   "net_income": 331800000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2668900000.0,
+   "eps": 3.37,
+   "net_income": 567100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2295100000.0,
+   "eps": 2.38,
+   "net_income": 399800000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.005658026125881843,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 46800000.0,
+ "gap_24m": -209200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2914087413243294,
+ "interest_coverage": 11.138851802403204,
+ "cash_to_debt": 0.15677628758650256,
+ "ev": 21673885797.575615,
+ "ev_to_sales": 4.483633801732647,
+ "ev_to_ebitda": 20.328161505885966,
+ "pe_ttm": 33.92442887777973,
+ "pe_trailing": 34.736843,
+ "p_sales": 4.198797,
+ "p_fcf": 35.134128089969906,
+ "p_book": 5.090919209806018
+}

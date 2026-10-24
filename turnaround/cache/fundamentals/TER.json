@@ -1,0 +1,154 @@
+{
+ "ticker": "TER",
+ "fetched": "2026-10-24",
+ "market_cap": 48285841591.72821,
+ "shares_out": 156340750.0,
+ "price": 308.8500061035156,
+ "long_name": "Teradyne, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 42.42445,
+ "pe_forward": 26.941189,
+ "peg": 0.57,
+ "p_sales_y": 10.816646,
+ "eps_trailing_y": 7.28,
+ "eps_forward": 11.46386,
+ "earnings_growth_y": 3.858,
+ "earnings_growth_q_y": 3.779,
+ "bs_date": "2026-06-30",
+ "cash": 354829000.0,
+ "total_debt": 100127000.0,
+ "current_debt": 17258000.0,
+ "lease_obligations": 100127000.0,
+ "equity": 3437162000.0,
+ "net_debt": -254702000.0,
+ "ocf_ttm": 1064951000.0,
+ "capex_ttm": -265019000.0,
+ "fcf_ttm": 799932000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -501460000.0,
+ "stock_issuance_ttm": -501460000.0,
+ "revenue_ttm": 4464031000.0,
+ "net_income_ttm": 1150219000.0,
+ "ebitda_ttm": 1490927000.0,
+ "ebit_ttm": 1358332000.0,
+ "interest_ttm": 11361000.0,
+ "revenue_yoy_last_q": 1.0389630513794939,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1328990000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1282494000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1083337000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 769210000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 651797000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.38
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.53
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.63
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.75
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.49
+  }
+ ],
+ "eps_ttm": 7.29,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.04518072289156638,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 3.8571428571428568,
+ "eps_forward_growth": 0.5725459533607682,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5979111957200581
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6089299443116303
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5720196023951919
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5841135710664188
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5722824744514012
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3190024000.0,
+   "eps": 3.47,
+   "net_income": 554047000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2819880000.0,
+   "eps": 3.32,
+   "net_income": 542372000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2676298000.0,
+   "eps": 2.73,
+   "net_income": 448752000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3155045000.0,
+   "eps": 4.22,
+   "net_income": 715501000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.017787827397776512,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 17258000.0,
+ "gap_24m": -337571000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.1708346552178611,
+ "interest_coverage": 119.5609541413608,
+ "cash_to_debt": 3.543789387477903,
+ "ev": 48031139591.72821,
+ "ev_to_sales": 10.75958916766667,
+ "ev_to_ebitda": 32.21562128241571,
+ "pe_ttm": 41.9796939467425,
+ "pe_trailing": 42.42445,
+ "p_sales": 10.816646,
+ "p_fcf": 60.36243279644796,
+ "p_book": 14.048171599630221
+}

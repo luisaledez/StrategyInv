@@ -1,40 +1,44 @@
 {
  "ticker": "PAYX",
- "fetched": "2026-10-15",
- "market_cap": 39885831445.46529,
+ "fetched": "2026-10-24",
+ "market_cap": 42019935358.82986,
  "shares_out": 355980473.0,
- "price": 112.04499816894531,
+ "price": 118.04000091552734,
  "long_name": "Paychex, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 21.798637,
- "pe_forward": 17.538382,
- "peg": 2.02,
- "p_sales_y": 6.0410194,
- "eps_trailing_y": 5.14,
+ "pe_trailing_y": 23.420635,
+ "pe_forward": 18.476778,
+ "peg": 2.2,
+ "p_sales_y": 6.364246,
+ "eps_trailing_y": 5.04,
  "eps_forward": 6.38856,
  "earnings_growth_y": 0.139,
  "earnings_growth_q_y": 0.12,
- "bs_date": "2026-05-31",
- "cash": 1124500000.0,
- "total_debt": 4608300000.0,
+ "bs_date": "2026-08-31",
+ "cash": 934200000.0,
+ "total_debt": 4620900000.0,
  "current_debt": 400000000.0,
- "lease_obligations": 52200000.0,
- "equity": 3735100000.0,
- "net_debt": 3483800000.0,
- "ocf_ttm": 2556700000.0,
- "capex_ttm": -234900000.0,
- "fcf_ttm": 2321800000.0,
+ "lease_obligations": 62900000.0,
+ "equity": 3705500000.0,
+ "net_debt": 3686700000.0,
+ "ocf_ttm": 2251800000.0,
+ "capex_ttm": -235100000.0,
+ "fcf_ttm": 2016700000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -611000000.0,
- "stock_issuance_ttm": -611000000.0,
- "revenue_ttm": 6512000000.0,
- "net_income_ttm": 1760100000.0,
- "ebitda_ttm": 3023000000.0,
- "ebit_ttm": 2580400000.0,
- "interest_ttm": 269500000.0,
- "revenue_yoy_last_q": 0.12485111749457012,
+ "buybacks_ttm": -450900000.0,
+ "stock_issuance_ttm": -450900000.0,
+ "revenue_ttm": 6602500000.0,
+ "net_income_ttm": 1806000000.0,
+ "ebitda_ttm": 3087900000.0,
+ "ebit_ttm": 2644800000.0,
+ "interest_ttm": 266400000.0,
+ "revenue_yoy_last_q": 0.0587662337662338,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 1630500000.0
+  },
   {
    "period": "2026-05-31",
    "value": 1605500000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-08-31",
    "value": 1540000000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 1427300000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 1.21
+  },
   {
    "period": "2026-05-31",
    "value": 1.17
@@ -72,19 +76,19 @@
   {
    "period": "2025-08-31",
    "value": 1.06
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.82
   }
  ],
- "eps_ttm": 4.890000000000001,
+ "eps_ttm": 5.04,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.06768558951965065,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.42682926829268286,
- "eps_forward_growth": 0.30645398773006116,
+ "eps_growth_last_q": 0.141509433962264,
+ "eps_forward_growth": 0.26757142857142857,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.7362158846979454
+  },
   {
    "period": "2026-05-31",
    "value": 0.740080971659919
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.7312987012987013
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.7240243816997127
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.013592233009708687,
+ "dilution_1y": -0.010874503173006644,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 400000000.0,
- "gap_24m": -724500000.0,
+ "gap_24m": -534200000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.1524313595765796,
- "interest_coverage": 9.574768089053803,
- "cash_to_debt": 0.24401623158214525,
- "ev": 43369631445.46529,
- "ev_to_sales": 6.659955688799952,
- "ev_to_ebitda": 14.346553571109919,
- "pe_ttm": 22.66111666693102,
- "pe_trailing": 21.798637,
- "p_sales": 6.0410194,
- "p_fcf": 17.17884031590373,
- "p_book": 10.678651560993089
+ "net_debt_to_ebitda": 1.193918196832799,
+ "interest_coverage": 9.927927927927929,
+ "cash_to_debt": 0.2021684087515419,
+ "ev": 45706635358.82986,
+ "ev_to_sales": 6.922625574983696,
+ "ev_to_ebitda": 14.801850888574712,
+ "pe_ttm": 23.26685235815607,
+ "pe_trailing": 23.420635,
+ "p_sales": 6.364246,
+ "p_fcf": 20.835987186408417,
+ "p_book": 11.339882703772732
 }

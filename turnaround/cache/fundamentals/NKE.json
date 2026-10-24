@@ -1,40 +1,44 @@
 {
  "ticker": "NKE",
- "fetched": "2026-10-15",
- "market_cap": 55632244909.87669,
+ "fetched": "2026-10-24",
+ "market_cap": 55402018188.4993,
  "shares_out": 1485308829.0,
- "price": 37.45500183105469,
+ "price": 37.29999923706055,
  "long_name": "NIKE, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Footwear & Accessories",
- "pe_trailing_y": 18.007214,
- "pe_forward": 22.60806,
- "peg": 1.5,
- "p_sales_y": 1.2122692,
+ "pe_trailing_y": 17.932693,
+ "pe_forward": 23.582073,
+ "peg": 3.15,
+ "p_sales_y": 1.2072524,
  "eps_trailing_y": 2.08,
- "eps_forward": 1.65671,
+ "eps_forward": 1.58171,
  "earnings_growth_y": -0.021,
  "earnings_growth_q_y": -0.021,
- "bs_date": "2026-05-31",
- "cash": 9027000000.0,
- "total_debt": 11033000000.0,
- "current_debt": 2478000000.0,
- "lease_obligations": 3091000000.0,
- "equity": 14865000000.0,
- "net_debt": 2006000000.0,
- "ocf_ttm": 2868000000.0,
- "capex_ttm": -684000000.0,
- "fcf_ttm": 2184000000.0,
+ "bs_date": "2026-08-31",
+ "cash": 8368000000.0,
+ "total_debt": 11072000000.0,
+ "current_debt": 2473000000.0,
+ "lease_obligations": 3179000000.0,
+ "equity": 15220000000.0,
+ "net_debt": 2704000000.0,
+ "ocf_ttm": 2781000000.0,
+ "capex_ttm": -676000000.0,
+ "fcf_ttm": 2105000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -146000000.0,
- "stock_issuance_ttm": -146000000.0,
- "revenue_ttm": 46398000000.0,
- "net_income_ttm": 3108000000.0,
- "ebitda_ttm": 4594000000.0,
- "ebit_ttm": 3797000000.0,
+ "buybacks_ttm": -20000000.0,
+ "stock_issuance_ttm": -20000000.0,
+ "revenue_ttm": 45891000000.0,
+ "net_income_ttm": 3093000000.0,
+ "ebitda_ttm": 4559000000.0,
+ "ebit_ttm": 3758000000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": -0.011264305668198582,
+ "revenue_yoy_last_q": -0.043259385665529004,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 11213000000.0
+  },
   {
    "period": "2026-05-31",
    "value": 10972000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-08-31",
    "value": 11720000000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 11097000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.48
+  },
   {
    "period": "2026-05-31",
    "value": 0.72
@@ -72,19 +76,19 @@
   {
    "period": "2025-08-31",
    "value": 0.49
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.14
   }
  ],
- "eps_ttm": 2.09,
+ "eps_ttm": 2.08,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.02777777777777779,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 4.142857142857142,
- "eps_forward_growth": -0.20731578947368423,
+ "eps_growth_last_q": -0.020408163265306145,
+ "eps_forward_growth": -0.2395625,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.42789619192009276
+  },
   {
    "period": "2026-05-31",
    "value": 0.4915238789646373
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.42175767918088736
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.4027214562494368
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.005080422086720882,
+ "dilution_1y": 0.0044655666641215674,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2478000000.0,
- "gap_24m": -6549000000.0,
+ "need_24m": 2473000000.0,
+ "gap_24m": -5895000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.4366565084893339,
+ "net_debt_to_ebitda": 0.5931125246764641,
  "interest_coverage": null,
- "cash_to_debt": 0.8181818181818182,
- "ev": 57638244909.87669,
- "ev_to_sales": 1.2422570996568105,
- "ev_to_ebitda": 12.54641813449645,
- "pe_ttm": 17.899692699445527,
- "pe_trailing": 18.007214,
- "p_sales": 1.2122692,
- "p_fcf": 25.4726396107494,
- "p_book": 3.7424988166751896
+ "cash_to_debt": 0.7557803468208093,
+ "ev": 58106018188.4993,
+ "ev_to_sales": 1.2661745917173148,
+ "ev_to_ebitda": 12.745342879688375,
+ "pe_ttm": 17.91206536970556,
+ "pe_trailing": 17.932693,
+ "p_sales": 1.2072524,
+ "p_fcf": 26.31924854560537,
+ "p_book": 3.6400800386661825
 }

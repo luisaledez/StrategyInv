@@ -1,0 +1,154 @@
+{
+ "ticker": "ONTO",
+ "fetched": "2026-10-24",
+ "market_cap": 9750071034.52948,
+ "shares_out": 49074247.0,
+ "price": 198.67999267578125,
+ "long_name": "Onto Innovation Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 74.69173,
+ "pe_forward": 16.985697,
+ "peg": 0.56,
+ "p_sales_y": 8.704356,
+ "eps_trailing_y": 2.66,
+ "eps_forward": 11.6969,
+ "earnings_growth_y": 0.754,
+ "earnings_growth_q_y": 0.772,
+ "bs_date": "2026-06-30",
+ "cash": 1882150000.0,
+ "total_debt": 1471731000.0,
+ "current_debt": 6217000.0,
+ "lease_obligations": 17475000.0,
+ "equity": 1922658000.0,
+ "net_debt": -410419000.0,
+ "ocf_ttm": 266221000.0,
+ "capex_ttm": -13750000.0,
+ "fcf_ttm": 252471000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -204979000.0,
+ "stock_issuance_ttm": -204979000.0,
+ "revenue_ttm": 1120137000.0,
+ "net_income_ttm": 132605000.0,
+ "ebitda_ttm": 238978000.0,
+ "ebit_ttm": 154657000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.3530483404772138,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 343129000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 291949000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 266866000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 218193000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 253597000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.21
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.57
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.69
+  }
+ ],
+ "eps_ttm": 2.6599999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3152709359605911,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.7536231884057971,
+ "eps_forward_growth": 3.3973308270676696,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5340673624205474
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5014197685212143
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4638732547420803
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5069960997832195
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.48155932443995786
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1005263000.0,
+   "eps": 2.78,
+   "net_income": 136759000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 987321000.0,
+   "eps": 4.06,
+   "net_income": 201670000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 815868000.0,
+   "eps": 2.46,
+   "net_income": 121159000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1005183000.0,
+   "eps": 4.49,
+   "net_income": 223334000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.001973642655529906,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6217000.0,
+ "gap_24m": -1875933000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.7173923959527655,
+ "interest_coverage": null,
+ "cash_to_debt": 1.278868217085867,
+ "ev": 9339652034.52948,
+ "ev_to_sales": 8.33795512024822,
+ "ev_to_ebitda": 39.08163945856723,
+ "pe_ttm": 73.5271749521472,
+ "pe_trailing": 74.69173,
+ "p_sales": 8.704356,
+ "p_fcf": 38.61857811205834,
+ "p_book": 5.071141635449196
+}

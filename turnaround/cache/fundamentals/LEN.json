@@ -1,40 +1,44 @@
 {
  "ticker": "LEN",
- "fetched": "2026-10-15",
- "market_cap": 18529811700.95072,
+ "fetched": "2026-10-24",
+ "market_cap": 20202487860.271652,
  "shares_out": 237900239.0,
- "price": 77.88899993896484,
+ "price": 84.91999816894531,
  "long_name": "Lennar Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Residential Construction",
- "pe_trailing_y": 15.036487,
- "pe_forward": 14.813032,
+ "pe_trailing_y": 16.083332,
+ "pe_forward": 16.263618,
  "peg": 11.3,
- "p_sales_y": 0.57954425,
- "eps_trailing_y": 5.18,
- "eps_forward": 5.25814,
+ "p_sales_y": 0.63185936,
+ "eps_trailing_y": 5.28,
+ "eps_forward": 5.22147,
  "earnings_growth_y": -0.482,
  "earnings_growth_q_y": -0.52,
- "bs_date": "2026-05-31",
- "cash": 2130420000.0,
- "total_debt": 6011233000.0,
+ "bs_date": "2026-08-31",
+ "cash": 1465255000.0,
+ "total_debt": 5881699000.0,
  "current_debt": null,
  "lease_obligations": null,
- "equity": 21620638000.0,
- "net_debt": 3880813000.0,
- "ocf_ttm": 882991000.0,
+ "equity": 21558959000.0,
+ "net_debt": 4416444000.0,
+ "ocf_ttm": 937303000.0,
  "capex_ttm": -166218000.0,
- "fcf_ttm": 716773000.0,
+ "fcf_ttm": 811269000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1249268000.0,
- "stock_issuance_ttm": -1249268000.0,
- "revenue_ttm": 32737235000.0,
- "net_income_ttm": 1615359000.0,
- "ebitda_ttm": 2177897000.0,
- "ebit_ttm": 2040036000.0,
+ "buybacks_ttm": -992754000.0,
+ "stock_issuance_ttm": -992754000.0,
+ "revenue_ttm": 31973076000.0,
+ "net_income_ttm": 1308268000.0,
+ "ebitda_ttm": 1939086000.0,
+ "ebit_ttm": 1799492000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": -0.05223872223486192,
+ "revenue_yoy_last_q": -0.08673494752378985,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 8046119000.0
+  },
   {
    "period": "2026-05-31",
    "value": 7939872000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-08-31",
    "value": 8810278000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 8377502000.0
   }
  ],
  "eps_quarters": [
@@ -83,8 +83,12 @@
  "eps_growth_yoy": -0.4423480083857442,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": -0.48034934497816595,
- "eps_forward_growth": -0.006022684310018955,
+ "eps_forward_growth": -0.012954631379962223,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.07687395625145489
+  },
   {
    "period": "2026-05-31",
    "value": 0.06989583711173178
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.10131292111327247
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.09602265687313474
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.06992746403721328,
+ "dilution_1y": -0.06713303876856702,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -2130420000.0,
+ "gap_24m": -1465255000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.7819084189931846,
+ "net_debt_to_ebitda": 2.2775905761786737,
  "interest_coverage": null,
- "cash_to_debt": 0.35440649197926616,
- "ev": 22410624700.95072,
- "ev_to_sales": 0.6845607059041706,
- "ev_to_ebitda": 10.290029648303259,
- "pe_ttm": 11.471017712440839,
- "pe_trailing": 15.036487,
- "p_sales": 0.57954425,
- "p_fcf": 25.851715537486374,
- "p_book": 0.8570427801876486
+ "cash_to_debt": 0.24912104478654892,
+ "ev": 24618931860.271652,
+ "ev_to_sales": 0.7699894705242515,
+ "ev_to_ebitda": 12.696152651440757,
+ "pe_ttm": 15.442163119690807,
+ "pe_trailing": 16.083332,
+ "p_sales": 0.63185936,
+ "p_fcf": 24.90232938799788,
+ "p_book": 0.9370808609205877
 }

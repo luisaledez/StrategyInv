@@ -1,40 +1,44 @@
 {
  "ticker": "COST",
- "fetched": "2026-10-15",
- "market_cap": 437950058361.81006,
+ "fetched": "2026-10-24",
+ "market_cap": 444600541684.2563,
  "shares_out": 443129349.0,
- "price": 988.31201171875,
+ "price": 1003.3200073242188,
  "long_name": "Costco Wholesale Corporation",
  "sector_y": "Consumer Defensive",
  "industry_y": "Discount Stores",
- "pe_trailing_y": 46.269287,
- "pe_forward": 39.506912,
- "peg": 4.92,
- "p_sales_y": 1.4446454,
- "eps_trailing_y": 21.36,
- "eps_forward": 25.01618,
+ "pe_trailing_y": 48.32948,
+ "pe_forward": 40.090595,
+ "peg": 5.03,
+ "p_sales_y": 1.4665831,
+ "eps_trailing_y": 20.76,
+ "eps_forward": 25.02632,
  "earnings_growth_y": 0.15,
  "earnings_growth_q_y": 0.149,
- "bs_date": "2026-05-31",
- "cash": 19996000000.0,
- "total_debt": 8136000000.0,
- "current_debt": null,
- "lease_obligations": 2466000000.0,
- "equity": 33509000000.0,
- "net_debt": -11860000000.0,
- "ocf_ttm": 15000000000.0,
- "capex_ttm": -6194000000.0,
- "fcf_ttm": 8806000000.0,
+ "bs_date": "2026-08-31",
+ "cash": 21301000000.0,
+ "total_debt": 8576000000.0,
+ "current_debt": 2248000000.0,
+ "lease_obligations": 2414000000.0,
+ "equity": 35803000000.0,
+ "net_debt": -12725000000.0,
+ "ocf_ttm": 15817000000.0,
+ "capex_ttm": -6435000000.0,
+ "fcf_ttm": 9382000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -883000000.0,
- "stock_issuance_ttm": -883000000.0,
- "revenue_ttm": 293587000000.0,
- "net_income_ttm": 8838000000.0,
- "ebitda_ttm": 14463000000.0,
- "ebit_ttm": 11898000000.0,
- "interest_ttm": 146000000.0,
- "revenue_yoy_last_q": 0.11584526540621787,
+ "buybacks_ttm": -848000000.0,
+ "stock_issuance_ttm": -848000000.0,
+ "revenue_ttm": 303154000000.0,
+ "net_income_ttm": 9226000000.0,
+ "ebitda_ttm": 15070000000.0,
+ "ebit_ttm": 12396000000.0,
+ "interest_ttm": 145000000.0,
+ "revenue_yoy_last_q": 0.11104275964529453,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 95723000000.0
+  },
   {
    "period": "2026-05-31",
    "value": 70527000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-08-31",
    "value": 86156000000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 63205000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 6.75
+  },
   {
    "period": "2026-05-31",
    "value": 4.93
@@ -72,19 +76,19 @@
   {
    "period": "2025-08-31",
    "value": 5.87
-  },
-  {
-   "period": "2025-05-31",
-   "value": 4.28
   }
  ],
- "eps_ttm": 19.88,
+ "eps_ttm": 20.759999999999998,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.0996376811594204,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.1518691588785046,
- "eps_forward_growth": 0.2583591549295774,
+ "eps_growth_last_q": 0.14991482112436105,
+ "eps_forward_growth": 0.20550674373795763,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.12736750833133104
+  },
   {
    "period": "2026-05-31",
    "value": 0.12772413401959534
@@ -100,13 +104,15 @@
   {
    "period": "2025-08-31",
    "value": 0.1290565950136961
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.12987896527173484
   }
  ],
  "annual": [
+  {
+   "year": "2026",
+   "revenue": 303154000000.0,
+   "eps": null,
+   "net_income": 9226000000.0
+  },
   {
    "year": "2025",
    "revenue": 275235000000.0,
@@ -124,31 +130,25 @@
    "revenue": 242290000000.0,
    "eps": 14.16,
    "net_income": 6292000000.0
-  },
-  {
-   "year": "2022",
-   "revenue": 226954000000.0,
-   "eps": 13.14,
-   "net_income": 5844000000.0
   }
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 3.873931831543942e-06,
+ "dilution_1y": 6.542775084206198e-05,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 0.0,
- "gap_24m": -19996000000.0,
+ "need_24m": 2248000000.0,
+ "gap_24m": -19053000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.8200235082624628,
- "interest_coverage": 81.4931506849315,
- "cash_to_debt": 2.4577187807276304,
- "ev": 426090058361.81006,
- "ev_to_sales": 1.4513246784149505,
- "ev_to_ebitda": 29.46069683757243,
- "pe_ttm": 49.55307290810252,
- "pe_trailing": 46.269287,
- "p_sales": 1.4446454,
- "p_fcf": 49.733143125347496,
- "p_book": 13.069624828010685
+ "net_debt_to_ebitda": -0.8443928334439283,
+ "interest_coverage": 85.48965517241379,
+ "cash_to_debt": 2.4837919776119404,
+ "ev": 431875541684.2563,
+ "ev_to_sales": 1.424607762669324,
+ "ev_to_ebitda": 28.657965606121852,
+ "pe_ttm": 48.18995682682162,
+ "pe_trailing": 48.32948,
+ "p_sales": 1.4665831,
+ "p_fcf": 47.38867423622429,
+ "p_book": 12.417968932331265
 }

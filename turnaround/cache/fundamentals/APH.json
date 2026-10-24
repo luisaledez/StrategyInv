@@ -1,0 +1,154 @@
+{
+ "ticker": "APH",
+ "fetched": "2026-10-24",
+ "market_cap": 182703479627.61945,
+ "shares_out": 2465966914.0,
+ "price": 74.08999633789062,
+ "long_name": "Amphenol Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 37.045,
+ "pe_forward": 22.219688,
+ "peg": 0.85,
+ "p_sales_y": 6.2976007,
+ "eps_trailing_y": 2.0,
+ "eps_forward": 3.33443,
+ "earnings_growth_y": 0.593,
+ "earnings_growth_q_y": 0.621,
+ "bs_date": "2026-06-30",
+ "cash": 4583100000.0,
+ "total_debt": 18748900000.0,
+ "current_debt": 2109600000.0,
+ "lease_obligations": null,
+ "equity": 13976800000.0,
+ "net_debt": 14165800000.0,
+ "ocf_ttm": 5731300000.0,
+ "capex_ttm": -1099600000.0,
+ "fcf_ttm": 4631700000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -750300000.0,
+ "stock_issuance_ttm": -750300000.0,
+ "revenue_ttm": 25903800000.0,
+ "net_income_ttm": 4465500000.0,
+ "ebitda_ttm": 7954600000.0,
+ "ebit_ttm": 6782700000.0,
+ "interest_ttm": 499200000.0,
+ "revenue_yoy_last_q": 0.5838910829349409,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 7620100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6439000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6194400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5650300000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 4811000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.685
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.465
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.485
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.43
+  }
+ ],
+ "eps_ttm": 1.995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.7395833333333333,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5930232558139537,
+ "eps_forward_growth": 0.671393483709273,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.3674754924476057
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3822177356732412
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38087627534547336
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3633966338070545
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.34171689877364375
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 23094700000.0,
+   "eps": 1.67,
+   "net_income": 4270300000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 15222700000.0,
+   "eps": 0.96,
+   "net_income": 2424000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 12554700000.0,
+   "eps": 0.7775,
+   "net_income": 1928000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 12623000000.0,
+   "eps": 0.765,
+   "net_income": 1902300000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.010245061880173711,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2109600000.0,
+ "gap_24m": -2473500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.7808312171573681,
+ "interest_coverage": 13.587139423076923,
+ "cash_to_debt": 0.24444634085199665,
+ "ev": 196869279627.61945,
+ "ev_to_sales": 7.60001542737434,
+ "ev_to_ebitda": 24.74911115928135,
+ "pe_ttm": 40.914450705994724,
+ "pe_trailing": 37.045,
+ "p_sales": 6.2976007,
+ "p_fcf": 39.44631120919305,
+ "p_book": 13.071910568057026
+}

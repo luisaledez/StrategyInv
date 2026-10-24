@@ -1,18 +1,18 @@
 {
  "ticker": "PSKY",
- "fetched": "2026-09-27",
- "market_cap": 11174580001.638836,
- "shares_out": 1121945779.0,
- "price": 9.960000038146973,
- "long_name": "Paramount Skydance Corporation",
+ "fetched": "2026-10-16",
+ "market_cap": 8164021563.042395,
+ "shares_out": 1124520841.0,
+ "price": 7.260000228881836,
+ "long_name": "Paramount Skydance Corp",
  "sector_y": "Communication Services",
  "industry_y": "Entertainment",
- "pe_trailing_y": 332.0,
- "pe_forward": 11.775277,
- "peg": 0.72,
- "p_sales_y": 0.38387424,
- "eps_trailing_y": 0.03,
- "eps_forward": 0.84584,
+ "pe_trailing_y": null,
+ "pe_forward": 11.745832,
+ "peg": 1.1,
+ "p_sales_y": 0.37760875,
+ "eps_trailing_y": -0.02,
+ "eps_forward": 0.83221,
  "earnings_growth_y": -0.541,
  "earnings_growth_q_y": -0.281,
  "bs_date": "2026-06-30",
@@ -33,7 +33,7 @@
  "ebitda_ttm": 2944000000.0,
  "ebit_ttm": 2043000000.0,
  "interest_ttm": 924000000.0,
- "revenue_yoy_last_q": -0.13414328657314634,
+ "revenue_yoy_last_q": null,
  "revenue_quarters": [
   {
    "period": "2026-06-30",
@@ -50,10 +50,6 @@
   {
    "period": "2025-03-31",
    "value": 7192000000.0
-  },
-  {
-   "period": "2024-12-31",
-   "value": 7984000000.0
   }
  ],
  "eps_quarters": [
@@ -100,10 +96,6 @@
   {
    "period": "2025-03-31",
    "value": 0.3102057842046719
-  },
-  {
-   "period": "2024-12-31",
-   "value": 0.28707414829659317
   }
  ],
  "annual": [
@@ -143,12 +135,12 @@
  "net_debt_to_ebitda": 4.950747282608695,
  "interest_coverage": 2.211038961038961,
  "cash_to_debt": 0.10041970127144798,
- "ev": 25749580001.638836,
- "ev_to_sales": 0.9098470019306327,
- "ev_to_ebitda": 8.746460598382757,
- "pe_ttm": 26.733444979997216,
- "pe_trailing": 332.0,
- "p_sales": 0.38387424,
- "p_fcf": 18.907918784498875,
- "p_book": 0.9493314078361087
+ "ev": 22739021563.042397,
+ "ev_to_sales": 0.8034706039730891,
+ "ev_to_ebitda": 7.7238524330986404,
+ "pe_ttm": 19.531152064694723,
+ "pe_trailing": null,
+ "p_sales": 0.37760875,
+ "p_fcf": 13.81391127418341,
+ "p_book": 0.6935707724953185
 }

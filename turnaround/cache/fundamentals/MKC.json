@@ -1,40 +1,44 @@
 {
  "ticker": "MKC",
- "fetched": "2026-10-15",
- "market_cap": 12453649369.459019,
+ "fetched": "2026-10-24",
+ "market_cap": 12947382442.08813,
  "shares_out": 269064479.0,
- "price": 46.28499984741211,
+ "price": 48.119998931884766,
  "long_name": "McCormick & Company, Incorporated",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
- "pe_trailing_y": 8.33964,
- "pe_forward": 14.368021,
- "peg": 2.93,
- "p_sales_y": 1.6203663,
- "eps_trailing_y": 5.55,
+ "pe_trailing_y": 8.701627,
+ "pe_forward": 14.937651,
+ "peg": 3.15,
+ "p_sales_y": 1.6846068,
+ "eps_trailing_y": 5.53,
  "eps_forward": 3.22139,
  "earnings_growth_y": -0.571,
  "earnings_growth_q_y": -0.567,
- "bs_date": "2026-05-31",
- "cash": 331200000.0,
- "total_debt": 4933500000.0,
- "current_debt": 1336100000.0,
+ "bs_date": "2026-08-31",
+ "cash": 331100000.0,
+ "total_debt": 5018200000.0,
+ "current_debt": 2112100000.0,
  "lease_obligations": 167700000.0,
- "equity": 6995600000.0,
- "net_debt": 4602300000.0,
- "ocf_ttm": 1231500000.0,
- "capex_ttm": -211600000.0,
- "fcf_ttm": 1019900000.0,
+ "equity": 7003300000.0,
+ "net_debt": 4687100000.0,
+ "ocf_ttm": 1140800000.0,
+ "capex_ttm": -214900000.0,
+ "fcf_ttm": 925900000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -27600000.0,
- "stock_issuance_ttm": -27600000.0,
- "revenue_ttm": 7385800000.0,
- "net_income_ttm": 1624500000.0,
- "ebitda_ttm": 1390700000.0,
- "ebit_ttm": 1133800000.0,
- "interest_ttm": 206700000.0,
- "revenue_yoy_last_q": 0.1669780054233203,
+ "buybacks_ttm": -16500000.0,
+ "stock_issuance_ttm": -16500000.0,
+ "revenue_ttm": 7685700000.0,
+ "net_income_ttm": 1496600000.0,
+ "ebitda_ttm": 1318500000.0,
+ "ebit_ttm": 1046200000.0,
+ "interest_ttm": 212500000.0,
+ "revenue_yoy_last_q": 0.17386515160299143,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 2024800000.0
+  },
   {
    "period": "2026-05-31",
    "value": 1936600000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-08-31",
    "value": 1724900000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 1659500000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.36
+  },
   {
    "period": "2026-05-31",
    "value": 0.56
@@ -72,19 +76,19 @@
   {
    "period": "2025-05-31",
    "value": 0.65
-  },
-  {
-   "period": "2025-02-28",
-   "value": 0.6
   }
  ],
- "eps_ttm": 5.82,
+ "eps_ttm": 5.53,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.0034246575342467,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.06666666666666654,
- "eps_forward_growth": -0.44649656357388323,
+ "eps_growth_last_q": -0.44615384615384623,
+ "eps_forward_growth": -0.4174701627486438,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.3925819834057685
+  },
   {
    "period": "2026-05-31",
    "value": 0.40183827326241867
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.3739926952287089
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.37529376318168123
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0017984535264876644,
+ "dilution_1y": 0.002566626208079459,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1336100000.0,
- "gap_24m": 1004900000.0,
+ "need_24m": 2112100000.0,
+ "gap_24m": 1781000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.3093406198317394,
- "interest_coverage": 5.485244315432995,
- "cash_to_debt": 0.06713286713286713,
- "ev": 17055949369.459019,
- "ev_to_sales": 2.3092893619457633,
- "ev_to_ebitda": 12.26429091066299,
- "pe_ttm": 7.666143040602658,
- "pe_trailing": 8.33964,
- "p_sales": 1.6203663,
- "p_fcf": 12.21065728939996,
- "p_book": 1.780211757313028
+ "net_debt_to_ebitda": 3.5548729616989,
+ "interest_coverage": 4.923294117647059,
+ "cash_to_debt": 0.0659798334064007,
+ "ev": 17634482442.08813,
+ "ev_to_sales": 2.294453653159521,
+ "ev_to_ebitda": 13.37465486696104,
+ "pe_ttm": 8.651197676124637,
+ "pe_trailing": 8.701627,
+ "p_sales": 1.6846068,
+ "p_fcf": 13.983564577263344,
+ "p_book": 1.8487545074590737
 }

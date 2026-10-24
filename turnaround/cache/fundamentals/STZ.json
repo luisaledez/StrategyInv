@@ -1,40 +1,44 @@
 {
  "ticker": "STZ",
- "fetched": "2026-10-15",
- "market_cap": 21922998217.431335,
+ "fetched": "2026-10-24",
+ "market_cap": 23468013590.164795,
  "shares_out": 169224220.0,
- "price": 129.5500030517578,
+ "price": 138.67999267578125,
  "long_name": "Constellation Brands, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Beverages - Brewers",
- "pe_trailing_y": 11.566965,
- "pe_forward": 10.6792345,
- "peg": 1.63,
- "p_sales_y": 2.3806834,
- "eps_trailing_y": 11.2,
- "eps_forward": 12.13102,
+ "pe_trailing_y": 12.415398,
+ "pe_forward": 11.463469,
+ "peg": 1.77,
+ "p_sales_y": 2.5484612,
+ "eps_trailing_y": 11.17,
+ "eps_forward": 12.09756,
  "earnings_growth_y": 0.253,
  "earnings_growth_q_y": 0.214,
- "bs_date": "2026-05-31",
- "cash": 96600000.0,
- "total_debt": 10533800000.0,
- "current_debt": 1438900000.0,
+ "bs_date": "2026-08-31",
+ "cash": 98500000.0,
+ "total_debt": 10315700000.0,
+ "current_debt": 1219500000.0,
  "lease_obligations": 634100000.0,
- "equity": 8255600000.0,
- "net_debt": 10437200000.0,
- "ocf_ttm": 2693600000.0,
- "capex_ttm": -859400000.0,
- "fcf_ttm": 1834200000.0,
+ "equity": 8586900000.0,
+ "net_debt": 10217200000.0,
+ "ocf_ttm": 2658300000.0,
+ "capex_ttm": -819000000.0,
+ "fcf_ttm": 1839300000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -841800000.0,
- "stock_issuance_ttm": -841800000.0,
- "revenue_ttm": 9056700000.0,
- "net_income_ttm": 1824400000.0,
- "ebitda_ttm": 3286200000.0,
- "ebit_ttm": 2875100000.0,
- "interest_ttm": 348700000.0,
- "revenue_yoy_last_q": -0.03272365805168986,
+ "buybacks_ttm": -774800000.0,
+ "stock_issuance_ttm": -774800000.0,
+ "revenue_ttm": 9208700000.0,
+ "net_income_ttm": 1924200000.0,
+ "ebitda_ttm": 3223100000.0,
+ "ebit_ttm": 2817900000.0,
+ "interest_ttm": 345000000.0,
+ "revenue_yoy_last_q": 0.061265618702136315,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 2633000000.0
+  },
   {
    "period": "2026-05-31",
    "value": 2432700000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-08-31",
    "value": 2481000000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 2515000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 3.32
+  },
   {
    "period": "2026-05-31",
    "value": 3.79
@@ -72,19 +76,19 @@
   {
    "period": "2025-08-31",
    "value": 2.65
-  },
-  {
-   "period": "2025-05-31",
-   "value": 2.9
   }
  ],
- "eps_ttm": 10.48,
+ "eps_ttm": 11.149999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": 0.306896551724138,
- "eps_forward_growth": 0.15754007633587785,
+ "eps_growth_last_q": 0.2528301886792452,
+ "eps_forward_growth": 0.08498295964125568,
  "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.529054310672237
+  },
   {
    "period": "2026-05-31",
    "value": 0.5428536194351955
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.52801289802499
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.5036182902584493
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": -0.029597228074118576,
+ "dilution_1y": -0.029758323992019164,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1438900000.0,
- "gap_24m": 1342300000.0,
+ "need_24m": 1219500000.0,
+ "gap_24m": 1121000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.176069624490293,
- "interest_coverage": 8.245196443934613,
- "cash_to_debt": 0.009170479788870114,
- "ev": 32360198217.431335,
- "ev_to_sales": 3.5730672560017815,
- "ev_to_ebitda": 9.847300291349077,
- "pe_ttm": 12.01655241034386,
- "pe_trailing": 11.566965,
- "p_sales": 2.3806834,
- "p_fcf": 11.952348826426418,
- "p_book": 2.6555305752981413
+ "net_debt_to_ebitda": 3.1699916229716734,
+ "interest_coverage": 8.167826086956522,
+ "cash_to_debt": 0.009548552206830365,
+ "ev": 33685213590.164795,
+ "ev_to_sales": 3.657977085817194,
+ "ev_to_ebitda": 10.451184756962178,
+ "pe_ttm": 12.196244460120983,
+ "pe_trailing": 12.415398,
+ "p_sales": 2.5484612,
+ "p_fcf": 12.75920925904681,
+ "p_book": 2.7330018505123848
 }

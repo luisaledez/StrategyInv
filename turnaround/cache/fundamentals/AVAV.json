@@ -1,18 +1,18 @@
 {
  "ticker": "AVAV",
- "fetched": "2026-10-15",
- "market_cap": 6140157200.130753,
+ "fetched": "2026-10-24",
+ "market_cap": 6263651521.5,
  "shares_out": 50820702.0,
- "price": 120.81999969482422,
+ "price": 123.25,
  "long_name": "AeroVironment, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
  "pe_trailing_y": null,
- "pe_forward": 27.23054,
+ "pe_forward": 27.960146,
  "peg": 1.57,
- "p_sales_y": 3.0660026,
- "eps_trailing_y": -3.84,
- "eps_forward": 4.43693,
+ "p_sales_y": 3.1276677,
+ "eps_trailing_y": -4.05,
+ "eps_forward": 4.40806,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
  "bs_date": "2026-07-31",
@@ -67,7 +67,7 @@
   },
   {
    "period": "2026-01-31",
-   "value": -4.9
+   "value": -3.15
   },
   {
    "period": "2025-10-31",
@@ -78,7 +78,7 @@
    "value": -0.06
   }
  ],
- "eps_ttm": -4.090000000000001,
+ "eps_ttm": -2.34,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -4.483870967741936,
  "eps_growth_basis": "fiscal year",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -25.07375833951075,
  "interest_coverage": null,
  "cash_to_debt": 0.6819597025468281,
- "ev": 6410753200.130753,
- "ev_to_sales": 3.201120710081323,
+ "ev": 6534247521.5,
+ "ev_to_sales": 3.2627858869133486,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 3.0660026,
+ "p_sales": 3.1276677,
  "p_fcf": null,
- "p_book": 1.3967425794560697
+ "p_book": 1.4248346577783946
 }

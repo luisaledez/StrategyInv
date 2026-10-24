@@ -1,18 +1,18 @@
 {
  "ticker": "ACN",
- "fetched": "2026-10-15",
- "market_cap": 138066375644.58142,
+ "fetched": "2026-10-24",
+ "market_cap": 152600000733.33142,
  "shares_out": 611942109.0,
- "price": 225.6199951171875,
+ "price": 249.3699951171875,
  "long_name": "Accenture plc",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
- "pe_trailing_y": 16.528938,
- "pe_forward": 14.201611,
- "peg": 2.04,
- "p_sales_y": 1.861148,
- "eps_trailing_y": 13.65,
- "eps_forward": 15.88693,
+ "pe_trailing_y": 18.390118,
+ "pe_forward": 15.695948,
+ "peg": 2.37,
+ "p_sales_y": 2.0570626,
+ "eps_trailing_y": 13.56,
+ "eps_forward": 15.88754,
  "earnings_growth_y": 0.464,
  "earnings_growth_q_y": 0.408,
  "bs_date": "2026-05-31",
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 3.29
+  },
+  {
    "period": "2026-05-31",
    "value": 3.8
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-08-31",
    "value": 2.25
-  },
-  {
-   "period": "2025-05-31",
-   "value": 3.49
   }
  ],
- "eps_ttm": 12.52,
+ "eps_ttm": 13.559999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.062062937062937085,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.08882521489971329,
- "eps_forward_growth": 0.2689241214057507,
+ "eps_growth_last_q": 0.4622222222222223,
+ "eps_forward_growth": 0.17164749262536882,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -0.14458179070866606,
  "interest_coverage": 41.0625500810702,
  "cash_to_debt": 1.2125218595813212,
- "ev": 136283578644.58142,
- "ev_to_sales": 1.864329266329247,
- "ev_to_ebitda": 11.052365381262646,
- "pe_ttm": 17.724104136380905,
- "pe_trailing": 16.528938,
- "p_sales": 1.861148,
- "p_fcf": 10.973597155213309,
- "p_book": 4.329379906414374
+ "ev": 150817203733.33142,
+ "ev_to_sales": 2.063146048720006,
+ "ev_to_ebitda": 12.231017544587957,
+ "pe_ttm": 19.58984069497096,
+ "pe_trailing": 18.390118,
+ "p_sales": 2.0570626,
+ "p_fcf": 12.128738268929528,
+ "p_book": 4.785114216327531
 }

@@ -1,18 +1,18 @@
 {
  "ticker": "AXON",
- "fetched": "2026-10-15",
- "market_cap": 33245598921.26587,
+ "fetched": "2026-10-24",
+ "market_cap": 34149771746.882935,
  "shares_out": 81237415.0,
- "price": 409.239990234375,
+ "price": 420.3699951171875,
  "long_name": "Axon Enterprise, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
- "pe_trailing_y": 171.94957,
- "pe_forward": 38.81116,
- "peg": 1.47,
- "p_sales_y": 10.327611,
- "eps_trailing_y": 2.38,
- "eps_forward": 10.54439,
+ "pe_trailing_y": 174.42738,
+ "pe_forward": 39.997566,
+ "peg": 1.51,
+ "p_sales_y": 10.608488,
+ "eps_trailing_y": 2.41,
+ "eps_forward": 10.50989,
  "earnings_growth_y": -0.182,
  "earnings_growth_q_y": -0.185,
  "bs_date": "2026-06-30",
@@ -83,7 +83,7 @@
  "eps_growth_yoy": -0.6854166666666667,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": -0.18181818181818188,
- "eps_forward_growth": 3.3752655601659756,
+ "eps_forward_growth": 3.36095020746888,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -122,7 +122,7 @@
   {
    "year": "2023",
    "revenue": 1560699000.0,
-   "eps": 2.33,
+   "eps": 2.31,
    "net_income": 175783000.0
   },
   {
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 2.808673111434416,
  "interest_coverage": 2.593107665429133,
  "cash_to_debt": 0.37771608557520553,
- "ev": 34386540921.26587,
- "ev_to_sales": 10.682038956014049,
- "ev_to_ebitda": 84.64983573292831,
- "pe_ttm": 166.81351002652244,
- "pe_trailing": 171.94957,
- "p_sales": 10.327611,
- "p_fcf": 249.60657487886562,
- "p_book": 9.04756134480776
+ "ev": 35290713746.882935,
+ "ev_to_sales": 10.962916563573513,
+ "ev_to_ebitda": 86.87565080801568,
+ "pe_ttm": 171.35029828138232,
+ "pe_trailing": 174.42738,
+ "p_sales": 10.608488,
+ "p_fcf": 256.39506687250685,
+ "p_book": 9.293625767513822
 }

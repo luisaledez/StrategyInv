@@ -1,40 +1,44 @@
 {
  "ticker": "MTN",
- "fetched": "2026-10-15",
- "market_cap": 5479461575.21994,
+ "fetched": "2026-10-24",
+ "market_cap": 5223065888.860718,
  "shares_out": 35635298.0,
- "price": 153.76499938964844,
+ "price": 146.57000732421875,
  "long_name": "Vail Resorts, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Resorts & Casinos",
- "pe_trailing_y": 37.595352,
- "pe_forward": 23.206974,
+ "pe_trailing_y": 35.318073,
+ "pe_forward": 22.12765,
  "peg": 3.33,
- "p_sales_y": 1.9306087,
- "eps_trailing_y": 4.09,
- "eps_forward": 6.62581,
+ "p_sales_y": 1.8402715,
+ "eps_trailing_y": 4.15,
+ "eps_forward": 6.62384,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-04-30",
- "cash": 371374000.0,
- "total_debt": 3257489000.0,
- "current_debt": 109454000.0,
- "lease_obligations": 234348000.0,
- "equity": 551727000.0,
- "net_debt": 2886115000.0,
- "ocf_ttm": 411106000.0,
- "capex_ttm": -237581000.0,
- "fcf_ttm": 173525000.0,
+ "bs_date": "2026-07-31",
+ "cash": 268461000.0,
+ "total_debt": 3412306000.0,
+ "current_debt": 119598000.0,
+ "lease_obligations": 225938000.0,
+ "equity": 240527000.0,
+ "net_debt": 3143845000.0,
+ "ocf_ttm": 479626000.0,
+ "capex_ttm": -231625000.0,
+ "fcf_ttm": 248001000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -245000000.0,
- "stock_issuance_ttm": -245000000.0,
- "revenue_ttm": 2831425000.0,
- "net_income_ttm": 152230000.0,
- "ebitda_ttm": 738940000.0,
- "ebit_ttm": 437175000.0,
- "interest_ttm": 197870000.0,
- "revenue_yoy_last_q": -0.06976376202377665,
+ "buybacks_ttm": -45000000.0,
+ "stock_issuance_ttm": -45000000.0,
+ "revenue_ttm": 2838204000.0,
+ "net_income_ttm": 147535000.0,
+ "ebitda_ttm": 738189000.0,
+ "ebit_ttm": 432579000.0,
+ "interest_ttm": 205623000.0,
+ "revenue_yoy_last_q": 0.024988112308276467,
  "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 278068000.0
+  },
   {
    "period": "2026-04-30",
    "value": 1205175000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-07-31",
    "value": 271289000.0
-  },
-  {
-   "period": "2025-04-30",
-   "value": 1295558000.0
   }
  ],
  "eps_quarters": [
@@ -80,11 +80,15 @@
  ],
  "eps_ttm": 4.4,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 0.24052718286655672,
+ "eps_growth_yoy": -0.452855245683931,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": -0.16413662239089177,
- "eps_forward_growth": 0.505865909090909,
+ "eps_forward_growth": 0.5054181818181818,
  "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": -0.0885394939367349
+  },
   {
    "period": "2026-04-30",
    "value": 0.5701445848113345
@@ -100,13 +104,15 @@
   {
    "period": "2025-07-31",
    "value": -0.06937251418229269
-  },
-  {
-   "period": "2025-04-30",
-   "value": 0.5800813240318071
   }
  ],
  "annual": [
+  {
+   "year": "2026",
+   "revenue": 2838204000.0,
+   "eps": 4.12,
+   "net_income": 147535000.0
+  },
   {
    "year": "2025",
    "revenue": 2964347000.0,
@@ -124,31 +130,25 @@
    "revenue": 2889364000.0,
    "eps": 6.69,
    "net_income": 265825000.0
-  },
-  {
-   "year": "2022",
-   "revenue": 2525912000.0,
-   "eps": 8.55,
-   "net_income": 347923000.0
   }
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.040858048190239526,
+ "dilution_1y": -0.006958625426458198,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 109454000.0,
- "gap_24m": -261920000.0,
+ "need_24m": 119598000.0,
+ "gap_24m": -148863000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.9057501285625356,
- "interest_coverage": 2.209405165007328,
- "cash_to_debt": 0.11400621767256927,
- "ev": 8365576575.21994,
- "ev_to_sales": 2.9545464122199743,
- "ev_to_ebitda": 11.32104984872918,
- "pe_ttm": 35.99462376154464,
- "pe_trailing": 37.595352,
- "p_sales": 1.9306087,
- "p_fcf": 31.57736104434485,
- "p_book": 9.931472585572104
+ "net_debt_to_ebitda": 4.258861890383086,
+ "interest_coverage": 2.1037481215622766,
+ "cash_to_debt": 0.07867436273300225,
+ "ev": 8366910888.860718,
+ "ev_to_sales": 2.947959656480196,
+ "ev_to_ebitda": 11.334374921409989,
+ "pe_ttm": 35.4022156699137,
+ "pe_trailing": 35.318073,
+ "p_sales": 1.8402715,
+ "p_fcf": 21.060664629822934,
+ "p_book": 21.715091814477034
 }

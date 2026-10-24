@@ -1,0 +1,154 @@
+{
+ "ticker": "FCFS",
+ "fetched": "2026-10-24",
+ "market_cap": 7492478450.0,
+ "shares_out": 43371800.0,
+ "price": 172.75,
+ "long_name": "FirstCash Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Credit Services",
+ "pe_trailing_y": 18.695889,
+ "pe_forward": 13.482926,
+ "peg": 1.17,
+ "p_sales_y": 1.7481589,
+ "eps_trailing_y": 9.24,
+ "eps_forward": 12.8125,
+ "earnings_growth_y": 0.253,
+ "earnings_growth_q_y": 0.222,
+ "bs_date": "2026-03-31",
+ "cash": 130739000.0,
+ "total_debt": 2610896000.0,
+ "current_debt": 104801000.0,
+ "lease_obligations": 356776000.0,
+ "equity": 2298080000.0,
+ "net_debt": 2480157000.0,
+ "ocf_ttm": 612930000.0,
+ "capex_ttm": -62108000.0,
+ "fcf_ttm": 550822000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -106240000.0,
+ "stock_issuance_ttm": -106240000.0,
+ "revenue_ttm": 3876271000.0,
+ "net_income_ttm": 354486000.0,
+ "ebitda_ttm": 1039005000.0,
+ "ebit_ttm": 609824000.0,
+ "interest_ttm": 128350000.0,
+ "revenue_yoy_last_q": 0.2573195619919586,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 1051651000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1058419000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 935579000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 830622000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 836423000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.35
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.86
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.34
+  }
+ ],
+ "eps_ttm": 8.76,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.29493891797556704,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5820895522388059,
+ "eps_forward_growth": 0.4626141552511416,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.5157433407090375
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5006344368345618
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5063249602652475
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.49699622692391965
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.5071632415655715
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3661043000.0,
+   "eps": 7.42,
+   "net_income": 330375000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3388514000.0,
+   "eps": 5.73,
+   "net_income": 258815000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3151796000.0,
+   "eps": 4.8,
+   "net_income": 219301000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2728942000.0,
+   "eps": 5.36,
+   "net_income": 253495000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.011901541790641068,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 104801000.0,
+ "gap_24m": -25938000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.387050110442202,
+ "interest_coverage": 4.751258278145696,
+ "cash_to_debt": 0.05007438059578015,
+ "ev": 9972635450.0,
+ "ev_to_sales": 2.5727394833849337,
+ "ev_to_ebitda": 9.59825549443939,
+ "pe_ttm": 21.136175899753447,
+ "pe_trailing": 18.695889,
+ "p_sales": 1.7481589,
+ "p_fcf": 13.60235874747196,
+ "p_book": 3.2603209853442876
+}

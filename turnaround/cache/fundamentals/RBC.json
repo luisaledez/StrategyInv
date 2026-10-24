@@ -1,0 +1,154 @@
+{
+ "ticker": "RBC",
+ "fetched": "2026-10-24",
+ "market_cap": 14942530802.918854,
+ "shares_out": 31659245.0,
+ "price": 471.9800109863281,
+ "long_name": "RBC Bearings Incorporated",
+ "sector_y": "Industrials",
+ "industry_y": "Tools & Accessories",
+ "pe_trailing_y": 46.63834,
+ "pe_forward": 28.360023,
+ "peg": 1.56,
+ "p_sales_y": 7.6455846,
+ "eps_trailing_y": 10.12,
+ "eps_forward": 16.64244,
+ "earnings_growth_y": 0.475,
+ "earnings_growth_q_y": 0.482,
+ "bs_date": "2026-06-30",
+ "cash": 124500000.0,
+ "total_debt": 878100000.0,
+ "current_debt": 111900000.0,
+ "lease_obligations": 71900000.0,
+ "equity": 3462000000.0,
+ "net_debt": 753600000.0,
+ "ocf_ttm": 467500000.0,
+ "capex_ttm": -82300000.0,
+ "fcf_ttm": 385200000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -13000000.0,
+ "stock_issuance_ttm": -13000000.0,
+ "revenue_ttm": 1954400000.0,
+ "net_income_ttm": 320600000.0,
+ "ebitda_ttm": 592000000.0,
+ "ebit_ttm": 459500000.0,
+ "interest_ttm": 47700000.0,
+ "revenue_yoy_last_q": 0.1915137614678899,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 519500000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 518000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 461600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 455300000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 436000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.2
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.89
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.13
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.17
+  }
+ ],
+ "eps_ttm": 10.12,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.18051948051948052,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4746543778801844,
+ "eps_forward_growth": 0.6445098814229251,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4769971126082772
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.444015444015444
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.44280762564991333
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.44058862288600925
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44770642201834865
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1870900000.0,
+   "eps": 9.09,
+   "net_income": 287600000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1636300000.0,
+   "eps": 7.7,
+   "net_income": 246200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1560300000.0,
+   "eps": 6.41,
+   "net_income": 209900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1469300000.0,
+   "eps": 4.94,
+   "net_income": 166700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0030860952032505384,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 111900000.0,
+ "gap_24m": -12600000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.272972972972973,
+ "interest_coverage": 9.633123689727464,
+ "cash_to_debt": 0.1417833959685685,
+ "ev": 15696130802.918854,
+ "ev_to_sales": 8.031176219258521,
+ "ev_to_ebitda": 26.513734464389955,
+ "pe_ttm": 46.608018724013895,
+ "pe_trailing": 46.63834,
+ "p_sales": 7.6455846,
+ "p_fcf": 38.791616830007406,
+ "p_book": 4.316155633425434
+}

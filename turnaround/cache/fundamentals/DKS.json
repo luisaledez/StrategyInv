@@ -1,18 +1,18 @@
 {
  "ticker": "DKS",
- "fetched": "2026-10-15",
- "market_cap": 13953330379.6333,
+ "fetched": "2026-10-24",
+ "market_cap": 14253836676.112488,
  "shares_out": 98526556.0,
- "price": 141.6199951171875,
+ "price": 144.6699981689453,
  "long_name": "DICK'S Sporting Goods, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Specialty Retail",
- "pe_trailing_y": 15.443838,
- "pe_forward": 10.770498,
- "peg": 0.98,
- "p_sales_y": 0.65988344,
- "eps_trailing_y": 9.17,
- "eps_forward": 13.14888,
+ "pe_trailing_y": 15.707926,
+ "pe_forward": 11.035482,
+ "peg": 1.04,
+ "p_sales_y": 0.67409503,
+ "eps_trailing_y": 9.21,
+ "eps_forward": 13.10953,
  "earnings_growth_y": -0.257,
  "earnings_growth_q_y": -0.173,
  "bs_date": "2026-07-31",
@@ -59,7 +59,7 @@
  "eps_quarters": [
   {
    "period": "2026-07-31",
-   "value": 3.5
+   "value": 3.55
   },
   {
    "period": "2026-04-30",
@@ -78,12 +78,12 @@
    "value": 3.24
   }
  ],
- "eps_ttm": 12.61,
+ "eps_ttm": 12.66,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.29039145907473307,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.08024691358024683,
- "eps_forward_growth": 0.04273433782712144,
+ "eps_growth_last_q": 0.095679012345679,
+ "eps_forward_growth": 0.03550789889415484,
  "gross_margin_quarters": [
   {
    "period": "2026-07-31",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 3.8333371397995406,
  "interest_coverage": 17.37589119381452,
  "cash_to_debt": 0.11474553226480322,
- "ev": 21002745379.6333,
- "ev_to_sales": 0.9932655645713347,
- "ev_to_ebitda": 11.420891506813195,
- "pe_ttm": 16.634237105443404,
- "pe_trailing": 15.443838,
- "p_sales": 0.65988344,
- "p_fcf": 58.28312732192719,
- "p_book": 2.436955615315117
+ "ev": 21303251676.112488,
+ "ev_to_sales": 1.0074771617142055,
+ "ev_to_ebitda": 11.584301087187917,
+ "pe_ttm": 16.992480825853672,
+ "pe_trailing": 15.707926,
+ "p_sales": 0.67409503,
+ "p_fcf": 59.53834355075682,
+ "p_book": 2.4894391792183566
 }

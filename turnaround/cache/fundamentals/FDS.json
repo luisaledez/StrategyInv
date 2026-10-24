@@ -1,19 +1,19 @@
 {
  "ticker": "FDS",
- "fetched": "2026-10-15",
- "market_cap": 10823128304.874939,
+ "fetched": "2026-10-24",
+ "market_cap": 11783575967.249817,
  "shares_out": 35565543.0,
- "price": 304.31500244140625,
+ "price": 331.32000732421875,
  "long_name": "FactSet Research Systems Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Financial Data & Stock Exchanges",
- "pe_trailing_y": 20.958332,
- "pe_forward": 14.022311,
- "peg": 0.99,
- "p_sales_y": 4.3707633,
- "eps_trailing_y": 14.52,
- "eps_forward": 21.7022,
- "earnings_growth_y": -0.152,
+ "pe_trailing_y": 22.739878,
+ "pe_forward": 15.266614,
+ "peg": 1.13,
+ "p_sales_y": 4.758626,
+ "eps_trailing_y": 14.57,
+ "eps_forward": 21.70226,
+ "earnings_growth_y": -0.154,
  "earnings_growth_q_y": -0.212,
  "bs_date": "2026-05-31",
  "cash": 304236000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 3.41
+  },
+  {
    "period": "2026-05-31",
    "value": 3.5
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-08-31",
    "value": 4.03
-  },
-  {
-   "period": "2025-05-31",
-   "value": 3.87
   }
  ],
- "eps_ttm": 15.18,
+ "eps_ttm": 14.559999999999999,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 0.11790079079798721,
+ "eps_growth_yoy": -0.06302250803858522,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.09560723514211888,
- "eps_forward_growth": 0.4296574440052703,
+ "eps_growth_last_q": -0.15384615384615385,
+ "eps_forward_growth": 0.4905398351648351,
  "gross_margin_quarters": [
   {
    "period": "2026-05-31",
@@ -128,7 +128,7 @@
   {
    "year": "2022",
    "revenue": 1843892000.0,
-   "eps": 10.25,
+   "eps": null,
    "net_income": 396917000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 1.3247007826408952,
  "interest_coverage": 14.057549085985105,
  "cash_to_debt": 0.19370168377007618,
- "ev": 12089534304.874939,
- "ev_to_sales": 4.957858346141944,
- "ev_to_ebitda": 12.646035754277683,
- "pe_ttm": 19.1231484087053,
- "pe_trailing": 20.958332,
- "p_sales": 4.3707633,
- "p_fcf": 15.280278614887244,
- "p_book": 5.325582621021084
+ "ev": 13049981967.249817,
+ "ev_to_sales": 5.351733191843627,
+ "ev_to_ebitda": 13.650694426167755,
+ "pe_ttm": 20.820142352509528,
+ "pe_trailing": 22.739878,
+ "p_sales": 4.758626,
+ "p_fcf": 16.636255136896594,
+ "p_book": 5.798176425239418
 }

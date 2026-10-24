@@ -1,40 +1,44 @@
 {
  "ticker": "CPRT",
- "fetched": "2026-10-15",
- "market_cap": 25589878736.5,
+ "fetched": "2026-10-24",
+ "market_cap": 26863583108.0,
  "shares_out": 926330452.0,
- "price": 27.625,
+ "price": 29.0,
  "long_name": "Copart, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Specialty Business Services",
- "pe_trailing_y": 17.938313,
- "pe_forward": 15.780124,
- "peg": 2.64,
- "p_sales_y": 5.4840837,
- "eps_trailing_y": 1.54,
- "eps_forward": 1.75062,
+ "pe_trailing_y": 18.709679,
+ "pe_forward": 16.0221,
+ "peg": 2.91,
+ "p_sales_y": 5.757047,
+ "eps_trailing_y": 1.55,
+ "eps_forward": 1.81,
  "earnings_growth_y": -0.15,
  "earnings_growth_q_y": -0.174,
- "bs_date": "2026-04-30",
- "cash": 4199712000.0,
- "total_debt": 93116000.0,
- "current_debt": 15825000.0,
- "lease_obligations": 93116000.0,
- "equity": 8774264000.0,
- "net_debt": -4106596000.0,
- "ocf_ttm": 1685427000.0,
- "capex_ttm": -346194000.0,
- "fcf_ttm": 1339233000.0,
+ "bs_date": "2026-07-31",
+ "cash": 4489802000.0,
+ "total_debt": 88367000.0,
+ "current_debt": 15163000.0,
+ "lease_obligations": 88367000.0,
+ "equity": 9097295000.0,
+ "net_debt": -4401435000.0,
+ "ocf_ttm": 1604492000.0,
+ "capex_ttm": -337363000.0,
+ "fcf_ttm": 1267129000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 4638867000.0,
- "net_income_ttm": 1553201000.0,
- "ebitda_ttm": 1919218000.0,
- "ebit_ttm": 1696277000.0,
+ "revenue_ttm": 4666209000.0,
+ "net_income_ttm": 1484270000.0,
+ "ebitda_ttm": 1891056000.0,
+ "ebit_ttm": 1652590000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.02092074380465392,
+ "revenue_yoy_last_q": 0.02430190463577797,
  "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1152439000.0
+  },
   {
    "period": "2026-04-30",
    "value": 1237066000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-07-31",
    "value": 1125097000.0
-  },
-  {
-   "period": "2025-04-30",
-   "value": 1211716000.0
   }
  ],
  "eps_quarters": [
@@ -80,11 +80,15 @@
  ],
  "eps_ttm": 1.55,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 0.1357142857142859,
+ "eps_growth_yoy": -0.02515723270440251,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": -0.14634146341463417,
- "eps_forward_growth": 0.1294322580645162,
+ "eps_forward_growth": 0.16774193548387095,
  "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.41776527868286306
+  },
   {
    "period": "2026-04-30",
    "value": 0.4628685939149568
@@ -100,13 +104,15 @@
   {
    "period": "2025-07-31",
    "value": 0.4530436042403455
-  },
-  {
-   "period": "2025-04-30",
-   "value": 0.455772639793483
   }
  ],
  "annual": [
+  {
+   "year": "2026",
+   "revenue": 4666209000.0,
+   "eps": 1.55,
+   "net_income": 1484270000.0
+  },
   {
    "year": "2025",
    "revenue": 4646958000.0,
@@ -124,31 +130,25 @@
    "revenue": 3869518000.0,
    "eps": 1.28,
    "net_income": 1237741000.0
-  },
-  {
-   "year": "2022",
-   "revenue": 3500921000.0,
-   "eps": 1.13,
-   "net_income": 1090130000.0
   }
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0424086078450725,
+ "dilution_1y": -0.042564655351737035,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 15825000.0,
- "gap_24m": -4183887000.0,
+ "need_24m": 15163000.0,
+ "gap_24m": -4474639000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -2.1397235749143664,
+ "net_debt_to_ebitda": -2.3275011422189507,
  "interest_coverage": null,
- "cash_to_debt": 45.101937368443664,
- "ev": 21483282736.5,
- "ev_to_sales": 4.63114866981528,
- "ev_to_ebitda": 11.193768887380173,
- "pe_ttm": 16.475574466215257,
- "pe_trailing": 17.938313,
- "p_sales": 5.4840837,
- "p_fcf": 19.10786154201696,
- "p_book": 2.916470114929298
+ "cash_to_debt": 50.80858238935349,
+ "ev": 22462148108.0,
+ "ev_to_sales": 4.813789546931996,
+ "ev_to_ebitda": 11.878097797209602,
+ "pe_ttm": 18.098852033659643,
+ "pe_trailing": 18.709679,
+ "p_sales": 5.757047,
+ "p_fcf": 21.200353798232065,
+ "p_book": 2.9529198633220095
 }

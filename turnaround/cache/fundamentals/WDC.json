@@ -1,20 +1,20 @@
 {
  "ticker": "WDC",
- "fetched": "2026-10-15",
- "market_cap": 129418523368.55933,
+ "fetched": "2026-10-24",
+ "market_cap": 128643682883.54343,
  "shares_out": 374323269.0,
- "price": 345.739990234375,
+ "price": 343.6700134277344,
  "long_name": "Western Digital Corporation",
  "sector_y": "Technology",
  "industry_y": "Computer Hardware",
- "pe_trailing_y": 13.426796,
- "pe_forward": 10.447671,
- "peg": 0.69,
- "p_sales_y": 10.017689,
- "eps_trailing_y": 25.75,
- "eps_forward": 33.09254,
- "earnings_growth_y": 9.841,
- "earnings_growth_q_y": 10.33,
+ "pe_trailing_y": 12.088287,
+ "pe_forward": 8.689015,
+ "peg": 0.65,
+ "p_sales_y": 8.883005,
+ "eps_trailing_y": 28.43,
+ "eps_forward": 39.55224,
+ "earnings_growth_y": 0.509,
+ "earnings_growth_q_y": 0.505,
  "bs_date": "2026-06-30",
  "cash": 1579000000.0,
  "total_debt": 1052000000.0,
@@ -80,10 +80,10 @@
  ],
  "eps_ttm": 24.213368,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 4.2578125,
+ "eps_growth_yoy": 4.2380919024391766,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": 9.8909810328001,
- "eps_forward_growth": 0.36670536705178725,
+ "eps_forward_growth": 0.6334877494118125,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -116,19 +116,19 @@
   {
    "year": "2025",
    "revenue": 9520000000.0,
-   "eps": 5.12,
+   "eps": 5.139276,
    "net_income": 1861000000.0
   },
   {
    "year": "2024",
    "revenue": 6317000000.0,
-   "eps": -2.61,
+   "eps": -1.72,
    "net_income": -798000000.0
   },
   {
    "year": "2023",
    "revenue": 6255000000.0,
-   "eps": -5.37,
+   "eps": -5.44,
    "net_income": -1684000000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -0.05045476304451891,
  "interest_coverage": 61.03030303030303,
  "cash_to_debt": 1.5009505703422052,
- "ev": 128891523368.55933,
- "ev_to_sales": 9.976896305330081,
- "ev_to_ebitda": 12.340021385213914,
- "pe_ttm": 13.918963580184913,
- "pe_trailing": 13.426796,
- "p_sales": 10.017689,
- "p_fcf": 36.8608725059981,
- "p_book": 14.600465181471042
+ "ev": 128116682883.54343,
+ "ev_to_sales": 9.916919489398826,
+ "ev_to_ebitda": 12.265838476165,
+ "pe_ttm": 13.835629477688043,
+ "pe_trailing": 12.088287,
+ "p_sales": 8.883005,
+ "p_fcf": 36.64018310553786,
+ "p_book": 14.513050866825747
 }

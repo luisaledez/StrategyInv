@@ -1,18 +1,18 @@
 {
  "ticker": "DOCN",
- "fetched": "2026-10-15",
- "market_cap": 12308227329.882431,
+ "fetched": "2026-10-24",
+ "market_cap": 10960765794.529724,
  "shares_out": 117579550.0,
- "price": 104.68000030517578,
+ "price": 93.22000122070312,
  "long_name": "DigitalOcean Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
- "pe_trailing_y": 56.583782,
- "pe_forward": 56.59143,
+ "pe_trailing_y": 42.958523,
+ "pe_forward": 50.929317,
  "peg": 1.54,
- "p_sales_y": 12.172949,
- "eps_trailing_y": 1.85,
- "eps_forward": 1.84975,
+ "p_sales_y": 10.840298,
+ "eps_trailing_y": 2.17,
+ "eps_forward": 1.83038,
  "earnings_growth_y": -0.245,
  "earnings_growth_q_y": -0.043,
  "bs_date": "2026-06-30",
@@ -83,7 +83,7 @@
  "eps_growth_yoy": 1.8314606741573032,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": -0.2564102564102565,
- "eps_forward_growth": -0.15536529680365296,
+ "eps_forward_growth": -0.1642100456621005,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -128,7 +128,7 @@
   {
    "year": "2022",
    "revenue": 576322000.0,
-   "eps": -0.24,
+   "eps": -0.28,
    "net_income": -27804000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 2.0177817627828736,
  "interest_coverage": 6.537211590339268,
  "cash_to_debt": 0.5013513804997265,
- "ev": 13071118329.882431,
- "ev_to_sales": 12.927455516725065,
- "ev_to_ebitda": 34.571995455725265,
- "pe_ttm": 52.32222263265203,
- "pe_trailing": 56.583782,
- "p_sales": 12.172949,
+ "ev": 11723656794.529724,
+ "ev_to_sales": 11.594803740560872,
+ "ev_to_ebitda": 31.00807438169752,
+ "pe_ttm": 46.594169310912406,
+ "pe_trailing": 42.958523,
+ "p_sales": 10.840298,
  "p_fcf": null,
- "p_book": 13.224258491317503
+ "p_book": 11.7765130789989
 }

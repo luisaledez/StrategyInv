@@ -1,40 +1,44 @@
 {
  "ticker": "GIS",
- "fetched": "2026-10-15",
- "market_cap": 17738245594.266083,
+ "fetched": "2026-10-24",
+ "market_cap": 18387890555.812866,
  "shares_out": 534687144.0,
- "price": 33.17499923706055,
+ "price": 34.38999938964844,
  "long_name": "General Mills, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
  "pe_trailing_y": null,
- "pe_forward": 10.524195,
+ "pe_forward": 10.909633,
  "peg": 11.74,
- "p_sales_y": 0.96948314,
- "eps_trailing_y": -1.65,
+ "p_sales_y": 1.0049894,
+ "eps_trailing_y": -1.64,
  "eps_forward": 3.15226,
  "earnings_growth_y": -0.667,
  "earnings_growth_q_y": -0.67,
- "bs_date": "2026-05-31",
- "cash": 453800000.0,
- "total_debt": 13940400000.0,
- "current_debt": 1224000000.0,
+ "bs_date": "2026-08-31",
+ "cash": 433100000.0,
+ "total_debt": 13615600000.0,
+ "current_debt": 1248400000.0,
  "lease_obligations": 402400000.0,
- "equity": 7368400000.0,
- "net_debt": 13486600000.0,
- "ocf_ttm": 2166200000.0,
- "capex_ttm": -539900000.0,
- "fcf_ttm": 1626300000.0,
+ "equity": 7450400000.0,
+ "net_debt": 13182500000.0,
+ "ocf_ttm": 2067000000.0,
+ "capex_ttm": -520900000.0,
+ "fcf_ttm": 1546100000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -500300000.0,
- "stock_issuance_ttm": -500300000.0,
- "revenue_ttm": 18424600000.0,
- "net_income_ttm": -87600000.0,
- "ebitda_ttm": 477100000.0,
- "ebit_ttm": -78100000.0,
+ "buybacks_ttm": -300000.0,
+ "stock_issuance_ttm": -300000.0,
+ "revenue_ttm": 18296600000.0,
+ "net_income_ttm": -894800000.0,
+ "ebitda_ttm": 445500000.0,
+ "ebit_ttm": -110800000.0,
  "interest_ttm": 573100000.0,
- "revenue_yoy_last_q": 0.011720293226811895,
+ "revenue_yoy_last_q": -0.028334255672385122,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 4389500000.0
+  },
   {
    "period": "2026-05-31",
    "value": 4609600000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-08-31",
    "value": 4517500000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 4556200000.0
   }
  ],
  "eps_quarters": [
@@ -86,6 +86,10 @@
  "eps_forward_growth": null,
  "gross_margin_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 0.33880852033261194
+  },
+  {
    "period": "2026-05-31",
    "value": 0.3478609857688303
   },
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.3393027116768124
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.3235152100434573
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.01609862728151845,
+ "dilution_1y": 0.0,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1224000000.0,
- "gap_24m": 770200000.0,
+ "need_24m": 1248400000.0,
+ "gap_24m": 815300000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 28.267868371410607,
- "interest_coverage": -0.1362763915547025,
- "cash_to_debt": 0.03255286792344553,
- "ev": 31224845594.266083,
- "ev_to_sales": 1.6947366886806814,
- "ev_to_ebitda": 65.44717165010707,
+ "net_debt_to_ebitda": 29.590347923681257,
+ "interest_coverage": -0.19333449659745244,
+ "cash_to_debt": 0.031809101324950795,
+ "ev": 31570390555.812866,
+ "ev_to_sales": 1.7254785345808985,
+ "ev_to_ebitda": 70.86507419935548,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.96948314,
- "p_fcf": 10.90711774842654,
- "p_book": 2.4073402087652793
+ "p_sales": 1.0049894,
+ "p_fcf": 11.893079720466249,
+ "p_book": 2.4680407167149236
 }

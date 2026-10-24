@@ -1,18 +1,18 @@
 {
  "ticker": "VST",
- "fetched": "2026-10-15",
- "market_cap": 51221287313.805466,
+ "fetched": "2026-10-24",
+ "market_cap": 47042630160.332794,
  "shares_out": 335635195.0,
- "price": 152.61000061035156,
+ "price": 140.16000366210938,
  "long_name": "Vistra Corp.",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Independent Power Producers",
- "pe_trailing_y": 27.546932,
- "pe_forward": 14.65102,
- "peg": 0.42,
- "p_sales_y": 2.666109,
- "eps_trailing_y": 5.54,
- "eps_forward": 10.41634,
+ "pe_trailing_y": 23.635752,
+ "pe_forward": 13.520749,
+ "peg": 0.4,
+ "p_sales_y": 2.4486067,
+ "eps_trailing_y": 5.93,
+ "eps_forward": 10.36629,
  "earnings_growth_y": -0.062,
  "earnings_growth_q_y": -0.067,
  "bs_date": "2026-06-30",
@@ -80,10 +80,10 @@
  ],
  "eps_ttm": 6.275727,
  "eps_ttm_prior": null,
- "eps_growth_yoy": -0.6936481916241951,
+ "eps_growth_yoy": -0.68222,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": null,
- "eps_forward_growth": 0.6597822053126277,
+ "eps_forward_growth": 0.6518070336711588,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -116,13 +116,13 @@
   {
    "year": "2024",
    "revenue": 17224000000.0,
-   "eps": 7.261129,
+   "eps": 7.0,
    "net_income": 2659000000.0
   },
   {
    "year": "2023",
    "revenue": 14779000000.0,
-   "eps": 3.821235,
+   "eps": 3.58,
    "net_income": 1493000000.0
   },
   {
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 2.971899816737935,
  "interest_coverage": 3.901656314699793,
  "cash_to_debt": 0.02186479014827846,
- "ev": 70681287313.80547,
- "ev_to_sales": 3.6790176615555623,
- "ev_to_ebitda": 10.79433221041623,
- "pe_ttm": 23.08304971329674,
- "pe_trailing": 27.546932,
- "p_sales": 2.666109,
- "p_fcf": 22.714539828738566,
- "p_book": 9.343540188581807
+ "ev": 66502630160.332794,
+ "ev_to_sales": 3.4615152071795126,
+ "ev_to_ebitda": 10.156174428884055,
+ "pe_ttm": 21.199923461168453,
+ "pe_trailing": 23.635752,
+ "p_sales": 2.4486067,
+ "p_fcf": 20.861476789504565,
+ "p_book": 8.58128970454812
 }
