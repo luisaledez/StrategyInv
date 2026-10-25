@@ -1,0 +1,154 @@
+{
+ "ticker": "ALKT",
+ "fetched": "2026-10-25",
+ "market_cap": 1714280012.8312302,
+ "shares_out": 106941980.0,
+ "price": 16.030000686645508,
+ "long_name": "Alkami Technology, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 14.604993,
+ "peg": null,
+ "p_sales_y": 3.500481,
+ "eps_trailing_y": -0.43,
+ "eps_forward": 1.09757,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 80955000.0,
+ "total_debt": 358158000.0,
+ "current_debt": 2170000.0,
+ "lease_obligations": 20954000.0,
+ "equity": 362677000.0,
+ "net_debt": 277203000.0,
+ "ocf_ttm": 64633000.0,
+ "capex_ttm": -9436000.0,
+ "fcf_ttm": 55197000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 489727000.0,
+ "net_income_ttm": -45108000.0,
+ "ebitda_ttm": -300000.0,
+ "ebit_ttm": -32441000.0,
+ "interest_ttm": 9855000.0,
+ "revenue_yoy_last_q": 0.15871103615059923,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 129844000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 126138000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 120791000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 112954000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 112059000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.09
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.14
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.13
+  }
+ ],
+ "eps_ttm": -0.42,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5684744770647855
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5856205108690482
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5718886340869767
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5678594826212441
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5855665319162227
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 443639000.0,
+   "eps": -0.46,
+   "net_income": -47652000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 333849000.0,
+   "eps": -0.41,
+   "net_income": -40835000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 264831000.0,
+   "eps": -0.67,
+   "net_income": -62913000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 204270000.0,
+   "eps": -0.64,
+   "net_income": -58600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.027466908232532283,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2170000.0,
+ "gap_24m": -78785000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -924.01,
+ "interest_coverage": -3.2918315575849824,
+ "cash_to_debt": 0.22603152798485585,
+ "ev": 1991483012.8312302,
+ "ev_to_sales": 4.066516677314565,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.500481,
+ "p_fcf": 31.057485240705656,
+ "p_book": 4.72674035803547
+}

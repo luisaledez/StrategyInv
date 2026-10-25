@@ -1,0 +1,133 @@
+{
+ "ticker": "SMMT",
+ "fetched": "2026-10-25",
+ "market_cap": 12341186555.962126,
+ "shares_out": 797749602.0,
+ "price": 15.470000267028809,
+ "long_name": "Summit Therapeutics Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -13.126237,
+ "peg": null,
+ "p_sales_y": null,
+ "eps_trailing_y": -1.11,
+ "eps_forward": -1.1785556,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 690678000.0,
+ "total_debt": 20384000.0,
+ "current_debt": 3550000.0,
+ "lease_obligations": 20384000.0,
+ "equity": 629983000.0,
+ "net_debt": -670294000.0,
+ "ocf_ttm": -458433000.0,
+ "capex_ttm": -1389000.0,
+ "fcf_ttm": -459822000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 0.0,
+ "net_income_ttm": -856089000.0,
+ "ebitda_ttm": -866449000.0,
+ "ebit_ttm": -866623000.0,
+ "interest_ttm": 0.0,
+ "revenue_yoy_last_q": null,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.28
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.244274
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.29
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.76
+  }
+ ],
+ "eps_ttm": -1.124274,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 0.0,
+   "eps": -1.44,
+   "net_income": -1079586000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 0.0,
+   "eps": -0.31,
+   "net_income": -221315000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 0.0,
+   "eps": -0.99,
+   "net_income": -614928000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 705000.0,
+   "eps": -0.41,
+   "net_income": -78782000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.06773456929853738,
+ "fcf_burn_annual": 459822000.0,
+ "runway_months": 18.024661716925245,
+ "need_24m": 923194000.0,
+ "gap_24m": 232516000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.7736104490858665,
+ "interest_coverage": null,
+ "cash_to_debt": 33.883339874411305,
+ "ev": 11670892555.962126,
+ "ev_to_sales": null,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": null,
+ "p_fcf": null,
+ "p_book": 19.589713620783616
+}

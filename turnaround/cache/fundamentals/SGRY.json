@@ -1,0 +1,154 @@
+{
+ "ticker": "SGRY",
+ "fetched": "2026-10-25",
+ "market_cap": 2061962595.0,
+ "shares_out": 130918260.0,
+ "price": 15.75,
+ "long_name": "Surgery Partners, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Care Facilities",
+ "pe_trailing_y": null,
+ "pe_forward": 56.25,
+ "peg": null,
+ "p_sales_y": 0.6125308,
+ "eps_trailing_y": -0.69,
+ "eps_forward": 0.28,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 216700000.0,
+ "total_debt": 4058100000.0,
+ "current_debt": 143500000.0,
+ "lease_obligations": 306900000.0,
+ "equity": 1670700000.0,
+ "net_debt": 3841400000.0,
+ "ocf_ttm": 258000000.0,
+ "capex_ttm": -70400000.0,
+ "fcf_ttm": 187600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3366300000.0,
+ "net_income_ttm": -88600000.0,
+ "ebitda_ttm": 561000000.0,
+ "ebit_ttm": 383800000.0,
+ "interest_ttm": 281400000.0,
+ "revenue_yoy_last_q": 0.027475187605906504,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 848900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 810900000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 885000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 821500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 826200000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.12
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.02
+  }
+ ],
+ "eps_ttm": -0.7,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.22405465897043234
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.19755826859045506
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23977401129943504
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.23773584905660378
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23674655047204066
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3308700000.0,
+   "eps": -0.61,
+   "net_income": -77900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3114300000.0,
+   "eps": -1.33,
+   "net_income": -168100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2743300000.0,
+   "eps": -0.09,
+   "net_income": -11900000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2539300000.0,
+   "eps": -0.59,
+   "net_income": -54600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.020872109446118392,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 143500000.0,
+ "gap_24m": -73200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 6.847415329768271,
+ "interest_coverage": 1.3638948116560057,
+ "cash_to_debt": 0.053399374091323525,
+ "ev": 5903362595.0,
+ "ev_to_sales": 1.753665031340047,
+ "ev_to_ebitda": 10.522927976827095,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.6125308,
+ "p_fcf": 10.99127182835821,
+ "p_book": 1.2341908152271504
+}

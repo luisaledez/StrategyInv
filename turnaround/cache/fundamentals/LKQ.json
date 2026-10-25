@@ -1,0 +1,154 @@
+{
+ "ticker": "LKQ",
+ "fetched": "2026-10-25",
+ "market_cap": 4407296357.422527,
+ "shares_out": 253002086.0,
+ "price": 17.420000076293945,
+ "long_name": "LKQ Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 9.677778,
+ "pe_forward": 6.108701,
+ "peg": 0.92,
+ "p_sales_y": 0.32198244,
+ "eps_trailing_y": 1.8,
+ "eps_forward": 2.85167,
+ "earnings_growth_y": -0.29,
+ "earnings_growth_q_y": -0.292,
+ "bs_date": "2026-06-30",
+ "cash": 301000000.0,
+ "total_debt": 5313000000.0,
+ "current_debt": 800000000.0,
+ "lease_obligations": 1380000000.0,
+ "equity": 6447000000.0,
+ "net_debt": 5012000000.0,
+ "ocf_ttm": 825000000.0,
+ "capex_ttm": -200000000.0,
+ "fcf_ttm": 625000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -133000000.0,
+ "stock_issuance_ttm": -133000000.0,
+ "revenue_ttm": 13688000000.0,
+ "net_income_ttm": 461000000.0,
+ "ebitda_ttm": 1307000000.0,
+ "ebit_ttm": null,
+ "interest_ttm": 217000000.0,
+ "revenue_yoy_last_q": -0.029888983774551625,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3408000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3469000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3312000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3499000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3513000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.31
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.26
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.75
+  }
+ ],
+ "eps_ttm": 1.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.10646387832699611,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.29333333333333333,
+ "eps_forward_growth": 0.5842611111111111,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.38761737089201875
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3836840588065725
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3789251207729469
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.383252357816519
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3859948761742101
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 13651000000.0,
+   "eps": 2.35,
+   "net_income": 607000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13823000000.0,
+   "eps": 2.63,
+   "net_income": 690000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 13269000000.0,
+   "eps": 3.5,
+   "net_income": 936000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 12794000000.0,
+   "eps": 4.14,
+   "net_income": 1149000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.015157403808783498,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 800000000.0,
+ "gap_24m": 499000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.8347360367253254,
+ "interest_coverage": null,
+ "cash_to_debt": 0.05665349143610013,
+ "ev": 9419296357.422527,
+ "ev_to_sales": 0.6881426327748777,
+ "ev_to_ebitda": 7.206806700399792,
+ "pe_ttm": 9.560295786166003,
+ "pe_trailing": 9.677778,
+ "p_sales": 0.32198244,
+ "p_fcf": 7.051674171876043,
+ "p_book": 0.6836197235027962
+}

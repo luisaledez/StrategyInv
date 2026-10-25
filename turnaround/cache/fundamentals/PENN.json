@@ -1,0 +1,154 @@
+{
+ "ticker": "PENN",
+ "fetched": "2026-10-25",
+ "market_cap": 1943965569.5,
+ "shares_out": 134066591.0,
+ "price": 14.5,
+ "long_name": "PENN Entertainment, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": null,
+ "pe_forward": 11.135088,
+ "peg": 1.01,
+ "p_sales_y": 0.27170768,
+ "eps_trailing_y": -6.43,
+ "eps_forward": 1.30219,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 887200000.0,
+ "total_debt": 11062200000.0,
+ "current_debt": 554300000.0,
+ "lease_obligations": 8287600000.0,
+ "equity": 1861300000.0,
+ "net_debt": 10175000000.0,
+ "ocf_ttm": 651200000.0,
+ "capex_ttm": -593200000.0,
+ "fcf_ttm": 58000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -462900000.0,
+ "stock_issuance_ttm": -462900000.0,
+ "revenue_ttm": 7160000000.0,
+ "net_income_ttm": -906700000.0,
+ "ebitda_ttm": -58200000.0,
+ "ebit_ttm": -521400000.0,
+ "interest_ttm": 401000000.0,
+ "revenue_yoy_last_q": 0.05235127478753543,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1857400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1779100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1806200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1717300000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1765000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.55
+  },
+  {
+   "period": "2025-09-30",
+   "value": -6.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.12
+  }
+ ],
+ "eps_ttm": -6.36,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3717562183697642
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36074419650385026
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3347359096445576
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.338147091364351
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3474787535410765
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6961000000.0,
+   "eps": -5.83,
+   "net_income": -843100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6578100000.0,
+   "eps": -2.05,
+   "net_income": -311500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6362900000.0,
+   "eps": -3.22,
+   "net_income": -490000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6401700000.0,
+   "eps": 1.29,
+   "net_income": 222100000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.08143323878272113,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 554300000.0,
+ "gap_24m": -332900000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -174.82817869415808,
+ "interest_coverage": -1.3002493765586034,
+ "cash_to_debt": 0.0802010450000904,
+ "ev": 12118965569.5,
+ "ev_to_sales": 1.6925929566340783,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.27170768,
+ "p_fcf": 33.51664775,
+ "p_book": 1.0444128133562565
+}

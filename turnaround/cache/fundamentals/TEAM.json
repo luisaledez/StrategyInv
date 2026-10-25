@@ -1,0 +1,154 @@
+{
+ "ticker": "TEAM",
+ "fetched": "2026-10-25",
+ "market_cap": 57616925836.65367,
+ "shares_out": 253138815.0,
+ "price": 227.61000061035156,
+ "long_name": "Atlassian Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 33.767223,
+ "peg": 2.37,
+ "p_sales_y": 8.76662,
+ "eps_trailing_y": -0.21,
+ "eps_forward": 6.74056,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1239512000.0,
+ "total_debt": 1232910000.0,
+ "current_debt": 48509000.0,
+ "lease_obligations": 243350000.0,
+ "equity": 1058442000.0,
+ "net_debt": -6602000.0,
+ "ocf_ttm": 1353136000.0,
+ "capex_ttm": -34060000.0,
+ "fcf_ttm": 1319076000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1800486000.0,
+ "stock_issuance_ttm": -1800486000.0,
+ "revenue_ttm": 6572308000.0,
+ "net_income_ttm": -53828000.0,
+ "ebitda_ttm": 212084000.0,
+ "ebit_ttm": 71500000.0,
+ "interest_ttm": 49450000.0,
+ "revenue_yoy_last_q": 0.27603326918742743,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1766469000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1786971000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1586315000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1432553000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1384344000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.55
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.38
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.16
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.2
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.09
+  }
+ ],
+ "eps_ttm": -0.18999999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8650115003433403
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8529567631483667
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8501615379038842
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.819955003409996
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8306598648890738
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 6572308000.0,
+   "eps": -0.21,
+   "net_income": -53828000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5215304000.0,
+   "eps": null,
+   "net_income": -256687000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4358603000.0,
+   "eps": -1.16,
+   "net_income": -300519000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3534647000.0,
+   "eps": -1.9,
+   "net_income": -486761000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": -0.03642215885141431,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 48509000.0,
+ "gap_24m": -1191003000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.031129175232455064,
+ "interest_coverage": 1.4459049544994944,
+ "cash_to_debt": 1.0053548109756592,
+ "ev": 57610323836.65367,
+ "ev_to_sales": 8.765615341924583,
+ "ev_to_ebitda": 271.6391799317896,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 8.76662,
+ "p_fcf": 43.679762073340484,
+ "p_book": 54.435600473765845
+}

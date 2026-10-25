@@ -1,0 +1,154 @@
+{
+ "ticker": "PLXS",
+ "fetched": "2026-10-25",
+ "market_cap": 5782972327.149948,
+ "shares_out": 26652099.0,
+ "price": 216.97999572753906,
+ "long_name": "Plexus Corp.",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 32.05022,
+ "pe_forward": 21.440712,
+ "peg": 2.09,
+ "p_sales_y": 1.2580559,
+ "eps_trailing_y": 6.77,
+ "eps_forward": 10.12,
+ "earnings_growth_y": -0.037,
+ "earnings_growth_q_y": -0.047,
+ "bs_date": "2026-06-30",
+ "cash": 314053000.0,
+ "total_debt": 299346000.0,
+ "current_debt": 183814000.0,
+ "lease_obligations": 23888000.0,
+ "equity": 1528752000.0,
+ "net_debt": -14707000.0,
+ "ocf_ttm": 171006000.0,
+ "capex_ttm": -109135000.0,
+ "fcf_ttm": 61871000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -85584000.0,
+ "stock_issuance_ttm": -85584000.0,
+ "revenue_ttm": 4596753000.0,
+ "net_income_ttm": 185413000.0,
+ "ebitda_ttm": 304475000.0,
+ "ebit_ttm": 227835000.0,
+ "interest_ttm": 12812000.0,
+ "revenue_yoy_last_q": 0.2813196007494785,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1304778000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1163757000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1069852000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1058366000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1018308000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.58
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.82
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.51
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.87
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.64
+  }
+ ],
+ "eps_ttm": 6.78,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5610972568578554,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.03658536585365846,
+ "eps_forward_growth": 0.49262536873156315,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.10069069220970923
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.102406258351185
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.09920811476727621
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.09900450316809119
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.10143100122949049
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4032966000.0,
+   "eps": 6.26,
+   "net_income": 172885000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3960827000.0,
+   "eps": 4.01,
+   "net_income": 111815000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4210305000.0,
+   "eps": 4.95,
+   "net_income": 139094000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3811368000.0,
+   "eps": 4.86,
+   "net_income": 138243000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.011413748378728883,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 183814000.0,
+ "gap_24m": -130239000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.048302816323179246,
+ "interest_coverage": 17.782937870746174,
+ "cash_to_debt": 1.0491304376874921,
+ "ev": 5768265327.149948,
+ "ev_to_sales": 1.2548564882972717,
+ "ev_to_ebitda": 18.94495550422842,
+ "pe_ttm": 31.189681021017662,
+ "pe_trailing": 32.05022,
+ "p_sales": 1.2580559,
+ "p_fcf": 93.46822141471688,
+ "p_book": 3.7828060582422447
+}

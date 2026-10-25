@@ -1,0 +1,154 @@
+{
+ "ticker": "PDD",
+ "fetched": "2026-10-25",
+ "market_cap": 112505257659.63838,
+ "shares_out": 1423396462.0,
+ "price": 79.04000091552734,
+ "long_name": "PDD Holdings Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Internet Retail",
+ "pe_trailing_y": 8.890888,
+ "pe_forward": 6.392149,
+ "peg": 0.69,
+ "p_sales_y": 0.24958146,
+ "eps_trailing_y": 8.89,
+ "eps_forward": 12.365169,
+ "earnings_growth_y": -0.112,
+ "earnings_growth_q_y": -0.116,
+ "bs_date": "2026-06-30",
+ "cash": 456414000000.0,
+ "total_debt": 4844000000.0,
+ "current_debt": 2455000000.0,
+ "lease_obligations": 4844000000.0,
+ "equity": 447787000000.0,
+ "net_debt": -451570000000.0,
+ "ocf_ttm": 111895091000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 110750014000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 450775706000.0,
+ "net_income_ttm": 92076253000.0,
+ "ebitda_ttm": 122721828000.0,
+ "ebit_ttm": 122721828000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.08052122902341674,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 112358000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 106229000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 123912194000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 108276512000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 103985000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 18.44
+  },
+  {
+   "period": "2026-03-31",
+   "value": 8.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 16.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 19.72
+  },
+  {
+   "period": "2025-06-30",
+   "value": 20.76
+  }
+ ],
+ "eps_ttm": 63.16,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.11789473684210516,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.11175337186897882,
+ "eps_forward_growth": -0.8042246833438885,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5726428024706741
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5585668696871853
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5548818948359513
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5674024021017596
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5589844689137856
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 431845713000.0,
+   "eps": 67.04,
+   "net_income": 97842539000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 393836097000.0,
+   "eps": 76.0,
+   "net_income": 112434512000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 247639205000.0,
+   "eps": 41.16,
+   "net_income": 60026544000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 130557589000.0,
+   "eps": 21.92,
+   "net_income": 31538062000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0026415027264725666,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2455000000.0,
+ "gap_24m": -453959000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.6796225036674,
+ "interest_coverage": null,
+ "cash_to_debt": 94.22254335260115,
+ "ev": -339064742340.36163,
+ "ev_to_sales": -0.752180602963465,
+ "ev_to_ebitda": -2.7628723256987473,
+ "pe_ttm": 1.221870504001052,
+ "pe_trailing": 8.890888,
+ "p_sales": 0.24958146,
+ "p_fcf": 1.015848699212249,
+ "p_book": 0.25124726188933216
+}

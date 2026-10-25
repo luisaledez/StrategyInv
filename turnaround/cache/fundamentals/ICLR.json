@@ -1,0 +1,154 @@
+{
+ "ticker": "ICLR",
+ "fetched": "2026-10-25",
+ "market_cap": 14294360631.068344,
+ "shares_out": 77154209.0,
+ "price": 185.27000427246094,
+ "long_name": "ICON Public Limited Company",
+ "sector_y": "Healthcare",
+ "industry_y": "Diagnostics & Research",
+ "pe_trailing_y": 195.02106,
+ "pe_forward": 15.743502,
+ "peg": 0.56,
+ "p_sales_y": 1.7233713,
+ "eps_trailing_y": 0.95,
+ "eps_forward": 11.76803,
+ "earnings_growth_y": -0.633,
+ "earnings_growth_q_y": -0.643,
+ "bs_date": "2026-06-30",
+ "cash": 928385000.0,
+ "total_debt": 3493335000.0,
+ "current_debt": 1279762000.0,
+ "lease_obligations": 102790000.0,
+ "equity": 9378162000.0,
+ "net_debt": 2564950000.0,
+ "ocf_ttm": 536237000.0,
+ "capex_ttm": -186222000.0,
+ "fcf_ttm": 435993000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 250000000.0,
+ "stock_issuance_ttm": 250000000.0,
+ "revenue_ttm": 8371739000.0,
+ "net_income_ttm": -216989000.0,
+ "ebitda_ttm": 385947000.0,
+ "ebit_ttm": 14994000.0,
+ "interest_ttm": 187133000.0,
+ "revenue_yoy_last_q": 0.01196515304881407,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2063486000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2033999000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2189839000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2084415000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2039088000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.94
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.36
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.93
+  },
+  {
+   "period": "2025-09-30",
+   "value": -3.67
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.56
+  }
+ ],
+ "eps_ttm": 0.5599999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7156348373557188,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6328125,
+ "eps_forward_growth": 20.0143392857143,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.23227392868185198
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2349686504270651
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.22873553717876063
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.26168685218634485
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28607397032398796
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8251340000.0,
+   "eps": 2.71,
+   "net_income": 229339000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8188990000.0,
+   "eps": 9.53,
+   "net_income": 739126000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8054926000.0,
+   "eps": 7.4,
+   "net_income": 554208000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7741386000.0,
+   "eps": 6.13,
+   "net_income": 505304000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.00794527551193469,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1279762000.0,
+ "gap_24m": 351377000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 6.645860701080719,
+ "interest_coverage": 0.08012483100254898,
+ "cash_to_debt": 0.2657589380921097,
+ "ev": 16859310631.068344,
+ "ev_to_sales": 2.013836149343445,
+ "ev_to_ebitda": 43.68296846735004,
+ "pe_ttm": null,
+ "pe_trailing": 195.02106,
+ "p_sales": 1.7233713,
+ "p_fcf": 32.78575718203812,
+ "p_book": 1.524217712497219
+}

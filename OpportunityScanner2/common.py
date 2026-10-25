@@ -27,7 +27,7 @@ import screen_v3  # noqa: E402
 
 CACHE = HERE / "cache"
 CACHE.mkdir(exist_ok=True)
-OUT = HERE / "output"
+OUT = HERE / f"output{bt_data.uni_mod.TAG}"  # output_nasdaq/ under SCAN_UNIVERSE=nasdaq
 OUT.mkdir(exist_ok=True)
 EDGAR_DIR = ROOT / "turnaround" / "cache" / "edgar"
 
@@ -59,7 +59,7 @@ def monthly_adj(daily: dict[str, pd.DataFrame]) -> pd.DataFrame:
 
 
 def fundamentals_tables(tickers: list[str], rebuild: bool = False) -> dict[str, pd.DataFrame]:
-    p = CACHE / "fund_tables.pkl"
+    p = CACHE / f"fund_tables{bt_data.uni_mod.TAG}.pkl"
     if p.exists() and not rebuild:
         return pickle.loads(p.read_bytes())
     print("building point-in-time fundamentals tables (~2 min) ...", file=sys.stderr, flush=True)

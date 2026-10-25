@@ -1,0 +1,154 @@
+{
+ "ticker": "RDNT",
+ "fetched": "2026-10-25",
+ "market_cap": 5535599939.180206,
+ "shares_out": 78697757.0,
+ "price": 70.33999633789062,
+ "long_name": "RadNet, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Diagnostics & Research",
+ "pe_trailing_y": null,
+ "pe_forward": 79.33053,
+ "peg": 0.96,
+ "p_sales_y": 2.439738,
+ "eps_trailing_y": -0.27,
+ "eps_forward": 0.88667,
+ "earnings_growth_y": -0.491,
+ "earnings_growth_q_y": -0.479,
+ "bs_date": "2026-06-30",
+ "cash": 726272000.0,
+ "total_debt": 2182705000.0,
+ "current_debt": 100226000.0,
+ "lease_obligations": 850174000.0,
+ "equity": 1096092000.0,
+ "net_debt": 1456433000.0,
+ "ocf_ttm": 310062000.0,
+ "capex_ttm": -237690000.0,
+ "fcf_ttm": 72372000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 2268932000.0,
+ "net_income_ttm": -21116000.0,
+ "ebitda_ttm": 337288000.0,
+ "ebit_ttm": 106274000.0,
+ "interest_ttm": 71295000.0,
+ "revenue_yoy_last_q": 0.24986452040222384,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 622720000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 575631000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 547712000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 522869000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 498230000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.43
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.07
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.19
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.51
+  }
+ ],
+ "eps_ttm": -0.06999999999999995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -7.25,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14144398766700925
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.04363733016463672
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13863307723767235
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13863893250508252
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1387812857515605
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2040210000.0,
+   "eps": -0.25,
+   "net_income": -18652000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1829664000.0,
+   "eps": 0.04,
+   "net_income": 2793000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1616630000.0,
+   "eps": 0.05,
+   "net_income": 3044000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1430061000.0,
+   "eps": 0.17,
+   "net_income": 10650000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.04768670835328104,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 100226000.0,
+ "gap_24m": -626046000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.318069424349518,
+ "interest_coverage": 1.4906234658811979,
+ "cash_to_debt": 0.3327394219557842,
+ "ev": 6992032939.180206,
+ "ev_to_sales": 3.081640586487478,
+ "ev_to_ebitda": 20.730156243863423,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.439738,
+ "p_fcf": 76.48814374592669,
+ "p_book": 5.050305940724142
+}

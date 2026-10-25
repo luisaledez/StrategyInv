@@ -1,0 +1,154 @@
+{
+ "ticker": "SPSC",
+ "fetched": "2026-10-25",
+ "market_cap": 3334696018.742569,
+ "shares_out": 36000174.0,
+ "price": 92.62999725341797,
+ "long_name": "SPS Commerce, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 44.74879,
+ "pe_forward": 17.390928,
+ "peg": 4.55,
+ "p_sales_y": 4.3168035,
+ "eps_trailing_y": 2.07,
+ "eps_forward": 5.32634,
+ "earnings_growth_y": -0.639,
+ "earnings_growth_q_y": -0.652,
+ "bs_date": "2026-06-30",
+ "cash": 173167000.0,
+ "total_debt": 6306000.0,
+ "current_debt": 1540000.0,
+ "lease_obligations": 6306000.0,
+ "equity": 938482000.0,
+ "net_debt": -166861000.0,
+ "ocf_ttm": 228143000.0,
+ "capex_ttm": -29447000.0,
+ "fcf_ttm": 198696000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -153077000.0,
+ "stock_issuance_ttm": -153077000.0,
+ "revenue_ttm": 772492000.0,
+ "net_income_ttm": 78003000.0,
+ "ebitda_ttm": 183201000.0,
+ "ebit_ttm": 122303000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.05557630736392749,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 197815000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 192121000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 192652000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 189904000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 187400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.53
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.67
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.52
+  }
+ ],
+ "eps_ttm": 2.07,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2058823529411764,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6346153846153846,
+ "eps_forward_growth": 1.5731111111111113,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7015999797790865
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6917723726193389
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.704352926520358
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6949406015671076
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6807577374599787
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 751505000.0,
+   "eps": 2.46,
+   "net_income": 93339000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 637765000.0,
+   "eps": 2.04,
+   "net_income": 77054000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 536910000.0,
+   "eps": 1.76,
+   "net_income": 65824000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 450875000.0,
+   "eps": 1.49,
+   "net_income": 55134000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04568999029515097,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1540000.0,
+ "gap_24m": -171627000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.9108083471160092,
+ "interest_coverage": null,
+ "cash_to_debt": 27.460672375515383,
+ "ev": 3167835018.742569,
+ "ev_to_sales": 4.100799773644995,
+ "ev_to_ebitda": 17.291581480136948,
+ "pe_ttm": 42.75086879661768,
+ "pe_trailing": 44.74879,
+ "p_sales": 4.3168035,
+ "p_fcf": 16.782904631912917,
+ "p_book": 3.5532871368258196
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "TNDM",
+ "fetched": "2026-10-25",
+ "market_cap": 1212756884.2437363,
+ "shares_out": 69578707.0,
+ "price": 17.43000030517578,
+ "long_name": "Tandem Diabetes Care, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": null,
+ "pe_forward": 109.65023,
+ "peg": null,
+ "p_sales_y": 1.1645256,
+ "eps_trailing_y": -0.91,
+ "eps_forward": 0.15896,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 455996000.0,
+ "total_debt": 739253000.0,
+ "current_debt": 20265000.0,
+ "lease_obligations": 136676000.0,
+ "equity": 130388000.0,
+ "net_debt": 283257000.0,
+ "ocf_ttm": -5523000.0,
+ "capex_ttm": -56219000.0,
+ "fcf_ttm": -61742000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 1041417000.0,
+ "net_income_ttm": -63315000.0,
+ "ebitda_ttm": -36676000.0,
+ "ebit_ttm": -54638000.0,
+ "interest_ttm": 6358000.0,
+ "revenue_yoy_last_q": 0.05767872427060228,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 254560000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 247221000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 290383000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 249253000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 240678000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.31
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.3
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.78
+  }
+ ],
+ "eps_ttm": -0.9299999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5687460716530484
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5533025107090417
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5766866517668046
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.538777868270392
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5229185883213255
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1014736000.0,
+   "eps": -3.04,
+   "net_income": -204710000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 940203000.0,
+   "eps": -1.47,
+   "net_income": -96025000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 747718000.0,
+   "eps": -3.43,
+   "net_income": -222611000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 801217000.0,
+   "eps": -1.47,
+   "net_income": -94594000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.029749300321333827,
+ "fcf_burn_annual": 61742000.0,
+ "runway_months": 88.62608920993813,
+ "need_24m": 143749000.0,
+ "gap_24m": -312247000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -7.723224997273421,
+ "interest_coverage": -8.593582887700535,
+ "cash_to_debt": 0.6168334792013018,
+ "ev": 1496013884.2437363,
+ "ev_to_sales": 1.436517633420365,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.1645256,
+ "p_fcf": null,
+ "p_book": 9.301138787647147
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "BELFA",
+ "fetched": "2026-10-25",
+ "market_cap": 2321863604.0657043,
+ "shares_out": 14439450.0,
+ "price": 160.8000030517578,
+ "long_name": "Bel Fuse Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 39.315403,
+ "pe_forward": 20.074905,
+ "peg": 1.11,
+ "p_sales_y": 3.1203902,
+ "eps_trailing_y": 4.09,
+ "eps_forward": 8.01,
+ "earnings_growth_y": -0.117,
+ "earnings_growth_q_y": -0.051,
+ "bs_date": "2026-06-30",
+ "cash": 306106000.0,
+ "total_debt": 34262000.0,
+ "current_debt": 8748000.0,
+ "lease_obligations": 34262000.0,
+ "equity": 909371000.0,
+ "net_debt": -271844000.0,
+ "ocf_ttm": 83510000.0,
+ "capex_ttm": -10174000.0,
+ "fcf_ttm": 73336000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 744094000.0,
+ "net_income_ttm": 53660000.0,
+ "ebitda_ttm": 130899000.0,
+ "ebit_ttm": 104056000.0,
+ "interest_ttm": 10938000.0,
+ "revenue_yoy_last_q": 0.2518493871027161,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 210685000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 178491000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 175938000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 178980000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 168299000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.89
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.91
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.42
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.77
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.03
+  }
+ ],
+ "eps_ttm": 4.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.504854368932039,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.06896551724137923,
+ "eps_forward_growth": 0.9301204819277107,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.39854284832807274
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3899244219596506
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.39432072661960466
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.39747457816515813
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3867105568066358
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 675455000.0,
+   "eps": 4.65,
+   "net_income": 61536000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 534792000.0,
+   "eps": 3.09,
+   "net_income": 40960000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 639813000.0,
+   "eps": 5.83,
+   "net_income": 73831000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 654233000.0,
+   "eps": 4.24,
+   "net_income": 52689000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.14020634414759692,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8748000.0,
+ "gap_24m": -297358000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.0767461936302034,
+ "interest_coverage": 9.51325653684403,
+ "cash_to_debt": 8.934271204249606,
+ "ev": 2050019604.0657043,
+ "ev_to_sales": 2.7550546087802137,
+ "ev_to_ebitda": 15.661079183688985,
+ "pe_ttm": 43.269914350833105,
+ "pe_trailing": 39.315403,
+ "p_sales": 3.1203902,
+ "p_fcf": 31.660625123618747,
+ "p_book": 2.5532633040482975
+}

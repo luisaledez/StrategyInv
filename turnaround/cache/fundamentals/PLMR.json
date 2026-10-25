@@ -1,0 +1,133 @@
+{
+ "ticker": "PLMR",
+ "fetched": "2026-10-25",
+ "market_cap": 3731321063.613922,
+ "shares_out": 26317683.0,
+ "price": 141.77999877929688,
+ "long_name": "Palomar Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Property & Casualty",
+ "pe_trailing_y": 19.0821,
+ "pe_forward": 12.551535,
+ "peg": null,
+ "p_sales_y": 3.44308,
+ "eps_trailing_y": 7.43,
+ "eps_forward": 11.29583,
+ "earnings_growth_y": 0.155,
+ "earnings_growth_q_y": 0.13,
+ "bs_date": "2026-06-30",
+ "cash": 815648000.0,
+ "total_debt": 295773000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 980942000.0,
+ "net_debt": -519875000.0,
+ "ocf_ttm": 415257000.0,
+ "capex_ttm": -8468000.0,
+ "fcf_ttm": 406789000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -101389000.0,
+ "stock_issuance_ttm": -101389000.0,
+ "revenue_ttm": 1093652000.0,
+ "net_income_ttm": 203159000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 271387000.0,
+ "interest_ttm": 8326000.0,
+ "revenue_yoy_last_q": 0.5640989926626041,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 314423000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 278938000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 255631000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 244660000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 201025000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.94
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.57
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.87
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.68
+  }
+ ],
+ "eps_ttm": 7.44,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.6004464285714284,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.15476190476190488,
+ "eps_forward_growth": 0.5182567204301076,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 875967000.0,
+   "eps": 7.17,
+   "net_income": 197070000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 553863000.0,
+   "eps": 4.48,
+   "net_income": 117573000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 375926000.0,
+   "eps": 3.13,
+   "net_income": 79201000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 327086000.0,
+   "eps": 2.02,
+   "net_income": 52170000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02204185068206166,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -815648000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 32.5951237088638,
+ "cash_to_debt": 2.757682411849628,
+ "ev": 3211446063.613922,
+ "ev_to_sales": 2.9364423633970604,
+ "ev_to_ebitda": null,
+ "pe_ttm": 18.36650635026714,
+ "pe_trailing": 19.0821,
+ "p_sales": 3.44308,
+ "p_fcf": 9.172620359975127,
+ "p_book": 3.803814153756208
+}

@@ -66,6 +66,7 @@ BIIB,Biogen,Health Care,Biotechnology,sp500,XLV
 BLK,BlackRock,Financials,Asset Management & Custody Banks,sp500,XLF
 BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,sp500,XLF
 XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,sp500,XLF
+BE,Bloom Energy,Industrials,Electrical Components & Equipment,sp500,XLI
 BNY,BNY Mellon,Financials,Asset Management & Custody Banks,sp500,XLF
 BA,Boeing,Industrials,Aerospace & Defense,sp500,XLI
 BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500,XLY
@@ -75,7 +76,6 @@ AVGO,Broadcom,Information Technology,Semiconductors,sp500,XLK
 BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,sp500,XLI
 BRO,Brown & Brown,Financials,Insurance Brokers,sp500,XLF
 BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,sp500,XLP
-BLDR,Builders FirstSource,Industrials,Building Products,sp500,XLI
 BG,Bunge Global,Consumer Staples,Agricultural Products & Services,sp500,XLP
 BXP,"BXP, Inc.",Real Estate,Office REITs,sp500,XLRE
 CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,sp500,XLI
@@ -127,7 +127,6 @@ COO,Cooper Companies (The),Health Care,Health Care Supplies,sp500,XLV
 CPRT,Copart,Industrials,Diversified Support Services,sp500,XLI
 GLW,Corning Inc.,Information Technology,Electronic Components,sp500,XLK
 CPAY,Corpay,Financials,Transaction & Payment Processing Services,sp500,XLF
-CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,sp500,XLB
 CSGP,CoStar Group,Real Estate,Real Estate Services,sp500,XLRE
 COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,sp500,XLP
 CRH,CRH plc,Materials,Construction Materials,sp500,XLB
@@ -178,6 +177,7 @@ ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,sp500,XLRE
 EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,sp500,XLP
 EG,Everest Group,Financials,Reinsurance,sp500,XLF
 EVRG,Evergy,Utilities,Electric Utilities,sp500,XLU
+P,Everpure,Information Technology,"Technology Hardware, Storage & Peripherals",sp500,XLK
 ES,Eversource Energy,Utilities,Electric Utilities,sp500,XLU
 EXC,Exelon,Utilities,Electric Utilities,sp500,XLU
 EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,sp500,XLE
@@ -246,6 +246,7 @@ IBM,IBM,Information Technology,IT Consulting & Other Services,sp500,XLK
 IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,sp500,XLI
 IDXX,Idexx Laboratories,Health Care,Health Care Equipment,sp500,XLV
 ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,sp500,XLI
+ILMN,"Illumina, Inc.",Health Care,Life Sciences Tools & Services,sp500,XLV
 INCY,Incyte,Health Care,Biotechnology,sp500,XLV
 IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,sp500,XLI
 PODD,Insulet Corporation,Health Care,Health Care Equipment,sp500,XLV
@@ -304,7 +305,7 @@ MAS,Masco,Industrials,Building Products,sp500,XLI
 MA,Mastercard,Financials,Transaction & Payment Processing Services,sp500,XLF
 MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,sp500,XLP
 MCD,McDonald's,Consumer Discretionary,Restaurants,sp500,XLY
-MCK,McKesson Corporation,Health Care,Health Care Distributors,sp500,XLV
+MCK,McKesson,Health Care,Health Care Distributors,sp500,XLV
 MDT,Medtronic,Health Care,Health Care Equipment,sp500,XLV
 MRK,Merck & Co.,Health Care,Pharmaceuticals,sp500,XLV
 META,Meta Platforms,Communication Services,Interactive Media & Services,sp500,XLC
@@ -316,7 +317,6 @@ MU,Micron Technology,Information Technology,Semiconductors,sp500,XLK
 MSFT,Microsoft,Information Technology,Systems Software,sp500,XLK
 MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,sp500,XLRE
 MRNA,Moderna,Health Care,Biotechnology,sp500,XLV
-TAP,Molson Coors Beverage Company,Consumer Staples,Brewers,sp500,XLP
 MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,sp500,XLP
 MPWR,Monolithic Power Systems,Information Technology,Semiconductors,sp500,XLK
 MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,sp500,XLP
@@ -356,7 +356,6 @@ PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,
 PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,sp500,XLB
 PLTR,Palantir Technologies,Information Technology,Application Software,sp500,XLK
 PANW,Palo Alto Networks,Information Technology,Systems Software,sp500,XLK
-PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,sp500,XLC
 PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,sp500,XLI
 PAYX,Paychex,Industrials,Human Resource & Employment Services,sp500,XLI
 PYPL,PayPal,Financials,Transaction & Payment Processing Services,sp500,XLF
@@ -392,7 +391,7 @@ REG,Regency Centers,Real Estate,Retail REITs,sp500,XLRE
 REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,sp500,XLV
 RF,Regions Financial Corporation,Financials,Regional Banks,sp500,XLF
 RSG,Republic Services,Industrials,Environmental & Facilities Services,sp500,XLI
-RMD,ResMed|,Health Care,Health Care Equipment,sp500,XLV
+RMD,ResMed,Health Care,Health Care Equipment,sp500,XLV
 RVTY,Revvity,Health Care,Health Care Equipment,sp500,XLV
 HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,sp500,XLF
 ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,sp500,XLI
@@ -410,6 +409,7 @@ SRE,Sempra,Utilities,Multi-Utilities,sp500,XLU
 NOW,ServiceNow,Information Technology,Systems Software,sp500,XLK
 SHW,Sherwin-Williams,Materials,Specialty Chemicals,sp500,XLB
 SPG,Simon Property Group,Real Estate,Retail REITs,sp500,XLRE
+SKYD,Skydance Corporation,Communication Services,Movies & Entertainment,sp500,XLC
 SWKS,Skyworks Solutions,Information Technology,Semiconductors,sp500,XLK
 SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,sp500,XLP
 SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,sp500,XLB
@@ -443,13 +443,13 @@ TXT,Textron,Industrials,Aerospace & Defense,sp500,XLI
 TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,sp500,XLV
 TJX,TJX Companies,Consumer Discretionary,Apparel Retail,sp500,XLY
 TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,sp500,XLC
-TTD,Trade Desk (The),Communication Services,Advertising,sp500,XLC
 TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,sp500,XLY
 TT,Trane Technologies,Industrials,Building Products,sp500,XLI
 TDG,TransDigm Group,Industrials,Aerospace & Defense,sp500,XLI
 TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,sp500,XLF
 TRMB,Trimble Inc.,Information Technology,Application Software,sp500,XLK
 TFC,Truist Financial,Financials,Diversified Banks,sp500,XLF
+TWLO,Twilio,Information Technology,Systems Software,sp500,XLK
 TYL,Tyler Technologies,Information Technology,Application Software,sp500,XLK
 TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,sp500,XLP
 USB,U.S. Bancorp,Financials,Diversified Banks,sp500,XLF
@@ -477,12 +477,12 @@ V,Visa Inc.,Financials,Transaction & Payment Processing Services,sp500,XLF
 VST,Vistra Corp.,Utilities,Electric Utilities,sp500,XLU
 VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,sp500,XLRE
 VMC,Vulcan Materials Company,Materials,Construction Materials,sp500,XLB
+VYLR,Vylor,Consumer Staples,Agricultural Products & Services,sp500,XLP
 WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,sp500,XLF
 GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,sp500,XLI
 WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,sp500,XLI
 WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,sp500,XLP
 DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,sp500,XLC
-WBD,Warner Bros. Discovery,Communication Services,Broadcasting,sp500,XLC
 WM,Waste Management,Industrials,Environmental & Facilities Services,sp500,XLI
 WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,sp500,XLV
 WEC,WEC Energy Group,Utilities,Electric Utilities,sp500,XLU
@@ -511,6 +511,7 @@ ADC,Agree Realty,Real Estate,Retail REITs,sp400,XLRE
 AEIS,Advanced Energy,Information Technology,Semiconductor Materials & Equipment,sp400,XLK
 AFG,American Financial Group,Financials,Multi-line Insurance,sp400,XLF
 AGCO,AGCO,Industrials,Agricultural & Farm Machinery,sp400,XLI
+AGNC,AGNC Investment,Financials,Mortgage REITs,sp400,XLF
 AHR,American Healthcare REIT,Real Estate,Health Care REITs,sp400,XLRE
 AIT,Applied Industrial Technologies,Industrials,Trading Companies & Distributors,sp400,XLI
 ALGM,Allegro MicroSystems,Information Technology,Semiconductors,sp400,XLK
@@ -588,7 +589,7 @@ CNX,CNX Resources,Energy,Oil & Gas Exploration & Production,sp400,XLE
 COKE,Coca-Cola Consolidated,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,sp400,XLP
 COLB,Columbia Banking System,Financials,Regional Banks,sp400,XLF
 COLM,Columbia Sportswear,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",sp400,XLY
-CPRI,Capri Holdings,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",sp400,XLY
+CORT,Corcept Therapeutics,Health Care,Pharmaceuticals,sp400,XLV
 CR,Crane,Industrials,Industrial Machinery & Supplies & Components,sp400,XLI
 CRBG,Corebridge Financial,Financials,Asset Management & Custody Banks,sp400,XLF
 CROX,Crocs,Consumer Discretionary,Footwear,sp400,XLY
@@ -596,6 +597,7 @@ CRS,Carpenter Technology,Industrials,Industrial Machinery & Supplies & Component
 CRUS,Cirrus Logic,Information Technology,Semiconductors,sp400,XLK
 CSL,Carlisle Companies,Industrials,Industrial Conglomerates,sp400,XLI
 CTRE,CareTrust REIT,Real Estate,Health Care REITs,sp400,XLRE
+CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,sp400,XLB
 CUBE,CubeSmart,Real Estate,Industrial REITs,sp400,XLRE
 CUZ,Cousins Properties,Real Estate,Office REITs,sp400,XLRE
 CVLT,CommVault Systems,Information Technology,Systems Software,sp400,XLK
@@ -606,7 +608,7 @@ DAR,Darling Ingredients,Consumer Staples,Agricultural Products & Services,sp400,
 DBX,Dropbox,Information Technology,Application Software,sp400,XLK
 DCI,Donaldson Company,Industrials,Industrial Machinery & Supplies & Components,sp400,XLI
 DINO,HF Sinclair,Energy,Oil & Gas Refining & Marketing,sp400,XLE
-DKS,Dick's Sporting Goods,Consumer Discretionary,Specialty Stores,sp400,XLY
+DKS,Dick's Sporting Goods,Consumer Discretionary,Other Specialty Retail,sp400,XLY
 DLB,Dolby,Information Technology,Application Software,sp400,XLK
 DOCN,DigitalOcean,Information Technology,Internet Services & Infrastructure,sp400,XLK
 DOCS,Doximity,Health Care,Health Care Technology,sp400,XLV
@@ -615,6 +617,7 @@ DT,Dynatrace,Information Technology,Application Software,sp400,XLK
 DTM,DT Midstream,Energy,Oil & Gas Storage & Transportation,sp400,XLE
 DUOL,Duolingo,Consumer Discretionary,Education Services,sp400,XLY
 DY,Dycom Industries,Industrials,Construction & Engineering,sp400,XLI
+EAT,Brinker International,Consumer Discretionary,Restaurants,sp400,XLY
 EEFT,Euronet Worldwide,Financials,Transaction & Payment Processing Services,sp400,XLF
 EGP,EastGroup Properties,Real Estate,Industrial REITs,sp400,XLRE
 EHC,Encompass Health,Health Care,Health Care Facilities,sp400,XLV
@@ -641,7 +644,7 @@ FCN,FTI Consulting,Industrials,Research & Consulting Services,sp400,XLI
 FFIN,First Financial Bankshares,Financials,Regional Banks,sp400,XLF
 FHI,Federated Hermes,Financials,Asset Management & Custody Banks,sp400,XLF
 FHN,First Horizon,Financials,Regional Banks,sp400,XLF
-FIVE,Five Below,Consumer Discretionary,Specialty Stores,sp400,XLY
+FIVE,Five Below,Consumer Discretionary,Other Specialty Retail,sp400,XLY
 FLG,Flagstar Bank,Financials,Regional Banks,sp400,XLF
 FLR,Fluor,Industrials,Construction & Engineering,sp400,XLI
 FLS,Flowserve,Industrials,Industrial Machinery & Supplies & Components,sp400,XLI
@@ -649,6 +652,7 @@ FN,Fabrinet,Information Technology,Electronic Manufacturing Services,sp400,XLK
 FNB,FNB Corporation,Financials,Regional Banks,sp400,XLF
 FND,Floor & Decor,Consumer Discretionary,Home Improvement Retail,sp400,XLY
 FNF,Fidelity National Financial,Financials,Property & Casualty Insurance,sp400,XLF
+FORM,"FormFactor, Inc.",Information Technology,Semiconductor Materials & Equipment,sp400,XLK
 FOUR,Shift4,Financials,Transaction & Payment Processing Services,sp400,XLF
 FR,First Industrial Realty Trust,Real Estate,Industrial REITs,sp400,XLRE
 FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,sp400,XLE
@@ -679,13 +683,13 @@ HOMB,Home BancShares,Financials,Regional Banks,sp400,XLF
 HQY,HealthEquity,Health Care,Managed Health Care,sp400,XLV
 HR,Healthcare Realty Trust,Real Estate,Health Care REITs,sp400,XLRE
 HRB,H&R Block,Consumer Discretionary,Specialized Consumer Services,sp400,XLY
+HUBS,HubSpot,Information Technology,Application Software,sp400,XLK
 HWC,Hancock Whitney,Financials,Regional Banks,sp400,XLF
 HXL,Hexcel,Industrials,Aerospace & Defense,sp400,XLI
 IBOC,Intl Bancshares Corp,Financials,Regional Banks,sp400,XLF
 IDA,Idacorp,Utilities,Electric Utilities,sp400,XLU
 IDCC,InterDigital,Information Technology,Communications Equipment,sp400,XLK
 IESC,IES Holdings,Industrials,Construction & Engineering,sp400,XLI
-ILMN,"Illumina, Inc.",Health Care,Life Sciences Tools & Services,sp400,XLV
 INGR,Ingredion,Consumer Staples,Agricultural Products & Services,sp400,XLP
 IPGP,IPG Photonics,Information Technology,Electronic Manufacturing Services,sp400,XLK
 IRT,Independence Realty Trust,Real Estate,Multi-Family Residential REITs,sp400,XLRE
@@ -759,7 +763,6 @@ OHI,Omega Healthcare Investors,Real Estate,Health Care REITs,sp400,XLRE
 OKTA,"Okta, Inc.",Information Technology,Application Software,sp400,XLK
 OLED,Universal Display,Information Technology,Semiconductors,sp400,XLK
 OLLI,Ollie's Bargain Outlet,Consumer Discretionary,Broadline Retail,sp400,XLY
-OLN,Olin Corporation,Materials,Diversified Chemicals,sp400,XLB
 ONB,Old National Bank,Financials,Regional Banks,sp400,XLF
 ONTO,Onto Innovation,Information Technology,Semiconductor Materials & Equipment,sp400,XLK
 OPCH,Option Care Health,Health Care,Health Care Facilities,sp400,XLV
@@ -768,7 +771,6 @@ ORI,Old Republic International,Financials,Property & Casualty Insurance,sp400,XL
 OSK,Oshkosh,Industrials,Construction Machinery & Heavy Transportation Equipment,sp400,XLI
 OVV,Ovintiv,Energy,Oil & Gas Exploration & Production,sp400,XLE
 OZK,Bank OZK,Financials,Regional Banks,sp400,XLF
-P,Everpure,Information Technology,"Technology Hardware, Storage & Peripherals",sp400,XLK
 PAG,Penske Automotive Group,Consumer Discretionary,Automotive Retail,sp400,XLY
 PATH,UiPath,Information Technology,Systems Software,sp400,XLK
 PB,Prosperity Bancshares,Financials,Regional Banks,sp400,XLF
@@ -811,7 +813,6 @@ RYAN,Ryan Specialty,Financials,Insurance Brokers,sp400,XLF
 RYN,Rayonier,Real Estate,Timber REITs,sp400,XLRE
 SAIA,Saia,Industrials,Cargo Ground Transportation,sp400,XLI
 SAIC,Science Applications Intl Corp,Industrials,Diversified Support Services,sp400,XLI
-SAM,Boston Beer Company,Consumer Staples,Brewers,sp400,XLP
 SANM,Sanmina Corporation,Information Technology,Electronic Manufacturing Services,sp400,XLK
 SARO,StandardAero,Industrials,Aerospace & Defense,sp400,XLI
 SBRA,Sabra Health Care REIT,Real Estate,Health Care REITs,sp400,XLRE
@@ -859,7 +860,6 @@ TRU,TransUnion,Industrials,Research & Consulting Services,sp400,XLI
 TTC,Toro,Industrials,Agricultural & Farm Machinery,sp400,XLI
 TTEK,Tetra Tech,Industrials,Construction & Engineering,sp400,XLI
 TTMI,TTM Technologies,Information Technology,Electronic Manufacturing Services,sp400,XLK
-TWLO,Twilio,Information Technology,Systems Software,sp400,XLK
 TXNM,TXNM Energy,Utilities,Electric Utilities,sp400,XLU
 TXRH,Texas Roadhouse,Consumer Discretionary,Restaurants,sp400,XLY
 UBSI,United Bankshares,Financials,Regional Banks,sp400,XLF

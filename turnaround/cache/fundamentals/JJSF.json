@@ -1,0 +1,154 @@
+{
+ "ticker": "JJSF",
+ "fetched": "2026-10-25",
+ "market_cap": 1563090107.152954,
+ "shares_out": 18681608.0,
+ "price": 83.66999816894531,
+ "long_name": "J&J Snack Foods Corp.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "pe_trailing_y": 32.430233,
+ "pe_forward": 20.210146,
+ "peg": 5.12,
+ "p_sales_y": 1.0251135,
+ "eps_trailing_y": 2.58,
+ "eps_forward": 4.14,
+ "earnings_growth_y": -0.168,
+ "earnings_growth_q_y": -0.201,
+ "bs_date": "2026-06-30",
+ "cash": 63099000.0,
+ "total_debt": 191906000.0,
+ "current_debt": 24344000.0,
+ "lease_obligations": 163906000.0,
+ "equity": 892077000.0,
+ "net_debt": 128807000.0,
+ "ocf_ttm": 166872000.0,
+ "capex_ttm": -74872000.0,
+ "fcf_ttm": 92000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -77730000.0,
+ "stock_issuance_ttm": -75392000.0,
+ "revenue_ttm": 1524797000.0,
+ "net_income_ttm": 49273000.0,
+ "ebitda_ttm": 139203000.0,
+ "ebit_ttm": 63653000.0,
+ "interest_ttm": 2161000.0,
+ "revenue_yoy_last_q": -0.06237384243208677,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 425957000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 344819000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 343778000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 410243000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 454293000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.88
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.09
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.05
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.58
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.26
+  }
+ ],
+ "eps_ttm": 2.6,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.24494382022471917,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.1681415929203539,
+ "eps_forward_growth": 0.5923076923076922,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.35453343882128946
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2879539700538543
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2792848873400858
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31745331425520973
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33028243886654646
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1583233000.0,
+   "eps": 3.36,
+   "net_income": 65595000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1574755000.0,
+   "eps": 4.45,
+   "net_income": 86551000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1558829000.0,
+   "eps": 4.08,
+   "net_income": 78906000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1380656000.0,
+   "eps": 2.46,
+   "net_income": 47235000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.042532516912577534,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 24344000.0,
+ "gap_24m": -38755000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9253177014863185,
+ "interest_coverage": 29.455344747801945,
+ "cash_to_debt": 0.328801600783717,
+ "ev": 1691897107.152954,
+ "ev_to_sales": 1.1095884285927595,
+ "ev_to_ebitda": 12.154171297694404,
+ "pe_ttm": 31.72305536811142,
+ "pe_trailing": 32.430233,
+ "p_sales": 1.0251135,
+ "p_fcf": 16.990109860358196,
+ "p_book": 1.7521919152191505
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "TENB",
+ "fetched": "2026-10-25",
+ "market_cap": 4911141858.776028,
+ "shares_out": 110139983.0,
+ "price": 44.59000015258789,
+ "long_name": "Tenable Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 743.1667,
+ "pe_forward": 20.30917,
+ "peg": 1.52,
+ "p_sales_y": 4.706237,
+ "eps_trailing_y": 0.06,
+ "eps_forward": 2.19556,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 298209000.0,
+ "total_debt": 419101000.0,
+ "current_debt": 10234000.0,
+ "lease_obligations": 66118000.0,
+ "equity": 198399000.0,
+ "net_debt": 120892000.0,
+ "ocf_ttm": 269567000.0,
+ "capex_ttm": -15235000.0,
+ "fcf_ttm": 254332000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -352687000.0,
+ "stock_issuance_ttm": -352687000.0,
+ "revenue_ttm": 1043539000.0,
+ "net_income_ttm": 6742000.0,
+ "ebitda_ttm": 87845000.0,
+ "ebit_ttm": 46010000.0,
+ "interest_ttm": 27117000.0,
+ "revenue_yoy_last_q": 0.08578014112699406,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 268508000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 262058000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 260533000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 252440000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 247295000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.03
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.01
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.12
+  }
+ ],
+ "eps_ttm": 0.05,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 42.911199999999994,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.775302784274584
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7837539781269796
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7877812023812722
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7751822215179844
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7798823267757132
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 999405000.0,
+   "eps": -0.3,
+   "net_income": -36118000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 900021000.0,
+   "eps": -0.31,
+   "net_income": -36301000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 798710000.0,
+   "eps": -0.68,
+   "net_income": -78284000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 683191000.0,
+   "eps": -0.83,
+   "net_income": -92222000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": -0.08715812442659132,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 10234000.0,
+ "gap_24m": -287975000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.3761967101144061,
+ "interest_coverage": 1.6967216137478334,
+ "cash_to_debt": 0.711544472573437,
+ "ev": 5032033858.776028,
+ "ev_to_sales": 4.822085095790409,
+ "ev_to_ebitda": 57.28309930873729,
+ "pe_ttm": 728.4399078576131,
+ "pe_trailing": 743.1667,
+ "p_sales": 4.706237,
+ "p_fcf": 19.309964372458158,
+ "p_book": 24.753863975000012
+}

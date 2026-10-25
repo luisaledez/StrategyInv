@@ -1,0 +1,130 @@
+{
+ "ticker": "HUBG",
+ "fetched": "2026-10-25",
+ "market_cap": 1571645253.6564255,
+ "shares_out": 61153510.0,
+ "price": 25.700000762939453,
+ "long_name": "Hub Group, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Integrated Freight & Logistics",
+ "pe_trailing_y": 14.770115,
+ "pe_forward": 11.89534,
+ "peg": 2.46,
+ "p_sales_y": 0.42148033,
+ "eps_trailing_y": 1.74,
+ "eps_forward": 2.16051,
+ "earnings_growth_y": 0.205,
+ "earnings_growth_q_y": 0.21,
+ "bs_date": "2025-09-30",
+ "cash": 119699000.0,
+ "total_debt": 498759000.0,
+ "current_debt": 141159000.0,
+ "lease_obligations": 243760000.0,
+ "equity": 1702416000.0,
+ "net_debt": 379060000.0,
+ "ocf_ttm": null,
+ "capex_ttm": null,
+ "fcf_ttm": null,
+ "ttm_quarters": 3,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": null,
+ "net_income_ttm": null,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": null,
+ "revenue_quarters": [
+  {
+   "period": "2025-09-30",
+   "value": 934496000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 905648000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 915216000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2025-09-30",
+   "value": 0.47
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.42
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": null,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.35114503816793896,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2025-09-30",
+   "value": 0.08171677567373214
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08176134657173648
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.08227675215468261
+  }
+ ],
+ "annual": [
+  {
+   "year": "2024",
+   "revenue": 3946390000.0,
+   "eps": 1.7,
+   "net_income": 104043000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4202585000.0,
+   "eps": 2.62,
+   "net_income": 167528000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5340490000.0,
+   "eps": 5.32,
+   "net_income": 356948000.0
+  },
+  {
+   "year": "2021",
+   "revenue": 4232383000.0,
+   "eps": 2.53,
+   "net_income": 171474000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": null,
+ "fcf_burn_annual": null,
+ "runway_months": null,
+ "need_24m": null,
+ "gap_24m": null,
+ "survival_gate": "UNKNOWN",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.23999366427472987,
+ "ev": 1950705253.6564255,
+ "ev_to_sales": null,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": 14.770115,
+ "p_sales": 0.42148033,
+ "p_fcf": null,
+ "p_book": 0.9231851989504478
+}

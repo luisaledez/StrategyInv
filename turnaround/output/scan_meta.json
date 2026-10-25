@@ -8,6 +8,6 @@
  "min_years": 5.0,
  "priority_dd": -0.4,
  "universe": "sp500,sp400",
- "tickers_scanned": 897,
- "qualified": 243
+ "tickers_scanned": 898,
+ "qualified": 239
 }

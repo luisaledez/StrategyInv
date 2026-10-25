@@ -1,0 +1,154 @@
+{
+ "ticker": "ADUS",
+ "fetched": "2026-10-25",
+ "market_cap": 2274716437.4084473,
+ "shares_out": 18674300.0,
+ "price": 121.80999755859375,
+ "long_name": "Addus HomeCare Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Care Facilities",
+ "pe_trailing_y": 21.332748,
+ "pe_forward": 16.205767,
+ "peg": 1.07,
+ "p_sales_y": 1.5407109,
+ "eps_trailing_y": 5.71,
+ "eps_forward": 7.51646,
+ "earnings_growth_y": 0.242,
+ "earnings_growth_q_y": 0.252,
+ "bs_date": "2026-06-30",
+ "cash": 99566000.0,
+ "total_debt": 108820000.0,
+ "current_debt": 13059000.0,
+ "lease_obligations": 47223000.0,
+ "equity": 1148157000.0,
+ "net_debt": 9254000.0,
+ "ocf_ttm": 162405000.0,
+ "capex_ttm": -7633000.0,
+ "fcf_ttm": 154772000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1476407000.0,
+ "net_income_ttm": 105306000.0,
+ "ebitda_ttm": 167372000.0,
+ "ebit_ttm": 150661000.0,
+ "interest_ttm": 9944000.0,
+ "revenue_yoy_last_q": 0.08005311309712893,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 377417000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 363611000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 373078000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 362301000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 349443000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.478366
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.343118
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.608273
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.236163
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.198022
+  }
+ ],
+ "eps_ttm": 5.66592,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2771225661970005,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.23400571942752313,
+ "eps_forward_growth": 0.32660891788094437,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.32208406086636265
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3186729774401765
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3313114147711739
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3221492626296919
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.325881474231849
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1422530000.0,
+   "eps": 5.179285,
+   "net_income": 95910000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1154599000.0,
+   "eps": 4.055433,
+   "net_income": 73598000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1058651000.0,
+   "eps": 3.83,
+   "net_income": 62516000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 951120000.0,
+   "eps": 2.84,
+   "net_income": 46025000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.014505351225077456,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 13059000.0,
+ "gap_24m": -86507000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.05529001266639581,
+ "interest_coverage": 15.150945293644408,
+ "cash_to_debt": 0.9149604852049256,
+ "ev": 2283970437.4084473,
+ "ev_to_sales": 1.5469788733109822,
+ "ev_to_ebitda": 13.646072445859804,
+ "pe_ttm": 21.601014542461467,
+ "pe_trailing": 21.332748,
+ "p_sales": 1.5407109,
+ "p_fcf": 14.69720903915726,
+ "p_book": 1.9811893647022552
+}

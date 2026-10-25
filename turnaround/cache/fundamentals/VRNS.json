@@ -1,0 +1,154 @@
+{
+ "ticker": "VRNS",
+ "fetched": "2026-10-25",
+ "market_cap": 5614380629.484234,
+ "shares_out": 114860485.0,
+ "price": 48.880001068115234,
+ "long_name": "Varonis Systems, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": null,
+ "pe_forward": 119.74815,
+ "peg": 7.38,
+ "p_sales_y": 8.15931,
+ "eps_trailing_y": -1.22,
+ "eps_forward": 0.40819,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 698266000.0,
+ "total_debt": 516132000.0,
+ "current_debt": 9739000.0,
+ "lease_obligations": 62854000.0,
+ "equity": 444493000.0,
+ "net_debt": -182134000.0,
+ "ocf_ttm": 138205000.0,
+ "capex_ttm": -19902000.0,
+ "fcf_ttm": 118303000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -150000000.0,
+ "stock_issuance_ttm": -150000000.0,
+ "revenue_ttm": 688095000.0,
+ "net_income_ttm": -141380000.0,
+ "ebitda_ttm": -95690000.0,
+ "ebit_ttm": -114546000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.1830931303930654,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 180023000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 173126000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 173369000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 161577000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 152163000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.32
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.26
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.32
+  }
+ ],
+ "eps_ttm": -1.23,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7527427050987929
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7598858634751569
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7891318517151279
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.782462850529469
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7946347009456964
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 623532000.0,
+   "eps": -1.13,
+   "net_income": -129324000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 550950000.0,
+   "eps": -0.86,
+   "net_income": -95765000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 499160000.0,
+   "eps": -0.92,
+   "net_income": -100916000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 473634000.0,
+   "eps": -1.14,
+   "net_income": -124518000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.0250498743345533,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9739000.0,
+ "gap_24m": -688527000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.9033754833315917,
+ "interest_coverage": null,
+ "cash_to_debt": 1.3528825959250734,
+ "ev": 5432246629.484234,
+ "ev_to_sales": 7.894617210536675,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 8.15931,
+ "p_fcf": 47.45763530497311,
+ "p_book": 12.63097648215885
+}

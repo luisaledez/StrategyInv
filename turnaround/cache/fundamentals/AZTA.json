@@ -1,0 +1,154 @@
+{
+ "ticker": "AZTA",
+ "fetched": "2026-10-25",
+ "market_cap": 1599006344.5,
+ "shares_out": 43808393.0,
+ "price": 36.5,
+ "long_name": "Azenta, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": null,
+ "pe_forward": 69.39163,
+ "peg": 0.53,
+ "p_sales_y": 2.605064,
+ "eps_trailing_y": -2.47,
+ "eps_forward": 0.526,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 325797000.0,
+ "total_debt": 53967000.0,
+ "current_debt": null,
+ "lease_obligations": 53967000.0,
+ "equity": 1510129000.0,
+ "net_debt": -271830000.0,
+ "ocf_ttm": 37975000.0,
+ "capex_ttm": -28094000.0,
+ "fcf_ttm": 9881000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": -47277000.0,
+ "revenue_ttm": 613566000.0,
+ "net_income_ttm": -122935000.0,
+ "ebitda_ttm": 32400000.0,
+ "ebit_ttm": -23264000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.1204198672274166,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 161178000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 144795000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 148642000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 158951000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 143855000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.05
+  },
+  {
+   "period": "2026-03-31",
+   "value": -3.49
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.34
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.15
+  }
+ ],
+ "eps_ttm": -2.7600000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.44891982776805767
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4284333022549121
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4285868058825904
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4275720190498959
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.46160369816829444
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 593821000.0,
+   "eps": -1.3,
+   "net_income": -55763000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 573448000.0,
+   "eps": -3.602583,
+   "net_income": -164897000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 551486000.0,
+   "eps": -0.22,
+   "net_income": -14636000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 555498000.0,
+   "eps": 28.48,
+   "net_income": 2132859000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.0441214593275534,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -325797000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -8.389814814814814,
+ "interest_coverage": null,
+ "cash_to_debt": 6.0369670354105285,
+ "ev": 1327176344.5,
+ "ev_to_sales": 2.163053924924132,
+ "ev_to_ebitda": 40.96223285493827,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.605064,
+ "p_fcf": 161.82636823196032,
+ "p_book": 1.058854140606531
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "FIVN",
+ "fetched": "2026-10-25",
+ "market_cap": 2810352046.517624,
+ "shares_out": 74723531.0,
+ "price": 37.61000061035156,
+ "long_name": "Five9, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 54.507248,
+ "pe_forward": 9.797639,
+ "peg": 0.28,
+ "p_sales_y": 2.3344178,
+ "eps_trailing_y": 0.69,
+ "eps_forward": 3.83868,
+ "earnings_growth_y": 3.0,
+ "earnings_growth_q_y": 1.918,
+ "bs_date": "2026-06-30",
+ "cash": 654062000.0,
+ "total_debt": 805036000.0,
+ "current_debt": 22848000.0,
+ "lease_obligations": 67753000.0,
+ "equity": 784804000.0,
+ "net_debt": 150974000.0,
+ "ocf_ttm": 248760000.0,
+ "capex_ttm": -78514000.0,
+ "fcf_ttm": 170246000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -100011000.0,
+ "stock_issuance_ttm": -100011000.0,
+ "revenue_ttm": 1203877000.0,
+ "net_income_ttm": 59465000.0,
+ "ebitda_ttm": 150335000.0,
+ "ebit_ttm": 79307000.0,
+ "interest_ttm": 12790000.0,
+ "revenue_yoy_last_q": 0.1029939739258443,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 312444000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 305319000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 300282000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 285832000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 283269000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.21
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.21
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.01
+  }
+ ],
+ "eps_ttm": 0.69,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 3.0,
+ "eps_forward_growth": 4.5633043478260875,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5336764348171192
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5585207602540294
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5542723173550196
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5502532956421954
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5486092724583347
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1149088000.0,
+   "eps": 0.45,
+   "net_income": 39416000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1041938000.0,
+   "eps": -0.17,
+   "net_income": -12795000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 910488000.0,
+   "eps": -1.13,
+   "net_income": -81764000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 778846000.0,
+   "eps": -1.35,
+   "net_income": -94650000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.03286785395337999,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 22848000.0,
+ "gap_24m": -631214000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0042505072005854,
+ "interest_coverage": 6.2007036747458955,
+ "cash_to_debt": 0.812463045130901,
+ "ev": 2961326046.517624,
+ "ev_to_sales": 2.459824422692371,
+ "ev_to_ebitda": 19.6981810391301,
+ "pe_ttm": 47.2606078620638,
+ "pe_trailing": 54.507248,
+ "p_sales": 2.3344178,
+ "p_fcf": 16.507595165335008,
+ "p_book": 3.5809604009633285
+}

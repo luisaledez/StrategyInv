@@ -1,0 +1,154 @@
+{
+ "ticker": "RKLB",
+ "fetched": "2026-10-25",
+ "market_cap": 33627270127.702972,
+ "shares_out": 639301732.0,
+ "price": 52.599998474121094,
+ "long_name": "Rocket Lab Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": null,
+ "pe_forward": 914.9417,
+ "peg": null,
+ "p_sales_y": 43.72774,
+ "eps_trailing_y": -0.27,
+ "eps_forward": 0.05749,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2302185000.0,
+ "total_debt": 133691000.0,
+ "current_debt": 17090000.0,
+ "lease_obligations": 118846000.0,
+ "equity": 3492153000.0,
+ "net_debt": -2168494000.0,
+ "ocf_ttm": -222461000.0,
+ "capex_ttm": -148678000.0,
+ "fcf_ttm": -371139000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 2279049000.0,
+ "revenue_ttm": 769146000.0,
+ "net_income_ttm": -165459000.0,
+ "ebitda_ttm": -105947000.0,
+ "ebit_ttm": -168350000.0,
+ "interest_ttm": 23387000.0,
+ "revenue_yoy_last_q": 0.6198563301914213,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 234066000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 200348000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 179652000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 155080000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 144498000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.09
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.13
+  }
+ ],
+ "eps_ttm": -0.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.36133398272282174
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.38180066683969893
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37980094850043417
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36957699251998966
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.32102866475660563
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 601799000.0,
+   "eps": -0.37,
+   "net_income": -198209000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 436214000.0,
+   "eps": -0.38,
+   "net_income": -190175000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 244592000.0,
+   "eps": -0.38,
+   "net_income": -182571000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 210996000.0,
+   "eps": -0.29,
+   "net_income": -135944000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.21674962760997496,
+ "fcf_burn_annual": 371139000.0,
+ "runway_months": 74.43631631275613,
+ "need_24m": 759368000.0,
+ "gap_24m": -1542817000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 20.467724428251863,
+ "interest_coverage": -7.198443579766537,
+ "cash_to_debt": 17.220194328713227,
+ "ev": 31458776127.702972,
+ "ev_to_sales": 40.90091624698428,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 43.72774,
+ "p_fcf": null,
+ "p_book": 9.629380536220198
+}

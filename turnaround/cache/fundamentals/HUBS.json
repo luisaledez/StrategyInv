@@ -1,0 +1,154 @@
+{
+ "ticker": "HUBS",
+ "fetched": "2026-10-25",
+ "market_cap": 13507756770.36731,
+ "shares_out": 49866201.0,
+ "price": 270.8800048828125,
+ "long_name": "HubSpot, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 96.74286,
+ "pe_forward": 16.073017,
+ "peg": 0.33,
+ "p_sales_y": 4.0204544,
+ "eps_trailing_y": 2.8,
+ "eps_forward": 16.85309,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1337943000.0,
+ "total_debt": 236914000.0,
+ "current_debt": 38095000.0,
+ "lease_obligations": 236914000.0,
+ "equity": 1656728000.0,
+ "net_debt": -1101029000.0,
+ "ocf_ttm": 856365000.0,
+ "capex_ttm": -198473000.0,
+ "fcf_ttm": 657892000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1117895000.0,
+ "stock_issuance_ttm": -1117895000.0,
+ "revenue_ttm": 3448999000.0,
+ "net_income_ttm": 146854000.0,
+ "ebitda_ttm": 333203000.0,
+ "ebit_ttm": 174297000.0,
+ "interest_ttm": 644000.0,
+ "revenue_yoy_last_q": 0.19829247199901157,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 911740000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 880995000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 846746000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 809518000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 760866000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.86
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.62
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.06
+  }
+ ],
+ "eps_ttm": 2.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 8.555555555555555,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 4.955155477031803,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8235472832167066
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8346256221658466
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.837376261594386
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8350648163475055
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8394447905413043
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3131266000.0,
+   "eps": 0.86,
+   "net_income": 45911000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2627543000.0,
+   "eps": 0.09,
+   "net_income": 4628000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2170230000.0,
+   "eps": -3.3,
+   "net_income": -164510000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1730969000.0,
+   "eps": -2.35,
+   "net_income": -107347000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.05774083983226119,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 38095000.0,
+ "gap_24m": -1299848000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.3043790121937677,
+ "interest_coverage": 270.6475155279503,
+ "cash_to_debt": 5.64737837358704,
+ "ev": 12406727770.36731,
+ "ev_to_sales": 3.5971966852896475,
+ "ev_to_ebitda": 37.234742095261176,
+ "pe_ttm": 91.980856976094,
+ "pe_trailing": 96.74286,
+ "p_sales": 4.0204544,
+ "p_fcf": 20.531875703561237,
+ "p_book": 8.153273663731952
+}

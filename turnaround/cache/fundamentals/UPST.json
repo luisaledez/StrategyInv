@@ -1,0 +1,133 @@
+{
+ "ticker": "UPST",
+ "fetched": "2026-10-25",
+ "market_cap": 2314104300.699566,
+ "shares_out": 97313046.0,
+ "price": 23.780000686645508,
+ "long_name": "Upstart Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Credit Services",
+ "pe_trailing_y": 47.56,
+ "pe_forward": 6.6532187,
+ "peg": null,
+ "p_sales_y": 1.7996129,
+ "eps_trailing_y": 0.5,
+ "eps_forward": 3.57421,
+ "earnings_growth_y": 2.112,
+ "earnings_growth_q_y": 1.95,
+ "bs_date": "2026-06-30",
+ "cash": 457739000.0,
+ "total_debt": 2025481000.0,
+ "current_debt": 251758000.0,
+ "lease_obligations": 22352000.0,
+ "equity": 797488000.0,
+ "net_debt": 1567742000.0,
+ "ocf_ttm": -284006000.0,
+ "capex_ttm": -21124000.0,
+ "fcf_ttm": -305130000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -100057000.0,
+ "stock_issuance_ttm": -100057000.0,
+ "revenue_ttm": 1226245000.0,
+ "net_income_ttm": 60334000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 59645000.0,
+ "revenue_yoy_last_q": 0.4174922558503795,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 364708000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 308214000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 276218000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 277105000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 257291000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.16
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.17
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.23
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.05
+  }
+ ],
+ "eps_ttm": 0.49,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 2.1999999999999997,
+ "eps_forward_growth": 6.29430612244898,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1023985000.0,
+   "eps": 0.45,
+   "net_income": 53601000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 628834000.0,
+   "eps": -1.44,
+   "net_income": -128581000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 508119000.0,
+   "eps": -2.87,
+   "net_income": -240132000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 837760000.0,
+   "eps": -1.31,
+   "net_income": -108665000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.012649110336609537,
+ "fcf_burn_annual": 305130000.0,
+ "runway_months": 18.001730409989186,
+ "need_24m": 862018000.0,
+ "gap_24m": 404279000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.22599027095292426,
+ "ev": 3881846300.699566,
+ "ev_to_sales": 3.1656368023515413,
+ "ev_to_ebitda": null,
+ "pe_ttm": 38.35489609009126,
+ "pe_trailing": 47.56,
+ "p_sales": 1.7996129,
+ "p_fcf": null,
+ "p_book": 2.901741845268601
+}

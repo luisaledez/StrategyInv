@@ -1,0 +1,154 @@
+{
+ "ticker": "OTEX",
+ "fetched": "2026-10-25",
+ "market_cap": 6782413147.136688,
+ "shares_out": 242662360.0,
+ "price": 27.950000762939453,
+ "long_name": "Open Text Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 10.833334,
+ "pe_forward": 6.519726,
+ "peg": 1.02,
+ "p_sales_y": 1.2927744,
+ "eps_trailing_y": 2.58,
+ "eps_forward": 4.28699,
+ "earnings_growth_y": 4.761,
+ "earnings_growth_q_y": 4.399,
+ "bs_date": "2026-06-30",
+ "cash": 956024000.0,
+ "total_debt": 5972406000.0,
+ "current_debt": 99462000.0,
+ "lease_obligations": 202037000.0,
+ "equity": 4014104000.0,
+ "net_debt": 5016382000.0,
+ "ocf_ttm": 1006817000.0,
+ "capex_ttm": -199300000.0,
+ "fcf_ttm": 807517000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -469312000.0,
+ "stock_issuance_ttm": -469312000.0,
+ "revenue_ttm": 5246401000.0,
+ "net_income_ttm": 643022000.0,
+ "ebitda_ttm": 1817916000.0,
+ "ebit_ttm": 1210766000.0,
+ "interest_ttm": 351889000.0,
+ "revenue_yoy_last_q": 0.02936887703284996,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1349026000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1282504000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1326736000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1288135000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1310537000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.64
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.66
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.58
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.11
+  }
+ ],
+ "eps_ttm": 2.58,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5087719298245614,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 4.818181818181818,
+ "eps_forward_growth": 0.6616240310077519,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7497794705216949
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7308148746514631
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7403130690657372
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7278088088593199
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7231379197992884
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 5246401000.0,
+   "eps": 2.58,
+   "net_income": 643022000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5168405000.0,
+   "eps": null,
+   "net_income": 435868000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5769577000.0,
+   "eps": 1.71,
+   "net_income": 465090000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4484980000.0,
+   "eps": 0.56,
+   "net_income": 150379000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04968095160900188,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 99462000.0,
+ "gap_24m": -856562000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.7594135262575388,
+ "interest_coverage": 3.440761149112362,
+ "cash_to_debt": 0.1600735114123186,
+ "ev": 11798795147.136688,
+ "ev_to_sales": 2.2489312477518757,
+ "ev_to_ebitda": 6.4902862107691925,
+ "pe_ttm": 10.547715548047638,
+ "pe_trailing": 10.833334,
+ "p_sales": 1.2927744,
+ "p_fcf": 8.399096424145483,
+ "p_book": 1.689645596411226
+}

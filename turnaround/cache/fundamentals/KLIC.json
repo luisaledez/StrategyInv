@@ -1,0 +1,154 @@
+{
+ "ticker": "KLIC",
+ "fetched": "2026-10-25",
+ "market_cap": 3857179018.7412643,
+ "shares_out": 52329115.0,
+ "price": 73.70999908447266,
+ "long_name": "Kulicke and Soffa Industries, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 33.811924,
+ "pe_forward": 12.486174,
+ "peg": 2.38,
+ "p_sales_y": 4.0592785,
+ "eps_trailing_y": 2.18,
+ "eps_forward": 5.90333,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 516573000.0,
+ "total_debt": 38118000.0,
+ "current_debt": 6083000.0,
+ "lease_obligations": 38118000.0,
+ "equity": 911957000.0,
+ "net_debt": -478455000.0,
+ "ocf_ttm": 53960000.0,
+ "capex_ttm": -13987000.0,
+ "fcf_ttm": 39973000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -24392000.0,
+ "stock_issuance_ttm": -24392000.0,
+ "revenue_ttm": 950213000.0,
+ "net_income_ttm": 115739000.0,
+ "ebitda_ttm": 160633000.0,
+ "ebit_ttm": 144660000.0,
+ "interest_ttm": 150000.0,
+ "revenue_yoy_last_q": 1.226280716648811,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 330409000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 242621000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 199625000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 177558000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 148413000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.66
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.32
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.06
+  }
+ ],
+ "eps_ttm": 2.17,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 1.7204285714285716,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4780408523980884
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.49337856162492116
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.49570444583594236
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4573716757341263
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4665561642174203
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 654081000.0,
+   "eps": 0.004,
+   "net_income": 213000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 706232000.0,
+   "eps": -1.24,
+   "net_income": -69006000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 742491000.0,
+   "eps": 0.99,
+   "net_income": 57148000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1503620000.0,
+   "eps": 7.09,
+   "net_income": 433545000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.0007828311757742679,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6083000.0,
+ "gap_24m": -510490000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.9785598227014374,
+ "interest_coverage": 964.4,
+ "cash_to_debt": 13.55194396348182,
+ "ev": 3378724018.7412643,
+ "ev_to_sales": 3.555754361118259,
+ "ev_to_ebitda": 21.03381010590143,
+ "pe_ttm": 33.32652795290493,
+ "pe_trailing": 33.811924,
+ "p_sales": 4.0592785,
+ "p_fcf": 96.49460932982925,
+ "p_book": 4.229562379302165
+}

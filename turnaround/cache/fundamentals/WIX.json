@@ -1,0 +1,154 @@
+{
+ "ticker": "WIX",
+ "fetched": "2026-10-25",
+ "market_cap": 3429149033.5116577,
+ "shares_out": 41849511.0,
+ "price": 81.94000244140625,
+ "long_name": "Wix.com Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": null,
+ "pe_forward": 11.9472885,
+ "peg": 0.17,
+ "p_sales_y": 1.6071434,
+ "eps_trailing_y": -3.43,
+ "eps_forward": 6.85846,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 960785000.0,
+ "total_debt": 2038659000.0,
+ "current_debt": 548411000.0,
+ "lease_obligations": 410249000.0,
+ "equity": -1740919000.0,
+ "net_debt": 1077874000.0,
+ "ocf_ttm": 421122000.0,
+ "capex_ttm": -10656000.0,
+ "fcf_ttm": 410466000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1898437000.0,
+ "stock_issuance_ttm": -1638437000.0,
+ "revenue_ttm": 2133692000.0,
+ "net_income_ttm": -174648000.0,
+ "ebitda_ttm": -145681000.0,
+ "ebit_ttm": -178201000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.14926213948931477,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 563058000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 541171000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 524269000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 505194000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 489930000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.78
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.73
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.01
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.98
+  }
+ ],
+ "eps_ttm": -3.5399999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6271186440677966,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -2.816326530612245,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6577315303219207
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6529655136731274
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6732726901647819
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6834325031572029
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6870165125630192
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1993044000.0,
+   "eps": 0.88,
+   "net_income": 50646000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1760650000.0,
+   "eps": 2.36,
+   "net_income": 138322000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1561665000.0,
+   "eps": 0.57,
+   "net_income": 33137000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1387666000.0,
+   "eps": -7.33,
+   "net_income": -424863000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.2541248713283534,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 548411000.0,
+ "gap_24m": -412374000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -7.398864642609538,
+ "interest_coverage": null,
+ "cash_to_debt": 0.47128283837561846,
+ "ev": 4507023033.511658,
+ "ev_to_sales": 2.1123119145179614,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.6071434,
+ "p_fcf": 8.354282774972003,
+ "p_book": null
+}

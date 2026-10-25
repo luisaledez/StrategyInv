@@ -1,0 +1,133 @@
+{
+ "ticker": "ADEA",
+ "fetched": "2026-10-25",
+ "market_cap": 2337939264.1370773,
+ "shares_out": 110280150.0,
+ "price": 21.200000762939453,
+ "long_name": "Adeia Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 19.458714,
+ "pe_forward": 13.250039,
+ "peg": 1.51,
+ "p_sales_y": 4.9674897,
+ "eps_trailing_y": 1.09,
+ "eps_forward": 1.60075,
+ "earnings_growth_y": 0.0,
+ "earnings_growth_q_y": 0.039,
+ "bs_date": "2026-06-30",
+ "cash": 137081000.0,
+ "total_debt": 395262000.0,
+ "current_debt": 21581000.0,
+ "lease_obligations": 9247000.0,
+ "equity": 477187000.0,
+ "net_debt": 258181000.0,
+ "ocf_ttm": 190952000.0,
+ "capex_ttm": -18973000.0,
+ "fcf_ttm": 171979000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -65657000.0,
+ "stock_issuance_ttm": -65657000.0,
+ "revenue_ttm": 470870000.0,
+ "net_income_ttm": 122678000.0,
+ "ebitda_ttm": 264784000.0,
+ "ebit_ttm": 202460000.0,
+ "interest_ttm": 36075000.0,
+ "revenue_yoy_last_q": 0.12109406893334107,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 96117000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 104772000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 182642000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 87339000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 85735000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.15
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.15
+  }
+ ],
+ "eps_ttm": 1.08,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.736842105263158,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": 0.48217592592592573,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 443386000.0,
+   "eps": 0.99,
+   "net_income": 111075000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 376024000.0,
+   "eps": 0.57,
+   "net_income": 64623000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 388788000.0,
+   "eps": 0.6,
+   "net_income": 67372000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 438933000.0,
+   "eps": -2.84,
+   "net_income": -295880000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.008570775211525161,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 21581000.0,
+ "gap_24m": -115500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9750626926098254,
+ "interest_coverage": 5.612196812196812,
+ "cash_to_debt": 0.3468104700173556,
+ "ev": 2596120264.1370773,
+ "ev_to_sales": 5.513454380480976,
+ "ev_to_ebitda": 9.804671974655106,
+ "pe_ttm": 19.057526729626154,
+ "pe_trailing": 19.458714,
+ "p_sales": 4.9674897,
+ "p_fcf": 13.59432991317008,
+ "p_book": 4.899419439626556
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "DRVN",
+ "fetched": "2026-10-25",
+ "market_cap": 1936863002.0791168,
+ "shares_out": 164979816.0,
+ "price": 11.739999771118164,
+ "long_name": "Driven Brands Holdings Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto & Truck Dealerships",
+ "pe_trailing_y": 11.858585,
+ "pe_forward": 8.173097,
+ "peg": 0.93,
+ "p_sales_y": 1.0027921,
+ "eps_trailing_y": 0.99,
+ "eps_forward": 1.43642,
+ "earnings_growth_y": -0.37,
+ "earnings_growth_q_y": -0.366,
+ "bs_date": "2026-06-30",
+ "cash": 183947000.0,
+ "total_debt": 2220443000.0,
+ "current_debt": 26243000.0,
+ "lease_obligations": 535268000.0,
+ "equity": 833291000.0,
+ "net_debt": 2036496000.0,
+ "ocf_ttm": 312837000.0,
+ "capex_ttm": -179057000.0,
+ "fcf_ttm": 133780000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1787144000.0,
+ "net_income_ttm": 176169000.0,
+ "ebitda_ttm": 386938000.0,
+ "ebit_ttm": 257597000.0,
+ "interest_ttm": 97552000.0,
+ "revenue_yoy_last_q": 0.0677654020407692,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 507416000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 484441000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 259603000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 535684000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 475213000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.33
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.29
+  }
+ ],
+ "eps_ttm": 1.04,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.27586206896551724,
+ "eps_forward_growth": 0.381173076923077,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5025639711794662
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5148552661727641
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5021975863144879
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5037018092756177
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5129026352393559
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1862438000.0,
+   "eps": 0.85,
+   "net_income": 140162000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1752476000.0,
+   "eps": -1.82,
+   "net_income": -297453000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1710040000.0,
+   "eps": -4.53,
+   "net_income": -798931000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2033194000.0,
+   "eps": 0.25,
+   "net_income": 43188000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.004292805625594642,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 26243000.0,
+ "gap_24m": -157704000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.263106750952349,
+ "interest_coverage": 2.6406121863211416,
+ "cash_to_debt": 0.08284247782987449,
+ "ev": 3973359002.079117,
+ "ev_to_sales": 2.223300977469704,
+ "ev_to_ebitda": 10.2687226431085,
+ "pe_ttm": 10.994346349693288,
+ "pe_trailing": 11.858585,
+ "p_sales": 1.0027921,
+ "p_fcf": 14.477971311699184,
+ "p_book": 2.324353679661867
+}

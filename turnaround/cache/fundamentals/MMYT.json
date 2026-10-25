@@ -1,0 +1,154 @@
+{
+ "ticker": "MMYT",
+ "fetched": "2026-10-25",
+ "market_cap": 3958929097.932213,
+ "shares_out": 94058662.0,
+ "price": 42.09000015258789,
+ "long_name": "MakeMyTrip Limited",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Travel Services",
+ "pe_trailing_y": 210.45,
+ "pe_forward": 16.837078,
+ "peg": 5.39,
+ "p_sales_y": 3.7322898,
+ "eps_trailing_y": 0.2,
+ "eps_forward": 2.49984,
+ "earnings_growth_y": -0.608,
+ "earnings_growth_q_y": -0.678,
+ "bs_date": "2026-06-30",
+ "cash": 776183000.0,
+ "total_debt": 1436125000.0,
+ "current_debt": 7216000.0,
+ "lease_obligations": 11786000.0,
+ "equity": -69371000.0,
+ "net_debt": 659942000.0,
+ "ocf_ttm": 167403000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 152877000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1060724000.0,
+ "net_income_ttm": 34230000.0,
+ "ebitda_ttm": 200973000.0,
+ "ebit_ttm": 173769000.0,
+ "interest_ttm": 116346000.0,
+ "revenue_yoy_last_q": 0.06224009284125476,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 285579000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 250116000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 295688000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 229341000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 268846000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.09
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.22
+  }
+ ],
+ "eps_ttm": 0.12,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5662650602409638,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5909090909090909,
+ "eps_forward_growth": 19.832,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7105004219497932
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7617665403252891
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7028489488920754
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7753825090149603
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.721450198254763
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1043991000.0,
+   "eps": 0.36,
+   "net_income": 51804000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 978336000.0,
+   "eps": 0.83,
+   "net_income": 95101000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 782524000.0,
+   "eps": 1.74,
+   "net_income": 216801000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 593036000.0,
+   "eps": -0.1,
+   "net_income": -11321000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.011442510764904101,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 7216000.0,
+ "gap_24m": -768967000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.2837346310200872,
+ "interest_coverage": 1.4935537104842453,
+ "cash_to_debt": 0.5404703629558708,
+ "ev": 4618871097.932213,
+ "ev_to_sales": 4.354451391627052,
+ "ev_to_ebitda": 22.98254540625961,
+ "pe_ttm": 115.65670750605355,
+ "pe_trailing": 210.45,
+ "p_sales": 3.7322898,
+ "p_fcf": 25.896172072530288,
+ "p_book": null
+}

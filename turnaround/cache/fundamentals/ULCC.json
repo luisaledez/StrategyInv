@@ -1,0 +1,154 @@
+{
+ "ticker": "ULCC",
+ "fetched": "2026-10-25",
+ "market_cap": 1137265921.913052,
+ "shares_out": 230215771.0,
+ "price": 4.940000057220459,
+ "long_name": "Frontier Group Holdings, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Airlines",
+ "pe_trailing_y": null,
+ "pe_forward": 19.576763,
+ "peg": null,
+ "p_sales_y": 0.2737761,
+ "eps_trailing_y": -1.68,
+ "eps_forward": 0.25234,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 955000000.0,
+ "total_debt": 5242000000.0,
+ "current_debt": 958000000.0,
+ "lease_obligations": 4736000000.0,
+ "equity": 136000000.0,
+ "net_debt": 4287000000.0,
+ "ocf_ttm": -115000000.0,
+ "capex_ttm": -154000000.0,
+ "fcf_ttm": -126000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4154000000.0,
+ "net_income_ttm": -386000000.0,
+ "ebitda_ttm": -278000000.0,
+ "ebit_ttm": -383000000.0,
+ "interest_ttm": 16000000.0,
+ "revenue_yoy_last_q": 0.3767491926803015,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1279000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 992000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 997000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 886000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 929000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.39
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.34
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.31
+  }
+ ],
+ "eps_ttm": -1.68,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -2.6216216216216215,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.004691164972634871
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.20967741935483872
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.025075225677031094
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.0327313769751693
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.005382131324004306
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3724000000.0,
+   "eps": -0.6,
+   "net_income": -137000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3775000000.0,
+   "eps": 0.37,
+   "net_income": 85000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3589000000.0,
+   "eps": -0.05,
+   "net_income": -11000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3326000000.0,
+   "eps": -0.17,
+   "net_income": -37000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.009047169830673774,
+ "fcf_burn_annual": 126000000.0,
+ "runway_months": 90.95238095238095,
+ "need_24m": 1210000000.0,
+ "gap_24m": 255000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": -15.420863309352518,
+ "interest_coverage": -23.9375,
+ "cash_to_debt": 0.1821823731400229,
+ "ev": 5424265921.913052,
+ "ev_to_sales": 1.3057934332963532,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.2737761,
+ "p_fcf": null,
+ "p_book": 8.362249425831266
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "LPLA",
+ "fetched": "2026-10-25",
+ "market_cap": 24851852993.448486,
+ "shares_out": 78742290.0,
+ "price": 315.6099853515625,
+ "long_name": "LPL Financial Holdings Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 25.108194,
+ "pe_forward": 10.450748,
+ "peg": 0.41,
+ "p_sales_y": 1.2946504,
+ "eps_trailing_y": 12.57,
+ "eps_forward": 30.19975,
+ "earnings_growth_y": 0.394,
+ "earnings_growth_q_y": 0.388,
+ "bs_date": "2026-06-30",
+ "cash": 1463696000.0,
+ "total_debt": 7685361000.0,
+ "current_debt": 276000000.0,
+ "lease_obligations": 224851000.0,
+ "equity": 5756840000.0,
+ "net_debt": 6221665000.0,
+ "ocf_ttm": -252164000.0,
+ "capex_ttm": -679127000.0,
+ "fcf_ttm": -931291000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -309476000.0,
+ "stock_issuance_ttm": -309476000.0,
+ "revenue_ttm": 19609504000.0,
+ "net_income_ttm": 1006867000.0,
+ "ebitda_ttm": 2482713000.0,
+ "ebit_ttm": 1777240000.0,
+ "interest_ttm": 413702000.0,
+ "revenue_yoy_last_q": 0.3524352513999256,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5186623000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4938434000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4932470000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4551977000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3835025000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.74
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.74
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.4
+  }
+ ],
+ "eps_ttm": 12.540000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.22166785459729144,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3941176470588237,
+ "eps_forward_growth": 1.4082735247208933,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24521331124317305
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.24765138098433634
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2366718905538199
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.1972795556743806
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2580087483132444
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 16989479000.0,
+   "eps": 10.92,
+   "net_income": 863024000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 12385107000.0,
+   "eps": 14.03,
+   "net_income": 1058616000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10052848000.0,
+   "eps": 13.69,
+   "net_income": 1066250000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8600825000.0,
+   "eps": 10.4,
+   "net_income": 845702000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.010524033659178533,
+ "fcf_burn_annual": 931291000.0,
+ "runway_months": 18.860218771576232,
+ "need_24m": 2138582000.0,
+ "gap_24m": 674886000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 2.5059944504258045,
+ "interest_coverage": 4.295942490004883,
+ "cash_to_debt": 0.1904524719138112,
+ "ev": 31073517993.448486,
+ "ev_to_sales": 1.5846151944204445,
+ "ev_to_ebitda": 12.515952505766267,
+ "pe_ttm": 24.682359232598234,
+ "pe_trailing": 25.108194,
+ "p_sales": 1.2946504,
+ "p_fcf": null,
+ "p_book": 4.316926125000606
+}

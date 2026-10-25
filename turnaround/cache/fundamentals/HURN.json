@@ -1,0 +1,154 @@
+{
+ "ticker": "HURN",
+ "fetched": "2026-10-25",
+ "market_cap": 3113442028.522949,
+ "shares_out": 15910072.0,
+ "price": 195.69000244140625,
+ "long_name": "Huron Consulting Group Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Consulting Services",
+ "pe_trailing_y": 29.471386,
+ "pe_forward": 18.478754,
+ "peg": 1.47,
+ "p_sales_y": 1.7550515,
+ "eps_trailing_y": 6.64,
+ "eps_forward": 10.59,
+ "earnings_growth_y": 0.752,
+ "earnings_growth_q_y": 0.608,
+ "bs_date": "2026-03-31",
+ "cash": 26459000.0,
+ "total_debt": 887433000.0,
+ "current_debt": 31217000.0,
+ "lease_obligations": 32694000.0,
+ "equity": 397440000.0,
+ "net_debt": 860974000.0,
+ "ocf_ttm": 138053000.0,
+ "capex_ttm": -34412000.0,
+ "fcf_ttm": 103641000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -276462000.0,
+ "stock_issuance_ttm": -276462000.0,
+ "revenue_ttm": 1746769000.0,
+ "net_income_ttm": 103751000.0,
+ "ebitda_ttm": 226083000.0,
+ "ebit_ttm": 190882000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.11784500953874999,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 451767000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 441963000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 441284000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 411755000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 404141000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.91
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.72
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.71
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.09
+  }
+ ],
+ "eps_ttm": 6.68,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.06858054226475274,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.7522935779816511,
+ "eps_forward_growth": 0.5853293413173652,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.2999732162818444
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3297221713129832
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.32531884228750646
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3241660696287841
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.29111869372323024
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1699143000.0,
+   "eps": 5.84,
+   "net_income": 105040000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1521805000.0,
+   "eps": 6.27,
+   "net_income": 116626000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1398755000.0,
+   "eps": 3.19,
+   "net_income": 62479000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1158961000.0,
+   "eps": 3.64,
+   "net_income": 75552000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07026166099903441,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 31217000.0,
+ "gap_24m": 4758000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.8082208746345367,
+ "interest_coverage": null,
+ "cash_to_debt": 0.029815208584760763,
+ "ev": 3974416028.522949,
+ "ev_to_sales": 2.275295719424234,
+ "ev_to_ebitda": 17.57945545893742,
+ "pe_ttm": 30.008790551637567,
+ "pe_trailing": 29.471386,
+ "p_sales": 1.7550515,
+ "p_fcf": 30.040640562354177,
+ "p_book": 7.833741013795665
+}

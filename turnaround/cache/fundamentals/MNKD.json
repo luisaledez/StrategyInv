@@ -1,0 +1,154 @@
+{
+ "ticker": "MNKD",
+ "fetched": "2026-10-25",
+ "market_cap": 1025726922.358923,
+ "shares_out": 321544484.0,
+ "price": 3.190000057220459,
+ "long_name": "MannKind Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": 23.62963,
+ "peg": 4.39,
+ "p_sales_y": 2.6058216,
+ "eps_trailing_y": -0.14,
+ "eps_forward": 0.135,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 111130000.0,
+ "total_debt": 330848000.0,
+ "current_debt": 2076000.0,
+ "lease_obligations": 11763000.0,
+ "equity": -67197000.0,
+ "net_debt": 219718000.0,
+ "ocf_ttm": -8054000.0,
+ "capex_ttm": -10081000.0,
+ "fcf_ttm": -18135000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 393631000.0,
+ "net_income_ttm": -43614000.0,
+ "ebitda_ttm": 20266000.0,
+ "ebit_ttm": -506000.0,
+ "interest_ttm": 48148000.0,
+ "revenue_yoy_last_q": 0.4292341265174382,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 109375000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 90171000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 111955000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 82130000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 76527000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.05
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.0
+  }
+ ],
+ "eps_ttm": -0.13,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.8,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.72992
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.806223730467667
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7349560091108035
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7540119323024473
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7312321141557881
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 348966000.0,
+   "eps": 0.02,
+   "net_income": 5863000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 285504000.0,
+   "eps": 0.1,
+   "net_income": 27588000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 198962000.0,
+   "eps": -0.04,
+   "net_income": -11938000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 99770000.0,
+   "eps": -0.34,
+   "net_income": -87400000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.011685189421509312,
+ "fcf_burn_annual": 18135000.0,
+ "runway_months": 73.53515301902398,
+ "need_24m": 38346000.0,
+ "gap_24m": -72784000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 10.841705319253922,
+ "interest_coverage": -0.01050926310542494,
+ "cash_to_debt": 0.33589442886159204,
+ "ev": 1245444922.358923,
+ "ev_to_sales": 3.163990951827785,
+ "ev_to_ebitda": 61.454896001131104,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.6058216,
+ "p_fcf": null,
+ "p_book": null
+}

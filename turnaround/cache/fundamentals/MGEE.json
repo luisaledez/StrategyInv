@@ -1,0 +1,154 @@
+{
+ "ticker": "MGEE",
+ "fetched": "2026-10-25",
+ "market_cap": 2773614489.7925644,
+ "shares_out": 37746521.0,
+ "price": 73.4800033569336,
+ "long_name": "MGE Energy, Inc.",
+ "sector_y": "Utilities",
+ "industry_y": "Utilities - Regulated Electric",
+ "pe_trailing_y": 18.054054,
+ "pe_forward": 17.49499,
+ "peg": 4.12,
+ "p_sales_y": 3.6876795,
+ "eps_trailing_y": 4.07,
+ "eps_forward": 4.20006,
+ "earnings_growth_y": 0.236,
+ "earnings_growth_q_y": 0.259,
+ "bs_date": "2026-06-30",
+ "cash": 16621000.0,
+ "total_debt": 934363000.0,
+ "current_debt": 55259000.0,
+ "lease_obligations": null,
+ "equity": 1440519000.0,
+ "net_debt": 917742000.0,
+ "ocf_ttm": 278109000.0,
+ "capex_ttm": -442373000.0,
+ "fcf_ttm": -164264000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 88948000.0,
+ "revenue_ttm": 769130000.0,
+ "net_income_ttm": 149633000.0,
+ "ebitda_ttm": 323436000.0,
+ "ebit_ttm": 208116000.0,
+ "interest_ttm": 36854000.0,
+ "revenue_yoy_last_q": 0.010931189323432733,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 161195000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 242703000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 189553000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 175679000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 159452000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.89
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.32
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.64
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.72
+  }
+ ],
+ "eps_ttm": 4.07,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.11711711711711725,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.23611111111111116,
+ "eps_forward_growth": 0.03195577395577387,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4215267222928751
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.36067127311982133
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.35809509741338835
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4895918123395511
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.42964653939743624
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 743654000.0,
+   "eps": 3.72,
+   "net_income": 135889000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 676944000.0,
+   "eps": 3.33,
+   "net_income": 120569000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 690431000.0,
+   "eps": 3.25,
+   "net_income": 117699000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 714519000.0,
+   "eps": 3.07,
+   "net_income": 110952000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.03389937606042359,
+ "fcf_burn_annual": 164264000.0,
+ "runway_months": 1.2142161398724005,
+ "need_24m": 383787000.0,
+ "gap_24m": 367166000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 2.8374763477163953,
+ "interest_coverage": 5.647039670049384,
+ "cash_to_debt": 0.01778858965947924,
+ "ev": 3691356489.7925644,
+ "ev_to_sales": 4.799392157102914,
+ "ev_to_ebitda": 11.412942559865211,
+ "pe_ttm": 18.536114959885616,
+ "pe_trailing": 18.054054,
+ "p_sales": 3.6876795,
+ "p_fcf": null,
+ "p_book": 1.9254272174074514
+}

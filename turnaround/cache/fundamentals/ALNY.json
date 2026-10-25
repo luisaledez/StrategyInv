@@ -1,0 +1,154 @@
+{
+ "ticker": "ALNY",
+ "fetched": "2026-10-25",
+ "market_cap": 29977256542.19879,
+ "shares_out": 133809118.0,
+ "price": 224.02999877929688,
+ "long_name": "Alnylam Pharmaceuticals, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": 37.77909,
+ "pe_forward": 18.138187,
+ "peg": 0.29,
+ "p_sales_y": 6.2398257,
+ "eps_trailing_y": 5.93,
+ "eps_forward": 12.35129,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 3308147000.0,
+ "total_debt": 1267409000.0,
+ "current_debt": 45933000.0,
+ "lease_obligations": 256428000.0,
+ "equity": 1354118000.0,
+ "net_debt": -2040738000.0,
+ "ocf_ttm": 911813000.0,
+ "capex_ttm": -91947000.0,
+ "fcf_ttm": 819866000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4804182000.0,
+ "net_income_ttm": 807988000.0,
+ "ebitda_ttm": 1179398000.0,
+ "ebit_ttm": 1124637000.0,
+ "interest_ttm": 325072000.0,
+ "revenue_yoy_last_q": 0.6685619157051477,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1290948000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1167175000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1097033000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1249026000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 773689000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.51
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.82
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.84
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.55
+  }
+ ],
+ "eps_ttm": 5.38,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 1.295778810408922,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.76881253156595
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8191170989783023
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7559572045690512
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8397519347075241
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8152319601286822
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3713937000.0,
+   "eps": 2.33,
+   "net_income": 313747000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2248243000.0,
+   "eps": -2.18,
+   "net_income": -278157000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1828292000.0,
+   "eps": -3.52,
+   "net_income": -440242000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1037418000.0,
+   "eps": -9.3,
+   "net_income": -1131156000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.021049497239973514,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 45933000.0,
+ "gap_24m": -3262214000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.7303217404133295,
+ "interest_coverage": 3.4596550917950486,
+ "cash_to_debt": 2.610165305753707,
+ "ev": 27936518542.19879,
+ "ev_to_sales": 5.815041674565783,
+ "ev_to_ebitda": 23.687100149566806,
+ "pe_ttm": 37.10111603414752,
+ "pe_trailing": 37.77909,
+ "p_sales": 6.2398257,
+ "p_fcf": 36.56360495763794,
+ "p_book": 22.13784658515638
+}

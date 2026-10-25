@@ -1,0 +1,154 @@
+{
+ "ticker": "IOSP",
+ "fetched": "2026-10-25",
+ "market_cap": 2429606461.046402,
+ "shares_out": 24631047.0,
+ "price": 98.63999938964844,
+ "long_name": "Innospec Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": 20.130611,
+ "pe_forward": 15.995667,
+ "peg": 0.66,
+ "p_sales_y": 1.3189331,
+ "eps_trailing_y": 4.9,
+ "eps_forward": 6.16667,
+ "earnings_growth_y": 0.33,
+ "earnings_growth_q_y": 0.311,
+ "bs_date": "2026-06-30",
+ "cash": 250200000.0,
+ "total_debt": 47900000.0,
+ "current_debt": 14300000.0,
+ "lease_obligations": 47900000.0,
+ "equity": 1343400000.0,
+ "net_debt": -202300000.0,
+ "ocf_ttm": 124300000.0,
+ "capex_ttm": -75000000.0,
+ "fcf_ttm": 49300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -24100000.0,
+ "stock_issuance_ttm": -23900000.0,
+ "revenue_ttm": 1842100000.0,
+ "net_income_ttm": null,
+ "ebitda_ttm": 191300000.0,
+ "ebit_ttm": 149800000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.11758016829656581,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 491400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 453200000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 455600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 441900000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 439700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.25
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.22
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.91
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.52
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.94
+  }
+ ],
+ "eps_ttm": 4.9,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.2887323943661975,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.32978723404255317,
+ "eps_forward_growth": 0.2585040816326529,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.28144078144078144
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.27250661959399824
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2796312554872695
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2640868974881195
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28019103934500794
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1778000000.0,
+   "eps": 4.67,
+   "net_income": 116600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1845400000.0,
+   "eps": 1.42,
+   "net_income": 35600000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1948800000.0,
+   "eps": 5.56,
+   "net_income": 139100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1963700000.0,
+   "eps": 5.32,
+   "net_income": 133000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.010738195300896924,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 14300000.0,
+ "gap_24m": -235900000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.057501306847883,
+ "interest_coverage": null,
+ "cash_to_debt": 5.223382045929019,
+ "ev": 2227306461.046402,
+ "ev_to_sales": 1.2091126763185505,
+ "ev_to_ebitda": 11.64300293280921,
+ "pe_ttm": null,
+ "pe_trailing": 20.130611,
+ "p_sales": 1.3189331,
+ "p_fcf": 49.28207831737124,
+ "p_book": 1.8085502910870939
+}

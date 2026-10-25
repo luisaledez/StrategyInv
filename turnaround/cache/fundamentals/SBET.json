@@ -1,0 +1,154 @@
+{
+ "ticker": "SBET",
+ "fetched": "2026-10-25",
+ "market_cap": 1657416123.3792686,
+ "shares_out": 217223604.0,
+ "price": 7.630000114440918,
+ "long_name": "Sharplink, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": null,
+ "pe_forward": -127.16667,
+ "peg": null,
+ "p_sales_y": 33.014942,
+ "eps_trailing_y": -11.91,
+ "eps_forward": -0.06,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 56195000.0,
+ "total_debt": null,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 1410520000.0,
+ "net_debt": null,
+ "ocf_ttm": -33200000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -33211000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 2726394000.0,
+ "revenue_ttm": 62206978.0,
+ "net_income_ttm": -1710024372.0,
+ "ebitda_ttm": -1119905827.0,
+ "ebit_ttm": -1119911827.0,
+ "interest_ttm": 0.0,
+ "revenue_yoy_last_q": 15.539454806312769,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 11528000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 24063000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 15772411.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 10843567.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 697000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.88
+  },
+  {
+   "period": "2026-03-31",
+   "value": -3.25
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.62
+  },
+  {
+   "period": "2025-06-30",
+   "value": -4.27
+  },
+  {
+   "period": "2025-03-31",
+   "value": -1.84
+  }
+ ],
+ "eps_ttm": -8.78,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.2668356263577119,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9776197085357391
+  },
+  {
+   "period": "2026-03-31",
+   "value": -20.07368158583718
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9763325340685074
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.96029267859921
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2998565279770445
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 28055000.0,
+   "eps": -7.37,
+   "net_income": -734587000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3662000.0,
+   "eps": 27.62,
+   "net_income": 10099000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4952725.0,
+   "eps": -62.04,
+   "net_income": -14243182.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3489948.0,
+   "eps": -73.56,
+   "net_income": -15233378.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 2.1799209602946266,
+ "fcf_burn_annual": 33211000.0,
+ "runway_months": 20.304718316220526,
+ "need_24m": 66422000.0,
+ "gap_24m": 10227000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": null,
+ "ev": 1601221123.3792686,
+ "ev_to_sales": 25.740217172730503,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 33.014942,
+ "p_fcf": null,
+ "p_book": 1.1750390801826764
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "AGYS",
+ "fetched": "2026-10-25",
+ "market_cap": 3404156622.581787,
+ "shares_out": 28205788.0,
+ "price": 120.69000244140625,
+ "long_name": "Agilysys, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 79.40132,
+ "pe_forward": 37.700897,
+ "peg": 2.72,
+ "p_sales_y": 10.30582,
+ "eps_trailing_y": 1.52,
+ "eps_forward": 3.20125,
+ "earnings_growth_y": 0.882,
+ "earnings_growth_q_y": 0.839,
+ "bs_date": "2026-06-30",
+ "cash": 123709000.0,
+ "total_debt": 18443000.0,
+ "current_debt": 5318000.0,
+ "lease_obligations": 18443000.0,
+ "equity": 338327000.0,
+ "net_debt": -105266000.0,
+ "ocf_ttm": 82176000.0,
+ "capex_ttm": -1735000.0,
+ "fcf_ttm": 80441000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1438000.0,
+ "stock_issuance_ttm": -1438000.0,
+ "revenue_ttm": 330312000.0,
+ "net_income_ttm": 42893000.0,
+ "ebitda_ttm": 64818000.0,
+ "ebit_ttm": 54716000.0,
+ "interest_ttm": 346000.0,
+ "revenue_yoy_last_q": 0.14348875122269322,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 87677000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 82946000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 80390000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 79299000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 76675000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.32
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.35
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.41
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.17
+  }
+ ],
+ "eps_ttm": 1.51,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.6707317073170733,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.8823529411764706,
+ "eps_forward_growth": 1.1200331125827816,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6347958985822963
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6440214115207484
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.624978231123274
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.617498329108816
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6168112161721552
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 319312000.0,
+   "eps": 1.37,
+   "net_income": 38791000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 275624000.0,
+   "eps": 0.82,
+   "net_income": 23225000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 237464000.0,
+   "eps": 3.17,
+   "net_income": 86195000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 198065000.0,
+   "eps": 0.49,
+   "net_income": 14582000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.005710481960311542,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5318000.0,
+ "gap_24m": -118391000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.6240241908111943,
+ "interest_coverage": 158.1387283236994,
+ "cash_to_debt": 6.707639754920566,
+ "ev": 3298890622.581787,
+ "ev_to_sales": 9.98719581057239,
+ "ev_to_ebitda": 50.89466849612433,
+ "pe_ttm": 79.3639200471356,
+ "pe_trailing": 79.40132,
+ "p_sales": 10.30582,
+ "p_fcf": 42.31867608037925,
+ "p_book": 10.061735015478478
+}

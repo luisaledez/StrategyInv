@@ -1,0 +1,154 @@
+{
+ "ticker": "ESLT",
+ "fetched": "2026-10-25",
+ "market_cap": 34462731745.878845,
+ "shares_out": 46866389.0,
+ "price": 735.3400268554688,
+ "long_name": "Elbit Systems Ltd.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 55.330326,
+ "pe_forward": 39.508537,
+ "peg": 8.79,
+ "p_sales_y": 4.032582,
+ "eps_trailing_y": 13.29,
+ "eps_forward": 18.61218,
+ "earnings_growth_y": 0.342,
+ "earnings_growth_q_y": 0.381,
+ "bs_date": "2026-06-30",
+ "cash": 962935000.0,
+ "total_debt": 852237000.0,
+ "current_debt": 184493000.0,
+ "lease_obligations": 584727000.0,
+ "equity": 4409667000.0,
+ "net_debt": -110698000.0,
+ "ocf_ttm": 992190000.0,
+ "capex_ttm": -310651000.0,
+ "fcf_ttm": 681539000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 200000.0,
+ "revenue_ttm": 8546071000.0,
+ "net_income_ttm": 635980000.0,
+ "ebitda_ttm": 929959000.0,
+ "ebit_ttm": 750248000.0,
+ "interest_ttm": 55680000.0,
+ "revenue_yoy_last_q": 0.1593782807875055,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2287058000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2188846000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2148559000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1921608000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1972659000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.61
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.8
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.69
+  }
+ ],
+ "eps_ttm": 13.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5863509749303624,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3420074349442379,
+ "eps_forward_growth": 0.40257573474001496,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2531667321073624
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.25221463730203036
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24658108062194242
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24887438020657698
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23973276678838057
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7938627000.0,
+   "eps": 11.39,
+   "net_income": 534339000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 6827871000.0,
+   "eps": 7.18,
+   "net_income": 321138000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5974744000.0,
+   "eps": 4.82,
+   "net_income": 215131000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5511549000.0,
+   "eps": 6.18,
+   "net_income": 275448000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.011095630400985712,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 184493000.0,
+ "gap_24m": -778442000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.11903535532211636,
+ "interest_coverage": 13.474281609195403,
+ "cash_to_debt": 1.129891098368177,
+ "ev": 34352033745.878845,
+ "ev_to_sales": 4.019628873417837,
+ "ev_to_ebitda": 36.93929920123236,
+ "pe_ttm": 54.18838917242499,
+ "pe_trailing": 55.330326,
+ "p_sales": 4.032582,
+ "p_fcf": 50.56604500384988,
+ "p_book": 7.8152685329479175
+}

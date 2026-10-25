@@ -1,0 +1,154 @@
+{
+ "ticker": "ADMA",
+ "fetched": "2026-10-25",
+ "market_cap": 2392156450.7546997,
+ "shares_out": 223984680.0,
+ "price": 10.680000305175781,
+ "long_name": "ADMA Biologics, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": 15.257144,
+ "pe_forward": 11.321595,
+ "peg": null,
+ "p_sales_y": 4.6696725,
+ "eps_trailing_y": 0.7,
+ "eps_forward": 0.94333,
+ "earnings_growth_y": 0.143,
+ "earnings_growth_q_y": 0.105,
+ "bs_date": "2026-06-30",
+ "cash": 136020000.0,
+ "total_debt": 203839000.0,
+ "current_debt": 4928000.0,
+ "lease_obligations": 7250000.0,
+ "equity": 408208000.0,
+ "net_debt": 67819000.0,
+ "ocf_ttm": 136720000.0,
+ "capex_ttm": -20496000.0,
+ "fcf_ttm": 116224000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -187185000.0,
+ "stock_issuance_ttm": -187185000.0,
+ "revenue_ttm": 512275000.0,
+ "net_income_ttm": 168957000.0,
+ "ebitda_ttm": 232988000.0,
+ "ebit_ttm": 225299000.0,
+ "interest_ttm": 8825000.0,
+ "revenue_yoy_last_q": 0.019764887198321146,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 124395000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 114493000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 139163000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 134224000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 121984000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.16
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.19
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.15
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.14
+  }
+ ],
+ "eps_ttm": 0.7000000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.2592592592592593,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1428571428571428,
+ "eps_forward_growth": 0.34761428571428565,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6935728928011576
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7052832924283581
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6382156176569922
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5634312790559065
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5511132607555089
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 510173000.0,
+   "eps": 0.6,
+   "net_income": 146930000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 426454000.0,
+   "eps": 0.81,
+   "net_income": 197673000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 258215000.0,
+   "eps": -0.13,
+   "net_income": -28239000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 154080000.0,
+   "eps": -0.33,
+   "net_income": -65904000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.05538093257941279,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 4928000.0,
+ "gap_24m": -131092000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.2910836609610795,
+ "interest_coverage": 25.529631728045327,
+ "cash_to_debt": 0.667291342677309,
+ "ev": 2459975450.7546997,
+ "ev_to_sales": 4.802060320637743,
+ "ev_to_ebitda": 10.558378331736826,
+ "pe_ttm": 14.158374324560093,
+ "pe_trailing": 15.257144,
+ "p_sales": 4.6696725,
+ "p_fcf": 20.58229325057389,
+ "p_book": 5.86014103289181
+}

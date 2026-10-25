@@ -1,0 +1,154 @@
+{
+ "ticker": "RARE",
+ "fetched": "2026-10-25",
+ "market_cap": 1542915824.8413296,
+ "shares_out": 98588873.0,
+ "price": 15.649999618530273,
+ "long_name": "Ultragenyx Pharmaceutical Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": 69.37364,
+ "peg": null,
+ "p_sales_y": 2.1519048,
+ "eps_trailing_y": -5.82,
+ "eps_forward": 0.22559,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 292000000.0,
+ "total_debt": 36000000.0,
+ "current_debt": 12000000.0,
+ "lease_obligations": 36000000.0,
+ "equity": -291000000.0,
+ "net_debt": -256000000.0,
+ "ocf_ttm": -485000000.0,
+ "capex_ttm": -9000000.0,
+ "fcf_ttm": -494000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 717212000.0,
+ "net_income_ttm": -585969000.0,
+ "ebitda_ttm": -472609000.0,
+ "ebit_ttm": -505609000.0,
+ "interest_ttm": 76617000.0,
+ "revenue_yoy_last_q": 0.2814371257485031,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 214000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 136000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 207279000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 159933000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 167000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.9
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.84
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.29
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.81
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.17
+  }
+ ],
+ "eps_ttm": -5.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8411214953271028
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7794117647058824
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8584275300440469
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8249829616151764
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8622754491017964
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 673000000.0,
+   "eps": -5.83,
+   "net_income": -575000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 560000000.0,
+   "eps": -6.29,
+   "net_income": -569000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 434000000.0,
+   "eps": -8.25,
+   "net_income": -607000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 363329000.0,
+   "eps": -10.12,
+   "net_income": -707421000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.023313765207859216,
+ "fcf_burn_annual": 494000000.0,
+ "runway_months": 7.093117408906883,
+ "need_24m": 1000000000.0,
+ "gap_24m": 708000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.5416739842025861,
+ "interest_coverage": -6.599175117793701,
+ "cash_to_debt": 8.11111111111111,
+ "ev": 1286915824.8413296,
+ "ev_to_sales": 1.7943311389677383,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.1519048,
+ "p_fcf": null,
+ "p_book": null
+}

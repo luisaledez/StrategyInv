@@ -1,0 +1,133 @@
+{
+ "ticker": "BANF",
+ "fetched": "2026-10-25",
+ "market_cap": 3738788309.760727,
+ "shares_out": 33619174.0,
+ "price": 111.20999908447266,
+ "long_name": "BancFirst Corporation",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 14.768924,
+ "pe_forward": 13.512759,
+ "peg": 2.09,
+ "p_sales_y": 5.1463585,
+ "eps_trailing_y": 7.53,
+ "eps_forward": 8.23,
+ "earnings_growth_y": 0.065,
+ "earnings_growth_q_y": 0.073,
+ "bs_date": "2026-06-30",
+ "cash": 4745736000.0,
+ "total_debt": 92242000.0,
+ "current_debt": 6000000.0,
+ "lease_obligations": null,
+ "equity": 1957097000.0,
+ "net_debt": -4653494000.0,
+ "ocf_ttm": 289131000.0,
+ "capex_ttm": -43846000.0,
+ "fcf_ttm": 245285000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 722962000.0,
+ "net_income_ttm": 251833000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 260490000.0,
+ "revenue_yoy_last_q": 0.10738671265888589,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 187485000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 178996000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 181000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 175481000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 169304000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.96
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.85
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.75
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.85
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.85
+  }
+ ],
+ "eps_ttm": 7.41,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.10403726708074523,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.059459459459459296,
+ "eps_forward_growth": 0.11066126855600533,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 690628000.0,
+   "eps": 7.11,
+   "net_income": 240610000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 631449000.0,
+   "eps": 6.44,
+   "net_income": 216354000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 609864000.0,
+   "eps": 6.34,
+   "net_income": 212465000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 557420000.0,
+   "eps": 5.77,
+   "net_income": 193100000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.00981644367774348,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 6000000.0,
+ "gap_24m": -4739736000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 51.44875436352204,
+ "ev": -914705690.2392731,
+ "ev_to_sales": -1.2652195969349331,
+ "ev_to_ebitda": null,
+ "pe_ttm": 14.846300166224152,
+ "pe_trailing": 14.768924,
+ "p_sales": 5.1463585,
+ "p_fcf": 15.242629226249983,
+ "p_book": 1.9103745546392064
+}

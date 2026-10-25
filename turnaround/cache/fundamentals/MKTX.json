@@ -1,0 +1,154 @@
+{
+ "ticker": "MKTX",
+ "fetched": "2026-10-25",
+ "market_cap": 5795922365.542007,
+ "shares_out": 35197197.0,
+ "price": 164.6699981689453,
+ "long_name": "MarketAxess Holdings Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 20.204908,
+ "pe_forward": 18.92378,
+ "peg": 1.23,
+ "p_sales_y": 6.6496663,
+ "eps_trailing_y": 8.15,
+ "eps_forward": 8.70175,
+ "earnings_growth_y": -0.169,
+ "earnings_growth_q_y": -0.21,
+ "bs_date": "2026-06-30",
+ "cash": 245794000.0,
+ "total_debt": 178913000.0,
+ "current_debt": null,
+ "lease_obligations": 62999000.0,
+ "equity": 1238916000.0,
+ "net_debt": -66881000.0,
+ "ocf_ttm": 200279000.0,
+ "capex_ttm": -57694000.0,
+ "fcf_ttm": 142585000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -345251000.0,
+ "stock_issuance_ttm": -345251000.0,
+ "revenue_ttm": 870025000.0,
+ "net_income_ttm": 306400000.0,
+ "ebitda_ttm": 458547000.0,
+ "ebit_ttm": 372957000.0,
+ "interest_ttm": 5885000.0,
+ "revenue_yoy_last_q": -0.004770757579899976,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 218415000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 233380000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 209409000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 208821000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 219462000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.93
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.51
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.84
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.91
+  }
+ ],
+ "eps_ttm": 8.48,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.08791208791208793,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.010471204188481575,
+ "eps_forward_growth": 0.02614976415094339,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5968729253943181
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5930199674350844
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5880358532823327
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5982635846011656
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5939843799837785
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 846268000.0,
+   "eps": 6.64,
+   "net_income": 246627000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 817097000.0,
+   "eps": 7.28,
+   "net_income": 274181000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 752547000.0,
+   "eps": 6.85,
+   "net_income": 258055000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 718300000.0,
+   "eps": 6.65,
+   "net_income": 250224000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.06334284424772885,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -245794000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.14585418724798113,
+ "interest_coverage": 63.37417162276975,
+ "cash_to_debt": 1.3738185598587023,
+ "ev": 5729041365.542007,
+ "ev_to_sales": 6.584915796146096,
+ "ev_to_ebitda": 12.493902185690905,
+ "pe_ttm": 18.916195709993495,
+ "pe_trailing": 20.204908,
+ "p_sales": 6.6496663,
+ "p_fcf": 40.64889269938638,
+ "p_book": 4.6782206102286255
+}

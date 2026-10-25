@@ -1,0 +1,154 @@
+{
+ "ticker": "CCC",
+ "fetched": "2026-10-25",
+ "market_cap": 4517589424.61673,
+ "shares_out": 588994704.0,
+ "price": 7.670000076293945,
+ "long_name": "CCC Intelligent Solutions Holdings Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 109.57143,
+ "pe_forward": 14.54911,
+ "peg": null,
+ "p_sales_y": 4.061887,
+ "eps_trailing_y": 0.07,
+ "eps_forward": 0.52718,
+ "earnings_growth_y": 0.813,
+ "earnings_growth_q_y": 0.604,
+ "bs_date": "2026-06-30",
+ "cash": 115857000.0,
+ "total_debt": 1356478000.0,
+ "current_debt": 46185000.0,
+ "lease_obligations": 57359000.0,
+ "equity": 1772548000.0,
+ "net_debt": 1240621000.0,
+ "ocf_ttm": 321255000.0,
+ "capex_ttm": -64992000.0,
+ "fcf_ttm": 256263000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -588468000.0,
+ "stock_issuance_ttm": -588468000.0,
+ "revenue_ttm": 1105522000.0,
+ "net_income_ttm": 57284000.0,
+ "ebitda_ttm": 326537000.0,
+ "ebit_ttm": 179546000.0,
+ "interest_ttm": 76636000.0,
+ "revenue_yoy_last_q": 0.13660882873213676,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 285931000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 281275000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 277865000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 260451000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 251565000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.04
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.03
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.01
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.02
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.03
+  }
+ ],
+ "eps_ttm": 0.1,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.0,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 4.2718,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7366707352473149
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7426148786774509
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.737145736238821
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7449232293214463
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.7353646174944846
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1057001000.0,
+   "eps": 0.0,
+   "net_income": 412000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 944800000.0,
+   "eps": 0.04,
+   "net_income": 26145000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 866378000.0,
+   "eps": -0.15,
+   "net_income": -92476000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 782448000.0,
+   "eps": 0.06,
+   "net_income": 38406000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.10748361456989752,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 46185000.0,
+ "gap_24m": -69672000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.799327488156013,
+ "interest_coverage": 2.342841484419855,
+ "cash_to_debt": 0.08541015777624111,
+ "ev": 5758210424.61673,
+ "ev_to_sales": 5.208589629710426,
+ "ev_to_ebitda": 17.63417445685092,
+ "pe_ttm": 78.86302326333234,
+ "pe_trailing": 109.57143,
+ "p_sales": 4.061887,
+ "p_fcf": 17.628722931584853,
+ "p_book": 2.5486415175311077
+}

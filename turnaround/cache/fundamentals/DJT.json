@@ -1,0 +1,154 @@
+{
+ "ticker": "DJT",
+ "fetched": "2026-10-25",
+ "market_cap": 1778824160.9065452,
+ "shares_out": 277941271.0,
+ "price": 6.400000095367432,
+ "long_name": "Trump Media & Technology Group Corp.",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": null,
+ "pe_forward": null,
+ "peg": null,
+ "p_sales_y": 393.63226,
+ "eps_trailing_y": -4.89,
+ "eps_forward": null,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 905113500.0,
+ "total_debt": 973259700.0,
+ "current_debt": 970978900.0,
+ "lease_obligations": 2937800.0,
+ "equity": 1022869900.0,
+ "net_debt": 68146200.0,
+ "ocf_ttm": 8515900.0,
+ "capex_ttm": -28200.0,
+ "fcf_ttm": 8487700.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -45357400.0,
+ "stock_issuance_ttm": -45357400.0,
+ "revenue_ttm": 4519000.0,
+ "net_income_ttm": -1304202000.0,
+ "ebitda_ttm": -1249381900.0,
+ "ebit_ttm": -1257898000.0,
+ "interest_ttm": 46261400.0,
+ "revenue_yoy_last_q": 0.8902977470847957,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1669700.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 871200.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1005200.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 972900.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 883300.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.86
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.47
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.2
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.08
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.14
+  }
+ ],
+ "eps_ttm": -2.6100000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7006048990836677
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.722910927456382
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.45403899721448465
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5407544454722993
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6117966715725122
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3682600.0,
+   "eps": -2.8,
+   "net_income": -712061400.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3618800.0,
+   "eps": -2.36,
+   "net_income": -400864800.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4131100.0,
+   "eps": -0.425669,
+   "net_income": -58189200.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1470500.0,
+   "eps": 0.369594,
+   "net_income": 50523700.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.002217145332267023,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 970978900.0,
+ "gap_24m": 65865400.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": -0.054543930882943,
+ "interest_coverage": -27.191092357775595,
+ "cash_to_debt": 0.9299814838732149,
+ "ev": 1846970360.9065452,
+ "ev_to_sales": 408.71218431213657,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 393.63226,
+ "p_fcf": 209.57670050856476,
+ "p_book": 1.7390522107518709
+}

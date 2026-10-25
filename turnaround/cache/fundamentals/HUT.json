@@ -1,0 +1,154 @@
+{
+ "ticker": "HUT",
+ "fetched": "2026-10-25",
+ "market_cap": 7547177169.216293,
+ "shares_out": 123259468.0,
+ "price": 61.22999954223633,
+ "long_name": "Hut 8 Corp.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": null,
+ "pe_forward": -11.895881,
+ "peg": null,
+ "p_sales_y": 23.73677,
+ "eps_trailing_y": -5.42,
+ "eps_forward": -5.14716,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 233579000.0,
+ "total_debt": 7668843000.0,
+ "current_debt": 239253000.0,
+ "lease_obligations": 30402000.0,
+ "equity": 1442623000.0,
+ "net_debt": 7435264000.0,
+ "ocf_ttm": -89435000.0,
+ "capex_ttm": -1219990000.0,
+ "fcf_ttm": -1309425000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 714814000.0,
+ "revenue_ttm": 317953000.0,
+ "net_income_ttm": -599612000.0,
+ "ebitda_ttm": -597806000.0,
+ "ebit_ttm": -746437000.0,
+ "interest_ttm": 74611000.0,
+ "revenue_yoy_last_q": 0.8143780721082834,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 74932000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 71017000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 88494000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 83510000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 41299000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.98
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.540445
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.18
+  }
+ ],
+ "eps_ttm": -5.360445,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.6426426426426426,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -2.076271186440678,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6411279560134522
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6402551501753101
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6043912581643953
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6128607352412885
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.47272331049177946
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 235118000.0,
+   "eps": -2.14,
+   "net_income": -226149000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 162385000.0,
+   "eps": 3.33,
+   "net_income": 331882000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 86737000.0,
+   "eps": -0.740948,
+   "net_income": -65611000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 79185000.0,
+   "eps": -0.359153,
+   "net_income": -31803000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.1797813515655189,
+ "fcf_burn_annual": 1309425000.0,
+ "runway_months": 2.1405945357695173,
+ "need_24m": 2858103000.0,
+ "gap_24m": 2624524000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": -12.437586775642934,
+ "interest_coverage": -10.004382731768773,
+ "cash_to_debt": 0.030458179936660588,
+ "ev": 14982441169.216293,
+ "ev_to_sales": 47.12155937895316,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 23.73677,
+ "p_fcf": null,
+ "p_book": 5.231565813948824
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "CIGI",
+ "fetched": "2026-10-25",
+ "market_cap": 4747033901.498703,
+ "shares_out": 51103821.0,
+ "price": 92.88999938964844,
+ "long_name": "Colliers International Group Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "Real Estate Services",
+ "pe_trailing_y": 44.023697,
+ "pe_forward": 11.17709,
+ "peg": 1.22,
+ "p_sales_y": 0.7970687,
+ "eps_trailing_y": 2.11,
+ "eps_forward": 8.31075,
+ "earnings_growth_y": 6.05,
+ "earnings_growth_q_y": 6.111,
+ "bs_date": "2026-06-30",
+ "cash": 265191000.0,
+ "total_debt": 3311957000.0,
+ "current_debt": 303218000.0,
+ "lease_obligations": 625132000.0,
+ "equity": 1543643000.0,
+ "net_debt": 3046766000.0,
+ "ocf_ttm": 322288000.0,
+ "capex_ttm": -97222000.0,
+ "fcf_ttm": 225066000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 5955614000.0,
+ "net_income_ttm": 107829000.0,
+ "ebitda_ttm": 661202000.0,
+ "ebit_ttm": 390551000.0,
+ "interest_ttm": 93595000.0,
+ "revenue_yoy_last_q": 0.16684611497504176,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1572499000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1313472000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1606545000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1463098000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1347649000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.56
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.19
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.82
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08
+  }
+ ],
+ "eps_ttm": 2.1,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3726708074534162,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 6.000000000000001,
+ "eps_forward_growth": 2.9575,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.40388260978226376
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.398894685231204
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.40408391921794906
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.39275359545293614
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.40781019390063733
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5558462000.0,
+   "eps": 2.02,
+   "net_income": 103100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4822024000.0,
+   "eps": 3.22,
+   "net_income": 161725000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4335141000.0,
+   "eps": 1.41,
+   "net_income": 65543000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4459487000.0,
+   "eps": 1.05,
+   "net_income": 46253000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0058935839042764115,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 303218000.0,
+ "gap_24m": 38027000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.607920121233753,
+ "interest_coverage": 4.172776323521556,
+ "cash_to_debt": 0.08007078594317499,
+ "ev": 7793799901.498703,
+ "ev_to_sales": 1.3086475888965778,
+ "ev_to_ebitda": 11.787320518538515,
+ "pe_ttm": 44.02372183270459,
+ "pe_trailing": 44.023697,
+ "p_sales": 0.7970687,
+ "p_fcf": 21.09174154025354,
+ "p_book": 3.07521486606599
+}

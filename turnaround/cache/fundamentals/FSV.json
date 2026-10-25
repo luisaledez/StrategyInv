@@ -1,0 +1,154 @@
+{
+ "ticker": "FSV",
+ "fetched": "2026-10-25",
+ "market_cap": 6274035775.938263,
+ "shares_out": 43669770.0,
+ "price": 143.6699981689453,
+ "long_name": "FirstService Corporation",
+ "sector_y": "Real Estate",
+ "industry_y": "Real Estate Services",
+ "pe_trailing_y": 44.070553,
+ "pe_forward": 21.367922,
+ "peg": null,
+ "p_sales_y": 1.104311,
+ "eps_trailing_y": 3.26,
+ "eps_forward": 6.72363,
+ "earnings_growth_y": -0.202,
+ "earnings_growth_q_y": -0.249,
+ "bs_date": "2026-06-30",
+ "cash": 173351000.0,
+ "total_debt": 1559298000.0,
+ "current_debt": 73614000.0,
+ "lease_obligations": 308931000.0,
+ "equity": 1218087000.0,
+ "net_debt": 1385947000.0,
+ "ocf_ttm": 459844000.0,
+ "capex_ttm": -124411000.0,
+ "fcf_ttm": 335433000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 5597270000.0,
+ "net_income_ttm": 161424000.0,
+ "ebitda_ttm": 543264000.0,
+ "ebit_ttm": 349314000.0,
+ "interest_ttm": 66080000.0,
+ "revenue_yoy_last_q": 0.023669011035272858,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1449242000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1317087000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1383376000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1447565000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1415733000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.85
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.01
+  }
+ ],
+ "eps_ttm": 3.5300000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.06734006734006726,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.00990099009900991,
+ "eps_forward_growth": 0.90471104815864,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3316609648354105
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3269746038036971
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.33923098275523067
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3365272025781226
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3393288141196115
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5497500000.0,
+   "eps": 3.17,
+   "net_income": 145047000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5216894000.0,
+   "eps": 2.97,
+   "net_income": 134375000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4334548000.0,
+   "eps": 2.24,
+   "net_income": 100391000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3745835000.0,
+   "eps": 2.72,
+   "net_income": 121074000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02864286279824746,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 73614000.0,
+ "gap_24m": -99737000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.551148244683984,
+ "interest_coverage": 5.286228813559322,
+ "cash_to_debt": 0.1111724635060136,
+ "ev": 7659982775.938263,
+ "ev_to_sales": 1.368521221227181,
+ "ev_to_ebitda": 14.09992706297171,
+ "pe_ttm": 38.866808999518426,
+ "pe_trailing": 44.070553,
+ "p_sales": 1.104311,
+ "p_fcf": 18.704289011332406,
+ "p_book": 5.15072878697356
+}

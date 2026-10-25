@@ -1,0 +1,154 @@
+{
+ "ticker": "GTM",
+ "fetched": "2026-10-25",
+ "market_cap": 1266328672.3375826,
+ "shares_out": 291110046.0,
+ "price": 4.349999904632568,
+ "long_name": "ZoomInfo Technologies Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 3.8562121,
+ "peg": null,
+ "p_sales_y": 1.0068607,
+ "eps_trailing_y": -1.83,
+ "eps_forward": 1.12805,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 150100000.0,
+ "total_debt": 1518400000.0,
+ "current_debt": 12500000.0,
+ "lease_obligations": 254400000.0,
+ "equity": 828700000.0,
+ "net_debt": 1368300000.0,
+ "ocf_ttm": 439300000.0,
+ "capex_ttm": -83500000.0,
+ "fcf_ttm": 355800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -289200000.0,
+ "stock_issuance_ttm": -289200000.0,
+ "revenue_ttm": 1257700000.0,
+ "net_income_ttm": -541000000.0,
+ "ebitda_ttm": -338300000.0,
+ "ebit_ttm": -426200000.0,
+ "interest_ttm": 50300000.0,
+ "revenue_yoy_last_q": 0.012063906097163457,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 310400000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 310200000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 319100000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 318000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 306700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -2.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.07
+  }
+ ],
+ "eps_ttm": -1.8599999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.75,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -32.28571428571428,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8273195876288659
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8355899419729207
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8398621121905359
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8374213836477987
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8386044995109228
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1249500000.0,
+   "eps": 0.38,
+   "net_income": 124200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1214300000.0,
+   "eps": 0.08,
+   "net_income": 29100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1239500000.0,
+   "eps": 0.27,
+   "net_income": 107300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1098000000.0,
+   "eps": 0.16,
+   "net_income": 63200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.08812452740954968,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 12500000.0,
+ "gap_24m": -137600000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -4.044634939402897,
+ "interest_coverage": -8.473161033797217,
+ "cash_to_debt": 0.09885405690200211,
+ "ev": 2634628672.3375826,
+ "ev_to_sales": 2.094798976176817,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.0068607,
+ "p_fcf": 3.559102507975218,
+ "p_book": 1.5280905904882136
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "ACHC",
+ "fetched": "2026-10-25",
+ "market_cap": 2933589686.558962,
+ "shares_out": 93100275.0,
+ "price": 31.510000228881836,
+ "long_name": "Acadia Healthcare Company, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Care Facilities",
+ "pe_trailing_y": null,
+ "pe_forward": 17.062315,
+ "peg": 1.37,
+ "p_sales_y": 0.8711028,
+ "eps_trailing_y": -12.42,
+ "eps_forward": 1.84676,
+ "earnings_growth_y": -0.636,
+ "earnings_growth_q_y": -0.637,
+ "bs_date": "2026-06-30",
+ "cash": 171290000.0,
+ "total_debt": 2565264000.0,
+ "current_debt": 54344000.0,
+ "lease_obligations": 150695000.0,
+ "equity": 1979122000.0,
+ "net_debt": 2393974000.0,
+ "ocf_ttm": 210515000.0,
+ "capex_ttm": -344546000.0,
+ "fcf_ttm": -134031000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 3367673000.0,
+ "net_income_ttm": -1126240000.0,
+ "ebitda_ttm": -749314000.0,
+ "ebit_ttm": -945389000.0,
+ "interest_ttm": 151052000.0,
+ "revenue_yoy_last_q": -0.0039034458004306716,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 865839000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 828802000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 821459000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 851573000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 869232000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": -13.02
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33
+  }
+ ],
+ "eps_ttm": -12.45,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -5.374100719424461,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6363636363636365,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9651240011133709
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9644173155952809
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9625532132461876
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9642872660359124
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9671756216982348
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3312769000.0,
+   "eps": -12.16,
+   "net_income": -1102772000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3153963000.0,
+   "eps": 2.78,
+   "net_income": 255612000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2928738000.0,
+   "eps": -0.24,
+   "net_income": -21667000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2610399000.0,
+   "eps": 2.98,
+   "net_income": 273139000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.005248433786803952,
+ "fcf_burn_annual": 134031000.0,
+ "runway_months": 15.335855137990466,
+ "need_24m": 322406000.0,
+ "gap_24m": 151116000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": -3.1948875905161254,
+ "interest_coverage": -6.258698991075921,
+ "cash_to_debt": 0.06677285456779497,
+ "ev": 5327563686.558962,
+ "ev_to_sales": 1.5819717907762902,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.8711028,
+ "p_fcf": null,
+ "p_book": 1.4822682414519983
+}

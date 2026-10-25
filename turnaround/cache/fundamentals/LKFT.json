@@ -1,0 +1,142 @@
+{
+ "ticker": "LKFT",
+ "fetched": "2026-10-25",
+ "market_cap": 2085642272.0122623,
+ "shares_out": 65897071.0,
+ "price": 31.649999618530273,
+ "long_name": "Lakefront Biotherapeutics NV",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": 3.008555,
+ "pe_forward": -26.578207,
+ "peg": null,
+ "p_sales_y": 2.1054885,
+ "eps_trailing_y": 10.52,
+ "eps_forward": -1.1908252,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2239549000.0,
+ "total_debt": 6362000.0,
+ "current_debt": 1589000.0,
+ "lease_obligations": 6362000.0,
+ "equity": 3263630000.0,
+ "net_debt": -2233187000.0,
+ "ocf_ttm": -226909000.0,
+ "capex_ttm": -4606000.0,
+ "fcf_ttm": -231515000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 990574000.0,
+ "net_income_ttm": 596636000.0,
+ "ebitda_ttm": 579011000.0,
+ "ebit_ttm": 579011000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.8145141526773679,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 12110000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6481000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 900822000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 71161000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 65288000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.22
+  },
+  {
+   "period": "2025-03-31",
+   "value": -2.33
+  }
+ ],
+ "eps_ttm": null,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.3482142857142856,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24483897605284888
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2595278506403333
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9994949057638468
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8475850536108261
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9279193726259037
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1112248000.0,
+   "eps": 4.87,
+   "net_income": 320884000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 275649000.0,
+   "eps": 1.12,
+   "net_income": 74082000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 239724000.0,
+   "eps": 3.21,
+   "net_income": 211697000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 241249000.0,
+   "eps": -3.32,
+   "net_income": -217991000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.0036709370587958423,
+ "fcf_burn_annual": 231515000.0,
+ "runway_months": 116.08141157160442,
+ "need_24m": 464619000.0,
+ "gap_24m": -1774930000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.8568990917271,
+ "interest_coverage": null,
+ "cash_to_debt": 352.01964790946244,
+ "ev": -147544727.98773766,
+ "ev_to_sales": -0.14894871860934938,
+ "ev_to_ebitda": -0.25482197745420665,
+ "pe_ttm": 3.495669507056668,
+ "pe_trailing": 3.008555,
+ "p_sales": 2.1054885,
+ "p_fcf": null,
+ "p_book": 0.639055981227119
+}

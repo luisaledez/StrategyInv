@@ -1,0 +1,154 @@
+{
+ "ticker": "APPN",
+ "fetched": "2026-10-25",
+ "market_cap": 3749704593.6549606,
+ "shares_out": 71627597.0,
+ "price": 52.349998474121094,
+ "long_name": "Appian Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": null,
+ "pe_forward": 36.812016,
+ "peg": null,
+ "p_sales_y": 4.714789,
+ "eps_trailing_y": -0.14,
+ "eps_forward": 1.42209,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 167866000.0,
+ "total_debt": 295326000.0,
+ "current_debt": 23769000.0,
+ "lease_obligations": 59299000.0,
+ "equity": -105181000.0,
+ "net_debt": 127460000.0,
+ "ocf_ttm": 80757000.0,
+ "capex_ttm": -4012000.0,
+ "fcf_ttm": 76745000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -75736000.0,
+ "stock_issuance_ttm": -75736000.0,
+ "revenue_ttm": 795307000.0,
+ "net_income_ttm": -10620000.0,
+ "ebitda_ttm": 22321000.0,
+ "ebit_ttm": 12805000.0,
+ "interest_ttm": 18165000.0,
+ "revenue_yoy_last_q": 0.19113924050632902,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 203256000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 202180000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 202867000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 187004000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 170640000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.16
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.1
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.0
+  }
+ ],
+ "eps_ttm": -0.15,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7121216593852088
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7308784251656939
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.647715005397625
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7577966246711301
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7131153305203938
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 726937000.0,
+   "eps": 0.02,
+   "net_income": 1233000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 617022000.0,
+   "eps": -1.26,
+   "net_income": -92262000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 545363000.0,
+   "eps": -1.52,
+   "net_income": -111441000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 467991000.0,
+   "eps": -2.08,
+   "net_income": -150920000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.03413239147797109,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 23769000.0,
+ "gap_24m": -144097000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 5.710317638098651,
+ "interest_coverage": 0.7049270575282136,
+ "cash_to_debt": 0.5684091478569445,
+ "ev": 3877164593.6549606,
+ "ev_to_sales": 4.875054027759043,
+ "ev_to_ebitda": 173.70030884167198,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 4.714789,
+ "p_fcf": 48.85926892507604,
+ "p_book": null
+}

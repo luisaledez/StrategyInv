@@ -1,0 +1,154 @@
+{
+ "ticker": "SSNC",
+ "fetched": "2026-10-25",
+ "market_cap": 19466978253.326935,
+ "shares_out": 234654996.0,
+ "price": 82.95999908447266,
+ "long_name": "SS&C Technologies Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 23.90778,
+ "pe_forward": 10.766796,
+ "peg": 0.78,
+ "p_sales_y": 2.9114723,
+ "eps_trailing_y": 3.47,
+ "eps_forward": 7.70517,
+ "earnings_growth_y": 0.0,
+ "earnings_growth_q_y": -0.053,
+ "bs_date": "2026-06-30",
+ "cash": 434800000.0,
+ "total_debt": 7777300000.0,
+ "current_debt": 265000000.0,
+ "lease_obligations": 200100000.0,
+ "equity": 6640700000.0,
+ "net_debt": 7342500000.0,
+ "ocf_ttm": 1816100000.0,
+ "capex_ttm": -312500000.0,
+ "fcf_ttm": 1503600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1164500000.0,
+ "stock_issuance_ttm": -1164500000.0,
+ "revenue_ttm": 6564300000.0,
+ "net_income_ttm": 864000000.0,
+ "ebitda_ttm": 2247700000.0,
+ "ebit_ttm": 1527700000.0,
+ "interest_ttm": 436400000.0,
+ "revenue_yoy_last_q": 0.10339666840187411,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1695700000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1647100000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1653500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1568000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1536800000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.97
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.91
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.77
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.83
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.72
+  }
+ ],
+ "eps_ttm": 3.48,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.050000000000000044,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3472222222222223,
+ "eps_forward_growth": 1.2141293103448274,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4825735684378133
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48679497298281826
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.47765346235258543
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.47691326530612244
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4795028630921395
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6272200000.0,
+   "eps": 3.15,
+   "net_income": 796900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5882000000.0,
+   "eps": 3.0,
+   "net_income": 760500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5502800000.0,
+   "eps": 2.39,
+   "net_income": 607100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5283000000.0,
+   "eps": 2.48,
+   "net_income": 650200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03852459016393439,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 265000000.0,
+ "gap_24m": -169800000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.2666725986564042,
+ "interest_coverage": 3.500687442713107,
+ "cash_to_debt": 0.05590629138647088,
+ "ev": 26809478253.326935,
+ "ev_to_sales": 4.0841336095740495,
+ "ev_to_ebitda": 11.927516240302058,
+ "pe_ttm": 22.53122483023951,
+ "pe_trailing": 23.90778,
+ "p_sales": 2.9114723,
+ "p_fcf": 12.946912911231003,
+ "p_book": 2.9314647933692135
+}

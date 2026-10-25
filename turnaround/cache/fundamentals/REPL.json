@@ -1,0 +1,129 @@
+{
+ "ticker": "REPL",
+ "fetched": "2026-10-25",
+ "market_cap": 1079757009.2341938,
+ "shares_out": 94219634.0,
+ "price": 11.460000038146973,
+ "long_name": "Replimune Group, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -6.301135,
+ "peg": null,
+ "p_sales_y": null,
+ "eps_trailing_y": -3.15,
+ "eps_forward": -1.81872,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 195328000.0,
+ "total_debt": 111975000.0,
+ "current_debt": 4040000.0,
+ "lease_obligations": 27861000.0,
+ "equity": 105645000.0,
+ "net_debt": -83353000.0,
+ "ocf_ttm": -279056000.0,
+ "capex_ttm": -1489000.0,
+ "fcf_ttm": -280545000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 31147000.0,
+ "revenue_ttm": 0.0,
+ "net_income_ttm": -297013000.0,
+ "ebitda_ttm": -284218000.0,
+ "ebit_ttm": -287614000.0,
+ "interest_ttm": 9950000.0,
+ "revenue_yoy_last_q": null,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.72
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.77
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.95
+  }
+ ],
+ "eps_ttm": -3.34,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 0.0,
+   "eps": -3.38,
+   "net_income": -313940000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 0.0,
+   "eps": -3.07,
+   "net_income": -247297000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 0.0,
+   "eps": -3.24,
+   "net_income": -215794000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 0.0,
+   "eps": -2.99,
+   "net_income": -174284000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.07932677261867904,
+ "fcf_burn_annual": 280545000.0,
+ "runway_months": 8.354937710527723,
+ "need_24m": 565130000.0,
+ "gap_24m": 369802000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.29327136212344046,
+ "interest_coverage": -28.905929648241205,
+ "cash_to_debt": 1.7443893726278188,
+ "ev": 996404009.2341938,
+ "ev_to_sales": null,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": null,
+ "p_fcf": null,
+ "p_book": 10.220616302089013
+}

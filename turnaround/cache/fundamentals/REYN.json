@@ -1,0 +1,154 @@
+{
+ "ticker": "REYN",
+ "fetched": "2026-10-25",
+ "market_cap": 4852408502.132454,
+ "shares_out": 210790982.0,
+ "price": 23.020000457763672,
+ "long_name": "Reynolds Consumer Products Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "pe_trailing_y": 14.036586,
+ "pe_forward": 13.451605,
+ "peg": null,
+ "p_sales_y": 1.2816715,
+ "eps_trailing_y": 1.64,
+ "eps_forward": 1.71132,
+ "earnings_growth_y": 0.21,
+ "earnings_growth_q_y": 0.219,
+ "bs_date": "2026-06-30",
+ "cash": 66000000.0,
+ "total_debt": 1648000000.0,
+ "current_debt": 27000000.0,
+ "lease_obligations": 118000000.0,
+ "equity": 2310000000.0,
+ "net_debt": 1582000000.0,
+ "ocf_ttm": 503000000.0,
+ "capex_ttm": -183000000.0,
+ "fcf_ttm": 320000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3786000000.0,
+ "net_income_ttm": 344000000.0,
+ "ebitda_ttm": 686000000.0,
+ "ebit_ttm": 551000000.0,
+ "interest_ttm": 103000000.0,
+ "revenue_yoy_last_q": 0.006396588486140775,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 944000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 877000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1034000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 931000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 938000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.56
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.35
+  }
+ ],
+ "eps_ttm": 1.6400000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14371257485029942,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19999999999999996,
+ "eps_forward_growth": 0.04348780487804871,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2595338983050847
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.23603192702394526
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2572533849129594
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2502685284640172
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24093816631130063
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3721000000.0,
+   "eps": 1.43,
+   "net_income": 301000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3695000000.0,
+   "eps": 1.67,
+   "net_income": 352000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3756000000.0,
+   "eps": 1.42,
+   "net_income": 298000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3817000000.0,
+   "eps": 1.23,
+   "net_income": 258000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.002111530472426626,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 27000000.0,
+ "gap_24m": -39000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.306122448979592,
+ "interest_coverage": 5.349514563106796,
+ "cash_to_debt": 0.04004854368932039,
+ "ev": 6434408502.132454,
+ "ev_to_sales": 1.6995268098606586,
+ "ev_to_ebitda": 9.379604230513781,
+ "pe_ttm": 14.105838668989692,
+ "pe_trailing": 14.036586,
+ "p_sales": 1.2816715,
+ "p_fcf": 15.163776569163918,
+ "p_book": 2.1006097411828804
+}

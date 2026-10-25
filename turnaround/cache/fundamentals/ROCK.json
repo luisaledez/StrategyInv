@@ -1,0 +1,154 @@
+{
+ "ticker": "ROCK",
+ "fetched": "2026-10-25",
+ "market_cap": 1151772369.0825958,
+ "shares_out": 29661919.0,
+ "price": 38.83000183105469,
+ "long_name": "Gibraltar Industries, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Building Products & Equipment",
+ "pe_trailing_y": 19.222773,
+ "pe_forward": 8.196306,
+ "peg": 0.53,
+ "p_sales_y": 0.7968201,
+ "eps_trailing_y": 2.02,
+ "eps_forward": 4.7375,
+ "earnings_growth_y": -0.686,
+ "earnings_growth_q_y": -0.685,
+ "bs_date": "2026-06-30",
+ "cash": 15147000.0,
+ "total_debt": 1369278000.0,
+ "current_debt": 11480000.0,
+ "lease_obligations": 151202000.0,
+ "equity": 890752000.0,
+ "net_debt": 1354131000.0,
+ "ocf_ttm": 71041000.0,
+ "capex_ttm": -28363000.0,
+ "fcf_ttm": 42678000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5300000.0,
+ "stock_issuance_ttm": -5102000.0,
+ "revenue_ttm": 1445461000.0,
+ "net_income_ttm": -150791000.0,
+ "ebitda_ttm": 159420000.0,
+ "ebit_ttm": 109953000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.6462649870604846,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 509547000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 356287000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 268688000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 310939000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 309517000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.28
+  },
+  {
+   "period": "2026-03-31",
+   "value": -2.26
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": -2.99
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.87
+  }
+ ],
+ "eps_ttm": -5.05,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.3318385650224216,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6781609195402298,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2592047446064838
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.22136928936503436
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24101187994997916
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.26611650516660823
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28378085856350377
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1135501000.0,
+   "eps": -1.48,
+   "net_income": -44388000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1023359000.0,
+   "eps": 4.46,
+   "net_income": 137340000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1046998000.0,
+   "eps": 3.59,
+   "net_income": 110533000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1389966000.0,
+   "eps": 2.56,
+   "net_income": 82406000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.00599877990917097,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11480000.0,
+ "gap_24m": -3667000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 8.494109898381634,
+ "interest_coverage": null,
+ "cash_to_debt": 0.011062034152305084,
+ "ev": 2505903369.082596,
+ "ev_to_sales": 1.7336360988519204,
+ "ev_to_ebitda": 15.718876985839893,
+ "pe_ttm": null,
+ "pe_trailing": 19.222773,
+ "p_sales": 0.7968201,
+ "p_fcf": 26.987496346656258,
+ "p_book": 1.2930337165480357
+}

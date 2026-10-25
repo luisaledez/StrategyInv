@@ -1,0 +1,154 @@
+{
+ "ticker": "BL",
+ "fetched": "2026-10-25",
+ "market_cap": 2022759351.6539383,
+ "shares_out": 58125270.0,
+ "price": 34.79999923706055,
+ "long_name": "BlackLine, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 61.05263,
+ "pe_forward": 12.5955515,
+ "peg": 4.53,
+ "p_sales_y": 2.7616425,
+ "eps_trailing_y": 0.57,
+ "eps_forward": 2.76288,
+ "earnings_growth_y": 1.016,
+ "earnings_growth_q_y": 0.988,
+ "bs_date": "2026-06-30",
+ "cash": 527760000.0,
+ "total_debt": 690740000.0,
+ "current_debt": 4367000.0,
+ "lease_obligations": 23421000.0,
+ "equity": 316174000.0,
+ "net_debt": 162980000.0,
+ "ocf_ttm": 181767000.0,
+ "capex_ttm": -32647000.0,
+ "fcf_ttm": 149120000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -248214000.0,
+ "stock_issuance_ttm": -248214000.0,
+ "revenue_ttm": 732448000.0,
+ "net_income_ttm": 34778000.0,
+ "ebitda_ttm": 105352000.0,
+ "ebit_ttm": 57231000.0,
+ "interest_ttm": 9948000.0,
+ "revenue_yoy_last_q": 0.09182967591919788,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 187822000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 183155000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 183181000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 178290000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 172025000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.13
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.09
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.13
+  }
+ ],
+ "eps_ttm": 0.5700000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7310344827586206,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.076923076923077,
+ "eps_forward_growth": 3.847157894736841,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7596447700482372
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7597390188638039
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.751884747872323
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7510292220539571
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7522336869641041
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 700427000.0,
+   "eps": 0.39,
+   "net_income": 24518000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 653336000.0,
+   "eps": 1.45,
+   "net_income": 161174000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 589996000.0,
+   "eps": 0.81,
+   "net_income": 52833000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 522938000.0,
+   "eps": -0.49,
+   "net_income": -29391000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.05662547256008388,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 4367000.0,
+ "gap_24m": -523393000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.5470043283468753,
+ "interest_coverage": 5.753015681544029,
+ "cash_to_debt": 0.7640501491154414,
+ "ev": 2185739351.6539383,
+ "ev_to_sales": 2.984156351923875,
+ "ev_to_ebitda": 20.74701336143536,
+ "pe_ttm": 58.16203783006321,
+ "pe_trailing": 61.05263,
+ "p_sales": 2.7616425,
+ "p_fcf": 13.564641574932526,
+ "p_book": 6.397614451706776
+}

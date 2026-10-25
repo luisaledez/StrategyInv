@@ -1,0 +1,154 @@
+{
+ "ticker": "RUN",
+ "fetched": "2026-10-25",
+ "market_cap": 1808203577.2601337,
+ "shares_out": 238549287.0,
+ "price": 7.579999923706055,
+ "long_name": "Sunrun Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Solar",
+ "pe_trailing_y": 5.1216216,
+ "pe_forward": 14.614583,
+ "peg": 3.07,
+ "p_sales_y": 0.52025515,
+ "eps_trailing_y": 1.48,
+ "eps_forward": 0.51866,
+ "earnings_growth_y": -0.607,
+ "earnings_growth_q_y": -0.588,
+ "bs_date": "2026-06-30",
+ "cash": 712425000.0,
+ "total_debt": 15230687000.0,
+ "current_debt": 561272000.0,
+ "lease_obligations": 72789000.0,
+ "equity": 3490084000.0,
+ "net_debt": 14518262000.0,
+ "ocf_ttm": -200131000.0,
+ "capex_ttm": -2010977000.0,
+ "fcf_ttm": -2211108000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3475609000.0,
+ "net_income_ttm": 402959000.0,
+ "ebitda_ttm": 881800000.0,
+ "ebit_ttm": 133481000.0,
+ "interest_ttm": 1050582000.0,
+ "revenue_yoy_last_q": 0.5280748099540518,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 869988000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 722231000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1158833000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 724557000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 569336000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.62
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.38
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.07
+  }
+ ],
+ "eps_ttm": 1.48,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.6074766355140186,
+ "eps_forward_growth": -0.6495540540540541,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3772741692988869
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.30433614729913283
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3756986554576889
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3357444617883755
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.21044866300392034
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2956997000.0,
+   "eps": 1.71,
+   "net_income": 449947000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2037719000.0,
+   "eps": -12.81,
+   "net_income": -2846167000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2259813000.0,
+   "eps": -7.41,
+   "net_income": -1604497000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2321422000.0,
+   "eps": 0.8,
+   "net_income": 173377000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.042571020445378416,
+ "fcf_burn_annual": 2211108000.0,
+ "runway_months": 3.8664325758850313,
+ "need_24m": 4983488000.0,
+ "gap_24m": 4271063000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 16.464347924699478,
+ "interest_coverage": 0.12705433750054732,
+ "cash_to_debt": 0.04677563132903985,
+ "ev": 16326465577.260134,
+ "ev_to_sales": 4.6974402406197395,
+ "ev_to_ebitda": 18.514930343910336,
+ "pe_ttm": 4.4873140375575025,
+ "pe_trailing": 5.1216216,
+ "p_sales": 0.52025515,
+ "p_fcf": null,
+ "p_book": 0.5180974375574151
+}

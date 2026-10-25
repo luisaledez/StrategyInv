@@ -1,0 +1,154 @@
+{
+ "ticker": "WEN",
+ "fetched": "2026-10-25",
+ "market_cap": 1185966924.5958567,
+ "shares_out": 190669930.0,
+ "price": 6.21999979019165,
+ "long_name": "The Wendy's Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 9.424242,
+ "pe_forward": 12.8469925,
+ "peg": 1.15,
+ "p_sales_y": 0.5381713,
+ "eps_trailing_y": 0.66,
+ "eps_forward": 0.48416,
+ "earnings_growth_y": -0.408,
+ "earnings_growth_q_y": -0.408,
+ "bs_date": "2026-06-30",
+ "cash": 341211000.0,
+ "total_debt": 4072525000.0,
+ "current_debt": 109241000.0,
+ "lease_obligations": 1323536000.0,
+ "equity": 120467000.0,
+ "net_debt": 3731314000.0,
+ "ocf_ttm": 358492000.0,
+ "capex_ttm": -94316000.0,
+ "fcf_ttm": 264176000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -16172000.0,
+ "stock_issuance_ttm": -16172000.0,
+ "revenue_ttm": 2203698000.0,
+ "net_income_ttm": 126061000.0,
+ "ebitda_ttm": 488244000.0,
+ "ebit_ttm": 311162000.0,
+ "interest_ttm": 132001000.0,
+ "revenue_yoy_last_q": 0.017189341253527557,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 570571000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 540637000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 542974000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 549516000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 560929000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.23
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.29
+  }
+ ],
+ "eps_ttm": 0.66,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.10526315789473684,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.4137931034482758,
+ "eps_forward_growth": -0.26642424242424245,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2555545234510692
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2560054158335445
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24998987060153893
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2658994460579856
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2974262339797015
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2176891000.0,
+   "eps": 0.85,
+   "net_income": 165075000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2246492000.0,
+   "eps": 0.95,
+   "net_income": 194357000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2181578000.0,
+   "eps": 0.97,
+   "net_income": 204440000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2095505000.0,
+   "eps": 0.82,
+   "net_income": 177370000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0036896704904753053,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 109241000.0,
+ "gap_24m": -231970000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 7.64231408885721,
+ "interest_coverage": 2.3572700206816615,
+ "cash_to_debt": 0.08378364773696909,
+ "ev": 4917280924.595857,
+ "ev_to_sales": 2.2313769511956068,
+ "ev_to_ebitda": 10.071359657457863,
+ "pe_ttm": 9.407881300289992,
+ "pe_trailing": 9.424242,
+ "p_sales": 0.5381713,
+ "p_fcf": 4.489306086078435,
+ "p_book": 9.844745238080609
+}

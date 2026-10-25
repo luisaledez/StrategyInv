@@ -1,0 +1,154 @@
+{
+ "ticker": "ALM",
+ "fetched": "2026-10-25",
+ "market_cap": 2554496909.1939926,
+ "shares_out": 288480750.0,
+ "price": 8.854999542236328,
+ "long_name": "Almonty Industries Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Other Industrial Metals & Mining",
+ "pe_trailing_y": 49.19444,
+ "pe_forward": 5.7580094,
+ "peg": null,
+ "p_sales_y": 29.771648,
+ "eps_trailing_y": 0.18,
+ "eps_forward": 1.5378578,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1223136000.0,
+ "total_debt": 813148000.0,
+ "current_debt": 57576000.0,
+ "lease_obligations": null,
+ "equity": 551801000.0,
+ "net_debt": -409988000.0,
+ "ocf_ttm": 27387000.0,
+ "capex_ttm": -82871000.0,
+ "fcf_ttm": -55484000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 302195000.0,
+ "revenue_ttm": 85803000.0,
+ "net_income_ttm": 107451000.0,
+ "ebitda_ttm": 125875000.0,
+ "ebit_ttm": 124819000.0,
+ "interest_ttm": 7941000.0,
+ "revenue_yoy_last_q": 4.977335928809788,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 42989000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 25400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 8719000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 8695000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 7192000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.62
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.02
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.3
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.195
+  }
+ ],
+ "eps_ttm": 0.43,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 2.576413488372093,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6072018423317593
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5122047244094489
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.15059066406698016
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.14422081656124208
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.13125695216907676
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 32514000.0,
+   "eps": -0.78,
+   "net_income": -161913000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 28836000.0,
+   "eps": -0.1,
+   "net_income": -16298000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 22510000.0,
+   "eps": -0.06,
+   "net_income": -8837000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 24796000.0,
+   "eps": -0.105,
+   "net_income": -14490000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.4709886309972324,
+ "fcf_burn_annual": 55484000.0,
+ "runway_months": 264.53810107418354,
+ "need_24m": 168544000.0,
+ "gap_24m": -1054592000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.2571042701092354,
+ "interest_coverage": 15.718297443646897,
+ "cash_to_debt": 1.5041984976904574,
+ "ev": 2144508909.1939926,
+ "ev_to_sales": 24.993402435742254,
+ "ev_to_ebitda": 17.036813578502425,
+ "pe_ttm": 23.77359828381302,
+ "pe_trailing": 49.19444,
+ "p_sales": 29.771648,
+ "p_fcf": null,
+ "p_book": 4.629380717312931
+}

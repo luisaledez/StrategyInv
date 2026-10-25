@@ -1,0 +1,154 @@
+{
+ "ticker": "NSIT",
+ "fetched": "2026-10-25",
+ "market_cap": 5187996339.891815,
+ "shares_out": 29348850.0,
+ "price": 176.77000427246094,
+ "long_name": "Insight Enterprises, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Electronics & Computer Distribution",
+ "pe_trailing_y": 26.033875,
+ "pe_forward": 13.338797,
+ "peg": 1.12,
+ "p_sales_y": 0.604688,
+ "eps_trailing_y": 6.79,
+ "eps_forward": 13.25232,
+ "earnings_growth_y": 0.76,
+ "earnings_growth_q_y": 0.653,
+ "bs_date": "2026-06-30",
+ "cash": 363482000.0,
+ "total_debt": 1741725000.0,
+ "current_debt": 266636000.0,
+ "lease_obligations": null,
+ "equity": 1605025000.0,
+ "net_debt": 1378243000.0,
+ "ocf_ttm": 422968000.0,
+ "capex_ttm": -26397000.0,
+ "fcf_ttm": 396571000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -225000000.0,
+ "stock_issuance_ttm": -225000000.0,
+ "revenue_ttm": 8579625000.0,
+ "net_income_ttm": 210479000.0,
+ "ebitda_ttm": 505307000.0,
+ "ebit_ttm": 393365000.0,
+ "interest_ttm": 94911000.0,
+ "revenue_yoy_last_q": 0.14727116943870433,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2399497000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2127986000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2048297000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2003845000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2091482000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.57
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.97
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.62
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.46
+  }
+ ],
+ "eps_ttm": 6.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.25801526717557244,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.7602739726027397,
+ "eps_forward_growth": 0.9403103953147876,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2173797258342061
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2171776506048442
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2335735491483901
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2166809309103249
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2114897474613695
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8247180000.0,
+   "eps": 4.86,
+   "net_income": 157347000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8701698000.0,
+   "eps": 6.55,
+   "net_income": 249691000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9175840000.0,
+   "eps": 7.55,
+   "net_income": 281309000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 10431191000.0,
+   "eps": 7.66,
+   "net_income": 280608000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.06063017186505415,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 266636000.0,
+ "gap_24m": -96846000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.7275359336007616,
+ "interest_coverage": 4.144567015414441,
+ "cash_to_debt": 0.20869080939872828,
+ "ev": 6566239339.891815,
+ "ev_to_sales": 0.7653294100723301,
+ "ev_to_ebitda": 12.994554478548318,
+ "pe_ttm": 24.648522369888756,
+ "pe_trailing": 26.033875,
+ "p_sales": 0.604688,
+ "p_fcf": 13.082137473218705,
+ "p_book": 3.2323461253823553
+}

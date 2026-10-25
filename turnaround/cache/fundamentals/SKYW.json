@@ -1,0 +1,154 @@
+{
+ "ticker": "SKYW",
+ "fetched": "2026-10-25",
+ "market_cap": 3612199027.3521423,
+ "shares_out": 38828325.0,
+ "price": 93.02999877929688,
+ "long_name": "SkyWest, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Airlines",
+ "pe_trailing_y": 9.247515,
+ "pe_forward": 7.678885,
+ "peg": 1.66,
+ "p_sales_y": 0.8620078,
+ "eps_trailing_y": 10.06,
+ "eps_forward": 12.11504,
+ "earnings_growth_y": -0.127,
+ "earnings_growth_q_y": -0.163,
+ "bs_date": "2026-06-30",
+ "cash": 600979000.0,
+ "total_debt": 2384091000.0,
+ "current_debt": 675563000.0,
+ "lease_obligations": 87633000.0,
+ "equity": 2761493000.0,
+ "net_debt": 1783112000.0,
+ "ocf_ttm": 948620000.0,
+ "capex_ttm": -633453000.0,
+ "fcf_ttm": 315167000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -204610000.0,
+ "stock_issuance_ttm": -201939000.0,
+ "revenue_ttm": 4190448000.0,
+ "net_income_ttm": 409906000.0,
+ "ebitda_ttm": 628533000.0,
+ "ebit_ttm": 628533000.0,
+ "interest_ttm": 100152000.0,
+ "revenue_yoy_last_q": 0.06522627404424353,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1102751000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1013177000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1024491000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1050029000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1035227000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.54
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.5
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.21
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.81
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.91
+  }
+ ],
+ "eps_ttm": 10.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.33204633204633205,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.12714776632302405,
+ "eps_forward_growth": 0.20427833001988072,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.22429088706335337
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.20998897527282992
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20995889666185452
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.23985147076890256
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.25247989088383516
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4058202000.0,
+   "eps": 10.35,
+   "net_income": 428334000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3527920000.0,
+   "eps": 7.77,
+   "net_income": 322962000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2935432000.0,
+   "eps": 0.77,
+   "net_income": 34342000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3004925000.0,
+   "eps": 1.44,
+   "net_income": 72953000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0355735500934784,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 675563000.0,
+ "gap_24m": 74584000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.8369425312592975,
+ "interest_coverage": 6.275790797987059,
+ "cash_to_debt": 0.2520788845727785,
+ "ev": 5395311027.352142,
+ "ev_to_sales": 1.2875260657934766,
+ "ev_to_ebitda": 8.583974154661954,
+ "pe_ttm": 8.812261902368208,
+ "pe_trailing": 9.247515,
+ "p_sales": 0.8620078,
+ "p_fcf": 11.461222232505758,
+ "p_book": 1.3080601788062263
+}

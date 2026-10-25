@@ -1,0 +1,154 @@
+{
+ "ticker": "CIFR",
+ "fetched": "2026-10-25",
+ "market_cap": 3295343956.4282484,
+ "shares_out": 415030722.0,
+ "price": 7.940000057220459,
+ "long_name": "Cipher Digital Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "pe_trailing_y": null,
+ "pe_forward": 35.471767,
+ "peg": null,
+ "p_sales_y": 17.244713,
+ "eps_trailing_y": -2.87,
+ "eps_forward": 0.22384,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 831829000.0,
+ "total_debt": 5586800000.0,
+ "current_debt": 101201000.0,
+ "lease_obligations": 45450000.0,
+ "equity": 562057000.0,
+ "net_debt": 4754971000.0,
+ "ocf_ttm": -256490000.0,
+ "capex_ttm": -1239518000.0,
+ "fcf_ttm": -1496008000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -134268000.0,
+ "stock_issuance_ttm": 104733000.0,
+ "revenue_ttm": 191093000.0,
+ "net_income_ttm": -1119333000.0,
+ "ebitda_ttm": -810736000.0,
+ "ebit_ttm": -962394000.0,
+ "interest_ttm": 160539000.0,
+ "revenue_yoy_last_q": -0.42988637667852636,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 24837000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 34838000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 59711000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 71707000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 43565000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.65
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.28
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.01
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.12
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.11
+  }
+ ],
+ "eps_ttm": -1.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.3112694769899746
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.5129456340777312
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.012225553080671903
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.42574644037541665
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28867209916217146
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 223942000.0,
+   "eps": -2.15,
+   "net_income": -822244000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 151270000.0,
+   "eps": -0.14,
+   "net_income": -44635000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 126842000.0,
+   "eps": -0.1,
+   "net_income": -25777000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3037000.0,
+   "eps": -0.16,
+   "net_income": -39053000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.07109091262329859,
+ "fcf_burn_annual": 1496008000.0,
+ "runway_months": 6.672389452462821,
+ "need_24m": 3093217000.0,
+ "gap_24m": 2261388000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": -5.865005377829528,
+ "interest_coverage": -5.9947676265580325,
+ "cash_to_debt": 0.1488918522230973,
+ "ev": 8050314956.428249,
+ "ev_to_sales": 42.127733388602664,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 17.244713,
+ "p_fcf": null,
+ "p_book": 5.86300669937079
+}

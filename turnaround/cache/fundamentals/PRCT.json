@@ -1,0 +1,154 @@
+{
+ "ticker": "PRCT",
+ "fetched": "2026-10-25",
+ "market_cap": 1136100074.129242,
+ "shares_out": 56918844.0,
+ "price": 19.959999084472656,
+ "long_name": "PROCEPT BioRobotics Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": null,
+ "pe_forward": -17.033043,
+ "peg": null,
+ "p_sales_y": 3.3678093,
+ "eps_trailing_y": -1.94,
+ "eps_forward": -1.17184,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 227914000.0,
+ "total_debt": 77500000.0,
+ "current_debt": 2505000.0,
+ "lease_obligations": 25785000.0,
+ "equity": 340070000.0,
+ "net_debt": -150414000.0,
+ "ocf_ttm": -74340000.0,
+ "capex_ttm": -10585000.0,
+ "fcf_ttm": -84925000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 337340000.0,
+ "net_income_ttm": -109755000.0,
+ "ebitda_ttm": -98990000.0,
+ "ebit_ttm": -106041000.0,
+ "interest_ttm": 3473000.0,
+ "revenue_yoy_last_q": 0.1934277992473037,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 94498000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 83132000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 76383000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 83327000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 79182000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.47
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.56
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.53
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.38
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.35
+  }
+ ],
+ "eps_ttm": -1.94,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6601092086605007
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6489318192753692
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6063260149509707
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6481212572155484
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6535071102018135
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 308054000.0,
+   "eps": -1.72,
+   "net_income": -95572000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 224498000.0,
+   "eps": -1.75,
+   "net_income": -91413000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 136191000.0,
+   "eps": -2.24,
+   "net_income": -105897000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 75014000.0,
+   "eps": -1.96,
+   "net_income": -87154000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.030048401317091633,
+ "fcf_burn_annual": 84925000.0,
+ "runway_months": 32.20450986164263,
+ "need_24m": 172355000.0,
+ "gap_24m": -55559000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.519486816850187,
+ "interest_coverage": -30.53296861503023,
+ "cash_to_debt": 2.940825806451613,
+ "ev": 985686074.129242,
+ "ev_to_sales": 2.921936545115438,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.3678093,
+ "p_fcf": null,
+ "p_book": 3.3407829979981827
+}

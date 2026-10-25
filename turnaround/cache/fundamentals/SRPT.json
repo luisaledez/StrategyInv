@@ -1,0 +1,154 @@
+{
+ "ticker": "SRPT",
+ "fetched": "2026-10-25",
+ "market_cap": 1872767033.977787,
+ "shares_out": 105627021.0,
+ "price": 17.729999542236328,
+ "long_name": "Sarepta Therapeutics, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": 7.2395716,
+ "peg": -0.09,
+ "p_sales_y": 0.9485516,
+ "eps_trailing_y": -1.57,
+ "eps_forward": 2.44904,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 788489000.0,
+ "total_debt": 1045849000.0,
+ "current_debt": 11393000.0,
+ "lease_obligations": 198226000.0,
+ "equity": 1527798000.0,
+ "net_debt": 257360000.0,
+ "ocf_ttm": 111008000.0,
+ "capex_ttm": -36037000.0,
+ "fcf_ttm": 74971000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1974344000.0,
+ "net_income_ttm": -136725000.0,
+ "ebitda_ttm": -14584000.0,
+ "ebit_ttm": -59290000.0,
+ "interest_ttm": 71630000.0,
+ "revenue_yoy_last_q": -0.3433858459705674,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 401251000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 730803000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 442934000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 399356000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 611091000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.05
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.88
+  },
+  {
+   "period": "2025-12-31",
+   "value": -3.93
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.8
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.89
+  }
+ ],
+ "eps_ttm": -2.9000000000000004,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -4.047008547008547,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.0264550264550265,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6277018624252649
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8511664566237412
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.09984783285997463
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6224546519897034
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7503514206558434
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2198237000.0,
+   "eps": -7.13,
+   "net_income": -713410000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1901979000.0,
+   "eps": 2.34,
+   "net_income": 235239000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1243336000.0,
+   "eps": -5.8,
+   "net_income": -535977000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 933013000.0,
+   "eps": -8.03,
+   "net_income": -703488000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.08103309933423386,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11393000.0,
+ "gap_24m": -777096000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -17.646736149204607,
+ "interest_coverage": -0.827725813206757,
+ "cash_to_debt": 0.7539224113614872,
+ "ev": 2130127033.977787,
+ "ev_to_sales": 1.0789036935700096,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.9485516,
+ "p_fcf": 24.979886008960626,
+ "p_book": 1.2257949244453699
+}

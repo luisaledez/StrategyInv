@@ -1,0 +1,154 @@
+{
+ "ticker": "BWIN",
+ "fetched": "2026-10-25",
+ "market_cap": 4496048232.886032,
+ "shares_out": 140677358.0,
+ "price": 31.959999084472656,
+ "long_name": "The Baldwin Insurance Group, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "pe_trailing_y": null,
+ "pe_forward": 12.893179,
+ "peg": null,
+ "p_sales_y": 2.5871444,
+ "eps_trailing_y": -1.04,
+ "eps_forward": 2.47883,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 184499000.0,
+ "total_debt": 2686834000.0,
+ "current_debt": 158981000.0,
+ "lease_obligations": 97117000.0,
+ "equity": 884428000.0,
+ "net_debt": 2502335000.0,
+ "ocf_ttm": 90772000.0,
+ "capex_ttm": -47065000.0,
+ "fcf_ttm": 43707000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -126833000.0,
+ "stock_issuance_ttm": -126833000.0,
+ "revenue_ttm": 1722090000.0,
+ "net_income_ttm": -81242000.0,
+ "ebitda_ttm": 82723000.0,
+ "ebit_ttm": -105868000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.3040912393938746,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 488137000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 528445000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 342897000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 362611000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 374312000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.27
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.05
+  }
+ ],
+ "eps_ttm": -1.04,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.31142076916931105
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.33712874565943474
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.264502168289603
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24949325861598243
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28119590074590184
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1488349000.0,
+   "eps": -0.5,
+   "net_income": -33813000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1376243000.0,
+   "eps": -0.39,
+   "net_income": -24518000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1207739000.0,
+   "eps": -1.5,
+   "net_income": -90141000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 969491000.0,
+   "eps": -0.74,
+   "net_income": -41772000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.9561006759903239,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 158981000.0,
+ "gap_24m": -25518000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 30.249567834822237,
+ "interest_coverage": null,
+ "cash_to_debt": 0.06866780753853792,
+ "ev": 6998383232.886032,
+ "ev_to_sales": 4.063889362859102,
+ "ev_to_ebitda": 84.60021073807808,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.5871444,
+ "p_fcf": 102.86792122282546,
+ "p_book": 5.08356613866367
+}

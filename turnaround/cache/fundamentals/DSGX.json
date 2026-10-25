@@ -1,0 +1,154 @@
+{
+ "ticker": "DSGX",
+ "fetched": "2026-10-25",
+ "market_cap": 8038141961.5579605,
+ "shares_out": 85548553.0,
+ "price": 93.95999908447266,
+ "long_name": "The Descartes Systems Group Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 43.702324,
+ "pe_forward": 27.635294,
+ "peg": 1.54,
+ "p_sales_y": 10.369562,
+ "eps_trailing_y": 2.15,
+ "eps_forward": 3.4,
+ "earnings_growth_y": 0.326,
+ "earnings_growth_q_y": 0.316,
+ "bs_date": "2026-07-31",
+ "cash": 401057000.0,
+ "total_debt": 7542000.0,
+ "current_debt": 3329000.0,
+ "lease_obligations": 7542000.0,
+ "equity": 1646590000.0,
+ "net_debt": -393515000.0,
+ "ocf_ttm": 305713000.0,
+ "capex_ttm": -7198000.0,
+ "fcf_ttm": 298515000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -45110000.0,
+ "stock_issuance_ttm": -36427000.0,
+ "revenue_ttm": 775167000.0,
+ "net_income_ttm": 188008000.0,
+ "ebitda_ttm": 337446000.0,
+ "ebit_ttm": 254475000.0,
+ "interest_ttm": 964000.0,
+ "revenue_yoy_last_q": 0.11841614993187433,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 201108000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 193621000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 192757000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 187681000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 179815000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.57
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.55
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.5
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.43
+  },
+  {
+   "period": "2025-04-30",
+   "value": 0.41
+  }
+ ],
+ "eps_ttm": 2.0500000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.14024390243902451,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3902439024390243,
+ "eps_forward_growth": 0.6585365853658534,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7792330489090439
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.7756131824543825
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.775582728513102
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.7737011205183263
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.7687178489002586
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 728992000.0,
+   "eps": 1.87,
+   "net_income": 163767000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 651000000.0,
+   "eps": 1.64,
+   "net_income": 143273000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 572931000.0,
+   "eps": 1.34,
+   "net_income": 115907000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 486014000.0,
+   "eps": 1.18,
+   "net_income": 102236000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.004482059328682841,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3329000.0,
+ "gap_24m": -397728000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.1661569554832476,
+ "interest_coverage": 263.9782157676349,
+ "cash_to_debt": 53.176478387695575,
+ "ev": 7644626961.5579605,
+ "ev_to_sales": 9.861909706628326,
+ "ev_to_ebitda": 22.654371252164673,
+ "pe_ttm": 42.754254933609,
+ "pe_trailing": 43.702324,
+ "p_sales": 10.369562,
+ "p_fcf": 26.927095662053702,
+ "p_book": 4.881690014853704
+}

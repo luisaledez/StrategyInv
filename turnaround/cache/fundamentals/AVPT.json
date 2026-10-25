@@ -1,0 +1,154 @@
+{
+ "ticker": "AVPT",
+ "fetched": "2026-10-25",
+ "market_cap": 3492945231.683483,
+ "shares_out": 211565426.0,
+ "price": 16.510000228881836,
+ "long_name": "AvePoint, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 51.59375,
+ "pe_forward": 33.1866,
+ "peg": null,
+ "p_sales_y": 7.4931464,
+ "eps_trailing_y": 0.32,
+ "eps_forward": 0.49749,
+ "earnings_growth_y": 11.0,
+ "earnings_growth_q_y": 9.219,
+ "bs_date": "2026-06-30",
+ "cash": 417250000.0,
+ "total_debt": 16310000.0,
+ "current_debt": null,
+ "lease_obligations": 16310000.0,
+ "equity": 436874000.0,
+ "net_debt": -400940000.0,
+ "ocf_ttm": 104694000.0,
+ "capex_ttm": -5465000.0,
+ "fcf_ttm": 99229000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -141121000.0,
+ "stock_issuance_ttm": -141121000.0,
+ "revenue_ttm": 466152000.0,
+ "net_income_ttm": 71481000.0,
+ "ebitda_ttm": 52057000.0,
+ "ebit_ttm": 45605000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.22032386441608343,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 124495000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 117242000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 114687000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 109728000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 102018000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.12
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.07
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.01
+  }
+ ],
+ "eps_ttm": 0.32,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 11.0,
+ "eps_forward_growth": 0.5546562499999999,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7310012450299209
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7281434980638338
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7359944893492724
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7435021143190435
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7404477641200572
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 419497000.0,
+   "eps": 0.15,
+   "net_income": 34799000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 330482000.0,
+   "eps": -0.16,
+   "net_income": -29090000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 271825000.0,
+   "eps": -0.12,
+   "net_income": -21725000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 232339000.0,
+   "eps": -0.23,
+   "net_income": -41630000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.001382165342703079,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -417250000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -7.7019421019267345,
+ "interest_coverage": null,
+ "cash_to_debt": 25.582464745554873,
+ "ev": 3092005231.683483,
+ "ev_to_sales": 6.633040792881899,
+ "ev_to_ebitda": 59.39653133456563,
+ "pe_ttm": 48.86536606487714,
+ "pe_trailing": 51.59375,
+ "p_sales": 7.4931464,
+ "p_fcf": 35.20085087709725,
+ "p_book": 7.995314968809046
+}

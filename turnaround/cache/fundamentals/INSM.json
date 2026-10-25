@@ -1,0 +1,154 @@
+{
+ "ticker": "INSM",
+ "fetched": "2026-10-25",
+ "market_cap": 20394648431.88051,
+ "shares_out": 218381503.0,
+ "price": 93.38999938964844,
+ "long_name": "Insmed Incorporated",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": 117.456924,
+ "peg": 1.09,
+ "p_sales_y": 17.927235,
+ "eps_trailing_y": -4.1,
+ "eps_forward": 0.7951,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 1160312000.0,
+ "total_debt": 579881000.0,
+ "current_debt": 9815000.0,
+ "lease_obligations": 36368000.0,
+ "equity": 757494000.0,
+ "net_debt": -580431000.0,
+ "ocf_ttm": -778923000.0,
+ "capex_ttm": -28746000.0,
+ "fcf_ttm": -807669000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1137635000.0,
+ "net_income_ttm": -875311000.0,
+ "ebitda_ttm": -773467000.0,
+ "ebit_ttm": -793299000.0,
+ "interest_ttm": 75807000.0,
+ "revenue_yoy_last_q": 2.9611413675929805,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 425486000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 305964000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 263843000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 142342000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 107415000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.76
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.54
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.75
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.7
+  }
+ ],
+ "eps_ttm": -4.11,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8420347555501239
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8450144461439908
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8324003289835243
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7937010861165362
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.738630545082158
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 606423000.0,
+   "eps": -6.42,
+   "net_income": -1276775000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 363707000.0,
+   "eps": -5.57,
+   "net_income": -913772000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 305208000.0,
+   "eps": -5.34,
+   "net_income": -749567000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 245358000.0,
+   "eps": -3.91,
+   "net_income": -481534000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.03396513026831638,
+ "fcf_burn_annual": 807669000.0,
+ "runway_months": 17.239418623223127,
+ "need_24m": 1625153000.0,
+ "gap_24m": 464841000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.7504276200536028,
+ "interest_coverage": -10.46471961692192,
+ "cash_to_debt": 2.0009484704620433,
+ "ev": 19814217431.88051,
+ "ev_to_sales": 17.41702517229209,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 17.927235,
+ "p_fcf": null,
+ "p_book": 26.923841551062463
+}

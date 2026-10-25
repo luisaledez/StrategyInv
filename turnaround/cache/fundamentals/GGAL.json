@@ -1,0 +1,133 @@
+{
+ "ticker": "GGAL",
+ "fetched": "2026-10-25",
+ "market_cap": 6423980074.093456,
+ "shares_out": 169453445.0,
+ "price": 37.90999984741211,
+ "long_name": "Grupo Financiero Galicia S.A.",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 42.595505,
+ "pe_forward": 5.3694677,
+ "peg": 0.18,
+ "p_sales_y": 0.0010905485,
+ "eps_trailing_y": 0.89,
+ "eps_forward": 7.06029,
+ "earnings_growth_y": 0.12,
+ "earnings_growth_q_y": 0.12,
+ "bs_date": "2026-06-30",
+ "cash": 9086936659000.0,
+ "total_debt": 3014023000000.0,
+ "current_debt": null,
+ "lease_obligations": 44196888000.0,
+ "equity": 9197727443000.0,
+ "net_debt": -6072913659000.0,
+ "ocf_ttm": null,
+ "capex_ttm": null,
+ "fcf_ttm": null,
+ "ttm_quarters": 1,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 9943845712000.0,
+ "net_income_ttm": 202117509000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.009898591416234725,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2766777000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2555338000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2649239712000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1972491000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2794438000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1608.226616
+  },
+  {
+   "period": "2026-03-31",
+   "value": 413.932113
+  },
+  {
+   "period": "2025-12-31",
+   "value": -520.11708
+  },
+  {
+   "period": "2025-09-30",
+   "value": -546.053207
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1435.352309
+  }
+ ],
+ "eps_ttm": 955.988442,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.8883724858358505,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.12044033086235117,
+ "eps_forward_growth": -0.9926146701258968,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8537670344000.0,
+   "eps": 1324.8,
+   "net_income": 212523704000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9875327957000.0,
+   "eps": 11868.041763,
+   "net_income": 2115458228000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9569765391000.0,
+   "eps": 4595.848326,
+   "net_income": 965881373000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4684809721000.0,
+   "eps": 2228.743985,
+   "net_income": 329383656000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0,
+ "fcf_burn_annual": null,
+ "runway_months": null,
+ "need_24m": null,
+ "gap_24m": null,
+ "survival_gate": "UNKNOWN",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 3.0148863027919828,
+ "ev": -6066489678925.906,
+ "ev_to_sales": -0.6100747994918112,
+ "ev_to_ebitda": null,
+ "pe_ttm": 0.03178339227450827,
+ "pe_trailing": 42.595505,
+ "p_sales": 0.0010905485,
+ "p_fcf": null,
+ "p_book": 0.0006984312281380413
+}

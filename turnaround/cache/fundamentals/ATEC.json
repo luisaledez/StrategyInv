@@ -1,0 +1,154 @@
+{
+ "ticker": "ATEC",
+ "fetched": "2026-10-25",
+ "market_cap": 1715951401.3334312,
+ "shares_out": 154451076.0,
+ "price": 11.109999656677246,
+ "long_name": "Alphatec Holdings, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": null,
+ "pe_forward": 18.504946,
+ "peg": 0.48,
+ "p_sales_y": 2.1053274,
+ "eps_trailing_y": -0.72,
+ "eps_forward": 0.60038,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 118662000.0,
+ "total_debt": 604024000.0,
+ "current_debt": 71612000.0,
+ "lease_obligations": 28270000.0,
+ "equity": -12069000.0,
+ "net_debt": 485362000.0,
+ "ocf_ttm": 56525000.0,
+ "capex_ttm": -62264000.0,
+ "fcf_ttm": -5739000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 815052000.0,
+ "net_income_ttm": -109994000.0,
+ "ebitda_ttm": 21166000.0,
+ "ebit_ttm": -61275000.0,
+ "interest_ttm": 48457000.0,
+ "revenue_yoy_last_q": 0.15074052515845304,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 213513000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 192108000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 212928000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 196503000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 185544000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.16
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.22
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.14
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.19
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.27
+  }
+ ],
+ "eps_ttm": -0.71,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7217265459246042
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7104128927478294
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7020730012022843
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6987170679328051
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6957972233001337
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 764155000.0,
+   "eps": -0.96,
+   "net_income": -143358000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 611562000.0,
+   "eps": -1.13,
+   "net_income": -162123000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 482262000.0,
+   "eps": -1.54,
+   "net_income": -186638000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 350867000.0,
+   "eps": -1.47,
+   "net_income": -151293000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.051631655616516614,
+ "fcf_burn_annual": 5739000.0,
+ "runway_months": 248.1170935703084,
+ "need_24m": 83090000.0,
+ "gap_24m": -35572000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 22.931210431824624,
+ "interest_coverage": -1.2645231855046744,
+ "cash_to_debt": 0.196452458842695,
+ "ev": 2201313401.3334312,
+ "ev_to_sales": 2.7008257158235685,
+ "ev_to_ebitda": 104.00233399477611,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.1053274,
+ "p_fcf": null,
+ "p_book": null
+}

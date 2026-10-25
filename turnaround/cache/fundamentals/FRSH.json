@@ -1,0 +1,154 @@
+{
+ "ticker": "FRSH",
+ "fetched": "2026-10-25",
+ "market_cap": 4041662698.5599747,
+ "shares_out": 260920772.0,
+ "price": 15.489999771118164,
+ "long_name": "Freshworks Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 24.587301,
+ "pe_forward": 18.674576,
+ "peg": 0.63,
+ "p_sales_y": 4.4715185,
+ "eps_trailing_y": 0.63,
+ "eps_forward": 0.82947,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 664107000.0,
+ "total_debt": 34594000.0,
+ "current_debt": 9029000.0,
+ "lease_obligations": 34594000.0,
+ "equity": 895943000.0,
+ "net_debt": -629513000.0,
+ "ocf_ttm": 246718000.0,
+ "capex_ttm": -26159000.0,
+ "fcf_ttm": 220559000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -366521000.0,
+ "stock_issuance_ttm": -366521000.0,
+ "revenue_ttm": 903868000.0,
+ "net_income_ttm": 185195000.0,
+ "ebitda_ttm": 66651000.0,
+ "ebit_ttm": 37309000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.1597582544289078,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 237377000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 228633000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 222740000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 215118000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 204678000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.01
+  }
+ ],
+ "eps_ttm": 0.64,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.29604687500000004,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8479380900424219
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8482808693408214
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.855571518362216
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8468050093437091
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8478488161893315
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 838809000.0,
+   "eps": 0.63,
+   "net_income": 183723000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 720420000.0,
+   "eps": -0.32,
+   "net_income": -95368000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 596432000.0,
+   "eps": -0.47,
+   "net_income": -137436000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 497999000.0,
+   "eps": -0.82,
+   "net_income": -232132000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.10009751634258801,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9029000.0,
+ "gap_24m": -655078000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -9.444914554920405,
+ "interest_coverage": null,
+ "cash_to_debt": 19.197172920159566,
+ "ev": 3412149698.5599747,
+ "ev_to_sales": 3.7750531035062362,
+ "ev_to_ebitda": 51.19427613329094,
+ "pe_ttm": 21.82382190966265,
+ "pe_trailing": 24.587301,
+ "p_sales": 4.4715185,
+ "p_fcf": 18.324632858146686,
+ "p_book": 4.511071238415808
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "CWST",
+ "fetched": "2026-10-25",
+ "market_cap": 6211904928.9028015,
+ "shares_out": 63640046.0,
+ "price": 97.61000061035156,
+ "long_name": "Casella Waste Systems, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Waste Management",
+ "pe_trailing_y": 1084.5555,
+ "pe_forward": 68.46269,
+ "peg": 3.29,
+ "p_sales_y": 3.176662,
+ "eps_trailing_y": 0.09,
+ "eps_forward": 1.42574,
+ "earnings_growth_y": -0.259,
+ "earnings_growth_q_y": -0.276,
+ "bs_date": "2026-06-30",
+ "cash": 25541000.0,
+ "total_debt": 1445004000.0,
+ "current_debt": 37884000.0,
+ "lease_obligations": 94292000.0,
+ "equity": 1580024000.0,
+ "net_debt": 1419463000.0,
+ "ocf_ttm": 351154000.0,
+ "capex_ttm": -246153000.0,
+ "fcf_ttm": 105001000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1955482000.0,
+ "net_income_ttm": 5704000.0,
+ "ebitda_ttm": 395843000.0,
+ "ebit_ttm": 70979000.0,
+ "interest_ttm": 62138000.0,
+ "revenue_yoy_last_q": 0.1685112198979657,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 543748000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 457328000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 469055000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 485351000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 465334000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.09
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.16
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08
+  }
+ ],
+ "eps_ttm": 0.09,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.4782608695652174,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.25,
+ "eps_forward_growth": 14.841555555555557,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3289170718788851
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.32455480530385195
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3331165854750509
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3503670539465253
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3378949313826198
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1836841000.0,
+   "eps": 0.12,
+   "net_income": 7871000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1557283000.0,
+   "eps": 0.23,
+   "net_income": 13536000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1264542000.0,
+   "eps": 0.46,
+   "net_income": 25399000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1085089000.0,
+   "eps": 1.03,
+   "net_income": 53079000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0023436687866789097,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 37884000.0,
+ "gap_24m": 12343000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.5859242174296373,
+ "interest_coverage": 1.1422800862596156,
+ "cash_to_debt": 0.017675383597554054,
+ "ev": 7631367928.9028015,
+ "ev_to_sales": 3.9025508436808938,
+ "ev_to_ebitda": 19.27877448610384,
+ "pe_ttm": 1089.0436411119917,
+ "pe_trailing": 1084.5555,
+ "p_sales": 3.176662,
+ "p_fcf": 59.16043589016106,
+ "p_book": 3.9315256786623505
+}

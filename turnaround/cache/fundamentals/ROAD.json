@@ -1,0 +1,154 @@
+{
+ "ticker": "ROAD",
+ "fetched": "2026-10-25",
+ "market_cap": 4712981339.1612625,
+ "shares_out": 56755555.0,
+ "price": 83.04000091552734,
+ "long_name": "Construction Partners, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 32.56471,
+ "pe_forward": 22.045998,
+ "peg": 1.57,
+ "p_sales_y": 1.3551103,
+ "eps_trailing_y": 2.55,
+ "eps_forward": 3.76667,
+ "earnings_growth_y": 0.342,
+ "earnings_growth_q_y": 0.352,
+ "bs_date": "2026-06-30",
+ "cash": 94547000.0,
+ "total_debt": 1891584000.0,
+ "current_debt": 71840000.0,
+ "lease_obligations": 105418000.0,
+ "equity": 1040736000.0,
+ "net_debt": 1797037000.0,
+ "ocf_ttm": 352844000.0,
+ "capex_ttm": -177284000.0,
+ "fcf_ttm": 175560000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -32511000.0,
+ "stock_issuance_ttm": -32511000.0,
+ "revenue_ttm": 3477932000.0,
+ "net_income_ttm": 142510000.0,
+ "ebitda_ttm": 473399000.0,
+ "ebit_ttm": 297592000.0,
+ "interest_ttm": 108649000.0,
+ "revenue_yoy_last_q": 0.2824939013983474,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 999418000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 769196000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 809469000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 899849000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 779277000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.31
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.79
+  }
+ ],
+ "eps_ttm": 2.55,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.4045801526717556,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3417721518987342,
+ "eps_forward_growth": 0.4771254901960784,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1684860588862718
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1285147088648407
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.15009839783858306
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.17709860209879658
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1691439629297413
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2812356000.0,
+   "eps": 1.84,
+   "net_income": 101781000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1823889000.0,
+   "eps": 1.31,
+   "net_income": 68935000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1563548000.0,
+   "eps": 0.94,
+   "net_income": 49001000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1301674000.0,
+   "eps": 0.41,
+   "net_income": 21376000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.008973478605803775,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 71840000.0,
+ "gap_24m": -22707000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.7960304098656734,
+ "interest_coverage": 2.7390219882373517,
+ "cash_to_debt": 0.04998297722966572,
+ "ev": 6510018339.1612625,
+ "ev_to_sales": 1.8718072518845286,
+ "ev_to_ebitda": 13.751652071849037,
+ "pe_ttm": 33.07123246902858,
+ "pe_trailing": 32.56471,
+ "p_sales": 1.3551103,
+ "p_fcf": 26.845416604928587,
+ "p_book": 4.52850803581433
+}

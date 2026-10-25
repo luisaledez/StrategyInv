@@ -1,0 +1,154 @@
+{
+ "ticker": "DOX",
+ "fetched": "2026-10-25",
+ "market_cap": 6550997275.257111,
+ "shares_out": 104415000.0,
+ "price": 62.7400016784668,
+ "long_name": "Amdocs Limited",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 14.902613,
+ "pe_forward": 7.814826,
+ "peg": 0.84,
+ "p_sales_y": 1.407899,
+ "eps_trailing_y": 4.21,
+ "eps_forward": 8.02833,
+ "earnings_growth_y": -0.574,
+ "earnings_growth_q_y": -0.596,
+ "bs_date": "2026-06-30",
+ "cash": 206451000.0,
+ "total_debt": 1087013000.0,
+ "current_debt": 314677000.0,
+ "lease_obligations": 159645000.0,
+ "equity": 3286514000.0,
+ "net_debt": 880562000.0,
+ "ocf_ttm": 748823000.0,
+ "capex_ttm": -109981000.0,
+ "fcf_ttm": 638842000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -563493000.0,
+ "stock_issuance_ttm": -563493000.0,
+ "revenue_ttm": 4653031000.0,
+ "net_income_ttm": 453877000.0,
+ "ebitda_ttm": 839869000.0,
+ "ebit_ttm": 630714000.0,
+ "interest_ttm": 47167000.0,
+ "revenue_yoy_last_q": 0.02661395952769796,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1174895000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1171979000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1155939000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1150218000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1144437000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.59
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.45
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.88
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.39
+  }
+ ],
+ "eps_ttm": 4.2,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.18823529411764706,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5755395683453237,
+ "eps_forward_growth": 0.9115071428571428,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3976142548908626
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3884421137238807
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37044861363791687
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37413777214406313
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3786053753941895
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4532913000.0,
+   "eps": 5.05,
+   "net_income": 564704000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5004989000.0,
+   "eps": 4.25,
+   "net_income": 493197000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4887550000.0,
+   "eps": 4.49,
+   "net_income": 540709000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4576697000.0,
+   "eps": 4.44,
+   "net_income": 549501000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.050703687540912035,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 314677000.0,
+ "gap_24m": 108226000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.0484516037620153,
+ "interest_coverage": 13.371933767252528,
+ "cash_to_debt": 0.18992505149432434,
+ "ev": 7431559275.257111,
+ "ev_to_sales": 1.5971437274449947,
+ "ev_to_ebitda": 8.848474315943452,
+ "pe_ttm": 14.433419792712806,
+ "pe_trailing": 14.902613,
+ "p_sales": 1.407899,
+ "p_fcf": 10.254487455829628,
+ "p_book": 1.9932966283597486
+}

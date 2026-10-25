@@ -1,0 +1,154 @@
+{
+ "ticker": "LASR",
+ "fetched": "2026-10-25",
+ "market_cap": 2096461767.7828255,
+ "shares_out": 57690197.0,
+ "price": 36.34000015258789,
+ "long_name": "nLIGHT, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": null,
+ "pe_forward": 57.228348,
+ "peg": 1.78,
+ "p_sales_y": 6.747565,
+ "eps_trailing_y": -0.25,
+ "eps_forward": 0.635,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 330447000.0,
+ "total_debt": 14843000.0,
+ "current_debt": 2787000.0,
+ "lease_obligations": 14843000.0,
+ "equity": 439903000.0,
+ "net_debt": -315604000.0,
+ "ocf_ttm": 53151000.0,
+ "capex_ttm": -11321000.0,
+ "fcf_ttm": 41830000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 192194000.0,
+ "revenue_ttm": 310699000.0,
+ "net_income_ttm": -12477000.0,
+ "ebitda_ttm": 3224000.0,
+ "ebit_ttm": -10652000.0,
+ "interest_ttm": 1152000.0,
+ "revenue_yoy_last_q": 0.3378310520774277,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 82591000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 80181000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 81185000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 66742000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 61735000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.02
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.01
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.1
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.14
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.07
+  }
+ ],
+ "eps_ttm": -0.25,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3114746158782434
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.33066437185866976
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3073720514873437
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.31094363369392586
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2989714100591237
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 261330000.0,
+   "eps": -0.47,
+   "net_income": -23467000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 198548000.0,
+   "eps": -1.27,
+   "net_income": -60792000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 209921000.0,
+   "eps": -0.9,
+   "net_income": -41670000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 242058000.0,
+   "eps": -1.23,
+   "net_income": -54579000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.15586472345287983,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2787000.0,
+ "gap_24m": -327660000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -97.89205955334988,
+ "interest_coverage": -9.246527777777779,
+ "cash_to_debt": 22.262817489725798,
+ "ev": 1780857767.7828255,
+ "ev_to_sales": 5.731778241265101,
+ "ev_to_ebitda": 552.3752381460376,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 6.747565,
+ "p_fcf": 50.118617446397934,
+ "p_book": 4.765736464136015
+}

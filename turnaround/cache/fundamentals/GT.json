@@ -1,0 +1,154 @@
+{
+ "ticker": "GT",
+ "fetched": "2026-10-25",
+ "market_cap": 1229327601.4987674,
+ "shares_out": 287898737.0,
+ "price": 4.269999980926514,
+ "long_name": "The Goodyear Tire & Rubber Company",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": null,
+ "pe_forward": 7.5580363,
+ "peg": 0.43,
+ "p_sales_y": 0.069399655,
+ "eps_trailing_y": -8.83,
+ "eps_forward": 0.5643,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 861000000.0,
+ "total_debt": 8213000000.0,
+ "current_debt": 1609000000.0,
+ "lease_obligations": 1279000000.0,
+ "equity": 2839000000.0,
+ "net_debt": 7352000000.0,
+ "ocf_ttm": 894000000.0,
+ "capex_ttm": -702000000.0,
+ "fcf_ttm": 192000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -6000000.0,
+ "stock_issuance_ttm": -6000000.0,
+ "revenue_ttm": 17693000000.0,
+ "net_income_ttm": -2543000000.0,
+ "ebitda_ttm": 483000000.0,
+ "ebit_ttm": -492000000.0,
+ "interest_ttm": 418000000.0,
+ "revenue_yoy_last_q": -0.04815229563269874,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4250000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3881000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4917000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4645000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4465000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.71
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.86
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.36
+  },
+  {
+   "period": "2025-09-30",
+   "value": -7.62
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.87
+  }
+ ],
+ "eps_ttm": -8.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -38.4375,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.8160919540229885,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.16023529411764706
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.178562226230353
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20886719544437665
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.18170075349838535
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.1702127659574468
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 18280000000.0,
+   "eps": -5.99,
+   "net_income": -1721000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 18878000000.0,
+   "eps": 0.16,
+   "net_income": 46000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 20066000000.0,
+   "eps": -2.56,
+   "net_income": -729000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 20805000000.0,
+   "eps": 0.71,
+   "net_income": 202000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.005797846153846153,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1609000000.0,
+ "gap_24m": 748000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 15.221532091097309,
+ "interest_coverage": -1.1770334928229664,
+ "cash_to_debt": 0.10483380007305491,
+ "ev": 8581327601.498768,
+ "ev_to_sales": 0.4850125813315304,
+ "ev_to_ebitda": 17.76672381262685,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.069399655,
+ "p_fcf": 6.402747924472747,
+ "p_book": 0.4330143013380653
+}

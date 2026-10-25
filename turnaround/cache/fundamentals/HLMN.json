@@ -1,0 +1,154 @@
+{
+ "ticker": "HLMN",
+ "fetched": "2026-10-25",
+ "market_cap": 1400723955.6934862,
+ "shares_out": 194544999.0,
+ "price": 7.199999809265137,
+ "long_name": "Hillman Solutions Corp.",
+ "sector_y": "Industrials",
+ "industry_y": "Tools & Accessories",
+ "pe_trailing_y": 36.0,
+ "pe_forward": 10.561675,
+ "peg": null,
+ "p_sales_y": 0.87414014,
+ "eps_trailing_y": 0.2,
+ "eps_forward": 0.68171,
+ "earnings_growth_y": 0.348,
+ "earnings_growth_q_y": 0.334,
+ "bs_date": "2026-06-30",
+ "cash": 35839000.0,
+ "total_debt": 801019000.0,
+ "current_debt": 36136000.0,
+ "lease_obligations": 107655000.0,
+ "equity": 1225207000.0,
+ "net_debt": 765180000.0,
+ "ocf_ttm": 125596000.0,
+ "capex_ttm": -64520000.0,
+ "fcf_ttm": 61076000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -35823000.0,
+ "stock_issuance_ttm": -35823000.0,
+ "revenue_ttm": 1602402000.0,
+ "net_income_ttm": 41178000.0,
+ "ebitda_ttm": 257004000.0,
+ "ebit_ttm": 110784000.0,
+ "interest_ttm": 54162000.0,
+ "revenue_yoy_last_q": 0.09793372939129052,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 442251000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 370073000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 365139000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 424939000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 402803000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.11
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.01
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08
+  }
+ ],
+ "eps_ttm": 0.21999999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.2222222222222223,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.375,
+ "eps_forward_growth": 2.0986818181818188,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4705223956531472
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4555236399305002
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4757640241113658
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5166882776116102
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4827794231919822
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1552224000.0,
+   "eps": 0.2,
+   "net_income": 40305000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1472595000.0,
+   "eps": 0.09,
+   "net_income": 17255000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1476477000.0,
+   "eps": -0.05,
+   "net_income": -9589000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1486328000.0,
+   "eps": -0.08,
+   "net_income": -16436000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.013980521321007688,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 36136000.0,
+ "gap_24m": 297000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.9773077461829387,
+ "interest_coverage": 2.045419297662568,
+ "cash_to_debt": 0.044741760182966946,
+ "ev": 2165903955.693486,
+ "ev_to_sales": 1.3516607915451218,
+ "ev_to_ebitda": 8.427510683465963,
+ "pe_ttm": 34.016318317875715,
+ "pe_trailing": 36.0,
+ "p_sales": 0.87414014,
+ "p_fcf": 22.93411414784017,
+ "p_book": 1.1432549403435388
+}

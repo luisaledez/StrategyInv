@@ -1,0 +1,154 @@
+{
+ "ticker": "LMAT",
+ "fetched": "2026-10-25",
+ "market_cap": 1931308683.8585663,
+ "shares_out": 22869257.0,
+ "price": 84.44999694824219,
+ "long_name": "LeMaitre Vascular, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": 29.631578,
+ "pe_forward": 26.567045,
+ "peg": 2.23,
+ "p_sales_y": 7.3592725,
+ "eps_trailing_y": 2.85,
+ "eps_forward": 3.17875,
+ "earnings_growth_y": 0.226,
+ "earnings_growth_q_y": 0.237,
+ "bs_date": "2026-06-30",
+ "cash": 376240000.0,
+ "total_debt": 190254000.0,
+ "current_debt": 3439000.0,
+ "lease_obligations": 21163000.0,
+ "equity": 420342000.0,
+ "net_debt": -185986000.0,
+ "ocf_ttm": 82979000.0,
+ "capex_ttm": -9154000.0,
+ "fcf_ttm": 73825000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 262432000.0,
+ "net_income_ttm": 65673000.0,
+ "ebitda_ttm": 100434000.0,
+ "ebit_ttm": 89931000.0,
+ "interest_ttm": 5197000.0,
+ "revenue_yoy_last_q": 0.09574666832731338,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 70382000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 66551000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 64453000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 61046000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 64232000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.74
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.68
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.75
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6
+  }
+ ],
+ "eps_ttm": 2.85,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.30569948186528495,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2333333333333334,
+ "eps_forward_growth": 0.11535087719298232,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7212639595351084
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7272016949407222
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7166462383442198
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7527929757887495
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7001805953418857
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 249602000.0,
+   "eps": 2.52,
+   "net_income": 57734000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 219863000.0,
+   "eps": 1.93,
+   "net_income": 44038000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 193484000.0,
+   "eps": 1.34,
+   "net_income": 30105000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 161651000.0,
+   "eps": 0.93,
+   "net_income": 20636000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.010074444443119113,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3439000.0,
+ "gap_24m": -372801000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.8518230877989525,
+ "interest_coverage": 17.304406388300944,
+ "cash_to_debt": 1.9775668317091888,
+ "ev": 1745322683.8585663,
+ "ev_to_sales": 6.6505711340787945,
+ "ev_to_ebitda": 17.37780715553066,
+ "pe_ttm": 29.40795583966876,
+ "pe_trailing": 29.631578,
+ "p_sales": 7.3592725,
+ "p_fcf": 26.160632358395752,
+ "p_book": 4.594612681717664
+}

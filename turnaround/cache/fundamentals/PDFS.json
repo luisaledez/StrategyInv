@@ -1,0 +1,138 @@
+{
+ "ticker": "PDFS",
+ "fetched": "2026-10-25",
+ "market_cap": 1660374120.2332764,
+ "shares_out": 42227216.0,
+ "price": 39.31999969482422,
+ "long_name": "PDF Solutions, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 157.28,
+ "pe_forward": 23.79425,
+ "peg": 4.19,
+ "p_sales_y": 6.8844633,
+ "eps_trailing_y": 0.25,
+ "eps_forward": 1.6525,
+ "earnings_growth_y": 2.416,
+ "earnings_growth_q_y": 2.727,
+ "bs_date": "2026-06-30",
+ "cash": 114883000.0,
+ "total_debt": 71555000.0,
+ "current_debt": 4951000.0,
+ "lease_obligations": 5038000.0,
+ "equity": 372495000.0,
+ "net_debt": -43328000.0,
+ "ocf_ttm": 38703000.0,
+ "capex_ttm": -40698000.0,
+ "fcf_ttm": -1995000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -244000.0,
+ "stock_issuance_ttm": -244000.0,
+ "revenue_ttm": 241177000.0,
+ "net_income_ttm": 10308000.0,
+ "ebitda_ttm": 35706000.0,
+ "ebit_ttm": 21163000.0,
+ "interest_ttm": 4597000.0,
+ "revenue_yoy_last_q": 0.18947185276832657,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 61529000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 60130000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 62403000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 57115000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 51728000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.03
+  }
+ ],
+ "eps_ttm": 0.25,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.1818181818181819,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 2.3333333333333335,
+ "eps_forward_growth": 5.61,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6894635050138959
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 219024000.0,
+   "eps": -0.02,
+   "net_income": -640000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 179465000.0,
+   "eps": 0.11,
+   "net_income": 4057000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 165835000.0,
+   "eps": 0.08,
+   "net_income": 3105000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 148549000.0,
+   "eps": -0.09,
+   "net_income": -3429000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.06960651635472259,
+ "fcf_burn_annual": 1995000.0,
+ "runway_months": 691.0255639097744,
+ "need_24m": 8941000.0,
+ "gap_24m": -105942000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.2134655240015684,
+ "interest_coverage": 4.603654557319992,
+ "cash_to_debt": 1.605520229194326,
+ "ev": 1617046120.2332764,
+ "ev_to_sales": 6.704810658699944,
+ "ev_to_ebitda": 45.28779813569922,
+ "pe_ttm": 161.0762631192546,
+ "pe_trailing": 157.28,
+ "p_sales": 6.8844633,
+ "p_fcf": null,
+ "p_book": 4.4574400199553725
+}

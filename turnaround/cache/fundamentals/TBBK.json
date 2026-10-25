@@ -1,0 +1,133 @@
+{
+ "ticker": "TBBK",
+ "fetched": "2026-10-25",
+ "market_cap": 2074417130.6342926,
+ "shares_out": 40786809.0,
+ "price": 50.86000061035156,
+ "long_name": "The Bancorp, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 9.56015,
+ "pe_forward": 6.3575,
+ "peg": 1.07,
+ "p_sales_y": 3.8999984,
+ "eps_trailing_y": 5.32,
+ "eps_forward": 8.0,
+ "earnings_growth_y": 0.142,
+ "earnings_growth_q_y": 0.014,
+ "bs_date": "2026-06-30",
+ "cash": 1694973000.0,
+ "total_debt": 214256000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 705381000.0,
+ "net_debt": -1480717000.0,
+ "ocf_ttm": 240051000.0,
+ "capex_ttm": -7678000.0,
+ "fcf_ttm": 232373000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -403576000.0,
+ "stock_issuance_ttm": -401515000.0,
+ "revenue_ttm": 672069000.0,
+ "net_income_ttm": 231944000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 164703000.0,
+ "revenue_yoy_last_q": -0.09782326813253506,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 163506000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 161339000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 172611000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 174613000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 181235000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.45
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.41
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.28
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.27
+  }
+ ],
+ "eps_ttm": 5.319999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.14685314685314688,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1417322834645669,
+ "eps_forward_growth": 0.5037593984962407,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 703844000.0,
+   "eps": 4.92,
+   "net_income": 228213000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 534755000.0,
+   "eps": 4.29,
+   "net_income": 217540000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 456146000.0,
+   "eps": 3.49,
+   "net_income": 192296000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 354524000.0,
+   "eps": 2.27,
+   "net_income": 130213000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.11282149172905864,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -1694973000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 7.910970987977,
+ "ev": 593700130.6342926,
+ "ev_to_sales": 0.88339163186264,
+ "ev_to_ebitda": null,
+ "pe_ttm": 8.94361195217075,
+ "pe_trailing": 9.56015,
+ "p_sales": 3.8999984,
+ "p_fcf": 8.92710052645657,
+ "p_book": 2.9408463378433676
+}

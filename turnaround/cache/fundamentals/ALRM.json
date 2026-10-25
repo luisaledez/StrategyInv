@@ -1,0 +1,154 @@
+{
+ "ticker": "ALRM",
+ "fetched": "2026-10-25",
+ "market_cap": 3148647193.9577026,
+ "shares_out": 49090228.0,
+ "price": 64.13999938964844,
+ "long_name": "Alarm.com Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 28.380531,
+ "pe_forward": 20.892508,
+ "peg": 1.41,
+ "p_sales_y": 2.9676669,
+ "eps_trailing_y": 2.26,
+ "eps_forward": 3.07,
+ "earnings_growth_y": -0.234,
+ "earnings_growth_q_y": -0.298,
+ "bs_date": "2026-06-30",
+ "cash": 479418000.0,
+ "total_debt": 567465000.0,
+ "current_debt": 7941000.0,
+ "lease_obligations": 76371000.0,
+ "equity": 864455000.0,
+ "net_debt": 88047000.0,
+ "ocf_ttm": 199079000.0,
+ "capex_ttm": -12460000.0,
+ "fcf_ttm": 186619000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -76414000.0,
+ "stock_issuance_ttm": -76414000.0,
+ "revenue_ttm": 1060984000.0,
+ "net_income_ttm": 117901000.0,
+ "ebitda_ttm": 217647000.0,
+ "ebit_ttm": 168191000.0,
+ "interest_ttm": 15874000.0,
+ "revenue_yoy_last_q": 0.09211664595687119,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 277734000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 265193000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 261657000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 256400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 254308000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.48
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.47
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.66
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.65
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.63
+  }
+ ],
+ "eps_ttm": 2.26,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.07423580786026207,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.23809523809523814,
+ "eps_forward_growth": 0.3584070796460177,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6555949217596693
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6586976277654387
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6597186392873112
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6584945397815912
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6560784560454253
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1011187000.0,
+   "eps": 2.46,
+   "net_income": 132574000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 939827000.0,
+   "eps": 2.29,
+   "net_income": 124116000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 881682000.0,
+   "eps": 1.53,
+   "net_income": 81043000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 842559000.0,
+   "eps": 1.07,
+   "net_income": 56338000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01607327063157027,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 7941000.0,
+ "gap_24m": -471477000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.404540379605508,
+ "interest_coverage": 10.595376086682625,
+ "cash_to_debt": 0.8448415320768682,
+ "ev": 3236694193.9577026,
+ "ev_to_sales": 3.0506531615535226,
+ "ev_to_ebitda": 14.87130166718449,
+ "pe_ttm": 26.705856557261622,
+ "pe_trailing": 28.380531,
+ "p_sales": 2.9676669,
+ "p_fcf": 16.87206122612222,
+ "p_book": 3.6423494501827194
+}

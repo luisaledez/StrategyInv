@@ -1,0 +1,154 @@
+{
+ "ticker": "AMPH",
+ "fetched": "2026-10-25",
+ "market_cap": 1069403886.1968994,
+ "shares_out": 42537944.0,
+ "price": 25.139999389648438,
+ "long_name": "Amphastar Pharmaceuticals, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - Specialty & Generic",
+ "pe_trailing_y": 14.875739,
+ "pe_forward": 7.9267235,
+ "peg": null,
+ "p_sales_y": 1.4648987,
+ "eps_trailing_y": 1.69,
+ "eps_forward": 3.17155,
+ "earnings_growth_y": 0.047,
+ "earnings_growth_q_y": -0.022,
+ "bs_date": "2026-06-30",
+ "cash": 290123000.0,
+ "total_debt": 688322000.0,
+ "current_debt": 11288000.0,
+ "lease_obligations": 76270000.0,
+ "equity": 768157000.0,
+ "net_debt": 398199000.0,
+ "ocf_ttm": 184610000.0,
+ "capex_ttm": -31718000.0,
+ "fcf_ttm": 152892000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -100071000.0,
+ "stock_issuance_ttm": -100071000.0,
+ "revenue_ttm": 730019000.0,
+ "net_income_ttm": 78547000.0,
+ "ebitda_ttm": 192856000.0,
+ "ebit_ttm": 128149000.0,
+ "interest_ttm": 26126000.0,
+ "revenue_yoy_last_q": 0.05440503629295823,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 183903000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 171171000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 183105000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 191840000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 174414000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.67
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.51
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.64
+  }
+ ],
+ "eps_ttm": 1.69,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3366013071895425,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.046875,
+ "eps_forward_growth": 0.8766568047337278,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5082570703033664
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4108289371447266
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4678736244231452
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5142097581317765
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4958890914720149
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 719887000.0,
+   "eps": 2.03,
+   "net_income": 98094000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 731967000.0,
+   "eps": 3.06,
+   "net_income": 159519000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 644395000.0,
+   "eps": 2.6,
+   "net_income": 137545000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 498987000.0,
+   "eps": 1.74,
+   "net_income": 91386000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0851437330063799,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11288000.0,
+ "gap_24m": -278835000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0647477910980214,
+ "interest_coverage": 4.9050371277654445,
+ "cash_to_debt": 0.4214931383858136,
+ "ev": 1467602886.1968994,
+ "ev_to_sales": 2.0103625880927747,
+ "ev_to_ebitda": 7.609837838578522,
+ "pe_ttm": 13.614827888995116,
+ "pe_trailing": 14.875739,
+ "p_sales": 1.4648987,
+ "p_fcf": 6.994505181414982,
+ "p_book": 1.3921683798974682
+}

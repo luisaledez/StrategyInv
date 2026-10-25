@@ -1,0 +1,154 @@
+{
+ "ticker": "PTON",
+ "fetched": "2026-10-25",
+ "market_cap": 2356741521.145108,
+ "shares_out": 438871801.0,
+ "price": 5.369999885559082,
+ "long_name": "Peloton Interactive, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Leisure",
+ "pe_trailing_y": 38.357143,
+ "pe_forward": 22.689821,
+ "peg": null,
+ "p_sales_y": 0.96350837,
+ "eps_trailing_y": 0.14,
+ "eps_forward": 0.23667,
+ "earnings_growth_y": 1.606,
+ "earnings_growth_q_y": 1.852,
+ "bs_date": "2026-06-30",
+ "cash": 1206600000.0,
+ "total_debt": 1709300000.0,
+ "current_debt": 72500000.0,
+ "lease_obligations": 410200000.0,
+ "equity": -139700000.0,
+ "net_debt": 502700000.0,
+ "ocf_ttm": 387600000.0,
+ "capex_ttm": -9900000.0,
+ "fcf_ttm": 377700000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 2445900000.0,
+ "net_income_ttm": 63100000.0,
+ "ebitda_ttm": 244100000.0,
+ "ebit_ttm": 186900000.0,
+ "interest_ttm": 123800000.0,
+ "revenue_yoy_last_q": 0.0013181743285548553,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 607700000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 630900000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 656500000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 550800000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 606900000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.13
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.09
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.03
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.05
+  }
+ ],
+ "eps_ttm": 0.13,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 1.6,
+ "eps_forward_growth": 0.8205384615384614,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5667270034556524
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5187826913932477
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5046458492003046
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5150689905591866
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5406162464985994
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 2446000000.0,
+   "eps": null,
+   "net_income": 63200000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2490800000.0,
+   "eps": null,
+   "net_income": -118900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2700400000.0,
+   "eps": -1.51,
+   "net_income": -551900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2800300000.0,
+   "eps": -3.64,
+   "net_income": -1261700000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.07928524267245618,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 72500000.0,
+ "gap_24m": -1134100000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0594018844735764,
+ "interest_coverage": 1.5096930533117932,
+ "cash_to_debt": 0.7059030012285731,
+ "ev": 2859441521.145108,
+ "ev_to_sales": 1.1690754001165657,
+ "ev_to_ebitda": 11.71422171710409,
+ "pe_ttm": 37.34931095317129,
+ "pe_trailing": 38.357143,
+ "p_sales": 0.96350837,
+ "p_fcf": 6.239718086166556,
+ "p_book": null
+}

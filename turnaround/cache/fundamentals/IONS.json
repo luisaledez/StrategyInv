@@ -1,0 +1,154 @@
+{
+ "ticker": "IONS",
+ "fetched": "2026-10-25",
+ "market_cap": 7134292994.17543,
+ "shares_out": 166184322.0,
+ "price": 42.93000030517578,
+ "long_name": "Ionis Pharmaceuticals, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -37.45093,
+ "peg": 27.33,
+ "p_sales_y": 8.161939,
+ "eps_trailing_y": -3.48,
+ "eps_forward": -1.1463,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2054585000.0,
+ "total_debt": 1613522000.0,
+ "current_debt": 432500000.0,
+ "lease_obligations": 262476000.0,
+ "equity": 439737000.0,
+ "net_debt": -441063000.0,
+ "ocf_ttm": -496434000.0,
+ "capex_ttm": -71070000.0,
+ "fcf_ttm": -567504000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 266636000.0,
+ "revenue_ttm": 874089000.0,
+ "net_income_ttm": -565174000.0,
+ "ebitda_ttm": -452618000.0,
+ "ebit_ttm": -479546000.0,
+ "interest_ttm": 82455000.0,
+ "revenue_yoy_last_q": -0.4072567354423967,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 267949000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 246091000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 203330000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 156719000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 452049000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.69
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.56
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.41
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.8
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7
+  }
+ ],
+ "eps_ttm": -3.46,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -1.9857142857142858,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9897779054969416
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9878093875842676
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9608665715831407
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9850815791320772
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9908173671438273
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 943711000.0,
+   "eps": -2.38,
+   "net_income": -381387000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 705138000.0,
+   "eps": -3.04,
+   "net_income": -453897000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 787647000.0,
+   "eps": -2.56,
+   "net_income": -366286000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 587367000.0,
+   "eps": -1.9,
+   "net_income": -269722000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.04211945691213792,
+ "fcf_burn_annual": 567504000.0,
+ "runway_months": 43.444662945107,
+ "need_24m": 1567508000.0,
+ "gap_24m": -487077000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9744707457502795,
+ "interest_coverage": -5.815851070280759,
+ "cash_to_debt": 1.2733541903983956,
+ "ev": 6693229994.17543,
+ "ev_to_sales": 7.65737813217582,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 8.161939,
+ "p_fcf": null,
+ "p_book": 16.223999786634806
+}

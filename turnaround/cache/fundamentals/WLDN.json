@@ -1,0 +1,154 @@
+{
+ "ticker": "WLDN",
+ "fetched": "2026-10-25",
+ "market_cap": 1104022006.813118,
+ "shares_out": 15232091.0,
+ "price": 72.4800033569336,
+ "long_name": "Willdan Group, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 17.014084,
+ "pe_forward": 13.360369,
+ "peg": 0.48,
+ "p_sales_y": 1.4882312,
+ "eps_trailing_y": 4.26,
+ "eps_forward": 5.425,
+ "earnings_growth_y": 0.534,
+ "earnings_growth_q_y": 0.577,
+ "bs_date": "2026-06-30",
+ "cash": 34870000.0,
+ "total_debt": 89191000.0,
+ "current_debt": 8529000.0,
+ "lease_obligations": 21946000.0,
+ "equity": 350465000.0,
+ "net_debt": 54321000.0,
+ "ocf_ttm": 70875000.0,
+ "capex_ttm": -8541000.0,
+ "fcf_ttm": 62334000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 741835000.0,
+ "net_income_ttm": 65309000.0,
+ "ebitda_ttm": 75799000.0,
+ "ebit_ttm": 54640000.0,
+ "interest_ttm": 3681000.0,
+ "revenue_yoy_last_q": 0.331780738212863,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 231028000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 155114000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 173687000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 182006000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 173473000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.58
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.23
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.03
+  }
+ ],
+ "eps_ttm": 4.26,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.208860759493671,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5339805825242718,
+ "eps_forward_growth": 0.273474178403756,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37854286060564085
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.40715860592854286
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3604587562684599
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3686087271848181
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3938653277455281
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 681552000.0,
+   "eps": 3.49,
+   "net_income": 52557000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 565798000.0,
+   "eps": 1.58,
+   "net_income": 22570000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 510095000.0,
+   "eps": 0.8,
+   "net_income": 10926000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 429138000.0,
+   "eps": -0.65,
+   "net_income": -8448000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.040106768872766985,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8529000.0,
+ "gap_24m": -26341000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7166453383290017,
+ "interest_coverage": 14.843792447704429,
+ "cash_to_debt": 0.39095872901974416,
+ "ev": 1158343006.813118,
+ "ev_to_sales": 1.5614563977341565,
+ "ev_to_ebitda": 15.281771617212865,
+ "pe_ttm": 16.90459212073555,
+ "pe_trailing": 17.014084,
+ "p_sales": 1.4882312,
+ "p_fcf": 17.711393570332692,
+ "p_book": 3.150163373840806
+}

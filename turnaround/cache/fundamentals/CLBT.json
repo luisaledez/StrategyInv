@@ -1,0 +1,154 @@
+{
+ "ticker": "CLBT",
+ "fetched": "2026-10-25",
+ "market_cap": 3041226921.8790054,
+ "shares_out": 251341060.0,
+ "price": 12.100000381469727,
+ "long_name": "Cellebrite DI Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 52.608696,
+ "pe_forward": 18.523907,
+ "peg": null,
+ "p_sales_y": 5.913459,
+ "eps_trailing_y": 0.23,
+ "eps_forward": 0.65321,
+ "earnings_growth_y": -0.679,
+ "earnings_growth_q_y": -0.673,
+ "bs_date": "2026-06-30",
+ "cash": 442531000.0,
+ "total_debt": 23229000.0,
+ "current_debt": 5736000.0,
+ "lease_obligations": 23229000.0,
+ "equity": 538097000.0,
+ "net_debt": -419302000.0,
+ "ocf_ttm": 157557000.0,
+ "capex_ttm": -29006000.0,
+ "fcf_ttm": 128551000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 514289000.0,
+ "net_income_ttm": 58759000.0,
+ "ebitda_ttm": 103148000.0,
+ "ebit_ttm": 80584000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.15768565274197544,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 131138000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 128301000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 128821000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 126029000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 113276000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.02
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.04
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.08
+  }
+ ],
+ "eps_ttm": 0.22000000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.75,
+ "eps_forward_growth": 1.969136363636363,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8077826411871464
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8252546745543683
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8471444873118513
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8388148759412516
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.843947526395706
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 475675000.0,
+   "eps": 0.31,
+   "net_income": 78326000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 401203000.0,
+   "eps": -1.35,
+   "net_income": -283007000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 325110000.0,
+   "eps": -0.43,
+   "net_income": -81100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 270651000.0,
+   "eps": 0.59,
+   "net_income": 120805000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.025838958154491776,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5736000.0,
+ "gap_24m": -436795000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -4.065052158064141,
+ "interest_coverage": null,
+ "cash_to_debt": 19.05079857075208,
+ "ev": 2621924921.8790054,
+ "ev_to_sales": 5.098154776553661,
+ "ev_to_ebitda": 25.419057295139076,
+ "pe_ttm": 51.75763579841395,
+ "pe_trailing": 52.608696,
+ "p_sales": 5.913459,
+ "p_fcf": 23.65774612316517,
+ "p_book": 5.651819136473546
+}

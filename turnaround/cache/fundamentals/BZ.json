@@ -1,0 +1,154 @@
+{
+ "ticker": "BZ",
+ "fetched": "2026-10-25",
+ "market_cap": 7206260434.678078,
+ "shares_out": 437804425.0,
+ "price": 16.459999084472656,
+ "long_name": "Kanzhun Limited",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": 11.841726,
+ "pe_forward": 11.042413,
+ "peg": 1.57,
+ "p_sales_y": 0.8274305,
+ "eps_trailing_y": 1.39,
+ "eps_forward": 1.4906162,
+ "earnings_growth_y": 1.663,
+ "earnings_growth_q_y": 1.715,
+ "bs_date": "2026-06-30",
+ "cash": 20944610000.0,
+ "total_debt": 216090000.0,
+ "current_debt": 116667000.0,
+ "lease_obligations": 216090000.0,
+ "equity": 20997990000.0,
+ "net_debt": -20728520000.0,
+ "ocf_ttm": 4632223000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 4513100000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 8709203000.0,
+ "net_income_ttm": 4602609000.0,
+ "ebitda_ttm": 2859963000.0,
+ "ebit_ttm": 2859963000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.14087012523110132,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2398603000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2068792000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2078527000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2163281000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2102433000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4.2
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.44
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.46
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.58
+  }
+ ],
+ "eps_ttm": 9.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.6954022988505748,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.6582278481012658,
+ "eps_forward_growth": -0.8478963061224489,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8697483493516851
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8558501773015363
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8512903609142436
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8577202869160317
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8537613327035868
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 8267518000.0,
+   "eps": 5.9,
+   "net_income": 2735340000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7355677000.0,
+   "eps": 3.48,
+   "net_income": 1584664000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5952028000.0,
+   "eps": 2.44,
+   "net_income": 1099227000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4511062000.0,
+   "eps": 0.24,
+   "net_income": 107245000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.014930736357260832,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 116667000.0,
+ "gap_24m": -20827943000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -7.2478280313416645,
+ "interest_coverage": null,
+ "cash_to_debt": 96.92540145309825,
+ "ev": -13522259565.321922,
+ "ev_to_sales": -1.5526403007625293,
+ "ev_to_ebitda": -4.728123953114751,
+ "pe_ttm": 1.5656903366499473,
+ "pe_trailing": 11.841726,
+ "p_sales": 0.8274305,
+ "p_fcf": 1.596742911674476,
+ "p_book": 0.34318810679870204
+}

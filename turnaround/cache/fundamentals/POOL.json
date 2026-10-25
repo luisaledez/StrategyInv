@@ -1,0 +1,154 @@
+{
+ "ticker": "POOL",
+ "fetched": "2026-10-25",
+ "market_cap": 7234715979.301895,
+ "shares_out": 36340747.0,
+ "price": 199.0800018310547,
+ "long_name": "Pool Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Industrial Distribution",
+ "pe_trailing_y": 18.264221,
+ "pe_forward": 17.263058,
+ "peg": 1.6,
+ "p_sales_y": 1.3279295,
+ "eps_trailing_y": 10.9,
+ "eps_forward": 11.53214,
+ "earnings_growth_y": 0.0,
+ "earnings_growth_q_y": -0.031,
+ "bs_date": "2026-06-30",
+ "cash": 28762000.0,
+ "total_debt": 1695166000.0,
+ "current_debt": 124039000.0,
+ "lease_obligations": 354450000.0,
+ "equity": 1259998000.0,
+ "net_debt": 1666404000.0,
+ "ocf_ttm": 366646000.0,
+ "capex_ttm": -65513000.0,
+ "fcf_ttm": 301133000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -275040000.0,
+ "stock_issuance_ttm": -275040000.0,
+ "revenue_ttm": 5394292000.0,
+ "net_income_ttm": 399919000.0,
+ "ebitda_ttm": 634971000.0,
+ "ebit_ttm": 580285000.0,
+ "interest_ttm": 46917000.0,
+ "revenue_yoy_last_q": 0.021522753890380164,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1822938000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1138014000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 982209000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1451131000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1784530000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.45
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.85
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.4
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5.17
+  }
+ ],
+ "eps_ttm": 10.87,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.039823008849557584,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": 0.060914443422263265,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.29664311128518905
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2898646238095489
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3011019039735942
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2957575849458112
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.29988904641558284
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5289396000.0,
+   "eps": 10.85,
+   "net_income": 406404000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5310953000.0,
+   "eps": 11.3,
+   "net_income": 434325000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5541595000.0,
+   "eps": 13.35,
+   "net_income": 523229000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6179727000.0,
+   "eps": 18.7,
+   "net_income": 748462000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0260853292139398,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 124039000.0,
+ "gap_24m": 95277000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.6243781212055355,
+ "interest_coverage": 12.368331308480935,
+ "cash_to_debt": 0.016967069891680224,
+ "ev": 8901119979.301895,
+ "ev_to_sales": 1.6500997682924645,
+ "ev_to_ebitda": 14.01815197749487,
+ "pe_ttm": 18.09045326504091,
+ "pe_trailing": 18.264221,
+ "p_sales": 1.3279295,
+ "p_fcf": 24.024985568841327,
+ "p_book": 5.741847192854191
+}

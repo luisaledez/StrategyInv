@@ -1,0 +1,154 @@
+{
+ "ticker": "CBRL",
+ "fetched": "2026-10-25",
+ "market_cap": 1512365495.6570435,
+ "shares_out": 22352430.0,
+ "price": 67.66000366210938,
+ "long_name": "Cracker Barrel Old Country Store, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 48.328575,
+ "pe_forward": 30.756363,
+ "peg": 1.56,
+ "p_sales_y": 0.45570827,
+ "eps_trailing_y": 1.4,
+ "eps_forward": 2.19987,
+ "earnings_growth_y": 0.851,
+ "earnings_growth_q_y": 0.807,
+ "bs_date": "2026-07-31",
+ "cash": 36535000.0,
+ "total_debt": 1036057000.0,
+ "current_debt": 48625000.0,
+ "lease_obligations": 698826000.0,
+ "equity": 478206000.0,
+ "net_debt": 999522000.0,
+ "ocf_ttm": 206204000.0,
+ "capex_ttm": -117782000.0,
+ "fcf_ttm": 88422000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3318714000.0,
+ "net_income_ttm": 31675000.0,
+ "ebitda_ttm": 170792000.0,
+ "ebit_ttm": 34952000.0,
+ "interest_ttm": 14379000.0,
+ "revenue_yoy_last_q": -0.021505537384981066,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 849342000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 797367000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 874817000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 797188000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 868009000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.54
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.9
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-10-31",
+   "value": -1.1
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.3
+  }
+ ],
+ "eps_ttm": 1.4,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3203883495145632,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.8000000000000003,
+ "eps_forward_growth": 0.5713357142857145,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.3378215135952302
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.31893845619394834
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.3045574102926669
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.3104424552301339
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.33025809640222625
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3318714000.0,
+   "eps": 1.4,
+   "net_income": 31675000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3483684000.0,
+   "eps": 2.06,
+   "net_income": 46379000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3470762000.0,
+   "eps": 1.83,
+   "net_income": 40930000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3442808000.0,
+   "eps": 4.45,
+   "net_income": 99050000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.00376042023872758,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 48625000.0,
+ "gap_24m": 12090000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.85227645322966,
+ "interest_coverage": 2.4307670908964463,
+ "cash_to_debt": 0.035263503841970086,
+ "ev": 2511887495.6570435,
+ "ev_to_sales": 0.7568857984318755,
+ "ev_to_ebitda": 14.707290128677242,
+ "pe_ttm": 47.74634556139048,
+ "pe_trailing": 48.328575,
+ "p_sales": 0.45570827,
+ "p_fcf": 17.103950325224982,
+ "p_book": 3.1625815980080625
+}

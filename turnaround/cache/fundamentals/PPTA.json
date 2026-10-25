@@ -1,0 +1,133 @@
+{
+ "ticker": "PPTA",
+ "fetched": "2026-10-25",
+ "market_cap": 2056575068.1283665,
+ "shares_out": 125095803.0,
+ "price": 16.440000534057617,
+ "long_name": "Perpetua Resources Corp.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Other Precious Metals & Mining",
+ "pe_trailing_y": null,
+ "pe_forward": -164.40001,
+ "peg": null,
+ "p_sales_y": null,
+ "eps_trailing_y": -2.02,
+ "eps_forward": -0.1,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 574249000.0,
+ "total_debt": 3645000.0,
+ "current_debt": 875000.0,
+ "lease_obligations": 3645000.0,
+ "equity": 719850000.0,
+ "net_debt": -570604000.0,
+ "ocf_ttm": -180314000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -225607000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 0.0,
+ "net_income_ttm": -232329068.0,
+ "ebitda_ttm": -257899283.0,
+ "ebit_ttm": -258282283.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": null,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.78
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.39
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.08
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.12
+  }
+ ],
+ "eps_ttm": -1.49,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 0.0,
+   "eps": -1.08,
+   "net_income": -100392000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 0.0,
+   "eps": -0.22,
+   "net_income": -14483000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 0.0,
+   "eps": -0.3,
+   "net_income": -18771180.0
+  },
+  {
+   "year": "2022",
+   "revenue": 0.0,
+   "eps": -0.46,
+   "net_income": -28713531.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.16439136557056955,
+ "fcf_burn_annual": 225607000.0,
+ "runway_months": 30.544211837398663,
+ "need_24m": 452089000.0,
+ "gap_24m": -122160000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.2125071204637665,
+ "interest_coverage": null,
+ "cash_to_debt": 157.5443072702332,
+ "ev": 1485971068.1283665,
+ "ev_to_sales": null,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": null,
+ "p_fcf": null,
+ "p_book": 2.8569494590933755
+}

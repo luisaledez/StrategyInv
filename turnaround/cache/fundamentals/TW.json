@@ -1,0 +1,154 @@
+{
+ "ticker": "TW",
+ "fetched": "2026-10-25",
+ "market_cap": 25858763698.19664,
+ "shares_out": 210971394.0,
+ "price": 122.56999969482422,
+ "long_name": "Tradeweb Markets Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 29.322968,
+ "pe_forward": 26.55617,
+ "peg": 1.92,
+ "p_sales_y": 12.011495,
+ "eps_trailing_y": 4.18,
+ "eps_forward": 4.6155,
+ "earnings_growth_y": 0.197,
+ "earnings_growth_q_y": 0.179,
+ "bs_date": "2026-06-30",
+ "cash": 2057929000.0,
+ "total_debt": 150337000.0,
+ "current_debt": null,
+ "lease_obligations": 150337000.0,
+ "equity": 6634531000.0,
+ "net_debt": -1907592000.0,
+ "ocf_ttm": 1196188000.0,
+ "capex_ttm": -120558000.0,
+ "fcf_ttm": 1075630000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -343878000.0,
+ "stock_issuance_ttm": -343878000.0,
+ "revenue_ttm": 2206491000.0,
+ "net_income_ttm": 897230000.0,
+ "ebitda_ttm": 1548131000.0,
+ "ebit_ttm": 1301493000.0,
+ "interest_ttm": 2054000.0,
+ "revenue_yoy_last_q": 0.08962494955855194,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 558946000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 617764000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 521183000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 508598000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 512971000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.85
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.51
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.86
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.71
+  }
+ ],
+ "eps_ttm": 4.180000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.6223175965665235,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19718309859154926,
+ "eps_forward_growth": 0.10418660287081316,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6914514103330196
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6798243342117702
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6944106004992489
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6755925111777867
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6691957245146412
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2052429000.0,
+   "eps": 3.78,
+   "net_income": 812792000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1725949000.0,
+   "eps": 2.33,
+   "net_income": 501507000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1338219000.0,
+   "eps": 1.71,
+   "net_income": 364866000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1188781000.0,
+   "eps": 1.48,
+   "net_income": 309338000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.01084154772480006,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -2057929000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.2321902991413518,
+ "interest_coverage": 633.6382667964947,
+ "cash_to_debt": 13.688772557653804,
+ "ev": 23951171698.19664,
+ "ev_to_sales": 10.85486942761001,
+ "ev_to_ebitda": 15.471023897975456,
+ "pe_ttm": 28.820663261590273,
+ "pe_trailing": 29.322968,
+ "p_sales": 12.011495,
+ "p_fcf": 24.04057501017696,
+ "p_book": 3.8976023622764955
+}

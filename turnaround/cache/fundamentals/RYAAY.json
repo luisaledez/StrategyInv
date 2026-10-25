@@ -1,0 +1,150 @@
+{
+ "ticker": "RYAAY",
+ "fetched": "2026-10-25",
+ "market_cap": 27206542675.248657,
+ "shares_out": 517923916.0,
+ "price": 52.529998779296875,
+ "long_name": "Ryanair Holdings plc",
+ "sector_y": "Industrials",
+ "industry_y": "Airlines",
+ "pe_trailing_y": 12.627404,
+ "pe_forward": 13.581153,
+ "peg": 5.44,
+ "p_sales_y": 1.7450382,
+ "eps_trailing_y": 4.16,
+ "eps_forward": 3.86786,
+ "earnings_growth_y": -0.331,
+ "earnings_growth_q_y": -0.344,
+ "bs_date": "2026-06-30",
+ "cash": 2803500000.0,
+ "total_debt": 181900000.0,
+ "current_debt": 39800000.0,
+ "lease_obligations": 143600000.0,
+ "equity": 9480500000.0,
+ "net_debt": -2621600000.0,
+ "ocf_ttm": 3440100000.0,
+ "capex_ttm": -1744300000.0,
+ "fcf_ttm": 1695800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -630800000.0,
+ "stock_issuance_ttm": -628600000.0,
+ "revenue_ttm": 15590800000.0,
+ "net_income_ttm": 1891500000.0,
+ "ebitda_ttm": 3570400000.0,
+ "ebit_ttm": 2123200000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.010720213943194334,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 4384100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2512600000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3214200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 5479900000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 4337600000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.0242
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0572
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.2172
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.5318
+  }
+ ],
+ "eps_ttm": 5.830400000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.4036703553508829,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": -0.3366046926454447,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17755069455532493
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.02638700947225981
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.08624229979466119
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.39500720816073287
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2615501659904094
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 15544300000.0,
+   "eps": 4.0844,
+   "net_income": 2173700000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 13948500000.0,
+   "eps": 2.9098,
+   "net_income": 1611600000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13443800000.0,
+   "eps": 3.3486,
+   "net_income": 1917100000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10775200000.0,
+   "eps": 2.3058,
+   "net_income": 1313800000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02095691998121052,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 39800000.0,
+ "gap_24m": -2763700000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.7342594667264172,
+ "interest_coverage": null,
+ "cash_to_debt": 15.412314458493677,
+ "ev": 24584942675.248657,
+ "ev_to_sales": 1.576887823283517,
+ "ev_to_ebitda": 6.885767049980018,
+ "pe_ttm": 14.3835805843239,
+ "pe_trailing": 12.627404,
+ "p_sales": 1.7450382,
+ "p_fcf": 16.04348547897668,
+ "p_book": 2.8697371104107017
+}

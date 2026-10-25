@@ -1,0 +1,112 @@
+{
+ "ticker": "FER",
+ "fetched": "2026-10-25",
+ "market_cap": 35705409093.073845,
+ "shares_out": 719142155.0,
+ "price": 49.650001525878906,
+ "long_name": "Ferrovial N.V.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 27.28022,
+ "pe_forward": 37.320267,
+ "peg": 8.21,
+ "p_sales_y": 3.6216054,
+ "eps_trailing_y": 1.82,
+ "eps_forward": 1.3303764,
+ "earnings_growth_y": -0.52,
+ "earnings_growth_q_y": -0.522,
+ "bs_date": "2026-06-30",
+ "cash": 3864000000.0,
+ "total_debt": 10657000000.0,
+ "current_debt": 381000000.0,
+ "lease_obligations": 333000000.0,
+ "equity": 5723000000.0,
+ "net_debt": 6793000000.0,
+ "ocf_ttm": null,
+ "capex_ttm": null,
+ "fcf_ttm": null,
+ "ttm_quarters": 0,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 9827000000.0,
+ "net_income_ttm": null,
+ "ebitda_ttm": 968000000.0,
+ "ebit_ttm": 968000000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.26420592520641084,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2603000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2098000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2716000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2410000000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 2059000000.0
+  }
+ ],
+ "eps_quarters": [],
+ "eps_ttm": null,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7225950782997763,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9627000000.0,
+   "eps": 1.24,
+   "net_income": 888000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9148000000.0,
+   "eps": 4.47,
+   "net_income": 3239000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8515000000.0,
+   "eps": 0.46,
+   "net_income": 341000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7551000000.0,
+   "eps": 0.25,
+   "net_income": 188000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": null,
+ "fcf_burn_annual": null,
+ "runway_months": null,
+ "need_24m": null,
+ "gap_24m": null,
+ "survival_gate": "UNKNOWN",
+ "net_debt_to_ebitda": 7.017561983471074,
+ "interest_coverage": null,
+ "cash_to_debt": 0.3625785868443277,
+ "ev": 42498409093.073845,
+ "ev_to_sales": 4.324657483776722,
+ "ev_to_ebitda": 43.903315178795296,
+ "pe_ttm": null,
+ "pe_trailing": 27.28022,
+ "p_sales": 3.6216054,
+ "p_fcf": null,
+ "p_book": 6.238932219652952
+}

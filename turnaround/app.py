@@ -17,11 +17,16 @@ Pages: /            candidates: watchlist rows with Gate GREEN (stored as PASS),
                     OpportunityScanner2/output/weekly_live_<date>.json (live_weekly.py), the monthly RSI next to
                     them, quality / cheap flags and the backtest's yearly rank
        /study       historical episode study
+
+Candidates, Watchlist, Top 10 v3, Opportunity 2 and its weekly tab take ?u=nasdaq to show the same lists run on
+Nasdaq-listed stocks (SCAN_UNIVERSE=nasdaq writes them to each scanner's output_nasdaq/ folder); without it they
+show the S&P 500 + 400 lists.
 """
 from __future__ import annotations
 
 import json
 import math
+import os
 import re
 import subprocess
 import sys
@@ -33,7 +38,7 @@ from urllib.parse import quote, unquote
 
 import pandas as pd
 from jinja2 import Undefined
-from flask import Flask, abort, jsonify, redirect, render_template_string, request, url_for
+from flask import Flask, abort, has_request_context, jsonify, redirect, render_template_string, request, url_for
 from markdown import markdown
 
 HERE = Path(__file__).resolve().parent
@@ -53,13 +58,40 @@ V3_OUT = HERE.parent / "turnaround_backtest_v3" / "output"     # live `both_opva
 REPORTS = HERE.parent / "reports"
 OS2_OUT = HERE.parent / "OpportunityScanner2" / "output"       # OpportunityScanner2 live list + study summary
 
+# Universes the list pages switch between (?u=nasdaq): label and the suffix of each scanner's output folder.
+UNIVERSES = {"sp": ("S&P 500+400", ""), "nasdaq": ("Nasdaq", "_nasdaq")}
+SWITCH_NAVS = ("candidates", "home", "v3", "os2", "os2w")  # pages that show the switch
+
+
+def uni() -> str:
+    u = request.args.get("u", "sp") if has_request_context() else "sp"
+    return u if u in UNIVERSES else "sp"
+
+
+def out_dir(u: str | None = None) -> Path:
+    return HERE / f"output{UNIVERSES[u or uni()][1]}"
+
+
+def v3_out(u: str | None = None) -> Path:
+    return HERE.parent / "turnaround_backtest_v3" / f"output{UNIVERSES[u or uni()][1]}"
+
+
+def os2_out(u: str | None = None) -> Path:
+    return HERE.parent / "OpportunityScanner2" / f"output{UNIVERSES[u or uni()][1]}"
+
 app = Flask(__name__)
+
+
+@app.context_processor
+def _universe_ctx():
+    u = uni()
+    return {"uni": u, "unis": UNIVERSES, "switch_navs": SWITCH_NAVS, "uq": "" if u == "sp" else f"?u={u}"}
 JOB = {"running": False, "log": "", "started": None, "finished": None, "rc": None}
 
 
 # ------------------------------------------------------------------ data access
-def load_watchlist() -> list[dict]:
-    p = OUT / "watchlist.json"
+def load_watchlist(u: str | None = None) -> list[dict]:
+    p = out_dir(u) / "watchlist.json"
     if not p.exists():
         return []
     rows = json.loads(p.read_text(encoding="utf-8"))
@@ -73,21 +105,22 @@ def load_candidates() -> list[dict]:
     return [r for r in load_watchlist() if is_candidate(r)]
 
 
-def load_all() -> list[dict]:
-    p = OUT / "screen_all.csv"
+def load_all(u: str | None = None) -> list[dict]:
+    p = out_dir(u) / "screen_all.csv"
     if not p.exists():
         return []
     df = pd.read_csv(p)
     return json.loads(df.to_json(orient="records"))
 
 
-def load_v3() -> dict | None:
+def load_v3(u: str | None = None) -> dict | None:
     """Newest live `both_opval` list written by turnaround_backtest_v3/live_v3.py (falls back to the
     screen's own current_both_opval.json, which lacks the enrichment fields)."""
-    if not V3_OUT.exists():
+    vo = v3_out(u)
+    if not vo.exists():
         return None
-    files = sorted(V3_OUT.glob("live_both_opval_*.json"))
-    p = files[-1] if files else V3_OUT / "current_both_opval.json"
+    files = sorted(vo.glob("live_both_opval_*.json"))
+    p = files[-1] if files else vo / "current_both_opval.json"
     if not p.exists():
         return None
     d = json.loads(p.read_text(encoding="utf-8"))
@@ -105,10 +138,17 @@ def load_v3() -> dict | None:
 
 
 def v3_row(ticker: str) -> tuple[dict | None, dict | None]:
-    d = load_v3()
-    if not d:
-        return None, None
-    return d, next((r for r in d["top20"] if r["ticker"] == ticker), None)
+    """The ticker's row in the S&P v3 list, else in the Nasdaq one."""
+    first = None
+    for u in UNIVERSES:
+        d = load_v3(u)
+        if not d:
+            continue
+        first = first or d
+        r = next((r for r in d["top20"] if r["ticker"] == ticker), None)
+        if r is not None:
+            return d, r
+    return first, None
 
 
 def latest_v3_report() -> Path | None:
@@ -214,8 +254,9 @@ def _tier_label(t, rsi) -> str:
 
 def load_os2() -> dict | None:
     """Newest OpportunityScanner2 live list (live.py) plus the study summary (export_web.py)."""
-    files = sorted(OS2_OUT.glob("live_*.json")) if OS2_OUT.exists() else []
-    summ = OS2_OUT / "web_summary.json"
+    lo = os2_out()
+    files = sorted(lo.glob("live_*.json")) if lo.exists() else []
+    summ = OS2_OUT / "web_summary.json"  # the study summary is the S&P study's for both universes
     if not files or not summ.exists():
         return None
     rows = json.loads(files[-1].read_text(encoding="utf-8"))
@@ -238,7 +279,8 @@ def load_os2() -> dict | None:
         r["in_v3"] = r["ticker"] in v3_top
         r["flags"] = "; ".join(x for x in (r.get("oneoff"), r.get("acq")) if x)
     date = files[-1].stem.replace("live_", "")
-    rep = sorted(REPORTS.glob("OpportunityScanner2 candidates - *.md")) if REPORTS.exists() else []
+    label = "" if uni() == "sp" else f" ({UNIVERSES[uni()][0]})"
+    rep = sorted(REPORTS.glob(f"OpportunityScanner2 candidates{label} - *.md")) if REPORTS.exists() else []
     report_html = None
     if rep:
         report_html = re.sub(r"<td><strong>([A-Z][A-Z.\-]{0,6})</strong></td>",
@@ -256,7 +298,8 @@ def load_os2() -> dict | None:
 
 def load_os2w() -> dict | None:
     """Newest weekly tier A list (OpportunityScanner2/live_weekly.py)."""
-    files = sorted(OS2_OUT.glob("weekly_live_*.json")) if OS2_OUT.exists() else []
+    lo = os2_out()
+    files = sorted(lo.glob("weekly_live_*.json")) if lo.exists() else []
     if not files:
         return None
     d = json.loads(files[-1].read_text(encoding="utf-8"))
@@ -342,7 +385,7 @@ def os2_sweep_html(sweep: dict) -> str:
 
 
 def scan_meta() -> dict:
-    p = OUT / "scan_meta.json"
+    p = out_dir() / "scan_meta.json"
     default = {"threshold": 35.0, "rsi_period": 14, "lookback": 6, "universe": "sp500,sp400"}
     if not p.exists():
         return default
@@ -355,7 +398,7 @@ def scan_meta() -> dict:
 def as_of() -> str:
     """Date the scan's price data runs through (taken from the data itself, since
     file timestamps are not meaningful in a deployed bundle)."""
-    p = OUT / "watchlist.json"
+    p = out_dir() / "watchlist.json"
     if not p.exists():
         return "never"
     try:
@@ -436,10 +479,13 @@ app.jinja_env.filters.update(money=money, pct=pct, num=num, pctc=pctc, moneyc=mo
 
 # ------------------------------------------------------------------ SVG chart
 def _monthly_from_chart_data(ticker: str) -> pd.DataFrame | None:
-    p = OUT / "charts.json"
-    if not p.exists():
-        return None
-    rows = json.loads(p.read_text(encoding="utf-8")).get(ticker)
+    rows = None
+    for u in UNIVERSES:  # S&P watchlist first, then the Nasdaq one
+        p = out_dir(u) / "charts.json"
+        if p.exists():
+            rows = json.loads(p.read_text(encoding="utf-8")).get(ticker)
+        if rows:
+            break
     if not rows:
         return None
     df = pd.DataFrame(rows, columns=["Date", "Close"])
@@ -713,6 +759,8 @@ function quickFilters(table,fn){
 *{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,Segoe UI,sans-serif;color:var(--fg);background:var(--bg)}
 header{display:flex;gap:18px;align-items:center;padding:12px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:2}
 header a{color:var(--fg);text-decoration:none;font-weight:600}header a.active{color:var(--acc)}header .sp{flex:1}
+header .uni{display:inline-flex;flex-shrink:0;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+header .uni a{padding:3px 10px;font-weight:500;font-size:13px;color:var(--muted);white-space:nowrap}header .uni a.on{background:var(--acc);color:#fff}
 main{padding:20px 24px;max-width:1500px}h1{font-size:20px;margin:0 0 6px}h2{font-size:16px;margin:22px 0 8px}
 .muted{color:var(--muted)}.small{font-size:12px}
 table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line)}
@@ -744,12 +792,13 @@ pre.log{background:#111;color:#ddd;padding:10px;border-radius:6px;max-height:260
 .verdict{border-left:4px solid var(--acc);margin:8px 0 4px}.verdict p{margin:8px 0}
 table.heat{width:auto}table.heat td{text-align:center;min-width:54px}table.heat th{position:static;cursor:default}
 </style></head><body>
-<header><a href="/" class="{{ 'active' if nav=='candidates' }}">Candidates</a><a href="/watchlist" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
-<a href="/v3" class="{{ 'active' if nav=='v3' }}">Top 10 v3</a>
-<a href="/os2" class="{{ 'active' if nav=='os2' }}">Opportunity 2</a>
-<a href="/os2w" class="{{ 'active' if nav=='os2w' }}">Opportunity 2 weekly</a>
+<header><a href="/{{ uq }}" class="{{ 'active' if nav=='candidates' }}">Candidates</a><a href="/watchlist{{ uq }}" class="{{ 'active' if nav=='home' }}">Watchlist</a><a href="/all" class="{{ 'active' if nav=='all' }}">All tickers</a>
+<a href="/v3{{ uq }}" class="{{ 'active' if nav=='v3' }}">Top 10 v3</a>
+<a href="/os2{{ uq }}" class="{{ 'active' if nav=='os2' }}">Opportunity 2</a>
+<a href="/os2w{{ uq }}" class="{{ 'active' if nav=='os2w' }}">Opportunity 2 weekly</a>
 <a href="/research" class="{{ 'active' if nav=='research' }}">Research</a>
 <a href="/study" class="{{ 'active' if nav=='study' }}">Episode study</a><span class="sp"></span>
+{% if nav in switch_navs %}<span class="uni" title="which universe the lists are run on">{% for k, v in unis.items() %}<a href="{{ request.path }}{{ '' if k == 'sp' else '?u=' ~ k }}" class="{{ 'on' if uni == k }}">{{ v[0] }}</a>{% endfor %}</span>{% endif %}
 <span class="muted small">{{ as_of }}</span>
 {% if not on_vercel %}<button id="rescan" class="sec" onclick="rescan()">Rescan</button>{% else %}<span class="muted small">read-only deployment: rerun <code>scan.py</code> locally and push to update</span>{% endif %}</header>
 <main>{% block body %}{% endblock %}</main>
@@ -768,7 +817,7 @@ if(act&&d.active!=='1')ok=false;if(pri&&d.prio!=='1')ok=false;tr.style.display=o
 const c=document.getElementById('count');if(c)c.textContent=n+' shown';}
 document.querySelectorAll('.toolbar input,.toolbar select').forEach(e=>e.addEventListener('input',applyFilters));
 async function rescan(){if(!confirm('Re-run the scan now? Prices older than a day are refreshed; fundamentals older than a week. This takes a few minutes.'))return;
-await fetch('/rescan',{method:'POST'});poll();}
+await fetch('/rescan'+location.search,{method:'POST'});poll();}
 async function poll(){const b=document.getElementById('rescan');b.disabled=true;b.textContent='Scanning…';
 const r=await (await fetch('/status')).json();const box=document.getElementById('joblog');if(box){box.textContent=r.log;box.scrollTop=box.scrollHeight;}
 if(r.running){setTimeout(poll,2000);}else{b.disabled=false;b.textContent='Rescan';if(r.finished)location.reload();}}
@@ -778,7 +827,7 @@ if(document.getElementById('rescan'))fetch('/status').then(r=>r.json()).then(r=>
 
 HOME = """{% extends "base" %}{% block body %}
 {% if nav=='candidates' %}
-<h1>Turnaround candidates <span class="muted small">watchlist rows with survival gate GREEN, monthly RSI &lt; {{ cand_rsi_max|num(0) }}, and revenue YoY or EPS last-quarter YoY ≥ {{ (cand_growth_min*100)|num(0) }}% · {{ rows|length }} of {{ total }} watchlist names · <a href="/watchlist">full watchlist</a></span></h1>
+<h1>Turnaround candidates <span class="muted small">watchlist rows with survival gate GREEN, monthly RSI &lt; {{ cand_rsi_max|num(0) }}, and revenue YoY or EPS last-quarter YoY ≥ {{ (cand_growth_min*100)|num(0) }}% · {{ rows|length }} of {{ total }} watchlist names · <a href="/watchlist{{ uq }}">full watchlist</a></span></h1>
 {% else %}
 <h1>Turnaround watchlist <span class="muted small">monthly RSI({{ meta.rsi_period }}) &lt; {{ meta.threshold|num(0) }} on the last completed month, or within the last {{ meta.lookback }} months · {{ meta.universe }}</span></h1>
 {% endif %}
@@ -1029,13 +1078,13 @@ V3 = """{% extends "base" %}{% block body %}
 {% if gone or new %}Since then {{ gone|join(', ') }} dropped out and {{ new|join(', ') }} came in; the other {{ 10 - new|length }} seats are the same.{% else %}Identical to today's list.{% endif %}
 {% if d.ref_top10 %}<span class="muted">Reference (v2 rules, same day): {{ d.ref_top10|join(', ') }}.</span>{% endif %}</p>{% endif %}
 {% if d.base_rates_12m_2009_2025 %}
-<h2>Base rates <span class="muted small">12-month forward returns of past <code>both_opval</code> picks, snapshots 2009 – Sep 2025, buy-and-hold from the snapshot, no portfolio rules</span></h2>
+<h2>Base rates <span class="muted small">12-month forward returns of past <code>both_opval</code> picks, snapshots 2009 – Sep 2025, buy-and-hold from the snapshot, no portfolio rules{% if uni != 'sp' %} · from the S&amp;P 500+400 backtest{% endif %}</span></h2>
 <table><thead><tr><th class="l">Group</th><th>n</th><th>Mean</th><th>Median</th><th>Win rate</th><th>Beat SPY</th><th>10th pct</th><th>90th pct</th><th>Median worst DD in year 1</th></tr></thead><tbody>
 {% for k, s in d.base_rates_12m_2009_2025.items() %}<tr><td class="l">{{ br_labels.get(k, k|replace('_', ' ')) }}</td><td>{{ s.n }}</td><td>{{ s.mean|pctc }}</td><td>{{ s.median|pctc }}</td><td>{{ s.win|pct(false) }}</td><td>{{ s.beat_spy|pct(false) }}</td><td>{{ s.p10|pctc }}</td><td>{{ s.p90|pctc }}</td><td class="neg">{{ s.median_mdd|pct }}</td></tr>{% endfor %}
 </tbody></table>{% endif %}
 <h2 id="rules">Rules</h2>
 <div class="md"><ol>
-<li><b>Price screen</b>: monthly Wilder RSI(14) below 42 in any of the last 6 monthly candles; 5+ years of history; 3-month average dollar volume ≥ $5M; market cap ≥ $1B. Universe: S&amp;P 500 + 400.</li>
+<li><b>Price screen</b>: monthly Wilder RSI(14) below 42 in any of the last 6 monthly candles; 5+ years of history; 3-month average dollar volume ≥ $5M; market cap ≥ $1B. Universe: {{ unis[uni][0] }}.</li>
 <li><b>Profitable</b>: TTM EPS and net income above zero; at most one losing year among the TTM readings one, two and three years back.</li>
 <li><b>Organic growth</b>: TTM revenue growth positive and under 100%; no quarter-to-quarter jump of the TTM figure above 60% in eight quarters; latest quarter not below its year-ago quarter.</li>
 <li><b>One-off EPS guard</b>: reject when TTM net income exceeds TTM operating income, or one quarter lifted TTM net income by more than 50% while operating income rose less than 25% (no operating-income tag: a &gt; 50% one-quarter jump in TTM EPS).</li>
@@ -1121,7 +1170,7 @@ STUDY = """{% extends "base" %}{% block body %}
 
 OS2 = """{% extends "base" %}{% block body %}
 {% set S = d.summary %}
-<h1>Opportunity Scanner 2 <span class="muted small">overbought all-time high, then a monthly-RSI collapse · today's S&amp;P 500 + 400</span></h1>
+<h1>Opportunity Scanner 2 <span class="muted small">overbought all-time high, then a monthly-RSI collapse · today's {{ unis[uni][0] }}</span></h1>
 <p class="muted small">Tiers on the {{ d.last_month[:7] }} monthly candle, prices through {{ d.last_bar }} (the "{{ d.m_prov }}, prov." column treats the latest close as the month's close) · file <code>{{ d.file }}</code>
 · <a href="#candidates">candidates</a> · <a href="#report">today's report</a> · <a href="/doc/OpportunityScanner2/README.md">study write-up</a> · <a href="#rules">rules</a></p>
 <div class="cards">
@@ -1140,7 +1189,7 @@ OS2 = """{% extends "base" %}{% block body %}
 <p>It works once the damage is deeper, as tiers <b>A</b> and <b>B</b> below: a price at least 40% under the all-time high, or the former leader's RSI in the old oversold zone. With growth that holds up: in hindsight, signals whose revenue grew ≥ 10% the next year beat the universe; those whose revenue shrank lagged it badly.</p>
 </div>
 
-<h2>Tier history <span class="muted small">every signal since the chosen start, bought at the signal month's close</span></h2>
+<h2>Tier history <span class="muted small">every signal since the chosen start, bought at the signal month's close{% if uni != 'sp' %} · S&amp;P 500+400 study{% endif %}</span></h2>
 <div class="toolbar">
 <label>Period <select id="per"><option>2009+</option><option>last 10y</option><option>last 5y</option></select></label>
 <label>Fundamentals <select id="flt"><option value="none">no filter</option><option value="quality">quality</option><option value="quality + cheap">quality + cheap</option></select></label>
@@ -1255,9 +1304,9 @@ OS2W = """{% extends "base" %}{% block body %}
 .tabulator-row.mhit:hover,.tabulator-row.mhit:hover .tabulator-cell.tabulator-frozen{background:#fdeeb5}
 .mtag{font-weight:600;padding:1px 6px;border-radius:4px;font-size:12px;color:#92400e;background:#fde68a}
 </style>
-<h1>Opportunity Scanner 2, weekly list <span class="muted small">former overbought-ATH leader, weekly RSI &lt; {{ d.max_rsi|num(0) }}, with the monthly RSI next to it · today's S&amp;P 500 + 400</span></h1>
+<h1>Opportunity Scanner 2, weekly list <span class="muted small">former overbought-ATH leader, weekly RSI &lt; {{ d.max_rsi|num(0) }}, with the monthly RSI next to it · today's {{ unis[uni][0] }}</span></h1>
 <p class="muted small">Weekly candles to {{ d.last_week }} (weeks ending Friday), prices through {{ d.last_bar }}; monthly RSI on the {{ d.last_month[:7] }} candle and, provisionally, on the current month at the latest close · file <code>{{ d.file }}</code>
-· <a href="/os2">monthly scanner</a>{% if d.report %} · <a href="/doc/{{ d.report|urlencode }}">weekly vs monthly report</a>{% endif %} · <a href="#rules">rules</a></p>
+· <a href="/os2{{ uq }}">monthly scanner</a>{% if d.report %} · <a href="/doc/{{ d.report|urlencode }}">weekly vs monthly report</a>{% endif %} · <a href="#rules">rules</a></p>
 <div class="cards">
 <div class="card"><span class="muted">Weekly signals, 12-month window open</span><b>{{ d.counts.signals }}</b></div>
 <div class="card"><span class="muted">Monthly rule met as well</span><b>{{ d.counts.m_hit }}</b></div>
@@ -1370,9 +1419,10 @@ def all_tickers():
 @app.route("/ticker/<t>")
 def ticker(t):
     t = t.upper()
-    r = next((x for x in load_watchlist() if x["ticker"] == t), None)
-    if r is None:
-        r = next((x for x in load_all() if x["ticker"] == t), None)
+    r = None
+    for load in (load_watchlist, load_all):  # S&P lists first, then the Nasdaq ones
+        for u in UNIVERSES:
+            r = r or next((x for x in load(u) if x["ticker"] == t), None)
     if r is None:
         try:
             d = prices.load_many([t])
@@ -1444,7 +1494,8 @@ def v3_top10():
                  "top10_val_le_0.10": "Top 10, val ≤ 0.10", "top10_val_0.10_0.25": "Top 10, val 0.10 – 0.25",
                  "top10_val_gt_0.25": "Top 10, val > 0.25", "top10_dd5_worse_than_-60%": "Top 10, 60% or more below 5y high",
                  "top10_dd5_-40_to_-60%": "Top 10, 40 – 60% below 5y high", "top10_dd5_better_than_-40%": "Top 10, less than 40% below 5y high"}
-    return render_template_string(V3, d=d, top10_set=top10_set, br_labels=br_labels, report=latest_v3_report() is not None,
+    return render_template_string(V3, d=d, top10_set=top10_set, br_labels=br_labels,
+                                  report=uni() == "sp" and latest_v3_report() is not None,  # the positions report is S&P's
                                   as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="v3", title="Top 10 v3")
 
 
@@ -1522,9 +1573,10 @@ def study():
     return render_template_string(STUDY, html=html, as_of=as_of(), on_vercel=ON_VERCEL, meta=scan_meta(), nav="study", title="Study")
 
 
-def _run_scan():
+def _run_scan(u: str = "sp"):
     JOB.update(running=True, log="", started=time.time(), finished=None, rc=None)
-    proc = subprocess.Popen([sys.executable, str(HERE / "scan.py")], cwd=HERE, stdout=subprocess.PIPE,
+    env = dict(os.environ, SCAN_UNIVERSE="nasdaq") if u == "nasdaq" else None
+    proc = subprocess.Popen([sys.executable, str(HERE / "scan.py")], cwd=HERE, env=env, stdout=subprocess.PIPE,
                             stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace")
     for line in proc.stdout:
         JOB["log"] += line
@@ -1537,7 +1589,7 @@ def rescan():
     if ON_VERCEL:
         return jsonify(ok=False, error="read-only deployment"), 403
     if not JOB["running"]:
-        threading.Thread(target=_run_scan, daemon=True).start()
+        threading.Thread(target=_run_scan, args=(uni(),), daemon=True).start()
     return jsonify(ok=True)
 
 

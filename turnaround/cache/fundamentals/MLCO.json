@@ -1,0 +1,154 @@
+{
+ "ticker": "MLCO",
+ "fetched": "2026-10-25",
+ "market_cap": 1418310362.24258,
+ "shares_out": 380244063.0,
+ "price": 3.7300000190734863,
+ "long_name": "Melco Resorts & Entertainment Limited",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 6.3220344,
+ "pe_forward": 6.1560297,
+ "peg": 0.48,
+ "p_sales_y": 0.27161893,
+ "eps_trailing_y": 0.59,
+ "eps_forward": 0.60591,
+ "earnings_growth_y": 0.357,
+ "earnings_growth_q_y": 0.318,
+ "bs_date": "2026-06-30",
+ "cash": 454264000.0,
+ "total_debt": 5095349000.0,
+ "current_debt": 3135000.0,
+ "lease_obligations": 20746000.0,
+ "equity": 8774000.0,
+ "net_debt": 4641085000.0,
+ "ocf_ttm": null,
+ "capex_ttm": null,
+ "fcf_ttm": null,
+ "ttm_quarters": 2,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 5043143000.0,
+ "net_income_ttm": 241649000.0,
+ "ebitda_ttm": 1102285000.0,
+ "ebit_ttm": 618158000.0,
+ "interest_ttm": 414139000.0,
+ "revenue_yoy_last_q": -0.08284826854507898,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1073649000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1366714000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1293273000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1309507000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1170634000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.077571
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.195
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.153
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.189
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.03608
+  }
+ ],
+ "eps_ttm": 0.614571,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.529411764705883,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.1499722838137472,
+ "eps_forward_growth": -0.01409275738686011,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3399416382821574
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.37341316471478303
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3668003584703307
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38825680198731277
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3399593724426251
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5163299000.0,
+   "eps": 0.462,
+   "net_income": 185045000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4638213000.0,
+   "eps": 0.102,
+   "net_income": 43543000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3775247000.0,
+   "eps": -0.633,
+   "net_income": -326920000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1349977000.0,
+   "eps": -1.606844,
+   "net_income": -930526000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.026032140399528725,
+ "fcf_burn_annual": null,
+ "runway_months": null,
+ "need_24m": null,
+ "gap_24m": null,
+ "survival_gate": "UNKNOWN",
+ "net_debt_to_ebitda": 4.210421987054165,
+ "interest_coverage": 1.492634115598869,
+ "cash_to_debt": 0.089152676293616,
+ "ev": 6059395362.24258,
+ "ev_to_sales": 1.2015117085203773,
+ "ev_to_ebitda": 5.49712221634385,
+ "pe_ttm": 5.869299530486697,
+ "pe_trailing": 6.3220344,
+ "p_sales": 0.27161893,
+ "p_fcf": null,
+ "p_book": 161.64923207688398
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "PAHC",
+ "fetched": "2026-10-25",
+ "market_cap": 1575342165.4234352,
+ "shares_out": 40601603.0,
+ "price": 38.79999923706055,
+ "long_name": "Phibro Animal Health Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - Specialty & Generic",
+ "pe_trailing_y": 15.967077,
+ "pe_forward": 10.08088,
+ "peg": 1.68,
+ "p_sales_y": 1.0377113,
+ "eps_trailing_y": 2.43,
+ "eps_forward": 3.84887,
+ "earnings_growth_y": 0.246,
+ "earnings_growth_q_y": 0.26,
+ "bs_date": "2026-06-30",
+ "cash": 81994000.0,
+ "total_debt": 788767000.0,
+ "current_debt": 35597000.0,
+ "lease_obligations": 55973000.0,
+ "equity": 385477000.0,
+ "net_debt": 706773000.0,
+ "ocf_ttm": 68954000.0,
+ "capex_ttm": -59088000.0,
+ "fcf_ttm": 9866000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1518093000.0,
+ "net_income_ttm": 99720000.0,
+ "ebitda_ttm": 232894000.0,
+ "ebit_ttm": 181380000.0,
+ "interest_ttm": 44034000.0,
+ "revenue_yoy_last_q": 0.047663435411423816,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 396747000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 383543000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 373910000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 363893000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 378697000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.59
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.65
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.42
+  }
+ ],
+ "eps_ttm": 2.44,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.0420168067226894,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2619047619047621,
+ "eps_forward_growth": 0.577405737704918,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.33875744492081855
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3276686056061511
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3547805621673665
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3291709376107812
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.29049345518976916
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1518093000.0,
+   "eps": 2.43,
+   "net_income": 99720000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1296215000.0,
+   "eps": 1.19,
+   "net_income": 48264000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1017679000.0,
+   "eps": 0.06,
+   "net_income": 2416000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 977889000.0,
+   "eps": 0.81,
+   "net_income": 32606000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0007674619046988962,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 35597000.0,
+ "gap_24m": -46397000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.0347411268645823,
+ "interest_coverage": 4.119089794249898,
+ "cash_to_debt": 0.1039521176722657,
+ "ev": 2282115165.423435,
+ "ev_to_sales": 1.5032775761586643,
+ "ev_to_ebitda": 9.798943577006858,
+ "pe_ttm": 15.797655088482102,
+ "pe_trailing": 15.967077,
+ "p_sales": 1.0377113,
+ "p_fcf": 159.67384607981302,
+ "p_book": 4.086734527412622
+}

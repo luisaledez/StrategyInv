@@ -1,0 +1,154 @@
+{
+ "ticker": "LQDA",
+ "fetched": "2026-10-25",
+ "market_cap": 3792783558.0435104,
+ "shares_out": 88928099.0,
+ "price": 42.650001525878906,
+ "long_name": "Liquidia Corporation",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - Specialty & Generic",
+ "pe_trailing_y": 30.683455,
+ "pe_forward": 19.500353,
+ "peg": null,
+ "p_sales_y": 8.466389,
+ "eps_trailing_y": 1.39,
+ "eps_forward": 2.18714,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 284181000.0,
+ "total_debt": 182896000.0,
+ "current_debt": 54851000.0,
+ "lease_obligations": 6791000.0,
+ "equity": 195114000.0,
+ "net_debt": -101285000.0,
+ "ocf_ttm": 167708000.0,
+ "capex_ttm": -20014000.0,
+ "fcf_ttm": 147694000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 450907000.0,
+ "net_income_ttm": 138606000.0,
+ "ebitda_ttm": 177828000.0,
+ "ebit_ttm": 176135000.0,
+ "interest_ttm": 26634000.0,
+ "revenue_yoy_last_q": 18.4272943306552,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 171679000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 132865000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 92021000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 54342000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 8837000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.74
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.52
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.15
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.49
+  }
+ ],
+ "eps_ttm": 1.3699999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.5964525547445256,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9327232800750237
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.910796673315019
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9233327175318677
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9416105406499576
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8305986194409868
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 158320000.0,
+   "eps": -0.8,
+   "net_income": -68924000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 13996000.0,
+   "eps": -1.66,
+   "net_income": -128291000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 17488000.0,
+   "eps": -1.21,
+   "net_income": -78502000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 15935000.0,
+   "eps": -0.67,
+   "net_income": -41015000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.03771807833151253,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 54851000.0,
+ "gap_24m": -229330000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.5695672222597117,
+ "interest_coverage": 6.613163625441166,
+ "cash_to_debt": 1.5537846645087918,
+ "ev": 3691498558.0435104,
+ "ev_to_sales": 8.186829120070238,
+ "ev_to_ebitda": 20.758815023750536,
+ "pe_ttm": 27.36377615719024,
+ "pe_trailing": 30.683455,
+ "p_sales": 8.466389,
+ "p_fcf": 25.68001109079252,
+ "p_book": 19.438807866393546
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "ACMR",
+ "fetched": "2026-10-25",
+ "market_cap": 3520766804.6618805,
+ "shares_out": 69649196.0,
+ "price": 50.54999923706055,
+ "long_name": "ACM Research, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 23.844341,
+ "pe_forward": 17.192707,
+ "peg": null,
+ "p_sales_y": 3.3926208,
+ "eps_trailing_y": 2.12,
+ "eps_forward": 2.9402,
+ "earnings_growth_y": 1.806,
+ "earnings_growth_q_y": 1.99,
+ "bs_date": "2026-06-30",
+ "cash": 1439375000.0,
+ "total_debt": 349319000.0,
+ "current_debt": 152912000.0,
+ "lease_obligations": 8410000.0,
+ "equity": 1860154000.0,
+ "net_debt": -1090056000.0,
+ "ocf_ttm": -6602000.0,
+ "capex_ttm": -113200000.0,
+ "fcf_ttm": -119802000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 881596000.0,
+ "revenue_ttm": 1037772000.0,
+ "net_income_ttm": 150229000.0,
+ "ebitda_ttm": 264963000.0,
+ "ebit_ttm": 243225000.0,
+ "interest_ttm": 7632000.0,
+ "revenue_yoy_last_q": 0.360060732128596,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 292919000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 231263000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 244430000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 269160000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 215372000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.23
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.52
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": 2.1,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.10457516339869277,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.7954545454545454,
+ "eps_forward_growth": 0.40009523809523806,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4595741484847347
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4637058241050233
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.40873460704496173
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4203782137018873
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4850259086603644
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 901309000.0,
+   "eps": 1.37,
+   "net_income": 94078000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 782118000.0,
+   "eps": 1.53,
+   "net_income": 103627000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 557723000.0,
+   "eps": 1.16,
+   "net_income": 77349000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 388832000.0,
+   "eps": 0.59,
+   "net_income": 39263000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.08615870151744298,
+ "fcf_burn_annual": 119802000.0,
+ "runway_months": 144.1753893924976,
+ "need_24m": 392516000.0,
+ "gap_24m": -1046859000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -4.11399327453267,
+ "interest_coverage": 31.869103773584907,
+ "cash_to_debt": 4.1205173494714,
+ "ev": 2430710804.6618805,
+ "ev_to_sales": 2.3422397257411847,
+ "ev_to_ebitda": 9.173774469121653,
+ "pe_ttm": 23.435999738145636,
+ "pe_trailing": 23.844341,
+ "p_sales": 3.3926208,
+ "p_fcf": null,
+ "p_book": 1.8927286690574439
+}

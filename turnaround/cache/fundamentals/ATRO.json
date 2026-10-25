@@ -1,0 +1,154 @@
+{
+ "ticker": "ATRO",
+ "fetched": "2026-10-25",
+ "market_cap": 2489794688.7093506,
+ "shares_out": 43009064.0,
+ "price": 57.88999938964844,
+ "long_name": "Astronics Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 31.633879,
+ "pe_forward": 18.887438,
+ "peg": 1.45,
+ "p_sales_y": 2.6428418,
+ "eps_trailing_y": 1.83,
+ "eps_forward": 3.065,
+ "earnings_growth_y": 24.0,
+ "earnings_growth_q_y": 25.682,
+ "bs_date": "2026-06-30",
+ "cash": 9016000.0,
+ "total_debt": 352966000.0,
+ "current_debt": 5930000.0,
+ "lease_obligations": 42647000.0,
+ "equity": 198220000.0,
+ "net_debt": 343950000.0,
+ "ocf_ttm": 102512000.0,
+ "capex_ttm": -41832000.0,
+ "fcf_ttm": 60680000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 942090000.0,
+ "net_income_ttm": 79117000.0,
+ "ebitda_ttm": 149321000.0,
+ "ebit_ttm": 126214000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.27007787842367037,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 259957000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 230619000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 240067000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 211447000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 204678000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.75
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.558333
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.258333
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.033333
+  }
+ ],
+ "eps_ttm": 1.7000000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 21.500225002250023,
+ "eps_forward_growth": 0.802941176470588,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.33427451463126595
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3257884215957922
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.333119504138428
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.30509300202887724
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.25809808577375193
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 862128000.0,
+   "eps": 0.675,
+   "net_income": 29359000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 795426000.0,
+   "eps": -0.383333,
+   "net_income": -16215000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 689206000.0,
+   "eps": -0.666667,
+   "net_income": -26421000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 534894000.0,
+   "eps": -0.925,
+   "net_income": -35747000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.01222405196294174,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5930000.0,
+ "gap_24m": -3086000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.3034268455207236,
+ "interest_coverage": null,
+ "cash_to_debt": 0.02554353677124709,
+ "ev": 2833744688.7093506,
+ "ev_to_sales": 3.0079341556638437,
+ "ev_to_ebitda": 18.977536238769837,
+ "pe_ttm": 31.469781320188464,
+ "pe_trailing": 31.633879,
+ "p_sales": 2.6428418,
+ "p_fcf": 41.031553867985345,
+ "p_book": 12.560764245330192
+}

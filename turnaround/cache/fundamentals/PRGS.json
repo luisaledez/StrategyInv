@@ -1,0 +1,154 @@
+{
+ "ticker": "PRGS",
+ "fetched": "2026-10-25",
+ "market_cap": 1898606249.5845337,
+ "shares_out": 40874192.0,
+ "price": 46.45000076293945,
+ "long_name": "Progress Software Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 21.405529,
+ "pe_forward": 6.471775,
+ "peg": 1.34,
+ "p_sales_y": 1.8987297,
+ "eps_trailing_y": 2.17,
+ "eps_forward": 7.17732,
+ "earnings_growth_y": 0.25,
+ "earnings_growth_q_y": 0.173,
+ "bs_date": "2026-08-31",
+ "cash": 113653000.0,
+ "total_debt": 1265033000.0,
+ "current_debt": 7750000.0,
+ "lease_obligations": 32398000.0,
+ "equity": 529978000.0,
+ "net_debt": 1151380000.0,
+ "ocf_ttm": 328272000.0,
+ "capex_ttm": -9126000.0,
+ "fcf_ttm": 319146000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -112010000.0,
+ "stock_issuance_ttm": -93042000.0,
+ "revenue_ttm": 999935000.0,
+ "net_income_ttm": 92407000.0,
+ "ebitda_ttm": 320560000.0,
+ "ebit_ttm": 175531000.0,
+ "interest_ttm": 64610000.0,
+ "revenue_yoy_last_q": -0.015172441401949621,
+ "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 246005000.0
+  },
+  {
+   "period": "2026-05-31",
+   "value": 253465000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 247799000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 252666000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 249795000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.55
+  },
+  {
+   "period": "2026-05-31",
+   "value": 0.5
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.53
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.59
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": 2.17,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.07792207792207795,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.25,
+ "eps_forward_growth": 2.307520737327189,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.8273734273693624
+  },
+  {
+   "period": "2026-05-31",
+   "value": 0.8229656954609118
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.8229855649134984
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.8158596724529616
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.809699953962249
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 977831000.0,
+   "eps": 1.66,
+   "net_income": 73133000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 753409000.0,
+   "eps": 1.54,
+   "net_income": 68438000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 694439000.0,
+   "eps": 1.57,
+   "net_income": 70197000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 602013000.0,
+   "eps": 2.15,
+   "net_income": 95069000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04551944828758958,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 7750000.0,
+ "gap_24m": -105903000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.591776890441727,
+ "interest_coverage": 2.7167775886085743,
+ "cash_to_debt": 0.08984192507231037,
+ "ev": 3049986249.5845337,
+ "ev_to_sales": 3.050184511577786,
+ "ev_to_ebitda": 9.514556555978706,
+ "pe_ttm": 20.54613015880327,
+ "pe_trailing": 21.405529,
+ "p_sales": 1.8987297,
+ "p_fcf": 5.949020979691219,
+ "p_book": 3.5824246470316385
+}

@@ -55,6 +55,7 @@ python screen_v3.py      # ~2 min: output/snapshots_<variant>.json/.csv and curr
 python backtest_v3.py    # ~2 min: output/results.json, report.md, <scenario>_trades.csv, *_equity.csv
 python live_v3.py        # ~2 min: today's both_opval list with live diagnostics, last-candle sensitivity and
                          #   12-month base rates -> output/live_both_opval_<date>.csv/.json
+SCAN_UNIVERSE=nasdaq python live_v3.py   # same list on Nasdaq-listed stocks -> output_nasdaq/ (base rates stay the S&P backtest's)
 ```
 
 ## Revision 2026-09-29: goodwill evidence in the acquisition guard

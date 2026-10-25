@@ -1,0 +1,154 @@
+{
+ "ticker": "INTA",
+ "fetched": "2026-10-25",
+ "market_cap": 3680582860.87965,
+ "shares_out": 76694785.0,
+ "price": 47.9900016784668,
+ "long_name": "Intapp, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 24.541416,
+ "peg": 0.86,
+ "p_sales_y": 6.36994,
+ "eps_trailing_y": -0.52,
+ "eps_forward": 1.95547,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 162813000.0,
+ "total_debt": 15863000.0,
+ "current_debt": null,
+ "lease_obligations": 15863000.0,
+ "equity": 317603000.0,
+ "net_debt": -146950000.0,
+ "ocf_ttm": 146847000.0,
+ "capex_ttm": -10483000.0,
+ "fcf_ttm": 136364000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -275168000.0,
+ "stock_issuance_ttm": -275168000.0,
+ "revenue_ttm": 577805000.0,
+ "net_income_ttm": -41310000.0,
+ "ebitda_ttm": -16152000.0,
+ "ebit_ttm": -40097000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.12954776027666082,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 152533000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 146037000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 140208000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 139027000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 135039000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.01
+  }
+ ],
+ "eps_ttm": -0.52,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7760287937692172
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7567328827625875
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.749871619308456
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7468405417652686
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7476136523522834
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 577805000.0,
+   "eps": -0.52,
+   "net_income": -41310000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 504120000.0,
+   "eps": -0.23,
+   "net_income": -18217000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 430523000.0,
+   "eps": -0.45,
+   "net_income": -32021000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 350873000.0,
+   "eps": -1.08,
+   "net_income": -69425000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": -0.0656961051333097,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -162813000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 9.097944526993562,
+ "interest_coverage": null,
+ "cash_to_debt": 10.26369539179222,
+ "ev": 3533632860.87965,
+ "ev_to_sales": 6.115614888897898,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 6.36994,
+ "p_fcf": 26.990869004133422,
+ "p_book": 11.588627503139612
+}

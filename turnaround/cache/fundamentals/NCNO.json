@@ -1,0 +1,154 @@
+{
+ "ticker": "NCNO",
+ "fetched": "2026-10-25",
+ "market_cap": 2449907159.64703,
+ "shares_out": 105736174.0,
+ "price": 23.170000076293945,
+ "long_name": "nCino, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 72.40625,
+ "pe_forward": 14.664186,
+ "peg": null,
+ "p_sales_y": 3.9372132,
+ "eps_trailing_y": 0.32,
+ "eps_forward": 1.58004,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-07-31",
+ "cash": 83290000.0,
+ "total_debt": 338627000.0,
+ "current_debt": 13891000.0,
+ "lease_obligations": 63267000.0,
+ "equity": 929832000.0,
+ "net_debt": 255337000.0,
+ "ocf_ttm": 133613000.0,
+ "capex_ttm": -1444000.0,
+ "fcf_ttm": 132169000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -240158000.0,
+ "stock_issuance_ttm": -240158000.0,
+ "revenue_ttm": 622244000.0,
+ "net_income_ttm": 33597000.0,
+ "ebitda_ttm": 92506000.0,
+ "ebit_ttm": 51519000.0,
+ "interest_ttm": 18258000.0,
+ "revenue_yoy_last_q": 0.08188690656183861,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 161001000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 159414000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 149666000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 152163000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 148815000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.05
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.12
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.07
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-07-31",
+   "value": -0.13
+  }
+ ],
+ "eps_ttm": 0.3,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 4.2668,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6259029447022069
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.633181527343897
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.6141408202263707
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.6156950112708083
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.5921782078419514
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 594781000.0,
+   "eps": 0.05,
+   "net_income": 5180000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 540657000.0,
+   "eps": -0.33,
+   "net_income": -37878000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 476543000.0,
+   "eps": -0.38,
+   "net_income": -42346000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 408315000.0,
+   "eps": -0.93,
+   "net_income": -102720000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.08935702921667776,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 13891000.0,
+ "gap_24m": -69399000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.7602209586405206,
+ "interest_coverage": 2.821721984883339,
+ "cash_to_debt": 0.2459638481278811,
+ "ev": 2705244159.64703,
+ "ev_to_sales": 4.347561663345938,
+ "ev_to_ebitda": 29.243985899801416,
+ "pe_ttm": 72.92041431220139,
+ "pe_trailing": 72.40625,
+ "p_sales": 3.9372132,
+ "p_fcf": 18.536170808941808,
+ "p_book": 2.634784734927417
+}

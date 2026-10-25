@@ -1,0 +1,154 @@
+{
+ "ticker": "BE",
+ "fetched": "2026-10-25",
+ "market_cap": 57127344948.00801,
+ "shares_out": 295537217.0,
+ "price": 193.3000030517578,
+ "long_name": "Bloom Energy Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 117.15152,
+ "pe_forward": 36.402466,
+ "peg": 0.44,
+ "p_sales_y": 14.915994,
+ "eps_trailing_y": 1.65,
+ "eps_forward": 5.31008,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2716859000.0,
+ "total_debt": 2811628000.0,
+ "current_debt": 93748000.0,
+ "lease_obligations": 333655000.0,
+ "equity": 1611998000.0,
+ "net_debt": 94769000.0,
+ "ocf_ttm": 737784000.0,
+ "capex_ttm": -113078000.0,
+ "fcf_ttm": 624706000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 74601000.0,
+ "revenue_ttm": 3113150000.0,
+ "net_income_ttm": 244942000.0,
+ "ebitda_ttm": 349772000.0,
+ "ebit_ttm": 296763000.0,
+ "interest_ttm": 42547000.0,
+ "revenue_yoy_last_q": 1.655168202730522,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1065365000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 751054000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 777683000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 519048000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 401242000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.62
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.23
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.1
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.18
+  }
+ ],
+ "eps_ttm": 0.75,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 6.0801066666666665,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3337560366634909
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.30030330708577546
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3084740183339484
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2922176754365685
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.2669785316591982
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2023994000.0,
+   "eps": -0.37,
+   "net_income": -88434000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1473856000.0,
+   "eps": -0.13,
+   "net_income": -29227000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1333470000.0,
+   "eps": -1.42,
+   "net_income": -302116000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1199125000.0,
+   "eps": -1.62,
+   "net_income": -301408000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.25546749385417766,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 93748000.0,
+ "gap_24m": -2623111000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.2709450727902748,
+ "interest_coverage": 6.974945354549087,
+ "cash_to_debt": 0.966293905168109,
+ "ev": 57222113948.00801,
+ "ev_to_sales": 18.380776367347547,
+ "ev_to_ebitda": 163.59832676145606,
+ "pe_ttm": 233.2280496934295,
+ "pe_trailing": 117.15152,
+ "p_sales": 14.915994,
+ "p_fcf": 91.44676847670426,
+ "p_book": 35.43884356432701
+}

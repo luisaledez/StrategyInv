@@ -37,7 +37,7 @@ import indicators as ind  # noqa: E402
 import prices  # noqa: E402
 import universe as uni_mod  # noqa: E402
 
-OUT = HERE / "output"
+OUT = HERE / f"output{uni_mod.TAG}"  # output_nasdaq/ under SCAN_UNIVERSE=nasdaq
 OUT.mkdir(exist_ok=True)
 THESIS = HERE / "thesis"
 THESIS.mkdir(exist_ok=True)
@@ -320,7 +320,7 @@ def init_thesis(ticker: str, wl_json: Path) -> Path:
 # ------------------------------------------------------------------------ main
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--universe", default="sp500,sp400", help="comma list of sp500,sp400,sp600")
+    ap.add_argument("--universe", default=uni_mod.NAME, help="comma list of sp500,sp400,sp600, or nasdaq")
     ap.add_argument("--tickers", default="", help="scan only these tickers (comma list)")
     ap.add_argument("--extra", default="", help="add these tickers to the index universe")
     ap.add_argument("--threshold", type=float, default=42.0, help="monthly RSI threshold")

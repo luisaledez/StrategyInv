@@ -1,0 +1,154 @@
+{
+ "ticker": "MRCY",
+ "fetched": "2026-10-25",
+ "market_cap": 4556856850.986832,
+ "shares_out": 60863586.0,
+ "price": 74.87000274658203,
+ "long_name": "Mercury Systems, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": null,
+ "pe_forward": 33.573994,
+ "peg": 2.79,
+ "p_sales_y": 4.6327314,
+ "eps_trailing_y": -0.5,
+ "eps_forward": 2.23,
+ "earnings_growth_y": -0.967,
+ "earnings_growth_q_y": -0.951,
+ "bs_date": "2026-06-30",
+ "cash": 214306000.0,
+ "total_debt": 487720000.0,
+ "current_debt": 391000.0,
+ "lease_obligations": 45829000.0,
+ "equity": 1497458000.0,
+ "net_debt": 273414000.0,
+ "ocf_ttm": 102388000.0,
+ "capex_ttm": -34301000.0,
+ "fcf_ttm": 68087000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 983622000.0,
+ "net_income_ttm": -29673000.0,
+ "ebitda_ttm": 73384000.0,
+ "ebit_ttm": 701000.0,
+ "interest_ttm": 29590000.0,
+ "revenue_yoy_last_q": 0.061060540595959,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 289782000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 235759000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 232872000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 225209000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 273106000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.04
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.26
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.21
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.27
+  }
+ ],
+ "eps_ttm": -0.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.962962962962963,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3056884140491818
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2928838347634661
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.260370503967845
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2792916801726396
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.31038497872620885
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 983622000.0,
+   "eps": -0.5,
+   "net_income": -29673000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 912020000.0,
+   "eps": -0.65,
+   "net_income": -37904000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 835275000.0,
+   "eps": -2.38,
+   "net_income": -137640000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 973882000.0,
+   "eps": -0.5,
+   "net_income": -28335000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.010127556866686538,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 391000.0,
+ "gap_24m": -213915000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.7257985391911044,
+ "interest_coverage": 0.02369043595809395,
+ "cash_to_debt": 0.43940375625358813,
+ "ev": 4830270850.986832,
+ "ev_to_sales": 4.910698267207151,
+ "ev_to_ebitda": 65.82185286965594,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 4.6327314,
+ "p_fcf": 66.92697359241605,
+ "p_book": 3.04306154228488
+}

@@ -1,0 +1,133 @@
+{
+ "ticker": "ARCC",
+ "fetched": "2026-10-25",
+ "market_cap": 13383945392.553635,
+ "shares_out": 718022845.0,
+ "price": 18.639999389648438,
+ "long_name": "Ares Capital Corporation",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 13.605839,
+ "pe_forward": 9.620595,
+ "peg": 3.72,
+ "p_sales_y": 4.3090615,
+ "eps_trailing_y": 1.37,
+ "eps_forward": 1.93751,
+ "earnings_growth_y": -0.541,
+ "earnings_growth_q_y": -0.526,
+ "bs_date": "2026-06-30",
+ "cash": 383000000.0,
+ "total_debt": 15773000000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 13891000000.0,
+ "net_debt": 15390000000.0,
+ "ocf_ttm": -680000000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -680000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 226000000.0,
+ "revenue_ttm": 1174000000.0,
+ "net_income_ttm": 960000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 788000000.0,
+ "revenue_yoy_last_q": -0.46191646191646196,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 219000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 151000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 344000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 460000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 407000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.24
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.13
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.41
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.57
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.52
+  }
+ ],
+ "eps_ttm": 1.35,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.23770491803278682,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5384615384615385,
+ "eps_forward_growth": 0.4351925925925926,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1506000000.0,
+   "eps": 1.86,
+   "net_income": 1299000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1713000000.0,
+   "eps": 2.44,
+   "net_income": 1522000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1648000000.0,
+   "eps": 2.68,
+   "net_income": 1522000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 741000000.0,
+   "eps": 1.19,
+   "net_income": 600000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.017941601170399446,
+ "fcf_burn_annual": 680000000.0,
+ "runway_months": 6.758823529411765,
+ "need_24m": 1360000000.0,
+ "gap_24m": 977000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.024282000887592723,
+ "ev": 28773945392.553635,
+ "ev_to_sales": 24.509323162311443,
+ "ev_to_ebitda": null,
+ "pe_ttm": 13.941609783910035,
+ "pe_trailing": 13.605839,
+ "p_sales": 4.3090615,
+ "p_fcf": null,
+ "p_book": 0.9634976166261345
+}

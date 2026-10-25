@@ -136,6 +136,12 @@ The deployed app (`ll-turnaround-strat` on Vercel) ships only `output/live_*.jso
 `output/web_summary.json` from this folder (see `../.vercelignore`); the page also renders the newest
 `../reports/OpportunityScanner2 candidates - <date>.md`.
 
+With `SCAN_UNIVERSE=nasdaq`, `live.py`, `live_weekly.py` and `report.py` run on Nasdaq-listed stocks
+($1B+, see `../turnaround/README.md`): they write to `output_nasdaq/`, build their own
+`cache/fund_tables_nasdaq.pkl`, and the report goes to
+`../reports/OpportunityScanner2 candidates (Nasdaq) - <date>.md`. The tier history in that report and on the
+page's Nasdaq view is still this study's (S&P 500 + 400).
+
 Refresh prices first with `python ../turnaround_backtest/data.py prices`, and
 EDGAR tables with `python ../turnaround_backtest/data.py edgar`, then
 `python study.py --rebuild`.

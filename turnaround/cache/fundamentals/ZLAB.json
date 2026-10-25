@@ -1,0 +1,154 @@
+{
+ "ticker": "ZLAB",
+ "fetched": "2026-10-25",
+ "market_cap": 2697757535.927101,
+ "shares_out": 112266228.0,
+ "price": 24.030000686645508,
+ "long_name": "Zai Lab Limited",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -11.386845,
+ "peg": null,
+ "p_sales_y": 6.000163,
+ "eps_trailing_y": -1.7,
+ "eps_forward": -2.11033,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 617522000.0,
+ "total_debt": 254576000.0,
+ "current_debt": 243129000.0,
+ "lease_obligations": 16472000.0,
+ "equity": 607037000.0,
+ "net_debt": -362946000.0,
+ "ocf_ttm": -133384000.0,
+ "capex_ttm": -29134000.0,
+ "fcf_ttm": -162518000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 449614000.0,
+ "net_income_ttm": -188213000.0,
+ "ebitda_ttm": -168803000.0,
+ "ebit_ttm": -184737000.0,
+ "interest_ttm": 5985000.0,
+ "revenue_yoy_last_q": -0.033334242614364795,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 106311000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 99611000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 127597000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 116095000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 109977000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.5
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.5
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.5
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.3
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.4
+  }
+ ],
+ "eps_ttm": -1.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5469706803623332
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6151529449558784
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.511501054100018
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5961669322537577
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6070087381907125
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 460156000.0,
+   "eps": -1.6,
+   "net_income": -175537000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 398988000.0,
+   "eps": -2.6,
+   "net_income": -257103000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 266719000.0,
+   "eps": -3.5,
+   "net_income": -334620000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 215040000.0,
+   "eps": -4.6,
+   "net_income": -443286000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.021228483636471562,
+ "fcf_burn_annual": 162518000.0,
+ "runway_months": 45.59657391796601,
+ "need_24m": 568165000.0,
+ "gap_24m": -49357000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.150115815477213,
+ "interest_coverage": -30.866666666666667,
+ "cash_to_debt": 2.4256882031299103,
+ "ev": 2334811535.927101,
+ "ev_to_sales": 5.192924455037212,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 6.000163,
+ "p_fcf": null,
+ "p_book": 4.444140202206952
+}

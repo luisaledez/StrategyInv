@@ -1,0 +1,154 @@
+{
+ "ticker": "ELE",
+ "fetched": "2026-10-25",
+ "market_cap": 1218005552.6576872,
+ "shares_out": 76700601.0,
+ "price": 15.880000114440918,
+ "long_name": "Elemental Royalty Corporation",
+ "sector_y": "Basic Materials",
+ "industry_y": "Gold",
+ "pe_trailing_y": null,
+ "pe_forward": 34.901096,
+ "peg": null,
+ "p_sales_y": 17.150177,
+ "eps_trailing_y": -0.01,
+ "eps_forward": 0.455,
+ "earnings_growth_y": 6.68,
+ "earnings_growth_q_y": 21.488,
+ "bs_date": "2026-06-30",
+ "cash": 90273000.0,
+ "total_debt": 459000.0,
+ "current_debt": 459000.0,
+ "lease_obligations": 459000.0,
+ "equity": 786632000.0,
+ "net_debt": -89814000.0,
+ "ocf_ttm": 45243000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -30636000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 71020000.0,
+ "net_income_ttm": 2845000.0,
+ "ebitda_ttm": 36935000.0,
+ "ebit_ttm": 12692000.0,
+ "interest_ttm": 803000.0,
+ "revenue_yoy_last_q": 1.615790631185397,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 23788000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 24322000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 16047000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6863000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 9094000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.05
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.02
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.01
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.14
+  }
+ ],
+ "eps_ttm": 0.14,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.6428571428571428,
+ "eps_forward_growth": 2.25,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6578526988397512
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6457117013403503
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6957686795039572
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6431589683811744
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6009456784693205
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 43643000.0,
+   "eps": 0.06,
+   "net_income": 1772000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 16323000.0,
+   "eps": -0.02,
+   "net_income": -364000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 11744000.0,
+   "eps": -0.2,
+   "net_income": -3901000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9639000.0,
+   "eps": -1.7,
+   "net_income": -18211000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 9.000001243733333,
+ "fcf_burn_annual": 30636000.0,
+ "runway_months": 35.35957696827262,
+ "need_24m": 61731000.0,
+ "gap_24m": -28542000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.431677270881278,
+ "interest_coverage": 15.805728518057284,
+ "cash_to_debt": 196.67320261437908,
+ "ev": 1128191552.6576872,
+ "ev_to_sales": 15.885547066427586,
+ "ev_to_ebitda": 30.545324290176993,
+ "pe_ttm": 428.12145963363344,
+ "pe_trailing": 113.42857224600655,
+ "p_sales": 17.150177,
+ "p_fcf": null,
+ "p_book": 1.5483803769204496
+}

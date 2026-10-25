@@ -1,0 +1,154 @@
+{
+ "ticker": "STNE",
+ "fetched": "2026-10-25",
+ "market_cap": 2647237749.801697,
+ "shares_out": 230595632.0,
+ "price": 11.479999542236328,
+ "long_name": "StoneCo Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 4.449612,
+ "pe_forward": 4.849508,
+ "peg": null,
+ "p_sales_y": 0.19484092,
+ "eps_trailing_y": 2.58,
+ "eps_forward": 2.3672504,
+ "earnings_growth_y": -0.166,
+ "earnings_growth_q_y": -0.257,
+ "bs_date": "2026-06-30",
+ "cash": 9757226000.0,
+ "total_debt": 16264504000.0,
+ "current_debt": 8634683000.0,
+ "lease_obligations": 169380000.0,
+ "equity": 8995337000.0,
+ "net_debt": 6507278000.0,
+ "ocf_ttm": 4705259000.0,
+ "capex_ttm": -1115492000.0,
+ "fcf_ttm": 3589767000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3016572000.0,
+ "stock_issuance_ttm": -3016572000.0,
+ "revenue_ttm": 13849201000.0,
+ "net_income_ttm": 3363199000.0,
+ "ebitda_ttm": 6354460000.0,
+ "ebit_ttm": 5417546000.0,
+ "interest_ttm": 2830458000.0,
+ "revenue_yoy_last_q": 0.015561548894314159,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3337380000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3578024000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3539674000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3394123000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3286241000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.81
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6.73
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.951733
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.6
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.17
+  }
+ ],
+ "eps_ttm": 14.091733,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -0.16589861751152069,
+ "eps_forward_growth": -0.832011406971733,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6566063798548563
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7235954817519391
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7424918226932763
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7590676590094113
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7412271345893378
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 13399706000.0,
+   "eps": 10.485541,
+   "net_income": 2319702000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11551278000.0,
+   "eps": -5.269349,
+   "net_income": -1515222000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 10091093000.0,
+   "eps": 4.74,
+   "net_income": 1592065000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 9016344000.0,
+   "eps": -1.683727,
+   "net_income": -519417000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.13803892627893422,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8634683000.0,
+ "gap_24m": -1122543000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0240489357081484,
+ "interest_coverage": 1.914017448766242,
+ "cash_to_debt": 0.599909225636392,
+ "ev": 9154515749.801697,
+ "ev_to_sales": 0.6610139999991116,
+ "ev_to_ebitda": 1.4406441695756518,
+ "pe_ttm": 0.7871189750596669,
+ "pe_trailing": 4.449612,
+ "p_sales": 0.19484092,
+ "p_fcf": 0.7374399925682354,
+ "p_book": 0.29429000267601946
+}

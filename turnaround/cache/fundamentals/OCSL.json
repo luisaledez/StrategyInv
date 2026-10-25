@@ -1,0 +1,133 @@
+{
+ "ticker": "OCSL",
+ "fetched": "2026-10-25",
+ "market_cap": 1007698346.1578436,
+ "shares_out": 88085523.0,
+ "price": 11.4399995803833,
+ "long_name": "Oaktree Specialty Lending Corporation",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 23.833332,
+ "pe_forward": 8.403052,
+ "peg": 0.93,
+ "p_sales_y": 3.4483173,
+ "eps_trailing_y": 0.48,
+ "eps_forward": 1.36141,
+ "earnings_growth_y": -0.193,
+ "earnings_growth_q_y": -0.193,
+ "bs_date": "2026-06-30",
+ "cash": 39921000.0,
+ "total_debt": 1438842000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 1383055000.0,
+ "net_debt": 1398921000.0,
+ "ocf_ttm": 106129000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 106129000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -4530000.0,
+ "stock_issuance_ttm": -4530000.0,
+ "revenue_ttm": 53527000.0,
+ "net_income_ttm": 42237000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 102455000.0,
+ "revenue_yoy_last_q": -0.050621083873804595,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 34546000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": -15296000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 8629000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 25648000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 36388000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.35
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.21
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": 0.48,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.45833333333333326,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.20454545454545459,
+ "eps_forward_growth": 1.8362708333333333,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 24951000.0,
+   "eps": 0.39,
+   "net_income": 33920000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 57612000.0,
+   "eps": 0.72,
+   "net_income": 57905000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 125204000.0,
+   "eps": 1.63,
+   "net_income": 117331000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 39113000.0,
+   "eps": 0.48,
+   "net_income": 29223000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 5.4151917789901916e-06,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -39921000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.027745228454548868,
+ "ev": 2406619346.1578436,
+ "ev_to_sales": 44.96084865876742,
+ "ev_to_ebitda": null,
+ "pe_ttm": 23.858189411128716,
+ "pe_trailing": 23.833332,
+ "p_sales": 3.4483173,
+ "p_fcf": 9.495032895418252,
+ "p_book": 0.7286032342588281
+}

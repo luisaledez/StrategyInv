@@ -1,0 +1,154 @@
+{
+ "ticker": "HWKN",
+ "fetched": "2026-10-25",
+ "market_cap": 2762195634.3339233,
+ "shares_out": 20875117.0,
+ "price": 132.32000732421875,
+ "long_name": "Hawkins, Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": 34.279797,
+ "pe_forward": 28.267464,
+ "peg": 2.62,
+ "p_sales_y": 2.4972408,
+ "eps_trailing_y": 3.86,
+ "eps_forward": 4.681,
+ "earnings_growth_y": -0.036,
+ "earnings_growth_q_y": -0.032,
+ "bs_date": "2026-06-30",
+ "cash": 7977000.0,
+ "total_debt": 260665000.0,
+ "current_debt": 2962000.0,
+ "lease_obligations": 16665000.0,
+ "equity": 548204000.0,
+ "net_debt": 252688000.0,
+ "ocf_ttm": 147989000.0,
+ "capex_ttm": -56300000.0,
+ "fcf_ttm": 91689000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -10049000.0,
+ "stock_issuance_ttm": -7009000.0,
+ "revenue_ttm": 1106099000.0,
+ "net_income_ttm": 80627000.0,
+ "ebitda_ttm": 174865000.0,
+ "ebit_ttm": 120669000.0,
+ "interest_ttm": 13011000.0,
+ "revenue_yoy_last_q": 0.07638983605662997,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 315675000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 265910000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 244080000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 280434000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 293272000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.35
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.74
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.69
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.08
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.4
+  }
+ ],
+ "eps_ttm": 3.86,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.02977667493796532,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.03571428571428559,
+ "eps_forward_growth": 0.21269430051813476,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.23444048467569495
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.20396750780339212
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20818174369059325
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.24120827003858306
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24674022750211408
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1083696000.0,
+   "eps": 3.91,
+   "net_income": 81548000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 974431000.0,
+   "eps": 4.03,
+   "net_income": 84345000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 919162000.0,
+   "eps": 3.59,
+   "net_income": 75363000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 935098000.0,
+   "eps": 2.86,
+   "net_income": 60041000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0010828343674658125,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2962000.0,
+ "gap_24m": -5015000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4450461784805422,
+ "interest_coverage": 9.274383214203366,
+ "cash_to_debt": 0.030602497458423646,
+ "ev": 3014883634.3339233,
+ "ev_to_sales": 2.725690588576541,
+ "ev_to_ebitda": 17.241206841471556,
+ "pe_ttm": 34.258940979249175,
+ "pe_trailing": 34.279797,
+ "p_sales": 2.4972408,
+ "p_fcf": 30.125703566773804,
+ "p_book": 5.03862728899082
+}

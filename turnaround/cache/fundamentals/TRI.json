@@ -1,0 +1,154 @@
+{
+ "ticker": "TRI",
+ "fetched": "2026-10-25",
+ "market_cap": 53363571927.633026,
+ "shares_out": 433251382.0,
+ "price": 123.16999816894531,
+ "long_name": "Thomson Reuters Corporation",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 32.328083,
+ "pe_forward": 25.060276,
+ "peg": 1.56,
+ "p_sales_y": 6.813531,
+ "eps_trailing_y": 3.81,
+ "eps_forward": 4.91495,
+ "earnings_growth_y": 0.472,
+ "earnings_growth_q_y": 0.431,
+ "bs_date": "2026-06-30",
+ "cash": 567000000.0,
+ "total_debt": 3182000000.0,
+ "current_debt": 1678000000.0,
+ "lease_obligations": 241000000.0,
+ "equity": 11125000000.0,
+ "net_debt": 2615000000.0,
+ "ocf_ttm": 2885000000.0,
+ "capex_ttm": -653000000.0,
+ "fcf_ttm": 2232000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1967000000.0,
+ "stock_issuance_ttm": -1967000000.0,
+ "revenue_ttm": 7832000000.0,
+ "net_income_ttm": 1662000000.0,
+ "ebitda_ttm": 3348000000.0,
+ "ebit_ttm": 2376000000.0,
+ "interest_ttm": 190000000.0,
+ "revenue_yoy_last_q": 0.09467787114845949,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1954000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2087000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2009000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1782000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1785000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.02
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.046153
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.751605
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.954741
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.700821
+  }
+ ],
+ "eps_ttm": 3.772499,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.31901855684051705,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.45543583882332284,
+ "eps_forward_growth": 0.3028366607916928,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7507676560900717
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7637757546717777
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.754604280736685
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7586980920314254
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7546218487394958
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 7476000000.0,
+   "eps": 3.382221,
+   "net_income": 1502000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7258000000.0,
+   "eps": 4.966686,
+   "net_income": 2210000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 6794000000.0,
+   "eps": 5.890956,
+   "net_income": 2695000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6627000000.0,
+   "eps": 3.034538,
+   "net_income": 1338000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.018311779808803497,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1678000000.0,
+ "gap_24m": 1111000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.7810633213859021,
+ "interest_coverage": 12.505263157894737,
+ "cash_to_debt": 0.17818981772470144,
+ "ev": 55978571927.633026,
+ "ev_to_sales": 7.147417253272859,
+ "ev_to_ebitda": 16.720003562614405,
+ "pe_ttm": 32.1080456844964,
+ "pe_trailing": 32.328083,
+ "p_sales": 6.813531,
+ "p_fcf": 23.908410361842755,
+ "p_book": 4.796725566528812
+}

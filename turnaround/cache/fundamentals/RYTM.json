@@ -1,0 +1,154 @@
+{
+ "ticker": "RYTM",
+ "fetched": "2026-10-25",
+ "market_cap": 6146425129.008133,
+ "shares_out": 68852082.0,
+ "price": 89.2699966430664,
+ "long_name": "Rhythm Pharmaceuticals, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -141.9801,
+ "peg": null,
+ "p_sales_y": 25.618856,
+ "eps_trailing_y": -3.12,
+ "eps_forward": -0.62875,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 330897000.0,
+ "total_debt": 3682000.0,
+ "current_debt": 703000.0,
+ "lease_obligations": 3682000.0,
+ "equity": 217301000.0,
+ "net_debt": -327215000.0,
+ "ocf_ttm": -105348000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -106301000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 188658000.0,
+ "revenue_ttm": 239918000.0,
+ "net_income_ttm": -205346000.0,
+ "ebitda_ttm": -184718000.0,
+ "ebit_ttm": -185797000.0,
+ "interest_ttm": 18480000.0,
+ "revenue_yoy_last_q": 0.469114675683477,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 71255000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 60112000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 57253000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 51298000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 48502000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.73
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.83
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.73
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.82
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.75
+  }
+ ],
+ "eps_ttm": -3.11,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8746614272682619
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8809389140271493
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9161266658515711
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8928028383172834
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8857160529462702
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 189757000.0,
+   "eps": -3.11,
+   "net_income": -196539000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 130126000.0,
+   "eps": -4.34,
+   "net_income": -260602000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 77428000.0,
+   "eps": -3.2,
+   "net_income": -184678000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 23638000.0,
+   "eps": -3.47,
+   "net_income": -181119000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.07672412194760758,
+ "fcf_burn_annual": 106301000.0,
+ "runway_months": 37.35396656663625,
+ "need_24m": 213305000.0,
+ "gap_24m": -117592000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.771429963511948,
+ "interest_coverage": -10.053950216450216,
+ "cash_to_debt": 89.86882129277566,
+ "ev": 5819210129.008133,
+ "ev_to_sales": 24.254995994498675,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 25.618856,
+ "p_fcf": null,
+ "p_book": 28.285305309262878
+}

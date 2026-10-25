@@ -44,12 +44,12 @@ BENCHMARKS = ["SPY"]
 
 
 def universe_tickers() -> list[str]:
-    uni = uni_mod.load(("sp500", "sp400"))
+    uni = uni_mod.load()
     return list(uni["ticker"])
 
 
 def universe_meta() -> pd.DataFrame:
-    return uni_mod.load(("sp500", "sp400")).set_index("ticker")
+    return uni_mod.load().set_index("ticker")
 
 
 def price_path(t: str) -> Path:

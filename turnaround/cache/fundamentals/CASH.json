@@ -1,0 +1,133 @@
+{
+ "ticker": "CASH",
+ "fetched": "2026-10-25",
+ "market_cap": 1609935555.0,
+ "shares_out": 20773362.0,
+ "price": 77.5,
+ "long_name": "Pathward Financial, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Banks - Regional",
+ "pe_trailing_y": 9.5208845,
+ "pe_forward": 7.132996,
+ "peg": 0.2,
+ "p_sales_y": 2.191262,
+ "eps_trailing_y": 8.14,
+ "eps_forward": 10.865,
+ "earnings_growth_y": 0.093,
+ "earnings_growth_q_y": -0.005,
+ "bs_date": "2026-06-30",
+ "cash": 1057258000.0,
+ "total_debt": 201033000.0,
+ "current_debt": 167500000.0,
+ "lease_obligations": null,
+ "equity": 850901000.0,
+ "net_debt": -856225000.0,
+ "ocf_ttm": 696867000.0,
+ "capex_ttm": -217729000.0,
+ "fcf_ttm": 479138000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -167044000.0,
+ "stock_issuance_ttm": -167043000.0,
+ "revenue_ttm": 684787000.0,
+ "net_income_ttm": 175848000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 10244000.0,
+ "revenue_yoy_last_q": -0.004393740354815212,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 156125000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 232277000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 142519000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 153866000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 156814000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.35
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.57
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.69
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.81
+  }
+ ],
+ "eps_ttm": 7.98,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.18882175226586106,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.24309392265193364,
+ "eps_forward_growth": 0.3615288220551378,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 673632000.0,
+   "eps": 7.87,
+   "net_income": 185872000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 647669000.0,
+   "eps": 6.62,
+   "net_income": 183219000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 600591000.0,
+   "eps": 5.99,
+   "net_income": 143266000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 518523000.0,
+   "eps": 5.26,
+   "net_income": 151134000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.08406983337870022,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 167500000.0,
+ "gap_24m": -889758000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 5.259126611053906,
+ "ev": 753710555.0,
+ "ev_to_sales": 1.100649625357958,
+ "ev_to_ebitda": null,
+ "pe_ttm": 9.15526793025795,
+ "pe_trailing": 9.5208845,
+ "p_sales": 2.191262,
+ "p_fcf": 3.360066525719104,
+ "p_book": 1.8920362709645422
+}

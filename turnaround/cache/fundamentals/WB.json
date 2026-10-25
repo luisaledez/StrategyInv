@@ -1,0 +1,154 @@
+{
+ "ticker": "WB",
+ "fetched": "2026-10-25",
+ "market_cap": 1523169899.5416756,
+ "shares_out": 245672572.0,
+ "price": 6.199999809265137,
+ "long_name": "Weibo Corporation",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": 5.1239667,
+ "pe_forward": 4.895149,
+ "peg": 0.79,
+ "p_sales_y": 0.8505936,
+ "eps_trailing_y": 1.21,
+ "eps_forward": 1.26656,
+ "earnings_growth_y": -0.458,
+ "earnings_growth_q_y": -0.464,
+ "bs_date": "2026-06-30",
+ "cash": 2636591000.0,
+ "total_debt": 1867437000.0,
+ "current_debt": 14045000.0,
+ "lease_obligations": 42392000.0,
+ "equity": 3991172000.0,
+ "net_debt": -769154000.0,
+ "ocf_ttm": null,
+ "capex_ttm": null,
+ "fcf_ttm": null,
+ "ttm_quarters": 0,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1790714000.0,
+ "net_income_ttm": 318463000.0,
+ "ebitda_ttm": 604152000.0,
+ "ebit_ttm": 604152000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.020296853852760144,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 453826000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 421325000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 473258000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 442305000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 444798000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.26
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.02
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.83
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.48
+  }
+ ],
+ "eps_ttm": 1.21,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.4655172413793105,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.45833333333333326,
+ "eps_forward_growth": 0.04674380165289249,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7139784851462896
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7205411499436302
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7392627277299063
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7599213212602164
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7674202671774604
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1757216000.0,
+   "eps": 1.7,
+   "net_income": 449020000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1754677000.0,
+   "eps": 1.16,
+   "net_income": 300801000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1759836000.0,
+   "eps": 1.43,
+   "net_income": 342598000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1836332000.0,
+   "eps": 0.36,
+   "net_income": 85555000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0034608027406319852,
+ "fcf_burn_annual": null,
+ "runway_months": null,
+ "need_24m": null,
+ "gap_24m": null,
+ "survival_gate": "UNKNOWN",
+ "net_debt_to_ebitda": -1.2731133886836425,
+ "interest_coverage": null,
+ "cash_to_debt": 1.4118768129795007,
+ "ev": 754015899.5416756,
+ "ev_to_sales": 0.4210699751840191,
+ "ev_to_ebitda": 1.2480566141329923,
+ "pe_ttm": 4.782878700325236,
+ "pe_trailing": 5.1239667,
+ "p_sales": 0.8505936,
+ "p_fcf": null,
+ "p_book": 0.38163474276269616
+}

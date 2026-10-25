@@ -1,0 +1,154 @@
+{
+ "ticker": "CNXC",
+ "fetched": "2026-10-25",
+ "market_cap": 2016479520.0,
+ "shares_out": 61105440.0,
+ "price": 33.0,
+ "long_name": "Concentrix Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "pe_trailing_y": null,
+ "pe_forward": 2.8655784,
+ "peg": 0.4,
+ "p_sales_y": 0.2022655,
+ "eps_trailing_y": -38.36,
+ "eps_forward": 11.516,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-08-31",
+ "cash": 244692000.0,
+ "total_debt": 4375373000.0,
+ "current_debt": 450000000.0,
+ "lease_obligations": null,
+ "equity": 1768739000.0,
+ "net_debt": 4130681000.0,
+ "ocf_ttm": 787098000.0,
+ "capex_ttm": -212086000.0,
+ "fcf_ttm": 575012000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -119458000.0,
+ "stock_issuance_ttm": -119458000.0,
+ "revenue_ttm": 9969468000.0,
+ "net_income_ttm": -2390632000.0,
+ "ebitda_ttm": -1406735000.0,
+ "ebit_ttm": -2049555000.0,
+ "interest_ttm": 278182000.0,
+ "revenue_yoy_last_q": -0.011909378544997185,
+ "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 2453679000.0
+  },
+  {
+   "period": "2026-05-31",
+   "value": 2462473000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 2500391000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 2552925000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 2483253000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": -16.24
+  },
+  {
+   "period": "2026-05-31",
+   "value": 0.86
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.33
+  },
+  {
+   "period": "2025-11-30",
+   "value": -23.85
+  },
+  {
+   "period": "2025-08-31",
+   "value": 1.34
+  }
+ ],
+ "eps_ttm": -38.9,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -6.487870619946092,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -13.119402985074625,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.34596171707872136
+  },
+  {
+   "period": "2026-05-31",
+   "value": 0.33435858992159506
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.3398096537701503
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.3431189713759707
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.3443092588632733
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9825771000.0,
+   "eps": -20.36,
+   "net_income": -1278924000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9618900000.0,
+   "eps": 3.71,
+   "net_income": 251217000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7114706000.0,
+   "eps": 5.7,
+   "net_income": 313842000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6324473000.0,
+   "eps": 8.28,
+   "net_income": 435049000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.02027037888408434,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 450000000.0,
+ "gap_24m": 205308000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": -2.9363604374669,
+ "interest_coverage": -7.367676557074145,
+ "cash_to_debt": 0.05592483200860818,
+ "ev": 6147160520.0,
+ "ev_to_sales": 0.616598651001237,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.2022655,
+ "p_fcf": 3.5068477179606687,
+ "p_book": 1.1400661827437513
+}

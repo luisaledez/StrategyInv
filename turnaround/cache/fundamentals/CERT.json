@@ -1,0 +1,154 @@
+{
+ "ticker": "CERT",
+ "fetched": "2026-10-25",
+ "market_cap": 1575725585.7622147,
+ "shares_out": 152538780.0,
+ "price": 10.329999923706055,
+ "long_name": "Certara, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Health Information Services",
+ "pe_trailing_y": null,
+ "pe_forward": 26.32652,
+ "peg": null,
+ "p_sales_y": 3.7361958,
+ "eps_trailing_y": -0.14,
+ "eps_forward": 0.39238,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 184138000.0,
+ "total_debt": 298784000.0,
+ "current_debt": 2963000.0,
+ "lease_obligations": 6945000.0,
+ "equity": 966515000.0,
+ "net_debt": 114646000.0,
+ "ocf_ttm": 82863000.0,
+ "capex_ttm": -28296000.0,
+ "fcf_ttm": 54567000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -74999000.0,
+ "stock_issuance_ttm": -74999000.0,
+ "revenue_ttm": 408450000.0,
+ "net_income_ttm": -68403000.0,
+ "ebitda_ttm": 78783000.0,
+ "ebit_ttm": 2550000.0,
+ "interest_ttm": 20058000.0,
+ "revenue_yoy_last_q": 0.009907315171726827,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 93271000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 106915000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 103648000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 104616000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 92356000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.01
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.01
+  }
+ ],
+ "eps_ttm": -0.44999999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6234413697719549
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6107375017537297
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6220766440259339
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6203448803242334
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6287734418987396
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 418838000.0,
+   "eps": -0.01,
+   "net_income": -1595000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 385148000.0,
+   "eps": -0.08,
+   "net_income": -12051000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 354337000.0,
+   "eps": -0.35,
+   "net_income": -55357000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 335644000.0,
+   "eps": 0.09,
+   "net_income": 14731000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.05052997888302879,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2963000.0,
+ "gap_24m": -181175000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4552124189228641,
+ "interest_coverage": 0.12713131917439427,
+ "cash_to_debt": 0.616291367676984,
+ "ev": 1690371585.7622147,
+ "ev_to_sales": 4.13850308669902,
+ "ev_to_ebitda": 21.456044905147234,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.7361958,
+ "p_fcf": 28.87689603170808,
+ "p_book": 1.6303167418635145
+}

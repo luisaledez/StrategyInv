@@ -1,0 +1,154 @@
+{
+ "ticker": "CPB",
+ "fetched": "2026-10-25",
+ "market_cap": 6182405049.368992,
+ "shares_out": 298234693.0,
+ "price": 20.729999542236328,
+ "long_name": "The Campbell's Company",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Packaged Foods",
+ "pe_trailing_y": 15.824428,
+ "pe_forward": 11.285748,
+ "peg": 0.54,
+ "p_sales_y": 0.6344833,
+ "eps_trailing_y": 1.31,
+ "eps_forward": 1.83683,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-07-31",
+ "cash": 394000000.0,
+ "total_debt": 7450000000.0,
+ "current_debt": 1083000000.0,
+ "lease_obligations": 391000000.0,
+ "equity": 3850000000.0,
+ "net_debt": 7056000000.0,
+ "ocf_ttm": 1039000000.0,
+ "capex_ttm": -361000000.0,
+ "fcf_ttm": 678000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -26000000.0,
+ "stock_issuance_ttm": -26000000.0,
+ "revenue_ttm": 9744000000.0,
+ "net_income_ttm": 403000000.0,
+ "ebitda_ttm": 1273000000.0,
+ "ebit_ttm": 860000000.0,
+ "interest_ttm": 331000000.0,
+ "revenue_yoy_last_q": -0.07927617406290388,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2137000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2366000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2564000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2677000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2321000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": -0.23
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.41
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.65
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.48
+  }
+ ],
+ "eps_ttm": 1.31,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.34825870646766155,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.4791666666666667,
+ "eps_forward_growth": 0.40216030534351144,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.27281235376696306
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.27472527472527475
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.2796411856474259
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.2958535674262234
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.3037483843171047
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 9744000000.0,
+   "eps": 1.31,
+   "net_income": 403000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 10253000000.0,
+   "eps": 2.01,
+   "net_income": 602000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9636000000.0,
+   "eps": 1.89,
+   "net_income": 567000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9357000000.0,
+   "eps": 2.85,
+   "net_income": 858000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0002558313727678563,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1083000000.0,
+ "gap_24m": 689000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 5.542812254516889,
+ "interest_coverage": 2.598187311178248,
+ "cash_to_debt": 0.05288590604026846,
+ "ev": 13238405049.368992,
+ "ev_to_sales": 1.3586212078580657,
+ "ev_to_ebitda": 10.399375529747834,
+ "pe_ttm": 15.340955457491296,
+ "pe_trailing": 15.824428,
+ "p_sales": 0.6344833,
+ "p_fcf": 9.11859151824335,
+ "p_book": 1.6058194933425953
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "MNDY",
+ "fetched": "2026-10-25",
+ "market_cap": 4503461845.465851,
+ "shares_out": 42274119.0,
+ "price": 106.52999877929688,
+ "long_name": "monday.com Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 44.949368,
+ "pe_forward": 15.899596,
+ "peg": 0.28,
+ "p_sales_y": 3.295331,
+ "eps_trailing_y": 2.37,
+ "eps_forward": 6.70017,
+ "earnings_growth_y": 1.639,
+ "earnings_growth_q_y": 1.2,
+ "bs_date": "2026-06-30",
+ "cash": 1072755000.0,
+ "total_debt": 237488000.0,
+ "current_debt": 27512000.0,
+ "lease_obligations": 237488000.0,
+ "equity": 617975000.0,
+ "net_debt": -835267000.0,
+ "ocf_ttm": 314878000.0,
+ "capex_ttm": -20295000.0,
+ "fcf_ttm": 294583000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -734971000.0,
+ "stock_issuance_ttm": -734971000.0,
+ "revenue_ttm": 1366619000.0,
+ "net_income_ttm": 121238000.0,
+ "ebitda_ttm": 54648000.0,
+ "ebit_ttm": 39653000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.21941113125137957,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 364621000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 351265000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 333878000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 316855000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 299014000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.57
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.45
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.25
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.03
+  }
+ ],
+ "eps_ttm": 2.3499999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.612903225806452,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.666666666666667,
+ "eps_forward_growth": 1.8511361702127664,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.882999059297188
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8914665565883307
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8881837078214198
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8870524372346973
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8957473563110757
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1231997000.0,
+   "eps": 2.24,
+   "net_income": 118742000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 971995000.0,
+   "eps": 0.62,
+   "net_income": 32372000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 729695000.0,
+   "eps": -0.04,
+   "net_income": -1877000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 519029000.0,
+   "eps": -2.99,
+   "net_income": -136867000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.17996275255976246,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 27512000.0,
+ "gap_24m": -1045243000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -15.284493485580443,
+ "interest_coverage": null,
+ "cash_to_debt": 4.517091389880751,
+ "ev": 3668194845.465851,
+ "ev_to_sales": 2.684138626395397,
+ "ev_to_ebitda": 67.12404562776041,
+ "pe_ttm": 37.145629633166585,
+ "pe_trailing": 44.949368,
+ "p_sales": 3.295331,
+ "p_fcf": 15.287582261929069,
+ "p_book": 7.287449889503379
+}

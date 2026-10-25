@@ -1,0 +1,154 @@
+{
+ "ticker": "ACIW",
+ "fetched": "2026-10-25",
+ "market_cap": 5641378974.911831,
+ "shares_out": 100955241.0,
+ "price": 55.880001068115234,
+ "long_name": "ACI Worldwide, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 25.515982,
+ "pe_forward": 14.319027,
+ "peg": 1.78,
+ "p_sales_y": 3.0994358,
+ "eps_trailing_y": 2.19,
+ "eps_forward": 3.9025,
+ "earnings_growth_y": 1.652,
+ "earnings_growth_q_y": 1.606,
+ "bs_date": "2026-06-30",
+ "cash": 167398000.0,
+ "total_debt": 849464000.0,
+ "current_debt": 49698000.0,
+ "lease_obligations": 27287000.0,
+ "equity": 1496744000.0,
+ "net_debt": 682066000.0,
+ "ocf_ttm": 329849000.0,
+ "capex_ttm": -45108000.0,
+ "fcf_ttm": 284741000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -175621000.0,
+ "stock_issuance_ttm": -172070000.0,
+ "revenue_ttm": 1820131000.0,
+ "net_income_ttm": 225690000.0,
+ "ebitda_ttm": 467019000.0,
+ "ebit_ttm": 359323000.0,
+ "interest_ttm": 52814000.0,
+ "revenue_yoy_last_q": 0.07268390910586198,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 430423000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 425749000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 481600000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 482359000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 401258000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.31
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.88
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.12
+  }
+ ],
+ "eps_ttm": 2.1799999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.13089005235602102,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.5833333333333335,
+ "eps_forward_growth": 0.7901376146788992,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4218478101774301
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4633950989902501
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5300352990033222
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5374026399424495
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4148403271710471
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1759782000.0,
+   "eps": 2.16,
+   "net_income": 226658000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1594288000.0,
+   "eps": 1.91,
+   "net_income": 203118000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1452579000.0,
+   "eps": 1.12,
+   "net_income": 121509000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1421901000.0,
+   "eps": 1.24,
+   "net_income": 142177000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02116789790723339,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 49698000.0,
+ "gap_24m": -117700000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4604673471528995,
+ "interest_coverage": 6.803555875336085,
+ "cash_to_debt": 0.1970630891950689,
+ "ev": 6323444974.911831,
+ "ev_to_sales": 3.4741702519828688,
+ "ev_to_ebitda": 13.540016519481714,
+ "pe_ttm": 24.996140612839874,
+ "pe_trailing": 25.515982,
+ "p_sales": 3.0994358,
+ "p_fcf": 19.812317070291357,
+ "p_book": 3.7691007780300647
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "PTCT",
+ "fetched": "2026-10-25",
+ "market_cap": 5056890005.915108,
+ "shares_out": 83460802.0,
+ "price": 60.59000015258789,
+ "long_name": "PTC Therapeutics, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": 25.565403,
+ "peg": null,
+ "p_sales_y": 5.013006,
+ "eps_trailing_y": -0.65,
+ "eps_forward": 2.37,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2229082000.0,
+ "total_debt": 696468000.0,
+ "current_debt": 73416000.0,
+ "lease_obligations": 105498000.0,
+ "equity": -165363000.0,
+ "net_debt": -1532614000.0,
+ "ocf_ttm": -30503000.0,
+ "capex_ttm": -302053000.0,
+ "fcf_ttm": -332556000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1008754000.0,
+ "net_income_ttm": -38382000.0,
+ "ebitda_ttm": 173515000.0,
+ "ebit_ttm": 118217000.0,
+ "interest_ttm": 185291000.0,
+ "revenue_yoy_last_q": 1.0154800838574425,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 360519000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 272551000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 164677000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 211007000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 178875000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.92
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.03
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.83
+  }
+ ],
+ "eps_ttm": -0.5799999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9447435502705821
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.897164200461565
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9577961706856453
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9252110119569493
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.936156533892383
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1730655000.0,
+   "eps": 8.58,
+   "net_income": 682644000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 806780000.0,
+   "eps": -4.73,
+   "net_income": -363295000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 937822000.0,
+   "eps": -8.37,
+   "net_income": -626604000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 698801000.0,
+   "eps": -7.79,
+   "net_income": -559017000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.04975098624438745,
+ "fcf_burn_annual": 332556000.0,
+ "runway_months": 80.43452531302998,
+ "need_24m": 738528000.0,
+ "gap_24m": -1490554000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -8.832746448433854,
+ "interest_coverage": 0.6380072426615432,
+ "cash_to_debt": 3.2005519277267584,
+ "ev": 3524276005.9151077,
+ "ev_to_sales": 3.4936922241845956,
+ "ev_to_ebitda": 20.311074004639988,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 5.013006,
+ "p_fcf": null,
+ "p_book": null
+}

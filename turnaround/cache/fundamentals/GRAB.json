@@ -1,0 +1,154 @@
+{
+ "ticker": "GRAB",
+ "fetched": "2026-10-25",
+ "market_cap": 11414732423.929214,
+ "shares_out": 4091302000.0,
+ "price": 2.7899999618530273,
+ "long_name": "Grab Holdings Limited",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 25.363636,
+ "pe_forward": 21.096409,
+ "peg": 0.58,
+ "p_sales_y": 3.0594296,
+ "eps_trailing_y": 0.11,
+ "eps_forward": 0.13225,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": 6.229,
+ "bs_date": "2026-06-30",
+ "cash": 6300000000.0,
+ "total_debt": 2033000000.0,
+ "current_debt": 1624000000.0,
+ "lease_obligations": 234000000.0,
+ "equity": 6766000000.0,
+ "net_debt": -4267000000.0,
+ "ocf_ttm": -61000000.0,
+ "capex_ttm": -125000000.0,
+ "fcf_ttm": -186000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -400000000.0,
+ "stock_issuance_ttm": -400000000.0,
+ "revenue_ttm": 3732000000.0,
+ "net_income_ttm": 598000000.0,
+ "ebitda_ttm": 835000000.0,
+ "ebit_ttm": 630000000.0,
+ "interest_ttm": 113000000.0,
+ "revenue_yoy_last_q": 0.21855921855921845,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 998000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 955000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 906000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 873000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 819000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.01
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.01
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.01
+  }
+ ],
+ "eps_ttm": 0.06,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 5.0,
+ "eps_forward_growth": 1.204166666666667,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.437875751503006
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.43350785340314135
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4381898454746137
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43757159221076747
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.43223443223443225
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3370000000.0,
+   "eps": 0.06,
+   "net_income": 268000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2797000000.0,
+   "eps": -0.03,
+   "net_income": -105000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2359000000.0,
+   "eps": -0.11,
+   "net_income": -434000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1433000000.0,
+   "eps": -0.44,
+   "net_income": -1683000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.003615053359875331,
+ "fcf_burn_annual": 186000000.0,
+ "runway_months": 406.4516129032258,
+ "need_24m": 1996000000.0,
+ "gap_24m": -4304000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -5.110179640718563,
+ "interest_coverage": 5.575221238938053,
+ "cash_to_debt": 3.0988686669945893,
+ "ev": 7147732423.9292145,
+ "ev_to_sales": 1.9152552046970028,
+ "ev_to_ebitda": 8.560158591531993,
+ "pe_ttm": 19.08818131091842,
+ "pe_trailing": 25.363636,
+ "p_sales": 3.0594296,
+ "p_fcf": null,
+ "p_book": 1.6870724835839808
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "NICE",
+ "fetched": "2026-10-25",
+ "market_cap": 7100807259.722443,
+ "shares_out": 58597188.0,
+ "price": 121.18000030517578,
+ "long_name": "NICE Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 17.639011,
+ "pe_forward": 9.560734,
+ "peg": 0.81,
+ "p_sales_y": 2.3134148,
+ "eps_trailing_y": 6.87,
+ "eps_forward": 12.67476,
+ "earnings_growth_y": -0.527,
+ "earnings_growth_q_y": -0.556,
+ "bs_date": "2026-06-30",
+ "cash": 354690000.0,
+ "total_debt": 88219000.0,
+ "current_debt": 14032000.0,
+ "lease_obligations": 88219000.0,
+ "equity": 3778005000.0,
+ "net_debt": -266471000.0,
+ "ocf_ttm": 672059000.0,
+ "capex_ttm": -110596000.0,
+ "fcf_ttm": 561463000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -516947000.0,
+ "stock_issuance_ttm": -516947000.0,
+ "revenue_ttm": 3069405000.0,
+ "net_income_ttm": 425448000.0,
+ "ebitda_ttm": 802954000.0,
+ "ebit_ttm": 567747000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07648284327216293,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 782293000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 768617000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 786496000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 731999000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 726712000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.4
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.77
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.41
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.96
+  }
+ ],
+ "eps_ttm": 6.87,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.43047337278106523,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.527027027027027,
+ "eps_forward_growth": 0.8449432314410479,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6404365116395008
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.643752350000065
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6533447086825617
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6681279619234453
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6675423001133874
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2945399000.0,
+   "eps": 9.67,
+   "net_income": 612101000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2735272000.0,
+   "eps": 6.76,
+   "net_income": 442588000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2377508000.0,
+   "eps": 5.11,
+   "net_income": 338301000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2181294000.0,
+   "eps": 4.0,
+   "net_income": 265945000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05095741613251581,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 14032000.0,
+ "gap_24m": -340658000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.3318633446000643,
+ "interest_coverage": null,
+ "cash_to_debt": 4.020562463868328,
+ "ev": 6834336259.722443,
+ "ev_to_sales": 2.226599702457787,
+ "ev_to_ebitda": 8.511491641765833,
+ "pe_ttm": 16.690188365493416,
+ "pe_trailing": 17.639011,
+ "p_sales": 2.3134148,
+ "p_fcf": 12.646972747487265,
+ "p_book": 1.879512403959879
+}

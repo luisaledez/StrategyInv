@@ -19,6 +19,7 @@ import screen_v3 as s3  # noqa: E402
 from screen_v3 import data, screen  # noqa: E402
 
 VARIANT = "both_opval"
+LIVE_OUT = HERE / f"output{data.uni_mod.TAG}"  # output_nasdaq/ under SCAN_UNIVERSE=nasdaq
 
 
 def enrich(rows: list[dict], tables: dict[str, pd.DataFrame], month_end: pd.Timestamp) -> list[dict]:
@@ -114,8 +115,9 @@ def main() -> None:
                                 for r in ref["top20"] if r["oneoff"] or r["acq"]]
     cur["base_rates_12m_2009_2025"] = forward_base_rates(tables)
     tag = today.date().isoformat()
-    (s3.OUT / f"live_{VARIANT}_{tag}.json").write_text(json.dumps(cur, indent=1), encoding="utf-8")
-    pd.DataFrame(cur["top20"]).to_csv(s3.OUT / f"live_{VARIANT}_{tag}.csv", index=False)
+    LIVE_OUT.mkdir(exist_ok=True)
+    (LIVE_OUT / f"live_{VARIANT}_{tag}.json").write_text(json.dumps(cur, indent=1), encoding="utf-8")
+    pd.DataFrame(cur["top20"]).to_csv(LIVE_OUT / f"live_{VARIANT}_{tag}.csv", index=False)
     print(json.dumps({k: v for k, v in cur.items() if k not in ("top20", "top10")}, indent=1))
     cols = ["value_rank", "growth_rank", "ticker", "rev_yoy", "val_pct_op", "ps_pct", "ev_ebitda_pct", "ev_ebit_pct",
             "close", "rsi_m", "rsi_min6", "dd5", "eps_ttm", "eps_1y", "eps_chg_1y", "nd_ebitda", "eps_path"]

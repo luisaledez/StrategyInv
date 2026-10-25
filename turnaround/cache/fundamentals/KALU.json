@@ -1,0 +1,154 @@
+{
+ "ticker": "KALU",
+ "fetched": "2026-10-25",
+ "market_cap": 1753930569.8026123,
+ "shares_out": 16349092.0,
+ "price": 107.27999877929688,
+ "long_name": "Kaiser Aluminum Corporation",
+ "sector_y": "Basic Materials",
+ "industry_y": "Aluminum",
+ "pe_trailing_y": 8.296984,
+ "pe_forward": 9.394597,
+ "peg": 1.17,
+ "p_sales_y": 0.38916564,
+ "eps_trailing_y": 12.93,
+ "eps_forward": 11.41933,
+ "earnings_growth_y": -0.227,
+ "earnings_growth_q_y": -0.215,
+ "bs_date": "2026-06-30",
+ "cash": 58500000.0,
+ "total_debt": 1068900000.0,
+ "current_debt": 9200000.0,
+ "lease_obligations": 30600000.0,
+ "equity": 943800000.0,
+ "net_debt": 1010400000.0,
+ "ocf_ttm": 185900000.0,
+ "capex_ttm": -98900000.0,
+ "fcf_ttm": 87000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4135900000.0,
+ "net_income_ttm": 227000000.0,
+ "ebitda_ttm": 478200000.0,
+ "ebit_ttm": 355300000.0,
+ "interest_ttm": 55300000.0,
+ "revenue_yoy_last_q": 0.5266674766128052,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1256600000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1106800000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 929000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 843500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 823100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 5.72
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.71
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.68
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.38
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.41
+  }
+ ],
+ "eps_ttm": 13.489999999999998,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.3588850174216027,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 3.0567375886524824,
+ "eps_forward_growth": -0.1534966641957004,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.15836383893044723
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.14781351644380195
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13283100107642626
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13598103141671605
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.12185639654962944
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3373000000.0,
+   "eps": 6.77,
+   "net_income": 112500000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3024000000.0,
+   "eps": 2.87,
+   "net_income": 65700000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3087000000.0,
+   "eps": 2.92,
+   "net_income": 67800000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3427900000.0,
+   "eps": -1.86,
+   "net_income": -29600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.0105919003885524,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9200000.0,
+ "gap_24m": -49300000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.112923462986198,
+ "interest_coverage": 6.424954792043399,
+ "cash_to_debt": 0.0547291608195341,
+ "ev": 2764330569.8026123,
+ "ev_to_sales": 0.6683746149091159,
+ "ev_to_ebitda": 5.780699644087437,
+ "pe_ttm": 7.726566386795649,
+ "pe_trailing": 8.296984,
+ "p_sales": 0.38916564,
+ "p_fcf": 20.16012149198405,
+ "p_book": 1.8583710211936981
+}

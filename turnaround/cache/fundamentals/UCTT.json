@@ -1,0 +1,154 @@
+{
+ "ticker": "UCTT",
+ "fetched": "2026-10-25",
+ "market_cap": 2051954940.4625473,
+ "shares_out": 45277029.0,
+ "price": 45.31999969482422,
+ "long_name": "Ultra Clean Holdings, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": null,
+ "pe_forward": 7.2578077,
+ "peg": 0.2,
+ "p_sales_y": 0.93474627,
+ "eps_trailing_y": -0.51,
+ "eps_forward": 6.24431,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 255900000.0,
+ "total_debt": 775900000.0,
+ "current_debt": 21500000.0,
+ "lease_obligations": 176500000.0,
+ "equity": 639800000.0,
+ "net_debt": 520000000.0,
+ "ocf_ttm": -66200000.0,
+ "capex_ttm": -46900000.0,
+ "fcf_ttm": -113100000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -40000000.0,
+ "stock_issuance_ttm": -37800000.0,
+ "revenue_ttm": 2195300000.0,
+ "net_income_ttm": -23400000.0,
+ "ebitda_ttm": 140300000.0,
+ "ebit_ttm": 63500000.0,
+ "interest_ttm": 26700000.0,
+ "revenue_yoy_last_q": 0.24306090979182726,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 644900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 533700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 506700000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 510000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 518800000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.4
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.24
+  },
+  {
+   "period": "2025-06-30",
+   "value": -3.58
+  }
+ ],
+ "eps_ttm": -0.52,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -8.692307692307692,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.16080012405024036
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.15814127787146337
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1525557529109927
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.16117647058823528
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.15323824209714726
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2054000000.0,
+   "eps": -4.0,
+   "net_income": -181200000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2097600000.0,
+   "eps": 0.52,
+   "net_income": 23700000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1734500000.0,
+   "eps": -0.7,
+   "net_income": -31100000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2374300000.0,
+   "eps": 0.88,
+   "net_income": 40400000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.0037157868628803215,
+ "fcf_burn_annual": 113100000.0,
+ "runway_months": 27.151193633952253,
+ "need_24m": 247700000.0,
+ "gap_24m": -8200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.706343549536707,
+ "interest_coverage": 2.3782771535580522,
+ "cash_to_debt": 0.3298105425956953,
+ "ev": 2571954940.4625473,
+ "ev_to_sales": 1.1715733341513903,
+ "ev_to_ebitda": 18.33182423708159,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.93474627,
+ "p_fcf": null,
+ "p_book": 3.2071818387973545
+}

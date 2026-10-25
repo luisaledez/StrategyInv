@@ -1,0 +1,13 @@
+{
+ "as_of": "2026-10-25",
+ "threshold": 42.0,
+ "rsi_period": 14,
+ "lookback": 6,
+ "min_mcap": 1000000000.0,
+ "min_adv": 5000000.0,
+ "min_years": 5.0,
+ "priority_dd": -0.4,
+ "universe": "nasdaq",
+ "tickers_scanned": 989,
+ "qualified": 218
+}

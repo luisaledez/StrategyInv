@@ -1,0 +1,154 @@
+{
+ "ticker": "ICFI",
+ "fetched": "2026-10-25",
+ "market_cap": 1692958676.9649353,
+ "shares_out": 17933884.0,
+ "price": 94.4000015258789,
+ "long_name": "ICF International, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Consulting Services",
+ "pe_trailing_y": 19.544514,
+ "pe_forward": 12.243839,
+ "peg": 1.81,
+ "p_sales_y": 0.929649,
+ "eps_trailing_y": 4.83,
+ "eps_forward": 7.71,
+ "earnings_growth_y": 0.164,
+ "earnings_growth_q_y": 0.139,
+ "bs_date": "2026-06-30",
+ "cash": 4618000.0,
+ "total_debt": 564750000.0,
+ "current_debt": 18520000.0,
+ "lease_obligations": 158522000.0,
+ "equity": 1049929000.0,
+ "net_debt": 560132000.0,
+ "ocf_ttm": 219522000.0,
+ "capex_ttm": -20976000.0,
+ "fcf_ttm": 198546000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -46188000.0,
+ "stock_issuance_ttm": -46188000.0,
+ "revenue_ttm": 1821073000.0,
+ "net_income_ttm": 88546000.0,
+ "ebitda_ttm": 196014000.0,
+ "ebit_ttm": 140760000.0,
+ "interest_ttm": 28548000.0,
+ "revenue_yoy_last_q": -0.0034862597263496387,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 474495000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 437500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 443673000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 465405000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 476155000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.49
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.12
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.94
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.28
+  }
+ ],
+ "eps_ttm": 4.83,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.14948453608247425,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1640625,
+ "eps_forward_growth": 0.5962732919254659,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3722673579279023
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3814011428571429
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3569070013275543
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3757157744330207
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3732608079301908
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1872851000.0,
+   "eps": 4.95,
+   "net_income": 91588000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2019787000.0,
+   "eps": 5.82,
+   "net_income": 110170000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1963238000.0,
+   "eps": 4.35,
+   "net_income": 82612000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1779964000.0,
+   "eps": 3.38,
+   "net_income": 64243000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.026839203863148864,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 18520000.0,
+ "gap_24m": 13902000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.857612211372657,
+ "interest_coverage": 4.930643127364439,
+ "cash_to_debt": 0.008177069499778663,
+ "ev": 2253090676.9649353,
+ "ev_to_sales": 1.237232487091366,
+ "ev_to_ebitda": 11.494539558220001,
+ "pe_ttm": 19.119538736531695,
+ "pe_trailing": 19.544514,
+ "p_sales": 0.929649,
+ "p_fcf": 8.52678309794675,
+ "p_book": 1.6124506294853607
+}

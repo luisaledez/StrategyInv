@@ -1,0 +1,154 @@
+{
+ "ticker": "EAT",
+ "fetched": "2026-10-25",
+ "market_cap": 7651706074.188538,
+ "shares_out": 41881260.0,
+ "price": 182.6999969482422,
+ "long_name": "Brinker International, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Restaurants",
+ "pe_trailing_y": 16.807728,
+ "pe_forward": 12.560672,
+ "peg": 1.63,
+ "p_sales_y": 1.3175786,
+ "eps_trailing_y": 10.87,
+ "eps_forward": 14.5454,
+ "earnings_growth_y": 0.294,
+ "earnings_growth_q_y": 0.225,
+ "bs_date": "2026-06-30",
+ "cash": 110000000.0,
+ "total_debt": 1756000000.0,
+ "current_debt": 142000000.0,
+ "lease_obligations": 1409200000.0,
+ "equity": 443700000.0,
+ "net_debt": 1646000000.0,
+ "ocf_ttm": 789400000.0,
+ "capex_ttm": -231900000.0,
+ "fcf_ttm": 557500000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -443900000.0,
+ "stock_issuance_ttm": -443200000.0,
+ "revenue_ttm": 5807400000.0,
+ "net_income_ttm": 487000000.0,
+ "ebitda_ttm": 840100000.0,
+ "ebit_ttm": 621400000.0,
+ "interest_ttm": 40500000.0,
+ "revenue_yoy_last_q": 0.050550653259456846,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1535800000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1470200000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1452200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1349200000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1461900000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.99
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.87
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.86
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.17
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2.3
+  }
+ ],
+ "eps_ttm": 10.89,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3064903846153846,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.30000000000000027,
+ "eps_forward_growth": 0.3356657483930212,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.18752441724182836
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1918786559651748
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.19501446081806914
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.17017491847020458
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.18551200492509748
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 5807400000.0,
+   "eps": 10.87,
+   "net_income": 487000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5384200000.0,
+   "eps": 8.32,
+   "net_income": 383100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4415100000.0,
+   "eps": 3.4,
+   "net_income": 155300000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4133200000.0,
+   "eps": 2.28,
+   "net_income": 102600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.051685393258426915,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 142000000.0,
+ "gap_24m": 32000000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 1.959290560647542,
+ "interest_coverage": 15.34320987654321,
+ "cash_to_debt": 0.06264236902050115,
+ "ev": 9297706074.188538,
+ "ev_to_sales": 1.6010101033489235,
+ "ev_to_ebitda": 11.067380162109913,
+ "pe_ttm": 15.711922123590426,
+ "pe_trailing": 16.807728,
+ "p_sales": 1.3175786,
+ "p_fcf": 13.725033316930112,
+ "p_book": 17.245224417824065
+}

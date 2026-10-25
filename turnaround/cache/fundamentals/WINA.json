@@ -1,0 +1,154 @@
+{
+ "ticker": "WINA",
+ "fetched": "2026-10-25",
+ "market_cap": 1004765560.2951965,
+ "shares_out": 3592169.0,
+ "price": 279.7099914550781,
+ "long_name": "Winmark Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "pe_trailing_y": 24.974108,
+ "pe_forward": 23.135649,
+ "peg": 1.41,
+ "p_sales_y": 10.9460535,
+ "eps_trailing_y": 11.2,
+ "eps_forward": 12.09,
+ "earnings_growth_y": 0.063,
+ "earnings_growth_q_y": 0.061,
+ "bs_date": "2026-09-30",
+ "cash": 27964200.0,
+ "total_debt": 61844200.0,
+ "current_debt": null,
+ "lease_obligations": 1869500.0,
+ "equity": -37397300.0,
+ "net_debt": 33880000.0,
+ "ocf_ttm": 44071400.0,
+ "capex_ttm": -2568700.0,
+ "fcf_ttm": 41502700.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -8091600.0,
+ "stock_issuance_ttm": -8091600.0,
+ "revenue_ttm": 91792500.0,
+ "net_income_ttm": 41427500.0,
+ "ebitda_ttm": 56698000.0,
+ "ebit_ttm": 55591700.0,
+ "interest_ttm": 2446900.0,
+ "revenue_yoy_last_q": 0.23229899836079326,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 27890500.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 21966000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 20849700.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 21086300.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 22632900.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.21
+  },
+  {
+   "period": "2026-06-30",
+   "value": 2.81
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.5
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.69
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.02
+  }
+ ],
+ "eps_ttm": 11.209999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.03764921946740141,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.0629139072847682,
+ "eps_forward_growth": 0.07850133809099025,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8288808017066743
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.9627378676135846
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9703353045847183
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9627103854161233
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9706931060535768
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 86055700.0,
+   "eps": 11.3,
+   "net_income": 41654100.0
+  },
+  {
+   "year": "2024",
+   "revenue": 81289100.0,
+   "eps": 10.89,
+   "net_income": 39954200.0
+  },
+  {
+   "year": "2023",
+   "revenue": 83243500.0,
+   "eps": 11.04,
+   "net_income": 40178100.0
+  },
+  {
+   "year": "2022",
+   "revenue": 81410800.0,
+   "eps": 10.97,
+   "net_income": 39424900.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.008597099577431155,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -27964200.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.597551941867438,
+ "interest_coverage": 22.71923658506682,
+ "cash_to_debt": 0.45217174771441787,
+ "ev": 1038645560.2951965,
+ "ev_to_sales": 11.315146229759474,
+ "ev_to_ebitda": 18.31891001966906,
+ "pe_ttm": 24.253589048221507,
+ "pe_trailing": 24.974108,
+ "p_sales": 10.9460535,
+ "p_fcf": 24.209643235143655,
+ "p_book": null
+}

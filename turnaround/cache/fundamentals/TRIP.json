@@ -1,0 +1,154 @@
+{
+ "ticker": "TRIP",
+ "fetched": "2026-10-25",
+ "market_cap": 1102845790.3367996,
+ "shares_out": 117199342.0,
+ "price": 9.40999984741211,
+ "long_name": "Tripadvisor, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Travel Services",
+ "pe_trailing_y": 94.1,
+ "pe_forward": 8.79875,
+ "peg": 1.24,
+ "p_sales_y": 0.5982726,
+ "eps_trailing_y": 0.1,
+ "eps_forward": 1.06947,
+ "earnings_growth_y": -0.321,
+ "earnings_growth_q_y": -0.378,
+ "bs_date": "2026-06-30",
+ "cash": 843200000.0,
+ "total_debt": 893900000.0,
+ "current_debt": 21000000.0,
+ "lease_obligations": 69500000.0,
+ "equity": 662500000.0,
+ "net_debt": 50700000.0,
+ "ocf_ttm": 203000000.0,
+ "capex_ttm": -70200000.0,
+ "fcf_ttm": 132800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1788300000.0,
+ "net_income_ttm": 5000000.0,
+ "ebitda_ttm": 179200000.0,
+ "ebit_ttm": 78200000.0,
+ "interest_ttm": 63700000.0,
+ "revenue_yoy_last_q": -0.07163865546218484,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 441900000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 382400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 411000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 553000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 476000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.33
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.28
+  }
+ ],
+ "eps_ttm": 0.009999999999999953,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 6.75,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.3214285714285715,
+ "eps_forward_growth": 105.94700000000049,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.9298483819868748
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9142259414225942
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9148418491484185
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9258589511754068
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.9233193277310925
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1891000000.0,
+   "eps": 0.31,
+   "net_income": 40000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1835000000.0,
+   "eps": 0.04,
+   "net_income": 5000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1788000000.0,
+   "eps": 0.07,
+   "net_income": 10000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1492000000.0,
+   "eps": 0.14,
+   "net_income": 20000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.009118756981189469,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 21000000.0,
+ "gap_24m": -822200000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.28292410714285715,
+ "interest_coverage": 1.227629513343799,
+ "cash_to_debt": 0.9432822463362792,
+ "ev": 1153545790.3367996,
+ "ev_to_sales": 0.6450516078604259,
+ "ev_to_ebitda": 6.437197490718748,
+ "pe_ttm": 220.56915806735992,
+ "pe_trailing": 94.1,
+ "p_sales": 0.5982726,
+ "p_fcf": 8.304561674222889,
+ "p_book": 1.6646728910744146
+}

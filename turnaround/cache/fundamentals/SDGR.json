@@ -1,0 +1,154 @@
+{
+ "ticker": "SDGR",
+ "fetched": "2026-10-25",
+ "market_cap": 1780373889.327835,
+ "shares_out": 74805628.0,
+ "price": 23.799999237060547,
+ "long_name": "Schr\u00f6dinger, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Health Information Services",
+ "pe_trailing_y": null,
+ "pe_forward": -17.62963,
+ "peg": null,
+ "p_sales_y": 6.8731017,
+ "eps_trailing_y": -0.74,
+ "eps_forward": -1.35,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 413739000.0,
+ "total_debt": 107982000.0,
+ "current_debt": 16480000.0,
+ "lease_obligations": 107982000.0,
+ "equity": 328956000.0,
+ "net_debt": -305757000.0,
+ "ocf_ttm": -126870000.0,
+ "capex_ttm": -3401000.0,
+ "fcf_ttm": -130271000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 259035000.0,
+ "net_income_ttm": -54335000.0,
+ "ebitda_ttm": -147579000.0,
+ "ebit_ttm": -153445000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07542139191731034,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 58889000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 58587000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 87235000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 54324000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 54759000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.08
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.81
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.45
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.59
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.82
+  }
+ ],
+ "eps_ttm": -1.77,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5507310363565352
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5043268984587025
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6567662062245658
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5161438774758854
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.477693164593948
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 255869000.0,
+   "eps": -1.41,
+   "net_income": -103265000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 207539000.0,
+   "eps": -2.57,
+   "net_income": -187123000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 216666000.0,
+   "eps": 0.54,
+   "net_income": 40720000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 180955000.0,
+   "eps": -2.1,
+   "net_income": -149186000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.016229075313244135,
+ "fcf_burn_annual": 130271000.0,
+ "runway_months": 38.1118437718295,
+ "need_24m": 277022000.0,
+ "gap_24m": -136717000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0718191612627814,
+ "interest_coverage": null,
+ "cash_to_debt": 3.8315552592098685,
+ "ev": 1474616889.327835,
+ "ev_to_sales": 5.692732215059104,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 6.8731017,
+ "p_fcf": null,
+ "p_book": 5.412194607570116
+}

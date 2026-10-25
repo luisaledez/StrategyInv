@@ -85,6 +85,9 @@ if __name__ == "__main__":
     sys.path.insert(0, str(HERE.parent / "turnaround_backtest"))
     import data  # noqa: E402
     OUT.parent.mkdir(exist_ok=True)
-    res = build(list(data.universe_meta().index))
+    tickers = set(data.universe_meta().index)
+    if data.uni_mod.NASDAQ_CACHE.exists():  # one file serves both universes
+        tickers |= set(data.uni_mod.load(("nasdaq",))["ticker"])
+    res = build(sorted(tickers))
     OUT.write_text(json.dumps(res, separators=(",", ":")), encoding="utf-8")
     print(f"wrote {OUT}: {len(res)} tickers, {sum(1 for v in res.values() if v)} with goodwill data")

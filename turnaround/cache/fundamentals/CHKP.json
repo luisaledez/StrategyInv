@@ -1,0 +1,154 @@
+{
+ "ticker": "CHKP",
+ "fetched": "2026-10-25",
+ "market_cap": 16237063700.385437,
+ "shares_out": 102100634.0,
+ "price": 159.02999877929688,
+ "long_name": "Check Point Software Technologies Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 16.277378,
+ "pe_forward": 14.100529,
+ "peg": 1.41,
+ "p_sales_y": 5.87363,
+ "eps_trailing_y": 9.77,
+ "eps_forward": 11.2783,
+ "earnings_growth_y": 0.016,
+ "earnings_growth_q_y": -0.044,
+ "bs_date": "2026-06-30",
+ "cash": 2279500000.0,
+ "total_debt": 1974900000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 2737100000.0,
+ "net_debt": -304600000.0,
+ "ocf_ttm": 1131100000.0,
+ "capex_ttm": -31400000.0,
+ "fcf_ttm": 1099700000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1399900000.0,
+ "stock_issuance_ttm": -1399900000.0,
+ "revenue_ttm": 2764400000.0,
+ "net_income_ttm": 1048600000.0,
+ "ebitda_ttm": 1000200000.0,
+ "ebit_ttm": 918200000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.012627781118460524,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 673600000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 668400000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 744900000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 677500000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 665200000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.87
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.81
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.81
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3.28
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.84
+  }
+ ],
+ "eps_ttm": 9.77,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.28954423592493295,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.016304347826086918,
+ "eps_forward_growth": 0.15438075742067547,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.8522862232779097
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8538300418910831
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8684387166062558
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8693726937269373
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8628983764281419
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2725400000.0,
+   "eps": 9.62,
+   "net_income": 1056900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2565000000.0,
+   "eps": 7.46,
+   "net_income": 845700000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2414700000.0,
+   "eps": 7.1,
+   "net_income": 840300000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2329900000.0,
+   "eps": 6.31,
+   "net_income": 796900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.04005513667469662,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -2279500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.30453909218156366,
+ "interest_coverage": null,
+ "cash_to_debt": 1.1542356575016457,
+ "ev": 15932463700.385437,
+ "ev_to_sales": 5.763443676886643,
+ "ev_to_ebitda": 15.929277844816474,
+ "pe_ttm": 15.484516212459887,
+ "pe_trailing": 16.277378,
+ "p_sales": 5.87363,
+ "p_fcf": 14.7649938168459,
+ "p_book": 5.932214278026173
+}

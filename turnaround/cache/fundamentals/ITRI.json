@@ -1,0 +1,154 @@
+{
+ "ticker": "ITRI",
+ "fetched": "2026-10-25",
+ "market_cap": 3837908967.263283,
+ "shares_out": 43786753.0,
+ "price": 87.6500015258789,
+ "long_name": "Itron, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Scientific & Technical Instruments",
+ "pe_trailing_y": 14.657191,
+ "pe_forward": 12.530308,
+ "peg": 0.68,
+ "p_sales_y": 1.6663623,
+ "eps_trailing_y": 5.98,
+ "eps_forward": 6.99504,
+ "earnings_growth_y": -0.19,
+ "earnings_growth_q_y": -0.22,
+ "bs_date": "2026-03-31",
+ "cash": 712850000.0,
+ "total_debt": 1602113000.0,
+ "current_debt": 459522000.0,
+ "lease_obligations": 28278000.0,
+ "equity": 1607221000.0,
+ "net_debt": 889263000.0,
+ "ocf_ttm": 419336000.0,
+ "capex_ttm": -24779000.0,
+ "fcf_ttm": 394557000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -200000000.0,
+ "stock_issuance_ttm": -194198000.0,
+ "revenue_ttm": 2347025000.0,
+ "net_income_ttm": 289040000.0,
+ "ebitda_ttm": 405835000.0,
+ "ebit_ttm": 349850000.0,
+ "interest_ttm": 22667000.0,
+ "revenue_yoy_last_q": -0.033219083885227874,
+ "revenue_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 586982000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 571657000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 581625000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 606761000.0
+  },
+  {
+   "period": "2025-03-31",
+   "value": 607151000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.21
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.41
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.47
+  }
+ ],
+ "eps_ttm": 5.99,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.254826254826255,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.19047619047619047,
+ "eps_forward_growth": 0.16778631051752924,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-03-31",
+   "value": 0.40260007972987244
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4053759509636023
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3774683000214915
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3685437923663518
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.35776767229239514
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2367194000.0,
+   "eps": 6.5,
+   "net_income": 301055000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2440837000.0,
+   "eps": 5.18,
+   "net_income": 239105000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2173633000.0,
+   "eps": 2.11,
+   "net_income": 96923000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1795564000.0,
+   "eps": -0.22,
+   "net_income": -9732000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.027429123145791268,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 459522000.0,
+ "gap_24m": -253328000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.1911934653245777,
+ "interest_coverage": 15.434331848061058,
+ "cash_to_debt": 0.44494364629710886,
+ "ev": 4727171967.263283,
+ "ev_to_sales": 2.014112319750869,
+ "ev_to_ebitda": 11.648014506543996,
+ "pe_ttm": 13.278124021807649,
+ "pe_trailing": 14.657191,
+ "p_sales": 1.6663623,
+ "p_fcf": 9.727134399499395,
+ "p_book": 2.387916140507922
+}

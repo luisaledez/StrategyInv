@@ -1,0 +1,154 @@
+{
+ "ticker": "VISN",
+ "fetched": "2026-10-25",
+ "market_cap": 1406821091.2057514,
+ "shares_out": 230626412.0,
+ "price": 6.099999904632568,
+ "long_name": "Vistance Networks, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Communication Equipment",
+ "pe_trailing_y": 32.105263,
+ "pe_forward": 8.76613,
+ "peg": 2.94,
+ "p_sales_y": 0.7069808,
+ "eps_trailing_y": 0.19,
+ "eps_forward": 0.69586,
+ "earnings_growth_y": 16.967,
+ "earnings_growth_q_y": 8.283,
+ "bs_date": "2026-06-30",
+ "cash": 113600000.0,
+ "total_debt": 8800000.0,
+ "current_debt": 8800000.0,
+ "lease_obligations": 8800000.0,
+ "equity": 2505800000.0,
+ "net_debt": -104800000.0,
+ "ocf_ttm": 133300000.0,
+ "capex_ttm": -46400000.0,
+ "fcf_ttm": 86900000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1278700000.0,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 222700000.0,
+ "net_income_ttm": 7271100000.0,
+ "ebitda_ttm": -107700000.0,
+ "ebit_ttm": -294000000.0,
+ "interest_ttm": 329100000.0,
+ "revenue_yoy_last_q": -0.013884603517432925,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 319600000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 471800000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2198400000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1629700000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 324100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 23.15
+  },
+  {
+   "period": "2025-12-31",
+   "value": 6.05
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.39
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.06
+  }
+ ],
+ "eps_ttm": 30.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 19.166666666666668,
+ "eps_forward_growth": -0.9774071428571428,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3532540675844806
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4953370072064434
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.35125545851528384
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.4097686690801988
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4572662758407899
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1931600000.0,
+   "eps": 9.63,
+   "net_income": 2283700000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1382600000.0,
+   "eps": -1.78,
+   "net_income": -315500000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1863800000.0,
+   "eps": -7.44,
+   "net_income": -1506800000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 5788800000.0,
+   "eps": -6.49,
+   "net_income": -1286900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.03881387633518418,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 8800000.0,
+ "gap_24m": -104800000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9730733519034355,
+ "interest_coverage": -0.8933454876937101,
+ "cash_to_debt": 12.909090909090908,
+ "ev": 1302021091.2057514,
+ "ev_to_sales": 5.846524881929732,
+ "ev_to_ebitda": null,
+ "pe_ttm": 0.1934811914573794,
+ "pe_trailing": 32.105263,
+ "p_sales": 0.7069808,
+ "p_fcf": 16.188965376360777,
+ "p_book": 0.5614259283285783
+}

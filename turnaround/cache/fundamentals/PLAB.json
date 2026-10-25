@@ -1,0 +1,154 @@
+{
+ "ticker": "PLAB",
+ "fetched": "2026-10-25",
+ "market_cap": 1660770228.5443668,
+ "shares_out": 58997167.0,
+ "price": 28.149999618530273,
+ "long_name": "Photronics, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 10.017794,
+ "pe_forward": 13.555356,
+ "peg": 2.64,
+ "p_sales_y": 1.9159256,
+ "eps_trailing_y": 2.81,
+ "eps_forward": 2.07667,
+ "earnings_growth_y": 0.256,
+ "earnings_growth_q_y": 0.263,
+ "bs_date": "2026-07-31",
+ "cash": 672811000.0,
+ "total_debt": 3893000.0,
+ "current_debt": 3889000.0,
+ "lease_obligations": 3893000.0,
+ "equity": 1280694000.0,
+ "net_debt": -668918000.0,
+ "ocf_ttm": 308434000.0,
+ "capex_ttm": -198053000.0,
+ "fcf_ttm": 110381000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 866823000.0,
+ "net_income_ttm": 165085000.0,
+ "ebitda_ttm": 338447000.0,
+ "ebit_ttm": 259258000.0,
+ "interest_ttm": 36000.0,
+ "revenue_yoy_last_q": 0.02686863693831576,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 216047000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 209940000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 225066000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 215770000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 210394000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.49
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.54
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.74
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.07
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.39
+  }
+ ],
+ "eps_ttm": 2.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09090909090909083,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.2564102564102564,
+ "eps_forward_growth": -0.26877816901408447,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.33202960466935433
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.3132180623035153
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.34968409266615125
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.3500672011864485
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.33677291177505064
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 849294000.0,
+   "eps": 2.28,
+   "net_income": 136405000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 866946000.0,
+   "eps": 2.09,
+   "net_income": 130688000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 892076000.0,
+   "eps": 2.03,
+   "net_income": 125485000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 824549000.0,
+   "eps": 1.94,
+   "net_income": 118786000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.010557938423602531,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3889000.0,
+ "gap_24m": -668922000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.9764335331676748,
+ "interest_coverage": 7201.611111111111,
+ "cash_to_debt": 172.825841253532,
+ "ev": 991852228.5443668,
+ "ev_to_sales": 1.1442384760722395,
+ "ev_to_ebitda": 2.930598375947687,
+ "pe_ttm": 10.06009164093871,
+ "pe_trailing": 10.017794,
+ "p_sales": 1.9159256,
+ "p_fcf": 15.045797995527915,
+ "p_book": 1.2967736465887767
+}

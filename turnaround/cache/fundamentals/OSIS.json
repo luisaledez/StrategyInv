@@ -1,0 +1,154 @@
+{
+ "ticker": "OSIS",
+ "fetched": "2026-10-25",
+ "market_cap": 3148219772.5285645,
+ "shares_out": 15941968.0,
+ "price": 197.47999572753906,
+ "long_name": "OSI Systems, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Electronic Components",
+ "pe_trailing_y": 22.064804,
+ "pe_forward": 15.407228,
+ "peg": 1.46,
+ "p_sales_y": 1.7627368,
+ "eps_trailing_y": 8.95,
+ "eps_forward": 12.81736,
+ "earnings_growth_y": 0.078,
+ "earnings_growth_q_y": 0.047,
+ "bs_date": "2026-06-30",
+ "cash": 359832000.0,
+ "total_debt": 1001049000.0,
+ "current_debt": 2531000.0,
+ "lease_obligations": null,
+ "equity": 832961000.0,
+ "net_debt": 641217000.0,
+ "ocf_ttm": 275904000.0,
+ "capex_ttm": -48550000.0,
+ "fcf_ttm": 227354000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -271905000.0,
+ "stock_issuance_ttm": -271905000.0,
+ "revenue_ttm": 1785984000.0,
+ "net_income_ttm": 154711000.0,
+ "ebitda_ttm": 261620000.0,
+ "ebit_ttm": 218970000.0,
+ "interest_ttm": 26224000.0,
+ "revenue_yoy_last_q": -0.04144083487628347,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 484058000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 453246000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 464057000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 384623000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 504985000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.33
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.22
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": 3.03
+  }
+ ],
+ "eps_ttm": 9.0,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.027554535017221493,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.07920792079207928,
+ "eps_forward_growth": 0.42415111111111115,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.34697081754665765
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3316609523305225
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3267464988137233
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.32027465856176046
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.33315445013218214
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1785984000.0,
+   "eps": 8.95,
+   "net_income": 154711000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1713166000.0,
+   "eps": 8.71,
+   "net_income": 149637000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1538758000.0,
+   "eps": 7.38,
+   "net_income": 128154000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1278427000.0,
+   "eps": 5.34,
+   "net_income": 91778000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.051853645836342555,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2531000.0,
+ "gap_24m": -357301000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.450947939759957,
+ "interest_coverage": 8.349984746796828,
+ "cash_to_debt": 0.3594549317765664,
+ "ev": 3789436772.5285645,
+ "ev_to_sales": 2.1217641213631055,
+ "ev_to_ebitda": 14.484507195659981,
+ "pe_ttm": 20.349036413238647,
+ "pe_trailing": 22.064804,
+ "p_sales": 1.7627368,
+ "p_fcf": 13.847215234957662,
+ "p_book": 3.779552431060475
+}

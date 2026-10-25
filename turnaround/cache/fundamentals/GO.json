@@ -1,0 +1,154 @@
+{
+ "ticker": "GO",
+ "fetched": "2026-10-25",
+ "market_cap": 1317823762.498867,
+ "shares_out": 99084492.0,
+ "price": 13.300000190734863,
+ "long_name": "Grocery Outlet Holding Corp.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Grocery Stores",
+ "pe_trailing_y": null,
+ "pe_forward": 19.763433,
+ "peg": null,
+ "p_sales_y": 0.27787325,
+ "eps_trailing_y": -3.88,
+ "eps_forward": 0.67296,
+ "earnings_growth_y": 0.136,
+ "earnings_growth_q_y": 0.134,
+ "bs_date": "2026-06-30",
+ "cash": 74199000.0,
+ "total_debt": 1850872000.0,
+ "current_debt": 107201000.0,
+ "lease_obligations": 1345270000.0,
+ "equity": 816593000.0,
+ "net_debt": 1776673000.0,
+ "ocf_ttm": 185278000.0,
+ "capex_ttm": -190328000.0,
+ "fcf_ttm": -5050000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 4742536000.0,
+ "net_income_ttm": -381252000.0,
+ "ebitda_ttm": -238064000.0,
+ "ebit_ttm": -370492000.0,
+ "interest_ttm": 31082000.0,
+ "revenue_yoy_last_q": 0.011012297291341122,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1192764000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1166352000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1215267000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1168153000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1179772000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.06
+  },
+  {
+   "period": "2026-03-31",
+   "value": -1.83
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.22
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.05
+  }
+ ],
+ "eps_ttm": -3.87,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -6.749999999999999,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19999999999999996,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.30242193761716485
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.29596468304594153
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2970696974409739
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3040149706416882
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3057311073665081
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4688759000.0,
+   "eps": -2.3,
+   "net_income": -224912000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4371501000.0,
+   "eps": 0.4,
+   "net_income": 39465000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3969453000.0,
+   "eps": 0.79,
+   "net_income": 79437000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3578101000.0,
+   "eps": 0.65,
+   "net_income": 65052000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.010001672217023971,
+ "fcf_burn_annual": 5050000.0,
+ "runway_months": 176.31445544554455,
+ "need_24m": 117301000.0,
+ "gap_24m": 43102000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": -7.463005746353922,
+ "interest_coverage": -11.919824979087576,
+ "cash_to_debt": 0.04008867171797942,
+ "ev": 3094496762.498867,
+ "ev_to_sales": 0.6524983178828515,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.27787325,
+ "p_fcf": null,
+ "p_book": 1.6138073220060263
+}

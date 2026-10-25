@@ -1,0 +1,154 @@
+{
+ "ticker": "USLM",
+ "fetched": "2026-10-25",
+ "market_cap": 3204777004.465019,
+ "shares_out": 28688363.0,
+ "price": 111.70999908447266,
+ "long_name": "United States Lime & Minerals, Inc.",
+ "sector_y": "Basic Materials",
+ "industry_y": "Building Materials",
+ "pe_trailing_y": 23.92077,
+ "pe_forward": 19.598246,
+ "peg": null,
+ "p_sales_y": 8.502652,
+ "eps_trailing_y": 4.67,
+ "eps_forward": 5.7,
+ "earnings_growth_y": 0.122,
+ "earnings_growth_q_y": 0.119,
+ "bs_date": "2026-06-30",
+ "cash": 402642000.0,
+ "total_debt": 3246000.0,
+ "current_debt": 1556000.0,
+ "lease_obligations": 3246000.0,
+ "equity": 695731000.0,
+ "net_debt": -399396000.0,
+ "ocf_ttm": 162632000.0,
+ "capex_ttm": -70819000.0,
+ "fcf_ttm": 91813000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2627000.0,
+ "stock_issuance_ttm": -2627000.0,
+ "revenue_ttm": 376915000.0,
+ "net_income_ttm": 134423000.0,
+ "ebitda_ttm": 184640000.0,
+ "ebit_ttm": 158714000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.08313118730741498,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 99126000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 87833000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 87940000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 102016000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 91518000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.2
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.06
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.35
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.07
+  }
+ ],
+ "eps_ttm": 4.67,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.23218997361477567,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.12149532710280364,
+ "eps_forward_growth": 0.22055674518201296,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.47133950729374735
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.47535664271970673
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4795883556970662
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5115766154328732
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.45759304180598354
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 372727000.0,
+   "eps": 4.67,
+   "net_income": 134275000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 317721000.0,
+   "eps": 3.79,
+   "net_income": 108839000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 281330000.0,
+   "eps": 2.612,
+   "net_income": 74549000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 236150000.0,
+   "eps": 1.6,
+   "net_income": 45429000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0017059981307661065,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1556000.0,
+ "gap_24m": -401086000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.1631065857885616,
+ "interest_coverage": null,
+ "cash_to_debt": 124.04251386321627,
+ "ev": 2805381004.465019,
+ "ev_to_sales": 7.443007055874718,
+ "ev_to_ebitda": 15.19378793579408,
+ "pe_ttm": 23.84098706668516,
+ "pe_trailing": 23.92077,
+ "p_sales": 8.502652,
+ "p_fcf": 34.905481843148785,
+ "p_book": 4.606344987452075
+}

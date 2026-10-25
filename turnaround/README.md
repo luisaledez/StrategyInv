@@ -46,6 +46,28 @@ python episodes.py                          # the historical study (see below)
 Prices are refreshed when the cache is older than a day (`--refresh` forces
 it); fundamentals when older than a week (`--refresh-fundamentals`).
 
+### Nasdaq universe
+
+`SCAN_UNIVERSE=nasdaq` points the scan, the backtest data loader, the v3 live
+list and the OpportunityScanner2 live lists at every Nasdaq-listed common
+stock with a market cap of $1B or more (Nasdaq's stock screener feed, cached
+to `cache/universe_nasdaq.csv`; `python universe.py nasdaq` rebuilds it).
+Each of them then writes to its `output_nasdaq/` folder and leaves the S&P
+outputs alone. Names outside the S&P lists take their sector from Nasdaq's
+own classification, mapped to GICS names; foreign filers often have no SEC
+quarterly data, so they cannot pass the fundamentals rules.
+
+```
+python universe.py nasdaq                                  # rebuild the Nasdaq list
+SCAN_UNIVERSE=nasdaq python ../turnaround_backtest/data.py prices
+SCAN_UNIVERSE=nasdaq python ../turnaround_backtest/data.py edgar
+python ../turnaround_backtest_v3/goodwill.py               # one table for both universes
+SCAN_UNIVERSE=nasdaq python scan.py
+SCAN_UNIVERSE=nasdaq python ../turnaround_backtest_v3/live_v3.py
+cd ../OpportunityScanner2 && SCAN_UNIVERSE=nasdaq python live.py && SCAN_UNIVERSE=nasdaq python live_weekly.py \
+  && SCAN_UNIVERSE=nasdaq python report.py
+```
+
 ## What the screen computes
 
 | Field | Definition |
@@ -199,6 +221,14 @@ folders; `/doc/<repo path>` renders any Markdown file under `reports/`,
 relative links between those documents are rewritten to open inside the app.
 A ticker page shows its thesis file from `turnaround_backtest_v3/thesis/`
 first and `turnaround/thesis/` second.
+
+Candidates, Watchlist, Top 10 v3, Opportunity 2 and Opportunity 2 weekly
+have an S&P 500+400 / Nasdaq switch in the header (`?u=nasdaq`), which reads
+the scanners' `output_nasdaq/` lists (see "Nasdaq universe" above). The
+tabs keep the choice as you move between them. The v3 base rates and the
+Opportunity 2 tier history stay the S&P studies' in both views, and the v3
+positions report link shows only on the S&P view. Ticker pages look a name
+up in the S&P lists first, then the Nasdaq ones.
 
 The same app is deployed read-only on Vercel at
 https://ll-turnaround-strat.vercel.app (project `ll-turnaround-strat`,

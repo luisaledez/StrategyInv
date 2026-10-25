@@ -1,0 +1,154 @@
+{
+ "ticker": "THRM",
+ "fetched": "2026-10-25",
+ "market_cap": 1557984448.7805557,
+ "shares_out": 54474980.0,
+ "price": 28.600000381469727,
+ "long_name": "Gentherm Incorporated",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 102.14286,
+ "pe_forward": 9.214927,
+ "peg": 1.02,
+ "p_sales_y": 0.9751042,
+ "eps_trailing_y": 0.28,
+ "eps_forward": 3.10366,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 213173000.0,
+ "total_debt": 325080000.0,
+ "current_debt": 9067000.0,
+ "lease_obligations": 51822000.0,
+ "equity": 723118000.0,
+ "net_debt": 111907000.0,
+ "ocf_ttm": 87362000.0,
+ "capex_ttm": -47048000.0,
+ "fcf_ttm": 40314000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1579530000.0,
+ "net_income_ttm": 26574000.0,
+ "ebitda_ttm": 114325000.0,
+ "ebit_ttm": 58291000.0,
+ "interest_ttm": 12136000.0,
+ "revenue_yoy_last_q": 0.10950971766775974,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 416166000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 393706000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 382788000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 386870000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 375090000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.1
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.49
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.02
+  }
+ ],
+ "eps_ttm": 0.87,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.7135922330097088,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 6.000000000000001,
+ "eps_forward_growth": 2.567425287356322,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2317032145826425
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2469533103381711
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.23720963039593718
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2459430816553364
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23930789943746833
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1498602000.0,
+   "eps": 0.59,
+   "net_income": 18285000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1456124000.0,
+   "eps": 2.06,
+   "net_income": 64947000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1469076000.0,
+   "eps": 1.22,
+   "net_income": 40343000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1204656000.0,
+   "eps": 0.73,
+   "net_income": 24441000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.004821685418521016,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9067000.0,
+ "gap_24m": -204106000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.978849770391428,
+ "interest_coverage": 4.803147659854977,
+ "cash_to_debt": 0.6557555063369017,
+ "ev": 1669891448.7805557,
+ "ev_to_sales": 1.057207807879911,
+ "ev_to_ebitda": 14.606529182423404,
+ "pe_ttm": 58.628149649302166,
+ "pe_trailing": 102.14286,
+ "p_sales": 0.9751042,
+ "p_fcf": 38.64623824925722,
+ "p_book": 2.154536948023083
+}

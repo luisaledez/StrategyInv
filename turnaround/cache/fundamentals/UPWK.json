@@ -1,0 +1,154 @@
+{
+ "ticker": "UPWK",
+ "fetched": "2026-10-25",
+ "market_cap": 1184083843.023777,
+ "shares_out": 124903365.0,
+ "price": 9.479999542236328,
+ "long_name": "Upwork Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": 12.311688,
+ "pe_forward": 6.947243,
+ "peg": 0.85,
+ "p_sales_y": 1.5040148,
+ "eps_trailing_y": 0.77,
+ "eps_forward": 1.36457,
+ "earnings_growth_y": -0.159,
+ "earnings_growth_q_y": -0.224,
+ "bs_date": "2026-06-30",
+ "cash": 614244000.0,
+ "total_debt": 376828000.0,
+ "current_debt": 362461000.0,
+ "lease_obligations": 16137000.0,
+ "equity": 611266000.0,
+ "net_debt": -237416000.0,
+ "ocf_ttm": 208673000.0,
+ "capex_ttm": -33126000.0,
+ "fcf_ttm": 175547000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -174762000.0,
+ "stock_issuance_ttm": -174762000.0,
+ "revenue_ttm": 787282000.0,
+ "net_income_ttm": 101834000.0,
+ "ebitda_ttm": 152948000.0,
+ "ebit_ttm": 118907000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.01682064645863579,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 191660000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 195483000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 198409000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 201730000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 194939000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.2
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.12
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.21
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.24
+  }
+ ],
+ "eps_ttm": 0.77,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.44736842105263164,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.16666666666666663,
+ "eps_forward_growth": 0.7721688311688313,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7637065637065638
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7716374313878956
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7798940572252266
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7727507063897289
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7772020991181857
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 787784000.0,
+   "eps": 0.84,
+   "net_income": 115425000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 769325000.0,
+   "eps": 1.52,
+   "net_income": 215586000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 689136000.0,
+   "eps": 0.06,
+   "net_income": 46887000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 618318000.0,
+   "eps": -0.69,
+   "net_income": -89885000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.05817429547791675,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 362461000.0,
+ "gap_24m": -251783000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.5522661296649842,
+ "interest_coverage": null,
+ "cash_to_debt": 1.6300381075716242,
+ "ev": 946667843.023777,
+ "ev_to_sales": 1.2024507648133413,
+ "ev_to_ebitda": 6.189475135495574,
+ "pe_ttm": 11.627588457919526,
+ "pe_trailing": 12.311688,
+ "p_sales": 1.5040148,
+ "p_fcf": 6.745110101703686,
+ "p_book": 1.9371007761331025
+}

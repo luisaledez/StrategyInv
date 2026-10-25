@@ -1,0 +1,154 @@
+{
+ "ticker": "BLKB",
+ "fetched": "2026-10-25",
+ "market_cap": 2520966028.935875,
+ "shares_out": 45390097.0,
+ "price": 55.540000915527344,
+ "long_name": "Blackbaud, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 17.35625,
+ "pe_forward": 9.303183,
+ "peg": 0.59,
+ "p_sales_y": 2.1957033,
+ "eps_trailing_y": 3.2,
+ "eps_forward": 5.97,
+ "earnings_growth_y": 0.436,
+ "earnings_growth_q_y": 0.336,
+ "bs_date": "2026-06-30",
+ "cash": 34388000.0,
+ "total_debt": 1150007000.0,
+ "current_debt": 22595000.0,
+ "lease_obligations": 6164000.0,
+ "equity": 67030000.0,
+ "net_debt": 1115619000.0,
+ "ocf_ttm": 339734000.0,
+ "capex_ttm": -63149000.0,
+ "fcf_ttm": 276585000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -225584000.0,
+ "stock_issuance_ttm": -225584000.0,
+ "revenue_ttm": 1148136000.0,
+ "net_income_ttm": 150678000.0,
+ "ebitda_ttm": 321494000.0,
+ "ebit_ttm": 237332000.0,
+ "interest_ttm": 66229000.0,
+ "revenue_yoy_last_q": 0.030376201113356815,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 290597000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 281140000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 295256000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 281143000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 282030000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.79
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.67
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.76
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.98
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.55
+  }
+ ],
+ "eps_ttm": 3.1999999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 0.4363636363636363,
+ "eps_forward_growth": 0.8656250000000001,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6130930463838237
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5924414882265063
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5835071937572818
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5957466485027193
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.5970889621671454
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1128365000.0,
+   "eps": 2.37,
+   "net_income": 114970000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1154624000.0,
+   "eps": -5.6,
+   "net_income": -299524000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1107080000.0,
+   "eps": 0.03,
+   "net_income": 3018000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1058105000.0,
+   "eps": -0.88,
+   "net_income": -45407000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.06170154879611023,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 22595000.0,
+ "gap_24m": -11793000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.4701083068424294,
+ "interest_coverage": 3.5835057150191005,
+ "cash_to_debt": 0.029902426680881073,
+ "ev": 3636585028.935875,
+ "ev_to_sales": 3.1673817639512,
+ "ev_to_ebitda": 11.311517567780037,
+ "pe_ttm": 16.730816900515503,
+ "pe_trailing": 17.35625,
+ "p_sales": 2.1957033,
+ "p_fcf": 9.114615864692137,
+ "p_book": 37.60951855789758
+}

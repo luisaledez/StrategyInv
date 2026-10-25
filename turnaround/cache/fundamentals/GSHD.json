@@ -1,0 +1,133 @@
+{
+ "ticker": "GSHD",
+ "fetched": "2026-10-25",
+ "market_cap": 1154436042.5,
+ "shares_out": 23802805.0,
+ "price": 48.5,
+ "long_name": "Goosehead Insurance, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance Brokers",
+ "pe_trailing_y": 35.40146,
+ "pe_forward": 18.491829,
+ "peg": null,
+ "p_sales_y": 4.315519,
+ "eps_trailing_y": 1.37,
+ "eps_forward": 2.62278,
+ "earnings_growth_y": 1.222,
+ "earnings_growth_q_y": 0.954,
+ "bs_date": "2026-06-30",
+ "cash": 23655000.0,
+ "total_debt": 372837000.0,
+ "current_debt": 12298000.0,
+ "lease_obligations": 55465000.0,
+ "equity": -112402000.0,
+ "net_debt": 349182000.0,
+ "ocf_ttm": 86154000.0,
+ "capex_ttm": -25379000.0,
+ "fcf_ttm": 60775000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -80191000.0,
+ "stock_issuance_ttm": -78105000.0,
+ "revenue_ttm": 402158000.0,
+ "net_income_ttm": 35293000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 93498000.0,
+ "interest_ttm": 22853000.0,
+ "revenue_yoy_last_q": 0.20591957629191615,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 113389000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 93076000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 105258000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 90435000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 94027000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.19
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.29
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.18
+  }
+ ],
+ "eps_ttm": 1.37,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.09565217391304337,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.2777777777777777,
+ "eps_forward_growth": 0.9144379562043794,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 365304000.0,
+   "eps": 1.04,
+   "net_income": 27831000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 314505000.0,
+   "eps": 1.15,
+   "net_income": 30426000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 261276000.0,
+   "eps": 0.55,
+   "net_income": 14140000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 209390000.0,
+   "eps": 0.03,
+   "net_income": 565000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0610626799731766,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 12298000.0,
+ "gap_24m": -11357000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 4.091279044326784,
+ "cash_to_debt": 0.06344595627579881,
+ "ev": 1503618042.5,
+ "ev_to_sales": 3.738873881658453,
+ "ev_to_ebitda": null,
+ "pe_ttm": 32.71005702263905,
+ "pe_trailing": 35.40146,
+ "p_sales": 4.315519,
+ "p_fcf": 18.995245454545454,
+ "p_book": null
+}

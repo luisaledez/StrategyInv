@@ -1,0 +1,154 @@
+{
+ "ticker": "DKNG",
+ "fetched": "2026-10-25",
+ "market_cap": 10380854067.927124,
+ "shares_out": 496454048.0,
+ "price": 20.90999984741211,
+ "long_name": "DraftKings Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Gambling",
+ "pe_trailing_y": null,
+ "pe_forward": 12.251714,
+ "peg": 0.06,
+ "p_sales_y": 1.668271,
+ "eps_trailing_y": -0.35,
+ "eps_forward": 1.7067,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 983882000.0,
+ "total_debt": 1916009000.0,
+ "current_debt": 9735000.0,
+ "lease_obligations": 81014000.0,
+ "equity": 569428000.0,
+ "net_debt": 932127000.0,
+ "ocf_ttm": 670951000.0,
+ "capex_ttm": -173578000.0,
+ "fcf_ttm": 497373000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -682392000.0,
+ "stock_issuance_ttm": -664062000.0,
+ "revenue_ttm": 6222523000.0,
+ "net_income_ttm": -166902000.0,
+ "ebitda_ttm": 109619000.0,
+ "ebit_ttm": -182457000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.04579945745705638,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1443235000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1646076000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1989193000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1144019000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1512507000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.03
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.25
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.52
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3
+  }
+ ],
+ "eps_ttm": -0.38,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": -1.4666666666666668,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3820950850000173
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4232435197402793
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.459828181579163
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3146276416737834
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4350049289028084
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6054525000.0,
+   "eps": 0.01,
+   "net_income": 3710000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4767699000.0,
+   "eps": -1.05,
+   "net_income": -507285000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3665393000.0,
+   "eps": -1.73,
+   "net_income": -802142000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2240461000.0,
+   "eps": -3.16,
+   "net_income": -1377987000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.00014716228774869222,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 9735000.0,
+ "gap_24m": -974147000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 8.5033342759923,
+ "interest_coverage": null,
+ "cash_to_debt": 0.513505938646426,
+ "ev": 11312981067.927124,
+ "ev_to_sales": 1.8180697874362415,
+ "ev_to_ebitda": 103.2027391960073,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.668271,
+ "p_fcf": 20.87136629436484,
+ "p_book": 18.23031896557093
+}

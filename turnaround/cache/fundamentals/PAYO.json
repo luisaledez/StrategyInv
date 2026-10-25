@@ -1,0 +1,142 @@
+{
+ "ticker": "PAYO",
+ "fetched": "2026-10-25",
+ "market_cap": 2422783509.715334,
+ "shares_out": 338850836.0,
+ "price": 7.150000095367432,
+ "long_name": "Payoneer Global Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 51.07143,
+ "pe_forward": 17.861605,
+ "peg": null,
+ "p_sales_y": 2.2404222,
+ "eps_trailing_y": 0.14,
+ "eps_forward": 0.4003,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 346320000.0,
+ "total_debt": 86162000.0,
+ "current_debt": 10364000.0,
+ "lease_obligations": 86162000.0,
+ "equity": 653530000.0,
+ "net_debt": -260158000.0,
+ "ocf_ttm": 222098000.0,
+ "capex_ttm": -106290000.0,
+ "fcf_ttm": 115808000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -216515000.0,
+ "stock_issuance_ttm": -216515000.0,
+ "revenue_ttm": 862446000.0,
+ "net_income_ttm": 50267000.0,
+ "ebitda_ttm": 188047000.0,
+ "ebit_ttm": 112225000.0,
+ "interest_ttm": 18736000.0,
+ "revenue_yoy_last_q": 0.09824500692109939,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 222153000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 210058000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 218916000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 211319000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 202280000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.06
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.05
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.05
+  }
+ ],
+ "eps_ttm": 0.14,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.3870967741935484,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.2,
+ "eps_forward_growth": 1.859285714285714,
+ "gross_margin_quarters": [
+  {
+   "period": "2025-09-30",
+   "value": 0.7989627056724667
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7994561993276647
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 821160000.0,
+   "eps": 0.19,
+   "net_income": 73192000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 720870000.0,
+   "eps": 0.31,
+   "net_income": 121163000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 600469000.0,
+   "eps": 0.24,
+   "net_income": 93333000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 572331000.0,
+   "eps": -0.03,
+   "net_income": -11970000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.06491012548875863,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 10364000.0,
+ "gap_24m": -335956000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.3834732806160162,
+ "interest_coverage": 5.989805721605466,
+ "cash_to_debt": 4.019405306283512,
+ "ev": 2162625509.715334,
+ "ev_to_sales": 2.507548889687394,
+ "ev_to_ebitda": 11.500452066320303,
+ "pe_ttm": 48.19829131866501,
+ "pe_trailing": 51.07143,
+ "p_sales": 2.2404222,
+ "p_fcf": 20.920692091352358,
+ "p_book": 3.7072261559765183
+}

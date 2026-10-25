@@ -1,0 +1,154 @@
+{
+ "ticker": "MMSI",
+ "fetched": "2026-10-25",
+ "market_cap": 5570982368.221741,
+ "shares_out": 59710420.0,
+ "price": 93.30000305175781,
+ "long_name": "Merit Medical Systems, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Instruments & Supplies",
+ "pe_trailing_y": 38.39506,
+ "pe_forward": 20.23203,
+ "peg": 1.69,
+ "p_sales_y": 3.528589,
+ "eps_trailing_y": 2.43,
+ "eps_forward": 4.6115,
+ "earnings_growth_y": 0.204,
+ "earnings_growth_q_y": 0.191,
+ "bs_date": "2026-06-30",
+ "cash": 448699000.0,
+ "total_debt": 820121000.0,
+ "current_debt": 10921000.0,
+ "lease_obligations": 83863000.0,
+ "equity": 1679804000.0,
+ "net_debt": 371422000.0,
+ "ocf_ttm": 283449000.0,
+ "capex_ttm": -83685000.0,
+ "fcf_ttm": 199764000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 12822000.0,
+ "revenue_ttm": 1578813000.0,
+ "net_income_ttm": 145559000.0,
+ "ebitda_ttm": 362109000.0,
+ "ebit_ttm": 226222000.0,
+ "interest_ttm": 31762000.0,
+ "revenue_yoy_last_q": 0.09512317563574935,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 418843000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 381877000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 393936000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 384157000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 382462000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.65
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.68
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.63
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.46
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.54
+  }
+ ],
+ "eps_ttm": 2.42,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.049261083743842304,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.20370370370370372,
+ "eps_forward_growth": 0.9055785123966944,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.513715162960823
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48391759650358623
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.49589781081190853
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48524691727600955
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4823668756634646
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1515906000.0,
+   "eps": 2.13,
+   "net_income": 128489000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1356514000.0,
+   "eps": 2.03,
+   "net_income": 120357000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1257366000.0,
+   "eps": 1.62,
+   "net_income": 94411000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1150981000.0,
+   "eps": 1.29,
+   "net_income": 74516000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.008308284643182784,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 10921000.0,
+ "gap_24m": -437778000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0257187752858945,
+ "interest_coverage": 7.12241042755494,
+ "cash_to_debt": 0.5471131698859071,
+ "ev": 5942404368.221741,
+ "ev_to_sales": 3.7638430695856577,
+ "ev_to_ebitda": 16.4105403848613,
+ "pe_ttm": 38.2730189697768,
+ "pe_trailing": 38.39506,
+ "p_sales": 3.528589,
+ "p_fcf": 27.88781946808104,
+ "p_book": 3.316447852381433
+}

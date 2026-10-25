@@ -1,0 +1,133 @@
+{
+ "ticker": "VRDN",
+ "fetched": "2026-10-25",
+ "market_cap": 2534348152.608656,
+ "shares_out": 113292269.0,
+ "price": 22.3700008392334,
+ "long_name": "Viridian Therapeutics, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -8.121198,
+ "peg": null,
+ "p_sales_y": 35.631313,
+ "eps_trailing_y": -3.39,
+ "eps_forward": -2.75452,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 981530000.0,
+ "total_debt": 242881000.0,
+ "current_debt": 722000.0,
+ "lease_obligations": 722000.0,
+ "equity": 662097000.0,
+ "net_debt": -738649000.0,
+ "ocf_ttm": -333343000.0,
+ "capex_ttm": -1696000.0,
+ "fcf_ttm": -335039000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 491003000.0,
+ "revenue_ttm": 71127000.0,
+ "net_income_ttm": -386974000.0,
+ "ebitda_ttm": -370895000.0,
+ "ebit_ttm": -371363000.0,
+ "interest_ttm": 15611000.0,
+ "revenue_yoy_last_q": 2.7866666666666666,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 284000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 141000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 132000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 70570000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 75000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.05
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.9
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.34
+  },
+  {
+   "period": "2025-06-30",
+   "value": -1.0
+  }
+ ],
+ "eps_ttm": -3.37,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 70849000.0,
+   "eps": -3.32,
+   "net_income": -342601000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 302000.0,
+   "eps": -3.07,
+   "net_income": -269949000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 314000.0,
+   "eps": -5.31,
+   "net_income": -237734000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1772000.0,
+   "eps": -4.05,
+   "net_income": -129874000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.38685331527211364,
+ "fcf_burn_annual": 335039000.0,
+ "runway_months": 35.15519088822495,
+ "need_24m": 670800000.0,
+ "gap_24m": -310730000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.9915312959193303,
+ "interest_coverage": -23.788546537697776,
+ "cash_to_debt": 4.041197129458459,
+ "ev": 1795699152.608656,
+ "ev_to_sales": 25.24637834589756,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 35.631313,
+ "p_fcf": null,
+ "p_book": 3.827759607140126
+}

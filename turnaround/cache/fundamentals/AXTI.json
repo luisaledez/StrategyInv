@@ -1,0 +1,154 @@
+{
+ "ticker": "AXTI",
+ "fetched": "2026-10-25",
+ "market_cap": 3415053001.028137,
+ "shares_out": 65573212.0,
+ "price": 52.08000183105469,
+ "long_name": "AXT, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 1302.0001,
+ "pe_forward": 23.146667,
+ "peg": 12.09,
+ "p_sales_y": 27.209627,
+ "eps_trailing_y": 0.04,
+ "eps_forward": 2.25,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 417198000.0,
+ "total_debt": 86030000.0,
+ "current_debt": 84866000.0,
+ "lease_obligations": 1797000.0,
+ "equity": 887274000.0,
+ "net_debt": -331168000.0,
+ "ocf_ttm": -5761000.0,
+ "capex_ttm": -13804000.0,
+ "fcf_ttm": -19565000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 125509000.0,
+ "net_income_ttm": 4054000.0,
+ "ebitda_ttm": 14683000.0,
+ "ebit_ttm": 5117000.0,
+ "interest_ttm": 1257000.0,
+ "revenue_yoy_last_q": 1.6476577278290865,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 47589000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 26924000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 23041000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 27955000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 17974000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.03
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.08
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.16
+  }
+ ],
+ "eps_ttm": 0.02000000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 111.49999999999994,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4489692996280653
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.29631555489526074
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20945271472592336
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2226435342514756
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.07972627128073885
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 88326000.0,
+   "eps": -0.49,
+   "net_income": -21260000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 99361000.0,
+   "eps": -0.27,
+   "net_income": -11624000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 75795000.0,
+   "eps": -0.42,
+   "net_income": -17881000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 141118000.0,
+   "eps": 0.37,
+   "net_income": 15811000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.4230218325448154,
+ "fcf_burn_annual": 19565000.0,
+ "runway_months": 255.88428315870175,
+ "need_24m": 123996000.0,
+ "gap_24m": -293202000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -22.554518831301504,
+ "interest_coverage": 4.070803500397773,
+ "cash_to_debt": 4.849447867023131,
+ "ev": 3083885001.028137,
+ "ev_to_sales": 24.571026787147833,
+ "ev_to_ebitda": 210.03098828768898,
+ "pe_ttm": 842.3909721332357,
+ "pe_trailing": 1302.0001,
+ "p_sales": 27.209627,
+ "p_fcf": null,
+ "p_book": 3.84892716458291
+}

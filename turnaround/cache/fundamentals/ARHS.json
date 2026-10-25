@@ -1,0 +1,154 @@
+{
+ "ticker": "ARHS",
+ "fetched": "2026-10-25",
+ "market_cap": 1656018721.8033752,
+ "shares_out": 141540064.0,
+ "price": 11.699999809265137,
+ "long_name": "Arhaus, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Specialty Retail",
+ "pe_trailing_y": 23.4,
+ "pe_forward": 20.305449,
+ "peg": null,
+ "p_sales_y": 1.1756586,
+ "eps_trailing_y": 0.5,
+ "eps_forward": 0.5762,
+ "earnings_growth_y": 0.124,
+ "earnings_growth_q_y": 0.131,
+ "bs_date": "2026-06-30",
+ "cash": 226399000.0,
+ "total_debt": 609236000.0,
+ "current_debt": 63126000.0,
+ "lease_obligations": 609236000.0,
+ "equity": 414947000.0,
+ "net_debt": 382837000.0,
+ "ocf_ttm": 115204000.0,
+ "capex_ttm": -74341000.0,
+ "fcf_ttm": 40863000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2159000.0,
+ "stock_issuance_ttm": -2159000.0,
+ "revenue_ttm": 1408588000.0,
+ "net_income_ttm": 69177000.0,
+ "ebitda_ttm": 188765000.0,
+ "ebit_ttm": 93179000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07382649573841849,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 384897000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 314276000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 364845000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 344570000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 358435000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.28
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.09
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.25
+  }
+ ],
+ "eps_ttm": 0.5,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.020408163265306145,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1200000000000001,
+ "eps_forward_growth": 0.1524000000000001,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.4470624608661538
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3641226183354758
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.38145787937343256
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.38721014597904635
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4135394143987055
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1379222000.0,
+   "eps": 0.48,
+   "net_income": 67256000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1271107000.0,
+   "eps": 0.49,
+   "net_income": 68550000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1287704000.0,
+   "eps": 0.89,
+   "net_income": 125239000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1228928000.0,
+   "eps": 0.98,
+   "net_income": 136634000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.005321496609163923,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 63126000.0,
+ "gap_24m": -163273000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.0281143220406324,
+ "interest_coverage": null,
+ "cash_to_debt": 0.37161132959969534,
+ "ev": 2038855721.8033752,
+ "ev_to_sales": 1.4474464653989494,
+ "ev_to_ebitda": 10.801026259123118,
+ "pe_ttm": 23.93886294293443,
+ "pe_trailing": 23.4,
+ "p_sales": 1.1756586,
+ "p_fcf": 40.52611706931393,
+ "p_book": 3.9909162418414286
+}

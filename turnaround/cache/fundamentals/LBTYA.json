@@ -1,0 +1,154 @@
+{
+ "ticker": "LBTYA",
+ "fetched": "2026-10-25",
+ "market_cap": 2680948314.300103,
+ "shares_out": 341087566.0,
+ "price": 7.860000133514404,
+ "long_name": "Liberty Global Ltd.",
+ "sector_y": "Communication Services",
+ "industry_y": "Telecom Services",
+ "pe_trailing_y": null,
+ "pe_forward": -5.5421195,
+ "peg": 0.34,
+ "p_sales_y": 0.5488348,
+ "eps_trailing_y": -8.95,
+ "eps_forward": -1.41823,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 2418600000.0,
+ "total_debt": 9074100000.0,
+ "current_debt": 620400000.0,
+ "lease_obligations": 723800000.0,
+ "equity": 9224600000.0,
+ "net_debt": 6655500000.0,
+ "ocf_ttm": 1271200000.0,
+ "capex_ttm": -1526000000.0,
+ "fcf_ttm": -254800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -90100000.0,
+ "stock_issuance_ttm": -90100000.0,
+ "revenue_ttm": 4884800000.0,
+ "net_income_ttm": -3035200000.0,
+ "ebitda_ttm": -1254400000.0,
+ "ebit_ttm": -2337600000.0,
+ "interest_ttm": 470100000.0,
+ "revenue_yoy_last_q": -0.0765109132456071,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1172000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1274600000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1231100000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1207100000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1269100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.96
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.27
+  },
+  {
+   "period": "2025-06-30",
+   "value": -8.09
+  },
+  {
+   "period": "2025-03-31",
+   "value": -3.84
+  }
+ ],
+ "eps_ttm": -8.47,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -5.93144208037825,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6796928327645051
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6653067629060098
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6678580131589635
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.674509154171154
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6333622251989599
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4878500000.0,
+   "eps": -20.86,
+   "net_income": -7138100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4341900000.0,
+   "eps": 4.23,
+   "net_income": 1588000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4115800000.0,
+   "eps": -9.52,
+   "net_income": -4051700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4017500000.0,
+   "eps": 2.96,
+   "net_income": 1473200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.004065671381197844,
+ "fcf_burn_annual": 254800000.0,
+ "runway_months": 113.90580847723706,
+ "need_24m": 1130000000.0,
+ "gap_24m": -1288600000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -5.305723852040816,
+ "interest_coverage": -4.972559029993619,
+ "cash_to_debt": 0.2665388302972196,
+ "ev": 9336448314.300102,
+ "ev_to_sales": 1.911326628377846,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.5488348,
+ "p_fcf": null,
+ "p_book": 0.29063030530322215
+}

@@ -1,0 +1,133 @@
+{
+ "ticker": "NMIH",
+ "fetched": "2026-10-25",
+ "market_cap": 3200519502.663334,
+ "shares_out": 75217851.0,
+ "price": 42.54999923706055,
+ "long_name": "NMI Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Specialty",
+ "pe_trailing_y": 8.375984,
+ "pe_forward": 7.750074,
+ "peg": null,
+ "p_sales_y": 4.3795877,
+ "eps_trailing_y": 5.08,
+ "eps_forward": 5.49027,
+ "earnings_growth_y": 0.141,
+ "earnings_growth_q_y": 0.1,
+ "bs_date": "2026-06-30",
+ "cash": 627265000.0,
+ "total_debt": 418021000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 2705196000.0,
+ "net_debt": -209244000.0,
+ "ocf_ttm": 448513000.0,
+ "capex_ttm": -6908000.0,
+ "fcf_ttm": 441605000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -115141000.0,
+ "stock_issuance_ttm": -115141000.0,
+ "revenue_ttm": 730781000.0,
+ "net_income_ttm": 395334000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 535203000.0,
+ "interest_ttm": 28482000.0,
+ "revenue_yoy_last_q": 0.08120658997922647,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 187891000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 183475000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 180736000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 178679000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 173779000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.38
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.28
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.2
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.21
+  }
+ ],
+ "eps_ttm": 5.08,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.11060948081264121,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.14049586776859502,
+ "eps_forward_growth": 0.0807618110236219,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 706440000.0,
+   "eps": 4.92,
+   "net_income": 388926000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 650971000.0,
+   "eps": 4.43,
+   "net_income": 360106000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 579003000.0,
+   "eps": 3.84,
+   "net_income": 322110000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 524458000.0,
+   "eps": 3.39,
+   "net_income": 292902000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.030243956468116506,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -627265000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 18.790920581419844,
+ "cash_to_debt": 1.50055858437734,
+ "ev": 2991275502.663334,
+ "ev_to_sales": 4.0932584490611195,
+ "ev_to_ebitda": null,
+ "pe_ttm": 8.095735511398802,
+ "pe_trailing": 8.375984,
+ "p_sales": 4.3795877,
+ "p_fcf": 7.247471162381164,
+ "p_book": 1.1831007818521593
+}

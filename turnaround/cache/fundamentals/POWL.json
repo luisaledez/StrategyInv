@@ -1,0 +1,154 @@
+{
+ "ticker": "POWL",
+ "fetched": "2026-10-25",
+ "market_cap": 5499495424.616638,
+ "shares_out": 36432564.0,
+ "price": 150.9499969482422,
+ "long_name": "Powell Industries, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 28.917625,
+ "pe_forward": 21.598503,
+ "peg": 1.65,
+ "p_sales_y": 4.7510934,
+ "eps_trailing_y": 5.22,
+ "eps_forward": 6.98891,
+ "earnings_growth_y": 0.076,
+ "earnings_growth_q_y": 0.081,
+ "bs_date": "2026-06-30",
+ "cash": 633561000.0,
+ "total_debt": 2524000.0,
+ "current_debt": 947000.0,
+ "lease_obligations": 2524000.0,
+ "equity": 756184000.0,
+ "net_debt": -631037000.0,
+ "ocf_ttm": 256113000.0,
+ "capex_ttm": -12155000.0,
+ "fcf_ttm": 243958000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -14916000.0,
+ "stock_issuance_ttm": -14916000.0,
+ "revenue_ttm": 1157522000.0,
+ "net_income_ttm": 190857000.0,
+ "ebitda_ttm": 236219000.0,
+ "ebit_ttm": 227673000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.08896053766858913,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 311740000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 296615000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 251184000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 297983000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 286273000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1.42
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.25
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.133333
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.406667
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.32
+  }
+ ],
+ "eps_ttm": 5.21,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20911292033255324,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.07575757575757569,
+ "eps_forward_growth": 0.3414414587332053,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.3057002630397126
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.296465114710989
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2843254347410663
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3138635425510851
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.3070460714073629
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1104318000.0,
+   "eps": 4.953333,
+   "net_income": 180747000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1012356000.0,
+   "eps": 4.096667,
+   "net_income": 149848000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 699308000.0,
+   "eps": 1.5,
+   "net_income": 54525000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 532582000.0,
+   "eps": 0.383333,
+   "net_income": 13737000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.006267531106476154,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 947000.0,
+ "gap_24m": -632614000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.671406618434588,
+ "interest_coverage": null,
+ "cash_to_debt": 251.0146592709984,
+ "ev": 4868458424.616638,
+ "ev_to_sales": 4.205931657987182,
+ "ev_to_ebitda": 20.60993579947692,
+ "pe_ttm": 28.814743104086507,
+ "pe_trailing": 28.917625,
+ "p_sales": 4.7510934,
+ "p_fcf": 22.54279599200124,
+ "p_book": 7.272694773516284
+}

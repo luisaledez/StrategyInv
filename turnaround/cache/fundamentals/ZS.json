@@ -1,0 +1,154 @@
+{
+ "ticker": "ZS",
+ "fetched": "2026-10-25",
+ "market_cap": 41603405199.4931,
+ "shares_out": 163054698.0,
+ "price": 255.14999389648438,
+ "long_name": "Zscaler, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": null,
+ "pe_forward": 45.377586,
+ "peg": 2.61,
+ "p_sales_y": 12.409581,
+ "eps_trailing_y": -0.4,
+ "eps_forward": 5.62282,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-07-31",
+ "cash": 3474151000.0,
+ "total_debt": 1855824000.0,
+ "current_debt": 64894000.0,
+ "lease_obligations": 159469000.0,
+ "equity": 2598261000.0,
+ "net_debt": -1618327000.0,
+ "ocf_ttm": 1129654000.0,
+ "capex_ttm": -350511000.0,
+ "fcf_ttm": 779143000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3352523000.0,
+ "net_income_ttm": -63179000.0,
+ "ebitda_ttm": 176461000.0,
+ "ebit_ttm": -15551000.0,
+ "interest_ttm": 1588000.0,
+ "revenue_yoy_last_q": 0.2488216499403526,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 898185000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 850475000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 815751000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 788112000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 719226000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": -0.02
+  },
+  {
+   "period": "2026-04-30",
+   "value": -0.09
+  },
+  {
+   "period": "2026-01-31",
+   "value": -0.21
+  },
+  {
+   "period": "2025-10-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-07-31",
+   "value": -0.11
+  }
+ ],
+ "eps_ttm": -0.39,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7673485974493005
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.7734771745201211
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.765541200685013
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.7655751974338673
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.7605203371402035
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3352523000.0,
+   "eps": -0.39,
+   "net_income": -63179000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 2673115000.0,
+   "eps": -0.27,
+   "net_income": -41478000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2167771000.0,
+   "eps": -0.39,
+   "net_income": -57706000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1616952000.0,
+   "eps": -1.4,
+   "net_income": -202335000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.030031395885054435,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 64894000.0,
+ "gap_24m": -3409257000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -9.17101795864242,
+ "interest_coverage": -9.792821158690176,
+ "cash_to_debt": 1.8720261188560985,
+ "ev": 39985078199.4931,
+ "ev_to_sales": 11.926861709671522,
+ "ev_to_ebitda": 226.59442142735847,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 12.409581,
+ "p_fcf": 53.39636652000095,
+ "p_book": 16.012019269616527
+}

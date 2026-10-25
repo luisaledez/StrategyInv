@@ -1,0 +1,133 @@
+{
+ "ticker": "GBDC",
+ "fetched": "2026-10-25",
+ "market_cap": 3146977228.965234,
+ "shares_out": 259651589.0,
+ "price": 12.119999885559082,
+ "long_name": "Golub Capital BDC, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Asset Management",
+ "pe_trailing_y": 18.363636,
+ "pe_forward": 9.493448,
+ "peg": 1.4,
+ "p_sales_y": 3.9302237,
+ "eps_trailing_y": 0.66,
+ "eps_forward": 1.27667,
+ "earnings_growth_y": -0.351,
+ "earnings_growth_q_y": -0.367,
+ "bs_date": "2026-06-30",
+ "cash": 20006000.0,
+ "total_debt": 4537552000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 3704869000.0,
+ "net_debt": 4517546000.0,
+ "ocf_ttm": 919640000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 919640000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -147322000.0,
+ "stock_issuance_ttm": -147322000.0,
+ "revenue_ttm": 203392000.0,
+ "net_income_ttm": 171749000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 248380000.0,
+ "revenue_yoy_last_q": -0.31904901366023053,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 65103000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": -39283000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 73216000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 104356000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 95606000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.22
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.18
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.25
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.34
+  }
+ ],
+ "eps_ttm": 0.65,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.04411764705882337,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.3529411764705883,
+ "eps_forward_growth": 0.9641076923076921,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 407833000.0,
+   "eps": 1.42,
+   "net_income": 376646000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 272570000.0,
+   "eps": 1.36,
+   "net_income": 273785000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 277054000.0,
+   "eps": 1.52,
+   "net_income": 258631000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 165280000.0,
+   "eps": 0.9,
+   "net_income": 153440000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.02381039243354033,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -20006000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 0.0044089852854578854,
+ "ev": 7664523228.965234,
+ "ev_to_sales": 37.683503918370604,
+ "ev_to_ebitda": null,
+ "pe_ttm": 18.323118207181608,
+ "pe_trailing": 18.363636,
+ "p_sales": 3.9302237,
+ "p_fcf": 3.421966453139526,
+ "p_book": 0.8494165998757942
+}

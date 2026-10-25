@@ -1,0 +1,154 @@
+{
+ "ticker": "UPBD",
+ "fetched": "2026-10-25",
+ "market_cap": 995753832.9521084,
+ "shares_out": 58299405.0,
+ "price": 17.079999923706055,
+ "long_name": "Upbound Group, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": 11.090909,
+ "pe_forward": 3.6969697,
+ "peg": 1.39,
+ "p_sales_y": 0.2098835,
+ "eps_trailing_y": 1.54,
+ "eps_forward": 4.62,
+ "earnings_growth_y": 0.423,
+ "earnings_growth_q_y": 0.394,
+ "bs_date": "2026-06-30",
+ "cash": 105302000.0,
+ "total_debt": 1708210000.0,
+ "current_debt": null,
+ "lease_obligations": 284635000.0,
+ "equity": 733350000.0,
+ "net_debt": 1602908000.0,
+ "ocf_ttm": 425454000.0,
+ "capex_ttm": -69502000.0,
+ "fcf_ttm": 355952000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4744317000.0,
+ "net_income_ttm": 90337000.0,
+ "ebitda_ttm": 1757606000.0,
+ "ebit_ttm": 239322000.0,
+ "interest_ttm": 109062000.0,
+ "revenue_yoy_last_q": 0.005088394658999906,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1163426000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1219729000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1196445000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1164717000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1157536000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.37
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.61
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.22
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.26
+  },
+  {
+   "period": "2025-03-31",
+   "value": 0.42
+  }
+ ],
+ "eps_ttm": 1.46,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.4343891402714932,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.11904761904761907,
+ "eps_forward_growth": 2.164383561643836,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.5112813363290832
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4808133610006813
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4903518339748171
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.48344447621181796
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.49400191441130126
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4695061000.0,
+   "eps": 1.25,
+   "net_income": 73242000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4320564000.0,
+   "eps": 2.21,
+   "net_income": 123478000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3992413000.0,
+   "eps": -0.09,
+   "net_income": -5179000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4245392000.0,
+   "eps": 0.21,
+   "net_income": 12357000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.007379997347506384,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -105302000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.9119836869013874,
+ "interest_coverage": 2.194366507124388,
+ "cash_to_debt": 0.0616446455646554,
+ "ev": 2598661832.9521084,
+ "ev_to_sales": 0.5477420317723517,
+ "ev_to_ebitda": 1.4785235331195434,
+ "pe_ttm": 11.022657747679338,
+ "pe_trailing": 11.090909,
+ "p_sales": 0.2098835,
+ "p_fcf": 2.797438511237775,
+ "p_book": 1.3578152764056841
+}

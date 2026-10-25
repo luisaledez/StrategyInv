@@ -1,0 +1,154 @@
+{
+ "ticker": "MYRG",
+ "fetched": "2026-10-25",
+ "market_cap": 3962218518.0244446,
+ "shares_out": 15569250.0,
+ "price": 254.49000549316406,
+ "long_name": "MYR Group Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Engineering & Construction",
+ "pe_trailing_y": 24.167618,
+ "pe_forward": 17.62768,
+ "peg": 3.41,
+ "p_sales_y": 0.989039,
+ "eps_trailing_y": 10.53,
+ "eps_forward": 14.43667,
+ "earnings_growth_y": 0.865,
+ "earnings_growth_q_y": 0.884,
+ "bs_date": "2026-06-30",
+ "cash": 137872000.0,
+ "total_debt": 67104000.0,
+ "current_debt": 18540000.0,
+ "lease_obligations": 57732000.0,
+ "equity": 754417000.0,
+ "net_debt": -70768000.0,
+ "ocf_ttm": 298494000.0,
+ "capex_ttm": -105131000.0,
+ "fcf_ttm": 193363000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 4006051000.0,
+ "net_income_ttm": 165293000.0,
+ "ebitda_ttm": 295718000.0,
+ "ebit_ttm": 225973000.0,
+ "interest_ttm": 3694000.0,
+ "revenue_yoy_last_q": 0.20148501929858664,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1081727000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1000380000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 973544000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 950400000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 900325000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 3.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.99
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.33
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.05
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.7
+  }
+ ],
+ "eps_ttm": 10.54,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.114754098360656,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.8647058823529412,
+ "eps_forward_growth": 0.36970303605313104,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1318937217985684
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1343889322057618
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11430608169738604
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.11773148148148148
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.11519284702746231
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3657889000.0,
+   "eps": 7.53,
+   "net_income": 118416000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3362290000.0,
+   "eps": 1.83,
+   "net_income": 30263000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3643905000.0,
+   "eps": 5.4,
+   "net_income": 90990000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3008542000.0,
+   "eps": 4.91,
+   "net_income": 83381000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0029901756341657038,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 18540000.0,
+ "gap_24m": -119332000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.2393090714802616,
+ "interest_coverage": 61.17298321602599,
+ "cash_to_debt": 2.0546018121125416,
+ "ev": 3891450518.0244446,
+ "ev_to_sales": 0.9713931545116237,
+ "ev_to_ebitda": 13.15932921913595,
+ "pe_ttm": 23.97087909363642,
+ "pe_trailing": 24.167618,
+ "p_sales": 0.989039,
+ "p_fcf": 20.491089391581866,
+ "p_book": 5.252027085848336
+}

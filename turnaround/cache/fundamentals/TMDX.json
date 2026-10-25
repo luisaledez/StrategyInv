@@ -1,0 +1,154 @@
+{
+ "ticker": "TMDX",
+ "fetched": "2026-10-25",
+ "market_cap": 2452919683.2258987,
+ "shares_out": 34675145.0,
+ "price": 70.73999786376953,
+ "long_name": "TransMedics Group, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": 18.326426,
+ "pe_forward": 31.382118,
+ "peg": 0.61,
+ "p_sales_y": 3.6694646,
+ "eps_trailing_y": 3.86,
+ "eps_forward": 2.25415,
+ "earnings_growth_y": -0.558,
+ "earnings_growth_q_y": -0.579,
+ "bs_date": "2026-06-30",
+ "cash": 472675000.0,
+ "total_debt": 867720000.0,
+ "current_debt": 23646000.0,
+ "lease_obligations": 353717000.0,
+ "equity": 518053000.0,
+ "net_debt": 395045000.0,
+ "ocf_ttm": 145928000.0,
+ "capex_ttm": -66887000.0,
+ "fcf_ttm": 79041000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 668468000.0,
+ "net_income_ttm": 151699000.0,
+ "ebitda_ttm": 130217000.0,
+ "ebit_ttm": 93794000.0,
+ "interest_ttm": 21240000.0,
+ "revenue_yoy_last_q": 0.20701531422761654,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 189948000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 173933000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 160764000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 143823000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 157370000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.62
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.66
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.92
+  }
+ ],
+ "eps_ttm": 3.89,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 3.8217821782178216,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.5543478260869565,
+ "eps_forward_growth": -0.4205269922879177,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.595942047297155
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5816090103660605
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5810629245353437
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5880491993631061
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6137700959522145
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 605494000.0,
+   "eps": 4.87,
+   "net_income": 190291000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 441540000.0,
+   "eps": 1.01,
+   "net_income": 35464000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 241623000.0,
+   "eps": -0.77,
+   "net_income": -25028000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 93459000.0,
+   "eps": -1.23,
+   "net_income": -36231000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.017331875036538102,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 23646000.0,
+ "gap_24m": -449029000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.033743674021057,
+ "interest_coverage": 4.415913370998116,
+ "cash_to_debt": 0.5447321716682801,
+ "ev": 2847964683.2258987,
+ "ev_to_sales": 4.260435328581022,
+ "ev_to_ebitda": 21.870913039203014,
+ "pe_ttm": 16.16964965639786,
+ "pe_trailing": 18.326426,
+ "p_sales": 3.6694646,
+ "p_fcf": 31.033510244378217,
+ "p_book": 4.734881726823122
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "ALHC",
+ "fetched": "2026-10-25",
+ "market_cap": 1671927387.9832525,
+ "shares_out": 207435149.0,
+ "price": 8.0600004196167,
+ "long_name": "Alignment Healthcare, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Healthcare Plans",
+ "pe_trailing_y": 42.421055,
+ "pe_forward": 12.400002,
+ "peg": null,
+ "p_sales_y": 0.36526266,
+ "eps_trailing_y": 0.19,
+ "eps_forward": 0.65,
+ "earnings_growth_y": 1.429,
+ "earnings_growth_q_y": 1.334,
+ "bs_date": "2026-06-30",
+ "cash": 701711000.0,
+ "total_debt": 330500000.0,
+ "current_debt": null,
+ "lease_obligations": 6444000.0,
+ "equity": 265131000.0,
+ "net_debt": -371211000.0,
+ "ocf_ttm": 205549000.0,
+ "capex_ttm": -28035000.0,
+ "fcf_ttm": 177514000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 4577329000.0,
+ "net_income_ttm": 40699000.0,
+ "ebitda_ttm": 86539000.0,
+ "ebit_ttm": 55001000.0,
+ "interest_ttm": 16236000.0,
+ "revenue_yoy_last_q": 0.3155213102095169,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 1335633000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1235197000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1012804000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 993695000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1015288000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.05
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.05
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.02
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.07
+  }
+ ],
+ "eps_ttm": 0.19000000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 1.4285714285714284,
+ "eps_forward_growth": 2.421052631578947,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1354840738436382
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11696919600679082
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.12175109892930913
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12647039584580783
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.13153706140523674
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3948719000.0,
+   "eps": 0.0,
+   "net_income": -724000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2703561000.0,
+   "eps": -0.67,
+   "net_income": -128035000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1823630000.0,
+   "eps": -0.79,
+   "net_income": -148017000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1434159000.0,
+   "eps": -0.83,
+   "net_income": -149547000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.046575258194484714,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -701711000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -4.289522642970222,
+ "interest_coverage": 3.3875954668637593,
+ "cash_to_debt": 2.123180030257186,
+ "ev": 1300716387.9832525,
+ "ev_to_sales": 0.2841649328643959,
+ "ev_to_ebitda": 15.03040696082983,
+ "pe_ttm": 41.080306346181786,
+ "pe_trailing": 42.421055,
+ "p_sales": 0.36526266,
+ "p_fcf": 9.418566355235376,
+ "p_book": 6.3060426279207356
+}

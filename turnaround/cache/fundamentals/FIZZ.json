@@ -1,0 +1,154 @@
+{
+ "ticker": "FIZZ",
+ "fetched": "2026-10-25",
+ "market_cap": 3384193310.1456146,
+ "shares_out": 93615302.0,
+ "price": 36.150001525878906,
+ "long_name": "National Beverage Corp.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Beverages - Non-Alcoholic",
+ "pe_trailing_y": 19.435484,
+ "pe_forward": 18.490576,
+ "peg": 4.03,
+ "p_sales_y": 2.8662624,
+ "eps_trailing_y": 1.86,
+ "eps_forward": 1.95505,
+ "earnings_growth_y": -0.161,
+ "earnings_growth_q_y": -0.157,
+ "bs_date": "2026-07-31",
+ "cash": 107098000.0,
+ "total_debt": 58771000.0,
+ "current_debt": 14489000.0,
+ "lease_obligations": 58771000.0,
+ "equity": 367703000.0,
+ "net_debt": -48327000.0,
+ "ocf_ttm": 187015000.0,
+ "capex_ttm": -25118000.0,
+ "fcf_ttm": 161897000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 1180699000.0,
+ "net_income_ttm": 174892000.0,
+ "ebitda_ttm": 241406000.0,
+ "ebit_ttm": 217814000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.00044476044960140015,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 330662000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 297120000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 264586000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 288331000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 330515000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.5
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.44
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.49
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.6
+  },
+  {
+   "period": "2025-01-31",
+   "value": 0.42
+  }
+ ],
+ "eps_ttm": 2.03,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.015075376884422176,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.19047619047619047,
+ "eps_forward_growth": -0.03692118226600982,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.3501763129721589
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.34669157242864834
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.3764522688275268
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.378679365035324
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.37959850536284284
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 1180552000.0,
+   "eps": 1.96,
+   "net_income": 183648000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 1201354000.0,
+   "eps": 1.99,
+   "net_income": 186821000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1191694000.0,
+   "eps": 1.89,
+   "net_income": 176732000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1172932000.0,
+   "eps": 1.52,
+   "net_income": 142164000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -5.280909003380074e-05,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 14489000.0,
+ "gap_24m": -92609000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.20018972187932363,
+ "interest_coverage": null,
+ "cash_to_debt": 1.822293307923976,
+ "ev": 3335866310.1456146,
+ "ev_to_sales": 2.825331697702475,
+ "ev_to_ebitda": 13.818489640463016,
+ "pe_ttm": 19.35018931766813,
+ "pe_trailing": 19.435484,
+ "p_sales": 2.8662624,
+ "p_fcf": 20.90337257729059,
+ "p_book": 9.203605383000994
+}

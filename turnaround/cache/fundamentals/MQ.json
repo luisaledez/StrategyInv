@@ -1,0 +1,154 @@
+{
+ "ticker": "MQ",
+ "fetched": "2026-10-25",
+ "market_cap": 1962263060.6105537,
+ "shares_out": 104098834.0,
+ "price": 18.850000381469727,
+ "long_name": "Marqeta, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 188.5,
+ "pe_forward": 37.7,
+ "peg": 1.5,
+ "p_sales_y": 2.8975608,
+ "eps_trailing_y": 0.1,
+ "eps_forward": 0.5,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 700896000.0,
+ "total_debt": 15442000.0,
+ "current_debt": 11300000.0,
+ "lease_obligations": 6745000.0,
+ "equity": 715557000.0,
+ "net_debt": -685454000.0,
+ "ocf_ttm": 199898000.0,
+ "capex_ttm": -32702000.0,
+ "fcf_ttm": 167196000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -210013000.0,
+ "stock_issuance_ttm": -210013000.0,
+ "revenue_ttm": 677212000.0,
+ "net_income_ttm": 10383000.0,
+ "ebitda_ttm": 20795000.0,
+ "ebit_ttm": -12934000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.17024176817915837,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 175995000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 165798000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 172113000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 163306000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 150392000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.04
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.01
+  }
+ ],
+ "eps_ttm": 0.11000000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.6,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 3.545454545454545,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.692479899997159
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7092486037226022
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6970711102589577
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7014867794202295
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6919317516889196
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 624884000.0,
+   "eps": -0.12,
+   "net_income": -13925000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 506995000.0,
+   "eps": 0.2,
+   "net_income": 27287000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 676171000.0,
+   "eps": -1.68,
+   "net_income": -222962000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 748206000.0,
+   "eps": -1.36,
+   "net_income": -184780000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": -0.07352617257636407,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11300000.0,
+ "gap_24m": -689596000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -32.96244289492667,
+ "interest_coverage": null,
+ "cash_to_debt": 45.38893925657298,
+ "ev": 1276809060.6105537,
+ "ev_to_sales": 1.8853904842361826,
+ "ev_to_ebitda": 61.39981056073834,
+ "pe_ttm": 188.9880632390016,
+ "pe_trailing": 188.5,
+ "p_sales": 2.8975608,
+ "p_fcf": 11.736303862595719,
+ "p_book": 2.742287561452901
+}

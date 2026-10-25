@@ -1,0 +1,154 @@
+{
+ "ticker": "AMPL",
+ "fetched": "2026-10-25",
+ "market_cap": 2310227275.4380455,
+ "shares_out": 132619246.0,
+ "price": 17.420000076293945,
+ "long_name": "Amplitude, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 100.316734,
+ "peg": null,
+ "p_sales_y": 6.1709895,
+ "eps_trailing_y": -0.75,
+ "eps_forward": 0.17365,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 140539000.0,
+ "total_debt": 9707000.0,
+ "current_debt": 4172000.0,
+ "lease_obligations": 9707000.0,
+ "equity": 136198000.0,
+ "net_debt": -130832000.0,
+ "ocf_ttm": 31763000.0,
+ "capex_ttm": -6667000.0,
+ "fcf_ttm": 25096000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -117663000.0,
+ "stock_issuance_ttm": -117663000.0,
+ "revenue_ttm": 374368000.0,
+ "net_income_ttm": -99533000.0,
+ "ebitda_ttm": -90902000.0,
+ "ebit_ttm": -101910000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.2115527801128858,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 100886000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 93492000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 91426000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 88564000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 83270000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.27
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.17
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.13
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.18
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.19
+  }
+ ],
+ "eps_ttm": -0.75,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6849513312055191
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.730361956103196
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7462975521186533
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7394652454722009
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.7260477963252071
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 343214000.0,
+   "eps": -0.67,
+   "net_income": -88541000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 299272000.0,
+   "eps": -0.76,
+   "net_income": -94319000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 276284000.0,
+   "eps": -0.77,
+   "net_income": -90363000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 238067000.0,
+   "eps": -0.84,
+   "net_income": -93377000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": -0.057873760171500144,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 4172000.0,
+ "gap_24m": -136367000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4392642626124839,
+ "interest_coverage": null,
+ "cash_to_debt": 14.478108581436077,
+ "ev": 2179395275.4380455,
+ "ev_to_sales": 5.821531956358571,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 6.1709895,
+ "p_fcf": 92.05559752303337,
+ "p_book": 16.96227019073735
+}

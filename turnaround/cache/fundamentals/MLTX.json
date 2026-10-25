@@ -1,0 +1,133 @@
+{
+ "ticker": "MLTX",
+ "fetched": "2026-10-25",
+ "market_cap": 1008514249.7156239,
+ "shares_out": 85106685.0,
+ "price": 11.850000381469727,
+ "long_name": "MoonLake Immunotherapeutics",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": null,
+ "pe_forward": -3.562485,
+ "peg": null,
+ "p_sales_y": null,
+ "eps_trailing_y": -3.83,
+ "eps_forward": -3.32633,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 537030000.0,
+ "total_debt": 101532000.0,
+ "current_debt": 1246000.0,
+ "lease_obligations": 2018000.0,
+ "equity": 428195000.0,
+ "net_debt": -435498000.0,
+ "ocf_ttm": -225181000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -225181000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 312473000.0,
+ "revenue_ttm": 0.0,
+ "net_income_ttm": -263668000.0,
+ "ebitda_ttm": -250819000.0,
+ "ebit_ttm": -254056000.0,
+ "interest_ttm": 10093000.0,
+ "revenue_yoy_last_q": null,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.84
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.98
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.1
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.87
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.63
+  }
+ ],
+ "eps_ttm": -3.79,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 0.0,
+   "eps": -3.53,
+   "net_income": -227318000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 0.0,
+   "eps": -1.89,
+   "net_income": -118936000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 0.0,
+   "eps": -0.73,
+   "net_income": -36007000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 0.0,
+   "eps": -1.282102,
+   "net_income": -49973249.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.3171747763616848,
+ "fcf_burn_annual": 225181000.0,
+ "runway_months": 28.61857794396508,
+ "need_24m": 451608000.0,
+ "gap_24m": -85422000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.7363038685267065,
+ "interest_coverage": -25.17150500346775,
+ "cash_to_debt": 5.289268407989599,
+ "ev": 573016249.7156239,
+ "ev_to_sales": null,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": null,
+ "p_fcf": null,
+ "p_book": 2.355268626947124
+}
