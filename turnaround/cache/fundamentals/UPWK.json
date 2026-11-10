@@ -1,40 +1,44 @@
 {
  "ticker": "UPWK",
- "fetched": "2026-10-25",
- "market_cap": 1184083843.023777,
- "shares_out": 124903365.0,
- "price": 9.479999542236328,
+ "fetched": "2026-11-10",
+ "market_cap": 1222553824.6661196,
+ "shares_out": 125777139.0,
+ "price": 9.720000267028809,
  "long_name": "Upwork Inc.",
  "sector_y": "Communication Services",
  "industry_y": "Internet Content & Information",
- "pe_trailing_y": 12.311688,
- "pe_forward": 6.947243,
+ "pe_trailing_y": 12.0,
+ "pe_forward": 8.743524,
  "peg": 0.85,
- "p_sales_y": 1.5040148,
- "eps_trailing_y": 0.77,
- "eps_forward": 1.36457,
- "earnings_growth_y": -0.159,
- "earnings_growth_q_y": -0.224,
- "bs_date": "2026-06-30",
- "cash": 614244000.0,
- "total_debt": 376828000.0,
- "current_debt": 362461000.0,
- "lease_obligations": 16137000.0,
- "equity": 611266000.0,
- "net_debt": -237416000.0,
- "ocf_ttm": 208673000.0,
- "capex_ttm": -33126000.0,
- "fcf_ttm": 175547000.0,
+ "p_sales_y": 1.5853626,
+ "eps_trailing_y": 0.81,
+ "eps_forward": 1.11168,
+ "earnings_growth_y": 0.171,
+ "earnings_growth_q_y": 0.084,
+ "bs_date": "2026-09-30",
+ "cash": 304332000.0,
+ "total_debt": 18019000.0,
+ "current_debt": 4505000.0,
+ "lease_obligations": 18019000.0,
+ "equity": 654025000.0,
+ "net_debt": -286313000.0,
+ "ocf_ttm": 199541000.0,
+ "capex_ttm": -39571000.0,
+ "fcf_ttm": 159970000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -174762000.0,
- "stock_issuance_ttm": -174762000.0,
- "revenue_ttm": 787282000.0,
- "net_income_ttm": 101834000.0,
- "ebitda_ttm": 152948000.0,
- "ebit_ttm": 118907000.0,
+ "buybacks_ttm": -143761000.0,
+ "stock_issuance_ttm": -143761000.0,
+ "revenue_ttm": 771151000.0,
+ "net_income_ttm": 104309000.0,
+ "ebitda_ttm": 168441000.0,
+ "ebit_ttm": 123742000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": -0.01682064645863579,
+ "revenue_yoy_last_q": -0.07996331730530903,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 185599000.0
+  },
   {
    "period": "2026-06-30",
    "value": 191660000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 201730000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 194939000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.25
+  },
   {
    "period": "2026-06-30",
    "value": 0.2
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.21
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.24
   }
  ],
- "eps_ttm": 0.77,
+ "eps_ttm": 0.8099999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.44736842105263164,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.16666666666666663,
- "eps_forward_growth": 0.7721688311688313,
+ "eps_growth_last_q": 0.19047619047619047,
+ "eps_forward_growth": 0.3724444444444446,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7612918173050501
+  },
   {
    "period": "2026-06-30",
    "value": 0.7637065637065638
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7727507063897289
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7772020991181857
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.05817429547791675,
+ "dilution_1y": -0.04340901609247072,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 362461000.0,
- "gap_24m": -251783000.0,
+ "need_24m": 4505000.0,
+ "gap_24m": -299827000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.5522661296649842,
+ "net_debt_to_ebitda": -1.6997821195552152,
  "interest_coverage": null,
- "cash_to_debt": 1.6300381075716242,
- "ev": 946667843.023777,
- "ev_to_sales": 1.2024507648133413,
- "ev_to_ebitda": 6.189475135495574,
- "pe_ttm": 11.627588457919526,
- "pe_trailing": 12.311688,
- "p_sales": 1.5040148,
- "p_fcf": 6.745110101703686,
- "p_book": 1.9371007761331025
+ "cash_to_debt": 16.889505521949054,
+ "ev": 936240824.6661196,
+ "ev_to_sales": 1.2140823582749936,
+ "ev_to_ebitda": 5.5582715886638026,
+ "pe_ttm": 11.720501823103659,
+ "pe_trailing": 12.0,
+ "p_sales": 1.5853626,
+ "p_fcf": 7.6423943531044545,
+ "p_book": 1.8692769002195935
 }

@@ -1,0 +1,154 @@
+{
+ "ticker": "PLPC",
+ "fetched": "2026-11-10",
+ "market_cap": 1379771405.2787476,
+ "shares_out": 4880691.0,
+ "price": 282.70001220703125,
+ "long_name": "Preformed Line Products Company",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 23.756304,
+ "pe_forward": null,
+ "peg": null,
+ "p_sales_y": 1.788267,
+ "eps_trailing_y": 11.9,
+ "eps_forward": null,
+ "earnings_growth_y": 5.717,
+ "earnings_growth_q_y": 5.868,
+ "bs_date": "2026-09-30",
+ "cash": 99269000.0,
+ "total_debt": 64391000.0,
+ "current_debt": 10412000.0,
+ "lease_obligations": 8442000.0,
+ "equity": 512600000.0,
+ "net_debt": -34878000.0,
+ "ocf_ttm": 90038000.0,
+ "capex_ttm": -53807000.0,
+ "fcf_ttm": 36231000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -14474000.0,
+ "stock_issuance_ttm": -12276000.0,
+ "revenue_ttm": 771569000.0,
+ "net_income_ttm": 58503000.0,
+ "ebitda_ttm": 107235000.0,
+ "ebit_ttm": 82115000.0,
+ "interest_ttm": 1496000.0,
+ "revenue_yoy_last_q": 0.1763969295905934,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 209501000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 212681000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 176278000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 173109000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 178087000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.56
+  },
+  {
+   "period": "2026-06-30",
+   "value": 4.49
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.72
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.53
+  }
+ ],
+ "eps_ttm": 11.910000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.04800000000000004,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 5.716981132075471,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3341368298958
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.3432934770854002
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.31325519917403194
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2981936236706353
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2967594490333376
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 669338000.0,
+   "eps": 7.14,
+   "net_income": 35283000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 593714000.0,
+   "eps": 7.5,
+   "net_income": 37094000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 669679000.0,
+   "eps": 12.68,
+   "net_income": 63332000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 637021000.0,
+   "eps": 10.88,
+   "net_income": 54395000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.00285197223672351,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 10412000.0,
+ "gap_24m": -88857000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.3252482864736327,
+ "interest_coverage": 54.88970588235294,
+ "cash_to_debt": 1.5416595486946933,
+ "ev": 1344893405.2787476,
+ "ev_to_sales": 1.7430630381453216,
+ "ev_to_ebitda": 12.541552713934328,
+ "pe_ttm": 23.58462651964425,
+ "pe_trailing": 23.756304,
+ "p_sales": 1.788267,
+ "p_fcf": 38.08262000162147,
+ "p_book": 2.691711676314373
+}

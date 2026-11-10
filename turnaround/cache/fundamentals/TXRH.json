@@ -1,40 +1,44 @@
 {
  "ticker": "TXRH",
- "fetched": "2026-10-24",
- "market_cap": 10874076041.54425,
- "shares_out": 65640926.0,
- "price": 165.66000366210938,
+ "fetched": "2026-11-10",
+ "market_cap": 12373007761.899948,
+ "shares_out": 65625375.0,
+ "price": 188.5399932861328,
  "long_name": "Texas Roadhouse, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Restaurants",
- "pe_trailing_y": 26.5056,
- "pe_forward": 21.543299,
- "peg": 1.65,
- "p_sales_y": 1.7450132,
- "eps_trailing_y": 6.25,
- "eps_forward": 7.68963,
- "earnings_growth_y": -0.005,
- "earnings_growth_q_y": -0.017,
- "bs_date": "2026-06-30",
- "cash": 202427000.0,
- "total_debt": 1087554000.0,
- "current_debt": 32837000.0,
- "lease_obligations": 1037554000.0,
- "equity": 1558552000.0,
- "net_debt": 885127000.0,
- "ocf_ttm": 803314000.0,
- "capex_ttm": -402929000.0,
- "fcf_ttm": 400385000.0,
+ "pe_trailing_y": 29.644653,
+ "pe_forward": 25.251558,
+ "peg": 1.83,
+ "p_sales_y": 1.9429222,
+ "eps_trailing_y": 6.36,
+ "eps_forward": 7.46647,
+ "earnings_growth_y": 0.088,
+ "earnings_growth_q_y": 0.074,
+ "bs_date": "2026-09-30",
+ "cash": 141412000.0,
+ "total_debt": 1115795000.0,
+ "current_debt": 33585000.0,
+ "lease_obligations": 1065795000.0,
+ "equity": 1589948000.0,
+ "net_debt": 974383000.0,
+ "ocf_ttm": 806354000.0,
+ "capex_ttm": -409596000.0,
+ "fcf_ttm": 396758000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -167937000.0,
- "stock_issuance_ttm": -167478000.0,
- "revenue_ttm": 6231515000.0,
- "net_income_ttm": 413173000.0,
- "ebitda_ttm": 712074000.0,
- "ebit_ttm": 489794000.0,
+ "buybacks_ttm": -149088000.0,
+ "stock_issuance_ttm": -148752000.0,
+ "revenue_ttm": 6368247000.0,
+ "net_income_ttm": 419362000.0,
+ "ebitda_ttm": 729258000.0,
+ "ebit_ttm": 499289000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.11105555753961172,
+ "revenue_yoy_last_q": 0.09519459850091416,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1573074000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1679976000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1436342000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1512054000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.36
+  },
   {
    "period": "2026-06-30",
    "value": 1.85
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.25
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.86
   }
  ],
- "eps_ttm": 6.25,
+ "eps_ttm": 6.36,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.057187017001545604,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.005376344086021501,
- "eps_forward_growth": 0.2303408,
+ "eps_growth_last_q": 0.08800000000000008,
+ "eps_forward_growth": 0.17397327044025146,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1499033103337796
+  },
   {
    "period": "2026-06-30",
    "value": 0.16796847097815684
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.14725740805462767
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1755380429534924
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.013016938364353026,
+ "dilution_1y": -0.00910177661713707,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 32837000.0,
- "gap_24m": -169590000.0,
+ "need_24m": 33585000.0,
+ "gap_24m": -107827000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.2430267078983364,
+ "net_debt_to_ebitda": 1.3361293259724267,
  "interest_coverage": null,
- "cash_to_debt": 0.18613052777149455,
- "ev": 11759203041.54425,
- "ev_to_sales": 1.8870536364823403,
- "ev_to_ebitda": 16.514018264315578,
- "pe_ttm": 26.3184575021704,
- "pe_trailing": 26.5056,
- "p_sales": 1.7450132,
- "p_fcf": 27.15904951869888,
- "p_book": 6.977037687253457
+ "cash_to_debt": 0.126736542106749,
+ "ev": 13347390761.899948,
+ "ev_to_sales": 2.09592855960203,
+ "ev_to_ebitda": 18.302700500920043,
+ "pe_ttm": 29.50436081929204,
+ "pe_trailing": 29.644653,
+ "p_sales": 1.9429222,
+ "p_fcf": 31.185276067275137,
+ "p_book": 7.78202039431475
 }

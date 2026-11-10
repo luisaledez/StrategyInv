@@ -1,0 +1,154 @@
+{
+ "ticker": "BA",
+ "fetched": "2026-11-10",
+ "market_cap": 136602524526.58447,
+ "shares_out": 792449940.0,
+ "price": 172.3800048828125,
+ "long_name": "The Boeing Company",
+ "sector_y": "Industrials",
+ "industry_y": "Aerospace & Defense",
+ "pe_trailing_y": 17.789474,
+ "pe_forward": 79.7004,
+ "peg": 3.73,
+ "p_sales_y": 1.4392393,
+ "eps_trailing_y": 9.69,
+ "eps_forward": 2.16285,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 20714000000.0,
+ "total_debt": 45920000000.0,
+ "current_debt": 4569000000.0,
+ "lease_obligations": 585000000.0,
+ "equity": 6547000000.0,
+ "net_debt": 25206000000.0,
+ "ocf_ttm": 3771000000.0,
+ "capex_ttm": -4157000000.0,
+ "fcf_ttm": -386000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 93623000000.0,
+ "net_income_ttm": 2763000000.0,
+ "ebitda_ttm": 7749000000.0,
+ "ebit_ttm": 5565000000.0,
+ "interest_ttm": 2542000000.0,
+ "revenue_yoy_last_q": 0.06325552771550402,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 24188000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 22217000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 23948000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 23270000000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 22749000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.26
+  },
+  {
+   "period": "2026-06-30",
+   "value": -0.67
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.11
+  },
+  {
+   "period": "2025-12-31",
+   "value": 10.23
+  },
+  {
+   "period": "2025-09-30",
+   "value": -7.14
+  }
+ ],
+ "eps_ttm": 9.190000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": -0.7646517954298151,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.08958987927898131
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11459693027861548
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.07566393853348923
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.1020627417275462
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.10703767198558178
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 89463000000.0,
+   "eps": 2.48,
+   "net_income": 2235000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 66517000000.0,
+   "eps": -18.36,
+   "net_income": -11817000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 77794000000.0,
+   "eps": -3.67,
+   "net_income": -2222000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 66608000000.0,
+   "eps": -8.3,
+   "net_income": -4935000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.04800436323344037,
+ "fcf_burn_annual": 386000000.0,
+ "runway_months": 643.958549222798,
+ "need_24m": 5341000000.0,
+ "gap_24m": -15373000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.2528068137824238,
+ "interest_coverage": 2.189221085759245,
+ "cash_to_debt": 0.451088850174216,
+ "ev": 161808524526.58447,
+ "ev_to_sales": 1.7282988638110772,
+ "ev_to_ebitda": 20.881213643900434,
+ "pe_ttm": 49.43992925319742,
+ "pe_trailing": 17.789474,
+ "p_sales": 1.4392393,
+ "p_fcf": null,
+ "p_book": 20.864903700410032
+}

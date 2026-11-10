@@ -1,40 +1,44 @@
 {
  "ticker": "XYL",
- "fetched": "2026-10-24",
- "market_cap": 25389355438.09836,
- "shares_out": 233486812.0,
- "price": 108.73999786376953,
+ "fetched": "2026-11-10",
+ "market_cap": 22763752091.831543,
+ "shares_out": 229334592.0,
+ "price": 99.26000213623047,
  "long_name": "Xylem Inc.",
  "sector_y": "Industrials",
  "industry_y": "Specialty Industrial Machinery",
- "pe_trailing_y": 25.890476,
- "pe_forward": 17.49334,
- "peg": 1.32,
- "p_sales_y": 2.7820902,
- "eps_trailing_y": 4.2,
- "eps_forward": 6.21608,
- "earnings_growth_y": 0.195,
- "earnings_growth_q_y": 0.164,
- "bs_date": "2026-06-30",
- "cash": 1276000000.0,
- "total_debt": 3055000000.0,
- "current_debt": 660000000.0,
- "lease_obligations": 129000000.0,
- "equity": 10421000000.0,
- "net_debt": 1779000000.0,
- "ocf_ttm": 1301000000.0,
- "capex_ttm": -341000000.0,
- "fcf_ttm": 960000000.0,
+ "pe_trailing_y": 22.00887,
+ "pe_forward": 16.897907,
+ "peg": 1.31,
+ "p_sales_y": 2.5128326,
+ "eps_trailing_y": 4.51,
+ "eps_forward": 5.8741,
+ "earnings_growth_y": 0.344,
+ "earnings_growth_q_y": 0.282,
+ "bs_date": "2026-09-30",
+ "cash": 708000000.0,
+ "total_debt": 3026000000.0,
+ "current_debt": 661000000.0,
+ "lease_obligations": 131000000.0,
+ "equity": 10269000000.0,
+ "net_debt": 2318000000.0,
+ "ocf_ttm": 1272000000.0,
+ "capex_ttm": -351000000.0,
+ "fcf_ttm": 921000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1245000000.0,
- "stock_issuance_ttm": -1245000000.0,
- "revenue_ttm": 9126000000.0,
- "net_income_ttm": 1018000000.0,
- "ebitda_ttm": 1861000000.0,
- "ebit_ttm": 1296000000.0,
- "interest_ttm": 23000000.0,
- "revenue_yoy_last_q": 0.015210777922642249,
+ "buybacks_ttm": -1581000000.0,
+ "stock_issuance_ttm": -1581000000.0,
+ "revenue_ttm": 9059000000.0,
+ "net_income_ttm": 1082000000.0,
+ "ebitda_ttm": 1939000000.0,
+ "ebit_ttm": 1379000000.0,
+ "interest_ttm": 38000000.0,
+ "revenue_yoy_last_q": -0.02954144620811283,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2201000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2336000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2268000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2301000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.25
+  },
   {
    "period": "2026-06-30",
    "value": 1.11
@@ -74,13 +78,17 @@
    "value": 0.69
   }
  ],
- "eps_ttm": 3.52,
+ "eps_ttm": 4.08,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.07397260273972606,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": null,
- "eps_forward_growth": 0.7659318181818182,
+ "eps_growth_last_q": 0.8115942028985508,
+ "eps_forward_growth": 0.4397303921568627,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4120854157201272
+  },
   {
    "period": "2026-06-30",
    "value": 0.4122431506849315
@@ -96,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.38932980599647266
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3876575401999131
   }
  ],
  "annual": [
@@ -130,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.04048066601210876,
+ "dilution_1y": -0.05426360574948663,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 660000000.0,
- "gap_24m": -616000000.0,
+ "need_24m": 661000000.0,
+ "gap_24m": -47000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.9559376679204729,
- "interest_coverage": 56.34782608695652,
- "cash_to_debt": 0.4176759410801964,
- "ev": 27168355438.09836,
- "ev_to_sales": 2.9770277709947797,
- "ev_to_ebitda": 14.598793894733133,
- "pe_ttm": 24.940427738799958,
- "pe_trailing": 25.890476,
- "p_sales": 2.7820902,
- "p_fcf": 26.447245248019122,
- "p_book": 2.436364594386178
+ "net_debt_to_ebitda": 1.1954615781330582,
+ "interest_coverage": 36.28947368421053,
+ "cash_to_debt": 0.2339722405816259,
+ "ev": 25081752091.831543,
+ "ev_to_sales": 2.768710905379351,
+ "ev_to_ebitda": 12.935405926679497,
+ "pe_ttm": 21.03858788524172,
+ "pe_trailing": 22.00887,
+ "p_sales": 2.5128326,
+ "p_fcf": 24.71634320502882,
+ "p_book": 2.216744774742579
 }

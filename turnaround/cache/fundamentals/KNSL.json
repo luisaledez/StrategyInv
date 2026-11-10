@@ -1,62 +1,66 @@
 {
  "ticker": "KNSL",
- "fetched": "2026-10-24",
- "market_cap": 8204649633.226318,
+ "fetched": "2026-11-10",
+ "market_cap": 8690414631.017761,
  "shares_out": 22509945.0,
- "price": 364.489990234375,
+ "price": 386.07000732421875,
  "long_name": "Kinsale Capital Group, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance - Property & Casualty",
- "pe_trailing_y": 15.881916,
- "pe_forward": 16.658371,
- "peg": 1.09,
- "p_sales_y": 4.2004104,
+ "pe_trailing_y": 16.822222,
+ "pe_forward": 17.645235,
+ "peg": 1.15,
+ "p_sales_y": 4.4491005,
  "eps_trailing_y": 22.95,
- "eps_forward": 21.88029,
+ "eps_forward": 21.87956,
  "earnings_growth_y": -0.284,
  "earnings_growth_q_y": -0.307,
- "bs_date": "2026-06-30",
- "cash": 2888319000.0,
- "total_debt": 224535000.0,
+ "bs_date": "2026-09-30",
+ "cash": 2848085000.0,
+ "total_debt": 224604000.0,
  "current_debt": 51000000.0,
  "lease_obligations": null,
- "equity": 2035114000.0,
- "net_debt": -2663784000.0,
- "ocf_ttm": 1035644000.0,
- "capex_ttm": -34873000.0,
- "fcf_ttm": 1000771000.0,
+ "equity": 1919011000.0,
+ "net_debt": -2623481000.0,
+ "ocf_ttm": 996280000.0,
+ "capex_ttm": -23240000.0,
+ "fcf_ttm": 973040000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -233077000.0,
- "stock_issuance_ttm": -233077000.0,
- "revenue_ttm": 1996004000.0,
- "net_income_ttm": 568694000.0,
+ "buybacks_ttm": -313077000.0,
+ "stock_issuance_ttm": -313077000.0,
+ "revenue_ttm": 1953314000.0,
+ "net_income_ttm": 525177000.0,
  "ebitda_ttm": null,
- "ebit_ttm": 725207000.0,
- "interest_ttm": 12041000.0,
- "revenue_yoy_last_q": 0.16752374343889276,
+ "ebit_ttm": 670599000.0,
+ "interest_ttm": 12692000.0,
+ "revenue_yoy_last_q": -0.08583701339293792,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 454797000.0
+  },
   {
    "period": "2026-06-30",
    "value": 548519000.0
   },
   {
    "period": "2026-03-31",
-   "value": 466709000.0
+   "value": 466736000.0
   },
   {
    "period": "2025-12-31",
-   "value": 483271000.0
+   "value": 483262000.0
   },
   {
    "period": "2025-09-30",
-   "value": 497505000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 469814000.0
+   "value": 497501000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4.36
+  },
   {
    "period": "2026-06-30",
    "value": 7.72
@@ -72,62 +76,58 @@
   {
    "period": "2025-09-30",
    "value": 6.09
-  },
-  {
-   "period": "2025-06-30",
-   "value": 5.76
   }
  ],
- "eps_ttm": 24.68,
+ "eps_ttm": 22.950000000000003,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.21766029246344187,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.3402777777777777,
- "eps_forward_growth": -0.11344043760129663,
+ "eps_growth_last_q": -0.28407224958949095,
+ "eps_forward_growth": -0.04664226579520703,
  "gross_margin_quarters": [],
  "annual": [
   {
    "year": "2025",
-   "revenue": 1873987000.0,
+   "revenue": 1873989000.0,
    "eps": 21.65,
    "net_income": 503614000.0
   },
   {
    "year": "2024",
-   "revenue": 1587525000.0,
+   "revenue": 1586999000.0,
    "eps": 17.78,
    "net_income": 414843000.0
   },
   {
    "year": "2023",
-   "revenue": 1224449000.0,
+   "revenue": 1224636000.0,
    "eps": 13.22,
    "net_income": 308093000.0
   },
   {
    "year": "2022",
-   "revenue": 838804000.0,
+   "revenue": 839170000.0,
    "eps": 6.88,
    "net_income": 159114000.0
   }
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02234843679101417,
+ "dilution_1y": -0.03230314134685164,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 51000000.0,
- "gap_24m": -2837319000.0,
+ "gap_24m": -2797085000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
- "interest_coverage": 60.22813719790715,
- "cash_to_debt": 12.86355801990781,
- "ev": 5540865633.226318,
- "ev_to_sales": 2.7759792231009146,
+ "interest_coverage": 52.83635360857233,
+ "cash_to_debt": 12.680473188367081,
+ "ev": 6066933631.017761,
+ "ev_to_sales": 3.1059694606283275,
  "ev_to_ebitda": null,
- "pe_ttm": 14.427178119034698,
- "pe_trailing": 15.881916,
- "p_sales": 4.2004104,
- "p_fcf": 8.198328721781824,
- "p_book": 4.0315430158832966
+ "pe_ttm": 16.547591823361955,
+ "pe_trailing": 16.822222,
+ "p_sales": 4.4491005,
+ "p_fcf": 8.931199777005839,
+ "p_book": 4.528590316062681
 }

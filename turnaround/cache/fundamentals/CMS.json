@@ -1,40 +1,44 @@
 {
  "ticker": "CMS",
- "fetched": "2026-10-24",
- "market_cap": 21818697697.056885,
- "shares_out": 313577136.0,
- "price": 69.58000183105469,
+ "fetched": "2026-11-10",
+ "market_cap": 21812662689.00943,
+ "shares_out": 313625618.0,
+ "price": 69.55000305175781,
  "long_name": "CMS Energy Corporation",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Regulated Electric",
- "pe_trailing_y": 20.894896,
- "pe_forward": 16.781996,
- "peg": 2.51,
- "p_sales_y": 2.4757404,
- "eps_trailing_y": 3.33,
- "eps_forward": 4.14611,
- "earnings_growth_y": -0.439,
- "earnings_growth_q_y": -0.403,
- "bs_date": "2026-06-30",
- "cash": 241000000.0,
- "total_debt": 19301000000.0,
- "current_debt": 870000000.0,
- "lease_obligations": 259000000.0,
- "equity": 9774000000.0,
- "net_debt": 19060000000.0,
- "ocf_ttm": 2148000000.0,
- "capex_ttm": -4251000000.0,
- "fcf_ttm": -2103000000.0,
+ "pe_trailing_y": 24.839287,
+ "pe_forward": 16.782087,
+ "peg": 2.49,
+ "p_sales_y": 2.4303806,
+ "eps_trailing_y": 2.8,
+ "eps_forward": 4.1443,
+ "earnings_growth_y": -0.579,
+ "earnings_growth_q_y": -0.556,
+ "bs_date": "2026-09-30",
+ "cash": 451000000.0,
+ "total_debt": 20207000000.0,
+ "current_debt": 1258000000.0,
+ "lease_obligations": 206000000.0,
+ "equity": 9726000000.0,
+ "net_debt": 19756000000.0,
+ "ocf_ttm": 2149000000.0,
+ "capex_ttm": -3937000000.0,
+ "fcf_ttm": -1788000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 1036000000.0,
- "revenue_ttm": 8813000000.0,
- "net_income_ttm": 1026000000.0,
- "ebitda_ttm": 3314000000.0,
- "ebit_ttm": 1952000000.0,
- "interest_ttm": 826000000.0,
- "revenue_yoy_last_q": -0.004896626768226331,
+ "stock_issuance_ttm": 1007000000.0,
+ "revenue_ttm": 8975000000.0,
+ "net_income_ttm": 872000000.0,
+ "ebitda_ttm": 2882000000.0,
+ "ebit_ttm": 1510000000.0,
+ "interest_ttm": 837000000.0,
+ "revenue_yoy_last_q": 0.08015833745670453,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2183000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1829000000.0
@@ -50,20 +54,20 @@
   {
    "period": "2025-09-30",
    "value": 2021000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1838000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.385842
+  },
   {
    "period": "2026-06-30",
    "value": 0.37
   },
   {
    "period": "2026-03-31",
-   "value": 1.1
+   "value": 1.094205
   },
   {
    "period": "2025-12-31",
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.903713
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.66
   }
  ],
- "eps_ttm": 3.307106,
+ "eps_ttm": 2.78344,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.0418930621141449,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.43939393939393945,
- "eps_forward_growth": 0.2536973414217749,
+ "eps_growth_last_q": -0.5730480805299912,
+ "eps_forward_growth": 0.4889129997413273,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4493815849748053
+  },
   {
    "period": "2026-06-30",
    "value": 0.37725533078184803
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4334487877288471
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.38846572361262244
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.047778149014366944,
- "fcf_burn_annual": 2103000000.0,
- "runway_months": 1.3751783166904423,
- "need_24m": 5076000000.0,
- "gap_24m": 4835000000.0,
+ "dilution_1y": 0.030561945448570382,
+ "fcf_burn_annual": 1788000000.0,
+ "runway_months": 3.0268456375838926,
+ "need_24m": 4834000000.0,
+ "gap_24m": 4383000000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 5.751357875678938,
- "interest_coverage": 2.36319612590799,
- "cash_to_debt": 0.012486399668410962,
- "ev": 40878697697.056885,
- "ev_to_sales": 4.6384542944578335,
- "ev_to_ebitda": 12.335153197663514,
- "pe_ttm": 21.265787229100276,
- "pe_trailing": 20.894896,
- "p_sales": 2.4757404,
+ "net_debt_to_ebitda": 6.854961832061068,
+ "interest_coverage": 1.8040621266427719,
+ "cash_to_debt": 0.02231899836690256,
+ "ev": 41568662689.00943,
+ "ev_to_sales": 4.631605870641719,
+ "ev_to_ebitda": 14.42354708154387,
+ "pe_ttm": 25.014521432350264,
+ "pe_trailing": 24.839287,
+ "p_sales": 2.4303806,
  "p_fcf": null,
- "p_book": 2.2323202063696423
+ "p_book": 2.2427167066635234
 }

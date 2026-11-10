@@ -1,40 +1,44 @@
 {
  "ticker": "TOST",
- "fetched": "2026-10-24",
- "market_cap": 18906379470.825195,
- "shares_out": 578000000.0,
- "price": 32.709999084472656,
+ "fetched": "2026-11-10",
+ "market_cap": 20201370265.960693,
+ "shares_out": 581000000.0,
+ "price": 34.77000045776367,
  "long_name": "Toast, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
- "pe_trailing_y": 40.382713,
- "pe_forward": 18.58945,
+ "pe_trailing_y": 38.20879,
+ "pe_forward": 19.692911,
  "peg": 0.23,
- "p_sales_y": 2.7787156,
- "eps_trailing_y": 0.81,
- "eps_forward": 1.7596,
- "earnings_growth_y": 1.0,
- "earnings_growth_q_y": 0.925,
- "bs_date": "2026-06-30",
- "cash": 1713000000.0,
+ "p_sales_y": 2.8245764,
+ "eps_trailing_y": 0.91,
+ "eps_forward": 1.76561,
+ "earnings_growth_y": 0.802,
+ "earnings_growth_q_y": 0.61,
+ "bs_date": "2026-09-30",
+ "cash": 1885000000.0,
  "total_debt": 17000000.0,
  "current_debt": null,
  "lease_obligations": 17000000.0,
- "equity": 2045000000.0,
- "net_debt": -1696000000.0,
- "ocf_ttm": 635000000.0,
- "capex_ttm": -59000000.0,
- "fcf_ttm": 576000000.0,
+ "equity": 2287000000.0,
+ "net_debt": -1868000000.0,
+ "ocf_ttm": 668000000.0,
+ "capex_ttm": -64000000.0,
+ "fcf_ttm": 604000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -562000000.0,
- "stock_issuance_ttm": -504000000.0,
- "revenue_ttm": 6804000000.0,
- "net_income_ttm": 486000000.0,
- "ebitda_ttm": 486000000.0,
- "ebit_ttm": 435000000.0,
+ "buybacks_ttm": -539000000.0,
+ "stock_issuance_ttm": -501000000.0,
+ "revenue_ttm": 7152000000.0,
+ "net_income_ttm": 550000000.0,
+ "ebitda_ttm": 572000000.0,
+ "ebit_ttm": 522000000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.23096774193548386,
+ "revenue_yoy_last_q": 0.2131047152480099,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1981000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1908000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1633000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1550000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.29
+  },
   {
    "period": "2026-06-30",
    "value": 0.26
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.16
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.13
   }
  ],
- "eps_ttm": 0.78,
+ "eps_ttm": 0.91,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 17.666666666666668,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 1.0,
- "eps_forward_growth": 1.255897435897436,
+ "eps_growth_last_q": 0.8124999999999998,
+ "eps_forward_growth": 0.940230769230769,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.2741039878849066
+  },
   {
    "period": "2026-06-30",
    "value": 0.27044025157232704
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.2645437844458053
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.25290322580645164
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": -0.0068846815834767705,
+ "dilution_1y": -0.011925042589437829,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -1713000000.0,
+ "gap_24m": -1885000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -3.4897119341563787,
+ "net_debt_to_ebitda": -3.265734265734266,
  "interest_coverage": null,
- "cash_to_debt": 100.76470588235294,
- "ev": 17210379470.825195,
- "ev_to_sales": 2.5294502455651373,
- "ev_to_ebitda": 35.41230343791192,
- "pe_ttm": 38.902015372068306,
- "pe_trailing": 40.382713,
- "p_sales": 2.7787156,
- "p_fcf": 32.82357547018263,
- "p_book": 9.245173335366843
+ "cash_to_debt": 110.88235294117646,
+ "ev": 18333370265.960693,
+ "ev_to_sales": 2.563390697142155,
+ "ev_to_ebitda": 32.0513466188124,
+ "pe_ttm": 36.72976411992853,
+ "pe_trailing": 38.20879,
+ "p_sales": 2.8245764,
+ "p_fcf": 33.44597726152433,
+ "p_book": 8.833130855251724
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "OTEX",
- "fetched": "2026-10-25",
- "market_cap": 6782413147.136688,
- "shares_out": 242662360.0,
- "price": 27.950000762939453,
+ "fetched": "2026-11-10",
+ "market_cap": 6019174475.948032,
+ "shares_out": 241539906.0,
+ "price": 24.920000076293945,
  "long_name": "Open Text Corporation",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 10.833334,
- "pe_forward": 6.519726,
+ "pe_trailing_y": 9.439394,
+ "pe_forward": 5.855401,
  "peg": 1.02,
- "p_sales_y": 1.2927744,
- "eps_trailing_y": 2.58,
- "eps_forward": 4.28699,
- "earnings_growth_y": 4.761,
- "earnings_growth_q_y": 4.399,
- "bs_date": "2026-06-30",
- "cash": 956024000.0,
- "total_debt": 5972406000.0,
- "current_debt": 99462000.0,
- "lease_obligations": 202037000.0,
- "equity": 4014104000.0,
- "net_debt": 5016382000.0,
- "ocf_ttm": 1006817000.0,
- "capex_ttm": -199300000.0,
- "fcf_ttm": 807517000.0,
+ "p_sales_y": 1.15867,
+ "eps_trailing_y": 2.64,
+ "eps_forward": 4.2559,
+ "earnings_growth_y": 0.107,
+ "earnings_growth_q_y": 0.059,
+ "bs_date": "2026-09-30",
+ "cash": 983292000.0,
+ "total_debt": 5969138000.0,
+ "current_debt": 100672000.0,
+ "lease_obligations": 202761000.0,
+ "equity": 4108925000.0,
+ "net_debt": 4985846000.0,
+ "ocf_ttm": 1031327000.0,
+ "capex_ttm": -186522000.0,
+ "fcf_ttm": 844805000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -469312000.0,
- "stock_issuance_ttm": -469312000.0,
- "revenue_ttm": 5246401000.0,
- "net_income_ttm": 643022000.0,
- "ebitda_ttm": 1817916000.0,
- "ebit_ttm": 1210766000.0,
- "interest_ttm": 351889000.0,
- "revenue_yoy_last_q": 0.02936887703284996,
+ "buybacks_ttm": -391693000.0,
+ "stock_issuance_ttm": -391693000.0,
+ "revenue_ttm": 5194900000.0,
+ "net_income_ttm": 651653000.0,
+ "ebitda_ttm": 1796071000.0,
+ "ebit_ttm": 1209917000.0,
+ "interest_ttm": 337916000.0,
+ "revenue_yoy_last_q": -0.03998105788601347,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1236634000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1349026000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1288135000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1310537000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.64
+  },
   {
    "period": "2026-06-30",
    "value": 0.64
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.58
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.11
   }
  ],
- "eps_ttm": 2.58,
+ "eps_ttm": 2.64,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.5087719298245614,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 4.818181818181818,
- "eps_forward_growth": 0.6616240310077519,
+ "eps_growth_last_q": 0.10344827586206917,
+ "eps_forward_growth": 0.6120833333333331,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7322522266086813
+  },
   {
    "period": "2026-06-30",
    "value": 0.7497794705216949
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7278088088593199
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7231379197992884
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.04968095160900188,
+ "dilution_1y": -0.04146740013000494,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 99462000.0,
- "gap_24m": -856562000.0,
+ "need_24m": 100672000.0,
+ "gap_24m": -882620000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.7594135262575388,
- "interest_coverage": 3.440761149112362,
- "cash_to_debt": 0.1600735114123186,
- "ev": 11798795147.136688,
- "ev_to_sales": 2.2489312477518757,
- "ev_to_ebitda": 6.4902862107691925,
- "pe_ttm": 10.547715548047638,
- "pe_trailing": 10.833334,
- "p_sales": 1.2927744,
- "p_fcf": 8.399096424145483,
- "p_book": 1.689645596411226
+ "net_debt_to_ebitda": 2.775973778319454,
+ "interest_coverage": 3.580525929520946,
+ "cash_to_debt": 0.1647293126746274,
+ "ev": 11005020475.948032,
+ "ev_to_sales": 2.1184277803130054,
+ "ev_to_ebitda": 6.127274743564165,
+ "pe_ttm": 9.23677858606963,
+ "pe_trailing": 9.439394,
+ "p_sales": 1.15867,
+ "p_fcf": 7.124927617554385,
+ "p_book": 1.4649024929751777
 }

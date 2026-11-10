@@ -1,40 +1,44 @@
 {
  "ticker": "CELC",
- "fetched": "2026-10-25",
- "market_cap": 3192806997.0,
+ "fetched": "2026-11-10",
+ "market_cap": 3376301652.0,
  "shares_out": 48931908.0,
- "price": 65.25,
+ "price": 69.0,
  "long_name": "Celcuity Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
  "pe_trailing_y": null,
- "pe_forward": -815.625,
+ "pe_forward": -13800.0,
  "peg": null,
  "p_sales_y": null,
- "eps_trailing_y": -4.31,
- "eps_forward": -0.08,
+ "eps_trailing_y": -4.72,
+ "eps_forward": -0.005,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 754044000.0,
- "total_debt": 754385000.0,
- "current_debt": 257000.0,
- "lease_obligations": 1150000.0,
- "equity": -12781000.0,
- "net_debt": 341000.0,
- "ocf_ttm": -191706000.0,
- "capex_ttm": -571000.0,
- "fcf_ttm": -192277000.0,
+ "bs_date": "2026-09-30",
+ "cash": 642703000.0,
+ "total_debt": 755065000.0,
+ "current_debt": 259000.0,
+ "lease_obligations": 1107000.0,
+ "equity": -74039000.0,
+ "net_debt": 112362000.0,
+ "ocf_ttm": -213116000.0,
+ "capex_ttm": -50755000.0,
+ "fcf_ttm": -263871000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
  "revenue_ttm": 0.0,
- "net_income_ttm": -226482000.0,
- "ebitda_ttm": -204017000.0,
- "ebit_ttm": -204213000.0,
- "interest_ttm": 22269000.0,
+ "net_income_ttm": -256015000.0,
+ "ebitda_ttm": -235434000.0,
+ "ebit_ttm": -235650000.0,
+ "interest_ttm": 20365000.0,
  "revenue_yoy_last_q": null,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.0
+  },
   {
    "period": "2026-06-30",
    "value": 0.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 0.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.33
+  },
   {
    "period": "2026-06-30",
    "value": -1.44
@@ -72,13 +76,9 @@
   {
    "period": "2025-09-30",
    "value": -0.92
-  },
-  {
-   "period": "2025-06-30",
-   "value": -1.04
   }
  ],
- "eps_ttm": -4.3,
+ "eps_ttm": -4.71,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
@@ -113,16 +113,16 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.25719007309618114,
- "fcf_burn_annual": 192277000.0,
- "runway_months": 47.05985635307395,
- "need_24m": 384811000.0,
- "gap_24m": -369233000.0,
+ "dilution_1y": 0.13051570174690208,
+ "fcf_burn_annual": 263871000.0,
+ "runway_months": 29.228054617597234,
+ "need_24m": 528001000.0,
+ "gap_24m": -114702000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.0016714293416725077,
- "interest_coverage": -9.170281557321838,
- "cash_to_debt": 0.999547976166016,
- "ev": 3193147997.0,
+ "net_debt_to_ebitda": -0.4772547720380234,
+ "interest_coverage": -11.571323348882887,
+ "cash_to_debt": 0.8511889704859846,
+ "ev": 3488663652.0,
  "ev_to_sales": null,
  "ev_to_ebitda": null,
  "pe_ttm": null,

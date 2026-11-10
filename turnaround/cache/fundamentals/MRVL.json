@@ -1,0 +1,154 @@
+{
+ "ticker": "MRVL",
+ "fetched": "2026-11-10",
+ "market_cap": 138860870216.58054,
+ "shares_out": 899765882.0,
+ "price": 154.3300018310547,
+ "long_name": "Marvell Technology, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 50.76645,
+ "pe_forward": 20.997566,
+ "peg": 0.35,
+ "p_sales_y": 14.693805,
+ "eps_trailing_y": 3.04,
+ "eps_forward": 7.3499,
+ "earnings_growth_y": 0.5,
+ "earnings_growth_q_y": 0.581,
+ "bs_date": "2026-07-31",
+ "cash": 3932800000.0,
+ "total_debt": 5286100000.0,
+ "current_debt": 59300000.0,
+ "lease_obligations": 323200000.0,
+ "equity": 18531600000.0,
+ "net_debt": 1353300000.0,
+ "ocf_ttm": 2200300000.0,
+ "capex_ttm": -477500000.0,
+ "fcf_ttm": 1722800000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1900100000.0,
+ "stock_issuance_ttm": -1900100000.0,
+ "revenue_ttm": 9450300000.0,
+ "net_income_ttm": 2639900000.0,
+ "ebitda_ttm": 4759600000.0,
+ "ebit_ttm": 3498100000.0,
+ "interest_ttm": 439500000.0,
+ "revenue_yoy_last_q": 0.3654852699267235,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2739300000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2417800000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 2218700000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2074500000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 2006100000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.33
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.04
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.46
+  },
+  {
+   "period": "2025-10-31",
+   "value": 2.2
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.22
+  }
+ ],
+ "eps_ttm": 3.0300000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 0.5,
+ "eps_forward_growth": 1.4257095709570953,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.5313766290658197
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.5214657953511457
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.5173750394375084
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.5156905278380333
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.5037635212601566
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 8194600000.0,
+   "eps": 3.07,
+   "net_income": 2670100000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 5767300000.0,
+   "eps": -1.02,
+   "net_income": -885000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5507700000.0,
+   "eps": -1.08,
+   "net_income": -933400000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5919600000.0,
+   "eps": -0.19,
+   "net_income": -163500000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.042312956733557616,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 59300000.0,
+ "gap_24m": -3873500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.2843306160181528,
+ "interest_coverage": 7.959271899886234,
+ "cash_to_debt": 0.7439889521575452,
+ "ev": 140214170216.58054,
+ "ev_to_sales": 14.837007313691686,
+ "ev_to_ebitda": 29.45923401474505,
+ "pe_ttm": 52.60080693078546,
+ "pe_trailing": 50.76645,
+ "p_sales": 14.693805,
+ "p_fcf": 80.60185176258447,
+ "p_book": 7.493193799595315
+}

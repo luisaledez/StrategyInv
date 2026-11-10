@@ -1,40 +1,44 @@
 {
  "ticker": "MGEE",
- "fetched": "2026-10-25",
- "market_cap": 2773614489.7925644,
- "shares_out": 37746521.0,
- "price": 73.4800033569336,
+ "fetched": "2026-11-10",
+ "market_cap": 3004321807.9928207,
+ "shares_out": 37823515.0,
+ "price": 79.43000030517578,
  "long_name": "MGE Energy, Inc.",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Regulated Electric",
- "pe_trailing_y": 18.054054,
- "pe_forward": 17.49499,
+ "pe_trailing_y": 18.301844,
+ "pe_forward": 18.731813,
  "peg": 4.12,
- "p_sales_y": 3.6876795,
- "eps_trailing_y": 4.07,
- "eps_forward": 4.20006,
- "earnings_growth_y": 0.236,
- "earnings_growth_q_y": 0.259,
- "bs_date": "2026-06-30",
- "cash": 16621000.0,
- "total_debt": 934363000.0,
- "current_debt": 55259000.0,
+ "p_sales_y": 3.917754,
+ "eps_trailing_y": 4.34,
+ "eps_forward": 4.24038,
+ "earnings_growth_y": 0.215,
+ "earnings_growth_q_y": 0.267,
+ "bs_date": "2026-09-30",
+ "cash": 10539000.0,
+ "total_debt": 933651000.0,
+ "current_debt": 55799000.0,
  "lease_obligations": null,
- "equity": 1440519000.0,
- "net_debt": 917742000.0,
- "ocf_ttm": 278109000.0,
- "capex_ttm": -442373000.0,
- "fcf_ttm": -164264000.0,
+ "equity": 1481470000.0,
+ "net_debt": 923112000.0,
+ "ocf_ttm": 275518000.0,
+ "capex_ttm": -379820000.0,
+ "fcf_ttm": -104302000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 88948000.0,
- "revenue_ttm": 769130000.0,
- "net_income_ttm": 149633000.0,
- "ebitda_ttm": 323436000.0,
- "ebit_ttm": 208116000.0,
- "interest_ttm": 36854000.0,
- "revenue_yoy_last_q": 0.010931189323432733,
+ "stock_issuance_ttm": 91979000.0,
+ "revenue_ttm": 783848000.0,
+ "net_income_ttm": 161494000.0,
+ "ebitda_ttm": 338075000.0,
+ "ebit_ttm": 222269000.0,
+ "interest_ttm": 37545000.0,
+ "revenue_yoy_last_q": 0.08377779928164442,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 190397000.0
+  },
   {
    "period": "2026-06-30",
    "value": 161195000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 175679000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 159452000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.48
+  },
   {
    "period": "2026-06-30",
    "value": 0.89
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.22
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.72
   }
  ],
- "eps_ttm": 4.07,
+ "eps_ttm": 4.33,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.11711711711711725,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.23611111111111116,
- "eps_forward_growth": 0.03195577395577387,
+ "eps_growth_last_q": 0.21311475409836067,
+ "eps_forward_growth": -0.020697459584295586,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4929489435232698
+  },
   {
    "period": "2026-06-30",
    "value": 0.4215267222928751
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4895918123395511
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.42964653939743624
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.03389937606042359,
- "fcf_burn_annual": 164264000.0,
- "runway_months": 1.2142161398724005,
- "need_24m": 383787000.0,
- "gap_24m": 367166000.0,
+ "dilution_1y": 0.03498205577938873,
+ "fcf_burn_annual": 104302000.0,
+ "runway_months": 1.2125174972675499,
+ "need_24m": 264403000.0,
+ "gap_24m": 253864000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 2.8374763477163953,
- "interest_coverage": 5.647039670049384,
- "cash_to_debt": 0.01778858965947924,
- "ev": 3691356489.7925644,
- "ev_to_sales": 4.799392157102914,
- "ev_to_ebitda": 11.412942559865211,
- "pe_ttm": 18.536114959885616,
- "pe_trailing": 18.054054,
- "p_sales": 3.6876795,
+ "net_debt_to_ebitda": 2.7304947127116765,
+ "interest_coverage": 5.920069250233054,
+ "cash_to_debt": 0.011287943781991343,
+ "ev": 3927433807.9928207,
+ "ev_to_sales": 5.010453312367731,
+ "ev_to_ebitda": 11.617048903328612,
+ "pe_ttm": 18.603302958579395,
+ "pe_trailing": 18.301844,
+ "p_sales": 3.917754,
  "p_fcf": null,
- "p_book": 1.9254272174074514
+ "p_book": 2.027932936875415
 }

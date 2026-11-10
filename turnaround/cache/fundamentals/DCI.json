@@ -1,0 +1,154 @@
+{
+ "ticker": "DCI",
+ "fetched": "2026-11-10",
+ "market_cap": 10142982824.018784,
+ "shares_out": 115820533.0,
+ "price": 87.57499694824219,
+ "long_name": "Donaldson Company, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 22.746754,
+ "pe_forward": 18.033463,
+ "peg": 1.55,
+ "p_sales_y": 2.6104033,
+ "eps_trailing_y": 3.85,
+ "eps_forward": 4.85625,
+ "earnings_growth_y": 0.14,
+ "earnings_growth_q_y": 0.131,
+ "bs_date": "2026-07-31",
+ "cash": 250400000.0,
+ "total_debt": 1324800000.0,
+ "current_debt": 44800000.0,
+ "lease_obligations": null,
+ "equity": 1764400000.0,
+ "net_debt": 1074400000.0,
+ "ocf_ttm": 493700000.0,
+ "capex_ttm": -67400000.0,
+ "fcf_ttm": 426300000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -111200000.0,
+ "stock_issuance_ttm": -111200000.0,
+ "revenue_ttm": 3885600000.0,
+ "net_income_ttm": 453800000.0,
+ "ebitda_ttm": 727800000.0,
+ "ebit_ttm": 621800000.0,
+ "interest_ttm": 36000000.0,
+ "revenue_yoy_last_q": 0.07963699398388902,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1058800000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 995100000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 896300000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 935400000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 980700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 1.1
+  },
+  {
+   "period": "2026-04-30",
+   "value": 1.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.78
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.97
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.97
+  }
+ ],
+ "eps_ttm": 3.8499999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2622950819672132,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.13402061855670122,
+ "eps_forward_growth": 0.26136363636363646,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.362580279561768
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.33504170435132147
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.33448622113131765
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.35150737652341246
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.3454675231977159
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3885600000.0,
+   "eps": 3.85,
+   "net_income": 453800000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3690900000.0,
+   "eps": 3.05,
+   "net_income": 367000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3586300000.0,
+   "eps": 3.38,
+   "net_income": 414000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3430800000.0,
+   "eps": 2.9,
+   "net_income": 358800000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.00041628730119758206,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 44800000.0,
+ "gap_24m": -205600000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.4762297334432537,
+ "interest_coverage": 17.272222222222222,
+ "cash_to_debt": 0.1890096618357488,
+ "ev": 11217382824.018784,
+ "ev_to_sales": 2.8869113712216348,
+ "ev_to_ebitda": 15.412727155837844,
+ "pe_ttm": 22.351218210706882,
+ "pe_trailing": 22.746754,
+ "p_sales": 2.6104033,
+ "p_fcf": 23.793063157444955,
+ "p_book": 5.748686705973013
+}

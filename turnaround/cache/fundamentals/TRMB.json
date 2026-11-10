@@ -1,40 +1,44 @@
 {
  "ticker": "TRMB",
- "fetched": "2026-10-24",
- "market_cap": 14800250732.579945,
- "shares_out": 233111519.0,
- "price": 63.4900016784668,
+ "fetched": "2026-11-10",
+ "market_cap": 12535007364.639412,
+ "shares_out": 229243001.0,
+ "price": 54.68000030517578,
  "long_name": "Trimble Inc.",
  "sector_y": "Technology",
  "industry_y": "Scientific & Technical Instruments",
  "pe_trailing_y": null,
- "pe_forward": 15.346907,
- "peg": 1.5,
- "p_sales_y": 3.9135554,
- "eps_trailing_y": -0.48,
- "eps_forward": 4.13699,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 214400000.0,
- "total_debt": 1459300000.0,
- "current_debt": 16400000.0,
+ "pe_forward": 13.563123,
+ "peg": 1.27,
+ "p_sales_y": 3.2571154,
+ "eps_trailing_y": -0.68,
+ "eps_forward": 4.03152,
+ "earnings_growth_y": -0.457,
+ "earnings_growth_q_y": -0.47,
+ "bs_date": "2026-09-30",
+ "cash": 214500000.0,
+ "total_debt": 1533500000.0,
+ "current_debt": 90200000.0,
  "lease_obligations": null,
- "equity": 5110800000.0,
- "net_debt": 1244900000.0,
- "ocf_ttm": 799100000.0,
- "capex_ttm": -26000000.0,
- "fcf_ttm": 773100000.0,
+ "equity": 4975800000.0,
+ "net_debt": 1319000000.0,
+ "ocf_ttm": 825000000.0,
+ "capex_ttm": -26700000.0,
+ "fcf_ttm": 798300000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -524400000.0,
- "stock_issuance_ttm": -523800000.0,
- "revenue_ttm": 3782900000.0,
- "net_income_ttm": -104700000.0,
- "ebitda_ttm": 278100000.0,
- "ebit_ttm": 76000000.0,
- "interest_ttm": 79800000.0,
- "revenue_yoy_last_q": 0.10996916752312447,
+ "buybacks_ttm": -704600000.0,
+ "stock_issuance_ttm": -705100000.0,
+ "revenue_ttm": 3848500000.0,
+ "net_income_ttm": -157100000.0,
+ "ebitda_ttm": 274200000.0,
+ "ebit_ttm": 71900000.0,
+ "interest_ttm": 79500000.0,
+ "revenue_yoy_last_q": 0.07279183311140702,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 966800000.0
+  },
   {
    "period": "2026-06-30",
    "value": 972000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 901200000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 875700000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.25
+  },
   {
    "period": "2026-06-30",
    "value": -2.02
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.46
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.37
   }
  ],
- "eps_ttm": -0.49000000000000005,
+ "eps_ttm": -0.7000000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.7110016420361247,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -6.45945945945946,
+ "eps_growth_last_q": -0.4565217391304348,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6817335539925528
+  },
   {
    "period": "2026-06-30",
    "value": 0.6943415637860082
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6891921881935198
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6827680712572799
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.020168067226890796,
+ "dilution_1y": -0.034888608659100484,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 16400000.0,
- "gap_24m": -198000000.0,
+ "need_24m": 90200000.0,
+ "gap_24m": -124300000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 4.476447321107515,
- "interest_coverage": 0.9523809523809523,
- "cash_to_debt": 0.14691975604742,
- "ev": 16045150732.579945,
- "ev_to_sales": 4.24149481418487,
- "ev_to_ebitda": 57.695615723049066,
+ "net_debt_to_ebitda": 4.810357403355215,
+ "interest_coverage": 0.9044025157232705,
+ "cash_to_debt": 0.13987610042386697,
+ "ev": 13854007364.639412,
+ "ev_to_sales": 3.599846008740915,
+ "ev_to_ebitda": 50.52519097242674,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 3.9135554,
- "p_fcf": 19.144031474039508,
- "p_book": 2.8958775010917948
+ "p_sales": 3.2571154,
+ "p_fcf": 15.702126224025319,
+ "p_book": 2.519194373696574
 }

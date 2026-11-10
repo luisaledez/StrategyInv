@@ -1,40 +1,44 @@
 {
  "ticker": "UDR",
- "fetched": "2026-10-24",
- "market_cap": 11514109765.50103,
- "shares_out": 321264222.0,
- "price": 35.84000015258789,
+ "fetched": "2026-11-10",
+ "market_cap": 11632986456.579666,
+ "shares_out": 316888770.0,
+ "price": 36.709999084472656,
  "long_name": "UDR, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Residential",
- "pe_trailing_y": 22.683544,
- "pe_forward": 64.0,
+ "pe_trailing_y": 17.316038,
+ "pe_forward": 65.553566,
  "peg": 8.17,
- "p_sales_y": 7.4540625,
- "eps_trailing_y": 1.58,
+ "p_sales_y": 7.6138186,
+ "eps_trailing_y": 2.12,
  "eps_forward": 0.56,
- "earnings_growth_y": 0.909,
- "earnings_growth_q_y": 0.832,
- "bs_date": "2026-06-30",
- "cash": 1193000.0,
- "total_debt": 5994848000.0,
- "current_debt": 490968000.0,
- "lease_obligations": 181016000.0,
- "equity": 2938683000.0,
- "net_debt": 5993655000.0,
- "ocf_ttm": 887260000.0,
- "capex_ttm": -257843000.0,
- "fcf_ttm": 629417000.0,
+ "earnings_growth_y": 4.626,
+ "earnings_growth_q_y": 4.348,
+ "bs_date": "2026-09-30",
+ "cash": 1184000.0,
+ "total_debt": 5936337000.0,
+ "current_debt": 734558000.0,
+ "lease_obligations": 180026000.0,
+ "equity": 3128235000.0,
+ "net_debt": 5935153000.0,
+ "ocf_ttm": 854082000.0,
+ "capex_ttm": -258010000.0,
+ "fcf_ttm": 596072000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -418094000.0,
- "stock_issuance_ttm": -418094000.0,
- "revenue_ttm": 1716218000.0,
- "net_income_ttm": 522177000.0,
- "ebitda_ttm": 1424916000.0,
- "ebit_ttm": 755746000.0,
- "interest_ttm": 196469000.0,
- "revenue_yoy_last_q": 0.0,
+ "buybacks_ttm": -393095000.0,
+ "stock_issuance_ttm": -393095000.0,
+ "revenue_ttm": 1712435000.0,
+ "net_income_ttm": 697862000.0,
+ "ebitda_ttm": 1602894000.0,
+ "ebit_ttm": 941611000.0,
+ "interest_ttm": 194483000.0,
+ "revenue_yoy_last_q": -0.0087597021284479,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 428081000.0
+  },
   {
    "period": "2026-06-30",
    "value": 425399000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 431864000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 425399000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.67
+  },
   {
    "period": "2026-06-30",
    "value": 0.21
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.12
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.11
   }
  ],
- "eps_ttm": 1.5699999999999998,
+ "eps_ttm": 2.12,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 3.346153846153846,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.909090909090909,
- "eps_forward_growth": -0.6433121019108279,
+ "eps_growth_last_q": 4.583333333333334,
+ "eps_forward_growth": -0.7358490566037736,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.26801002613991276
+  },
   {
    "period": "2026-06-30",
    "value": 0.2782258538454486
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.26588694589037287
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2723090557335584
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.03026128918442561,
+ "dilution_1y": -0.028717580202793802,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 490968000.0,
- "gap_24m": 489775000.0,
+ "need_24m": 734558000.0,
+ "gap_24m": 733374000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.2063216358016895,
- "interest_coverage": 3.8466424728583135,
- "cash_to_debt": 0.0001990042116163746,
- "ev": 17507764765.50103,
- "ev_to_sales": 10.201364142259918,
- "ev_to_ebitda": 12.286874991579174,
- "pe_ttm": 22.05020474954092,
- "pe_trailing": 22.683544,
- "p_sales": 7.4540625,
- "p_fcf": 18.29329326265581,
- "p_book": 3.9181190232158523
+ "net_debt_to_ebitda": 3.7027732339131596,
+ "interest_coverage": 4.84161083488017,
+ "cash_to_debt": 0.00019944959324243216,
+ "ev": 17568139456.579666,
+ "ev_to_sales": 10.259156964544445,
+ "ev_to_ebitda": 10.960262785049833,
+ "pe_ttm": 16.669465390836105,
+ "pe_trailing": 17.316038,
+ "p_sales": 7.6138186,
+ "p_fcf": 19.516076005213574,
+ "p_book": 3.7187060615905345
 }

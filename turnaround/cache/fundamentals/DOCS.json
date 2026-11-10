@@ -1,40 +1,44 @@
 {
  "ticker": "DOCS",
- "fetched": "2026-10-24",
- "market_cap": 5951633163.407288,
- "shares_out": 178245980.0,
- "price": 33.38999938964844,
+ "fetched": "2026-11-10",
+ "market_cap": 5864318562.418144,
+ "shares_out": 178409454.0,
+ "price": 32.869998931884766,
  "long_name": "Doximity, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Health Information Services",
- "pe_trailing_y": 39.282352,
- "pe_forward": 21.428295,
+ "pe_trailing_y": 45.652775,
+ "pe_forward": 21.170801,
  "peg": 0.59,
- "p_sales_y": 9.07859,
- "eps_trailing_y": 0.85,
- "eps_forward": 1.55822,
- "earnings_growth_y": -0.519,
- "earnings_growth_q_y": -0.544,
- "bs_date": "2026-06-30",
- "cash": 687789000.0,
- "total_debt": 9673000.0,
- "current_debt": 2142000.0,
- "lease_obligations": 9673000.0,
- "equity": 916070000.0,
- "net_debt": -678116000.0,
- "ocf_ttm": 306344000.0,
- "capex_ttm": -9381000.0,
- "fcf_ttm": 296963000.0,
+ "p_sales_y": 8.86411,
+ "eps_trailing_y": 0.72,
+ "eps_forward": 1.55261,
+ "earnings_growth_y": -0.419,
+ "earnings_growth_q_y": -0.44,
+ "bs_date": "2026-09-30",
+ "cash": 713229000.0,
+ "total_debt": 9146000.0,
+ "current_debt": 2198000.0,
+ "lease_obligations": 9146000.0,
+ "equity": 928484000.0,
+ "net_debt": -704083000.0,
+ "ocf_ttm": 305685000.0,
+ "capex_ttm": -8965000.0,
+ "fcf_ttm": 296720000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -400930000.0,
- "stock_issuance_ttm": -400930000.0,
- "revenue_ttm": 655568000.0,
- "net_income_ttm": 167046000.0,
- "ebitda_ttm": 209923000.0,
- "ebit_ttm": 194047000.0,
+ "buybacks_ttm": -433235000.0,
+ "stock_issuance_ttm": -433235000.0,
+ "revenue_ttm": 661580000.0,
+ "net_income_ttm": 139717000.0,
+ "ebitda_ttm": 191048000.0,
+ "ebit_ttm": 174288000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.07336563568701893,
+ "revenue_yoy_last_q": 0.03567423230974631,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 174537000.0
+  },
   {
    "period": "2026-06-30",
    "value": 156618000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 168525000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 145913000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.18
+  },
   {
    "period": "2026-06-30",
    "value": 0.13
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.31
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.27
   }
  ],
- "eps_ttm": 0.8500000000000001,
+ "eps_ttm": 0.72,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.11711711711711725,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.5185185185185186,
- "eps_forward_growth": 0.8331999999999997,
+ "eps_growth_last_q": -0.4193548387096775,
+ "eps_forward_growth": 1.1564027777777781,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8547815076459433
+  },
   {
    "period": "2026-06-30",
    "value": 0.8487274770460611
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9025367156208278
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.8917642704899494
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.04056187772196729,
+ "dilution_1y": -0.05188761108422946,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2142000.0,
- "gap_24m": -685647000.0,
+ "need_24m": 2198000.0,
+ "gap_24m": -711031000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -3.2303082558843004,
+ "net_debt_to_ebitda": -3.685372262468071,
  "interest_coverage": null,
- "cash_to_debt": 71.10400082704435,
- "ev": 5273517163.407288,
- "ev_to_sales": 8.044195511994618,
- "ev_to_ebitda": 25.12119759820166,
- "pe_ttm": 35.62870804094254,
- "pe_trailing": 39.282352,
- "p_sales": 9.07859,
- "p_fcf": 20.04166567352595,
- "p_book": 6.496919627765659
+ "cash_to_debt": 77.9826153509731,
+ "ev": 5160235562.418144,
+ "ev_to_sales": 7.799866323676871,
+ "ev_to_ebitda": 27.010152225713664,
+ "pe_ttm": 41.97283481908532,
+ "pe_trailing": 45.652775,
+ "p_sales": 8.86411,
+ "p_fcf": 19.763812895720356,
+ "p_book": 6.31601466736976
 }

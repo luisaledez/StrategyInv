@@ -1,40 +1,44 @@
 {
  "ticker": "STWD",
- "fetched": "2026-10-24",
- "market_cap": 4656725362.75835,
- "shares_out": 370168950.0,
- "price": 12.579999923706055,
+ "fetched": "2026-11-10",
+ "market_cap": 4386260054.32844,
+ "shares_out": 364004978.0,
+ "price": 12.050000190734863,
  "long_name": "Starwood Property Trust, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Mortgage",
- "pe_trailing_y": 20.966665,
- "pe_forward": 6.651263,
+ "pe_trailing_y": null,
+ "pe_forward": 6.6142287,
  "peg": 1.74,
- "p_sales_y": 7.99875,
- "eps_trailing_y": 0.6,
- "eps_forward": 1.89137,
- "earnings_growth_y": -0.974,
- "earnings_growth_q_y": -0.949,
- "bs_date": "2026-06-30",
- "cash": 452392000.0,
- "total_debt": 13934695000.0,
- "current_debt": 1042864000.0,
+ "p_sales_y": 13.993958,
+ "eps_trailing_y": -0.67,
+ "eps_forward": 1.82183,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 472853000.0,
+ "total_debt": 13033738000.0,
+ "current_debt": 1040805000.0,
  "lease_obligations": null,
- "equity": 6498963000.0,
- "net_debt": 13482303000.0,
- "ocf_ttm": 1090565000.0,
- "capex_ttm": -609469000.0,
- "fcf_ttm": 481096000.0,
+ "equity": 5835660000.0,
+ "net_debt": 12560885000.0,
+ "ocf_ttm": 984192000.0,
+ "capex_ttm": -616962000.0,
+ "fcf_ttm": 367230000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -29940000.0,
- "stock_issuance_ttm": 507017000.0,
- "revenue_ttm": 811718000.0,
- "net_income_ttm": 227910000.0,
+ "buybacks_ttm": -137708000.0,
+ "stock_issuance_ttm": -134190000.0,
+ "revenue_ttm": 701100000.0,
+ "net_income_ttm": -234358000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
- "interest_ttm": 1342180000.0,
- "revenue_yoy_last_q": -0.05658061428450778,
+ "interest_ttm": 1366476000.0,
+ "revenue_yoy_last_q": -0.5445407108398149,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 92522000.0
+  },
   {
    "period": "2026-06-30",
    "value": 167556000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 203140000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 177605000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.08
+  },
   {
    "period": "2026-06-30",
    "value": 0.01
@@ -72,18 +76,14 @@
   {
    "period": "2025-06-30",
    "value": 0.38
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.33
   }
  ],
- "eps_ttm": 0.71,
+ "eps_ttm": -0.75,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.04545454545454519,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.9696969696969697,
- "eps_forward_growth": 1.6639014084507044,
+ "eps_growth_last_q": -3.8421052631578947,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.08485169186075447,
+ "dilution_1y": -0.0169038237888266,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1042864000.0,
- "gap_24m": 590472000.0,
+ "need_24m": 1040805000.0,
+ "gap_24m": 567952000.0,
  "survival_gate": "REVIEW",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
- "cash_to_debt": 0.03246515262802666,
- "ev": 18139028362.75835,
- "ev_to_sales": 22.34646559859255,
+ "cash_to_debt": 0.03627915491319528,
+ "ev": 16947145054.328438,
+ "ev_to_sales": 24.172222299712505,
  "ev_to_ebitda": null,
- "pe_ttm": 20.432299428539118,
- "pe_trailing": 20.966665,
- "p_sales": 7.99875,
- "p_fcf": 9.679409853248313,
- "p_book": 0.7165336012465913
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 13.993958,
+ "p_fcf": 11.944176821960188,
+ "p_book": 0.7516305018332871
 }

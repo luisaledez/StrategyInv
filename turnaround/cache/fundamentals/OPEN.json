@@ -1,40 +1,44 @@
 {
  "ticker": "OPEN",
- "fetched": "2026-10-25",
- "market_cap": 1922760297.5220919,
- "shares_out": 971091050.0,
- "price": 1.9800000190734863,
+ "fetched": "2026-11-10",
+ "market_cap": 1311636844.7399263,
+ "shares_out": 930238919.0,
+ "price": 1.409999966621399,
  "long_name": "Opendoor Technologies Inc.",
  "sector_y": "Real Estate",
  "industry_y": "Real Estate Services",
  "pe_trailing_y": null,
- "pe_forward": -93.927895,
+ "pe_forward": -13.325772,
  "peg": null,
- "p_sales_y": 0.5908913,
- "eps_trailing_y": -1.89,
- "eps_forward": -0.02108,
+ "p_sales_y": 0.39025196,
+ "eps_trailing_y": -2.0,
+ "eps_forward": -0.10581,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 896000000.0,
- "total_debt": 1964000000.0,
- "current_debt": 887000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 910000000.0,
+ "total_debt": 3070000000.0,
+ "current_debt": 2077000000.0,
  "lease_obligations": 8000000.0,
- "equity": 914000000.0,
- "net_debt": 1068000000.0,
- "ocf_ttm": -459000000.0,
- "capex_ttm": -15000000.0,
- "fcf_ttm": -474000000.0,
+ "equity": 592000000.0,
+ "net_debt": 2160000000.0,
+ "ocf_ttm": -1726000000.0,
+ "capex_ttm": -16000000.0,
+ "fcf_ttm": -1742000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 3254000000.0,
- "net_income_ttm": -1521000000.0,
- "ebitda_ttm": -1367000000.0,
- "ebit_ttm": -1407000000.0,
- "interest_ttm": 114000000.0,
- "revenue_yoy_last_q": -0.43650287172941926,
+ "revenue_ttm": 3361000000.0,
+ "net_income_ttm": -1649000000.0,
+ "ebitda_ttm": -1494000000.0,
+ "ebit_ttm": -1531000000.0,
+ "interest_ttm": 118000000.0,
+ "revenue_yoy_last_q": 0.11693989071038247,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1022000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 883000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 915000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1567000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.23
+  },
   {
    "period": "2026-06-30",
    "value": -0.17
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.12
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.04
   }
  ],
- "eps_ttm": -1.73,
+ "eps_ttm": -1.84,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.03718199608610567
+  },
   {
    "period": "2026-06-30",
    "value": 0.09739524348810873
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.07213114754098361
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.0816847479259732
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.3203874415483092,
- "fcf_burn_annual": 474000000.0,
- "runway_months": 22.68354430379747,
- "need_24m": 1835000000.0,
- "gap_24m": 939000000.0,
+ "dilution_1y": 0.20437137358928026,
+ "fcf_burn_annual": 1742000000.0,
+ "runway_months": 6.268656716417911,
+ "need_24m": 5561000000.0,
+ "gap_24m": 4651000000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": -0.7812728602779809,
- "interest_coverage": -12.342105263157896,
- "cash_to_debt": 0.45621181262729127,
- "ev": 2990760297.522092,
- "ev_to_sales": 0.9191027343337713,
+ "net_debt_to_ebitda": -1.4457831325301205,
+ "interest_coverage": -12.974576271186441,
+ "cash_to_debt": 0.2964169381107492,
+ "ev": 3471636844.7399263,
+ "ev_to_sales": 1.0329178353882553,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.5908913,
+ "p_sales": 0.39025196,
  "p_fcf": null,
- "p_book": 2.1036764743130107
+ "p_book": 2.2156027782769026
 }

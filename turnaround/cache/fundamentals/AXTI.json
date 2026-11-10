@@ -1,18 +1,18 @@
 {
  "ticker": "AXTI",
- "fetched": "2026-10-25",
- "market_cap": 3415053001.028137,
+ "fetched": "2026-11-10",
+ "market_cap": 2591453368.2570343,
  "shares_out": 65573212.0,
- "price": 52.08000183105469,
+ "price": 39.52000045776367,
  "long_name": "AXT, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductor Equipment & Materials",
- "pe_trailing_y": 1302.0001,
- "pe_forward": 23.146667,
+ "pe_trailing_y": 80.65306,
+ "pe_forward": 15.508195,
  "peg": 12.09,
- "p_sales_y": 27.209627,
- "eps_trailing_y": 0.04,
- "eps_forward": 2.25,
+ "p_sales_y": 15.157889,
+ "eps_trailing_y": 0.49,
+ "eps_forward": 2.54833,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
  "bs_date": "2026-06-30",
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 0.39
+  },
+  {
    "period": "2026-06-30",
    "value": 0.17
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": -0.04
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.16
   }
  ],
- "eps_ttm": 0.02000000000000001,
+ "eps_ttm": 0.45,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
- "eps_forward_growth": 111.49999999999994,
+ "eps_forward_growth": 4.6629555555555555,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -22.554518831301504,
  "interest_coverage": 4.070803500397773,
  "cash_to_debt": 4.849447867023131,
- "ev": 3083885001.028137,
- "ev_to_sales": 24.571026787147833,
- "ev_to_ebitda": 210.03098828768898,
- "pe_ttm": 842.3909721332357,
- "pe_trailing": 1302.0001,
- "p_sales": 27.209627,
+ "ev": 2260285368.2570343,
+ "ev_to_sales": 18.008950499621815,
+ "ev_to_ebitda": 153.93893402281785,
+ "pe_ttm": 639.2336872858989,
+ "pe_trailing": 80.65306,
+ "p_sales": 15.157889,
  "p_fcf": null,
- "p_book": 3.84892716458291
+ "p_book": 2.9206912050359124
 }

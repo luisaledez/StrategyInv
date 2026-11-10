@@ -1,20 +1,20 @@
 {
  "ticker": "MTSI",
- "fetched": "2026-10-24",
- "market_cap": 18041869158.958054,
+ "fetched": "2026-11-10",
+ "market_cap": 17336201337.0,
  "shares_out": 76370931.0,
- "price": 236.24000549316406,
+ "price": 227.0,
  "long_name": "MACOM Technology Solutions Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
- "pe_trailing_y": 75.235664,
- "pe_forward": 27.79026,
+ "pe_trailing_y": 52.668213,
+ "pe_forward": 19.581963,
  "peg": 2.05,
- "p_sales_y": 15.500233,
- "eps_trailing_y": 3.14,
- "eps_forward": 8.50082,
- "earnings_growth_y": 1.667,
- "earnings_growth_q_y": 1.757,
+ "p_sales_y": 13.058075,
+ "eps_trailing_y": 4.31,
+ "eps_forward": 11.5923,
+ "earnings_growth_y": 1.973,
+ "earnings_growth_q_y": 2.091,
  "bs_date": "2026-06-30",
  "cash": 663030000.0,
  "total_debt": 377493000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.78
+  },
+  {
    "period": "2026-06-30",
    "value": 1.28
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.59
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.48
   }
  ],
- "eps_ttm": 3.11,
+ "eps_ttm": 4.3,
  "eps_ttm_prior": null,
- "eps_growth_yoy": -1.7019230769230769,
- "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 1.666666666666667,
- "eps_forward_growth": 1.7333826366559486,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": 2.0169491525423733,
+ "eps_forward_growth": 1.6958837209302327,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -128,7 +128,7 @@
   {
    "year": "2022",
    "revenue": 675170000.0,
-   "eps": 6.18,
+   "eps": null,
    "net_income": 439955000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -0.7993219940429535,
  "interest_coverage": 44.09906654622102,
  "cash_to_debt": 1.7564034299973774,
- "ev": 17756332158.958054,
- "ev_to_sales": 15.25492163824798,
- "ev_to_ebitda": 49.70643674265462,
- "pe_ttm": 74.88552152510752,
- "pe_trailing": 75.235664,
- "p_sales": 15.500233,
- "p_fcf": 145.7728567304536,
- "p_book": 11.70960663234934
+ "ev": 17050664337.0,
+ "ev_to_sales": 14.64866426311928,
+ "ev_to_ebitda": 47.731015656842764,
+ "pe_ttm": 71.95653992097158,
+ "pe_trailing": 52.668213,
+ "p_sales": 13.058075,
+ "p_fcf": 140.07127374017307,
+ "p_book": 11.25161125861985
 }

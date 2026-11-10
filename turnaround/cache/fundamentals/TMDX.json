@@ -1,40 +1,44 @@
 {
  "ticker": "TMDX",
- "fetched": "2026-10-25",
- "market_cap": 2452919683.2258987,
- "shares_out": 34675145.0,
- "price": 70.73999786376953,
+ "fetched": "2026-11-10",
+ "market_cap": 3247618060.5,
+ "shares_out": 34733883.0,
+ "price": 93.5,
  "long_name": "TransMedics Group, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Devices",
- "pe_trailing_y": 18.326426,
- "pe_forward": 31.382118,
- "peg": 0.61,
- "p_sales_y": 3.6694646,
- "eps_trailing_y": 3.86,
- "eps_forward": 2.25415,
- "earnings_growth_y": -0.558,
- "earnings_growth_q_y": -0.579,
- "bs_date": "2026-06-30",
- "cash": 472675000.0,
- "total_debt": 867720000.0,
- "current_debt": 23646000.0,
- "lease_obligations": 353717000.0,
- "equity": 518053000.0,
- "net_debt": 395045000.0,
- "ocf_ttm": 145928000.0,
- "capex_ttm": -66887000.0,
- "fcf_ttm": 79041000.0,
+ "pe_trailing_y": 25.47684,
+ "pe_forward": 37.61304,
+ "peg": 0.76,
+ "p_sales_y": 4.4631596,
+ "eps_trailing_y": 3.67,
+ "eps_forward": 2.48584,
+ "earnings_growth_y": -0.298,
+ "earnings_growth_q_y": -0.298,
+ "bs_date": "2026-09-30",
+ "cash": 492962000.0,
+ "total_debt": 866902000.0,
+ "current_debt": 58460000.0,
+ "lease_obligations": 357090000.0,
+ "equity": 550712000.0,
+ "net_debt": 373940000.0,
+ "ocf_ttm": 112359000.0,
+ "capex_ttm": -67663000.0,
+ "fcf_ttm": 44696000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 668468000.0,
- "net_income_ttm": 151699000.0,
- "ebitda_ttm": 130217000.0,
- "ebit_ttm": 93794000.0,
- "interest_ttm": 21240000.0,
- "revenue_yoy_last_q": 0.20701531422761654,
+ "revenue_ttm": 727650000.0,
+ "net_income_ttm": 144453000.0,
+ "ebitda_ttm": 139057000.0,
+ "ebit_ttm": 98644000.0,
+ "interest_ttm": 25020000.0,
+ "revenue_yoy_last_q": 0.41149190324217955,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 203005000.0
+  },
   {
    "period": "2026-06-30",
    "value": 189948000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 143823000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 157370000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.46
+  },
   {
    "period": "2026-06-30",
    "value": 0.41
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.66
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.92
   }
  ],
- "eps_ttm": 3.89,
+ "eps_ttm": 3.6900000000000004,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 3.8217821782178216,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.5543478260869565,
- "eps_forward_growth": -0.4205269922879177,
+ "eps_growth_last_q": -0.303030303030303,
+ "eps_forward_growth": -0.3263306233062331,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5845028447575182
+  },
   {
    "period": "2026-06-30",
    "value": 0.595942047297155
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5880491993631061
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6137700959522145
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.017331875036538102,
+ "dilution_1y": 0.01691115504339047,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 23646000.0,
- "gap_24m": -449029000.0,
+ "need_24m": 58460000.0,
+ "gap_24m": -434502000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.033743674021057,
- "interest_coverage": 4.415913370998116,
- "cash_to_debt": 0.5447321716682801,
- "ev": 2847964683.2258987,
- "ev_to_sales": 4.260435328581022,
- "ev_to_ebitda": 21.870913039203014,
- "pe_ttm": 16.16964965639786,
- "pe_trailing": 18.326426,
- "p_sales": 3.6694646,
- "p_fcf": 31.033510244378217,
- "p_book": 4.734881726823122
+ "net_debt_to_ebitda": 2.6891130975067776,
+ "interest_coverage": 3.942605915267786,
+ "cash_to_debt": 0.5686478979169503,
+ "ev": 3621558060.5,
+ "ev_to_sales": 4.977060483061912,
+ "ev_to_ebitda": 26.04369474747765,
+ "pe_ttm": 22.482178012917696,
+ "pe_trailing": 25.47684,
+ "p_sales": 4.4631596,
+ "p_fcf": 72.66014991274388,
+ "p_book": 5.897126012325862
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "ROP",
- "fetched": "2026-10-24",
- "market_cap": 43332430383.10327,
- "shares_out": 98900874.0,
- "price": 438.1400146484375,
+ "fetched": "2026-11-10",
+ "market_cap": 46709542824.28894,
+ "shares_out": 99036429.0,
+ "price": 471.6400146484375,
  "long_name": "Roper Technologies, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 17.338346,
- "pe_forward": 17.846355,
- "peg": 1.72,
- "p_sales_y": 5.137461,
+ "pe_trailing_y": 18.664028,
+ "pe_forward": 19.193285,
+ "peg": 1.82,
+ "p_sales_y": 5.5378494,
  "eps_trailing_y": 25.27,
- "eps_forward": 24.55067,
+ "eps_forward": 24.57318,
  "earnings_growth_y": 0.326,
  "earnings_growth_q_y": 0.216,
- "bs_date": "2026-06-30",
- "cash": 364900000.0,
- "total_debt": 11319400000.0,
- "current_debt": 718300000.0,
+ "bs_date": "2026-09-30",
+ "cash": 311000000.0,
+ "total_debt": 9719700000.0,
+ "current_debt": 1415100000.0,
  "lease_obligations": 48300000.0,
- "equity": 18700300000.0,
- "net_debt": 10954500000.0,
- "ocf_ttm": 2669100000.0,
- "capex_ttm": -108100000.0,
- "fcf_ttm": 2561000000.0,
+ "equity": 19172600000.0,
+ "net_debt": 9408700000.0,
+ "ocf_ttm": 2620200000.0,
+ "capex_ttm": -106500000.0,
+ "fcf_ttm": 2513700000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -2726700000.0,
- "stock_issuance_ttm": -3204100000.0,
- "revenue_ttm": 8280300000.0,
- "net_income_ttm": 2504300000.0,
- "ebitda_ttm": 4291900000.0,
- "ebit_ttm": 3369500000.0,
- "interest_ttm": 393700000.0,
- "revenue_yoy_last_q": 0.08504836386087677,
+ "stock_issuance_ttm": -3209000000.0,
+ "revenue_ttm": 8434600000.0,
+ "net_income_ttm": 2590500000.0,
+ "ebitda_ttm": 4387400000.0,
+ "ebit_ttm": 3460400000.0,
+ "interest_ttm": 410700000.0,
+ "revenue_yoy_last_q": 0.07648079306071875,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2171800000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2108900000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2017500000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1943600000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4.88
+  },
   {
    "period": "2026-06-30",
    "value": 11.62
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 3.68
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3.49
   }
  ],
- "eps_ttm": 24.139999999999997,
+ "eps_ttm": 25.34,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.010452961672473893,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 2.3295128939828076,
- "eps_forward_growth": 0.017012013256006764,
+ "eps_growth_last_q": 0.326086956521739,
+ "eps_forward_growth": -0.03026124704025257,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.701077447278755
+  },
   {
    "period": "2026-06-30",
    "value": 0.6971406894589597
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6954151177199505
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6922206215270632
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.08089972709282467,
+ "dilution_1y": -0.07997853469110539,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 718300000.0,
- "gap_24m": 353400000.0,
+ "need_24m": 1415100000.0,
+ "gap_24m": 1104100000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.5523660849507213,
- "interest_coverage": 8.558547117094234,
- "cash_to_debt": 0.03223669099068855,
- "ev": 54286930383.10327,
- "ev_to_sales": 6.556155016497382,
- "ev_to_ebitda": 12.648694140847473,
- "pe_ttm": 17.303210630956062,
- "pe_trailing": 17.338346,
- "p_sales": 5.137461,
- "p_fcf": 16.920121196057504,
- "p_book": 2.3172050920628693
+ "net_debt_to_ebitda": 2.144481925513972,
+ "interest_coverage": 8.425614803993183,
+ "cash_to_debt": 0.03199687233145056,
+ "ev": 56118242824.28894,
+ "ev_to_sales": 6.6533377782335785,
+ "ev_to_ebitda": 12.79077422261224,
+ "pe_ttm": 18.031091613313624,
+ "pe_trailing": 18.664028,
+ "p_sales": 5.5378494,
+ "p_fcf": 18.581987836372257,
+ "p_book": 2.436265442573722
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "PPC",
- "fetched": "2026-10-24",
- "market_cap": 6697992580.291374,
- "shares_out": 238108524.0,
- "price": 28.1299991607666,
+ "fetched": "2026-11-10",
+ "market_cap": 7043353237.633495,
+ "shares_out": 238112010.0,
+ "price": 29.579999923706055,
  "long_name": "Pilgrim's Pride Corporation",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
- "pe_trailing_y": 12.283843,
- "pe_forward": 10.561965,
+ "pe_trailing_y": 22.074627,
+ "pe_forward": 12.0,
  "peg": 0.61,
- "p_sales_y": 0.36330968,
- "eps_trailing_y": 2.29,
- "eps_forward": 2.66333,
- "earnings_growth_y": -0.962,
- "earnings_growth_q_y": -0.962,
- "bs_date": "2026-06-30",
- "cash": 388843000.0,
- "total_debt": 3112965000.0,
- "current_debt": 61782000.0,
- "lease_obligations": 250693000.0,
- "equity": 3749847000.0,
- "net_debt": 2724122000.0,
- "ocf_ttm": 1221393000.0,
- "capex_ttm": -916972000.0,
- "fcf_ttm": 304421000.0,
+ "p_sales_y": 0.38425478,
+ "eps_trailing_y": 1.34,
+ "eps_forward": 2.465,
+ "earnings_growth_y": -0.66,
+ "earnings_growth_q_y": -0.657,
+ "bs_date": "2026-09-30",
+ "cash": 935771000.0,
+ "total_debt": 3726505000.0,
+ "current_debt": 65523000.0,
+ "lease_obligations": 320888000.0,
+ "equity": 3875618000.0,
+ "net_debt": 2790734000.0,
+ "ocf_ttm": 975397000.0,
+ "capex_ttm": -951992000.0,
+ "fcf_ttm": 23405000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 18436042000.0,
- "net_income_ttm": 545606000.0,
- "ebitda_ttm": 1434530000.0,
- "ebit_ttm": 954608000.0,
- "interest_ttm": 164882000.0,
- "revenue_yoy_last_q": -0.02756462873880816,
+ "revenue_ttm": 18329906000.0,
+ "net_income_ttm": 320399000.0,
+ "ebitda_ttm": 1133866000.0,
+ "ebit_ttm": 647147000.0,
+ "interest_ttm": 158507000.0,
+ "revenue_yoy_last_q": -0.022300561716304457,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4653206000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4626230000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 4759342000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4757365000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.49
+  },
   {
    "period": "2026-06-30",
    "value": 0.06
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.44
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.49
   }
  ],
- "eps_ttm": 2.3,
+ "eps_ttm": 1.35,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.006564551422319487,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.9597315436241611,
- "eps_forward_growth": 0.15796956521739158,
+ "eps_growth_last_q": -0.6597222222222222,
+ "eps_forward_growth": 0.8259259259259257,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.07170797940172861
+  },
   {
    "period": "2026-06-30",
    "value": 0.07344036072568809
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.13854520225695063
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.15035529121688163
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.003069666651188019,
+ "dilution_1y": 0.0023802066626084084,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 61782000.0,
- "gap_24m": -327061000.0,
+ "need_24m": 65523000.0,
+ "gap_24m": -870248000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.8989648177451848,
- "interest_coverage": 5.78964350262612,
- "cash_to_debt": 0.12491081653664593,
- "ev": 9422114580.291374,
- "ev_to_sales": 0.5110703577422624,
- "ev_to_ebitda": 6.568084724816751,
- "pe_ttm": 12.276244360016888,
- "pe_trailing": 12.283843,
- "p_sales": 0.36330968,
- "p_fcf": 22.002399901095437,
- "p_book": 1.786204231877027
+ "net_debt_to_ebitda": 2.461255562826648,
+ "interest_coverage": 4.082766060804886,
+ "cash_to_debt": 0.2511122351908826,
+ "ev": 9834087237.633495,
+ "ev_to_sales": 0.5365050555978571,
+ "ev_to_ebitda": 8.673059459965724,
+ "pe_ttm": 21.983068728783472,
+ "pe_trailing": 22.074627,
+ "p_sales": 0.38425478,
+ "p_fcf": 300.9336995357187,
+ "p_book": 1.8173497072295297
 }

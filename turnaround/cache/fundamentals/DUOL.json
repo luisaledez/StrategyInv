@@ -1,40 +1,44 @@
 {
  "ticker": "DUOL",
- "fetched": "2026-10-24",
- "market_cap": 6664679142.860001,
- "shares_out": 46593117.0,
- "price": 143.0399932861328,
+ "fetched": "2026-11-10",
+ "market_cap": 7277246605.0,
+ "shares_out": 47178260.0,
+ "price": 154.25,
  "long_name": "Duolingo, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 16.988123,
- "pe_forward": 18.726017,
+ "pe_trailing_y": 51.07616,
+ "pe_forward": 19.74261,
  "peg": null,
- "p_sales_y": 5.82067,
- "eps_trailing_y": 8.42,
- "eps_forward": 7.63857,
- "earnings_growth_y": -0.275,
- "earnings_growth_q_y": -0.26,
- "bs_date": "2026-06-30",
- "cash": 1313866000.0,
- "total_debt": 86136000.0,
+ "p_sales_y": 6.155181,
+ "eps_trailing_y": 3.02,
+ "eps_forward": 7.81305,
+ "earnings_growth_y": -0.909,
+ "earnings_growth_q_y": -0.907,
+ "bs_date": "2026-09-30",
+ "cash": 1373901000.0,
+ "total_debt": 84216000.0,
  "current_debt": null,
- "lease_obligations": 86136000.0,
- "equity": 1409742000.0,
- "net_debt": -1227730000.0,
- "ocf_ttm": 430548000.0,
- "capex_ttm": -33044000.0,
- "fcf_ttm": 397504000.0,
+ "lease_obligations": 84216000.0,
+ "equity": 1481597000.0,
+ "net_debt": -1289685000.0,
+ "ocf_ttm": 435753000.0,
+ "capex_ttm": -40265000.0,
+ "fcf_ttm": 395488000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -69603000.0,
- "stock_issuance_ttm": -69603000.0,
- "revenue_ttm": 1145002000.0,
- "net_income_ttm": 410767000.0,
- "ebitda_ttm": 172884000.0,
- "ebit_ttm": 157085000.0,
+ "buybacks_ttm": -76455000.0,
+ "stock_issuance_ttm": -76455000.0,
+ "revenue_ttm": 1182296000.0,
+ "net_income_ttm": 145737000.0,
+ "ebitda_ttm": 162648000.0,
+ "ebit_ttm": 146122000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.18309713991239374,
+ "revenue_yoy_last_q": 0.1372551184521904,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 309007000.0
+  },
   {
    "period": "2026-06-30",
    "value": 298454000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 271713000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 252265000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.54
+  },
   {
    "period": "2026-06-30",
    "value": 0.66
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 5.95
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.91
   }
  ],
- "eps_ttm": 8.39976,
+ "eps_ttm": 2.9897600000000004,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 3.5051574896226194,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.27472527472527475,
- "eps_forward_growth": -0.09062044629846577,
+ "eps_growth_last_q": -0.9092436974789916,
+ "eps_forward_growth": 1.6132699614684785,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7285660195400104
+  },
   {
    "period": "2026-06-30",
    "value": 0.7262090640433702
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7247021673604134
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7237666739341565
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.020469936881647666,
+ "dilution_1y": 0.02164993818994132,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -1313866000.0,
+ "gap_24m": -1373901000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -7.101466879526156,
+ "net_debt_to_ebitda": -7.929301313265457,
  "interest_coverage": null,
- "cash_to_debt": 15.25338998792607,
- "ev": 5436949142.860001,
- "ev_to_sales": 4.748418904822874,
- "ev_to_ebitda": 31.448538574188476,
- "pe_ttm": 16.224962430915824,
- "pe_trailing": 16.988123,
- "p_sales": 5.82067,
- "p_fcf": 16.766319692028258,
- "p_book": 4.72758784434315
+ "cash_to_debt": 16.314013964092332,
+ "ev": 5987561605.0,
+ "ev_to_sales": 5.0643507251991045,
+ "ev_to_ebitda": 36.81300480178053,
+ "pe_ttm": 49.93410461996611,
+ "pe_trailing": 51.07616,
+ "p_sales": 6.155181,
+ "p_fcf": 18.40067613935189,
+ "p_book": 4.911758464008769
 }

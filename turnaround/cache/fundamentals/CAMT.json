@@ -1,0 +1,154 @@
+{
+ "ticker": "CAMT",
+ "fetched": "2026-11-10",
+ "market_cap": 4860359203.926476,
+ "shares_out": 46725239.0,
+ "price": 104.0199966430664,
+ "long_name": "Camtek Ltd.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductor Equipment & Materials",
+ "pe_trailing_y": 39.10526,
+ "pe_forward": 20.307758,
+ "peg": 1.47,
+ "p_sales_y": 8.929232,
+ "eps_trailing_y": 2.66,
+ "eps_forward": 5.12218,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 606521000.0,
+ "total_debt": 489184000.0,
+ "current_debt": 2120000.0,
+ "lease_obligations": 10960000.0,
+ "equity": 754480000.0,
+ "net_debt": -117337000.0,
+ "ocf_ttm": null,
+ "capex_ttm": null,
+ "fcf_ttm": null,
+ "ttm_quarters": 0,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 544320000.0,
+ "net_income_ttm": 133682000.0,
+ "ebitda_ttm": 51801000.0,
+ "ebit_ttm": 51801000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.2801822323462415,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 161294000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 133243000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 121659000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 128124000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 125993000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.84
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.46
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.63
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.71
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.16
+  }
+ ],
+ "eps_ttm": 2.64,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.5702479338842975,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.940219696969697,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.499721006361055
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.5006041593179379
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5008178597555463
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5002965876806843
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5003611311739541
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 496072000.0,
+   "eps": 1.04,
+   "net_income": 50722000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 429234000.0,
+   "eps": 2.42,
+   "net_income": 118515000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 315375000.0,
+   "eps": 1.61,
+   "net_income": 78632000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 320909000.0,
+   "eps": 1.66,
+   "net_income": 79949000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.020953909339800347,
+ "fcf_burn_annual": null,
+ "runway_months": null,
+ "need_24m": null,
+ "gap_24m": null,
+ "survival_gate": "UNKNOWN",
+ "net_debt_to_ebitda": -2.265149321441671,
+ "interest_coverage": null,
+ "cash_to_debt": 1.2398627101458757,
+ "ev": 4743022203.926476,
+ "ev_to_sales": 8.713665130670332,
+ "ev_to_ebitda": 91.56236759766173,
+ "pe_ttm": 36.35761885613976,
+ "pe_trailing": 39.10526,
+ "p_sales": 8.929232,
+ "p_fcf": null,
+ "p_book": 6.441998732804681
+}

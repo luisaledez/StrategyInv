@@ -1,40 +1,44 @@
 {
  "ticker": "LVS",
- "fetched": "2026-10-24",
- "market_cap": 23109978442.782715,
+ "fetched": "2026-11-10",
+ "market_cap": 26024633770.782715,
  "shares_out": 647701184.0,
- "price": 35.68000030517578,
+ "price": 40.18000030517578,
  "long_name": "Las Vegas Sands Corp.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Resorts & Casinos",
- "pe_trailing_y": 14.622951,
- "pe_forward": 11.236415,
- "peg": 0.76,
- "p_sales_y": 1.6987635,
+ "pe_trailing_y": 16.467213,
+ "pe_forward": 12.983404,
+ "peg": 1.07,
+ "p_sales_y": 1.9130135,
  "eps_trailing_y": 2.44,
- "eps_forward": 3.17539,
+ "eps_forward": 3.09472,
  "earnings_growth_y": -0.22,
  "earnings_growth_q_y": -0.274,
- "bs_date": "2026-06-30",
- "cash": 3376000000.0,
- "total_debt": 15262000000.0,
- "current_debt": 1568000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 2858000000.0,
+ "total_debt": 15444000000.0,
+ "current_debt": 1566000000.0,
  "lease_obligations": null,
- "equity": 581000000.0,
- "net_debt": 11886000000.0,
- "ocf_ttm": 3732000000.0,
- "capex_ttm": -1032000000.0,
- "fcf_ttm": 2700000000.0,
+ "equity": -344000000.0,
+ "net_debt": 12586000000.0,
+ "ocf_ttm": 3487000000.0,
+ "capex_ttm": -1086000000.0,
+ "fcf_ttm": 2401000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2542000000.0,
- "stock_issuance_ttm": -2542000000.0,
- "revenue_ttm": 13719000000.0,
- "net_income_ttm": 1727000000.0,
- "ebitda_ttm": 4618000000.0,
- "ebit_ttm": 3097000000.0,
- "interest_ttm": 755000000.0,
- "revenue_yoy_last_q": -0.006614173228346454,
+ "buybacks_ttm": -2992000000.0,
+ "stock_issuance_ttm": -2992000000.0,
+ "revenue_ttm": 13604000000.0,
+ "net_income_ttm": 1612000000.0,
+ "ebitda_ttm": 4461000000.0,
+ "ebit_ttm": 2968000000.0,
+ "interest_ttm": 754000000.0,
+ "revenue_yoy_last_q": -0.03452416691684179,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3216000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3154000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3331000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3175000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.48
+  },
   {
    "period": "2026-06-30",
    "value": 0.53
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.61
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.66
   }
  ],
- "eps_ttm": 2.57,
+ "eps_ttm": 2.44,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.19897959183673475,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.19696969696969702,
- "eps_forward_growth": 0.23556031128404675,
+ "eps_growth_last_q": -0.21311475409836067,
+ "eps_forward_growth": 0.2683278688524591,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.45615671641791045
+  },
   {
    "period": "2026-06-30",
    "value": 0.46924540266328474
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4980486340438307
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5155905511811023
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.03493449781659386,
+ "dilution_1y": -0.04424778761061943,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1568000000.0,
- "gap_24m": -1808000000.0,
+ "need_24m": 1566000000.0,
+ "gap_24m": -1292000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.573841489822434,
- "interest_coverage": 4.101986754966887,
- "cash_to_debt": 0.22120298781286857,
- "ev": 34995978442.782715,
- "ev_to_sales": 2.550913218367426,
- "ev_to_ebitda": 7.578167700905742,
- "pe_ttm": 13.381574083834808,
- "pe_trailing": 14.622951,
- "p_sales": 1.6987635,
- "p_fcf": 8.559251275104709,
- "p_book": 39.77621074489279
+ "net_debt_to_ebitda": 2.821340506612867,
+ "interest_coverage": 3.9363395225464193,
+ "cash_to_debt": 0.18505568505568507,
+ "ev": 38610633770.782715,
+ "ev_to_sales": 2.8381824294900553,
+ "ev_to_ebitda": 8.655152156642616,
+ "pe_ttm": 16.14431375358729,
+ "pe_trailing": 16.467213,
+ "p_sales": 1.9130135,
+ "p_fcf": 10.839081120692509,
+ "p_book": null
 }

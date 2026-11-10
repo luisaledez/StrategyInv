@@ -1,0 +1,154 @@
+{
+ "ticker": "BRZE",
+ "fetched": "2026-11-10",
+ "market_cap": 5234425690.237381,
+ "shares_out": 113594303.0,
+ "price": 46.08000183105469,
+ "long_name": "Braze, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Application",
+ "pe_trailing_y": null,
+ "pe_forward": 46.927036,
+ "peg": 1.61,
+ "p_sales_y": 6.2744765,
+ "eps_trailing_y": -1.03,
+ "eps_forward": 0.98195,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-07-31",
+ "cash": 409869000.0,
+ "total_debt": 96407000.0,
+ "current_debt": 22931000.0,
+ "lease_obligations": 96407000.0,
+ "equity": 600196000.0,
+ "net_debt": -313462000.0,
+ "ocf_ttm": 92680000.0,
+ "capex_ttm": -12476000.0,
+ "fcf_ttm": 80204000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -50000000.0,
+ "stock_issuance_ttm": -50000000.0,
+ "revenue_ttm": 834241000.0,
+ "net_income_ttm": -113046000.0,
+ "ebitda_ttm": -86897000.0,
+ "ebit_ttm": -111419000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.2616108955033285,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 227230000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 210999000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 205170000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 190842000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 180111000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": -0.17
+  },
+  {
+   "period": "2026-04-30",
+   "value": -0.24
+  },
+  {
+   "period": "2026-01-31",
+   "value": -0.29
+  },
+  {
+   "period": "2025-10-31",
+   "value": -0.33
+  },
+  {
+   "period": "2025-07-31",
+   "value": -0.26
+  }
+ ],
+ "eps_ttm": -1.03,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.6682920389033138
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.6571737306811881
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.6548423258761027
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.6718175244443048
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.6767493379082898
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 738182000.0,
+   "eps": -1.22,
+   "net_income": -131287000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 593410000.0,
+   "eps": -1.02,
+   "net_income": -103743000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 471800000.0,
+   "eps": -1.32,
+   "net_income": -129166000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 355426000.0,
+   "eps": -1.47,
+   "net_income": -138966000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.024089043624144102,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 22931000.0,
+ "gap_24m": -386938000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.6072821846553964,
+ "interest_coverage": null,
+ "cash_to_debt": 4.251444397191075,
+ "ev": 4920963690.237381,
+ "ev_to_sales": 5.898731529902487,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 6.2744765,
+ "p_fcf": 65.26389818758891,
+ "p_book": 8.721193893723685
+}

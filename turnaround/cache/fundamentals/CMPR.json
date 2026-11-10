@@ -1,0 +1,154 @@
+{
+ "ticker": "CMPR",
+ "fetched": "2026-11-10",
+ "market_cap": 1359324140.17,
+ "shares_out": 24620977.0,
+ "price": 55.21,
+ "long_name": "Cimpress plc",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "pe_trailing_y": 16.38279,
+ "pe_forward": 9.806394,
+ "peg": 2.38,
+ "p_sales_y": 0.3570199,
+ "eps_trailing_y": 3.37,
+ "eps_forward": 5.63,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 248851000.0,
+ "total_debt": 1788493000.0,
+ "current_debt": 51704000.0,
+ "lease_obligations": 176512000.0,
+ "equity": -493985000.0,
+ "net_debt": 1539642000.0,
+ "ocf_ttm": 283706000.0,
+ "capex_ttm": -167290000.0,
+ "fcf_ttm": 116416000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -50077000.0,
+ "stock_issuance_ttm": -47366000.0,
+ "revenue_ttm": 3736643000.0,
+ "net_income_ttm": 95872000.0,
+ "ebitda_ttm": 410481000.0,
+ "ebit_ttm": 258643000.0,
+ "interest_ttm": 105751000.0,
+ "revenue_yoy_last_q": 0.0868010070352152,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 944955000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 886209000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1042202000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 863277000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 869483000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.11
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.97
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.95
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3
+  }
+ ],
+ "eps_ttm": 3.58,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.41057542768273714,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.6333333333333333,
+ "eps_forward_growth": 0.5726256983240223,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.45503330846442425
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.46173870949177903
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4679687814838198
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.46659531065926696
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.4747648890202569
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 3736643000.0,
+   "eps": 3.79,
+   "net_income": 95872000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 3403079000.0,
+   "eps": null,
+   "net_income": 14952000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3291856000.0,
+   "eps": 6.43,
+   "net_income": 173682000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3079627000.0,
+   "eps": -7.08,
+   "net_income": -185978000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.005308504912199363,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 51704000.0,
+ "gap_24m": -197147000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.750824033268288,
+ "interest_coverage": 2.4457735624249417,
+ "cash_to_debt": 0.13914004695573312,
+ "ev": 2898966140.17,
+ "ev_to_sales": 0.7758210083676712,
+ "ev_to_ebitda": 7.0623637639013745,
+ "pe_ttm": 14.178531168328606,
+ "pe_trailing": 16.38279,
+ "p_sales": 0.3570199,
+ "p_fcf": 11.676437432741205,
+ "p_book": null
+}

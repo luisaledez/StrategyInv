@@ -1,40 +1,44 @@
 {
  "ticker": "AXSM",
- "fetched": "2026-10-25",
- "market_cap": 7597313491.042145,
- "shares_out": 52380818.0,
- "price": 145.0399932861328,
+ "fetched": "2026-11-10",
+ "market_cap": 7223556036.363449,
+ "shares_out": 52599985.0,
+ "price": 137.3300018310547,
  "long_name": "Axsome Therapeutics, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
  "pe_trailing_y": null,
- "pe_forward": 39.266327,
+ "pe_forward": 40.61972,
  "peg": null,
- "p_sales_y": 9.783178,
- "eps_trailing_y": -3.74,
- "eps_forward": 3.69375,
+ "p_sales_y": 8.348346,
+ "eps_trailing_y": -3.03,
+ "eps_forward": 3.38087,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 319850000.0,
- "total_debt": 224693000.0,
- "current_debt": 76131000.0,
- "lease_obligations": 36735000.0,
- "equity": 83304000.0,
- "net_debt": -95157000.0,
- "ocf_ttm": -71259000.0,
- "capex_ttm": -700000.0,
- "fcf_ttm": -71959000.0,
+ "bs_date": "2026-09-30",
+ "cash": 313859000.0,
+ "total_debt": 224225000.0,
+ "current_debt": 76215000.0,
+ "lease_obligations": 36156000.0,
+ "equity": 105434000.0,
+ "net_debt": -89634000.0,
+ "ocf_ttm": -81774000.0,
+ "capex_ttm": -839000.0,
+ "fcf_ttm": -82613000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 35438000.0,
- "revenue_ttm": 776569000.0,
- "net_income_ttm": -191644000.0,
- "ebitda_ttm": -176130000.0,
- "ebit_ttm": -186069000.0,
- "interest_ttm": 5017000.0,
- "revenue_yoy_last_q": 0.45542581410538374,
+ "stock_issuance_ttm": 25492000.0,
+ "revenue_ttm": 865268000.0,
+ "net_income_ttm": -157292000.0,
+ "ebitda_ttm": -140444000.0,
+ "ebit_ttm": -151028000.0,
+ "interest_ttm": 5618000.0,
+ "revenue_yoy_last_q": 0.5187318704968653,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 259691000.0
+  },
   {
    "period": "2026-06-30",
    "value": 218375000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 170992000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 150042000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.25
+  },
   {
    "period": "2026-06-30",
    "value": -0.99
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.94
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.97
   }
  ],
- "eps_ttm": -3.75,
+ "eps_ttm": -3.06,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9314415978990416
+  },
   {
    "period": "2026-06-30",
    "value": 0.9378866628506011
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9303359221484045
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9103717625731462
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.04987600094998923,
- "fcf_burn_annual": 71959000.0,
- "runway_months": 53.338706763573704,
- "need_24m": 220049000.0,
- "gap_24m": -99801000.0,
+ "dilution_1y": 0.04510241883997623,
+ "fcf_burn_annual": 82613000.0,
+ "runway_months": 45.58977400651229,
+ "need_24m": 241441000.0,
+ "gap_24m": -72418000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.5402657128257538,
- "interest_coverage": -37.087701813832965,
- "cash_to_debt": 1.4234978392740316,
- "ev": 7502156491.042145,
- "ev_to_sales": 9.660643794746049,
+ "net_debt_to_ebitda": 0.6382187918316197,
+ "interest_coverage": -26.882876468494125,
+ "cash_to_debt": 1.3997502508640873,
+ "ev": 7133922036.363449,
+ "ev_to_sales": 8.24475426846185,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 9.783178,
+ "p_sales": 8.348346,
  "p_fcf": null,
- "p_book": 91.19986424471988
+ "p_book": 68.51258641769684
 }

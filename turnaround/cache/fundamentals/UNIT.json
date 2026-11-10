@@ -1,0 +1,154 @@
+{
+ "ticker": "UNIT",
+ "fetched": "2026-11-10",
+ "market_cap": 1067990617.1480727,
+ "shares_out": 242725135.0,
+ "price": 4.400000095367432,
+ "long_name": "Uniti Group Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Specialty",
+ "pe_trailing_y": null,
+ "pe_forward": -6.1971836,
+ "peg": 0.17,
+ "p_sales_y": 0.2916015,
+ "eps_trailing_y": -4.73,
+ "eps_forward": -0.71,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 608900000.0,
+ "total_debt": 11093100000.0,
+ "current_debt": 127400000.0,
+ "lease_obligations": 446500000.0,
+ "equity": 161500000.0,
+ "net_debt": 10484200000.0,
+ "ocf_ttm": 506000000.0,
+ "capex_ttm": -1397600000.0,
+ "fcf_ttm": -891600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 3537000000.0,
+ "net_income_ttm": 1077000000.0,
+ "ebitda_ttm": 2776800000.0,
+ "ebit_ttm": 1673800000.0,
+ "interest_ttm": 721700000.0,
+ "revenue_yoy_last_q": 2.0252743598270704,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 909700000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 987500000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 917200000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 722600000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 300700000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.68
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.19
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.92
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.07
+  }
+ ],
+ "eps_ttm": 2.71,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 11.81578947368421,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": -1.2619926199261993,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.578322523908981
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6070886075949367
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5731574356737899
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6069748131746471
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8846025939474559
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2234500000.0,
+   "eps": 4.87,
+   "net_income": 1304700000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 1166900000.0,
+   "eps": 0.38,
+   "net_income": 93400000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1149800000.0,
+   "eps": -0.58,
+   "net_income": -81700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1128847000.0,
+   "eps": -0.04,
+   "net_income": -8275000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": -0.013697032014845179,
+ "fcf_burn_annual": 891600000.0,
+ "runway_months": 8.195154777927321,
+ "need_24m": 1910600000.0,
+ "gap_24m": 1301700000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 3.7756410256410255,
+ "interest_coverage": 2.3192462241928777,
+ "cash_to_debt": 0.05488997665215314,
+ "ev": 11552190617.148073,
+ "ev_to_sales": 3.2660985629482817,
+ "ev_to_ebitda": 4.160253031240303,
+ "pe_ttm": 0.9916347420130666,
+ "pe_trailing": 1.6236162713532958,
+ "p_sales": 0.2916015,
+ "p_fcf": null,
+ "p_book": 6.612944997820883
+}

@@ -1,40 +1,44 @@
 {
  "ticker": "CMG",
- "fetched": "2026-10-24",
- "market_cap": 34890902340.37018,
- "shares_out": 1267838000.0,
- "price": 27.520000457763672,
+ "fetched": "2026-11-10",
+ "market_cap": 45210208623.21854,
+ "shares_out": 1264975000.0,
+ "price": 35.7400016784668,
  "long_name": "Chipotle Mexican Grill, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Restaurants",
- "pe_trailing_y": 25.719625,
- "pe_forward": 20.151575,
- "peg": 1.32,
- "p_sales_y": 2.8030407,
+ "pe_trailing_y": 33.40187,
+ "pe_forward": 26.939226,
+ "peg": 1.77,
+ "p_sales_y": 3.556085,
  "eps_trailing_y": 1.07,
- "eps_forward": 1.36565,
- "earnings_growth_y": -0.013,
- "earnings_growth_q_y": -0.075,
- "bs_date": "2026-06-30",
- "cash": 672063000.0,
- "total_debt": 5419196000.0,
- "current_debt": 317002000.0,
- "lease_obligations": 5419196000.0,
- "equity": 2199791000.0,
- "net_debt": 4747133000.0,
- "ocf_ttm": 2327527000.0,
- "capex_ttm": -758542000.0,
- "fcf_ttm": 1568985000.0,
+ "eps_forward": 1.32669,
+ "earnings_growth_y": -0.062,
+ "earnings_growth_q_y": -0.111,
+ "bs_date": "2026-09-30",
+ "cash": 899371000.0,
+ "total_debt": 5599031000.0,
+ "current_debt": 321557000.0,
+ "lease_obligations": 5599031000.0,
+ "equity": 2455144000.0,
+ "net_debt": 4699660000.0,
+ "ocf_ttm": 2347982000.0,
+ "capex_ttm": -838052000.0,
+ "fcf_ttm": 1509930000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2783366000.0,
- "stock_issuance_ttm": -2783366000.0,
- "revenue_ttm": 12423759000.0,
- "net_income_ttm": 1419406000.0,
- "ebitda_ttm": 2296607000.0,
- "ebit_ttm": 1918336000.0,
+ "buybacks_ttm": -2206730000.0,
+ "stock_issuance_ttm": -2206730000.0,
+ "revenue_ttm": 12713477000.0,
+ "net_income_ttm": 1377177000.0,
+ "ebitda_ttm": 2290695000.0,
+ "ebit_ttm": 1900337000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.09308926409376794,
+ "revenue_yoy_last_q": 0.09646192837289469,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3293162000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3348562000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3003444000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3063393000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.27
+  },
   {
    "period": "2026-06-30",
    "value": 0.32
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.29
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.32
   }
  ],
- "eps_ttm": 1.09,
+ "eps_ttm": 1.07,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.02702702702702675,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.0,
- "eps_forward_growth": 0.25288990825688074,
+ "eps_growth_last_q": -0.06896551724137923,
+ "eps_forward_growth": 0.23989719626168204,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.23325818772353138
+  },
   {
    "period": "2026-06-30",
    "value": 0.25221722040684924
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.24491317301071702
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2736279674204387
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.05485733455094399,
+ "dilution_1y": -0.04579392582512498,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 317002000.0,
- "gap_24m": -355061000.0,
+ "need_24m": 321557000.0,
+ "gap_24m": -577814000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.0670201736735976,
+ "net_debt_to_ebitda": 2.051630618655037,
  "interest_coverage": null,
- "cash_to_debt": 0.12401525982821068,
- "ev": 39638035340.37018,
- "ev_to_sales": 3.190502595902752,
- "ev_to_ebitda": 17.259389760795024,
- "pe_ttm": 24.58134060330179,
- "pe_trailing": 25.719625,
- "p_sales": 2.8030407,
- "p_fcf": 22.23788139489554,
- "p_book": 15.861007859551284
+ "cash_to_debt": 0.16062975897079335,
+ "ev": 49909868623.21854,
+ "ev_to_sales": 3.92574498881923,
+ "ev_to_ebitda": 21.7880899129821,
+ "pe_ttm": 32.82817577059342,
+ "pe_trailing": 33.40187,
+ "p_sales": 3.556085,
+ "p_fcf": 29.941923548256234,
+ "p_book": 18.414483477636562
 }

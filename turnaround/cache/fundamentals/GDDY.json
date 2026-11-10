@@ -1,40 +1,44 @@
 {
  "ticker": "GDDY",
- "fetched": "2026-10-24",
- "market_cap": 14284594650.109436,
- "shares_out": 126647704.0,
- "price": 112.79000091552734,
+ "fetched": "2026-11-10",
+ "market_cap": 13547596737.679695,
+ "shares_out": 121274701.0,
+ "price": 111.70999908447266,
  "long_name": "GoDaddy Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
- "pe_trailing_y": 16.784227,
- "pe_forward": 10.228066,
- "peg": 0.62,
- "p_sales_y": 2.798651,
- "eps_trailing_y": 6.72,
- "eps_forward": 11.0275,
- "earnings_growth_y": 0.298,
- "earnings_growth_q_y": 0.201,
- "bs_date": "2026-06-30",
- "cash": 1155500000.0,
- "total_debt": 3841400000.0,
- "current_debt": 15000000.0,
- "lease_obligations": 67000000.0,
- "equity": 6700000.0,
- "net_debt": 2685900000.0,
- "ocf_ttm": 1728800000.0,
- "capex_ttm": -25900000.0,
- "fcf_ttm": 1702900000.0,
+ "pe_trailing_y": 15.365887,
+ "pe_forward": 9.943035,
+ "peg": 0.63,
+ "p_sales_y": 2.6150634,
+ "eps_trailing_y": 7.27,
+ "eps_forward": 11.235,
+ "earnings_growth_y": 0.377,
+ "earnings_growth_q_y": 0.244,
+ "bs_date": "2026-09-30",
+ "cash": 1119800000.0,
+ "total_debt": 3842000000.0,
+ "current_debt": 14900000.0,
+ "lease_obligations": 70700000.0,
+ "equity": -138800000.0,
+ "net_debt": 2722200000.0,
+ "ocf_ttm": 1772300000.0,
+ "capex_ttm": -28500000.0,
+ "fcf_ttm": 1743800000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1633800000.0,
- "stock_issuance_ttm": -1633800000.0,
- "revenue_ttm": 5104100000.0,
- "net_income_ttm": 910300000.0,
- "ebitda_ttm": 1403200000.0,
- "ebit_ttm": 1310500000.0,
- "interest_ttm": 150700000.0,
- "revenue_yoy_last_q": 0.06603153745072277,
+ "buybacks_ttm": -1523900000.0,
+ "stock_issuance_ttm": -1523900000.0,
+ "revenue_ttm": 5180600000.0,
+ "net_income_ttm": 961600000.0,
+ "ebitda_ttm": 1452500000.0,
+ "ebit_ttm": 1375500000.0,
+ "interest_ttm": 150100000.0,
+ "revenue_yoy_last_q": 0.06045996996759673,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1341800000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1298000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1265300000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1217600000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.08
+  },
   {
    "period": "2026-06-30",
    "value": 1.83
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.51
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.41
   }
  ],
- "eps_ttm": 6.74,
+ "eps_ttm": 7.31,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.03565891472868221,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.2978723404255321,
- "eps_forward_growth": 0.636127596439169,
+ "eps_growth_last_q": 0.3774834437086092,
+ "eps_forward_growth": 0.5369357045143639,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6282605455358473
+  },
   {
    "period": "2026-06-30",
    "value": 0.6380585516178736
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.629890144629732
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6367444152431012
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.08662494689010036,
+ "dilution_1y": -0.09705706503686973,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 15000000.0,
- "gap_24m": -1140500000.0,
+ "need_24m": 14900000.0,
+ "gap_24m": -1104900000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.9141248574686431,
- "interest_coverage": 8.69608493696085,
- "cash_to_debt": 0.3008017910136929,
- "ev": 16970494650.109436,
- "ev_to_sales": 3.3248750318585913,
- "ev_to_ebitda": 12.094138148595665,
- "pe_ttm": 15.692183511050683,
- "pe_trailing": 16.784227,
- "p_sales": 2.798651,
- "p_fcf": 8.388393123559478,
- "p_book": 2132.0290522551395
+ "net_debt_to_ebitda": 1.8741480206540448,
+ "interest_coverage": 9.163890739506995,
+ "cash_to_debt": 0.2914627798021864,
+ "ev": 16269796737.679695,
+ "ev_to_sales": 3.1405236338801865,
+ "ev_to_ebitda": 11.201236996681374,
+ "pe_ttm": 14.088598936854924,
+ "pe_trailing": 15.365887,
+ "p_sales": 2.6150634,
+ "p_fcf": 7.7690083367815665,
+ "p_book": null
 }

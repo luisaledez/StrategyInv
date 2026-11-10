@@ -1,40 +1,44 @@
 {
  "ticker": "TPL",
- "fetched": "2026-10-24",
- "market_cap": 23331376945.16089,
+ "fetched": "2026-11-10",
+ "market_cap": 19313946870.616333,
  "shares_out": 68974683.0,
- "price": 338.260009765625,
+ "price": 280.0150146484375,
  "long_name": "Texas Pacific Land Corporation",
  "sector_y": "Energy",
  "industry_y": "Oil & Gas E&P",
- "pe_trailing_y": 44.507896,
- "pe_forward": 4.626094,
+ "pe_trailing_y": 32.904232,
+ "pe_forward": 3.829527,
  "peg": 7.33,
- "p_sales_y": 25.994774,
- "eps_trailing_y": 7.6,
+ "p_sales_y": 19.955599,
+ "eps_trailing_y": 8.51,
  "eps_forward": 73.12,
- "earnings_growth_y": 0.327,
- "earnings_growth_q_y": 0.325,
- "bs_date": "2026-06-30",
- "cash": 248612000.0,
- "total_debt": 15513000.0,
+ "earnings_growth_y": 0.376,
+ "earnings_growth_q_y": 0.38,
+ "bs_date": "2026-09-30",
+ "cash": 369558000.0,
+ "total_debt": 15228000.0,
  "current_debt": null,
- "lease_obligations": 15513000.0,
- "equity": 1672398000.0,
- "net_debt": -233099000.0,
- "ocf_ttm": 603151000.0,
- "capex_ttm": -527153000.0,
- "fcf_ttm": 75998000.0,
+ "lease_obligations": 15228000.0,
+ "equity": 1802121000.0,
+ "net_debt": -354330000.0,
+ "ocf_ttm": 640932000.0,
+ "capex_ttm": -522536000.0,
+ "fcf_ttm": 118396000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -8280000.0,
- "stock_issuance_ttm": -8280000.0,
- "revenue_ttm": 897541000.0,
- "net_income_ttm": 541416000.0,
- "ebitda_ttm": 763997000.0,
- "ebit_ttm": 696422000.0,
- "interest_ttm": 1965000.0,
- "revenue_yoy_last_q": 0.3120137781735388,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 967846000.0,
+ "net_income_ttm": 587546000.0,
+ "ebitda_ttm": 834149000.0,
+ "ebit_ttm": 758704000.0,
+ "interest_ttm": 2946000.0,
+ "revenue_yoy_last_q": 0.3461850949109979,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 273390000.0
+  },
   {
    "period": "2026-06-30",
    "value": 246059000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 203085000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 187543000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.42
+  },
   {
    "period": "2026-06-30",
    "value": 2.23
@@ -71,20 +75,20 @@
   },
   {
    "period": "2025-09-30",
-   "value": 1.756667
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.68
+   "value": 1.76
   }
  ],
- "eps_ttm": 7.846667,
+ "eps_ttm": 8.510000000000002,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.060344881356231284,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.32738095238095233,
- "eps_forward_growth": 8.318606231155217,
+ "eps_growth_last_q": 0.375,
+ "eps_forward_growth": 7.592244418331374,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8659424265701013
+  },
   {
    "period": "2026-06-30",
    "value": 0.8853567640281396
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.8454292537607406
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.881893752366124
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.00018423195459971176,
+ "dilution_1y": 0.000528777718836082,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -248612000.0,
+ "gap_24m": -369558000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.305104601196078,
- "interest_coverage": 354.41323155216287,
- "cash_to_debt": 16.02604267388642,
- "ev": 23098277945.16089,
- "ev_to_sales": 25.735067194881225,
- "ev_to_ebitda": 30.23346681356195,
- "pe_ttm": 43.0932535151545,
- "pe_trailing": 44.507896,
- "p_sales": 25.994774,
- "p_fcf": 306.9998808542447,
- "p_book": 13.950851977316935
+ "net_debt_to_ebitda": -0.4247802251156568,
+ "interest_coverage": 257.5369993211134,
+ "cash_to_debt": 24.268321513002363,
+ "ev": 18959616870.616333,
+ "ev_to_sales": 19.58949757566424,
+ "ev_to_ebitda": 22.7292928129343,
+ "pe_ttm": 32.87222935840995,
+ "pe_trailing": 32.904232,
+ "p_sales": 19.955599,
+ "p_fcf": 163.13006242285493,
+ "p_book": 10.717341882490873
 }

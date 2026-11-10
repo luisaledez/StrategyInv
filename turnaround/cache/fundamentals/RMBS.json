@@ -1,0 +1,154 @@
+{
+ "ticker": "RMBS",
+ "fetched": "2026-11-10",
+ "market_cap": 8630865038.95279,
+ "shares_out": 107095985.0,
+ "price": 80.58999633789062,
+ "long_name": "Rambus Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 33.30165,
+ "pe_forward": 20.743885,
+ "peg": 3.8,
+ "p_sales_y": 10.841337,
+ "eps_trailing_y": 2.42,
+ "eps_forward": 3.885,
+ "earnings_growth_y": 0.568,
+ "earnings_growth_q_y": 0.541,
+ "bs_date": "2026-09-30",
+ "cash": 776907000.0,
+ "total_debt": 20217000.0,
+ "current_debt": 5645000.0,
+ "lease_obligations": 20217000.0,
+ "equity": 1417731000.0,
+ "net_debt": -756690000.0,
+ "ocf_ttm": 346755000.0,
+ "capex_ttm": -33824000.0,
+ "fcf_ttm": 312931000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -139612000.0,
+ "stock_issuance_ttm": -138000000.0,
+ "revenue_ttm": 796107000.0,
+ "net_income_ttm": 265868000.0,
+ "ebitda_ttm": 361994000.0,
+ "ebit_ttm": 317040000.0,
+ "interest_ttm": 1180000.0,
+ "revenue_yoy_last_q": 0.2228185062152337,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 218289000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 207385000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 180189000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 190244000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 178513000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.69
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.61
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.55
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.58
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.44
+  }
+ ],
+ "eps_ttm": 2.4299999999999997,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2787878787878788,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.5681818181818181,
+ "eps_forward_growth": 0.5987654320987654,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7829711987319563
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.7976083130409625
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7972573242539778
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7886345955720022
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7950177298011909
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 707630000.0,
+   "eps": 2.11,
+   "net_income": 230455000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 556624000.0,
+   "eps": 1.65,
+   "net_income": 179821000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 461117000.0,
+   "eps": 3.01,
+   "net_income": 333904000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 454793000.0,
+   "eps": -0.13,
+   "net_income": -14310000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.005147675943883878,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5645000.0,
+ "gap_24m": -771262000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.0903385138980206,
+ "interest_coverage": 268.6779661016949,
+ "cash_to_debt": 38.42840184003561,
+ "ev": 7874175038.952789,
+ "ev_to_sales": 9.890850148224786,
+ "ev_to_ebitda": 21.752225282609075,
+ "pe_ttm": 32.462970492698595,
+ "pe_trailing": 33.30165,
+ "p_sales": 10.841337,
+ "p_fcf": 27.580728783510708,
+ "p_book": 6.087801592088195
+}

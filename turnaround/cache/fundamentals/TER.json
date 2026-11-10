@@ -1,20 +1,20 @@
 {
  "ticker": "TER",
- "fetched": "2026-10-24",
- "market_cap": 48285841591.72821,
- "shares_out": 156340750.0,
- "price": 308.8500061035156,
+ "fetched": "2026-11-10",
+ "market_cap": 38117857003.74014,
+ "shares_out": 156124751.0,
+ "price": 244.14999389648438,
  "long_name": "Teradyne, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductor Equipment & Materials",
- "pe_trailing_y": 42.42445,
- "pe_forward": 26.941189,
- "peg": 0.57,
- "p_sales_y": 10.816646,
- "eps_trailing_y": 7.28,
- "eps_forward": 11.46386,
- "earnings_growth_y": 3.858,
- "earnings_growth_q_y": 3.779,
+ "pe_trailing_y": 28.06322,
+ "pe_forward": 20.361238,
+ "peg": 0.37,
+ "p_sales_y": 7.6223955,
+ "eps_trailing_y": 8.7,
+ "eps_forward": 11.99092,
+ "earnings_growth_y": 1.893,
+ "earnings_growth_q_y": 1.864,
  "bs_date": "2026-06-30",
  "cash": 354829000.0,
  "total_debt": 100127000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 2.17
+  },
+  {
    "period": "2026-06-30",
    "value": 2.38
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.75
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.49
   }
  ],
- "eps_ttm": 7.29,
+ "eps_ttm": 8.71,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.04518072289156638,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 3.8571428571428568,
- "eps_forward_growth": 0.5725459533607682,
+ "eps_growth_last_q": 1.893333333333333,
+ "eps_forward_growth": 0.37668427095292745,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -0.1708346552178611,
  "interest_coverage": 119.5609541413608,
  "cash_to_debt": 3.543789387477903,
- "ev": 48031139591.72821,
- "ev_to_sales": 10.75958916766667,
- "ev_to_ebitda": 32.21562128241571,
- "pe_ttm": 41.9796939467425,
- "pe_trailing": 42.42445,
- "p_sales": 10.816646,
- "p_fcf": 60.36243279644796,
- "p_book": 14.048171599630221
+ "ev": 37863155003.74014,
+ "ev_to_sales": 8.481830660167939,
+ "ev_to_ebitda": 25.395713541803282,
+ "pe_ttm": 33.13965166958653,
+ "pe_trailing": 28.06322,
+ "p_sales": 7.6223955,
+ "p_fcf": 47.65137162126299,
+ "p_book": 11.089921570103517
 }

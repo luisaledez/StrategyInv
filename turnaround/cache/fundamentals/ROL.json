@@ -1,40 +1,44 @@
 {
  "ticker": "ROL",
- "fetched": "2026-10-24",
- "market_cap": 16753482820.446075,
+ "fetched": "2026-11-10",
+ "market_cap": 18639573758.546585,
  "shares_out": 481145404.0,
- "price": 34.81999969482422,
+ "price": 38.7400016784668,
  "long_name": "Rollins, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Personal Services",
- "pe_trailing_y": 31.944952,
- "pe_forward": 28.17357,
- "peg": 2.84,
- "p_sales_y": 4.201413,
+ "pe_trailing_y": 35.541286,
+ "pe_forward": 31.464727,
+ "peg": 3.39,
+ "p_sales_y": 4.6744037,
  "eps_trailing_y": 1.09,
- "eps_forward": 1.23591,
+ "eps_forward": 1.23122,
  "earnings_growth_y": -0.023,
  "earnings_growth_q_y": -0.034,
- "bs_date": "2026-06-30",
- "cash": 109085000.0,
- "total_debt": 1115303000.0,
- "current_debt": 354595000.0,
- "lease_obligations": 412278000.0,
- "equity": 1429597000.0,
- "net_debt": 1006218000.0,
- "ocf_ttm": 646966000.0,
- "capex_ttm": -27797000.0,
- "fcf_ttm": 619169000.0,
+ "bs_date": "2026-09-30",
+ "cash": 129050000.0,
+ "total_debt": 1125708000.0,
+ "current_debt": 376719000.0,
+ "lease_obligations": 398559000.0,
+ "equity": 1390458000.0,
+ "net_debt": 996658000.0,
+ "ocf_ttm": 697476000.0,
+ "capex_ttm": -25658000.0,
+ "fcf_ttm": 671818000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -244759000.0,
- "stock_issuance_ttm": -244759000.0,
- "revenue_ttm": 3924019000.0,
- "net_income_ttm": 531716000.0,
- "ebitda_ttm": 862519000.0,
- "ebit_ttm": 732613000.0,
- "interest_ttm": 33624000.0,
- "revenue_yoy_last_q": 0.07908640787092303,
+ "buybacks_ttm": -361173000.0,
+ "stock_issuance_ttm": -361173000.0,
+ "revenue_ttm": 3987583000.0,
+ "net_income_ttm": 526116000.0,
+ "ebitda_ttm": 861449000.0,
+ "ebit_ttm": 730501000.0,
+ "interest_ttm": 36351000.0,
+ "revenue_yoy_last_q": 0.06194681641078015,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1089670000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1078576000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1026106000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 999527000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.33
+  },
   {
    "period": "2026-06-30",
    "value": 0.3
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.34
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.29
   }
  ],
- "eps_ttm": 1.1,
+ "eps_ttm": 1.0899999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.13541666666666674,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.034482758620689724,
- "eps_forward_growth": 0.12355454545454547,
+ "eps_growth_last_q": -0.02941176470588236,
+ "eps_forward_growth": 0.12955963302752305,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5349353473987537
+  },
   {
    "period": "2026-06-30",
    "value": 0.5284245152868227
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5444427768671073
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5379204363664013
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0072550181852870654,
+ "dilution_1y": -0.0071854686319496874,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 354595000.0,
- "gap_24m": 245510000.0,
+ "need_24m": 376719000.0,
+ "gap_24m": 247669000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 1.1666038661177318,
- "interest_coverage": 21.788395193909114,
- "cash_to_debt": 0.09780750163856818,
- "ev": 17759700820.446075,
- "ev_to_sales": 4.5258957258989,
- "ev_to_ebitda": 20.590503885069285,
- "pe_ttm": 31.50832929692933,
- "pe_trailing": 31.944952,
- "p_sales": 4.201413,
- "p_fcf": 27.05801295033517,
- "p_book": 11.719024886346345
+ "net_debt_to_ebitda": 1.1569553159850439,
+ "interest_coverage": 20.095760776869962,
+ "cash_to_debt": 0.11463896498914461,
+ "ev": 19636231758.546585,
+ "ev_to_sales": 4.924344335540247,
+ "ev_to_ebitda": 22.7944216762067,
+ "pe_ttm": 35.42863885254694,
+ "pe_trailing": 35.541286,
+ "p_sales": 4.6744037,
+ "p_fcf": 27.744975214338684,
+ "p_book": 13.405348279880863
 }

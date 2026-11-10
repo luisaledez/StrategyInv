@@ -1,40 +1,44 @@
 {
  "ticker": "APPN",
- "fetched": "2026-10-25",
- "market_cap": 3749704593.6549606,
- "shares_out": 71627597.0,
- "price": 52.349998474121094,
+ "fetched": "2026-11-10",
+ "market_cap": 3651260603.1,
+ "shares_out": 71383394.0,
+ "price": 51.15,
  "long_name": "Appian Corporation",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
  "pe_trailing_y": null,
- "pe_forward": 36.812016,
+ "pe_forward": 33.31531,
  "peg": null,
- "p_sales_y": 4.714789,
- "eps_trailing_y": -0.14,
- "eps_forward": 1.42209,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 167866000.0,
- "total_debt": 295326000.0,
- "current_debt": 23769000.0,
- "lease_obligations": 59299000.0,
- "equity": -105181000.0,
- "net_debt": 127460000.0,
- "ocf_ttm": 80757000.0,
- "capex_ttm": -4012000.0,
- "fcf_ttm": 76745000.0,
+ "p_sales_y": 4.331604,
+ "eps_trailing_y": -0.08,
+ "eps_forward": 1.53533,
+ "earnings_growth_y": 0.7,
+ "earnings_growth_q_y": 0.577,
+ "bs_date": "2026-09-30",
+ "cash": 88946000.0,
+ "total_debt": 256922000.0,
+ "current_debt": 17400000.0,
+ "lease_obligations": 57437000.0,
+ "equity": -97874000.0,
+ "net_debt": 167976000.0,
+ "ocf_ttm": 46646000.0,
+ "capex_ttm": -7964000.0,
+ "fcf_ttm": 38682000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -75736000.0,
- "stock_issuance_ttm": -75736000.0,
- "revenue_ttm": 795307000.0,
- "net_income_ttm": -10620000.0,
- "ebitda_ttm": 22321000.0,
- "ebit_ttm": 12805000.0,
- "interest_ttm": 18165000.0,
- "revenue_yoy_last_q": 0.19113924050632902,
+ "buybacks_ttm": -83015000.0,
+ "stock_issuance_ttm": -83015000.0,
+ "revenue_ttm": 842935000.0,
+ "net_income_ttm": -6104000.0,
+ "ebitda_ttm": 24706000.0,
+ "ebit_ttm": 14774000.0,
+ "interest_ttm": 16158000.0,
+ "revenue_yoy_last_q": 0.2546897392569143,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 234632000.0
+  },
   {
    "period": "2026-06-30",
    "value": 203256000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 187004000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 170640000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.17
+  },
   {
    "period": "2026-06-30",
    "value": -0.16
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.1
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.0
   }
  ],
- "eps_ttm": -0.15,
+ "eps_ttm": -0.08,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": null,
+ "eps_growth_last_q": 0.7,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.729457192539807
+  },
   {
    "period": "2026-06-30",
    "value": 0.7121216593852088
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.7577966246711301
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7131153305203938
+   "value": 0.7288614147290967
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": -0.03413239147797109,
+ "dilution_1y": -0.03156422189486907,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 23769000.0,
- "gap_24m": -144097000.0,
+ "need_24m": 17400000.0,
+ "gap_24m": -71546000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 5.710317638098651,
- "interest_coverage": 0.7049270575282136,
- "cash_to_debt": 0.5684091478569445,
- "ev": 3877164593.6549606,
- "ev_to_sales": 4.875054027759043,
- "ev_to_ebitda": 173.70030884167198,
+ "net_debt_to_ebitda": 6.798996195256213,
+ "interest_coverage": 0.9143458348805545,
+ "cash_to_debt": 0.3461984571192813,
+ "ev": 3819236603.1,
+ "ev_to_sales": 4.530879134334201,
+ "ev_to_ebitda": 154.58741209018052,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 4.714789,
- "p_fcf": 48.85926892507604,
+ "p_sales": 4.331604,
+ "p_fcf": 94.39172232821467,
  "p_book": null
 }

@@ -1,0 +1,154 @@
+{
+ "ticker": "RIVN",
+ "fetched": "2026-11-10",
+ "market_cap": 20449117352.457905,
+ "shares_out": 1459608638.0,
+ "price": 14.010000228881836,
+ "long_name": "Rivian Automotive, Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Manufacturers",
+ "pe_trailing_y": null,
+ "pe_forward": -7.930757,
+ "peg": null,
+ "p_sales_y": 3.1557279,
+ "eps_trailing_y": -2.26,
+ "eps_forward": -1.76654,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 5502000000.0,
+ "total_debt": 5431000000.0,
+ "current_debt": 122000000.0,
+ "lease_obligations": 985000000.0,
+ "equity": 5691000000.0,
+ "net_debt": -71000000.0,
+ "ocf_ttm": -2629000000.0,
+ "capex_ttm": -1563000000.0,
+ "fcf_ttm": -4192000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 2064000000.0,
+ "revenue_ttm": 6480000000.0,
+ "net_income_ttm": -2973000000.0,
+ "ebitda_ttm": -1811000000.0,
+ "ebit_ttm": -2694000000.0,
+ "interest_ttm": 271000000.0,
+ "revenue_yoy_last_q": 0.383183568677792,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2155000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1658000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1381000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1286000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1558000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.63
+  },
+  {
+   "period": "2026-06-30",
+   "value": -0.63
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.33
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.66
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.96
+  }
+ ],
+ "eps_ttm": -2.25,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.08167053364269142
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.10796139927623644
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.08616944243301955
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.09331259720062209
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.01540436456996149
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5387000000.0,
+   "eps": -3.07,
+   "net_income": -3646000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4970000000.0,
+   "eps": -4.69,
+   "net_income": -4747000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 4434000000.0,
+   "eps": -5.74,
+   "net_income": -5432000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1658000000.0,
+   "eps": -7.4,
+   "net_income": -6752000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.19086460032626418,
+ "fcf_burn_annual": 4192000000.0,
+ "runway_months": 15.750000000000002,
+ "need_24m": 8506000000.0,
+ "gap_24m": 3004000000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 0.03920485919381557,
+ "interest_coverage": -9.940959409594097,
+ "cash_to_debt": 1.0130730988768182,
+ "ev": 20378117352.457905,
+ "ev_to_sales": 3.1447711963669605,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.1557279,
+ "p_fcf": null,
+ "p_book": 3.5932379814545605
+}

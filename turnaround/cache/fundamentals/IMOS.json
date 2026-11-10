@@ -1,0 +1,154 @@
+{
+ "ticker": "IMOS",
+ "fetched": "2026-11-10",
+ "market_cap": 1685693506.9631424,
+ "shares_out": 34770906.0,
+ "price": 48.47999954223633,
+ "long_name": "ChipMOS TECHNOLOGIES INC.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 22.976305,
+ "pe_forward": 48.0,
+ "peg": null,
+ "p_sales_y": 0.06247137,
+ "eps_trailing_y": 2.11,
+ "eps_forward": 1.01,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 12485383000.0,
+ "total_debt": 15819784000.0,
+ "current_debt": 5856347000.0,
+ "lease_obligations": 862439000.0,
+ "equity": 24850100000.0,
+ "net_debt": 3334401000.0,
+ "ocf_ttm": 4592140000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 740902000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 32515828000.0,
+ "net_income_ttm": 2480327000.0,
+ "ebitda_ttm": 3745332000.0,
+ "ebit_ttm": 2498874000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.2871962062833433,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 7383100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 6935628000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 12053400000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 6143700000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 5735800000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 25.4
+  },
+  {
+   "period": "2026-03-31",
+   "value": 14.4
+  },
+  {
+   "period": "2025-12-31",
+   "value": 14.2
+  },
+  {
+   "period": "2025-09-30",
+   "value": 10.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": -15.0
+  }
+ ],
+ "eps_ttm": 64.0,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6424870466321244,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": -0.98421875,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.17954517749996615
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1377618580465965
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.11618547463786151
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.12365512638963491
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.06604135430105652
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 23932900000.0,
+   "eps": 13.8,
+   "net_income": 550635000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 22695909000.0,
+   "eps": 38.6,
+   "net_income": 1439536000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 21356228000.0,
+   "eps": 51.6,
+   "net_income": 1967565000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 23517064000.0,
+   "eps": 90.8,
+   "net_income": 3439697000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": null,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5856347000.0,
+ "gap_24m": -6629036000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.8902818228130377,
+ "interest_coverage": null,
+ "cash_to_debt": 0.7892258832358268,
+ "ev": 5020094506.963142,
+ "ev_to_sales": 0.15438925642499837,
+ "ev_to_ebitda": 1.340360349086047,
+ "pe_ttm": 0.679625511863211,
+ "pe_trailing": 22.976305,
+ "p_sales": 0.06247137,
+ "p_fcf": 2.2751909253357967,
+ "p_book": 0.06783447579539488
+}

@@ -1,40 +1,44 @@
 {
  "ticker": "BX",
- "fetched": "2026-10-24",
- "market_cap": 88551245614.87042,
- "shares_out": 750625114.0,
- "price": 117.97000122070312,
+ "fetched": "2026-11-10",
+ "market_cap": 96298286721.70944,
+ "shares_out": 790691239.0,
+ "price": 121.79000091552734,
  "long_name": "Blackstone Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Asset Management",
- "pe_trailing_y": 26.273943,
- "pe_forward": 15.985766,
- "peg": 1.15,
- "p_sales_y": 8.917581,
+ "pe_trailing_y": 27.124723,
+ "pe_forward": 16.506178,
+ "peg": 1.18,
+ "p_sales_y": 9.719137,
  "eps_trailing_y": 4.49,
- "eps_forward": 7.37969,
- "earnings_growth_y": 0.039,
+ "eps_forward": 7.37845,
+ "earnings_growth_y": 0.037,
  "earnings_growth_q_y": 0.06,
- "bs_date": "2026-06-30",
- "cash": 2507073000.0,
- "total_debt": 14027316000.0,
+ "bs_date": "2026-09-30",
+ "cash": 3037534000.0,
+ "total_debt": 14193841000.0,
  "current_debt": null,
  "lease_obligations": null,
- "equity": 9014543000.0,
- "net_debt": 11520243000.0,
- "ocf_ttm": 5597890000.0,
- "capex_ttm": -111651000.0,
- "fcf_ttm": 5486239000.0,
+ "equity": 8838137000.0,
+ "net_debt": 11156307000.0,
+ "ocf_ttm": 5963182000.0,
+ "capex_ttm": -133694000.0,
+ "fcf_ttm": 5829488000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -285675000.0,
- "stock_issuance_ttm": -285675000.0,
- "revenue_ttm": 13613047000.0,
- "net_income_ttm": 3519036000.0,
+ "buybacks_ttm": -268789000.0,
+ "stock_issuance_ttm": -268789000.0,
+ "revenue_ttm": 13784998000.0,
+ "net_income_ttm": 3556491000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
- "interest_ttm": 536453000.0,
- "revenue_yoy_last_q": 0.3247767645313415,
+ "interest_ttm": 543101000.0,
+ "revenue_yoy_last_q": 0.06402033448242861,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2857832000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4187932000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2685881000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3161236000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.83
+  },
   {
    "period": "2026-06-30",
    "value": 1.54
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.8
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.98
   }
  ],
- "eps_ttm": 4.47,
+ "eps_ttm": 4.5,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.06906077348066297,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.5714285714285714,
- "eps_forward_growth": 0.650937360178971,
+ "eps_growth_last_q": 0.03749999999999987,
+ "eps_forward_growth": 0.6396555555555556,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.02219257947868236,
+ "dilution_1y": 0.02171207143482179,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -2507073000.0,
+ "gap_24m": -3037534000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
- "cash_to_debt": 0.1787279191543129,
- "ev": 100071488614.87042,
- "ev_to_sales": 7.35114545735943,
+ "cash_to_debt": 0.21400366539261642,
+ "ev": 107454593721.70944,
+ "ev_to_sales": 7.795038760376276,
  "ev_to_ebitda": null,
- "pe_ttm": 25.163495234169364,
- "pe_trailing": 26.273943,
- "p_sales": 8.917581,
- "p_fcf": 16.140610282357443,
- "p_book": 9.823154164872298
+ "pe_ttm": 27.076769411678377,
+ "pe_trailing": 27.124723,
+ "p_sales": 9.719137,
+ "p_fcf": 16.51916715871264,
+ "p_book": 10.895767594653652
 }

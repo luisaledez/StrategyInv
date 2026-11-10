@@ -1,20 +1,20 @@
 {
  "ticker": "PTC",
- "fetched": "2026-10-24",
- "market_cap": 21052926117.91925,
+ "fetched": "2026-11-10",
+ "market_cap": 21277793967.9292,
  "shares_out": 108632228.0,
- "price": 193.8000030517578,
+ "price": 195.8699951171875,
  "long_name": "PTC Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 18.797283,
- "pe_forward": 21.731987,
- "peg": 1.82,
- "p_sales_y": 7.126989,
- "eps_trailing_y": 10.31,
- "eps_forward": 8.91773,
- "earnings_growth_y": -0.12,
- "earnings_growth_q_y": -0.16,
+ "pe_trailing_y": 21.93393,
+ "pe_forward": 19.54018,
+ "peg": 1.83,
+ "p_sales_y": 7.78428,
+ "eps_trailing_y": 8.93,
+ "eps_forward": 10.02396,
+ "earnings_growth_y": -0.5,
+ "earnings_growth_q_y": -0.548,
  "bs_date": "2026-06-30",
  "cash": 351454000.0,
  "total_debt": 1607694000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.44
+  },
+  {
    "period": "2026-06-30",
    "value": 1.03
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 2.94
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.17
   }
  ],
- "eps_ttm": 10.34,
+ "eps_ttm": 8.84,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.9679487179487178,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.11965811965811957,
- "eps_forward_growth": -0.13755029013539644,
+ "eps_growth_last_q": -0.5102040816326531,
+ "eps_forward_growth": 0.13393212669683274,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 0.7262808516444286,
  "interest_coverage": 24.427924066135947,
  "cash_to_debt": 0.21860752108299217,
- "ev": 22309166117.91925,
- "ev_to_sales": 7.552260521737935,
- "ev_to_ebitda": 12.897790364579558,
- "pe_ttm": 17.202717175910106,
- "pe_trailing": 18.797283,
- "p_sales": 7.126989,
- "p_fcf": 22.504848952969,
- "p_book": 6.067575067640241
+ "ev": 22534033967.9292,
+ "ev_to_sales": 7.628384415265006,
+ "ev_to_ebitda": 13.027795151573027,
+ "pe_ttm": 17.3864606614479,
+ "pe_trailing": 21.93393,
+ "p_sales": 7.78428,
+ "p_fcf": 22.745224897410537,
+ "p_book": 6.132383282545479
 }

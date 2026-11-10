@@ -1,40 +1,44 @@
 {
  "ticker": "DECK",
- "fetched": "2026-10-24",
- "market_cap": 11042986285.417145,
- "shares_out": 136181857.0,
- "price": 81.08999633789062,
+ "fetched": "2026-11-10",
+ "market_cap": 12070595265.14486,
+ "shares_out": 133479987.0,
+ "price": 90.43000030517578,
  "long_name": "Deckers Outdoor Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Footwear & Accessories",
- "pe_trailing_y": 10.7403965,
- "pe_forward": 9.914536,
- "peg": 0.99,
- "p_sales_y": 1.9800932,
+ "pe_trailing_y": 11.977483,
+ "pe_forward": 11.068936,
+ "peg": 1.03,
+ "p_sales_y": 2.1643515,
  "eps_trailing_y": 7.55,
- "eps_forward": 8.1789,
+ "eps_forward": 8.16971,
  "earnings_growth_y": 0.27,
  "earnings_growth_q_y": 0.168,
- "bs_date": "2026-06-30",
- "cash": 1602589000.0,
- "total_debt": 472334000.0,
- "current_debt": 73358000.0,
- "lease_obligations": 472334000.0,
- "equity": 2301682000.0,
- "net_debt": -1130255000.0,
- "ocf_ttm": 1193713000.0,
- "capex_ttm": -75905000.0,
- "fcf_ttm": 1117808000.0,
+ "bs_date": "2026-09-30",
+ "cash": 1209722000.0,
+ "total_debt": 539520000.0,
+ "current_debt": 80224000.0,
+ "lease_obligations": 539520000.0,
+ "equity": 2321486000.0,
+ "net_debt": -670202000.0,
+ "ocf_ttm": 1128460000.0,
+ "capex_ttm": -75867000.0,
+ "fcf_ttm": 1052593000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1238759000.0,
- "stock_issuance_ttm": -1234250000.0,
- "revenue_ttm": 5527289000.0,
- "net_income_ttm": 1014840000.0,
- "ebitda_ttm": 1390224000.0,
- "ebit_ttm": 1316162000.0,
- "interest_ttm": 3822000.0,
- "revenue_yoy_last_q": 0.05701486100081077,
+ "buybacks_ttm": -1254918000.0,
+ "stock_issuance_ttm": -1250597000.0,
+ "revenue_ttm": 5577003000.0,
+ "net_income_ttm": 1059823000.0,
+ "ebitda_ttm": 1450777000.0,
+ "ebit_ttm": 1378139000.0,
+ "interest_ttm": 4704000.0,
+ "revenue_yoy_last_q": 0.034744625534651075,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1480554000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1019531000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1430840000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 964538000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.31
+  },
   {
    "period": "2026-06-30",
    "value": 0.94
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.82
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.93
   }
  ],
- "eps_ttm": 7.050000000000001,
+ "eps_ttm": 7.54,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.1090047393364928,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.010752688172043001,
- "eps_forward_growth": 0.16012765957446806,
+ "eps_growth_last_q": 0.26923076923076916,
+ "eps_forward_growth": 0.0835159151193634,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6045790967435163
+  },
   {
    "period": "2026-06-30",
    "value": 0.564144690058468
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5617832881384361
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5576825381685325
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.07955134642691664,
+ "dilution_1y": -0.08503662126086664,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 73358000.0,
- "gap_24m": -1529231000.0,
+ "need_24m": 80224000.0,
+ "gap_24m": -1129498000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.8130020773630724,
- "interest_coverage": 344.36473050758764,
- "cash_to_debt": 3.3929147594710525,
- "ev": 9912731285.417145,
- "ev_to_sales": 1.793416498651897,
- "ev_to_ebitda": 7.130312298893664,
- "pe_ttm": 10.881504754855095,
- "pe_trailing": 10.7403965,
- "p_sales": 1.9800932,
- "p_fcf": 9.879144079678392,
- "p_book": 4.7977897404668175
+ "net_debt_to_ebitda": -0.46196072863024434,
+ "interest_coverage": 292.9717261904762,
+ "cash_to_debt": 2.242219009489917,
+ "ev": 11400393265.14486,
+ "ev_to_sales": 2.044179152341295,
+ "ev_to_ebitda": 7.858129309428575,
+ "pe_ttm": 11.389255814550976,
+ "pe_trailing": 11.977483,
+ "p_sales": 2.1643515,
+ "p_fcf": 11.467485785241646,
+ "p_book": 5.199512409355412
 }

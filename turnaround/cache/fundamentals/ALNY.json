@@ -1,40 +1,44 @@
 {
  "ticker": "ALNY",
- "fetched": "2026-10-25",
- "market_cap": 29977256542.19879,
- "shares_out": 133809118.0,
- "price": 224.02999877929688,
+ "fetched": "2026-11-10",
+ "market_cap": 20975963859.10901,
+ "shares_out": 133937576.0,
+ "price": 156.61000061035156,
  "long_name": "Alnylam Pharmaceuticals, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
- "pe_trailing_y": 37.77909,
- "pe_forward": 18.138187,
- "peg": 0.29,
- "p_sales_y": 6.2398257,
- "eps_trailing_y": 5.93,
- "eps_forward": 12.35129,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 3308147000.0,
- "total_debt": 1267409000.0,
- "current_debt": 45933000.0,
- "lease_obligations": 256428000.0,
- "equity": 1354118000.0,
- "net_debt": -2040738000.0,
- "ocf_ttm": 911813000.0,
- "capex_ttm": -91947000.0,
- "fcf_ttm": 819866000.0,
+ "pe_trailing_y": 7.9095964,
+ "pe_forward": 14.459035,
+ "peg": 0.21,
+ "p_sales_y": 4.1841116,
+ "eps_trailing_y": 19.8,
+ "eps_forward": 10.83129,
+ "earnings_growth_y": 6.335,
+ "earnings_growth_q_y": 6.405,
+ "bs_date": "2026-09-30",
+ "cash": 3587255000.0,
+ "total_debt": 1261993000.0,
+ "current_debt": 407612000.0,
+ "lease_obligations": 249377000.0,
+ "equity": 3603852000.0,
+ "net_debt": -2325262000.0,
+ "ocf_ttm": 901768000.0,
+ "capex_ttm": -149637000.0,
+ "fcf_ttm": 752131000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 4804182000.0,
- "net_income_ttm": 807988000.0,
- "ebitda_ttm": 1179398000.0,
- "ebit_ttm": 1124637000.0,
- "interest_ttm": 325072000.0,
- "revenue_yoy_last_q": 0.6685619157051477,
+ "revenue_ttm": 5013242000.0,
+ "net_income_ttm": 2724239000.0,
+ "ebitda_ttm": 1276886000.0,
+ "ebit_ttm": 1221452000.0,
+ "interest_ttm": 365046000.0,
+ "revenue_yoy_last_q": 0.16737842126585045,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1458086000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1290948000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1249026000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 773689000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 15.72
+  },
   {
    "period": "2026-06-30",
    "value": 1.21
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.84
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.55
   }
  ],
- "eps_ttm": 5.38,
+ "eps_ttm": 19.26,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": null,
- "eps_forward_growth": 1.295778810408922,
+ "eps_growth_last_q": 7.5434782608695645,
+ "eps_forward_growth": -0.43762772585669796,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7519007795150628
+  },
   {
    "period": "2026-06-30",
    "value": 0.76881253156595
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.8397519347075241
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.8152319601286822
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.021049497239973514,
+ "dilution_1y": 0.015812915904727998,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 45933000.0,
- "gap_24m": -3262214000.0,
+ "need_24m": 407612000.0,
+ "gap_24m": -3179643000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.7303217404133295,
- "interest_coverage": 3.4596550917950486,
- "cash_to_debt": 2.610165305753707,
- "ev": 27936518542.19879,
- "ev_to_sales": 5.815041674565783,
- "ev_to_ebitda": 23.687100149566806,
- "pe_ttm": 37.10111603414752,
- "pe_trailing": 37.77909,
- "p_sales": 6.2398257,
- "p_fcf": 36.56360495763794,
- "p_book": 22.13784658515638
+ "net_debt_to_ebitda": -1.8210411892682667,
+ "interest_coverage": 3.3460221451543095,
+ "cash_to_debt": 2.842531614676151,
+ "ev": 18650701859.10901,
+ "ev_to_sales": 3.72028756224196,
+ "ev_to_ebitda": 14.606395448856835,
+ "pe_ttm": 7.699751695467619,
+ "pe_trailing": 7.9095964,
+ "p_sales": 4.1841116,
+ "p_fcf": 27.88871068884145,
+ "p_book": 5.82042876874772
 }

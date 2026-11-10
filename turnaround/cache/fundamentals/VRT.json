@@ -1,40 +1,44 @@
 {
  "ticker": "VRT",
- "fetched": "2026-10-24",
- "market_cap": 74810904597.0976,
- "shares_out": 384988173.0,
- "price": 194.32000732421875,
+ "fetched": "2026-11-10",
+ "market_cap": 74609305057.75993,
+ "shares_out": 385060421.0,
+ "price": 193.75999450683594,
  "long_name": "Vertiv Holdings Co",
  "sector_y": "Industrials",
  "industry_y": "Electrical Equipment & Parts",
- "pe_trailing_y": 43.963802,
- "pe_forward": 21.13442,
- "peg": 0.64,
- "p_sales_y": 6.516856,
- "eps_trailing_y": 4.42,
- "eps_forward": 9.19448,
- "earnings_growth_y": 0.53,
- "earnings_growth_q_y": 0.535,
- "bs_date": "2026-06-30",
- "cash": 3110600000.0,
- "total_debt": 3338200000.0,
- "current_debt": 82000000.0,
- "lease_obligations": 398400000.0,
- "equity": 4757600000.0,
- "net_debt": 227600000.0,
- "ocf_ttm": 3354200000.0,
- "capex_ttm": -430200000.0,
- "fcf_ttm": 2924000000.0,
+ "pe_trailing_y": 36.216824,
+ "pe_forward": 19.686396,
+ "peg": 0.54,
+ "p_sales_y": 5.6881585,
+ "eps_trailing_y": 5.35,
+ "eps_forward": 9.84233,
+ "earnings_growth_y": 0.912,
+ "earnings_growth_q_y": 0.918,
+ "bs_date": "2026-09-30",
+ "cash": 3711700000.0,
+ "total_debt": 3356900000.0,
+ "current_debt": 92100000.0,
+ "lease_obligations": 428400000.0,
+ "equity": 5502000000.0,
+ "net_debt": -354800000.0,
+ "ocf_ttm": 3639500000.0,
+ "capex_ttm": -525300000.0,
+ "fcf_ttm": 3114200000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 11479600000.0,
- "net_income_ttm": 1732000000.0,
- "ebitda_ttm": 2553100000.0,
- "ebit_ttm": 2165900000.0,
- "interest_ttm": 78200000.0,
- "revenue_yoy_last_q": 0.2411584094613548,
+ "revenue_ttm": 13116600000.0,
+ "net_income_ttm": 2098000000.0,
+ "ebitda_ttm": 3071800000.0,
+ "ebit_ttm": 2652100000.0,
+ "interest_ttm": 63300000.0,
+ "revenue_yoy_last_q": 0.6117796546827117,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4312800000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3274300000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2675800000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2638100000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.95
+  },
   {
    "period": "2026-06-30",
    "value": 1.27
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.02
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.83
   }
  ],
- "eps_ttm": 4.42,
+ "eps_ttm": 5.35,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 1.6640625,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.530120481927711,
- "eps_forward_growth": 1.0801990950226243,
+ "eps_growth_last_q": 0.9117647058823528,
+ "eps_forward_growth": 0.83968785046729,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.38105175292153587
+  },
   {
    "period": "2026-06-30",
    "value": 0.37714931435726723
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3777188130652515
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.33986581251658393
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.008206195879209455,
+ "dilution_1y": 0.007243953421211868,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 82000000.0,
- "gap_24m": -3028600000.0,
+ "need_24m": 92100000.0,
+ "gap_24m": -3619600000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.08914652775057773,
- "interest_coverage": 27.69693094629156,
- "cash_to_debt": 0.9318195434665388,
- "ev": 75038504597.0976,
- "ev_to_sales": 6.536682863261577,
- "ev_to_ebitda": 29.391134149503582,
- "pe_ttm": 43.193362931349654,
- "pe_trailing": 43.963802,
- "p_sales": 6.516856,
- "p_fcf": 25.58512469120985,
- "p_book": 15.724504917836219
+ "net_debt_to_ebitda": -0.11550231134839507,
+ "interest_coverage": 41.897314375987364,
+ "cash_to_debt": 1.1056927522416515,
+ "ev": 74254505057.75993,
+ "ev_to_sales": 5.661109209532953,
+ "ev_to_ebitda": 24.172962125711287,
+ "pe_ttm": 35.56210917910388,
+ "pe_trailing": 36.216824,
+ "p_sales": 5.6881585,
+ "p_fcf": 23.957775691272214,
+ "p_book": 13.560397138814965
 }

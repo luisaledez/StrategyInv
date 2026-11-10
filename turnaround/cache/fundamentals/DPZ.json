@@ -1,40 +1,44 @@
 {
  "ticker": "DPZ",
- "fetched": "2026-10-24",
- "market_cap": 10316531640.28418,
+ "fetched": "2026-11-10",
+ "market_cap": 10993203753.14209,
  "shares_out": 32896056.0,
- "price": 313.6099853515625,
+ "price": 334.17999267578125,
  "long_name": "Domino's Pizza, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Restaurants",
- "pe_trailing_y": 17.278788,
- "pe_forward": 15.200808,
- "peg": 1.45,
- "p_sales_y": 2.0362813,
+ "pe_trailing_y": 18.41212,
+ "pe_forward": 16.197939,
+ "peg": 1.54,
+ "p_sales_y": 2.1698432,
  "eps_trailing_y": 18.15,
- "eps_forward": 20.63114,
+ "eps_forward": 20.63102,
  "earnings_growth_y": 0.127,
  "earnings_growth_q_y": 0.092,
- "bs_date": "2026-06-30",
- "cash": 164836000.0,
- "total_debt": 5122853000.0,
- "current_debt": 53387000.0,
- "lease_obligations": 239209000.0,
- "equity": -3982431000.0,
- "net_debt": 4958017000.0,
- "ocf_ttm": 777805000.0,
- "capex_ttm": -124335000.0,
- "fcf_ttm": 653470000.0,
+ "bs_date": "2026-08-31",
+ "cash": 229035000.0,
+ "total_debt": 5121823000.0,
+ "current_debt": 1372936000.0,
+ "lease_obligations": 235919000.0,
+ "equity": -3955098000.0,
+ "net_debt": 4892788000.0,
+ "ocf_ttm": 760407000.0,
+ "capex_ttm": -124720000.0,
+ "fcf_ttm": 635687000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -389272000.0,
- "stock_issuance_ttm": -389272000.0,
- "revenue_ttm": 5027815000.0,
- "net_income_ttm": 596523000.0,
- "ebitda_ttm": 1052394000.0,
- "ebit_ttm": 963499000.0,
- "interest_ttm": 198023000.0,
- "revenue_yoy_last_q": 0.04303650894559996,
+ "buybacks_ttm": -388238000.0,
+ "stock_issuance_ttm": -388238000.0,
+ "revenue_ttm": 5066359000.0,
+ "net_income_ttm": 609383000.0,
+ "ebitda_ttm": 1069789000.0,
+ "ebit_ttm": 980589000.0,
+ "interest_ttm": 199238000.0,
+ "revenue_yoy_last_q": 0.03360260284171446,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1185598000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1194427000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1147054000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1145144000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 12.8
+  },
   {
    "period": "2026-06-30",
    "value": 4.07
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 4.08
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3.81
   }
  ],
- "eps_ttm": 17.63,
+ "eps_ttm": 26.35,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.052726183343319244,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.06824146981627299,
- "eps_forward_growth": 0.17022915484968792,
+ "eps_growth_last_q": 2.1372549019607843,
+ "eps_forward_growth": -0.21703908918406078,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4018048276059845
+  },
   {
    "period": "2026-06-30",
    "value": 0.4003827776833578
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4009418911402602
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4025432609348693
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02085119441305916,
+ "dilution_1y": -0.021805018866425274,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 53387000.0,
- "gap_24m": -111449000.0,
- "survival_gate": "PASS",
- "net_debt_to_ebitda": 4.711179463204846,
- "interest_coverage": 4.865591370699363,
- "cash_to_debt": 0.032176601592901456,
- "ev": 15274548640.28418,
- "ev_to_sales": 3.0380092824187406,
- "ev_to_ebitda": 14.514097039971892,
- "pe_ttm": 17.294440684238797,
- "pe_trailing": 17.278788,
- "p_sales": 2.0362813,
- "p_fcf": 15.78730720658053,
+ "need_24m": 1372936000.0,
+ "gap_24m": 1143901000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.573600962432779,
+ "interest_coverage": 4.921696664290948,
+ "cash_to_debt": 0.04471747657035395,
+ "ev": 15885991753.14209,
+ "ev_to_sales": 3.135583513355862,
+ "ev_to_ebitda": 14.849649559999298,
+ "pe_ttm": 18.039892404517502,
+ "pe_trailing": 18.41212,
+ "p_sales": 2.1698432,
+ "p_fcf": 17.293422318125256,
  "p_book": null
 }

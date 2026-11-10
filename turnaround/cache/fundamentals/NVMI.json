@@ -1,40 +1,44 @@
 {
  "ticker": "NVMI",
- "fetched": "2026-10-25",
- "market_cap": 9902848421.4794,
+ "fetched": "2026-11-10",
+ "market_cap": 10360856945.75,
  "shares_out": 31806161.0,
- "price": 311.3500061035156,
+ "price": 325.75,
  "long_name": "Nova Ltd.",
  "sector_y": "Technology",
  "industry_y": "Semiconductor Equipment & Materials",
- "pe_trailing_y": 38.91875,
- "pe_forward": 22.792492,
+ "pe_trailing_y": 37.31386,
+ "pe_forward": 23.472624,
  "peg": 1.46,
- "p_sales_y": 10.563061,
- "eps_trailing_y": 8.0,
- "eps_forward": 13.6602,
- "earnings_growth_y": 0.029,
- "earnings_growth_q_y": 0.098,
- "bs_date": "2026-06-30",
- "cash": 1020999000.0,
- "total_debt": 803498000.0,
- "current_debt": 743655000.0,
- "lease_obligations": 69910000.0,
- "equity": 1465219000.0,
- "net_debt": -217501000.0,
+ "p_sales_y": 10.353289,
+ "eps_trailing_y": 8.73,
+ "eps_forward": 13.87787,
+ "earnings_growth_y": 0.389,
+ "earnings_growth_q_y": 0.465,
+ "bs_date": "2026-09-30",
+ "cash": 1077318000.0,
+ "total_debt": 801999000.0,
+ "current_debt": 9992000.0,
+ "lease_obligations": 67440000.0,
+ "equity": 1511671000.0,
+ "net_debt": -275319000.0,
  "ocf_ttm": null,
- "capex_ttm": -22646000.0,
- "fcf_ttm": 189752000.0,
+ "capex_ttm": -24666000.0,
+ "fcf_ttm": 254539000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -15001000.0,
- "stock_issuance_ttm": -15001000.0,
- "revenue_ttm": 937498000.0,
- "net_income_ttm": 270378000.0,
- "ebitda_ttm": 295406000.0,
- "ebit_ttm": 271614000.0,
+ "buybacks_ttm": -53462000.0,
+ "stock_issuance_ttm": -53462000.0,
+ "revenue_ttm": 1000731000.0,
+ "net_income_ttm": 298917000.0,
+ "ebitda_ttm": 324705000.0,
+ "ebit_ttm": 300587000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.1589579478973948,
+ "revenue_yoy_last_q": 0.2815260364724319,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 287841000.0
+  },
   {
    "period": "2026-06-30",
    "value": 254958000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 224608000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 219989000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.64
+  },
   {
    "period": "2026-06-30",
    "value": 2.2
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.9
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.14
   }
  ],
- "eps_ttm": 8.08,
+ "eps_ttm": 8.82,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.3843478260869566,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.028037383177570208,
- "eps_forward_growth": 0.690618811881188,
+ "eps_growth_last_q": 0.3894736842105264,
+ "eps_forward_growth": 0.573454648526077,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5771276503347335
+  },
   {
    "period": "2026-06-30",
    "value": 0.5654303846123675
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5672905684570452
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5784198300824133
   }
  ],
  "annual": [
@@ -137,18 +137,18 @@
  "dilution_1y": 0.07263129971256355,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 743655000.0,
- "gap_24m": -277344000.0,
+ "need_24m": 9992000.0,
+ "gap_24m": -1067326000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.7362782069423099,
+ "net_debt_to_ebitda": -0.8479050214810366,
  "interest_coverage": null,
- "cash_to_debt": 1.2706926464036004,
- "ev": 9685347421.4794,
- "ev_to_sales": 10.331059289171177,
- "ev_to_ebitda": 32.78656297258485,
- "pe_ttm": 36.62594005976596,
- "pe_trailing": 38.91875,
- "p_sales": 10.563061,
- "p_fcf": 52.18837441228235,
- "p_book": 6.758613163956651
+ "cash_to_debt": 1.3432909517343539,
+ "ev": 10085537945.75,
+ "ev_to_sales": 10.078170802893085,
+ "ev_to_ebitda": 31.060617932430976,
+ "pe_ttm": 34.661317174165404,
+ "pe_trailing": 37.31386,
+ "p_sales": 10.353289,
+ "p_fcf": 40.70439871984254,
+ "p_book": 6.853909974954868
 }

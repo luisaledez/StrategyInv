@@ -1,40 +1,44 @@
 {
  "ticker": "WYNN",
- "fetched": "2026-10-24",
- "market_cap": 7489291438.106514,
+ "fetched": "2026-11-10",
+ "market_cap": 8927836035.448624,
  "shares_out": 102973891.0,
- "price": 72.7300033569336,
+ "price": 86.69999694824219,
  "long_name": "Wynn Resorts, Limited",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Resorts & Casinos",
- "pe_trailing_y": 17.441248,
- "pe_forward": 15.565211,
- "peg": 0.65,
- "p_sales_y": 1.0102336,
- "eps_trailing_y": 4.17,
- "eps_forward": 4.6726,
- "earnings_growth_y": 1.061,
- "earnings_growth_q_y": 1.115,
- "bs_date": "2026-06-30",
- "cash": 2100723000.0,
- "total_debt": 12342463000.0,
- "current_debt": 1428965000.0,
- "lease_obligations": 1617803000.0,
- "equity": -169451000.0,
- "net_debt": 10241740000.0,
- "ocf_ttm": 1459197000.0,
- "capex_ttm": -667330000.0,
- "fcf_ttm": 791867000.0,
+ "pe_trailing_y": 24.491526,
+ "pe_forward": 19.863407,
+ "peg": 0.74,
+ "p_sales_y": 1.2282524,
+ "eps_trailing_y": 3.54,
+ "eps_forward": 4.36481,
+ "earnings_growth_y": -0.8,
+ "earnings_growth_q_y": -0.804,
+ "bs_date": "2026-09-30",
+ "cash": 1792358000.0,
+ "total_debt": 12355514000.0,
+ "current_debt": 1159665000.0,
+ "lease_obligations": 1621285000.0,
+ "equity": -217466000.0,
+ "net_debt": 10563156000.0,
+ "ocf_ttm": 1220218000.0,
+ "capex_ttm": -704856000.0,
+ "fcf_ttm": 515362000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -168003000.0,
- "stock_issuance_ttm": -168003000.0,
- "revenue_ttm": 7413425000.0,
- "net_income_ttm": 448885000.0,
- "ebitda_ttm": 1949749000.0,
- "ebit_ttm": 1311496000.0,
- "interest_ttm": 617936000.0,
- "revenue_yoy_last_q": 0.06855576341770653,
+ "buybacks_ttm": -224092000.0,
+ "stock_issuance_ttm": -224092000.0,
+ "revenue_ttm": 7268731000.0,
+ "net_income_ttm": 377865000.0,
+ "ebitda_ttm": 1810634000.0,
+ "ebit_ttm": 1158427000.0,
+ "interest_ttm": 612090000.0,
+ "revenue_yoy_last_q": -0.07890619589289039,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1689053000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1856933000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1833747000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1737797000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.17
+  },
   {
    "period": "2026-06-30",
    "value": 1.32
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.85
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.64
   }
  ],
- "eps_ttm": 4.03,
+ "eps_ttm": 3.35,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.2781609195402298,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 1.0625,
- "eps_forward_growth": 0.159454094292804,
+ "eps_growth_last_q": -0.8,
+ "eps_forward_growth": 0.30292835820895525,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.38785935077229666
+  },
   {
    "period": "2026-06-30",
    "value": 0.4087104919779012
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4124342125713089
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.41788885583298857
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.005498301934174221,
+ "dilution_1y": -0.005502615571401748,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1428965000.0,
- "gap_24m": -671758000.0,
+ "need_24m": 1159665000.0,
+ "gap_24m": -632693000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 5.252850495115013,
- "interest_coverage": 2.122381605862096,
- "cash_to_debt": 0.17020290034493116,
- "ev": 17731031438.106514,
- "ev_to_sales": 2.3917462492851165,
- "ev_to_ebitda": 9.094007196878426,
- "pe_ttm": 16.68420962631078,
- "pe_trailing": 17.441248,
- "p_sales": 1.0102336,
- "p_fcf": 9.457764293885859,
+ "net_debt_to_ebitda": 5.833954294462602,
+ "interest_coverage": 1.8925762551258802,
+ "cash_to_debt": 0.14506543394309618,
+ "ev": 19490992035.448624,
+ "ev_to_sales": 2.681484847279205,
+ "ev_to_ebitda": 10.764733256665137,
+ "pe_ttm": 23.62705208328007,
+ "pe_trailing": 24.491526,
+ "p_sales": 1.2282524,
+ "p_fcf": 17.323427096775905,
  "p_book": null
 }

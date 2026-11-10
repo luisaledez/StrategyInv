@@ -1,14 +1,14 @@
 {
  "ticker": "PPTA",
- "fetched": "2026-10-25",
- "market_cap": 2056575068.1283665,
+ "fetched": "2026-11-10",
+ "market_cap": 2439368158.5,
  "shares_out": 125095803.0,
- "price": 16.440000534057617,
+ "price": 19.5,
  "long_name": "Perpetua Resources Corp.",
  "sector_y": "Basic Materials",
  "industry_y": "Other Precious Metals & Mining",
  "pe_trailing_y": null,
- "pe_forward": -164.40001,
+ "pe_forward": -195.0,
  "peg": null,
  "p_sales_y": null,
  "eps_trailing_y": -2.02,
@@ -122,12 +122,12 @@
  "net_debt_to_ebitda": 2.2125071204637665,
  "interest_coverage": null,
  "cash_to_debt": 157.5443072702332,
- "ev": 1485971068.1283665,
+ "ev": 1868764158.5,
  "ev_to_sales": null,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
  "p_sales": null,
  "p_fcf": null,
- "p_book": 2.8569494590933755
+ "p_book": 3.3887173140237548
 }

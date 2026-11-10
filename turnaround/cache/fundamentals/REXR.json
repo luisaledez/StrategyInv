@@ -1,40 +1,44 @@
 {
  "ticker": "REXR",
- "fetched": "2026-10-24",
- "market_cap": 8631870075.888275,
- "shares_out": 222988124.0,
- "price": 38.709999084472656,
+ "fetched": "2026-11-10",
+ "market_cap": 8209673888.247131,
+ "shares_out": 212136272.0,
+ "price": 38.70000076293945,
  "long_name": "Rexford Industrial Realty, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Industrial",
  "pe_trailing_y": null,
- "pe_forward": 24.193748,
+ "pe_forward": 31.463415,
  "peg": 1.88,
- "p_sales_y": 9.051529,
+ "p_sales_y": 8.6188345,
  "eps_trailing_y": -2.1,
- "eps_forward": 1.6,
+ "eps_forward": 1.23,
  "earnings_growth_y": -0.821,
  "earnings_growth_q_y": -0.807,
- "bs_date": "2026-06-30",
- "cash": 32226000.0,
- "total_debt": 3263724000.0,
+ "bs_date": "2026-09-30",
+ "cash": 423590000.0,
+ "total_debt": 2767195000.0,
  "current_debt": null,
  "lease_obligations": null,
- "equity": 7541567000.0,
- "net_debt": 3231498000.0,
- "ocf_ttm": 509329000.0,
- "capex_ttm": -282177000.0,
- "fcf_ttm": 227152000.0,
+ "equity": 7165741000.0,
+ "net_debt": 2343605000.0,
+ "ocf_ttm": 511454000.0,
+ "capex_ttm": -249040000.0,
+ "fcf_ttm": 262414000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -571893000.0,
- "stock_issuance_ttm": -571893000.0,
- "revenue_ttm": 991923000.0,
- "net_income_ttm": -388463000.0,
- "ebitda_ttm": 6560000.0,
- "ebit_ttm": -297843000.0,
- "interest_ttm": 106085000.0,
- "revenue_yoy_last_q": -0.016035622247071224,
+ "buybacks_ttm": -730702000.0,
+ "stock_issuance_ttm": -730702000.0,
+ "revenue_ttm": 977784000.0,
+ "net_income_ttm": -460997000.0,
+ "ebitda_ttm": -75836000.0,
+ "ebit_ttm": -373507000.0,
+ "interest_ttm": 105407000.0,
+ "revenue_yoy_last_q": -0.05583197100007109,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 239103000.0
+  },
   {
    "period": "2026-06-30",
    "value": 245506000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 253242000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 249507000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.07
+  },
   {
    "period": "2026-06-30",
    "value": -2.26
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.37
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.48
   }
  ],
- "eps_ttm": -1.8099999999999996,
+ "eps_ttm": -2.11,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.2833333333333333,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -5.708333333333333,
+ "eps_growth_last_q": -0.8108108108108107,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7616257428806832
+  },
   {
    "period": "2026-06-30",
    "value": 0.771027999315699
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7714478640983723
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7783709475084868
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.05790451179037759,
+ "dilution_1y": -0.07708575105530291,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -32226000.0,
+ "gap_24m": -423590000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 492.6064024390244,
- "interest_coverage": -2.8075882547014186,
- "cash_to_debt": 0.00987399669825022,
- "ev": 11863368075.888275,
- "ev_to_sales": 11.95996874342895,
- "ev_to_ebitda": 1808.4402554707738,
+ "net_debt_to_ebitda": -30.903594598871248,
+ "interest_coverage": -3.5434743423112316,
+ "cash_to_debt": 0.1530755873727728,
+ "ev": 10553278888.247131,
+ "ev_to_sales": 10.793057452614413,
+ "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 9.051529,
- "p_fcf": 38.000414153906966,
- "p_book": 1.144572484191717
+ "p_sales": 8.6188345,
+ "p_fcf": 31.285197772402125,
+ "p_book": 1.1456838711093704
 }

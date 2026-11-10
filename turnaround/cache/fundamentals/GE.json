@@ -1,40 +1,44 @@
 {
  "ticker": "GE",
- "fetched": "2026-10-24",
- "market_cap": 296369371411.9896,
+ "fetched": "2026-11-10",
+ "market_cap": 344813136013.17615,
  "shares_out": 1037562513.0,
- "price": 285.6400146484375,
+ "price": 332.3299865722656,
  "long_name": "GE Aerospace",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
- "pe_trailing_y": 32.644573,
- "pe_forward": 30.702724,
- "peg": 3.39,
- "p_sales_y": 5.63697,
+ "pe_trailing_y": 37.98057,
+ "pe_forward": 35.68533,
+ "peg": 3.79,
+ "p_sales_y": 6.558375,
  "eps_trailing_y": 8.75,
- "eps_forward": 9.30341,
+ "eps_forward": 9.31279,
  "earnings_growth_y": 0.089,
  "earnings_growth_q_y": 0.061,
- "bs_date": "2026-06-30",
- "cash": 9345000000.0,
- "total_debt": 19157000000.0,
- "current_debt": 2000000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 8764000000.0,
+ "total_debt": 19325000000.0,
+ "current_debt": 2335000000.0,
  "lease_obligations": null,
- "equity": 17640000000.0,
- "net_debt": 9812000000.0,
- "ocf_ttm": 9800000000.0,
- "capex_ttm": -1404000000.0,
- "fcf_ttm": 8396000000.0,
+ "equity": 17522000000.0,
+ "net_debt": 10561000000.0,
+ "ocf_ttm": 9451000000.0,
+ "capex_ttm": -1433000000.0,
+ "fcf_ttm": 8018000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -8368000000.0,
- "stock_issuance_ttm": -8368000000.0,
- "revenue_ttm": 50638000000.0,
- "net_income_ttm": 8972000000.0,
- "ebitda_ttm": 12685000000.0,
- "ebit_ttm": 11450000000.0,
- "interest_ttm": 1085000000.0,
- "revenue_yoy_last_q": 0.21103248049355838,
+ "buybacks_ttm": -8503000000.0,
+ "stock_issuance_ttm": -8503000000.0,
+ "revenue_ttm": 52575000000.0,
+ "net_income_ttm": 9103000000.0,
+ "ebitda_ttm": 13014000000.0,
+ "ebit_ttm": 11746000000.0,
+ "interest_ttm": 1091000000.0,
+ "revenue_yoy_last_q": 0.15901814300960515,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 14118000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 13348000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 12181000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 11022000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.2
+  },
   {
    "period": "2026-06-30",
    "value": 2.26
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.02
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.89
   }
  ],
- "eps_ttm": 8.49,
+ "eps_ttm": 8.67,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.3589315525876462,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.1957671957671958,
- "eps_forward_growth": 0.0958080094228504,
+ "eps_growth_last_q": 0.08910891089108919,
+ "eps_forward_growth": 0.07413956170703573,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.2834679133021675
+  },
   {
    "period": "2026-06-30",
    "value": 0.3109829187893317
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.321730563993104
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3155507167483215
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.021573014243387423,
+ "dilution_1y": -0.016354920825461083,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2000000000.0,
- "gap_24m": -7345000000.0,
+ "need_24m": 2335000000.0,
+ "gap_24m": -6429000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.7735120220733149,
- "interest_coverage": 10.55299539170507,
- "cash_to_debt": 0.4878112439317221,
- "ev": 306181371411.9896,
- "ev_to_sales": 6.046474414708117,
- "ev_to_ebitda": 24.137277998580185,
- "pe_ttm": 33.03269855238404,
- "pe_trailing": 32.644573,
- "p_sales": 5.63697,
- "p_fcf": 35.298877014291286,
- "p_book": 16.800984773922313
+ "net_debt_to_ebitda": 0.8115106808052867,
+ "interest_coverage": 10.766269477543538,
+ "cash_to_debt": 0.4535058214747736,
+ "ev": 355374136013.17615,
+ "ev_to_sales": 6.759374912281049,
+ "ev_to_ebitda": 27.307064393205483,
+ "pe_ttm": 37.879065803930146,
+ "pe_trailing": 37.98057,
+ "p_sales": 6.558375,
+ "p_fcf": 43.004881019353476,
+ "p_book": 19.67886862305537
 }

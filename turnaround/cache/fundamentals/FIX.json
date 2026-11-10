@@ -1,40 +1,44 @@
 {
  "ticker": "FIX",
- "fetched": "2026-10-24",
- "market_cap": 40855688247.39807,
+ "fetched": "2026-11-10",
+ "market_cap": 39628462167.01538,
  "shares_out": 35194329.0,
- "price": 1160.8599853515625,
+ "price": 1125.989990234375,
  "long_name": "Comfort Systems USA, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Engineering & Construction",
- "pe_trailing_y": 25.07257,
- "pe_forward": 19.27555,
- "peg": 0.39,
- "p_sales_y": 3.2571573,
+ "pe_trailing_y": 24.319439,
+ "pe_forward": 16.76719,
+ "peg": 0.31,
+ "p_sales_y": 3.1593184,
  "eps_trailing_y": 46.3,
- "eps_forward": 60.22448,
+ "eps_forward": 67.15436,
  "earnings_growth_y": 0.686,
  "earnings_growth_q_y": 0.677,
- "bs_date": "2026-06-30",
- "cash": 1854794000.0,
- "total_debt": 328033000.0,
- "current_debt": 215000.0,
- "lease_obligations": 273969000.0,
- "equity": 3217269000.0,
- "net_debt": -1526761000.0,
- "ocf_ttm": 2550065000.0,
- "capex_ttm": -390259000.0,
- "fcf_ttm": 2159806000.0,
+ "bs_date": "2026-09-30",
+ "cash": 2158027000.0,
+ "total_debt": 374433000.0,
+ "current_debt": 5710000.0,
+ "lease_obligations": 324878000.0,
+ "equity": 3335243000.0,
+ "net_debt": -1783594000.0,
+ "ocf_ttm": 3006920000.0,
+ "capex_ttm": -565527000.0,
+ "fcf_ttm": 2441393000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -112941000.0,
- "stock_issuance_ttm": -112941000.0,
- "revenue_ttm": 11228024000.0,
- "net_income_ttm": 1434401000.0,
- "ebitda_ttm": 2000175000.0,
- "ebit_ttm": 1844718000.0,
- "interest_ttm": 7372000.0,
- "revenue_yoy_last_q": 0.502612363854547,
+ "buybacks_ttm": -437684000.0,
+ "stock_issuance_ttm": -437684000.0,
+ "revenue_ttm": 12543357000.0,
+ "net_income_ttm": 1631830000.0,
+ "ebitda_ttm": 2275248000.0,
+ "ebit_ttm": 2107824000.0,
+ "interest_ttm": 5880000.0,
+ "revenue_yoy_last_q": 0.5366583583880498,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3766302000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3265656000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2450969000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2173319000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 13.91
+  },
   {
    "period": "2026-06-30",
    "value": 12.53
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 8.25
-  },
-  {
-   "period": "2025-06-30",
-   "value": 6.53
   }
  ],
- "eps_ttm": 40.66,
+ "eps_ttm": 46.31999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.978082191780822,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.9188361408882082,
- "eps_forward_growth": 0.4811726512543042,
+ "eps_growth_last_q": 0.686060606060606,
+ "eps_forward_growth": 0.44979188255613134,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.24811658757051347
+  },
   {
    "period": "2026-06-30",
    "value": 0.258517124890068
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.24801252076219651
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.23461673136801361
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0023027113509954678,
+ "dilution_1y": -0.002033939149947761,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 215000.0,
- "gap_24m": -1854579000.0,
+ "need_24m": 5710000.0,
+ "gap_24m": -2152317000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.7633137100503706,
- "interest_coverage": 250.2330439500814,
- "cash_to_debt": 5.654290879271293,
- "ev": 39328927247.39807,
- "ev_to_sales": 3.502746988018379,
- "ev_to_ebitda": 19.66274313367484,
- "pe_ttm": 28.482752206250602,
- "pe_trailing": 25.07257,
- "p_sales": 3.2571573,
- "p_fcf": 18.916369455126095,
- "p_book": 12.69887231916202
+ "net_debt_to_ebitda": -0.783911907625015,
+ "interest_coverage": 358.4734693877551,
+ "cash_to_debt": 5.76345300761418,
+ "ev": 37844868167.01538,
+ "ev_to_sales": 3.017124376434106,
+ "ev_to_ebitda": 16.633293674806165,
+ "pe_ttm": 24.284675589378416,
+ "pe_trailing": 24.319439,
+ "p_sales": 3.1593184,
+ "p_fcf": 16.231906197410815,
+ "p_book": 11.881731606067499
 }

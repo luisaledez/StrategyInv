@@ -1,0 +1,154 @@
+{
+ "ticker": "PLUG",
+ "fetched": "2026-11-10",
+ "market_cap": 2095792917.0,
+ "shares_out": 1397195278.0,
+ "price": 1.5,
+ "long_name": "Plug Power Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": null,
+ "pe_forward": -9.49367,
+ "peg": 0.84,
+ "p_sales_y": 2.7301981,
+ "eps_trailing_y": -1.31,
+ "eps_forward": -0.158,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 161894000.0,
+ "total_debt": 1036951000.0,
+ "current_debt": 123707000.0,
+ "lease_obligations": 243578000.0,
+ "equity": 581753000.0,
+ "net_debt": 875057000.0,
+ "ocf_ttm": -482562000.0,
+ "capex_ttm": -77937000.0,
+ "fcf_ttm": -560499000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 52230000.0,
+ "revenue_ttm": 744087000.0,
+ "net_income_ttm": -1641350000.0,
+ "ebitda_ttm": -1601351000.0,
+ "ebit_ttm": -1631686000.0,
+ "interest_ttm": 71943000.0,
+ "revenue_yoy_last_q": 0.024883600620796642,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 178299000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 163513000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 225220000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 177055000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 173970000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.14
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.18
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.31
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.2
+  },
+  {
+   "period": "2025-03-31",
+   "value": -0.21
+  }
+ ],
+ "eps_ttm": -0.8300000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.00939433199288835
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.13214239846373071
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.024203001509635023
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.6786874135155743
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.3073231016841984
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 709919000.0,
+   "eps": -1.42,
+   "net_income": -1631594000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 628814000.0,
+   "eps": -2.68,
+   "net_income": -2104701000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 891340000.0,
+   "eps": -2.3,
+   "net_income": -1368833000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 701440000.0,
+   "eps": -1.25,
+   "net_income": -724008000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 0,
+ "dilution_1y": 0.21751248503875997,
+ "fcf_burn_annual": 560499000.0,
+ "runway_months": 3.4660686281331454,
+ "need_24m": 1244705000.0,
+ "gap_24m": 1082811000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": -0.5464492169424442,
+ "interest_coverage": -22.680260761992134,
+ "cash_to_debt": 0.15612502422968877,
+ "ev": 2970849917.0,
+ "ev_to_sales": 3.99261096753471,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.7301981,
+ "p_fcf": null,
+ "p_book": 3.6025476740128544
+}

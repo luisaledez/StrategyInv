@@ -1,40 +1,44 @@
 {
  "ticker": "UFPI",
- "fetched": "2026-10-24",
- "market_cap": 4480768099.103462,
- "shares_out": 55161491.0,
- "price": 81.2300033569336,
+ "fetched": "2026-11-10",
+ "market_cap": 4512851086.99411,
+ "shares_out": 54595341.0,
+ "price": 82.66000366210938,
  "long_name": "UFP Industries, Inc.",
  "sector_y": "Basic Materials",
  "industry_y": "Lumber & Wood Production",
- "pe_trailing_y": 18.545662,
- "pe_forward": 14.795994,
+ "pe_trailing_y": 19.966185,
+ "pe_forward": 18.437191,
  "peg": 2.67,
- "p_sales_y": 0.7188028,
- "eps_trailing_y": 4.38,
- "eps_forward": 5.49,
- "earnings_growth_y": -0.13,
- "earnings_growth_q_y": -0.177,
- "bs_date": "2026-06-30",
- "cash": 643593000.0,
- "total_debt": 408396000.0,
- "current_debt": 33451000.0,
- "lease_obligations": 174145000.0,
- "equity": 3037516000.0,
- "net_debt": -235197000.0,
- "ocf_ttm": 493244000.0,
- "capex_ttm": -226201000.0,
- "fcf_ttm": 267043000.0,
+ "p_sales_y": 0.70437765,
+ "eps_trailing_y": 4.14,
+ "eps_forward": 4.48333,
+ "earnings_growth_y": -0.186,
+ "earnings_growth_q_y": -0.231,
+ "bs_date": "2026-09-30",
+ "cash": 724972000.0,
+ "total_debt": 411436000.0,
+ "current_debt": 32211000.0,
+ "lease_obligations": 177075000.0,
+ "equity": 3035754000.0,
+ "net_debt": -313536000.0,
+ "ocf_ttm": 381131000.0,
+ "capex_ttm": -186588000.0,
+ "fcf_ttm": 194543000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -321552000.0,
- "stock_issuance_ttm": -319134000.0,
- "revenue_ttm": 6233654000.0,
- "net_income_ttm": 248951000.0,
- "ebitda_ttm": 516168000.0,
- "ebit_ttm": 349584000.0,
- "interest_ttm": 10163000.0,
- "revenue_yoy_last_q": 0.02591460922950861,
+ "buybacks_ttm": -333322000.0,
+ "stock_issuance_ttm": -330894000.0,
+ "revenue_ttm": 6406863000.0,
+ "net_income_ttm": 231570000.0,
+ "ebitda_ttm": 498799000.0,
+ "ebit_ttm": 327273000.0,
+ "interest_ttm": 10114000.0,
+ "revenue_yoy_last_q": 0.11105796450048633,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1732836000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1882937000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1559627000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1835374000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.05
+  },
   {
    "period": "2026-06-30",
    "value": 1.48
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.29
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.7
   }
  ],
- "eps_ttm": 4.36,
+ "eps_ttm": 4.12,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.26144756277695713,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.12941176470588234,
- "eps_forward_growth": 0.25917431192660545,
+ "eps_growth_last_q": -0.18604651162790697,
+ "eps_forward_growth": 0.0881868932038834,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1413411309552664
+  },
   {
    "period": "2026-06-30",
    "value": 0.15413951714794494
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.16842552738571467
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.17039251945380068
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.05813353133622512,
+ "dilution_1y": -0.06285714884045968,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 33451000.0,
- "gap_24m": -610142000.0,
+ "need_24m": 32211000.0,
+ "gap_24m": -692761000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.4556597851862184,
- "interest_coverage": 34.397717209485386,
- "cash_to_debt": 1.5759042693855962,
- "ev": 4245571099.103462,
- "ev_to_sales": 0.6810726259595836,
- "ev_to_ebitda": 8.22517300395116,
- "pe_ttm": 17.998594498931364,
- "pe_trailing": 18.545662,
- "p_sales": 0.7188028,
- "p_fcf": 16.77920072461537,
- "p_book": 1.4751422211779173
+ "net_debt_to_ebitda": -0.628581853612377,
+ "interest_coverage": 32.35841407949377,
+ "cash_to_debt": 1.7620529073780613,
+ "ev": 4199315086.99411,
+ "ev_to_sales": 0.6554401252210497,
+ "ev_to_ebitda": 8.418852257109798,
+ "pe_ttm": 19.488064459965067,
+ "pe_trailing": 19.966185,
+ "p_sales": 0.70437765,
+ "p_fcf": 23.1971907855544,
+ "p_book": 1.4865667926301374
 }

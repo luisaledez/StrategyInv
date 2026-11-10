@@ -1,18 +1,18 @@
 {
  "ticker": "FER",
- "fetched": "2026-10-25",
- "market_cap": 35705409093.073845,
- "shares_out": 719142155.0,
- "price": 49.650001525878906,
+ "fetched": "2026-11-10",
+ "market_cap": 43753858079.36836,
+ "shares_out": 718572155.0,
+ "price": 60.88999938964844,
  "long_name": "Ferrovial N.V.",
  "sector_y": "Industrials",
  "industry_y": "Engineering & Construction",
- "pe_trailing_y": 27.28022,
- "pe_forward": 37.320267,
- "peg": 8.21,
- "p_sales_y": 3.6216054,
+ "pe_trailing_y": 33.456043,
+ "pe_forward": 43.305714,
+ "peg": 8.33,
+ "p_sales_y": 4.4379606,
  "eps_trailing_y": 1.82,
- "eps_forward": 1.3303764,
+ "eps_forward": 1.40605,
  "earnings_growth_y": -0.52,
  "earnings_growth_q_y": -0.522,
  "bs_date": "2026-06-30",
@@ -28,13 +28,17 @@
  "ttm_quarters": 0,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 9827000000.0,
+ "revenue_ttm": 10118000000.0,
  "net_income_ttm": null,
- "ebitda_ttm": 968000000.0,
- "ebit_ttm": 968000000.0,
+ "ebitda_ttm": 1362000000.0,
+ "ebit_ttm": 1362000000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.26420592520641084,
+ "revenue_yoy_last_q": 0.10560785918952109,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2701000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2603000000.0
@@ -48,12 +52,8 @@
    "value": 2716000000.0
   },
   {
-   "period": "2025-06-30",
-   "value": 2410000000.0
-  },
-  {
-   "period": "2025-03-31",
-   "value": 2059000000.0
+   "period": "2025-09-30",
+   "value": 2443000000.0
   }
  ],
  "eps_quarters": [],
@@ -98,15 +98,15 @@
  "need_24m": null,
  "gap_24m": null,
  "survival_gate": "UNKNOWN",
- "net_debt_to_ebitda": 7.017561983471074,
+ "net_debt_to_ebitda": 4.987518355359765,
  "interest_coverage": null,
  "cash_to_debt": 0.3625785868443277,
- "ev": 42498409093.073845,
- "ev_to_sales": 4.324657483776722,
- "ev_to_ebitda": 43.903315178795296,
+ "ev": 50546858079.36836,
+ "ev_to_sales": 4.995736121700767,
+ "ev_to_ebitda": 37.112230601592046,
  "pe_ttm": null,
- "pe_trailing": 27.28022,
- "p_sales": 3.6216054,
+ "pe_trailing": 33.456043,
+ "p_sales": 4.4379606,
  "p_fcf": null,
- "p_book": 6.238932219652952
+ "p_book": 7.645266133036583
 }

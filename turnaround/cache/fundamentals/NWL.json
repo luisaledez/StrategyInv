@@ -1,40 +1,44 @@
 {
  "ticker": "NWL",
- "fetched": "2026-10-25",
- "market_cap": 2282824056.863785,
- "shares_out": 425900000.0,
- "price": 5.360000133514404,
+ "fetched": "2026-11-10",
+ "market_cap": 2509139943.122864,
+ "shares_out": 426000000.0,
+ "price": 5.889999866485596,
  "long_name": "Newell Brands Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Household & Personal Products",
  "pe_trailing_y": null,
- "pe_forward": 7.8026056,
+ "pe_forward": 8.448684,
  "peg": 0.97,
- "p_sales_y": 0.31504607,
- "eps_trailing_y": -0.53,
- "eps_forward": 0.68695,
- "earnings_growth_y": 1.266,
- "earnings_growth_q_y": 1.304,
- "bs_date": "2026-06-30",
- "cash": 209000000.0,
- "total_debt": 5542000000.0,
- "current_debt": 584000000.0,
- "lease_obligations": 536000000.0,
- "equity": 2451000000.0,
- "net_debt": 5333000000.0,
- "ocf_ttm": 331000000.0,
- "capex_ttm": -213000000.0,
- "fcf_ttm": 118000000.0,
+ "p_sales_y": 0.3431068,
+ "eps_trailing_y": -0.77,
+ "eps_forward": 0.69715,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 249000000.0,
+ "total_debt": 5365000000.0,
+ "current_debt": 113000000.0,
+ "lease_obligations": 524000000.0,
+ "equity": 2364000000.0,
+ "net_debt": 5116000000.0,
+ "ocf_ttm": 254000000.0,
+ "capex_ttm": -201000000.0,
+ "fcf_ttm": 53000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 7246000000.0,
- "net_income_ttm": -221000000.0,
- "ebitda_ttm": 469000000.0,
- "ebit_ttm": 155000000.0,
- "interest_ttm": 338000000.0,
- "revenue_yoy_last_q": 0.030490956072351416,
+ "revenue_ttm": 7313000000.0,
+ "net_income_ttm": -323000000.0,
+ "ebitda_ttm": 338000000.0,
+ "ebit_ttm": 24000000.0,
+ "interest_ttm": 341000000.0,
+ "revenue_yoy_last_q": 0.03709856035437431,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1873000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1994000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1806000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1935000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.19
+  },
   {
    "period": "2026-06-30",
    "value": 0.25
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.05
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.11
   }
  ],
- "eps_ttm": -0.53,
+ "eps_ttm": -0.77,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": 1.272727272727273,
+ "eps_growth_last_q": -4.8,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3465029364655633
+  },
   {
    "period": "2026-06-30",
    "value": 0.40722166499498497
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.34108527131782945
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.35400516795865633
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.0187365748258721,
+ "dilution_1y": 0.016221374045801484,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 584000000.0,
- "gap_24m": 375000000.0,
- "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 11.371002132196162,
- "interest_coverage": 0.45857988165680474,
- "cash_to_debt": 0.03771201732226633,
- "ev": 7615824056.863785,
- "ev_to_sales": 1.051038373842642,
- "ev_to_ebitda": 16.23843082486948,
+ "need_24m": 113000000.0,
+ "gap_24m": -136000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 15.136094674556213,
+ "interest_coverage": 0.07038123167155426,
+ "cash_to_debt": 0.046411929170549863,
+ "ev": 7625139943.122864,
+ "ev_to_sales": 1.042682885699831,
+ "ev_to_ebitda": 22.55958563054102,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.31504607,
- "p_fcf": 19.345966583591398,
- "p_book": 0.9313847641223112
+ "p_sales": 0.3431068,
+ "p_fcf": 47.34226307778988,
+ "p_book": 1.0613959150265921
 }

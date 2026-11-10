@@ -1,40 +1,44 @@
 {
  "ticker": "CSGP",
- "fetched": "2026-10-24",
- "market_cap": 13744301443.021057,
- "shares_out": 405197588.0,
- "price": 33.91999816894531,
+ "fetched": "2026-11-10",
+ "market_cap": 12569018034.632294,
+ "shares_out": 402337328.0,
+ "price": 31.239999771118164,
  "long_name": "CoStar Group, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "Real Estate Services",
- "pe_trailing_y": 188.44443,
- "pe_forward": 19.137783,
- "peg": 0.11,
- "p_sales_y": 3.8651018,
- "eps_trailing_y": 0.18,
- "eps_forward": 1.77241,
- "earnings_growth_y": 12.61,
- "earnings_growth_q_y": 8.167,
- "bs_date": "2026-06-30",
- "cash": 1266000000.0,
- "total_debt": 1202000000.0,
- "current_debt": 30000000.0,
- "lease_obligations": 208000000.0,
- "equity": 7932000000.0,
- "net_debt": -64000000.0,
- "ocf_ttm": 497000000.0,
- "capex_ttm": -270000000.0,
- "fcf_ttm": 227000000.0,
+ "pe_trailing_y": 72.65116,
+ "pe_forward": 17.6567,
+ "peg": 0.12,
+ "p_sales_y": 3.421072,
+ "eps_trailing_y": 0.43,
+ "eps_forward": 1.7693,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 500000000.0,
+ "total_debt": 1224000000.0,
+ "current_debt": 32000000.0,
+ "lease_obligations": 230000000.0,
+ "equity": 7975000000.0,
+ "net_debt": 724000000.0,
+ "ocf_ttm": 617100000.0,
+ "capex_ttm": -260500000.0,
+ "fcf_ttm": 356600000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1023000000.0,
- "stock_issuance_ttm": -1023000000.0,
- "revenue_ttm": 3555500000.0,
- "net_income_ttm": 73600000.0,
- "ebitda_ttm": 394000000.0,
- "ebit_ttm": 77000000.0,
+ "buybacks_ttm": -1053000000.0,
+ "stock_issuance_ttm": -1053000000.0,
+ "revenue_ttm": 3673900000.0,
+ "net_income_ttm": 178500000.0,
+ "ebitda_ttm": 558100000.0,
+ "ebit_ttm": 212100000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.18437900128040963,
+ "revenue_yoy_last_q": 0.14148681055155876,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 952000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 925000000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 833600000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 781000000.0
+   "value": 834000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.18
+  },
   {
    "period": "2026-06-30",
    "value": 0.14
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.07
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.01
   }
  ],
- "eps_ttm": 0.19,
+ "eps_ttm": 0.44,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.9411764705882353,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 13.000000000000002,
- "eps_forward_growth": 8.328473684210527,
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 3.021136363636364,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7783613445378151
+  },
   {
    "period": "2026-06-30",
    "value": 0.787027027027027
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.793426103646833
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7848911651728553
+   "value": 0.7937649880095923
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.045508134873850525,
+ "dilution_1y": -0.05413038361967526,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 30000000.0,
- "gap_24m": -1236000000.0,
+ "need_24m": 32000000.0,
+ "gap_24m": -468000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.16243654822335024,
+ "net_debt_to_ebitda": 1.29725855581437,
  "interest_coverage": null,
- "cash_to_debt": 1.0532445923460898,
- "ev": 13680301443.021057,
- "ev_to_sales": 3.8476449003012396,
- "ev_to_ebitda": 34.72157726655091,
- "pe_ttm": 186.7432261280035,
- "pe_trailing": 188.44443,
- "p_sales": 3.8651018,
- "p_fcf": 60.54758344943197,
- "p_book": 1.7327661930182876
+ "cash_to_debt": 0.4084967320261438,
+ "ev": 13293018034.632294,
+ "ev_to_sales": 3.6182307723760294,
+ "ev_to_ebitda": 23.818344444781033,
+ "pe_ttm": 70.41466686068512,
+ "pe_trailing": 72.65116,
+ "p_sales": 3.421072,
+ "p_fcf": 35.24682567199185,
+ "p_book": 1.5760524181357107
 }

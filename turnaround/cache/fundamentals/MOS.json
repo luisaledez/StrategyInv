@@ -1,40 +1,44 @@
 {
  "ticker": "MOS",
- "fetched": "2026-10-24",
- "market_cap": 5671258373.147026,
- "shares_out": 317895646.0,
- "price": 17.84000015258789,
+ "fetched": "2026-11-10",
+ "market_cap": 7238666369.874744,
+ "shares_out": 317903655.0,
+ "price": 22.770000457763672,
  "long_name": "The Mosaic Company",
  "sector_y": "Basic Materials",
  "industry_y": "Agricultural Inputs",
  "pe_trailing_y": null,
- "pe_forward": 11.713954,
+ "pe_forward": 15.278803,
  "peg": 2.02,
- "p_sales_y": 0.46303925,
- "eps_trailing_y": -2.01,
- "eps_forward": 1.52297,
+ "p_sales_y": 0.6084754,
+ "eps_trailing_y": -3.54,
+ "eps_forward": 1.4903,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 294000000.0,
- "total_debt": 6079100000.0,
- "current_debt": 1157800000.0,
- "lease_obligations": 223400000.0,
- "equity": 11463900000.0,
- "net_debt": 5785100000.0,
- "ocf_ttm": 444000000.0,
- "capex_ttm": -1391100000.0,
- "fcf_ttm": -947100000.0,
+ "bs_date": "2026-09-30",
+ "cash": 272600000.0,
+ "total_debt": 6125000000.0,
+ "current_debt": 643800000.0,
+ "lease_obligations": 211900000.0,
+ "equity": 11298600000.0,
+ "net_debt": 5852400000.0,
+ "ocf_ttm": 499900000.0,
+ "capex_ttm": -1308200000.0,
+ "fcf_ttm": -808300000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 12247900000.0,
- "net_income_ttm": -638500000.0,
- "ebitda_ttm": 1168700000.0,
- "ebit_ttm": 14800000.0,
- "interest_ttm": 265800000.0,
- "revenue_yoy_last_q": -0.06041853811092257,
+ "revenue_ttm": 11896400000.0,
+ "net_income_ttm": -1122000000.0,
+ "ebitda_ttm": 501400000.0,
+ "ebit_ttm": -667400000.0,
+ "interest_ttm": 286200000.0,
+ "revenue_yoy_last_q": -0.10182207931404075,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3100600000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2824100000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3452100000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3005700000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.23
+  },
   {
    "period": "2026-06-30",
    "value": -0.86
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.29
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.29
   }
  ],
- "eps_ttm": -2.0199999999999996,
+ "eps_ttm": -3.54,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 2.0909090909090904,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -1.6666666666666665,
+ "eps_growth_last_q": -1.178294573643411,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.027123782493710894
+  },
   {
    "period": "2026-06-30",
    "value": 0.07602422010552035
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.15998957156513427
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.17253884286522275
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0019140950051845795,
- "fcf_burn_annual": 947100000.0,
- "runway_months": 3.7250554323725056,
- "need_24m": 3052000000.0,
- "gap_24m": 2758000000.0,
+ "dilution_1y": 0.0015610611147618414,
+ "fcf_burn_annual": 808300000.0,
+ "runway_months": 4.04701224792775,
+ "need_24m": 2260400000.0,
+ "gap_24m": 1987800000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 4.950029947805254,
- "interest_coverage": 0.05568096313017306,
- "cash_to_debt": 0.04836242206905628,
- "ev": 11456358373.147026,
- "ev_to_sales": 0.9353732781249868,
- "ev_to_ebitda": 9.802651127874583,
+ "net_debt_to_ebitda": 11.672118069405665,
+ "interest_coverage": -2.3319357092942,
+ "cash_to_debt": 0.04450612244897959,
+ "ev": 13091066369.874744,
+ "ev_to_sales": 1.1004225118417963,
+ "ev_to_ebitda": 26.1090274628535,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.46303925,
+ "p_sales": 0.6084754,
  "p_fcf": null,
- "p_book": 0.49470584819712543
+ "p_book": 0.6406693191966035
 }

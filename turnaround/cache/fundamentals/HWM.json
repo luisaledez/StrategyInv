@@ -1,40 +1,44 @@
 {
  "ticker": "HWM",
- "fetched": "2026-10-24",
- "market_cap": 74141169548.54434,
- "shares_out": 398801399.0,
- "price": 185.91000366210938,
+ "fetched": "2026-11-10",
+ "market_cap": 87366008439.4365,
+ "shares_out": 397660490.0,
+ "price": 219.6999969482422,
  "long_name": "Howmet Aerospace Inc.",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
- "pe_trailing_y": 40.06681,
- "pe_forward": 28.585707,
+ "pe_trailing_y": 43.101963,
+ "pe_forward": 33.071552,
  "peg": 0.8,
- "p_sales_y": 8.13219,
- "eps_trailing_y": 4.64,
- "eps_forward": 6.5036,
- "earnings_growth_y": 0.33,
- "earnings_growth_q_y": 0.312,
- "bs_date": "2026-06-30",
- "cash": 563000000.0,
- "total_debt": 4664000000.0,
- "current_debt": 497000000.0,
- "lease_obligations": 163000000.0,
- "equity": 5732000000.0,
- "net_debt": 4101000000.0,
- "ocf_ttm": 2221000000.0,
- "capex_ttm": -430000000.0,
- "fcf_ttm": 1791000000.0,
+ "p_sales_y": 8.978112,
+ "eps_trailing_y": 5.1,
+ "eps_forward": 6.6468,
+ "earnings_growth_y": 0.495,
+ "earnings_growth_q_y": 0.473,
+ "bs_date": "2026-09-30",
+ "cash": 507000000.0,
+ "total_debt": 4621000000.0,
+ "current_debt": 437000000.0,
+ "lease_obligations": 178000000.0,
+ "equity": 5762000000.0,
+ "net_debt": 4114000000.0,
+ "ocf_ttm": 2399000000.0,
+ "capex_ttm": -469000000.0,
+ "fcf_ttm": 1930000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1055000000.0,
- "stock_issuance_ttm": -1000000000.0,
- "revenue_ttm": 9117000000.0,
- "net_income_ttm": 1871000000.0,
- "ebitda_ttm": 2753000000.0,
- "ebit_ttm": 2450000000.0,
- "interest_ttm": 168000000.0,
- "revenue_yoy_last_q": 0.2406234778373113,
+ "buybacks_ttm": -1355000000.0,
+ "stock_issuance_ttm": -1300000000.0,
+ "revenue_ttm": 9731000000.0,
+ "net_income_ttm": 2053000000.0,
+ "ebitda_ttm": 3011000000.0,
+ "ebit_ttm": 2687000000.0,
+ "interest_ttm": 179000000.0,
+ "revenue_yoy_last_q": 0.29392053614169455,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2703000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2547000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2089000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2053000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.42
+  },
   {
    "period": "2026-06-30",
    "value": 1.33
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.95
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.0
   }
  ],
- "eps_ttm": 4.64,
+ "eps_ttm": 5.109999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.32028469750889665,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.33000000000000007,
- "eps_forward_growth": 0.40163793103448286,
+ "eps_growth_last_q": 0.49473684210526314,
+ "eps_forward_growth": 0.30074363992172226,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3710691823899371
+  },
   {
    "period": "2026-06-30",
    "value": 0.37338044758539457
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3465773097175682
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.33511933755479784
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.009101555799242766,
+ "dilution_1y": -0.013258615384615369,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 497000000.0,
- "gap_24m": -66000000.0,
+ "need_24m": 437000000.0,
+ "gap_24m": -70000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.489647657101344,
- "interest_coverage": 14.583333333333334,
- "cash_to_debt": 0.12071183533447684,
- "ev": 78242169548.54434,
- "ev_to_sales": 8.582008286557457,
- "ev_to_ebitda": 28.420693624607463,
- "pe_ttm": 39.62649361226315,
- "pe_trailing": 40.06681,
- "p_sales": 8.13219,
- "p_fcf": 41.396521244301695,
- "p_book": 12.934607388092173
+ "net_debt_to_ebitda": 1.3663234805712388,
+ "interest_coverage": 15.011173184357542,
+ "cash_to_debt": 0.10971651157758061,
+ "ev": 91480008439.4365,
+ "ev_to_sales": 9.40088464078065,
+ "ev_to_ebitda": 30.381935715521916,
+ "pe_ttm": 42.55528905963784,
+ "pe_trailing": 43.101963,
+ "p_sales": 8.978112,
+ "p_fcf": 45.26736188571839,
+ "p_book": 15.162445060645
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "MIRM",
- "fetched": "2026-10-25",
- "market_cap": 5219899759.538528,
- "shares_out": 64932203.0,
- "price": 80.38999938964844,
+ "fetched": "2026-11-10",
+ "market_cap": 6020963137.267487,
+ "shares_out": 65282044.0,
+ "price": 92.2300033569336,
  "long_name": "Mirum Pharmaceuticals, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
  "pe_trailing_y": null,
- "pe_forward": -114.02837,
+ "pe_forward": 288.21878,
  "peg": null,
- "p_sales_y": 8.445524,
- "eps_trailing_y": -14.1,
- "eps_forward": -0.705,
+ "p_sales_y": 8.9760895,
+ "eps_trailing_y": -14.47,
+ "eps_forward": 0.32,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 438291000.0,
- "total_debt": 762949000.0,
- "current_debt": 2405000.0,
- "lease_obligations": 12870000.0,
- "equity": -10422000.0,
- "net_debt": 324658000.0,
- "ocf_ttm": -227267000.0,
- "capex_ttm": -36474000.0,
- "fcf_ttm": -263741000.0,
+ "bs_date": "2026-09-30",
+ "cash": 373687000.0,
+ "total_debt": 743562000.0,
+ "current_debt": 2595000.0,
+ "lease_obligations": 12312000.0,
+ "equity": -54186000.0,
+ "net_debt": 369875000.0,
+ "ocf_ttm": -271259000.0,
+ "capex_ttm": -37592000.0,
+ "fcf_ttm": -308851000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": 259948000.0,
- "revenue_ttm": 618067000.0,
- "net_income_ttm": -860207000.0,
- "ebitda_ttm": -818154000.0,
- "ebit_ttm": -844100000.0,
- "interest_ttm": 13438000.0,
- "revenue_yoy_last_q": 0.37921508784286106,
+ "revenue_ttm": 670778000.0,
+ "net_income_ttm": -903878000.0,
+ "ebitda_ttm": -862198000.0,
+ "ebit_ttm": -888971000.0,
+ "interest_ttm": 11438000.0,
+ "revenue_yoy_last_q": 0.39629351176603267,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 185721000.0
+  },
   {
    "period": "2026-06-30",
    "value": 176243000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 133010000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 127785000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.87
+  },
   {
    "period": "2026-06-30",
    "value": -1.06
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.05
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.12
   }
  ],
- "eps_ttm": -14.550412,
+ "eps_ttm": -15.470412,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": null,
+ "eps_growth_last_q": -18.4,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8106191545382591
+  },
   {
    "period": "2026-06-30",
    "value": 0.827805927043911
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.8080069167731749
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.8167155769456509
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.293583281700299,
- "fcf_burn_annual": 263741000.0,
- "runway_months": 19.94188237702898,
- "need_24m": 529887000.0,
- "gap_24m": 91596000.0,
+ "dilution_1y": 0.2707886803054189,
+ "fcf_burn_annual": 308851000.0,
+ "runway_months": 14.51911763277438,
+ "need_24m": 620297000.0,
+ "gap_24m": 246610000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": -0.39681771402449906,
- "interest_coverage": -62.81440690578955,
- "cash_to_debt": 0.574469591021156,
- "ev": 5544557759.538528,
- "ev_to_sales": 8.970803747067112,
+ "net_debt_to_ebitda": -0.42899078865875356,
+ "interest_coverage": -77.72084280468613,
+ "cash_to_debt": 0.5025633370182984,
+ "ev": 6390838137.267487,
+ "ev_to_sales": 9.52750110657697,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 8.445524,
+ "p_sales": 8.9760895,
  "p_fcf": null,
  "p_book": null
 }

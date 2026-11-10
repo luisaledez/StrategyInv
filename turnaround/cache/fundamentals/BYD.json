@@ -1,40 +1,44 @@
 {
  "ticker": "BYD",
- "fetched": "2026-10-24",
- "market_cap": 5208666807.041382,
- "shares_out": 72655414.0,
- "price": 71.69000244140625,
+ "fetched": "2026-11-10",
+ "market_cap": 5502086959.311356,
+ "shares_out": 70666413.0,
+ "price": 77.86000061035156,
  "long_name": "Boyd Gaming Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Resorts & Casinos",
- "pe_trailing_y": 10.527166,
- "pe_forward": 9.329837,
+ "pe_trailing_y": 11.433187,
+ "pe_forward": 10.157608,
  "peg": 3.03,
- "p_sales_y": 1.2753022,
+ "p_sales_y": 1.3471439,
  "eps_trailing_y": 6.81,
- "eps_forward": 7.68395,
+ "eps_forward": 7.66519,
  "earnings_growth_y": -0.904,
  "earnings_growth_q_y": -0.913,
- "bs_date": "2026-06-30",
- "cash": 322713000.0,
- "total_debt": 3258284000.0,
- "current_debt": 119544000.0,
- "lease_obligations": 644529000.0,
- "equity": 2500521000.0,
- "net_debt": 2935571000.0,
- "ocf_ttm": 626070000.0,
- "capex_ttm": -676006000.0,
- "fcf_ttm": -49936000.0,
+ "bs_date": "2026-09-30",
+ "cash": 297182000.0,
+ "total_debt": 3287295000.0,
+ "current_debt": 920956000.0,
+ "lease_obligations": 612189000.0,
+ "equity": 2449986000.0,
+ "net_debt": 2990113000.0,
+ "ocf_ttm": 588691000.0,
+ "capex_ttm": -689345000.0,
+ "fcf_ttm": -100654000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -656381000.0,
- "stock_issuance_ttm": -656381000.0,
- "revenue_ttm": 4098167000.0,
- "net_income_ttm": 1817172000.0,
- "ebitda_ttm": 2761078000.0,
- "ebit_ttm": 2410486000.0,
- "interest_ttm": 118510000.0,
- "revenue_yoy_last_q": 0.00037524250530474035,
+ "buybacks_ttm": -660319000.0,
+ "stock_issuance_ttm": -660319000.0,
+ "revenue_ttm": 4084261000.0,
+ "net_income_ttm": 502112000.0,
+ "ebitda_ttm": 1099372000.0,
+ "ebit_ttm": 731262000.0,
+ "interest_ttm": 119033000.0,
+ "revenue_yoy_last_q": -0.013845619254431396,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 990455000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1034386000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1004361000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1033998000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.71
+  },
   {
    "period": "2026-06-30",
    "value": 1.75
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 17.81
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.84
   }
  ],
- "eps_ttm": 22.72,
+ "eps_ttm": 6.62,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 2.6445880452342485,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.048913043478260865,
- "eps_forward_growth": -0.6617979753521126,
+ "eps_growth_last_q": -0.9039865244244807,
+ "eps_forward_growth": 0.1578836858006043,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4913691182335391
+  },
   {
    "period": "2026-06-30",
    "value": 0.5028674015309565
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.48606327804444815
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5097446996996126
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.09230088059739094,
- "fcf_burn_annual": 49936000.0,
- "runway_months": 77.55038449214995,
- "need_24m": 219416000.0,
- "gap_24m": -103297000.0,
- "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.0631974178201413,
- "interest_coverage": 20.339937558011982,
- "cash_to_debt": 0.09904385253096415,
- "ev": 8144237807.041382,
- "ev_to_sales": 1.9872879282472826,
- "ev_to_ebitda": 2.9496587228036955,
- "pe_ttm": 2.8663587195055733,
- "pe_trailing": 10.527166,
- "p_sales": 1.2753022,
+ "dilution_1y": -0.09429900183495865,
+ "fcf_burn_annual": 100654000.0,
+ "runway_months": 35.4301269696187,
+ "need_24m": 1122264000.0,
+ "gap_24m": 825082000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 2.7198373253093586,
+ "interest_coverage": 6.143355204019054,
+ "cash_to_debt": 0.09040320384997391,
+ "ev": 8492199959.311356,
+ "ev_to_sales": 2.0792500673466647,
+ "ev_to_ebitda": 7.724591820886247,
+ "pe_ttm": 10.957887800553175,
+ "pe_trailing": 11.433187,
+ "p_sales": 1.3471439,
  "p_fcf": null,
- "p_book": 2.083032618818791
+ "p_book": 2.2457626122399703
 }

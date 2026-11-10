@@ -1,40 +1,44 @@
 {
  "ticker": "SBAC",
- "fetched": "2026-10-24",
- "market_cap": 19599778322.5,
- "shares_out": 106088110.0,
- "price": 184.75,
+ "fetched": "2026-11-10",
+ "market_cap": 19877868343.527863,
+ "shares_out": 104427989.0,
+ "price": 190.35000610351562,
  "long_name": "SBA Communications Corporation",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Specialty",
- "pe_trailing_y": 19.92988,
- "pe_forward": 22.907343,
- "peg": 11.16,
- "p_sales_y": 6.827711,
- "eps_trailing_y": 9.27,
- "eps_forward": 8.0651,
- "earnings_growth_y": -0.105,
- "earnings_growth_q_y": -0.12,
- "bs_date": "2026-06-30",
- "cash": 355937000.0,
- "total_debt": 15209066000.0,
- "current_debt": 3885348000.0,
- "lease_obligations": 2479844000.0,
- "equity": -4629854000.0,
- "net_debt": 14853129000.0,
- "ocf_ttm": 1284318000.0,
- "capex_ttm": -233597000.0,
- "fcf_ttm": 1050721000.0,
+ "pe_trailing_y": 20.556156,
+ "pe_forward": 24.03303,
+ "peg": 11.55,
+ "p_sales_y": 6.969267,
+ "eps_trailing_y": 9.26,
+ "eps_forward": 7.92035,
+ "earnings_growth_y": -0.005,
+ "earnings_growth_q_y": -0.023,
+ "bs_date": "2026-09-30",
+ "cash": 443512000.0,
+ "total_debt": 15241512000.0,
+ "current_debt": 3851351000.0,
+ "lease_obligations": 2345571000.0,
+ "equity": -4834765000.0,
+ "net_debt": 14798000000.0,
+ "ocf_ttm": 1298132000.0,
+ "capex_ttm": -246325000.0,
+ "fcf_ttm": 1051807000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -497805000.0,
- "stock_issuance_ttm": -497805000.0,
- "revenue_ttm": 2870622000.0,
- "net_income_ttm": 990713000.0,
- "ebitda_ttm": 2012722000.0,
- "ebit_ttm": 1692761000.0,
- "interest_ttm": 502922000.0,
- "revenue_yoy_last_q": 0.02330964647107714,
+ "buybacks_ttm": -797838000.0,
+ "stock_issuance_ttm": -797838000.0,
+ "revenue_ttm": 2852219000.0,
+ "net_income_ttm": 985203000.0,
+ "ebitda_ttm": 1991893000.0,
+ "ebit_ttm": 1664383000.0,
+ "interest_ttm": 509041000.0,
+ "revenue_yoy_last_q": -0.02512948450623831,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 713924000.0
+  },
   {
    "period": "2026-06-30",
    "value": 715274000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 732327000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 698981000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.19
+  },
   {
    "period": "2026-06-30",
    "value": 1.87
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.2
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.09
   }
  ],
- "eps_ttm": 9.280000000000001,
+ "eps_ttm": 9.270000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.41210374639769465,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.10526315789473673,
- "eps_forward_growth": -0.13091594827586228,
+ "eps_growth_last_q": -0.00454545454545463,
+ "eps_forward_growth": -0.14559331175836043,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7597489368616267
+  },
   {
    "period": "2026-06-30",
    "value": 0.7539376518648797
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7408411816033001
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7537901602475604
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.01301552745913459,
+ "dilution_1y": -0.021971846815206142,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 3885348000.0,
- "gap_24m": 3529411000.0,
+ "need_24m": 3851351000.0,
+ "gap_24m": 3407839000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 7.37962271987885,
- "interest_coverage": 3.365851961139103,
- "cash_to_debt": 0.02340294926723311,
- "ev": 34452907322.5,
- "ev_to_sales": 12.001896217091627,
- "ev_to_ebitda": 17.11756880607456,
- "pe_ttm": 19.783507759058374,
- "pe_trailing": 19.92988,
- "p_sales": 6.827711,
- "p_fcf": 18.65364670783205,
+ "net_debt_to_ebitda": 7.429113913247348,
+ "interest_coverage": 3.269644291913618,
+ "cash_to_debt": 0.0290989502878717,
+ "ev": 34675868343.52786,
+ "ev_to_sales": 12.157505557437162,
+ "ev_to_ebitda": 17.408499524586844,
+ "pe_ttm": 20.176418812699374,
+ "pe_trailing": 20.556156,
+ "p_sales": 6.969267,
+ "p_fcf": 18.898779285104457,
  "p_book": null
 }

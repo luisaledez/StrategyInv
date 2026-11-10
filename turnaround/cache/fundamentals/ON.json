@@ -1,0 +1,154 @@
+{
+ "ticker": "ON",
+ "fetched": "2026-11-10",
+ "market_cap": 26669881172.991386,
+ "shares_out": 389284489.0,
+ "price": 68.51000213623047,
+ "long_name": "ON Semiconductor Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 40.064327,
+ "pe_forward": 14.466986,
+ "peg": 0.14,
+ "p_sales_y": 4.18732,
+ "eps_trailing_y": 1.71,
+ "eps_forward": 4.73561,
+ "earnings_growth_y": 0.261,
+ "earnings_growth_q_y": 0.231,
+ "bs_date": "2026-09-30",
+ "cash": 4367700000.0,
+ "total_debt": 4485900000.0,
+ "current_debt": 803400000.0,
+ "lease_obligations": 22900000.0,
+ "equity": 7561100000.0,
+ "net_debt": 118200000.0,
+ "ocf_ttm": 1769700000.0,
+ "capex_ttm": -153100000.0,
+ "fcf_ttm": 1616600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1160600000.0,
+ "stock_issuance_ttm": -1160600000.0,
+ "revenue_ttm": 6369200000.0,
+ "net_income_ttm": 689100000.0,
+ "ebitda_ttm": 1678200000.0,
+ "ebit_ttm": 900300000.0,
+ "interest_ttm": 57600000.0,
+ "revenue_yoy_last_q": 0.11051647430524203,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1722300000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1603500000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1513300000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1530100000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1550900000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.79
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.56
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.08
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.45
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.63
+  }
+ ],
+ "eps_ttm": 1.72,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.9201101928374655,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.25396825396825395,
+ "eps_forward_growth": 1.7532616279069768,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4139813040701388
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.3843467415029623
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.38531685719949776
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.36010718253708907
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.37861886646463344
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5995400000.0,
+   "eps": 0.29,
+   "net_income": 121000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 7082300000.0,
+   "eps": 3.63,
+   "net_income": 1572800000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 8253000000.0,
+   "eps": 4.89,
+   "net_income": 2183700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 8326200000.0,
+   "eps": 4.24,
+   "net_income": 1902200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03961897349476251,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 803400000.0,
+ "gap_24m": -3564300000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.07043260636396138,
+ "interest_coverage": 15.630208333333334,
+ "cash_to_debt": 0.9736507724202501,
+ "ev": 26788081172.991386,
+ "ev_to_sales": 4.205878473433302,
+ "ev_to_ebitda": 15.962388972107846,
+ "pe_ttm": 38.70248319981336,
+ "pe_trailing": 40.064327,
+ "p_sales": 4.18732,
+ "p_fcf": 16.49751402510911,
+ "p_book": 3.5272488358825287
+}

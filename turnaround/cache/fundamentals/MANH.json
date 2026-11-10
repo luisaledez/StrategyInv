@@ -1,40 +1,44 @@
 {
  "ticker": "MANH",
- "fetched": "2026-10-24",
- "market_cap": 13887661423.026123,
- "shares_out": 58304972.0,
- "price": 238.19000244140625,
+ "fetched": "2026-11-10",
+ "market_cap": 14615339776.836334,
+ "shares_out": 58061893.0,
+ "price": 251.72000122070312,
  "long_name": "Manhattan Associates, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 68.445404,
- "pe_forward": 38.890575,
+ "pe_trailing_y": 70.5098,
+ "pe_forward": 40.72836,
  "peg": 2.57,
- "p_sales_y": 12.331511,
- "eps_trailing_y": 3.48,
- "eps_forward": 6.12462,
- "earnings_growth_y": -0.086,
- "earnings_growth_q_y": -0.113,
- "bs_date": "2026-06-30",
- "cash": 186110000.0,
- "total_debt": 53882000.0,
+ "p_sales_y": 12.636633,
+ "eps_trailing_y": 3.57,
+ "eps_forward": 6.18046,
+ "earnings_growth_y": 0.083,
+ "earnings_growth_q_y": 0.046,
+ "bs_date": "2026-09-30",
+ "cash": 199449000.0,
+ "total_debt": 51744000.0,
  "current_debt": null,
- "lease_obligations": 53882000.0,
- "equity": 157507000.0,
- "net_debt": -132228000.0,
- "ocf_ttm": 414885000.0,
- "capex_ttm": -15694000.0,
- "fcf_ttm": 399191000.0,
+ "lease_obligations": 51744000.0,
+ "equity": 200743000.0,
+ "net_debt": -147705000.0,
+ "ocf_ttm": 390364000.0,
+ "capex_ttm": -10757000.0,
+ "fcf_ttm": 379607000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -435000000.0,
- "stock_issuance_ttm": -435000000.0,
- "revenue_ttm": 1126193000.0,
- "net_income_ttm": 210233000.0,
- "ebitda_ttm": 288928000.0,
- "ebit_ttm": 282271000.0,
+ "buybacks_ttm": -433904000.0,
+ "stock_issuance_ttm": -433904000.0,
+ "revenue_ttm": 1156585000.0,
+ "net_income_ttm": 212944000.0,
+ "ebitda_ttm": 294152000.0,
+ "ebit_ttm": 287438000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.09313892834987025,
+ "revenue_yoy_last_q": 0.11019779183814071,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 306187000.0
+  },
   {
    "period": "2026-06-30",
    "value": 297794000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 275795000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 272421000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.04
+  },
   {
    "period": "2026-06-30",
    "value": 0.85
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.96
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.93
   }
  ],
- "eps_ttm": 3.4899999999999998,
+ "eps_ttm": 3.57,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.025641025641025772,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.08602150537634412,
- "eps_forward_growth": 0.7549054441260747,
+ "eps_growth_last_q": 0.08333333333333348,
+ "eps_forward_growth": 0.7312212885154064,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5692501641153935
+  },
   {
    "period": "2026-06-30",
    "value": 0.5652598776335319
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5655758806359796
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5733992607031029
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.03585891083840631,
+ "dilution_1y": -0.036430428467714715,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -186110000.0,
+ "gap_24m": -199449000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.4576503488758445,
+ "net_debt_to_ebitda": -0.5021383502406919,
  "interest_coverage": null,
- "cash_to_debt": 3.454029174863591,
- "ev": 13755433423.026123,
- "ev_to_sales": 12.214099557559072,
- "ev_to_ebitda": 47.60851638825633,
- "pe_ttm": 66.05842766371656,
- "pe_trailing": 68.445404,
- "p_sales": 12.331511,
- "p_fcf": 34.78951535236547,
- "p_book": 88.1717093400682
+ "cash_to_debt": 3.8545338589981446,
+ "ev": 14467634776.836334,
+ "ev_to_sales": 12.508924788784512,
+ "ev_to_ebitda": 49.18421352510381,
+ "pe_ttm": 68.63466346474347,
+ "pe_trailing": 70.5098,
+ "p_sales": 12.636633,
+ "p_fcf": 38.50123885185556,
+ "p_book": 72.80622376290249
 }

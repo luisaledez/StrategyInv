@@ -1,18 +1,18 @@
 {
  "ticker": "SSNC",
- "fetched": "2026-10-25",
- "market_cap": 19466978253.326935,
+ "fetched": "2026-11-10",
+ "market_cap": 18237386575.564087,
  "shares_out": 234654996.0,
- "price": 82.95999908447266,
+ "price": 77.72000122070312,
  "long_name": "SS&C Technologies Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 23.90778,
- "pe_forward": 10.766796,
- "peg": 0.78,
- "p_sales_y": 2.9114723,
+ "pe_trailing_y": 22.397696,
+ "pe_forward": 10.050212,
+ "peg": 0.67,
+ "p_sales_y": 2.7275753,
  "eps_trailing_y": 3.47,
- "eps_forward": 7.70517,
+ "eps_forward": 7.73317,
  "earnings_growth_y": 0.0,
  "earnings_growth_q_y": -0.053,
  "bs_date": "2026-06-30",
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 0.83
+  },
+  {
    "period": "2026-06-30",
    "value": 0.97
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.83
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.72
   }
  ],
  "eps_ttm": 3.48,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.050000000000000044,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.3472222222222223,
- "eps_forward_growth": 1.2141293103448274,
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": 1.2221752873563219,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 3.2666725986564042,
  "interest_coverage": 3.500687442713107,
  "cash_to_debt": 0.05590629138647088,
- "ev": 26809478253.326935,
- "ev_to_sales": 4.0841336095740495,
- "ev_to_ebitda": 11.927516240302058,
- "pe_ttm": 22.53122483023951,
- "pe_trailing": 23.90778,
- "p_sales": 2.9114723,
- "p_fcf": 12.946912911231003,
- "p_book": 2.9314647933692135
+ "ev": 25579886575.564087,
+ "ev_to_sales": 3.8968186364980406,
+ "ev_to_ebitda": 11.380471849252164,
+ "pe_ttm": 21.108086314310285,
+ "pe_trailing": 22.397696,
+ "p_sales": 2.7275753,
+ "p_fcf": 12.129147762412934,
+ "p_book": 2.7463048437008277
 }

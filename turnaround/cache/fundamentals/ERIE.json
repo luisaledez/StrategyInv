@@ -1,40 +1,44 @@
 {
  "ticker": "ERIE",
- "fetched": "2026-10-24",
- "market_cap": 13256527558.766418,
+ "fetched": "2026-11-10",
+ "market_cap": 14145454516.886353,
  "shares_out": 52289868.0,
- "price": 253.52000427246094,
+ "price": 270.5199890136719,
  "long_name": "Erie Indemnity Company",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
- "pe_trailing_y": 22.984589,
- "pe_forward": 18.095646,
+ "pe_trailing_y": 24.570389,
+ "pe_forward": 20.294073,
  "peg": 2.67,
- "p_sales_y": 3.2180185,
- "eps_trailing_y": 11.03,
- "eps_forward": 14.01,
- "earnings_growth_y": 0.032,
- "earnings_growth_q_y": 0.032,
- "bs_date": "2026-06-30",
- "cash": 374921000.0,
+ "p_sales_y": 3.431158,
+ "eps_trailing_y": 11.01,
+ "eps_forward": 13.33,
+ "earnings_growth_y": -0.005,
+ "earnings_growth_q_y": -0.005,
+ "bs_date": "2026-09-30",
+ "cash": 383837000.0,
  "total_debt": null,
  "current_debt": null,
  "lease_obligations": null,
- "equity": 2467106000.0,
+ "equity": 2552710000.0,
  "net_debt": null,
  "ocf_ttm": null,
- "capex_ttm": -144694000.0,
- "fcf_ttm": 553083000.0,
+ "capex_ttm": -137735000.0,
+ "fcf_ttm": 554041000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 4185570000.0,
- "net_income_ttm": 577001000.0,
+ "revenue_ttm": 4168935000.0,
+ "net_income_ttm": 576137000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.016802249378310652,
+ "revenue_yoy_last_q": -0.012756148601654638,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1287442000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1314162000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1304077000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1292446000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.48
+  },
   {
    "period": "2026-06-30",
    "value": 3.45
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 3.5
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3.34
   }
  ],
- "eps_ttm": 11.04,
+ "eps_ttm": 11.02,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.068815331010453,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.03293413173652704,
- "eps_forward_growth": 0.2690217391304348,
+ "eps_growth_last_q": -0.005714285714285672,
+ "eps_forward_growth": 0.20961887477313979,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -117,17 +117,17 @@
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -374921000.0,
+ "gap_24m": -383837000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
  "cash_to_debt": null,
- "ev": 12881606558.766418,
- "ev_to_sales": 3.077623014013962,
+ "ev": 13761617516.886353,
+ "ev_to_sales": 3.3009911444736733,
  "ev_to_ebitda": null,
- "pe_ttm": 22.974877961678434,
- "pe_trailing": 22.984589,
- "p_sales": 3.2180185,
- "p_fcf": 23.968423471280836,
- "p_book": 5.373310898991133
+ "pe_ttm": 24.55224107614396,
+ "pe_trailing": 24.570389,
+ "p_sales": 3.431158,
+ "p_fcf": 25.531421892759475,
+ "p_book": 5.541348024995536
 }

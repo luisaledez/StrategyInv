@@ -1,40 +1,44 @@
 {
  "ticker": "VFC",
- "fetched": "2026-10-24",
- "market_cap": 6785502768.181362,
- "shares_out": 393134570.0,
- "price": 17.260000228881836,
+ "fetched": "2026-11-10",
+ "market_cap": 8219183284.204952,
+ "shares_out": 393639062.0,
+ "price": 20.8799991607666,
  "long_name": "V.F. Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Apparel Manufacturing",
- "pe_trailing_y": 25.014494,
- "pe_forward": 12.752596,
- "peg": 0.44,
- "p_sales_y": 0.71321833,
- "eps_trailing_y": 0.69,
- "eps_forward": 1.35345,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 670063000.0,
- "total_debt": 4953682000.0,
- "current_debt": 834459000.0,
- "lease_obligations": 1441202000.0,
- "equity": 1764617000.0,
- "net_debt": 4283619000.0,
- "ocf_ttm": 754238000.0,
- "capex_ttm": -173678000.0,
- "fcf_ttm": 580560000.0,
+ "pe_trailing_y": 22.69565,
+ "pe_forward": 14.877199,
+ "peg": 0.51,
+ "p_sales_y": 0.87379134,
+ "eps_trailing_y": 0.92,
+ "eps_forward": 1.40349,
+ "earnings_growth_y": 0.479,
+ "earnings_growth_q_y": 0.503,
+ "bs_date": "2026-09-30",
+ "cash": 442951000.0,
+ "total_debt": 5000814000.0,
+ "current_debt": 864736000.0,
+ "lease_obligations": 1462225000.0,
+ "equity": 2033285000.0,
+ "net_debt": 4557863000.0,
+ "ocf_ttm": 829712000.0,
+ "capex_ttm": -193833000.0,
+ "fcf_ttm": 635879000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -10239000.0,
- "stock_issuance_ttm": 121000.0,
- "revenue_ttm": 9513920000.0,
- "net_income_ttm": 274176000.0,
- "ebitda_ttm": 788423000.0,
- "ebit_ttm": 514470000.0,
- "interest_ttm": 153551000.0,
- "revenue_yoy_last_q": -0.051847993884132526,
+ "buybacks_ttm": -10067000.0,
+ "stock_issuance_ttm": -4151000.0,
+ "revenue_ttm": 9406346000.0,
+ "net_income_ttm": 369662000.0,
+ "ebitda_ttm": 837653000.0,
+ "ebit_ttm": 575145000.0,
+ "interest_ttm": 135576000.0,
+ "revenue_yoy_last_q": -0.03838219206723792,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2695132000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1669379000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2802706000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1760666000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.71
+  },
   {
    "period": "2026-06-30",
    "value": -0.25
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": -0.3
-  },
-  {
-   "period": "2025-03-31",
-   "value": -0.39
   }
  ],
- "eps_ttm": 0.69,
+ "eps_ttm": 1.7,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
- "eps_forward_growth": 0.9615217391304349,
+ "eps_forward_growth": -0.17441764705882357,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5538422607872268
+  },
   {
    "period": "2026-06-30",
    "value": 0.5493324164255091
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5217971488982434
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5390017186678223
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.006560063228113533,
+ "dilution_1y": 0.007309364616888914,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 834459000.0,
- "gap_24m": 164396000.0,
+ "need_24m": 864736000.0,
+ "gap_24m": 421785000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 5.433148195828889,
- "interest_coverage": 3.350482901446425,
- "cash_to_debt": 0.13526564684612374,
- "ev": 11069121768.181362,
- "ev_to_sales": 1.1634659286793836,
- "ev_to_ebitda": 14.03957237191376,
- "pe_ttm": 24.748711660325345,
- "pe_trailing": 25.014494,
- "p_sales": 0.71321833,
- "p_fcf": 11.687857875467415,
- "p_book": 3.8453119108460148
+ "net_debt_to_ebitda": 5.441230437902091,
+ "interest_coverage": 4.242233138608603,
+ "cash_to_debt": 0.0885757798630383,
+ "ev": 12777046284.204952,
+ "ev_to_sales": 1.3583432168245728,
+ "ev_to_ebitda": 15.253388078601702,
+ "pe_ttm": 22.23432022822187,
+ "pe_trailing": 22.69565,
+ "p_sales": 0.87379134,
+ "p_fcf": 12.92570329292987,
+ "p_book": 4.042317375185944
 }

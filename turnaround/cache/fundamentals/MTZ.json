@@ -1,40 +1,44 @@
 {
  "ticker": "MTZ",
- "fetched": "2026-10-24",
- "market_cap": 13736161600.471252,
+ "fetched": "2026-11-10",
+ "market_cap": 14621523162.028748,
  "shares_out": 80304948.0,
- "price": 171.0500030517578,
+ "price": 182.0749969482422,
  "long_name": "MasTec, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Engineering & Construction",
- "pe_trailing_y": 27.280703,
- "pe_forward": 13.839859,
- "peg": 0.52,
- "p_sales_y": 0.8526956,
- "eps_trailing_y": 6.27,
- "eps_forward": 12.35923,
- "earnings_growth_y": 0.514,
- "earnings_growth_q_y": 0.517,
- "bs_date": "2026-06-30",
- "cash": 315641000.0,
- "total_debt": 3235451000.0,
- "current_debt": 347563000.0,
- "lease_obligations": 495216000.0,
- "equity": 3476968000.0,
- "net_debt": 2919810000.0,
- "ocf_ttm": 582025000.0,
- "capex_ttm": -337221000.0,
- "fcf_ttm": 244804000.0,
+ "pe_trailing_y": 29.702282,
+ "pe_forward": 14.90295,
+ "peg": 0.54,
+ "p_sales_y": 0.8454439,
+ "eps_trailing_y": 6.13,
+ "eps_forward": 12.21738,
+ "earnings_growth_y": -0.074,
+ "earnings_growth_q_y": -0.063,
+ "bs_date": "2026-09-30",
+ "cash": 481816000.0,
+ "total_debt": 4704589000.0,
+ "current_debt": 381245000.0,
+ "lease_obligations": 536124000.0,
+ "equity": 4052194000.0,
+ "net_debt": 4222773000.0,
+ "ocf_ttm": 760512000.0,
+ "capex_ttm": -355878000.0,
+ "fcf_ttm": 404634000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 16109103000.0,
- "net_income_ttm": 494330000.0,
- "ebitda_ttm": 1312673000.0,
- "ebit_ttm": 851566000.0,
- "interest_ttm": 180719000.0,
- "revenue_yoy_last_q": 0.2338273565783331,
+ "revenue_ttm": 17294491000.0,
+ "net_income_ttm": 484236000.0,
+ "ebitda_ttm": 1402062000.0,
+ "ebit_ttm": 876456000.0,
+ "interest_ttm": 197073000.0,
+ "revenue_yoy_last_q": 0.29881611757955984,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5152336000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4373554000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3966948000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3544705000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.89
+  },
   {
    "period": "2026-06-30",
    "value": 1.65
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.04
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.09
   }
  ],
- "eps_ttm": 6.2700000000000005,
+ "eps_ttm": 6.120000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 1.4611650485436893,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.5137614678899081,
- "eps_forward_growth": 0.9711690590111641,
+ "eps_growth_last_q": -0.07352941176470595,
+ "eps_forward_growth": 0.9963039215686271,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.12826453864810058
+  },
   {
    "period": "2026-06-30",
    "value": 0.12719266756509695
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.13555736046955996
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1228711557097135
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.0022018404753112453,
+ "dilution_1y": 0.0013746696397693992,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 347563000.0,
- "gap_24m": 31922000.0,
- "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.224323955775734,
- "interest_coverage": 4.712100000553345,
- "cash_to_debt": 0.09755703300714491,
- "ev": 16655971600.471252,
- "ev_to_sales": 1.0339477996056796,
- "ev_to_ebitda": 12.688591599333003,
- "pe_ttm": 27.787432687620118,
- "pe_trailing": 27.280703,
- "p_sales": 0.8526956,
- "p_fcf": 56.11085439972898,
- "p_book": 3.9506149036951888
+ "need_24m": 381245000.0,
+ "gap_24m": -100571000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 3.0118304326056906,
+ "interest_coverage": 4.447367219253779,
+ "cash_to_debt": 0.10241404722070302,
+ "ev": 18844296162.028748,
+ "ev_to_sales": 1.0896126496020466,
+ "ev_to_ebitda": 13.440415731992413,
+ "pe_ttm": 30.195035400153536,
+ "pe_trailing": 29.702282,
+ "p_sales": 0.8454439,
+ "p_fcf": 36.13518182364494,
+ "p_book": 3.608297915161206
 }

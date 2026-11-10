@@ -1,40 +1,44 @@
 {
  "ticker": "VERX",
- "fetched": "2026-10-25",
- "market_cap": 2496534767.8931236,
- "shares_out": 162217980.0,
- "price": 15.390000343322754,
+ "fetched": "2026-11-10",
+ "market_cap": 2807232418.299511,
+ "shares_out": 162267777.0,
+ "price": 17.299999237060547,
  "long_name": "Vertex, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 1539.0001,
- "pe_forward": 15.062835,
+ "pe_trailing_y": null,
+ "pe_forward": 16.632696,
  "peg": null,
- "p_sales_y": 3.1704485,
- "eps_trailing_y": 0.01,
- "eps_forward": 1.02172,
+ "p_sales_y": 3.4717112,
+ "eps_trailing_y": -0.3,
+ "eps_forward": 1.04012,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 230489000.0,
- "total_debt": 349922000.0,
- "current_debt": 4503000.0,
- "lease_obligations": 11317000.0,
- "equity": 241107000.0,
- "net_debt": 119433000.0,
- "ocf_ttm": 173606000.0,
- "capex_ttm": -122962000.0,
- "fcf_ttm": 50644000.0,
+ "bs_date": "2026-09-30",
+ "cash": 217797000.0,
+ "total_debt": 349938000.0,
+ "current_debt": 4989000.0,
+ "lease_obligations": 10768000.0,
+ "equity": 180162000.0,
+ "net_debt": 132141000.0,
+ "ocf_ttm": 164433000.0,
+ "capex_ttm": -118744000.0,
+ "fcf_ttm": 45689000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -46602000.0,
- "stock_issuance_ttm": -46602000.0,
- "revenue_ttm": 787439000.0,
- "net_income_ttm": 3575000.0,
- "ebitda_ttm": 87745000.0,
- "ebit_ttm": -23778000.0,
+ "buybacks_ttm": -73662000.0,
+ "stock_issuance_ttm": -73662000.0,
+ "revenue_ttm": 808602000.0,
+ "net_income_ttm": -47103000.0,
+ "ebitda_ttm": 97124000.0,
+ "ebit_ttm": -20984000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.10517503887645696,
+ "revenue_yoy_last_q": 0.11015969850920304,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 213275000.0
+  },
   {
    "period": "2026-06-30",
    "value": 203970000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 192112000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 184559000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.29
+  },
   {
    "period": "2026-06-30",
    "value": 0.06
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.02
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.01
   }
  ],
- "eps_ttm": 0.019999999999999993,
+ "eps_ttm": -0.29,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": null,
- "eps_forward_growth": 50.08600000000001,
+ "eps_growth_last_q": -15.499999999999998,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.657409447895909
+  },
   {
    "period": "2026-06-30",
    "value": 0.6437221159974506
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6314857999500292
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6567005672982623
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.013624016612504564,
+ "dilution_1y": 0.01349464695510938,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 4503000.0,
- "gap_24m": -225986000.0,
+ "need_24m": 4989000.0,
+ "gap_24m": -212808000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.3611373867456835,
+ "net_debt_to_ebitda": 1.3605391046497262,
  "interest_coverage": null,
- "cash_to_debt": 0.6586867930567384,
- "ev": 2615967767.8931236,
- "ev_to_sales": 3.3221211648053037,
- "ev_to_ebitda": 29.81329725788505,
- "pe_ttm": 698.3314036064681,
- "pe_trailing": 1539.0001,
- "p_sales": 3.1704485,
- "p_fcf": 49.29576589315859,
- "p_book": 10.354468214913394
+ "cash_to_debt": 0.6223873943384257,
+ "ev": 2939373418.299511,
+ "ev_to_sales": 3.635130037149934,
+ "ev_to_ebitda": 30.26413057843078,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.4717112,
+ "p_fcf": 61.442194364059425,
+ "p_book": 15.581712116314822
 }

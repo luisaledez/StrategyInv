@@ -1,0 +1,154 @@
+{
+ "ticker": "GGG",
+ "fetched": "2026-11-10",
+ "market_cap": 11197391667.297394,
+ "shares_out": 160375132.0,
+ "price": 69.81999969482422,
+ "long_name": "Graco Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Industrial Machinery",
+ "pe_trailing_y": 22.522581,
+ "pe_forward": 20.185667,
+ "peg": 2.03,
+ "p_sales_y": 4.8468585,
+ "eps_trailing_y": 3.1,
+ "eps_forward": 3.45889,
+ "earnings_growth_y": -0.085,
+ "earnings_growth_q_y": -0.117,
+ "bs_date": "2026-09-30",
+ "cash": 139818000.0,
+ "total_debt": 164673000.0,
+ "current_debt": 39782000.0,
+ "lease_obligations": 30215000.0,
+ "equity": 2469855000.0,
+ "net_debt": 24855000.0,
+ "ocf_ttm": 659768000.0,
+ "capex_ttm": -59672000.0,
+ "fcf_ttm": 600096000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -525058000.0,
+ "stock_issuance_ttm": -465039000.0,
+ "revenue_ttm": 2310237000.0,
+ "net_income_ttm": 517480000.0,
+ "ebitda_ttm": 749582000.0,
+ "ebit_ttm": 640264000.0,
+ "interest_ttm": 3278000.0,
+ "revenue_yoy_last_q": 0.07918720254417888,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 586385000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 590552000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 540144000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 593156000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 543358000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.75
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.87
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.79
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.82
+  }
+ ],
+ "eps_ttm": 3.1100000000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.09219858156028371,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.08536585365853655,
+ "eps_forward_growth": 0.1121832797427651,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5051681062782983
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.5366910957883472
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5195670043543944
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5170562212976013
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5322917855263013
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2236604000.0,
+   "eps": 3.08,
+   "net_income": 521839000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2113316000.0,
+   "eps": 2.82,
+   "net_income": 486084000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2195606000.0,
+   "eps": 2.94,
+   "net_income": 506511000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2143521000.0,
+   "eps": 2.66,
+   "net_income": 460645000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.03261066270947188,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 39782000.0,
+ "gap_24m": -100036000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.03315848032636856,
+ "interest_coverage": 195.3215375228798,
+ "cash_to_debt": 0.849064509664608,
+ "ev": 11222246667.297394,
+ "ev_to_sales": 4.85761706149516,
+ "ev_to_ebitda": 14.971339582990778,
+ "pe_ttm": 21.638308083978885,
+ "pe_trailing": 22.522581,
+ "p_sales": 4.8468585,
+ "p_fcf": 18.659333952063328,
+ "p_book": 4.533623094188685
+}

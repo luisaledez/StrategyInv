@@ -1,40 +1,44 @@
 {
  "ticker": "INSM",
- "fetched": "2026-10-25",
- "market_cap": 20394648431.88051,
- "shares_out": 218381503.0,
- "price": 93.38999938964844,
+ "fetched": "2026-11-10",
+ "market_cap": 25804608846.125,
+ "shares_out": 219380309.0,
+ "price": 117.625,
  "long_name": "Insmed Incorporated",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
  "pe_trailing_y": null,
- "pe_forward": 117.456924,
+ "pe_forward": 178.7451,
  "peg": 1.09,
- "p_sales_y": 17.927235,
- "eps_trailing_y": -4.1,
- "eps_forward": 0.7951,
+ "p_sales_y": 16.979832,
+ "eps_trailing_y": -2.81,
+ "eps_forward": 0.65806,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 1160312000.0,
- "total_debt": 579881000.0,
- "current_debt": 9815000.0,
- "lease_obligations": 36368000.0,
- "equity": 757494000.0,
- "net_debt": -580431000.0,
- "ocf_ttm": -778923000.0,
- "capex_ttm": -28746000.0,
- "fcf_ttm": -807669000.0,
+ "bs_date": "2026-09-30",
+ "cash": 1146626000.0,
+ "total_debt": 584705000.0,
+ "current_debt": 11805000.0,
+ "lease_obligations": 39843000.0,
+ "equity": 726214000.0,
+ "net_debt": -561921000.0,
+ "ocf_ttm": -595622000.0,
+ "capex_ttm": -31953000.0,
+ "fcf_ttm": -627575000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1137635000.0,
- "net_income_ttm": -875311000.0,
- "ebitda_ttm": -773467000.0,
- "ebit_ttm": -793299000.0,
- "interest_ttm": 75807000.0,
- "revenue_yoy_last_q": 2.9611413675929805,
+ "revenue_ttm": 1519721000.0,
+ "net_income_ttm": -605609000.0,
+ "ebitda_ttm": -498129000.0,
+ "ebit_ttm": -522361000.0,
+ "interest_ttm": 75697000.0,
+ "revenue_yoy_last_q": 2.684281519158084,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 524428000.0
+  },
   {
    "period": "2026-06-30",
    "value": 425486000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 142342000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 107415000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.46
+  },
   {
    "period": "2026-06-30",
    "value": -0.06
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -1.75
-  },
-  {
-   "period": "2025-06-30",
-   "value": -1.7
   }
  ],
- "eps_ttm": -4.11,
+ "eps_ttm": -2.8200000000000003,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8508565522817241
+  },
   {
    "period": "2026-06-30",
    "value": 0.8420347555501239
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7937010861165362
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.738630545082158
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.03396513026831638,
- "fcf_burn_annual": 807669000.0,
- "runway_months": 17.239418623223127,
- "need_24m": 1625153000.0,
- "gap_24m": 464841000.0,
+ "dilution_1y": 0.03169327521297971,
+ "fcf_burn_annual": 627575000.0,
+ "runway_months": 21.92488865872605,
+ "need_24m": 1266955000.0,
+ "gap_24m": 120329000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 0.7504276200536028,
- "interest_coverage": -10.46471961692192,
- "cash_to_debt": 2.0009484704620433,
- "ev": 19814217431.88051,
- "ev_to_sales": 17.41702517229209,
+ "net_debt_to_ebitda": 1.1280632125413297,
+ "interest_coverage": -6.900682986115698,
+ "cash_to_debt": 1.96103334159961,
+ "ev": 25242687846.125,
+ "ev_to_sales": 16.610080301663924,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 17.927235,
+ "p_sales": 16.979832,
  "p_fcf": null,
- "p_book": 26.923841551062463
+ "p_book": 35.53306442195414
 }

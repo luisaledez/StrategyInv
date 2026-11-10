@@ -1,40 +1,44 @@
 {
  "ticker": "AMPH",
- "fetched": "2026-10-25",
- "market_cap": 1069403886.1968994,
- "shares_out": 42537944.0,
- "price": 25.139999389648438,
+ "fetched": "2026-11-10",
+ "market_cap": 1253007693.948103,
+ "shares_out": 42648323.0,
+ "price": 29.3799991607666,
  "long_name": "Amphastar Pharmaceuticals, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Drug Manufacturers - Specialty & Generic",
- "pe_trailing_y": 14.875739,
- "pe_forward": 7.9267235,
+ "pe_trailing_y": 13.477063,
+ "pe_forward": 8.835027,
  "peg": null,
- "p_sales_y": 1.4648987,
- "eps_trailing_y": 1.69,
- "eps_forward": 3.17155,
- "earnings_growth_y": 0.047,
- "earnings_growth_q_y": -0.022,
- "bs_date": "2026-06-30",
- "cash": 290123000.0,
- "total_debt": 688322000.0,
- "current_debt": 11288000.0,
- "lease_obligations": 76270000.0,
- "equity": 768157000.0,
- "net_debt": 398199000.0,
- "ocf_ttm": 184610000.0,
- "capex_ttm": -31718000.0,
- "fcf_ttm": 152892000.0,
+ "p_sales_y": 1.6801147,
+ "eps_trailing_y": 2.18,
+ "eps_forward": 3.3254,
+ "earnings_growth_y": 1.351,
+ "earnings_growth_q_y": 1.177,
+ "bs_date": "2026-09-30",
+ "cash": 230634000.0,
+ "total_debt": 691689000.0,
+ "current_debt": 11223000.0,
+ "lease_obligations": 78687000.0,
+ "equity": 814554000.0,
+ "net_debt": 461055000.0,
+ "ocf_ttm": 175327000.0,
+ "capex_ttm": -130811000.0,
+ "fcf_ttm": 44516000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -100071000.0,
- "stock_issuance_ttm": -100071000.0,
- "revenue_ttm": 730019000.0,
- "net_income_ttm": 78547000.0,
- "ebitda_ttm": 192856000.0,
- "ebit_ttm": 128149000.0,
- "interest_ttm": 26126000.0,
- "revenue_yoy_last_q": 0.05440503629295823,
+ "buybacks_ttm": -95659000.0,
+ "stock_issuance_ttm": -95659000.0,
+ "revenue_ttm": 745787000.0,
+ "net_income_ttm": 98960000.0,
+ "ebitda_ttm": 222857000.0,
+ "ebit_ttm": 156176000.0,
+ "interest_ttm": 26602000.0,
+ "revenue_yoy_last_q": 0.08219349457881564,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 207608000.0
+  },
   {
    "period": "2026-06-30",
    "value": 183903000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 191840000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 174414000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.87
+  },
   {
    "period": "2026-06-30",
    "value": 0.67
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.37
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.64
   }
  ],
- "eps_ttm": 1.69,
+ "eps_ttm": 2.1900000000000004,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.3366013071895425,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.046875,
- "eps_forward_growth": 0.8766568047337278,
+ "eps_growth_last_q": 1.3513513513513513,
+ "eps_forward_growth": 0.5184474885844748,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4798899849716774
+  },
   {
    "period": "2026-06-30",
    "value": 0.5082570703033664
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5142097581317765
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4958890914720149
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0851437330063799,
+ "dilution_1y": -0.07984100926057236,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 11288000.0,
- "gap_24m": -278835000.0,
+ "need_24m": 11223000.0,
+ "gap_24m": -219411000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.0647477910980214,
- "interest_coverage": 4.9050371277654445,
- "cash_to_debt": 0.4214931383858136,
- "ev": 1467602886.1968994,
- "ev_to_sales": 2.0103625880927747,
- "ev_to_ebitda": 7.609837838578522,
- "pe_ttm": 13.614827888995116,
- "pe_trailing": 14.875739,
- "p_sales": 1.4648987,
- "p_fcf": 6.994505181414982,
- "p_book": 1.3921683798974682
+ "net_debt_to_ebitda": 2.068837864639657,
+ "interest_coverage": 5.870836779189535,
+ "cash_to_debt": 0.3334359806213486,
+ "ev": 1714062693.948103,
+ "ev_to_sales": 2.2983273963586157,
+ "ev_to_ebitda": 7.691311890351674,
+ "pe_ttm": 12.661759235530548,
+ "pe_trailing": 13.477063,
+ "p_sales": 1.6801147,
+ "p_fcf": 28.1473558708802,
+ "p_book": 1.5382745575469556
 }

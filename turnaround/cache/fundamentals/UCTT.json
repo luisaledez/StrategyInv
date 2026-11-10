@@ -1,40 +1,44 @@
 {
  "ticker": "UCTT",
- "fetched": "2026-10-25",
- "market_cap": 2051954940.4625473,
- "shares_out": 45277029.0,
- "price": 45.31999969482422,
+ "fetched": "2026-11-10",
+ "market_cap": 2209764362.5156975,
+ "shares_out": 47960159.0,
+ "price": 46.07500076293945,
  "long_name": "Ultra Clean Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductor Equipment & Materials",
- "pe_trailing_y": null,
- "pe_forward": 7.2578077,
- "peg": 0.2,
- "p_sales_y": 0.93474627,
- "eps_trailing_y": -0.51,
- "eps_forward": 6.24431,
+ "pe_trailing_y": 79.43966,
+ "pe_forward": 7.1019773,
+ "peg": 0.18,
+ "p_sales_y": 0.9040479,
+ "eps_trailing_y": 0.58,
+ "eps_forward": 6.48763,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 255900000.0,
- "total_debt": 775900000.0,
- "current_debt": 21500000.0,
- "lease_obligations": 176500000.0,
- "equity": 639800000.0,
- "net_debt": 520000000.0,
- "ocf_ttm": -66200000.0,
- "capex_ttm": -46900000.0,
- "fcf_ttm": -113100000.0,
+ "bs_date": "2026-09-30",
+ "cash": 270900000.0,
+ "total_debt": 810100000.0,
+ "current_debt": 22300000.0,
+ "lease_obligations": 175000000.0,
+ "equity": 727500000.0,
+ "net_debt": 539200000.0,
+ "ocf_ttm": -108600000.0,
+ "capex_ttm": -55400000.0,
+ "fcf_ttm": -164000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -40000000.0,
- "stock_issuance_ttm": -37800000.0,
- "revenue_ttm": 2195300000.0,
- "net_income_ttm": -23400000.0,
- "ebitda_ttm": 140300000.0,
- "ebit_ttm": 63500000.0,
- "interest_ttm": 26700000.0,
- "revenue_yoy_last_q": 0.24306090979182726,
+ "buybacks_ttm": -40100000.0,
+ "stock_issuance_ttm": -3900000.0,
+ "revenue_ttm": 2444300000.0,
+ "net_income_ttm": 26600000.0,
+ "ebitda_ttm": 182800000.0,
+ "ebit_ttm": 105600000.0,
+ "interest_ttm": 18300000.0,
+ "revenue_yoy_last_q": 0.4882352941176471,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 759000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 644900000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 510000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 518800000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.85
+  },
   {
    "period": "2026-06-30",
    "value": 0.19
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.24
-  },
-  {
-   "period": "2025-06-30",
-   "value": -3.58
   }
  ],
- "eps_ttm": -0.52,
+ "eps_ttm": 0.5700000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -8.692307692307692,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": null,
- "eps_forward_growth": null,
+ "eps_forward_growth": 10.381807017543858,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1691699604743083
+  },
   {
    "period": "2026-06-30",
    "value": 0.16080012405024036
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.16117647058823528
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.15323824209714726
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.0037157868628803215,
- "fcf_burn_annual": 113100000.0,
- "runway_months": 27.151193633952253,
- "need_24m": 247700000.0,
- "gap_24m": -8200000.0,
- "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.706343549536707,
- "interest_coverage": 2.3782771535580522,
- "cash_to_debt": 0.3298105425956953,
- "ev": 2571954940.4625473,
- "ev_to_sales": 1.1715733341513903,
- "ev_to_ebitda": 18.33182423708159,
- "pe_ttm": null,
- "pe_trailing": null,
- "p_sales": 0.93474627,
+ "dilution_1y": 0.0066079295154184425,
+ "fcf_burn_annual": 164000000.0,
+ "runway_months": 19.821951219512197,
+ "need_24m": 350300000.0,
+ "gap_24m": 79400000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 2.949671772428884,
+ "interest_coverage": 5.770491803278689,
+ "cash_to_debt": 0.3344031601036909,
+ "ev": 2748964362.5156975,
+ "ev_to_sales": 1.1246427862847022,
+ "ev_to_ebitda": 15.038098263214975,
+ "pe_ttm": 83.07384821487585,
+ "pe_trailing": 79.43966,
+ "p_sales": 0.9040479,
  "p_fcf": null,
- "p_book": 3.2071818387973545
+ "p_book": 3.037476786963158
 }

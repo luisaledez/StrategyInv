@@ -1,40 +1,44 @@
 {
  "ticker": "MZTI",
- "fetched": "2026-10-24",
- "market_cap": 2978239363.413719,
- "shares_out": 27290749.0,
- "price": 109.12999725341797,
+ "fetched": "2026-11-10",
+ "market_cap": 2967471068.3135986,
+ "shares_out": 27242000.0,
+ "price": 108.93000030517578,
  "long_name": "The Marzetti Company",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
- "pe_trailing_y": 15.63467,
- "pe_forward": 15.102408,
+ "pe_trailing_y": 17.181387,
+ "pe_forward": 15.446682,
  "peg": 3.12,
- "p_sales_y": 1.5432707,
- "eps_trailing_y": 6.98,
- "eps_forward": 7.226,
- "earnings_growth_y": 0.495,
- "earnings_growth_q_y": 0.485,
- "bs_date": "2026-06-30",
- "cash": 25096000.0,
- "total_debt": 253781000.0,
- "current_debt": 21309000.0,
- "lease_obligations": 54505000.0,
- "equity": 1053150000.0,
- "net_debt": 228685000.0,
- "ocf_ttm": 302485000.0,
- "capex_ttm": -76337000.0,
- "fcf_ttm": 226148000.0,
+ "p_sales_y": 1.547272,
+ "eps_trailing_y": 6.34,
+ "eps_forward": 7.052,
+ "earnings_growth_y": -0.374,
+ "earnings_growth_q_y": -0.379,
+ "bs_date": "2026-09-30",
+ "cash": 17521000.0,
+ "total_debt": 230215000.0,
+ "current_debt": 10000000.0,
+ "lease_obligations": 33402000.0,
+ "equity": 1051627000.0,
+ "net_debt": 212694000.0,
+ "ocf_ttm": 265260000.0,
+ "capex_ttm": -79886000.0,
+ "fcf_ttm": 185374000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -41603000.0,
- "stock_issuance_ttm": -41603000.0,
- "revenue_ttm": 1911778000.0,
- "net_income_ttm": 176953000.0,
- "ebitda_ttm": 299196000.0,
- "ebit_ttm": 227347000.0,
+ "buybacks_ttm": -40958000.0,
+ "stock_issuance_ttm": -40958000.0,
+ "revenue_ttm": 1917873000.0,
+ "net_income_ttm": 173724000.0,
+ "ebitda_ttm": 300111000.0,
+ "ebit_ttm": 224903000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.015713050087804437,
+ "revenue_yoy_last_q": 0.012820054393208657,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 481522000.0
+  },
   {
    "period": "2026-06-30",
    "value": 465030000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-06-30",
    "value": 475427000.0
-  },
-  {
-   "period": "2025-03-31",
-   "value": 457836000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.07
+  },
   {
    "period": "2026-06-30",
    "value": 1.76
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": 1.18
-  },
-  {
-   "period": "2025-03-31",
-   "value": 1.49
   }
  ],
- "eps_ttm": 6.4399999999999995,
+ "eps_ttm": 6.33,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.1499176276771006,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.18120805369127524,
- "eps_forward_growth": 0.12204968944099392,
+ "eps_growth_last_q": -0.09322033898305071,
+ "eps_forward_growth": 0.11406003159557665,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.23004971735455493
+  },
   {
    "period": "2026-06-30",
    "value": 0.2451304216932241
@@ -100,10 +104,6 @@
   {
    "period": "2025-06-30",
    "value": 0.22315097796296804
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.23144095265553605
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.010079615563899136,
+ "dilution_1y": -0.010581725985041035,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 21309000.0,
- "gap_24m": -3787000.0,
+ "need_24m": 10000000.0,
+ "gap_24m": -7521000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.7643317424029733,
+ "net_debt_to_ebitda": 0.7087177744234633,
  "interest_coverage": null,
- "cash_to_debt": 0.09888841166202356,
- "ev": 3206924363.413719,
- "ev_to_sales": 1.6774564637806897,
- "ev_to_ebitda": 10.718473386722145,
- "pe_ttm": 16.830680256416784,
- "pe_trailing": 15.63467,
- "p_sales": 1.5432707,
- "p_fcf": 13.169426054679764,
- "p_book": 2.827934637434097
+ "cash_to_debt": 0.07610711725995266,
+ "ev": 3180165068.3135986,
+ "ev_to_sales": 1.6581729177654614,
+ "ev_to_ebitda": 10.596629474806317,
+ "pe_ttm": 17.081526261849824,
+ "pe_trailing": 17.181387,
+ "p_sales": 1.547272,
+ "p_fcf": 16.008021989672763,
+ "p_book": 2.821790490652673
 }

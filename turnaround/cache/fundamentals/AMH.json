@@ -1,40 +1,44 @@
 {
  "ticker": "AMH",
- "fetched": "2026-10-24",
- "market_cap": 11485295433.931707,
- "shares_out": 359815019.0,
- "price": 31.920000076293945,
+ "fetched": "2026-11-10",
+ "market_cap": 11761618386.19558,
+ "shares_out": 357495983.0,
+ "price": 32.900001525878906,
  "long_name": "American Homes 4 Rent",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Residential",
- "pe_trailing_y": 25.333334,
- "pe_forward": 47.58994,
+ "pe_trailing_y": 26.967215,
+ "pe_forward": 48.814507,
  "peg": null,
- "p_sales_y": 6.976854,
- "eps_trailing_y": 1.26,
- "eps_forward": 0.67073,
- "earnings_growth_y": 0.106,
- "earnings_growth_q_y": 0.074,
- "bs_date": "2026-06-30",
- "cash": 83670000.0,
- "total_debt": 5149176000.0,
- "current_debt": 390000000.0,
- "lease_obligations": 19059000.0,
- "equity": 6807579000.0,
- "net_debt": 5065506000.0,
- "ocf_ttm": 864755000.0,
- "capex_ttm": -105761000.0,
- "fcf_ttm": 758994000.0,
+ "p_sales_y": 7.076405,
+ "eps_trailing_y": 1.22,
+ "eps_forward": 0.67398,
+ "earnings_growth_y": -0.149,
+ "earnings_growth_q_y": -0.168,
+ "bs_date": "2026-09-30",
+ "cash": 70994000.0,
+ "total_debt": 5180380000.0,
+ "current_debt": 420000000.0,
+ "lease_obligations": 18072000.0,
+ "equity": 6702604000.0,
+ "net_debt": 5109386000.0,
+ "ocf_ttm": 879901000.0,
+ "capex_ttm": -105777000.0,
+ "fcf_ttm": 774124000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -238179000.0,
- "stock_issuance_ttm": -388272000.0,
- "revenue_ttm": 1875583000.0,
- "net_income_ttm": 478843000.0,
- "ebitda_ttm": 1241460000.0,
- "ebit_ttm": 734036000.0,
- "interest_ttm": 191218000.0,
- "revenue_yoy_last_q": 0.027542988789144518,
+ "buybacks_ttm": -313229000.0,
+ "stock_issuance_ttm": -463322000.0,
+ "revenue_ttm": 1895189000.0,
+ "net_income_ttm": 461461000.0,
+ "ebitda_ttm": 1225123000.0,
+ "ebit_ttm": 716763000.0,
+ "interest_ttm": 193442000.0,
+ "revenue_yoy_last_q": 0.04097695960406633,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 498070000.0
+  },
   {
    "period": "2026-06-30",
    "value": 470104000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 478464000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 457503000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.23
+  },
   {
    "period": "2026-06-30",
    "value": 0.31
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.27
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.28
   }
  ],
- "eps_ttm": 1.26,
+ "eps_ttm": 1.22,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.09259259259259256,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.10714285714285698,
- "eps_forward_growth": -0.4676746031746032,
+ "eps_growth_last_q": -0.14814814814814814,
+ "eps_forward_growth": -0.4475573770491803,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5572489810669183
+  },
   {
    "period": "2026-06-30",
    "value": 0.5835240712693361
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5506704788657036
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5748639899629073
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02988057716353043,
+ "dilution_1y": -0.03666744402414468,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 390000000.0,
- "gap_24m": 306330000.0,
+ "need_24m": 420000000.0,
+ "gap_24m": 349006000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.0802812817166885,
- "interest_coverage": 3.8387390308443767,
- "cash_to_debt": 0.016249201814037818,
- "ev": 16550801433.931707,
- "ev_to_sales": 8.824350313439451,
- "ev_to_ebitda": 13.331723481974214,
- "pe_ttm": 23.985513903161802,
- "pe_trailing": 25.333334,
- "p_sales": 6.976854,
- "p_fcf": 15.13226116930003,
- "p_book": 1.6871336247338014
+ "net_debt_to_ebitda": 4.170508593830987,
+ "interest_coverage": 3.705312186598567,
+ "cash_to_debt": 0.013704400063315818,
+ "ev": 16871004386.19558,
+ "ev_to_sales": 8.902016836418731,
+ "ev_to_ebitda": 13.770865771188346,
+ "pe_ttm": 25.48778420320586,
+ "pe_trailing": 26.967215,
+ "p_sales": 7.076405,
+ "p_fcf": 15.193455294236555,
+ "p_book": 1.7547834224124803
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "TRIP",
- "fetched": "2026-10-25",
- "market_cap": 1102845790.3367996,
- "shares_out": 117199342.0,
- "price": 9.40999984741211,
+ "fetched": "2026-11-10",
+ "market_cap": 838924331.8758326,
+ "shares_out": 117826453.0,
+ "price": 7.119999885559082,
  "long_name": "Tripadvisor, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Travel Services",
- "pe_trailing_y": 94.1,
- "pe_forward": 8.79875,
- "peg": 1.24,
- "p_sales_y": 0.5982726,
- "eps_trailing_y": 0.1,
- "eps_forward": 1.06947,
- "earnings_growth_y": -0.321,
- "earnings_growth_q_y": -0.378,
- "bs_date": "2026-06-30",
- "cash": 843200000.0,
- "total_debt": 893900000.0,
- "current_debt": 21000000.0,
- "lease_obligations": 69500000.0,
- "equity": 662500000.0,
- "net_debt": 50700000.0,
- "ocf_ttm": 203000000.0,
- "capex_ttm": -70200000.0,
- "fcf_ttm": 132800000.0,
+ "pe_trailing_y": null,
+ "pe_forward": 8.281573,
+ "peg": 0.92,
+ "p_sales_y": 0.4724205,
+ "eps_trailing_y": -3.08,
+ "eps_forward": 0.85974,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 706800000.0,
+ "total_debt": 889000000.0,
+ "current_debt": 20900000.0,
+ "lease_obligations": 66100000.0,
+ "equity": 366300000.0,
+ "net_debt": 182200000.0,
+ "ocf_ttm": 31100000.0,
+ "capex_ttm": -50800000.0,
+ "fcf_ttm": -19700000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1788300000.0,
- "net_income_ttm": 5000000.0,
- "ebitda_ttm": 179200000.0,
- "ebit_ttm": 78200000.0,
- "interest_ttm": 63700000.0,
- "revenue_yoy_last_q": -0.07163865546218484,
+ "revenue_ttm": 1671700000.0,
+ "net_income_ttm": -361100000.0,
+ "ebitda_ttm": -245900000.0,
+ "ebit_ttm": -332600000.0,
+ "interest_ttm": 62000000.0,
+ "revenue_yoy_last_q": -0.11083944580277094,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 436400000.0
+  },
   {
    "period": "2026-06-30",
    "value": 441900000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 553000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 476000000.0
+   "value": 490800000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -2.66
+  },
   {
    "period": "2026-06-30",
    "value": 0.19
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.43
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.28
   }
  ],
- "eps_ttm": 0.009999999999999953,
+ "eps_ttm": -3.08,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 6.75,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.3214285714285715,
- "eps_forward_growth": 105.94700000000049,
+ "eps_growth_last_q": -7.186046511627907,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9145279560036663
+  },
   {
    "period": "2026-06-30",
    "value": 0.9298483819868748
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.9258589511754068
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9233193277310925
+   "value": 0.9262428687856561
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.009118756981189469,
- "fcf_burn_annual": 0.0,
- "runway_months": Infinity,
- "need_24m": 21000000.0,
- "gap_24m": -822200000.0,
+ "dilution_1y": 0.002615609859920598,
+ "fcf_burn_annual": 19700000.0,
+ "runway_months": 430.5380710659898,
+ "need_24m": 60300000.0,
+ "gap_24m": -646500000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.28292410714285715,
- "interest_coverage": 1.227629513343799,
- "cash_to_debt": 0.9432822463362792,
- "ev": 1153545790.3367996,
- "ev_to_sales": 0.6450516078604259,
- "ev_to_ebitda": 6.437197490718748,
- "pe_ttm": 220.56915806735992,
- "pe_trailing": 94.1,
- "p_sales": 0.5982726,
- "p_fcf": 8.304561674222889,
- "p_book": 1.6646728910744146
+ "net_debt_to_ebitda": -0.7409516063440423,
+ "interest_coverage": -5.364516129032258,
+ "cash_to_debt": 0.7950506186726659,
+ "ev": 1021124331.8758326,
+ "ev_to_sales": 0.6108298928490953,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.4724205,
+ "p_fcf": null,
+ "p_book": 2.290265716286739
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "MSTR",
- "fetched": "2026-10-25",
- "market_cap": 61845782771.808105,
- "shares_out": 423572256.0,
- "price": 146.00999450683594,
+ "fetched": "2026-11-10",
+ "market_cap": 53159939994.26633,
+ "shares_out": 423281643.0,
+ "price": 125.58999633789062,
  "long_name": "Strategy Inc",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
  "pe_trailing_y": null,
- "pe_forward": 2.9502928,
+ "pe_forward": 7.2848024,
  "peg": 2.85,
- "p_sales_y": 124.101845,
- "eps_trailing_y": -99.08,
- "eps_forward": 49.49,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 2447982000.0,
- "total_debt": 6770777000.0,
- "current_debt": 39814000.0,
- "lease_obligations": 60849000.0,
- "equity": 45326983000.0,
- "net_debt": 4322795000.0,
- "ocf_ttm": -20089000.0,
- "capex_ttm": -21729416000.0,
- "fcf_ttm": -21749505000.0,
+ "p_sales_y": 107.37581,
+ "eps_trailing_y": -52.33,
+ "eps_forward": 17.24,
+ "earnings_growth_y": 4.315,
+ "earnings_growth_q_y": 6.014,
+ "bs_date": "2026-09-30",
+ "cash": 5905913000.0,
+ "total_debt": 6776227000.0,
+ "current_debt": 1045669000.0,
+ "lease_obligations": 60813000.0,
+ "equity": 68497476000.0,
+ "net_debt": 870314000.0,
+ "ocf_ttm": -7362000.0,
+ "capex_ttm": -17358094000.0,
+ "fcf_ttm": -17365456000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 14853592000.0,
- "revenue_ttm": 498347000.0,
- "net_income_ttm": -30413926000.0,
- "ebitda_ttm": -21745782000.0,
- "ebit_ttm": -21776746000.0,
- "interest_ttm": 63563000.0,
- "revenue_yoy_last_q": 0.06882817413178666,
+ "stock_issuance_ttm": 18064479000.0,
+ "revenue_ttm": 495083000.0,
+ "net_income_ttm": -13665978000.0,
+ "ebitda_ttm": -4671200000.0,
+ "ebit_ttm": -4709209000.0,
+ "interest_ttm": 61087000.0,
+ "revenue_yoy_last_q": -0.025363079003193678,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 125427000.0
+  },
   {
    "period": "2026-06-30",
    "value": 122368000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 128691000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 114488000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 44.75
+  },
   {
    "period": "2026-06-30",
    "value": -24.45
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 8.42
-  },
-  {
-   "period": "2025-06-30",
-   "value": 32.6
   }
  ],
- "eps_ttm": -97.21,
+ "eps_ttm": -60.879999999999995,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": -1.75,
+ "eps_growth_last_q": 4.314726840855107,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7146308211150709
+  },
   {
    "period": "2026-06-30",
    "value": 0.6664324006276151
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7046180385574748
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6877401998462721
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.3226264008421085,
- "fcf_burn_annual": 21749505000.0,
- "runway_months": 1.3506414973582157,
- "need_24m": 43538824000.0,
- "gap_24m": 41090842000.0,
+ "dilution_1y": 0.46974976123675205,
+ "fcf_burn_annual": 17365456000.0,
+ "runway_months": 4.081145695223897,
+ "need_24m": 35776581000.0,
+ "gap_24m": 29870668000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": -0.19878774651562311,
- "interest_coverage": -342.6009785567075,
- "cash_to_debt": 0.3615511188745398,
- "ev": 66168577771.808105,
- "ev_to_sales": 132.77611337443207,
+ "net_debt_to_ebitda": -0.1863148655591711,
+ "interest_coverage": -77.09019922405749,
+ "cash_to_debt": 0.8715636297308221,
+ "ev": 54030253994.26633,
+ "ev_to_sales": 109.13372908030841,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 124.101845,
+ "p_sales": 107.37581,
  "p_fcf": null,
- "p_book": 1.3644363396480217
+ "p_book": 0.7760861143885992
 }

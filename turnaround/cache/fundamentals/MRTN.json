@@ -1,0 +1,154 @@
+{
+ "ticker": "MRTN",
+ "fetched": "2026-11-10",
+ "market_cap": 988922811.5899999,
+ "shares_out": 81661669.0,
+ "price": 12.11,
+ "long_name": "Marten Transport, Ltd.",
+ "sector_y": "Industrials",
+ "industry_y": "Trucking",
+ "pe_trailing_y": 75.6875,
+ "pe_forward": 23.438559,
+ "peg": 1.83,
+ "p_sales_y": 1.149365,
+ "eps_trailing_y": 0.16,
+ "eps_forward": 0.51667,
+ "earnings_growth_y": 0.305,
+ "earnings_growth_q_y": 0.307,
+ "bs_date": "2026-09-30",
+ "cash": 91503000.0,
+ "total_debt": 82000.0,
+ "current_debt": null,
+ "lease_obligations": 82000.0,
+ "equity": 764164000.0,
+ "net_debt": -91421000.0,
+ "ocf_ttm": 88867000.0,
+ "capex_ttm": -85476000.0,
+ "fcf_ttm": 3391000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 860408000.0,
+ "net_income_ttm": 13327000.0,
+ "ebitda_ttm": 106111000.0,
+ "ebit_ttm": 6717000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.012523245793078397,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 223231000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 223543000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 203526000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 210108000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 220470000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.04
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.07
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.02
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.05
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.03
+  }
+ ],
+ "eps_ttm": 0.18,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.36363636363636365,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.3333333333333335,
+ "eps_forward_growth": 1.8703888888888889,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.10278590339155404
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.11782520588879991
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11741988738539548
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13275553524853884
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.11183380958860616
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 883652000.0,
+   "eps": 0.21,
+   "net_income": 17444000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 963708000.0,
+   "eps": 0.33,
+   "net_income": 26922000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 1131455000.0,
+   "eps": 0.86,
+   "net_income": 70373000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1263878000.0,
+   "eps": 1.35,
+   "net_income": 110354000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0017326332846354653,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -91503000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.8615600644608005,
+ "interest_coverage": null,
+ "cash_to_debt": 1115.8902439024391,
+ "ev": 897501811.5899999,
+ "ev_to_sales": 1.0431118859773503,
+ "ev_to_ebitda": 8.458141112514253,
+ "pe_ttm": 74.20445798679373,
+ "pe_trailing": 75.6875,
+ "p_sales": 1.149365,
+ "p_fcf": 291.63161651135357,
+ "p_book": 1.2941237896446312
+}

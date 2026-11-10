@@ -1,40 +1,44 @@
 {
  "ticker": "MKTX",
- "fetched": "2026-10-25",
- "market_cap": 5795922365.542007,
- "shares_out": 35197197.0,
- "price": 164.6699981689453,
+ "fetched": "2026-11-10",
+ "market_cap": 5832358442.788315,
+ "shares_out": 35204675.0,
+ "price": 165.6699981689453,
  "long_name": "MarketAxess Holdings Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Capital Markets",
- "pe_trailing_y": 20.204908,
- "pe_forward": 18.92378,
- "peg": 1.23,
- "p_sales_y": 6.6496663,
- "eps_trailing_y": 8.15,
- "eps_forward": 8.70175,
+ "pe_trailing_y": 20.302696,
+ "pe_forward": 19.070564,
+ "peg": 1.68,
+ "p_sales_y": 6.691469,
+ "eps_trailing_y": 8.16,
+ "eps_forward": 8.68721,
  "earnings_growth_y": -0.169,
  "earnings_growth_q_y": -0.21,
- "bs_date": "2026-06-30",
- "cash": 245794000.0,
- "total_debt": 178913000.0,
+ "bs_date": "2026-09-30",
+ "cash": 381054000.0,
+ "total_debt": 153089000.0,
  "current_debt": null,
- "lease_obligations": 62999000.0,
- "equity": 1238916000.0,
- "net_debt": -66881000.0,
- "ocf_ttm": 200279000.0,
- "capex_ttm": -57694000.0,
- "fcf_ttm": 142585000.0,
+ "lease_obligations": 61089000.0,
+ "equity": 1274943000.0,
+ "net_debt": -227965000.0,
+ "ocf_ttm": 357442000.0,
+ "capex_ttm": -56441000.0,
+ "fcf_ttm": 301001000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -345251000.0,
- "stock_issuance_ttm": -345251000.0,
- "revenue_ttm": 870025000.0,
- "net_income_ttm": 306400000.0,
- "ebitda_ttm": 458547000.0,
- "ebit_ttm": 372957000.0,
- "interest_ttm": 5885000.0,
- "revenue_yoy_last_q": -0.004770757579899976,
+ "buybacks_ttm": -300000000.0,
+ "stock_issuance_ttm": -300000000.0,
+ "revenue_ttm": 871611000.0,
+ "net_income_ttm": 292082000.0,
+ "ebitda_ttm": 440518000.0,
+ "ebit_ttm": 355421000.0,
+ "interest_ttm": 7163000.0,
+ "revenue_yoy_last_q": 0.007595021573500782,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 210407000.0
+  },
   {
    "period": "2026-06-30",
    "value": 218415000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 208821000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 219462000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.53
+  },
   {
    "period": "2026-06-30",
    "value": 1.93
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.84
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.91
   }
  ],
- "eps_ttm": 8.48,
+ "eps_ttm": 8.17,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.08791208791208793,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.010471204188481575,
- "eps_forward_growth": 0.02614976415094339,
+ "eps_growth_last_q": -0.1684782608695652,
+ "eps_forward_growth": 0.0633059975520196,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5735835784931109
+  },
   {
    "period": "2026-06-30",
    "value": 0.5968729253943181
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5982635846011656
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5939843799837785
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.06334284424772885,
+ "dilution_1y": -0.05255334461979311,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -245794000.0,
+ "gap_24m": -381054000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.14585418724798113,
- "interest_coverage": 63.37417162276975,
- "cash_to_debt": 1.3738185598587023,
- "ev": 5729041365.542007,
- "ev_to_sales": 6.584915796146096,
- "ev_to_ebitda": 12.493902185690905,
- "pe_ttm": 18.916195709993495,
- "pe_trailing": 20.204908,
- "p_sales": 6.6496663,
- "p_fcf": 40.64889269938638,
- "p_book": 4.6782206102286255
+ "net_debt_to_ebitda": -0.5174930422820407,
+ "interest_coverage": 49.61901437944995,
+ "cash_to_debt": 2.489101111118369,
+ "ev": 5604393442.788315,
+ "ev_to_sales": 6.429925095929623,
+ "ev_to_ebitda": 12.72228023097425,
+ "pe_ttm": 19.96822276890844,
+ "pe_trailing": 20.302696,
+ "p_sales": 6.691469,
+ "p_fcf": 19.376541748327462,
+ "p_book": 4.574603290334011
 }

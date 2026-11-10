@@ -1,0 +1,154 @@
+{
+ "ticker": "BWA",
+ "fetched": "2026-11-10",
+ "market_cap": 10183280798.749237,
+ "shares_out": 200814060.0,
+ "price": 50.709999084472656,
+ "long_name": "BorgWarner Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 21.48729,
+ "pe_forward": 8.610882,
+ "peg": 0.23,
+ "p_sales_y": 0.71511805,
+ "eps_trailing_y": 2.36,
+ "eps_forward": 5.88906,
+ "earnings_growth_y": 0.479,
+ "earnings_growth_q_y": 0.399,
+ "bs_date": "2026-09-30",
+ "cash": 1583000000.0,
+ "total_debt": 3199000000.0,
+ "current_debt": 1139000000.0,
+ "lease_obligations": 192000000.0,
+ "equity": 5671000000.0,
+ "net_debt": 1616000000.0,
+ "ocf_ttm": 1677000000.0,
+ "capex_ttm": -497000000.0,
+ "fcf_ttm": 1180000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -723000000.0,
+ "stock_issuance_ttm": -723000000.0,
+ "revenue_ttm": 14240000000.0,
+ "net_income_ttm": 478000000.0,
+ "ebitda_ttm": 1307000000.0,
+ "ebit_ttm": 847000000.0,
+ "interest_ttm": 89000000.0,
+ "revenue_yoy_last_q": -0.028961292119186854,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3487000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 3648000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3533000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 3572000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 3591000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.08
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1.34
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": -1.26535
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.73
+  }
+ ],
+ "eps_ttm": 2.3146500000000003,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.1466666666666666,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.4794520547945207,
+ "eps_forward_growth": 1.5442550709610519,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1898480068827072
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.19764254385964913
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.19162185111803
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20464725643896978
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.18490671122250069
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 14316000000.0,
+   "eps": 1.28,
+   "net_income": 277000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 14086000000.0,
+   "eps": 1.5,
+   "net_income": 338000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14198000000.0,
+   "eps": 2.67,
+   "net_income": 625000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 12635000000.0,
+   "eps": 3.99,
+   "net_income": 944000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.05310563722188821,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1139000000.0,
+ "gap_24m": -444000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2364192807957153,
+ "interest_coverage": 9.51685393258427,
+ "cash_to_debt": 0.49484213816817757,
+ "ev": 11799280798.749237,
+ "ev_to_sales": 0.8286011796874464,
+ "ev_to_ebitda": 9.027758836074398,
+ "pe_ttm": 21.303934725416813,
+ "pe_trailing": 21.48729,
+ "p_sales": 0.71511805,
+ "p_fcf": 8.629898981990879,
+ "p_book": 1.795676388423424
+}

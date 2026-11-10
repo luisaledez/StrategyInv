@@ -1,40 +1,44 @@
 {
  "ticker": "PEGA",
- "fetched": "2026-10-24",
- "market_cap": 5960626009.223099,
+ "fetched": "2026-11-10",
+ "market_cap": 5094846018.498087,
  "shares_out": 163663545.0,
- "price": 36.41999816894531,
+ "price": 31.1299991607666,
  "long_name": "Pegasystems Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 22.48148,
- "pe_forward": 15.341454,
+ "pe_trailing_y": 19.21605,
+ "pe_forward": 13.113111,
  "peg": 2.99,
- "p_sales_y": 3.4092572,
+ "p_sales_y": 2.9140632,
  "eps_trailing_y": 1.62,
  "eps_forward": 2.37396,
  "earnings_growth_y": -0.667,
  "earnings_growth_q_y": -0.675,
- "bs_date": "2026-06-30",
- "cash": 361907000.0,
- "total_debt": 72016000.0,
- "current_debt": 15020000.0,
- "lease_obligations": 72016000.0,
- "equity": 560384000.0,
- "net_debt": -289891000.0,
- "ocf_ttm": 512956000.0,
- "capex_ttm": -20456000.0,
- "fcf_ttm": 492500000.0,
+ "bs_date": "2026-09-30",
+ "cash": 309711000.0,
+ "total_debt": 69025000.0,
+ "current_debt": 14382000.0,
+ "lease_obligations": 69025000.0,
+ "equity": 549061000.0,
+ "net_debt": -240686000.0,
+ "ocf_ttm": 462730000.0,
+ "capex_ttm": -20493000.0,
+ "fcf_ttm": 442237000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -629544000.0,
- "stock_issuance_ttm": -629544000.0,
- "revenue_ttm": 1736356000.0,
- "net_income_ttm": 324036000.0,
- "ebitda_ttm": 214112000.0,
- "ebit_ttm": 187634000.0,
- "interest_ttm": 346000.0,
- "revenue_yoy_last_q": 0.09415570905459392,
+ "buybacks_ttm": -546323000.0,
+ "stock_issuance_ttm": -546323000.0,
+ "revenue_ttm": 1748365000.0,
+ "net_income_ttm": 294764000.0,
+ "ebitda_ttm": 208408000.0,
+ "ebit_ttm": 181236000.0,
+ "interest_ttm": 266000.0,
+ "revenue_yoy_last_q": 0.03149075652287925,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 393359000.0
+  },
   {
    "period": "2026-06-30",
    "value": 420716000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 381350000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 384512000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.08
+  },
   {
    "period": "2026-06-30",
    "value": 0.08
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.24
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.17
   }
  ],
- "eps_ttm": 1.77,
+ "eps_ttm": 1.6099999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": null,
- "eps_growth_last_q": -0.5294117647058824,
- "eps_forward_growth": 0.3412203389830508,
+ "eps_growth_last_q": -0.6666666666666666,
+ "eps_forward_growth": 0.4745093167701864,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7360019727526255
+  },
   {
    "period": "2026-06-30",
    "value": 0.7432258340543264
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7223207027664875
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7150310003328895
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.03941508573833152,
+ "dilution_1y": -0.04083966108651671,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 15020000.0,
- "gap_24m": -346887000.0,
+ "need_24m": 14382000.0,
+ "gap_24m": -295329000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.3539222463010014,
- "interest_coverage": 542.2947976878613,
- "cash_to_debt": 5.025369362363919,
- "ev": 5670735009.223099,
- "ev_to_sales": 3.265882692963366,
- "ev_to_ebitda": 26.484900469021348,
- "pe_ttm": 18.394949972296594,
- "pe_trailing": 22.48148,
- "p_sales": 3.4092572,
- "p_fcf": 12.102793927356545,
- "p_book": 10.636681292155199
+ "net_debt_to_ebitda": -1.1548788914053203,
+ "interest_coverage": 681.3383458646616,
+ "cash_to_debt": 4.486939514668598,
+ "ev": 4854160018.498087,
+ "ev_to_sales": 2.7763996754099325,
+ "ev_to_ebitda": 23.291620372049476,
+ "pe_ttm": 17.28449206313555,
+ "pe_trailing": 19.21605,
+ "p_sales": 2.9140632,
+ "p_fcf": 11.520623598880436,
+ "p_book": 9.279198519833109
 }

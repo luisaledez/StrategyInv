@@ -1,40 +1,44 @@
 {
  "ticker": "ARE",
- "fetched": "2026-10-24",
- "market_cap": 7403538895.318966,
- "shares_out": 172095277.0,
- "price": 43.02000045776367,
+ "fetched": "2026-11-10",
+ "market_cap": 7990490578.623638,
+ "shares_out": 174160645.0,
+ "price": 45.880001068115234,
  "long_name": "Alexandria Real Estate Equities, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Office",
  "pe_trailing_y": null,
- "pe_forward": -53.11111,
+ "pe_forward": -48.808514,
  "peg": 3.24,
- "p_sales_y": 2.6065798,
- "eps_trailing_y": -6.05,
- "eps_forward": -0.81,
+ "p_sales_y": 2.8956935,
+ "eps_trailing_y": -8.41,
+ "eps_forward": -0.94,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 470449000.0,
- "total_debt": 13167779000.0,
- "current_debt": 1994508000.0,
- "lease_obligations": 354905000.0,
- "equity": 15553976000.0,
- "net_debt": 12697330000.0,
- "ocf_ttm": 1279448000.0,
+ "bs_date": "2026-09-30",
+ "cash": 508855000.0,
+ "total_debt": 13251024000.0,
+ "current_debt": 1091166000.0,
+ "lease_obligations": 354028000.0,
+ "equity": 14807199000.0,
+ "net_debt": 12742169000.0,
+ "ocf_ttm": 1187788000.0,
  "capex_ttm": null,
- "fcf_ttm": 1279448000.0,
+ "fcf_ttm": 1187788000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 2760944000.0,
- "net_income_ttm": -1024759000.0,
- "ebitda_ttm": 687779000.0,
- "ebit_ttm": -584339000.0,
- "interest_ttm": 249452000.0,
- "revenue_yoy_last_q": -0.1275894200160319,
+ "revenue_ttm": 2678713000.0,
+ "net_income_ttm": -1429691000.0,
+ "ebitda_ttm": 275716000.0,
+ "ebit_ttm": -960591000.0,
+ "interest_ttm": 274287000.0,
+ "revenue_yoy_last_q": -0.11174982910896125,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 653618000.0
+  },
   {
    "period": "2026-06-30",
    "value": 643210000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 735849000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 737279000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -3.74
+  },
   {
    "period": "2026-06-30",
    "value": -0.43
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -1.38
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.64
   }
  ],
- "eps_ttm": -6.06,
+ "eps_ttm": -8.42,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -5.688888888888888,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6512779635811743
+  },
   {
    "period": "2026-06-30",
    "value": 0.6776542653254769
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6748871031964438
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.695592848840127
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.0034255684155712895,
+ "dilution_1y": 0.0029912161084819644,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1994508000.0,
- "gap_24m": 1524059000.0,
+ "need_24m": 1091166000.0,
+ "gap_24m": 582311000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 18.461351684189253,
- "interest_coverage": -2.3424907397014256,
- "cash_to_debt": 0.035727285520208076,
- "ev": 20100868895.318966,
- "ev_to_sales": 7.280433393549078,
- "ev_to_ebitda": 29.22576713641877,
+ "net_debt_to_ebitda": 46.214833379274324,
+ "interest_coverage": -3.502138271226854,
+ "cash_to_debt": 0.03840118318403166,
+ "ev": 20732659578.62364,
+ "ev_to_sales": 7.739783835977814,
+ "ev_to_ebitda": 75.19570709941983,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 2.6065798,
- "p_fcf": 5.786510194489316,
- "p_book": 0.4759901195243561
+ "p_sales": 2.8956935,
+ "p_fcf": 6.727202647798798,
+ "p_book": 0.5396355231413881
 }

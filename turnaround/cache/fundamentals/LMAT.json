@@ -1,40 +1,44 @@
 {
  "ticker": "LMAT",
- "fetched": "2026-10-25",
- "market_cap": 1931308683.8585663,
- "shares_out": 22869257.0,
- "price": 84.44999694824219,
+ "fetched": "2026-11-10",
+ "market_cap": 1809648003.5977478,
+ "shares_out": 22880871.0,
+ "price": 79.08999633789062,
  "long_name": "LeMaitre Vascular, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
- "pe_trailing_y": 29.631578,
- "pe_forward": 26.567045,
- "peg": 2.23,
- "p_sales_y": 7.3592725,
- "eps_trailing_y": 2.85,
- "eps_forward": 3.17875,
- "earnings_growth_y": 0.226,
- "earnings_growth_q_y": 0.237,
- "bs_date": "2026-06-30",
- "cash": 376240000.0,
- "total_debt": 190254000.0,
- "current_debt": 3439000.0,
- "lease_obligations": 21163000.0,
- "equity": 420342000.0,
- "net_debt": -185986000.0,
- "ocf_ttm": 82979000.0,
- "capex_ttm": -9154000.0,
- "fcf_ttm": 73825000.0,
+ "pe_trailing_y": 28.759998,
+ "pe_forward": 25.107935,
+ "peg": 2.15,
+ "p_sales_y": 6.7184253,
+ "eps_trailing_y": 2.75,
+ "eps_forward": 3.15,
+ "earnings_growth_y": -0.137,
+ "earnings_growth_q_y": -0.135,
+ "bs_date": "2026-09-30",
+ "cash": 389721000.0,
+ "total_debt": 188851000.0,
+ "current_debt": 3192000.0,
+ "lease_obligations": 19534000.0,
+ "equity": 432131000.0,
+ "net_debt": -200870000.0,
+ "ocf_ttm": 76205000.0,
+ "capex_ttm": -9206000.0,
+ "fcf_ttm": 66999000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 262432000.0,
- "net_income_ttm": 65673000.0,
- "ebitda_ttm": 100434000.0,
- "ebit_ttm": 89931000.0,
- "interest_ttm": 5197000.0,
- "revenue_yoy_last_q": 0.09574666832731338,
+ "revenue_ttm": 269356000.0,
+ "net_income_ttm": 63335000.0,
+ "ebitda_ttm": 97814000.0,
+ "ebit_ttm": 87039000.0,
+ "interest_ttm": 5204000.0,
+ "revenue_yoy_last_q": 0.11342266487566754,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 67970000.0
+  },
   {
    "period": "2026-06-30",
    "value": 70382000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 61046000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 64232000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.65
+  },
   {
    "period": "2026-06-30",
    "value": 0.74
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.75
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6
   }
  ],
- "eps_ttm": 2.85,
+ "eps_ttm": 2.7500000000000004,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.30569948186528495,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.2333333333333334,
- "eps_forward_growth": 0.11535087719298232,
+ "eps_growth_last_q": -0.1333333333333333,
+ "eps_forward_growth": 0.14545454545454528,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7165661321171105
+  },
   {
    "period": "2026-06-30",
    "value": 0.7212639595351084
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7527929757887495
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7001805953418857
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.010074444443119113,
+ "dilution_1y": 0.008087250298745685,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 3439000.0,
- "gap_24m": -372801000.0,
+ "need_24m": 3192000.0,
+ "gap_24m": -386529000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.8518230877989525,
- "interest_coverage": 17.304406388300944,
- "cash_to_debt": 1.9775668317091888,
- "ev": 1745322683.8585663,
- "ev_to_sales": 6.6505711340787945,
- "ev_to_ebitda": 17.37780715553066,
- "pe_ttm": 29.40795583966876,
- "pe_trailing": 29.631578,
- "p_sales": 7.3592725,
- "p_fcf": 26.160632358395752,
- "p_book": 4.594612681717664
+ "net_debt_to_ebitda": -2.0535915104177316,
+ "interest_coverage": 16.725403535741737,
+ "cash_to_debt": 2.063642765990119,
+ "ev": 1608778003.5977478,
+ "ev_to_sales": 5.972683005382274,
+ "ev_to_ebitda": 16.447318416563558,
+ "pe_ttm": 28.572637618974465,
+ "pe_trailing": 28.759998,
+ "p_sales": 6.7184253,
+ "p_fcf": 27.010074830934013,
+ "p_book": 4.187730117945132
 }

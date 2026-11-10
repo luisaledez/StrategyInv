@@ -1,0 +1,154 @@
+{
+ "ticker": "PLTR",
+ "fetched": "2026-11-10",
+ "market_cap": 402554760628.8666,
+ "shares_out": 2409497474.0,
+ "price": 167.07000732421875,
+ "long_name": "Palantir Technologies Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Software - Infrastructure",
+ "pe_trailing_y": 117.65494,
+ "pe_forward": 65.807465,
+ "peg": 1.31,
+ "p_sales_y": 55.23332,
+ "eps_trailing_y": 1.42,
+ "eps_forward": 2.53877,
+ "earnings_growth_y": 1.444,
+ "earnings_growth_q_y": 1.372,
+ "bs_date": "2026-09-30",
+ "cash": 10561531000.0,
+ "total_debt": 225267000.0,
+ "current_debt": 45864000.0,
+ "lease_obligations": 225267000.0,
+ "equity": 11227981000.0,
+ "net_debt": -10336264000.0,
+ "ocf_ttm": 4097197000.0,
+ "capex_ttm": -43241000.0,
+ "fcf_ttm": 4053956000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -74985000.0,
+ "stock_issuance_ttm": -74985000.0,
+ "revenue_ttm": 7288260000.0,
+ "net_income_ttm": 3669105000.0,
+ "ebitda_ttm": 3355290000.0,
+ "ebit_ttm": 3326241000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.9587051643733087,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2313411000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1935464000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1632583000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1406802000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1181092000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.44
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.24
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.18
+  }
+ ],
+ "eps_ttm": 1.43,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 2.3109624389705536,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.4444444444444446,
+ "eps_forward_growth": 0.7753636363636365,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8343199716781843
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.8466155919200771
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8678180527421883
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8464844377531451
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.8244785334249999
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 4475446000.0,
+   "eps": 0.63,
+   "net_income": 1625033000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2865507000.0,
+   "eps": 0.190277,
+   "net_income": 462190000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2225012000.0,
+   "eps": 0.090131,
+   "net_income": 209825000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1905871000.0,
+   "eps": -0.180263,
+   "net_income": -373705000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.010841704322817947,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 45864000.0,
+ "gap_24m": -10515667000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.0805873709873066,
+ "interest_coverage": null,
+ "cash_to_debt": 46.88450150266129,
+ "ev": 392218496628.8666,
+ "ev_to_sales": 53.81510767026239,
+ "ev_to_ebitda": 116.89555794845351,
+ "pe_ttm": 109.71470171305171,
+ "pe_trailing": 117.65494,
+ "p_sales": 55.23332,
+ "p_fcf": 99.2992426728032,
+ "p_book": 35.85281811831233
+}

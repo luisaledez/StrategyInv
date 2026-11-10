@@ -1,0 +1,154 @@
+{
+ "ticker": "MARA",
+ "fetched": "2026-11-10",
+ "market_cap": 2565027280.5034795,
+ "shares_out": 386299297.0,
+ "price": 6.639999866485596,
+ "long_name": "MARA Holdings, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": null,
+ "pe_forward": -19.529411,
+ "peg": 0.1,
+ "p_sales_y": 3.5822303,
+ "eps_trailing_y": -9.4,
+ "eps_forward": -0.34,
+ "earnings_growth_y": 3.806,
+ "earnings_growth_q_y": 4.152,
+ "bs_date": "2026-06-30",
+ "cash": 421274000.0,
+ "total_debt": 2465959000.0,
+ "current_debt": 488913000.0,
+ "lease_obligations": 48210000.0,
+ "equity": 1660557000.0,
+ "net_debt": 2044685000.0,
+ "ocf_ttm": -895051000.0,
+ "capex_ttm": -344127000.0,
+ "fcf_ttm": -1239178000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 249220000.0,
+ "revenue_ttm": 804219000.0,
+ "net_income_ttm": -3455546000.0,
+ "ebitda_ttm": -2774489000.0,
+ "ebit_ttm": -3593839000.0,
+ "interest_ttm": 42589000.0,
+ "revenue_yoy_last_q": -0.2667002117533598,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 174881000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 174614000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 202314000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 252410000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 238485000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -1.6
+  },
+  {
+   "period": "2026-03-31",
+   "value": -3.31
+  },
+  {
+   "period": "2025-12-31",
+   "value": -4.52
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.27
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.84
+  }
+ ],
+ "eps_ttm": -9.16,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.145348837209302,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -1.8695652173913042,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7212390139580629
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7438235193054394
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.7491523077987683
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.829325304068777
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.8250204415372036
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 907093000.0,
+   "eps": -3.69,
+   "net_income": -1311480000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 656378000.0,
+   "eps": 1.72,
+   "net_income": 541253000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 387508000.0,
+   "eps": 1.06,
+   "net_income": 261173000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 117753000.0,
+   "eps": -6.12,
+   "net_income": -694022000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.08513183791350265,
+ "fcf_burn_annual": 1239178000.0,
+ "runway_months": 4.079549507818893,
+ "need_24m": 2967269000.0,
+ "gap_24m": 2545995000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": -0.7369591301317108,
+ "interest_coverage": -84.38420718964991,
+ "cash_to_debt": 0.1708357681534851,
+ "ev": 4609712280.503479,
+ "ev_to_sales": 5.731911681399568,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 3.5822303,
+ "p_fcf": null,
+ "p_book": 1.5446788520378882
+}

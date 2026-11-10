@@ -1,18 +1,18 @@
 {
  "ticker": "CASH",
- "fetched": "2026-10-25",
- "market_cap": 1609935555.0,
+ "fetched": "2026-11-10",
+ "market_cap": 1547200071.4947968,
  "shares_out": 20773362.0,
- "price": 77.5,
+ "price": 74.4800033569336,
  "long_name": "Pathward Financial, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Banks - Regional",
- "pe_trailing_y": 9.5208845,
- "pe_forward": 7.132996,
+ "pe_trailing_y": 9.149878,
+ "pe_forward": 6.8163495,
  "peg": 0.2,
- "p_sales_y": 2.191262,
+ "p_sales_y": 2.1058736,
  "eps_trailing_y": 8.14,
- "eps_forward": 10.865,
+ "eps_forward": 10.92667,
  "earnings_growth_y": 0.093,
  "earnings_growth_q_y": -0.005,
  "bs_date": "2026-06-30",
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.85
+  },
+  {
    "period": "2026-06-30",
    "value": 1.37
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.69
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.81
   }
  ],
- "eps_ttm": 7.98,
+ "eps_ttm": 8.14,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 0.18882175226586106,
+ "eps_growth_yoy": 0.03430749682338008,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.24309392265193364,
- "eps_forward_growth": 0.3615288220551378,
+ "eps_growth_last_q": 0.09467455621301779,
+ "eps_forward_growth": 0.34234275184275176,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -107,7 +107,7 @@
   {
    "year": "2022",
    "revenue": 518523000.0,
-   "eps": 5.26,
+   "eps": null,
    "net_income": 151134000.0
   }
  ],
@@ -122,12 +122,12 @@
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
  "cash_to_debt": 5.259126611053906,
- "ev": 753710555.0,
- "ev_to_sales": 1.100649625357958,
+ "ev": 690975071.4947968,
+ "ev_to_sales": 1.0090364909012537,
  "ev_to_ebitda": null,
- "pe_ttm": 9.15526793025795,
- "pe_trailing": 9.5208845,
- "p_sales": 2.191262,
- "p_fcf": 3.360066525719104,
- "p_book": 1.8920362709645422
+ "pe_ttm": 8.79850820876437,
+ "pe_trailing": 9.149878,
+ "p_sales": 2.1058736,
+ "p_fcf": 3.22913246600102,
+ "p_book": 1.8183079717790869
 }

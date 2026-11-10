@@ -1,0 +1,133 @@
+{
+ "ticker": "BHF",
+ "fetched": "2026-11-10",
+ "market_cap": 2529933752.901249,
+ "shares_out": 57511563.0,
+ "price": 43.9900016784668,
+ "long_name": "Brighthouse Financial, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Insurance - Life",
+ "pe_trailing_y": 4.407816,
+ "pe_forward": 2.19101,
+ "peg": null,
+ "p_sales_y": 0.43514514,
+ "eps_trailing_y": 9.98,
+ "eps_forward": 20.0775,
+ "earnings_growth_y": -0.34,
+ "earnings_growth_q_y": -0.315,
+ "bs_date": "2026-09-30",
+ "cash": 86486000000.0,
+ "total_debt": 3153000000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 5011000000.0,
+ "net_debt": -83333000000.0,
+ "ocf_ttm": -1131000000.0,
+ "capex_ttm": null,
+ "fcf_ttm": -1131000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 5402000000.0,
+ "net_income_ttm": 680000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": 946000000.0,
+ "interest_ttm": 152000000.0,
+ "revenue_yoy_last_q": -0.5556206088992974,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 759000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1610000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1460000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1573000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1708000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5.21
+  },
+  {
+   "period": "2026-06-30",
+   "value": 16.53
+  },
+  {
+   "period": "2026-03-31",
+   "value": -13.82
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.93
+  },
+  {
+   "period": "2025-09-30",
+   "value": 7.89
+  }
+ ],
+ "eps_ttm": 9.850000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.17053099057671295,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.33967046894803543,
+ "eps_forward_growth": 1.0383248730964465,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 6391000000.0,
+   "eps": 5.71,
+   "net_income": 433000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 4369000000.0,
+   "eps": 4.878128,
+   "net_income": 388000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3950000000.0,
+   "eps": -18.765287,
+   "net_income": -1112000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6630000000.0,
+   "eps": 51.3,
+   "net_income": 3879000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.006204721661223989,
+ "fcf_burn_annual": 1131000000.0,
+ "runway_months": 917.6233421750663,
+ "need_24m": 2262000000.0,
+ "gap_24m": -84224000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": 6.223684210526316,
+ "cash_to_debt": 27.42974944497304,
+ "ev": -80803066247.09875,
+ "ev_to_sales": -14.957990789910914,
+ "ev_to_ebitda": null,
+ "pe_ttm": 3.720490813090072,
+ "pe_trailing": 4.407816,
+ "p_sales": 0.43514514,
+ "p_fcf": null,
+ "p_book": 0.5048760233289261
+}

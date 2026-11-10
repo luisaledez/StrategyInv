@@ -1,40 +1,44 @@
 {
  "ticker": "HII",
- "fetched": "2026-10-24",
- "market_cap": 10800011690.725525,
- "shares_out": 39404598.0,
- "price": 274.0799865722656,
+ "fetched": "2026-11-10",
+ "market_cap": 12055298424.468994,
+ "shares_out": 39406060.0,
+ "price": 305.92498779296875,
  "long_name": "Huntington Ingalls Industries, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
- "pe_trailing_y": 16.333729,
- "pe_forward": 13.043986,
- "peg": 0.84,
- "p_sales_y": 0.81911355,
- "eps_trailing_y": 16.78,
- "eps_forward": 21.01198,
- "earnings_growth_y": 0.365,
- "earnings_growth_q_y": 0.368,
- "bs_date": "2026-06-30",
- "cash": 12000000.0,
- "total_debt": 2935000000.0,
+ "pe_trailing_y": 16.474152,
+ "pe_forward": 14.959979,
+ "peg": 0.86,
+ "p_sales_y": 0.891005,
+ "eps_trailing_y": 18.57,
+ "eps_forward": 20.44956,
+ "earnings_growth_y": 0.489,
+ "earnings_growth_q_y": 0.497,
+ "bs_date": "2026-09-30",
+ "cash": 387000000.0,
+ "total_debt": 2929000000.0,
  "current_debt": 3000000.0,
- "lease_obligations": 233000000.0,
- "equity": 5312000000.0,
- "net_debt": 2923000000.0,
- "ocf_ttm": 347000000.0,
- "capex_ttm": -432000000.0,
- "fcf_ttm": -85000000.0,
+ "lease_obligations": 225000000.0,
+ "equity": 5492000000.0,
+ "net_debt": 2542000000.0,
+ "ocf_ttm": 749000000.0,
+ "capex_ttm": -422000000.0,
+ "fcf_ttm": 327000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 13185000000.0,
- "net_income_ttm": 661000000.0,
- "ebitda_ttm": 1264000000.0,
- "ebit_ttm": 942000000.0,
- "interest_ttm": 98000000.0,
- "revenue_yoy_last_q": 0.10902011680726797,
+ "revenue_ttm": 13530000000.0,
+ "net_income_ttm": 733000000.0,
+ "ebitda_ttm": 1333000000.0,
+ "ebit_ttm": 1016000000.0,
+ "interest_ttm": 101000000.0,
+ "revenue_yoy_last_q": 0.10808270676691722,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3537000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3418000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3192000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3082000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5.48
+  },
   {
    "period": "2026-06-30",
    "value": 5.27
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 3.68
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3.86
   }
  ],
- "eps_ttm": 16.779999999999998,
+ "eps_ttm": 18.58,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.10243553008595985,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.3652849740932642,
- "eps_forward_growth": 0.25220381406436254,
+ "eps_growth_last_q": 0.48913043478260865,
+ "eps_forward_growth": 0.10062217438105514,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.13570822731128074
+  },
   {
    "period": "2026-06-30",
    "value": 0.12609713282621415
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.12343358395989974
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1281635301752109
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.004178209980267855,
- "fcf_burn_annual": 85000000.0,
- "runway_months": 1.6941176470588235,
- "need_24m": 173000000.0,
- "gap_24m": 161000000.0,
- "survival_gate": "FAIL",
- "net_debt_to_ebitda": 2.3125,
- "interest_coverage": 9.612244897959183,
- "cash_to_debt": 0.0040885860306643955,
- "ev": 13723011690.725525,
- "ev_to_sales": 1.0408048305442188,
- "ev_to_ebitda": 10.856813046460067,
- "pe_ttm": 16.33889817053786,
- "pe_trailing": 16.333729,
- "p_sales": 0.81911355,
- "p_fcf": null,
- "p_book": 2.033134730934775
+ "dilution_1y": 0.004190248654548645,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 3000000.0,
+ "gap_24m": -384000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.9069767441860466,
+ "interest_coverage": 10.05940594059406,
+ "cash_to_debt": 0.13212700580402867,
+ "ev": 14597298424.468994,
+ "ev_to_sales": 1.0788838451196596,
+ "ev_to_ebitda": 10.950711496225802,
+ "pe_ttm": 16.44651899654706,
+ "pe_trailing": 16.474152,
+ "p_sales": 0.891005,
+ "p_fcf": 36.86635603813148,
+ "p_book": 2.195065263013291
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "WH",
- "fetched": "2026-10-24",
- "market_cap": 5374369319.355377,
+ "fetched": "2026-11-10",
+ "market_cap": 5907947467.714874,
  "shares_out": 74211122.0,
- "price": 72.41999816894531,
+ "price": 79.61000061035156,
  "long_name": "Wyndham Hotels & Resorts, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Lodging",
- "pe_trailing_y": 26.527472,
- "pe_forward": 13.552636,
- "peg": 0.51,
- "p_sales_y": 3.7167146,
+ "pe_trailing_y": 29.161173,
+ "pe_forward": 14.877649,
+ "peg": 0.52,
+ "p_sales_y": 4.0857177,
  "eps_trailing_y": 2.73,
- "eps_forward": 5.34361,
+ "eps_forward": 5.35098,
  "earnings_growth_y": -0.022,
  "earnings_growth_q_y": -0.057,
- "bs_date": "2026-06-30",
- "cash": 69000000.0,
- "total_debt": 2675000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 71000000.0,
+ "total_debt": 2727000000.0,
  "current_debt": 23000000.0,
  "lease_obligations": 3000000.0,
- "equity": 480000000.0,
- "net_debt": 2606000000.0,
- "ocf_ttm": 371000000.0,
- "capex_ttm": -48000000.0,
- "fcf_ttm": 323000000.0,
+ "equity": 475000000.0,
+ "net_debt": 2656000000.0,
+ "ocf_ttm": 511000000.0,
+ "capex_ttm": -69000000.0,
+ "fcf_ttm": 442000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -220000000.0,
- "stock_issuance_ttm": -220000000.0,
- "revenue_ttm": 1418000000.0,
- "net_income_ttm": 208000000.0,
- "ebitda_ttm": 500000000.0,
- "ebit_ttm": 438000000.0,
- "interest_ttm": 150000000.0,
- "revenue_yoy_last_q": -0.055415617128463435,
+ "buybacks_ttm": -346000000.0,
+ "stock_issuance_ttm": -346000000.0,
+ "revenue_ttm": 1446000000.0,
+ "net_income_ttm": 202000000.0,
+ "ebitda_ttm": 524000000.0,
+ "ebit_ttm": 432000000.0,
+ "interest_ttm": 151000000.0,
+ "revenue_yoy_last_q": 0.0732984293193717,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 410000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 375000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 382000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 397000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.33
+  },
   {
    "period": "2026-06-30",
    "value": 1.36
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.36
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.13
   }
  ],
- "eps_ttm": 2.72,
+ "eps_ttm": 2.6900000000000004,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.30747922437673125,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.20353982300884965,
- "eps_forward_growth": 0.9645624999999998,
+ "eps_growth_last_q": -0.022058823529411797,
+ "eps_forward_growth": 0.9892118959107803,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.028683181225554133,
+ "dilution_1y": -0.019736842105263164,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 23000000.0,
- "gap_24m": -46000000.0,
+ "gap_24m": -48000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 5.212,
- "interest_coverage": 2.92,
- "cash_to_debt": 0.025794392523364486,
- "ev": 7980369319.355377,
- "ev_to_sales": 5.6279050207019585,
- "ev_to_ebitda": 15.960738638710755,
- "pe_ttm": 25.83831403536239,
- "pe_trailing": 26.527472,
- "p_sales": 3.7167146,
- "p_fcf": 16.638914301409837,
- "p_book": 11.196602748657035
+ "net_debt_to_ebitda": 5.068702290076335,
+ "interest_coverage": 2.8609271523178808,
+ "cash_to_debt": 0.026035936927026035,
+ "ev": 8563947467.714874,
+ "ev_to_sales": 5.922508622209457,
+ "ev_to_ebitda": 16.34341119792915,
+ "pe_ttm": 29.247264691657794,
+ "pe_trailing": 29.161173,
+ "p_sales": 4.0857177,
+ "p_fcf": 13.36639698578026,
+ "p_book": 12.43778414255763
 }

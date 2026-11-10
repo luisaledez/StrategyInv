@@ -1,40 +1,44 @@
 {
  "ticker": "ABT",
- "fetched": "2026-10-24",
- "market_cap": 179440742514.48926,
- "shares_out": 1730383296.0,
- "price": 103.69999694824219,
+ "fetched": "2026-11-10",
+ "market_cap": 191396870026.33643,
+ "shares_out": 1731941601.0,
+ "price": 110.51000213623047,
  "long_name": "Abbott Laboratories",
  "sector_y": "Healthcare",
  "industry_y": "Medical Devices",
- "pe_trailing_y": 38.550182,
- "pe_forward": 17.444815,
- "peg": 1.94,
- "p_sales_y": 3.7205987,
- "eps_trailing_y": 2.69,
- "eps_forward": 5.94446,
- "earnings_growth_y": -0.437,
+ "pe_trailing_y": 41.235073,
+ "pe_forward": 18.613873,
+ "peg": 1.57,
+ "p_sales_y": 3.9685018,
+ "eps_trailing_y": 2.68,
+ "eps_forward": 5.93697,
+ "earnings_growth_y": -0.436,
  "earnings_growth_q_y": -0.44,
- "bs_date": "2026-03-31",
- "cash": 7295000000.0,
- "total_debt": 34047000000.0,
- "current_debt": 4409000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 4298000000.0,
+ "total_debt": 31159000000.0,
+ "current_debt": 1708000000.0,
  "lease_obligations": 931000000.0,
- "equity": 52061000000.0,
- "net_debt": 26752000000.0,
- "ocf_ttm": 9464000000.0,
- "capex_ttm": -2086000000.0,
- "fcf_ttm": 7378000000.0,
+ "equity": 51027000000.0,
+ "net_debt": 26861000000.0,
+ "ocf_ttm": 9154000000.0,
+ "capex_ttm": -2097000000.0,
+ "fcf_ttm": 7057000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -793000000.0,
- "stock_issuance_ttm": -793000000.0,
- "revenue_ttm": 45134000000.0,
- "net_income_ttm": 6276000000.0,
- "ebitda_ttm": 11836000000.0,
- "ebit_ttm": 8673000000.0,
- "interest_ttm": 536000000.0,
- "revenue_yoy_last_q": 0.07781424985518437,
+ "buybacks_ttm": -798000000.0,
+ "stock_issuance_ttm": -798000000.0,
+ "revenue_ttm": 47005000000.0,
+ "net_income_ttm": 5417000000.0,
+ "ebitda_ttm": 11625000000.0,
+ "ebit_ttm": 7983000000.0,
+ "interest_ttm": 765000000.0,
+ "revenue_yoy_last_q": 0.16792317357745468,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 13013000000.0
+  },
   {
    "period": "2026-03-31",
    "value": 11164000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-06-30",
    "value": 11142000000.0
-  },
-  {
-   "period": "2025-03-31",
-   "value": 10358000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.53
+  },
   {
    "period": "2026-06-30",
    "value": 0.53
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.94
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.01
   }
  ],
- "eps_ttm": 3.0900000000000003,
+ "eps_ttm": 2.6799999999999997,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.5130890052356021,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.4752475247524752,
- "eps_forward_growth": 0.9237734627831715,
+ "eps_growth_last_q": -0.43617021276595735,
+ "eps_forward_growth": 1.2152873134328361,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5675094136632598
+  },
   {
    "period": "2026-03-31",
    "value": 0.5619849516302401
@@ -100,10 +104,6 @@
   {
    "period": "2025-06-30",
    "value": 0.5643511039310716
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.5686425950955784
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0011357177621889036,
+ "dilution_1y": -0.004893773959333214,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 4409000000.0,
- "gap_24m": -2886000000.0,
+ "need_24m": 1708000000.0,
+ "gap_24m": -2590000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.2602230483271377,
- "interest_coverage": 16.18097014925373,
- "cash_to_debt": 0.2142626369430493,
- "ev": 206192742514.48926,
- "ev_to_sales": 4.568457094750947,
- "ev_to_ebitda": 17.420812987030185,
- "pe_ttm": 28.59157783851008,
- "pe_trailing": 38.550182,
- "p_sales": 3.7205987,
- "p_fcf": 24.321054827119713,
- "p_book": 3.4467402184838796
+ "net_debt_to_ebitda": 2.3106236559139783,
+ "interest_coverage": 10.435294117647059,
+ "cash_to_debt": 0.1379376745081678,
+ "ev": 218257870026.33643,
+ "ev_to_sales": 4.643290501570821,
+ "ev_to_ebitda": 18.774870539899908,
+ "pe_ttm": 35.33263245824929,
+ "pe_trailing": 41.235073,
+ "p_sales": 3.9685018,
+ "p_fcf": 27.12156299083696,
+ "p_book": 3.7508940370066126
 }

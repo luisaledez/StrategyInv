@@ -1,40 +1,44 @@
 {
  "ticker": "BILL",
- "fetched": "2026-10-24",
- "market_cap": 4323532912.461021,
- "shares_out": 85276782.0,
- "price": 50.70000076293945,
+ "fetched": "2026-11-10",
+ "market_cap": 4621366607.96241,
+ "shares_out": 85883042.0,
+ "price": 53.810001373291016,
  "long_name": "BILL Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": null,
- "pe_forward": 11.669901,
- "peg": 0.45,
- "p_sales_y": 2.6153142,
- "eps_trailing_y": -0.11,
- "eps_forward": 4.34451,
+ "pe_trailing_y": 103.480774,
+ "pe_forward": 11.800465,
+ "peg": 0.47,
+ "p_sales_y": 2.7305229,
+ "eps_trailing_y": 0.52,
+ "eps_forward": 4.55999,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 1937509000.0,
- "total_debt": 1884591000.0,
- "current_debt": 123057000.0,
- "lease_obligations": 48468000.0,
- "equity": 3530602000.0,
- "net_debt": -52918000.0,
- "ocf_ttm": 415832000.0,
- "capex_ttm": -61156000.0,
- "fcf_ttm": 354676000.0,
+ "bs_date": "2026-09-30",
+ "cash": 1593537000.0,
+ "total_debt": 1883233000.0,
+ "current_debt": 123204000.0,
+ "lease_obligations": 45829000.0,
+ "equity": 3299615000.0,
+ "net_debt": 289696000.0,
+ "ocf_ttm": 415786000.0,
+ "capex_ttm": -60479000.0,
+ "fcf_ttm": 355307000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -560485000.0,
- "stock_issuance_ttm": -560485000.0,
- "revenue_ttm": 1653161000.0,
- "net_income_ttm": -11240000.0,
- "ebitda_ttm": 125856000.0,
- "ebit_ttm": 9304000.0,
- "interest_ttm": 19435000.0,
- "revenue_yoy_last_q": 0.1378300191209576,
+ "buybacks_ttm": -789503000.0,
+ "stock_issuance_ttm": -789503000.0,
+ "revenue_ttm": 1611194000.0,
+ "net_income_ttm": 51975000.0,
+ "ebitda_ttm": 197725000.0,
+ "ebit_ttm": 73235000.0,
+ "interest_ttm": 19060000.0,
+ "revenue_yoy_last_q": 0.1250564477659406,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 353774000.0
+  },
   {
    "period": "2026-06-30",
    "value": 436186000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 395741000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 383349000.0
+   "value": 314450000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.61
+  },
   {
    "period": "2026-06-30",
    "value": -0.19
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.03
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.07
   }
  ],
- "eps_ttm": -0.13,
+ "eps_ttm": 0.51,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -1.4782608695652173,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": null,
- "eps_forward_growth": null,
+ "eps_forward_growth": 7.941156862745098,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7691944574785032
+  },
   {
    "period": "2026-06-30",
    "value": 0.8166034673281581
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.8054207170851643
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.8080391497043165
+   "value": 0.7551184608045794
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": -0.10629393909871176,
+ "dilution_1y": -0.1566079608130051,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 123057000.0,
- "gap_24m": -1814452000.0,
+ "need_24m": 123204000.0,
+ "gap_24m": -1470333000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.4204646580218663,
- "interest_coverage": 0.4787239516336506,
- "cash_to_debt": 1.0280793020872965,
- "ev": 4270614912.4610214,
- "ev_to_sales": 2.5833024807995235,
- "ev_to_ebitda": 33.93254920274776,
- "pe_ttm": null,
- "pe_trailing": null,
- "p_sales": 2.6153142,
- "p_fcf": 12.1900915552815,
- "p_book": 1.2245880199640236
+ "net_debt_to_ebitda": 1.465146036161335,
+ "interest_coverage": 3.842339979013641,
+ "cash_to_debt": 0.8461709199021045,
+ "ev": 4911062607.96241,
+ "ev_to_sales": 3.0480889377458023,
+ "ev_to_ebitda": 24.83784350973529,
+ "pe_ttm": 88.91518245237923,
+ "pe_trailing": 103.480774,
+ "p_sales": 2.7305229,
+ "p_fcf": 13.00668607137605,
+ "p_book": 1.4005775243361454
 }

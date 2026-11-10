@@ -1,40 +1,44 @@
 {
  "ticker": "PFE",
- "fetched": "2026-10-24",
- "market_cap": 171161201791.32526,
- "shares_out": 5699673589.0,
- "price": 30.030000686645508,
+ "fetched": "2026-11-10",
+ "market_cap": 166606722006.40402,
+ "shares_out": 5699853733.0,
+ "price": 29.229999542236328,
  "long_name": "Pfizer Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Drug Manufacturers - General",
- "pe_trailing_y": 39.51316,
- "pe_forward": 10.412297,
- "peg": 13.76,
- "p_sales_y": 2.6871579,
- "eps_trailing_y": 0.76,
- "eps_forward": 2.88409,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 11698000000.0,
- "total_debt": 63194000000.0,
- "current_debt": 2699000000.0,
+ "pe_trailing_y": 41.75714,
+ "pe_forward": 9.952196,
+ "peg": 9.1,
+ "p_sales_y": 2.6186144,
+ "eps_trailing_y": 0.7,
+ "eps_forward": 2.93704,
+ "earnings_growth_y": -0.097,
+ "earnings_growth_q_y": -0.084,
+ "bs_date": "2026-09-30",
+ "cash": 14272000000.0,
+ "total_debt": 62671000000.0,
+ "current_debt": 2674000000.0,
  "lease_obligations": null,
- "equity": 85190000000.0,
- "net_debt": 51496000000.0,
- "ocf_ttm": 13401000000.0,
- "capex_ttm": -2416000000.0,
- "fcf_ttm": 10985000000.0,
+ "equity": 89001000000.0,
+ "net_debt": 48399000000.0,
+ "ocf_ttm": 14173000000.0,
+ "capex_ttm": -2387000000.0,
+ "fcf_ttm": 11786000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 63695000000.0,
- "net_income_ttm": 4332000000.0,
- "ebitda_ttm": 13491000000.0,
- "ebit_ttm": 6907000000.0,
- "interest_ttm": 2698000000.0,
- "revenue_yoy_last_q": 0.026001501399030902,
+ "revenue_ttm": 63624000000.0,
+ "net_income_ttm": 4033000000.0,
+ "ebitda_ttm": 13467000000.0,
+ "ebit_ttm": 6968000000.0,
+ "interest_ttm": 2708000000.0,
+ "revenue_yoy_last_q": -0.004263240062447493,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 16583000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 15034000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 16654000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 14653000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.56
+  },
   {
    "period": "2026-06-30",
    "value": -0.04
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.62
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.51
   }
  ],
- "eps_ttm": 0.76,
+ "eps_ttm": 0.7,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.03546099290780125,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -1.0784313725490196,
- "eps_forward_growth": 2.7948552631578947,
+ "eps_growth_last_q": -0.09677419354838701,
+ "eps_forward_growth": 3.1957714285714287,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7571006452391003
+  },
   {
    "period": "2026-06-30",
    "value": 0.7278169482506319
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7494896121051999
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7421688391455674
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0024762843804084778,
+ "dilution_1y": 0.0025414425568817123,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2699000000.0,
- "gap_24m": -8999000000.0,
+ "need_24m": 2674000000.0,
+ "gap_24m": -11598000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.817063227336743,
- "interest_coverage": 2.56004447739066,
- "cash_to_debt": 0.1851125106813938,
- "ev": 222657201791.32526,
- "ev_to_sales": 3.4956778678283267,
- "ev_to_ebitda": 16.504128811157457,
- "pe_ttm": 39.51089607371313,
- "pe_trailing": 39.51316,
- "p_sales": 2.6871579,
- "p_fcf": 15.581356558154324,
- "p_book": 2.009170111413608
+ "net_debt_to_ebitda": 3.593896190688349,
+ "interest_coverage": 2.5731166912850814,
+ "cash_to_debt": 0.2277289336375676,
+ "ev": 215005722006.40402,
+ "ev_to_sales": 3.379317899006727,
+ "ev_to_ebitda": 15.965376253538578,
+ "pe_ttm": 41.310865858270276,
+ "pe_trailing": 41.75714,
+ "p_sales": 2.6186144,
+ "p_fcf": 14.135985237264892,
+ "p_book": 1.8719646072112002
 }

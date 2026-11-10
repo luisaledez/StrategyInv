@@ -1,40 +1,44 @@
 {
  "ticker": "ICHR",
- "fetched": "2026-10-25",
- "market_cap": 1421013396.8244438,
- "shares_out": 37454229.0,
- "price": 37.939998626708984,
+ "fetched": "2026-11-10",
+ "market_cap": 1294127927.0367966,
+ "shares_out": 37576306.0,
+ "price": 34.439998626708984,
  "long_name": "Ichor Holdings, Ltd.",
  "sector_y": "Technology",
  "industry_y": "Semiconductor Equipment & Materials",
- "pe_trailing_y": null,
- "pe_forward": 11.5450735,
- "peg": 0.16,
- "p_sales_y": 1.401734,
- "eps_trailing_y": -1.17,
- "eps_forward": 3.28625,
+ "pe_trailing_y": 491.99997,
+ "pe_forward": 10.04814,
+ "peg": 0.13,
+ "p_sales_y": 1.1731131,
+ "eps_trailing_y": 0.07,
+ "eps_forward": 3.4275,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 256456000.0,
- "total_debt": 154142000.0,
- "current_debt": 18343000.0,
- "lease_obligations": 33584000.0,
- "equity": 865497000.0,
- "net_debt": -102314000.0,
- "ocf_ttm": -375000.0,
- "capex_ttm": -25230000.0,
- "fcf_ttm": -25605000.0,
+ "bs_date": "2026-09-30",
+ "cash": 213503000.0,
+ "total_debt": 151739000.0,
+ "current_debt": 18240000.0,
+ "lease_obligations": 32666000.0,
+ "equity": 887928000.0,
+ "net_debt": -61764000.0,
+ "ocf_ttm": -38448000.0,
+ "capex_ttm": -28790000.0,
+ "fcf_ttm": -67238000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 1013754000.0,
- "net_income_ttm": -40285000.0,
- "ebitda_ttm": 6270000.0,
- "ebit_ttm": -26035000.0,
+ "revenue_ttm": 1103157000.0,
+ "net_income_ttm": 3515000.0,
+ "ebitda_ttm": 49690000.0,
+ "ebit_ttm": 17292000.0,
  "interest_ttm": 6470000.0,
- "revenue_yoy_last_q": 0.22680982999354926,
+ "revenue_yoy_last_q": 0.37360841802621025,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 328699000.0
+  },
   {
    "period": "2026-06-30",
    "value": 294784000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 239296000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 240285000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.55
+  },
   {
    "period": "2026-06-30",
    "value": 0.03
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.67
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.28
   }
  ],
- "eps_ttm": -1.17,
+ "eps_ttm": 0.04999999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
- "eps_forward_growth": null,
+ "eps_forward_growth": 67.55000000000003,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.15834547716908173
+  },
   {
    "period": "2026-06-30",
    "value": 0.13902721993052541
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.0462565191227601
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.11320723307738727
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.09170583906922714,
- "fcf_burn_annual": 25605000.0,
- "runway_months": 120.19027533684827,
- "need_24m": 69553000.0,
- "gap_24m": -186903000.0,
+ "dilution_1y": 0.09247670254117679,
+ "fcf_burn_annual": 67238000.0,
+ "runway_months": 38.103988815848176,
+ "need_24m": 152716000.0,
+ "gap_24m": -60787000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -16.318022328548643,
- "interest_coverage": -4.023956723338485,
- "cash_to_debt": 1.6637645807112922,
- "ev": 1318699396.8244438,
- "ev_to_sales": 1.3008080824583121,
- "ev_to_ebitda": 210.3188830660995,
- "pe_ttm": null,
- "pe_trailing": null,
- "p_sales": 1.401734,
+ "net_debt_to_ebitda": -1.2429865164016904,
+ "interest_coverage": 2.672642967542504,
+ "cash_to_debt": 1.4070410375710924,
+ "ev": 1232363927.0367966,
+ "ev_to_sales": 1.1171246948864002,
+ "ev_to_ebitda": 24.801045019859057,
+ "pe_ttm": 368.17295221530486,
+ "pe_trailing": 491.99997,
+ "p_sales": 1.1731131,
  "p_fcf": null,
- "p_book": 1.6418467040607232
+ "p_book": 1.4574694423836128
 }

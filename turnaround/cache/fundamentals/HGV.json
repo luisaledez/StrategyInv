@@ -1,40 +1,44 @@
 {
  "ticker": "HGV",
- "fetched": "2026-10-24",
- "market_cap": 2789519516.6109467,
- "shares_out": 77724145.0,
- "price": 35.88999938964844,
+ "fetched": "2026-11-10",
+ "market_cap": 3381693597.703697,
+ "shares_out": 75822729.0,
+ "price": 44.599998474121094,
  "long_name": "Hilton Grand Vacations Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Resorts & Casinos",
- "pe_trailing_y": 20.392046,
- "pe_forward": 6.9903917,
+ "pe_trailing_y": 8.796844,
+ "pe_forward": 8.836599,
  "peg": null,
- "p_sales_y": 0.59301007,
- "eps_trailing_y": 1.76,
- "eps_forward": 5.13419,
- "earnings_growth_y": -0.4,
- "earnings_growth_q_y": -0.52,
- "bs_date": "2026-06-30",
- "cash": 272000000.0,
- "total_debt": 7851000000.0,
+ "p_sales_y": 0.6328019,
+ "eps_trailing_y": 5.07,
+ "eps_forward": 5.04719,
+ "earnings_growth_y": 12.214,
+ "earnings_growth_q_y": 10.64,
+ "bs_date": "2026-09-30",
+ "cash": 227000000.0,
+ "total_debt": 7882000000.0,
  "current_debt": null,
- "lease_obligations": 79000000.0,
- "equity": 1102000000.0,
- "net_debt": 7579000000.0,
- "ocf_ttm": 463000000.0,
- "capex_ttm": -121000000.0,
- "fcf_ttm": 342000000.0,
+ "lease_obligations": 106000000.0,
+ "equity": 1307000000.0,
+ "net_debt": 7655000000.0,
+ "ocf_ttm": 516000000.0,
+ "capex_ttm": -118000000.0,
+ "fcf_ttm": 398000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -600000000.0,
- "stock_issuance_ttm": -600000000.0,
- "revenue_ttm": 5276000000.0,
- "net_income_ttm": 151000000.0,
- "ebitda_ttm": 822000000.0,
- "ebit_ttm": 533000000.0,
- "interest_ttm": 298000000.0,
- "revenue_yoy_last_q": 0.0726698262243286,
+ "buybacks_ttm": -560000000.0,
+ "stock_issuance_ttm": -560000000.0,
+ "revenue_ttm": 5937000000.0,
+ "net_income_ttm": 417000000.0,
+ "ebitda_ttm": 1193000000.0,
+ "ebit_ttm": 901000000.0,
+ "interest_ttm": 297000000.0,
+ "revenue_yoy_last_q": 0.5084615384615385,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1961000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1358000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1300000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1266000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.7
+  },
   {
    "period": "2026-06-30",
    "value": 0.15
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.28
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.25
   }
  ],
- "eps_ttm": 1.7700000000000002,
+ "eps_ttm": 5.19,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.9777777777777779,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.4,
- "eps_forward_growth": 1.9006723163841803,
+ "eps_growth_last_q": 12.214285714285714,
+ "eps_forward_growth": -0.027516377649325796,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.36511983681795
+  },
   {
    "period": "2026-06-30",
    "value": 0.25699558173784975
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.25153846153846154
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.24328593996840442
+   "value": 0.2676923076923077
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.12788443576712705,
+ "dilution_1y": -0.12485522694389961,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -272000000.0,
+ "gap_24m": -227000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 9.220194647201946,
- "interest_coverage": 1.7885906040268456,
- "cash_to_debt": 0.03464526811871099,
- "ev": 10368519516.610947,
- "ev_to_sales": 1.9652235626631818,
- "ev_to_ebitda": 12.613770701473172,
- "pe_ttm": 18.47363918285395,
- "pe_trailing": 20.392046,
- "p_sales": 0.59301007,
- "p_fcf": 8.156489814651891,
- "p_book": 2.531324425236794
+ "net_debt_to_ebitda": 6.416596814752724,
+ "interest_coverage": 3.0336700336700337,
+ "cash_to_debt": 0.028799797005836084,
+ "ev": 11036693597.703697,
+ "ev_to_sales": 1.8589680979793999,
+ "ev_to_ebitda": 9.251210056750795,
+ "pe_ttm": 8.109576972910546,
+ "pe_trailing": 8.796844,
+ "p_sales": 0.6328019,
+ "p_fcf": 8.496717582170094,
+ "p_book": 2.587370771005124
 }

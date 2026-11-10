@@ -1,40 +1,44 @@
 {
  "ticker": "PINS",
- "fetched": "2026-10-24",
- "market_cap": 12640106589.81498,
- "shares_out": 566313027.0,
- "price": 22.31999969482422,
+ "fetched": "2026-11-10",
+ "market_cap": 10931059124.11377,
+ "shares_out": 573507840.0,
+ "price": 19.059999465942383,
  "long_name": "Pinterest, Inc.",
  "sector_y": "Communication Services",
  "industry_y": "Internet Content & Information",
- "pe_trailing_y": 65.64706,
- "pe_forward": 9.328139,
- "peg": 0.29,
- "p_sales_y": 2.7745574,
- "eps_trailing_y": 0.34,
- "eps_forward": 2.39276,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 1274901000.0,
- "total_debt": 1196635000.0,
+ "pe_trailing_y": 79.416664,
+ "pe_forward": 8.373973,
+ "peg": 0.26,
+ "p_sales_y": 2.3354747,
+ "eps_trailing_y": 0.24,
+ "eps_forward": 2.2761,
+ "earnings_growth_y": -0.708,
+ "earnings_growth_q_y": -0.766,
+ "bs_date": "2026-09-30",
+ "cash": 1470021000.0,
+ "total_debt": 1196333000.0,
  "current_debt": 41437000.0,
- "lease_obligations": 215507000.0,
- "equity": 2893898000.0,
- "net_debt": -78266000.0,
- "ocf_ttm": 1333773000.0,
- "capex_ttm": -53369000.0,
- "fcf_ttm": 1280404000.0,
+ "lease_obligations": 214242000.0,
+ "equity": 3104323000.0,
+ "net_debt": -273688000.0,
+ "ocf_ttm": 1327854000.0,
+ "capex_ttm": -65603000.0,
+ "fcf_ttm": 1262251000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -3104319000.0,
- "stock_issuance_ttm": -3104319000.0,
- "revenue_ttm": 4555720000.0,
- "net_income_ttm": 248922000.0,
- "ebitda_ttm": 319456000.0,
- "ebit_ttm": 285632000.0,
+ "buybacks_ttm": -2892821000.0,
+ "stock_issuance_ttm": -2892821000.0,
+ "revenue_ttm": 4680444000.0,
+ "net_income_ttm": 178329000.0,
+ "ebitda_ttm": 296132000.0,
+ "ebit_ttm": 261561000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.18174924140501103,
+ "revenue_yoy_last_q": 0.11887476708555522,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1173929000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1179654000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1049205000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 998227000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.04
+  },
   {
    "period": "2026-06-30",
    "value": -0.08
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.13
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.06
   }
  ],
- "eps_ttm": 0.33999999999999997,
+ "eps_ttm": 0.24999999999999997,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.7715355805243446,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -2.3333333333333335,
- "eps_forward_growth": 6.037529411764707,
+ "eps_growth_last_q": -0.6923076923076923,
+ "eps_forward_growth": 8.104400000000002,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7771713621522256
+  },
   {
    "period": "2026-06-30",
    "value": 0.7818394207114968
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7976324931734027
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7966304257448457
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": -0.16767929210417087,
+ "dilution_1y": -0.15556669714218307,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 41437000.0,
- "gap_24m": -1233464000.0,
+ "gap_24m": -1428584000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.24499774616848644,
+ "net_debt_to_ebitda": -0.924209474153418,
  "interest_coverage": null,
- "cash_to_debt": 1.0654050733933071,
- "ev": 12561840589.81498,
- "ev_to_sales": 2.757377668033808,
- "ev_to_ebitda": 39.32260026361997,
- "pe_ttm": 50.779387076333066,
- "pe_trailing": 65.64706,
- "p_sales": 2.7745574,
- "p_fcf": 9.871967433571731,
- "p_book": 4.367847999416351
+ "cash_to_debt": 1.2287724237315196,
+ "ev": 10657371124.11377,
+ "ev_to_sales": 2.2770000290813797,
+ "ev_to_ebitda": 35.98858321327573,
+ "pe_ttm": 61.29714810330215,
+ "pe_trailing": 79.416664,
+ "p_sales": 2.3354747,
+ "p_fcf": 8.65997263944633,
+ "p_book": 3.5212376818113866
 }

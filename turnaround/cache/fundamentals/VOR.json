@@ -1,40 +1,44 @@
 {
  "ticker": "VOR",
- "fetched": "2026-10-25",
- "market_cap": 1080303501.9811745,
- "shares_out": 59162294.0,
- "price": 18.260000228881836,
+ "fetched": "2026-11-10",
+ "market_cap": 1227458164.997589,
+ "shares_out": 61434344.0,
+ "price": 19.979999542236328,
  "long_name": "Vor Biopharma Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
- "pe_trailing_y": 0.10134311,
- "pe_forward": -4.9764805,
+ "pe_trailing_y": 0.06647591,
+ "pe_forward": -5.973362,
  "peg": null,
  "p_sales_y": null,
- "eps_trailing_y": 180.18,
- "eps_forward": -3.66926,
+ "eps_trailing_y": 300.56,
+ "eps_forward": -3.34485,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 466129000.0,
- "total_debt": 2877000.0,
- "current_debt": 335000.0,
- "lease_obligations": 2877000.0,
- "equity": -200197000.0,
- "net_debt": -463252000.0,
- "ocf_ttm": -140087000.0,
- "capex_ttm": -726000.0,
- "fcf_ttm": -140813000.0,
+ "bs_date": "2026-09-30",
+ "cash": 481551000.0,
+ "total_debt": 2807000.0,
+ "current_debt": 370000.0,
+ "lease_obligations": 2807000.0,
+ "equity": -137173000.0,
+ "net_debt": -478744000.0,
+ "ocf_ttm": -119171000.0,
+ "capex_ttm": -507000.0,
+ "fcf_ttm": -119678000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 403205000.0,
+ "stock_issuance_ttm": 431344000.0,
  "revenue_ttm": 0.0,
- "net_income_ttm": 627779000.0,
- "ebitda_ttm": -146991000.0,
- "ebit_ttm": -147080000.0,
+ "net_income_ttm": 1353736000.0,
+ "ebitda_ttm": -177291000.0,
+ "ebit_ttm": -177417000.0,
  "interest_ttm": null,
  "revenue_yoy_last_q": null,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.0
+  },
   {
    "period": "2026-06-30",
    "value": 0.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 0.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.45
+  },
   {
    "period": "2026-06-30",
    "value": -1.16
@@ -72,13 +76,9 @@
   {
    "period": "2025-06-30",
    "value": -251.24
-  },
-  {
-   "period": "2025-03-31",
-   "value": -5.21
   }
  ],
- "eps_ttm": -379.14,
+ "eps_ttm": -129.35,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
@@ -113,20 +113,20 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 7.668127438101063,
- "fcf_burn_annual": 140813000.0,
- "runway_months": 39.723235780787284,
- "need_24m": 281961000.0,
- "gap_24m": -184168000.0,
+ "dilution_1y": 5.805149640154196,
+ "fcf_burn_annual": 119678000.0,
+ "runway_months": 48.284663847992114,
+ "need_24m": 239726000.0,
+ "gap_24m": -241825000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.151567102747787,
+ "net_debt_to_ebitda": 2.700328837899273,
  "interest_coverage": null,
- "cash_to_debt": 162.01911713590545,
- "ev": 617051501.9811745,
+ "cash_to_debt": 171.55361596009976,
+ "ev": 748714164.9975891,
  "ev_to_sales": null,
  "ev_to_ebitda": null,
- "pe_ttm": 1.72083408648772,
- "pe_trailing": 0.10134311,
+ "pe_ttm": 0.906719009465353,
+ "pe_trailing": 0.06647591,
  "p_sales": null,
  "p_fcf": null,
  "p_book": null

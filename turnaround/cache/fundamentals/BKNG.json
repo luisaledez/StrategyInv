@@ -1,40 +1,44 @@
 {
  "ticker": "BKNG",
- "fetched": "2026-10-24",
- "market_cap": 117087624690.81879,
- "shares_out": 751380500.0,
- "price": 155.8300018310547,
+ "fetched": "2026-11-10",
+ "market_cap": 121587722592.20302,
+ "shares_out": 743701257.0,
+ "price": 163.49000549316406,
  "long_name": "Booking Holdings Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Travel Services",
- "pe_trailing_y": 17.276052,
- "pe_forward": 12.596191,
- "peg": 0.86,
- "p_sales_y": 4.1460156,
- "eps_trailing_y": 9.02,
- "eps_forward": 12.3712,
- "earnings_growth_y": 1.3,
- "earnings_growth_q_y": 1.179,
- "bs_date": "2026-06-30",
- "cash": 17214000000.0,
- "total_debt": 20694000000.0,
- "current_debt": 2000000000.0,
- "lease_obligations": 514000000.0,
- "equity": -10783000000.0,
- "net_debt": 3480000000.0,
- "ocf_ttm": 9859000000.0,
- "capex_ttm": -320000000.0,
- "fcf_ttm": 9539000000.0,
+ "pe_trailing_y": 17.732103,
+ "pe_forward": 13.343911,
+ "peg": 0.59,
+ "p_sales_y": 4.322965,
+ "eps_trailing_y": 9.22,
+ "eps_forward": 12.25203,
+ "earnings_growth_y": 0.068,
+ "earnings_growth_q_y": -0.011,
+ "bs_date": "2026-09-30",
+ "cash": 15814000000.0,
+ "total_debt": 20576000000.0,
+ "current_debt": 1987000000.0,
+ "lease_obligations": 515000000.0,
+ "equity": -10407000000.0,
+ "net_debt": 4762000000.0,
+ "ocf_ttm": 9561000000.0,
+ "capex_ttm": -324000000.0,
+ "fcf_ttm": 9237000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -10530000000.0,
- "stock_issuance_ttm": -10530000000.0,
- "revenue_ttm": 28241000000.0,
- "net_income_ttm": 7209000000.0,
- "ebitda_ttm": 11109000000.0,
- "ebit_ttm": 10394000000.0,
- "interest_ttm": 1103000000.0,
- "revenue_yoy_last_q": 0.0814945572227126,
+ "buybacks_ttm": -12019000000.0,
+ "stock_issuance_ttm": -12019000000.0,
+ "revenue_ttm": 28126000000.0,
+ "net_income_ttm": 7178000000.0,
+ "ebitda_ttm": 11094000000.0,
+ "ebit_ttm": 10358000000.0,
+ "interest_ttm": 1113000000.0,
+ "revenue_yoy_last_q": -0.01276642984014209,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 8893000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 7352000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 9008000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 6798000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.61
+  },
   {
    "period": "2026-06-30",
    "value": 2.53
@@ -67,23 +71,19 @@
   },
   {
    "period": "2025-09-30",
-   "value": 3.3764
+   "value": 3.38
   },
   {
    "period": "2025-06-30",
    "value": 1.1
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.4
   }
  ],
- "eps_ttm": 8.366399999999999,
+ "eps_ttm": 10.879999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.041229949620707695,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 5.324999999999999,
- "eps_forward_growth": 0.478676611206732,
+ "eps_growth_last_q": 2.2818181818181813,
+ "eps_forward_growth": 0.12610569852941178,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.06483479976715867,
+ "dilution_1y": -0.07634534989254627,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2000000000.0,
- "gap_24m": -15214000000.0,
+ "need_24m": 1987000000.0,
+ "gap_24m": -13827000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.31325951930866863,
- "interest_coverage": 9.4233907524932,
- "cash_to_debt": 0.8318353145839373,
- "ev": 120567624690.81879,
- "ev_to_sales": 4.269240632088764,
- "ev_to_ebitda": 10.853148320354558,
- "pe_ttm": 16.241867761245498,
- "pe_trailing": 17.276052,
- "p_sales": 4.1460156,
- "p_fcf": 12.274622569537561,
+ "net_debt_to_ebitda": 0.4292410311880296,
+ "interest_coverage": 9.30637915543576,
+ "cash_to_debt": 0.7685653188180405,
+ "ev": 126349722592.203,
+ "ev_to_sales": 4.492274855727903,
+ "ev_to_ebitda": 11.389014115035424,
+ "pe_ttm": 16.93894157038214,
+ "pe_trailing": 17.732103,
+ "p_sales": 4.322965,
+ "p_fcf": 13.163118176053159,
  "p_book": null
 }

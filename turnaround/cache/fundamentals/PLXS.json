@@ -1,20 +1,20 @@
 {
  "ticker": "PLXS",
- "fetched": "2026-10-25",
- "market_cap": 5782972327.149948,
+ "fetched": "2026-11-10",
+ "market_cap": 5435828900.346451,
  "shares_out": 26652099.0,
- "price": 216.97999572753906,
+ "price": 203.9550018310547,
  "long_name": "Plexus Corp.",
  "sector_y": "Technology",
  "industry_y": "Electronic Components",
- "pe_trailing_y": 32.05022,
- "pe_forward": 21.440712,
+ "pe_trailing_y": 27.524292,
+ "pe_forward": 16.43738,
  "peg": 2.09,
- "p_sales_y": 1.2580559,
- "eps_trailing_y": 6.77,
- "eps_forward": 10.12,
- "earnings_growth_y": -0.037,
- "earnings_growth_q_y": -0.047,
+ "p_sales_y": 1.0948391,
+ "eps_trailing_y": 7.41,
+ "eps_forward": 12.408,
+ "earnings_growth_y": 0.34,
+ "earnings_growth_q_y": 0.332,
  "bs_date": "2026-06-30",
  "cash": 314053000.0,
  "total_debt": 299346000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 2.51
+  },
+  {
    "period": "2026-06-30",
    "value": 1.58
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.87
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.64
   }
  ],
- "eps_ttm": 6.78,
+ "eps_ttm": 7.42,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 0.5610972568578554,
+ "eps_growth_yoy": 0.18370607028753994,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.03658536585365846,
- "eps_forward_growth": 0.49262536873156315,
+ "eps_growth_last_q": 0.34224598930481265,
+ "eps_forward_growth": 0.6722371967654985,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -128,7 +128,7 @@
   {
    "year": "2022",
    "revenue": 3811368000.0,
-   "eps": 4.86,
+   "eps": null,
    "net_income": 138243000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -0.048302816323179246,
  "interest_coverage": 17.782937870746174,
  "cash_to_debt": 1.0491304376874921,
- "ev": 5768265327.149948,
- "ev_to_sales": 1.2548564882972717,
- "ev_to_ebitda": 18.94495550422842,
- "pe_ttm": 31.189681021017662,
- "pe_trailing": 32.05022,
- "p_sales": 1.2580559,
- "p_fcf": 93.46822141471688,
- "p_book": 3.7828060582422447
+ "ev": 5421121900.346451,
+ "ev_to_sales": 1.1793372191950384,
+ "ev_to_ebitda": 17.80481780227096,
+ "pe_ttm": 29.317409784354123,
+ "pe_trailing": 27.524292,
+ "p_sales": 1.0948391,
+ "p_fcf": 87.85745988179359,
+ "p_book": 3.555729706549166
 }

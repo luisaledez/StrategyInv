@@ -1,40 +1,44 @@
 {
  "ticker": "VICR",
- "fetched": "2026-10-24",
- "market_cap": 8116628791.725525,
- "shares_out": 46106732.0,
- "price": 176.0399932861328,
+ "fetched": "2026-11-10",
+ "market_cap": 7465459219.168091,
+ "shares_out": 46148600.0,
+ "price": 161.77000427246094,
  "long_name": "Vicor Corporation",
  "sector_y": "Technology",
  "industry_y": "Electronic Components",
- "pe_trailing_y": 45.963444,
- "pe_forward": 29.001646,
+ "pe_trailing_y": 42.2376,
+ "pe_forward": 26.650742,
  "peg": null,
- "p_sales_y": 14.475911,
+ "p_sales_y": 13.314557,
  "eps_trailing_y": 3.83,
  "eps_forward": 6.07,
  "earnings_growth_y": 1.111,
  "earnings_growth_q_y": 1.238,
- "bs_date": "2026-06-30",
- "cash": 453582000.0,
- "total_debt": 7608000.0,
- "current_debt": 1767000.0,
- "lease_obligations": 7608000.0,
- "equity": 834319000.0,
- "net_debt": -445974000.0,
- "ocf_ttm": 84392000.0,
- "capex_ttm": -33124000.0,
- "fcf_ttm": 51268000.0,
+ "bs_date": "2026-09-30",
+ "cash": 513137000.0,
+ "total_debt": 7160000.0,
+ "current_debt": 1733000.0,
+ "lease_obligations": 7160000.0,
+ "equity": 906280000.0,
+ "net_debt": -505977000.0,
+ "ocf_ttm": 96072000.0,
+ "capex_ttm": -45243000.0,
+ "fcf_ttm": 50829000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 474008000.0,
- "net_income_ttm": 145261000.0,
- "ebitda_ttm": 109521000.0,
- "ebit_ttm": 88354000.0,
+ "revenue_ttm": 560699000.0,
+ "net_income_ttm": 180290000.0,
+ "ebitda_ttm": 161058000.0,
+ "ebit_ttm": 139595000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.01634927612268333,
+ "revenue_yoy_last_q": 0.7850810066743341,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 197114000.0
+  },
   {
    "period": "2026-06-30",
    "value": 143352000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 110423000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 141046000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.33
+  },
   {
    "period": "2026-06-30",
    "value": 1.04
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.63
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.91
   }
  ],
- "eps_ttm": 3.12,
+ "eps_ttm": 3.8200000000000003,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 17.64285714285714,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.1428571428571428,
- "eps_forward_growth": 0.9455128205128205,
+ "eps_growth_last_q": 1.1111111111111112,
+ "eps_forward_growth": 0.5890052356020943,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6832594336272411
+  },
   {
    "period": "2026-06-30",
    "value": 0.5798314638093643
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5751790840676309
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6531769777235795
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.027211483685063875,
+ "dilution_1y": 0.03291138809775673,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1767000.0,
- "gap_24m": -451815000.0,
+ "need_24m": 1733000.0,
+ "gap_24m": -511404000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -4.072040978442491,
+ "net_debt_to_ebitda": -3.1415825354841114,
  "interest_coverage": null,
- "cash_to_debt": 59.619085173501574,
- "ev": 7670654791.725525,
- "ev_to_sales": 16.18254289321177,
- "ev_to_ebitda": 70.03820994809693,
- "pe_ttm": 55.876173176045356,
- "pe_trailing": 45.963444,
- "p_sales": 14.475911,
- "p_fcf": 158.3176404721371,
- "p_book": 9.728447742081297
+ "cash_to_debt": 71.66717877094972,
+ "ev": 6959482219.168091,
+ "ev_to_sales": 12.412153792263034,
+ "ev_to_ebitda": 43.21103092779055,
+ "pe_ttm": 41.40806045353647,
+ "pe_trailing": 42.2376,
+ "p_sales": 13.314557,
+ "p_fcf": 146.87401324377996,
+ "p_book": 8.23747541506829
 }

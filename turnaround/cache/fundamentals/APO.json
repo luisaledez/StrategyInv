@@ -1,40 +1,44 @@
 {
  "ticker": "APO",
- "fetched": "2026-10-24",
- "market_cap": 66630985711.28682,
- "shares_out": 590543159.0,
- "price": 112.83000183105469,
+ "fetched": "2026-11-10",
+ "market_cap": 71991445147.30573,
+ "shares_out": 590432584.0,
+ "price": 121.93000030517578,
  "long_name": "Apollo Global Management, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Asset Management",
- "pe_trailing_y": 40.44086,
- "pe_forward": 10.5896435,
- "peg": 0.42,
- "p_sales_y": 1.8717622,
- "eps_trailing_y": 2.79,
- "eps_forward": 10.65475,
- "earnings_growth_y": 0.637,
- "earnings_growth_q_y": 1.16,
- "bs_date": "2026-06-30",
- "cash": 266615000000.0,
- "total_debt": 13727000000.0,
+ "pe_trailing_y": null,
+ "pe_forward": 11.494708,
+ "peg": 0.44,
+ "p_sales_y": 2.3608396,
+ "eps_trailing_y": -1.79,
+ "eps_forward": 10.60749,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 269478000000.0,
+ "total_debt": 15249000000.0,
  "current_debt": null,
  "lease_obligations": null,
- "equity": 21006000000.0,
- "net_debt": -252888000000.0,
- "ocf_ttm": 9473000000.0,
+ "equity": 15949000000.0,
+ "net_debt": -254229000000.0,
+ "ocf_ttm": 9306000000.0,
  "capex_ttm": null,
- "fcf_ttm": 9473000000.0,
+ "fcf_ttm": 9306000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1309000000.0,
- "stock_issuance_ttm": -1309000000.0,
- "revenue_ttm": 35897000000.0,
- "net_income_ttm": 1875000000.0,
- "ebitda_ttm": 9520000000.0,
- "ebit_ttm": 7918000000.0,
- "interest_ttm": 499000000.0,
- "revenue_yoy_last_q": 0.636777223363663,
+ "buybacks_ttm": -1087000000.0,
+ "stock_issuance_ttm": -1087000000.0,
+ "revenue_ttm": 30813000000.0,
+ "net_income_ttm": -918000000.0,
+ "ebitda_ttm": 5336000000.0,
+ "ebit_ttm": 3596000000.0,
+ "interest_ttm": 542000000.0,
+ "revenue_yoy_last_q": -0.5175608266313754,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4739000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 11153000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 9823000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 6814000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.78
+  },
   {
    "period": "2026-06-30",
    "value": 2.15
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": 0.99
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.68
   }
  ],
- "eps_ttm": 2.6499999999999995,
+ "eps_ttm": -0.12000000000000055,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.24420190995907232,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 2.1617647058823524,
- "eps_forward_growth": 3.0206603773584915,
+ "eps_growth_last_q": -2.797979797979798,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9018780333403672
+  },
   {
    "period": "2026-06-30",
    "value": 0.9609970411548462
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9617224880382775
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9515702964484885
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.006901307878253826,
+ "dilution_1y": 0.017711556225152414,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -266615000000.0,
+ "gap_24m": -269478000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -26.563865546218487,
- "interest_coverage": 15.867735470941884,
- "cash_to_debt": 19.42267064908574,
- "ev": -186257014288.7132,
- "ev_to_sales": -5.188651260236599,
- "ev_to_ebitda": -19.564812425284998,
- "pe_ttm": 35.536525712686306,
- "pe_trailing": 40.44086,
- "p_sales": 1.8717622,
- "p_fcf": 7.033778709098154,
- "p_book": 3.1719977964051616
+ "net_debt_to_ebitda": -47.64411544227886,
+ "interest_coverage": 6.634686346863469,
+ "cash_to_debt": 17.671847334251428,
+ "ev": -182237554852.69427,
+ "ev_to_sales": -5.91430743039283,
+ "ev_to_ebitda": -34.15246530222906,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.3608396,
+ "p_fcf": 7.7360246236090395,
+ "p_book": 4.513853228873643
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "SRAD",
- "fetched": "2026-10-25",
- "market_cap": 3536622304.4517,
+ "fetched": "2026-11-10",
+ "market_cap": 4027902018.2130604,
  "shares_out": 295951662.0,
- "price": 11.949999809265137,
+ "price": 13.609999656677246,
  "long_name": "Sportradar Group AG",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 199.16667,
- "pe_forward": 27.274773,
+ "pe_trailing_y": 194.42856,
+ "pe_forward": 29.729551,
  "peg": null,
- "p_sales_y": 2.5530071,
- "eps_trailing_y": 0.06,
- "eps_forward": 0.4381338,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 251114000.0,
- "total_debt": 61029000.0,
- "current_debt": 10883000.0,
+ "p_sales_y": 2.7669141,
+ "eps_trailing_y": 0.07,
+ "eps_forward": 0.45779365,
+ "earnings_growth_y": -0.616,
+ "earnings_growth_q_y": 0.203,
+ "bs_date": "2026-09-30",
+ "cash": 190143000.0,
+ "total_debt": 59199000.0,
+ "current_debt": 10634000.0,
  "lease_obligations": 62852000.0,
- "equity": 782296000.0,
- "net_debt": -190085000.0,
- "ocf_ttm": 429318000.0,
- "capex_ttm": -235469000.0,
- "fcf_ttm": 193849000.0,
+ "equity": 690038000.0,
+ "net_debt": -130944000.0,
+ "ocf_ttm": 471421000.0,
+ "capex_ttm": -269281000.0,
+ "fcf_ttm": 202140000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -243338000.0,
- "stock_issuance_ttm": -243338000.0,
- "revenue_ttm": 1385277000.0,
- "net_income_ttm": 17066000.0,
- "ebitda_ttm": 496926000.0,
- "ebit_ttm": 110260000.0,
- "interest_ttm": 91032000.0,
- "revenue_yoy_last_q": 0.18888259542465158,
+ "buybacks_ttm": -376221000.0,
+ "stock_issuance_ttm": -376221000.0,
+ "revenue_ttm": 1455738000.0,
+ "net_income_ttm": 21626000.0,
+ "ebitda_ttm": 533929000.0,
+ "ebit_ttm": 118064000.0,
+ "interest_ttm": 94861000.0,
+ "revenue_yoy_last_q": 0.2412601779123038,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 362515000.0
+  },
   {
    "period": "2026-06-30",
    "value": 377815000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 292054000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 317790000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.01
+  },
   {
    "period": "2026-06-30",
    "value": -0.01
@@ -71,20 +75,20 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.07
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.15
+   "value": 0.01
   }
  ],
- "eps_ttm": 0.05000000000000001,
+ "eps_ttm": -0.01,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 2.0999999999999996,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -1.0666666666666667,
- "eps_forward_growth": 7.762675999999999,
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5749251755099789
+  },
   {
    "period": "2026-06-30",
    "value": 0.5135317549594378
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.639292733535579
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5528997136473772
   }
  ],
  "annual": [
@@ -137,18 +137,18 @@
  "dilution_1y": 0.0,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 10883000.0,
- "gap_24m": -240231000.0,
+ "need_24m": 10634000.0,
+ "gap_24m": -179509000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.3825217436801455,
- "interest_coverage": 1.2112224272783196,
- "cash_to_debt": 4.114666797751888,
- "ev": 3346537304.4517,
- "ev_to_sales": 2.4157892641339602,
- "ev_to_ebitda": 6.734478180758705,
- "pe_ttm": 207.23205815373845,
- "pe_trailing": 199.16667,
- "p_sales": 2.5530071,
- "p_fcf": 18.244212270642098,
- "p_book": 4.520823709250335
+ "net_debt_to_ebitda": -0.2452460907723686,
+ "interest_coverage": 1.2445999936749559,
+ "cash_to_debt": 3.2119292555617496,
+ "ev": 3896958018.2130604,
+ "ev_to_sales": 2.676963861775306,
+ "ev_to_ebitda": 7.298644610450192,
+ "pe_ttm": 186.25275216004164,
+ "pe_trailing": 194.42856,
+ "p_sales": 2.7669141,
+ "p_fcf": 19.926298695028496,
+ "p_book": 5.8372176868709555
 }

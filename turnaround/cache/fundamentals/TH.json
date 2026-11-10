@@ -1,0 +1,154 @@
+{
+ "ticker": "TH",
+ "fetched": "2026-11-10",
+ "market_cap": 1019449452.8970947,
+ "shares_out": 97929824.0,
+ "price": 10.40999984741211,
+ "long_name": "Target Hospitality Corp.",
+ "sector_y": "Industrials",
+ "industry_y": "Specialty Business Services",
+ "pe_trailing_y": null,
+ "pe_forward": 11.42876,
+ "peg": 0.9,
+ "p_sales_y": 2.703572,
+ "eps_trailing_y": -0.46,
+ "eps_forward": 0.91086,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 6068000.0,
+ "total_debt": 48280000.0,
+ "current_debt": 5842000.0,
+ "lease_obligations": 8280000.0,
+ "equity": 370109000.0,
+ "net_debt": 42212000.0,
+ "ocf_ttm": 170111000.0,
+ "capex_ttm": -160288000.0,
+ "fcf_ttm": 9823000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 347368000.0,
+ "net_income_ttm": -37683000.0,
+ "ebitda_ttm": 40195000.0,
+ "ebit_ttm": -39014000.0,
+ "interest_ttm": 2283000.0,
+ "revenue_yoy_last_q": 0.38712138428075193,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 85455000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 72781000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 89777000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 99355000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 61606000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.09
+  },
+  {
+   "period": "2026-06-30",
+   "value": -0.09
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.13
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.15
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.01
+  }
+ ],
+ "eps_ttm": -0.45999999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.5285714285714285,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1848575273535779
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.09457138538904385
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.07883979192889047
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.18061496653414524
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.005324156737980067
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 320635000.0,
+   "eps": -0.37,
+   "net_income": -37121000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 386272000.0,
+   "eps": 0.7,
+   "net_income": 71265000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 563608000.0,
+   "eps": 1.56,
+   "net_income": 173700000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 501985000.0,
+   "eps": 0.74,
+   "net_income": 73939000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.00508499502776516,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 5842000.0,
+ "gap_24m": -226000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.0501803706928723,
+ "interest_coverage": -17.088918090232152,
+ "cash_to_debt": 0.1256835128417564,
+ "ev": 1061661452.8970947,
+ "ev_to_sales": 3.0563018265847597,
+ "ev_to_ebitda": 26.412774048938793,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.703572,
+ "p_fcf": 103.7818846479787,
+ "p_book": 2.7544573433693715
+}

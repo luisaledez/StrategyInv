@@ -1,40 +1,44 @@
 {
  "ticker": "CPT",
- "fetched": "2026-10-24",
- "market_cap": 11804722956.0,
- "shares_out": 115732578.0,
- "price": 102.0,
+ "fetched": "2026-11-10",
+ "market_cap": 10034987488.524628,
+ "shares_out": 100069681.0,
+ "price": 100.27999877929688,
  "long_name": "Camden Property Trust",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Residential",
- "pe_trailing_y": 33.66337,
- "pe_forward": 136.0,
+ "pe_trailing_y": 9.371963,
+ "pe_forward": 218.0,
  "peg": 9.17,
- "p_sales_y": 7.462521,
- "eps_trailing_y": 3.03,
- "eps_forward": 0.75,
- "earnings_growth_y": -0.757,
- "earnings_growth_q_y": -0.767,
- "bs_date": "2026-06-30",
- "cash": 40684000.0,
- "total_debt": 4250508000.0,
- "current_debt": 358800000.0,
+ "p_sales_y": 6.380754,
+ "eps_trailing_y": 10.7,
+ "eps_forward": 0.46,
+ "earnings_growth_y": 7.713,
+ "earnings_growth_q_y": 7.265,
+ "bs_date": "2026-09-30",
+ "cash": 168704000.0,
+ "total_debt": 4228300000.0,
+ "current_debt": 39900000.0,
  "lease_obligations": null,
- "equity": 4028886000.0,
- "net_debt": 4209824000.0,
- "ocf_ttm": 826510000.0,
- "capex_ttm": -456028000.0,
- "fcf_ttm": 370482000.0,
+ "equity": 4547468000.0,
+ "net_debt": 4059596000.0,
+ "ocf_ttm": 752158000.0,
+ "capex_ttm": -461318000.0,
+ "fcf_ttm": 290840000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -533483000.0,
- "stock_issuance_ttm": -533483000.0,
- "revenue_ttm": 1571752000.0,
- "net_income_ttm": 388089000.0,
- "ebitda_ttm": 1156484000.0,
- "ebit_ttm": 544711000.0,
- "interest_ttm": 141808000.0,
- "revenue_yoy_last_q": -0.004588224751321812,
+ "buybacks_ttm": -583492000.0,
+ "stock_issuance_ttm": -583492000.0,
+ "revenue_ttm": 1556304000.0,
+ "net_income_ttm": 1207810000.0,
+ "ebitda_ttm": 1994045000.0,
+ "ebit_ttm": 1374348000.0,
+ "interest_ttm": 147467000.0,
+ "revenue_yoy_last_q": -0.03896002360602158,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 381061000.0
+  },
   {
    "period": "2026-03-31",
    "value": 388773000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-06-30",
    "value": 396509000.0
-  },
-  {
-   "period": "2025-03-31",
-   "value": 390565000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 8.71
+  },
   {
    "period": "2026-06-30",
    "value": 0.18
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.74
   }
  ],
- "eps_ttm": 3.02,
+ "eps_ttm": 10.73,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 1.3599999999999999,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.7567567567567568,
- "eps_forward_growth": -0.7516556291390728,
+ "eps_growth_last_q": 7.710000000000001,
+ "eps_forward_growth": -0.9571295433364398,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6058662523847888
+  },
   {
    "period": "2026-03-31",
    "value": 0.6116294084208522
@@ -100,10 +104,6 @@
   {
    "period": "2025-06-30",
    "value": 0.6115800650174397
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.6159768540447813
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.08310213381622034,
+ "dilution_1y": 0.08785162683134629,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 358800000.0,
- "gap_24m": 318116000.0,
- "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.640192168676782,
- "interest_coverage": 3.841186674940765,
- "cash_to_debt": 0.009571561799201413,
- "ev": 16014546956.0,
- "ev_to_sales": 10.188978258656581,
- "ev_to_ebitda": 13.847616530795065,
- "pe_ttm": 30.417566475731082,
- "pe_trailing": 33.66337,
- "p_sales": 7.462521,
- "p_fcf": 31.86314842826372,
- "p_book": 2.930021588101525
+ "need_24m": 39900000.0,
+ "gap_24m": -128804000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 2.035859772472537,
+ "interest_coverage": 9.319698644442486,
+ "cash_to_debt": 0.03989877728637987,
+ "ev": 14094583488.524628,
+ "ev_to_sales": 9.05644622678129,
+ "ev_to_ebitda": 7.068337719823087,
+ "pe_ttm": 8.308415635343827,
+ "pe_trailing": 9.371963,
+ "p_sales": 6.380754,
+ "p_fcf": 34.50346406451873,
+ "p_book": 2.20671975889102
 }

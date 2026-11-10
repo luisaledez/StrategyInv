@@ -1,40 +1,44 @@
 {
  "ticker": "HSY",
- "fetched": "2026-10-24",
- "market_cap": 34085028330.84471,
- "shares_out": 200925657.0,
- "price": 169.63999938964844,
+ "fetched": "2026-11-10",
+ "market_cap": 34866077025.03914,
+ "shares_out": 200980389.0,
+ "price": 173.47999572753906,
  "long_name": "The Hershey Company",
  "sector_y": "Consumer Defensive",
  "industry_y": "Confectioners",
- "pe_trailing_y": 23.174862,
- "pe_forward": 17.23649,
- "peg": 0.85,
- "p_sales_y": 2.8021438,
- "eps_trailing_y": 7.32,
- "eps_forward": 9.84191,
- "earnings_growth_y": 6.31,
- "earnings_growth_q_y": 6.297,
- "bs_date": "2026-06-30",
- "cash": 791213000.0,
- "total_debt": 5923312000.0,
- "current_debt": 976502000.0,
- "lease_obligations": 388173000.0,
- "equity": 4562690000.0,
- "net_debt": 5132099000.0,
- "ocf_ttm": 2656591000.0,
- "capex_ttm": -428434000.0,
- "fcf_ttm": 2228157000.0,
+ "pe_trailing_y": 19.624434,
+ "pe_forward": 18.30292,
+ "peg": 0.89,
+ "p_sales_y": 2.844352,
+ "eps_trailing_y": 8.84,
+ "eps_forward": 9.47827,
+ "earnings_growth_y": 1.118,
+ "earnings_growth_q_y": 1.102,
+ "bs_date": "2026-09-30",
+ "cash": 676688000.0,
+ "total_debt": 5430101000.0,
+ "current_debt": 685191000.0,
+ "lease_obligations": 379258000.0,
+ "equity": 4875716000.0,
+ "net_debt": 4753413000.0,
+ "ocf_ttm": 2565356000.0,
+ "capex_ttm": -443071000.0,
+ "fcf_ttm": 2122285000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -439354000.0,
  "stock_issuance_ttm": -439354000.0,
- "revenue_ttm": 12163912000.0,
- "net_income_ttm": 1489107000.0,
- "ebitda_ttm": 2679242000.0,
- "ebit_ttm": 2149841000.0,
- "interest_ttm": 227424000.0,
- "revenue_yoy_last_q": 0.06600635326639437,
+ "revenue_ttm": 12258004000.0,
+ "net_income_ttm": 1793601000.0,
+ "ebitda_ttm": 3077817000.0,
+ "ebit_ttm": 2539925000.0,
+ "interest_ttm": 221415000.0,
+ "revenue_yoy_last_q": 0.029575491180347857,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3275510000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2787306000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3181418000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2614718000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.88
+  },
   {
    "period": "2026-06-30",
    "value": 2.26
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.36
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.308675
   }
  ],
- "eps_ttm": 7.32,
+ "eps_ttm": 8.84,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.6025641025641026,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 6.321616587025188,
- "eps_forward_growth": 0.34452322404371594,
+ "eps_growth_last_q": 1.117647058823529,
+ "eps_forward_growth": 0.07220248868778278,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4613104524180967
+  },
   {
    "period": "2026-06-30",
    "value": 0.453236207291198
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.32606026620833856
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.30453494411251997
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.008581512964589089,
+ "dilution_1y": -0.008901451903014501,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 976502000.0,
- "gap_24m": 185289000.0,
+ "need_24m": 685191000.0,
+ "gap_24m": 8503000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 1.915504086603599,
- "interest_coverage": 9.453008477557338,
- "cash_to_debt": 0.13357611417396215,
- "ev": 39217127330.84471,
- "ev_to_sales": 3.224055495538336,
- "ev_to_ebitda": 14.637396446772897,
- "pe_ttm": 22.88957632382677,
- "pe_trailing": 23.174862,
- "p_sales": 2.8021438,
- "p_fcf": 15.297408724270646,
- "p_book": 7.470380045728444
+ "net_debt_to_ebitda": 1.5444105351292816,
+ "interest_coverage": 11.471332113903756,
+ "cash_to_debt": 0.12461793988730596,
+ "ev": 39619490025.03914,
+ "ev_to_sales": 3.2321322480429227,
+ "ev_to_ebitda": 12.872594447635821,
+ "pe_ttm": 19.439148966263478,
+ "pe_trailing": 19.624434,
+ "p_sales": 2.844352,
+ "p_fcf": 16.42855555452691,
+ "p_book": 7.150965524866325
 }

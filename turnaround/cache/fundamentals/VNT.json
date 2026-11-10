@@ -1,40 +1,44 @@
 {
  "ticker": "VNT",
- "fetched": "2026-10-24",
- "market_cap": 4645472082.519531,
- "shares_out": 135200000.0,
- "price": 34.36000061035156,
+ "fetched": "2026-11-10",
+ "market_cap": 5827264141.845703,
+ "shares_out": 132800000.0,
+ "price": 43.880001068115234,
  "long_name": "Vontier Corporation",
  "sector_y": "Technology",
  "industry_y": "Scientific & Technical Instruments",
- "pe_trailing_y": 14.198347,
- "pe_forward": 9.086774,
- "peg": 0.84,
- "p_sales_y": 1.5140215,
- "eps_trailing_y": 2.42,
- "eps_forward": 3.78132,
- "earnings_growth_y": -0.683,
- "earnings_growth_q_y": -0.702,
- "bs_date": "2026-06-30",
- "cash": 265800000.0,
- "total_debt": 1931100000.0,
- "current_debt": 316600000.0,
- "lease_obligations": 31100000.0,
- "equity": 1192700000.0,
- "net_debt": 1665300000.0,
- "ocf_ttm": 463400000.0,
- "capex_ttm": -78600000.0,
- "fcf_ttm": 384800000.0,
+ "pe_trailing_y": 17.983606,
+ "pe_forward": 11.28688,
+ "peg": 1.08,
+ "p_sales_y": 1.9088886,
+ "eps_trailing_y": 2.44,
+ "eps_forward": 3.8877,
+ "earnings_growth_y": 0.043,
+ "earnings_growth_q_y": -0.037,
+ "bs_date": "2026-09-30",
+ "cash": 258400000.0,
+ "total_debt": 1932500000.0,
+ "current_debt": 317700000.0,
+ "lease_obligations": 31500000.0,
+ "equity": 1210400000.0,
+ "net_debt": 1674100000.0,
+ "ocf_ttm": 495700000.0,
+ "capex_ttm": -79200000.0,
+ "fcf_ttm": 416500000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -395100000.0,
- "stock_issuance_ttm": -395100000.0,
- "revenue_ttm": 3068300000.0,
- "net_income_ttm": 348000000.0,
- "ebitda_ttm": 619600000.0,
- "ebit_ttm": 500700000.0,
- "interest_ttm": 59400000.0,
- "revenue_yoy_last_q": -0.021719457013574694,
+ "buybacks_ttm": -405100000.0,
+ "stock_issuance_ttm": -405100000.0,
+ "revenue_ttm": 3052700000.0,
+ "net_income_ttm": 344200000.0,
+ "ebitda_ttm": 618200000.0,
+ "ebit_ttm": 508300000.0,
+ "interest_ttm": 59900000.0,
+ "revenue_yoy_last_q": -0.020730897009966776,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 736900000.0
+  },
   {
    "period": "2026-06-30",
    "value": 756700000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 752500000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 773500000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.73
+  },
   {
    "period": "2026-06-30",
    "value": 0.2
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.7
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.62
   }
  ],
- "eps_ttm": 2.41,
+ "eps_ttm": 2.44,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.0036363636363636598,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.6774193548387096,
- "eps_forward_growth": 0.5690124481327801,
+ "eps_growth_last_q": 0.04285714285714293,
+ "eps_forward_growth": 0.5933196721311476,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4760483104898901
+  },
   {
    "period": "2026-06-30",
    "value": 0.482357605391833
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.47322259136212624
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4788623141564318
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0714285714285714,
+ "dilution_1y": -0.07903780068728528,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 316600000.0,
- "gap_24m": 50800000.0,
+ "need_24m": 317700000.0,
+ "gap_24m": 59300000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.687701743060039,
- "interest_coverage": 8.429292929292929,
- "cash_to_debt": 0.13764175858319092,
- "ev": 6310772082.519531,
- "ev_to_sales": 2.0567650107615068,
- "ev_to_ebitda": 10.185235769076067,
- "pe_ttm": 13.349057708389457,
- "pe_trailing": 14.198347,
- "p_sales": 1.5140215,
- "p_fcf": 12.072432646880278,
- "p_book": 3.894920837192531
+ "net_debt_to_ebitda": 2.708023293432546,
+ "interest_coverage": 8.485809682804675,
+ "cash_to_debt": 0.13371280724450194,
+ "ev": 7501364141.845703,
+ "ev_to_sales": 2.4572883486243993,
+ "ev_to_ebitda": 12.134202752904729,
+ "pe_ttm": 16.92987839002238,
+ "pe_trailing": 17.983606,
+ "p_sales": 1.9088886,
+ "p_fcf": 13.991030352570716,
+ "p_book": 4.814329264578406
 }

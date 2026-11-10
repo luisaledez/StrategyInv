@@ -1,0 +1,154 @@
+{
+ "ticker": "ANDE",
+ "fetched": "2026-11-10",
+ "market_cap": 1791856829.1005135,
+ "shares_out": 33662537.0,
+ "price": 53.22999954223633,
+ "long_name": "The Andersons, Inc.",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Food Distribution",
+ "pe_trailing_y": 8.961279,
+ "pe_forward": 8.304213,
+ "peg": 0.89,
+ "p_sales_y": 0.16150288,
+ "eps_trailing_y": 5.94,
+ "eps_forward": 6.41,
+ "earnings_growth_y": 1.305,
+ "earnings_growth_q_y": 1.306,
+ "bs_date": "2026-09-30",
+ "cash": 58285000.0,
+ "total_debt": 1085666000.0,
+ "current_debt": 517811000.0,
+ "lease_obligations": 71545000.0,
+ "equity": 1353725000.0,
+ "net_debt": 1027381000.0,
+ "ocf_ttm": -36161000.0,
+ "capex_ttm": -257750000.0,
+ "fcf_ttm": -293911000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 11094890000.0,
+ "net_income_ttm": 203630000.0,
+ "ebitda_ttm": 435744000.0,
+ "ebit_ttm": 297427000.0,
+ "interest_ttm": 57966000.0,
+ "revenue_yoy_last_q": 0.058259812855153914,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2833715000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 3097660000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2627266000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2536249000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2677712000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.97
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.97
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.59
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.23
+  }
+ ],
+ "eps_ttm": 4.89,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.15963855421686746,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 4.91304347826087,
+ "eps_forward_growth": 0.3108384458077711,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.06423264160298407
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.07222548633484631
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.06112209422266341
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.09127297832350056
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.06381268784693798
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 11008928000.0,
+   "eps": 2.79,
+   "net_income": 95713000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 11257548000.0,
+   "eps": 3.32,
+   "net_income": 114012000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 14750112000.0,
+   "eps": 2.94,
+   "net_income": 101190000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 17325384000.0,
+   "eps": 3.81,
+   "net_income": 131080000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0008257927243713326,
+ "fcf_burn_annual": 293911000.0,
+ "runway_months": 2.3796999772039835,
+ "need_24m": 1105633000.0,
+ "gap_24m": 1047348000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 2.357762814863773,
+ "interest_coverage": 5.131059586654246,
+ "cash_to_debt": 0.05368594024313186,
+ "ev": 2819237829.1005135,
+ "ev_to_sales": 0.25410236866706326,
+ "ev_to_ebitda": 6.469940674112583,
+ "pe_ttm": 8.799571915240945,
+ "pe_trailing": 8.961279,
+ "p_sales": 0.16150288,
+ "p_fcf": null,
+ "p_book": 1.3236490639535456
+}

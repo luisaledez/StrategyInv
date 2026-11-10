@@ -1,40 +1,44 @@
 {
  "ticker": "AEHR",
- "fetched": "2026-10-25",
- "market_cap": 1806399534.111061,
- "shares_out": 32659546.0,
- "price": 55.310001373291016,
+ "fetched": "2026-11-10",
+ "market_cap": 1961620378.6282082,
+ "shares_out": 32794791.0,
+ "price": 59.814998626708984,
  "long_name": "Aehr Test Systems, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductor Equipment & Materials",
  "pe_trailing_y": null,
- "pe_forward": 40.225456,
- "peg": 0.52,
- "p_sales_y": 36.127266,
+ "pe_forward": 35.55126,
+ "peg": 0.58,
+ "p_sales_y": 39.231625,
  "eps_trailing_y": -0.23,
- "eps_forward": 1.375,
+ "eps_forward": 1.6825,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-05-31",
- "cash": 116358000.0,
- "total_debt": 9882000.0,
- "current_debt": 626000.0,
- "lease_obligations": 9882000.0,
- "equity": 219511000.0,
- "net_debt": -106476000.0,
- "ocf_ttm": -3310000.0,
- "capex_ttm": -2066000.0,
- "fcf_ttm": -5376000.0,
+ "bs_date": "2026-09-30",
+ "cash": 104902000.0,
+ "total_debt": 9804000.0,
+ "current_debt": 653000.0,
+ "lease_obligations": 9804000.0,
+ "equity": 222112000.0,
+ "net_debt": -95098000.0,
+ "ocf_ttm": -6082000.0,
+ "capex_ttm": -724000.0,
+ "fcf_ttm": -6806000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1450000.0,
- "stock_issuance_ttm": 97395000.0,
- "revenue_ttm": 50001000.0,
- "net_income_ttm": -7126000.0,
- "ebitda_ttm": -10613000.0,
- "ebit_ttm": -14143000.0,
+ "buybacks_ttm": -1434000.0,
+ "stock_issuance_ttm": 97562000.0,
+ "revenue_ttm": 72039000.0,
+ "net_income_ttm": 2139000.0,
+ "ebitda_ttm": -734000.0,
+ "ebit_ttm": -4249000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.33685854212506205,
+ "revenue_yoy_last_q": 2.0091166013310238,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 33007000.0
+  },
   {
    "period": "2026-05-31",
    "value": 18835000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-08-31",
    "value": 10969000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 14089000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.21
+  },
   {
    "period": "2026-05-31",
    "value": 0.04
@@ -72,19 +76,19 @@
   {
    "period": "2025-08-31",
    "value": -0.07
-  },
-  {
-   "period": "2025-05-31",
-   "value": -0.1
   }
  ],
- "eps_ttm": -0.24000000000000002,
+ "eps_ttm": 0.039999999999999994,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -1.2053571428571428,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": null,
- "eps_forward_growth": null,
+ "eps_forward_growth": 41.06250000000001,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4745357045475202
+  },
   {
    "period": "2026-05-31",
    "value": 0.42574993363419167
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.3390464035007749
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.3032152743274895
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.08712387455233128,
- "fcf_burn_annual": 5376000.0,
- "runway_months": 259.72767857142856,
- "need_24m": 11378000.0,
- "gap_24m": -104980000.0,
+ "dilution_1y": 0.08974743936209251,
+ "fcf_burn_annual": 6806000.0,
+ "runway_months": 184.95797825448136,
+ "need_24m": 14265000.0,
+ "gap_24m": -90637000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 10.03260152642985,
+ "net_debt_to_ebitda": 129.56130790190736,
  "interest_coverage": null,
- "cash_to_debt": 11.774741955069825,
- "ev": 1699923534.111061,
- "ev_to_sales": 33.99779072640669,
+ "cash_to_debt": 10.699918400652795,
+ "ev": 1866522378.6282082,
+ "ev_to_sales": 25.90988740304846,
  "ev_to_ebitda": null,
- "pe_ttm": null,
- "pe_trailing": null,
- "p_sales": 36.127266,
+ "pe_ttm": 917.0735757962638,
+ "pe_trailing": 1495.3749656677248,
+ "p_sales": 39.231625,
  "p_fcf": null,
- "p_book": 8.229198236585233
+ "p_book": 8.831672213244707
 }

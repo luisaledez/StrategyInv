@@ -1,40 +1,44 @@
 {
  "ticker": "PGR",
- "fetched": "2026-10-24",
- "market_cap": 132166569244.38477,
- "shares_out": 579500000.0,
- "price": 228.07000732421875,
+ "fetched": "2026-11-10",
+ "market_cap": 131816484531.30226,
+ "shares_out": 579362175.0,
+ "price": 227.52000427246094,
  "long_name": "The Progressive Corporation",
  "sector_y": "Financial Services",
  "industry_y": "Insurance - Property & Casualty",
- "pe_trailing_y": 11.489673,
- "pe_forward": 13.996602,
- "peg": 69.62,
- "p_sales_y": 1.4413087,
+ "pe_trailing_y": 11.461965,
+ "pe_forward": 14.043257,
+ "peg": 69.53,
+ "p_sales_y": 1.4374908,
  "eps_trailing_y": 19.85,
- "eps_forward": 16.29467,
- "earnings_growth_y": -0.021,
+ "eps_forward": 16.20137,
+ "earnings_growth_y": -0.018,
  "earnings_growth_q_y": -0.028,
- "bs_date": "2026-06-30",
- "cash": 13552000000.0,
- "total_debt": 8387000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 14566000000.0,
+ "total_debt": 8389000000.0,
  "current_debt": 1000000000.0,
  "lease_obligations": null,
- "equity": 34333000000.0,
- "net_debt": -5165000000.0,
- "ocf_ttm": 16339000000.0,
- "capex_ttm": -388000000.0,
- "fcf_ttm": 15951000000.0,
+ "equity": 34485000000.0,
+ "net_debt": -6177000000.0,
+ "ocf_ttm": 15662000000.0,
+ "capex_ttm": -438000000.0,
+ "fcf_ttm": 15224000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1191000000.0,
- "stock_issuance_ttm": -1191000000.0,
- "revenue_ttm": 91019000000.0,
- "net_income_ttm": 11695000000.0,
+ "buybacks_ttm": -1622000000.0,
+ "stock_issuance_ttm": -1622000000.0,
+ "revenue_ttm": 91699000000.0,
+ "net_income_ttm": 11622000000.0,
  "ebitda_ttm": null,
- "ebit_ttm": 15077000000.0,
- "interest_ttm": 297000000.0,
- "revenue_yoy_last_q": 0.07292566492384633,
+ "ebit_ttm": 15007000000.0,
+ "interest_ttm": 314000000.0,
+ "revenue_yoy_last_q": 0.030219536041240724,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 23182000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 23599000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 22502000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 21995000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4.37
+  },
   {
    "period": "2026-06-30",
    "value": 5.67
@@ -72,18 +76,14 @@
   {
    "period": "2025-06-30",
    "value": 5.4
-  },
-  {
-   "period": "2025-03-31",
-   "value": 4.37
   }
  ],
- "eps_ttm": 20.32,
+ "eps_ttm": 19.29,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.3354166666666667,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.29748283752860405,
- "eps_forward_growth": -0.1980969488188976,
+ "eps_growth_last_q": -0.19074074074074077,
+ "eps_forward_growth": -0.16011560393986513,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.008202690862781692,
+ "dilution_1y": -0.01176671214188263,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 1000000000.0,
- "gap_24m": -12552000000.0,
+ "gap_24m": -13566000000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
- "interest_coverage": 50.764309764309765,
- "cash_to_debt": 1.615834028854179,
- "ev": 127001569244.38477,
- "ev_to_sales": 1.3953303073466503,
+ "interest_coverage": 47.79299363057325,
+ "cash_to_debt": 1.7363213732268448,
+ "ev": 125639484531.30225,
+ "ev_to_sales": 1.3701292765602924,
  "ev_to_ebitda": null,
- "pe_ttm": 11.30111750700169,
- "pe_trailing": 11.489673,
- "p_sales": 1.4413087,
- "p_fcf": 8.285785796776677,
- "p_book": 3.8495490998277098
+ "pe_ttm": 11.341979395224769,
+ "pe_trailing": 11.461965,
+ "p_sales": 1.4374908,
+ "p_fcf": 8.658465878304142,
+ "p_book": 3.822429593484189
 }

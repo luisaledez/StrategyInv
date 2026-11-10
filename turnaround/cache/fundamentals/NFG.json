@@ -1,20 +1,20 @@
 {
  "ticker": "NFG",
- "fetched": "2026-10-24",
- "market_cap": 7653981706.448151,
- "shares_out": 95045099.0,
- "price": 80.52999877929688,
+ "fetched": "2026-11-10",
+ "market_cap": 7081998012.0,
+ "shares_out": 95060376.0,
+ "price": 74.5,
  "long_name": "National Fuel Gas Company",
  "sector_y": "Energy",
  "industry_y": "Oil & Gas Integrated",
- "pe_trailing_y": 11.215878,
- "pe_forward": 10.809396,
+ "pe_trailing_y": 10.612535,
+ "pe_forward": 9.757694,
  "peg": 1.55,
- "p_sales_y": 3.0449598,
- "eps_trailing_y": 7.18,
- "eps_forward": 7.45,
- "earnings_growth_y": -0.116,
- "earnings_growth_q_y": -0.075,
+ "p_sales_y": 2.8156552,
+ "eps_trailing_y": 7.02,
+ "eps_forward": 7.635,
+ "earnings_growth_y": -0.128,
+ "earnings_growth_q_y": -0.092,
  "bs_date": "2026-06-30",
  "cash": 1235178000.0,
  "total_debt": 3567401000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.02
+  },
+  {
    "period": "2026-06-30",
    "value": 1.45
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.18
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.64
   }
  ],
- "eps_ttm": 7.199999999999999,
+ "eps_ttm": 7.039999999999999,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 5.761904761904762,
+ "eps_growth_yoy": 0.2359154929577465,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.11585365853658536,
- "eps_forward_growth": 0.03472222222222232,
+ "eps_growth_last_q": -0.13559322033898302,
+ "eps_forward_growth": 0.08451704545454564,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -128,7 +128,7 @@
   {
    "year": "2022",
    "revenue": 2186046000.0,
-   "eps": 6.15,
+   "eps": null,
    "net_income": 566021000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 1.5184168567219005,
  "interest_coverage": 7.094578130784505,
  "cash_to_debt": 0.34624030211349943,
- "ev": 9986204706.44815,
- "ev_to_sales": 3.972780963842368,
- "ev_to_ebitda": 6.501617367184205,
- "pe_ttm": 11.334597566695916,
- "pe_trailing": 11.215878,
- "p_sales": 3.0449598,
- "p_fcf": 34.436133760665825,
- "p_book": 1.9507155673153056
+ "ev": 9414221012.0,
+ "ev_to_sales": 3.745230457946513,
+ "ev_to_ebitda": 6.129221724306084,
+ "pe_ttm": 10.48756065964139,
+ "pe_trailing": 10.612535,
+ "p_sales": 2.8156552,
+ "p_fcf": 31.862714099322435,
+ "p_book": 1.8049381746060267
 }

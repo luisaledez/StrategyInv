@@ -1,40 +1,44 @@
 {
  "ticker": "DOCN",
- "fetched": "2026-10-24",
- "market_cap": 10960765794.529724,
- "shares_out": 117579550.0,
- "price": 93.22000122070312,
+ "fetched": "2026-11-10",
+ "market_cap": 9711727894.58477,
+ "shares_out": 117996815.0,
+ "price": 82.30500030517578,
  "long_name": "DigitalOcean Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
- "pe_trailing_y": 42.958523,
- "pe_forward": 50.929317,
+ "pe_trailing_y": 283.81036,
+ "pe_forward": 41.78852,
  "peg": 1.54,
- "p_sales_y": 10.840298,
- "eps_trailing_y": 2.17,
- "eps_forward": 1.83038,
- "earnings_growth_y": -0.245,
- "earnings_growth_q_y": -0.043,
- "bs_date": "2026-06-30",
- "cash": 767026000.0,
- "total_debt": 1529917000.0,
- "current_debt": 567664000.0,
- "lease_obligations": 608864000.0,
- "equity": 930731000.0,
- "net_debt": 762891000.0,
- "ocf_ttm": 309956000.0,
- "capex_ttm": -313767000.0,
- "fcf_ttm": -3811000.0,
+ "p_sales_y": 8.807457,
+ "eps_trailing_y": 0.29,
+ "eps_forward": 1.96956,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 844741000.0,
+ "total_debt": 2051840000.0,
+ "current_debt": 663908000.0,
+ "lease_obligations": 1590210000.0,
+ "equity": 1416456000.0,
+ "net_debt": 1207099000.0,
+ "ocf_ttm": 375396000.0,
+ "capex_ttm": -329886000.0,
+ "fcf_ttm": 45510000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2925000.0,
- "stock_issuance_ttm": 884963000.0,
- "revenue_ttm": 1011113000.0,
- "net_income_ttm": 235239000.0,
- "ebitda_ttm": 378084000.0,
- "ebit_ttm": 205981000.0,
- "interest_ttm": 31509000.0,
- "revenue_yoy_last_q": 0.2857064471879287,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 887888000.0,
+ "revenue_ttm": 1102671000.0,
+ "net_income_ttm": 34259000.0,
+ "ebitda_ttm": 302793000.0,
+ "ebit_ttm": 90608000.0,
+ "interest_ttm": 42875000.0,
+ "revenue_yoy_last_q": 0.3987127341769947,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 321192000.0
+  },
   {
    "period": "2026-06-30",
    "value": 281184000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 229634000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 218700000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.37
+  },
   {
    "period": "2026-06-30",
    "value": 0.29
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.51
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.39
   }
  ],
- "eps_ttm": 2.19,
+ "eps_ttm": 0.30999999999999994,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 1.8314606741573032,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.2564102564102565,
- "eps_forward_growth": -0.1642100456621005,
+ "eps_growth_last_q": -1.2450331125827814,
+ "eps_forward_growth": 5.353419354838711,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5014757528207427
+  },
   {
    "period": "2026-06-30",
    "value": 0.5500384090133151
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5963097799106404
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5987425697302241
   }
  ],
  "annual": [
@@ -128,27 +128,27 @@
   {
    "year": "2022",
    "revenue": 576322000.0,
-   "eps": -0.28,
+   "eps": -0.24,
    "net_income": -27804000.0
   }
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.15242058428019423,
- "fcf_burn_annual": 3811000.0,
- "runway_months": 2415.1960115455263,
- "need_24m": 575286000.0,
- "gap_24m": -191740000.0,
+ "dilution_1y": 0.2892266083352095,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 663908000.0,
+ "gap_24m": -180833000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.0177817627828736,
- "interest_coverage": 6.537211590339268,
- "cash_to_debt": 0.5013513804997265,
- "ev": 11723656794.529724,
- "ev_to_sales": 11.594803740560872,
- "ev_to_ebitda": 31.00807438169752,
- "pe_ttm": 46.594169310912406,
- "pe_trailing": 42.958523,
- "p_sales": 10.840298,
- "p_fcf": null,
- "p_book": 11.7765130789989
+ "net_debt_to_ebitda": 3.986548566182177,
+ "interest_coverage": 2.1133061224489795,
+ "cash_to_debt": 0.4116992553025577,
+ "ev": 10918826894.58477,
+ "ev_to_sales": 9.902162018031461,
+ "ev_to_ebitda": 36.06036762601767,
+ "pe_ttm": 283.47960812004936,
+ "pe_trailing": 283.81036,
+ "p_sales": 8.807457,
+ "p_fcf": 213.39766852526412,
+ "p_book": 6.856356917959167
 }

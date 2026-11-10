@@ -1,40 +1,44 @@
 {
  "ticker": "ALGN",
- "fetched": "2026-10-24",
- "market_cap": 10976367142.286438,
- "shares_out": 71039852.0,
- "price": 154.50999450683594,
+ "fetched": "2026-11-10",
+ "market_cap": 12283073468.583054,
+ "shares_out": 70487053.0,
+ "price": 174.25999450683594,
  "long_name": "Align Technology, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
- "pe_trailing_y": 26.871304,
- "pe_forward": 12.463982,
- "peg": 0.65,
- "p_sales_y": 2.6515963,
- "eps_trailing_y": 5.75,
- "eps_forward": 12.39652,
- "earnings_growth_y": -0.121,
- "earnings_growth_q_y": -0.131,
- "bs_date": "2026-06-30",
- "cash": 1102591000.0,
- "total_debt": 120842000.0,
- "current_debt": 34224000.0,
- "lease_obligations": 120842000.0,
- "equity": 4232453000.0,
- "net_debt": -981749000.0,
- "ocf_ttm": 755696000.0,
- "capex_ttm": -122127000.0,
- "fcf_ttm": 633569000.0,
+ "pe_trailing_y": 25.40233,
+ "pe_forward": 14.170682,
+ "peg": 0.76,
+ "p_sales_y": 2.9536538,
+ "eps_trailing_y": 6.86,
+ "eps_forward": 12.29722,
+ "earnings_growth_y": 1.436,
+ "earnings_growth_q_y": 1.38,
+ "bs_date": "2026-09-30",
+ "cash": 1144931000.0,
+ "total_debt": 146459000.0,
+ "current_debt": 34163000.0,
+ "lease_obligations": 146459000.0,
+ "equity": 4305577000.0,
+ "net_debt": -998472000.0,
+ "ocf_ttm": 749893000.0,
+ "capex_ttm": -147393000.0,
+ "fcf_ttm": 602500000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -266931000.0,
- "stock_issuance_ttm": -247373000.0,
- "revenue_ttm": 4139532000.0,
- "net_income_ttm": 413578000.0,
- "ebitda_ttm": 906705000.0,
- "ebit_ttm": 652314000.0,
+ "buybacks_ttm": -298439000.0,
+ "stock_issuance_ttm": -278500000.0,
+ "revenue_ttm": 4158603000.0,
+ "net_income_ttm": 491869000.0,
+ "ebitda_ttm": 955356000.0,
+ "ebit_ttm": 717233000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.04320513922182756,
+ "revenue_yoy_last_q": 0.019153513335449013,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1014763000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1056192000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 995692000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1012449000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.9
+  },
   {
    "period": "2026-06-30",
    "value": 1.51
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.78
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.72
   }
  ],
- "eps_ttm": 5.75,
+ "eps_ttm": 6.87,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.005338078291815096,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.12209302325581395,
- "eps_forward_growth": 1.1559165217391305,
+ "eps_growth_last_q": 1.4358974358974357,
+ "eps_forward_growth": 0.7899883551673943,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6873240352673481
+  },
   {
    "period": "2026-06-30",
    "value": 0.7171328697812519
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6419665920786749
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6994100443577899
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.017120547416052734,
+ "dilution_1y": -0.01873958911715712,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 34224000.0,
- "gap_24m": -1068367000.0,
+ "need_24m": 34163000.0,
+ "gap_24m": -1110768000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.0827656183654,
+ "net_debt_to_ebitda": -1.0451308203434113,
  "interest_coverage": null,
- "cash_to_debt": 9.124236606477881,
- "ev": 9994618142.286438,
- "ev_to_sales": 2.4144319073476033,
- "ev_to_ebitda": 11.02300984585553,
- "pe_ttm": 26.540016979351993,
- "pe_trailing": 26.871304,
- "p_sales": 2.6515963,
- "p_fcf": 17.32465941718493,
- "p_book": 2.59338193295624
+ "cash_to_debt": 7.81741647833182,
+ "ev": 11284601468.583054,
+ "ev_to_sales": 2.713555842811409,
+ "ev_to_ebitda": 11.811933424381124,
+ "pe_ttm": 24.972245595032526,
+ "pe_trailing": 25.40233,
+ "p_sales": 2.9536538,
+ "p_fcf": 20.38684393125818,
+ "p_book": 2.8528286611952485
 }

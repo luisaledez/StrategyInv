@@ -1,0 +1,154 @@
+{
+ "ticker": "IRMD",
+ "fetched": "2026-11-10",
+ "market_cap": 1093195267.0102692,
+ "shares_out": 12788153.0,
+ "price": 85.48500061035156,
+ "long_name": "IRADIMED CORPORATION",
+ "sector_y": "Healthcare",
+ "industry_y": "Medical Devices",
+ "pe_trailing_y": 45.713905,
+ "pe_forward": 35.082714,
+ "peg": null,
+ "p_sales_y": 12.236347,
+ "eps_trailing_y": 1.87,
+ "eps_forward": 2.43667,
+ "earnings_growth_y": 0.183,
+ "earnings_growth_q_y": 0.167,
+ "bs_date": "2026-09-30",
+ "cash": 63288000.0,
+ "total_debt": 0.0,
+ "current_debt": 59221.0,
+ "lease_obligations": 0.0,
+ "equity": 106454000.0,
+ "net_debt": -63288000.0,
+ "ocf_ttm": 27149572.0,
+ "capex_ttm": -1540407.0,
+ "fcf_ttm": 25609165.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 89339899.0,
+ "net_income_ttm": 23983958.0,
+ "ebitda_ttm": 30518477.0,
+ "ebit_ttm": 28860797.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.14154325063673245,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 24203000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 20466000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 21979000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 22691899.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 21202000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.51
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.41
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.45
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.5
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43
+  }
+ ],
+ "eps_ttm": 1.8699999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.16666666666666674,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.18604651162790709,
+ "eps_forward_growth": 0.3030320855614974,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7625500970954014
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.7407407407407407
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.7650029573683971
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.750571558598952
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.7779454768418074
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 83814000.0,
+   "eps": 1.75,
+   "net_income": 22480000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 73242000.0,
+   "eps": 1.5,
+   "net_income": 19234000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 65562296.0,
+   "eps": 1.35,
+   "net_income": 17192776.0
+  },
+  {
+   "year": "2022",
+   "revenue": 53303145.0,
+   "eps": 1.02,
+   "net_income": 12828487.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0052665811188856715,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 59221.0,
+ "gap_24m": -63228779.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -2.0737601027731496,
+ "interest_coverage": null,
+ "cash_to_debt": null,
+ "ev": 1029907267.0102692,
+ "ev_to_sales": 11.527965427969301,
+ "ev_to_ebitda": 33.74700732969961,
+ "pe_ttm": 45.58026940383523,
+ "pe_trailing": 45.713905,
+ "p_sales": 12.236347,
+ "p_fcf": 42.68765760266956,
+ "p_book": 10.269179805458407
+}

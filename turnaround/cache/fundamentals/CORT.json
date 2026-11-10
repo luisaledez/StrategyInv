@@ -1,0 +1,154 @@
+{
+ "ticker": "CORT",
+ "fetched": "2026-11-10",
+ "market_cap": 8102620975.6076355,
+ "shares_out": 109443109.0,
+ "price": 74.03500366210938,
+ "long_name": "Corcept Therapeutics Incorporated",
+ "sector_y": "Healthcare",
+ "industry_y": "Biotechnology",
+ "pe_trailing_y": 55.665413,
+ "pe_forward": 14.856533,
+ "peg": 0.81,
+ "p_sales_y": 8.408288,
+ "eps_trailing_y": 1.33,
+ "eps_forward": 4.98333,
+ "earnings_growth_y": 5.313,
+ "earnings_growth_q_y": 5.446,
+ "bs_date": "2026-09-30",
+ "cash": 370703000.0,
+ "total_debt": 8991000.0,
+ "current_debt": 2024000.0,
+ "lease_obligations": 8991000.0,
+ "equity": 833740000.0,
+ "net_debt": -361712000.0,
+ "ocf_ttm": 198110000.0,
+ "capex_ttm": -3488000.0,
+ "fcf_ttm": 194622000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 963647000.0,
+ "net_income_ttm": 162292000.0,
+ "ebitda_ttm": 113879000.0,
+ "ebit_ttm": null,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.6397383908533121,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 340472000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 256147000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 164903000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 202125000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 207638000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.01
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.36
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.3
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.16
+  }
+ ],
+ "eps_ttm": 1.27,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.33333333333333337,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 5.3125,
+ "eps_forward_growth": 2.9238818897637793,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9864658474118283
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.9841458225159772
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.9825169948393905
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.987408781694496
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9778653233030563
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 761407000.0,
+   "eps": 0.82,
+   "net_income": 99652000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 675040000.0,
+   "eps": 1.23,
+   "net_income": 141209000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 482375000.0,
+   "eps": 0.94,
+   "net_income": 106140000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 401858000.0,
+   "eps": 0.87,
+   "net_income": 101418000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.028294176401202353,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2024000.0,
+ "gap_24m": -368679000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.1762835992588623,
+ "interest_coverage": null,
+ "cash_to_debt": 41.23045267489712,
+ "ev": 7740908975.6076355,
+ "ev_to_sales": 8.032930082911726,
+ "ev_to_ebitda": 67.97485906626889,
+ "pe_ttm": 49.9261884480297,
+ "pe_trailing": 55.665413,
+ "p_sales": 8.408288,
+ "p_fcf": 41.632605643799955,
+ "p_book": 9.718402590265113
+}

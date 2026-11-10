@@ -1,0 +1,154 @@
+{
+ "ticker": "FTI",
+ "fetched": "2026-11-10",
+ "market_cap": 24877557299.08622,
+ "shares_out": 388833346.0,
+ "price": 63.97999954223633,
+ "long_name": "TechnipFMC plc",
+ "sector_y": "Energy",
+ "industry_y": "Oil & Gas Equipment & Services",
+ "pe_trailing_y": 20.119495,
+ "pe_forward": 17.045877,
+ "peg": 2.18,
+ "p_sales_y": 2.3318484,
+ "eps_trailing_y": 3.18,
+ "eps_forward": 3.7534,
+ "earnings_growth_y": 0.4,
+ "earnings_growth_q_y": 0.351,
+ "bs_date": "2026-09-30",
+ "cash": 1049300000.0,
+ "total_debt": 1299600000.0,
+ "current_debt": 342800000.0,
+ "lease_obligations": 895600000.0,
+ "equity": 3331000000.0,
+ "net_debt": 250300000.0,
+ "ocf_ttm": 1864800000.0,
+ "capex_ttm": -271200000.0,
+ "fcf_ttm": 1593600000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -1173000000.0,
+ "stock_issuance_ttm": -1173000000.0,
+ "revenue_ttm": 10668600000.0,
+ "net_income_ttm": 1284300000.0,
+ "ebitda_ttm": 2098100000.0,
+ "ebit_ttm": 1690800000.0,
+ "interest_ttm": 57900000.0,
+ "revenue_yoy_last_q": 0.09386922524836616,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2895800000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 2763100000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2492700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2517000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2647300000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.05
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.9
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.64
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.59
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.64
+  }
+ ],
+ "eps_ttm": 3.18,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.20418848167539272,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.640625,
+ "eps_forward_growth": 0.1803144654088049,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.25164030665101184
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.24780138250515726
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2348056324467445
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20635677393722685
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.22808144146866619
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9932600000.0,
+   "eps": 2.3,
+   "net_income": 963900000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9083300000.0,
+   "eps": 1.91,
+   "net_income": 842900000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7824200000.0,
+   "eps": 0.12,
+   "net_income": 56200000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 6700400000.0,
+   "eps": -0.24,
+   "net_income": -107200000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": -0.03609394313967862,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 342800000.0,
+ "gap_24m": -706500000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.11929841284972117,
+ "interest_coverage": 29.202072538860104,
+ "cash_to_debt": 0.8074022776238843,
+ "ev": 25127857299.08622,
+ "ev_to_sales": 2.3553097219022385,
+ "ev_to_ebitda": 11.976482197743778,
+ "pe_ttm": 19.37051880330625,
+ "pe_trailing": 20.119495,
+ "p_sales": 2.3318484,
+ "p_fcf": 15.61091697984828,
+ "p_book": 7.468495136321291
+}

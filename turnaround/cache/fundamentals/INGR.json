@@ -1,40 +1,44 @@
 {
  "ticker": "INGR",
- "fetched": "2026-10-24",
- "market_cap": 6035222597.844009,
- "shares_out": 63063979.0,
- "price": 95.69999694824219,
+ "fetched": "2026-11-10",
+ "market_cap": 5779037699.605408,
+ "shares_out": 62287538.0,
+ "price": 92.77999877929688,
  "long_name": "Ingredion Incorporated",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
- "pe_trailing_y": 10.413493,
- "pe_forward": 8.521536,
- "peg": 1.1,
- "p_sales_y": 0.83648264,
- "eps_trailing_y": 9.19,
- "eps_forward": 11.23037,
- "earnings_growth_y": -0.405,
- "earnings_growth_q_y": -0.418,
- "bs_date": "2026-06-30",
- "cash": 952000000.0,
- "total_debt": 1783000000.0,
- "current_debt": 41000000.0,
+ "pe_trailing_y": 10.531214,
+ "pe_forward": 9.002697,
+ "peg": 1.07,
+ "p_sales_y": 0.80364865,
+ "eps_trailing_y": 8.81,
+ "eps_forward": 10.3058,
+ "earnings_growth_y": -0.146,
+ "earnings_growth_q_y": -0.17,
+ "bs_date": "2026-09-30",
+ "cash": 993000000.0,
+ "total_debt": 1775000000.0,
+ "current_debt": 533000000.0,
  "lease_obligations": 181000000.0,
- "equity": 4573000000.0,
- "net_debt": 831000000.0,
- "ocf_ttm": 805000000.0,
- "capex_ttm": -450000000.0,
- "fcf_ttm": 355000000.0,
+ "equity": 4609000000.0,
+ "net_debt": 782000000.0,
+ "ocf_ttm": 794000000.0,
+ "capex_ttm": -448000000.0,
+ "fcf_ttm": 346000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -183000000.0,
- "stock_issuance_ttm": -183000000.0,
- "revenue_ttm": 7215000000.0,
- "net_income_ttm": 592000000.0,
- "ebitda_ttm": 1121000000.0,
- "ebit_ttm": 897000000.0,
- "interest_ttm": 80000000.0,
- "revenue_yoy_last_q": 0.009274413529732684,
+ "buybacks_ttm": -175000000.0,
+ "stock_issuance_ttm": -175000000.0,
+ "revenue_ttm": 7191000000.0,
+ "net_income_ttm": 563000000.0,
+ "ebitda_ttm": 1070000000.0,
+ "ebit_ttm": 848000000.0,
+ "interest_ttm": 78000000.0,
+ "revenue_yoy_last_q": -0.013215859030836996,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1792000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1850000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1816000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1833000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.23
+  },
   {
    "period": "2026-06-30",
    "value": 1.78
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.61
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.99
   }
  ],
- "eps_ttm": 9.17,
+ "eps_ttm": 8.790000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.15139031925849622,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.4046822742474917,
- "eps_forward_growth": 0.22468593238822265,
+ "eps_growth_last_q": -0.14559386973180077,
+ "eps_forward_growth": 0.17244596131968137,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.22265625
+  },
   {
    "period": "2026-06-30",
    "value": 0.23027027027027028
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.2505506607929515
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2602291325695581
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.018662519440124425,
+ "dilution_1y": -0.02197802197802201,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 41000000.0,
- "gap_24m": -911000000.0,
+ "need_24m": 533000000.0,
+ "gap_24m": -460000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.7413024085637824,
- "interest_coverage": 11.2125,
- "cash_to_debt": 0.5339315759955132,
- "ev": 6866222597.844009,
- "ev_to_sales": 0.9516594037205834,
- "ev_to_ebitda": 6.125087063197154,
- "pe_ttm": 10.194632766628395,
- "pe_trailing": 10.413493,
- "p_sales": 0.83648264,
- "p_fcf": 17.00062703618031,
- "p_book": 1.3197512787762977
+ "net_debt_to_ebitda": 0.7308411214953271,
+ "interest_coverage": 10.871794871794872,
+ "cash_to_debt": 0.5594366197183098,
+ "ev": 6561037699.605408,
+ "ev_to_sales": 0.9123957307197063,
+ "ev_to_ebitda": 6.1318109342106615,
+ "pe_ttm": 10.264720603206763,
+ "pe_trailing": 10.531214,
+ "p_sales": 0.80364865,
+ "p_fcf": 16.702421097125455,
+ "p_book": 1.2538593403353022
 }

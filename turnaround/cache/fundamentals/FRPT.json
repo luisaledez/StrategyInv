@@ -1,40 +1,44 @@
 {
  "ticker": "FRPT",
- "fetched": "2026-10-25",
- "market_cap": 3081483836.8754425,
- "shares_out": 48058074.0,
- "price": 64.12000274658203,
+ "fetched": "2026-11-10",
+ "market_cap": 3255607734.3410797,
+ "shares_out": 48338646.0,
+ "price": 67.3499984741211,
  "long_name": "Freshpet, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Packaged Foods",
- "pe_trailing_y": 16.918207,
- "pe_forward": 33.027035,
- "peg": 2.57,
- "p_sales_y": 2.617398,
- "eps_trailing_y": 3.79,
- "eps_forward": 1.94144,
- "earnings_growth_y": 0.176,
- "earnings_growth_q_y": 0.191,
- "bs_date": "2026-06-30",
- "cash": 350809000.0,
- "total_debt": 493657000.0,
- "current_debt": 4586000.0,
- "lease_obligations": 95214000.0,
- "equity": 1237696000.0,
- "net_debt": 142848000.0,
- "ocf_ttm": 206622000.0,
- "capex_ttm": -145576000.0,
- "fcf_ttm": 61046000.0,
+ "pe_trailing_y": 26.72619,
+ "pe_forward": 33.046295,
+ "peg": 2.5,
+ "p_sales_y": 2.69884,
+ "eps_trailing_y": 2.52,
+ "eps_forward": 2.03805,
+ "earnings_growth_y": -0.687,
+ "earnings_growth_q_y": -0.708,
+ "bs_date": "2026-09-30",
+ "cash": 345860000.0,
+ "total_debt": 493197000.0,
+ "current_debt": 4481000.0,
+ "lease_obligations": 94190000.0,
+ "equity": 1231126000.0,
+ "net_debt": 147337000.0,
+ "ocf_ttm": 200622000.0,
+ "capex_ttm": -133309000.0,
+ "fcf_ttm": 67313000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1177308000.0,
- "net_income_ttm": 203474000.0,
- "ebitda_ttm": 269537000.0,
- "ebit_ttm": 172298000.0,
- "interest_ttm": 13980000.0,
- "revenue_yoy_last_q": 0.1545134100774872,
+ "revenue_ttm": 1206300000.0,
+ "net_income_ttm": 131523000.0,
+ "ebitda_ttm": 279544000.0,
+ "ebit_ttm": 182876000.0,
+ "interest_ttm": 13840000.0,
+ "revenue_yoy_last_q": 0.10037112945216853,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 317840000.0
+  },
   {
    "period": "2026-06-30",
    "value": 305587000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 288848000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 264689000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.58
+  },
   {
    "period": "2026-06-30",
    "value": 0.39
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.86
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.33
   }
  ],
- "eps_ttm": 3.8,
+ "eps_ttm": 2.52,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 1.838709677419355,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.18181818181818188,
- "eps_forward_growth": -0.48909473684210525,
+ "eps_growth_last_q": -0.6881720430107527,
+ "eps_forward_growth": -0.19124999999999992,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4445853259501636
+  },
   {
    "period": "2026-06-30",
    "value": 0.4211370248079925
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.39533595524289594
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4087438465519912
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": -0.003118082626124674,
+ "dilution_1y": -0.009509560797655414,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 4586000.0,
- "gap_24m": -346223000.0,
+ "need_24m": 4481000.0,
+ "gap_24m": -341379000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.5299754764651977,
- "interest_coverage": 12.324606580829757,
- "cash_to_debt": 0.7106330913974683,
- "ev": 3224331836.8754425,
- "ev_to_sales": 2.738732631457055,
- "ev_to_ebitda": 11.962483209635199,
- "pe_ttm": 15.144361622985947,
- "pe_trailing": 16.918207,
- "p_sales": 2.617398,
- "p_fcf": 50.478063048773755,
- "p_book": 2.4896936217580428
+ "net_debt_to_ebitda": 0.5270619294279255,
+ "interest_coverage": 13.213583815028901,
+ "cash_to_debt": 0.7012613620926323,
+ "ev": 3402944734.3410797,
+ "ev_to_sales": 2.820977148587482,
+ "ev_to_ebitda": 12.17319897526357,
+ "pe_ttm": 24.75314381774351,
+ "pe_trailing": 26.72619,
+ "p_sales": 2.69884,
+ "p_fcf": 48.36521525323607,
+ "p_book": 2.6444147344309843
 }

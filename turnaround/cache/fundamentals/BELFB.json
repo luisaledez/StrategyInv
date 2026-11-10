@@ -1,40 +1,44 @@
 {
  "ticker": "BELFB",
- "fetched": "2026-10-25",
- "market_cap": 2880814590.181732,
- "shares_out": 14439450.0,
- "price": 199.50999450683594,
+ "fetched": "2026-11-10",
+ "market_cap": 3238337195.1981506,
+ "shares_out": 14440102.0,
+ "price": 224.25999450683594,
  "long_name": "Bel Fuse Inc.",
  "sector_y": "Technology",
  "industry_y": "Electronic Components",
- "pe_trailing_y": 48.77995,
- "pe_forward": 18.622803,
- "peg": 1.39,
- "p_sales_y": 3.8715734,
- "eps_trailing_y": 4.09,
- "eps_forward": 10.71321,
- "earnings_growth_y": -0.117,
- "earnings_growth_q_y": -0.051,
- "bs_date": "2026-06-30",
- "cash": 306106000.0,
- "total_debt": 34262000.0,
- "current_debt": 8748000.0,
- "lease_obligations": 34262000.0,
- "equity": 909371000.0,
- "net_debt": -271844000.0,
- "ocf_ttm": 83510000.0,
- "capex_ttm": -10174000.0,
- "fcf_ttm": 73336000.0,
+ "pe_trailing_y": 52.519905,
+ "pe_forward": 18.174213,
+ "peg": 1.24,
+ "p_sales_y": 4.121994,
+ "eps_trailing_y": 4.27,
+ "eps_forward": 12.33946,
+ "earnings_growth_y": 0.036,
+ "earnings_growth_q_y": 0.182,
+ "bs_date": "2026-09-30",
+ "cash": 333122000.0,
+ "total_debt": 32264000.0,
+ "current_debt": 8689000.0,
+ "lease_obligations": 32264000.0,
+ "equity": 933371000.0,
+ "net_debt": -300858000.0,
+ "ocf_ttm": 95524000.0,
+ "capex_ttm": -14460000.0,
+ "fcf_ttm": 81064000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 744094000.0,
- "net_income_ttm": 53660000.0,
- "ebitda_ttm": 130899000.0,
- "ebit_ttm": 104056000.0,
- "interest_ttm": 10938000.0,
- "revenue_yoy_last_q": 0.2518493871027161,
+ "revenue_ttm": 785624000.0,
+ "net_income_ttm": 57700000.0,
+ "ebitda_ttm": 146597000.0,
+ "ebit_ttm": 119135000.0,
+ "interest_ttm": 7379000.0,
+ "revenue_yoy_last_q": 0.2320370991172198,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 220510000.0
+  },
   {
    "period": "2026-06-30",
    "value": 210685000.0
@@ -50,20 +54,20 @@
   {
    "period": "2025-09-30",
    "value": 178980000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 168299000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.83
+  },
   {
    "period": "2026-06-30",
    "value": 1.89
   },
   {
    "period": "2026-03-31",
-   "value": 0.91
+   "value": 0.86
   },
   {
    "period": "2025-12-31",
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.77
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.03
   }
  ],
- "eps_ttm": 4.15,
+ "eps_ttm": 4.16,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.504854368932039,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.06896551724137923,
- "eps_forward_growth": 1.5814963855421684,
+ "eps_growth_last_q": 0.033898305084745894,
+ "eps_forward_growth": 1.9662163461538462,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.40941907396489957
+  },
   {
    "period": "2026-06-30",
    "value": 0.39854284832807274
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.39747457816515813
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3867105568066358
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.14020634414759692,
+ "dilution_1y": 0.14037104380226184,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 8748000.0,
- "gap_24m": -297358000.0,
+ "need_24m": 8689000.0,
+ "gap_24m": -324433000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -2.0767461936302034,
- "interest_coverage": 9.51325653684403,
- "cash_to_debt": 8.934271204249606,
- "ev": 2608970590.181732,
- "ev_to_sales": 3.5062379083579924,
- "ev_to_ebitda": 19.931172814014868,
- "pe_ttm": 53.686444095820576,
- "pe_trailing": 48.77995,
- "p_sales": 3.8715734,
- "p_fcf": 39.282406869501095,
- "p_book": 3.1679200130438865
+ "net_debt_to_ebitda": -2.052279378159171,
+ "interest_coverage": 16.145141618105434,
+ "cash_to_debt": 10.324882221671212,
+ "ev": 2937479195.1981506,
+ "ev_to_sales": 3.739039534431421,
+ "ev_to_ebitda": 20.037785187951666,
+ "pe_ttm": 56.12369489078251,
+ "pe_trailing": 52.519905,
+ "p_sales": 4.121994,
+ "p_fcf": 39.94790776668004,
+ "p_book": 3.4695069754665084
 }

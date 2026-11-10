@@ -1,0 +1,133 @@
+{
+ "ticker": "AGNC",
+ "fetched": "2026-11-10",
+ "market_cap": 11375084771.794632,
+ "shares_out": 1273805642.0,
+ "price": 8.930000305175781,
+ "long_name": "AGNC Investment Corp.",
+ "sector_y": "Real Estate",
+ "industry_y": "REIT - Mortgage",
+ "pe_trailing_y": 446.50003,
+ "pe_forward": 6.169343,
+ "peg": 3.48,
+ "p_sales_y": 48.199516,
+ "eps_trailing_y": 0.02,
+ "eps_forward": 1.44748,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 468000000.0,
+ "total_debt": 56000000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 11560000000.0,
+ "net_debt": -412000000.0,
+ "ocf_ttm": 1137000000.0,
+ "capex_ttm": null,
+ "fcf_ttm": 1137000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 1916000000.0,
+ "revenue_ttm": 236000000.0,
+ "net_income_ttm": 103000000.0,
+ "ebitda_ttm": null,
+ "ebit_ttm": null,
+ "interest_ttm": 2972000000.0,
+ "revenue_yoy_last_q": -2.589712918660287,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1329000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 684000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": -114000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 995000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 836000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.17
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.52
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.17
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.83
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.72
+  }
+ ],
+ "eps_ttm": 0.010000000000000009,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.5806451612903225,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -2.625,
+ "eps_forward_growth": 143.74799999999988,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1797000000.0,
+   "eps": 1.47,
+   "net_income": 1670000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 973000000.0,
+   "eps": 0.93,
+   "net_income": 863000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 251000000.0,
+   "eps": 0.05,
+   "net_income": 155000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": -1116000000.0,
+   "eps": -2.41,
+   "net_income": -1190000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.17628414281719018,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 0.0,
+ "gap_24m": -468000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": null,
+ "interest_coverage": null,
+ "cash_to_debt": 8.357142857142858,
+ "ev": 10963084771.794632,
+ "ev_to_sales": 46.4537490330281,
+ "ev_to_ebitda": null,
+ "pe_ttm": 110.43771623101584,
+ "pe_trailing": 446.50003,
+ "p_sales": 48.199516,
+ "p_fcf": 10.004472094806184,
+ "p_book": 0.9840038729926153
+}

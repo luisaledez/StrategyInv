@@ -1,40 +1,44 @@
 {
  "ticker": "MKSI",
- "fetched": "2026-10-24",
- "market_cap": 13290231231.25241,
- "shares_out": 67617558.0,
- "price": 196.5500030517578,
+ "fetched": "2026-11-10",
+ "market_cap": 14422094825.455475,
+ "shares_out": 67620475.0,
+ "price": 213.27999877929688,
  "long_name": "MKS Inc.",
  "sector_y": "Technology",
  "industry_y": "Scientific & Technical Instruments",
- "pe_trailing_y": 31.248013,
- "pe_forward": 11.181457,
+ "pe_trailing_y": 25.240236,
+ "pe_forward": 10.8193445,
  "peg": 1.32,
- "p_sales_y": 3.0573344,
- "eps_trailing_y": 6.29,
- "eps_forward": 17.57821,
- "earnings_growth_y": 1.62,
- "earnings_growth_q_y": 1.823,
- "bs_date": "2026-06-30",
- "cash": 611000000.0,
- "total_debt": 4186000000.0,
- "current_debt": 1399000000.0,
- "lease_obligations": 243000000.0,
- "equity": 2988000000.0,
- "net_debt": 3575000000.0,
- "ocf_ttm": 635000000.0,
- "capex_ttm": -180000000.0,
- "fcf_ttm": 455000000.0,
+ "p_sales_y": 3.0222328,
+ "eps_trailing_y": 8.45,
+ "eps_forward": 19.71284,
+ "earnings_growth_y": 1.965,
+ "earnings_growth_q_y": 2.189,
+ "bs_date": "2026-09-30",
+ "cash": 676000000.0,
+ "total_debt": 4015000000.0,
+ "current_debt": 1400000000.0,
+ "lease_obligations": 238000000.0,
+ "equity": 3286000000.0,
+ "net_debt": 3339000000.0,
+ "ocf_ttm": 730000000.0,
+ "capex_ttm": -178000000.0,
+ "fcf_ttm": 552000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 4347000000.0,
- "net_income_ttm": 440000000.0,
- "ebitda_ttm": 1024000000.0,
- "ebit_ttm": 681000000.0,
- "interest_ttm": 193000000.0,
- "revenue_yoy_last_q": 0.2826310380267214,
+ "revenue_ttm": 4772000000.0,
+ "net_income_ttm": 602000000.0,
+ "ebitda_ttm": 1211000000.0,
+ "ebit_ttm": 866000000.0,
+ "interest_ttm": 175000000.0,
+ "revenue_yoy_last_q": 0.43016194331983804,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1413000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1248000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 988000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 973000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.26
+  },
   {
    "period": "2026-06-30",
    "value": 2.41
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.1
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.92
   }
  ],
- "eps_ttm": 6.27,
+ "eps_ttm": 8.43,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.5551601423487544,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 1.6195652173913042,
- "eps_forward_growth": 1.803542264752791,
+ "eps_growth_last_q": 1.9636363636363634,
+ "eps_forward_growth": 1.3384151838671414,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4769992922859165
+  },
   {
    "period": "2026-06-30",
    "value": 0.47676282051282054
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4665991902834008
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.46557040082219936
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.010463378176382765,
+ "dilution_1y": 0.00656646138716499,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1399000000.0,
- "gap_24m": 788000000.0,
+ "need_24m": 1400000000.0,
+ "gap_24m": 724000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.4912109375,
- "interest_coverage": 3.528497409326425,
- "cash_to_debt": 0.14596273291925466,
- "ev": 16865231231.25241,
- "ev_to_sales": 3.8797403338514864,
- "ev_to_ebitda": 16.469952374269933,
- "pe_ttm": 30.205070980119114,
- "pe_trailing": 31.248013,
- "p_sales": 3.0573344,
- "p_fcf": 29.20929940934596,
- "p_book": 4.447868551289294
+ "net_debt_to_ebitda": 2.7572254335260116,
+ "interest_coverage": 4.948571428571428,
+ "cash_to_debt": 0.1683686176836862,
+ "ev": 17761094825.455475,
+ "ev_to_sales": 3.7219394018138043,
+ "ev_to_ebitda": 14.666469715487592,
+ "pe_ttm": 23.956968148597134,
+ "pe_trailing": 25.240236,
+ "p_sales": 3.0222328,
+ "p_fcf": 26.126983379448323,
+ "p_book": 4.388951559785598
 }

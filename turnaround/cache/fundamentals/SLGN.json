@@ -1,40 +1,44 @@
 {
  "ticker": "SLGN",
- "fetched": "2026-10-24",
- "market_cap": 4153303305.3710175,
+ "fetched": "2026-11-10",
+ "market_cap": 4452383615.480576,
  "shares_out": 105682020.0,
- "price": 39.29999923706055,
+ "price": 42.130001068115234,
  "long_name": "Silgan Holdings Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Packaging & Containers",
- "pe_trailing_y": 15.411765,
- "pe_forward": 9.724522,
+ "pe_trailing_y": 16.987904,
+ "pe_forward": 10.409178,
  "peg": 0.79,
- "p_sales_y": 0.62157786,
- "eps_trailing_y": 2.55,
- "eps_forward": 4.04133,
- "earnings_growth_y": -0.137,
- "earnings_growth_q_y": -0.148,
- "bs_date": "2026-06-30",
- "cash": 351527000.0,
- "total_debt": 4833754000.0,
- "current_debt": 1178197000.0,
+ "p_sales_y": 0.663216,
+ "eps_trailing_y": 2.48,
+ "eps_forward": 4.04739,
+ "earnings_growth_y": -0.066,
+ "earnings_growth_q_y": -0.073,
+ "bs_date": "2026-09-30",
+ "cash": 324989000.0,
+ "total_debt": 4547999000.0,
+ "current_debt": 907721000.0,
  "lease_obligations": null,
- "equity": 2379372000.0,
- "net_debt": 4482227000.0,
- "ocf_ttm": 640842000.0,
- "capex_ttm": -298087000.0,
- "fcf_ttm": 342755000.0,
+ "equity": 2478361000.0,
+ "net_debt": 4223010000.0,
+ "ocf_ttm": 647443000.0,
+ "capex_ttm": -300752000.0,
+ "fcf_ttm": 346691000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -75875000.0,
- "stock_issuance_ttm": -75875000.0,
- "revenue_ttm": 6681871000.0,
- "net_income_ttm": 270294000.0,
- "ebitda_ttm": 908924000.0,
- "ebit_ttm": 576415000.0,
- "interest_ttm": 186287000.0,
- "revenue_yoy_last_q": 0.0676394477250919,
+ "buybacks_ttm": -16588000.0,
+ "stock_issuance_ttm": -16588000.0,
+ "revenue_ttm": 6713323000.0,
+ "net_income_ttm": 261982000.0,
+ "ebitda_ttm": 902837000.0,
+ "ebit_ttm": 569429000.0,
+ "interest_ttm": 183555000.0,
+ "revenue_yoy_last_q": 0.015657584185899687,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2040191000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1643269000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2008739000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1539161000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.99
+  },
   {
    "period": "2026-06-30",
    "value": 0.72
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.06
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.83
   }
  ],
- "eps_ttm": 2.55,
+ "eps_ttm": 2.48,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.04651162790697683,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.1325301204819277,
- "eps_forward_growth": 0.5848352941176473,
+ "eps_growth_last_q": -0.0660377358490567,
+ "eps_forward_growth": 0.6320120967741936,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.16105697946907913
+  },
   {
    "period": "2026-06-30",
    "value": 0.17944597019721056
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.16291315098676334
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.19432080204734917
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.012254799791912019,
+ "dilution_1y": 0.00013267971382058263,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1178197000.0,
- "gap_24m": 826670000.0,
+ "need_24m": 907721000.0,
+ "gap_24m": 582732000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.931355096795771,
- "interest_coverage": 3.0942309447250747,
- "cash_to_debt": 0.07272339469488931,
- "ev": 8635530305.371017,
- "ev_to_sales": 1.2923820746271542,
- "ev_to_ebitda": 9.500827687871613,
- "pe_ttm": 15.365873106214039,
- "pe_trailing": 15.411765,
- "p_sales": 0.62157786,
- "p_fcf": 12.117411286111121,
- "p_book": 1.7455460118766706
+ "net_debt_to_ebitda": 4.677488849039196,
+ "interest_coverage": 3.102225490997249,
+ "cash_to_debt": 0.07145757947616084,
+ "ev": 8675393615.480576,
+ "ev_to_sales": 1.292265189010059,
+ "ev_to_ebitda": 9.609036421281555,
+ "pe_ttm": 16.99499818873272,
+ "pe_trailing": 16.987904,
+ "p_sales": 0.663216,
+ "p_fcf": 12.842512829812645,
+ "p_book": 1.7965032598078228
 }

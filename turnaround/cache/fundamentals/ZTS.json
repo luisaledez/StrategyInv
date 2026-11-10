@@ -1,40 +1,44 @@
 {
  "ticker": "ZTS",
- "fetched": "2026-10-24",
- "market_cap": 33483507965.636658,
- "shares_out": 413223602.0,
- "price": 81.02999877929688,
+ "fetched": "2026-11-10",
+ "market_cap": 33447945097.042152,
+ "shares_out": 406316147.0,
+ "price": 82.31999969482422,
  "long_name": "Zoetis Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Drug Manufacturers - Specialty & Generic",
- "pe_trailing_y": 13.327303,
- "pe_forward": 12.567545,
- "peg": 15.08,
- "p_sales_y": 3.5153291,
- "eps_trailing_y": 6.08,
- "eps_forward": 6.44756,
- "earnings_growth_y": 0.012,
- "earnings_growth_q_y": -0.048,
- "bs_date": "2026-06-30",
- "cash": 1673000000.0,
- "total_debt": 9238000000.0,
- "current_debt": 1350000000.0,
- "lease_obligations": 190000000.0,
- "equity": 3148000000.0,
- "net_debt": 7565000000.0,
- "ocf_ttm": 2840000000.0,
- "capex_ttm": -524000000.0,
- "fcf_ttm": 2316000000.0,
+ "pe_trailing_y": 14.0,
+ "pe_forward": 12.899869,
+ "peg": 14.78,
+ "p_sales_y": 3.5230618,
+ "eps_trailing_y": 5.88,
+ "eps_forward": 6.38146,
+ "earnings_growth_y": -0.118,
+ "earnings_growth_q_y": -0.18,
+ "bs_date": "2026-09-30",
+ "cash": 1531000000.0,
+ "total_debt": 9237000000.0,
+ "current_debt": 750000000.0,
+ "lease_obligations": 188000000.0,
+ "equity": 3303000000.0,
+ "net_debt": 7706000000.0,
+ "ocf_ttm": 2773000000.0,
+ "capex_ttm": -495000000.0,
+ "fcf_ttm": 2278000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -3644000000.0,
- "stock_issuance_ttm": -3644000000.0,
- "revenue_ttm": 9517000000.0,
- "net_income_ttm": 2616000000.0,
- "ebitda_ttm": 3992000000.0,
- "ebit_ttm": 3510000000.0,
- "interest_ttm": 238000000.0,
- "revenue_yoy_last_q": -0.0024252223120452276,
+ "buybacks_ttm": -3750000000.0,
+ "stock_issuance_ttm": -3750000000.0,
+ "revenue_ttm": 9508000000.0,
+ "net_income_ttm": 2486000000.0,
+ "ebitda_ttm": 3847000000.0,
+ "ebit_ttm": 3356000000.0,
+ "interest_ttm": 242000000.0,
+ "revenue_yoy_last_q": -0.012799339388934738,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2391000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2468000000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 2400000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2474000000.0
+   "value": 2422000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.44
+  },
   {
    "period": "2026-06-30",
    "value": 1.65
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.63
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.61
   }
  ],
- "eps_ttm": 6.069999999999999,
+ "eps_ttm": 5.88,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.10054844606946989,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.024844720496894235,
- "eps_forward_growth": 0.06220098846787492,
+ "eps_growth_last_q": -0.1165644171779141,
+ "eps_forward_growth": 0.08528231292517008,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7080719364282727
+  },
   {
    "period": "2026-06-30",
    "value": 0.7273095623987034
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.7154166666666667
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7316087308003234
+   "value": 0.7122213047068539
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.06710630192019951,
+ "dilution_1y": -0.07696456768617954,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1350000000.0,
- "gap_24m": -323000000.0,
+ "need_24m": 750000000.0,
+ "gap_24m": -781000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.8950400801603207,
- "interest_coverage": 14.747899159663865,
- "cash_to_debt": 0.18109980515263044,
- "ev": 41048507965.63666,
- "ev_to_sales": 4.313177258131413,
- "ev_to_ebitda": 10.282692376161487,
- "pe_ttm": 12.799506103072117,
- "pe_trailing": 13.327303,
- "p_sales": 3.5153291,
- "p_fcf": 14.457473214869022,
- "p_book": 10.636438362654593
+ "net_debt_to_ebitda": 2.003119313750975,
+ "interest_coverage": 13.867768595041323,
+ "cash_to_debt": 0.16574645447656167,
+ "ev": 41153945097.04215,
+ "ev_to_sales": 4.328349295019158,
+ "ev_to_ebitda": 10.697672237338745,
+ "pe_ttm": 13.45452336968711,
+ "pe_trailing": 14.0,
+ "p_sales": 3.5230618,
+ "p_fcf": 14.683031210290673,
+ "p_book": 10.12653499759072
 }

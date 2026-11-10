@@ -1,40 +1,44 @@
 {
  "ticker": "SIMO",
- "fetched": "2026-10-25",
- "market_cap": 6354064135.954056,
+ "fetched": "2026-11-10",
+ "market_cap": 5728627010.426331,
  "shares_out": 33908235.0,
- "price": 187.38999938964844,
+ "price": 168.94500732421875,
  "long_name": "Silicon Motion Technology Corporation",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
- "pe_trailing_y": 25.918396,
- "pe_forward": 11.805776,
+ "pe_trailing_y": 18.16613,
+ "pe_forward": 7.8394866,
  "peg": 0.7,
- "p_sales_y": 4.837263,
- "eps_trailing_y": 7.23,
- "eps_forward": 15.87274,
- "earnings_growth_y": 7.338,
- "earnings_growth_q_y": 7.345,
- "bs_date": "2026-06-30",
- "cash": 74367000.0,
- "total_debt": 61869000.0,
+ "p_sales_y": 3.510653,
+ "eps_trailing_y": 9.3,
+ "eps_forward": 21.55052,
+ "earnings_growth_y": 0.655,
+ "earnings_growth_q_y": 0.67,
+ "bs_date": "2026-09-30",
+ "cash": 845926000.0,
+ "total_debt": 1126514000.0,
  "current_debt": 61869000.0,
  "lease_obligations": 2686000.0,
- "equity": 1046848000.0,
- "net_debt": -12498000.0,
- "ocf_ttm": -66643000.0,
- "capex_ttm": -53807000.0,
- "fcf_ttm": -120450000.0,
+ "equity": 1130757000.0,
+ "net_debt": 280588000.0,
+ "ocf_ttm": -349634000.0,
+ "capex_ttm": -56651000.0,
+ "fcf_ttm": -406285000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 1313566000.0,
- "net_income_ttm": 289772000.0,
- "ebitda_ttm": 347222000.0,
- "ebit_ttm": 313491000.0,
+ "revenue_ttm": 1631783000.0,
+ "net_income_ttm": 315968000.0,
+ "ebitda_ttm": 482080000.0,
+ "ebit_ttm": 446810000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 1.2700440417767713,
+ "revenue_yoy_last_q": 1.314951714676507,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 560216000.0
+  },
   {
    "period": "2026-06-30",
    "value": 451001000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 241999000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 198675000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.91
+  },
   {
    "period": "2026-06-30",
    "value": 3.99
@@ -71,20 +75,20 @@
   },
   {
    "period": "2025-09-30",
-   "value": 1.164
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.49
+   "value": 1.17
   }
  ],
- "eps_ttm": 8.532,
+ "eps_ttm": 9.278,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.3531598513011154,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 7.142857142857144,
- "eps_forward_growth": 0.8603774027191748,
+ "eps_growth_last_q": 0.6324786324786325,
+ "eps_forward_growth": 1.3227549040741535,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5362556585317092
+  },
   {
    "period": "2026-06-30",
    "value": 0.5015886882734185
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4863160591572692
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.47659242481439534
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.002234014160330533,
- "fcf_burn_annual": 120450000.0,
- "runway_months": 7.408916562889166,
- "need_24m": 302769000.0,
- "gap_24m": 228402000.0,
- "survival_gate": "FAIL",
- "net_debt_to_ebitda": -0.03599426303632834,
+ "dilution_1y": 0.010340062232559566,
+ "fcf_burn_annual": 406285000.0,
+ "runway_months": 24.985200044303873,
+ "need_24m": 874439000.0,
+ "gap_24m": 28513000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 0.5820361765682045,
  "interest_coverage": null,
- "cash_to_debt": 1.2020074673907772,
- "ev": 6341566135.954056,
- "ev_to_sales": 4.8277483856571015,
- "ev_to_ebitda": 18.263722160329863,
- "pe_ttm": 21.927805778177518,
- "pe_trailing": 25.918396,
- "p_sales": 4.837263,
+ "cash_to_debt": 0.7509236458668068,
+ "ev": 6009215010.426331,
+ "ev_to_sales": 3.68260670102969,
+ "ev_to_ebitda": 12.465182149075527,
+ "pe_ttm": 18.130402478815355,
+ "pe_trailing": 18.16613,
+ "p_sales": 3.510653,
  "p_fcf": null,
- "p_book": 6.069710345679655
+ "p_book": 5.066187527847567
 }

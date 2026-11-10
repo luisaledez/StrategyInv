@@ -1,40 +1,44 @@
 {
  "ticker": "CIFR",
- "fetched": "2026-10-25",
- "market_cap": 3295343956.4282484,
- "shares_out": 415030722.0,
- "price": 7.940000057220459,
+ "fetched": "2026-11-10",
+ "market_cap": 3039391582.94421,
+ "shares_out": 456365113.0,
+ "price": 6.659999847412109,
  "long_name": "Cipher Digital Inc.",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
  "pe_trailing_y": null,
- "pe_forward": 35.471767,
+ "pe_forward": 22.05298,
  "peg": null,
- "p_sales_y": 17.244713,
- "eps_trailing_y": -2.87,
- "eps_forward": 0.22384,
+ "p_sales_y": 20.805353,
+ "eps_trailing_y": -2.77,
+ "eps_forward": 0.302,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 831829000.0,
- "total_debt": 5586800000.0,
- "current_debt": 101201000.0,
- "lease_obligations": 45450000.0,
- "equity": 562057000.0,
- "net_debt": 4754971000.0,
- "ocf_ttm": -256490000.0,
- "capex_ttm": -1239518000.0,
- "fcf_ttm": -1496008000.0,
+ "bs_date": "2026-09-30",
+ "cash": 656009000.0,
+ "total_debt": 5619225000.0,
+ "current_debt": 119543000.0,
+ "lease_obligations": 59347000.0,
+ "equity": 600255000.0,
+ "net_debt": 4963216000.0,
+ "ocf_ttm": -337626000.0,
+ "capex_ttm": -2747366000.0,
+ "fcf_ttm": -3084992000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -134268000.0,
- "stock_issuance_ttm": 104733000.0,
- "revenue_ttm": 191093000.0,
- "net_income_ttm": -1119333000.0,
- "ebitda_ttm": -810736000.0,
- "ebit_ttm": -962394000.0,
- "interest_ttm": 160539000.0,
- "revenue_yoy_last_q": -0.42988637667852636,
+ "buybacks_ttm": -151042000.0,
+ "stock_issuance_ttm": 54774000.0,
+ "revenue_ttm": 146087000.0,
+ "net_income_ttm": -1084445000.0,
+ "ebitda_ttm": -758628000.0,
+ "ebit_ttm": -869558000.0,
+ "interest_ttm": 218247000.0,
+ "revenue_yoy_last_q": -0.6276374691452717,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 26701000.0
+  },
   {
    "period": "2026-06-30",
    "value": 24837000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 71707000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 43565000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.22
+  },
   {
    "period": "2026-06-30",
    "value": -0.65
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": -0.12
-  },
-  {
-   "period": "2025-03-31",
-   "value": -0.11
   }
  ],
- "eps_ttm": -1.06,
+ "eps_ttm": -1.16,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.0193625706902363
+  },
   {
    "period": "2026-06-30",
    "value": -1.3112694769899746
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.42574644037541665
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.28867209916217146
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.07109091262329859,
- "fcf_burn_annual": 1496008000.0,
- "runway_months": 6.672389452462821,
- "need_24m": 3093217000.0,
- "gap_24m": 2261388000.0,
+ "dilution_1y": 0.05459891414881146,
+ "fcf_burn_annual": 3084992000.0,
+ "runway_months": 2.551743408086634,
+ "need_24m": 6289527000.0,
+ "gap_24m": 5633518000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": -5.865005377829528,
- "interest_coverage": -5.9947676265580325,
- "cash_to_debt": 0.1488918522230973,
- "ev": 8050314956.428249,
- "ev_to_sales": 42.127733388602664,
+ "net_debt_to_ebitda": -6.542358046367917,
+ "interest_coverage": -3.9842838618629353,
+ "cash_to_debt": 0.11674367906606338,
+ "ev": 8002607582.94421,
+ "ev_to_sales": 54.77973798451752,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 17.244713,
+ "p_sales": 20.805353,
  "p_fcf": null,
- "p_book": 5.86300669937079
+ "p_book": 5.063500650463903
 }

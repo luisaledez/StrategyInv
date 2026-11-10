@@ -1,40 +1,44 @@
 {
  "ticker": "VRSK",
- "fetched": "2026-10-24",
- "market_cap": 25494960266.087402,
- "shares_out": 130156012.0,
- "price": 195.8800048828125,
+ "fetched": "2026-11-10",
+ "market_cap": 25734256033.19815,
+ "shares_out": 128286417.0,
+ "price": 200.60000610351562,
  "long_name": "Verisk Analytics, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Consulting Services",
- "pe_trailing_y": 30.089094,
- "pe_forward": 22.524342,
- "peg": 1.64,
- "p_sales_y": 8.12977,
- "eps_trailing_y": 6.51,
- "eps_forward": 8.69637,
- "earnings_growth_y": -0.034,
- "earnings_growth_q_y": -0.098,
- "bs_date": "2026-06-30",
- "cash": 551400000.0,
- "total_debt": 4617100000.0,
- "current_debt": 282800000.0,
- "lease_obligations": 161700000.0,
- "equity": -1189000000.0,
- "net_debt": 4065700000.0,
- "ocf_ttm": 1503200000.0,
- "capex_ttm": -266700000.0,
- "fcf_ttm": 1236500000.0,
+ "pe_trailing_y": 30.39394,
+ "pe_forward": 23.035233,
+ "peg": 1.72,
+ "p_sales_y": 8.100941,
+ "eps_trailing_y": 6.6,
+ "eps_forward": 8.7084,
+ "earnings_growth_y": 0.054,
+ "earnings_growth_q_y": -0.028,
+ "bs_date": "2026-09-30",
+ "cash": 556800000.0,
+ "total_debt": 4632800000.0,
+ "current_debt": 293000000.0,
+ "lease_obligations": 176300000.0,
+ "equity": -1113500000.0,
+ "net_debt": 4076000000.0,
+ "ocf_ttm": 1366900000.0,
+ "capex_ttm": -266500000.0,
+ "fcf_ttm": 1100400000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -2150900000.0,
  "stock_issuance_ttm": -2150900000.0,
- "revenue_ttm": 3136000000.0,
- "net_income_ttm": 885500000.0,
- "ebitda_ttm": 1680100000.0,
- "ebit_ttm": 1354000000.0,
- "interest_ttm": 195100000.0,
- "revenue_yoy_last_q": 0.04361894900336516,
+ "revenue_ttm": 3176700000.0,
+ "net_income_ttm": 879200000.0,
+ "ebitda_ttm": 1685200000.0,
+ "ebit_ttm": 1357500000.0,
+ "interest_ttm": 205900000.0,
+ "revenue_yoy_last_q": 0.052974098659377855,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 809000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 806300000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-09-30",
    "value": 768300000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 772600000.0
   }
  ],
  "eps_quarters": [
@@ -83,8 +83,12 @@
  "eps_growth_yoy": -0.03427719821162434,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": -0.03314917127071826,
- "eps_forward_growth": 0.3358479262672809,
+ "eps_forward_growth": 0.3376958525345619,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7008652657601978
+  },
   {
    "period": "2026-06-30",
    "value": 0.7105295795609574
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7012885591565795
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7029510742945897
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.06846500286462143,
+ "dilution_1y": -0.07979126012709647,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 282800000.0,
- "gap_24m": -268600000.0,
+ "need_24m": 293000000.0,
+ "gap_24m": -263800000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.4199154812213557,
- "interest_coverage": 6.940030753459764,
- "cash_to_debt": 0.11942561348032314,
- "ev": 29560660266.087402,
- "ev_to_sales": 9.426230952196239,
- "ev_to_ebitda": 17.59458381411071,
- "pe_ttm": 28.791598267744103,
- "pe_trailing": 30.089094,
- "p_sales": 8.12977,
- "p_fcf": 20.61864962886163,
+ "net_debt_to_ebitda": 2.4187040113933063,
+ "interest_coverage": 6.593006313744536,
+ "cash_to_debt": 0.12018649628734243,
+ "ev": 29810256033.19815,
+ "ev_to_sales": 9.384032496993154,
+ "ev_to_ebitda": 17.689446969616753,
+ "pe_ttm": 29.27008193038916,
+ "pe_trailing": 30.39394,
+ "p_sales": 8.100941,
+ "p_fcf": 23.38627411232111,
  "p_book": null
 }

@@ -1,0 +1,154 @@
+{
+ "ticker": "VC",
+ "fetched": "2026-11-10",
+ "market_cap": 1927960215.9189453,
+ "shares_out": 24707936.0,
+ "price": 78.02999877929688,
+ "long_name": "Visteon Corporation",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Auto Parts",
+ "pe_trailing_y": 21.26158,
+ "pe_forward": 7.8712516,
+ "peg": 1.01,
+ "p_sales_y": 0.50312114,
+ "eps_trailing_y": 3.67,
+ "eps_forward": 9.91329,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 464000000.0,
+ "total_debt": 459000000.0,
+ "current_debt": 46000000.0,
+ "lease_obligations": 129000000.0,
+ "equity": 1413000000.0,
+ "net_debt": -5000000.0,
+ "ocf_ttm": 199000000.0,
+ "capex_ttm": -148000000.0,
+ "fcf_ttm": 51000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -286000000.0,
+ "stock_issuance_ttm": -286000000.0,
+ "revenue_ttm": 3832000000.0,
+ "net_income_ttm": 99000000.0,
+ "ebitda_ttm": 327000000.0,
+ "ebit_ttm": 209000000.0,
+ "interest_ttm": 12000000.0,
+ "revenue_yoy_last_q": 0.0577971646673936,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 970000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 960000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 954000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 948000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 917000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.19
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1.8
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1.14
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.67
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.04
+  }
+ ],
+ "eps_ttm": 5.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.25865580448065173,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.9068627450980392,
+ "eps_forward_growth": 0.7091879310344829,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.04845360824742268
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.12291666666666666
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.11844863731656184
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.12869198312236288
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.14285714285714285
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3768000000.0,
+   "eps": 7.28,
+   "net_income": 201000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3866000000.0,
+   "eps": 9.82,
+   "net_income": 296000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 3954000000.0,
+   "eps": 19.93,
+   "net_income": 568000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3756000000.0,
+   "eps": 4.35,
+   "net_income": 124000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.09523809523809523,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 46000000.0,
+ "gap_24m": -418000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.01529051987767584,
+ "interest_coverage": 17.416666666666668,
+ "cash_to_debt": 1.0108932461873639,
+ "ev": 1922960215.9189453,
+ "ev_to_sales": 0.5018163402711235,
+ "ev_to_ebitda": 5.880612281097692,
+ "pe_ttm": 19.47434561534288,
+ "pe_trailing": 21.26158,
+ "p_sales": 0.50312114,
+ "p_fcf": 37.80314148860677,
+ "p_book": 1.364444597253323
+}

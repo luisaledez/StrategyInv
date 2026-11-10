@@ -1,40 +1,44 @@
 {
  "ticker": "PEP",
- "fetched": "2026-10-24",
- "market_cap": 185019363883.09808,
+ "fetched": "2026-11-10",
+ "market_cap": 193345712786.96924,
  "shares_out": 1362741092.0,
- "price": 135.77000427246094,
+ "price": 141.8800048828125,
  "long_name": "PepsiCo, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Beverages - Non-Alcoholic",
- "pe_trailing_y": 17.077988,
- "pe_forward": 15.71645,
- "peg": 1.41,
- "p_sales_y": 1.8833213,
+ "pe_trailing_y": 17.846542,
+ "pe_forward": 16.42356,
+ "peg": 1.52,
+ "p_sales_y": 1.9680755,
  "eps_trailing_y": 7.95,
- "eps_forward": 8.63872,
+ "eps_forward": 8.63881,
  "earnings_growth_y": 0.174,
  "earnings_growth_q_y": 0.171,
  "bs_date": "2026-09-30",
- "cash": 10716000000.0,
- "total_debt": 53214000000.0,
- "current_debt": 10602000000.0,
+ "cash": 11163000000.0,
+ "total_debt": 51881000000.0,
+ "current_debt": 9223000000.0,
  "lease_obligations": 719000000.0,
  "equity": 22292000000.0,
- "net_debt": 42498000000.0,
- "ocf_ttm": 13456000000.0,
- "capex_ttm": -4174000000.0,
- "fcf_ttm": 9282000000.0,
+ "net_debt": 40718000000.0,
+ "ocf_ttm": 14569000000.0,
+ "capex_ttm": -4098000000.0,
+ "fcf_ttm": 10471000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -985000000.0,
- "stock_issuance_ttm": -985000000.0,
- "revenue_ttm": 96904000000.0,
+ "buybacks_ttm": -987000000.0,
+ "stock_issuance_ttm": -987000000.0,
+ "revenue_ttm": 98241000000.0,
  "net_income_ttm": 10896000000.0,
- "ebitda_ttm": 18639000000.0,
- "ebit_ttm": 14281000000.0,
+ "ebitda_ttm": 19268000000.0,
+ "ebit_ttm": 14832000000.0,
  "interest_ttm": 1106000000.0,
- "revenue_yoy_last_q": 0.06402358532077801,
+ "revenue_yoy_last_q": 0.05585495258386608,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 25274000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 24181000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 23937000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 22726000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.23
+  },
   {
    "period": "2026-06-30",
    "value": 2.18
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.9
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.92
   }
  ],
- "eps_ttm": 7.630000000000001,
+ "eps_ttm": 7.960000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.13669064748201443,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 1.3695652173913042,
- "eps_forward_growth": 0.13220445609436404,
+ "eps_growth_last_q": 0.17368421052631589,
+ "eps_forward_growth": 0.08527763819095457,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5441956160481127
+  },
   {
    "period": "2026-06-30",
    "value": 0.5422025557255696
@@ -133,18 +137,18 @@
  "dilution_1y": -0.003363486469827981,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 10602000000.0,
- "gap_24m": -114000000.0,
+ "need_24m": 9223000000.0,
+ "gap_24m": -1940000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.2800579430226944,
- "interest_coverage": 12.912296564195298,
- "cash_to_debt": 0.20137557785545157,
- "ev": 227517363883.09808,
- "ev_to_sales": 2.3478634925606587,
- "ev_to_ebitda": 12.20652201744182,
- "pe_ttm": 16.98048493787611,
- "pe_trailing": 17.077988,
- "p_sales": 1.8833213,
- "p_fcf": 19.933135518541057,
- "p_book": 8.299809971429127
+ "net_debt_to_ebitda": 2.113244758148225,
+ "interest_coverage": 13.410488245931283,
+ "cash_to_debt": 0.2151654748366454,
+ "ev": 234063712786.96924,
+ "ev_to_sales": 2.38254611401522,
+ "ev_to_ebitda": 12.147794933930312,
+ "pe_ttm": 17.74465058617559,
+ "pe_trailing": 17.846542,
+ "p_sales": 1.9680755,
+ "p_fcf": 18.46487563623047,
+ "p_book": 8.673322841690707
 }

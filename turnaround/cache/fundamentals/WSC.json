@@ -1,40 +1,44 @@
 {
  "ticker": "WSC",
- "fetched": "2026-10-25",
- "market_cap": 2946165018.551319,
- "shares_out": 181190958.0,
- "price": 16.260000228881836,
+ "fetched": "2026-11-10",
+ "market_cap": 3748163006.6638145,
+ "shares_out": 181685078.0,
+ "price": 20.6299991607666,
  "long_name": "WillScot Holdings Corporation",
  "sector_y": "Industrials",
  "industry_y": "Rental & Leasing Services",
  "pe_trailing_y": null,
- "pe_forward": 12.566367,
- "peg": 0.85,
- "p_sales_y": 1.2845206,
- "eps_trailing_y": -0.38,
- "eps_forward": 1.29393,
- "earnings_growth_y": -0.002,
- "earnings_growth_q_y": -0.02,
- "bs_date": "2026-06-30",
- "cash": 18167000.0,
- "total_debt": 3794303000.0,
- "current_debt": 102266000.0,
- "lease_obligations": 299003000.0,
- "equity": 910659000.0,
- "net_debt": 3776136000.0,
- "ocf_ttm": 703369000.0,
- "capex_ttm": -405618000.0,
- "fcf_ttm": 297751000.0,
+ "pe_forward": 15.77205,
+ "peg": 0.99,
+ "p_sales_y": 1.6099746,
+ "eps_trailing_y": -0.33,
+ "eps_forward": 1.30801,
+ "earnings_growth_y": 0.176,
+ "earnings_growth_q_y": 0.19,
+ "bs_date": "2026-09-30",
+ "cash": 15106000.0,
+ "total_debt": 3745226000.0,
+ "current_debt": 105141000.0,
+ "lease_obligations": 295941000.0,
+ "equity": 959291000.0,
+ "net_debt": 3730120000.0,
+ "ocf_ttm": 710192000.0,
+ "capex_ttm": -459670000.0,
+ "fcf_ttm": 250522000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -33887000.0,
- "stock_issuance_ttm": -43785000.0,
- "revenue_ttm": 2293591000.0,
- "net_income_ttm": -68888000.0,
- "ebitda_ttm": 551900000.0,
- "ebit_ttm": 143913000.0,
- "interest_ttm": 221151000.0,
- "revenue_yoy_last_q": 0.039159167723393784,
+ "buybacks_ttm": -24648000.0,
+ "stock_issuance_ttm": -28990000.0,
+ "revenue_ttm": 2328088000.0,
+ "net_income_ttm": -60645000.0,
+ "ebitda_ttm": 547099000.0,
+ "ebit_ttm": 149576000.0,
+ "interest_ttm": 215882000.0,
+ "revenue_yoy_last_q": 0.06085833593547396,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 601338000.0
+  },
   {
    "period": "2026-06-30",
    "value": 612151000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 566841000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 589083000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.28
+  },
   {
    "period": "2026-06-30",
    "value": 0.26
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.24
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.26
   }
  ],
- "eps_ttm": -0.38,
+ "eps_ttm": -0.33999999999999997,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -2.9333333333333336,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.0,
+ "eps_growth_last_q": 0.16666666666666674,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5068829842783925
+  },
   {
    "period": "2026-06-30",
    "value": 0.5003079305596169
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4968200959351917
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5025947107623204
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.00648451217585666,
+ "dilution_1y": -0.0014103255892307098,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 102266000.0,
- "gap_24m": 84099000.0,
+ "need_24m": 105141000.0,
+ "gap_24m": 90035000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 6.84206559159268,
- "interest_coverage": 0.6507454182888615,
- "cash_to_debt": 0.00478796764517752,
- "ev": 6722301018.551319,
- "ev_to_sales": 2.930906608262467,
- "ev_to_ebitda": 12.180288129283056,
+ "net_debt_to_ebitda": 6.817998205078057,
+ "interest_coverage": 0.6928599883269564,
+ "cash_to_debt": 0.004033401455613092,
+ "ev": 7478283006.663815,
+ "ev_to_sales": 3.2121994558039964,
+ "ev_to_ebitda": 13.668975828257436,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 1.2845206,
- "p_fcf": 9.894727535932102,
- "p_book": 3.2352011219911287
+ "p_sales": 1.6099746,
+ "p_fcf": 14.961412597152403,
+ "p_book": 3.9072221116051487
 }

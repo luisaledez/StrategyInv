@@ -1,40 +1,44 @@
 {
  "ticker": "VICI",
- "fetched": "2026-10-24",
- "market_cap": 26161603125.136654,
- "shares_out": 1101077562.0,
- "price": 23.760000228881836,
+ "fetched": "2026-11-10",
+ "market_cap": 27703313125.427673,
+ "shares_out": 1101085584.0,
+ "price": 25.15999984741211,
  "long_name": "VICI Properties Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Diversified",
- "pe_trailing_y": 9.245136,
- "pe_forward": 7.9464884,
+ "pe_trailing_y": 11.648148,
+ "pe_forward": 8.47138,
  "peg": null,
- "p_sales_y": 6.3846097,
- "eps_trailing_y": 2.57,
- "eps_forward": 2.99,
- "earnings_growth_y": -0.414,
- "earnings_growth_q_y": -0.391,
- "bs_date": "2026-06-30",
- "cash": 288063000.0,
- "total_debt": 17843674000.0,
+ "p_sales_y": 6.6665015,
+ "eps_trailing_y": 2.16,
+ "eps_forward": 2.97,
+ "earnings_growth_y": -0.563,
+ "earnings_growth_q_y": -0.551,
+ "bs_date": "2026-09-30",
+ "cash": 270321000.0,
+ "total_debt": 17825748000.0,
  "current_debt": null,
- "lease_obligations": 912519000.0,
- "equity": 29170749000.0,
- "net_debt": 17555611000.0,
- "ocf_ttm": 2638275000.0,
- "capex_ttm": -1301000.0,
- "fcf_ttm": 2636974000.0,
+ "lease_obligations": 908814000.0,
+ "equity": 29011715000.0,
+ "net_debt": 17555427000.0,
+ "ocf_ttm": 2707193000.0,
+ "capex_ttm": -3803000.0,
+ "fcf_ttm": 2703390000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2309000.0,
- "stock_issuance_ttm": 614819000.0,
- "revenue_ttm": 4097604000.0,
- "net_income_ttm": 2765718000.0,
- "ebitda_ttm": 3655736000.0,
- "ebit_ttm": 3651871000.0,
- "interest_ttm": 839855000.0,
- "revenue_yoy_last_q": 0.05709483548945715,
+ "buybacks_ttm": -2298000.0,
+ "stock_issuance_ttm": 239480000.0,
+ "revenue_ttm": 4155600000.0,
+ "net_income_ttm": 2346212000.0,
+ "ebitda_ttm": 3232250000.0,
+ "ebit_ttm": 3228446000.0,
+ "interest_ttm": 844505000.0,
+ "revenue_yoy_last_q": 0.057564953627239124,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1065484000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1058505000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1007488000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1001334000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.31
+  },
   {
    "period": "2026-06-30",
    "value": 0.48
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.71
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.82
   }
  ],
- "eps_ttm": 2.5799999999999996,
+ "eps_ttm": 2.1799999999999997,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.01953125,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.41463414634146345,
- "eps_forward_growth": 0.15891472868217082,
+ "eps_growth_last_q": -0.5633802816901408,
+ "eps_forward_growth": 0.3623853211009176,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9935634885178942
+  },
   {
    "period": "2026-06-30",
    "value": 0.9930137316309323
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9932852798246729
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9933898179828109
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.04198817168748614,
+ "dilution_1y": 0.030196638726069258,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -288063000.0,
+ "gap_24m": -270321000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 4.802209732869113,
- "interest_coverage": 4.348216061105786,
- "cash_to_debt": 0.01614370448597077,
- "ev": 43717214125.13666,
- "ev_to_sales": 10.6689699944496,
- "ev_to_ebitda": 11.958526032825308,
- "pe_ttm": 9.459244624772538,
- "pe_trailing": 9.245136,
- "p_sales": 6.3846097,
- "p_fcf": 9.921069803925505,
- "p_book": 0.8968437226324444
+ "net_debt_to_ebitda": 5.431333281769665,
+ "interest_coverage": 3.8228855957039922,
+ "cash_to_debt": 0.015164637130514804,
+ "ev": 45258740125.42767,
+ "ev_to_sales": 10.891024190352217,
+ "ev_to_ebitda": 14.002239964553384,
+ "pe_ttm": 11.807676853339627,
+ "pe_trailing": 11.648148,
+ "p_sales": 6.6665015,
+ "p_fcf": 10.247619886671059,
+ "p_book": 0.9549009124564912
 }

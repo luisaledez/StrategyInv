@@ -1,0 +1,154 @@
+{
+ "ticker": "AFYA",
+ "fetched": "2026-11-10",
+ "market_cap": 944062571.4703522,
+ "shares_out": 88478216.0,
+ "price": 10.670000076293945,
+ "long_name": "Afya Limited",
+ "sector_y": "Consumer Defensive",
+ "industry_y": "Education & Training Services",
+ "pe_trailing_y": 6.506098,
+ "pe_forward": 5.3183722,
+ "peg": null,
+ "p_sales_y": 0.24672964,
+ "eps_trailing_y": 1.64,
+ "eps_forward": 2.006253,
+ "earnings_growth_y": 0.176,
+ "earnings_growth_q_y": 0.144,
+ "bs_date": "2026-06-30",
+ "cash": 1006490000.0,
+ "total_debt": 3118187000.0,
+ "current_debt": 183994000.0,
+ "lease_obligations": 1070292000.0,
+ "equity": 4888586000.0,
+ "net_debt": 2111697000.0,
+ "ocf_ttm": 1557830000.0,
+ "capex_ttm": -298902000.0,
+ "fcf_ttm": 1258928000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -144139000.0,
+ "stock_issuance_ttm": -210013000.0,
+ "revenue_ttm": 3826304000.0,
+ "net_income_ttm": 782266000.0,
+ "ebitda_ttm": 1732070000.0,
+ "ebit_ttm": 1361534000.0,
+ "interest_ttm": 468922000.0,
+ "revenue_yoy_last_q": 0.05731672830106582,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 972097000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1012712000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 912990000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 928505000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 919400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2.21
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.85
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1.7
+  },
+  {
+   "period": "2025-06-30",
+   "value": 1.88
+  },
+  {
+   "period": "2025-03-31",
+   "value": 2.76
+  }
+ ],
+ "eps_ttm": 8.64,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1890331890331891,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.19927536231884058,
+ "eps_forward_growth": -0.7677947916666666,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.6158953273181585
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6893006106375752
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6181414911444814
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6339104258996989
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6272492930171851
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3697255000.0,
+   "eps": 8.24,
+   "net_income": 752461000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 3304329000.0,
+   "eps": 6.93,
+   "net_income": 631510000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2875913000.0,
+   "eps": 4.27,
+   "net_income": 386324000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2329057000.0,
+   "eps": 4.12,
+   "net_income": 373569000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.025688502655762613,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 183994000.0,
+ "gap_24m": -822496000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.2191753220135444,
+ "interest_coverage": 2.903540460886885,
+ "cash_to_debt": 0.3227805131635787,
+ "ev": 3055759571.470352,
+ "ev_to_sales": 0.7986191299672876,
+ "ev_to_ebitda": 1.7642240622320993,
+ "pe_ttm": 1.2068306323812517,
+ "pe_trailing": 6.506098,
+ "p_sales": 0.24672964,
+ "p_fcf": 0.7498940141694777,
+ "p_book": 0.1931156721944448
+}

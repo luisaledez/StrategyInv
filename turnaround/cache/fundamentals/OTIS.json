@@ -1,40 +1,44 @@
 {
  "ticker": "OTIS",
- "fetched": "2026-10-24",
- "market_cap": 28607301406.705315,
- "shares_out": 380669339.0,
- "price": 75.1500015258789,
+ "fetched": "2026-11-10",
+ "market_cap": 29988565830.99009,
+ "shares_out": 380710513.0,
+ "price": 78.7699966430664,
  "long_name": "Otis Worldwide Corporation",
  "sector_y": "Industrials",
  "industry_y": "Specialty Industrial Machinery",
- "pe_trailing_y": 19.318766,
- "pe_forward": 16.58578,
- "peg": 1.7,
- "p_sales_y": 1.9185368,
- "eps_trailing_y": 3.89,
- "eps_forward": 4.53099,
- "earnings_growth_y": 0.13,
- "earnings_growth_q_y": 0.089,
- "bs_date": "2026-06-30",
- "cash": 813000000.0,
- "total_debt": 8846000000.0,
- "current_debt": 1390000000.0,
- "lease_obligations": 410000000.0,
- "equity": -5748000000.0,
- "net_debt": 8033000000.0,
- "ocf_ttm": 1871000000.0,
- "capex_ttm": -159000000.0,
- "fcf_ttm": 1712000000.0,
+ "pe_trailing_y": 19.594526,
+ "pe_forward": 17.548002,
+ "peg": 1.85,
+ "p_sales_y": 1.9814053,
+ "eps_trailing_y": 4.02,
+ "eps_forward": 4.48883,
+ "earnings_growth_y": 0.137,
+ "earnings_growth_q_y": 0.107,
+ "bs_date": "2026-09-30",
+ "cash": 866000000.0,
+ "total_debt": 8694000000.0,
+ "current_debt": 1224000000.0,
+ "lease_obligations": 419000000.0,
+ "equity": -5430000000.0,
+ "net_debt": 7828000000.0,
+ "ocf_ttm": 1834000000.0,
+ "capex_ttm": -161000000.0,
+ "fcf_ttm": 1673000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1055000000.0,
- "stock_issuance_ttm": -1055000000.0,
- "revenue_ttm": 14911000000.0,
- "net_income_ttm": 1516000000.0,
- "ebitda_ttm": 2547000000.0,
- "ebit_ttm": 2375000000.0,
+ "buybacks_ttm": -807000000.0,
+ "stock_issuance_ttm": -807000000.0,
+ "revenue_ttm": 15135000000.0,
+ "net_income_ttm": 1556000000.0,
+ "ebitda_ttm": 2578000000.0,
+ "ebit_ttm": 2409000000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.07343532684283738,
+ "revenue_yoy_last_q": 0.06070460704607039,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3914000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3859000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3690000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3595000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.08
+  },
   {
    "period": "2026-06-30",
    "value": 1.12
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.95
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.99
   }
  ],
- "eps_ttm": 3.8900000000000006,
+ "eps_ttm": 4.0200000000000005,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.14004914004914015,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.1313131313131315,
- "eps_forward_growth": 0.16477892030848307,
+ "eps_growth_last_q": 0.1368421052631581,
+ "eps_forward_growth": 0.1166243781094527,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.2950945324476239
+  },
   {
    "period": "2026-06-30",
    "value": 0.29437678154962427
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3070460704607046
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.30292072322670377
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.029816513761467878,
+ "dilution_1y": -0.02311127146344727,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1390000000.0,
- "gap_24m": 577000000.0,
+ "need_24m": 1224000000.0,
+ "gap_24m": 358000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.153906556733412,
+ "net_debt_to_ebitda": 3.0364623739332814,
  "interest_coverage": null,
- "cash_to_debt": 0.09190594619036853,
- "ev": 36640301406.705315,
- "ev_to_sales": 2.4572665419291337,
- "ev_to_ebitda": 14.385669967296943,
- "pe_ttm": 18.870251587536487,
- "pe_trailing": 19.318766,
- "p_sales": 1.9185368,
- "p_fcf": 16.70987231700077,
+ "cash_to_debt": 0.09960892569588221,
+ "ev": 37816565830.99009,
+ "ev_to_sales": 2.4986168371978916,
+ "ev_to_ebitda": 14.668954938320438,
+ "pe_ttm": 19.272857217859954,
+ "pe_trailing": 19.594526,
+ "p_sales": 1.9814053,
+ "p_fcf": 17.92502440585182,
  "p_book": null
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "PAHC",
- "fetched": "2026-10-25",
- "market_cap": 1575342165.4234352,
+ "fetched": "2026-11-10",
+ "market_cap": 1386950752.284687,
  "shares_out": 40601603.0,
- "price": 38.79999923706055,
+ "price": 34.15999984741211,
  "long_name": "Phibro Animal Health Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Drug Manufacturers - Specialty & Generic",
- "pe_trailing_y": 15.967077,
- "pe_forward": 10.08088,
+ "pe_trailing_y": 13.609562,
+ "pe_forward": 8.846578,
  "peg": 1.68,
- "p_sales_y": 1.0377113,
- "eps_trailing_y": 2.43,
- "eps_forward": 3.84887,
- "earnings_growth_y": 0.246,
- "earnings_growth_q_y": 0.26,
- "bs_date": "2026-06-30",
- "cash": 81994000.0,
- "total_debt": 788767000.0,
- "current_debt": 35597000.0,
- "lease_obligations": 55973000.0,
- "equity": 385477000.0,
- "net_debt": 706773000.0,
- "ocf_ttm": 68954000.0,
- "capex_ttm": -59088000.0,
- "fcf_ttm": 9866000.0,
+ "p_sales_y": 0.9000482,
+ "eps_trailing_y": 2.51,
+ "eps_forward": 3.86138,
+ "earnings_growth_y": 0.108,
+ "earnings_growth_q_y": 0.113,
+ "bs_date": "2026-09-30",
+ "cash": 83123000.0,
+ "total_debt": 789127000.0,
+ "current_debt": 34915000.0,
+ "lease_obligations": 54250000.0,
+ "equity": 417668000.0,
+ "net_debt": 706004000.0,
+ "ocf_ttm": 85734000.0,
+ "capex_ttm": -64064000.0,
+ "fcf_ttm": 21670000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1518093000.0,
- "net_income_ttm": 99720000.0,
- "ebitda_ttm": 232894000.0,
- "ebit_ttm": 181380000.0,
- "interest_ttm": 44034000.0,
- "revenue_yoy_last_q": 0.047663435411423816,
+ "revenue_ttm": 1540974000.0,
+ "net_income_ttm": 102713000.0,
+ "ebitda_ttm": 235815000.0,
+ "ebit_ttm": 183553000.0,
+ "interest_ttm": 43697000.0,
+ "revenue_yoy_last_q": 0.06287837358784043,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 386774000.0
+  },
   {
    "period": "2026-06-30",
    "value": 396747000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 363893000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 378697000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.72
+  },
   {
    "period": "2026-06-30",
    "value": 0.53
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.65
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.42
   }
  ],
- "eps_ttm": 2.44,
+ "eps_ttm": 2.51,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 1.0420168067226894,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.2619047619047621,
- "eps_forward_growth": 0.577405737704918,
+ "eps_growth_last_q": 0.10769230769230753,
+ "eps_forward_growth": 0.5383984063745022,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3323310253533071
+  },
   {
    "period": "2026-06-30",
    "value": 0.33875744492081855
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3291709376107812
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.29049345518976916
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0007674619046988962,
+ "dilution_1y": 0.0016774968564357007,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 35597000.0,
- "gap_24m": -46397000.0,
+ "need_24m": 34915000.0,
+ "gap_24m": -48208000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.0347411268645823,
- "interest_coverage": 4.119089794249898,
- "cash_to_debt": 0.1039521176722657,
- "ev": 2282115165.423435,
- "ev_to_sales": 1.5032775761586643,
- "ev_to_ebitda": 9.798943577006858,
- "pe_ttm": 15.797655088482102,
- "pe_trailing": 15.967077,
- "p_sales": 1.0377113,
- "p_fcf": 159.67384607981302,
- "p_book": 4.086734527412622
+ "net_debt_to_ebitda": 2.993889277611687,
+ "interest_coverage": 4.200585852575692,
+ "cash_to_debt": 0.10533538961409253,
+ "ev": 2092954752.284687,
+ "ev_to_sales": 1.3582025084684668,
+ "ev_to_ebitda": 8.875409758856252,
+ "pe_ttm": 13.50316661264579,
+ "pe_trailing": 13.609562,
+ "p_sales": 0.9000482,
+ "p_fcf": 64.00326498775667,
+ "p_book": 3.3207014956489056
 }

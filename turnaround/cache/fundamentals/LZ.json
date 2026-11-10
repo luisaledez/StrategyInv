@@ -1,40 +1,44 @@
 {
  "ticker": "LZ",
- "fetched": "2026-10-25",
- "market_cap": 1197140996.6805954,
- "shares_out": 171264812.0,
- "price": 6.989999771118164,
+ "fetched": "2026-11-10",
+ "market_cap": 801021978.1491938,
+ "shares_out": 165159174.0,
+ "price": 4.849999904632568,
  "long_name": "LegalZoom.com, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Specialty Business Services",
- "pe_trailing_y": 77.666664,
- "pe_forward": 8.675794,
+ "pe_trailing_y": 44.090908,
+ "pe_forward": 6.4949846,
  "peg": null,
- "p_sales_y": 1.5105994,
- "eps_trailing_y": 0.09,
- "eps_forward": 0.80569,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 167227000.0,
- "total_debt": 15136000.0,
- "current_debt": 5003000.0,
- "lease_obligations": 15136000.0,
- "equity": 127156000.0,
- "net_debt": -152091000.0,
- "ocf_ttm": 175184000.0,
- "capex_ttm": -25534000.0,
- "fcf_ttm": 149650000.0,
+ "p_sales_y": 1.0044389,
+ "eps_trailing_y": 0.11,
+ "eps_forward": 0.74673,
+ "earnings_growth_y": 1.411,
+ "earnings_growth_q_y": 0.788,
+ "bs_date": "2026-09-30",
+ "cash": 181702000.0,
+ "total_debt": 14087000.0,
+ "current_debt": 5040000.0,
+ "lease_obligations": 14087000.0,
+ "equity": 135168000.0,
+ "net_debt": -167615000.0,
+ "ocf_ttm": 160831000.0,
+ "capex_ttm": -24052000.0,
+ "fcf_ttm": 136779000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -149123000.0,
- "stock_issuance_ttm": -149123000.0,
- "revenue_ttm": 792494000.0,
- "net_income_ttm": 16853000.0,
- "ebitda_ttm": 88561000.0,
- "ebit_ttm": 40082000.0,
- "interest_ttm": 1749000.0,
- "revenue_yoy_last_q": 0.0663865066048861,
+ "buybacks_ttm": -146134000.0,
+ "stock_issuance_ttm": -146134000.0,
+ "revenue_ttm": 797482000.0,
+ "net_income_ttm": 20405000.0,
+ "ebitda_ttm": 94678000.0,
+ "ebit_ttm": 46492000.0,
+ "interest_ttm": 1674000.0,
+ "revenue_yoy_last_q": 0.026230818582442028,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 195146000.0
+  },
   {
    "period": "2026-06-30",
    "value": 205289000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 190158000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 192509000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.05
+  },
   {
    "period": "2026-06-30",
    "value": 0.03
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.02
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.0
   }
  ],
- "eps_ttm": 0.09000000000000001,
+ "eps_ttm": 0.12,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.5,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": null,
- "eps_forward_growth": 7.95211111111111,
+ "eps_growth_last_q": 1.5,
+ "eps_forward_growth": 5.2227500000000004,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7074856773902617
+  },
   {
    "period": "2026-06-30",
    "value": 0.6816244416408088
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.672530211718676
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6498968879377068
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.0701351058690256,
+ "dilution_1y": -0.07421663927805477,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 5003000.0,
- "gap_24m": -162224000.0,
+ "need_24m": 5040000.0,
+ "gap_24m": -176662000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.7173586567450683,
- "interest_coverage": 22.91709548313322,
- "cash_to_debt": 11.048295454545455,
- "ev": 1045049996.6805954,
- "ev_to_sales": 1.3186850584112881,
- "ev_to_ebitda": 11.800340970411304,
- "pe_ttm": 71.03429636744765,
- "pe_trailing": 77.666664,
- "p_sales": 1.5105994,
- "p_fcf": 7.999605724561279,
- "p_book": 9.41474249489285
+ "net_debt_to_ebitda": -1.770369040326158,
+ "interest_coverage": 27.77299880525687,
+ "cash_to_debt": 12.898558955064953,
+ "ev": 633406978.1491938,
+ "ev_to_sales": 0.7942586517930107,
+ "ev_to_ebitda": 6.690117853663932,
+ "pe_ttm": 39.25616163436382,
+ "pe_trailing": 44.090908,
+ "p_sales": 1.0044389,
+ "p_fcf": 5.856322813803243,
+ "p_book": 5.926121405578197
 }

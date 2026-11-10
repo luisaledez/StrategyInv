@@ -1,40 +1,44 @@
 {
  "ticker": "CCC",
- "fetched": "2026-10-25",
- "market_cap": 4517589424.61673,
- "shares_out": 588994704.0,
- "price": 7.670000076293945,
+ "fetched": "2026-11-10",
+ "market_cap": 4551016911.667843,
+ "shares_out": 591041172.0,
+ "price": 7.699999809265137,
  "long_name": "CCC Intelligent Solutions Holdings Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 109.57143,
- "pe_forward": 14.54911,
+ "pe_trailing_y": 64.166664,
+ "pe_forward": 14.435153,
  "peg": null,
- "p_sales_y": 4.061887,
- "eps_trailing_y": 0.07,
- "eps_forward": 0.52718,
- "earnings_growth_y": 0.813,
- "earnings_growth_q_y": 0.604,
- "bs_date": "2026-06-30",
- "cash": 115857000.0,
- "total_debt": 1356478000.0,
- "current_debt": 46185000.0,
- "lease_obligations": 57359000.0,
- "equity": 1772548000.0,
- "net_debt": 1240621000.0,
- "ocf_ttm": 321255000.0,
- "capex_ttm": -64992000.0,
- "fcf_ttm": 256263000.0,
+ "p_sales_y": 3.9950533,
+ "eps_trailing_y": 0.12,
+ "eps_forward": 0.53342,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 202926000.0,
+ "total_debt": 1353244000.0,
+ "current_debt": 46667000.0,
+ "lease_obligations": 56086000.0,
+ "equity": 1841885000.0,
+ "net_debt": 1150318000.0,
+ "ocf_ttm": 378628000.0,
+ "capex_ttm": -67253000.0,
+ "fcf_ttm": 311375000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -588468000.0,
- "stock_issuance_ttm": -588468000.0,
- "revenue_ttm": 1105522000.0,
- "net_income_ttm": 57284000.0,
- "ebitda_ttm": 326537000.0,
- "ebit_ttm": 179546000.0,
- "interest_ttm": 76636000.0,
- "revenue_yoy_last_q": 0.13660882873213676,
+ "buybacks_ttm": -488248000.0,
+ "stock_issuance_ttm": -488248000.0,
+ "revenue_ttm": 1139164000.0,
+ "net_income_ttm": 74555000.0,
+ "ebitda_ttm": 364770000.0,
+ "ebit_ttm": 216747000.0,
+ "interest_ttm": 79700000.0,
+ "revenue_yoy_last_q": 0.12916825045785973,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 294093000.0
+  },
   {
    "period": "2026-06-30",
    "value": 285931000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-06-30",
    "value": 260451000.0
-  },
-  {
-   "period": "2025-03-31",
-   "value": 251565000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.05
+  },
   {
    "period": "2026-06-30",
    "value": 0.04
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": 0.02
-  },
-  {
-   "period": "2025-03-31",
-   "value": -0.03
   }
  ],
- "eps_ttm": 0.1,
+ "eps_ttm": 0.13,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -1.0,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": null,
- "eps_forward_growth": 4.2718,
+ "eps_growth_last_q": 1.5,
+ "eps_forward_growth": 3.103230769230769,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.741282519475132
+  },
   {
    "period": "2026-06-30",
    "value": 0.7366707352473149
@@ -100,10 +104,6 @@
   {
    "period": "2025-06-30",
    "value": 0.7449232293214463
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.7353646174944846
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.10748361456989752,
+ "dilution_1y": -0.09009234043199621,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 46185000.0,
- "gap_24m": -69672000.0,
+ "need_24m": 46667000.0,
+ "gap_24m": -156259000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.799327488156013,
- "interest_coverage": 2.342841484419855,
- "cash_to_debt": 0.08541015777624111,
- "ev": 5758210424.61673,
- "ev_to_sales": 5.208589629710426,
- "ev_to_ebitda": 17.63417445685092,
- "pe_ttm": 78.86302326333234,
- "pe_trailing": 109.57143,
- "p_sales": 4.061887,
- "p_fcf": 17.628722931584853,
- "p_book": 2.5486415175311077
+ "net_debt_to_ebitda": 3.1535433286728622,
+ "interest_coverage": 2.7195357590966123,
+ "cash_to_debt": 0.1499552187188711,
+ "ev": 5701334911.667843,
+ "ev_to_sales": 5.00484119202138,
+ "ev_to_ebitda": 15.629944654625772,
+ "pe_ttm": 61.04241045761978,
+ "pe_trailing": 64.166664,
+ "p_sales": 3.9950533,
+ "p_fcf": 14.61587125385096,
+ "p_book": 2.470847480525572
 }

@@ -1,0 +1,154 @@
+{
+ "ticker": "NVDA",
+ "fetched": "2026-11-10",
+ "market_cap": 4114045125000.0,
+ "shares_out": 24147000000.0,
+ "price": 170.375,
+ "long_name": "NVIDIA Corporation",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 21.538559,
+ "pe_forward": 10.696218,
+ "peg": 0.23,
+ "p_sales_y": 13.578651,
+ "eps_trailing_y": 7.91,
+ "eps_forward": 15.92806,
+ "earnings_growth_y": 1.278,
+ "earnings_growth_q_y": 1.259,
+ "bs_date": "2026-07-31",
+ "cash": 62469000000.0,
+ "total_debt": 38351000000.0,
+ "current_debt": 1000000000.0,
+ "lease_obligations": 4985000000.0,
+ "equity": 228984000000.0,
+ "net_debt": -24118000000.0,
+ "ocf_ttm": 134360000000.0,
+ "capex_ttm": -7354000000.0,
+ "fcf_ttm": 127006000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -55315000000.0,
+ "stock_issuance_ttm": -55315000000.0,
+ "revenue_ttm": 302969000000.0,
+ "net_income_ttm": 192879000000.0,
+ "ebitda_ttm": 233894000000.0,
+ "ebit_ttm": 230207000000.0,
+ "interest_ttm": 463000000.0,
+ "revenue_yoy_last_q": 1.0585114348672526,
+ "revenue_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 96221000000.0
+  },
+  {
+   "period": "2026-04-30",
+   "value": 81615000000.0
+  },
+  {
+   "period": "2026-01-31",
+   "value": 68127000000.0
+  },
+  {
+   "period": "2025-10-31",
+   "value": 57006000000.0
+  },
+  {
+   "period": "2025-07-31",
+   "value": 46743000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 2.46
+  },
+  {
+   "period": "2026-04-30",
+   "value": 2.39
+  },
+  {
+   "period": "2026-01-31",
+   "value": 1.76
+  },
+  {
+   "period": "2025-10-31",
+   "value": 1.3
+  },
+  {
+   "period": "2025-07-31",
+   "value": 1.08
+  }
+ ],
+ "eps_ttm": 7.909999999999999,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.6666666666666667,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 1.2777777777777777,
+ "eps_forward_growth": 1.013661188369153,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-07-31",
+   "value": 0.7497531723844068
+  },
+  {
+   "period": "2026-04-30",
+   "value": 0.749335293757275
+  },
+  {
+   "period": "2026-01-31",
+   "value": 0.7499669734466511
+  },
+  {
+   "period": "2025-10-31",
+   "value": 0.7341157071185489
+  },
+  {
+   "period": "2025-07-31",
+   "value": 0.724236784117408
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 215938000000.0,
+   "eps": 4.9,
+   "net_income": 120067000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 130497000000.0,
+   "eps": 2.94,
+   "net_income": 72880000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 60922000000.0,
+   "eps": 1.19,
+   "net_income": 29760000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 26974000000.0,
+   "eps": 0.174,
+   "net_income": 4368000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.008214564422721504,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1000000000.0,
+ "gap_24m": -61469000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.10311508632115403,
+ "interest_coverage": 497.207343412527,
+ "cash_to_debt": 1.6288753878647233,
+ "ev": 4089927125000.0,
+ "ev_to_sales": 13.49949045941994,
+ "ev_to_ebitda": 17.486242165254346,
+ "pe_ttm": 21.32966847090663,
+ "pe_trailing": 21.538559,
+ "p_sales": 13.578651,
+ "p_fcf": 32.39252574681511,
+ "p_book": 17.966517857142858
+}

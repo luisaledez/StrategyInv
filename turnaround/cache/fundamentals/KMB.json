@@ -1,40 +1,44 @@
 {
  "ticker": "KMB",
- "fetched": "2026-10-24",
- "market_cap": 36633581543.17534,
- "shares_out": 332579038.0,
- "price": 110.1500015258789,
+ "fetched": "2026-11-10",
+ "market_cap": 68688678083.29884,
+ "shares_out": 613675314.0,
+ "price": 111.93000030517578,
  "long_name": "Kimberly-Clark Corporation",
  "sector_y": "Consumer Defensive",
  "industry_y": "Household & Personal Products",
- "pe_trailing_y": 21.725838,
- "pe_forward": 14.88045,
- "peg": 2.25,
- "p_sales_y": 2.209238,
- "eps_trailing_y": 5.07,
- "eps_forward": 7.40233,
- "earnings_growth_y": -0.323,
- "earnings_growth_q_y": -0.322,
- "bs_date": "2026-06-30",
- "cash": 956000000.0,
- "total_debt": 6517000000.0,
- "current_debt": 43000000.0,
+ "pe_trailing_y": 21.360687,
+ "pe_forward": 15.713333,
+ "peg": 2.24,
+ "p_sales_y": 4.1463647,
+ "eps_trailing_y": 5.24,
+ "eps_forward": 7.12325,
+ "earnings_growth_y": 3.007,
+ "earnings_growth_q_y": 3.02,
+ "bs_date": "2026-09-30",
+ "cash": 1874000000.0,
+ "total_debt": 6491000000.0,
+ "current_debt": 621000000.0,
  "lease_obligations": 128000000.0,
- "equity": 1750000000.0,
- "net_debt": 5561000000.0,
- "ocf_ttm": 3333000000.0,
- "capex_ttm": -1513000000.0,
- "fcf_ttm": 1820000000.0,
+ "equity": 2932000000.0,
+ "net_debt": 4617000000.0,
+ "ocf_ttm": 3380000000.0,
+ "capex_ttm": -1436000000.0,
+ "fcf_ttm": 1944000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -21000000.0,
- "stock_issuance_ttm": -21000000.0,
- "revenue_ttm": 16582000000.0,
- "net_income_ttm": 1955000000.0,
- "ebitda_ttm": 3200000000.0,
- "ebit_ttm": 2475000000.0,
- "interest_ttm": 236000000.0,
- "revenue_yoy_last_q": 0.006245496036512144,
+ "buybacks_ttm": -1000000.0,
+ "stock_issuance_ttm": -1000000.0,
+ "revenue_ttm": 16566000000.0,
+ "net_income_ttm": 3302000000.0,
+ "ebitda_ttm": 3116000000.0,
+ "ebit_ttm": 2383000000.0,
+ "interest_ttm": 219000000.0,
+ "revenue_yoy_last_q": -0.003855421686747018,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4134000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4189000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 4150000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4163000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5.37
+  },
   {
    "period": "2026-06-30",
    "value": 1.04
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.34
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.53
   }
  ],
- "eps_ttm": 5.88,
+ "eps_ttm": 9.91,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.19602649006622508,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.3202614379084967,
- "eps_forward_growth": 0.2588996598639457,
+ "eps_growth_last_q": 3.0074626865671643,
+ "eps_forward_growth": -0.2812058526740666,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3485728108369618
+  },
   {
    "period": "2026-06-30",
    "value": 0.3826688947242779
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3597590361445783
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3497477780446793
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.001943268607926818,
+ "dilution_1y": 0.002115362594844683,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 43000000.0,
- "gap_24m": -913000000.0,
+ "need_24m": 621000000.0,
+ "gap_24m": -1253000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.7378125,
- "interest_coverage": 10.48728813559322,
- "cash_to_debt": 0.14669326377167408,
- "ev": 42194581543.17534,
- "ev_to_sales": 2.544601468048205,
- "ev_to_ebitda": 13.185806732242293,
- "pe_ttm": 18.738404881419612,
- "pe_trailing": 21.725838,
- "p_sales": 2.209238,
- "p_fcf": 20.128341507239195,
- "p_book": 20.933475167528766
+ "net_debt_to_ebitda": 1.4817073170731707,
+ "interest_coverage": 10.881278538812785,
+ "cash_to_debt": 0.2887074410722539,
+ "ev": 73305678083.29884,
+ "ev_to_sales": 4.42506809629958,
+ "ev_to_ebitda": 23.52557063007023,
+ "pe_ttm": 20.802143574590808,
+ "pe_trailing": 21.360687,
+ "p_sales": 4.1463647,
+ "p_fcf": 35.33368214161463,
+ "p_book": 23.427243548191967
 }

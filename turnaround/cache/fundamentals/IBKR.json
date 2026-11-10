@@ -1,0 +1,154 @@
+{
+ "ticker": "IBKR",
+ "fetched": "2026-11-10",
+ "market_cap": 35101951861.63522,
+ "shares_out": 453103799.0,
+ "price": 77.47000122070312,
+ "long_name": "Interactive Brokers Group, Inc.",
+ "sector_y": "Financial Services",
+ "industry_y": "Capital Markets",
+ "pe_trailing_y": 29.568705,
+ "pe_forward": 23.389784,
+ "peg": 1.08,
+ "p_sales_y": 18.701696,
+ "eps_trailing_y": 2.62,
+ "eps_forward": 3.31213,
+ "earnings_growth_y": 0.169,
+ "earnings_growth_q_y": 0.194,
+ "bs_date": "2026-09-30",
+ "cash": 5935000000.0,
+ "total_debt": 18000000.0,
+ "current_debt": 18000000.0,
+ "lease_obligations": null,
+ "equity": 6215000000.0,
+ "net_debt": -5917000000.0,
+ "ocf_ttm": 12294000000.0,
+ "capex_ttm": -110000000.0,
+ "fcf_ttm": 12184000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 11504000000.0,
+ "net_income_ttm": 1177000000.0,
+ "ebitda_ttm": 10255000000.0,
+ "ebit_ttm": 10147000000.0,
+ "interest_ttm": 4607000000.0,
+ "revenue_yoy_last_q": 0.1549556213017751,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3123000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 2996000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2646000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2739000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2704000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.69
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.69
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.59
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.63
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.59
+  }
+ ],
+ "eps_ttm": 2.5999999999999996,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2813852813852815,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.1694915254237288,
+ "eps_forward_growth": 0.27389615384615396,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9036183157220621
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.8918558077436582
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.8968253968253969
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.9109163928441036
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.908284023668639
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 10222000000.0,
+   "eps": 2.22,
+   "net_income": 984000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 9316000000.0,
+   "eps": 1.7325,
+   "net_income": 755000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7787000000.0,
+   "eps": 1.4175,
+   "net_income": 600000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4192000000.0,
+   "eps": 0.9375,
+   "net_income": 380000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.017433758924647158,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 18000000.0,
+ "gap_24m": -5917000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.5769868356899074,
+ "interest_coverage": 2.2025179075320165,
+ "cash_to_debt": 329.72222222222223,
+ "ev": 29184951861.635223,
+ "ev_to_sales": 2.5369394872770537,
+ "ev_to_ebitda": 2.845924121076082,
+ "pe_ttm": 29.823238625008685,
+ "pe_trailing": 29.568705,
+ "p_sales": 18.701696,
+ "p_fcf": 2.880987513266187,
+ "p_book": 5.647940766152088
+}

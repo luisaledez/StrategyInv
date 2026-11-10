@@ -1,40 +1,44 @@
 {
  "ticker": "HLI",
- "fetched": "2026-10-24",
- "market_cap": 9176796144.378662,
- "shares_out": 69886500.0,
- "price": 131.30999755859375,
+ "fetched": "2026-11-10",
+ "market_cap": 10302073040.390076,
+ "shares_out": 69416298.0,
+ "price": 148.41000366210938,
  "long_name": "Houlihan Lokey, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Capital Markets",
- "pe_trailing_y": 22.03188,
- "pe_forward": 15.28211,
+ "pe_trailing_y": 24.901007,
+ "pe_forward": 17.057209,
  "peg": null,
- "p_sales_y": 3.6365118,
+ "p_sales_y": 4.0313087,
  "eps_trailing_y": 5.96,
- "eps_forward": 8.5924,
- "earnings_growth_y": -0.19,
- "earnings_growth_q_y": -0.204,
- "bs_date": "2026-06-30",
- "cash": 756000000.0,
- "total_debt": 493000000.0,
+ "eps_forward": 8.70072,
+ "earnings_growth_y": 0.004,
+ "earnings_growth_q_y": -0.018,
+ "bs_date": "2026-09-30",
+ "cash": 846000000.0,
+ "total_debt": 494000000.0,
  "current_debt": null,
- "lease_obligations": 493000000.0,
- "equity": 2255000000.0,
- "net_debt": -263000000.0,
- "ocf_ttm": 500131000.0,
- "capex_ttm": -15312000.0,
- "fcf_ttm": 484819000.0,
+ "lease_obligations": 494000000.0,
+ "equity": 2307000000.0,
+ "net_debt": -352000000.0,
+ "ocf_ttm": 427131000.0,
+ "capex_ttm": -25312000.0,
+ "fcf_ttm": 401819000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -217428000.0,
- "stock_issuance_ttm": -217428000.0,
- "revenue_ttm": 2523167000.0,
- "net_income_ttm": 406164000.0,
- "ebitda_ttm": 616936000.0,
- "ebit_ttm": 582292000.0,
+ "buybacks_ttm": -237428000.0,
+ "stock_issuance_ttm": -237428000.0,
+ "revenue_ttm": 2555715000.0,
+ "net_income_ttm": 403383000.0,
+ "ebitda_ttm": 616945000.0,
+ "ebit_ttm": 582311000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": -0.15537190082644625,
+ "revenue_yoy_last_q": 0.048484848484848575,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 692000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 511000000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 659452000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 605000000.0
+   "value": 660000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.64
+  },
   {
    "period": "2026-06-30",
    "value": 1.15
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.63
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.42
   }
  ],
- "eps_ttm": 5.95,
+ "eps_ttm": 5.96,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.06872852233676974,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.1901408450704225,
- "eps_forward_growth": 0.4441008403361344,
+ "eps_growth_last_q": 0.006134969325153339,
+ "eps_forward_growth": 0.45985234899328864,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.38439306358381503
+  },
   {
    "period": "2026-06-30",
    "value": 0.38551859099804303
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.38500148608238355
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3851239669421488
+   "value": 0.38484848484848483
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.006186821152911137,
+ "dilution_1y": -0.010525330066793237,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -756000000.0,
+ "gap_24m": -846000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.42630029695138555,
+ "net_debt_to_ebitda": -0.5705532908119849,
  "interest_coverage": null,
- "cash_to_debt": 1.5334685598377282,
- "ev": 8913796144.378662,
- "ev_to_sales": 3.5327808838569394,
- "ev_to_ebitda": 14.448494081037031,
- "pe_ttm": 22.593819600896836,
- "pe_trailing": 22.03188,
- "p_sales": 3.6365118,
- "p_fcf": 18.92829312460663,
- "p_book": 4.069532658261047
+ "cash_to_debt": 1.7125506072874495,
+ "ev": 9950073040.390076,
+ "ev_to_sales": 3.8932639360766266,
+ "ev_to_ebitda": 16.12797419606298,
+ "pe_ttm": 25.539184944308698,
+ "pe_trailing": 24.901007,
+ "p_sales": 4.0313087,
+ "p_fcf": 25.63859110791196,
+ "p_book": 4.465571322232369
 }

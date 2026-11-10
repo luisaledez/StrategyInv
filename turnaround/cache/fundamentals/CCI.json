@@ -1,40 +1,44 @@
 {
  "ticker": "CCI",
- "fetched": "2026-10-24",
- "market_cap": 36576404610.184784,
- "shares_out": 425455439.0,
- "price": 85.97000122070312,
+ "fetched": "2026-11-10",
+ "market_cap": 37370013608.949326,
+ "shares_out": 425481189.0,
+ "price": 87.83000183105469,
  "long_name": "Crown Castle Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Specialty",
- "pe_trailing_y": 34.526104,
- "pe_forward": 29.350412,
- "peg": 0.67,
- "p_sales_y": 9.199042,
+ "pe_trailing_y": 35.273094,
+ "pe_forward": 29.985422,
+ "peg": 0.7,
+ "p_sales_y": 9.150346,
  "eps_trailing_y": 2.49,
  "eps_forward": 2.92909,
  "earnings_growth_y": -0.105,
  "earnings_growth_q_y": -0.124,
- "bs_date": "2026-06-30",
- "cash": 1042000000.0,
- "total_debt": 23404000000.0,
- "current_debt": 2518000000.0,
- "lease_obligations": 5165000000.0,
- "equity": -3270000000.0,
- "net_debt": 22362000000.0,
- "ocf_ttm": 2624000000.0,
- "capex_ttm": -218000000.0,
- "fcf_ttm": 2406000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 133000000.0,
+ "total_debt": 22922000000.0,
+ "current_debt": 2496000000.0,
+ "lease_obligations": 5126000000.0,
+ "equity": -3424000000.0,
+ "net_debt": 22789000000.0,
+ "ocf_ttm": 1966000000.0,
+ "capex_ttm": -241000000.0,
+ "fcf_ttm": 1725000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1017000000.0,
- "stock_issuance_ttm": -1017000000.0,
- "revenue_ttm": 4161000000.0,
- "net_income_ttm": 862000000.0,
- "ebitda_ttm": 2684000000.0,
- "ebit_ttm": 2003000000.0,
- "interest_ttm": 914000000.0,
- "revenue_yoy_last_q": -0.049056603773584895,
+ "buybacks_ttm": -1043000000.0,
+ "stock_issuance_ttm": -1043000000.0,
+ "revenue_ttm": 4084000000.0,
+ "net_income_ttm": 822000000.0,
+ "ebitda_ttm": 2635000000.0,
+ "ebit_ttm": 1942000000.0,
+ "interest_ttm": 846000000.0,
+ "revenue_yoy_last_q": -0.07182835820895528,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 995000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1008000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1072000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1060000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.67
+  },
   {
    "period": "2026-06-30",
    "value": 0.22
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.74
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.67
   }
  ],
- "eps_ttm": 1.97,
+ "eps_ttm": 1.9,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": -0.6716417910447761,
- "eps_forward_growth": 0.4868477157360407,
+ "eps_growth_last_q": -0.09459459459459452,
+ "eps_forward_growth": 0.5416263157894738,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7376884422110552
+  },
   {
    "period": "2026-06-30",
    "value": 0.7341269841269841
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7388059701492538
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7377358490566037
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.021721475892158337,
+ "dilution_1y": -0.021746755628281877,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2518000000.0,
- "gap_24m": 1476000000.0,
+ "need_24m": 2496000000.0,
+ "gap_24m": 2363000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 8.331594634873323,
- "interest_coverage": 2.191466083150985,
- "cash_to_debt": 0.04452230387967869,
- "ev": 58938404610.184784,
- "ev_to_sales": 14.1644808003328,
- "ev_to_ebitda": 21.959167142393735,
- "pe_ttm": 42.43202390972713,
- "pe_trailing": 34.526104,
- "p_sales": 9.199042,
- "p_fcf": 15.202163179627924,
+ "net_debt_to_ebitda": 8.648576850094877,
+ "interest_coverage": 2.2955082742316786,
+ "cash_to_debt": 0.0058022860134368725,
+ "ev": 60159013608.949326,
+ "ev_to_sales": 14.730414693670255,
+ "ev_to_ebitda": 22.830745202637313,
+ "pe_ttm": 45.462303660522295,
+ "pe_trailing": 35.273094,
+ "p_sales": 9.150346,
+ "p_fcf": 21.663776005188016,
  "p_book": null
 }

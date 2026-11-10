@@ -1,40 +1,44 @@
 {
  "ticker": "BWXT",
- "fetched": "2026-10-24",
- "market_cap": 11653399859.886475,
- "shares_out": 91621980.0,
- "price": 127.19000244140625,
+ "fetched": "2026-11-10",
+ "market_cap": 11577759948.843582,
+ "shares_out": 91625197.0,
+ "price": 126.36000061035156,
  "long_name": "BWX Technologies, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
- "pe_trailing_y": 32.95078,
- "pe_forward": 24.296642,
+ "pe_trailing_y": 31.046682,
+ "pe_forward": 24.212881,
  "peg": 1.67,
- "p_sales_y": 3.3163064,
- "eps_trailing_y": 3.86,
- "eps_forward": 5.23488,
- "earnings_growth_y": 0.141,
- "earnings_growth_q_y": 0.136,
- "bs_date": "2026-06-30",
- "cash": 608203000.0,
- "total_debt": 2019897000.0,
+ "p_sales_y": 3.2154589,
+ "eps_trailing_y": 4.07,
+ "eps_forward": 5.21871,
+ "earnings_growth_y": 0.246,
+ "earnings_growth_q_y": 0.239,
+ "bs_date": "2026-09-30",
+ "cash": 568526000.0,
+ "total_debt": 2021883000.0,
  "current_debt": 12500000.0,
  "lease_obligations": null,
- "equity": 1334450000.0,
- "net_debt": 1411694000.0,
- "ocf_ttm": 519158000.0,
- "capex_ttm": -202396000.0,
- "fcf_ttm": 316762000.0,
+ "equity": 1418357000.0,
+ "net_debt": 1453357000.0,
+ "ocf_ttm": 578713000.0,
+ "capex_ttm": -206392000.0,
+ "fcf_ttm": 372321000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 3513970000.0,
- "net_income_ttm": 355177000.0,
- "ebitda_ttm": 582332000.0,
- "ebit_ttm": 463942000.0,
- "interest_ttm": 34488000.0,
- "revenue_yoy_last_q": 0.18007719501229658,
+ "revenue_ttm": 3600656000.0,
+ "net_income_ttm": 374783000.0,
+ "ebitda_ttm": 602808000.0,
+ "ebit_ttm": 479363000.0,
+ "interest_ttm": 25577000.0,
+ "revenue_yoy_last_q": 0.10006625987260565,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 952972000.0
+  },
   {
    "period": "2026-06-30",
    "value": 901625000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 866286000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 764039000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.11
+  },
   {
    "period": "2026-06-30",
    "value": 0.97
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.89
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.85
   }
  ],
- "eps_ttm": 3.86,
+ "eps_ttm": 4.08,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.16612377850162874,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.14117647058823524,
- "eps_forward_growth": 0.3561865284974095,
+ "eps_growth_last_q": 0.24719101123595522,
+ "eps_forward_growth": 0.2790955882352941,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.2383532779557007
+  },
   {
    "period": "2026-06-30",
    "value": 0.2243782060169139
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.21816582514319752
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2505068458547273
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0024381299177442806,
+ "dilution_1y": 0.002223131441899895,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 12500000.0,
- "gap_24m": -595703000.0,
+ "gap_24m": -556026000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.424208183647816,
- "interest_coverage": 13.452273254465322,
- "cash_to_debt": 0.3011059474814805,
- "ev": 13065093859.886475,
- "ev_to_sales": 3.7180436542959883,
- "ev_to_ebitda": 22.43581644128517,
- "pe_ttm": 32.81011963017446,
- "pe_trailing": 32.95078,
- "p_sales": 3.3163064,
- "p_fcf": 36.789134618061745,
- "p_book": 8.732736228323635
+ "net_debt_to_ebitda": 2.4109782882775277,
+ "interest_coverage": 18.74195566329124,
+ "cash_to_debt": 0.28118639901517545,
+ "ev": 13031116948.843582,
+ "ev_to_sales": 3.6190952284371467,
+ "ev_to_ebitda": 21.617359007915592,
+ "pe_ttm": 30.891902644579883,
+ "pe_trailing": 31.046682,
+ "p_sales": 3.2154589,
+ "p_fcf": 31.096177623189618,
+ "p_book": 8.1627967774288
 }

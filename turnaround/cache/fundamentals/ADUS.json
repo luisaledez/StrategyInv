@@ -1,40 +1,44 @@
 {
  "ticker": "ADUS",
- "fetched": "2026-10-25",
- "market_cap": 2274716437.4084473,
- "shares_out": 18674300.0,
- "price": 121.80999755859375,
+ "fetched": "2026-11-10",
+ "market_cap": 2294413405.4650574,
+ "shares_out": 18633316.0,
+ "price": 123.13500213623047,
  "long_name": "Addus HomeCare Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Medical Care Facilities",
- "pe_trailing_y": 21.332748,
- "pe_forward": 16.205767,
+ "pe_trailing_y": 20.488352,
+ "pe_forward": 16.198542,
  "peg": 1.07,
- "p_sales_y": 1.5407109,
- "eps_trailing_y": 5.71,
- "eps_forward": 7.51646,
+ "p_sales_y": 1.527736,
+ "eps_trailing_y": 6.01,
+ "eps_forward": 7.60161,
  "earnings_growth_y": 0.242,
- "earnings_growth_q_y": 0.252,
- "bs_date": "2026-06-30",
- "cash": 99566000.0,
- "total_debt": 108820000.0,
- "current_debt": 13059000.0,
- "lease_obligations": 47223000.0,
- "equity": 1148157000.0,
- "net_debt": 9254000.0,
- "ocf_ttm": 162405000.0,
- "capex_ttm": -7633000.0,
- "fcf_ttm": 154772000.0,
+ "earnings_growth_q_y": 0.251,
+ "bs_date": "2026-09-30",
+ "cash": 98480000.0,
+ "total_debt": 67325000.0,
+ "current_debt": 12755000.0,
+ "lease_obligations": 45404000.0,
+ "equity": 1179759000.0,
+ "net_debt": -31155000.0,
+ "ocf_ttm": 152053000.0,
+ "capex_ttm": -7819000.0,
+ "fcf_ttm": 144234000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1476407000.0,
- "net_income_ttm": 105306000.0,
- "ebitda_ttm": 167372000.0,
- "ebit_ttm": 150661000.0,
- "interest_ttm": 9944000.0,
- "revenue_yoy_last_q": 0.08005311309712893,
+ "revenue_ttm": 1501839000.0,
+ "net_income_ttm": 111052000.0,
+ "ebitda_ttm": 173809000.0,
+ "ebit_ttm": 157368000.0,
+ "interest_ttm": 7865000.0,
+ "revenue_yoy_last_q": 0.07019577644003183,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 387733000.0
+  },
   {
    "period": "2026-06-30",
    "value": 377417000.0
@@ -50,20 +54,20 @@
   {
    "period": "2025-09-30",
    "value": 362301000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 349443000.0
   }
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.54
+  },
+  {
    "period": "2026-06-30",
-   "value": 1.478366
+   "value": 1.49
   },
   {
    "period": "2026-03-31",
-   "value": 1.343118
+   "value": 1.36
   },
   {
    "period": "2025-12-31",
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.236163
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.198022
   }
  ],
- "eps_ttm": 5.66592,
+ "eps_ttm": 5.998273000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.2771225661970005,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.23400571942752313,
- "eps_forward_growth": 0.32660891788094437,
+ "eps_growth_last_q": 0.24579040142764352,
+ "eps_forward_growth": 0.2672997711174532,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.32083418228523236
+  },
   {
    "period": "2026-06-30",
    "value": 0.32208406086636265
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3221492626296919
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.325881474231849
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.014505351225077456,
+ "dilution_1y": 0.008115565654926105,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 13059000.0,
- "gap_24m": -86507000.0,
+ "need_24m": 12755000.0,
+ "gap_24m": -85725000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.05529001266639581,
- "interest_coverage": 15.150945293644408,
- "cash_to_debt": 0.9149604852049256,
- "ev": 2283970437.4084473,
- "ev_to_sales": 1.5469788733109822,
- "ev_to_ebitda": 13.646072445859804,
- "pe_ttm": 21.601014542461467,
- "pe_trailing": 21.332748,
- "p_sales": 1.5407109,
- "p_fcf": 14.69720903915726,
- "p_book": 1.9811893647022552
+ "net_debt_to_ebitda": -0.17924848540639438,
+ "interest_coverage": 20.008645899554992,
+ "cash_to_debt": 1.4627552914964723,
+ "ev": 2263258405.4650574,
+ "ev_to_sales": 1.5069913655625253,
+ "ev_to_ebitda": 13.02152595932925,
+ "pe_ttm": 20.66071214804828,
+ "pe_trailing": 20.488352,
+ "p_sales": 1.527736,
+ "p_fcf": 15.907576614841558,
+ "p_book": 1.9448153440364153
 }

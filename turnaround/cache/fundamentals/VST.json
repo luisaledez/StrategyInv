@@ -1,40 +1,44 @@
 {
  "ticker": "VST",
- "fetched": "2026-10-24",
- "market_cap": 47042630160.332794,
- "shares_out": 335635195.0,
- "price": 140.16000366210938,
+ "fetched": "2026-11-10",
+ "market_cap": 44263853935.409775,
+ "shares_out": 339394683.0,
+ "price": 130.4199981689453,
  "long_name": "Vistra Corp.",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Independent Power Producers",
- "pe_trailing_y": 23.635752,
- "pe_forward": 13.520749,
- "peg": 0.4,
- "p_sales_y": 2.4486067,
- "eps_trailing_y": 5.93,
- "eps_forward": 10.36629,
- "earnings_growth_y": -0.062,
- "earnings_growth_q_y": -0.067,
- "bs_date": "2026-06-30",
- "cash": 435000000.0,
- "total_debt": 19895000000.0,
- "current_debt": 2176000000.0,
+ "pe_trailing_y": 17.624325,
+ "pe_forward": 13.791936,
+ "peg": 0.35,
+ "p_sales_y": 2.1499832,
+ "eps_trailing_y": 7.4,
+ "eps_forward": 9.45625,
+ "earnings_growth_y": 0.846,
+ "earnings_growth_q_y": 0.748,
+ "bs_date": "2026-09-30",
+ "cash": 2743000000.0,
+ "total_debt": 21146000000.0,
+ "current_debt": 2877000000.0,
  "lease_obligations": 289000000.0,
- "equity": 5482000000.0,
- "net_debt": 19460000000.0,
- "ocf_ttm": 5121000000.0,
- "capex_ttm": -2866000000.0,
- "fcf_ttm": 2255000000.0,
+ "equity": 6306000000.0,
+ "net_debt": 18403000000.0,
+ "ocf_ttm": 5762000000.0,
+ "capex_ttm": -3155000000.0,
+ "fcf_ttm": 2607000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1148000000.0,
- "stock_issuance_ttm": -1148000000.0,
- "revenue_ttm": 19212000000.0,
- "net_income_ttm": 2219000000.0,
- "ebitda_ttm": 6548000000.0,
- "ebit_ttm": 3769000000.0,
- "interest_ttm": 966000000.0,
- "revenue_yoy_last_q": -0.054823529411764715,
+ "buybacks_ttm": -1169000000.0,
+ "stock_issuance_ttm": -1169000000.0,
+ "revenue_ttm": 20588000000.0,
+ "net_income_ttm": 2707000000.0,
+ "ebitda_ttm": 7471000000.0,
+ "ebit_ttm": 4408000000.0,
+ "interest_ttm": 965000000.0,
+ "revenue_yoy_last_q": 0.2768054717360693,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 6347000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4017000000.0
@@ -50,41 +54,41 @@
   {
    "period": "2025-09-30",
    "value": 4971000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4250000000.0
   }
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 3.23
+  },
+  {
    "period": "2026-06-30",
-   "value": 0.767946
+   "value": 0.76
   },
   {
    "period": "2026-03-31",
-   "value": 2.898723
+   "value": 2.87
   },
   {
    "period": "2025-09-30",
-   "value": 1.783396
+   "value": 1.75
   },
   {
    "period": "2025-06-30",
-   "value": 0.825662
-  },
-  {
-   "period": "2025-03-31",
-   "value": -0.93222
+   "value": 0.81
   }
  ],
- "eps_ttm": 6.275727,
+ "eps_ttm": 8.61,
  "eps_ttm_prior": null,
- "eps_growth_yoy": -0.68222,
+ "eps_growth_yoy": -0.6997712063785122,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": null,
- "eps_forward_growth": 0.6518070336711588,
+ "eps_growth_last_q": 2.987654320987654,
+ "eps_forward_growth": 0.09828687572590034,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.493776587364109
+  },
   {
    "period": "2026-06-30",
    "value": 0.34602937515558874
@@ -100,29 +104,25 @@
   {
    "period": "2025-09-30",
    "value": 0.39147052906859786
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.36305882352941177
   }
  ],
  "annual": [
   {
    "year": "2025",
    "revenue": 17738000000.0,
-   "eps": 2.22446,
+   "eps": 2.18,
    "net_income": 944000000.0
   },
   {
    "year": "2024",
    "revenue": 17224000000.0,
-   "eps": 7.0,
+   "eps": 7.261129,
    "net_income": 2659000000.0
   },
   {
    "year": "2023",
    "revenue": 14779000000.0,
-   "eps": 3.58,
+   "eps": 3.821235,
    "net_income": 1493000000.0
   },
   {
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.009319756003580038,
+ "dilution_1y": -0.011603454974695837,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2176000000.0,
- "gap_24m": 1741000000.0,
+ "need_24m": 2877000000.0,
+ "gap_24m": 134000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.971899816737935,
- "interest_coverage": 3.901656314699793,
- "cash_to_debt": 0.02186479014827846,
- "ev": 66502630160.332794,
- "ev_to_sales": 3.4615152071795126,
- "ev_to_ebitda": 10.156174428884055,
- "pe_ttm": 21.199923461168453,
- "pe_trailing": 23.635752,
- "p_sales": 2.4486067,
- "p_fcf": 20.861476789504565,
- "p_book": 8.58128970454812
+ "net_debt_to_ebitda": 2.463257930665239,
+ "interest_coverage": 4.5678756476683935,
+ "cash_to_debt": 0.12971720419937577,
+ "ev": 62666853935.409775,
+ "ev_to_sales": 3.043853406615979,
+ "ev_to_ebitda": 8.388014179548893,
+ "pe_ttm": 16.351626869379302,
+ "pe_trailing": 17.624325,
+ "p_sales": 2.1499832,
+ "p_fcf": 16.978846925742147,
+ "p_book": 7.019323491184551
 }

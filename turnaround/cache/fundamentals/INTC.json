@@ -1,40 +1,44 @@
 {
  "ticker": "INTC",
- "fetched": "2026-10-24",
- "market_cap": 456933603541.7375,
- "shares_out": 5254526315.0,
- "price": 86.95999908447266,
+ "fetched": "2026-11-10",
+ "market_cap": 310510278663.63525,
+ "shares_out": 5315000000.0,
+ "price": 58.42150115966797,
  "long_name": "Intel Corporation",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
  "pe_trailing_y": null,
- "pe_forward": 41.1682,
+ "pe_forward": 32.628487,
  "peg": 1.36,
- "p_sales_y": 8.060031,
- "eps_trailing_y": -2.12,
- "eps_forward": 2.11231,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 29727000000.0,
- "total_debt": 50537000000.0,
- "current_debt": 1988000000.0,
+ "p_sales_y": 5.18437,
+ "eps_trailing_y": -2.35,
+ "eps_forward": 1.79046,
+ "earnings_growth_y": -0.327,
+ "earnings_growth_q_y": -0.183,
+ "bs_date": "2026-09-30",
+ "cash": 54005000000.0,
+ "total_debt": 50134000000.0,
+ "current_debt": 3817000000.0,
  "lease_obligations": null,
- "equity": 87542000000.0,
- "net_debt": 20810000000.0,
- "ocf_ttm": 14936000000.0,
- "capex_ttm": -12105000000.0,
- "fcf_ttm": 2831000000.0,
+ "equity": 114914000000.0,
+ "net_debt": -3871000000.0,
+ "ocf_ttm": 17472000000.0,
+ "capex_ttm": -13704000000.0,
+ "fcf_ttm": 3768000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 57032000000.0,
- "net_income_ttm": -11289000000.0,
- "ebitda_ttm": 3676000000.0,
- "ebit_ttm": -8703000000.0,
- "interest_ttm": 1150000000.0,
- "revenue_yoy_last_q": 0.25421883505715837,
+ "revenue_ttm": 59892000000.0,
+ "net_income_ttm": -12032000000.0,
+ "ebitda_ttm": 3366000000.0,
+ "ebit_ttm": -9253000000.0,
+ "interest_ttm": 1192000000.0,
+ "revenue_yoy_last_q": 0.20947777045338012,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 16513000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 16128000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 13653000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 12859000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6
+  },
   {
    "period": "2026-06-30",
    "value": -2.16
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.9
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.67
   }
  ],
- "eps_ttm": -2.1100000000000003,
+ "eps_ttm": -2.41,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": null,
+ "eps_growth_last_q": -0.33333333333333337,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.42972203718282564
+  },
   {
    "period": "2026-06-30",
    "value": 0.40358382936507936
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3821870651138944
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2754491017964072
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.15215901302261825,
+ "dilution_1y": 0.11414183801930333,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1988000000.0,
- "gap_24m": -27739000000.0,
+ "need_24m": 3817000000.0,
+ "gap_24m": -50188000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 5.661044613710555,
- "interest_coverage": -7.567826086956522,
- "cash_to_debt": 0.5882224904525397,
- "ev": 477743603541.7375,
- "ev_to_sales": 8.376763984109578,
- "ev_to_ebitda": 129.96289541396558,
+ "net_debt_to_ebitda": -1.1500297088532383,
+ "interest_coverage": -7.7625838926174495,
+ "cash_to_debt": 1.0772130689751467,
+ "ev": 306639278663.63525,
+ "ev_to_sales": 5.119870411133962,
+ "ev_to_ebitda": 91.09901326905384,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 8.060031,
- "p_fcf": 161.4036042182047,
- "p_book": 5.219592921588923
+ "p_sales": 5.18437,
+ "p_fcf": 82.40718648185648,
+ "p_book": 2.7021100880974926
 }

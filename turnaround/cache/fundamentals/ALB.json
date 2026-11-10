@@ -1,0 +1,154 @@
+{
+ "ticker": "ALB",
+ "fetched": "2026-11-10",
+ "market_cap": 11697136557.00373,
+ "shares_out": 118009849.0,
+ "price": 99.12000274658203,
+ "long_name": "Albemarle Corporation",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": 23.884338,
+ "pe_forward": 11.493773,
+ "peg": 0.79,
+ "p_sales_y": 1.900993,
+ "eps_trailing_y": 4.15,
+ "eps_forward": 8.6238,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 1845999000.0,
+ "total_debt": 1881352000.0,
+ "current_debt": 74602000.0,
+ "lease_obligations": 103110000.0,
+ "equity": 10541570000.0,
+ "net_debt": 35353000.0,
+ "ocf_ttm": 1850522000.0,
+ "capex_ttm": -406166000.0,
+ "fcf_ttm": 1444356000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 6153172000.0,
+ "net_income_ttm": 681626000.0,
+ "ebitda_ttm": 1339416000.0,
+ "ebit_ttm": 693696000.0,
+ "interest_ttm": 149624000.0,
+ "revenue_yoy_last_q": 0.18753827908694487,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1553097000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1743313000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1428731000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1428031000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1307829000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.15
+  },
+  {
+   "period": "2026-06-30",
+   "value": 3.72
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": -3.87
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.72
+  }
+ ],
+ "eps_ttm": 4.340000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.9870506912442392,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1936286014331365
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.33860872947084086
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3506370338433197
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.13860623473860162
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.08992765873826013
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5142733000.0,
+   "eps": -5.76,
+   "net_income": -510628000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5377526000.0,
+   "eps": -11.2,
+   "net_income": -1179449000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 9617203000.0,
+   "eps": 13.36,
+   "net_income": 1573476000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7320104000.0,
+   "eps": 22.84,
+   "net_income": 2689816000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.0026934710940420548,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 74602000.0,
+ "gap_24m": -1771397000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.026394339025366278,
+ "interest_coverage": 4.636261562316206,
+ "cash_to_debt": 0.9812087264903112,
+ "ev": 11732489557.00373,
+ "ev_to_sales": 1.906738436208793,
+ "ev_to_ebitda": 8.759406754140409,
+ "pe_ttm": 17.160637295237755,
+ "pe_trailing": 23.884338,
+ "p_sales": 1.900993,
+ "p_fcf": 8.098513494598098,
+ "p_book": 1.1096199671399736
+}

@@ -1,40 +1,44 @@
 {
  "ticker": "PII",
- "fetched": "2026-10-24",
- "market_cap": 3119451168.3144226,
- "shares_out": 56903524.0,
- "price": 54.81999969482422,
+ "fetched": "2026-11-10",
+ "market_cap": 3822009389.635147,
+ "shares_out": 56925967.0,
+ "price": 67.13999938964844,
  "long_name": "Polaris Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Recreational Vehicles",
  "pe_trailing_y": null,
- "pe_forward": 16.288668,
+ "pe_forward": 21.445889,
  "peg": 3.34,
- "p_sales_y": 0.41496962,
- "eps_trailing_y": -4.61,
- "eps_forward": 3.36553,
+ "p_sales_y": 0.49539337,
+ "eps_trailing_y": -3.67,
+ "eps_forward": 3.13067,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 302100000.0,
- "total_debt": 2059600000.0,
- "current_debt": 59900000.0,
- "lease_obligations": 108300000.0,
- "equity": 836500000.0,
- "net_debt": 1757500000.0,
- "ocf_ttm": 247500000.0,
- "capex_ttm": -180600000.0,
- "fcf_ttm": 66900000.0,
+ "bs_date": "2026-09-30",
+ "cash": 301700000.0,
+ "total_debt": 1758100000.0,
+ "current_debt": 60000000.0,
+ "lease_obligations": 129700000.0,
+ "equity": 844500000.0,
+ "net_debt": 1456400000.0,
+ "ocf_ttm": 470500000.0,
+ "capex_ttm": -205000000.0,
+ "fcf_ttm": 265500000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -9300000.0,
  "stock_issuance_ttm": -9300000.0,
- "revenue_ttm": 7445000000.0,
- "net_income_ttm": -260400000.0,
- "ebitda_ttm": 103600000.0,
- "ebit_ttm": -165100000.0,
- "interest_ttm": 128200000.0,
- "revenue_yoy_last_q": 0.09181195012684196,
+ "revenue_ttm": 7646000000.0,
+ "net_income_ttm": -206200000.0,
+ "ebitda_ttm": 162000000.0,
+ "ebit_ttm": -101700000.0,
+ "interest_ttm": 123300000.0,
+ "revenue_yoy_last_q": 0.10914422241529098,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2042600000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2022800000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1841600000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1852700000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.66
+  },
   {
    "period": "2026-06-30",
    "value": 1.82
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.28
-  },
-  {
-   "period": "2025-06-30",
-   "value": -1.39
   }
  ],
- "eps_ttm": -4.63,
+ "eps_ttm": -3.69,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -5.194871794871795,
  "eps_growth_basis": "fiscal year",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.21169098208166062
+  },
   {
    "period": "2026-06-30",
    "value": 0.23645441961637334
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.20650521285838402
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1938792033248772
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.012249542997880614,
+ "dilution_1y": 0.012074456605699613,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 59900000.0,
- "gap_24m": -242200000.0,
+ "need_24m": 60000000.0,
+ "gap_24m": -241700000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 16.964285714285715,
- "interest_coverage": -1.2878315132605305,
- "cash_to_debt": 0.1466789667896679,
- "ev": 4876951168.314423,
- "ev_to_sales": 0.6550639581349124,
- "ev_to_ebitda": 47.07481822697319,
+ "net_debt_to_ebitda": 8.990123456790123,
+ "interest_coverage": -0.8248175182481752,
+ "cash_to_debt": 0.17160571071042602,
+ "ev": 5278409389.635147,
+ "ev_to_sales": 0.6903491223692318,
+ "ev_to_ebitda": 32.5827740100935,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.41496962,
- "p_fcf": 46.62856753833218,
- "p_book": 3.729170553872591
+ "p_sales": 0.49539337,
+ "p_fcf": 14.395515591846129,
+ "p_book": 4.5257660031203635
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "KBH",
- "fetched": "2026-10-24",
- "market_cap": 2858886682.4417114,
+ "fetched": "2026-11-10",
+ "market_cap": 3160269797.371765,
  "shares_out": 60762736.0,
- "price": 47.04999923706055,
+ "price": 52.0099983215332,
  "long_name": "KB Home",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Residential Construction",
- "pe_trailing_y": 13.253521,
- "pe_forward": 13.119956,
+ "pe_trailing_y": 14.650704,
+ "pe_forward": 14.503058,
  "peg": 5.97,
- "p_sales_y": 0.5518101,
+ "p_sales_y": 0.6099818,
  "eps_trailing_y": 3.55,
  "eps_forward": 3.58614,
  "earnings_growth_y": -0.347,
  "earnings_growth_q_y": -0.406,
- "bs_date": "2026-05-31",
- "cash": 200760000.0,
- "total_debt": 1998658000.0,
- "current_debt": 275000000.0,
- "lease_obligations": 29944000.0,
- "equity": 3796810000.0,
- "net_debt": 1797898000.0,
- "ocf_ttm": 408095000.0,
- "capex_ttm": -48559000.0,
- "fcf_ttm": 359536000.0,
+ "bs_date": "2026-08-31",
+ "cash": 160058000.0,
+ "total_debt": 2140102000.0,
+ "current_debt": 415000000.0,
+ "lease_obligations": 30957000.0,
+ "equity": 3801509000.0,
+ "net_debt": 1980044000.0,
+ "ocf_ttm": 74962000.0,
+ "capex_ttm": -46301000.0,
+ "fcf_ttm": 28661000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -421426000.0,
- "stock_issuance_ttm": -421426000.0,
- "revenue_ttm": 5504298000.0,
- "net_income_ttm": 272122000.0,
- "ebitda_ttm": 368109000.0,
- "ebit_ttm": 328328000.0,
+ "buybacks_ttm": -282966000.0,
+ "stock_issuance_ttm": -282966000.0,
+ "revenue_ttm": 5180925000.0,
+ "net_income_ttm": 227574000.0,
+ "ebitda_ttm": 304111000.0,
+ "ebit_ttm": 263154000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": -0.272721032175394,
+ "revenue_yoy_last_q": -0.19955457477256655,
  "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 1297101000.0
+  },
   {
    "period": "2026-05-31",
    "value": 1112435000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-08-31",
    "value": 1620474000.0
-  },
-  {
-   "period": "2025-05-31",
-   "value": 1529585000.0
   }
  ],
  "eps_quarters": [
@@ -86,6 +86,10 @@
  "eps_forward_growth": 0.010180281690140847,
  "gross_margin_quarters": [
   {
+   "period": "2026-08-31",
+   "value": 0.1673323819810485
+  },
+  {
    "period": "2026-05-31",
    "value": 0.15509490442138194
   },
@@ -100,10 +104,6 @@
   {
    "period": "2025-08-31",
    "value": 0.18374068328155835
-  },
-  {
-   "period": "2025-05-31",
-   "value": 0.1947979353877032
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.09905125311637664,
+ "dilution_1y": -0.06179214798929389,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 275000000.0,
- "gap_24m": 74240000.0,
+ "need_24m": 415000000.0,
+ "gap_24m": 254942000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.8841457285749605,
+ "net_debt_to_ebitda": 6.510925287148442,
  "interest_coverage": null,
- "cash_to_debt": 0.10044740020553791,
- "ev": 4656784682.441711,
- "ev_to_sales": 0.8460269924414905,
- "ev_to_ebitda": 12.650559161666004,
- "pe_ttm": 10.50590059767939,
- "pe_trailing": 13.253521,
- "p_sales": 0.5518101,
- "p_fcf": 7.951600625366337,
- "p_book": 0.7529706997299606
+ "cash_to_debt": 0.07478989319200674,
+ "ev": 5140313797.371765,
+ "ev_to_sales": 0.9921613992427539,
+ "ev_to_ebitda": 16.902755235331064,
+ "pe_ttm": 13.886778794465823,
+ "pe_trailing": 14.650704,
+ "p_sales": 0.6099818,
+ "p_fcf": 110.26376600159678,
+ "p_book": 0.8313198251988263
 }

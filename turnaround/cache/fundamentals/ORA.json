@@ -1,40 +1,44 @@
 {
  "ticker": "ORA",
- "fetched": "2026-10-24",
- "market_cap": 5355768366.481476,
- "shares_out": 61496941.0,
- "price": 87.08999633789062,
+ "fetched": "2026-11-10",
+ "market_cap": 5733001080.83432,
+ "shares_out": 61502991.0,
+ "price": 93.21499633789062,
  "long_name": "Ormat Technologies, Inc.",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Renewable",
- "pe_trailing_y": 42.691177,
- "pe_forward": 33.936283,
- "peg": 3.21,
- "p_sales_y": 4.506561,
- "eps_trailing_y": 2.04,
- "eps_forward": 2.56628,
- "earnings_growth_y": -0.065,
- "earnings_growth_q_y": -0.034,
- "bs_date": "2026-06-30",
- "cash": 513747000.0,
- "total_debt": 3411658000.0,
- "current_debt": 781406000.0,
- "lease_obligations": 46708000.0,
- "equity": 2597579000.0,
- "net_debt": 2897911000.0,
- "ocf_ttm": 279386000.0,
- "capex_ttm": -544154000.0,
- "fcf_ttm": -264768000.0,
+ "pe_trailing_y": 43.15509,
+ "pe_forward": 36.151844,
+ "peg": 3.39,
+ "p_sales_y": 4.72306,
+ "eps_trailing_y": 2.16,
+ "eps_forward": 2.57843,
+ "earnings_growth_y": 0.308,
+ "earnings_growth_q_y": 0.322,
+ "bs_date": "2026-09-30",
+ "cash": 347968000.0,
+ "total_debt": 3355148000.0,
+ "current_debt": 785002000.0,
+ "lease_obligations": 62464000.0,
+ "equity": 2633354000.0,
+ "net_debt": 3007180000.0,
+ "ocf_ttm": 333957000.0,
+ "capex_ttm": -569549000.0,
+ "fcf_ttm": -235592000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -24395000.0,
  "stock_issuance_ttm": -24395000.0,
- "revenue_ttm": 1188438000.0,
- "net_income_ttm": 126644000.0,
- "ebitda_ttm": 559860000.0,
- "ebit_ttm": 251599000.0,
- "interest_ttm": 159627000.0,
- "revenue_yoy_last_q": 0.10574400259809069,
+ "revenue_ttm": 1213832000.0,
+ "net_income_ttm": 134415000.0,
+ "ebitda_ttm": 578515000.0,
+ "ebit_ttm": 262739000.0,
+ "interest_ttm": 168141000.0,
+ "revenue_yoy_last_q": 0.10168704225013725,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 275121000.0
+  },
   {
    "period": "2026-06-30",
    "value": 258764000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 249727000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 234018000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.51
+  },
   {
    "period": "2026-06-30",
    "value": 0.43
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.39
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.46
   }
  ],
- "eps_ttm": 2.03,
+ "eps_ttm": 2.15,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.009803921568627416,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.0652173913043479,
- "eps_forward_growth": 0.26417733990147796,
+ "eps_growth_last_q": 0.3076923076923077,
+ "eps_forward_growth": 0.19926976744186042,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.28124716034035935
+  },
   {
    "period": "2026-06-30",
    "value": 0.26548515249416454
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.25642801939718174
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.24312232392380073
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0170700630580074,
- "fcf_burn_annual": 264768000.0,
- "runway_months": 23.284399927483683,
- "need_24m": 1310942000.0,
- "gap_24m": 797195000.0,
+ "dilution_1y": 0.011865379026666512,
+ "fcf_burn_annual": 235592000.0,
+ "runway_months": 17.723929505246357,
+ "need_24m": 1256186000.0,
+ "gap_24m": 908218000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 5.176135105204873,
- "interest_coverage": 1.576168192097828,
- "cash_to_debt": 0.15058572693980463,
- "ev": 8253679366.481476,
- "ev_to_sales": 6.94498103096794,
- "ev_to_ebitda": 14.742398754119737,
- "pe_ttm": 42.28994951581974,
- "pe_trailing": 42.691177,
- "p_sales": 4.506561,
+ "net_debt_to_ebitda": 5.198102037112261,
+ "interest_coverage": 1.5626111418392896,
+ "cash_to_debt": 0.10371166935109867,
+ "ev": 8740181080.83432,
+ "ev_to_sales": 7.200486624865978,
+ "ev_to_ebitda": 15.107959311053854,
+ "pe_ttm": 42.65149783011063,
+ "pe_trailing": 43.15509,
+ "p_sales": 4.72306,
  "p_fcf": null,
- "p_book": 2.061830791857139
+ "p_book": 2.177071932157363
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "ORI",
- "fetched": "2026-10-24",
- "market_cap": 9394154958.18026,
- "shares_out": 241432922.0,
- "price": 38.90999984741211,
+ "fetched": "2026-11-10",
+ "market_cap": 9558750215.167236,
+ "shares_out": 239808080.0,
+ "price": 39.86000061035156,
  "long_name": "Old Republic International Corporation",
  "sector_y": "Financial Services",
  "industry_y": "Insurance - Property & Casualty",
- "pe_trailing_y": 8.783296,
- "pe_forward": 12.287355,
+ "pe_trailing_y": 8.997744,
+ "pe_forward": 12.587355,
  "peg": 1.39,
- "p_sales_y": 0.96666586,
+ "p_sales_y": 0.98360276,
  "eps_trailing_y": 4.43,
  "eps_forward": 3.16667,
  "earnings_growth_y": -0.108,
  "earnings_growth_q_y": -0.13,
- "bs_date": "2026-06-30",
- "cash": 3942200000.0,
- "total_debt": 2283900000.0,
- "current_debt": 693500000.0,
+ "bs_date": "2026-09-30",
+ "cash": 3862400000.0,
+ "total_debt": 1749700000.0,
+ "current_debt": 0.0,
  "lease_obligations": null,
- "equity": 6072800000.0,
- "net_debt": -1658300000.0,
- "ocf_ttm": 1279900000.0,
+ "equity": 5875400000.0,
+ "net_debt": -2112700000.0,
+ "ocf_ttm": 1145400000.0,
  "capex_ttm": null,
- "fcf_ttm": 1279900000.0,
+ "fcf_ttm": 1145400000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -318500000.0,
- "stock_issuance_ttm": -314500000.0,
- "revenue_ttm": 9716000000.0,
- "net_income_ttm": 1138200000.0,
+ "buybacks_ttm": -387900000.0,
+ "stock_issuance_ttm": -360000000.0,
+ "revenue_ttm": 9717300000.0,
+ "net_income_ttm": 1101900000.0,
  "ebitda_ttm": null,
- "ebit_ttm": 1518500000.0,
- "interest_ttm": 78900000.0,
- "revenue_yoy_last_q": 0.13358087303024813,
+ "ebit_ttm": 1446000000.0,
+ "interest_ttm": 87100000.0,
+ "revenue_yoy_last_q": 0.0005363036303629443,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2425300000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2503400000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2424000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2208400000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.99
+  },
   {
    "period": "2026-06-30",
    "value": 1.31
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.11
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.81
   }
  ],
- "eps_ttm": 4.56,
+ "eps_ttm": 4.44,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.14814814814814814,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.6172839506172838,
- "eps_forward_growth": -0.3055548245614035,
+ "eps_growth_last_q": -0.10810810810810823,
+ "eps_forward_growth": -0.28678603603603614,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02832061584900125,
+ "dilution_1y": -0.030882683370377806,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 693500000.0,
- "gap_24m": -3248700000.0,
+ "need_24m": 0.0,
+ "gap_24m": -3862400000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
- "interest_coverage": 19.245880861850445,
- "cash_to_debt": 1.7260825780463243,
- "ev": 7735854958.18026,
- "ev_to_sales": 0.7961975049588575,
+ "interest_coverage": 16.601607347876005,
+ "cash_to_debt": 2.20746413670915,
+ "ev": 7446050215.167236,
+ "ev_to_sales": 0.7662674009413352,
  "ev_to_ebitda": null,
- "pe_ttm": 8.25351867701657,
- "pe_trailing": 8.783296,
- "p_sales": 0.96666586,
- "p_fcf": 7.339756979592359,
- "p_book": 1.5469231587044296
+ "pe_ttm": 8.674789196086067,
+ "pe_trailing": 8.997744,
+ "p_sales": 0.98360276,
+ "p_fcf": 8.345338061085418,
+ "p_book": 1.626910544842434
 }

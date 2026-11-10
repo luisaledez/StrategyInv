@@ -1,16 +1,16 @@
 {
  "ticker": "FIZZ",
- "fetched": "2026-10-25",
- "market_cap": 3384193310.1456146,
+ "fetched": "2026-11-10",
+ "market_cap": 3502148433.5354385,
  "shares_out": 93615302.0,
- "price": 36.150001525878906,
+ "price": 37.40999984741211,
  "long_name": "National Beverage Corp.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Beverages - Non-Alcoholic",
- "pe_trailing_y": 19.435484,
- "pe_forward": 18.490576,
+ "pe_trailing_y": 20.112904,
+ "pe_forward": 19.135061,
  "peg": 4.03,
- "p_sales_y": 2.8662624,
+ "p_sales_y": 2.9661655,
  "eps_trailing_y": 1.86,
  "eps_forward": 1.95505,
  "earnings_growth_y": -0.161,
@@ -72,17 +72,13 @@
   {
    "period": "2025-07-31",
    "value": 0.6
-  },
-  {
-   "period": "2025-01-31",
-   "value": 0.42
   }
  ],
  "eps_ttm": 2.03,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.015075376884422176,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.19047619047619047,
+ "eps_growth_last_q": null,
  "eps_forward_growth": -0.03692118226600982,
  "gross_margin_quarters": [
   {
@@ -143,12 +139,12 @@
  "net_debt_to_ebitda": -0.20018972187932363,
  "interest_coverage": null,
  "cash_to_debt": 1.822293307923976,
- "ev": 3335866310.1456146,
- "ev_to_sales": 2.825331697702475,
- "ev_to_ebitda": 13.818489640463016,
- "pe_ttm": 19.35018931766813,
- "pe_trailing": 19.435484,
- "p_sales": 2.8662624,
- "p_fcf": 20.90337257729059,
- "p_book": 9.203605383000994
+ "ev": 3453821433.5354385,
+ "ev_to_sales": 2.925234486973766,
+ "ev_to_ebitda": 14.307106838833494,
+ "pe_ttm": 20.02463482340781,
+ "pe_trailing": 20.112904,
+ "p_sales": 2.9661655,
+ "p_fcf": 21.63195385668319,
+ "p_book": 9.524394507348156
 }

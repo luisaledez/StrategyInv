@@ -1,40 +1,44 @@
 {
  "ticker": "CRVL",
- "fetched": "2026-10-25",
- "market_cap": 4236824948.517906,
- "shares_out": 50516571.0,
- "price": 83.87000274658203,
+ "fetched": "2026-11-10",
+ "market_cap": 4163078656.2799997,
+ "shares_out": 50345612.0,
+ "price": 82.69,
  "long_name": "CorVel Corporation",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
- "pe_trailing_y": 37.441967,
+ "pe_trailing_y": 34.7437,
  "pe_forward": null,
  "peg": -0.11,
- "p_sales_y": 4.3068504,
- "eps_trailing_y": 2.24,
+ "p_sales_y": 4.1168585,
+ "eps_trailing_y": 2.38,
  "eps_forward": null,
- "earnings_growth_y": 0.212,
- "earnings_growth_q_y": 0.183,
- "bs_date": "2026-06-30",
- "cash": 255883000.0,
- "total_debt": 28394000.0,
- "current_debt": 7607000.0,
- "lease_obligations": 28394000.0,
- "equity": 408892000.0,
- "net_debt": -227489000.0,
- "ocf_ttm": 150550000.0,
- "capex_ttm": -36730000.0,
- "fcf_ttm": 113820000.0,
+ "earnings_growth_y": 0.241,
+ "earnings_growth_q_y": 0.221,
+ "bs_date": "2026-09-30",
+ "cash": 269988000.0,
+ "total_debt": 33072000.0,
+ "current_debt": 7429000.0,
+ "lease_obligations": 33072000.0,
+ "equity": 430502000.0,
+ "net_debt": -236916000.0,
+ "ocf_ttm": 165126000.0,
+ "capex_ttm": -37270000.0,
+ "fcf_ttm": 127856000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -68557000.0,
- "stock_issuance_ttm": -68557000.0,
- "revenue_ttm": 983741000.0,
- "net_income_ttm": 115334000.0,
- "ebitda_ttm": 184128000.0,
- "ebit_ttm": 151189000.0,
+ "buybacks_ttm": -74316000.0,
+ "stock_issuance_ttm": -74316000.0,
+ "revenue_ttm": 1011227000.0,
+ "net_income_ttm": 121515000.0,
+ "ebitda_ttm": 195409000.0,
+ "ebit_ttm": 161134000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.10742572780994508,
+ "revenue_yoy_last_q": 0.1146956097194578,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 267129000.0
+  },
   {
    "period": "2026-06-30",
    "value": 259925000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 239643000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 234711000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.67
+  },
   {
    "period": "2026-06-30",
    "value": 0.63
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.54
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.52
   }
  ],
- "eps_ttm": 2.25,
+ "eps_ttm": 2.38,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.1693989071038251,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.21153846153846145,
+ "eps_growth_last_q": 0.2407407407407407,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.27065200708272036
+  },
   {
    "period": "2026-06-30",
    "value": 0.2608213907858036
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.24276528002069744
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.24183357405490155
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.014205043225899883,
+ "dilution_1y": -0.017379086819283907,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 7607000.0,
- "gap_24m": -248276000.0,
+ "need_24m": 7429000.0,
+ "gap_24m": -262559000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.2354937869308307,
+ "net_debt_to_ebitda": -1.2124108920264676,
  "interest_coverage": null,
- "cash_to_debt": 9.011868704655914,
- "ev": 4009335948.517906,
- "ev_to_sales": 4.07560114757635,
- "ev_to_ebitda": 21.774721652969163,
- "pe_ttm": 36.73526408966919,
- "pe_trailing": 37.441967,
- "p_sales": 4.3068504,
- "p_fcf": 37.223905715321614,
- "p_book": 10.361721306647981
+ "cash_to_debt": 8.163642960812773,
+ "ev": 3926162656.2799997,
+ "ev_to_sales": 3.8825730091067583,
+ "ev_to_ebitda": 20.092025732079893,
+ "pe_ttm": 34.25979225840431,
+ "pe_trailing": 34.7437,
+ "p_sales": 4.1168585,
+ "p_fcf": 32.56068277030409,
+ "p_book": 9.670288770505131
 }

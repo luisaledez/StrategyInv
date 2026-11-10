@@ -1,40 +1,44 @@
 {
  "ticker": "MAA",
- "fetched": "2026-10-24",
- "market_cap": 13897109867.831635,
- "shares_out": 116021957.0,
- "price": 119.77999877929688,
+ "fetched": "2026-11-10",
+ "market_cap": 13849589570.391594,
+ "shares_out": 115993211.0,
+ "price": 119.4000015258789,
  "long_name": "Mid-America Apartment Communities, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Residential",
- "pe_trailing_y": 35.02339,
- "pe_forward": 36.52308,
+ "pe_trailing_y": 36.18182,
+ "pe_forward": 36.40721,
  "peg": 7.03,
- "p_sales_y": 6.4222126,
- "eps_trailing_y": 3.42,
+ "p_sales_y": 6.383092,
+ "eps_trailing_y": 3.3,
  "eps_forward": 3.27957,
- "earnings_growth_y": 0.137,
- "earnings_growth_q_y": 0.126,
- "bs_date": "2026-06-30",
- "cash": 51836000.0,
- "total_debt": 5691901000.0,
- "current_debt": 664000000.0,
+ "earnings_growth_y": -0.149,
+ "earnings_growth_q_y": -0.156,
+ "bs_date": "2026-09-30",
+ "cash": 25693000.0,
+ "total_debt": 5839258000.0,
+ "current_debt": 860000000.0,
  "lease_obligations": 24279000.0,
- "equity": 5452902000.0,
- "net_debt": 5640065000.0,
- "ocf_ttm": 1010657000.0,
- "capex_ttm": -366051000.0,
- "fcf_ttm": 644606000.0,
+ "equity": 5300539000.0,
+ "net_debt": 5813565000.0,
+ "ocf_ttm": 1001307000.0,
+ "capex_ttm": -378787000.0,
+ "fcf_ttm": 622520000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -122788000.0,
- "stock_issuance_ttm": -148565000.0,
- "revenue_ttm": 2218781000.0,
- "net_income_ttm": 403218000.0,
- "ebitda_ttm": 1259087000.0,
- "ebit_ttm": 617537000.0,
- "interest_ttm": 199526000.0,
- "revenue_yoy_last_q": 0.009501693028939773,
+ "buybacks_ttm": -172795000.0,
+ "stock_issuance_ttm": -155027000.0,
+ "revenue_ttm": 2224538000.0,
+ "net_income_ttm": 387678000.0,
+ "ebitda_ttm": 1261974000.0,
+ "ebit_ttm": 610399000.0,
+ "interest_ttm": 207874000.0,
+ "revenue_yoy_last_q": 0.010384704882813622,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 560130000.0
+  },
   {
    "period": "2026-06-30",
    "value": 555127000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 554373000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 549902000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.72
+  },
   {
    "period": "2026-06-30",
    "value": 1.040004
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.840003
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.920004
   }
  ],
- "eps_ttm": 3.420013,
+ "eps_ttm": 3.3000099999999994,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.1581292101724313,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.13043421550341083,
- "eps_forward_growth": -0.04106504858314863,
+ "eps_growth_last_q": -0.14286020407069988,
+ "eps_forward_growth": -0.006193920624482763,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.27301876350133003
+  },
   {
    "period": "2026-06-30",
    "value": 0.28084384294044423
@@ -118,21 +122,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.009022886117114326,
+ "dilution_1y": -0.00929718828406223,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 664000000.0,
- "gap_24m": 612164000.0,
+ "need_24m": 860000000.0,
+ "gap_24m": 834307000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.4794879146556195,
- "interest_coverage": 3.0950201978689496,
- "cash_to_debt": 0.00910697498076653,
- "ev": 19537174867.831635,
- "ev_to_sales": 8.805364237313928,
- "ev_to_ebitda": 15.516937962056343,
- "pe_ttm": 34.46549972429712,
- "pe_trailing": 35.02339,
- "p_sales": 6.4222126,
- "p_fcf": 21.559076192017503,
- "p_book": 2.5485713603199973
+ "net_debt_to_ebitda": 4.606723276390797,
+ "interest_coverage": 2.9363893512416177,
+ "cash_to_debt": 0.004400045348227463,
+ "ev": 19663154570.391594,
+ "ev_to_sales": 8.839208217792455,
+ "ev_to_ebitda": 15.581267577930761,
+ "pe_ttm": 35.724466104322644,
+ "pe_trailing": 36.18182,
+ "p_sales": 6.383092,
+ "p_fcf": 22.247621876231438,
+ "p_book": 2.6128643842431107
 }

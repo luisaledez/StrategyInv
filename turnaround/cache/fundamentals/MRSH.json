@@ -1,40 +1,44 @@
 {
  "ticker": "MRSH",
- "fetched": "2026-10-24",
- "market_cap": 93904567264.34361,
+ "fetched": "2026-11-10",
+ "market_cap": 97180860687.1427,
  "shares_out": 475514327.0,
- "price": 197.47999572753906,
+ "price": 204.3699951171875,
  "long_name": "Marsh & McLennan Companies, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
- "pe_trailing_y": 23.62201,
- "pe_forward": 17.23533,
- "peg": 1.73,
- "p_sales_y": 3.299644,
+ "pe_trailing_y": 24.446173,
+ "pe_forward": 17.826519,
+ "peg": 1.79,
+ "p_sales_y": 3.4147673,
  "eps_trailing_y": 8.36,
- "eps_forward": 11.45786,
+ "eps_forward": 11.46438,
  "earnings_growth_y": 0.119,
  "earnings_growth_q_y": 0.082,
- "bs_date": "2026-06-30",
- "cash": 1700000000.0,
- "total_debt": 22382000000.0,
- "current_debt": 1997000000.0,
- "lease_obligations": 1821000000.0,
- "equity": 15183000000.0,
- "net_debt": 20682000000.0,
- "ocf_ttm": 5078000000.0,
- "capex_ttm": -311000000.0,
- "fcf_ttm": 4767000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 1842000000.0,
+ "total_debt": 22332000000.0,
+ "current_debt": 1968000000.0,
+ "lease_obligations": 1799000000.0,
+ "equity": 14675000000.0,
+ "net_debt": 20490000000.0,
+ "ocf_ttm": 4474000000.0,
+ "capex_ttm": -320000000.0,
+ "fcf_ttm": 4154000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2905000000.0,
- "stock_issuance_ttm": -2739000000.0,
- "revenue_ttm": 27947000000.0,
- "net_income_ttm": 3980000000.0,
- "ebitda_ttm": 7217000000.0,
- "ebit_ttm": 6311000000.0,
- "interest_ttm": 962000000.0,
- "revenue_yoy_last_q": 0.06165758531689125,
+ "buybacks_ttm": -3002000000.0,
+ "stock_issuance_ttm": -2846000000.0,
+ "revenue_ttm": 28459000000.0,
+ "net_income_ttm": 4041000000.0,
+ "ebitda_ttm": 7258000000.0,
+ "ebit_ttm": 6345000000.0,
+ "interest_ttm": 973000000.0,
+ "revenue_yoy_last_q": 0.0806172256337585,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 6863000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 7404000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 6351000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 6974000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.69
+  },
   {
    "period": "2026-06-30",
    "value": 2.63
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.51
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.45
   }
  ],
- "eps_ttm": 8.18,
+ "eps_ttm": 8.36,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.030562347188264116,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.07346938775510181,
- "eps_forward_growth": 0.40071638141809296,
+ "eps_growth_last_q": 0.11920529801324498,
+ "eps_forward_growth": 0.3713373205741628,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4057992131720822
+  },
   {
    "period": "2026-06-30",
    "value": 0.4407077255537547
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3868682097307511
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4414969888156008
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02797454622710016,
+ "dilution_1y": -0.029773214285714333,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1997000000.0,
- "gap_24m": 297000000.0,
+ "need_24m": 1968000000.0,
+ "gap_24m": 126000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.865733684356381,
- "interest_coverage": 6.5602910602910605,
- "cash_to_debt": 0.07595389151997141,
- "ev": 114586567264.34361,
- "ev_to_sales": 4.10013837851446,
- "ev_to_ebitda": 15.877312909012556,
- "pe_ttm": 23.594112377975783,
- "pe_trailing": 23.62201,
- "p_sales": 3.299644,
- "p_fcf": 19.698881322497087,
- "p_book": 6.1848493225544106
+ "net_debt_to_ebitda": 2.8230917608156516,
+ "interest_coverage": 6.521068859198356,
+ "cash_to_debt": 0.08248253627082214,
+ "ev": 117670860687.1427,
+ "ev_to_sales": 4.134750366743129,
+ "ev_to_ebitda": 16.21257380644016,
+ "pe_ttm": 24.04871583448223,
+ "pe_trailing": 24.446173,
+ "p_sales": 3.4147673,
+ "p_fcf": 23.394525923722362,
+ "p_book": 6.622205157556572
 }

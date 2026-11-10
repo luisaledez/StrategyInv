@@ -1,0 +1,154 @@
+{
+ "ticker": "MGM",
+ "fetched": "2026-11-10",
+ "market_cap": 8326577063.163654,
+ "shares_out": 253010547.0,
+ "price": 32.90999984741211,
+ "long_name": "MGM Resorts International",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Resorts & Casinos",
+ "pe_trailing_y": 12.657693,
+ "pe_forward": 23.731575,
+ "peg": 0.61,
+ "p_sales_y": 0.46982104,
+ "eps_trailing_y": 2.6,
+ "eps_forward": 1.38676,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 2395957000.0,
+ "total_debt": 29418737000.0,
+ "current_debt": 182918000.0,
+ "lease_obligations": 23749751000.0,
+ "equity": 2504409000.0,
+ "net_debt": 27022780000.0,
+ "ocf_ttm": 2314061000.0,
+ "capex_ttm": -914161000.0,
+ "fcf_ttm": 1399900000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -773596000.0,
+ "stock_issuance_ttm": -773596000.0,
+ "revenue_ttm": 17722869000.0,
+ "net_income_ttm": 694073000.0,
+ "ebitda_ttm": 2247913000.0,
+ "ebit_ttm": 1146816000.0,
+ "interest_ttm": 409327000.0,
+ "revenue_yoy_last_q": -0.009075009222522579,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4211891000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 4450993000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 4454718000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4605267000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4250464000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.07
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1.11
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.48
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1.11
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.05
+  }
+ ],
+ "eps_ttm": 2.63,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.6833333333333333,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": -0.4727148288973384,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4115526731342288
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.4446742558345969
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.4467600418253187
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.44034232977154203
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.43421071205402517
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 17537683000.0,
+   "eps": 0.76,
+   "net_income": 205862000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 17240545000.0,
+   "eps": 2.4,
+   "net_income": 746558000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 16164249000.0,
+   "eps": 3.19,
+   "net_income": 1142180000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 13127485000.0,
+   "eps": 3.49,
+   "net_income": 1473093000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.07571917166662057,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 182918000.0,
+ "gap_24m": -2213039000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 12.021274844711517,
+ "interest_coverage": 2.8017111013932627,
+ "cash_to_debt": 0.08144323123049096,
+ "ev": 35349357063.16365,
+ "ev_to_sales": 1.99456177570142,
+ "ev_to_ebitda": 15.725411554256615,
+ "pe_ttm": 11.99668775930436,
+ "pe_trailing": 12.657693,
+ "p_sales": 0.46982104,
+ "p_fcf": 5.947979900824098,
+ "p_book": 3.3247672657156455
+}

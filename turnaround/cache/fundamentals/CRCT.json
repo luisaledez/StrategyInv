@@ -1,0 +1,154 @@
+{
+ "ticker": "CRCT",
+ "fetched": "2026-11-10",
+ "market_cap": 1830924143.8241282,
+ "shares_out": 208296263.0,
+ "price": 8.789999961853027,
+ "long_name": "Cricut, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Computer Hardware",
+ "pe_trailing_y": 19.977272,
+ "pe_forward": 30.698843,
+ "peg": null,
+ "p_sales_y": 2.5861423,
+ "eps_trailing_y": 0.44,
+ "eps_forward": 0.28633,
+ "earnings_growth_y": 0.345,
+ "earnings_growth_q_y": 0.357,
+ "bs_date": "2026-09-30",
+ "cash": 272702000.0,
+ "total_debt": 9439000.0,
+ "current_debt": 2758000.0,
+ "lease_obligations": 9439000.0,
+ "equity": 399382000.0,
+ "net_debt": -263263000.0,
+ "ocf_ttm": 183310000.0,
+ "capex_ttm": -35698000.0,
+ "fcf_ttm": 147612000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -31366000.0,
+ "stock_issuance_ttm": -31366000.0,
+ "revenue_ttm": 707975000.0,
+ "net_income_ttm": 95005000.0,
+ "ebitda_ttm": 152539000.0,
+ "ebit_ttm": 128034000.0,
+ "interest_ttm": 465000.0,
+ "revenue_yoy_last_q": 0.10669631594078743,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 188622000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 156285000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 159471000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 203597000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 170437000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.13
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.19
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.04
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.1
+  }
+ ],
+ "eps_ttm": 0.46,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.2068965517241379,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.30000000000000004,
+ "eps_forward_growth": -0.37754347826086965,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5772285311363468
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.7448443548645104
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.5812843714531168
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.4737201432241143
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5520866947904505
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 708780000.0,
+   "eps": 0.35,
+   "net_income": 76705000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 712538000.0,
+   "eps": 0.29,
+   "net_income": 62830000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 765147000.0,
+   "eps": 0.24,
+   "net_income": 53636000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 886296000.0,
+   "eps": 0.28,
+   "net_income": 60666000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.0187690467974867,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 2758000.0,
+ "gap_24m": -269944000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -1.7258733832003619,
+ "interest_coverage": 275.34193548387094,
+ "cash_to_debt": 28.890984214429494,
+ "ev": 1567661143.8241282,
+ "ev_to_sales": 2.214288843284195,
+ "ev_to_ebitda": 10.277116959099825,
+ "pe_ttm": 19.271871415442643,
+ "pe_trailing": 19.977272,
+ "p_sales": 2.5861423,
+ "p_fcf": 12.403626695825055,
+ "p_book": 4.584393247127132
+}

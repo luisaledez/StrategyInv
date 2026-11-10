@@ -1,40 +1,44 @@
 {
  "ticker": "CRS",
- "fetched": "2026-10-24",
- "market_cap": 14102265237.203583,
+ "fetched": "2026-11-10",
+ "market_cap": 15243188257.719055,
  "shares_out": 49540733.0,
- "price": 284.6600036621094,
+ "price": 307.69000244140625,
  "long_name": "Carpenter Technology Corporation",
  "sector_y": "Industrials",
  "industry_y": "Metal Fabrication",
- "pe_trailing_y": 25.102293,
- "pe_forward": 17.820074,
+ "pe_trailing_y": 27.133158,
+ "pe_forward": 19.256586,
  "peg": 1.59,
- "p_sales_y": 4.422575,
+ "p_sales_y": 4.7803774,
  "eps_trailing_y": 11.34,
- "eps_forward": 15.97412,
+ "eps_forward": 15.97843,
  "earnings_growth_y": 0.337,
  "earnings_growth_q_y": 0.327,
- "bs_date": "2026-06-30",
- "cash": 393300000.0,
- "total_debt": 699500000.0,
- "current_debt": 8800000.0,
- "lease_obligations": 8800000.0,
- "equity": 2227600000.0,
- "net_debt": 306200000.0,
- "ocf_ttm": 605000000.0,
- "capex_ttm": -242700000.0,
- "fcf_ttm": 362300000.0,
+ "bs_date": "2026-09-30",
+ "cash": 159500000.0,
+ "total_debt": 699300000.0,
+ "current_debt": 8300000.0,
+ "lease_obligations": 8300000.0,
+ "equity": 2182800000.0,
+ "net_debt": 539800000.0,
+ "ocf_ttm": 618600000.0,
+ "capex_ttm": -277800000.0,
+ "fcf_ttm": 340800000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -179100000.0,
- "stock_issuance_ttm": -179100000.0,
- "revenue_ttm": 3124200000.0,
- "net_income_ttm": 529800000.0,
- "ebitda_ttm": 847100000.0,
- "ebit_ttm": 700000000.0,
- "interest_ttm": 43800000.0,
- "revenue_yoy_last_q": 0.12625727898358918,
+ "buybacks_ttm": -263900000.0,
+ "stock_issuance_ttm": -263900000.0,
+ "revenue_ttm": 3188700000.0,
+ "net_income_ttm": 569800000.0,
+ "ebitda_ttm": 889500000.0,
+ "ebit_ttm": 741800000.0,
+ "interest_ttm": 38000000.0,
+ "revenue_yoy_last_q": 0.08791059015946567,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 798200000.0
+  },
   {
    "period": "2026-06-30",
    "value": 851000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 733700000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 755600000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.25
+  },
   {
    "period": "2026-06-30",
    "value": 3.23
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.43
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.21
   }
  ],
- "eps_ttm": 10.52,
+ "eps_ttm": 11.34,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.417789757412399,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.46153846153846145,
- "eps_forward_growth": 0.5184524714828898,
+ "eps_growth_last_q": 0.3374485596707819,
+ "eps_forward_growth": 0.40903262786596106,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.32109746930593835
+  },
   {
    "period": "2026-06-30",
    "value": 0.31598119858989426
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.294943437372223
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2832186341979884
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.002027787463909525,
+ "dilution_1y": -0.004266936950971134,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 8800000.0,
- "gap_24m": -384500000.0,
+ "need_24m": 8300000.0,
+ "gap_24m": -151200000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.3614685397237634,
- "interest_coverage": 15.981735159817351,
- "cash_to_debt": 0.5622587562544675,
- "ev": 14408465237.203583,
- "ev_to_sales": 4.61188951962217,
- "ev_to_ebitda": 17.009166848310215,
- "pe_ttm": 26.618092180452212,
- "pe_trailing": 25.102293,
- "p_sales": 4.422575,
- "p_fcf": 38.92427611703997,
- "p_book": 6.330699065004302
+ "net_debt_to_ebitda": 0.606857785272625,
+ "interest_coverage": 19.521052631578947,
+ "cash_to_debt": 0.22808522808522808,
+ "ev": 15782988257.719055,
+ "ev_to_sales": 4.949662325624566,
+ "ev_to_ebitda": 17.743663021606583,
+ "pe_ttm": 26.751822144119085,
+ "pe_trailing": 27.133158,
+ "p_sales": 4.7803774,
+ "p_fcf": 44.72766507546671,
+ "p_book": 6.983318791331801
 }

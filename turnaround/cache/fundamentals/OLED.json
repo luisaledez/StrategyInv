@@ -1,40 +1,44 @@
 {
  "ticker": "OLED",
- "fetched": "2026-10-24",
- "market_cap": 3998195462.6076126,
- "shares_out": 45966835.0,
- "price": 86.9800033569336,
+ "fetched": "2026-11-10",
+ "market_cap": 4052593234.2812347,
+ "shares_out": 45023810.0,
+ "price": 90.01000213623047,
  "long_name": "Universal Display Corporation",
  "sector_y": "Technology",
  "industry_y": "Electronic Components",
- "pe_trailing_y": 21.009663,
- "pe_forward": 18.40831,
+ "pe_trailing_y": 18.294716,
+ "pe_forward": 19.293343,
  "peg": 1.0,
- "p_sales_y": 6.587811,
- "eps_trailing_y": 4.14,
- "eps_forward": 4.72504,
- "earnings_growth_y": -0.249,
- "earnings_growth_q_y": -0.265,
- "bs_date": "2026-06-30",
- "cash": 471312000.0,
- "total_debt": 16863000.0,
+ "p_sales_y": 6.455981,
+ "eps_trailing_y": 4.92,
+ "eps_forward": 4.66534,
+ "earnings_growth_y": 0.87,
+ "earnings_growth_q_y": 0.793,
+ "bs_date": "2026-09-30",
+ "cash": 433467000.0,
+ "total_debt": 16296000.0,
  "current_debt": null,
- "lease_obligations": 16863000.0,
- "equity": 1683965000.0,
- "net_debt": -454449000.0,
- "ocf_ttm": 262187000.0,
- "capex_ttm": -92171000.0,
- "fcf_ttm": 170016000.0,
+ "lease_obligations": 16296000.0,
+ "equity": 1665501000.0,
+ "net_debt": -417171000.0,
+ "ocf_ttm": 265207000.0,
+ "capex_ttm": -83594000.0,
+ "fcf_ttm": 181613000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -115218000.0,
- "stock_issuance_ttm": -146112000.0,
- "revenue_ttm": 606908000.0,
- "net_income_ttm": 195684000.0,
- "ebitda_ttm": 257538000.0,
- "ebit_ttm": 206773000.0,
+ "buybacks_ttm": -192960000.0,
+ "stock_issuance_ttm": -223923000.0,
+ "revenue_ttm": 627727000.0,
+ "net_income_ttm": 230605000.0,
+ "ebitda_ttm": 267256000.0,
+ "ebit_ttm": 217340000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": -0.1143055054309231,
+ "revenue_yoy_last_q": 0.1491193513498026,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 160432000.0
+  },
   {
    "period": "2026-06-30",
    "value": 152157000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 139613000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 171794000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.72
+  },
   {
    "period": "2026-06-30",
    "value": 1.06
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.92
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.41
   }
  ],
- "eps_ttm": 4.13,
+ "eps_ttm": 4.93,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.09247311827956972,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.24822695035460984,
- "eps_forward_growth": 0.14407748184019376,
+ "eps_growth_last_q": 0.8695652173913042,
+ "eps_forward_growth": -0.05368356997971602,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7314937169641966
+  },
   {
    "period": "2026-06-30",
    "value": 0.7582102696556846
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7457901484818749
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.771802274817514
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.027413242177384722,
+ "dilution_1y": -0.047592346554101495,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -471312000.0,
+ "gap_24m": -433467000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.7645900799105374,
+ "net_debt_to_ebitda": -1.5609415691322177,
  "interest_coverage": null,
- "cash_to_debt": 27.949475182351893,
- "ev": 3543746462.6076126,
- "ev_to_sales": 5.8390175489655975,
- "ev_to_ebitda": 13.760091569429026,
- "pe_ttm": 20.431897664641017,
- "pe_trailing": 21.009663,
- "p_sales": 6.587811,
- "p_fcf": 23.51658351336117,
- "p_book": 2.374274680654059
+ "cash_to_debt": 26.59959499263623,
+ "ev": 3635422234.2812347,
+ "ev_to_sales": 5.791406509965693,
+ "ev_to_ebitda": 13.602771254083107,
+ "pe_ttm": 17.57374399636276,
+ "pe_trailing": 18.294716,
+ "p_sales": 6.455981,
+ "p_fcf": 22.314444639322268,
+ "p_book": 2.433257761046817
 }

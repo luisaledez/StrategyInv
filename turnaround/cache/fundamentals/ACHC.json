@@ -1,40 +1,44 @@
 {
  "ticker": "ACHC",
- "fetched": "2026-10-25",
- "market_cap": 2933589686.558962,
- "shares_out": 93100275.0,
- "price": 31.510000228881836,
+ "fetched": "2026-11-10",
+ "market_cap": 3589443764.5923615,
+ "shares_out": 92966685.0,
+ "price": 38.61000061035156,
  "long_name": "Acadia Healthcare Company, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Care Facilities",
  "pe_trailing_y": null,
- "pe_forward": 17.062315,
+ "pe_forward": 18.946625,
  "peg": 1.37,
- "p_sales_y": 0.8711028,
- "eps_trailing_y": -12.42,
- "eps_forward": 1.84676,
- "earnings_growth_y": -0.636,
- "earnings_growth_q_y": -0.637,
- "bs_date": "2026-06-30",
- "cash": 171290000.0,
- "total_debt": 2565264000.0,
- "current_debt": 54344000.0,
- "lease_obligations": 150695000.0,
- "equity": 1979122000.0,
- "net_debt": 2393974000.0,
- "ocf_ttm": 210515000.0,
- "capex_ttm": -344546000.0,
- "fcf_ttm": -134031000.0,
+ "p_sales_y": 1.0521882,
+ "eps_trailing_y": -12.44,
+ "eps_forward": 2.03783,
+ "earnings_growth_y": -0.051,
+ "earnings_growth_q_y": -0.049,
+ "bs_date": "2026-09-30",
+ "cash": 163307000.0,
+ "total_debt": 2504734000.0,
+ "current_debt": 55328000.0,
+ "lease_obligations": 152375000.0,
+ "equity": 2022492000.0,
+ "net_debt": 2341427000.0,
+ "ocf_ttm": 235188000.0,
+ "capex_ttm": -259050000.0,
+ "fcf_ttm": -23862000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 3367673000.0,
- "net_income_ttm": -1126240000.0,
- "ebitda_ttm": -749314000.0,
- "ebit_ttm": -945389000.0,
- "interest_ttm": 151052000.0,
- "revenue_yoy_last_q": -0.0039034458004306716,
+ "revenue_ttm": 3411409000.0,
+ "net_income_ttm": -1128000000.0,
+ "ebitda_ttm": -726506000.0,
+ "ebit_ttm": -928247000.0,
+ "interest_ttm": 151711000.0,
+ "revenue_yoy_last_q": 0.051359073150510914,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 895309000.0
+  },
   {
    "period": "2026-06-30",
    "value": 865839000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 851573000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 869232000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.38
+  },
   {
    "period": "2026-06-30",
    "value": 0.12
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.4
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.33
   }
  ],
- "eps_ttm": -12.45,
+ "eps_ttm": -12.469999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -5.374100719424461,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.6363636363636365,
+ "eps_growth_last_q": -0.050000000000000044,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.964812148654822
+  },
   {
    "period": "2026-06-30",
    "value": 0.9651240011133709
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9642872660359124
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9671756216982348
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.005248433786803952,
- "fcf_burn_annual": 134031000.0,
- "runway_months": 15.335855137990466,
- "need_24m": 322406000.0,
- "gap_24m": 151116000.0,
- "survival_gate": "FAIL",
- "net_debt_to_ebitda": -3.1948875905161254,
- "interest_coverage": -6.258698991075921,
- "cash_to_debt": 0.06677285456779497,
- "ev": 5327563686.558962,
- "ev_to_sales": 1.5819717907762902,
+ "dilution_1y": 0.005312045049100211,
+ "fcf_burn_annual": 23862000.0,
+ "runway_months": 82.1257229067136,
+ "need_24m": 103052000.0,
+ "gap_24m": -60255000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.222859824970475,
+ "interest_coverage": -6.118521399239343,
+ "cash_to_debt": 0.06519933853255476,
+ "ev": 5930870764.592361,
+ "ev_to_sales": 1.7385399301556517,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.8711028,
+ "p_sales": 1.0521882,
  "p_fcf": null,
- "p_book": 1.4822682414519983
+ "p_book": 1.7747628987369846
 }

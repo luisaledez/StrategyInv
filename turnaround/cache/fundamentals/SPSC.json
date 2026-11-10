@@ -1,40 +1,44 @@
 {
  "ticker": "SPSC",
- "fetched": "2026-10-25",
- "market_cap": 3334696018.742569,
- "shares_out": 36000174.0,
- "price": 92.62999725341797,
+ "fetched": "2026-11-10",
+ "market_cap": 2872132675.487137,
+ "shares_out": 35440926.0,
+ "price": 81.04000091552734,
  "long_name": "SPS Commerce, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 44.74879,
- "pe_forward": 17.390928,
+ "pe_trailing_y": 36.17857,
+ "pe_forward": 14.81812,
  "peg": 4.55,
- "p_sales_y": 4.3168035,
- "eps_trailing_y": 2.07,
- "eps_forward": 5.32634,
- "earnings_growth_y": -0.639,
- "earnings_growth_q_y": -0.652,
- "bs_date": "2026-06-30",
- "cash": 173167000.0,
- "total_debt": 6306000.0,
- "current_debt": 1540000.0,
- "lease_obligations": 6306000.0,
- "equity": 938482000.0,
- "net_debt": -166861000.0,
- "ocf_ttm": 228143000.0,
- "capex_ttm": -29447000.0,
- "fcf_ttm": 198696000.0,
+ "p_sales_y": 3.6811125,
+ "eps_trailing_y": 2.24,
+ "eps_forward": 5.46898,
+ "earnings_growth_y": 0.269,
+ "earnings_growth_q_y": 0.2,
+ "bs_date": "2026-09-30",
+ "cash": 183501000.0,
+ "total_debt": 6624000.0,
+ "current_debt": 1232000.0,
+ "lease_obligations": 6624000.0,
+ "equity": 932902000.0,
+ "net_debt": -176877000.0,
+ "ocf_ttm": 231535000.0,
+ "capex_ttm": -28897000.0,
+ "fcf_ttm": 202638000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -153077000.0,
- "stock_issuance_ttm": -153077000.0,
- "revenue_ttm": 772492000.0,
- "net_income_ttm": 78003000.0,
- "ebitda_ttm": 183201000.0,
- "ebit_ttm": 122303000.0,
+ "buybacks_ttm": -171926000.0,
+ "stock_issuance_ttm": -171926000.0,
+ "revenue_ttm": 780235000.0,
+ "net_income_ttm": 83117000.0,
+ "ebitda_ttm": 192930000.0,
+ "ebit_ttm": 131041000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.05557630736392749,
+ "revenue_yoy_last_q": 0.04077323279130507,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 197647000.0
+  },
   {
    "period": "2026-06-30",
    "value": 197815000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 189904000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 187400000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.85
+  },
   {
    "period": "2026-06-30",
    "value": 0.19
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.67
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.52
   }
  ],
- "eps_ttm": 2.07,
+ "eps_ttm": 2.25,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.2058823529411764,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.6346153846153846,
- "eps_forward_growth": 1.5731111111111113,
+ "eps_growth_last_q": 0.26865671641791034,
+ "eps_forward_growth": 1.4306577777777778,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.711096044969061
+  },
   {
    "period": "2026-06-30",
    "value": 0.7015999797790865
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6949406015671076
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6807577374599787
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.04568999029515097,
+ "dilution_1y": -0.05692438082981477,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1540000.0,
- "gap_24m": -171627000.0,
+ "need_24m": 1232000.0,
+ "gap_24m": -182269000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.9108083471160092,
+ "net_debt_to_ebitda": -0.9167936557300576,
  "interest_coverage": null,
- "cash_to_debt": 27.460672375515383,
- "ev": 3167835018.742569,
- "ev_to_sales": 4.100799773644995,
- "ev_to_ebitda": 17.291581480136948,
- "pe_ttm": 42.75086879661768,
- "pe_trailing": 44.74879,
- "p_sales": 4.3168035,
- "p_fcf": 16.782904631912917,
- "p_book": 3.5532871368258196
+ "cash_to_debt": 27.702445652173914,
+ "ev": 2695255675.487137,
+ "ev_to_sales": 3.454415240904518,
+ "ev_to_ebitda": 13.970122197103285,
+ "pe_ttm": 34.555297658567284,
+ "pe_trailing": 36.17857,
+ "p_sales": 3.6811125,
+ "p_fcf": 14.173712114643536,
+ "p_book": 3.0787078122751765
 }

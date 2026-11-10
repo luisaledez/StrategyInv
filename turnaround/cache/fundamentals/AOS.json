@@ -1,40 +1,44 @@
 {
  "ticker": "AOS",
- "fetched": "2026-10-24",
- "market_cap": 8378763732.830025,
- "shares_out": 135908573.0,
- "price": 61.650001525878906,
+ "fetched": "2026-11-10",
+ "market_cap": 8758247521.26056,
+ "shares_out": 134328956.0,
+ "price": 65.19999694824219,
  "long_name": "A. O. Smith Corporation",
  "sector_y": "Industrials",
  "industry_y": "Specialty Industrial Machinery",
- "pe_trailing_y": 17.172703,
- "pe_forward": 15.286502,
- "peg": 1.48,
- "p_sales_y": 2.2020981,
- "eps_trailing_y": 3.59,
- "eps_forward": 4.03297,
- "earnings_growth_y": -0.15,
- "earnings_growth_q_y": -0.179,
- "bs_date": "2026-06-30",
- "cash": 181300000.0,
- "total_debt": 676700000.0,
- "current_debt": 39500000.0,
- "lease_obligations": 39200000.0,
- "equity": 1841900000.0,
- "net_debt": 495400000.0,
- "ocf_ttm": 692300000.0,
- "capex_ttm": -52900000.0,
- "fcf_ttm": 639400000.0,
+ "pe_trailing_y": 18.21229,
+ "pe_forward": 17.246578,
+ "peg": 1.74,
+ "p_sales_y": 2.3030443,
+ "eps_trailing_y": 3.58,
+ "eps_forward": 3.78046,
+ "earnings_growth_y": -0.011,
+ "earnings_growth_q_y": -0.043,
+ "bs_date": "2026-09-30",
+ "cash": 234500000.0,
+ "total_debt": 714800000.0,
+ "current_debt": 41000000.0,
+ "lease_obligations": 41700000.0,
+ "equity": 1823100000.0,
+ "net_debt": 480300000.0,
+ "ocf_ttm": 612500000.0,
+ "capex_ttm": -50800000.0,
+ "fcf_ttm": 561700000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -311900000.0,
- "stock_issuance_ttm": -311900000.0,
- "revenue_ttm": 3804900000.0,
- "net_income_ttm": 500300000.0,
- "ebitda_ttm": 758700000.0,
- "ebit_ttm": 666300000.0,
- "interest_ttm": 21200000.0,
- "revenue_yoy_last_q": -0.00692178384257891,
+ "buybacks_ttm": -326000000.0,
+ "stock_issuance_ttm": -326000000.0,
+ "revenue_ttm": 3802900000.0,
+ "net_income_ttm": 494600000.0,
+ "ebitda_ttm": 760100000.0,
+ "ebit_ttm": 665300000.0,
+ "interest_ttm": 25300000.0,
+ "revenue_yoy_last_q": -0.002122015915119402,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 940500000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1004300000.0
@@ -50,20 +54,20 @@
   {
    "period": "2025-09-30",
    "value": 942500000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1011300000.0
   }
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 0.93
+  },
+  {
    "period": "2026-06-30",
-   "value": 0.905972
+   "value": 0.91
   },
   {
    "period": "2026-03-31",
-   "value": 0.847902
+   "value": 0.85
   },
   {
    "period": "2025-12-31",
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.936868
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.06819
   }
  ],
- "eps_ttm": 3.586885,
+ "eps_ttm": 3.586143,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.060896523266201985,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.15186249637236815,
- "eps_forward_growth": 0.1243655706831972,
+ "eps_growth_last_q": -0.007330808609110284,
+ "eps_forward_growth": 0.05418551351689005,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.387772461456672
+  },
   {
    "period": "2026-06-30",
    "value": 0.3861395997211988
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.386737400530504
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3926629091268664
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.033834081158642504,
+ "dilution_1y": -0.034742468605522325,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 39500000.0,
- "gap_24m": -141800000.0,
+ "need_24m": 41000000.0,
+ "gap_24m": -193500000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.652959008830895,
- "interest_coverage": 31.42924528301887,
- "cash_to_debt": 0.26791783655977536,
- "ev": 8874163732.830025,
- "ev_to_sales": 2.33229880754554,
- "ev_to_ebitda": 11.69653846425468,
- "pe_ttm": 16.747478978273087,
- "pe_trailing": 17.172703,
- "p_sales": 2.2020981,
- "p_fcf": 13.104103429512081,
- "p_book": 4.548978626869007
+ "net_debt_to_ebitda": 0.6318905407183265,
+ "interest_coverage": 26.296442687747035,
+ "cash_to_debt": 0.32806379406827085,
+ "ev": 9238547521.26056,
+ "ev_to_sales": 2.429342744027074,
+ "ev_to_ebitda": 12.154384319511326,
+ "pe_ttm": 17.70773861961294,
+ "pe_trailing": 18.21229,
+ "p_sales": 2.3030443,
+ "p_fcf": 15.59239366434139,
+ "p_book": 4.804041205233152
 }

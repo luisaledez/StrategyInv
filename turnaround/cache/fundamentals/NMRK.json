@@ -1,0 +1,133 @@
+{
+ "ticker": "NMRK",
+ "fetched": "2026-11-10",
+ "market_cap": 2174743524.0,
+ "shares_out": 181228627.0,
+ "price": 12.0,
+ "long_name": "Newmark Group, Inc.",
+ "sector_y": "Real Estate",
+ "industry_y": "Real Estate Services",
+ "pe_trailing_y": 14.814815,
+ "pe_forward": 5.957316,
+ "peg": null,
+ "p_sales_y": 0.79072654,
+ "eps_trailing_y": 0.81,
+ "eps_forward": 2.01433,
+ "earnings_growth_y": 0.048,
+ "earnings_growth_q_y": 0.06,
+ "bs_date": "2026-06-30",
+ "cash": 259700000.0,
+ "total_debt": 2271098000.0,
+ "current_debt": 1006388000.0,
+ "lease_obligations": 494670000.0,
+ "equity": 1436575000.0,
+ "net_debt": 2011398000.0,
+ "ocf_ttm": 846016000.0,
+ "capex_ttm": -48423000.0,
+ "fcf_ttm": 797593000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -152689000.0,
+ "stock_issuance_ttm": -152689000.0,
+ "revenue_ttm": 3604356000.0,
+ "net_income_ttm": 148248000.0,
+ "ebitda_ttm": 460692000.0,
+ "ebit_ttm": 276147000.0,
+ "interest_ttm": 29304000.0,
+ "revenue_yoy_last_q": 0.1703398181032576,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 888419000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 846519000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1005958000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 863460000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 759112000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.27
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.11
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.08
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.37
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.25
+  }
+ ],
+ "eps_ttm": 0.8300000000000001,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 1.0,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.08000000000000007,
+ "eps_forward_growth": 1.4269036144578315,
+ "gross_margin_quarters": [],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 3294024000.0,
+   "eps": 0.68,
+   "net_income": 126186000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2738502000.0,
+   "eps": 0.34,
+   "net_income": 61234000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2470368000.0,
+   "eps": 0.24,
+   "net_income": 42575000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2705527000.0,
+   "eps": 0.46,
+   "net_income": 83275000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.02809229677019509,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1006388000.0,
+ "gap_24m": 746688000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 4.366036310593628,
+ "interest_coverage": 9.423525798525798,
+ "cash_to_debt": 0.1143499752102287,
+ "ev": 4186141524.0,
+ "ev_to_sales": 1.1614117817440897,
+ "ev_to_ebitda": 9.086638196452293,
+ "pe_ttm": 14.669631455399061,
+ "pe_trailing": 14.814815,
+ "p_sales": 0.79072654,
+ "p_fcf": 2.7266331625277553,
+ "p_book": 1.5138391827784836
+}

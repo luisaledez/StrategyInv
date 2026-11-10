@@ -1,40 +1,44 @@
 {
  "ticker": "AVY",
- "fetched": "2026-10-24",
- "market_cap": 13780557998.632233,
- "shares_out": 75788142.0,
- "price": 181.8300018310547,
+ "fetched": "2026-11-10",
+ "market_cap": 14199925958.292618,
+ "shares_out": 75511437.0,
+ "price": 188.0500030517578,
  "long_name": "Avery Dennison Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Packaging & Containers",
- "pe_trailing_y": 19.915663,
- "pe_forward": 16.255663,
+ "pe_trailing_y": 20.351732,
+ "pe_forward": 16.974825,
  "peg": 1.92,
- "p_sales_y": 1.4900962,
- "eps_trailing_y": 9.13,
- "eps_forward": 11.18564,
- "earnings_growth_y": 0.108,
- "earnings_growth_q_y": 0.08,
- "bs_date": "2026-06-30",
- "cash": 227300000.0,
- "total_debt": 3678200000.0,
- "current_debt": 500500000.0,
+ "p_sales_y": 1.5164219,
+ "eps_trailing_y": 9.24,
+ "eps_forward": 11.07817,
+ "earnings_growth_y": 0.051,
+ "earnings_growth_q_y": 0.02,
+ "bs_date": "2026-09-30",
+ "cash": 271400000.0,
+ "total_debt": 3615000000.0,
+ "current_debt": 440800000.0,
  "lease_obligations": null,
- "equity": 2322800000.0,
- "net_debt": 3450900000.0,
- "ocf_ttm": 1233600000.0,
- "capex_ttm": -200600000.0,
- "fcf_ttm": 1033000000.0,
+ "equity": 2388600000.0,
+ "net_debt": 3343600000.0,
+ "ocf_ttm": 1220300000.0,
+ "capex_ttm": -211200000.0,
+ "fcf_ttm": 1009100000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -410500000.0,
- "stock_issuance_ttm": -410500000.0,
- "revenue_ttm": 9248100000.0,
- "net_income_ttm": 704900000.0,
- "ebitda_ttm": 1450400000.0,
- "ebit_ttm": 1107700000.0,
- "interest_ttm": 142000000.0,
- "revenue_yoy_last_q": 0.10916460256698945,
+ "buybacks_ttm": -375900000.0,
+ "stock_issuance_ttm": -375900000.0,
+ "revenue_ttm": 9364100000.0,
+ "net_income_ttm": 708300000.0,
+ "ebitda_ttm": 1460800000.0,
+ "ebit_ttm": 1116500000.0,
+ "interest_ttm": 144400000.0,
+ "revenue_yoy_last_q": 0.052358384111938605,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2331500000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2462900000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2215500000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2220500000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.24
+  },
   {
    "period": "2026-06-30",
    "value": 2.67
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.13
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.41
   }
  ],
- "eps_ttm": 9.129999999999999,
+ "eps_ttm": 9.24,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.0068728522336767295,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.10788381742738573,
- "eps_forward_growth": 0.22515224534501654,
+ "eps_growth_last_q": 0.05164319248826299,
+ "eps_forward_growth": 0.19893614718614727,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.2808492386875402
+  },
   {
    "period": "2026-06-30",
    "value": 0.2961549392992001
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.2866170164748364
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.28781805899572166
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.027445626053192895,
+ "dilution_1y": -0.025033029688367847,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 500500000.0,
- "gap_24m": 273200000.0,
+ "need_24m": 440800000.0,
+ "gap_24m": 169400000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.3792746828461113,
- "interest_coverage": 7.800704225352113,
- "cash_to_debt": 0.06179653091185906,
- "ev": 17231457998.632233,
- "ev_to_sales": 1.863243044369355,
- "ev_to_ebitda": 11.880486761329449,
- "pe_ttm": 19.54966378015638,
- "pe_trailing": 19.915663,
- "p_sales": 1.4900962,
- "p_fcf": 13.340327200999257,
- "p_book": 5.932735491059167
+ "net_debt_to_ebitda": 2.288882803943045,
+ "interest_coverage": 7.731994459833795,
+ "cash_to_debt": 0.07507607192254495,
+ "ev": 17543525958.292618,
+ "ev_to_sales": 1.8734876772239315,
+ "ev_to_ebitda": 12.009533103979065,
+ "pe_ttm": 20.047897724541322,
+ "pe_trailing": 20.351732,
+ "p_sales": 1.5164219,
+ "p_fcf": 14.071871923786164,
+ "p_book": 5.944873967299932
 }

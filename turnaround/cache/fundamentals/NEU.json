@@ -1,0 +1,154 @@
+{
+ "ticker": "NEU",
+ "fetched": "2026-11-10",
+ "market_cap": 6384862708.586426,
+ "shares_out": 9196910.0,
+ "price": 694.239990234375,
+ "long_name": "NewMarket Corporation",
+ "sector_y": "Basic Materials",
+ "industry_y": "Specialty Chemicals",
+ "pe_trailing_y": 14.081947,
+ "pe_forward": 26.887684,
+ "peg": 5.64,
+ "p_sales_y": 2.3060734,
+ "eps_trailing_y": 49.3,
+ "eps_forward": 25.82,
+ "earnings_growth_y": 0.265,
+ "earnings_growth_q_y": 0.238,
+ "bs_date": "2026-09-30",
+ "cash": 77317000.0,
+ "total_debt": 914929000.0,
+ "current_debt": 17792000.0,
+ "lease_obligations": 84875000.0,
+ "equity": 1930084000.0,
+ "net_debt": 837612000.0,
+ "ocf_ttm": 499880000.0,
+ "capex_ttm": -116475000.0,
+ "fcf_ttm": 383405000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -126427000.0,
+ "stock_issuance_ttm": -126427000.0,
+ "revenue_ttm": 2768716000.0,
+ "net_income_ttm": 457210000.0,
+ "ebitda_ttm": 748422000.0,
+ "ebit_ttm": 621749000.0,
+ "interest_ttm": 35457000.0,
+ "revenue_yoy_last_q": 0.037940870129550275,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 716502000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 747094000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 669717000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 635403000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 690311000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 13.5
+  },
+  {
+   "period": "2026-06-30",
+   "value": 14.54
+  },
+  {
+   "period": "2026-03-31",
+   "value": 12.62
+  },
+  {
+   "period": "2025-12-31",
+   "value": 8.65
+  },
+  {
+   "period": "2025-09-30",
+   "value": 10.67
+  }
+ ],
+ "eps_ttm": 49.309999999999995,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -0.07839070924927416,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.26522961574507975,
+ "eps_forward_growth": -0.4763739606570675,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.310346656394539
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.3244959804254886
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3298094568302731
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.3002488184663906
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3036950012385722
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2725169000.0,
+   "eps": 44.44,
+   "net_income": 418747000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2786558000.0,
+   "eps": 48.22,
+   "net_income": 462413000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2698419000.0,
+   "eps": 40.44,
+   "net_income": 388864000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 2764799000.0,
+   "eps": 27.77,
+   "net_income": 279538000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.021305672098329675,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 17792000.0,
+ "gap_24m": -59525000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.1191707352269173,
+ "interest_coverage": 17.535296274360494,
+ "cash_to_debt": 0.08450601084892927,
+ "ev": 7222474708.586426,
+ "ev_to_sales": 2.608600776889513,
+ "ev_to_ebitda": 9.650270447136009,
+ "pe_ttm": 13.964836089732128,
+ "pe_trailing": 14.081947,
+ "p_sales": 2.3060734,
+ "p_fcf": 16.653050191276655,
+ "p_book": 3.308075041597374
+}

@@ -1,40 +1,44 @@
 {
  "ticker": "FND",
- "fetched": "2026-10-24",
- "market_cap": 5093415220.93895,
- "shares_out": 106489965.0,
- "price": 47.83000183105469,
+ "fetched": "2026-11-10",
+ "market_cap": 5558810663.488541,
+ "shares_out": 104234211.0,
+ "price": 53.33000183105469,
  "long_name": "Floor & Decor Holdings, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Home Improvement Retail",
- "pe_trailing_y": 22.350468,
- "pe_forward": 21.98161,
+ "pe_trailing_y": 24.022524,
+ "pe_forward": 28.345612,
  "peg": null,
- "p_sales_y": 1.0810038,
- "eps_trailing_y": 2.14,
- "eps_forward": 2.17591,
- "earnings_growth_y": 0.534,
- "earnings_growth_q_y": 0.517,
- "bs_date": "2026-06-30",
- "cash": 320614000.0,
- "total_debt": 2012794000.0,
- "current_debt": 164663000.0,
- "lease_obligations": 1817466000.0,
- "equity": 2495874000.0,
- "net_debt": 1692180000.0,
- "ocf_ttm": 505007000.0,
- "capex_ttm": -293610000.0,
- "fcf_ttm": 211397000.0,
+ "p_sales_y": 1.1710697,
+ "eps_trailing_y": 2.22,
+ "eps_forward": 1.88142,
+ "earnings_growth_y": 0.149,
+ "earnings_growth_q_y": 0.132,
+ "bs_date": "2026-09-30",
+ "cash": 392484000.0,
+ "total_debt": 1994144000.0,
+ "current_debt": 170649000.0,
+ "lease_obligations": 1798611000.0,
+ "equity": 2484982000.0,
+ "net_debt": 1601660000.0,
+ "ocf_ttm": 609376000.0,
+ "capex_ttm": -266843000.0,
+ "fcf_ttm": 342533000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 4711746000.0,
- "net_income_ttm": 232170000.0,
- "ebitda_ttm": 560734000.0,
- "ebit_ttm": 314581000.0,
- "interest_ttm": 15222000.0,
- "revenue_yoy_last_q": 0.02974920726434127,
+ "revenue_ttm": 4746780000.0,
+ "net_income_ttm": 239733000.0,
+ "ebitda_ttm": 572007000.0,
+ "ebit_ttm": 324139000.0,
+ "interest_ttm": 17843000.0,
+ "revenue_yoy_last_q": 0.029701736373987098,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1214561000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1250270000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1179527000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1214150000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.61
+  },
   {
    "period": "2026-06-30",
    "value": 0.89
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.53
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.45
   }
  ],
- "eps_ttm": 2.1500000000000004,
+ "eps_ttm": 2.23,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.010526315789473717,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.9777777777777779,
- "eps_forward_growth": 0.012051162790697623,
+ "eps_growth_last_q": 0.15094339622641506,
+ "eps_forward_growth": -0.15631390134529144,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.437460942678054
+  },
   {
    "period": "2026-06-30",
    "value": 0.48239100354323466
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4340349987749327
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.43873327018902114
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.006981673953624479,
+ "dilution_1y": -0.021460039105326456,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 164663000.0,
- "gap_24m": -155951000.0,
+ "need_24m": 170649000.0,
+ "gap_24m": -221835000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.0177945335934684,
- "interest_coverage": 20.666206805938774,
- "cash_to_debt": 0.15928803444366388,
- "ev": 6785595220.93895,
- "ev_to_sales": 1.4401445283635725,
- "ev_to_ebitda": 12.101273011693511,
- "pe_ttm": 21.9383004735278,
- "pe_trailing": 22.350468,
- "p_sales": 1.0810038,
- "p_fcf": 24.094075227836484,
- "p_book": 2.040734115960561
+ "net_debt_to_ebitda": 2.8000706285062944,
+ "interest_coverage": 18.16617160791347,
+ "cash_to_debt": 0.19681828393536274,
+ "ev": 7160470663.488541,
+ "ev_to_sales": 1.5084901056060194,
+ "ev_to_ebitda": 12.518152161579387,
+ "pe_ttm": 23.187507199628506,
+ "pe_trailing": 24.022524,
+ "p_sales": 1.1710697,
+ "p_fcf": 16.22854050117373,
+ "p_book": 2.236962144389191
 }

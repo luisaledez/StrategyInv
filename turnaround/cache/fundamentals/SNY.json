@@ -1,40 +1,44 @@
 {
  "ticker": "SNY",
- "fetched": "2026-10-25",
- "market_cap": 101013035341.26381,
+ "fetched": "2026-11-10",
+ "market_cap": 117039148055.3681,
  "shares_out": 2428198054.0,
- "price": 41.599998474121094,
+ "price": 48.20000076293945,
  "long_name": "Sanofi",
  "sector_y": "Healthcare",
  "industry_y": "Drug Manufacturers - General",
- "pe_trailing_y": 21.894737,
- "pe_forward": 7.961052,
- "peg": 29.28,
- "p_sales_y": 2.03764,
- "eps_trailing_y": 1.9,
- "eps_forward": 5.22544,
- "earnings_growth_y": -0.912,
- "earnings_growth_q_y": -0.913,
- "bs_date": "2026-06-30",
- "cash": 6350000000.0,
- "total_debt": 23576000000.0,
- "current_debt": 7253000000.0,
- "lease_obligations": 1904000000.0,
- "equity": 69207000000.0,
- "net_debt": 17226000000.0,
- "ocf_ttm": 11838000000.0,
+ "pe_trailing_y": 23.9801,
+ "pe_forward": 8.88399,
+ "peg": 1.71,
+ "p_sales_y": 2.2653844,
+ "eps_trailing_y": 2.01,
+ "eps_forward": 5.42549,
+ "earnings_growth_y": 0.094,
+ "earnings_growth_q_y": 0.078,
+ "bs_date": "2026-09-30",
+ "cash": 5966000000.0,
+ "total_debt": 19845000000.0,
+ "current_debt": 3565000000.0,
+ "lease_obligations": 1903000000.0,
+ "equity": 72879000000.0,
+ "net_debt": 13879000000.0,
+ "ocf_ttm": 11959000000.0,
  "capex_ttm": null,
- "fcf_ttm": 7004000000.0,
+ "fcf_ttm": 8421000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 48919000000.0,
- "net_income_ttm": 3958000000.0,
- "ebitda_ttm": 8249000000.0,
- "ebit_ttm": 6163000000.0,
- "interest_ttm": 730000000.0,
- "revenue_yoy_last_q": 0.1457848160223567,
+ "revenue_ttm": 50982000000.0,
+ "net_income_ttm": 4177000000.0,
+ "ebitda_ttm": 9033000000.0,
+ "ebit_ttm": 6852000000.0,
+ "interest_ttm": 725000000.0,
+ "revenue_yoy_last_q": 0.15664388762338644,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 15233000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 12300000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 13170000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 10735000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.26
+  },
   {
    "period": "2026-06-30",
    "value": 0.145
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.15
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.62
   }
  ],
- "eps_ttm": 1.635,
+ "eps_ttm": 1.745,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.3943355119825709,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.9104938271604939,
- "eps_forward_growth": 2.1959877675840977,
+ "eps_growth_last_q": 0.09565217391304359,
+ "eps_forward_growth": 2.109163323782235,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7615702750607234
+  },
   {
    "period": "2026-06-30",
    "value": 0.7547154471544716
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7409263477600607
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7211923614345599
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02418008168940544,
+ "dilution_1y": -0.01635445862599283,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 7253000000.0,
- "gap_24m": 903000000.0,
- "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.088253121590496,
- "interest_coverage": 8.442465753424658,
- "cash_to_debt": 0.26934170342721414,
- "ev": 118239035341.26381,
- "ev_to_sales": 2.417037047798684,
- "ev_to_ebitda": 14.333741707026768,
- "pe_ttm": 25.52123176888929,
- "pe_trailing": 21.894737,
- "p_sales": 2.03764,
- "p_fcf": 14.422192367399173,
- "p_book": 1.4595782990342567
+ "need_24m": 3565000000.0,
+ "gap_24m": -2401000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 1.536477360788221,
+ "interest_coverage": 9.45103448275862,
+ "cash_to_debt": 0.30062988158226256,
+ "ev": 130918148055.3681,
+ "ev_to_sales": 2.5679288387149994,
+ "ev_to_ebitda": 14.493318726377517,
+ "pe_ttm": 28.019906165996673,
+ "pe_trailing": 23.9801,
+ "p_sales": 2.2653844,
+ "p_fcf": 13.89848569711057,
+ "p_book": 1.6059378978219803
 }

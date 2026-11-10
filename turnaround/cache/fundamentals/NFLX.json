@@ -1,40 +1,44 @@
 {
  "ticker": "NFLX",
- "fetched": "2026-10-24",
- "market_cap": 274195421310.93228,
- "shares_out": 4163939676.0,
- "price": 65.8499984741211,
+ "fetched": "2026-11-10",
+ "market_cap": 262599544629.72803,
+ "shares_out": 4106325903.0,
+ "price": 63.95000076293945,
  "long_name": "Netflix, Inc.",
  "sector_y": "Communication Services",
  "industry_y": "Entertainment",
- "pe_trailing_y": 19.031792,
- "pe_forward": 17.47055,
- "peg": 1.04,
- "p_sales_y": 5.513169,
+ "pe_trailing_y": 18.482658,
+ "pe_forward": 16.956839,
+ "peg": 1.01,
+ "p_sales_y": 5.280014,
  "eps_trailing_y": 3.46,
- "eps_forward": 3.7692,
+ "eps_forward": 3.77134,
  "earnings_growth_y": 0.475,
  "earnings_growth_q_y": 0.439,
- "bs_date": "2026-06-30",
- "cash": 9127910000.0,
- "total_debt": 14309306000.0,
- "current_debt": 2483758000.0,
+ "bs_date": "2026-09-30",
+ "cash": 8222953000.0,
+ "total_debt": 15132394000.0,
+ "current_debt": 2474796000.0,
  "lease_obligations": null,
- "equity": 30152052000.0,
- "net_debt": 5181396000.0,
- "ocf_ttm": 11970833000.0,
- "capex_ttm": -818828000.0,
- "fcf_ttm": 11152005000.0,
+ "equity": 29286253000.0,
+ "net_debt": 6909441000.0,
+ "ocf_ttm": 12307938000.0,
+ "capex_ttm": -932875000.0,
+ "fcf_ttm": 11375063000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -9921435000.0,
- "stock_issuance_ttm": -9665848000.0,
- "revenue_ttm": 48370764000.0,
- "net_income_ttm": 13649642000.0,
- "ebitda_ttm": 35008877000.0,
- "ebit_ttm": 17340274000.0,
- "interest_ttm": 847451000.0,
- "revenue_yoy_last_q": 0.13365374252899542,
+ "buybacks_ttm": -12861275000.0,
+ "stock_issuance_ttm": -12601229000.0,
+ "revenue_ttm": 49734633000.0,
+ "net_income_ttm": 14766653000.0,
+ "ebitda_ttm": 36478263000.0,
+ "ebit_ttm": 18557176000.0,
+ "interest_ttm": 856858000.0,
+ "revenue_yoy_last_q": 0.11849110540665864,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 12874176000.0
+  },
   {
    "period": "2026-06-30",
    "value": 12559938000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 11510307000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 11079166000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.87
+  },
   {
    "period": "2026-06-30",
    "value": 0.8
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.587
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.719
   }
  ],
- "eps_ttm": 3.1770000000000005,
+ "eps_ttm": 3.46,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.2758446797781138,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.11265646731571644,
- "eps_forward_growth": 0.18640226628895173,
+ "eps_growth_last_q": 0.4821124361158433,
+ "eps_forward_growth": 0.08998265895953761,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5278131975203695
+  },
   {
    "period": "2026-06-30",
    "value": 0.5193475477347101
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.46445824598770474
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5193400839016222
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.020079664347289028,
+ "dilution_1y": -0.03091513828161152,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2483758000.0,
- "gap_24m": -6644152000.0,
+ "need_24m": 2474796000.0,
+ "gap_24m": -5748157000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.14800234809017154,
- "interest_coverage": 20.461683330363645,
- "cash_to_debt": 0.6379002587546874,
- "ev": 279376817310.93225,
- "ev_to_sales": 5.77573712317077,
- "ev_to_ebitda": 7.98017078099741,
- "pe_ttm": 20.088103505640095,
- "pe_trailing": 19.031792,
- "p_sales": 5.513169,
- "p_fcf": 24.587096339262068,
- "p_book": 9.093756581175048
+ "net_debt_to_ebitda": 0.18941255508794375,
+ "interest_coverage": 21.65723608812662,
+ "cash_to_debt": 0.5434006674687429,
+ "ev": 269508985629.72803,
+ "ev_to_sales": 5.418939868918466,
+ "ev_to_ebitda": 7.388207756211639,
+ "pe_ttm": 17.783281331912384,
+ "pe_trailing": 18.482658,
+ "p_sales": 5.280014,
+ "p_fcf": 23.0855463947521,
+ "p_book": 8.966648776466148
 }

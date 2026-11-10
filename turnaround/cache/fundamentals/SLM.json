@@ -1,40 +1,44 @@
 {
  "ticker": "SLM",
- "fetched": "2026-10-24",
- "market_cap": 3650960014.3432617,
+ "fetched": "2026-11-10",
+ "market_cap": 3179079971.3134766,
  "shares_out": 188000000.0,
- "price": 19.420000076293945,
+ "price": 16.90999984741211,
  "long_name": "SLM Corporation",
  "sector_y": "Financial Services",
  "industry_y": "Credit Services",
- "pe_trailing_y": 6.9587817,
- "pe_forward": 6.370796,
+ "pe_trailing_y": 6.060932,
+ "pe_forward": 5.5580025,
  "peg": 0.51,
- "p_sales_y": 2.4636114,
+ "p_sales_y": 2.1457465,
  "eps_trailing_y": 2.79,
- "eps_forward": 3.0475,
+ "eps_forward": 3.04246,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 5662841000.0,
- "total_debt": 5844116000.0,
- "current_debt": 0.0,
+ "bs_date": "2026-09-30",
+ "cash": 3239887000.0,
+ "total_debt": 6434652000.0,
+ "current_debt": 898729000.0,
  "lease_obligations": null,
- "equity": 2474669000.0,
- "net_debt": 181275000.0,
- "ocf_ttm": -324595000.0,
+ "equity": 2255514000.0,
+ "net_debt": 3194765000.0,
+ "ocf_ttm": -381642000.0,
  "capex_ttm": null,
- "fcf_ttm": -324595000.0,
+ "fcf_ttm": -381642000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -561140000.0,
- "stock_issuance_ttm": -561140000.0,
- "revenue_ttm": 1960878000.0,
- "net_income_ttm": 735514000.0,
+ "buybacks_ttm": -545280000.0,
+ "stock_issuance_ttm": -545280000.0,
+ "revenue_ttm": 1790666000.0,
+ "net_income_ttm": 567403000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
- "interest_ttm": 1107504000.0,
- "revenue_yoy_last_q": -0.006167058147256155,
+ "interest_ttm": 1100054000.0,
+ "revenue_yoy_last_q": -0.3119269753829632,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 375467000.0
+  },
   {
    "period": "2026-06-30",
    "value": 401107000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 545679000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 403596000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.19
+  },
   {
    "period": "2026-06-30",
    "value": 0.29
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.63
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.32
   }
  ],
- "eps_ttm": 3.58,
+ "eps_ttm": 2.7600000000000002,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.2910447761194028,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.09375000000000011,
- "eps_forward_growth": -0.14874301675977664,
+ "eps_growth_last_q": -1.3015873015873016,
+ "eps_forward_growth": 0.10234057971014487,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0982408117214113,
- "fcf_burn_annual": 324595000.0,
- "runway_months": 209.35039664813075,
- "need_24m": 649190000.0,
- "gap_24m": -5013651000.0,
+ "dilution_1y": -0.07406791305038674,
+ "fcf_burn_annual": 381642000.0,
+ "runway_months": 101.87202666373197,
+ "need_24m": 1662013000.0,
+ "gap_24m": -1577874000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
- "cash_to_debt": 0.9689816218569242,
- "ev": 3832235014.3432617,
- "ev_to_sales": 1.954346478640314,
+ "cash_to_debt": 0.5035061725171773,
+ "ev": 6373844971.313477,
+ "ev_to_sales": 3.559482880287824,
  "ev_to_ebitda": null,
- "pe_ttm": 4.963821238403703,
- "pe_trailing": 6.9587817,
- "p_sales": 2.4636114,
+ "pe_ttm": 5.60286070273417,
+ "pe_trailing": 6.060932,
+ "p_sales": 2.1457465,
  "p_fcf": null,
- "p_book": 1.4753326664468103
+ "p_book": 1.4094702898379157
 }

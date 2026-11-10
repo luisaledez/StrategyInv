@@ -1,40 +1,44 @@
 {
  "ticker": "AMP",
- "fetched": "2026-10-24",
- "market_cap": 43476727275.26727,
- "shares_out": 88333219.0,
- "price": 492.19000244140625,
+ "fetched": "2026-11-10",
+ "market_cap": 45149430361.13153,
+ "shares_out": 86812469.0,
+ "price": 520.0800170898438,
  "long_name": "Ameriprise Financial, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Asset Management",
- "pe_trailing_y": 11.882908,
- "pe_forward": 9.557945,
- "peg": 1.38,
- "p_sales_y": 2.1914775,
- "eps_trailing_y": 41.42,
- "eps_forward": 51.49538,
- "earnings_growth_y": 0.117,
- "earnings_growth_q_y": 0.05,
- "bs_date": "2026-06-30",
- "cash": 47469000000.0,
- "total_debt": 6532000000.0,
+ "pe_trailing_y": 11.713513,
+ "pe_forward": 10.081776,
+ "peg": 1.41,
+ "p_sales_y": 2.242113,
+ "eps_trailing_y": 44.4,
+ "eps_forward": 51.58615,
+ "earnings_growth_y": 0.32,
+ "earnings_growth_q_y": 0.235,
+ "bs_date": "2026-09-30",
+ "cash": 45348000000.0,
+ "total_debt": 5992000000.0,
  "current_debt": 200000000.0,
  "lease_obligations": 1000000.0,
- "equity": 6366000000.0,
- "net_debt": -40937000000.0,
- "ocf_ttm": 8218000000.0,
- "capex_ttm": -154000000.0,
- "fcf_ttm": 8064000000.0,
+ "equity": 5110000000.0,
+ "net_debt": -39356000000.0,
+ "ocf_ttm": 7485000000.0,
+ "capex_ttm": -152000000.0,
+ "fcf_ttm": 7333000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -3249000000.0,
- "stock_issuance_ttm": -3249000000.0,
- "revenue_ttm": 19503000000.0,
- "net_income_ttm": 3948000000.0,
+ "buybacks_ttm": -3463000000.0,
+ "stock_issuance_ttm": -3463000000.0,
+ "revenue_ttm": 19829000000.0,
+ "net_income_ttm": 4162000000.0,
  "ebitda_ttm": null,
- "ebit_ttm": 5380000000.0,
- "interest_ttm": 328000000.0,
- "revenue_yoy_last_q": 0.12914285714285723,
+ "ebit_ttm": 5632000000.0,
+ "interest_ttm": 327000000.0,
+ "revenue_yoy_last_q": 0.06804424963473177,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5117000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4940000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 4791000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4375000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 12.32
+  },
   {
    "period": "2026-06-30",
    "value": 11.98
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 9.33
-  },
-  {
-   "period": "2025-06-30",
-   "value": 10.73
   }
  ],
- "eps_ttm": 41.46,
+ "eps_ttm": 44.45,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.09773071104387299,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.11649580615097865,
- "eps_forward_growth": 0.24204968644476588,
+ "eps_growth_last_q": 0.32047159699892824,
+ "eps_forward_growth": 0.16054330708661424,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0631307288207259,
+ "dilution_1y": -0.06597943621758906,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 200000000.0,
- "gap_24m": -47269000000.0,
+ "gap_24m": -45148000000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
- "interest_coverage": 16.402439024390244,
- "cash_to_debt": 7.267146356399265,
- "ev": 2539727275.267273,
- "ev_to_sales": 0.13022239015881007,
+ "interest_coverage": 17.223241590214066,
+ "cash_to_debt": 7.568090787716956,
+ "ev": 5793430361.131531,
+ "ev_to_sales": 0.2921695678617949,
  "ev_to_ebitda": null,
- "pe_ttm": 11.01234226830478,
- "pe_trailing": 11.882908,
- "p_sales": 2.1914775,
- "p_fcf": 5.3914592355242155,
- "p_book": 6.829520464226716
+ "pe_ttm": 10.848013061300223,
+ "pe_trailing": 11.713513,
+ "p_sales": 2.242113,
+ "p_fcf": 6.157020368352861,
+ "p_book": 8.835504963039439
 }

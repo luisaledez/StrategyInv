@@ -1,40 +1,44 @@
 {
  "ticker": "GLPI",
- "fetched": "2026-10-24",
- "market_cap": 11505887478.695621,
- "shares_out": 290920043.0,
- "price": 39.54999923706055,
+ "fetched": "2026-11-10",
+ "market_cap": 11474013014.3177,
+ "shares_out": 290923261.0,
+ "price": 39.439998626708984,
  "long_name": "Gaming and Leisure Properties, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Specialty",
- "pe_trailing_y": 11.078431,
- "pe_forward": 11.867576,
+ "pe_trailing_y": 12.02439,
+ "pe_forward": 11.934518,
  "peg": null,
- "p_sales_y": 7.1566377,
- "eps_trailing_y": 3.57,
- "eps_forward": 3.33261,
- "earnings_growth_y": 0.479,
- "earnings_growth_q_y": 0.508,
- "bs_date": "2026-06-30",
- "cash": 319004000.0,
- "total_debt": 8379888000.0,
+ "p_sales_y": 6.974782,
+ "eps_trailing_y": 3.28,
+ "eps_forward": 3.3047,
+ "earnings_growth_y": -0.165,
+ "earnings_growth_q_y": -0.139,
+ "bs_date": "2026-09-30",
+ "cash": 165752000.0,
+ "total_debt": 8383398000.0,
  "current_debt": null,
- "lease_obligations": 302147000.0,
- "equity": 4983316000.0,
- "net_debt": 8060884000.0,
- "ocf_ttm": 1203381000.0,
- "capex_ttm": -575653000.0,
- "fcf_ttm": 627728000.0,
+ "lease_obligations": 302852000.0,
+ "equity": 4955114000.0,
+ "net_debt": 8217646000.0,
+ "ocf_ttm": 1242770000.0,
+ "capex_ttm": -728622000.0,
+ "fcf_ttm": 514148000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 350506000.0,
- "revenue_ttm": 1655145000.0,
- "net_income_ttm": 968733000.0,
- "ebitda_ttm": 1664017000.0,
- "ebit_ttm": 1383700000.0,
- "interest_ttm": 383236000.0,
- "revenue_yoy_last_q": 0.09026377900910676,
+ "stock_issuance_ttm": 350641000.0,
+ "revenue_ttm": 1692984000.0,
+ "net_income_ttm": 935178000.0,
+ "ebitda_ttm": 1635986000.0,
+ "ebit_ttm": 1353847000.0,
+ "interest_ttm": 388061000.0,
+ "revenue_yoy_last_q": 0.09516611755237547,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 435449000.0
+  },
   {
    "period": "2026-06-30",
    "value": 430519000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 397610000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 394876000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.71
+  },
   {
    "period": "2026-06-30",
    "value": 0.8
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.85
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.54
   }
  ],
- "eps_ttm": 3.41,
+ "eps_ttm": 3.27,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.027874564459930307,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.4814814814814814,
- "eps_forward_growth": -0.022695014662756696,
+ "eps_growth_last_q": -0.16470588235294115,
+ "eps_forward_growth": 0.010611620795107024,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9681156691139491
+  },
   {
    "period": "2026-06-30",
    "value": 0.9671350161084644
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9653303488342848
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9646927136620104
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0279561068512737,
+ "dilution_1y": 0.0279670872740565,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -319004000.0,
+ "gap_24m": -165752000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 4.844231759651494,
- "interest_coverage": 3.61056894446242,
- "cash_to_debt": 0.03806781188483665,
- "ev": 19566771478.69562,
- "ev_to_sales": 11.82178690005747,
- "ev_to_ebitda": 11.75875695903084,
- "pe_ttm": 11.877253565941928,
- "pe_trailing": 11.078431,
- "p_sales": 7.1566377,
- "p_fcf": 18.329415732125412,
- "p_book": 2.3088817724373936
+ "net_debt_to_ebitda": 5.023053987014559,
+ "interest_coverage": 3.488747903035863,
+ "cash_to_debt": 0.0197714578265281,
+ "ev": 19691659014.3177,
+ "ev_to_sales": 11.631332023408195,
+ "ev_to_ebitda": 12.036569392597308,
+ "pe_ttm": 12.269335906445296,
+ "pe_trailing": 12.02439,
+ "p_sales": 6.974782,
+ "p_fcf": 22.316556739144563,
+ "p_book": 2.315590118475115
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "FOX",
- "fetched": "2026-10-24",
- "market_cap": 25072713178.06627,
- "shares_out": 421673622.0,
- "price": 59.459999084472656,
+ "fetched": "2026-11-10",
+ "market_cap": 25196307722.737152,
+ "shares_out": 421801414.0,
+ "price": 59.73500061035156,
  "long_name": "Fox Corporation",
  "sector_y": "Communication Services",
  "industry_y": "Entertainment",
- "pe_trailing_y": 15.484375,
- "pe_forward": 9.699837,
- "peg": null,
- "p_sales_y": 1.4640146,
- "eps_trailing_y": 3.84,
- "eps_forward": 6.13,
- "earnings_growth_y": 0.031,
- "earnings_growth_q_y": -0.036,
- "bs_date": "2026-06-30",
- "cash": 4205000000.0,
- "total_debt": 7568000000.0,
- "current_debt": 45000000.0,
- "lease_obligations": 962000000.0,
- "equity": 11628000000.0,
- "net_debt": 3363000000.0,
- "ocf_ttm": 1970000000.0,
- "capex_ttm": -502000000.0,
- "fcf_ttm": 1468000000.0,
+ "pe_trailing_y": 12.709575,
+ "pe_forward": 10.860909,
+ "peg": 1.0391,
+ "p_sales_y": 1.4029905,
+ "eps_trailing_y": 4.7,
+ "eps_forward": 5.5,
+ "earnings_growth_y": 0.667,
+ "earnings_growth_q_y": 0.574,
+ "bs_date": "2026-09-30",
+ "cash": 4536000000.0,
+ "total_debt": 7579000000.0,
+ "current_debt": 51000000.0,
+ "lease_obligations": 972000000.0,
+ "equity": 12466000000.0,
+ "net_debt": 3043000000.0,
+ "ocf_ttm": 2716000000.0,
+ "capex_ttm": -511000000.0,
+ "fcf_ttm": 2205000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2000000000.0,
- "stock_issuance_ttm": -2000000000.0,
- "revenue_ttm": 17126000000.0,
- "net_income_ttm": 1685000000.0,
- "ebitda_ttm": 3089000000.0,
- "ebit_ttm": 2679000000.0,
- "interest_ttm": 401000000.0,
- "revenue_yoy_last_q": 0.2814116215393976,
+ "buybacks_ttm": -1750000000.0,
+ "stock_issuance_ttm": -1750000000.0,
+ "revenue_ttm": 17959000000.0,
+ "net_income_ttm": 2029000000.0,
+ "ebitda_ttm": 3607000000.0,
+ "ebit_ttm": 3177000000.0,
+ "interest_ttm": 415000000.0,
+ "revenue_yoy_last_q": 0.22284644194756553,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4571000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4212000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3738000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3287000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.2
+  },
   {
    "period": "2026-06-30",
    "value": 1.61
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.32
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.57
   }
  ],
- "eps_ttm": 3.83,
+ "eps_ttm": 4.710000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.2179226069246436,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.02547770700636942,
- "eps_forward_growth": 0.6005221932114881,
+ "eps_growth_last_q": 0.6666666666666667,
+ "eps_forward_growth": 0.1677282377919318,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.05993015014419911,
+ "dilution_1y": -0.05173296244739389,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 45000000.0,
- "gap_24m": -4160000000.0,
+ "need_24m": 51000000.0,
+ "gap_24m": -4485000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.088701845257365,
- "interest_coverage": 6.6807980049875315,
- "cash_to_debt": 0.5556289640591966,
- "ev": 28435713178.06627,
- "ev_to_sales": 1.660382644988104,
- "ev_to_ebitda": 9.205475292349067,
- "pe_ttm": 14.879948473629833,
- "pe_trailing": 15.484375,
- "p_sales": 1.4640146,
- "p_fcf": 17.07950488969092,
- "p_book": 2.1562360834250316
+ "net_debt_to_ebitda": 0.8436373717771001,
+ "interest_coverage": 7.655421686746988,
+ "cash_to_debt": 0.5984958437788627,
+ "ev": 28239307722.737152,
+ "ev_to_sales": 1.5724320798895903,
+ "ev_to_ebitda": 7.829029033195773,
+ "pe_ttm": 12.418091534123782,
+ "pe_trailing": 12.709575,
+ "p_sales": 1.4029905,
+ "p_fcf": 11.426896926411407,
+ "p_book": 2.021202288042448
 }

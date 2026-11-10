@@ -1,40 +1,44 @@
 {
  "ticker": "BAX",
- "fetched": "2026-10-24",
- "market_cap": 13079998380.263355,
- "shares_out": 516995999.0,
- "price": 25.299999237060547,
+ "fetched": "2026-11-10",
+ "market_cap": 13663165566.138931,
+ "shares_out": 517348188.0,
+ "price": 26.40999984741211,
  "long_name": "Baxter International Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
  "pe_trailing_y": null,
- "pe_forward": 12.404332,
+ "pe_forward": 12.911205,
  "peg": 36.68,
- "p_sales_y": 1.1403661,
- "eps_trailing_y": -1.88,
- "eps_forward": 2.03961,
- "earnings_growth_y": 0.368,
- "earnings_growth_q_y": 0.385,
- "bs_date": "2026-06-30",
- "cash": 2150000000.0,
- "total_debt": 9667000000.0,
+ "p_sales_y": 1.1767433,
+ "eps_trailing_y": -1.21,
+ "eps_forward": 2.04551,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 1975000000.0,
+ "total_debt": 8807000000.0,
  "current_debt": 844000000.0,
- "lease_obligations": 208000000.0,
- "equity": 6206000000.0,
- "net_debt": 7517000000.0,
- "ocf_ttm": 1319000000.0,
- "capex_ttm": -507000000.0,
- "fcf_ttm": 812000000.0,
+ "lease_obligations": 206000000.0,
+ "equity": 6502000000.0,
+ "net_debt": 6832000000.0,
+ "ocf_ttm": 1640000000.0,
+ "capex_ttm": -506000000.0,
+ "fcf_ttm": 1134000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 11470000000.0,
- "net_income_ttm": -1063000000.0,
- "ebitda_ttm": 762000000.0,
- "ebit_ttm": -191000000.0,
- "interest_ttm": 292000000.0,
- "revenue_yoy_last_q": 0.053380782918149405,
+ "revenue_ttm": 11611000000.0,
+ "net_income_ttm": -723000000.0,
+ "ebitda_ttm": 1066000000.0,
+ "ebit_ttm": 111000000.0,
+ "interest_ttm": 298000000.0,
+ "revenue_yoy_last_q": 0.04973544973544963,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2976000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2960000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2835000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2810000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.57
+  },
   {
    "period": "2026-06-30",
    "value": 0.24
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.09
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.18
   }
  ],
- "eps_ttm": -2.07,
+ "eps_ttm": -1.4100000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": 0.33333333333333326,
+ "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.334005376344086
+  },
   {
    "period": "2026-06-30",
    "value": 0.34864864864864864
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3350970017636684
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.35266903914590747
   }
  ],
  "annual": [
@@ -122,7 +122,7 @@
   {
    "year": "2023",
    "revenue": 10360000000.0,
-   "eps": 5.23,
+   "eps": 5.25,
    "net_income": 2656000000.0
   },
   {
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.006811531285781047,
+ "dilution_1y": 0.0066196520816104165,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 844000000.0,
- "gap_24m": -1306000000.0,
+ "gap_24m": -1131000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 9.86482939632546,
- "interest_coverage": -0.6541095890410958,
- "cash_to_debt": 0.22240612392676115,
- "ev": 20596998380.263355,
- "ev_to_sales": 1.795727844835515,
- "ev_to_ebitda": 27.03018160139548,
+ "net_debt_to_ebitda": 6.409005628517824,
+ "interest_coverage": 0.3724832214765101,
+ "cash_to_debt": 0.22425343476779835,
+ "ev": 20495165566.13893,
+ "ev_to_sales": 1.765150767904481,
+ "ev_to_ebitda": 19.226234114576858,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 1.1403661,
- "p_fcf": 16.10837238948689,
- "p_book": 2.1076375089048267
+ "p_sales": 1.1767433,
+ "p_fcf": 12.048646883720398,
+ "p_book": 2.1013788935925763
 }

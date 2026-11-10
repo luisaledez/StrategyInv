@@ -1,0 +1,154 @@
+{
+ "ticker": "HUBB",
+ "fetched": "2026-11-10",
+ "market_cap": 23100005200.878754,
+ "shares_out": 52835035.0,
+ "price": 437.2099914550781,
+ "long_name": "Hubbell Incorporated",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": 25.642817,
+ "pe_forward": 18.965256,
+ "peg": 1.58,
+ "p_sales_y": 3.5033453,
+ "eps_trailing_y": 17.05,
+ "eps_forward": 23.05321,
+ "earnings_growth_y": 0.036,
+ "earnings_growth_q_y": 0.027,
+ "bs_date": "2026-09-30",
+ "cash": 355000000.0,
+ "total_debt": 5306600000.0,
+ "current_debt": 662200000.0,
+ "lease_obligations": 186400000.0,
+ "equity": 4105600000.0,
+ "net_debt": 4951600000.0,
+ "ocf_ttm": 1106500000.0,
+ "capex_ttm": -178500000.0,
+ "fcf_ttm": 928000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -203500000.0,
+ "stock_issuance_ttm": -203500000.0,
+ "revenue_ttm": 6593700000.0,
+ "net_income_ttm": 908900000.0,
+ "ebitda_ttm": 1589800000.0,
+ "ebit_ttm": 1308200000.0,
+ "interest_ttm": 141300000.0,
+ "revenue_yoy_last_q": 0.2463391906283281,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1872500000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1711800000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 1516700000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 1492700000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1502400000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4.94
+  },
+  {
+   "period": "2026-06-30",
+   "value": 4.52
+  },
+  {
+   "period": "2026-03-31",
+   "value": 3.41
+  },
+  {
+   "period": "2025-12-31",
+   "value": 4.19
+  },
+  {
+   "period": "2025-09-30",
+   "value": 4.77
+  }
+ ],
+ "eps_ttm": 17.060000000000002,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.151009046624913,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 0.03563941299790363,
+ "eps_forward_growth": 0.351301875732708,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.36753004005340456
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.35810258207734547
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.33315751302169183
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.35177865612648224
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.3622870074547391
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 5844600000.0,
+   "eps": 16.54,
+   "net_income": 887100000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 5628500000.0,
+   "eps": 14.37,
+   "net_income": 779000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 5372900000.0,
+   "eps": 14.05,
+   "net_income": 751400000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 4947900000.0,
+   "eps": 9.43,
+   "net_income": 545900000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.004694523104051385,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 662200000.0,
+ "gap_24m": 307200000.0,
+ "survival_gate": "REVIEW",
+ "net_debt_to_ebitda": 3.11460561076865,
+ "interest_coverage": 9.258315640481246,
+ "cash_to_debt": 0.06689782534956469,
+ "ev": 28051605200.878754,
+ "ev_to_sales": 4.2543041389324285,
+ "ev_to_ebitda": 17.644738458220377,
+ "pe_ttm": 25.415342942984655,
+ "pe_trailing": 25.642817,
+ "p_sales": 3.5033453,
+ "p_fcf": 24.892246983705554,
+ "p_book": 5.626462685327054
+}

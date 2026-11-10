@@ -1,40 +1,44 @@
 {
  "ticker": "FLEX",
- "fetched": "2026-10-24",
- "market_cap": 28282198039.153793,
- "shares_out": 369460443.0,
- "price": 76.55000305175781,
+ "fetched": "2026-11-10",
+ "market_cap": 28263751506.0,
+ "shares_out": 369460804.0,
+ "price": 76.5,
  "long_name": "Flex Ltd.",
  "sector_y": "Technology",
  "industry_y": "Electronic Components",
- "pe_trailing_y": 33.28261,
- "pe_forward": 10.372629,
+ "pe_trailing_y": 27.517986,
+ "pe_forward": 9.835067,
  "peg": 0.94,
- "p_sales_y": 0.96635115,
- "eps_trailing_y": 2.3,
- "eps_forward": 7.38,
- "earnings_growth_y": 0.52,
- "earnings_growth_q_y": 0.484,
- "bs_date": "2026-06-30",
- "cash": 2389000000.0,
- "total_debt": 4316000000.0,
+ "p_sales_y": 0.9130888,
+ "eps_trailing_y": 2.78,
+ "eps_forward": 7.77829,
+ "earnings_growth_y": 0.346,
+ "earnings_growth_q_y": 0.322,
+ "bs_date": "2026-09-30",
+ "cash": 3083000000.0,
+ "total_debt": 5983000000.0,
  "current_debt": 675000000.0,
- "lease_obligations": 565000000.0,
- "equity": 5144000000.0,
- "net_debt": 1927000000.0,
- "ocf_ttm": 1685000000.0,
- "capex_ttm": -633000000.0,
- "fcf_ttm": 1052000000.0,
+ "lease_obligations": 770000000.0,
+ "equity": 5807000000.0,
+ "net_debt": 2900000000.0,
+ "ocf_ttm": 1787000000.0,
+ "capex_ttm": -741000000.0,
+ "fcf_ttm": 1046000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -944000000.0,
- "stock_issuance_ttm": -944000000.0,
- "revenue_ttm": 27914000000.0,
- "net_income_ttm": 880000000.0,
- "ebitda_ttm": 1921000000.0,
- "ebit_ttm": 1358000000.0,
- "interest_ttm": 215000000.0,
- "revenue_yoy_last_q": 0.16864645201625517,
+ "buybacks_ttm": -697000000.0,
+ "stock_issuance_ttm": -697000000.0,
+ "revenue_ttm": 29830000000.0,
+ "net_income_ttm": 951000000.0,
+ "ebitda_ttm": 2069000000.0,
+ "ebit_ttm": 1492000000.0,
+ "interest_ttm": 225000000.0,
+ "revenue_yoy_last_q": 0.2914068441064639,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 8491000000.0
+  },
   {
    "period": "2026-03-31",
    "value": 7477000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-06-30",
    "value": 6575000000.0
-  },
-  {
-   "period": "2025-03-31",
-   "value": 6398000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7
+  },
   {
    "period": "2026-06-30",
    "value": 0.76
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.52
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5
   }
  ],
- "eps_ttm": 2.5900000000000003,
+ "eps_ttm": 2.77,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.10426540284360208,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.52,
- "eps_forward_growth": 1.849420849420849,
+ "eps_growth_last_q": 0.34615384615384603,
+ "eps_forward_growth": 1.8080469314079424,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.09563066776586975
+  },
   {
    "period": "2026-03-31",
    "value": 0.09388792296375552
@@ -100,10 +104,6 @@
   {
    "period": "2025-06-30",
    "value": 0.08699619771863118
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.08799624882775868
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.018141225065469335,
+ "dilution_1y": -0.0037895910686827072,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 675000000.0,
- "gap_24m": -1714000000.0,
+ "gap_24m": -2408000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.0031233732431026,
- "interest_coverage": 6.316279069767442,
- "cash_to_debt": 0.5535217794253939,
- "ev": 30209198039.153793,
- "ev_to_sales": 1.082223903387325,
- "ev_to_ebitda": 15.725766808513166,
- "pe_ttm": 32.13886140812931,
- "pe_trailing": 33.28261,
- "p_sales": 0.96635115,
- "p_fcf": 26.884218668397143,
- "p_book": 5.498094486616211
+ "net_debt_to_ebitda": 1.401643305944901,
+ "interest_coverage": 6.631111111111111,
+ "cash_to_debt": 0.5152933311047969,
+ "ev": 31163751506.0,
+ "ev_to_sales": 1.0447117501173315,
+ "ev_to_ebitda": 15.062228857419043,
+ "pe_ttm": 29.72003312933754,
+ "pe_trailing": 27.517986,
+ "p_sales": 0.9130888,
+ "p_fcf": 27.020794938814532,
+ "p_book": 4.867186413983124
 }

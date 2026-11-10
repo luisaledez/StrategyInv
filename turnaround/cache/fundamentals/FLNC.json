@@ -1,0 +1,154 @@
+{
+ "ticker": "FLNC",
+ "fetched": "2026-11-10",
+ "market_cap": 773083388.8531437,
+ "shares_out": 143163588.0,
+ "price": 5.400000095367432,
+ "long_name": "Fluence Energy, Inc.",
+ "sector_y": "Industrials",
+ "industry_y": "Electrical Equipment & Parts",
+ "pe_trailing_y": null,
+ "pe_forward": -10.178501,
+ "peg": 3.18,
+ "p_sales_y": 0.39940476,
+ "eps_trailing_y": -0.6,
+ "eps_forward": -0.53053,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 339328000.0,
+ "total_debt": 392164000.0,
+ "current_debt": null,
+ "lease_obligations": null,
+ "equity": 373210000.0,
+ "net_debt": 52836000.0,
+ "ocf_ttm": -100791000.0,
+ "capex_ttm": -31086000.0,
+ "fcf_ttm": -131877000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -2980000.0,
+ "stock_issuance_ttm": -2980000.0,
+ "revenue_ttm": 2631864000.0,
+ "net_income_ttm": -80868000.0,
+ "ebitda_ttm": -70286000.0,
+ "ebit_ttm": -111423000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07852681927794825,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 649848000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 464891000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 475234000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 1041891000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 602533000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.24
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.34
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.01
+  }
+ ],
+ "eps_ttm": -0.61,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -3.846153846153846,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -25.0,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.05115196168950278
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.1003030817976687
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.04850031773820897
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.13715734179487105
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.14787405835033102
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 2262830000.0,
+   "eps": -0.37,
+   "net_income": -48314000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 2698562000.0,
+   "eps": 0.13,
+   "net_income": 22716000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2217978000.0,
+   "eps": -0.6,
+   "net_income": -69620000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 1198603000.0,
+   "eps": -1.5,
+   "net_income": -104485000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.0938151654309487,
+ "fcf_burn_annual": 131877000.0,
+ "runway_months": 30.87677153711413,
+ "need_24m": 263754000.0,
+ "gap_24m": -75574000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.7517286515095467,
+ "interest_coverage": null,
+ "cash_to_debt": 0.8652706520741322,
+ "ev": 825919388.8531437,
+ "ev_to_sales": 0.313815375282744,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.39940476,
+ "p_fcf": null,
+ "p_book": 2.071443393406242
+}

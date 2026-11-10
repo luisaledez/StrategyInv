@@ -1,40 +1,44 @@
 {
  "ticker": "ADP",
- "fetched": "2026-10-24",
- "market_cap": 120523872290.79651,
- "shares_out": 396251548.0,
- "price": 304.1600036621094,
+ "fetched": "2026-11-10",
+ "market_cap": 119241033066.15186,
+ "shares_out": 394759432.0,
+ "price": 302.05999755859375,
  "long_name": "Automatic Data Processing, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 27.80256,
- "pe_forward": 22.691734,
- "peg": 2.45,
- "p_sales_y": 5.4914875,
- "eps_trailing_y": 10.94,
- "eps_forward": 13.404,
- "earnings_growth_y": 0.098,
- "earnings_growth_q_y": 0.075,
- "bs_date": "2026-06-30",
- "cash": 4230100000.0,
- "total_debt": 5270800000.0,
+ "pe_trailing_y": 26.77837,
+ "pe_forward": 22.32263,
+ "peg": 2.79,
+ "p_sales_y": 5.356042,
+ "eps_trailing_y": 11.28,
+ "eps_forward": 13.53156,
+ "earnings_growth_y": 0.137,
+ "earnings_growth_q_y": 0.111,
+ "bs_date": "2026-09-30",
+ "cash": 3277000000.0,
+ "total_debt": 5273300000.0,
  "current_debt": 5208000000.0,
- "lease_obligations": 306700000.0,
- "equity": 6031200000.0,
- "net_debt": 1040700000.0,
- "ocf_ttm": 5441200000.0,
- "capex_ttm": -665100000.0,
- "fcf_ttm": 4776100000.0,
+ "lease_obligations": 308000000.0,
+ "equity": 5092100000.0,
+ "net_debt": 1996300000.0,
+ "ocf_ttm": 5449900000.0,
+ "capex_ttm": -694100000.0,
+ "fcf_ttm": 4755800000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -2083300000.0,
- "stock_issuance_ttm": -2083300000.0,
- "revenue_ttm": 21947500000.0,
- "net_income_ttm": 4413400000.0,
- "ebitda_ttm": 6775400000.0,
- "ebit_ttm": 6189500000.0,
- "interest_ttm": 459200000.0,
- "revenue_yoy_last_q": 0.06768354529140974,
+ "buybacks_ttm": -2476100000.0,
+ "stock_issuance_ttm": -2476100000.0,
+ "revenue_ttm": 22263000000.0,
+ "net_income_ttm": 4525600000.0,
+ "ebitda_ttm": 6943800000.0,
+ "ebit_ttm": 6349600000.0,
+ "interest_ttm": 471900000.0,
+ "revenue_yoy_last_q": 0.06096382748492801,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5490700000.0
+  },
   {
    "period": "2026-06-30",
    "value": 5473800000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 5175200000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 5126800000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.83
+  },
   {
    "period": "2026-06-30",
    "value": 2.45
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.49
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.23
   }
  ],
- "eps_ttm": 10.94,
+ "eps_ttm": 11.280000000000001,
  "eps_ttm_prior": null,
- "eps_growth_yoy": 0.0967032967032968,
+ "eps_growth_yoy": 0.09619238476953895,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.09865470852017943,
- "eps_forward_growth": 0.2252285191956125,
+ "eps_growth_last_q": 0.13654618473895574,
+ "eps_forward_growth": 0.19960638297872335,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4599595679967946
+  },
   {
    "period": "2026-06-30",
    "value": 0.45878548723007784
@@ -100,17 +104,13 @@
   {
    "period": "2025-09-30",
    "value": 0.45198253207605504
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4505539517827885
   }
  ],
  "annual": [
   {
    "year": "2026",
    "revenue": 21947400000.0,
-   "eps": null,
+   "eps": 10.94,
    "net_income": 4413500000.0
   },
   {
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.01850481125092529,
+ "dilution_1y": -0.022937905655717516,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 5208000000.0,
- "gap_24m": 977900000.0,
+ "gap_24m": 1931000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 0.15359978746642264,
- "interest_coverage": 13.47887630662021,
- "cash_to_debt": 0.8025536920391592,
- "ev": 121564572290.79651,
- "ev_to_sales": 5.538880159052125,
- "ev_to_ebitda": 17.94205099194092,
- "pe_ttm": 27.30862199002957,
- "pe_trailing": 27.80256,
- "p_sales": 5.4914875,
- "p_fcf": 25.234788277212896,
- "p_book": 19.983398376906173
+ "net_debt_to_ebitda": 0.28749387943201127,
+ "interest_coverage": 13.455393091756727,
+ "cash_to_debt": 0.6214324995733223,
+ "ev": 121237333066.15186,
+ "ev_to_sales": 5.445687152052817,
+ "ev_to_ebitda": 17.459796230616067,
+ "pe_ttm": 26.348115844562457,
+ "pe_trailing": 26.77837,
+ "p_sales": 5.356042,
+ "p_fcf": 25.07276022249713,
+ "p_book": 23.416867906394582
 }

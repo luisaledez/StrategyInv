@@ -1,0 +1,154 @@
+{
+ "ticker": "SEDG",
+ "fetched": "2026-11-10",
+ "market_cap": 1712552322.2126122,
+ "shares_out": 61914401.0,
+ "price": 27.65999984741211,
+ "long_name": "SolarEdge Technologies, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Solar",
+ "pe_trailing_y": null,
+ "pe_forward": 122.85143,
+ "peg": 4.61,
+ "p_sales_y": 1.2991794,
+ "eps_trailing_y": -3.8,
+ "eps_forward": 0.22515,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 555083000.0,
+ "total_debt": 403175000.0,
+ "current_debt": 11313000.0,
+ "lease_obligations": 70451000.0,
+ "equity": 423226000.0,
+ "net_debt": -151908000.0,
+ "ocf_ttm": 108860000.0,
+ "capex_ttm": -33843000.0,
+ "fcf_ttm": 75017000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": 0.0,
+ "stock_issuance_ttm": 0.0,
+ "revenue_ttm": 1318180000.0,
+ "net_income_ttm": -228625000.0,
+ "ebitda_ttm": -202928000.0,
+ "ebit_ttm": -227058000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": -0.04145195001425728,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 326076000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 346245000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 310501000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 335358000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 340177000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.14
+  },
+  {
+   "period": "2026-06-30",
+   "value": -0.5
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.95
+  },
+  {
+   "period": "2025-12-31",
+   "value": -2.21
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.84
+  }
+ ],
+ "eps_ttm": -3.8,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": null,
+ "eps_growth_basis": "n/a (prior year loss)",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3319318195758044
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.27481118860922177
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.2199058940228856
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.2220641821575749
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.2120748904246907
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 1184444000.0,
+   "eps": -6.88,
+   "net_income": -405448000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 901456000.0,
+   "eps": -31.64,
+   "net_income": -1806357000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 2976528000.0,
+   "eps": 0.6,
+   "net_income": 34329000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 3110279000.0,
+   "eps": 1.65,
+   "net_income": 93779000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 2,
+ "dilution_1y": 0.039445246946643975,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 11313000.0,
+ "gap_24m": -543770000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.7485807774185919,
+ "interest_coverage": null,
+ "cash_to_debt": 1.3767793141935885,
+ "ev": 1560644322.2126122,
+ "ev_to_sales": 1.1839387050422645,
+ "ev_to_ebitda": null,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.2991794,
+ "p_fcf": 22.82885642204583,
+ "p_book": 4.046425130338429
+}

@@ -1,40 +1,44 @@
 {
  "ticker": "BRO",
- "fetched": "2026-10-24",
- "market_cap": 24416518158.74991,
- "shares_out": 334610357.0,
- "price": 72.97000122070312,
+ "fetched": "2026-11-10",
+ "market_cap": 23550119859.0,
+ "shares_out": 331691829.0,
+ "price": 71.0,
  "long_name": "Brown & Brown, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
- "pe_trailing_y": 23.018927,
- "pe_forward": 15.101688,
+ "pe_trailing_y": 22.468353,
+ "pe_forward": 14.936614,
  "peg": 1.86,
- "p_sales_y": 3.664493,
- "eps_trailing_y": 3.17,
- "eps_forward": 4.83191,
- "earnings_growth_y": 0.071,
- "earnings_growth_q_y": 0.247,
- "bs_date": "2026-06-30",
- "cash": 918000000.0,
- "total_debt": 8007000000.0,
+ "p_sales_y": 3.4561372,
+ "eps_trailing_y": 3.16,
+ "eps_forward": 4.75342,
+ "earnings_growth_y": -0.01,
+ "earnings_growth_q_y": 0.057,
+ "bs_date": "2026-09-30",
+ "cash": 1099000000.0,
+ "total_debt": 8038000000.0,
  "current_debt": 413000000.0,
- "lease_obligations": 248000000.0,
+ "lease_obligations": 279000000.0,
  "equity": 12583000000.0,
- "net_debt": 7089000000.0,
- "ocf_ttm": 1520000000.0,
- "capex_ttm": -74000000.0,
- "fcf_ttm": 1446000000.0,
+ "net_debt": 6939000000.0,
+ "ocf_ttm": 1584000000.0,
+ "capex_ttm": -97000000.0,
+ "fcf_ttm": 1487000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -628000000.0,
- "stock_issuance_ttm": -628000000.0,
- "revenue_ttm": 6664000000.0,
- "net_income_ttm": 1205000000.0,
- "ebitda_ttm": 2468000000.0,
- "ebit_ttm": 1966000000.0,
- "interest_ttm": 418000000.0,
- "revenue_yoy_last_q": 0.3242594075260208,
+ "buybacks_ttm": -880000000.0,
+ "stock_issuance_ttm": -880000000.0,
+ "revenue_ttm": 6814000000.0,
+ "net_income_ttm": 1218000000.0,
+ "ebitda_ttm": 2503000000.0,
+ "ebit_ttm": 1979000000.0,
+ "interest_ttm": 422000000.0,
+ "revenue_yoy_last_q": 0.09677419354838701,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1700000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1654000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1550000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1249000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.67
+  },
   {
    "period": "2026-06-30",
    "value": 0.84
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.68
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.78
   }
  ],
- "eps_ttm": 3.17,
+ "eps_ttm": 3.16,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.08670520231213863,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.07692307692307687,
- "eps_forward_growth": 0.5242618296529968,
+ "eps_growth_last_q": -0.014705882352941235,
+ "eps_forward_growth": 0.504246835443038,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4958823529411765
+  },
   {
    "period": "2026-06-30",
    "value": 0.49334945586457074
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.48838709677419356
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4875900720576461
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0005539794505859952,
+ "dilution_1y": -0.029673590504451064,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 413000000.0,
- "gap_24m": -505000000.0,
+ "gap_24m": -686000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.8723662884927066,
- "interest_coverage": 4.70334928229665,
- "cash_to_debt": 0.11464968152866242,
- "ev": 31505518158.74991,
- "ev_to_sales": 4.727718811337021,
- "ev_to_ebitda": 12.765607033529136,
- "pe_ttm": 20.26267067116175,
- "pe_trailing": 23.018927,
- "p_sales": 3.664493,
- "p_fcf": 16.88555889263479,
- "p_book": 1.9404369513430746
+ "net_debt_to_ebitda": 2.772273272073512,
+ "interest_coverage": 4.68957345971564,
+ "cash_to_debt": 0.13672555362030356,
+ "ev": 30489119859.0,
+ "ev_to_sales": 4.474481928235985,
+ "ev_to_ebitda": 12.181030706751898,
+ "pe_ttm": 19.335073775862067,
+ "pe_trailing": 22.468353,
+ "p_sales": 3.4561372,
+ "p_fcf": 15.837336825151311,
+ "p_book": 1.8715822823650958
 }

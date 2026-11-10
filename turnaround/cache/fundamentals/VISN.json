@@ -1,40 +1,44 @@
 {
  "ticker": "VISN",
- "fetched": "2026-10-25",
- "market_cap": 1406821091.2057514,
- "shares_out": 230626412.0,
- "price": 6.099999904632568,
+ "fetched": "2026-11-10",
+ "market_cap": 838768289.7415981,
+ "shares_out": 203584542.0,
+ "price": 4.119999885559082,
  "long_name": "Vistance Networks, Inc.",
  "sector_y": "Technology",
  "industry_y": "Communication Equipment",
- "pe_trailing_y": 32.105263,
- "pe_forward": 8.76613,
+ "pe_trailing_y": 82.399994,
+ "pe_forward": 5.9207306,
  "peg": 2.94,
- "p_sales_y": 0.7069808,
- "eps_trailing_y": 0.19,
+ "p_sales_y": 0.42538205,
+ "eps_trailing_y": 0.05,
  "eps_forward": 0.69586,
- "earnings_growth_y": 16.967,
- "earnings_growth_q_y": 8.283,
- "bs_date": "2026-06-30",
- "cash": 113600000.0,
- "total_debt": 8800000.0,
- "current_debt": 8800000.0,
- "lease_obligations": 8800000.0,
- "equity": 2505800000.0,
- "net_debt": -104800000.0,
- "ocf_ttm": 133300000.0,
- "capex_ttm": -46400000.0,
- "fcf_ttm": 86900000.0,
+ "earnings_growth_y": 10.041,
+ "earnings_growth_q_y": 8.507,
+ "bs_date": "2026-09-30",
+ "cash": 683100000.0,
+ "total_debt": 6300000.0,
+ "current_debt": 6300000.0,
+ "lease_obligations": 6300000.0,
+ "equity": 2233600000.0,
+ "net_debt": -676800000.0,
+ "ocf_ttm": -75600000.0,
+ "capex_ttm": -30200000.0,
+ "fcf_ttm": -105800000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1278700000.0,
+ "buybacks_ttm": -1435700000.0,
  "stock_issuance_ttm": null,
- "revenue_ttm": 222700000.0,
- "net_income_ttm": 7271100000.0,
- "ebitda_ttm": -107700000.0,
- "ebit_ttm": -294000000.0,
- "interest_ttm": 329100000.0,
- "revenue_yoy_last_q": -0.013884603517432925,
+ "revenue_ttm": -1087300000.0,
+ "net_income_ttm": 8193300000.0,
+ "ebitda_ttm": -428700000.0,
+ "ebit_ttm": -562500000.0,
+ "interest_ttm": 1700000.0,
+ "revenue_yoy_last_q": -0.05358200118413259,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 319700000.0
+  },
   {
    "period": "2026-06-30",
    "value": 319600000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 1629700000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 324100000.0
+   "value": 337800000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4.54
+  },
   {
    "period": "2026-06-30",
    "value": 1.21
@@ -71,20 +75,20 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.39
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.06
+   "value": 0.41
   }
  ],
- "eps_ttm": 30.8,
+ "eps_ttm": 34.949999999999996,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": 19.166666666666668,
- "eps_forward_growth": -0.9774071428571428,
+ "eps_growth_last_q": 10.073170731707318,
+ "eps_forward_growth": -0.9800898426323319,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.35157960588051296
+  },
   {
    "period": "2026-06-30",
    "value": 0.3532540675844806
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.4097686690801988
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4572662758407899
+   "value": 0.35642391947898167
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.03881387633518418,
- "fcf_burn_annual": 0.0,
- "runway_months": Infinity,
- "need_24m": 8800000.0,
- "gap_24m": -104800000.0,
+ "dilution_1y": 0.03845692919791688,
+ "fcf_burn_annual": 105800000.0,
+ "runway_months": 77.47826086956522,
+ "need_24m": 217900000.0,
+ "gap_24m": -465200000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.9730733519034355,
- "interest_coverage": -0.8933454876937101,
- "cash_to_debt": 12.909090909090908,
- "ev": 1302021091.2057514,
- "ev_to_sales": 5.846524881929732,
+ "net_debt_to_ebitda": 1.5787263820853743,
+ "interest_coverage": -330.88235294117646,
+ "cash_to_debt": 108.42857142857143,
+ "ev": 161968289.74159813,
+ "ev_to_sales": -0.14896375401600123,
  "ev_to_ebitda": null,
- "pe_ttm": 0.1934811914573794,
- "pe_trailing": 32.105263,
- "p_sales": 0.7069808,
- "p_fcf": 16.188965376360777,
- "p_book": 0.5614259283285783
+ "pe_ttm": 0.10237246161395264,
+ "pe_trailing": 82.399994,
+ "p_sales": 0.42538205,
+ "p_fcf": null,
+ "p_book": 0.3755230523556582
 }

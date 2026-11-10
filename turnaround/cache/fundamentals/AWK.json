@@ -1,40 +1,44 @@
 {
  "ticker": "AWK",
- "fetched": "2026-10-24",
- "market_cap": 28368563179.75,
- "shares_out": 198728989.0,
- "price": 142.75,
+ "fetched": "2026-11-10",
+ "market_cap": 29710397757.46768,
+ "shares_out": 199104661.0,
+ "price": 149.22000122070312,
  "long_name": "American Water Works Company, Inc.",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Regulated Water",
- "pe_trailing_y": 24.740034,
- "pe_forward": 21.728046,
- "peg": 2.53,
- "p_sales_y": 5.3687673,
- "eps_trailing_y": 5.77,
- "eps_forward": 6.56985,
- "earnings_growth_y": 0.086,
- "earnings_growth_q_y": 0.09,
- "bs_date": "2026-06-30",
- "cash": 191000000.0,
- "total_debt": 16058000000.0,
- "current_debt": 1945000000.0,
- "lease_obligations": 70000000.0,
- "equity": 11665000000.0,
- "net_debt": 15867000000.0,
- "ocf_ttm": 2334000000.0,
- "capex_ttm": -3557000000.0,
- "fcf_ttm": -1223000000.0,
+ "pe_trailing_y": 25.816608,
+ "pe_forward": 22.635431,
+ "peg": 2.66,
+ "p_sales_y": 5.560621,
+ "eps_trailing_y": 5.78,
+ "eps_forward": 6.59232,
+ "earnings_growth_y": 0.0,
+ "earnings_growth_q_y": 0.021,
+ "bs_date": "2026-09-30",
+ "cash": 121000000.0,
+ "total_debt": 16415000000.0,
+ "current_debt": 2347000000.0,
+ "lease_obligations": 81000000.0,
+ "equity": 11931000000.0,
+ "net_debt": 16294000000.0,
+ "ocf_ttm": 2298000000.0,
+ "capex_ttm": -3648000000.0,
+ "fcf_ttm": -1350000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 5284000000.0,
- "net_income_ttm": 1128000000.0,
- "ebitda_ttm": 3024000000.0,
- "ebit_ttm": 2090000000.0,
- "interest_ttm": 650000000.0,
- "revenue_yoy_last_q": 0.06191222570532906,
+ "revenue_ttm": 5343000000.0,
+ "net_income_ttm": 1136000000.0,
+ "ebitda_ttm": 3057000000.0,
+ "ebit_ttm": 2104000000.0,
+ "interest_ttm": 659000000.0,
+ "revenue_yoy_last_q": 0.04066161268090962,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1510000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1355000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1451000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1276000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.94
+  },
   {
    "period": "2026-06-30",
    "value": 1.61
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.94
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.48
   }
  ],
  "eps_ttm": 5.77,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.0556586270871986,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.08783783783783794,
- "eps_forward_growth": 0.13862218370883883,
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": 0.14251646447140387,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6483443708609271
+  },
   {
    "period": "2026-06-30",
    "value": 0.6450184501845019
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6395589248793935
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6238244514106583
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.018605199580248755,
- "fcf_burn_annual": 1223000000.0,
- "runway_months": 1.874080130825838,
- "need_24m": 4391000000.0,
- "gap_24m": 4200000000.0,
+ "dilution_1y": 0.020402947938553906,
+ "fcf_burn_annual": 1350000000.0,
+ "runway_months": 1.0755555555555556,
+ "need_24m": 5047000000.0,
+ "gap_24m": 4926000000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 5.247023809523809,
- "interest_coverage": 3.2153846153846155,
- "cash_to_debt": 0.011894382862124797,
- "ev": 44235563179.75,
- "ev_to_sales": 8.371605446584027,
- "ev_to_ebitda": 14.628162427166005,
- "pe_ttm": 25.14943544304078,
- "pe_trailing": 24.740034,
- "p_sales": 5.3687673,
+ "net_debt_to_ebitda": 5.33006215243703,
+ "interest_coverage": 3.1927162367223065,
+ "cash_to_debt": 0.007371306731647883,
+ "ev": 46004397757.46768,
+ "ev_to_sales": 8.610218558388112,
+ "ev_to_ebitda": 15.048870709017887,
+ "pe_ttm": 26.153519152700426,
+ "pe_trailing": 25.816608,
+ "p_sales": 5.560621,
  "p_fcf": null,
- "p_book": 2.4319385494856407
+ "p_book": 2.4901850437907704
 }

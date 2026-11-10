@@ -1,40 +1,44 @@
 {
  "ticker": "BSX",
- "fetched": "2026-10-24",
- "market_cap": 66215295052.72611,
- "shares_out": 1449229526.0,
- "price": 45.689998626708984,
+ "fetched": "2026-11-10",
+ "market_cap": 63805811895.956184,
+ "shares_out": 1449473222.0,
+ "price": 44.02000045776367,
  "long_name": "Boston Scientific Corporation",
  "sector_y": "Healthcare",
  "industry_y": "Medical Devices",
- "pe_trailing_y": 18.497974,
- "pe_forward": 13.530121,
- "peg": 0.64,
- "p_sales_y": 3.1537101,
- "eps_trailing_y": 2.47,
- "eps_forward": 3.37691,
- "earnings_growth_y": 0.151,
- "earnings_growth_q_y": 0.138,
- "bs_date": "2026-06-30",
- "cash": 539000000.0,
- "total_debt": 12624000000.0,
- "current_debt": 1709000000.0,
+ "pe_trailing_y": 18.573841,
+ "pe_forward": 14.060798,
+ "peg": 0.72,
+ "p_sales_y": 3.0282779,
+ "eps_trailing_y": 2.37,
+ "eps_forward": 3.13069,
+ "earnings_growth_y": -0.215,
+ "earnings_growth_q_y": -0.229,
+ "bs_date": "2026-09-30",
+ "cash": 609000000.0,
+ "total_debt": 11953000000.0,
+ "current_debt": 1044000000.0,
  "lease_obligations": 124000000.0,
- "equity": 24930000000.0,
- "net_debt": 12085000000.0,
- "ocf_ttm": 4529000000.0,
- "capex_ttm": -2723000000.0,
- "fcf_ttm": 1806000000.0,
+ "equity": 25630000000.0,
+ "net_debt": 11344000000.0,
+ "ocf_ttm": 4234000000.0,
+ "capex_ttm": -2778000000.0,
+ "fcf_ttm": 1456000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 20996000000.0,
- "net_income_ttm": 3675000000.0,
- "ebitda_ttm": 5637000000.0,
- "ebit_ttm": 4224000000.0,
- "interest_ttm": 363000000.0,
- "revenue_yoy_last_q": 0.07528156490812088,
+ "revenue_ttm": 21069000000.0,
+ "net_income_ttm": 3502000000.0,
+ "ebitda_ttm": 5463000000.0,
+ "ebit_ttm": 4031000000.0,
+ "interest_ttm": 376000000.0,
+ "revenue_yoy_last_q": 0.014412635735439272,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5138000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 5442000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 5065000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 5061000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4
+  },
   {
    "period": "2026-06-30",
    "value": 0.61
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.51
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.53
   }
  ],
- "eps_ttm": 2.4699999999999998,
+ "eps_ttm": 2.3600000000000003,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.552,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.15094339622641506,
- "eps_forward_growth": 0.36717004048583,
+ "eps_growth_last_q": -0.21568627450980393,
+ "eps_forward_growth": 0.32656355932203374,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6671856753600622
+  },
   {
    "period": "2026-06-30",
    "value": 0.707092980521867
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6993089832181638
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.67654613712705
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.022722660543792128,
+ "dilution_1y": -0.02214000685338635,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1709000000.0,
- "gap_24m": 1170000000.0,
+ "need_24m": 1044000000.0,
+ "gap_24m": 435000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.1438708532907573,
- "interest_coverage": 11.636363636363637,
- "cash_to_debt": 0.04269645120405577,
- "ev": 78300295052.7261,
- "ev_to_sales": 3.729295820762341,
- "ev_to_ebitda": 13.890419558759287,
- "pe_ttm": 18.017767361286015,
- "pe_trailing": 18.497974,
- "p_sales": 3.1537101,
- "p_fcf": 36.664061490988985,
- "p_book": 2.65604873857706
+ "net_debt_to_ebitda": 2.0765147354933187,
+ "interest_coverage": 10.720744680851064,
+ "cash_to_debt": 0.05094955241362001,
+ "ev": 75149811895.95618,
+ "ev_to_sales": 3.5668428447461284,
+ "ev_to_ebitda": 13.75614349184627,
+ "pe_ttm": 18.2198206441908,
+ "pe_trailing": 18.573841,
+ "p_sales": 3.0282779,
+ "p_fcf": 43.82267300546441,
+ "p_book": 2.489497147715809
 }

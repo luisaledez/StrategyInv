@@ -1,40 +1,44 @@
 {
  "ticker": "TMUS",
- "fetched": "2026-10-24",
- "market_cap": 157189290967.24524,
- "shares_out": 1072671613.0,
- "price": 146.5399932861328,
+ "fetched": "2026-11-10",
+ "market_cap": 178709882565.22534,
+ "shares_out": 1059272571.0,
+ "price": 168.7100067138672,
  "long_name": "T-Mobile US, Inc.",
  "sector_y": "Communication Services",
  "industry_y": "Telecom Services",
- "pe_trailing_y": 15.312434,
- "pe_forward": 10.159273,
- "peg": 0.53,
- "p_sales_y": 1.7050765,
- "eps_trailing_y": 9.57,
- "eps_forward": 14.42426,
- "earnings_growth_y": 0.053,
- "earnings_growth_q_y": 0.005,
- "bs_date": "2026-06-30",
- "cash": 2825000000.0,
- "total_debt": 119439000000.0,
- "current_debt": 10915000000.0,
- "lease_obligations": 34818000000.0,
- "equity": 56265000000.0,
- "net_debt": 116614000000.0,
- "ocf_ttm": 28833000000.0,
+ "pe_trailing_y": 16.269047,
+ "pe_forward": 11.834574,
+ "peg": 0.48,
+ "p_sales_y": 1.9048978,
+ "eps_trailing_y": 10.37,
+ "eps_forward": 14.25569,
+ "earnings_growth_y": 0.336,
+ "earnings_growth_q_y": 0.273,
+ "bs_date": "2026-09-30",
+ "cash": 5620000000.0,
+ "total_debt": 118040000000.0,
+ "current_debt": 11145000000.0,
+ "lease_obligations": 34374000000.0,
+ "equity": 56307000000.0,
+ "net_debt": 112420000000.0,
+ "ocf_ttm": 28717000000.0,
  "capex_ttm": null,
- "fcf_ttm": 16236000000.0,
+ "fcf_ttm": 17755000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -12071000000.0,
- "stock_issuance_ttm": -12071000000.0,
- "revenue_ttm": 92189000000.0,
- "net_income_ttm": 10560000000.0,
- "ebitda_ttm": 32262000000.0,
- "ebit_ttm": 17847000000.0,
- "interest_ttm": 4022000000.0,
- "revenue_yoy_last_q": 0.07850653038046573,
+ "buybacks_ttm": -12010000000.0,
+ "stock_issuance_ttm": -12010000000.0,
+ "revenue_ttm": 93816000000.0,
+ "net_income_ttm": 11301000000.0,
+ "ebitda_ttm": 33425000000.0,
+ "ebit_ttm": 18966000000.0,
+ "interest_ttm": 4129000000.0,
+ "revenue_yoy_last_q": 0.07409937605319494,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 23584000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 22791000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 21957000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 21132000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.22
+  },
   {
    "period": "2026-06-30",
    "value": 2.99
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.41
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.84
   }
  ],
- "eps_ttm": 9.55,
+ "eps_ttm": 10.36,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.006211180124223725,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.052816901408450745,
- "eps_forward_growth": 0.5103937172774868,
+ "eps_growth_last_q": 0.3360995850622406,
+ "eps_forward_growth": 0.3760318532818534,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6416638398914518
+  },
   {
    "period": "2026-06-30",
    "value": 0.6475363081918301
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6481304367627636
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6509558962710581
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.046683239300863155,
+ "dilution_1y": -0.04976366873018068,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 10915000000.0,
- "gap_24m": 8090000000.0,
+ "need_24m": 11145000000.0,
+ "gap_24m": 5525000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.6145930196516023,
- "interest_coverage": 4.4373446046742915,
- "cash_to_debt": 0.023652240892840695,
- "ev": 273803290967.24524,
- "ev_to_sales": 2.970021271162994,
- "ev_to_ebitda": 8.486866622256688,
- "pe_ttm": 14.885349523413375,
- "pe_trailing": 15.312434,
- "p_sales": 1.7050765,
- "p_fcf": 9.681528145309512,
- "p_book": 2.793731288851777
+ "net_debt_to_ebitda": 3.363350785340314,
+ "interest_coverage": 4.593364010656333,
+ "cash_to_debt": 0.047610979329041,
+ "ev": 291129882565.22534,
+ "ev_to_sales": 3.103200760693542,
+ "ev_to_ebitda": 8.709944130597616,
+ "pe_ttm": 15.81363441865546,
+ "pe_trailing": 16.269047,
+ "p_sales": 1.9048978,
+ "p_fcf": 10.065327094633925,
+ "p_book": 3.1738484125459596
 }

@@ -1,40 +1,44 @@
 {
  "ticker": "LOPE",
- "fetched": "2026-10-24",
- "market_cap": 4244170022.436508,
- "shares_out": 26065037.0,
- "price": 162.8300018310547,
+ "fetched": "2026-11-10",
+ "market_cap": 2925546097.345192,
+ "shares_out": 25510517.0,
+ "price": 114.68000030517578,
  "long_name": "Grand Canyon Education, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Education & Training Services",
- "pe_trailing_y": 19.713076,
- "pe_forward": 14.396994,
- "peg": 0.96,
- "p_sales_y": 3.716221,
- "eps_trailing_y": 8.26,
- "eps_forward": 11.31,
- "earnings_growth_y": 0.182,
- "earnings_growth_q_y": 0.104,
- "bs_date": "2026-06-30",
- "cash": 274526000.0,
- "total_debt": 104212000.0,
- "current_debt": 15346000.0,
- "lease_obligations": 104212000.0,
- "equity": 669509000.0,
- "net_debt": -170314000.0,
- "ocf_ttm": 278707000.0,
- "capex_ttm": -36221000.0,
- "fcf_ttm": 242486000.0,
+ "pe_trailing_y": 12.252137,
+ "pe_forward": 10.390816,
+ "peg": 0.69,
+ "p_sales_y": 2.547786,
+ "eps_trailing_y": 9.36,
+ "eps_forward": 11.03667,
+ "earnings_growth_y": 1.879,
+ "earnings_growth_q_y": 1.643,
+ "bs_date": "2026-09-30",
+ "cash": 162142000.0,
+ "total_debt": 114011000.0,
+ "current_debt": 15253000.0,
+ "lease_obligations": 114011000.0,
+ "equity": 639402000.0,
+ "net_debt": -48131000.0,
+ "ocf_ttm": 302074000.0,
+ "capex_ttm": -37425000.0,
+ "fcf_ttm": 264649000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -342708000.0,
- "stock_issuance_ttm": -342708000.0,
- "revenue_ttm": 1142066000.0,
- "net_income_ttm": 224206000.0,
- "ebitda_ttm": 358792000.0,
- "ebit_ttm": 317122000.0,
+ "buybacks_ttm": -378355000.0,
+ "stock_issuance_ttm": -378355000.0,
+ "revenue_ttm": 1148270000.0,
+ "net_income_ttm": 250945000.0,
+ "ebitda_ttm": 355541000.0,
+ "ebit_ttm": 313158000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.06685279536482969,
+ "revenue_yoy_last_q": 0.023757189575020377,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 267346000.0
+  },
   {
    "period": "2026-06-30",
    "value": 264045000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 261142000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 247499000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.67
+  },
   {
    "period": "2026-06-30",
    "value": 1.75
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.58
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.48
   }
  ],
- "eps_ttm": 8.27,
+ "eps_ttm": 9.36,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.002587322121604174,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.18243243243243246,
- "eps_forward_growth": 0.36759371221281745,
+ "eps_growth_last_q": 1.8793103448275863,
+ "eps_forward_growth": 0.17913141025641033,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5084908695099235
+  },
   {
    "period": "2026-06-30",
    "value": 0.49358253328031204
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5048173024637936
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4902726879704564
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.0708365800099171,
+ "dilution_1y": -0.08134552206827594,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 15346000.0,
- "gap_24m": -259180000.0,
+ "need_24m": 15253000.0,
+ "gap_24m": -146889000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.47468728399741356,
+ "net_debt_to_ebitda": -0.13537397937228055,
  "interest_coverage": null,
- "cash_to_debt": 2.634303151268568,
- "ev": 4073856022.436508,
- "ev_to_sales": 3.5670933399965574,
- "ev_to_ebitda": 11.354366938049088,
- "pe_ttm": 18.929778964151307,
- "pe_trailing": 19.713076,
- "p_sales": 3.716221,
- "p_fcf": 17.502742518893907,
- "p_book": 6.339227736201467
+ "cash_to_debt": 1.422161019550745,
+ "ev": 2877415097.345192,
+ "ev_to_sales": 2.505869784410628,
+ "ev_to_ebitda": 8.093061270979133,
+ "pe_ttm": 11.658116708223682,
+ "pe_trailing": 12.252137,
+ "p_sales": 2.547786,
+ "p_fcf": 11.054438510423966,
+ "p_book": 4.575440954743951
 }

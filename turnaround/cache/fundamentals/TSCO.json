@@ -1,40 +1,44 @@
 {
  "ticker": "TSCO",
- "fetched": "2026-10-24",
- "market_cap": 17413160424.487015,
- "shares_out": 521040137.0,
- "price": 33.41999816894531,
+ "fetched": "2026-11-10",
+ "market_cap": 19394656797.280655,
+ "shares_out": 518573690.0,
+ "price": 37.400001525878906,
  "long_name": "Tractor Supply Company",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Specialty Retail",
- "pe_trailing_y": 17.967741,
- "pe_forward": 16.150623,
- "peg": 2.12,
- "p_sales_y": 1.0922729,
+ "pe_trailing_y": 20.107527,
+ "pe_forward": 18.137466,
+ "peg": 2.11,
+ "p_sales_y": 1.2165658,
  "eps_trailing_y": 1.86,
- "eps_forward": 2.06927,
+ "eps_forward": 2.06203,
  "earnings_growth_y": -0.121,
  "earnings_growth_q_y": -0.133,
- "bs_date": "2026-06-30",
- "cash": 231588000.0,
- "total_debt": 6544952000.0,
- "current_debt": 473871000.0,
- "lease_obligations": 4391152000.0,
- "equity": 2631565000.0,
- "net_debt": 6313364000.0,
- "ocf_ttm": 1285820000.0,
- "capex_ttm": -978839000.0,
- "fcf_ttm": 306981000.0,
+ "bs_date": "2026-09-30",
+ "cash": 198876000.0,
+ "total_debt": 6720110000.0,
+ "current_debt": 479070000.0,
+ "lease_obligations": 4489810000.0,
+ "equity": 2660531000.0,
+ "net_debt": 6521234000.0,
+ "ocf_ttm": 1207452000.0,
+ "capex_ttm": -917194000.0,
+ "fcf_ttm": 290258000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -460668000.0,
- "stock_issuance_ttm": -434500000.0,
- "revenue_ttm": 15750724000.0,
- "net_income_ttm": 1011914000.0,
- "ebitda_ttm": 1850267000.0,
- "ebit_ttm": 1340986000.0,
- "interest_ttm": 67731000.0,
- "revenue_yoy_last_q": 0.02288090106400631,
+ "buybacks_ttm": -475116000.0,
+ "stock_issuance_ttm": -452782000.0,
+ "revenue_ttm": 15942135000.0,
+ "net_income_ttm": 977317000.0,
+ "ebitda_ttm": 1824146000.0,
+ "ebit_ttm": 1306006000.0,
+ "interest_ttm": 72451000.0,
+ "revenue_yoy_last_q": 0.05146779656277256,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3910455000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4541314000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 3719044000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4439729000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.43
+  },
   {
    "period": "2026-06-30",
    "value": 0.69
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.49
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.81
   }
  ],
- "eps_ttm": 1.92,
+ "eps_ttm": 1.8599999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.009803921568627416,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.14814814814814825,
- "eps_forward_growth": 0.0777447916666667,
+ "eps_growth_last_q": -0.12244897959183676,
+ "eps_forward_growth": 0.10861827956989267,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.36439365751555763
+  },
   {
    "period": "2026-06-30",
    "value": 0.3705114863231215
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3735454595320733
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3693860593743447
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.01536821449461312,
+ "dilution_1y": -0.018389844284574797,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 473871000.0,
- "gap_24m": 242283000.0,
+ "need_24m": 479070000.0,
+ "gap_24m": 280194000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 3.4121367348604283,
- "interest_coverage": 19.79870369550132,
- "cash_to_debt": 0.035384216721528285,
- "ev": 23726524424.487015,
- "ev_to_sales": 1.5063767496965228,
- "ev_to_ebitda": 12.823297623795385,
- "pe_ttm": 17.20814261339107,
- "pe_trailing": 17.967741,
- "p_sales": 1.0922729,
- "p_fcf": 56.72390286202408,
- "p_book": 6.617036031596033
+ "net_debt_to_ebitda": 3.5749517856575075,
+ "interest_coverage": 18.02605899159432,
+ "cash_to_debt": 0.029594158428954288,
+ "ev": 25915890797.280655,
+ "ev_to_sales": 1.6256223396226825,
+ "ev_to_ebitda": 14.207136269399848,
+ "pe_ttm": 19.84479631202635,
+ "pe_trailing": 20.107527,
+ "p_sales": 1.2165658,
+ "p_fcf": 66.81868130174071,
+ "p_book": 7.289769146565349
 }

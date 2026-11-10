@@ -1,40 +1,44 @@
 {
  "ticker": "NVR",
- "fetched": "2026-10-24",
- "market_cap": 15945669953.232422,
- "shares_out": 2664860.0,
- "price": 5983.68017578125,
+ "fetched": "2026-11-10",
+ "market_cap": 16770009433.386719,
+ "shares_out": 2645788.0,
+ "price": 6338.3798828125,
  "long_name": "NVR, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Residential Construction",
- "pe_trailing_y": 16.540468,
- "pe_forward": 16.123098,
+ "pe_trailing_y": 17.520952,
+ "pe_forward": 18.299526,
  "peg": 4.97,
- "p_sales_y": 1.7022959,
+ "p_sales_y": 1.781413,
  "eps_trailing_y": 361.76,
- "eps_forward": 371.12473,
+ "eps_forward": 346.36853,
  "earnings_growth_y": -0.204,
  "earnings_growth_q_y": -0.275,
- "bs_date": "2026-06-30",
- "cash": 1144674000.0,
- "total_debt": 1050702000.0,
+ "bs_date": "2026-09-30",
+ "cash": 1125386000.0,
+ "total_debt": 1067683000.0,
  "current_debt": null,
- "lease_obligations": 142540000.0,
- "equity": 3391196000.0,
- "net_debt": -93972000.0,
- "ocf_ttm": 1066590000.0,
- "capex_ttm": -20169000.0,
- "fcf_ttm": 1046421000.0,
+ "lease_obligations": 160024000.0,
+ "equity": 3434993000.0,
+ "net_debt": -57703000.0,
+ "ocf_ttm": 851824000.0,
+ "capex_ttm": -33579000.0,
+ "fcf_ttm": 818245000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1784065000.0,
- "stock_issuance_ttm": -1784065000.0,
- "revenue_ttm": 9546731000.0,
- "net_income_ttm": 1141320000.0,
- "ebitda_ttm": 1537919000.0,
- "ebit_ttm": 1511707000.0,
- "interest_ttm": 28577000.0,
- "revenue_yoy_last_q": -0.10485432567115593,
+ "buybacks_ttm": -1744878000.0,
+ "stock_issuance_ttm": -1744878000.0,
+ "revenue_ttm": 9339068000.0,
+ "net_income_ttm": 1047237000.0,
+ "ebitda_ttm": 1428872000.0,
+ "ebit_ttm": 1402100000.0,
+ "interest_ttm": 28355000.0,
+ "revenue_yoy_last_q": -0.0794308874053028,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2406723000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2330339000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2614386000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2603307000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 89.45
+  },
   {
    "period": "2026-06-30",
    "value": 83.96
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 112.33
-  },
-  {
-   "period": "2025-06-30",
-   "value": 108.54
   }
  ],
- "eps_ttm": 385.59,
+ "eps_ttm": 362.71000000000004,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.13842783556020444,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.22646029113690813,
- "eps_forward_growth": -0.037514639902487046,
+ "eps_growth_last_q": -0.20368556930472714,
+ "eps_forward_growth": -0.04505381709905987,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.20220648574846378
+  },
   {
    "period": "2026-06-30",
    "value": 0.20989306706020025
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.22681731006821487
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.2317529204200657
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.07112268769411922,
+ "dilution_1y": -0.07571850666521263,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -1144674000.0,
+ "gap_24m": -1125386000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.06110334809570595,
- "interest_coverage": 52.89942961122581,
- "cash_to_debt": 1.089437347601889,
- "ev": 15851697953.232422,
- "ev_to_sales": 1.660432031994242,
- "ev_to_ebitda": 10.307238517264187,
- "pe_ttm": 13.971252543749712,
- "pe_trailing": 16.540468,
- "p_sales": 1.7022959,
- "p_fcf": 15.23829314705307,
- "p_book": 4.702078544924098
+ "net_debt_to_ebitda": -0.040383603289867814,
+ "interest_coverage": 49.448069123611354,
+ "cash_to_debt": 1.0540450676839475,
+ "ev": 16712306433.386719,
+ "ev_to_sales": 1.789504737880345,
+ "ev_to_ebitda": 11.696153632646395,
+ "pe_ttm": 16.013576137385062,
+ "pe_trailing": 17.520952,
+ "p_sales": 1.781413,
+ "p_fcf": 20.495095519540868,
+ "p_book": 4.88210876510861
 }

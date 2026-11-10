@@ -1,40 +1,44 @@
 {
  "ticker": "BL",
- "fetched": "2026-10-25",
- "market_cap": 2022759351.6539383,
- "shares_out": 58125270.0,
- "price": 34.79999923706055,
+ "fetched": "2026-11-10",
+ "market_cap": 1540226831.9664345,
+ "shares_out": 57108894.0,
+ "price": 26.969999313354492,
  "long_name": "BlackLine, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 61.05263,
- "pe_forward": 12.5955515,
+ "pe_trailing_y": 41.49231,
+ "pe_forward": 9.855944,
  "peg": 4.53,
- "p_sales_y": 2.7616425,
- "eps_trailing_y": 0.57,
- "eps_forward": 2.76288,
- "earnings_growth_y": 1.016,
- "earnings_growth_q_y": 0.988,
- "bs_date": "2026-06-30",
- "cash": 527760000.0,
- "total_debt": 690740000.0,
- "current_debt": 4367000.0,
- "lease_obligations": 23421000.0,
- "equity": 316174000.0,
- "net_debt": 162980000.0,
- "ocf_ttm": 181767000.0,
- "capex_ttm": -32647000.0,
- "fcf_ttm": 149120000.0,
+ "p_sales_y": 2.0603554,
+ "eps_trailing_y": 0.65,
+ "eps_forward": 2.73642,
+ "earnings_growth_y": 1.077,
+ "earnings_growth_q_y": 1.01,
+ "bs_date": "2026-09-30",
+ "cash": 531887000.0,
+ "total_debt": 689502000.0,
+ "current_debt": 3806000.0,
+ "lease_obligations": 21533000.0,
+ "equity": 310830000.0,
+ "net_debt": 157615000.0,
+ "ocf_ttm": 185045000.0,
+ "capex_ttm": -35419000.0,
+ "fcf_ttm": 149626000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -248214000.0,
- "stock_issuance_ttm": -248214000.0,
- "revenue_ttm": 732448000.0,
- "net_income_ttm": 34778000.0,
- "ebitda_ttm": 105352000.0,
- "ebit_ttm": 57231000.0,
- "interest_ttm": 9948000.0,
- "revenue_yoy_last_q": 0.09182967591919788,
+ "buybacks_ttm": -174140000.0,
+ "stock_issuance_ttm": -174140000.0,
+ "revenue_ttm": 747554000.0,
+ "net_income_ttm": 40115000.0,
+ "ebitda_ttm": 111470000.0,
+ "ebit_ttm": 62305000.0,
+ "interest_ttm": 9780000.0,
+ "revenue_yoy_last_q": 0.08472712995681198,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 193396000.0
+  },
   {
    "period": "2026-06-30",
    "value": 187822000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 178290000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 172025000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.18
+  },
   {
    "period": "2026-06-30",
    "value": 0.27
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.09
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.13
   }
  ],
- "eps_ttm": 0.5700000000000001,
+ "eps_ttm": 0.66,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.7310344827586206,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 1.076923076923077,
- "eps_forward_growth": 3.847157894736841,
+ "eps_growth_last_q": 1.0,
+ "eps_forward_growth": 3.1460909090909084,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7574458623756437
+  },
   {
    "period": "2026-06-30",
    "value": 0.7596447700482372
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7510292220539571
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7522336869641041
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.05662547256008388,
+ "dilution_1y": -0.04224062247020344,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 4367000.0,
- "gap_24m": -523393000.0,
+ "need_24m": 3806000.0,
+ "gap_24m": -528081000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.5470043283468753,
- "interest_coverage": 5.753015681544029,
- "cash_to_debt": 0.7640501491154414,
- "ev": 2185739351.6539383,
- "ev_to_sales": 2.984156351923875,
- "ev_to_ebitda": 20.74701336143536,
- "pe_ttm": 58.16203783006321,
- "pe_trailing": 61.05263,
- "p_sales": 2.7616425,
- "p_fcf": 13.564641574932526,
- "p_book": 6.397614451706776
+ "net_debt_to_ebitda": 1.4139678837355343,
+ "interest_coverage": 6.370654396728017,
+ "cash_to_debt": 0.7714074796012195,
+ "ev": 1697841831.9664345,
+ "ev_to_sales": 2.271196237283774,
+ "ev_to_ebitda": 15.231379133098004,
+ "pe_ttm": 38.395284356635536,
+ "pe_trailing": 41.49231,
+ "p_sales": 2.0603554,
+ "p_fcf": 10.293844866309561,
+ "p_book": 4.955206485752451
 }

@@ -31,8 +31,8 @@ OUT = HERE / f"output{bt_data.uni_mod.TAG}"  # output_nasdaq/ under SCAN_UNIVERS
 OUT.mkdir(exist_ok=True)
 EDGAR_DIR = ROOT / "turnaround" / "cache" / "edgar"
 
-# last completed monthly candle used by the study and the live lists (prices run to early October 2026)
-LAST_MONTH = pd.Timestamp("2026-09-30")
+# last completed monthly candle used by the study and the live lists (prices run to early November 2026)
+LAST_MONTH = pd.Timestamp("2026-10-31")
 
 
 def universe() -> pd.DataFrame:

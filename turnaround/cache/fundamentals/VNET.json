@@ -1,0 +1,154 @@
+{
+ "ticker": "VNET",
+ "fetched": "2026-11-10",
+ "market_cap": 935565143.6794105,
+ "shares_out": 285233278.0,
+ "price": 3.2799999713897705,
+ "long_name": "VNET Group, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Information Technology Services",
+ "pe_trailing_y": null,
+ "pe_forward": 44.482384,
+ "peg": 0.45,
+ "p_sales_y": 0.08698802,
+ "eps_trailing_y": -1.22,
+ "eps_forward": 0.073624656,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-06-30",
+ "cash": 6720690000.0,
+ "total_debt": 30628194000.0,
+ "current_debt": 5486136000.0,
+ "lease_obligations": 7208948000.0,
+ "equity": 4075481000.0,
+ "net_debt": 23907504000.0,
+ "ocf_ttm": 1943706000.0,
+ "capex_ttm": -9305789000.0,
+ "fcf_ttm": -7362083000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 951393000.0,
+ "revenue_ttm": 10738710000.0,
+ "net_income_ttm": -2381378000.0,
+ "ebitda_ttm": 1318761000.0,
+ "ebit_ttm": 1318761000.0,
+ "interest_ttm": 766006000.0,
+ "revenue_yoy_last_q": 0.14153820241105408,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 2778738000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 2691136000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2687089000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2581747000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 2434205000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": -0.54
+  },
+  {
+   "period": "2026-03-31",
+   "value": -8.16
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": -1.14
+  },
+  {
+   "period": "2025-06-30",
+   "value": -0.06
+  }
+ ],
+ "eps_ttm": -9.84,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -9.0,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.1818019547002992
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.22885019560512734
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.20110387114085168
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.20878459430765292
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.22501597030652717
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 9949261000.0,
+   "eps": -0.96,
+   "net_income": -256771000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 8259069000.0,
+   "eps": 0.12,
+   "net_income": 183200000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 7412930000.0,
+   "eps": -17.58,
+   "net_income": -2643836000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 7065232000.0,
+   "eps": -5.22,
+   "net_income": -775952000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 1,
+ "dilution_1y": 0.060628902043267985,
+ "fcf_burn_annual": 7362083000.0,
+ "runway_months": 10.954546423885741,
+ "need_24m": 20210302000.0,
+ "gap_24m": 13489612000.0,
+ "survival_gate": "FAIL",
+ "net_debt_to_ebitda": 18.128761769570072,
+ "interest_coverage": 1.7216066192693007,
+ "cash_to_debt": 0.21942821702121906,
+ "ev": 24843069143.67941,
+ "ev_to_sales": 2.3134127975966767,
+ "ev_to_ebitda": 18.83818913637832,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.08698802,
+ "p_fcf": null,
+ "p_book": 0.22955944186205518
+}

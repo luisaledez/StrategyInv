@@ -1,40 +1,44 @@
 {
  "ticker": "RYAN",
- "fetched": "2026-10-24",
- "market_cap": 5332354060.615158,
- "shares_out": 122077702.0,
- "price": 43.68000030517578,
+ "fetched": "2026-11-10",
+ "market_cap": 5638789830.70549,
+ "shares_out": 119694115.0,
+ "price": 47.11000061035156,
  "long_name": "Ryan Specialty Holdings, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance Brokers",
- "pe_trailing_y": 61.52113,
- "pe_forward": 17.925148,
+ "pe_trailing_y": 58.8875,
+ "pe_forward": 19.384598,
  "peg": null,
- "p_sales_y": 3.5387363,
- "eps_trailing_y": 0.71,
- "eps_forward": 2.4368,
- "earnings_growth_y": -0.143,
- "earnings_growth_q_y": -0.186,
- "bs_date": "2026-06-30",
- "cash": 140119000.0,
- "total_debt": 3807566000.0,
- "current_debt": 90372000.0,
- "lease_obligations": 174411000.0,
- "equity": 509414000.0,
- "net_debt": 3667447000.0,
- "ocf_ttm": 558525000.0,
- "capex_ttm": -61839000.0,
- "fcf_ttm": 496686000.0,
+ "p_sales_y": 3.7324321,
+ "eps_trailing_y": 0.8,
+ "eps_forward": 2.43028,
+ "earnings_growth_y": 0.431,
+ "earnings_growth_q_y": 0.18,
+ "bs_date": "2026-09-30",
+ "cash": 168811000.0,
+ "total_debt": 3855432000.0,
+ "current_debt": 71356000.0,
+ "lease_obligations": 178943000.0,
+ "equity": 446715000.0,
+ "net_debt": 3686621000.0,
+ "ocf_ttm": 570179000.0,
+ "capex_ttm": -69508000.0,
+ "fcf_ttm": 500671000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -303748000.0,
- "stock_issuance_ttm": -300182000.0,
- "revenue_ttm": 3217666000.0,
- "net_income_ttm": 99026000.0,
+ "buybacks_ttm": -453737000.0,
+ "stock_issuance_ttm": -450253000.0,
+ "revenue_ttm": 3253052000.0,
+ "net_income_ttm": 104622000.0,
  "ebitda_ttm": null,
- "ebit_ttm": 502172000.0,
- "interest_ttm": 219924000.0,
- "revenue_yoy_last_q": 0.0718886303308115,
+ "ebit_ttm": 539474000.0,
+ "interest_ttm": 220844000.0,
+ "revenue_yoy_last_q": 0.04689514787755256,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 789963000.0
+  },
   {
    "period": "2026-06-30",
    "value": 916647000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 754577000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 855170000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.29
+  },
   {
    "period": "2026-06-30",
    "value": 0.33
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.2
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.38
   }
  ],
- "eps_ttm": 0.72,
+ "eps_ttm": 0.81,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.3380281690140845,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.13157894736842102,
- "eps_forward_growth": 2.3844444444444446,
+ "eps_growth_last_q": 0.44999999999999973,
+ "eps_forward_growth": 2.0003456790123457,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.04466607984357884,
+ "dilution_1y": -0.06478786644329493,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 90372000.0,
- "gap_24m": -49747000.0,
+ "need_24m": 71356000.0,
+ "gap_24m": -97455000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
- "interest_coverage": 2.283388807042433,
- "cash_to_debt": 0.036800150017097535,
- "ev": 8999801060.615158,
- "ev_to_sales": 2.7969966617464825,
+ "interest_coverage": 2.4427831410407346,
+ "cash_to_debt": 0.0437852359994937,
+ "ev": 9325410830.70549,
+ "ev_to_sales": 2.866665159581061,
  "ev_to_ebitda": null,
- "pe_ttm": 53.8480203241084,
- "pe_trailing": 61.52113,
- "p_sales": 3.5387363,
- "p_fcf": 10.735865437349066,
- "p_book": 10.467623702165936
+ "pe_ttm": 53.896788731867964,
+ "pe_trailing": 58.8875,
+ "p_sales": 3.7324321,
+ "p_fcf": 11.262465432800163,
+ "p_book": 12.622790438434999
 }

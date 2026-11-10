@@ -1,0 +1,154 @@
+{
+ "ticker": "SUPN",
+ "fetched": "2026-11-10",
+ "market_cap": 1610799895.673935,
+ "shares_out": 58235716.0,
+ "price": 27.65999984741211,
+ "long_name": "Supernus, Inc.",
+ "sector_y": "Healthcare",
+ "industry_y": "Drug Manufacturers - Specialty & Generic",
+ "pe_trailing_y": null,
+ "pe_forward": 6.908661,
+ "peg": null,
+ "p_sales_y": 1.1723434,
+ "eps_trailing_y": -0.76,
+ "eps_forward": 4.00367,
+ "earnings_growth_y": 2.394,
+ "earnings_growth_q_y": 2.262,
+ "bs_date": "2026-09-30",
+ "cash": 359459000.0,
+ "total_debt": 36197000.0,
+ "current_debt": 7620000.0,
+ "lease_obligations": 36197000.0,
+ "equity": 1062478000.0,
+ "net_debt": -323262000.0,
+ "ocf_ttm": 88181000.0,
+ "capex_ttm": -1241000.0,
+ "fcf_ttm": 86956000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": 28685000.0,
+ "revenue_ttm": 865106000.0,
+ "net_income_ttm": -43856000.0,
+ "ebitda_ttm": 64331000.0,
+ "ebit_ttm": -36191000.0,
+ "interest_ttm": 3033000.0,
+ "revenue_yoy_last_q": 0.18046568767796445,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 226771000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 219058000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 207705000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 211572000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 192103000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.35
+  },
+  {
+   "period": "2026-06-30",
+   "value": -1.01
+  },
+  {
+   "period": "2026-03-31",
+   "value": -0.04
+  },
+  {
+   "period": "2025-12-31",
+   "value": -0.07
+  },
+  {
+   "period": "2025-09-30",
+   "value": -0.8
+  }
+ ],
+ "eps_ttm": -0.77,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": -1.5151515151515151,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": null,
+ "eps_forward_growth": null,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.8808577816387457
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.8463009796492253
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.88738354878313
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.8912568770914866
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.9012769191527462
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 718952000.0,
+   "eps": -0.68,
+   "net_income": -38550000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 661817000.0,
+   "eps": 1.32,
+   "net_income": 73865000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 607521000.0,
+   "eps": 0.02,
+   "net_income": 1316000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 667238000.0,
+   "eps": 1.04,
+   "net_income": 60711000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.019870357671445182,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 7620000.0,
+ "gap_24m": -351839000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -5.0249801806283125,
+ "interest_coverage": -11.932410154962083,
+ "cash_to_debt": 9.93062961018869,
+ "ev": 1287537895.673935,
+ "ev_to_sales": 1.4883007350243034,
+ "ev_to_ebitda": 20.01426832590718,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 1.1723434,
+ "p_fcf": 18.524309946109927,
+ "p_book": 1.5160783523742938
+}

@@ -1,40 +1,44 @@
 {
  "ticker": "HLNE",
- "fetched": "2026-10-24",
- "market_cap": 4540120525.335548,
- "shares_out": 55185617.0,
- "price": 82.2699966430664,
+ "fetched": "2026-11-10",
+ "market_cap": 5352451110.212502,
+ "shares_out": 55830301.0,
+ "price": 95.87000274658203,
  "long_name": "Hamilton Lane Incorporated",
  "sector_y": "Financial Services",
  "industry_y": "Asset Management",
- "pe_trailing_y": 12.541158,
- "pe_forward": 11.1122055,
+ "pe_trailing_y": 14.224036,
+ "pe_forward": 12.68919,
  "peg": null,
- "p_sales_y": 6.4237227,
- "eps_trailing_y": 6.56,
- "eps_forward": 7.40357,
- "earnings_growth_y": 0.505,
- "earnings_growth_q_y": 0.497,
- "bs_date": "2026-06-30",
- "cash": 341724000.0,
- "total_debt": 364790000.0,
+ "p_sales_y": 7.431927,
+ "eps_trailing_y": 6.74,
+ "eps_forward": 7.55525,
+ "earnings_growth_y": 0.106,
+ "earnings_growth_q_y": 0.093,
+ "bs_date": "2026-09-30",
+ "cash": 339697000.0,
+ "total_debt": 361028000.0,
  "current_debt": null,
- "lease_obligations": 90591000.0,
- "equity": 939285000.0,
- "net_debt": 23066000.0,
- "ocf_ttm": 373135000.0,
- "capex_ttm": -6301000.0,
- "fcf_ttm": 366834000.0,
+ "lease_obligations": 92300000.0,
+ "equity": 1002646000.0,
+ "net_debt": 21331000.0,
+ "ocf_ttm": 282312000.0,
+ "capex_ttm": -10489000.0,
+ "fcf_ttm": 271823000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -75216000.0,
- "stock_issuance_ttm": -19732000.0,
- "revenue_ttm": 858366000.0,
- "net_income_ttm": 275895000.0,
- "ebitda_ttm": 541913000.0,
- "ebit_ttm": 532035000.0,
- "interest_ttm": 14593000.0,
- "revenue_yoy_last_q": 0.5647540890439764,
+ "buybacks_ttm": -74919000.0,
+ "stock_issuance_ttm": -74919000.0,
+ "revenue_ttm": 871916000.0,
+ "net_income_ttm": 282492000.0,
+ "ebitda_ttm": 602469000.0,
+ "ebit_ttm": 592693000.0,
+ "interest_ttm": 14230000.0,
+ "revenue_yoy_last_q": 0.07098700754400666,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 204430000.0
+  },
   {
    "period": "2026-06-30",
    "value": 275331000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 190880000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 175958000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.87
+  },
   {
    "period": "2026-06-30",
    "value": 1.93
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": 1.28
-  },
-  {
-   "period": "2025-03-31",
-   "value": 1.23
   }
  ],
- "eps_ttm": 6.2700000000000005,
+ "eps_ttm": 6.859999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.09426987060998138,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.5691056910569106,
- "eps_forward_growth": 0.18079266347687395,
+ "eps_growth_last_q": 0.4609375,
+ "eps_forward_growth": 0.10134839650145788,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7245560827667172
+  },
   {
    "period": "2026-06-30",
    "value": 0.6973569993934573
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7080155071248952
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.695864922311006
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.26859939951178435,
+ "dilution_1y": 0.2699867388372439,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 0.0,
- "gap_24m": -341724000.0,
+ "gap_24m": -339697000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.0425640278052012,
- "interest_coverage": 36.458233399575136,
- "cash_to_debt": 0.9367691000301543,
- "ev": 4563186525.335548,
- "ev_to_sales": 5.316131493250604,
- "ev_to_ebitda": 8.420514963353064,
- "pe_ttm": 16.455972472627444,
- "pe_trailing": 12.541158,
- "p_sales": 6.4237227,
- "p_fcf": 12.376498703325069,
- "p_book": 4.833592067727632
+ "net_debt_to_ebitda": 0.03540597109560824,
+ "interest_coverage": 41.65094869992973,
+ "cash_to_debt": 0.9409159400378918,
+ "ev": 5373782110.212502,
+ "ev_to_sales": 6.163187864671025,
+ "ev_to_ebitda": 8.919599365631264,
+ "pe_ttm": 18.94726615342205,
+ "pe_trailing": 14.224036,
+ "p_sales": 7.431927,
+ "p_fcf": 19.6909426730354,
+ "p_book": 5.338325899881415
 }

@@ -1,16 +1,16 @@
 {
  "ticker": "GTLB",
- "fetched": "2026-10-25",
- "market_cap": 9377091996.612549,
+ "fetched": "2026-11-10",
+ "market_cap": 7850898622.03598,
  "shares_out": 166615000.0,
- "price": 56.279998779296875,
+ "price": 47.119998931884766,
  "long_name": "GitLab Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
  "pe_trailing_y": null,
- "pe_forward": 54.201378,
+ "pe_forward": 45.37969,
  "peg": null,
- "p_sales_y": 8.886833,
+ "p_sales_y": 7.4404325,
  "eps_trailing_y": -0.32,
  "eps_forward": 1.03835,
  "earnings_growth_y": null,
@@ -116,19 +116,19 @@
   {
    "year": "2025",
    "revenue": 759249000.0,
-   "eps": -0.04,
+   "eps": -0.02,
    "net_income": -6326000.0
   },
   {
    "year": "2024",
    "revenue": 579906000.0,
-   "eps": -2.76,
+   "eps": -2.75,
    "net_income": -425677000.0
   },
   {
    "year": "2023",
    "revenue": 424336000.0,
-   "eps": -1.17,
+   "eps": -1.16,
    "net_income": -173407000.0
   }
  ],
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 16.208604702149884,
  "interest_coverage": null,
  "cash_to_debt": 6721.850267379679,
- "ev": 8120292996.612549,
- "ev_to_sales": 7.695741997818875,
+ "ev": 6594099622.03598,
+ "ev_to_sales": 6.249342162933432,
  "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 8.886833,
- "p_fcf": 43.88524519528695,
- "p_book": 10.131602571732003
+ "p_sales": 7.4404325,
+ "p_fcf": 36.74258620432146,
+ "p_book": 8.482606835697185
 }

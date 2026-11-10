@@ -1,40 +1,44 @@
 {
  "ticker": "CRUS",
- "fetched": "2026-10-24",
- "market_cap": 5629204436.225334,
- "shares_out": 50117561.0,
- "price": 112.31999969482422,
+ "fetched": "2026-11-10",
+ "market_cap": 5939069044.153381,
+ "shares_out": 49862052.0,
+ "price": 119.11000061035156,
  "long_name": "Cirrus Logic, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
- "pe_trailing_y": 13.714287,
- "pe_forward": 12.896114,
+ "pe_trailing_y": 15.020177,
+ "pe_forward": 14.667274,
  "peg": 9.35,
- "p_sales_y": 2.746181,
- "eps_trailing_y": 8.19,
- "eps_forward": 8.7096,
- "earnings_growth_y": 0.289,
- "earnings_growth_q_y": 0.266,
- "bs_date": "2026-06-30",
- "cash": 891262000.0,
- "total_debt": 130464000.0,
- "current_debt": 20761000.0,
- "lease_obligations": 130464000.0,
- "equity": 2189131000.0,
- "net_debt": -760798000.0,
- "ocf_ttm": 598595000.0,
- "capex_ttm": -27570000.0,
- "fcf_ttm": 571025000.0,
+ "p_sales_y": 2.899466,
+ "eps_trailing_y": 7.93,
+ "eps_forward": 8.1208,
+ "earnings_growth_y": -0.101,
+ "earnings_growth_q_y": -0.128,
+ "bs_date": "2026-09-30",
+ "cash": 752047000.0,
+ "total_debt": 127734000.0,
+ "current_debt": 21863000.0,
+ "lease_obligations": 127734000.0,
+ "equity": 2192168000.0,
+ "net_debt": -624313000.0,
+ "ocf_ttm": 557287000.0,
+ "capex_ttm": -31703000.0,
+ "fcf_ttm": 525584000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -251260000.0,
- "stock_issuance_ttm": -246446000.0,
- "revenue_ttm": 2049830000.0,
- "net_income_ttm": 430562000.0,
- "ebitda_ttm": 563547000.0,
- "ebit_ttm": 511264000.0,
- "interest_ttm": 1003000.0,
- "revenue_yoy_last_q": 0.12878616747529903,
+ "buybacks_ttm": -339713000.0,
+ "stock_issuance_ttm": -335800000.0,
+ "revenue_ttm": 2048332000.0,
+ "net_income_ttm": 413705000.0,
+ "ebitda_ttm": 553034000.0,
+ "ebit_ttm": 499864000.0,
+ "interest_ttm": 1017000.0,
+ "revenue_yoy_last_q": -0.0026704221334854505,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 559462000.0
+  },
   {
    "period": "2026-06-30",
    "value": 459723000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 560960000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 407272000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.23
+  },
   {
    "period": "2026-06-30",
    "value": 1.47
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.48
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.14
   }
  ],
- "eps_ttm": 8.17,
+ "eps_ttm": 7.92,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.30833333333333335,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.2894736842105263,
- "eps_forward_growth": 0.06604651162790698,
+ "eps_growth_last_q": -0.10080645161290325,
+ "eps_forward_growth": 0.02535353535353524,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5372178986240352
+  },
   {
    "period": "2026-06-30",
    "value": 0.5260885359227186
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5247682544209926
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.525521027716121
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.01693494952644503,
+ "dilution_1y": -0.02989141087459324,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 20761000.0,
- "gap_24m": -870501000.0,
+ "need_24m": 21863000.0,
+ "gap_24m": -730184000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.3500169462351854,
- "interest_coverage": 509.73479561316054,
- "cash_to_debt": 6.831478415501595,
- "ev": 4868406436.225334,
- "ev_to_sales": 2.375029361569171,
- "ev_to_ebitda": 8.638864968184258,
- "pe_ttm": 13.074085581694005,
- "pe_trailing": 13.714287,
- "p_sales": 2.746181,
- "p_fcf": 9.858070025349738,
- "p_book": 2.571433338719946
+ "net_debt_to_ebitda": -1.128887193192462,
+ "interest_coverage": 491.50835791543756,
+ "cash_to_debt": 5.887602361156779,
+ "ev": 5314756044.153381,
+ "ev_to_sales": 2.594675103524908,
+ "ev_to_ebitda": 9.610179562474244,
+ "pe_ttm": 14.355806780564366,
+ "pe_trailing": 15.020177,
+ "p_sales": 2.899466,
+ "p_fcf": 11.299942624115996,
+ "p_book": 2.7092216673874363
 }

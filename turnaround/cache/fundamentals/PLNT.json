@@ -1,40 +1,44 @@
 {
  "ticker": "PLNT",
- "fetched": "2026-10-24",
- "market_cap": 3966998078.936306,
- "shares_out": 75533093.0,
- "price": 52.52000045776367,
+ "fetched": "2026-11-10",
+ "market_cap": 4537569648.110123,
+ "shares_out": 74252489.0,
+ "price": 61.11000061035156,
  "long_name": "Planet Fitness, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Leisure",
- "pe_trailing_y": 17.863945,
- "pe_forward": 14.374903,
+ "pe_trailing_y": 20.785713,
+ "pe_forward": 16.531588,
  "peg": 0.92,
- "p_sales_y": 3.06041,
+ "p_sales_y": 3.4498305,
  "eps_trailing_y": 2.94,
- "eps_forward": 3.65359,
- "earnings_growth_y": 0.261,
- "earnings_growth_q_y": 0.156,
- "bs_date": "2026-06-30",
- "cash": 400758000.0,
- "total_debt": 2964600000.0,
+ "eps_forward": 3.69656,
+ "earnings_growth_y": -0.005,
+ "earnings_growth_q_y": -0.116,
+ "bs_date": "2026-09-30",
+ "cash": 400475000.0,
+ "total_debt": 3053577000.0,
  "current_debt": 100750000.0,
- "lease_obligations": 415568000.0,
- "equity": -612737000.0,
- "net_debt": 2563842000.0,
- "ocf_ttm": 433976000.0,
- "capex_ttm": -172294000.0,
- "fcf_ttm": 261682000.0,
+ "lease_obligations": 509583000.0,
+ "equity": -608895000.0,
+ "net_debt": 2653102000.0,
+ "ocf_ttm": 412949000.0,
+ "capex_ttm": -199036000.0,
+ "fcf_ttm": 213913000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -699542000.0,
- "stock_issuance_ttm": -698011000.0,
- "revenue_ttm": 1409062000.0,
- "net_income_ttm": 237854000.0,
- "ebitda_ttm": 615836000.0,
- "ebit_ttm": 456367000.0,
- "interest_ttm": 122234000.0,
- "revenue_yoy_last_q": 0.07141537026334865,
+ "buybacks_ttm": -652778000.0,
+ "stock_issuance_ttm": -651400000.0,
+ "revenue_ttm": 1438694000.0,
+ "net_income_ttm": 231026000.0,
+ "ebitda_ttm": 611197000.0,
+ "ebit_ttm": 449265000.0,
+ "interest_ttm": 130032000.0,
+ "revenue_yoy_last_q": 0.08970016195189867,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 359977000.0
+  },
   {
    "period": "2026-06-30",
    "value": 365223000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 330345000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 340879000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7
+  },
   {
    "period": "2026-06-30",
    "value": 0.87
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.7
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.69
   }
  ],
- "eps_ttm": 2.95,
+ "eps_ttm": 2.9499999999999997,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.31000000000000005,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.26086956521739135,
- "eps_forward_growth": 0.2385050847457626,
+ "eps_growth_last_q": 0.0,
+ "eps_forward_growth": 0.25307118644067805,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4957316717456949
+  },
   {
    "period": "2026-06-30",
    "value": 0.5095736029768114
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5175468071258835
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5316901305155202
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.10003932925739212,
+ "dilution_1y": -0.1052396905352968,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 100750000.0,
- "gap_24m": -300008000.0,
+ "gap_24m": -299725000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 4.163189550464734,
- "interest_coverage": 3.733552039530736,
- "cash_to_debt": 0.1351811374215746,
- "ev": 6530840078.936306,
- "ev_to_sales": 4.634884823333754,
- "ev_to_ebitda": 10.604836480712894,
- "pe_ttm": 16.67829037534078,
- "pe_trailing": 17.863945,
- "p_sales": 3.06041,
- "p_fcf": 15.15961387843377,
+ "net_debt_to_ebitda": 4.340829552501075,
+ "interest_coverage": 3.455034145441122,
+ "cash_to_debt": 0.1311494683120812,
+ "ev": 7190671648.110123,
+ "ev_to_sales": 4.998054936011496,
+ "ev_to_ebitda": 11.764900102765758,
+ "pe_ttm": 19.64094798035772,
+ "pe_trailing": 20.785713,
+ "p_sales": 3.4498305,
+ "p_fcf": 21.212220146088,
  "p_book": null
 }

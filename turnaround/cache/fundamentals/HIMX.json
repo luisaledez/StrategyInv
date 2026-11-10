@@ -1,40 +1,44 @@
 {
  "ticker": "HIMX",
- "fetched": "2026-10-25",
- "market_cap": 1974501293.2494354,
+ "fetched": "2026-11-10",
+ "market_cap": 1473898940.0308971,
  "shares_out": 174425914.0,
- "price": 11.319999694824219,
+ "price": 8.449999809265137,
  "long_name": "Himax Technologies, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
- "pe_trailing_y": 53.904762,
- "pe_forward": 8.707692,
+ "pe_trailing_y": 27.258064,
+ "pe_forward": 6.5,
  "peg": 1.49,
- "p_sales_y": 2.382859,
- "eps_trailing_y": 0.21,
+ "p_sales_y": 1.6821145,
+ "eps_trailing_y": 0.31,
  "eps_forward": 1.3,
- "earnings_growth_y": 0.202,
- "earnings_growth_q_y": 0.202,
- "bs_date": "2026-06-30",
- "cash": 298737000.0,
- "total_debt": 593700000.0,
- "current_debt": 574200000.0,
+ "earnings_growth_y": 16.76,
+ "earnings_growth_q_y": 16.371,
+ "bs_date": "2026-09-30",
+ "cash": 285322000.0,
+ "total_debt": 636828000.0,
+ "current_debt": 618828000.0,
  "lease_obligations": 1752000.0,
- "equity": 899511000.0,
- "net_debt": 294963000.0,
- "ocf_ttm": 45054000.0,
- "capex_ttm": -18124000.0,
- "fcf_ttm": 26930000.0,
+ "equity": 928509000.0,
+ "net_debt": 351506000.0,
+ "ocf_ttm": 62262000.0,
+ "capex_ttm": -15618000.0,
+ "fcf_ttm": 46644000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -630000.0,
- "stock_issuance_ttm": -811000.0,
- "revenue_ttm": 828627000.0,
- "net_income_ttm": 35274000.0,
- "ebitda_ttm": 71629000.0,
- "ebit_ttm": 47668000.0,
- "interest_ttm": 3340000.0,
- "revenue_yoy_last_q": 0.058538720099814645,
+ "stock_issuance_ttm": -946000.0,
+ "revenue_ttm": 876218000.0,
+ "net_income_ttm": 52791000.0,
+ "ebitda_ttm": 94720000.0,
+ "ebit_ttm": 70153000.0,
+ "interest_ttm": 3259000.0,
+ "revenue_yoy_last_q": 0.23895742640376372,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 246752000.0
+  },
   {
    "period": "2026-06-30",
    "value": 227372000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 199161000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 214798000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.107
+  },
   {
    "period": "2026-06-30",
    "value": 0.114
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.006
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.095
   }
  ],
- "eps_ttm": 0.238,
+ "eps_ttm": 0.339,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.10526315789473673,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.19999999999999996,
- "eps_forward_growth": 4.46218487394958,
+ "eps_growth_last_q": 16.833333333333332,
+ "eps_forward_growth": 2.8348082595870205,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.34244504603812737
+  },
   {
    "period": "2026-06-30",
    "value": 0.3308982636384427
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.3017608869206321
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3119535563645844
   }
  ],
  "annual": [
@@ -137,18 +137,18 @@
  "dilution_1y": 0.0007223981640849253,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 574200000.0,
- "gap_24m": 275463000.0,
+ "need_24m": 618828000.0,
+ "gap_24m": 333506000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.1179270965670325,
- "interest_coverage": 14.27185628742515,
- "cash_to_debt": 0.503178372915614,
- "ev": 2269464293.2494354,
- "ev_to_sales": 2.7388249396283677,
- "ev_to_ebitda": 31.68359593529765,
- "pe_ttm": 55.976109691258024,
- "pe_trailing": 53.904762,
- "p_sales": 2.382859,
- "p_fcf": 73.31976580948516,
- "p_book": 2.1950829875892963
+ "net_debt_to_ebitda": 3.7110008445945946,
+ "interest_coverage": 21.525928198834,
+ "cash_to_debt": 0.44803620443824704,
+ "ev": 1825404940.0308971,
+ "ev_to_sales": 2.083277152524711,
+ "ev_to_ebitda": 19.271589316204572,
+ "pe_ttm": 27.919511659769604,
+ "pe_trailing": 27.258064,
+ "p_sales": 1.6821145,
+ "p_fcf": 31.59889675051233,
+ "p_book": 1.5873825025184432
 }

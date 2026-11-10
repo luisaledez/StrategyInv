@@ -1,40 +1,44 @@
 {
  "ticker": "CELH",
- "fetched": "2026-10-24",
- "market_cap": 7203907614.344622,
- "shares_out": 253035047.0,
- "price": 28.469999313354492,
+ "fetched": "2026-11-10",
+ "market_cap": 8315963551.623272,
+ "shares_out": 250556309.0,
+ "price": 33.189998626708984,
  "long_name": "Celsius Holdings, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Beverages - Non-Alcoholic",
- "pe_trailing_y": 123.7826,
- "pe_forward": 16.754549,
- "peg": 0.26,
- "p_sales_y": 2.36405,
- "eps_trailing_y": 0.23,
- "eps_forward": 1.69924,
- "earnings_growth_y": -0.569,
- "earnings_growth_q_y": -0.446,
- "bs_date": "2026-06-30",
- "cash": 631234000.0,
- "total_debt": 667850000.0,
+ "pe_trailing_y": 37.292133,
+ "pe_forward": 19.821789,
+ "peg": 0.3,
+ "p_sales_y": 2.6238322,
+ "eps_trailing_y": 0.89,
+ "eps_forward": 1.67442,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 700617000.0,
+ "total_debt": 667755000.0,
  "current_debt": 3550000.0,
  "lease_obligations": 19702000.0,
- "equity": 2959559000.0,
- "net_debt": 36616000.0,
- "ocf_ttm": 508629000.0,
- "capex_ttm": -45855000.0,
- "fcf_ttm": 462774000.0,
+ "equity": 3035343000.0,
+ "net_debt": -32862000.0,
+ "ocf_ttm": 330746000.0,
+ "capex_ttm": -61736000.0,
+ "fcf_ttm": 269010000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -176874000.0,
- "stock_issuance_ttm": -176874000.0,
- "revenue_ttm": 3047274000.0,
- "net_income_ttm": 129117000.0,
- "ebitda_ttm": 232906000.0,
- "ebit_ttm": 195947000.0,
- "interest_ttm": 54306000.0,
- "revenue_yoy_last_q": 0.10641196116651952,
+ "buybacks_ttm": -219823000.0,
+ "stock_issuance_ttm": -219823000.0,
+ "revenue_ttm": 3169396000.0,
+ "net_income_ttm": 317087000.0,
+ "ebitda_ttm": 478870000.0,
+ "ebit_ttm": 440077000.0,
+ "interest_ttm": 47340000.0,
+ "revenue_yoy_last_q": 0.1684195138365976,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 847228000.0
+  },
   {
    "period": "2026-06-30",
    "value": 817925000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 725106000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 739259000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.39
+  },
   {
    "period": "2026-06-30",
    "value": 0.14
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.27
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.33
   }
  ],
- "eps_ttm": 0.24,
+ "eps_ttm": 0.9000000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.4444444444444444,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.5757575757575757,
- "eps_forward_growth": 6.080166666666667,
+ "eps_growth_last_q": null,
+ "eps_forward_growth": 0.8604666666666665,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.467705269419802
+  },
   {
    "period": "2026-06-30",
    "value": 0.4813253048873674
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5134132113097947
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5151793890909682
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.017178171153241828,
+ "dilution_1y": -0.023504174037178416,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 3550000.0,
- "gap_24m": -627684000.0,
+ "gap_24m": -697067000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 0.15721363983753103,
- "interest_coverage": 3.608201672006776,
- "cash_to_debt": 0.945173317361683,
- "ev": 7240523614.344622,
- "ev_to_sales": 2.3760658261595844,
- "ev_to_ebitda": 31.087750484507147,
- "pe_ttm": 55.79364153709133,
- "pe_trailing": 123.7826,
- "p_sales": 2.36405,
- "p_fcf": 15.56679418970085,
- "p_book": 2.434115222688455
+ "net_debt_to_ebitda": -0.06862405245682544,
+ "interest_coverage": 9.296092099704268,
+ "cash_to_debt": 1.049212660332008,
+ "ev": 8283101551.623272,
+ "ev_to_sales": 2.6134637488099535,
+ "ev_to_ebitda": 17.297182015209287,
+ "pe_ttm": 26.22612580024811,
+ "pe_trailing": 37.292133,
+ "p_sales": 2.6238322,
+ "p_fcf": 30.913213455348394,
+ "p_book": 2.739711311579374
 }

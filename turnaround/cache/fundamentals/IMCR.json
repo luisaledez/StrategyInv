@@ -1,40 +1,44 @@
 {
  "ticker": "IMCR",
- "fetched": "2026-10-25",
- "market_cap": 1595427131.085804,
+ "fetched": "2026-11-10",
+ "market_cap": 1634051093.835804,
  "shares_out": 51498617.0,
- "price": 30.979999542236328,
+ "price": 31.729999542236328,
  "long_name": "Immunocore Holdings plc",
  "sector_y": "Healthcare",
  "industry_y": "Biotechnology",
  "pe_trailing_y": null,
- "pe_forward": -40.307575,
+ "pe_forward": -32.35081,
  "peg": null,
- "p_sales_y": 3.7036204,
- "eps_trailing_y": -0.36,
- "eps_forward": -0.76859,
+ "p_sales_y": 3.8062797,
+ "eps_trailing_y": -0.64,
+ "eps_forward": -0.98081,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 880211000.0,
- "total_debt": 434959000.0,
- "current_debt": 1906000.0,
- "lease_obligations": 40753000.0,
- "equity": 419798000.0,
- "net_debt": -445252000.0,
- "ocf_ttm": -34958000.0,
- "capex_ttm": -6195000.0,
- "fcf_ttm": -41153000.0,
+ "bs_date": "2026-09-30",
+ "cash": 901298000.0,
+ "total_debt": 435737000.0,
+ "current_debt": 1767000.0,
+ "lease_obligations": 40987000.0,
+ "equity": 419706000.0,
+ "net_debt": -465561000.0,
+ "ocf_ttm": -10412000.0,
+ "capex_ttm": -7793000.0,
+ "fcf_ttm": -18205000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 430775000.0,
- "net_income_ttm": -18074000.0,
- "ebitda_ttm": 13575000.0,
- "ebit_ttm": 9969000.0,
+ "revenue_ttm": 429304000.0,
+ "net_income_ttm": -32119000.0,
+ "ebitda_ttm": -490000.0,
+ "ebit_ttm": -4404000.0,
  "interest_ttm": 12701000.0,
- "revenue_yoy_last_q": 0.1833632763055817,
+ "revenue_yoy_last_q": -0.014186107066050724,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 102222000.0
+  },
   {
    "period": "2026-06-30",
    "value": 115927000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 103693000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 97964000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.28
+  },
   {
    "period": "2026-06-30",
    "value": -0.02
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.2
   }
  ],
- "eps_ttm": -0.37,
+ "eps_ttm": -0.65,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.9933869421455264
+  },
   {
    "period": "2026-06-30",
    "value": 0.9906147834413036
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.9950527036540557
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.9893838552937814
   }
  ],
  "annual": [
@@ -128,27 +128,27 @@
   {
    "year": "2022",
    "revenue": 174361000.0,
-   "eps": -1.15,
+   "eps": -1.08918,
    "net_income": -52543000.0
   }
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.021998124039696032,
- "fcf_burn_annual": 41153000.0,
- "runway_months": 256.664933297694,
- "need_24m": 84212000.0,
- "gap_24m": -795999000.0,
+ "dilution_1y": 0.020422127673334955,
+ "fcf_burn_annual": 18205000.0,
+ "runway_months": 594.0992035155177,
+ "need_24m": 38177000.0,
+ "gap_24m": -863121000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -32.79941068139963,
- "interest_coverage": 0.7848988268640265,
- "cash_to_debt": 2.023664299393736,
- "ev": 1150175131.085804,
- "ev_to_sales": 2.6700136523377727,
- "ev_to_ebitda": 84.72744980374247,
+ "net_debt_to_ebitda": 950.1244897959184,
+ "interest_coverage": -0.3467443508385167,
+ "cash_to_debt": 2.0684449564760397,
+ "ev": 1168490093.835804,
+ "ev_to_sales": 2.7218243804758493,
+ "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 3.7036204,
+ "p_sales": 3.8062797,
  "p_fcf": null,
- "p_book": 3.80046386854107
+ "p_book": 3.893323168684279
 }

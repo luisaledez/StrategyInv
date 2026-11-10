@@ -1,40 +1,44 @@
 {
  "ticker": "ATRC",
- "fetched": "2026-10-25",
- "market_cap": 2999585419.272644,
- "shares_out": 50866294.0,
- "price": 58.970001220703125,
+ "fetched": "2026-11-10",
+ "market_cap": 2865401938.300808,
+ "shares_out": 50922283.0,
+ "price": 56.27009963989258,
  "long_name": "AtriCure, Inc.",
  "sector_y": "Healthcare",
  "industry_y": "Medical Instruments & Supplies",
- "pe_trailing_y": 280.80954,
- "pe_forward": 135.88185,
+ "pe_trailing_y": 181.3871,
+ "pe_forward": 122.180695,
  "peg": 10.0,
- "p_sales_y": 5.2659225,
- "eps_trailing_y": 0.21,
- "eps_forward": 0.43398,
+ "p_sales_y": 4.841823,
+ "eps_trailing_y": 0.31,
+ "eps_forward": 0.46022,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 167786000.0,
- "total_debt": 71048000.0,
+ "bs_date": "2026-09-30",
+ "cash": 187031000.0,
+ "total_debt": 93105000.0,
  "current_debt": 2998000.0,
- "lease_obligations": 10048000.0,
- "equity": 516433000.0,
- "net_debt": -96738000.0,
- "ocf_ttm": 64939000.0,
- "capex_ttm": -12825000.0,
- "fcf_ttm": 52114000.0,
+ "lease_obligations": 32105000.0,
+ "equity": 533224000.0,
+ "net_debt": -93926000.0,
+ "ocf_ttm": 68545000.0,
+ "capex_ttm": -21108000.0,
+ "fcf_ttm": 47437000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -12341000.0,
- "stock_issuance_ttm": -12341000.0,
- "revenue_ttm": 569622000.0,
- "net_income_ttm": 10552000.0,
- "ebitda_ttm": 38580000.0,
- "ebit_ttm": 17724000.0,
+ "buybacks_ttm": -12527000.0,
+ "stock_issuance_ttm": -12527000.0,
+ "revenue_ttm": 589803000.0,
+ "net_income_ttm": 14883000.0,
+ "ebitda_ttm": 43135000.0,
+ "ebit_ttm": 21973000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.1282879997649462,
+ "revenue_yoy_last_q": 0.15030275044872599,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 154450000.0
+  },
   {
    "period": "2026-06-30",
    "value": 153604000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 134269000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 136139000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.08
+  },
   {
    "period": "2026-06-30",
    "value": 0.18
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.01
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.13
   }
  ],
- "eps_ttm": 0.21,
+ "eps_ttm": 0.3,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
- "eps_forward_growth": 1.0665714285714287,
+ "eps_forward_growth": 0.5340666666666667,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.7727419876982843
+  },
   {
    "period": "2026-06-30",
    "value": 0.7723041066638889
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7546939353089693
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7454293038732472
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.023585759996780142,
+ "dilution_1y": 0.024138555307464893,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 2998000.0,
- "gap_24m": -164788000.0,
+ "gap_24m": -184033000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -2.50746500777605,
+ "net_debt_to_ebitda": -2.177489277848615,
  "interest_coverage": null,
- "cash_to_debt": 2.3615865330480803,
- "ev": 2902847419.272644,
- "ev_to_sales": 5.096094285811721,
- "ev_to_ebitda": 75.24228665818154,
- "pe_ttm": 284.2670033427449,
- "pe_trailing": 280.80954,
- "p_sales": 5.2659225,
- "p_fcf": 57.5581498114258,
- "p_book": 5.808276038271458
+ "cash_to_debt": 2.008818001181462,
+ "ev": 2771475938.300808,
+ "ev_to_sales": 4.698985827981221,
+ "ev_to_ebitda": 64.25120988294442,
+ "pe_ttm": 192.52851832969213,
+ "pe_trailing": 181.3871,
+ "p_sales": 4.841823,
+ "p_fcf": 60.404366597820434,
+ "p_book": 5.373730249015063
 }

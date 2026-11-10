@@ -1,40 +1,44 @@
 {
  "ticker": "IEP",
- "fetched": "2026-10-25",
- "market_cap": 4101980073.0503707,
- "shares_out": 710915093.0,
- "price": 5.769999980926514,
+ "fetched": "2026-11-10",
+ "market_cap": 3671262116.4105473,
+ "shares_out": 756961276.0,
+ "price": 4.849999904632568,
  "long_name": "Icahn Enterprises L.P.",
  "sector_y": "Energy",
  "industry_y": "Oil & Gas Refining & Marketing",
  "pe_trailing_y": null,
- "pe_forward": 7.117284,
+ "pe_forward": 5.987654,
  "peg": 1.15,
- "p_sales_y": 0.39449662,
- "eps_trailing_y": -0.71,
+ "p_sales_y": 0.33706042,
+ "eps_trailing_y": -1.49,
  "eps_forward": 0.81,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 2719000000.0,
- "total_debt": 6389000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 3279000000.0,
+ "total_debt": 6357000000.0,
  "current_debt": 25000000.0,
  "lease_obligations": null,
  "equity": 0.0,
- "net_debt": 3670000000.0,
- "ocf_ttm": 107000000.0,
- "capex_ttm": -351000000.0,
- "fcf_ttm": -244000000.0,
+ "net_debt": 3078000000.0,
+ "ocf_ttm": 308000000.0,
+ "capex_ttm": -369000000.0,
+ "fcf_ttm": -61000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 10538000000.0,
- "net_income_ttm": -526000000.0,
- "ebitda_ttm": 648000000.0,
- "ebit_ttm": 48000000.0,
- "interest_ttm": 491000000.0,
- "revenue_yoy_last_q": 0.40647948164146874,
+ "revenue_ttm": 11714000000.0,
+ "net_income_ttm": -1038000000.0,
+ "ebitda_ttm": -54000000.0,
+ "ebit_ttm": -610000000.0,
+ "interest_ttm": 485000000.0,
+ "revenue_yoy_last_q": 0.47342995169082136,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3660000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3256000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2484000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2315000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.31
+  },
   {
    "period": "2026-06-30",
    "value": -0.52
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.49
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.3
   }
  ],
- "eps_ttm": -0.74,
+ "eps_ttm": -1.54,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": null,
+ "eps_growth_last_q": -1.6326530612244898,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.2532786885245902
+  },
   {
    "period": "2026-06-30",
    "value": 0.11455773955773955
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.321658615136876
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.08509719222462203
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 0,
- "dilution_1y": 0.24014972247498556,
- "fcf_burn_annual": 244000000.0,
- "runway_months": 133.72131147540983,
- "need_24m": 513000000.0,
- "gap_24m": -2206000000.0,
+ "dilution_1y": 0.26116383650050734,
+ "fcf_burn_annual": 61000000.0,
+ "runway_months": 645.0491803278688,
+ "need_24m": 147000000.0,
+ "gap_24m": -3132000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 5.66358024691358,
- "interest_coverage": 0.09775967413441955,
- "cash_to_debt": 0.4255752073876976,
- "ev": 7771980073.050371,
- "ev_to_sales": 0.7375194603388092,
- "ev_to_ebitda": 11.99379640902835,
+ "net_debt_to_ebitda": -57.0,
+ "interest_coverage": -1.2577319587628866,
+ "cash_to_debt": 0.515809344030203,
+ "ev": 6749262116.410547,
+ "ev_to_sales": 0.5761705750734631,
+ "ev_to_ebitda": null,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.39449662,
+ "p_sales": 0.33706042,
  "p_fcf": null,
  "p_book": null
 }

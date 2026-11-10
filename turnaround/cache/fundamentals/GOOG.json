@@ -1,0 +1,154 @@
+{
+ "ticker": "GOOG",
+ "fetched": "2026-11-10",
+ "market_cap": 3525427560058.5938,
+ "shares_out": 12294000000.0,
+ "price": 286.760009765625,
+ "long_name": "Alphabet Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Internet Content & Information",
+ "pe_trailing_y": 14.974413,
+ "pe_forward": 18.578423,
+ "peg": 1.0,
+ "p_sales_y": 7.4834266,
+ "eps_trailing_y": 19.15,
+ "eps_forward": 15.43511,
+ "earnings_growth_y": -0.253,
+ "earnings_growth_q_y": -0.243,
+ "bs_date": "2026-09-30",
+ "cash": 265098000000.0,
+ "total_debt": 141917000000.0,
+ "current_debt": 1000000000.0,
+ "lease_obligations": 16815000000.0,
+ "equity": 677549000000.0,
+ "net_debt": -123181000000.0,
+ "ocf_ttm": 179551000000.0,
+ "capex_ttm": -159804000000.0,
+ "fcf_ttm": 19747000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -5499000000.0,
+ "stock_issuance_ttm": 37371000000.0,
+ "revenue_ttm": 471098000000.0,
+ "net_income_ttm": 235694000000.0,
+ "ebitda_ttm": 318708000000.0,
+ "ebit_ttm": 290713000000.0,
+ "interest_ttm": 3076000000.0,
+ "revenue_yoy_last_q": 0.246526488577961,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 127577000000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 119796000000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 109896000000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 113829000000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 102346000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.12
+  },
+  {
+   "period": "2026-06-30",
+   "value": 9.11
+  },
+  {
+   "period": "2026-03-31",
+   "value": 5.11
+  },
+  {
+   "period": "2025-12-31",
+   "value": 2.82
+  },
+  {
+   "period": "2025-09-30",
+   "value": 2.87
+  }
+ ],
+ "eps_ttm": 19.16,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.3445273631840797,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.26132404181184665,
+ "eps_forward_growth": -0.1944097077244259,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5969571317714008
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.6164896991552306
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6244540292640315
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.597931985697845
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.5957927031833193
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 402836000000.0,
+   "eps": 10.81,
+   "net_income": 132170000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 350018000000.0,
+   "eps": 8.04,
+   "net_income": 100118000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 307394000000.0,
+   "eps": 5.8,
+   "net_income": 73795000000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 282836000000.0,
+   "eps": 4.56,
+   "net_income": 59972000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.0179680384201375,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1000000000.0,
+ "gap_24m": -264098000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.38650112328526426,
+ "interest_coverage": 94.51007802340702,
+ "cash_to_debt": 1.8679791709238498,
+ "ev": 3402246560058.5938,
+ "ev_to_sales": 7.221950761961617,
+ "ev_to_ebitda": 10.675121302441713,
+ "pe_ttm": 14.957646609835608,
+ "pe_trailing": 14.974413,
+ "p_sales": 7.4834266,
+ "p_fcf": 178.5297797163414,
+ "p_book": 5.203206793986256
+}

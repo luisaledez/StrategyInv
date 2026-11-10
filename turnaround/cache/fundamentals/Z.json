@@ -1,40 +1,44 @@
 {
  "ticker": "Z",
- "fetched": "2026-10-25",
- "market_cap": 7416375879.980415,
- "shares_out": 224874954.0,
- "price": 32.97999954223633,
+ "fetched": "2026-11-10",
+ "market_cap": 6916718475.38586,
+ "shares_out": 225520654.0,
+ "price": 30.670000076293945,
  "long_name": "Zillow Group, Inc.",
  "sector_y": "Communication Services",
  "industry_y": "Internet Content & Information",
- "pe_trailing_y": 143.3913,
- "pe_forward": 11.943347,
+ "pe_trailing_y": null,
+ "pe_forward": 12.933452,
  "peg": 0.93,
- "p_sales_y": 2.6392798,
- "eps_trailing_y": 0.23,
- "eps_forward": 2.76137,
+ "p_sales_y": 2.4201255,
+ "eps_trailing_y": -0.5,
+ "eps_forward": 2.37137,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 682000000.0,
- "total_debt": 558000000.0,
- "current_debt": 481000000.0,
- "lease_obligations": 93000000.0,
- "equity": 4308000000.0,
- "net_debt": -124000000.0,
- "ocf_ttm": 388000000.0,
- "capex_ttm": -168000000.0,
- "fcf_ttm": 220000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 707000000.0,
+ "total_debt": 480000000.0,
+ "current_debt": 408000000.0,
+ "lease_obligations": 88000000.0,
+ "equity": 4229000000.0,
+ "net_debt": -227000000.0,
+ "ocf_ttm": 445000000.0,
+ "capex_ttm": -171000000.0,
+ "fcf_ttm": 274000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -1096000000.0,
- "stock_issuance_ttm": -1096000000.0,
- "revenue_ttm": 2810000000.0,
- "net_income_ttm": 55000000.0,
- "ebitda_ttm": 348000000.0,
- "ebit_ttm": 78000000.0,
- "interest_ttm": 18000000.0,
- "revenue_yoy_last_q": 0.17862595419847338,
+ "buybacks_ttm": -1078000000.0,
+ "stock_issuance_ttm": -1078000000.0,
+ "revenue_ttm": 2858000000.0,
+ "net_income_ttm": -113000000.0,
+ "ebitda_ttm": 182000000.0,
+ "ebit_ttm": -86000000.0,
+ "interest_ttm": 21000000.0,
+ "revenue_yoy_last_q": 0.07100591715976323,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 724000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 772000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 676000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 655000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.7
+  },
   {
    "period": "2026-06-30",
    "value": -0.02
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.04
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.01
   }
  ],
- "eps_ttm": 0.22000000000000003,
+ "eps_ttm": -0.52,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": -3.0,
- "eps_forward_growth": 11.551681818181816,
+ "eps_growth_last_q": -18.5,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.712707182320442
+  },
   {
    "period": "2026-06-30",
    "value": 0.727979274611399
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.7263313609467456
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.7465648854961832
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": -0.06744068128625313,
+ "dilution_1y": -0.06788600984964455,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 481000000.0,
- "gap_24m": -201000000.0,
+ "need_24m": 408000000.0,
+ "gap_24m": -299000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.3563218390804598,
- "interest_coverage": 4.333333333333333,
- "cash_to_debt": 1.2222222222222223,
- "ev": 7292375879.980415,
- "ev_to_sales": 2.5951515587118914,
- "ev_to_ebitda": 20.955103103392,
- "pe_ttm": 134.84319781782574,
- "pe_trailing": 143.3913,
- "p_sales": 2.6392798,
- "p_fcf": 33.710799454456435,
- "p_book": 1.7215357195869117
+ "net_debt_to_ebitda": -1.2472527472527473,
+ "interest_coverage": -4.095238095238095,
+ "cash_to_debt": 1.4729166666666667,
+ "ev": 6689718475.38586,
+ "ev_to_sales": 2.340699256608069,
+ "ev_to_ebitda": 36.75669491970253,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 2.4201255,
+ "p_fcf": 25.243498085349856,
+ "p_book": 1.6355446855960891
 }

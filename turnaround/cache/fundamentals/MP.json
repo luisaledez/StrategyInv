@@ -1,40 +1,44 @@
 {
  "ticker": "MP",
- "fetched": "2026-10-24",
- "market_cap": 6821290684.519272,
- "shares_out": 178101588.0,
- "price": 38.29999923706055,
+ "fetched": "2026-11-10",
+ "market_cap": 6457757158.584656,
+ "shares_out": 178267976.0,
+ "price": 36.224998474121094,
  "long_name": "MP Materials Corp.",
  "sector_y": "Basic Materials",
  "industry_y": "Other Industrial Metals & Mining",
  "pe_trailing_y": null,
- "pe_forward": 49.15045,
+ "pe_forward": 65.85645,
  "peg": null,
- "p_sales_y": 16.387642,
- "eps_trailing_y": -0.33,
- "eps_forward": 0.77924,
+ "p_sales_y": 12.455723,
+ "eps_trailing_y": -0.2,
+ "eps_forward": 0.55006,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 1452639000.0,
- "total_debt": 934583000.0,
+ "bs_date": "2026-09-30",
+ "cash": 1337911000.0,
+ "total_debt": 936253000.0,
  "current_debt": 67499000.0,
  "lease_obligations": 8429000.0,
- "equity": 1957336000.0,
- "net_debt": -518056000.0,
- "ocf_ttm": -83963000.0,
- "capex_ttm": -420613000.0,
- "fcf_ttm": -504576000.0,
+ "equity": 1950099000.0,
+ "net_debt": -401658000.0,
+ "ocf_ttm": -54611000.0,
+ "capex_ttm": -482656000.0,
+ "fcf_ttm": -537267000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -31104000.0,
  "stock_issuance_ttm": 716396000.0,
- "revenue_ttm": 305377000.0,
- "net_income_ttm": -60618000.0,
- "ebitda_ttm": 61771000.0,
- "ebit_ttm": -52851000.0,
- "interest_ttm": 38001000.0,
- "revenue_yoy_last_q": 0.8903002108271043,
+ "revenue_ttm": 399479000.0,
+ "net_income_ttm": -39548000.0,
+ "ebitda_ttm": 107430000.0,
+ "ebit_ttm": -20826000.0,
+ "interest_ttm": 38844000.0,
+ "revenue_yoy_last_q": 1.7571751349130769,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 147655000.0
+  },
   {
    "period": "2026-06-30",
    "value": 108490000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 53553000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 57393000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -0.12
+  },
   {
    "period": "2026-06-30",
    "value": -0.11
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.24
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.19
   }
  ],
- "eps_ttm": -0.33999999999999997,
+ "eps_ttm": -0.21999999999999997,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.17538180217398666
+  },
   {
    "period": "2026-06-30",
    "value": 0.007549082864780164
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": -0.3253039045431628
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.24070879724008154
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.08922709451975197,
- "fcf_burn_annual": 504576000.0,
- "runway_months": 34.54716038812786,
- "need_24m": 1076651000.0,
- "gap_24m": -375988000.0,
+ "dilution_1y": 0.005777071900754827,
+ "fcf_burn_annual": 537267000.0,
+ "runway_months": 29.88259468755758,
+ "need_24m": 1142033000.0,
+ "gap_24m": -195878000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -8.386718686762396,
- "interest_coverage": -1.3907791900213153,
- "cash_to_debt": 1.5543178080491513,
- "ev": 6303234684.519272,
- "ev_to_sales": 20.640829808791334,
- "ev_to_ebitda": 102.04197251977905,
+ "net_debt_to_ebitda": -3.7387880480312763,
+ "interest_coverage": -0.536144578313253,
+ "cash_to_debt": 1.4290058349612764,
+ "ev": 6056099158.584656,
+ "ev_to_sales": 15.159993788370993,
+ "ev_to_ebitda": 56.37251380977991,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 16.387642,
+ "p_sales": 12.455723,
  "p_fcf": null,
- "p_book": 3.48498708679515
+ "p_book": 3.3115022153155587
 }

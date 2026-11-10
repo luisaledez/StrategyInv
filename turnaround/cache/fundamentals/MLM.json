@@ -1,40 +1,44 @@
 {
  "ticker": "MLM",
- "fetched": "2026-10-24",
- "market_cap": 36018900922.5694,
- "shares_out": 71019382.0,
- "price": 507.1700134277344,
+ "fetched": "2026-11-10",
+ "market_cap": 37761779896.900635,
+ "shares_out": 71118485.0,
+ "price": 530.969970703125,
  "long_name": "Martin Marietta Materials, Inc.",
  "sector_y": "Basic Materials",
  "industry_y": "Building Materials",
- "pe_trailing_y": 32.975945,
- "pe_forward": 23.869081,
- "peg": 1.92,
- "p_sales_y": 5.385601,
- "eps_trailing_y": 15.38,
- "eps_forward": 21.24799,
- "earnings_growth_y": -0.232,
- "earnings_growth_q_y": -0.235,
- "bs_date": "2026-06-30",
- "cash": 112000000.0,
- "total_debt": 6345000000.0,
- "current_debt": 930000000.0,
- "lease_obligations": 394000000.0,
- "equity": 11546000000.0,
- "net_debt": 6233000000.0,
- "ocf_ttm": 1519000000.0,
- "capex_ttm": -709000000.0,
- "fcf_ttm": 810000000.0,
+ "pe_trailing_y": 39.624626,
+ "pe_forward": 29.601807,
+ "peg": 1.96,
+ "p_sales_y": 5.2366915,
+ "eps_trailing_y": 13.4,
+ "eps_forward": 17.93708,
+ "earnings_growth_y": -0.425,
+ "earnings_growth_q_y": -0.382,
+ "bs_date": "2026-09-30",
+ "cash": 140000000.0,
+ "total_debt": 13250000000.0,
+ "current_debt": 804000000.0,
+ "lease_obligations": 427000000.0,
+ "equity": 17659000000.0,
+ "net_debt": 13110000000.0,
+ "ocf_ttm": 1525000000.0,
+ "capex_ttm": -650000000.0,
+ "fcf_ttm": 875000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -200000000.0,
  "stock_issuance_ttm": -200000000.0,
- "revenue_ttm": 6688000000.0,
- "net_income_ttm": 2457000000.0,
- "ebitda_ttm": 2085000000.0,
- "ebit_ttm": 1398000000.0,
- "interest_ttm": 232000000.0,
- "revenue_yoy_last_q": 0.21006836544437535,
+ "revenue_ttm": 7211000000.0,
+ "net_income_ttm": 2299000000.0,
+ "ebitda_ttm": 2114000000.0,
+ "ebit_ttm": 1340000000.0,
+ "interest_ttm": 311000000.0,
+ "revenue_yoy_last_q": 0.28331527627302266,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2369000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1947000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1846000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1609000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.94
+  },
   {
    "period": "2026-06-30",
    "value": 4.17
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 6.85
-  },
-  {
-   "period": "2025-06-30",
-   "value": 5.43
   }
  ],
- "eps_ttm": 40.699999999999996,
+ "eps_ttm": 37.79,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.42085775995063246,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.2320441988950276,
- "eps_forward_growth": -0.4779363636363635,
+ "eps_growth_last_q": -0.42481751824817515,
+ "eps_forward_growth": -0.5253485048954749,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.27479949345715493
+  },
   {
    "period": "2026-06-30",
    "value": 0.2542372881355932
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.33098591549295775
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.30826600372902424
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.004226463421665438,
+ "dilution_1y": 0.17926430373264401,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 930000000.0,
- "gap_24m": 818000000.0,
+ "need_24m": 804000000.0,
+ "gap_24m": 664000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 2.9894484412470024,
- "interest_coverage": 6.025862068965517,
- "cash_to_debt": 0.01765169424743893,
- "ev": 42251900922.5694,
- "ev_to_sales": 6.317568917848295,
- "ev_to_ebitda": 20.26470068228748,
- "pe_ttm": 14.65970733519308,
- "pe_trailing": 32.975945,
- "p_sales": 5.385601,
- "p_fcf": 44.467778916752344,
- "p_book": 3.1195999413276803
+ "net_debt_to_ebitda": 6.201513718070009,
+ "interest_coverage": 4.308681672025723,
+ "cash_to_debt": 0.010566037735849057,
+ "ev": 50871779896.900635,
+ "ev_to_sales": 7.054746900138765,
+ "ev_to_ebitda": 24.064228901088285,
+ "pe_ttm": 16.425306610222112,
+ "pe_trailing": 39.624626,
+ "p_sales": 5.2366915,
+ "p_fcf": 43.156319882172156,
+ "p_book": 2.13838721880631
 }

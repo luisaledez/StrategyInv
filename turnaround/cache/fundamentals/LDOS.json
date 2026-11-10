@@ -1,40 +1,44 @@
 {
  "ticker": "LDOS",
- "fetched": "2026-10-24",
- "market_cap": 17076980030.503098,
- "shares_out": 125492209.0,
- "price": 136.0800018310547,
+ "fetched": "2026-11-10",
+ "market_cap": 16561999394.583115,
+ "shares_out": 121994697.0,
+ "price": 135.75999450683594,
  "long_name": "Leidos Holdings, Inc.",
  "sector_y": "Technology",
  "industry_y": "Information Technology Services",
- "pe_trailing_y": 12.705882,
- "pe_forward": 10.844445,
+ "pe_trailing_y": 12.132261,
+ "pe_forward": 11.503096,
  "peg": 2.46,
- "p_sales_y": 0.9684121,
- "eps_trailing_y": 10.71,
- "eps_forward": 12.54836,
- "earnings_growth_y": -0.067,
- "earnings_growth_q_y": -0.095,
- "bs_date": "2026-06-30",
- "cash": 748000000.0,
- "total_debt": 6578000000.0,
- "current_debt": 22000000.0,
- "lease_obligations": 547000000.0,
- "equity": 5284000000.0,
- "net_debt": 5830000000.0,
- "ocf_ttm": 2300000000.0,
- "capex_ttm": -137000000.0,
- "fcf_ttm": 2163000000.0,
+ "p_sales_y": 0.9307108,
+ "eps_trailing_y": 11.19,
+ "eps_forward": 11.80204,
+ "earnings_growth_y": 0.163,
+ "earnings_growth_q_y": 0.117,
+ "bs_date": "2026-09-30",
+ "cash": 630000000.0,
+ "total_debt": 6564000000.0,
+ "current_debt": 18000000.0,
+ "lease_obligations": 537000000.0,
+ "equity": 5172000000.0,
+ "net_debt": 5934000000.0,
+ "ocf_ttm": 2112000000.0,
+ "capex_ttm": -153000000.0,
+ "fcf_ttm": 1959000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -722000000.0,
- "stock_issuance_ttm": -658000000.0,
- "revenue_ttm": 17634000000.0,
- "net_income_ttm": 1376000000.0,
- "ebitda_ttm": 2318000000.0,
- "ebit_ttm": 2016000000.0,
- "interest_ttm": 223000000.0,
- "revenue_yoy_last_q": 0.07171408417587588,
+ "buybacks_ttm": -1124000000.0,
+ "stock_issuance_ttm": -1062000000.0,
+ "revenue_ttm": 17795000000.0,
+ "net_income_ttm": 1419000000.0,
+ "ebitda_ttm": 2334000000.0,
+ "ebit_ttm": 2030000000.0,
+ "interest_ttm": 239000000.0,
+ "revenue_yoy_last_q": 0.03602595658984109,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 4630000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 4558000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 4469000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4253000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.28
+  },
   {
    "period": "2026-06-30",
    "value": 2.81
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.82
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3.01
   }
  ],
- "eps_ttm": 10.72,
+ "eps_ttm": 11.18,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.20824295010845995,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.06644518272425237,
- "eps_forward_growth": 0.1705559701492536,
+ "eps_growth_last_q": 0.16312056737588643,
+ "eps_forward_growth": 0.05563864042933808,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1771058315334773
+  },
   {
    "period": "2026-06-30",
    "value": 0.1792452830188679
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.18371000223763706
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1838702092640489
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.021855431990669527,
+ "dilution_1y": -0.04581172554084967,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 22000000.0,
- "gap_24m": -726000000.0,
+ "need_24m": 18000000.0,
+ "gap_24m": -612000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.5150992234685075,
- "interest_coverage": 9.040358744394618,
- "cash_to_debt": 0.11371237458193979,
- "ev": 22906980030.503098,
- "ev_to_sales": 1.299023479103045,
- "ev_to_ebitda": 9.882217441977177,
- "pe_ttm": 12.410595952400508,
- "pe_trailing": 12.705882,
- "p_sales": 0.9684121,
- "p_fcf": 7.895043934583032,
- "p_book": 3.23182816625721
+ "net_debt_to_ebitda": 2.5424164524421595,
+ "interest_coverage": 8.493723849372385,
+ "cash_to_debt": 0.09597806215722121,
+ "ev": 22495999394.583115,
+ "ev_to_sales": 1.264175296127177,
+ "ev_to_ebitda": 9.63838877231496,
+ "pe_ttm": 11.671599291460968,
+ "pe_trailing": 12.132261,
+ "p_sales": 0.9307108,
+ "p_fcf": 8.454313116173106,
+ "p_book": 3.2022427290377253
 }

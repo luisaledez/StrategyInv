@@ -1,40 +1,44 @@
 {
  "ticker": "FTAI",
- "fetched": "2026-10-25",
- "market_cap": 15854893136.170532,
- "shares_out": 102707091.0,
- "price": 154.3699951171875,
+ "fetched": "2026-11-10",
+ "market_cap": 19398000498.002075,
+ "shares_out": 102261586.0,
+ "price": 189.69000244140625,
  "long_name": "FTAI Aviation Ltd.",
  "sector_y": "Industrials",
  "industry_y": "Aerospace & Defense",
- "pe_trailing_y": 33.558697,
- "pe_forward": 11.434814,
+ "pe_trailing_y": 38.476677,
+ "pe_forward": 15.195465,
  "peg": null,
- "p_sales_y": 5.0933294,
- "eps_trailing_y": 4.6,
- "eps_forward": 13.5,
- "earnings_growth_y": -0.28,
- "earnings_growth_q_y": -0.244,
- "bs_date": "2026-06-30",
- "cash": 337195000.0,
- "total_debt": 3453320000.0,
+ "p_sales_y": 5.666186,
+ "eps_trailing_y": 4.93,
+ "eps_forward": 12.48333,
+ "earnings_growth_y": 0.3,
+ "earnings_growth_q_y": 0.279,
+ "bs_date": "2026-09-30",
+ "cash": 385624000.0,
+ "total_debt": 3455515000.0,
  "current_debt": null,
  "lease_obligations": null,
- "equity": 403987000.0,
- "net_debt": 3116125000.0,
- "ocf_ttm": -439764000.0,
- "capex_ttm": -451394000.0,
- "fcf_ttm": -891158000.0,
+ "equity": 433356000.0,
+ "net_debt": 3069891000.0,
+ "ocf_ttm": -512096000.0,
+ "capex_ttm": -579198000.0,
+ "fcf_ttm": -1091294000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -105493000.0,
+ "buybacks_ttm": -155448000.0,
  "stock_issuance_ttm": null,
- "revenue_ttm": 3112874000.0,
- "net_income_ttm": 496273000.0,
- "ebitda_ttm": 1090696000.0,
- "ebit_ttm": 845490000.0,
- "interest_ttm": 247255000.0,
- "revenue_yoy_last_q": 0.4093949310670668,
+ "revenue_ttm": 3423467000.0,
+ "net_income_ttm": 529163000.0,
+ "ebitda_ttm": 1105157000.0,
+ "ebit_ttm": 878624000.0,
+ "interest_ttm": 251590000.0,
+ "revenue_yoy_last_q": 0.4656119952508304,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 977657000.0
+  },
   {
    "period": "2026-06-30",
    "value": 953085000.0
@@ -50,10 +54,6 @@
   {
    "period": "2025-09-30",
    "value": 667064000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 676237000.0
   }
  ],
  "eps_quarters": [
@@ -83,8 +83,12 @@
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": 0.29885057471264354,
- "eps_forward_growth": 1.6522593320235757,
+ "eps_forward_growth": 1.4525206286836938,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3176379855102556
+  },
   {
    "period": "2026-06-30",
    "value": 0.2836231815630295
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.37307364810572896
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.37227037266520463
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.0006294506071209405,
- "fcf_burn_annual": 891158000.0,
- "runway_months": 4.540541632348023,
- "need_24m": 1782316000.0,
- "gap_24m": 1445121000.0,
+ "dilution_1y": -0.0012014584876964829,
+ "fcf_burn_annual": 1091294000.0,
+ "runway_months": 4.240367856874499,
+ "need_24m": 2182588000.0,
+ "gap_24m": 1796964000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 2.857005985169103,
- "interest_coverage": 3.419506177832602,
- "cash_to_debt": 0.09764371677110723,
- "ev": 18971018136.170532,
- "ev_to_sales": 6.094373924601681,
- "ev_to_ebitda": 17.393497487998978,
- "pe_ttm": 31.947926113591777,
- "pe_trailing": 33.558697,
- "p_sales": 5.0933294,
+ "net_debt_to_ebitda": 2.7777872284209395,
+ "interest_coverage": 3.4922850669740453,
+ "cash_to_debt": 0.11159667951086885,
+ "ev": 22467891498.002075,
+ "ev_to_sales": 6.5629058197441585,
+ "ev_to_ebitda": 20.330044960129715,
+ "pe_ttm": 36.65789274382766,
+ "pe_trailing": 38.476677,
+ "p_sales": 5.666186,
  "p_fcf": null,
- "p_book": 39.24604785839775
+ "p_book": 44.76227512253684
 }

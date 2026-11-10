@@ -1,40 +1,44 @@
 {
  "ticker": "BLKB",
- "fetched": "2026-10-25",
- "market_cap": 2520966028.935875,
- "shares_out": 45390097.0,
- "price": 55.540000915527344,
+ "fetched": "2026-11-10",
+ "market_cap": 2434706503.75,
+ "shares_out": 44978875.0,
+ "price": 54.13,
  "long_name": "Blackbaud, Inc.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 17.35625,
- "pe_forward": 9.303183,
- "peg": 0.59,
- "p_sales_y": 2.1957033,
- "eps_trailing_y": 3.2,
- "eps_forward": 5.97,
- "earnings_growth_y": 0.436,
- "earnings_growth_q_y": 0.336,
- "bs_date": "2026-06-30",
- "cash": 34388000.0,
- "total_debt": 1150007000.0,
- "current_debt": 22595000.0,
+ "pe_trailing_y": 16.655384,
+ "pe_forward": 9.021667,
+ "peg": 0.58,
+ "p_sales_y": 2.0995474,
+ "eps_trailing_y": 3.25,
+ "eps_forward": 6.0,
+ "earnings_growth_y": 0.041,
+ "earnings_growth_q_y": -0.03,
+ "bs_date": "2026-09-30",
+ "cash": 35734000.0,
+ "total_debt": 1044797000.0,
+ "current_debt": 22654000.0,
  "lease_obligations": 6164000.0,
- "equity": 67030000.0,
- "net_debt": 1115619000.0,
- "ocf_ttm": 339734000.0,
- "capex_ttm": -63149000.0,
- "fcf_ttm": 276585000.0,
+ "equity": 119485000.0,
+ "net_debt": 1009063000.0,
+ "ocf_ttm": 342254000.0,
+ "capex_ttm": -62885000.0,
+ "fcf_ttm": 279369000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -225584000.0,
- "stock_issuance_ttm": -225584000.0,
- "revenue_ttm": 1148136000.0,
- "net_income_ttm": 150678000.0,
- "ebitda_ttm": 321494000.0,
- "ebit_ttm": 237332000.0,
- "interest_ttm": 66229000.0,
- "revenue_yoy_last_q": 0.030376201113356815,
+ "buybacks_ttm": -213747000.0,
+ "stock_issuance_ttm": -213747000.0,
+ "revenue_ttm": 1159634000.0,
+ "net_income_ttm": 149254000.0,
+ "ebitda_ttm": 326220000.0,
+ "ebit_ttm": 242062000.0,
+ "interest_ttm": 65564000.0,
+ "revenue_yoy_last_q": 0.040897336942410156,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 292641000.0
+  },
   {
    "period": "2026-06-30",
    "value": 290597000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 281143000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 282030000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.02
+  },
   {
    "period": "2026-06-30",
    "value": 0.79
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.98
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.55
   }
  ],
- "eps_ttm": 3.1999999999999997,
+ "eps_ttm": 3.24,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": 0.4363636363636363,
- "eps_forward_growth": 0.8656250000000001,
+ "eps_growth_last_q": 0.04081632653061229,
+ "eps_forward_growth": 0.8518518518518516,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6075396133829505
+  },
   {
    "period": "2026-06-30",
    "value": 0.6130930463838237
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5957466485027193
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5970889621671454
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": -0.06170154879611023,
+ "dilution_1y": -0.06150001502352198,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 22595000.0,
- "gap_24m": -11793000.0,
+ "need_24m": 22654000.0,
+ "gap_24m": -13080000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.4701083068424294,
- "interest_coverage": 3.5835057150191005,
- "cash_to_debt": 0.029902426680881073,
- "ev": 3636585028.935875,
- "ev_to_sales": 3.1673817639512,
- "ev_to_ebitda": 11.311517567780037,
- "pe_ttm": 16.730816900515503,
- "pe_trailing": 17.35625,
- "p_sales": 2.1957033,
- "p_fcf": 9.114615864692137,
- "p_book": 37.60951855789758
+ "net_debt_to_ebitda": 3.0931978419471524,
+ "interest_coverage": 3.6919956073454943,
+ "cash_to_debt": 0.034201859308554676,
+ "ev": 3443769503.75,
+ "ev_to_sales": 2.969703806330273,
+ "ev_to_ebitda": 10.556586057721782,
+ "pe_ttm": 16.312504212617416,
+ "pe_trailing": 16.655384,
+ "p_sales": 2.0995474,
+ "p_fcf": 8.715020291263526,
+ "p_book": 20.37667074318952
 }

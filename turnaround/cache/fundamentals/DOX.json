@@ -1,20 +1,20 @@
 {
  "ticker": "DOX",
- "fetched": "2026-10-25",
- "market_cap": 6550997275.257111,
+ "fetched": "2026-11-10",
+ "market_cap": 4358282275.257111,
  "shares_out": 104415000.0,
- "price": 62.7400016784668,
+ "price": 41.7400016784668,
  "long_name": "Amdocs Limited",
  "sector_y": "Technology",
  "industry_y": "Software - Infrastructure",
- "pe_trailing_y": 14.902613,
- "pe_forward": 7.814826,
- "peg": 0.84,
- "p_sales_y": 1.407899,
- "eps_trailing_y": 4.21,
- "eps_forward": 8.02833,
- "earnings_growth_y": -0.574,
- "earnings_growth_q_y": -0.596,
+ "pe_trailing_y": 8.918804,
+ "pe_forward": 6.295626,
+ "peg": 0.56,
+ "p_sales_y": 0.9279689,
+ "eps_trailing_y": 4.68,
+ "eps_forward": 6.63,
+ "earnings_growth_y": 0.54,
+ "earnings_growth_q_y": 0.452,
  "bs_date": "2026-06-30",
  "cash": 206451000.0,
  "total_debt": 1087013000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.35
+  },
+  {
    "period": "2026-06-30",
    "value": 0.59
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 0.88
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.39
   }
  ],
- "eps_ttm": 4.2,
+ "eps_ttm": 4.67,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.18823529411764706,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.5755395683453237,
- "eps_forward_growth": 0.9115071428571428,
+ "eps_growth_last_q": 0.5340909090909092,
+ "eps_forward_growth": 0.4197002141327624,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 1.0484516037620153,
  "interest_coverage": 13.371933767252528,
  "cash_to_debt": 0.18992505149432434,
- "ev": 7431559275.257111,
- "ev_to_sales": 1.5971437274449947,
- "ev_to_ebitda": 8.848474315943452,
- "pe_ttm": 14.433419792712806,
- "pe_trailing": 14.902613,
- "p_sales": 1.407899,
- "p_fcf": 10.254487455829628,
- "p_book": 1.9932966283597486
+ "ev": 5238844275.257111,
+ "ev_to_sales": 1.125899284844032,
+ "ev_to_ebitda": 6.2376921582498115,
+ "pe_ttm": 9.602342210019698,
+ "pe_trailing": 8.918804,
+ "p_sales": 0.9279689,
+ "p_fcf": 6.822159900659491,
+ "p_book": 1.3261109720686146
 }

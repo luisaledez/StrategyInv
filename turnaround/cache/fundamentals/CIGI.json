@@ -1,40 +1,44 @@
 {
  "ticker": "CIGI",
- "fetched": "2026-10-25",
- "market_cap": 4747033901.498703,
+ "fetched": "2026-11-10",
+ "market_cap": 4890124631.49,
  "shares_out": 51103821.0,
- "price": 92.88999938964844,
+ "price": 95.69,
  "long_name": "Colliers International Group Inc.",
  "sector_y": "Real Estate",
  "industry_y": "Real Estate Services",
- "pe_trailing_y": 44.023697,
- "pe_forward": 11.17709,
+ "pe_trailing_y": 67.38733,
+ "pe_forward": 11.791104,
  "peg": 1.22,
- "p_sales_y": 0.7970687,
- "eps_trailing_y": 2.11,
- "eps_forward": 8.31075,
- "earnings_growth_y": 6.05,
- "earnings_growth_q_y": 6.111,
- "bs_date": "2026-06-30",
- "cash": 265191000.0,
- "total_debt": 3311957000.0,
- "current_debt": 303218000.0,
- "lease_obligations": 625132000.0,
- "equity": 1543643000.0,
- "net_debt": 3046766000.0,
- "ocf_ttm": 322288000.0,
- "capex_ttm": -97222000.0,
- "fcf_ttm": 225066000.0,
+ "p_sales_y": 0.7977158,
+ "eps_trailing_y": 1.42,
+ "eps_forward": 8.11544,
+ "earnings_growth_y": -0.834,
+ "earnings_growth_q_y": -0.835,
+ "bs_date": "2026-09-30",
+ "cash": 239261000.0,
+ "total_debt": 3153713000.0,
+ "current_debt": 221290000.0,
+ "lease_obligations": 626164000.0,
+ "equity": 1556612000.0,
+ "net_debt": 2914452000.0,
+ "ocf_ttm": 359979000.0,
+ "capex_ttm": -114458000.0,
+ "fcf_ttm": 245521000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 5955614000.0,
- "net_income_ttm": 107829000.0,
- "ebitda_ttm": 661202000.0,
- "ebit_ttm": 390551000.0,
- "interest_ttm": 93595000.0,
- "revenue_yoy_last_q": 0.16684611497504176,
+ "revenue_ttm": 6130159000.0,
+ "net_income_ttm": 72559000.0,
+ "ebitda_ttm": 673796000.0,
+ "ebit_ttm": 388581000.0,
+ "interest_ttm": 88767000.0,
+ "revenue_yoy_last_q": 0.11929822882677721,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1637643000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1572499000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1463098000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1347649000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.14
+  },
   {
    "period": "2026-06-30",
    "value": 0.56
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.82
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.08
   }
  ],
- "eps_ttm": 2.1,
+ "eps_ttm": 1.42,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.3726708074534162,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 6.000000000000001,
- "eps_forward_growth": 2.9575,
+ "eps_growth_last_q": -0.8292682926829268,
+ "eps_forward_growth": 4.715098591549296,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3891507489727615
+  },
   {
    "period": "2026-06-30",
    "value": 0.40388260978226376
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.39275359545293614
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.40781019390063733
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0058935839042764115,
+ "dilution_1y": 0.0031899447601682063,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 303218000.0,
- "gap_24m": 38027000.0,
- "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.607920121233753,
- "interest_coverage": 4.172776323521556,
- "cash_to_debt": 0.08007078594317499,
- "ev": 7793799901.498703,
- "ev_to_sales": 1.3086475888965778,
- "ev_to_ebitda": 11.787320518538515,
- "pe_ttm": 44.02372183270459,
- "pe_trailing": 44.023697,
- "p_sales": 0.7970687,
- "p_fcf": 21.09174154025354,
- "p_book": 3.07521486606599
+ "need_24m": 221290000.0,
+ "gap_24m": -17971000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 4.325421937797197,
+ "interest_coverage": 4.3775389502855795,
+ "cash_to_debt": 0.0758664469468211,
+ "ev": 7804576631.49,
+ "ev_to_sales": 1.2731442416893264,
+ "ev_to_ebitda": 11.582996383905513,
+ "pe_ttm": 67.39514920947092,
+ "pe_trailing": 67.38733,
+ "p_sales": 0.7977158,
+ "p_fcf": 19.917337545423813,
+ "p_book": 3.1415180092983994
 }

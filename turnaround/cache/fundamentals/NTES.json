@@ -1,0 +1,154 @@
+{
+ "ticker": "NTES",
+ "fetched": "2026-11-10",
+ "market_cap": 82034467100.32434,
+ "shares_out": 640294023.0,
+ "price": 128.1199951171875,
+ "long_name": "NetEase, Inc.",
+ "sector_y": "Communication Services",
+ "industry_y": "Electronic Gaming & Multimedia",
+ "pe_trailing_y": 17.794445,
+ "pe_forward": 11.913829,
+ "peg": 1.31,
+ "p_sales_y": 0.7035339,
+ "eps_trailing_y": 7.2,
+ "eps_forward": 10.753889,
+ "earnings_growth_y": -0.187,
+ "earnings_growth_q_y": -0.188,
+ "bs_date": "2026-06-30",
+ "cash": 175392825000.0,
+ "total_debt": 12604170000.0,
+ "current_debt": 12604170000.0,
+ "lease_obligations": 345325000.0,
+ "equity": 167090540000.0,
+ "net_debt": -162788655000.0,
+ "ocf_ttm": 51477285000.0,
+ "capex_ttm": -1478938000.0,
+ "fcf_ttm": 49998347000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -3480560000.0,
+ "stock_issuance_ttm": -3089770000.0,
+ "revenue_ttm": 116603425000.0,
+ "net_income_ttm": 32512395000.0,
+ "ebitda_ttm": 43287056000.0,
+ "ebit_ttm": 41078795000.0,
+ "interest_ttm": null,
+ "revenue_yoy_last_q": 0.07941017789401172,
+ "revenue_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 30106546000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 30591281000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 27546973000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 28358625000.0
+  },
+  {
+   "period": "2025-06-30",
+   "value": 27891664000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 10.85
+  },
+  {
+   "period": "2026-03-31",
+   "value": 16.55
+  },
+  {
+   "period": "2025-12-31",
+   "value": 9.65
+  },
+  {
+   "period": "2025-09-30",
+   "value": 13.35
+  },
+  {
+   "period": "2025-06-30",
+   "value": 13.35
+  }
+ ],
+ "eps_ttm": 50.4,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.1403699673558214,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.18726591760299627,
+ "eps_forward_growth": -0.7866291865079365,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-06-30",
+   "value": 0.7047412546095457
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.6935659869882533
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.6422620372844595
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.6409903512599783
+  },
+  {
+   "period": "2025-06-30",
+   "value": 0.6472357475695965
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 112625807000.0,
+   "eps": 52.4,
+   "net_income": 33759800000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 105295236000.0,
+   "eps": 45.95,
+   "net_income": 29697609000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 103468159000.0,
+   "eps": 45.25,
+   "net_income": 29416552000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 96495809000.0,
+   "eps": 30.85,
+   "net_income": 20337600000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": 0.011136972692384228,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 12604170000.0,
+ "gap_24m": -162788655000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -3.760677441311786,
+ "interest_coverage": null,
+ "cash_to_debt": 13.915460121531208,
+ "ev": -80754187899.67566,
+ "ev_to_sales": -0.6925541672525971,
+ "ev_to_ebitda": -1.8655504754048338,
+ "pe_ttm": 2.523175149056978,
+ "pe_trailing": 17.794445,
+ "p_sales": 0.7035339,
+ "p_fcf": 1.6407435849894065,
+ "p_book": 0.4909581781250114
+}

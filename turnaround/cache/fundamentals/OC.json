@@ -1,40 +1,44 @@
 {
  "ticker": "OC",
- "fetched": "2026-10-24",
- "market_cap": 9029731324.45118,
- "shares_out": 79048683.0,
- "price": 114.2300033569336,
+ "fetched": "2026-11-10",
+ "market_cap": 9475935561.115143,
+ "shares_out": 77127914.0,
+ "price": 122.86000061035156,
  "long_name": "Owens Corning",
  "sector_y": "Industrials",
  "industry_y": "Building Products & Equipment",
  "pe_trailing_y": null,
- "pe_forward": 10.4693575,
+ "pe_forward": 14.268328,
  "peg": 1.51,
- "p_sales_y": 0.9170033,
- "eps_trailing_y": -5.07,
- "eps_forward": 10.91089,
- "earnings_growth_y": -0.342,
- "earnings_growth_q_y": -0.377,
- "bs_date": "2026-06-30",
- "cash": 271000000.0,
- "total_debt": 5729000000.0,
- "current_debt": 1087000000.0,
- "lease_obligations": 845000000.0,
- "equity": 3772000000.0,
- "net_debt": 5458000000.0,
- "ocf_ttm": 1752000000.0,
- "capex_ttm": -855000000.0,
- "fcf_ttm": 897000000.0,
+ "p_sales_y": 0.9817588,
+ "eps_trailing_y": -2.2,
+ "eps_forward": 8.61068,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 179000000.0,
+ "total_debt": 5383000000.0,
+ "current_debt": 727000000.0,
+ "lease_obligations": 860000000.0,
+ "equity": 3163000000.0,
+ "net_debt": 5204000000.0,
+ "ocf_ttm": 1647000000.0,
+ "capex_ttm": -880000000.0,
+ "fcf_ttm": 767000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -682000000.0,
- "stock_issuance_ttm": -682000000.0,
- "revenue_ttm": 9847000000.0,
- "net_income_ttm": -671000000.0,
- "ebitda_ttm": 762000000.0,
- "ebit_ttm": 50000000.0,
- "interest_ttm": 264000000.0,
- "revenue_yoy_last_q": 0.003276301419730565,
+ "buybacks_ttm": -738000000.0,
+ "stock_issuance_ttm": -738000000.0,
+ "revenue_ttm": 9652000000.0,
+ "net_income_ttm": -427000000.0,
+ "ebitda_ttm": 929000000.0,
+ "ebit_ttm": 226000000.0,
+ "interest_ttm": 261000000.0,
+ "revenue_yoy_last_q": -0.07265275707898655,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2489000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2756000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2684000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2747000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -3.18
+  },
   {
    "period": "2026-06-30",
    "value": 2.8
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -5.92
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4.25
   }
  ],
- "eps_ttm": -8.07,
+ "eps_ttm": -5.33,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -1.8439620081411126,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.3411764705882353,
+ "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.24708718360787466
+  },
   {
    "period": "2026-06-30",
    "value": 0.28773584905660377
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.28204172876304023
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.312340735347652
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.055023923444976086,
+ "dilution_1y": -0.062043795620437936,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 1087000000.0,
- "gap_24m": 816000000.0,
+ "need_24m": 727000000.0,
+ "gap_24m": 548000000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 7.162729658792651,
- "interest_coverage": 0.1893939393939394,
- "cash_to_debt": 0.04730319427474254,
- "ev": 14487731324.45118,
- "ev_to_sales": 1.4712837741902285,
- "ev_to_ebitda": 19.012770766996297,
+ "net_debt_to_ebitda": 5.601722282023681,
+ "interest_coverage": 0.8659003831417624,
+ "cash_to_debt": 0.03325283299275497,
+ "ev": 14679935561.115143,
+ "ev_to_sales": 1.520921628793529,
+ "ev_to_ebitda": 15.801868203568507,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 0.9170033,
- "p_fcf": 10.066590105296743,
- "p_book": 2.3938842323571525
+ "p_sales": 0.9817588,
+ "p_fcf": 12.354544408233563,
+ "p_book": 2.995869605158123
 }

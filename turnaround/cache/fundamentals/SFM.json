@@ -1,40 +1,44 @@
 {
  "ticker": "SFM",
- "fetched": "2026-10-24",
- "market_cap": 6178587831.698418,
- "shares_out": 93247625.0,
- "price": 66.26000213623047,
+ "fetched": "2026-11-10",
+ "market_cap": 4572894212.182999,
+ "shares_out": 92232635.0,
+ "price": 49.58000183105469,
  "long_name": "Sprouts Farmers Market, Inc.",
  "sector_y": "Consumer Defensive",
  "industry_y": "Grocery Stores",
- "pe_trailing_y": 12.669216,
- "pe_forward": 11.187258,
- "peg": 1.43,
- "p_sales_y": 0.68619686,
+ "pe_trailing_y": 9.479924,
+ "pe_forward": 11.295291,
+ "peg": 1.53,
+ "p_sales_y": 0.5020527,
  "eps_trailing_y": 5.23,
- "eps_forward": 5.92281,
- "earnings_growth_y": 0.015,
- "earnings_growth_q_y": -0.034,
- "bs_date": "2026-06-30",
- "cash": 223928000.0,
- "total_debt": 2106293000.0,
- "current_debt": 182320000.0,
- "lease_obligations": 2106293000.0,
- "equity": 1500868000.0,
- "net_debt": 1882365000.0,
- "ocf_ttm": 674656000.0,
- "capex_ttm": -317855000.0,
- "fcf_ttm": 356801000.0,
+ "eps_forward": 4.38944,
+ "earnings_growth_y": -0.008,
+ "earnings_growth_q_y": -0.056,
+ "bs_date": "2026-09-30",
+ "cash": 228664000.0,
+ "total_debt": 2235561000.0,
+ "current_debt": 196062000.0,
+ "lease_obligations": 2235561000.0,
+ "equity": 1529328000.0,
+ "net_debt": 2006897000.0,
+ "ocf_ttm": 693654000.0,
+ "capex_ttm": -356396000.0,
+ "fcf_ttm": 337258000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -389702000.0,
- "stock_issuance_ttm": -389702000.0,
- "revenue_ttm": 9004104000.0,
- "net_income_ttm": 502860000.0,
- "ebitda_ttm": 1001176000.0,
- "ebit_ttm": 673172000.0,
- "interest_ttm": 1889000.0,
- "revenue_yoy_last_q": 0.047375441434349685,
+ "buybacks_ttm": -429222000.0,
+ "stock_issuance_ttm": -429222000.0,
+ "revenue_ttm": 9108394000.0,
+ "net_income_ttm": 496165000.0,
+ "ebitda_ttm": 1006779000.0,
+ "ebit_ttm": 667485000.0,
+ "interest_ttm": 2924000.0,
+ "revenue_yoy_last_q": 0.04739528183127839,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2304720000.0
+  },
   {
    "period": "2026-06-30",
    "value": 2325804000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 2200430000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2220602000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.21
+  },
   {
    "period": "2026-06-30",
    "value": 1.37
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.22
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.35
   }
  ],
- "eps_ttm": 5.22,
+ "eps_ttm": 5.21,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.4159999999999999,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.014814814814814836,
- "eps_forward_growth": 0.13463793103448274,
+ "eps_growth_last_q": -0.008196721311475419,
+ "eps_forward_growth": -0.1574971209213053,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.38216963448922214
+  },
   {
    "period": "2026-06-30",
    "value": 0.3872415732366098
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.38676576850888233
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3884532212436087
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.041393548007003456,
+ "dilution_1y": -0.04902208007538067,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 182320000.0,
- "gap_24m": -41608000.0,
+ "need_24m": 196062000.0,
+ "gap_24m": -32602000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 1.880153938967774,
- "interest_coverage": 356.36421386977236,
- "cash_to_debt": 0.10631379394984458,
- "ev": 8060952831.698418,
- "ev_to_sales": 0.8952531902894966,
- "ev_to_ebitda": 8.051484286177873,
- "pe_ttm": 12.286894626135341,
- "pe_trailing": 12.669216,
- "p_sales": 0.68619686,
- "p_fcf": 17.31662139875846,
- "p_book": 4.116676371072218
+ "net_debt_to_ebitda": 1.9933838508749189,
+ "interest_coverage": 228.2780437756498,
+ "cash_to_debt": 0.10228484035998123,
+ "ev": 6579791212.182999,
+ "ev_to_sales": 0.7223876363037215,
+ "ev_to_ebitda": 6.535487144828208,
+ "pe_ttm": 9.216478816891556,
+ "pe_trailing": 9.479924,
+ "p_sales": 0.5020527,
+ "p_fcf": 13.559038517049258,
+ "p_book": 2.990133059868778
 }

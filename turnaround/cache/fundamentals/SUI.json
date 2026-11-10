@@ -1,40 +1,44 @@
 {
  "ticker": "SUI",
- "fetched": "2026-10-24",
- "market_cap": 14645346809.485085,
- "shares_out": 121800957.0,
- "price": 120.23999786376953,
+ "fetched": "2026-11-10",
+ "market_cap": 14363285007.285278,
+ "shares_out": 119365784.0,
+ "price": 120.33000183105469,
  "long_name": "Sun Communities, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Residential",
- "pe_trailing_y": 91.090904,
- "pe_forward": 37.52188,
+ "pe_trailing_y": 49.114285,
+ "pe_forward": 39.76826,
  "peg": 9.42,
- "p_sales_y": 6.5156956,
- "eps_trailing_y": 1.32,
- "eps_forward": 3.20453,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 165200000.0,
- "total_debt": 4052200000.0,
+ "p_sales_y": 6.391323,
+ "eps_trailing_y": 2.45,
+ "eps_forward": 3.02578,
+ "earnings_growth_y": 14.155,
+ "earnings_growth_q_y": 13.2,
+ "bs_date": "2026-09-30",
+ "cash": 699300000.0,
+ "total_debt": 3776200000.0,
  "current_debt": 1470100000.0,
  "lease_obligations": null,
- "equity": 5519400000.0,
- "net_debt": 3887000000.0,
- "ocf_ttm": 899500000.0,
+ "equity": 5223000000.0,
+ "net_debt": 3076900000.0,
+ "ocf_ttm": 856900000.0,
  "capex_ttm": null,
- "fcf_ttm": 899500000.0,
+ "fcf_ttm": 856900000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -574400000.0,
- "stock_issuance_ttm": -518400000.0,
- "revenue_ttm": 2163700000.0,
- "net_income_ttm": -868300000.0,
- "ebitda_ttm": 811100000.0,
- "ebit_ttm": 297900000.0,
- "interest_ttm": 157200000.0,
- "revenue_yoy_last_q": -0.002294056308654868,
+ "buybacks_ttm": -569400000.0,
+ "stock_issuance_ttm": -513500000.0,
+ "revenue_ttm": 2036400000.0,
+ "net_income_ttm": -756100000.0,
+ "ebitda_ttm": 947600000.0,
+ "ebit_ttm": 434900000.0,
+ "interest_ttm": 154000000.0,
+ "revenue_yoy_last_q": 0.025612472160356337,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 552600000.0
+  },
   {
    "period": "2026-06-30",
    "value": 478400000.0
@@ -49,14 +53,14 @@
   },
   {
    "period": "2025-09-30",
-   "value": 679900000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 479500000.0
+   "value": 538800000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.0
+  },
   {
    "period": "2026-06-30",
    "value": -8.08
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.07
-  },
-  {
-   "period": "2025-06-30",
-   "value": 10.02
   }
  ],
- "eps_ttm": -7.09,
+ "eps_ttm": -6.16,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 14.267605633802818,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -1.8063872255489022,
+ "eps_growth_last_q": 13.285714285714285,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5906623235613464
+  },
   {
    "period": "2026-06-30",
    "value": 0.5739966555183946
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.5480217679070452
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.5607924921793535
+   "value": 0.5872308834446919
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.026621972708739783,
+ "dilution_1y": -0.029658831905887473,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 1470100000.0,
- "gap_24m": 1304900000.0,
+ "gap_24m": 770800000.0,
  "survival_gate": "REVIEW",
- "net_debt_to_ebitda": 4.792257428183948,
- "interest_coverage": 1.8950381679389312,
- "cash_to_debt": 0.040767977888554366,
- "ev": 18532346809.485085,
- "ev_to_sales": 8.56511845888297,
- "ev_to_ebitda": 22.848411798156928,
+ "net_debt_to_ebitda": 3.2470451667370197,
+ "interest_coverage": 2.824025974025974,
+ "cash_to_debt": 0.18518616598697102,
+ "ev": 17440185007.28528,
+ "ev_to_sales": 8.564223633512707,
+ "ev_to_ebitda": 18.404585275733726,
  "pe_ttm": null,
- "pe_trailing": 91.090904,
- "p_sales": 6.5156956,
- "p_fcf": 16.281652928832777,
- "p_book": 2.653430954358279
+ "pe_trailing": 49.114285,
+ "p_sales": 6.391323,
+ "p_fcf": 16.7619150510973,
+ "p_book": 2.7500067025244643
 }

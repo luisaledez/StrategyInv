@@ -1,40 +1,44 @@
 {
  "ticker": "NICE",
- "fetched": "2026-10-25",
- "market_cap": 7100807259.722443,
- "shares_out": 58597188.0,
- "price": 121.18000030517578,
+ "fetched": "2026-11-10",
+ "market_cap": 5545585023.624947,
+ "shares_out": 57360209.0,
+ "price": 96.68000030517578,
  "long_name": "NICE Ltd.",
  "sector_y": "Technology",
  "industry_y": "Software - Application",
- "pe_trailing_y": 17.639011,
- "pe_forward": 9.560734,
- "peg": 0.81,
- "p_sales_y": 2.3134148,
- "eps_trailing_y": 6.87,
- "eps_forward": 12.67476,
- "earnings_growth_y": -0.527,
- "earnings_growth_q_y": -0.556,
- "bs_date": "2026-06-30",
- "cash": 354690000.0,
- "total_debt": 88219000.0,
- "current_debt": 14032000.0,
- "lease_obligations": 88219000.0,
- "equity": 3778005000.0,
- "net_debt": -266471000.0,
- "ocf_ttm": 672059000.0,
- "capex_ttm": -110596000.0,
- "fcf_ttm": 561463000.0,
+ "pe_trailing_y": 15.644013,
+ "pe_forward": 7.632039,
+ "peg": 0.64,
+ "p_sales_y": 1.772802,
+ "eps_trailing_y": 6.18,
+ "eps_forward": 12.66765,
+ "earnings_growth_y": -0.301,
+ "earnings_growth_q_y": -0.344,
+ "bs_date": "2026-09-30",
+ "cash": 350936000.0,
+ "total_debt": 83749000.0,
+ "current_debt": 13188000.0,
+ "lease_obligations": 83749000.0,
+ "equity": 3846294000.0,
+ "net_debt": -267187000.0,
+ "ocf_ttm": 579287000.0,
+ "capex_ttm": -112389000.0,
+ "fcf_ttm": 466898000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -516947000.0,
- "stock_issuance_ttm": -516947000.0,
- "revenue_ttm": 3069405000.0,
- "net_income_ttm": 425448000.0,
- "ebitda_ttm": 802954000.0,
- "ebit_ttm": 567747000.0,
+ "buybacks_ttm": -548587000.0,
+ "stock_issuance_ttm": -548587000.0,
+ "revenue_ttm": 3128147000.0,
+ "net_income_ttm": 375670000.0,
+ "ebitda_ttm": 711356000.0,
+ "ebit_ttm": 527570000.0,
  "interest_ttm": null,
- "revenue_yoy_last_q": 0.07648284327216293,
+ "revenue_yoy_last_q": 0.08024874350921252,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 790741000.0
+  },
   {
    "period": "2026-06-30",
    "value": 782293000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 731999000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 726712000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1.6
+  },
   {
    "period": "2026-06-30",
    "value": 1.4
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 2.29
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.96
   }
  ],
- "eps_ttm": 6.87,
+ "eps_ttm": 6.18,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.43047337278106523,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.527027027027027,
- "eps_forward_growth": 0.8449432314410479,
+ "eps_growth_last_q": -0.3013100436681222,
+ "eps_forward_growth": 1.0497815533980583,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.6237250882400179
+  },
   {
    "period": "2026-06-30",
    "value": 0.6404365116395008
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.6681279619234453
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.6675423001133874
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.05095741613251581,
+ "dilution_1y": -0.07099158136156769,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 14032000.0,
- "gap_24m": -340658000.0,
+ "need_24m": 13188000.0,
+ "gap_24m": -337748000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -0.3318633446000643,
+ "net_debt_to_ebitda": -0.3756023706835958,
  "interest_coverage": null,
- "cash_to_debt": 4.020562463868328,
- "ev": 6834336259.722443,
- "ev_to_sales": 2.226599702457787,
- "ev_to_ebitda": 8.511491641765833,
- "pe_ttm": 16.690188365493416,
- "pe_trailing": 17.639011,
- "p_sales": 2.3134148,
- "p_fcf": 12.646972747487265,
- "p_book": 1.879512403959879
+ "cash_to_debt": 4.190330630813502,
+ "ev": 5278398023.624947,
+ "ev_to_sales": 1.6873881002475097,
+ "ev_to_ebitda": 7.420191892139726,
+ "pe_ttm": 14.761852220366137,
+ "pe_trailing": 15.644013,
+ "p_sales": 1.772802,
+ "p_fcf": 11.877508628490476,
+ "p_book": 1.4417995669662658
 }

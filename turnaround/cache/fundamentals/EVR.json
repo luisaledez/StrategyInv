@@ -1,40 +1,44 @@
 {
  "ticker": "EVR",
- "fetched": "2026-10-24",
- "market_cap": 9686745310.42212,
- "shares_out": 38457778.0,
- "price": 251.8800048828125,
+ "fetched": "2026-11-10",
+ "market_cap": 11087532899.367676,
+ "shares_out": 37980760.0,
+ "price": 291.92498779296875,
  "long_name": "Evercore Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Capital Markets",
- "pe_trailing_y": 14.182432,
- "pe_forward": 12.094521,
- "peg": 1.14,
- "p_sales_y": 2.0566368,
- "eps_trailing_y": 17.76,
- "eps_forward": 20.82596,
- "earnings_growth_y": -0.017,
- "earnings_growth_q_y": -0.02,
- "bs_date": "2026-06-30",
- "cash": 1474843000.0,
- "total_debt": 1093142000.0,
- "current_debt": 65251000.0,
- "lease_obligations": 553163000.0,
- "equity": 1858556000.0,
- "net_debt": -381701000.0,
- "ocf_ttm": 1668035000.0,
- "capex_ttm": -42129000.0,
- "fcf_ttm": 1625906000.0,
+ "pe_trailing_y": 15.969638,
+ "pe_forward": 13.654837,
+ "peg": 1.15,
+ "p_sales_y": 2.2914786,
+ "eps_trailing_y": 18.28,
+ "eps_forward": 21.37887,
+ "earnings_growth_y": 0.152,
+ "earnings_growth_q_y": 0.112,
+ "bs_date": "2026-09-30",
+ "cash": 1975830000.0,
+ "total_debt": 1218246000.0,
+ "current_debt": 67542000.0,
+ "lease_obligations": 678119000.0,
+ "equity": 1942812000.0,
+ "net_debt": -757584000.0,
+ "ocf_ttm": 1766770000.0,
+ "capex_ttm": -41589000.0,
+ "fcf_ttm": 1725181000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -948098000.0,
- "stock_issuance_ttm": -948098000.0,
- "revenue_ttm": 4708938000.0,
- "net_income_ttm": 745049000.0,
+ "buybacks_ttm": -1063068000.0,
+ "stock_issuance_ttm": -1063068000.0,
+ "revenue_ttm": 4838635000.0,
+ "net_income_ttm": 761250000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
- "interest_ttm": 33050000.0,
- "revenue_yoy_last_q": 0.187531031505223,
+ "interest_ttm": 34236000.0,
+ "revenue_yoy_last_q": 0.1248426195802419,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1168581000.0
+  },
   {
    "period": "2026-06-30",
    "value": 990199000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1038884000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 833830000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3.93
+  },
   {
    "period": "2026-06-30",
    "value": 2.32
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 3.41
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.36
   }
  ],
- "eps_ttm": 17.689999999999998,
+ "eps_ttm": 18.21,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.5473568281938326,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.016949152542372947,
- "eps_forward_growth": 0.17727303561334096,
+ "eps_growth_last_q": 0.15249266862170097,
+ "eps_forward_growth": 0.17401812191103772,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.003596873630275055,
+ "dilution_1y": -0.015140276809695541,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 65251000.0,
- "gap_24m": -1409592000.0,
+ "need_24m": 67542000.0,
+ "gap_24m": -1908288000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
- "cash_to_debt": 1.3491778744207066,
- "ev": 9305044310.42212,
- "ev_to_sales": 1.9760388245549463,
+ "cash_to_debt": 1.6218645495244803,
+ "ev": 10329948899.367676,
+ "ev_to_sales": 2.134889054323725,
  "ev_to_ebitda": null,
- "pe_ttm": 13.001487567156145,
- "pe_trailing": 14.182432,
- "p_sales": 2.0566368,
- "p_fcf": 5.957752361097209,
- "p_book": 5.211973871339964
+ "pe_ttm": 14.564903644489558,
+ "pe_trailing": 15.969638,
+ "p_sales": 2.2914786,
+ "p_fcf": 6.426880947197816,
+ "p_book": 5.706951006771461
 }

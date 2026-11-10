@@ -1,20 +1,20 @@
 {
  "ticker": "USLM",
- "fetched": "2026-10-25",
- "market_cap": 3204777004.465019,
- "shares_out": 28688363.0,
- "price": 111.70999908447266,
+ "fetched": "2026-11-10",
+ "market_cap": 3401001253.399826,
+ "shares_out": 28688327.0,
+ "price": 118.55000305175781,
  "long_name": "United States Lime & Minerals, Inc.",
  "sector_y": "Basic Materials",
  "industry_y": "Building Materials",
- "pe_trailing_y": 23.92077,
- "pe_forward": 19.598246,
+ "pe_trailing_y": 25.54957,
+ "pe_forward": 19.692692,
  "peg": null,
- "p_sales_y": 8.502652,
- "eps_trailing_y": 4.67,
- "eps_forward": 5.7,
- "earnings_growth_y": 0.122,
- "earnings_growth_q_y": 0.119,
+ "p_sales_y": 8.924475,
+ "eps_trailing_y": 4.64,
+ "eps_forward": 6.02,
+ "earnings_growth_y": -0.022,
+ "earnings_growth_q_y": -0.019,
  "bs_date": "2026-06-30",
  "cash": 402642000.0,
  "total_debt": 3246000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 1.32
+  },
+  {
    "period": "2026-06-30",
    "value": 1.2
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.35
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.07
   }
  ],
- "eps_ttm": 4.67,
+ "eps_ttm": 4.640000000000001,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.23218997361477567,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.12149532710280364,
- "eps_forward_growth": 0.22055674518201296,
+ "eps_growth_last_q": -0.022222222222222254,
+ "eps_forward_growth": 0.29741379310344795,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": -2.1631065857885616,
  "interest_coverage": null,
  "cash_to_debt": 124.04251386321627,
- "ev": 2805381004.465019,
- "ev_to_sales": 7.443007055874718,
- "ev_to_ebitda": 15.19378793579408,
- "pe_ttm": 23.84098706668516,
- "pe_trailing": 23.92077,
- "p_sales": 8.502652,
- "p_fcf": 34.905481843148785,
- "p_book": 4.606344987452075
+ "ev": 3001605253.399826,
+ "ev_to_sales": 7.96361315787333,
+ "ev_to_ebitda": 16.256527585570982,
+ "pe_ttm": 25.30073911012123,
+ "pe_trailing": 25.54957,
+ "p_sales": 8.924475,
+ "p_fcf": 37.0426982388096,
+ "p_book": 4.888385386593131
 }

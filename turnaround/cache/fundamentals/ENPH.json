@@ -1,40 +1,44 @@
 {
  "ticker": "ENPH",
- "fetched": "2026-10-25",
- "market_cap": 4175770927.2091827,
- "shares_out": 132144648.0,
- "price": 31.600000381469727,
+ "fetched": "2026-11-10",
+ "market_cap": 3847699165.065222,
+ "shares_out": 132314277.0,
+ "price": 29.079999923706055,
  "long_name": "Enphase Energy, Inc.",
  "sector_y": "Technology",
  "industry_y": "Solar",
- "pe_trailing_y": 31.6,
- "pe_forward": 14.824753,
+ "pe_trailing_y": 43.402985,
+ "pe_forward": 20.29125,
  "peg": 0.75,
- "p_sales_y": 3.1432176,
- "eps_trailing_y": 1.0,
- "eps_forward": 2.13157,
- "earnings_growth_y": -0.035,
- "earnings_growth_q_y": -0.026,
- "bs_date": "2026-06-30",
- "cash": 937708000.0,
- "total_debt": 581939000.0,
- "current_debt": 9103000.0,
- "lease_obligations": 9103000.0,
- "equity": 1181836000.0,
- "net_debt": -355769000.0,
- "ocf_ttm": 204691000.0,
- "capex_ttm": -52064000.0,
- "fcf_ttm": 152627000.0,
+ "p_sales_y": 3.1762311,
+ "eps_trailing_y": 0.67,
+ "eps_forward": 1.43313,
+ "earnings_growth_y": -0.652,
+ "earnings_growth_q_y": -0.649,
+ "bs_date": "2026-09-30",
+ "cash": 931846000.0,
+ "total_debt": 581850000.0,
+ "current_debt": 8687000.0,
+ "lease_obligations": 8687000.0,
+ "equity": 1242036000.0,
+ "net_debt": -349996000.0,
+ "ocf_ttm": 190863000.0,
+ "capex_ttm": -55492000.0,
+ "fcf_ttm": 135371000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 0.0,
- "revenue_ttm": 1328502000.0,
- "net_income_ttm": 134024000.0,
- "ebitda_ttm": 248030000.0,
- "ebit_ttm": 166374000.0,
- "interest_ttm": 2619000.0,
- "revenue_yoy_last_q": -0.19633322594058156,
+ "revenue_ttm": 1211404000.0,
+ "net_income_ttm": 90773000.0,
+ "ebitda_ttm": 166824000.0,
+ "ebit_ttm": 85281000.0,
+ "interest_ttm": 2116000.0,
+ "revenue_yoy_last_q": -0.2853077404751637,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 293329000.0
+  },
   {
    "period": "2026-06-30",
    "value": 291854000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 410427000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 363153000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.17
+  },
   {
    "period": "2026-06-30",
    "value": 0.27
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.5
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.28
   }
  ],
- "eps_ttm": 1.0,
+ "eps_ttm": 0.67,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.72,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.0357142857142857,
- "eps_forward_growth": 1.13157,
+ "eps_growth_last_q": -0.6599999999999999,
+ "eps_forward_growth": 1.1389999999999998,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.43336322013847933
+  },
   {
    "period": "2026-06-30",
    "value": 0.5996628451211907
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.4781337485106974
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.46947980603216827
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.010670358585240569,
+ "dilution_1y": 0.011096760387928173,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 9103000.0,
- "gap_24m": -928605000.0,
+ "need_24m": 8687000.0,
+ "gap_24m": -923159000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -1.434378905777527,
- "interest_coverage": 63.52577319587629,
- "cash_to_debt": 1.6113510178901913,
- "ev": 3820001927.2091827,
- "ev_to_sales": 2.8754205317035146,
- "ev_to_ebitda": 15.401370508443264,
- "pe_ttm": 31.15688926766238,
- "pe_trailing": 31.6,
- "p_sales": 3.1432176,
- "p_fcf": 27.359319957865797,
- "p_book": 3.533291359553426
+ "net_debt_to_ebitda": -2.097995492255311,
+ "interest_coverage": 40.30293005671078,
+ "cash_to_debt": 1.6015227292257455,
+ "ev": 3497703165.065222,
+ "ev_to_sales": 2.887313534597229,
+ "ev_to_ebitda": 20.96642668360201,
+ "pe_ttm": 42.388145870084955,
+ "pe_trailing": 43.402985,
+ "p_sales": 3.1762311,
+ "p_fcf": 28.423363682511187,
+ "p_book": 3.097896651196279
 }

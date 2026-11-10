@@ -1,40 +1,44 @@
 {
  "ticker": "TRUP",
- "fetched": "2026-10-25",
- "market_cap": 1278952225.7280884,
- "shares_out": 43620472.0,
- "price": 29.31999969482422,
+ "fetched": "2026-11-10",
+ "market_cap": 1535888614.0,
+ "shares_out": 43264468.0,
+ "price": 35.5,
  "long_name": "Trupanion, Inc.",
  "sector_y": "Financial Services",
  "industry_y": "Insurance - Property & Casualty",
- "pe_trailing_y": 55.32076,
- "pe_forward": 6.8826284,
+ "pe_trailing_y": 58.19672,
+ "pe_forward": 8.333333,
  "peg": null,
- "p_sales_y": 0.84099764,
- "eps_trailing_y": 0.53,
+ "p_sales_y": 0.9849045,
+ "eps_trailing_y": 0.61,
  "eps_forward": 4.26,
- "earnings_growth_y": -0.289,
- "earnings_growth_q_y": -0.274,
- "bs_date": "2026-06-30",
- "cash": 398491000.0,
- "total_debt": 106909000.0,
+ "earnings_growth_y": 0.615,
+ "earnings_growth_q_y": 0.58,
+ "bs_date": "2026-09-30",
+ "cash": 396837000.0,
+ "total_debt": 104472000.0,
  "current_debt": 10000000.0,
  "lease_obligations": null,
- "equity": 409670000.0,
- "net_debt": -291582000.0,
- "ocf_ttm": 94077000.0,
- "capex_ttm": -11897000.0,
- "fcf_ttm": 82180000.0,
+ "equity": 399203000.0,
+ "net_debt": -292365000.0,
+ "ocf_ttm": 95552000.0,
+ "capex_ttm": -8842000.0,
+ "fcf_ttm": 86710000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -3000000.0,
- "stock_issuance_ttm": -3000000.0,
- "revenue_ttm": 1520756000.0,
- "net_income_ttm": 23214000.0,
- "ebitda_ttm": 52256000.0,
- "ebit_ttm": 36794000.0,
- "interest_ttm": 10573000.0,
- "revenue_yoy_last_q": 0.11137383788186916,
+ "buybacks_ttm": -27498000.0,
+ "stock_issuance_ttm": -27498000.0,
+ "revenue_ttm": 1559429000.0,
+ "net_income_ttm": 26623000.0,
+ "ebitda_ttm": 54705000.0,
+ "ebit_ttm": 39467000.0,
+ "interest_ttm": 9599000.0,
+ "revenue_yoy_last_q": 0.10539899705657918,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 405593000.0
+  },
   {
    "period": "2026-06-30",
    "value": 392934000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 366920000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 353557000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.21
+  },
   {
    "period": "2026-06-30",
    "value": 0.16
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.13
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.22
   }
  ],
- "eps_ttm": 0.53,
+ "eps_ttm": 0.61,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": -0.2727272727272727,
- "eps_forward_growth": 7.037735849056602,
+ "eps_growth_last_q": 0.6153846153846152,
+ "eps_forward_growth": 5.983606557377049,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.17135404210624935
+  },
   {
    "period": "2026-06-30",
    "value": 0.1657606620959245
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.16367055488934917
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1550725908410808
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.020558613737878817,
+ "dilution_1y": 0.0016699489231180031,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 10000000.0,
- "gap_24m": -388491000.0,
+ "gap_24m": -386837000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -5.579875995101041,
- "interest_coverage": 3.479996216778587,
- "cash_to_debt": 3.7273849722661327,
- "ev": 987370225.7280884,
- "ev_to_sales": 0.6492627520312847,
- "ev_to_ebitda": 18.894868067362378,
- "pe_ttm": 55.094004726806595,
- "pe_trailing": 55.32076,
- "p_sales": 0.84099764,
- "p_fcf": 15.562816083330352,
- "p_book": 3.12190842807159
+ "net_debt_to_ebitda": -5.344392651494379,
+ "interest_coverage": 4.111574122304407,
+ "cash_to_debt": 3.798501033769814,
+ "ev": 1243523614.0,
+ "ev_to_sales": 0.7974223988395752,
+ "ev_to_ebitda": 22.731443451238462,
+ "pe_ttm": 57.69029087630996,
+ "pe_trailing": 58.19672,
+ "p_sales": 0.9849045,
+ "p_fcf": 17.71293523238381,
+ "p_book": 3.8473874545030973
 }

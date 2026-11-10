@@ -1,40 +1,44 @@
 {
  "ticker": "WHR",
- "fetched": "2026-10-24",
- "market_cap": 1832754555.3745422,
- "shares_out": 65199378.0,
- "price": 28.110000610351562,
+ "fetched": "2026-11-10",
+ "market_cap": 2096343673.6674957,
+ "shares_out": 65736711.0,
+ "price": 31.889999389648438,
  "long_name": "Whirlpool Corporation",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Furnishings, Fixtures & Appliances",
- "pe_trailing_y": 9.246711,
- "pe_forward": 9.722539,
+ "pe_trailing_y": null,
+ "pe_forward": 31.969925,
  "peg": 1.04,
- "p_sales_y": 0.12283055,
- "eps_trailing_y": 3.04,
- "eps_forward": 2.89122,
- "earnings_growth_y": -0.011,
- "earnings_growth_q_y": 0.354,
- "bs_date": "2026-06-30",
- "cash": 1239000000.0,
- "total_debt": 8057000000.0,
- "current_debt": 228000000.0,
- "lease_obligations": 989000000.0,
- "equity": 3933000000.0,
- "net_debt": 6818000000.0,
- "ocf_ttm": 225000000.0,
- "capex_ttm": -554000000.0,
- "fcf_ttm": -329000000.0,
+ "p_sales_y": 0.14393023,
+ "eps_trailing_y": -2.18,
+ "eps_forward": 0.9975,
+ "earnings_growth_y": null,
+ "earnings_growth_q_y": null,
+ "bs_date": "2026-09-30",
+ "cash": 1103000000.0,
+ "total_debt": 7715000000.0,
+ "current_debt": 14000000.0,
+ "lease_obligations": 863000000.0,
+ "equity": 3726000000.0,
+ "net_debt": 6612000000.0,
+ "ocf_ttm": 313000000.0,
+ "capex_ttm": -562000000.0,
+ "fcf_ttm": -249000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": 0.0,
  "stock_issuance_ttm": 524000000.0,
- "revenue_ttm": 14921000000.0,
- "net_income_ttm": 187000000.0,
- "ebitda_ttm": 982000000.0,
- "ebit_ttm": 622000000.0,
- "interest_ttm": 322000000.0,
- "revenue_yoy_last_q": -0.06785051683010868,
+ "revenue_ttm": 14565000000.0,
+ "net_income_ttm": -123000000.0,
+ "ebitda_ttm": 797000000.0,
+ "ebit_ttm": 415000000.0,
+ "interest_ttm": 347000000.0,
+ "revenue_yoy_last_q": -0.08827175799652864,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 3677000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 3517000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 4033000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 3773000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -3.8
+  },
   {
    "period": "2026-06-30",
    "value": 1.15
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.29
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1.17
   }
  ],
- "eps_ttm": 2.92,
+ "eps_ttm": -2.17,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
- "eps_growth_last_q": -0.017094017094017144,
- "eps_forward_growth": -0.009856164383561627,
+ "eps_growth_last_q": -3.945736434108527,
+ "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.1286374762034267
+  },
   {
    "period": "2026-06-30",
    "value": 0.12567529144156953
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.14728489957847757
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.1616750596342433
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 2,
- "dilution_1y": 0.16567184727290707,
- "fcf_burn_annual": 329000000.0,
- "runway_months": 45.191489361702125,
- "need_24m": 886000000.0,
- "gap_24m": -353000000.0,
+ "dilution_1y": 0.18079790736847956,
+ "fcf_burn_annual": 249000000.0,
+ "runway_months": 53.1566265060241,
+ "need_24m": 512000000.0,
+ "gap_24m": -591000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 6.942973523421589,
- "interest_coverage": 1.9316770186335404,
- "cash_to_debt": 0.15377932232841007,
- "ev": 8650754555.374542,
- "ev_to_sales": 0.5797704279454824,
- "ev_to_ebitda": 8.809322357815216,
- "pe_ttm": 9.800826499329103,
- "pe_trailing": 9.246711,
- "p_sales": 0.12283055,
+ "net_debt_to_ebitda": 8.296110414052698,
+ "interest_coverage": 1.1959654178674353,
+ "cash_to_debt": 0.14296824368114064,
+ "ev": 8708343673.667496,
+ "ev_to_sales": 0.5978952058817367,
+ "ev_to_ebitda": 10.92640360560539,
+ "pe_ttm": null,
+ "pe_trailing": null,
+ "p_sales": 0.14393023,
  "p_fcf": null,
- "p_book": 0.4659940389968325
+ "p_book": 0.5626257846665313
 }

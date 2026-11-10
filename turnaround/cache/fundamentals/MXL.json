@@ -1,40 +1,44 @@
 {
  "ticker": "MXL",
- "fetched": "2026-10-25",
- "market_cap": 5755389817.827904,
+ "fetched": "2026-11-10",
+ "market_cap": 4820343240.036827,
  "shares_out": 90693191.0,
- "price": 63.459999084472656,
+ "price": 53.150001525878906,
  "long_name": "MaxLinear, Inc.",
  "sector_y": "Technology",
  "industry_y": "Semiconductors",
  "pe_trailing_y": null,
- "pe_forward": 14.760165,
+ "pe_forward": 12.362162,
  "peg": 0.39,
- "p_sales_y": 8.713317,
+ "p_sales_y": 7.2977123,
  "eps_trailing_y": -0.33,
  "eps_forward": 4.29941,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 64814000.0,
- "total_debt": 148197000.0,
- "current_debt": 8806000.0,
- "lease_obligations": 24271000.0,
- "equity": 484840000.0,
- "net_debt": 83383000.0,
- "ocf_ttm": 16467000.0,
- "capex_ttm": -15814000.0,
- "fcf_ttm": 653000.0,
+ "bs_date": "2026-09-30",
+ "cash": 81085000.0,
+ "total_debt": 186005000.0,
+ "current_debt": 8167000.0,
+ "lease_obligations": 21943000.0,
+ "equity": 533009000.0,
+ "net_debt": 104920000.0,
+ "ocf_ttm": -7247000.0,
+ "capex_ttm": -18721000.0,
+ "fcf_ttm": -25968000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": -14778000.0,
- "revenue_ttm": 568930000.0,
- "net_income_ttm": -103759000.0,
- "ebitda_ttm": -33347000.0,
- "ebit_ttm": -76887000.0,
- "interest_ttm": 9506000.0,
- "revenue_yoy_last_q": 0.5517171661474272,
+ "stock_issuance_ttm": -14805000.0,
+ "revenue_ttm": 660528000.0,
+ "net_income_ttm": -29372000.0,
+ "ebitda_ttm": 32485000.0,
+ "ebit_ttm": -5286000.0,
+ "interest_ttm": 9549000.0,
+ "revenue_yoy_last_q": 0.7243296246214188,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 218057000.0
+  },
   {
    "period": "2026-06-30",
    "value": 168847000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 126459000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 108813000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3
+  },
   {
    "period": "2026-06-30",
    "value": 0.02
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": -0.52
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.31
   }
  ],
- "eps_ttm": -1.19,
+ "eps_ttm": -0.37,
  "eps_ttm_prior": null,
  "eps_growth_yoy": null,
  "eps_growth_basis": "n/a (prior year loss)",
  "eps_growth_last_q": null,
  "eps_forward_growth": null,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5873234979844719
+  },
   {
    "period": "2026-06-30",
    "value": 0.5784112243628847
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5685716319123194
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.565419573028958
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 1,
- "dilution_1y": 0.043540295484880476,
- "fcf_burn_annual": 0.0,
- "runway_months": Infinity,
- "need_24m": 8806000.0,
- "gap_24m": -56008000.0,
+ "dilution_1y": 0.03798656335481221,
+ "fcf_burn_annual": 25968000.0,
+ "runway_months": 37.46996303142329,
+ "need_24m": 60103000.0,
+ "gap_24m": -20982000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": -2.5004648094281343,
- "interest_coverage": -8.088260046286555,
- "cash_to_debt": 0.4373502837439354,
- "ev": 5838772817.827904,
- "ev_to_sales": 10.262726201514957,
- "ev_to_ebitda": null,
+ "net_debt_to_ebitda": 3.229798368477759,
+ "interest_coverage": -0.5535658184103047,
+ "cash_to_debt": 0.4359291416897395,
+ "ev": 4925263240.036827,
+ "ev_to_sales": 7.456554816808413,
+ "ev_to_ebitda": 151.61653809563882,
  "pe_ttm": null,
  "pe_trailing": null,
- "p_sales": 8.713317,
- "p_fcf": 8813.766949200464,
- "p_book": 11.87069923650669
+ "p_sales": 7.2977123,
+ "p_fcf": null,
+ "p_book": 9.043643240614749
 }

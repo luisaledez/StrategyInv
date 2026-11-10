@@ -1,0 +1,154 @@
+{
+ "ticker": "MU",
+ "fetched": "2026-11-10",
+ "market_cap": 814404076826.8689,
+ "shares_out": 1131423212.0,
+ "price": 719.8049926757812,
+ "long_name": "Micron Technology, Inc.",
+ "sector_y": "Technology",
+ "industry_y": "Semiconductors",
+ "pe_trailing_y": 9.685456,
+ "pe_forward": 3.465144,
+ "peg": 0.16,
+ "p_sales_y": 6.115672,
+ "eps_trailing_y": 74.33,
+ "eps_forward": 207.76048,
+ "earnings_growth_y": 10.595,
+ "earnings_growth_q_y": 10.778,
+ "bs_date": "2026-08-31",
+ "cash": 43434000000.0,
+ "total_debt": 5179000000.0,
+ "current_debt": 491000000.0,
+ "lease_obligations": 2387000000.0,
+ "equity": 138378000000.0,
+ "net_debt": -38255000000.0,
+ "ocf_ttm": 89675000000.0,
+ "capex_ttm": -30712000000.0,
+ "fcf_ttm": 58963000000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": -650000000.0,
+ "stock_issuance_ttm": -650000000.0,
+ "revenue_ttm": 133188000000.0,
+ "net_income_ttm": 84969000000.0,
+ "ebitda_ttm": 109280000000.0,
+ "ebit_ttm": 99777000000.0,
+ "interest_ttm": 106000000.0,
+ "revenue_yoy_last_q": 3.7926646045072916,
+ "revenue_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 54229000000.0
+  },
+  {
+   "period": "2026-05-31",
+   "value": 41456000000.0
+  },
+  {
+   "period": "2026-02-28",
+   "value": 23860000000.0
+  },
+  {
+   "period": "2025-11-30",
+   "value": 13643000000.0
+  },
+  {
+   "period": "2025-08-31",
+   "value": 11315000000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 32.87
+  },
+  {
+   "period": "2026-05-31",
+   "value": 24.67
+  },
+  {
+   "period": "2026-02-28",
+   "value": 12.07
+  },
+  {
+   "period": "2025-11-30",
+   "value": 4.6
+  },
+  {
+   "period": "2025-08-31",
+   "value": 2.83
+  }
+ ],
+ "eps_ttm": 74.21,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 8.793148880105402,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": 10.614840989399292,
+ "eps_forward_growth": 1.7996291604905004,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-08-31",
+   "value": 0.8675616367626178
+  },
+  {
+   "period": "2026-05-31",
+   "value": 0.8456194519490544
+  },
+  {
+   "period": "2026-02-28",
+   "value": 0.7441324392288349
+  },
+  {
+   "period": "2025-11-30",
+   "value": 0.5604339221578831
+  },
+  {
+   "period": "2025-08-31",
+   "value": 0.44666372072470173
+  }
+ ],
+ "annual": [
+  {
+   "year": "2026",
+   "revenue": 133188000000.0,
+   "eps": 74.33,
+   "net_income": 84969000000.0
+  },
+  {
+   "year": "2025",
+   "revenue": 37378000000.0,
+   "eps": 7.59,
+   "net_income": 8539000000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 25111000000.0,
+   "eps": 0.7,
+   "net_income": 778000000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 15540000000.0,
+   "eps": -5.34,
+   "net_income": -5833000000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 3,
+ "dilution_1y": 0.008021390374331583,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 491000000.0,
+ "gap_24m": -42943000000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": -0.350064055636896,
+ "interest_coverage": 941.2924528301887,
+ "cash_to_debt": 8.38656111218382,
+ "ev": 776149076826.8689,
+ "ev_to_sales": 5.827470018521705,
+ "ev_to_ebitda": 7.102389063203412,
+ "pe_ttm": 9.584720037035494,
+ "pe_trailing": 9.685456,
+ "p_sales": 6.115672,
+ "p_fcf": 13.812120767716515,
+ "p_book": 5.8853580542201
+}

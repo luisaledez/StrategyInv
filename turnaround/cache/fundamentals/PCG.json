@@ -1,40 +1,44 @@
 {
  "ticker": "PCG",
- "fetched": "2026-10-24",
- "market_cap": 37919894366.37363,
- "shares_out": 3002366906.0,
- "price": 12.630000114440918,
+ "fetched": "2026-11-10",
+ "market_cap": 28939927053.56423,
+ "shares_out": 2202429703.0,
+ "price": 13.140000343322754,
  "long_name": "PG&E Corporation",
  "sector_y": "Utilities",
  "industry_y": "Utilities - Regulated Electric",
- "pe_trailing_y": 9.355556,
- "pe_forward": 7.0117583,
- "peg": 0.53,
- "p_sales_y": 1.471189,
+ "pe_trailing_y": 9.733334,
+ "pe_forward": 7.292667,
+ "peg": 0.54,
+ "p_sales_y": 1.1227906,
  "eps_trailing_y": 1.35,
- "eps_forward": 1.80126,
+ "eps_forward": 1.80181,
  "earnings_growth_y": -0.089,
  "earnings_growth_q_y": -0.09,
- "bs_date": "2026-06-30",
- "cash": 972000000.0,
- "total_debt": 64703000000.0,
- "current_debt": 2541000000.0,
- "lease_obligations": 485000000.0,
- "equity": 33901000000.0,
- "net_debt": 63731000000.0,
- "ocf_ttm": 8147000000.0,
- "capex_ttm": -12410000000.0,
- "fcf_ttm": -4263000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 902000000.0,
+ "total_debt": 65478000000.0,
+ "current_debt": 3773000000.0,
+ "lease_obligations": 452000000.0,
+ "equity": 34573000000.0,
+ "net_debt": 64576000000.0,
+ "ocf_ttm": 7800000000.0,
+ "capex_ttm": -12777000000.0,
+ "fcf_ttm": -4977000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 25837000000.0,
- "net_income_ttm": 3166000000.0,
- "ebitda_ttm": 10553000000.0,
- "ebit_ttm": 5861000000.0,
- "interest_ttm": 3101000000.0,
- "revenue_yoy_last_q": 0.0006781959986437158,
+ "revenue_ttm": 25775000000.0,
+ "net_income_ttm": 3092000000.0,
+ "ebitda_ttm": 10733000000.0,
+ "ebit_ttm": 5967000000.0,
+ "interest_ttm": 3156000000.0,
+ "revenue_yoy_last_q": -0.00992000000000004,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 6188000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 5902000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 6250000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 5898000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.34
+  },
   {
    "period": "2026-06-30",
    "value": 0.33
@@ -72,19 +76,19 @@
   {
    "period": "2025-06-30",
    "value": 0.24
-  },
-  {
-   "period": "2025-03-31",
-   "value": 0.28
   }
  ],
- "eps_ttm": 1.3299999999999998,
+ "eps_ttm": 1.4300000000000002,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.026086956521739202,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.1785714285714286,
- "eps_forward_growth": 0.3543308270676695,
+ "eps_growth_last_q": 0.41666666666666674,
+ "eps_forward_growth": 0.2600069930069928,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.4253393665158371
+  },
   {
    "period": "2026-06-30",
    "value": 0.415282954930532
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.39408
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.3947100712105799
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.3660549789842915,
- "fcf_burn_annual": 4263000000.0,
- "runway_months": 2.736101337086559,
- "need_24m": 11067000000.0,
- "gap_24m": 10095000000.0,
+ "dilution_1y": 0.3660550608829798,
+ "fcf_burn_annual": 4977000000.0,
+ "runway_months": 2.174804098854732,
+ "need_24m": 13727000000.0,
+ "gap_24m": 12825000000.0,
  "survival_gate": "FAIL",
- "net_debt_to_ebitda": 6.039135790770397,
- "interest_coverage": 1.8900354724282489,
- "cash_to_debt": 0.015022487365346275,
- "ev": 101650894366.37363,
- "ev_to_sales": 3.934314911420584,
- "ev_to_ebitda": 9.632416788247287,
- "pe_ttm": 11.977225005171707,
- "pe_trailing": 9.355556,
- "p_sales": 1.471189,
+ "net_debt_to_ebitda": 6.016584365974099,
+ "interest_coverage": 1.8906844106463878,
+ "cash_to_debt": 0.01377561929197593,
+ "ev": 93515927053.56424,
+ "ev_to_sales": 3.6281639981984184,
+ "ev_to_ebitda": 8.71293459923267,
+ "pe_ttm": 9.359614182912106,
+ "pe_trailing": 9.733334,
+ "p_sales": 1.1227906,
  "p_fcf": null,
- "p_book": 1.118547959245262
+ "p_book": 0.8370672794829558
 }

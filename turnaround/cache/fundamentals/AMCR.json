@@ -1,40 +1,44 @@
 {
  "ticker": "AMCR",
- "fetched": "2026-10-24",
- "market_cap": 21300316047.849274,
- "shares_out": 461945690.0,
- "price": 46.11000061035156,
+ "fetched": "2026-11-10",
+ "market_cap": 20847714164.71176,
+ "shares_out": 461845690.0,
+ "price": 45.13999938964844,
  "long_name": "Amcor plc",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Packaging & Containers",
- "pe_trailing_y": 19.37395,
- "pe_forward": 10.644045,
- "peg": 1.04,
- "p_sales_y": 0.90616506,
- "eps_trailing_y": 2.38,
- "eps_forward": 4.332,
- "earnings_growth_y": null,
- "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 1115000000.0,
- "total_debt": 14864000000.0,
- "current_debt": 150000000.0,
- "lease_obligations": 852000000.0,
- "equity": 11790000000.0,
- "net_debt": 13749000000.0,
- "ocf_ttm": 2151000000.0,
- "capex_ttm": -922000000.0,
- "fcf_ttm": 1229000000.0,
+ "pe_trailing_y": 19.37339,
+ "pe_forward": 10.727185,
+ "peg": 1.03,
+ "p_sales_y": 0.87265444,
+ "eps_trailing_y": 2.33,
+ "eps_forward": 4.208,
+ "earnings_growth_y": -0.081,
+ "earnings_growth_q_y": -0.076,
+ "bs_date": "2026-09-30",
+ "cash": 832000000.0,
+ "total_debt": 15662000000.0,
+ "current_debt": 253000000.0,
+ "lease_obligations": 819000000.0,
+ "equity": 11732000000.0,
+ "net_debt": 14830000000.0,
+ "ocf_ttm": 1757000000.0,
+ "capex_ttm": -985000000.0,
+ "fcf_ttm": 772000000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": -72000000.0,
  "stock_issuance_ttm": -72000000.0,
- "revenue_ttm": 23506000000.0,
- "net_income_ttm": 1106000000.0,
- "ebitda_ttm": 3437000000.0,
- "ebit_ttm": 1958000000.0,
- "interest_ttm": 676000000.0,
- "revenue_yoy_last_q": 0.2589531680440771,
+ "revenue_ttm": 23890000000.0,
+ "net_income_ttm": 1086000000.0,
+ "ebitda_ttm": 3426000000.0,
+ "ebit_ttm": 1946000000.0,
+ "interest_ttm": 674000000.0,
+ "revenue_yoy_last_q": 0.06684073107049615,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 6129000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 6398000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 5745000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 5082000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.52
+  },
   {
    "period": "2026-06-30",
    "value": 0.83
@@ -71,20 +75,20 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.565
-  },
-  {
-   "period": "2025-06-30",
-   "value": -0.095
+   "value": 0.57
   }
  ],
- "eps_ttm": 2.375,
+ "eps_ttm": 2.33,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.4874999999999998,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": null,
- "eps_forward_growth": 0.8239999999999998,
+ "eps_growth_last_q": -0.08771929824561397,
+ "eps_forward_growth": 0.8060085836909872,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.18910099526839616
+  },
   {
    "period": "2026-06-30",
    "value": 0.2089715536105033
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.19564838990426459
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.17611176702085793
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.0020131635417290905,
+ "dilution_1y": 0.002095317653185269,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 150000000.0,
- "gap_24m": -965000000.0,
+ "need_24m": 253000000.0,
+ "gap_24m": -579000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 4.000290951411114,
- "interest_coverage": 2.896449704142012,
- "cash_to_debt": 0.07501345532831001,
- "ev": 35049316047.84927,
- "ev_to_sales": 1.4910795561920052,
- "ev_to_ebitda": 10.197647962714365,
- "pe_ttm": 19.25887526930314,
- "pe_trailing": 19.37395,
- "p_sales": 0.90616506,
- "p_fcf": 17.331420706142616,
- "p_book": 1.8066425825147814
+ "net_debt_to_ebitda": 4.328663164039696,
+ "interest_coverage": 2.887240356083086,
+ "cash_to_debt": 0.0531222066147363,
+ "ev": 35677714164.71176,
+ "ev_to_sales": 1.493416247999655,
+ "ev_to_ebitda": 10.413810322449434,
+ "pe_ttm": 19.19679020691691,
+ "pe_trailing": 19.37339,
+ "p_sales": 0.87265444,
+ "p_fcf": 27.00481109418622,
+ "p_book": 1.7769957521915924
 }

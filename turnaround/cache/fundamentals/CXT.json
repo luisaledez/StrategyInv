@@ -1,40 +1,44 @@
 {
  "ticker": "CXT",
- "fetched": "2026-10-24",
- "market_cap": 3274087033.0021057,
- "shares_out": 57561304.0,
- "price": 56.880001068115234,
+ "fetched": "2026-11-10",
+ "market_cap": 3433922459.641571,
+ "shares_out": 57567852.0,
+ "price": 59.650001525878906,
  "long_name": "Crane NXT, Co.",
  "sector_y": "Industrials",
  "industry_y": "Business Equipment & Supplies",
- "pe_trailing_y": 23.60166,
- "pe_forward": 12.037585,
+ "pe_trailing_y": 27.113636,
+ "pe_forward": 12.756358,
  "peg": null,
- "p_sales_y": 1.8160114,
- "eps_trailing_y": 2.41,
- "eps_forward": 4.7252,
- "earnings_growth_y": 0.419,
- "earnings_growth_q_y": 0.422,
- "bs_date": "2026-06-30",
- "cash": 231400000.0,
- "total_debt": 1467100000.0,
- "current_debt": 207100000.0,
- "lease_obligations": 13200000.0,
- "equity": 1266300000.0,
- "net_debt": 1235700000.0,
- "ocf_ttm": 270500000.0,
- "capex_ttm": -46500000.0,
- "fcf_ttm": 224000000.0,
+ "p_sales_y": 1.851271,
+ "eps_trailing_y": 2.2,
+ "eps_forward": 4.6761,
+ "earnings_growth_y": -0.241,
+ "earnings_growth_q_y": -0.24,
+ "bs_date": "2026-09-30",
+ "cash": 251100000.0,
+ "total_debt": 1397000000.0,
+ "current_debt": 245600000.0,
+ "lease_obligations": 14500000.0,
+ "equity": 1292300000.0,
+ "net_debt": 1145900000.0,
+ "ocf_ttm": 290300000.0,
+ "capex_ttm": -54800000.0,
+ "fcf_ttm": 235500000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
  "stock_issuance_ttm": null,
- "revenue_ttm": 1802900000.0,
- "net_income_ttm": 140300000.0,
- "ebitda_ttm": 374800000.0,
- "ebit_ttm": 248400000.0,
- "interest_ttm": 71200000.0,
- "revenue_yoy_last_q": 0.21958456973293772,
+ "revenue_ttm": 1854900000.0,
+ "net_income_ttm": 128200000.0,
+ "ebitda_ttm": 371700000.0,
+ "ebit_ttm": 234700000.0,
+ "interest_ttm": 74900000.0,
+ "revenue_yoy_last_q": 0.11682767917321946,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 497100000.0
+  },
   {
    "period": "2026-06-30",
    "value": 493200000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 445100000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 404400000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.66
+  },
   {
    "period": "2026-06-30",
    "value": 0.61
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.87
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.43
   }
  ],
- "eps_ttm": 2.42,
+ "eps_ttm": 2.21,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.2163009404388715,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.4186046511627908,
- "eps_forward_growth": 0.9525619834710746,
+ "eps_growth_last_q": -0.2413793103448275,
+ "eps_forward_growth": 1.1158823529411763,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3981090323878495
+  },
   {
    "period": "2026-06-30",
    "value": 0.4229521492295215
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.43271175016850144
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.41740850642927796
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": 0.002954288587986742,
+ "dilution_1y": 0.0024630438497663665,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 207100000.0,
- "gap_24m": -24300000.0,
+ "need_24m": 245600000.0,
+ "gap_24m": -5500000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.296958377801494,
- "interest_coverage": 3.4887640449438204,
- "cash_to_debt": 0.1577261263717538,
- "ev": 4509787033.002106,
- "ev_to_sales": 2.501407195630432,
- "ev_to_ebitda": 12.032516096590463,
- "pe_ttm": 23.33632952959448,
- "pe_trailing": 23.60166,
- "p_sales": 1.8160114,
- "p_fcf": 14.6164599687594,
- "p_book": 2.585554002212829
+ "net_debt_to_ebitda": 3.0828625235404896,
+ "interest_coverage": 3.1335113484646193,
+ "cash_to_debt": 0.17974230493915533,
+ "ev": 4579822459.641571,
+ "ev_to_sales": 2.469040088221236,
+ "ev_to_ebitda": 12.321287219912755,
+ "pe_ttm": 26.785666611868727,
+ "pe_trailing": 27.113636,
+ "p_sales": 1.851271,
+ "p_fcf": 14.581411718223231,
+ "p_book": 2.657217720066216
 }

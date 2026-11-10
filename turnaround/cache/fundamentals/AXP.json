@@ -1,40 +1,44 @@
 {
  "ticker": "AXP",
- "fetched": "2026-10-24",
- "market_cap": 211520546716.61282,
- "shares_out": 675309833.0,
- "price": 313.2200012207031,
+ "fetched": "2026-11-10",
+ "market_cap": 216853162494.2055,
+ "shares_out": 670552018.0,
+ "price": 323.3949890136719,
  "long_name": "American Express Company",
  "sector_y": "Financial Services",
  "industry_y": "Credit Services",
- "pe_trailing_y": 19.00607,
- "pe_forward": 15.538201,
- "peg": 1.26,
- "p_sales_y": 2.9053822,
- "eps_trailing_y": 16.48,
- "eps_forward": 20.15806,
+ "pe_trailing_y": 18.219437,
+ "pe_forward": 15.997211,
+ "peg": 1.33,
+ "p_sales_y": 2.9766262,
+ "eps_trailing_y": 17.75,
+ "eps_forward": 20.21571,
  "earnings_growth_y": 0.309,
  "earnings_growth_q_y": 0.279,
- "bs_date": "2026-06-30",
- "cash": 46040000000.0,
- "total_debt": 59049000000.0,
- "current_debt": 2032000000.0,
+ "bs_date": "2026-09-30",
+ "cash": 45098000000.0,
+ "total_debt": 59953000000.0,
+ "current_debt": 1415000000.0,
  "lease_obligations": null,
- "equity": 34280000000.0,
- "net_debt": 13009000000.0,
- "ocf_ttm": 18475000000.0,
- "capex_ttm": -3423000000.0,
- "fcf_ttm": 15052000000.0,
+ "equity": 35797000000.0,
+ "net_debt": 14855000000.0,
+ "ocf_ttm": 17626000000.0,
+ "capex_ttm": -3716000000.0,
+ "fcf_ttm": 13910000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -7465000000.0,
- "stock_issuance_ttm": -7423000000.0,
- "revenue_ttm": 75952000000.0,
- "net_income_ttm": 11445000000.0,
+ "buybacks_ttm": -8304000000.0,
+ "stock_issuance_ttm": -6681000000.0,
+ "revenue_ttm": 77587000000.0,
+ "net_income_ttm": 12255000000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
- "interest_ttm": 8122000000.0,
- "revenue_yoy_last_q": 0.09974238351254483,
+ "interest_ttm": 7909000000.0,
+ "revenue_yoy_last_q": 0.08873331162487785,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 20061000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 19637000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 18426000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 17856000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 5.42
+  },
   {
    "period": "2026-06-30",
    "value": 4.53
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 4.14
-  },
-  {
-   "period": "2025-06-30",
-   "value": 4.08
   }
  ],
- "eps_ttm": 16.48,
+ "eps_ttm": 17.76,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.09778729478943626,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.11029411764705888,
- "eps_forward_growth": 0.2231832524271844,
+ "eps_growth_last_q": 0.3091787439613527,
+ "eps_forward_growth": 0.13827195945945947,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.019645915229885014,
+ "dilution_1y": -0.026124818577648812,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 2032000000.0,
- "gap_24m": -44008000000.0,
+ "need_24m": 1415000000.0,
+ "gap_24m": -43683000000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
- "cash_to_debt": 0.7796914427001304,
- "ev": 224529546716.61282,
- "ev_to_sales": 2.956203216723889,
+ "cash_to_debt": 0.7522225743499075,
+ "ev": 231708162494.2055,
+ "ev_to_sales": 2.986430233082933,
  "ev_to_ebitda": null,
- "pe_ttm": 18.48148070918417,
- "pe_trailing": 19.00607,
- "p_sales": 2.9053822,
- "p_fcf": 14.052653914204944,
- "p_book": 6.170377675513793
+ "pe_ttm": 17.695076498915178,
+ "pe_trailing": 18.219437,
+ "p_sales": 2.9766262,
+ "p_fcf": 15.589731307994645,
+ "p_book": 6.057858549437258
 }

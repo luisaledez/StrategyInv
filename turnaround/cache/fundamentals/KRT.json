@@ -1,0 +1,154 @@
+{
+ "ticker": "KRT",
+ "fetched": "2026-11-10",
+ "market_cap": 734355191.5655823,
+ "shares_out": 20004228.0,
+ "price": 36.709999084472656,
+ "long_name": "Karat Packaging Inc.",
+ "sector_y": "Consumer Cyclical",
+ "industry_y": "Packaging & Containers",
+ "pe_trailing_y": 15.621277,
+ "pe_forward": 15.755365,
+ "peg": null,
+ "p_sales_y": 1.458188,
+ "eps_trailing_y": 2.35,
+ "eps_forward": 2.33,
+ "earnings_growth_y": -0.389,
+ "earnings_growth_q_y": -0.4,
+ "bs_date": "2026-09-30",
+ "cash": 43444000.0,
+ "total_debt": 59924000.0,
+ "current_debt": 35388000.0,
+ "lease_obligations": 36853000.0,
+ "equity": 163244000.0,
+ "net_debt": 16480000.0,
+ "ocf_ttm": 65382000.0,
+ "capex_ttm": -3548000.0,
+ "fcf_ttm": 61834000.0,
+ "ttm_quarters": 4,
+ "buybacks_ttm": null,
+ "stock_issuance_ttm": null,
+ "revenue_ttm": 503608000.0,
+ "net_income_ttm": 47277000.0,
+ "ebitda_ttm": 83130000.0,
+ "ebit_ttm": 65667000.0,
+ "interest_ttm": 1740000.0,
+ "revenue_yoy_last_q": 0.08212599184040603,
+ "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 134742000.0
+  },
+  {
+   "period": "2026-06-30",
+   "value": 136302000.0
+  },
+  {
+   "period": "2026-03-31",
+   "value": 116947000.0
+  },
+  {
+   "period": "2025-12-31",
+   "value": 115617000.0
+  },
+  {
+   "period": "2025-09-30",
+   "value": 124516000.0
+  }
+ ],
+ "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.22
+  },
+  {
+   "period": "2026-06-30",
+   "value": 1.46
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.34
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.34
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.36
+  }
+ ],
+ "eps_ttm": 2.36,
+ "eps_ttm_prior": null,
+ "eps_growth_yoy": 0.046979865771812124,
+ "eps_growth_basis": "fiscal year",
+ "eps_growth_last_q": -0.38888888888888884,
+ "eps_forward_growth": -0.012711864406779627,
+ "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.3349438185569459
+  },
+  {
+   "period": "2026-06-30",
+   "value": 0.5660958753356518
+  },
+  {
+   "period": "2026-03-31",
+   "value": 0.3550839269070605
+  },
+  {
+   "period": "2025-12-31",
+   "value": 0.34033922347059686
+  },
+  {
+   "period": "2025-09-30",
+   "value": 0.34467859552186064
+  }
+ ],
+ "annual": [
+  {
+   "year": "2025",
+   "revenue": 467743000.0,
+   "eps": 1.56,
+   "net_income": 31478000.0
+  },
+  {
+   "year": "2024",
+   "revenue": 422633000.0,
+   "eps": 1.49,
+   "net_income": 29975000.0
+  },
+  {
+   "year": "2023",
+   "revenue": 405651000.0,
+   "eps": 1.63,
+   "net_income": 32470000.0
+  },
+  {
+   "year": "2022",
+   "revenue": 422957000.0,
+   "eps": 1.19,
+   "net_income": 23648000.0
+  }
+ ],
+ "years_reported": 4,
+ "profitable_years": 4,
+ "dilution_1y": -0.005076600304366186,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 35388000.0,
+ "gap_24m": -8056000.0,
+ "survival_gate": "PASS",
+ "net_debt_to_ebitda": 0.19824371466377963,
+ "interest_coverage": 37.73965517241379,
+ "cash_to_debt": 0.7249849809759028,
+ "ev": 750835191.5655823,
+ "ev_to_sales": 1.490911962410411,
+ "ev_to_ebitda": 9.032060526471579,
+ "pe_ttm": 15.533032797461393,
+ "pe_trailing": 15.621277,
+ "p_sales": 1.458188,
+ "p_fcf": 11.876236238405768,
+ "p_book": 4.498512604234044
+}

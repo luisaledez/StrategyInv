@@ -1,20 +1,20 @@
 {
  "ticker": "SKYW",
- "fetched": "2026-10-25",
- "market_cap": 3612199027.3521423,
- "shares_out": 38828325.0,
- "price": 93.02999877929688,
+ "fetched": "2026-11-10",
+ "market_cap": 3219971870.905243,
+ "shares_out": 38034157.0,
+ "price": 84.66000366210938,
  "long_name": "SkyWest, Inc.",
  "sector_y": "Industrials",
  "industry_y": "Airlines",
- "pe_trailing_y": 9.247515,
- "pe_forward": 7.678885,
+ "pe_trailing_y": 8.203489,
+ "pe_forward": 7.8904915,
  "peg": 1.66,
- "p_sales_y": 0.8620078,
- "eps_trailing_y": 10.06,
- "eps_forward": 12.11504,
- "earnings_growth_y": -0.127,
- "earnings_growth_q_y": -0.163,
+ "p_sales_y": 0.7562571,
+ "eps_trailing_y": 10.32,
+ "eps_forward": 10.72937,
+ "earnings_growth_y": 0.096,
+ "earnings_growth_q_y": 0.027,
  "bs_date": "2026-06-30",
  "cash": 600979000.0,
  "total_debt": 2384091000.0,
@@ -58,6 +58,10 @@
  ],
  "eps_quarters": [
   {
+   "period": "2026-09-30",
+   "value": 3.08
+  },
+  {
    "period": "2026-06-30",
    "value": 2.54
   },
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 2.81
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.91
   }
  ],
- "eps_ttm": 10.06,
+ "eps_ttm": 10.330000000000002,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.33204633204633205,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.12714776632302405,
- "eps_forward_growth": 0.20427833001988072,
+ "eps_growth_last_q": 0.09608540925266906,
+ "eps_forward_growth": 0.03866118102613725,
  "gross_margin_quarters": [
   {
    "period": "2026-06-30",
@@ -143,12 +143,12 @@
  "net_debt_to_ebitda": 2.8369425312592975,
  "interest_coverage": 6.275790797987059,
  "cash_to_debt": 0.2520788845727785,
- "ev": 5395311027.352142,
- "ev_to_sales": 1.2875260657934766,
- "ev_to_ebitda": 8.583974154661954,
- "pe_ttm": 8.812261902368208,
- "pe_trailing": 9.247515,
- "p_sales": 0.8620078,
- "p_fcf": 11.461222232505758,
- "p_book": 1.3080601788062263
+ "ev": 5003083870.905243,
+ "ev_to_sales": 1.1939257737848656,
+ "ev_to_ebitda": 7.959938254483444,
+ "pe_ttm": 7.855390921102016,
+ "pe_trailing": 8.203489,
+ "p_sales": 0.7562571,
+ "p_fcf": 10.216716442093375,
+ "p_book": 1.1660257226454107
 }

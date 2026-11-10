@@ -1,4 +1,4 @@
-# Turnaround watchlist — 2026-10-24
+# Turnaround watchlist — 2026-11-10
 
 Rules: monthly Wilder RSI(14) < 42.0 on the last completed monthly candle, or oversold within the last 6 completed months; market cap ≥ $1.00B; avg daily $ volume (3m) ≥ $5M; ≥ 5.0 years of price history. Drawdown is from the trailing 5-year high of daily closes. Priority = drawdown ≤ -40%.
 
@@ -6,245 +6,237 @@ Survival gate is a *proxy* from Yahoo statements: PASS = cash covers 24 months o
 
 | Ticker | Name | Sector | RSI(m) | Oversold since | Months | DD 5y | Mkt cap | ADV$ 3m | Gate | Runway | ND/EBITDA | P/E trail | P/E fwd | PEG | P/S | EV/Sales | EPS Last Q YoY | EPS YoY Prev | Rev YoY | Thesis |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **WHR** ★ | Whirlpool Corporation | Consumer Discretionary | 30.1 | 2026-02-28 | 8 | -88.3% | $1.83B | $97M | PASS | 45m | 6.9 | 9.2 | 9.7 | 1.04 | 0.12 | 0.6 | -1.7% | n/a | -6.8% | — |
-| **BILL** ★ | Bill Holdings | Information Technology | 43.4 | 2026-01-31 | 6 (exit 2026-07-31) | -85.2% | $4.32B | $92M | PASS | inf | -0.4 | n/a | 11.7 | 0.45 | 2.62 | 2.6 | n/a | -147.8% | +13.8% | — |
-| **CHTR** ★ | Charter Communications | Communication Services | 29.1 | 2025-07-31 | 15 | -85.1% | $12.43B | $383M | REVIEW | inf | 4.5 | 2.8 | 2.3 | 0.62 | 0.26 | 2.0 | +16.1% | +3.5% | -1.7% | — |
-| **XRAY** ★ | Dentsply Sirona | Health Care | 32.7 | 2024-04-30 | 30 | -84.1% | $1.88B | $48M | PASS | inf | 22.3 | n/a | 6.3 | 0.61 | 0.52 | 1.1 | n/a | n/a | -4.1% | — |
-| **ARE** ★ | Alexandria Real Estate Equit | Real Estate | 33.3 | 2024-10-31 | 24 | -80.8% | $7.40B | $104M | REVIEW | inf | 18.5 | n/a | -53.1 | 3.24 | 2.61 | 7.3 | n/a | -568.9% | -12.8% | — |
-| **LULU** ★ | Lululemon Athletica | Consumer Discretionary | 31.5 | 2025-06-30 | 16 | -80.6% | $11.47B | $526M | PASS | inf | 0.3 | 8.1 | 11.5 | 1.00 | 1.03 | 1.1 | -5.8% | -9.4% | -4.3% | — |
-| **SKYD** ★ | Skydance Corporation | Communication Services | 45.0 | 2026-07-31 | 1 (exit 2026-08-31) | -79.8% | $39.18B | $212M | PASS | inf | 5.0 | n/a | 102.8 | 2.50 | 1.35 | 1.9 | -81.8% | n/a | n/a | — |
-| **RH** ★ | RH | Consumer Discretionary | 38.2 | 2026-08-31 | 2 | -79.7% | $2.60B | $113M | REVIEW | inf | 7.8 | 24.3 | 16.2 | 0.07 | 0.75 | 1.9 | +16.8% | +74.3% | +2.6% | — |
-| **FISV** ★ | Fiserv | Financials | 29.7 | 2025-09-30 | 13 | -79.0% | $26.51B | $355M | REVIEW | inf | 3.4 | 9.6 | 6.3 | 1.36 | 1.27 | 2.6 | -37.1% | +17.8% | -4.1% | — |
-| **NKE** ★ | Nike, Inc. | Consumer Discretionary | 27.2 | 2025-09-30 | 13 | -79.0% | $55.40B | $1.25B | PASS | inf | 0.6 | 17.9 | 23.6 | 3.15 | 1.21 | 1.3 | -2.0% | -2.8% | -4.3% | — |
-| **ALGN** ★ | Align Technology | Health Care | 40.3 | 2026-09-30 | 1 | -78.3% | $10.98B | $146M | PASS | inf | -1.1 | 26.9 | 12.5 | 0.65 | 2.65 | 2.4 | -12.2% | +0.5% | +4.3% | — |
-| **VFC** ★ | VF Corporation | Consumer Discretionary | 41.5 | 2026-07-31 | 3 | -77.9% | $6.79B | $128M | REVIEW | inf | 5.4 | 25.0 | 12.8 | 0.44 | 0.71 | 1.2 | n/a | n/a | -5.2% | — |
-| **MOS** ★ | Mosaic Company (The) | Materials | 39.9 | 2026-09-30 | 1 | -77.2% | $5.67B | $197M | FAIL | 4m | 5.0 | n/a | 11.7 | 2.02 | 0.46 | 0.9 | -166.7% | +209.1% | -6.0% | — |
-| **PYPL** ★ | PayPal | Financials | 42.9 | 2025-11-30 | 8 (exit 2026-07-31) | -76.9% | $48.78B | $668M | PASS | inf | 0.3 | 10.8 | 9.9 | 1.01 | 1.43 | 1.5 | -3.1% | +35.6% | +4.8% | — |
-| **APTV** ★ | Aptiv | Consumer Discretionary | 32.6 | 2026-06-30 | 4 | -76.0% | $8.86B | $192M | PASS | inf | 2.4 | 42.3 | 6.6 | 0.95 | 0.43 | 0.7 | -35.0% | -89.2% | +2.3% | — |
-| **PATH** ★ | UiPath | Information Technology | 46.9 | 2026-06-30 | 1 (exit 2026-07-31) | -75.4% | $7.36B | $764M | PASS | inf | -6.7 | 21.1 | 15.3 | 0.44 | 4.28 | 3.6 | n/a | n/a | +13.4% | — |
-| **FLG** ★ | Flagstar Bank | Financials | 41.4 | 2026-09-30 | 1 | -75.2% | $4.31B | $65M | PASS | inf | n/a | 346.0 | 9.8 | 0.78 | 2.15 | 4.9 | n/a | n/a | +4.0% | — |
-| **DUOL** ★ | Duolingo | Consumer Discretionary | 42.7 | 2026-01-31 | 7 (exit 2026-08-31) | -73.5% | $6.66B | $163M | PASS | inf | -7.1 | 17.0 | 18.7 | n/a | 5.82 | 4.7 | -27.5% | +350.5% | +18.3% | — |
-| **BBWI** ★ | Bath & Body Works, Inc. | Consumer Discretionary | 35.8 | 2026-07-31 | 3 | -73.3% | $4.22B | $123M | PASS | inf | 2.7 | 5.5 | 7.5 | 0.77 | 0.59 | 1.1 | +93.3% | -13.9% | -2.3% | — |
-| **CHWY** ★ | Chewy | Consumer Discretionary | 37.4 | 2026-09-30 | 1 | -72.5% | $8.81B | $176M | PASS | inf | 1.0 | 33.7 | 11.7 | 0.38 | 0.67 | 0.7 | +42.9% | -42.9% | +7.3% | — |
-| **WING** ★ | Wingstop | Consumer Discretionary | 36.0 | 2026-03-31 | 7 | -72.1% | $3.26B | $148M | PASS | inf | 5.0 | 28.3 | 22.6 | 1.58 | 4.52 | 6.1 | +19.8% | +67.8% | +6.4% | — |
-| **BAX** ★ | Baxter International | Health Care | 44.5 | 2022-06-30 | 49 (exit 2026-07-31) | -71.7% | $13.08B | $169M | PASS | inf | 9.9 | n/a | 12.4 | 36.68 | 1.14 | 1.8 | +33.3% | n/a | +5.3% | — |
-| **GPK** ★ | Graphic Packaging | Materials | 26.9 | 2025-09-30 | 13 | -71.2% | $2.60B | $61M | REVIEW | inf | 5.1 | 13.3 | 9.0 | 3.33 | 0.30 | 0.9 | -76.5% | -31.5% | -0.7% | — |
-| **EL** ★ | Estée Lauder Companies (The) | Consumer Staples | 47.2 | 2026-06-30 | 1 (exit 2026-07-31) | -70.8% | $39.37B | $305M | PASS | inf | 3.5 | 217.3 | 27.6 | 2.12 | 2.62 | 3.0 | n/a | n/a | +6.3% | — |
-| **CELH** ★ | Celsius Holdings | Consumer Staples | 41.2 | 2026-09-30 | 1 | -70.4% | $7.20B | $250M | PASS | inf | 0.2 | 123.8 | 16.8 | 0.26 | 2.36 | 2.4 | -57.6% | -44.4% | +10.6% | — |
-| **DOCU** ★ | Docusign | Information Technology | 51.6 | 2026-01-31 | 6 (exit 2026-07-31) | -70.0% | $15.94B | $210M | PASS | inf | -1.1 | 52.0 | 16.4 | 0.74 | 4.74 | 4.6 | +33.3% | -70.9% | +9.4% | — |
-| **FIS** ★ | Fidelity National Informatio | Financials | 28.1 | 2026-01-31 | 9 | -69.3% | $19.35B | $241M | REVIEW | inf | 4.9 | 5.8 | 5.6 | 0.20 | 1.59 | 3.3 | n/a | -72.0% | +29.1% | — |
-| **FOUR** ★ | Shift4 | Financials | 35.9 | 2026-08-31 | 2 | -69.1% | $3.06B | $85M | PASS | inf | 4.5 | 61.6 | 6.4 | 0.28 | 0.64 | 1.5 | -60.0% | -64.4% | +34.1% | — |
-| **HUBS** ★ | HubSpot | Information Technology | 34.4 | 2025-11-30 | 11 | -68.2% | $13.51B | $384M | PASS | inf | -3.3 | 96.7 | 16.1 | 0.33 | 4.02 | 3.6 | n/a | +855.6% | +19.8% | — |
-| **ZTS** ★ | Zoetis | Health Care | 25.8 | 2025-10-31 | 12 | -67.2% | $33.48B | $386M | PASS | inf | 1.9 | 13.3 | 12.6 | 15.08 | 3.52 | 4.3 | +2.5% | +10.1% | -0.2% | — |
-| **FND** ★ | Floor & Decor | Consumer Discretionary | 36.0 | 2026-03-31 | 7 | -66.6% | $5.09B | $132M | PASS | inf | 3.0 | 22.4 | 22.0 | n/a | 1.08 | 1.4 | +97.8% | +1.1% | +3.0% | — |
-| **SMG** ★ | Scotts Miracle-Gro Company | Materials | 41.4 | 2026-09-30 | 1 | -66.5% | $3.45B | $59M | REVIEW | inf | 4.6 | 21.2 | 12.6 | 0.84 | 0.99 | 1.6 | -25.2% | n/a | +1.1% | — |
-| **KD** ★ | Kyndryl | Information Technology | 34.2 | 2026-02-28 | 8 | -66.0% | $3.21B | $53M | PASS | inf | 2.0 | 39.9 | 5.9 | n/a | 0.21 | 0.4 | -208.7% | -19.0% | -3.3% | — |
-| **CSGP** ★ | CoStar Group | Real Estate | 27.8 | 2026-01-31 | 9 | -66.0% | $13.74B | $202M | PASS | inf | -0.2 | 188.4 | 19.1 | 0.11 | 3.87 | 3.8 | +1300.0% | -94.1% | +18.4% | — |
-| **FICO** ★ | Fair Isaac | Information Technology | 32.1 | 2026-09-30 | 1 | -65.8% | $17.61B | $572M | REVIEW | inf | 4.2 | 23.6 | 16.6 | 0.89 | 7.36 | 9.6 | +41.2% | +29.8% | +25.7% | — |
-| **TREX** ★ | Trex | Industrials | 43.7 | 2025-09-30 | 9 (exit 2026-06-30) | -64.2% | $5.13B | $79M | REVIEW | inf | 0.9 | 29.6 | 24.9 | 1.00 | 4.25 | 4.5 | -15.5% | -14.8% | +7.8% | — |
-| **DECK** ★ | Deckers Brands | Consumer Discretionary | 39.5 | 2026-08-31 | 2 | -63.6% | $11.04B | $261M | PASS | inf | -0.8 | 10.7 | 9.9 | 0.99 | 1.98 | 1.8 | +1.1% | +10.9% | +5.7% | — |
-| **OLED** ★ | Universal Display | Information Technology | 32.6 | 2025-11-30 | 11 | -63.2% | $4.00B | $64M | PASS | inf | -1.8 | 21.0 | 18.4 | 1.00 | 6.59 | 5.8 | -24.8% | +9.2% | -11.4% | — |
-| **SFM** ★ | Sprouts Farmers Market | Consumer Staples | 38.4 | 2026-09-30 | 1 | -63.1% | $6.18B | $146M | PASS | inf | 1.9 | 12.7 | 11.2 | 1.43 | 0.69 | 0.9 | +1.5% | +41.6% | +4.7% | — |
-| **BF-B** ★ | Brown–Forman | Consumer Staples | 35.8 | 2024-03-31 | 31 | -62.1% | $13.50B | $67M | REVIEW | inf | 2.0 | 19.0 | 17.2 | 2.24 | 3.45 | 4.0 | +5.6% | -16.8% | -1.4% | — |
-| **ACI** ★ | Albertsons | Consumer Staples | 27.8 | 2026-03-31 | 7 | -62.1% | $6.78B | $101M | REVIEW | inf | 4.7 | 174.5 | 8.4 | 1.49 | 0.08 | 0.3 | -58.5% | -75.6% | +0.2% | — |
-| **GIS** ★ | General Mills | Consumer Staples | 28.5 | 2025-01-31 | 21 | -62.1% | $18.39B | $341M | REVIEW | inf | 29.6 | n/a | 10.9 | 11.74 | 1.00 | 1.7 | -66.7% | -103.9% | -2.8% | — |
-| **ADBE** ★ | Adobe Inc. | Information Technology | 38.4 | 2026-09-30 | 1 | -61.7% | $102.68B | $1.26B | PASS | inf | 0.1 | 14.7 | 9.6 | 0.64 | 3.95 | 4.0 | +10.5% | +35.1% | +12.9% | — |
-| **HRL** ★ | Hormel Foods | Consumer Staples | 33.8 | 2026-08-31 | 2 | -61.6% | $11.59B | $109M | PASS | inf | 2.3 | 34.0 | 13.4 | 1.45 | 0.95 | 1.1 | -66.7% | -40.8% | -2.4% | — |
-| **COIN** ★ | Coinbase | Financials | 47.0 | 2026-06-30 | 2 (exit 2026-08-31) | -60.8% | $43.39B | $1.61B | PASS | inf | 2.6 | n/a | 53.5 | 2.40 | 7.18 | 6.5 | -126.5% | -53.1% | -18.5% | — |
-| **MTN** ★ | Vail Resorts | Consumer Discretionary | 40.8 | 2026-08-31 | 2 | -60.7% | $5.22B | $108M | PASS | inf | 4.3 | 35.3 | 22.1 | 3.33 | 1.84 | 2.9 | -16.4% | -45.3% | +2.5% | — |
-| **WLK** ★ | Westlake Corporation | Materials | 37.8 | 2026-06-30 | 4 | -60.2% | $8.25B | $66M | PASS | 84m | 48.5 | n/a | 25.7 | 1.70 | 0.73 | 1.1 | n/a | -352.2% | +10.8% | — |
-| **PII** ★ | Polaris | Consumer Discretionary | 40.5 | 2026-09-30 | 1 | -60.0% | $3.12B | $50M | PASS | inf | 17.0 | n/a | 16.3 | 3.34 | 0.41 | 0.7 | n/a | -519.5% | +9.2% | — |
-| **CMG** ★ | Chipotle Mexican Grill | Consumer Discretionary | 39.8 | 2026-09-30 | 1 | -59.9% | $34.89B | $603M | PASS | inf | 2.1 | 25.7 | 20.2 | 1.32 | 2.80 | 3.2 | +0.0% | +2.7% | +9.3% | — |
-| **DOCS** ★ | Doximity | Health Care | 42.4 | 2026-02-28 | 7 (exit 2026-09-30) | -59.8% | $5.95B | $120M | PASS | inf | -3.2 | 39.3 | 21.4 | 0.59 | 9.08 | 8.0 | -51.9% | -11.7% | +7.3% | — |
-| **HLNE** ★ | Hamilton Lane | Financials | 41.0 | 2026-09-30 | 1 | -59.2% | $4.54B | $61M | PASS | inf | 0.0 | 12.5 | 11.1 | n/a | 6.42 | 5.3 | +56.9% | +9.4% | +56.5% | — |
-| **AVTR** ★ | Avantor | Health Care | 51.4 | 2025-02-28 | 17 (exit 2026-07-31) | -59.0% | $11.69B | $138M | PASS | inf | 30.0 | n/a | 19.8 | n/a | 1.78 | 2.3 | -33.3% | -175.0% | +0.5% | — |
-| **RYN** ★ | Rayonier | Real Estate | 34.1 | 2025-10-31 | 12 | -59.0% | $5.61B | $71M | PASS | inf | 5.5 | 40.5 | 32.9 | 23.24 | 5.76 | 7.3 | -97.7% | +26.8% | +272.1% | — |
-| **CCI** ★ | Crown Castle | Real Estate | 31.9 | 2026-06-30 | 4 | -58.8% | $36.58B | $315M | REVIEW | inf | 8.3 | 34.5 | 29.4 | 0.67 | 9.20 | 14.2 | -67.2% | n/a | -4.9% | — |
-| **IT** ★ | Gartner | Information Technology | 38.2 | 2025-07-31 | 15 | -58.3% | $14.54B | $226M | PASS | inf | 1.3 | 20.8 | 14.1 | 0.91 | 2.25 | 2.5 | +33.1% | -39.7% | -0.6% | — |
-| **BAH** ★ | Booz Allen Hamilton | Industrials | 36.7 | 2025-09-30 | 13 | -57.9% | $9.33B | $130M | PASS | inf | 2.8 | 12.3 | 11.6 | 1.09 | 0.85 | 1.2 | -24.5% | -4.8% | -4.2% | — |
-| **PODD** ★ | Insulet Corporation | Health Care | 33.9 | 2026-03-31 | 7 | -57.8% | $10.33B | $242M | PASS | inf | 0.6 | 27.9 | 19.3 | 1.17 | 3.38 | 3.5 | +328.1% | -39.8% | +23.5% | — |
-| **BSX** ★ | Boston Scientific | Health Care | 27.9 | 2026-02-28 | 8 | -57.8% | $66.22B | $899M | REVIEW | inf | 2.1 | 18.5 | 13.5 | 0.64 | 3.15 | 3.7 | +15.1% | +55.2% | +7.5% | — |
-| **INTU** ★ | Intuit | Information Technology | 33.0 | 2026-01-31 | 9 | -57.5% | $91.77B | $1.23B | PASS | inf | 0.2 | 20.9 | 12.7 | 1.09 | 4.28 | 4.3 | -0.7% | +20.4% | +13.7% | — |
-| **PSN** ★ | Parsons Corporation | Industrials | 37.2 | 2026-06-30 | 4 | -56.7% | $5.24B | $64M | PASS | inf | 2.9 | 33.8 | 14.3 | n/a | 0.83 | 1.0 | -128.0% | +3.8% | -0.5% | — |
-| **UPS** ★ | United Parcel Service | Industrials | 39.4 | 2026-09-30 | 1 | -56.5% | $85.98B | $484M | PASS | inf | 2.2 | 18.8 | 12.5 | 1.44 | 0.96 | 1.2 | -53.0% | -2.8% | +7.6% | — |
-| **PINS** ★ | Pinterest | Communication Services | 39.6 | 2026-09-30 | 1 | -56.0% | $12.64B | $270M | PASS | inf | -0.2 | 65.6 | 9.3 | 0.29 | 2.77 | 2.8 | -233.3% | -77.2% | +18.2% | — |
-| **CMCSA** ★ | Comcast | Communication Services | 34.8 | 2026-03-31 | 7 | -55.3% | $80.57B | $678M | PASS | inf | 2.4 | 7.2 | 6.4 | 142.98 | 0.66 | 1.3 | -66.8% | +30.2% | -1.2% | — |
-| **EEFT** ★ | Euronet Worldwide | Financials | 32.9 | 2025-09-30 | 13 | -55.1% | $2.45B | $48M | PASS | inf | 0.9 | 10.4 | 5.5 | 0.43 | 0.56 | 0.7 | -24.7% | +6.0% | +3.2% | — |
-| **ACM** ★ | AECOM | Industrials | 31.7 | 2026-03-31 | 7 | -55.0% | $7.78B | $123M | PASS | inf | 2.3 | 21.3 | 9.7 | 0.66 | 0.51 | 0.6 | -168.4% | +42.7% | -14.2% | — |
-| **CPRT** ★ | Copart | Industrials | 33.5 | 2025-11-30 | 11 | -54.6% | $26.86B | $323M | PASS | inf | -2.3 | 18.7 | 16.0 | 2.91 | 5.76 | 4.8 | -14.6% | -2.5% | +2.4% | — |
-| **LEN** ★ | Lennar | Consumer Discretionary | 37.2 | 2026-03-31 | 7 | -54.4% | $20.20B | $334M | PASS | inf | 2.3 | 16.1 | 16.3 | 11.30 | 0.63 | 0.8 | -48.0% | -44.2% | -8.7% | — |
-| **WY** ★ | Weyerhaeuser | Real Estate | 32.5 | 2026-08-31 | 2 | -54.2% | $14.05B | $148M | FAIL | 14m | 4.2 | 28.7 | 33.1 | 1.86 | 2.05 | 2.8 | +91.7% | -16.7% | -0.9% | — |
-| **MKC** ★ | McCormick & Company | Consumer Staples | 34.7 | 2026-03-31 | 7 | -53.9% | $12.95B | $169M | REVIEW | inf | 3.6 | 8.7 | 14.9 | 3.15 | 1.68 | 2.3 | -44.6% | +0.3% | +17.4% | — |
-| **REXR** ★ | Rexford Industrial Realty | Real Estate | 44.0 | 2026-02-28 | 5 (exit 2026-07-31) | -53.8% | $8.63B | $101M | PASS | inf | 492.6 | n/a | 24.2 | 1.88 | 9.05 | 12.0 | -570.8% | -28.3% | -1.6% | — |
-| **DOW** ★ | Dow Inc. | Materials | 41.1 | 2026-09-30 | 1 | -53.8% | $23.61B | $260M | PASS | inf | 5.9 | n/a | 17.8 | 38.89 | 0.55 | 1.0 | n/a | -335.7% | +19.7% | — |
-| **FBIN** ★ | Fortune Brands Innovations | Industrials | 38.7 | 2026-09-30 | 1 | -53.8% | $5.13B | $100M | REVIEW | inf | 5.5 | 34.7 | 13.0 | 1.59 | 1.17 | 1.8 | -145.2% | -34.1% | -4.1% | — |
-| **PLNT** ★ | Planet Fitness | Consumer Discretionary | 31.9 | 2026-04-30 | 6 | -53.8% | $3.97B | $111M | PASS | inf | 4.2 | 17.9 | 14.4 | 0.92 | 3.06 | 4.6 | +26.1% | +31.0% | +7.1% | — |
-| **CLX** ★ | Clorox | Consumer Staples | 33.3 | 2026-03-31 | 7 | -53.7% | $10.45B | $268M | REVIEW | inf | 4.6 | 18.0 | 14.1 | 1.08 | 1.55 | 2.4 | +2.7% | +113.8% | -2.0% | — |
-| **ERIE** ★ | Erie Indemnity | Financials | 35.2 | 2025-10-31 | 12 | -53.5% | $13.26B | $61M | PASS | inf | n/a | 23.0 | 18.1 | 2.67 | 3.22 | 3.1 | +3.3% | -6.9% | +1.7% | — |
-| **BXP** ★ | BXP, Inc. | Real Estate | 44.6 | 2026-02-28 | 3 (exit 2026-05-31) | -53.1% | $9.91B | $90M | REVIEW | inf | 8.0 | 33.4 | 29.8 | 2.31 | 3.52 | 7.3 | -23.2% | +1833.3% | +3.1% | — |
-| **SBAC** ★ | SBA Communications | Real Estate | 39.6 | 2026-09-30 | 1 | -52.5% | $19.60B | $190M | REVIEW | inf | 7.4 | 19.9 | 22.9 | 11.16 | 6.83 | 12.0 | -10.5% | +41.2% | +2.3% | — |
-| **BMRN** ★ | BioMarin Pharmaceutical | Health Care | 46.1 | 2026-03-31 | 2 (exit 2026-05-31) | -52.3% | $10.83B | $137M | PASS | inf | 8.6 | 151.2 | 8.7 | 0.33 | 3.18 | 4.2 | -81.3% | -18.6% | +19.9% | — |
-| **DXCM** ★ | Dexcom | Health Care | 53.2 | 2026-03-31 | 2 (exit 2026-05-31) | -52.1% | $29.41B | $389M | PASS | inf | -0.4 | 30.9 | 25.0 | 1.29 | 5.92 | 5.8 | +42.2% | +47.2% | +13.1% | — |
-| **STWD** ★ | Starwood Property Trust | Financials | 28.3 | 2026-05-31 | 5 | -52.1% | $4.66B | $76M | REVIEW | inf | n/a | 21.0 | 6.7 | 1.74 | 8.00 | 22.3 | -97.0% | +4.5% | -5.7% | — |
-| **PFE** ★ | Pfizer | Health Care | 53.3 | 2026-06-30 | 1 (exit 2026-07-31) | -51.0% | $171.16B | $953M | PASS | inf | 3.8 | 39.5 | 10.4 | 13.76 | 2.69 | 3.5 | -107.8% | -3.5% | +2.6% | — |
-| **PNR** ★ | Pentair | Industrials | 29.9 | 2026-04-30 | 6 | -50.9% | $8.83B | $187M | PASS | inf | 1.8 | 14.3 | 10.5 | 0.88 | 2.20 | 2.6 | -11.1% | +5.9% | -17.0% | — |
-| **NFLX** ★ | Netflix | Communication Services | 41.6 | 2026-09-30 | 1 | -50.8% | $274.20B | $2.59B | PASS | inf | 0.1 | 19.0 | 17.5 | 1.04 | 5.51 | 5.8 | +11.3% | +27.6% | +13.4% | — |
-| **MOH** ★ | Molina Healthcare | Health Care | 44.5 | 2026-05-31 | 1 (exit 2026-06-30) | -50.1% | $10.88B | $142M | PASS | inf | -13.4 | n/a | 21.8 | 0.97 | 0.26 | 0.1 | -75.6% | -56.3% | -4.8% | — |
-| **MZTI** ★ | The Marzetti Company | Consumer Staples | 30.4 | 2026-03-31 | 7 | -50.1% | $2.98B | $42M | PASS | inf | 0.8 | 15.6 | 15.1 | 3.12 | 1.54 | 1.7 | +18.1% | +15.0% | +1.6% | — |
-| **PPC** ★ | Pilgrim's Pride | Consumer Staples | 36.8 | 2026-04-30 | 6 | -50.0% | $6.70B | $42M | PASS | inf | 1.9 | 12.3 | 10.6 | 0.61 | 0.36 | 0.5 | -96.0% | -0.7% | -2.8% | — |
-| **TOST** ★ | Toast, Inc. | Financials | 46.1 | 2026-05-31 | 1 (exit 2026-06-30) | -49.9% | $18.91B | $287M | PASS | inf | -3.5 | 40.4 | 18.6 | 0.23 | 2.78 | 2.5 | +100.0% | +1766.7% | +23.1% | — |
-| **NRG** ★ | NRG Energy | Utilities | 41.9 | 2026-09-30 | 1 | -49.8% | $19.40B | $339M | REVIEW | inf | 6.2 | 24.2 | 8.5 | 0.39 | 0.59 | 1.3 | -36.0% | -19.6% | +11.0% | — |
-| **STZ** ★ | Constellation Brands | Consumer Staples | 29.0 | 2025-01-31 | 21 | -49.2% | $23.47B | $279M | REVIEW | inf | 3.2 | 12.4 | 11.5 | 1.77 | 2.55 | 3.7 | +25.3% | n/a | +6.1% | — |
-| **LVS** ★ | Las Vegas Sands | Consumer Discretionary | 39.6 | 2026-09-30 | 1 | -48.6% | $23.11B | $232M | PASS | inf | 2.6 | 14.6 | 11.2 | 0.76 | 1.70 | 2.6 | -19.7% | +19.9% | -0.7% | — |
-| **NCLH** ★ | Norwegian Cruise Line Holdin | Consumer Discretionary | 41.4 | 2026-09-30 | 1 | -48.1% | $6.93B | $288M | FAIL | 2m | 5.2 | 9.3 | 10.2 | 1.26 | 0.68 | 2.1 | +585.7% | -51.3% | +4.9% | — |
-| **MAA** ★ | Mid-America Apartment Commun | Real Estate | 38.1 | 2026-09-30 | 1 | -47.8% | $13.90B | $131M | REVIEW | inf | 4.5 | 35.0 | 36.5 | 7.03 | 6.42 | 8.8 | +13.0% | -15.8% | +1.0% | — |
-| **ELF** ★ | e.l.f. Beauty | Consumer Staples | 51.3 | 2026-03-31 | 3 (exit 2026-06-30) | -47.6% | $6.74B | $171M | PASS | inf | 2.6 | 116.6 | 29.1 | 1.37 | 3.83 | 4.2 | +93.1% | -77.1% | +35.5% | — |
-| **GPN** ★ | Global Payments | Financials | 46.4 | 2025-09-30 | 10 (exit 2026-07-31) | -47.5% | $21.92B | $223M | PASS | inf | 4.8 | 38.9 | 5.1 | 0.20 | 2.15 | 3.9 | -94.9% | -6.2% | +68.6% | — |
-| **KBH** ★ | KB Home | Consumer Discretionary | 42.0 | 2026-05-31 | 1 (exit 2026-06-30) | -47.5% | $2.86B | $66M | REVIEW | inf | 4.9 | 13.3 | 13.1 | 5.97 | 0.55 | 0.8 | -34.8% | -27.2% | -27.3% | — |
-| **DOC** ★ | Healthpeak Properties | Real Estate | 51.6 | 2026-03-31 | 2 (exit 2026-05-31) | -47.5% | $13.27B | $111M | PASS | inf | 4.6 | 55.0 | 137.5 | 4.32 | 4.63 | 7.4 | +60.0% | -72.2% | +11.1% | — |
-| **NLY** ★ | Annaly Capital Management | Financials | 41.9 | 2026-09-30 | 1 | -47.4% | $13.83B | $206M | PASS | 337m | n/a | 12.7 | 5.9 | 32.03 | 9.94 | 13.6 | +3433.3% | +80.2% | +705.6% | — |
-| **GDDY** ★ | GoDaddy | Information Technology | 39.5 | 2025-12-31 | 10 | -47.4% | $14.28B | $212M | PASS | inf | 1.9 | 16.8 | 10.2 | 0.62 | 2.80 | 3.3 | +29.8% | -3.6% | +6.6% | — |
-| **ROL** ★ | Rollins, Inc. | Industrials | 28.2 | 2026-06-30 | 4 | -46.9% | $16.75B | $224M | REVIEW | inf | 1.2 | 31.9 | 28.2 | 2.84 | 4.20 | 4.5 | +3.4% | +13.5% | +7.9% | — |
-| **IRT** ★ | Independence Realty Trust | Real Estate | 39.9 | 2026-09-30 | 1 | -46.9% | $3.53B | $52M | REVIEW | inf | 6.3 | 83.1 | 187.0 | n/a | 5.34 | 8.9 | -66.7% | +41.2% | +3.1% | — |
-| **TSCO** ★ | Tractor Supply | Consumer Discretionary | 33.9 | 2026-04-30 | 6 | -46.7% | $17.41B | $390M | REVIEW | inf | 3.4 | 18.0 | 16.2 | 2.12 | 1.09 | 1.5 | -14.8% | +1.0% | +2.3% | — |
-| **TMUS** ★ | T-Mobile US | Communication Services | 38.2 | 2026-09-30 | 1 | -46.3% | $157.19B | $879M | REVIEW | inf | 3.6 | 15.3 | 10.2 | 0.53 | 1.71 | 3.0 | +5.3% | +0.6% | +7.9% | — |
-| **THO** ★ | Thor Industries | Consumer Discretionary | 37.8 | 2026-04-30 | 6 | -45.7% | $3.62B | $55M | PASS | inf | 0.8 | 20.7 | 14.6 | 0.63 | 0.38 | 0.4 | -66.9% | -2.0% | -3.9% | — |
-| **KBR** ★ | KBR, Inc. | Industrials | 34.7 | 2025-09-30 | 13 | -45.5% | $4.95B | $54M | PASS | inf | 2.8 | 11.8 | 9.7 | 0.54 | 0.64 | 1.0 | +33.9% | +15.1% | +1.6% | — |
-| **WYNN** ★ | Wynn Resorts | Consumer Discretionary | 38.8 | 2026-09-30 | 1 | -45.5% | $7.49B | $170M | PASS | inf | 5.3 | 17.4 | 15.6 | 0.65 | 1.01 | 2.4 | +106.2% | -27.8% | +6.9% | — |
-| **PEGA** ★ | Pegasystems | Information Technology | 43.5 | 2026-06-30 | 2 (exit 2026-08-31) | -45.4% | $5.96B | $84M | PASS | inf | -1.4 | 22.5 | 15.3 | 2.99 | 3.41 | 3.3 | -52.9% | n/a | +9.4% | — |
-| **GNTX** ★ | Gentex | Consumer Discretionary | 40.0 | 2026-08-31 | 2 | -45.2% | $4.35B | $57M | PASS | inf | -0.4 | 10.9 | 9.6 | 0.61 | 1.66 | 1.6 | +25.6% | -1.1% | -1.0% | — |
-| **COO** ★ | Cooper Companies (The) | Health Care | 36.2 | 2026-09-30 | 1 | -45.0% | $11.64B | $203M | REVIEW | inf | 2.6 | 21.0 | 13.0 | 0.58 | 2.75 | 3.3 | +357.1% | -4.6% | +0.6% | — |
-| **IP** ★ | International Paper | Materials | 41.1 | 2026-09-30 | 1 | -44.8% | $17.58B | $179M | REVIEW | inf | 53.3 | n/a | 10.8 | 1.58 | 0.73 | 1.1 | -114.3% | -542.7% | -2.2% | — |
-| **TECH** ★ | Bio-Techne | Health Care | 56.0 | 2026-05-31 | 1 (exit 2026-06-30) | -44.7% | $11.38B | $220M | PASS | inf | 0.1 | 62.5 | 31.4 | 2.11 | 9.36 | 9.4 | n/a | +152.2% | +1.3% | — |
-| **EXP** ★ | Eagle Materials | Materials | 40.5 | 2026-09-30 | 1 | -44.6% | $5.36B | $83M | PASS | inf | 2.1 | 13.8 | 13.1 | 2.09 | 2.31 | 3.0 | -12.5% | -4.4% | +2.6% | — |
-| **LII** ★ | Lennox International | Industrials | 38.3 | 2026-08-31 | 2 | -44.6% | $13.00B | $216M | REVIEW | inf | 1.7 | 16.6 | 14.6 | 0.96 | 2.45 | 2.8 | -1.3% | +1.1% | +3.0% | — |
-| **DPZ** ★ | Domino's | Consumer Discretionary | 36.9 | 2026-08-31 | 2 | -44.4% | $10.32B | $270M | PASS | inf | 4.7 | 17.3 | 15.2 | 1.45 | 2.04 | 3.0 | +6.8% | +5.3% | +4.3% | — |
-| **KHC** ★ | Kraft Heinz | Consumer Staples | 37.0 | 2026-09-30 | 1 | -44.0% | $29.41B | $428M | PASS | inf | 3.0 | n/a | 11.9 | 0.99 | 1.18 | 1.8 | n/a | -318.1% | -1.4% | — |
-| **CHDN** ★ | Churchill Downs Inc. | Consumer Discretionary | 36.4 | 2026-05-31 | 5 | -43.8% | $5.84B | $93M | REVIEW | inf | 4.1 | 14.3 | 11.5 | 1.69 | 1.95 | 3.5 | +14.4% | -6.9% | +4.9% | — |
-| **LYB** ★ | LyondellBasell | Materials | 44.5 | 2026-06-30 | 1 (exit 2026-07-31) | -43.2% | $21.47B | $233M | PASS | inf | 6.1 | n/a | 10.5 | 1.53 | 0.69 | 1.1 | n/a | -156.4% | +19.8% | — |
-| **WSO** ★ | Watsco | Industrials | 40.7 | 2026-07-31 | 3 | -43.2% | $13.32B | $172M | PASS | inf | 0.1 | 25.8 | 24.3 | 1.24 | 1.83 | 1.8 | -12.5% | -7.5% | +2.1% | — |
-| **CPT** ★ | Camden Property Trust | Real Estate | 41.6 | 2026-09-30 | 1 | -42.9% | $11.80B | $105M | REVIEW | inf | 3.6 | 33.7 | 136.0 | 9.17 | 7.46 | 10.2 | -75.7% | +136.0% | -0.5% | — |
-| **SUI** ★ | Sun Communities | Real Estate | 38.4 | 2026-09-30 | 1 | -42.9% | $14.65B | $184M | REVIEW | inf | 4.8 | 91.1 | 37.5 | 9.42 | 6.52 | 8.6 | -180.6% | +1426.8% | -0.2% | — |
-| **TSN** ★ | Tyson Foods | Consumer Staples | 39.3 | 2026-09-30 | 1 | -42.8% | $19.95B | $185M | REVIEW | inf | 2.8 | 35.0 | 14.6 | 1.04 | 0.36 | 0.5 | +205.9% | -40.9% | -0.1% | — |
-| **RYAN** ★ | Ryan Specialty | Financials | 39.8 | 2026-09-30 | 1 | -42.5% | $5.33B | $80M | PASS | inf | n/a | 61.5 | 17.9 | n/a | 3.54 | 2.8 | -13.2% | -33.8% | +7.2% | — |
-| **DKS** ★ | Dick's Sporting Goods | Consumer Discretionary | 34.8 | 2026-08-31 | 2 | -42.1% | $14.25B | $483M | REVIEW | inf | 3.8 | 15.7 | 11.0 | 1.04 | 0.67 | 1.0 | +9.6% | -29.0% | +53.2% | — |
-| **PCTY** ★ | Paylocity | Industrials | 47.6 | 2026-01-31 | 6 (exit 2026-07-31) | -42.0% | $9.24B | $103M | PASS | inf | -0.3 | 36.0 | 18.3 | 1.43 | 5.22 | 5.1 | -30.4% | +45.8% | +11.0% | — |
-| **PCG** ★ | PG&E Corporation | Utilities | 37.1 | 2026-08-31 | 2 | -41.6% | $37.92B | $577M | FAIL | 3m | 6.0 | 9.4 | 7.0 | 0.53 | 1.47 | 3.9 | +17.9% | +2.6% | +0.1% | — |
-| **UFPI** ★ | UFP Industries | Industrials | 38.5 | 2026-09-30 | 1 | -41.6% | $4.48B | $38M | PASS | inf | -0.5 | 18.5 | 14.8 | 2.67 | 0.72 | 0.7 | -12.9% | -26.1% | +2.6% | — |
-| **BRO** ★ | Brown & Brown | Financials | 38.2 | 2026-09-30 | 1 | -41.4% | $24.42B | $148M | PASS | inf | 2.9 | 23.0 | 15.1 | 1.86 | 3.66 | 4.7 | +7.7% | -8.7% | +32.4% | — |
-| **UDR** ★ | UDR, Inc. | Real Estate | 40.4 | 2026-09-30 | 1 | -41.0% | $11.51B | $137M | REVIEW | inf | 4.2 | 22.7 | 64.0 | 8.17 | 7.45 | 10.2 | +90.9% | +334.6% | +0.0% | — |
-| **EFX** ★ | Equifax | Industrials | 34.0 | 2026-09-30 | 1 | -40.6% | $21.42B | $269M | REVIEW | inf | 2.8 | 29.5 | 19.0 | 1.52 | 3.25 | 4.1 | +0.7% | +9.9% | +10.6% | — |
-| **ACN** | Accenture | Information Technology | 39.2 | 2026-02-28 | 8 | -40.0% | $152.60B | $1.24B | PASS | inf | -0.1 | 18.4 | 15.7 | 2.37 | 2.06 | 2.1 | +46.2% | +6.2% | +5.6% | — |
-| **NVR** | NVR, Inc. | Consumer Discretionary | 41.8 | 2026-09-30 | 1 | -39.7% | $15.95B | $246M | PASS | inf | -0.1 | 16.5 | 16.1 | 4.97 | 1.70 | 1.7 | -22.6% | -13.8% | -10.5% | — |
-| **TYL** | Tyler Technologies | Information Technology | 35.7 | 2025-12-31 | 10 | -39.7% | $15.98B | $286M | PASS | inf | 0.8 | 51.3 | 25.4 | 1.63 | 6.58 | 6.8 | +15.5% | +19.0% | +8.2% | — |
-| **INVH** | Invitation Homes | Real Estate | 39.2 | 2026-09-30 | 1 | -39.3% | $16.27B | $134M | REVIEW | inf | 4.7 | 24.6 | 37.7 | 13.14 | 5.71 | 8.7 | +60.9% | +29.7% | +9.7% | — |
-| **MAT** | Mattel | Consumer Discretionary | 38.7 | 2026-09-30 | 1 | -39.1% | $4.69B | $87M | PASS | inf | 2.8 | 12.1 | 10.4 | 1.13 | 0.85 | 1.3 | -137.5% | -21.5% | +10.5% | — |
-| **VRSK** | Verisk Analytics | Industrials | 32.0 | 2025-10-31 | 12 | -39.0% | $25.49B | $248M | PASS | inf | 2.4 | 30.1 | 22.5 | 1.64 | 8.13 | 9.4 | -3.3% | -3.4% | +4.4% | — |
-| **BRKR** | Bruker | Health Care | 58.9 | 2026-02-28 | 3 (exit 2026-05-31) | -38.9% | $8.77B | $134M | PASS | inf | 6.0 | n/a | 24.0 | 1.52 | 2.51 | 3.0 | -920.0% | -119.7% | +5.2% | — |
-| **LPX** | Louisiana-Pacific | Industrials | 39.5 | 2026-09-30 | 1 | -38.7% | $5.16B | $83M | PASS | 130m | 0.6 | 95.8 | 25.8 | 3.68 | 2.09 | 2.2 | -50.6% | -64.7% | -12.1% | — |
-| **HSY** | Hershey Company (The) | Consumer Staples | 41.5 | 2026-09-30 | 1 | -38.6% | $34.09B | $245M | REVIEW | inf | 1.9 | 23.2 | 17.2 | 0.85 | 2.80 | 3.2 | +632.2% | -60.3% | +6.6% | — |
-| **ARES** | Ares Management | Financials | 44.1 | 2026-06-30 | 1 (exit 2026-07-31) | -38.4% | $27.77B | $292M | REVIEW | inf | 5.7 | 56.3 | 17.2 | 0.91 | 7.71 | 6.8 | +6.5% | -16.7% | +5.8% | — |
-| **EXPO** | Exponent, Inc. | Industrials | 42.0 | 2025-04-30 | 15 (exit 2026-07-31) | -38.2% | $3.68B | $35M | PASS | inf | 0.1 | 34.7 | 28.5 | 2.03 | 6.49 | 5.8 | +15.4% | -1.9% | +20.9% | — |
-| **INGR** | Ingredion | Consumer Staples | 37.5 | 2026-05-31 | 5 | -38.2% | $6.04B | $65M | PASS | inf | 0.7 | 10.4 | 8.5 | 1.10 | 0.84 | 1.0 | -40.5% | +15.1% | +0.9% | — |
-| **OLLI** | Ollie's Bargain Outlet | Consumer Discretionary | 44.5 | 2026-04-30 | 5 (exit 2026-09-30) | -37.7% | $5.21B | $135M | PASS | inf | 1.3 | 19.6 | 17.7 | n/a | 1.87 | 2.1 | +43.4% | +20.4% | +9.1% | — |
-| **CNM** | Core & Main | Industrials | 40.8 | 2026-09-30 | 1 | -37.3% | $7.74B | $93M | PASS | inf | 2.6 | 17.3 | 12.0 | 1.43 | 1.01 | 1.3 | +10.0% | +8.5% | +2.5% | — |
-| **MORN** | Morningstar, Inc. | Financials | 41.7 | 2026-09-30 | 1 | -37.3% | $8.44B | $64M | PASS | inf | 1.7 | 21.4 | 16.1 | 2.31 | 3.29 | 3.8 | +35.4% | +3.4% | +9.6% | — |
-| **HLI** | Houlihan Lokey | Financials | 39.4 | 2026-06-30 | 4 | -37.2% | $9.18B | $111M | PASS | inf | -0.4 | 22.0 | 15.3 | n/a | 3.64 | 3.5 | -19.0% | +6.9% | -15.5% | — |
-| **ZBRA** | Zebra Technologies | Information Technology | 62.6 | 2025-11-30 | 6 (exit 2026-05-31) | -37.1% | $18.28B | $226M | REVIEW | inf | 2.7 | 35.4 | 17.3 | 0.62 | 3.13 | 3.6 | +121.5% | -19.6% | +20.4% | — |
-| **FNF** | Fidelity National Financial | Financials | 37.4 | 2026-09-30 | 1 | -37.0% | $10.85B | $97M | PASS | inf | n/a | 14.0 | 7.6 | 0.85 | 0.71 | -1.1 | +5.9% | -52.5% | +11.0% | — |
-| **MMS** | Maximus Inc. | Industrials | 36.8 | 2026-03-31 | 7 | -36.3% | $3.30B | $38M | REVIEW | inf | 2.3 | 9.3 | 7.5 | 2.06 | 0.63 | 0.9 | +4.8% | +10.4% | -5.1% | — |
-| **CDW** | CDW Corporation | Information Technology | 39.4 | 2026-09-30 | 1 | -36.0% | $20.64B | $245M | REVIEW | inf | 2.8 | 19.8 | 13.7 | 1.33 | 0.88 | 1.1 | +4.9% | +1.4% | +10.0% | — |
-| **ASH** | Ashland Global | Materials | 51.3 | 2026-03-31 | 2 (exit 2026-05-31) | -35.7% | $3.34B | $47M | PASS | inf | 2.7 | 46.8 | 16.9 | 1.23 | 1.81 | 2.4 | n/a | -642.6% | +7.3% | — |
-| **AMT** | American Tower | Real Estate | 40.9 | 2026-09-30 | 1 | -35.4% | $88.05B | $500M | REVIEW | inf | 5.8 | 26.0 | 27.1 | 1.80 | 8.05 | 12.0 | +138.5% | +12.0% | +4.7% | — |
-| **CRH** | CRH plc | Materials | 40.9 | 2026-09-30 | 1 | -35.4% | $56.48B | $450M | PASS | inf | 2.0 | 15.0 | 13.4 | 1.62 | 1.46 | 1.9 | +13.9% | +9.8% | +5.6% | — |
-| **EIX** | Edison International | Utilities | 40.6 | 2026-08-31 | 2 | -35.1% | $22.07B | $320M | FAIL | 7m | 4.3 | 5.9 | 8.8 | 2.55 | 1.14 | 3.4 | -62.9% | +248.9% | -4.1% | — |
-| **HGV** | Hilton Grand Vacations | Consumer Discretionary | 41.3 | 2026-09-30 | 1 | -34.8% | $2.79B | $44M | PASS | inf | 9.2 | 20.4 | 7.0 | n/a | 0.59 | 2.0 | -40.0% | +97.8% | +7.3% | — |
-| **DLB** | Dolby | Information Technology | 40.2 | 2026-09-30 | 1 | -34.7% | $5.89B | $53M | PASS | inf | -1.7 | 26.7 | 13.7 | 1.29 | 4.35 | 3.9 | -37.5% | -2.6% | -3.3% | — |
-| **APPF** | AppFolio | Information Technology | 49.4 | 2026-02-28 | 5 (exit 2026-07-31) | -34.4% | $7.47B | $78M | PASS | inf | -0.9 | 44.3 | 25.3 | 7.45 | 6.87 | 7.0 | +18.2% | -30.1% | +19.3% | — |
-| **BSY** | Bentley Systems | Information Technology | 38.5 | 2026-09-30 | 1 | -34.4% | $11.99B | $90M | PASS | inf | 2.4 | 42.7 | 25.1 | 1.53 | 7.49 | 8.2 | +13.6% | +18.1% | +12.8% | — |
-| **GPC** | Genuine Parts Company | Consumer Discretionary | 49.8 | 2026-03-31 | 3 (exit 2026-06-30) | -34.3% | $16.96B | $140M | REVIEW | inf | 8.2 | 473.2 | 15.1 | 1.32 | 0.67 | 0.9 | -9.8% | -92.7% | +6.0% | — |
-| **KNSL** | Kinsale Capital Group | Financials | 42.3 | 2026-03-31 | 4 (exit 2026-07-31) | -33.5% | $8.20B | $83M | PASS | inf | n/a | 15.9 | 16.7 | 1.09 | 4.20 | 2.8 | +34.0% | +21.8% | +16.8% | — |
-| **POST** | Post Holdings | Consumer Staples | 32.3 | 2026-08-31 | 2 | -33.3% | $3.54B | $72M | PASS | inf | 5.3 | 13.9 | 11.2 | 1.17 | 0.42 | 1.3 | -27.9% | -2.3% | -1.8% | — |
-| **FDS** | FactSet | Financials | 41.5 | 2026-09-30 | 1 | -33.2% | $11.78B | $236M | REVIEW | inf | 1.3 | 22.7 | 15.3 | 1.13 | 4.76 | 5.4 | -15.4% | -6.3% | +6.4% | — |
-| **VICI** | Vici Properties | Real Estate | 32.5 | 2026-06-30 | 4 | -33.1% | $26.16B | $253M | PASS | inf | 4.8 | 9.2 | 7.9 | n/a | 6.38 | 10.7 | -41.5% | +2.0% | +5.7% | — |
-| **AOS** | A. O. Smith | Industrials | 39.9 | 2026-08-31 | 2 | -33.0% | $8.38B | $90M | PASS | inf | 0.7 | 17.2 | 15.3 | 1.48 | 2.20 | 2.3 | -15.2% | +6.1% | -0.7% | — |
-| **LHX** | L3Harris | Industrials | 42.0 | 2026-09-30 | 1 | -32.9% | $47.29B | $434M | REVIEW | inf | 2.4 | 25.6 | 18.8 | 1.26 | 2.06 | 2.5 | +28.3% | +8.4% | +8.4% | — |
-| **ZBH** | Zimmer Biomet | Health Care | 44.2 | 2026-04-30 | 3 (exit 2026-07-31) | -32.8% | $18.80B | $202M | REVIEW | inf | 3.0 | 23.0 | 10.9 | 0.62 | 2.21 | 3.0 | +13.2% | -19.9% | +4.8% | — |
-| **LDOS** | Leidos | Industrials | 42.8 | 2026-05-31 | 3 (exit 2026-08-31) | -32.4% | $17.08B | $168M | PASS | inf | 2.5 | 12.7 | 10.8 | 2.46 | 0.97 | 1.3 | -6.6% | +20.8% | +7.2% | — |
-| **CRM** | Salesforce | Information Technology | 49.8 | 2026-02-28 | 6 (exit 2026-08-31) | -32.4% | $204.57B | $2.82B | PASS | inf | 2.2 | 22.7 | 15.5 | 0.89 | 4.66 | 5.3 | +118.9% | +22.6% | +10.8% | — |
-| **NOW** | ServiceNow | Information Technology | 48.0 | 2026-06-30 | 2 (exit 2026-08-31) | -32.1% | $164.34B | $2.04B | PASS | inf | 1.1 | 99.4 | 31.8 | 1.15 | 11.16 | 11.4 | -21.2% | +22.1% | +24.0% | — |
-| **FCN** | FTI Consulting | Industrials | 35.5 | 2026-08-31 | 2 | -31.9% | $4.34B | $64M | PASS | inf | 2.4 | 18.9 | 14.5 | 0.96 | 1.11 | 1.4 | -6.6% | +5.5% | +5.3% | — |
-| **TDG** | TransDigm Group | Industrials | 41.3 | 2026-09-30 | 1 | -31.8% | $61.07B | $463M | PASS | inf | 6.1 | 33.5 | 22.7 | 3.05 | 6.10 | 9.2 | +10.9% | +25.2% | +22.5% | — |
-| **TRU** | TransUnion | Industrials | 38.2 | 2026-09-30 | 1 | -31.7% | $15.61B | $193M | PASS | inf | 2.7 | 21.5 | 15.0 | 1.15 | 3.19 | 4.2 | +32.1% | +60.0% | +14.9% | — |
-| **SLGN** | Silgan Holdings | Materials | 40.7 | 2026-09-30 | 1 | -31.7% | $4.15B | $49M | REVIEW | inf | 4.9 | 15.4 | 9.7 | 0.79 | 0.62 | 1.3 | -13.3% | +4.7% | +6.8% | — |
-| **WDAY** | Workday, Inc. | Information Technology | 48.7 | 2026-01-31 | 7 (exit 2026-08-31) | -31.6% | $50.61B | $666M | PASS | inf | 0.2 | 42.8 | 15.9 | 0.63 | 4.98 | 5.0 | +206.0% | +32.8% | +12.8% | — |
-| **AMCR** | Amcor | Materials | 45.1 | 2026-03-31 | 3 (exit 2026-06-30) | -31.6% | $21.30B | $156M | PASS | inf | 4.0 | 19.4 | 10.6 | 1.04 | 0.91 | 1.5 | n/a | +48.7% | +25.9% | — |
-| **BR** | Broadridge Financial Solutio | Industrials | 40.5 | 2026-09-30 | 1 | -31.3% | $20.69B | $185M | PASS | inf | 1.6 | 19.1 | 15.8 | 1.99 | 2.77 | 3.2 | +8.9% | +35.2% | +7.5% | — |
-| **LOW** | Lowe's | Consumer Discretionary | 36.3 | 2026-07-31 | 3 | -30.9% | $111.40B | $631M | PASS | inf | 3.0 | 16.8 | 15.3 | 1.27 | 1.23 | 1.7 | +0.0% | -3.1% | +8.3% | — |
-| **PEP** | PepsiCo | Consumer Staples | 38.0 | 2026-09-30 | 1 | -30.8% | $185.02B | $1.16B | PASS | inf | 2.3 | 17.1 | 15.7 | 1.41 | 1.88 | 2.3 | +137.0% | -13.7% | +6.4% | — |
-| **ELS** | Equity Lifestyle Properties | Real Estate | 40.7 | 2026-09-30 | 1 | -30.6% | $11.81B | $105M | REVIEW | inf | 4.4 | 30.1 | 27.9 | 4.37 | 7.69 | 10.2 | +19.0% | +2.6% | +3.3% | — |
-| **CHH** | Choice Hotels | Consumer Discretionary | 42.7 | 2026-03-31 | 2 (exit 2026-05-31) | -30.5% | $4.88B | $57M | PASS | inf | 3.5 | 15.3 | 14.4 | 1.88 | 4.91 | 4.3 | -19.4% | +27.4% | +3.4% | — |
-| **T** | AT&T | Communication Services | 49.9 | 2026-06-30 | 1 (exit 2026-07-31) | -29.3% | $140.99B | $1.05B | PASS | inf | 2.7 | 11.2 | 8.1 | 1.24 | 1.09 | 2.3 | +6.5% | +104.0% | +2.3% | — |
-| **OTIS** | Otis Worldwide | Industrials | 33.4 | 2026-03-31 | 7 | -29.1% | $28.61B | $285M | REVIEW | inf | 3.2 | 19.3 | 16.6 | 1.70 | 1.92 | 2.5 | +13.1% | -14.0% | +7.3% | — |
-| **XYL** | Xylem Inc. | Industrials | 37.2 | 2026-08-31 | 2 | -28.9% | $25.39B | $241M | PASS | inf | 1.0 | 25.9 | 17.5 | 1.32 | 2.78 | 3.0 | n/a | +7.4% | +1.5% | — |
-| **TRMB** | Trimble Inc. | Information Technology | 43.0 | 2026-05-31 | 3 (exit 2026-08-31) | -28.9% | $14.80B | $165M | PASS | inf | 4.5 | n/a | 15.3 | 1.50 | 3.91 | 4.2 | -645.9% | -71.1% | +11.0% | — |
-| **MLM** | Martin Marietta Materials | Materials | 40.1 | 2026-09-30 | 1 | -28.4% | $36.02B | $380M | REVIEW | inf | 3.0 | 33.0 | 23.9 | 1.92 | 5.39 | 6.3 | -23.2% | -42.1% | +21.0% | — |
-| **RLI** | RLI Corp. | Financials | 42.5 | 2026-03-31 | 3 (exit 2026-06-30) | -28.3% | $5.95B | $48M | PASS | inf | n/a | 15.1 | 23.4 | 1.73 | 3.06 | 2.3 | +35.8% | +16.8% | +15.2% | — |
-| **ATR** | AptarGroup | Materials | 43.9 | 2026-05-31 | 1 (exit 2026-06-30) | -28.2% | $8.05B | $59M | PASS | inf | 1.4 | 22.8 | 20.5 | 2.82 | 2.05 | 2.4 | -18.6% | +6.5% | +10.8% | — |
-| **GLPI** | Gaming and Leisure Propertie | Real Estate | 35.8 | 2026-08-31 | 2 | -28.0% | $11.51B | $135M | PASS | inf | 4.8 | 11.1 | 11.9 | n/a | 7.16 | 11.8 | +48.1% | +2.8% | +9.0% | — |
-| **GWRE** | Guidewire Software | Information Technology | 46.0 | 2026-06-30 | 1 (exit 2026-07-31) | -27.8% | $15.50B | $220M | PASS | inf | -0.2 | 116.0 | 35.4 | 1.23 | 10.50 | 10.5 | -36.7% | +101.2% | +15.3% | — |
-| **BBY** | Best Buy | Consumer Discretionary | 57.3 | 2026-01-31 | 4 (exit 2026-05-31) | -27.6% | $20.95B | $311M | PASS | inf | 0.7 | 16.6 | 13.8 | 1.77 | 0.50 | 0.5 | +70.1% | +17.8% | +3.6% | — |
-| **MCD** | McDonald's | Consumer Discretionary | 33.2 | 2026-08-31 | 2 | -27.2% | $175.82B | $1.34B | PASS | inf | 3.6 | 20.2 | 18.1 | 2.63 | 6.35 | 8.3 | +5.7% | +4.9% | +3.8% | — |
-| **AMH** | American Homes 4 Rent | Real Estate | 41.7 | 2026-09-30 | 1 | -26.8% | $11.49B | $84M | REVIEW | inf | 4.1 | 25.3 | 47.6 | n/a | 6.98 | 8.8 | +10.7% | +9.3% | +2.8% | — |
-| **TTEK** | Tetra Tech | Industrials | 48.7 | 2026-05-31 | 1 (exit 2026-06-30) | -26.8% | $9.47B | $85M | PASS | inf | 1.1 | 22.3 | 21.6 | 2.10 | 2.17 | 2.0 | -2.3% | -24.4% | -4.5% | — |
-| **ABT** | Abbott Laboratories | Health Care | 43.5 | 2026-03-31 | 4 (exit 2026-07-31) | -26.7% | $179.44B | $946M | PASS | inf | 2.3 | 38.6 | 17.4 | 1.94 | 3.72 | 4.6 | -47.5% | -51.3% | +7.8% | — |
-| **G** | Genpact | Industrials | 42.8 | 2026-04-30 | 3 (exit 2026-07-31) | -26.5% | $6.83B | $78M | PASS | inf | 1.0 | 12.2 | 9.1 | 1.16 | 1.30 | 1.5 | +14.7% | +9.8% | +7.1% | — |
-| **ROP** | Roper Technologies | Information Technology | 37.1 | 2026-09-30 | 1 | -26.2% | $43.33B | $313M | REVIEW | inf | 2.6 | 17.3 | 17.8 | 1.72 | 5.14 | 6.6 | +233.0% | -1.0% | +8.5% | — |
-| **PAYX** | Paychex | Industrials | 41.2 | 2026-09-30 | 1 | -26.1% | $42.02B | $337M | PASS | inf | 1.2 | 23.4 | 18.5 | 2.20 | 6.36 | 6.9 | +14.2% | +6.8% | +5.9% | — |
-| **ISRG** | Intuitive Surgical | Health Care | 44.8 | 2026-06-30 | 3 (exit 2026-09-30) | -25.9% | $159.78B | $968M | PASS | inf | n/a | 54.7 | 36.4 | 2.10 | 13.80 | 14.0 | +26.5% | +22.6% | +18.5% | — |
-| **HD** | Home Depot (The) | Consumer Discretionary | 37.8 | 2026-09-30 | 1 | -25.9% | $319.09B | $1.42B | REVIEW | inf | 2.4 | 21.5 | 20.0 | 1.69 | 1.89 | 2.2 | +4.6% | -4.6% | +5.7% | — |
-| **AON** | Aon plc | Financials | 38.4 | 2026-09-30 | 1 | -25.9% | $64.38B | $506M | REVIEW | inf | 2.2 | 16.7 | 15.0 | 2.38 | 3.66 | 4.5 | -3.0% | +36.3% | +2.2% | — |
-| **KMB** | Kimberly-Clark | Consumer Staples | 38.8 | 2026-09-30 | 1 | -25.8% | $36.63B | $440M | PASS | inf | 1.7 | 21.7 | 14.9 | 2.25 | 2.21 | 2.5 | -32.0% | -19.6% | +0.6% | — |
-| **HRB** | H&R Block | Consumer Discretionary | 46.4 | 2026-06-30 | 1 (exit 2026-07-31) | -25.4% | $6.09B | $99M | PASS | inf | 1.1 | 8.7 | 7.2 | 0.63 | 1.54 | 1.8 | +4.5% | +28.9% | +3.0% | — |
-| **AWK** | American Water Works | Utilities | 46.3 | 2026-05-31 | 1 (exit 2026-06-30) | -24.4% | $28.37B | $285M | FAIL | 2m | 5.2 | 24.7 | 21.7 | 2.53 | 5.37 | 8.4 | +8.8% | +5.6% | +6.2% | — |
-| **ADSK** | Autodesk | Information Technology | 40.8 | 2026-09-30 | 1 | -24.4% | $52.71B | $483M | PASS | inf | -0.2 | 32.7 | 17.8 | 0.85 | 6.77 | 6.7 | +59.6% | +2.1% | +16.1% | — |
-| **CTSH** | Cognizant | Information Technology | 44.8 | 2026-03-31 | 4 (exit 2026-07-31) | -24.2% | $31.77B | $441M | PASS | inf | 0.3 | 15.2 | 11.1 | 1.03 | 1.47 | 1.5 | +3.8% | +1.1% | +4.5% | — |
-| **VNT** | Vontier | Information Technology | 44.3 | 2026-05-31 | 2 (exit 2026-07-31) | -24.2% | $4.65B | $46M | REVIEW | inf | 2.7 | 14.2 | 9.1 | 0.84 | 1.51 | 2.1 | -67.7% | +0.4% | -2.2% | — |
-| **EXE** | Expand Energy | Energy | 42.0 | 2026-09-30 | 1 | -24.1% | $21.58B | $288M | PASS | inf | 0.5 | 8.0 | 10.2 | 0.85 | 1.71 | 1.8 | -45.5% | n/a | -19.7% | — |
-| **SYK** | Stryker Corporation | Health Care | 36.3 | 2026-09-30 | 1 | -23.9% | $117.81B | $805M | PASS | inf | 1.6 | 31.8 | 18.4 | 1.44 | 4.56 | 5.0 | +44.1% | +8.2% | +9.4% | — |
-| **PEG** | Public Service Enterprise Gr | Utilities | 38.0 | 2026-09-30 | 1 | -23.8% | $35.90B | $246M | REVIEW | inf | 5.1 | 17.9 | 15.5 | 3.40 | 2.86 | 4.8 | -42.7% | +19.0% | -8.9% | — |
-| **UHS** | Universal Health Services | Health Care | 48.5 | 2026-05-31 | 2 (exit 2026-07-31) | -23.5% | $11.01B | $125M | REVIEW | inf | 1.8 | 7.4 | 7.8 | 1.26 | 0.61 | 0.9 | +10.1% | +37.3% | +8.3% | — |
-| **AJG** | Arthur J. Gallagher & Co. | Financials | 44.8 | 2026-02-28 | 4 (exit 2026-06-30) | -23.2% | $68.71B | $352M | REVIEW | inf | 3.2 | 44.5 | 18.1 | 0.96 | 4.55 | 5.2 | -10.7% | -11.7% | +24.2% | — |
-| **MANH** | Manhattan Associates | Information Technology | 53.0 | 2026-01-31 | 6 (exit 2026-07-31) | -23.1% | $13.89B | $158M | PASS | inf | -0.5 | 68.4 | 38.9 | 2.57 | 12.33 | 12.2 | -8.6% | +2.6% | +9.3% | — |
-| **MDT** | Medtronic | Health Care | 48.7 | 2026-05-31 | 1 (exit 2026-06-30) | -23.1% | $122.04B | $1.50B | PASS | inf | 1.9 | 23.4 | 14.9 | 1.71 | 3.25 | 3.8 | +40.7% | +3.3% | +13.7% | — |
-| **JKHY** | Jack Henry & Associates | Financials | 42.7 | 2026-05-31 | 2 (exit 2026-07-31) | -23.0% | $11.40B | $147M | REVIEW | inf | 0.0 | 22.1 | 20.6 | 1.98 | 4.48 | 4.5 | -10.3% | +11.9% | +4.7% | — |
-| **GEN** | Gen Digital | Information Technology | 44.9 | 2026-02-28 | 3 (exit 2026-05-31) | -22.6% | $14.89B | $210M | PASS | inf | 3.0 | 14.5 | 7.5 | 1.28 | 2.93 | 4.4 | +63.6% | +52.4% | +6.3% | — |
-| **PGR** | Progressive Corporation | Financials | 47.3 | 2026-05-31 | 1 (exit 2026-06-30) | -21.7% | $132.17B | $554M | PASS | inf | n/a | 11.5 | 14.0 | 69.62 | 1.44 | 1.4 | +29.7% | +33.5% | +7.3% | — |
-| **BYD** | Boyd Gaming | Consumer Discretionary | 41.3 | 2026-09-30 | 1 | -21.4% | $5.21B | $77M | PASS | 78m | 1.1 | 10.5 | 9.3 | 3.03 | 1.28 | 2.0 | -4.9% | +264.5% | +0.0% | — |
-| **CHE** | Chemed Corp. | Health Care | 52.4 | 2025-06-30 | 12 (exit 2026-06-30) | -21.2% | $6.70B | $80M | REVIEW | inf | 0.5 | 25.8 | 18.6 | 1.87 | 2.58 | 2.7 | +43.7% | -7.8% | +1.6% | — |
-| **RVTY** | Revvity | Health Care | 67.4 | 2026-04-30 | 1 (exit 2026-05-31) | -21.0% | $17.72B | $252M | PASS | inf | 3.1 | 76.0 | 26.9 | 0.73 | 6.08 | 6.9 | +1.0% | -5.9% | +1.3% | — |
-| **DHR** | Danaher Corporation | Health Care | 53.8 | 2026-03-31 | 4 (exit 2026-07-31) | -21.0% | $162.04B | $912M | PASS | inf | 2.9 | 38.2 | 24.8 | 1.31 | 6.33 | 7.3 | +59.7% | -4.5% | +5.5% | — |
-| **AVY** | Avery Dennison | Materials | 46.0 | 2026-04-30 | 3 (exit 2026-07-31) | -20.8% | $13.78B | $154M | REVIEW | inf | 2.4 | 19.9 | 16.3 | 1.92 | 1.49 | 1.9 | +10.8% | +0.7% | +10.9% | — |
-| **OKTA** | Okta, Inc. | Information Technology | 78.3 | 2026-04-30 | 1 (exit 2026-05-31) | -20.6% | $37.25B | $637M | PASS | inf | -5.5 | 133.2 | 48.7 | 1.52 | 12.12 | 11.4 | +75.7% | +2083.3% | +10.6% | — |
-| **MRSH** | Marsh McLennan | Financials | 42.4 | 2026-03-31 | 4 (exit 2026-07-31) | -19.2% | $93.90B | $463M | REVIEW | inf | 2.9 | 23.6 | 17.2 | 1.73 | 3.30 | 4.1 | +7.3% | +3.1% | +6.2% | — |
-| **EXLS** | EXL Service | Industrials | 47.5 | 2026-02-28 | 5 (exit 2026-07-31) | -18.3% | $6.41B | $83M | REVIEW | inf | 0.5 | 26.8 | 16.3 | 1.10 | 2.87 | 3.0 | +5.0% | +27.3% | +15.6% | — |
-| **DT** | Dynatrace | Information Technology | 62.5 | 2026-01-31 | 4 (exit 2026-05-31) | -17.7% | $18.51B | $383M | PASS | inf | -3.2 | 128.1 | 28.2 | 1.30 | 8.87 | 8.4 | -25.0% | -66.0% | +16.2% | [DT.md](../thesis/DT.md) |
-| **CXT** | Crane NXT | Information Technology | 46.4 | 2026-05-31 | 1 (exit 2026-06-30) | -17.5% | $3.27B | $28M | PASS | inf | 3.3 | 23.6 | 12.0 | n/a | 1.82 | 2.5 | +41.9% | -21.6% | +22.0% | — |
-| **HPQ** | HP Inc. | Information Technology | 57.5 | 2025-11-30 | 6 (exit 2026-05-31) | -16.6% | $30.34B | $459M | PASS | inf | 1.5 | 12.8 | 10.7 | 3.59 | 0.51 | 0.6 | -11.3% | -5.7% | +12.5% | — |
-| **SPGI** | S&P Global | Financials | 42.8 | 2026-05-31 | 2 (exit 2026-07-31) | -15.6% | $132.75B | $816M | PASS | inf | 1.4 | 27.4 | 22.3 | 2.13 | 8.23 | 8.9 | +17.7% | +18.7% | +10.4% | — |
-| **NTNX** | Nutanix | Information Technology | 59.8 | 2026-01-31 | 4 (exit 2026-05-31) | -15.0% | $19.10B | $175M | PASS | inf | -2.1 | 13.7 | 26.4 | 1.45 | 6.69 | 6.4 | +3238.5% | +695.4% | +15.9% | — |
-| **OPCH** | Option Care Health | Health Care | 41.5 | 2026-09-30 | 1 | -14.7% | $4.68B | $108M | PASS | inf | 2.6 | 23.7 | 15.0 | 1.50 | 0.82 | 1.0 | +12.9% | +3.3% | +1.9% | — |
-| **RMD** | ResMed | Health Care | 48.0 | 2026-05-31 | 2 (exit 2026-07-31) | -13.9% | $35.56B | $300M | PASS | inf | -0.3 | 24.2 | 19.1 | 1.47 | 6.29 | 6.2 | +2.3% | +13.6% | +8.6% | — |
-| **ICE** | Intercontinental Exchange | Financials | 49.5 | 2026-06-30 | 1 (exit 2026-07-31) | -13.6% | $91.36B | $525M | PASS | inf | 2.3 | 23.0 | 18.3 | 1.86 | 8.65 | 8.1 | +22.5% | +20.7% | +10.7% | — |
-| **CVLT** | CommVault Systems | Information Technology | 55.7 | 2026-01-31 | 4 (exit 2026-05-31) | -13.3% | $7.02B | $86M | PASS | inf | -0.1 | 105.2 | 27.3 | 3.17 | 5.77 | 5.8 | -3.8% | -6.0% | +11.4% | — |
-| **CMS** | CMS Energy | Utilities | 40.9 | 2026-09-30 | 1 | -13.0% | $21.82B | $257M | FAIL | 1m | 5.8 | 20.9 | 16.8 | 2.51 | 2.48 | 4.6 | -43.9% | +4.2% | -0.5% | — |
-| **PTC** | PTC Inc. | Information Technology | 44.2 | 2026-03-31 | 4 (exit 2026-07-31) | -10.5% | $21.05B | $418M | PASS | inf | 0.7 | 18.8 | 21.7 | 1.82 | 7.13 | 7.6 | -12.0% | +96.8% | -6.8% | — |
-| **WTW** | Willis Towers Watson | Financials | 48.4 | 2026-04-30 | 3 (exit 2026-07-31) | -7.3% | $30.18B | $170M | PASS | inf | 2.0 | 20.1 | 14.2 | 1.27 | 2.99 | 3.5 | -26.8% | n/a | +9.1% | — |
-| **ADP** | Automatic Data Processing | Industrials | 50.1 | 2026-01-31 | 6 (exit 2026-07-31) | -6.9% | $120.52B | $600M | REVIEW | inf | 0.2 | 27.8 | 22.7 | 2.45 | 5.49 | 5.5 | +9.9% | +9.7% | +6.8% | — |
-| **CME** | CME Group | Financials | 50.4 | 2026-06-30 | 1 (exit 2026-07-31) | -6.4% | $109.42B | $544M | PASS | inf | 0.2 | 25.1 | 23.1 | 5.17 | 15.73 | 16.3 | +2.5% | +15.4% | +0.8% | — |
-| **IQV** | IQVIA | Health Care | 63.3 | 2026-04-30 | 1 (exit 2026-05-31) | -1.1% | $45.98B | $379M | REVIEW | inf | 4.0 | 34.7 | 19.4 | 1.01 | 2.71 | 3.5 | -0.6% | +4.7% | +8.7% | — |
-| **VEEV** | Veeva Systems | Health Care | 61.6 | 2026-02-28 | 5 (exit 2026-07-31) | +0.0% | $52.30B | $456M | PASS | inf | -6.6 | 53.0 | 31.5 | 1.25 | 15.12 | 13.1 | +39.5% | +25.9% | +17.6% | — |
-| **QLYS** | Qualys | Information Technology | 65.3 | 2026-02-28 | 3 (exit 2026-05-31) | +0.0% | $7.50B | $133M | PASS | inf | -1.5 | 37.6 | 25.6 | 3.72 | 10.66 | 10.1 | +16.3% | +17.0% | +11.0% | — |
+| **WHR** ★ | Whirlpool Corporation | Consumer Discretionary | 29.9 | 2026-02-28 | 9 | -86.7% | $2.10B | $108M | PASS | 53m | 8.3 | n/a | 32.0 | 1.04 | 0.14 | 0.6 | -394.6% | n/a | -8.8% | — |
+| **BILL** ★ | Bill Holdings | Information Technology | 46.9 | 2026-01-31 | 6 (exit 2026-07-31) | -84.3% | $4.62B | $87M | PASS | inf | 1.5 | 103.5 | 11.8 | 0.47 | 2.73 | 3.0 | n/a | -147.8% | +12.5% | — |
+| **XRAY** ★ | Dentsply Sirona | Health Care | 34.7 | 2024-04-30 | 31 | -83.8% | $1.90B | $45M | REVIEW | inf | 6.1 | n/a | 7.6 | 0.64 | 0.53 | 1.1 | n/a | n/a | -7.5% | — |
+| **CHTR** ★ | Charter Communications | Communication Services | 29.2 | 2025-07-31 | 16 | -82.7% | $13.87B | $374M | REVIEW | inf | 6.6 | 11.4 | 3.0 | 0.66 | 0.39 | 2.2 | -345.8% | +3.5% | +9.1% | — |
+| **ARE** ★ | Alexandria Real Estate Equit | Real Estate | 30.4 | 2024-10-31 | 25 | -79.5% | $7.99B | $107M | REVIEW | inf | 46.2 | n/a | -48.8 | 3.24 | 2.90 | 7.7 | n/a | -568.9% | -11.2% | — |
+| **RH** ★ | RH | Consumer Discretionary | 42.3 | 2026-08-31 | 2 (exit 2026-10-31) | -79.1% | $2.59B | $109M | REVIEW | inf | 7.8 | 24.1 | 16.1 | 0.65 | 0.75 | 1.9 | +16.8% | +74.3% | +2.6% | — |
+| **LULU** ★ | Lululemon Athletica | Consumer Discretionary | 33.9 | 2025-06-30 | 17 | -78.0% | $13.03B | $537M | PASS | inf | 0.3 | 9.3 | 13.1 | 1.12 | 1.17 | 1.2 | -5.8% | -9.4% | -4.3% | — |
+| **PATH** ★ | UiPath | Information Technology | 48.4 | 2026-06-30 | 1 (exit 2026-07-31) | -77.4% | $6.76B | $667M | PASS | inf | -6.7 | 19.4 | 14.1 | 0.41 | 3.93 | 3.2 | n/a | n/a | +13.4% | — |
+| **APTV** ★ | Aptiv | Consumer Discretionary | 33.4 | 2026-06-30 | 5 | -77.4% | $8.08B | $170M | PASS | inf | 2.1 | 11.1 | 6.6 | 0.95 | 0.39 | 0.8 | n/a | -89.2% | +2.3% | — |
+| **SKYD** ★ | Skydance Corporation | Communication Services | 40.6 | 2026-10-31 | 1 | -77.4% | $43.87B | $216M | PASS | inf | 5.0 | n/a | 157.2 | 2.80 | 1.51 | 2.1 | -81.8% | n/a | n/a | — |
+| **NKE** ★ | Nike, Inc. | Consumer Discretionary | 30.9 | 2025-09-30 | 14 | -77.2% | $59.23B | $1.24B | PASS | inf | 0.6 | 19.2 | 25.8 | 3.34 | 1.29 | 1.3 | -2.0% | -2.8% | -4.3% | — |
+| **FIS** ★ | Fidelity National Informatio | Financials | 34.3 | 2026-01-31 | 10 | -76.7% | $14.61B | $248M | REVIEW | inf | 4.4 | 4.2 | 5.1 | 0.15 | 1.13 | 2.7 | +38.0% | -72.0% | +27.1% | — |
+| **HUBS** ★ | HubSpot | Information Technology | 37.7 | 2025-11-30 | 12 | -75.8% | $10.06B | $343M | PASS | inf | -2.6 | 49.7 | 12.3 | 0.24 | 2.80 | 2.5 | +438.7% | +855.6% | +17.1% | — |
+| **ALGN** ★ | Align Technology | Health Care | 41.5 | 2026-09-30 | 2 | -75.5% | $12.28B | $152M | PASS | inf | -1.0 | 25.4 | 14.2 | 0.76 | 2.95 | 2.7 | +143.6% | +0.5% | +1.9% | — |
+| **FLG** ★ | Flagstar Bank | Financials | 38.3 | 2026-09-30 | 2 | -74.6% | $4.21B | $67M | REVIEW | 255m | n/a | 70.5 | 14.6 | 0.78 | 2.10 | 5.3 | n/a | n/a | +2.1% | — |
+| **FISV** ★ | Fiserv | Financials | 32.1 | 2025-09-30 | 14 | -73.3% | $33.80B | $355M | REVIEW | inf | 20.6 | n/a | 8.0 | 1.88 | 1.62 | 2.9 | -865.1% | +17.8% | -1.3% | — |
+| **VFC** ★ | VF Corporation | Consumer Discretionary | 50.8 | 2026-07-31 | 3 (exit 2026-10-31) | -73.2% | $8.22B | $140M | REVIEW | inf | 5.4 | 22.7 | 14.9 | 0.51 | 0.87 | 1.4 | n/a | n/a | -3.8% | — |
+| **SFM** ★ | Sprouts Farmers Market | Consumer Staples | 33.5 | 2026-09-30 | 2 | -72.4% | $4.57B | $173M | PASS | inf | 2.0 | 9.5 | 11.3 | 1.53 | 0.50 | 0.7 | -0.8% | +41.6% | +4.7% | — |
+| **BBWI** ★ | Bath & Body Works, Inc. | Consumer Discretionary | 46.2 | 2026-07-31 | 3 (exit 2026-10-31) | -72.2% | $4.39B | $130M | PASS | inf | 2.7 | 5.7 | 7.8 | 0.78 | 0.61 | 1.2 | +93.3% | -13.9% | -2.3% | — |
+| **PYPL** ★ | PayPal | Financials | 46.5 | 2025-11-30 | 8 (exit 2026-07-31) | -72.2% | $49.88B | $673M | PASS | inf | 0.4 | 11.5 | 10.2 | 0.95 | 1.45 | 1.5 | -3.8% | +35.6% | +2.0% | — |
+| **DOCU** ★ | Docusign | Information Technology | 59.3 | 2026-01-31 | 6 (exit 2026-07-31) | -71.7% | $14.53B | $212M | PASS | inf | -1.1 | 47.4 | 14.9 | 0.74 | 4.32 | 4.1 | +33.3% | -70.9% | +9.4% | — |
+| **DUOL** ★ | Duolingo | Consumer Discretionary | 41.6 | 2026-10-31 | 1 | -71.5% | $7.28B | $181M | PASS | inf | -7.9 | 51.1 | 19.7 | n/a | 6.16 | 5.1 | -90.9% | +350.5% | +13.7% | — |
+| **MOS** ★ | Mosaic Company (The) | Materials | 36.0 | 2026-09-30 | 2 | -70.9% | $7.24B | $206M | FAIL | 4m | 11.7 | n/a | 15.3 | 2.02 | 0.61 | 1.1 | -117.8% | +209.1% | -10.2% | — |
+| **BAX** ★ | Baxter International | Health Care | 43.0 | 2022-06-30 | 49 (exit 2026-07-31) | -70.5% | $13.66B | $162M | PASS | inf | 6.4 | n/a | 12.9 | 36.68 | 1.18 | 1.8 | n/a | n/a | +5.0% | — |
+| **CHWY** ★ | Chewy | Consumer Discretionary | 41.6 | 2026-09-30 | 2 | -70.0% | $9.26B | $175M | PASS | inf | 1.0 | 35.5 | 12.3 | 0.40 | 0.71 | 0.7 | +42.9% | -42.9% | +7.3% | — |
+| **FICO** ★ | Fair Isaac | Information Technology | 35.8 | 2026-09-30 | 2 | -69.6% | $15.47B | $599M | REVIEW | inf | 3.8 | 19.9 | 14.1 | 0.76 | 6.10 | 8.1 | +26.5% | +36.9% | +27.4% | — |
+| **EL** ★ | Estée Lauder Companies (The) | Consumer Staples | 52.5 | 2026-06-30 | 1 (exit 2026-07-31) | -69.6% | $41.00B | $358M | PASS | inf | 3.2 | 113.2 | 27.9 | 2.12 | 2.68 | 3.1 | +392.3% | n/a | +6.7% | — |
+| **ALB** ★ | Albemarle Corporation | Materials | 41.8 | 2026-10-31 | 1 | -69.5% | $11.70B | $272M | PASS | inf | 0.0 | 23.9 | 11.5 | 0.79 | 1.90 | 1.9 | n/a | n/a | +18.8% | — |
+| **AVAV** ★ | AeroVironment | Industrials | 41.3 | 2026-10-31 | 1 | -69.0% | $6.45B | $239M | PASS | 155m | -25.1 | n/a | 28.8 | 0.98 | 3.22 | 3.4 | n/a | -448.4% | +5.7% | — |
+| **CSGP** ★ | CoStar Group | Real Estate | 30.7 | 2026-01-31 | 10 | -68.0% | $12.57B | $198M | PASS | inf | 1.3 | 72.7 | 17.7 | 0.12 | 3.42 | 3.6 | n/a | -94.1% | +14.1% | — |
+| **COIN** ★ | Coinbase | Financials | 42.3 | 2026-06-30 | 2 (exit 2026-08-31) | -67.6% | $36.03B | $1.63B | PASS | inf | 4.1 | n/a | 56.4 | 0.62 | 6.62 | 6.0 | +67.3% | -53.1% | -35.0% | — |
+| **ZTS** ★ | Zoetis | Health Care | 31.5 | 2025-10-31 | 13 | -66.7% | $33.45B | $352M | PASS | inf | 2.0 | 14.0 | 12.9 | 14.78 | 3.52 | 4.3 | -11.7% | +10.1% | -1.3% | — |
+| **ADBE** ★ | Adobe Inc. | Information Technology | 39.9 | 2026-09-30 | 2 | -65.5% | $92.36B | $1.19B | PASS | inf | 0.1 | 13.3 | 8.7 | 0.58 | 3.56 | 3.6 | +10.5% | +35.1% | +12.9% | — |
+| **CELH** ★ | Celsius Holdings | Consumer Staples | 42.7 | 2026-09-30 | 1 (exit 2026-10-31) | -65.5% | $8.32B | $212M | PASS | inf | -0.1 | 37.3 | 19.8 | 0.30 | 2.62 | 2.6 | n/a | -44.4% | +16.8% | — |
+| **IT** ★ | Gartner | Information Technology | 44.8 | 2025-07-31 | 15 (exit 2026-10-31) | -65.4% | $12.05B | $223M | PASS | inf | 1.0 | 13.7 | 11.5 | 0.72 | 1.87 | 2.1 | +612.8% | -39.7% | -1.3% | — |
+| **ACI** ★ | Albertsons | Consumer Staples | 35.2 | 2026-03-31 | 8 | -64.9% | $6.07B | $102M | REVIEW | inf | 5.0 | n/a | 7.8 | 1.60 | 0.07 | 0.3 | -63.3% | -75.6% | -0.1% | — |
+| **GPK** ★ | Graphic Packaging | Materials | 26.7 | 2025-09-30 | 14 | -64.5% | $3.21B | $68M | REVIEW | inf | 5.4 | 43.4 | 11.3 | 3.33 | 0.37 | 1.0 | -85.4% | -31.5% | +0.1% | — |
+| **FOUR** ★ | Shift4 | Financials | 38.4 | 2026-08-31 | 3 | -64.2% | $3.55B | $89M | PASS | inf | 4.5 | 54.2 | 8.1 | 0.32 | 0.72 | 1.6 | +15.6% | -64.4% | +12.1% | — |
+| **SMG** ★ | Scotts Miracle-Gro Company | Materials | 49.1 | 2026-09-30 | 1 (exit 2026-10-31) | -62.5% | $3.86B | $60M | REVIEW | inf | 4.6 | 20.1 | 12.8 | 0.91 | 1.17 | 1.8 | n/a | n/a | +1.1% | — |
+| **AVTR** ★ | Avantor | Health Care | 54.3 | 2025-02-28 | 17 (exit 2026-07-31) | -62.2% | $10.78B | $135M | PASS | inf | 3.6 | 31.8 | 17.9 | n/a | 1.62 | 2.1 | n/a | -175.0% | +4.6% | — |
+| **OLED** ★ | Universal Display | Information Technology | 36.1 | 2025-11-30 | 12 | -61.9% | $4.05B | $65M | PASS | inf | -1.6 | 18.3 | 19.3 | 1.00 | 6.46 | 5.8 | +87.0% | +9.2% | +14.9% | — |
+| **GIS** ★ | General Mills | Consumer Staples | 32.3 | 2025-01-31 | 22 | -61.5% | $18.65B | $339M | REVIEW | inf | 29.6 | n/a | 11.1 | 11.74 | 1.02 | 1.7 | -66.7% | -103.9% | -2.8% | — |
+| **KD** ★ | Kyndryl | Information Technology | 39.1 | 2026-02-28 | 9 | -61.3% | $3.66B | $55M | PASS | inf | 2.2 | 48.0 | 6.7 | n/a | 0.25 | 0.5 | -6.9% | -19.0% | -1.9% | — |
+| **FND** ★ | Floor & Decor | Consumer Discretionary | 37.3 | 2026-03-31 | 8 | -61.3% | $5.56B | $132M | PASS | inf | 2.8 | 24.0 | 28.3 | n/a | 1.17 | 1.5 | +15.1% | +1.1% | +3.0% | — |
+| **PINS** ★ | Pinterest | Communication Services | 40.4 | 2026-09-30 | 2 | -60.9% | $10.93B | $274M | PASS | inf | -0.9 | 79.4 | 8.4 | 0.26 | 2.34 | 2.3 | -69.2% | -77.2% | +11.9% | — |
+| **BF-B** ★ | Brown–Forman | Consumer Staples | 41.6 | 2024-03-31 | 32 | -60.9% | $13.94B | $68M | REVIEW | inf | 2.0 | 19.6 | 17.7 | 2.33 | 3.56 | 4.1 | +5.6% | -16.8% | -1.4% | — |
+| **DOCS** ★ | Doximity | Health Care | 46.1 | 2026-02-28 | 7 (exit 2026-09-30) | -60.5% | $5.86B | $84M | PASS | inf | -3.7 | 45.7 | 21.2 | 0.59 | 8.86 | 7.8 | -41.9% | -11.7% | +3.6% | — |
+| **WLK** ★ | Westlake Corporation | Materials | 40.6 | 2026-06-30 | 5 | -60.4% | $8.20B | $59M | PASS | inf | 4.5 | n/a | 39.6 | 1.70 | 0.72 | 1.1 | n/a | -352.2% | +5.0% | — |
+| **DECK** ★ | Deckers Brands | Consumer Discretionary | 41.1 | 2026-08-31 | 3 | -59.5% | $12.07B | $273M | PASS | inf | -0.5 | 12.0 | 11.1 | 1.03 | 2.16 | 2.0 | +26.9% | +10.9% | +3.5% | — |
+| **HRL** ★ | Hormel Foods | Consumer Staples | 37.7 | 2026-08-31 | 3 | -59.4% | $12.25B | $113M | PASS | inf | 2.3 | 35.9 | 14.2 | 1.51 | 1.01 | 1.2 | -66.7% | -40.8% | -2.4% | — |
+| **BSX** ★ | Boston Scientific | Health Care | 27.1 | 2026-02-28 | 9 | -59.3% | $63.81B | $906M | REVIEW | inf | 2.1 | 18.6 | 14.1 | 0.72 | 3.03 | 3.6 | -21.6% | +55.2% | +1.4% | — |
+| **WING** ★ | Wingstop | Consumer Discretionary | 42.2 | 2026-03-31 | 7 (exit 2026-10-31) | -58.7% | $4.79B | $163M | PASS | inf | 5.1 | 41.4 | 35.2 | 2.21 | 6.56 | 8.2 | +4.9% | +67.8% | +5.3% | — |
+| **TREX** ★ | Trex | Industrials | 49.4 | 2025-09-30 | 9 (exit 2026-06-30) | -58.2% | $5.87B | $85M | REVIEW | inf | 0.7 | 34.0 | 28.3 | 1.00 | 4.58 | 4.7 | +8.3% | -14.8% | +26.0% | — |
+| **INTU** ★ | Intuit | Information Technology | 39.2 | 2026-01-31 | 10 | -58.1% | $90.39B | $1.19B | PASS | inf | 0.2 | 20.5 | 12.6 | 1.08 | 4.21 | 4.3 | -0.7% | +20.4% | +13.7% | — |
+| **CCI** ★ | Crown Castle | Real Estate | 47.8 | 2026-06-30 | 4 (exit 2026-10-31) | -57.9% | $37.37B | $331M | REVIEW | inf | 8.6 | 35.3 | 30.0 | 0.70 | 9.15 | 14.7 | -9.5% | n/a | -7.2% | — |
+| **PODD** ★ | Insulet Corporation | Health Care | 38.1 | 2026-03-31 | 8 | -57.5% | $10.39B | $228M | PASS | inf | 0.5 | 24.5 | 19.0 | 1.15 | 3.26 | 3.4 | +63.7% | -39.8% | +19.2% | — |
+| **DOW** ★ | Dow Inc. | Materials | 50.0 | 2026-09-30 | 1 (exit 2026-10-31) | -56.1% | $22.41B | $262M | PASS | inf | 4.6 | n/a | 16.9 | 38.89 | 0.53 | 0.9 | +675.0% | -335.7% | +13.0% | — |
+| **NOW** ★ | ServiceNow | Information Technology | 42.0 | 2026-06-30 | 2 (exit 2026-08-31) | -56.1% | $106.66B | $2.08B | PASS | inf | 1.1 | 73.9 | 21.4 | 0.80 | 6.91 | 7.2 | -43.7% | +22.1% | +20.5% | — |
+| **MTN** ★ | Vail Resorts | Consumer Discretionary | 48.2 | 2026-08-31 | 2 (exit 2026-10-31) | -55.5% | $5.71B | $107M | PASS | inf | 4.3 | 38.8 | 24.1 | 3.33 | 2.01 | 3.1 | -16.4% | -45.3% | +2.5% | — |
+| **PSN** ★ | Parsons Corporation | Industrials | 43.6 | 2026-06-30 | 4 (exit 2026-10-31) | -54.6% | $5.43B | $54M | PASS | inf | 2.6 | 37.9 | 15.2 | n/a | 0.86 | 1.1 | -13.6% | +3.8% | +1.8% | — |
+| **VC** ★ | Visteon | Consumer Discretionary | 38.5 | 2026-10-31 | 1 | -54.4% | $1.93B | $47M | PASS | inf | -0.0 | 21.3 | 7.9 | 1.01 | 0.50 | 0.5 | -90.7% | -25.9% | +5.8% | — |
+| **STWD** ★ | Starwood Property Trust | Financials | 25.2 | 2026-05-31 | 6 | -54.1% | $4.39B | $74M | REVIEW | inf | n/a | n/a | 6.6 | 1.74 | 13.99 | 24.2 | -384.2% | +4.5% | -54.5% | — |
+| **MKC** ★ | McCormick & Company | Consumer Staples | 35.7 | 2026-03-31 | 8 | -54.1% | $12.88B | $171M | REVIEW | inf | 3.6 | 8.7 | 14.9 | 3.17 | 1.68 | 2.3 | -44.6% | +0.3% | +17.4% | — |
+| **REXR** ★ | Rexford Industrial Realty | Real Estate | 47.3 | 2026-02-28 | 5 (exit 2026-07-31) | -53.8% | $8.21B | $100M | PASS | inf | -30.9 | n/a | 31.5 | 1.88 | 8.62 | 10.8 | -81.1% | -28.3% | -5.6% | — |
+| **BAH** ★ | Booz Allen Hamilton | Industrials | 47.4 | 2025-09-30 | 13 (exit 2026-10-31) | -53.4% | $10.33B | $141M | PASS | inf | 3.5 | 13.5 | 12.8 | 1.09 | 0.94 | 1.3 | +5.6% | -4.8% | -3.9% | — |
+| **PEGA** ★ | Pegasystems | Information Technology | 44.1 | 2026-06-30 | 2 (exit 2026-08-31) | -53.3% | $5.09B | $86M | PASS | inf | -1.2 | 19.2 | 13.1 | 2.99 | 2.91 | 2.8 | -66.7% | n/a | +3.1% | — |
+| **HLNE** ★ | Hamilton Lane | Financials | 40.2 | 2026-09-30 | 2 | -52.4% | $5.35B | $57M | PASS | inf | 0.0 | 14.2 | 12.7 | n/a | 7.43 | 6.2 | +46.1% | +9.4% | +7.1% | — |
+| **PFE** ★ | Pfizer | Health Care | 58.4 | 2026-06-30 | 1 (exit 2026-07-31) | -52.3% | $166.61B | $967M | PASS | inf | 3.6 | 41.8 | 10.0 | 9.10 | 2.62 | 3.4 | -9.7% | -3.5% | -0.4% | — |
+| **NFLX** ★ | Netflix | Communication Services | 38.6 | 2026-09-30 | 2 | -52.2% | $262.60B | $2.63B | PASS | inf | 0.2 | 18.5 | 17.0 | 1.01 | 5.28 | 5.4 | +48.2% | +27.6% | +11.8% | — |
+| **UPS** ★ | United Parcel Service | Industrials | 48.2 | 2026-09-30 | 1 (exit 2026-10-31) | -52.2% | $94.48B | $486M | PASS | inf | 2.2 | 21.4 | 13.7 | 1.57 | 1.03 | 1.3 | -11.6% | -2.8% | +6.7% | — |
+| **RYN** ★ | Rayonier | Real Estate | 37.7 | 2025-10-31 | 13 | -52.0% | $6.44B | $73M | PASS | inf | 3.7 | 35.2 | 37.6 | 23.24 | 4.77 | 5.8 | +46.4% | +26.8% | +218.6% | — |
+| **CMCSA** ★ | Comcast | Communication Services | 38.1 | 2026-03-31 | 8 | -51.7% | $87.04B | $684M | PASS | inf | 2.4 | 7.8 | 7.0 | 1.32 | 0.71 | 1.4 | +7.8% | +30.2% | -6.1% | — |
+| **MOH** ★ | Molina Healthcare | Health Care | 47.0 | 2026-05-31 | 1 (exit 2026-06-30) | -51.5% | $10.57B | $156M | PASS | inf | -13.9 | n/a | 21.3 | 1.14 | 0.25 | 0.1 | -51.7% | -56.3% | -3.4% | — |
+| **EEFT** ★ | Euronet Worldwide | Financials | 33.2 | 2025-09-30 | 14 | -51.4% | $2.61B | $49M | PASS | inf | 0.7 | 11.7 | 6.1 | 0.47 | 0.59 | 0.7 | -8.0% | +6.0% | +1.3% | — |
+| **SBAC** ★ | SBA Communications | Real Estate | 46.5 | 2026-09-30 | 1 (exit 2026-10-31) | -51.1% | $19.88B | $185M | REVIEW | inf | 7.4 | 20.6 | 24.0 | 11.55 | 6.97 | 12.2 | -0.5% | +41.2% | -2.5% | — |
+| **PII** ★ | Polaris | Consumer Discretionary | 46.0 | 2026-09-30 | 1 (exit 2026-10-31) | -51.0% | $3.82B | $49M | PASS | inf | 9.0 | n/a | 21.4 | 3.34 | 0.50 | 0.7 | n/a | -519.5% | +10.9% | — |
+| **LEN** ★ | Lennar | Consumer Discretionary | 40.2 | 2026-03-31 | 8 | -50.8% | $21.79B | $355M | PASS | inf | 2.3 | 17.3 | 17.5 | 11.30 | 0.68 | 0.8 | -48.0% | -44.2% | -8.7% | — |
+| **SLM** ★ | SLM Corp | Financials | 38.1 | 2026-10-31 | 1 | -50.8% | $3.18B | $63M | PASS | 102m | n/a | 6.1 | 5.6 | 0.51 | 2.15 | 3.6 | -130.2% | +29.1% | -31.2% | — |
+| **WY** ★ | Weyerhaeuser | Real Estate | 36.7 | 2026-08-31 | 3 | -50.4% | $15.22B | $152M | PASS | 322m | 4.4 | 33.5 | 49.1 | 1.86 | 2.18 | 2.9 | -27.3% | -16.7% | +8.4% | — |
+| **ERIE** ★ | Erie Indemnity | Financials | 44.4 | 2025-10-31 | 12 (exit 2026-10-31) | -50.3% | $14.15B | $59M | PASS | inf | n/a | 24.6 | 20.3 | 2.67 | 3.43 | 3.3 | -0.6% | -6.9% | -1.3% | — |
+| **MZTI** ★ | The Marzetti Company | Consumer Staples | 35.7 | 2026-03-31 | 8 | -50.2% | $2.97B | $44M | PASS | inf | 0.7 | 17.2 | 15.4 | 3.12 | 1.55 | 1.7 | -9.3% | +15.0% | +1.3% | — |
+| **LYB** ★ | LyondellBasell | Materials | 50.9 | 2026-06-30 | 1 (exit 2026-07-31) | -49.2% | $19.23B | $230M | PASS | inf | 2.8 | 14.4 | 9.3 | 1.53 | 0.60 | 0.9 | +329.6% | -156.4% | +10.0% | — |
+| **CPRT** ★ | Copart | Industrials | 38.0 | 2025-11-30 | 12 | -49.2% | $30.06B | $331M | PASS | inf | -2.3 | 20.9 | 17.9 | 3.21 | 6.44 | 5.5 | -14.6% | -2.5% | +2.4% | — |
+| **LII** ★ | Lennox International | Industrials | 37.6 | 2026-08-31 | 3 | -48.5% | $11.95B | $211M | REVIEW | inf | 1.7 | 15.8 | 14.9 | 1.08 | 2.19 | 2.6 | -8.2% | +1.1% | +10.2% | — |
+| **GNTX** ★ | Gentex | Consumer Discretionary | 36.0 | 2026-08-31 | 3 | -48.3% | $4.00B | $58M | PASS | inf | -0.2 | 10.4 | 9.1 | 0.55 | 1.53 | 1.5 | -6.5% | -1.1% | -1.1% | — |
+| **MAA** ★ | Mid-America Apartment Commun | Real Estate | 37.9 | 2026-09-30 | 2 | -48.0% | $13.85B | $127M | REVIEW | inf | 4.6 | 36.2 | 36.4 | 7.03 | 6.38 | 8.8 | -14.3% | -15.8% | +1.0% | — |
+| **GDDY** ★ | GoDaddy | Information Technology | 50.1 | 2025-12-31 | 10 (exit 2026-10-31) | -47.9% | $13.55B | $208M | PASS | inf | 1.9 | 15.4 | 9.9 | 0.63 | 2.62 | 3.1 | +37.7% | -3.6% | +6.0% | — |
+| **CMG** ★ | Chipotle Mexican Grill | Consumer Discretionary | 39.8 | 2026-09-30 | 2 | -47.9% | $45.21B | $597M | PASS | inf | 2.1 | 33.4 | 26.9 | 1.77 | 3.56 | 3.9 | -6.9% | +2.7% | +9.6% | — |
+| **ACM** ★ | AECOM | Industrials | 35.1 | 2026-03-31 | 8 | -47.7% | $9.04B | $112M | PASS | inf | 2.3 | 24.7 | 11.2 | 0.73 | 0.59 | 0.7 | -168.4% | +42.7% | -14.2% | — |
+| **PPC** ★ | Pilgrim's Pride | Consumer Staples | 39.7 | 2026-04-30 | 7 | -47.4% | $7.04B | $40M | PASS | inf | 2.5 | 22.1 | 12.0 | 0.61 | 0.38 | 0.5 | -66.0% | -0.7% | -2.2% | — |
+| **NRG** ★ | NRG Energy | Utilities | 42.0 | 2026-09-30 | 1 (exit 2026-10-31) | -47.1% | $20.45B | $331M | REVIEW | inf | 6.2 | 17.0 | 9.7 | 0.30 | 0.59 | 1.3 | -36.0% | -19.6% | +11.0% | — |
+| **STZ** ★ | Constellation Brands | Consumer Staples | 39.7 | 2025-01-31 | 22 | -46.7% | $24.62B | $298M | REVIEW | inf | 3.2 | 13.0 | 12.0 | 1.74 | 2.67 | 3.8 | +25.3% | n/a | +6.1% | — |
+| **IRT** ★ | Independence Realty Trust | Real Estate | 40.8 | 2026-09-30 | 2 | -46.5% | $3.55B | $51M | REVIEW | inf | 5.9 | 58.0 | 188.4 | n/a | 5.42 | 8.8 | +266.7% | +41.2% | +3.0% | — |
+| **KBR** ★ | KBR, Inc. | Industrials | 41.4 | 2025-09-30 | 14 | -46.3% | $4.87B | $56M | REVIEW | inf | 2.7 | 11.2 | 9.6 | 0.54 | 0.62 | 0.9 | +18.8% | +15.1% | +5.0% | — |
+| **PLNT** ★ | Planet Fitness | Consumer Discretionary | 39.2 | 2026-04-30 | 7 | -46.2% | $4.54B | $104M | PASS | inf | 4.3 | 20.8 | 16.5 | 0.92 | 3.45 | 5.0 | +0.0% | +31.0% | +9.0% | — |
+| **ELF** ★ | e.l.f. Beauty | Consumer Staples | 53.8 | 2026-03-31 | 3 (exit 2026-06-30) | -45.2% | $7.06B | $156M | PASS | inf | 2.1 | 84.0 | 28.5 | 1.37 | 3.64 | 3.9 | +900.0% | -77.1% | +51.4% | — |
+| **NLY** ★ | Annaly Capital Management | Financials | 40.2 | 2026-09-30 | 2 | -45.0% | $14.93B | $209M | PASS | inf | n/a | 13.2 | 6.1 | 32.03 | 10.73 | 35.2 | -213.3% | +80.2% | -205.1% | — |
+| **KHC** ★ | Kraft Heinz | Consumer Staples | 42.3 | 2026-09-30 | 1 (exit 2026-10-31) | -44.9% | $28.91B | $410M | PASS | inf | 3.1 | n/a | 11.9 | 2.80 | 1.17 | 1.8 | -11.5% | -318.1% | -2.0% | — |
+| **FBIN** ★ | Fortune Brands Innovations | Industrials | 44.0 | 2026-09-30 | 1 (exit 2026-10-31) | -44.5% | $6.12B | $105M | REVIEW | inf | 5.8 | 48.3 | 18.8 | 1.77 | 1.40 | 1.9 | -28.8% | -34.1% | -3.1% | — |
+| **AGNC** ★ | AGNC Investment | Financials | 39.9 | 2026-10-31 | 1 | -44.4% | $11.38B | $279M | PASS | inf | n/a | 446.5 | 6.2 | 3.48 | 48.20 | 46.5 | -262.5% | +58.1% | -259.0% | — |
+| **WSO** ★ | Watsco | Industrials | 40.8 | 2026-07-31 | 4 | -44.4% | $13.08B | $175M | PASS | inf | -0.1 | 27.5 | 24.6 | 1.23 | 1.76 | 1.7 | +1.3% | -7.5% | +7.4% | — |
+| **CPT** ★ | Camden Property Trust | Real Estate | 44.6 | 2026-09-30 | 1 (exit 2026-10-31) | -43.9% | $10.03B | $101M | PASS | inf | 2.0 | 9.4 | 218.0 | 9.17 | 6.38 | 9.1 | +771.0% | +136.0% | -3.9% | — |
+| **TECH** ★ | Bio-Techne | Health Care | 56.1 | 2026-05-31 | 1 (exit 2026-06-30) | -43.7% | $11.44B | $204M | PASS | inf | -0.2 | 66.8 | 31.5 | 2.18 | 9.32 | 9.3 | -25.0% | +152.2% | +4.6% | — |
+| **CLX** ★ | Clorox | Consumer Staples | 37.3 | 2026-03-31 | 8 | -43.5% | $12.76B | $267M | REVIEW | inf | 4.1 | 19.0 | 17.1 | 1.25 | 1.77 | 2.5 | -48.1% | +113.8% | +33.3% | — |
+| **BRO** ★ | Brown & Brown | Financials | 44.6 | 2026-09-30 | 1 (exit 2026-10-31) | -42.9% | $23.55B | $155M | PASS | inf | 2.8 | 22.5 | 14.9 | 1.86 | 3.46 | 4.5 | -1.5% | -8.7% | +9.7% | — |
+| **SUI** ★ | Sun Communities | Real Estate | 40.6 | 2026-09-30 | 2 | -42.8% | $14.36B | $179M | REVIEW | inf | 3.2 | 49.1 | 39.8 | 9.42 | 6.39 | 8.6 | +1328.6% | +1426.8% | +2.6% | — |
+| **TOST** ★ | Toast, Inc. | Financials | 49.3 | 2026-05-31 | 1 (exit 2026-06-30) | -42.8% | $20.20B | $290M | PASS | inf | -3.3 | 38.2 | 19.7 | 0.23 | 2.82 | 2.6 | +81.2% | +1766.7% | +21.3% | — |
+| **COO** ★ | Cooper Companies (The) | Health Care | 38.8 | 2026-09-30 | 2 | -42.5% | $12.16B | $210M | REVIEW | inf | 2.6 | 22.0 | 13.6 | 0.59 | 2.87 | 3.4 | +357.1% | -4.6% | +0.6% | — |
+| **MAT** ★ | Mattel | Consumer Discretionary | 46.3 | 2026-09-30 | 1 (exit 2026-10-31) | -42.2% | $4.45B | $91M | PASS | inf | 2.4 | 9.2 | 10.4 | 1.05 | 0.80 | 1.2 | +39.8% | -21.5% | +4.1% | — |
+| **LVS** ★ | Las Vegas Sands | Consumer Discretionary | 39.0 | 2026-09-30 | 2 | -42.2% | $26.02B | $234M | PASS | inf | 2.8 | 16.5 | 13.0 | 1.07 | 1.91 | 2.8 | -21.3% | +19.9% | -3.5% | — |
+| **KBH** ★ | KB Home | Consumer Discretionary | 43.2 | 2026-05-31 | 1 (exit 2026-06-30) | -42.0% | $3.16B | $66M | REVIEW | inf | 6.5 | 14.7 | 14.5 | 5.97 | 0.61 | 1.0 | -34.8% | -27.2% | -20.0% | — |
+| **CRM** ★ | Salesforce | Information Technology | 49.7 | 2026-02-28 | 6 (exit 2026-08-31) | -41.6% | $176.90B | $2.70B | PASS | inf | 2.2 | 19.7 | 13.4 | 0.76 | 4.03 | 4.7 | +118.9% | +22.6% | +10.8% | — |
+| **ROL** ★ | Rollins, Inc. | Industrials | 35.2 | 2026-06-30 | 5 | -40.9% | $18.64B | $232M | REVIEW | inf | 1.2 | 35.5 | 31.5 | 3.39 | 4.67 | 4.9 | -2.9% | +13.5% | +6.2% | — |
+| **DKS** ★ | Dick's Sporting Goods | Consumer Discretionary | 37.9 | 2026-08-31 | 3 | -40.9% | $13.13B | $484M | REVIEW | inf | 3.8 | 16.0 | 11.3 | 1.01 | 0.62 | 1.0 | +9.6% | -29.0% | +53.2% | — |
+| **IP** ★ | International Paper | Materials | 45.1 | 2026-09-30 | 1 (exit 2026-10-31) | -40.9% | $18.82B | $185M | REVIEW | inf | -9.8 | n/a | 12.9 | 1.58 | 0.78 | 1.2 | n/a | -542.7% | -0.4% | — |
+| **DPZ** ★ | Domino's | Consumer Discretionary | 39.4 | 2026-08-31 | 3 | -40.8% | $10.99B | $256M | REVIEW | inf | 4.6 | 18.4 | 16.2 | 1.54 | 2.17 | 3.1 | +213.7% | +5.3% | +3.4% | — |
+| **UFPI** ★ | UFP Industries | Industrials | 42.0 | 2026-09-30 | 2 | -40.5% | $4.51B | $36M | PASS | inf | -0.6 | 20.0 | 18.4 | 2.67 | 0.70 | 0.7 | -18.6% | -26.1% | +11.1% | — |
+| **TSCO** ★ | Tractor Supply | Consumer Discretionary | 37.9 | 2026-04-30 | 7 | -40.3% | $19.39B | $383M | REVIEW | inf | 3.6 | 20.1 | 18.1 | 2.11 | 1.22 | 1.6 | -12.2% | +1.0% | +5.1% | — |
+| **INGR** ★ | Ingredion | Consumer Staples | 38.5 | 2026-05-31 | 6 | -40.1% | $5.78B | $68M | PASS | inf | 0.7 | 10.5 | 9.0 | 1.07 | 0.80 | 0.9 | -14.6% | +15.1% | -1.3% | — |
+| **INVH** ★ | Invitation Homes | Real Estate | 40.0 | 2026-09-30 | 2 | -40.0% | $15.67B | $139M | REVIEW | inf | 4.7 | 23.9 | 38.6 | 13.14 | 5.51 | 8.4 | +22.7% | +29.7% | +6.3% | — |
+| **UDR** | UDR, Inc. | Real Estate | 44.7 | 2026-09-30 | 1 (exit 2026-10-31) | -39.6% | $11.63B | $144M | REVIEW | inf | 3.7 | 17.3 | 65.6 | 8.17 | 7.61 | 10.3 | +458.3% | +334.6% | -0.9% | — |
+| **EXP** | Eagle Materials | Materials | 43.8 | 2026-09-30 | 1 (exit 2026-10-31) | -39.6% | $5.79B | $79M | PASS | inf | 2.2 | 15.8 | 15.9 | 2.09 | 2.48 | 3.1 | -14.2% | -4.4% | +2.2% | — |
+| **TSN** | Tyson Foods | Consumer Staples | 48.1 | 2026-09-30 | 1 (exit 2026-10-31) | -39.6% | $21.06B | $186M | REVIEW | inf | 2.8 | 37.0 | 15.6 | 1.04 | 0.38 | 0.5 | +205.9% | -40.9% | -0.1% | — |
+| **PCG** | PG&E Corporation | Utilities | 40.8 | 2026-08-31 | 3 | -39.2% | $28.94B | $560M | FAIL | 2m | 6.0 | 9.7 | 7.3 | 0.54 | 1.12 | 3.6 | +41.7% | +2.6% | -1.0% | — |
+| **ACN** | Accenture | Information Technology | 52.0 | 2026-02-28 | 8 (exit 2026-10-31) | -38.8% | $150.27B | $1.31B | PASS | inf | 0.0 | 18.8 | 16.0 | 2.47 | 2.03 | 2.0 | +46.2% | +11.6% | +6.2% | — |
+| **TRMB** | Trimble Inc. | Information Technology | 49.9 | 2026-05-31 | 3 (exit 2026-08-31) | -38.8% | $12.54B | $169M | PASS | inf | 4.8 | n/a | 13.6 | 1.27 | 3.26 | 3.6 | -45.7% | -71.1% | +7.3% | — |
+| **EFX** | Equifax | Industrials | 45.7 | 2026-09-30 | 1 (exit 2026-10-31) | -38.7% | $22.13B | $287M | PASS | inf | 2.5 | 30.5 | 19.7 | 1.61 | 3.36 | 4.1 | +38.8% | +9.9% | +9.6% | — |
+| **GWRE** | Guidewire Software | Information Technology | 49.5 | 2026-06-30 | 1 (exit 2026-07-31) | -38.6% | $13.29B | $217M | PASS | inf | -0.2 | 98.7 | 30.3 | 1.09 | 9.01 | 9.0 | -36.7% | +101.2% | +15.3% | — |
+| **TMUS** | T-Mobile US | Communication Services | 36.5 | 2026-09-30 | 2 | -38.2% | $178.71B | $916M | REVIEW | inf | 3.4 | 16.3 | 11.8 | 0.48 | 1.90 | 3.1 | +33.6% | +0.6% | +7.4% | — |
+| **WDAY** | Workday, Inc. | Information Technology | 50.2 | 2026-01-31 | 7 (exit 2026-08-31) | -38.1% | $45.84B | $615M | PASS | inf | 0.2 | 38.7 | 14.4 | 0.58 | 4.51 | 4.6 | +206.0% | +32.8% | +12.8% | — |
+| **RYAN** | Ryan Specialty | Financials | 46.4 | 2026-09-30 | 1 (exit 2026-10-31) | -38.0% | $5.64B | $80M | PASS | inf | n/a | 58.9 | 19.4 | n/a | 3.73 | 2.9 | +45.0% | -33.8% | +4.7% | — |
+| **PNR** | Pentair | Industrials | 40.3 | 2026-04-30 | 7 | -37.6% | $11.21B | $197M | PASS | inf | 1.7 | 19.1 | 13.2 | 0.97 | 2.83 | 3.2 | -18.8% | +5.9% | -4.5% | — |
+| **VRSK** | Verisk Analytics | Industrials | 42.8 | 2025-10-31 | 12 (exit 2026-10-31) | -37.6% | $25.73B | $228M | PASS | inf | 2.4 | 30.4 | 23.0 | 1.72 | 8.10 | 9.4 | -3.3% | -3.4% | +5.3% | — |
+| **HSY** | Hershey Company (The) | Consumer Staples | 44.3 | 2026-09-30 | 1 (exit 2026-10-31) | -37.2% | $34.87B | $257M | REVIEW | inf | 1.5 | 19.6 | 18.3 | 0.89 | 2.84 | 3.2 | +111.8% | -60.3% | +3.0% | — |
+| **NCLH** | Norwegian Cruise Line Holdin | Consumer Discretionary | 46.5 | 2026-09-30 | 1 (exit 2026-10-31) | -36.6% | $8.46B | $308M | FAIL | 5m | 5.4 | 10.2 | 13.0 | 1.49 | 0.83 | 2.3 | +24.4% | -51.3% | +0.3% | — |
+| **THO** | Thor Industries | Consumer Discretionary | 41.2 | 2026-04-30 | 7 | -36.4% | $4.25B | $59M | PASS | inf | 0.8 | 24.3 | 17.1 | 0.73 | 0.44 | 0.5 | -66.9% | -2.0% | -3.9% | — |
+| **CDW** | CDW Corporation | Information Technology | 48.9 | 2026-09-30 | 1 (exit 2026-10-31) | -36.2% | $20.54B | $240M | PASS | inf | 2.8 | 19.2 | 13.2 | 1.33 | 0.84 | 1.1 | +11.3% | +1.4% | +17.7% | — |
+| **NVR** | NVR, Inc. | Consumer Discretionary | 40.2 | 2026-09-30 | 2 | -36.1% | $16.77B | $255M | PASS | inf | -0.0 | 17.5 | 18.3 | 4.97 | 1.78 | 1.8 | -20.4% | -13.8% | -7.9% | — |
+| **PCTY** | Paylocity | Industrials | 54.8 | 2026-01-31 | 6 (exit 2026-07-31) | -36.0% | $9.24B | $102M | PASS | inf | -0.0 | 34.5 | 17.6 | 1.40 | 5.09 | 5.1 | +24.4% | +35.5% | +10.7% | — |
+| **GPN** | Global Payments | Financials | 54.3 | 2025-09-30 | 10 (exit 2026-07-31) | -35.5% | $25.87B | $245M | PASS | 395m | 4.7 | 174.6 | 6.0 | 0.24 | 2.25 | 3.8 | -59.8% | -6.2% | +63.7% | — |
+| **AMT** | American Tower | Real Estate | 49.6 | 2026-09-30 | 1 (exit 2026-10-31) | -35.4% | $87.65B | $507M | REVIEW | inf | 5.9 | 26.6 | 27.0 | 1.85 | 7.96 | 11.9 | -9.9% | +12.0% | +2.5% | — |
+| **MGM** | MGM Resorts | Consumer Discretionary | 41.2 | 2026-10-31 | 1 | -35.3% | $8.33B | $147M | PASS | inf | 12.0 | 12.7 | 23.7 | 0.61 | 0.47 | 2.0 | n/a | -68.3% | -0.9% | — |
+| **TYL** | Tyler Technologies | Information Technology | 46.6 | 2025-12-31 | 10 (exit 2026-10-31) | -35.3% | $16.63B | $306M | PASS | inf | 1.0 | 52.2 | 26.9 | 1.52 | 6.70 | 6.9 | +20.7% | +19.0% | +8.7% | — |
+| **XYL** | Xylem Inc. | Industrials | 33.6 | 2026-08-31 | 3 | -35.1% | $22.76B | $275M | PASS | inf | 1.2 | 22.0 | 16.9 | 1.31 | 2.51 | 2.8 | +81.2% | +7.4% | -3.0% | — |
+| **WYNN** | Wynn Resorts | Consumer Discretionary | 36.8 | 2026-09-30 | 2 | -35.0% | $8.93B | $181M | PASS | inf | 5.8 | 24.5 | 19.9 | 0.74 | 1.23 | 2.7 | -80.0% | -27.8% | -7.9% | — |
+| **LPX** | Louisiana-Pacific | Industrials | 45.9 | 2026-09-30 | 1 (exit 2026-10-31) | -34.9% | $5.48B | $84M | PASS | inf | 0.4 | 80.7 | 29.4 | 3.68 | 2.19 | 2.2 | +146.2% | -64.7% | +4.2% | — |
+| **BA** | Boeing | Industrials | 41.6 | 2026-10-31 | 1 | -34.8% | $136.60B | $1.54B | PASS | 644m | 3.3 | 17.8 | 79.7 | 3.73 | 1.44 | 1.7 | n/a | n/a | +6.3% | — |
+| **FDS** | FactSet | Financials | 50.6 | 2026-09-30 | 1 (exit 2026-10-31) | -34.1% | $11.52B | $241M | REVIEW | inf | 1.4 | 22.4 | 15.0 | 1.09 | 4.65 | 5.2 | -15.4% | -6.3% | +6.3% | — |
+| **BHF** | Brighthouse Financial | Financials | 37.5 | 2026-10-31 | 1 | -34.0% | $2.53B | $49M | PASS | 918m | n/a | 4.4 | 2.2 | n/a | 0.44 | -15.0 | -34.0% | +17.1% | -55.6% | — |
+| **CHDN** | Churchill Downs Inc. | Consumer Discretionary | 47.1 | 2026-05-31 | 5 (exit 2026-10-31) | -33.8% | $6.77B | $94M | REVIEW | inf | 3.9 | 15.3 | 13.3 | 1.69 | 2.25 | 3.8 | +113.0% | -6.9% | +1.9% | — |
+| **MMS** | Maximus Inc. | Industrials | 45.0 | 2026-03-31 | 7 (exit 2026-10-31) | -33.7% | $3.44B | $37M | REVIEW | inf | 2.3 | 9.7 | 7.9 | 2.06 | 0.65 | 1.0 | +4.8% | +10.4% | -5.1% | — |
+| **AMCR** | Amcor | Materials | 52.7 | 2026-03-31 | 3 (exit 2026-06-30) | -33.1% | $20.85B | $159M | PASS | inf | 4.3 | 19.4 | 10.7 | 1.03 | 0.87 | 1.5 | -8.8% | +48.7% | +6.7% | — |
+| **GPC** | Genuine Parts Company | Consumer Discretionary | 47.9 | 2026-03-31 | 3 (exit 2026-06-30) | -32.9% | $17.32B | $132M | PASS | inf | 8.1 | 483.3 | 15.4 | 1.32 | 0.68 | 0.9 | +0.0% | -92.7% | +4.2% | — |
+| **DLB** | Dolby | Information Technology | 44.1 | 2026-09-30 | 1 (exit 2026-10-31) | -32.7% | $6.07B | $50M | PASS | inf | -1.7 | 27.6 | 14.1 | 1.29 | 4.48 | 4.0 | -37.5% | -2.6% | -3.3% | — |
+| **OLLI** | Ollie's Bargain Outlet | Consumer Discretionary | 47.3 | 2026-04-30 | 5 (exit 2026-09-30) | -32.7% | $5.63B | $141M | PASS | inf | 1.3 | 21.2 | 19.1 | n/a | 2.02 | 2.2 | +43.4% | +20.4% | +9.1% | — |
+| **LDOS** | Leidos | Industrials | 49.5 | 2026-05-31 | 3 (exit 2026-08-31) | -32.6% | $16.56B | $157M | PASS | inf | 2.5 | 12.1 | 11.5 | 2.46 | 0.93 | 1.3 | +16.3% | +20.8% | +3.6% | — |
+| **EIX** | Edison International | Utilities | 45.3 | 2026-08-31 | 2 (exit 2026-10-31) | -31.9% | $23.14B | $304M | FAIL | 16m | 4.4 | 6.4 | 9.2 | 2.64 | 1.25 | 3.5 | +110.1% | +248.9% | -15.0% | — |
+| **POST** | Post Holdings | Consumer Staples | 41.0 | 2026-08-31 | 3 | -31.9% | $3.62B | $65M | PASS | inf | 5.3 | 15.0 | 11.6 | 1.17 | 0.43 | 1.3 | -27.9% | -2.3% | -1.8% | — |
+| **EXPO** | Exponent, Inc. | Industrials | 54.0 | 2025-04-30 | 15 (exit 2026-07-31) | -31.8% | $4.06B | $37M | PASS | inf | -0.2 | 36.8 | 29.3 | 2.03 | 6.97 | 6.1 | +16.4% | -1.9% | +18.1% | — |
+| **CTSH** | Cognizant | Information Technology | 49.2 | 2026-03-31 | 4 (exit 2026-07-31) | -31.7% | $28.43B | $411M | PASS | inf | 0.1 | 11.6 | 10.1 | 0.83 | 1.30 | 1.3 | +148.2% | +1.1% | +4.6% | — |
+| **MORN** | Morningstar, Inc. | Financials | 49.4 | 2026-09-30 | 1 (exit 2026-10-31) | -31.4% | $9.13B | $61M | PASS | inf | 1.6 | 21.6 | 16.5 | 2.31 | 3.48 | 4.0 | +41.0% | +3.4% | +8.9% | — |
+| **TRU** | TransUnion | Industrials | 48.5 | 2026-09-30 | 1 (exit 2026-10-31) | -30.4% | $15.85B | $210M | PASS | inf | 2.5 | 20.2 | 15.6 | 1.16 | 3.15 | 4.1 | +65.3% | +60.0% | +12.2% | — |
+| **EXE** | Expand Energy | Energy | 46.1 | 2026-09-30 | 1 (exit 2026-10-31) | -30.0% | $19.85B | $287M | PASS | inf | 0.7 | 7.4 | 10.6 | 0.75 | 1.53 | 1.7 | -1.8% | n/a | +10.3% | — |
+| **FNF** | Fidelity National Financial | Financials | 39.8 | 2026-09-30 | 2 | -29.9% | $12.08B | $108M | PASS | inf | n/a | 11.5 | 8.4 | 0.85 | 0.81 | -0.9 | +78.2% | -52.5% | -11.0% | — |
+| **BKNG** | Booking Holdings | Consumer Discretionary | 40.7 | 2026-10-31 | 1 | -29.7% | $121.59B | $1.25B | PASS | inf | 0.4 | 17.7 | 13.3 | 0.59 | 4.32 | 4.5 | +228.2% | -4.1% | -1.3% | — |
+| **ARES** | Ares Management | Financials | 47.7 | 2026-06-30 | 1 (exit 2026-07-31) | -29.6% | $31.77B | $283M | REVIEW | 34m | 6.8 | 114.4 | 20.0 | 0.99 | 9.30 | 7.8 | -81.7% | -16.7% | -13.5% | — |
+| **KNSL** | Kinsale Capital Group | Financials | 48.2 | 2026-03-31 | 4 (exit 2026-07-31) | -29.5% | $8.69B | $84M | PASS | inf | n/a | 16.8 | 17.6 | 1.15 | 4.45 | 3.1 | -28.4% | +21.8% | -8.6% | — |
+| **VICI** | Vici Properties | Real Estate | 37.9 | 2026-06-30 | 5 | -29.2% | $27.70B | $246M | PASS | inf | 5.4 | 11.6 | 8.5 | n/a | 6.67 | 10.9 | -56.3% | +2.0% | +5.8% | — |
+| **AOS** | A. O. Smith | Industrials | 46.8 | 2026-08-31 | 2 (exit 2026-10-31) | -29.1% | $8.76B | $93M | PASS | inf | 0.6 | 18.2 | 17.2 | 1.74 | 2.30 | 2.4 | -0.7% | +6.1% | -0.2% | — |
+| **HLI** | Houlihan Lokey | Financials | 45.1 | 2026-06-30 | 4 (exit 2026-10-31) | -29.0% | $10.30B | $108M | PASS | inf | -0.6 | 24.9 | 17.1 | n/a | 4.03 | 3.9 | +0.6% | +6.9% | +4.8% | — |
+| **APPF** | AppFolio | Information Technology | 51.9 | 2026-02-28 | 5 (exit 2026-07-31) | -28.6% | $8.14B | $78M | PASS | inf | -1.2 | 48.3 | 27.6 | 7.45 | 7.48 | 7.2 | +38.7% | -30.1% | +18.6% | — |
+| **CNM** | Core & Main | Industrials | 45.0 | 2026-09-30 | 1 (exit 2026-10-31) | -28.5% | $8.83B | $100M | PASS | inf | 2.6 | 19.7 | 13.7 | 1.43 | 1.15 | 1.5 | +10.0% | +8.5% | +2.5% | — |
+| **ELS** | Equity Lifestyle Properties | Real Estate | 42.1 | 2026-09-30 | 1 (exit 2026-10-31) | -28.4% | $12.23B | $111M | REVIEW | inf | 4.3 | 31.1 | 28.6 | 4.88 | 7.94 | 10.4 | -10.0% | +2.6% | +5.0% | — |
+| **LHX** | L3Harris | Industrials | 51.3 | 2026-09-30 | 1 (exit 2026-10-31) | -28.3% | $50.54B | $445M | PASS | inf | 1.9 | 25.3 | 19.9 | 0.97 | 2.17 | 2.5 | +33.3% | +8.4% | +7.1% | — |
+| **GLPI** | Gaming and Leisure Propertie | Real Estate | 38.1 | 2026-08-31 | 3 | -28.2% | $11.47B | $135M | PASS | inf | 5.0 | 12.0 | 11.9 | n/a | 6.97 | 11.6 | -16.5% | +2.8% | +9.5% | — |
+| **PAYX** | Paychex | Industrials | 47.9 | 2026-09-30 | 1 (exit 2026-10-31) | -28.2% | $40.85B | $333M | PASS | inf | 1.2 | 22.8 | 18.0 | 2.19 | 6.19 | 6.7 | +14.2% | +6.8% | +5.9% | — |
+| **BR** | Broadridge Financial Solutio | Industrials | 46.4 | 2026-09-30 | 1 (exit 2026-10-31) | -27.9% | $21.75B | $181M | PASS | inf | 1.9 | 21.3 | 16.6 | 1.94 | 2.88 | 3.3 | -40.7% | +35.2% | +5.0% | — |
+| **PEP** | PepsiCo | Consumer Staples | 44.3 | 2026-09-30 | 1 (exit 2026-10-31) | -27.7% | $193.35B | $1.22B | PASS | inf | 2.1 | 17.8 | 16.4 | 1.52 | 1.97 | 2.4 | +17.4% | -13.7% | +5.6% | — |
+| **SLGN** | Silgan Holdings | Materials | 46.8 | 2026-09-30 | 1 (exit 2026-10-31) | -26.8% | $4.45B | $45M | REVIEW | inf | 4.7 | 17.0 | 10.4 | 0.79 | 0.66 | 1.3 | -6.6% | +4.7% | +1.6% | — |
+| **T** | AT&T | Communication Services | 44.0 | 2026-06-30 | 1 (exit 2026-07-31) | -26.4% | $146.86B | $1.01B | PASS | inf | 3.7 | 11.7 | 8.4 | 1.27 | 1.14 | 2.4 | -90.7% | +104.0% | +5.3% | — |
+| **GGG** | Graco Inc. | Industrials | 36.7 | 2026-10-31 | 1 | -26.4% | $11.20B | $154M | PASS | inf | 0.0 | 22.5 | 20.2 | 2.03 | 4.85 | 4.9 | -8.5% | +9.2% | +7.9% | — |
+| **OTIS** | Otis Worldwide | Industrials | 44.6 | 2026-03-31 | 7 (exit 2026-10-31) | -25.7% | $29.99B | $321M | REVIEW | inf | 3.0 | 19.6 | 17.5 | 1.85 | 1.98 | 2.5 | +13.7% | -14.0% | +6.1% | — |
+| **CRH** | CRH plc | Materials | 46.0 | 2026-09-30 | 1 (exit 2026-10-31) | -25.6% | $65.01B | $468M | REVIEW | inf | 2.1 | 18.4 | 16.4 | 1.64 | 1.67 | 2.1 | -15.8% | +9.8% | +3.0% | — |
+| **ZBH** | Zimmer Biomet | Health Care | 47.7 | 2026-04-30 | 3 (exit 2026-07-31) | -25.6% | $20.50B | $201M | REVIEW | inf | 3.1 | 27.4 | 12.1 | 0.66 | 2.39 | 3.2 | +29.9% | -19.9% | +3.1% | — |
+| **MLM** | Martin Marietta Materials | Materials | 48.3 | 2026-09-30 | 1 (exit 2026-10-31) | -25.0% | $37.76B | $423M | REVIEW | inf | 6.2 | 39.6 | 29.6 | 1.96 | 5.24 | 7.1 | -42.5% | -42.1% | +28.3% | — |
+| **RLI** | RLI Corp. | Financials | 51.2 | 2026-03-31 | 3 (exit 2026-06-30) | -24.9% | $6.24B | $47M | PASS | inf | n/a | 15.9 | 24.6 | 1.73 | 3.21 | 2.4 | -34.8% | +16.8% | -6.3% | — |
+| **TDG** | TransDigm Group | Industrials | 45.1 | 2026-09-30 | 1 (exit 2026-10-31) | -24.8% | $67.37B | $428M | PASS | inf | 6.1 | 37.0 | 21.8 | 3.05 | 6.73 | 9.8 | +10.9% | +25.2% | +22.5% | — |
+| **BSY** | Bentley Systems | Information Technology | 50.1 | 2026-09-30 | 1 (exit 2026-10-31) | -24.7% | $13.73B | $99M | PASS | inf | 2.1 | 45.0 | 28.7 | 1.72 | 8.33 | 9.0 | +61.1% | +18.1% | +12.2% | — |
+| **AMH** | American Homes 4 Rent | Real Estate | 45.3 | 2026-09-30 | 1 (exit 2026-10-31) | -24.6% | $11.76B | $85M | REVIEW | inf | 4.2 | 27.0 | 48.8 | n/a | 7.08 | 8.9 | -14.8% | +9.3% | +4.1% | — |
+| **ISRG** | Intuitive Surgical | Health Care | 48.2 | 2026-06-30 | 3 (exit 2026-09-30) | -24.6% | $159.65B | $986M | PASS | inf | n/a | 55.7 | 36.9 | 2.04 | 13.79 | 13.4 | -23.6% | +22.6% | +21.7% | — |
+| **KMB** | Kimberly-Clark | Consumer Staples | 45.7 | 2026-09-30 | 1 (exit 2026-10-31) | -24.6% | $68.69B | $519M | PASS | inf | 1.5 | 21.4 | 15.7 | 2.24 | 4.15 | 4.4 | +300.7% | -19.6% | -0.4% | — |
+| **HRB** | H&R Block | Consumer Discretionary | 55.4 | 2026-06-30 | 1 (exit 2026-07-31) | -23.4% | $6.24B | $97M | PASS | inf | 1.1 | 9.0 | 7.4 | 0.67 | 1.57 | 1.9 | +4.5% | +28.9% | +3.0% | — |
+| **G** | Genpact | Industrials | 50.6 | 2026-04-30 | 3 (exit 2026-07-31) | -23.4% | $7.12B | $78M | PASS | inf | 1.0 | 12.4 | 9.4 | 1.16 | 1.33 | 1.5 | +7.2% | +9.8% | +7.3% | — |
+| **ABT** | Abbott Laboratories | Health Care | 47.5 | 2026-03-31 | 4 (exit 2026-07-31) | -21.9% | $191.40B | $940M | PASS | inf | 2.3 | 41.2 | 18.6 | 1.57 | 3.97 | 4.6 | -43.6% | -51.3% | +16.8% | — |
+| **PGR** | Progressive Corporation | Financials | 54.2 | 2026-05-31 | 1 (exit 2026-06-30) | -21.9% | $131.82B | $573M | PASS | inf | n/a | 11.5 | 14.0 | 69.53 | 1.44 | 1.4 | -19.1% | +33.5% | +3.0% | — |
+| **ADSK** | Autodesk | Information Technology | 49.1 | 2026-09-30 | 1 (exit 2026-10-31) | -21.1% | $55.04B | $492M | PASS | inf | -0.2 | 34.2 | 18.5 | 0.88 | 7.07 | 7.0 | +59.6% | +2.1% | +16.1% | — |
+| **AWK** | American Water Works | Utilities | 56.1 | 2026-05-31 | 1 (exit 2026-06-30) | -21.0% | $29.71B | $282M | FAIL | 1m | 5.3 | 25.8 | 22.6 | 2.66 | 5.56 | 8.6 | +0.0% | +5.6% | +4.1% | — |
+| **PEG** | Public Service Enterprise Gr | Utilities | 46.4 | 2026-09-30 | 1 (exit 2026-10-31) | -20.6% | $37.40B | $252M | REVIEW | 58m | 5.6 | 21.2 | 16.2 | 3.39 | 3.03 | 5.1 | -38.7% | +19.2% | -6.4% | — |
+| **ROP** | Roper Technologies | Information Technology | 52.7 | 2026-09-30 | 1 (exit 2026-10-31) | -20.6% | $46.71B | $367M | REVIEW | inf | 2.1 | 18.7 | 19.2 | 1.82 | 5.54 | 6.7 | +32.6% | -1.0% | +7.6% | — |
+| **RMD** | ResMed | Health Care | 50.3 | 2026-05-31 | 2 (exit 2026-07-31) | -19.7% | $33.16B | $308M | PASS | inf | -0.2 | 21.5 | 17.8 | 1.26 | 5.78 | 5.7 | +23.2% | +50.7% | +5.9% | — |
+| **AJG** | Arthur J. Gallagher & Co. | Financials | 54.2 | 2026-02-28 | 4 (exit 2026-06-30) | -19.6% | $71.95B | $395M | REVIEW | inf | 2.9 | 42.8 | 18.9 | 1.01 | 4.56 | 5.1 | +49.0% | -11.7% | +18.2% | — |
+| **DHR** | Danaher Corporation | Health Care | 57.3 | 2026-03-31 | 4 (exit 2026-07-31) | -19.4% | $165.41B | $881M | PASS | inf | 2.7 | 38.9 | 25.2 | 1.31 | 6.46 | 7.3 | +37.8% | -4.5% | +8.3% | — |
+| **SYK** | Stryker Corporation | Health Care | 40.6 | 2026-09-30 | 2 | -19.3% | $124.00B | $860M | PASS | inf | 1.7 | 34.7 | 20.0 | 1.57 | 4.71 | 5.2 | -11.7% | +8.2% | +7.6% | — |
+| **UHS** | Universal Health Services | Health Care | 49.0 | 2026-05-31 | 2 (exit 2026-07-31) | -19.3% | $11.37B | $128M | PASS | inf | 2.2 | 8.3 | 8.6 | 1.48 | 0.62 | 0.9 | -10.9% | +37.3% | +5.3% | — |
+| **LOW** | Lowe's | Consumer Discretionary | 44.8 | 2026-07-31 | 3 (exit 2026-10-31) | -19.2% | $130.14B | $665M | PASS | inf | 3.0 | 19.6 | 17.9 | 1.43 | 1.44 | 1.9 | +0.0% | -3.1% | +8.3% | — |
+| **HGV** | Hilton Grand Vacations | Consumer Discretionary | 45.6 | 2026-09-30 | 1 (exit 2026-10-31) | -18.9% | $3.38B | $45M | PASS | inf | 6.4 | 8.8 | 8.8 | n/a | 0.63 | 1.9 | +1221.4% | +97.8% | +50.8% | — |
+| **JKHY** | Jack Henry & Associates | Financials | 49.8 | 2026-05-31 | 2 (exit 2026-07-31) | -18.9% | $11.92B | $153M | REVIEW | inf | 0.1 | 23.5 | 21.4 | 2.11 | 4.58 | 4.6 | +15.7% | +11.9% | +8.8% | — |
+| **MANH** | Manhattan Associates | Information Technology | 61.4 | 2026-01-31 | 6 (exit 2026-07-31) | -18.7% | $14.62B | $169M | PASS | inf | -0.5 | 70.5 | 40.7 | 2.57 | 12.64 | 12.5 | +8.3% | +2.6% | +11.0% | — |
+| **TTEK** | Tetra Tech | Industrials | 55.8 | 2026-05-31 | 1 (exit 2026-06-30) | -18.7% | $10.52B | $82M | PASS | inf | 1.1 | 24.8 | 24.0 | 2.10 | 2.41 | 2.2 | -2.3% | -24.4% | -4.5% | — |
+| **ATR** | AptarGroup | Materials | 51.7 | 2026-05-31 | 1 (exit 2026-06-30) | -18.2% | $9.14B | $60M | REVIEW | inf | 1.6 | 34.8 | 23.2 | 3.13 | 2.29 | 2.6 | -73.4% | +6.5% | +5.5% | — |
+| **AVY** | Avery Dennison | Materials | 51.7 | 2026-04-30 | 3 (exit 2026-07-31) | -18.1% | $14.20B | $149M | REVIEW | inf | 2.3 | 20.4 | 17.0 | 1.92 | 1.52 | 1.9 | +5.2% | +0.7% | +5.2% | — |
+| **HD** | Home Depot (The) | Consumer Discretionary | 46.8 | 2026-09-30 | 1 (exit 2026-10-31) | -18.1% | $352.60B | $1.48B | REVIEW | inf | 2.4 | 24.7 | 22.2 | 1.81 | 2.08 | 2.4 | +4.6% | -4.6% | +5.7% | — |
+| **AON** | Aon plc | Financials | 47.8 | 2026-09-30 | 1 (exit 2026-10-31) | -18.0% | $71.24B | $512M | PASS | inf | 2.0 | 18.4 | 16.6 | 2.75 | 4.03 | 4.8 | +5.7% | +36.3% | +2.6% | — |
+| **MCD** | McDonald's | Consumer Discretionary | 42.5 | 2026-08-31 | 2 (exit 2026-10-31) | -17.5% | $198.64B | $1.38B | PASS | inf | 3.5 | 22.3 | 20.6 | 2.94 | 7.15 | 9.1 | +10.4% | +4.9% | +1.1% | — |
+| **CHE** | Chemed Corp. | Health Care | 56.1 | 2025-06-30 | 12 (exit 2026-06-30) | -17.3% | $6.97B | $80M | PASS | inf | 0.8 | 25.8 | 19.3 | 1.93 | 2.62 | 2.8 | +22.2% | -7.8% | +11.7% | — |
+| **EXLS** | EXL Service | Industrials | 55.6 | 2026-02-28 | 5 (exit 2026-07-31) | -16.4% | $6.53B | $83M | PASS | inf | 0.6 | 25.9 | 16.3 | 1.00 | 2.79 | 2.9 | +25.0% | +27.3% | +19.7% | — |
+| **MRSH** | Marsh McLennan | Financials | 53.5 | 2026-03-31 | 4 (exit 2026-07-31) | -16.3% | $97.18B | $459M | REVIEW | inf | 2.8 | 24.4 | 17.8 | 1.79 | 3.41 | 4.1 | +11.9% | +3.1% | +8.1% | — |
+| **MDT** | Medtronic | Health Care | 55.0 | 2026-05-31 | 1 (exit 2026-06-30) | -16.0% | $131.48B | $1.53B | PASS | inf | 1.9 | 25.3 | 16.0 | 1.83 | 3.50 | 4.0 | +40.7% | +3.3% | +13.7% | — |
+| **FCN** | FTI Consulting | Industrials | 54.4 | 2026-08-31 | 2 (exit 2026-10-31) | -16.0% | $5.29B | $70M | PASS | inf | 2.4 | 24.2 | 17.4 | 0.96 | 1.33 | 1.6 | -9.6% | +5.5% | +5.9% | — |
+| **BYD** | Boyd Gaming | Consumer Discretionary | 47.0 | 2026-09-30 | 1 (exit 2026-10-31) | -14.7% | $5.50B | $77M | REVIEW | 35m | 2.7 | 11.4 | 10.2 | 3.03 | 1.35 | 2.1 | -90.4% | +264.5% | -1.4% | — |
+| **CXT** | Crane NXT | Information Technology | 55.3 | 2026-05-31 | 1 (exit 2026-06-30) | -13.4% | $3.43B | $31M | PASS | inf | 3.1 | 27.1 | 12.8 | n/a | 1.85 | 2.5 | -24.1% | -21.6% | +11.7% | — |
+| **OPCH** | Option Care Health | Health Care | 56.4 | 2026-09-30 | 1 (exit 2026-10-31) | -13.4% | $4.75B | $116M | PASS | inf | 2.3 | 23.0 | 15.2 | 1.49 | 0.83 | 1.0 | +18.8% | +3.3% | +4.1% | — |
+| **CMS** | CMS Energy | Utilities | 49.8 | 2026-09-30 | 1 (exit 2026-10-31) | -13.0% | $21.81B | $263M | FAIL | 3m | 6.9 | 24.8 | 16.8 | 2.49 | 2.43 | 4.6 | -57.3% | +4.2% | +8.0% | — |
+| **SPGI** | S&P Global | Financials | 54.3 | 2026-05-31 | 2 (exit 2026-07-31) | -11.7% | $136.57B | $802M | REVIEW | inf | 1.3 | 28.1 | 23.3 | 1.87 | 8.38 | 9.3 | +10.1% | +18.7% | +6.8% | — |
+| **PTC** | PTC Inc. | Information Technology | 58.6 | 2026-03-31 | 4 (exit 2026-07-31) | -9.5% | $21.28B | $435M | PASS | inf | 0.7 | 21.9 | 19.5 | 1.83 | 7.78 | 7.6 | -51.0% | +96.8% | -6.8% | — |
+| **ICE** | Intercontinental Exchange | Financials | 55.2 | 2026-06-30 | 1 (exit 2026-07-31) | -7.6% | $97.26B | $494M | PASS | inf | 2.7 | 23.7 | 19.5 | 1.93 | 8.91 | 8.4 | +17.6% | +20.7% | +20.7% | — |
+| **ADP** | Automatic Data Processing | Industrials | 57.8 | 2026-01-31 | 6 (exit 2026-07-31) | -7.6% | $119.24B | $615M | REVIEW | inf | 0.3 | 26.8 | 22.3 | 2.79 | 5.36 | 5.4 | +13.7% | +9.6% | +6.1% | — |
+| **WTW** | Willis Towers Watson | Financials | 54.9 | 2026-04-30 | 3 (exit 2026-07-31) | -6.8% | $30.16B | $173M | PASS | inf | 1.9 | 20.1 | 14.3 | 1.27 | 2.94 | 3.4 | +4.2% | n/a | +7.5% | — |
+| **CME** | CME Group | Financials | 58.0 | 2026-06-30 | 1 (exit 2026-07-31) | -6.7% | $109.00B | $546M | PASS | inf | 0.2 | 25.0 | 23.0 | 4.22 | 15.67 | 15.8 | +16.1% | +15.4% | +13.0% | — |
+| **VEEV** | Veeva Systems | Health Care | 65.3 | 2026-02-28 | 5 (exit 2026-07-31) | -5.1% | $49.61B | $465M | PASS | inf | -6.6 | 50.2 | 29.9 | 1.17 | 14.35 | 12.3 | +39.5% | +25.9% | +17.6% | — |
+| **VNT** | Vontier | Information Technology | 51.2 | 2026-05-31 | 2 (exit 2026-07-31) | -3.3% | $5.83B | $47M | REVIEW | inf | 2.7 | 18.0 | 11.3 | 1.08 | 1.91 | 2.5 | +4.3% | +0.4% | -2.1% | — |
 
 ★ = drawdown beyond the priority threshold. Runway = cash ÷ monthly FCF burn (inf when FCF is positive).
 

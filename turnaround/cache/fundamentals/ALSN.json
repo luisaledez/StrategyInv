@@ -1,40 +1,44 @@
 {
  "ticker": "ALSN",
- "fetched": "2026-10-24",
- "market_cap": 8779696974.959183,
- "shares_out": 82578038.0,
- "price": 106.31999969482422,
+ "fetched": "2026-11-10",
+ "market_cap": 10135738765.438843,
+ "shares_out": 82133940.0,
+ "price": 123.40499877929688,
  "long_name": "Allison Transmission Holdings, Inc.",
  "sector_y": "Consumer Cyclical",
  "industry_y": "Auto Parts",
- "pe_trailing_y": 16.90302,
- "pe_forward": 9.44105,
- "peg": 0.49,
- "p_sales_y": 1.9944792,
- "eps_trailing_y": 6.29,
- "eps_forward": 11.26146,
- "earnings_growth_y": -0.061,
- "earnings_growth_q_y": -0.072,
- "bs_date": "2026-06-30",
- "cash": 399000000.0,
- "total_debt": 4114000000.0,
+ "pe_trailing_y": 17.80736,
+ "pe_forward": 10.74264,
+ "peg": 0.53,
+ "p_sales_y": 1.9331945,
+ "eps_trailing_y": 6.93,
+ "eps_forward": 11.4874,
+ "earnings_growth_y": 0.411,
+ "earnings_growth_q_y": 0.394,
+ "bs_date": "2026-09-30",
+ "cash": 497000000.0,
+ "total_debt": 4012000000.0,
  "current_debt": 20000000.0,
  "lease_obligations": null,
- "equity": 1979000000.0,
- "net_debt": 3715000000.0,
- "ocf_ttm": 939000000.0,
- "capex_ttm": -202000000.0,
- "fcf_ttm": 737000000.0,
+ "equity": 2079000000.0,
+ "net_debt": 3515000000.0,
+ "ocf_ttm": 1054000000.0,
+ "capex_ttm": -223000000.0,
+ "fcf_ttm": 831000000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -139000000.0,
- "stock_issuance_ttm": -139000000.0,
- "revenue_ttm": 4402000000.0,
- "net_income_ttm": 529000000.0,
- "ebitda_ttm": 1082000000.0,
- "ebit_ttm": 853000000.0,
- "interest_ttm": 164000000.0,
- "revenue_yoy_last_q": 0.9238329238329239,
+ "buybacks_ttm": -169000000.0,
+ "stock_issuance_ttm": -169000000.0,
+ "revenue_ttm": 5243000000.0,
+ "net_income_ttm": 583000000.0,
+ "ebitda_ttm": 1211000000.0,
+ "ebit_ttm": 936000000.0,
+ "interest_ttm": 191000000.0,
+ "revenue_yoy_last_q": 1.2135642135642137,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1534000000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1566000000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 693000000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 814000000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 2.3
+  },
   {
    "period": "2026-06-30",
    "value": 2.15
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 1.63
-  },
-  {
-   "period": "2025-06-30",
-   "value": 2.29
   }
  ],
- "eps_ttm": 6.29,
+ "eps_ttm": 6.959999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": -0.1179302045728039,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": -0.06113537117903933,
- "eps_forward_growth": 0.7903751987281398,
+ "eps_growth_last_q": 0.41104294478527614,
+ "eps_forward_growth": 0.6504885057471266,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.32920469361147325
+  },
   {
    "period": "2026-06-30",
    "value": 0.3288633461047254
@@ -99,11 +103,7 @@
   },
   {
    "period": "2025-09-30",
-   "value": 0.47474747474747475
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.4950859950859951
+   "value": 0.47619047619047616
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 4,
- "dilution_1y": -0.02323430661404502,
+ "dilution_1y": -0.012642025859676553,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
  "need_24m": 20000000.0,
- "gap_24m": -379000000.0,
+ "gap_24m": -477000000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 3.433456561922366,
- "interest_coverage": 5.201219512195122,
- "cash_to_debt": 0.09698590179873602,
- "ev": 12494696974.959183,
- "ev_to_sales": 2.83841366991349,
- "ev_to_ebitda": 11.547779089611074,
- "pe_ttm": 16.596780671000346,
- "pe_trailing": 16.90302,
- "p_sales": 1.9944792,
- "p_fcf": 11.91275030523634,
- "p_book": 4.436431013117323
+ "net_debt_to_ebitda": 2.902559867877787,
+ "interest_coverage": 4.900523560209424,
+ "cash_to_debt": 0.12387836490528414,
+ "ev": 13650738765.438843,
+ "ev_to_sales": 2.603612200159993,
+ "ev_to_ebitda": 11.272286346357426,
+ "pe_ttm": 17.385486733171255,
+ "pe_trailing": 17.80736,
+ "p_sales": 1.9331945,
+ "p_fcf": 12.197038225558174,
+ "p_book": 4.875295221471305
 }

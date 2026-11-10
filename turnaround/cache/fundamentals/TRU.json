@@ -1,40 +1,44 @@
 {
  "ticker": "TRU",
- "fetched": "2026-10-24",
- "market_cap": 15611568643.188477,
- "shares_out": 191600000.0,
- "price": 81.4800033569336,
+ "fetched": "2026-11-10",
+ "market_cap": 15849077116.394043,
+ "shares_out": 190700000.0,
+ "price": 83.11000061035156,
  "long_name": "TransUnion",
  "sector_y": "Financial Services",
  "industry_y": "Financial Data & Stock Exchanges",
- "pe_trailing_y": 21.498682,
- "pe_forward": 14.994287,
- "peg": 1.15,
- "p_sales_y": 3.1885724,
- "eps_trailing_y": 3.79,
- "eps_forward": 5.43407,
- "earnings_growth_y": 0.321,
- "earnings_growth_q_y": 0.308,
- "bs_date": "2026-06-30",
- "cash": 839500000.0,
- "total_debt": 5659000000.0,
- "current_debt": 233300000.0,
- "lease_obligations": 73700000.0,
- "equity": 4842900000.0,
- "net_debt": 4819500000.0,
- "ocf_ttm": 1102900000.0,
- "capex_ttm": -315000000.0,
- "fcf_ttm": 787900000.0,
+ "pe_trailing_y": 20.22141,
+ "pe_forward": 15.565857,
+ "peg": 1.16,
+ "p_sales_y": 3.1452198,
+ "eps_trailing_y": 4.11,
+ "eps_forward": 5.33925,
+ "earnings_growth_y": 0.653,
+ "earnings_growth_q_y": 0.617,
+ "bs_date": "2026-09-30",
+ "cash": 883500000.0,
+ "total_debt": 5525500000.0,
+ "current_debt": 127700000.0,
+ "lease_obligations": 69000000.0,
+ "equity": 4849700000.0,
+ "net_debt": 4642000000.0,
+ "ocf_ttm": 1208100000.0,
+ "capex_ttm": -298000000.0,
+ "fcf_ttm": 910100000.0,
  "ttm_quarters": 4,
- "buybacks_ttm": -379000000.0,
- "stock_issuance_ttm": -357200000.0,
- "revenue_ttm": 4896100000.0,
- "net_income_ttm": 738300000.0,
- "ebitda_ttm": 1780000000.0,
- "ebit_ttm": 1173900000.0,
- "interest_ttm": 251900000.0,
- "revenue_yoy_last_q": 0.14907431780293057,
+ "buybacks_ttm": -394000000.0,
+ "stock_issuance_ttm": -372500000.0,
+ "revenue_ttm": 5039100000.0,
+ "net_income_ttm": 797900000.0,
+ "ebitda_ttm": 1861300000.0,
+ "ebit_ttm": 1236800000.0,
+ "interest_ttm": 255900000.0,
+ "revenue_yoy_last_q": 0.12227447627191101,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 1312500000.0
+  },
   {
    "period": "2026-06-30",
    "value": 1309600000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 1169500000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 1139700000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.81
+  },
   {
    "period": "2026-06-30",
    "value": 0.74
@@ -72,19 +76,19 @@
   {
    "period": "2025-09-30",
    "value": 0.49
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.56
   }
  ],
- "eps_ttm": 3.79,
+ "eps_ttm": 4.109999999999999,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.5999999999999999,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 0.3214285714285714,
- "eps_forward_growth": 0.4337915567282322,
+ "eps_growth_last_q": 0.653061224489796,
+ "eps_forward_growth": 0.29908759124087614,
  "gross_margin_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": 0.5926095238095238
+  },
   {
    "period": "2026-06-30",
    "value": 0.5841478313989005
@@ -100,10 +104,6 @@
   {
    "period": "2025-09-30",
    "value": 0.5893116716545532
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.587698517153637
   }
  ],
  "annual": [
@@ -134,21 +134,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": -0.01642710472279263,
+ "dilution_1y": -0.018022657054582947,
  "fcf_burn_annual": 0.0,
  "runway_months": Infinity,
- "need_24m": 233300000.0,
- "gap_24m": -606200000.0,
+ "need_24m": 127700000.0,
+ "gap_24m": -755800000.0,
  "survival_gate": "PASS",
- "net_debt_to_ebitda": 2.7075842696629215,
- "interest_coverage": 4.660182612147677,
- "cash_to_debt": 0.14834776462272486,
- "ev": 20431068643.188477,
- "ev_to_sales": 4.172927154916867,
- "ev_to_ebitda": 11.47812845122948,
- "pe_ttm": 21.145291403478907,
- "pe_trailing": 21.498682,
- "p_sales": 3.1885724,
- "p_fcf": 19.814149820013295,
- "p_book": 3.2235992160045583
+ "net_debt_to_ebitda": 2.4939558373180035,
+ "interest_coverage": 4.833137944509574,
+ "cash_to_debt": 0.1598950321237897,
+ "ev": 20491077116.394043,
+ "ev_to_sales": 4.06641604976961,
+ "ev_to_ebitda": 11.009013655184035,
+ "pe_ttm": 19.863488051628078,
+ "pe_trailing": 20.22141,
+ "p_sales": 3.1452198,
+ "p_fcf": 17.414654561470215,
+ "p_book": 3.268053099448222
 }

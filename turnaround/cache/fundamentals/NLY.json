@@ -1,40 +1,44 @@
 {
  "ticker": "NLY",
- "fetched": "2026-10-24",
- "market_cap": 13830660298.219242,
- "shares_out": 753714442.0,
- "price": 18.350000381469727,
+ "fetched": "2026-11-10",
+ "market_cap": 14930003920.491745,
+ "shares_out": 787862972.0,
+ "price": 18.950000762939453,
  "long_name": "Annaly Capital Management, Inc.",
  "sector_y": "Real Estate",
  "industry_y": "REIT - Mortgage",
- "pe_trailing_y": 12.743055,
- "pe_forward": 5.8595686,
+ "pe_trailing_y": 13.159722,
+ "pe_forward": 6.0865154,
  "peg": 32.03,
- "p_sales_y": 9.938511,
+ "p_sales_y": 10.728483,
  "eps_trailing_y": 1.44,
- "eps_forward": 3.13163,
+ "eps_forward": 3.11344,
  "earnings_growth_y": null,
  "earnings_growth_q_y": null,
- "bs_date": "2026-06-30",
- "cash": 8843529000.0,
- "total_debt": 38044807000.0,
+ "bs_date": "2026-09-30",
+ "cash": 8888547000.0,
+ "total_debt": 41705831000.0,
  "current_debt": 1125000000.0,
  "lease_obligations": null,
- "equity": 16925376000.0,
- "net_debt": 29201278000.0,
- "ocf_ttm": 886447000.0,
- "capex_ttm": -1200885000.0,
- "fcf_ttm": -314438000.0,
+ "equity": 15819923000.0,
+ "net_debt": 32817284000.0,
+ "ocf_ttm": 3717868000.0,
+ "capex_ttm": -1059066000.0,
+ "fcf_ttm": 2658802000.0,
  "ttm_quarters": 4,
  "buybacks_ttm": null,
- "stock_issuance_ttm": 2609634000.0,
- "revenue_ttm": 3172082000.0,
- "net_income_ttm": 2951264000.0,
+ "stock_issuance_ttm": 2278026000.0,
+ "revenue_ttm": 1355345000.0,
+ "net_income_ttm": 1117060000.0,
  "ebitda_ttm": null,
  "ebit_ttm": null,
- "interest_ttm": 5177119000.0,
- "revenue_yoy_last_q": 7.05620370119734,
+ "interest_ttm": 5347185000.0,
+ "revenue_yoy_last_q": -2.0514657060909234,
  "revenue_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -931157000.0
+  },
   {
    "period": "2026-06-30",
    "value": 892861000.0
@@ -50,13 +54,13 @@
   {
    "period": "2025-09-30",
    "value": 885580000.0
-  },
-  {
-   "period": "2025-06-30",
-   "value": 110829000.0
   }
  ],
  "eps_quarters": [
+  {
+   "period": "2026-09-30",
+   "value": -1.36
+  },
   {
    "period": "2026-06-30",
    "value": 1.06
@@ -72,18 +76,14 @@
   {
    "period": "2025-09-30",
    "value": 1.2
-  },
-  {
-   "period": "2025-06-30",
-   "value": 0.03
   }
  ],
- "eps_ttm": 3.99,
+ "eps_ttm": 1.43,
  "eps_ttm_prior": null,
  "eps_growth_yoy": 0.8024691358024689,
  "eps_growth_basis": "fiscal year",
- "eps_growth_last_q": 34.333333333333336,
- "eps_forward_growth": -0.2151303258145364,
+ "eps_growth_last_q": -2.1333333333333337,
+ "eps_forward_growth": 1.1772307692307695,
  "gross_margin_quarters": [],
  "annual": [
   {
@@ -113,21 +113,21 @@
  ],
  "years_reported": 4,
  "profitable_years": 3,
- "dilution_1y": 0.16898024461202255,
- "fcf_burn_annual": 314438000.0,
- "runway_months": 337.49848300777893,
- "need_24m": 1753876000.0,
- "gap_24m": -7089653000.0,
+ "dilution_1y": 0.15214841710904858,
+ "fcf_burn_annual": 0.0,
+ "runway_months": Infinity,
+ "need_24m": 1125000000.0,
+ "gap_24m": -7763547000.0,
  "survival_gate": "PASS",
  "net_debt_to_ebitda": null,
  "interest_coverage": null,
- "cash_to_debt": 0.2324503578109885,
- "ev": 43031938298.21924,
- "ev_to_sales": 13.56583414243996,
+ "cash_to_debt": 0.21312480262052566,
+ "ev": 47747287920.491745,
+ "ev_to_sales": 35.22888114870512,
  "ev_to_ebitda": null,
- "pe_ttm": 4.686351440677365,
- "pe_trailing": 12.743055,
- "p_sales": 9.938511,
- "p_fcf": null,
- "p_book": 0.8171552760907198
+ "pe_ttm": 13.365444936253867,
+ "pe_trailing": 13.159722,
+ "p_sales": 10.728483,
+ "p_fcf": 5.615312430369672,
+ "p_book": 0.9437469398866066
 }
